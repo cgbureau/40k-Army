@@ -1,0 +1,4274 @@
+{
+  "units": [
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "skitarii_rangers",
+      "name": "Skitarii Rangers",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "skitarii_vanguard",
+      "name": "Skitarii Vanguard",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "sicarian_ruststalkers",
+      "name": "Sicarian Ruststalkers",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "sicarian_infiltrators",
+      "name": "Sicarian Infiltrators",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "onager_dunecrawler",
+      "name": "Onager Dunecrawler",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "tech_priest_enginseer",
+      "name": "Tech-Priest Enginseer",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "kataphron_destroyers",
+      "name": "Kataphron Destroyers",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "tech_priest_dominus",
+      "name": "Tech-Priest Dominus",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "sydonian_dragoon",
+      "name": "Sydonian Dragoon",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "skorpius_dunerider",
+      "name": "Skorpius Dunerider",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "corpuscarii_electro_priests",
+      "name": "Corpuscarii Electro-Priests",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "fulgurite_electro_priests",
+      "name": "Fulgurite Electro-Priests",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "ironstrider_ballistarii",
+      "name": "Ironstrider Ballistarii",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "kataphron_breachers",
+      "name": "Kataphron Breachers",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "tech_priest_manipulus",
+      "name": "Tech-Priest Manipulus",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "pteraxii_skystalkers",
+      "name": "Pteraxii Skystalkers",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "serberys_raiders",
+      "name": "Serberys Raiders",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "skorpius_disintegrator",
+      "name": "Skorpius Disintegrator",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "pteraxii_sterylizors",
+      "name": "Pteraxii Sterylizors",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "adeptus_mechanicus",
+      "factionName": "Adeptus Mechanicus",
+      "id": "serberys_sulphurhounds",
+      "name": "Serberys Sulphurhounds",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "autarch",
+      "name": "Autarch",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "autarch_wayleaper",
+      "name": "Autarch Wayleaper",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "avatar_of_khaine",
+      "name": "Avatar of Khaine",
+      "points": 270,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "crimson_hunter",
+      "name": "Crimson Hunter",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "dark_reapers",
+      "name": "Dark Reapers",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "dire_avengers",
+      "name": "Dire Avengers",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "fire_prism",
+      "name": "Fire Prism",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "farseer",
+      "name": "Farseer",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "farseer_skyrunner",
+      "name": "Farseer Skyrunner",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "fire_dragon",
+      "name": "Fire Dragons",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "guardian_defenders",
+      "name": "Guardian Defenders",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "hemlock_wraithfighter",
+      "name": "Hemlock Wraithfighter",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "howling_banshees",
+      "name": "Howling Banshees",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "jain_zar",
+      "name": "Jain Zar",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "night_spinner",
+      "name": "Night Spinner",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "rangers",
+      "name": "Rangers",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "shining_spears",
+      "name": "Shining Spears",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "swooping_hawks",
+      "name": "Swooping Hawks",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "warlock",
+      "name": "Warlock",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "warlock_skyrunner",
+      "name": "Warlock Skyrunner",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "war_walker",
+      "name": "War Walker",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "wraithguard",
+      "name": "Wraithguard",
+      "points": 170,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "wraithknight",
+      "name": "Wraithknight",
+      "points": 475,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "wraithlord",
+      "name": "Wraithlord",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "warp_spider",
+      "name": "Warp Spiders",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "aeldari",
+      "factionName": "Aeldari",
+      "id": "windrider",
+      "name": "Windriders",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "armoured_sentinel",
+      "name": "Armoured Sentinel",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "basilisk",
+      "name": "Basilisk",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "baneblade",
+      "name": "Baneblade",
+      "points": 480,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "battle_tank",
+      "name": "Leman Russ Battle Tank",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "cadian_shock_troops",
+      "name": "Cadian Shock Troops",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "castellan",
+      "name": "Castellan",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "catachan_jungle_fighters",
+      "name": "Catachan Jungle Fighters",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "commissar",
+      "name": "Commissar",
+      "points": 30,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "death_korps_of_krieg",
+      "name": "Death Korps of Krieg",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "demolisher",
+      "name": "Leman Russ Demolisher",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "field_ordnance_battery",
+      "name": "Field Ordnance Battery",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "hellhound",
+      "name": "Hellhound",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "hydra",
+      "name": "Hydra",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "infantry_squad",
+      "name": "Infantry Squad",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "lord_solar_leontus",
+      "name": "Lord Solar Leontus",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "manticore",
+      "name": "Manticore",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "medusa",
+      "name": "Medusa",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "mortar_team",
+      "name": "Heavy Weapons Squad",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "ogryn",
+      "name": "Ogryn Squad",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "ratling",
+      "name": "Ratlings",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "rogue_trader",
+      "name": "Rogue Trader",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "rough_riders",
+      "name": "Rough Riders",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "scout_sentinel",
+      "name": "Scout Sentinel",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "sergeant_hatt",
+      "name": "Sergeant Harker",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "tank_commander",
+      "name": "Tank Commander",
+      "points": 205,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "tempestus_scions",
+      "name": "Tempestus Scions",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "points": 170,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "astra_militarum",
+      "factionName": "Astra Militarum",
+      "id": "wyvern",
+      "name": "Wyvern",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "bloodcrushers",
+      "name": "Bloodcrushers",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "bloodletters",
+      "name": "Bloodletters",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "bloodthirster",
+      "name": "Bloodthirster",
+      "points": 320,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "daemon_prince",
+      "name": "Daemon Prince",
+      "points": 215,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "daemonettes",
+      "name": "Daemonettes",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "exalted_flamer",
+      "name": "Exalted Flamer",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "flamers",
+      "name": "Flamers",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "flesh_hounds",
+      "name": "Flesh Hounds",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "great_unclean_one",
+      "name": "Great Unclean One",
+      "points": 260,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "keeper_of_secrets",
+      "name": "Keeper of Secrets",
+      "points": 260,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "lord_of_change",
+      "name": "Lord of Change",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "nurglings",
+      "name": "Nurglings",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "plaguebearers",
+      "name": "Plaguebearers",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "pink_horrors",
+      "name": "Pink Horrors",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "screamers",
+      "name": "Screamers",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "seekers",
+      "name": "Seekers",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_daemons",
+      "factionName": "Chaos Daemons",
+      "id": "soul_grinder",
+      "name": "Soul Grinder",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "abbadon",
+      "name": "Abaddon the Despoiler",
+      "points": 310,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "accursed_cultists",
+      "name": "Accursed Cultists",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "chaos_bikers",
+      "name": "Chaos Bikers",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "chaos_land_raider",
+      "name": "Chaos Land Raider",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "chaos_predator",
+      "name": "Chaos Predator",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "chaos_terminators",
+      "name": "Chaos Terminator Squad",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "chosen",
+      "name": "Chosen",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "cultist_mob",
+      "name": "Cultist Mob",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "dark_apostle",
+      "name": "Dark Apostle",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "defiler",
+      "name": "Defiler",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "forgefiend",
+      "name": "Forgefiend",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "havocs",
+      "name": "Havocs",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "helbrute",
+      "name": "Helbrute",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "lord",
+      "name": "Chaos Lord",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "lord_on_chaos_steed",
+      "name": "Chaos Lord on Chaos Steed",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "maulerfiend",
+      "name": "Maulerfiend",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "master_of_executions",
+      "name": "Master of Executions",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "noise_marines",
+      "name": "Noise Marines",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "obliterators",
+      "name": "Obliterators",
+      "points": 260,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "possessed",
+      "name": "Possessed",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "raptors",
+      "name": "Raptors",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "sorcerer_in_terminator_armour",
+      "name": "Sorcerer in Terminator Armour",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "talons",
+      "name": "Warp Talons",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "venomcrawler",
+      "name": "Venomcrawler",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "vindicator",
+      "name": "Chaos Vindicator",
+      "points": 190,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "chaos_space_marines",
+      "factionName": "Chaos Space Marines",
+      "id": "warpsmith",
+      "name": "Warpsmith",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "allarus_custodians",
+      "name": "Allarus Custodians",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "blade_champion",
+      "name": "Blade Champion",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "contemptor_galatus",
+      "name": "Contemptor-Galatus Dreadnought",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "contemptor_achillus",
+      "name": "Contemptor-Achillus Dreadnought",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "custodian_guard",
+      "name": "Custodian Guard",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "custodian_wardens",
+      "name": "Custodian Wardens",
+      "points": 175,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "knight_centura",
+      "name": "Knight Centura",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "sagittarum_custodians",
+      "name": "Sagittarum Custodians",
+      "points": 175,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "shield_captain",
+      "name": "Shield Captain",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "shield_captain_in_allarus",
+      "name": "Shield-Captain in Allarus Terminator Armour",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "trajann_valoris",
+      "name": "Trajann Valoris",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "venatari",
+      "name": "Venatari Custodians",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "vertus_praetors",
+      "name": "Vertus Praetors",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "custodes",
+      "factionName": "Adeptus Custodes",
+      "id": "vexilus_praetor",
+      "name": "Vexilus Praetor",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "blightlord_terminators",
+      "name": "Blightlord Terminators",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "bloat_drone",
+      "name": "Bloat-drone",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "death_guard_cultists",
+      "name": "Cultist Mob",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "death_shroud",
+      "name": "Death Shroud Terminators",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "foetid_bloat_drone",
+      "name": "Foetid Bloat-drone",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "lord_of_contagion",
+      "name": "Lord of Contagion",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "lord_of_virulence",
+      "name": "Lord of Virulence",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "malignant_plaguecaster",
+      "name": "Malignant Plaguecaster",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "mortarion",
+      "name": "Mortarion",
+      "points": 325,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "myphitic_blight_haulers",
+      "name": "Myphitic Blight-haulers",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "plague_marines",
+      "name": "Plague Marines",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "plagueburst_crawler",
+      "name": "Plagueburst Crawler",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "poxwalkers",
+      "name": "Poxwalkers",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "death_guard",
+      "factionName": "Death Guard",
+      "id": "typhus",
+      "name": "Typhus",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "archon",
+      "name": "Archon",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "beastmaster",
+      "name": "Beastmaster",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "cronos",
+      "name": "Cronos",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "grotesques",
+      "name": "Grotesques",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "hellions",
+      "name": "Hellions",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "incubi",
+      "name": "Incubi",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "kabalite_warriors",
+      "name": "Kabalite Warriors",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "mandrakes",
+      "name": "Mandrakes",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "raider",
+      "name": "Raider",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "ravager",
+      "name": "Ravager",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "reavers",
+      "name": "Reavers",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "scourges",
+      "name": "Scourges",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "succubus",
+      "name": "Succubus",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "talos",
+      "name": "Talos",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "venom",
+      "name": "Venom",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "wracks",
+      "name": "Wracks",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "drukhari",
+      "factionName": "Drukhari",
+      "id": "wyches",
+      "name": "Wyches",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "aberrants",
+      "name": "Aberrants",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "acolyte_hybrids",
+      "name": "Acolyte Hybrids",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "atalan_jackals",
+      "name": "Atalan Jackals",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "biophagus",
+      "name": "Biophagus",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "goliath_rockgrinder",
+      "name": "Goliath Rockgrinder",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "goliath_truck",
+      "name": "Goliath Truck",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "hybrid_metamorphs",
+      "name": "Hybrid Metamorphs",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "kelermorph",
+      "name": "Kelermorph",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "nexos",
+      "name": "Nexos",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "neophyte_hybrids",
+      "name": "Neophyte Hybrids",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "patriarch",
+      "name": "Patriarch",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "primus",
+      "name": "Primus",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "purestrain_genestealers",
+      "name": "Purestrain Genestealers",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "reductor",
+      "name": "Reductus Saboteur",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "ridgerunner",
+      "name": "Ridgerunner",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "sanctus",
+      "name": "Sanctus",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "genestealer_cults",
+      "factionName": "Genestealer Cults",
+      "id": "magus",
+      "name": "Magus",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "brotherhood_terminator_squad",
+      "name": "Brotherhood Terminator Squad",
+      "points": 225,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "castellan_crowe",
+      "name": "Castellan Crowe",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "grand_master_in_nemesis_dreadknight",
+      "name": "Grand Master in Nemesis Dreadknight",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "grey_knights_strike_squad",
+      "name": "Grey Knights Strike Squad",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "interceptor_squad",
+      "name": "Interceptor Squad",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "kaldor_draigo",
+      "name": "Kaldor Draigo",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "nemesis_dreadknight",
+      "name": "Nemesis Dreadknight",
+      "points": 215,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "paladin_squad",
+      "name": "Paladin Squad",
+      "points": 255,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "purifier_squad",
+      "name": "Purifier Squad",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "brotherhood_librarian",
+      "name": "Brotherhood Librarian",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "grey_knights",
+      "factionName": "Grey Knights",
+      "id": "brother_captain",
+      "name": "Brother-Captain",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "brôkhyr_thunderkyn",
+      "name": "Brôkhyr Thunderkyn",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "cthonian_beserks",
+      "name": "Cthonian Beserks",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "einhyr_champion",
+      "name": "Einhyr Champion",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "grimnyr",
+      "name": "Grimnyr",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "hearthkyn_warriors",
+      "name": "Hearthkyn Warriors",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "hernkyn_pioneers",
+      "name": "Hernkyn Pioneers",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "kâhl",
+      "name": "Kâhl",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "land_fortress",
+      "name": "Hekaton Land Fortress",
+      "points": 225,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "leagues_of_votann",
+      "factionName": "Leagues of Votann",
+      "id": "sagitaur",
+      "name": "Sagitaur",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "annihilation_barge",
+      "name": "Annihilation Barge",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "canoptek_doomstalker",
+      "name": "Canoptek Doomstalker",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "canoptek_reanimator",
+      "name": "Canoptek Reanimator",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "canoptek_spyder",
+      "name": "Canoptek Spyder",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "catacomb_command_barge",
+      "name": "Catacomb Command Barge",
+      "points": 185,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "chronomancer",
+      "name": "Chronomancer",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "cryptothralls",
+      "name": "Cryptothralls",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "c'tan_shard_of_the_nightbringer",
+      "name": "C'tan Shard of the Nightbringer",
+      "points": 255,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "c'tan_shard_of_the_void_dragon",
+      "name": "C'tan Shard of the Void Dragon",
+      "points": 270,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "deathmarks",
+      "name": "Deathmarks",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "doomsday_ark",
+      "name": "Doomsday Ark",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "doom_scythe",
+      "name": "Doom Scythe",
+      "points": 225,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "flayed_ones",
+      "name": "Flayed Ones",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "hexmark_destroyer",
+      "name": "Hexmark Destroyer",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "immortals",
+      "name": "Immortals",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "lichguard",
+      "name": "Lychguard",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "lokhust_destroyers",
+      "name": "Lokhust Destroyers",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "lokhust_heavy_destroyers",
+      "name": "Lokhust Heavy Destroyers",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "lord",
+      "name": "Lord",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "lord_overlord",
+      "name": "Lord Overlord",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "lychguard",
+      "name": "Lychguard",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "monolith",
+      "name": "Monolith",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "necron_warriors",
+      "name": "Necron Warriors",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "night_scythe",
+      "name": "Night Scythe",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "obelisk",
+      "name": "Obelisk",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "ophydian_destroyers",
+      "name": "Ophydian Destroyers",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "overlord",
+      "name": "Overlord",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "plasmancer",
+      "name": "Plasmancer",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "psychomancer",
+      "name": "Psychomancer",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "royal_warden",
+      "name": "Royal Warden",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "scarab_swarms",
+      "name": "Scarab Swarms",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "skorpekh_destroyers",
+      "name": "Skorpekh Destroyers",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "technomancer",
+      "name": "Technomancer",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "tomb_blades",
+      "name": "Tomb Blades",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "transcendent_c'tan",
+      "name": "Transcendent C'tan",
+      "points": 290,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "triarch_praetorians",
+      "name": "Triarch Praetorians",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "triarch_stalker",
+      "name": "Triarch Stalker",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "necrons",
+      "factionName": "Necrons",
+      "id": "vault",
+      "name": "Tesseract Vault",
+      "points": 400,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "battlewagon",
+      "name": "Battlewagon",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "beastboss",
+      "name": "Beastboss",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "big_mek_in_meka_armour",
+      "name": "Big Mek in Meka Armour",
+      "points": 85,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "big_mek_with_shokk_attack_gun",
+      "name": "Big Mek with Shokk Attack Gun",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "boyz",
+      "name": "Boyz",
+      "points": 85,
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "burna_boyz",
+      "name": "Burna Boyz",
+      "points": 65,
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "deff_dread",
+      "name": "Deff Dread",
+      "points": 130,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "deffkoptas",
+      "name": "Deffkoptas",
+      "points": 115,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "flash_gitz",
+      "name": "Flash Gitz",
+      "points": 95,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "gretchin",
+      "name": "Gretchin",
+      "points": 45,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "hunta_rig",
+      "name": "Hunta Rig",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "kill_rig",
+      "name": "Kill Rig",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "killa_kans",
+      "name": "Killa Kans",
+      "points": 140,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "kommandos",
+      "name": "Kommandos",
+      "points": 135,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "lootas",
+      "name": "Lootas",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "mek",
+      "name": "Mek",
+      "points": 45,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "meganobz",
+      "name": "Meganobz",
+      "points": 125,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "nobz",
+      "name": "Nobz",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "painboy",
+      "name": "Painboy",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "rukkatrukk_squigbuggy",
+      "name": "Rukkatrukk Squigbuggy",
+      "points": 115,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "shokkjump_dragsta",
+      "name": "Shokkjump Dragsta",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "snagga_boyz",
+      "name": "Snagga Boyz",
+      "points": 105,
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "squighog_boyz",
+      "name": "Squighog Boyz",
+      "points": 125,
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "stormboyz",
+      "name": "Stormboyz",
+      "points": 65,
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "tankbustas",
+      "name": "Tankbustas",
+      "points": 120,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "trukk",
+      "name": "Trukk",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "warboss",
+      "name": "Warboss",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "warboss_in_mega_armour",
+      "name": "Warboss in Mega Armour",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "weirdboy",
+      "name": "Weirdboy",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "orks",
+      "factionName": "Orks",
+      "id": "zodgrod_wortsnagga",
+      "name": "Zodgrod Wortsnagga",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "aggressor_squad",
+      "name": "Aggressor Squad",
+      "points": 95,
+      "models_per_box": 3,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "ancient",
+      "name": "Ancient",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "ancient_in_terminator_armor",
+      "name": "Ancient in Terminator Armor",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 29,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "apothecary",
+      "name": "Apothecary",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "apothecary_biologis",
+      "name": "Apothecary Biologis",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "assault_intercessor_squad",
+      "name": "Assault Intercessor Squad",
+      "points": 75,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "assault_intercessors_with_jump_packs",
+      "name": "Assault Intercessors with Jump Packs",
+      "points": 90,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "astraeus",
+      "name": "Astraeus",
+      "points": 525,
+      "models_per_box": 1,
+      "box_price": 286,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "ballistus_dreadnought",
+      "name": "Ballistus Dreadnought",
+      "points": 150,
+      "models_per_box": 1,
+      "box_price": 44.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "bladeguard_ancient",
+      "name": "Bladeguard Ancient",
+      "points": 45,
+      "models_per_box": 1,
+      "box_price": 105,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "bladeguard_veteran_squad",
+      "name": "Bladeguard Veteran Squad",
+      "points": 80,
+      "models_per_box": 3,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "brutalis_dreadnought",
+      "name": "Brutalis Dreadnought",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "captain",
+      "name": "Captain",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "captain_in_gravis_armour",
+      "name": "Captain in Gravis Armour",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "captain_in_phobos_armour",
+      "name": "Captain in Phobos Armour",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "captain_in_terminator_armour",
+      "name": "Captain in Terminator Armour",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 29,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "captain_with_jump_pack",
+      "name": "Captain with Jump Pack",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "centurion_assault_squad",
+      "name": "Centurion Assault Squad",
+      "points": 150,
+      "models_per_box": 3,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "centurion_devastator_squad",
+      "name": "Centurion Devastator Squad",
+      "points": 175,
+      "models_per_box": 3,
+      "box_price": 50,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "chaplain",
+      "name": "Chaplain",
+      "points": 60,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "chaplain_in_terminator_armour",
+      "name": "Chaplain in Terminator Armour",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 29,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "chaplain_on_bike",
+      "name": "Chaplain on Bike",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 35.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "chaplain_with_jump_pack",
+      "name": "Chaplain with Jump Pack",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "company_heroes",
+      "name": "Company Heroes",
+      "points": 105,
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "desolation_squad",
+      "name": "Desolation Squad",
+      "points": 200,
+      "models_per_box": 3,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "devastator_squad",
+      "name": "Devastator Squad",
+      "points": 120,
+      "models_per_box": 6,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "dreadnought",
+      "name": "Dreadnought",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "drop_pod",
+      "name": "Drop Pod",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "eliminator_squad",
+      "name": "Eliminator Squad",
+      "points": 85,
+      "models_per_box": 3,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "eradicator_squad",
+      "name": "Eradicator Squad",
+      "points": 90,
+      "models_per_box": 3,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "gladiator_lancer",
+      "name": "Gladiator Lancer",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "gladiator_reaper",
+      "name": "Gladiator Reaper",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "gladiator_valiant",
+      "name": "Gladiator Valiant",
+      "points": 150,
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "hammerfall_bunker",
+      "name": "Hammerfall Bunker",
+      "points": 175,
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "heavy_intercessor_squad",
+      "name": "Heavy Intercessor Squad",
+      "points": 100,
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "hellblaster_squad",
+      "name": "Hellblaster Squad",
+      "points": 110,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "impulsor",
+      "name": "Impulsor",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 55,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "inceptor_squad",
+      "name": "Inceptor Squad",
+      "points": 120,
+      "models_per_box": 3,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "incursor_squad",
+      "name": "Incursor Squad",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "infernus_squad",
+      "name": "Infernus Squad",
+      "points": 90,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "infiltrator_squad",
+      "name": "Infiltrator Squad",
+      "points": 100,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "intercessor_squad",
+      "name": "Intercessor Squad",
+      "points": 80,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "invader_atv",
+      "name": "Invader ATV",
+      "points": 60,
+      "models_per_box": 1,
+      "box_price": 32.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "invictor_tactical_warsuit",
+      "name": "Invictor Tactical Warsuit",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 44.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "judiciar",
+      "name": "Judiciar",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 105,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "land_raider",
+      "name": "Land Raider",
+      "points": 220,
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "land_raider_crusader",
+      "name": "Land Raider Crusader",
+      "points": 220,
+      "models_per_box": 1,
+      "box_price": 71.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "land_raider_redeemer",
+      "name": "Land Raider Redeemer",
+      "points": 270,
+      "models_per_box": 1,
+      "box_price": 71.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "librarian",
+      "name": "Librarian",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "librarian_in_phobos_armour",
+      "name": "Librarian in Phobos Armour",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 25,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "librarian_in_terminator_armour",
+      "name": "Librarian in Terminator Armour",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 23,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "lieutenant",
+      "name": "Lieutenant",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 25,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "lieutenant_in_phobos_armour",
+      "name": "Lieutenant in Phobos Armour",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 25,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "lieutenant_in_reiver_armour",
+      "name": "Lieutenant in Reiver Armour",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 25,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "lieutenant_with_combi_weapon",
+      "name": "Lieutenant with Combi-weapon",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 25,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "outrider_squad",
+      "name": "Outrider Squad",
+      "points": 80,
+      "models_per_box": 3,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "predator_annihilator",
+      "name": "Predator Annihilator",
+      "points": 135,
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "predator_destructor",
+      "name": "Predator Destructor",
+      "points": 140,
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "razorback",
+      "name": "Razorback",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 36,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "redemptor_dreadnought",
+      "name": "Redemptor Dreadnought",
+      "points": 195,
+      "models_per_box": 1,
+      "box_price": 49.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "reiver_squad",
+      "name": "Reiver Squad",
+      "points": 80,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "repulsor",
+      "name": "Repulsor",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "repulsor_executioner",
+      "name": "Repulsor Executioner",
+      "points": 220,
+      "models_per_box": 1,
+      "box_price": 71.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "rhino",
+      "name": "Rhino",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 36,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "scout_squad",
+      "name": "Scout Squad",
+      "points": 70,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "sternguard_veteran_squad",
+      "name": "Sternguard Veteran Squad",
+      "points": 100,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "storm_speeder_hailstrike",
+      "name": "Storm Speeder Hailstrike",
+      "points": 115,
+      "models_per_box": 1,
+      "box_price": 49.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "storm_speeder_hammerstrike",
+      "name": "Storm Speeder Hammerstrike",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 49.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "storm_speeder_thunderstrike",
+      "name": "Storm Speeder Thunderstrike",
+      "points": 135,
+      "models_per_box": 1,
+      "box_price": 49.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "stormhawk_interceptor",
+      "name": "Stormhawk Interceptor",
+      "points": 155,
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "stormraven_gunship",
+      "name": "Stormraven Gunship",
+      "points": 280,
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "stormtalon_gunship",
+      "name": "Stormtalon Gunship",
+      "points": 165,
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "suppressor_squad",
+      "name": "Suppressor Squad",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 91,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "tactical_squad",
+      "name": "Tactical Squad",
+      "points": 140,
+      "models_per_box": 10,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "techmarine",
+      "name": "Techmarine",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "terminator_assault_squad",
+      "name": "Terminator Assault Squad",
+      "points": 180,
+      "models_per_box": 6,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "terminator_squad",
+      "name": "Terminator Squad",
+      "points": 170,
+      "models_per_box": 6,
+      "box_price": 42.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "thunderhawk_gunship",
+      "name": "Thunderhawk Gunship",
+      "points": 840,
+      "models_per_box": 1,
+      "box_price": 619,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "vanguard_veteran_squad_with_jump_packs",
+      "name": "Vanguard Veteran Squad with Jump Packs",
+      "points": 100,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "vindicator",
+      "name": "Vindicator",
+      "points": 185,
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {}
+    },
+    {
+      "factionKey": "space_marines",
+      "factionName": "Space Marines",
+      "id": "whirlwind",
+      "name": "Whirlwind",
+      "points": 190,
+      "models_per_box": 1,
+      "box_price": 45,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "broadside_battlesuits",
+      "name": "Broadside Battlesuits",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "cadre_fireblade",
+      "name": "Cadre Fireblade",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "crisis_battlesuits",
+      "name": "Crisis Battlesuits",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "darkstrider",
+      "name": "Darkstrider",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "devilfish",
+      "name": "Devilfish",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "ethereal",
+      "name": "Ethereal",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "farsight",
+      "name": "Commander Farsight",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "ghostkeel_battlesuit",
+      "name": "Ghostkeel Battlesuit",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "hammerhead_gunship",
+      "name": "Hammerhead Gunship",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "kroot_carnivores",
+      "name": "Kroot Carnivores",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "kroot_farstalkers",
+      "name": "Kroot Farstalkers",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "kroot_hounds",
+      "name": "Kroot Hounds",
+      "points": 30,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "krootox_riders",
+      "name": "Krootox Riders",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "pathfinder_team",
+      "name": "Pathfinder Team",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "piranha",
+      "name": "Piranha",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "riptide_battlesuit",
+      "name": "Riptide Battlesuit",
+      "points": 235,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "skyray_gunship",
+      "name": "Skyray Gunship",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "stealth_battlesuits",
+      "name": "Stealth Battlesuits",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "strike_team",
+      "name": "Strike Team",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "breacher_team",
+      "name": "Breacher Team",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "sun_shark_bomber",
+      "name": "Sun Shark Bomber",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "tactical_drones",
+      "name": "Tactical Drones",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "tidewall",
+      "name": "Tidewall",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tau",
+      "factionName": "T'au Empire",
+      "id": "vespid_stingwings",
+      "name": "Vespid Stingwings",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "ahriman",
+      "name": "Ahriman",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "exalted_sorcerer",
+      "name": "Exalted Sorcerer",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "exalted_sorcerer_on_disc",
+      "name": "Exalted Sorcerer on Disc",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "infernal_master",
+      "name": "Infernal Master",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "magnus",
+      "name": "Magnus the Red",
+      "points": 410,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "mutalith_vortex_beast",
+      "name": "Mutalith Vortex Beast",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "rubric_marines",
+      "name": "Rubric Marines",
+      "points": 190,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "scarab_occult_terminators",
+      "name": "Scarab Occult Terminators",
+      "points": 215,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "soulreaper_cannon",
+      "name": "Tzaangor Enlightened",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "thousand_sons",
+      "factionName": "Thousand Sons",
+      "id": "tzaangors",
+      "name": "Tzaangors",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "barbgaunts",
+      "name": "Barbgaunts",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "biovore",
+      "name": "Biovore",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "broodlord",
+      "name": "Broodlord",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "carnifex",
+      "name": "Carnifex",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "deathleaper",
+      "name": "Deathleaper",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "exocrine",
+      "name": "Exocrine",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "genestealers",
+      "name": "Genestealers",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "haruspex",
+      "name": "Haruspex",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "hive_crone",
+      "name": "Hive Crone",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "hive_tyrant",
+      "name": "Hive Tyrant",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "hormagaunts",
+      "name": "Hormagaunts",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "harpy",
+      "name": "Harpy",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "lictor",
+      "name": "Lictor",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "maleceptor",
+      "name": "Maleceptor",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "mawloc",
+      "name": "Mawloc",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "neurotyrant",
+      "name": "Neurotyrant",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "norn_emissary",
+      "name": "Norn Emissary",
+      "points": 290,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "norn_queen",
+      "name": "Norn Queen",
+      "points": 290,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "parasite_of_mortrex",
+      "name": "Parasite of Mortrex",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "pyrovores",
+      "name": "Pyrovores",
+      "points": 30,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "raveners",
+      "name": "Raveners",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "ripper_swarms",
+      "name": "Ripper Swarms",
+      "points": 35,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "screamer_killer",
+      "name": "Screamer-Killer",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "termagants",
+      "name": "Termagants",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "tervigon",
+      "name": "Tervigon",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "tyranid_warrior",
+      "name": "Tyranid Warriors",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "tyrannocyte",
+      "name": "Tyrannocyte",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "tyrant_guard",
+      "name": "Tyrant Guard",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "venomthropes",
+      "name": "Venomthropes",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "von_ryan_leapers",
+      "name": "Von Ryan's Leapers",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "tyranids",
+      "factionName": "Tyranids",
+      "id": "zoanthropes",
+      "name": "Zoanthropes",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "angron",
+      "name": "Angron",
+      "points": 415,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "berzerkers",
+      "name": "Khorne Berzerkers",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "eightbound",
+      "name": "Eightbound",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "exalted_eightbound",
+      "name": "Exalted Eightbound",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "invocatus",
+      "name": "Lord Invocatus",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "jackals",
+      "name": "Jakhals",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "kharn",
+      "name": "Khârn the Betrayer",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "lord_on_jugger",
+      "name": "World Eaters Lord on Juggernaut",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "maulerfiend",
+      "name": "Maulerfiend",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    },
+    {
+      "factionKey": "world_eaters",
+      "factionName": "World Eaters",
+      "id": "master_of_executions",
+      "name": "Master of Executions",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": {}
+    }
+  ]
+}
