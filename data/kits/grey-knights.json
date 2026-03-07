@@ -1,22 +1,42 @@
 {
   "grey-knights-strike-squad": {
     "models": 5,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "grey-knights-terminators": {
     "models": 5,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "nemesis-dreadknight": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": null,
+      "EUR": null
+    }
   },
   "castellan-crowe": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "kaldor-draigo": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   }
 }

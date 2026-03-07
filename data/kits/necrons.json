@@ -1,134 +1,266 @@
 {
   "necron-annihilation-barge": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-canoptek-doomstalker": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-canoptek-reanimator": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-canoptek-spyder": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-catacomb-command-barge": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-chronomancer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-cryptothralls": {
     "models": 2,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-ctan-nightbringer": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-ctan-void-dragon": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-doomsday-ark": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-doom-scythe": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-flayed-ones": {
     "models": 5,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-hexmark-destroyer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-immortals": {
     "models": 5,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-lychguard": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-lokhust-destroyers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-lokhust-heavy-destroyers": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-monolith": {
     "models": 1,
-    "price": 105
+    "prices": {
+      "GBP": 105,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-obelisk": {
     "models": 1,
-    "price": 78
+    "prices": {
+      "GBP": 78,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-ophydian-destroyers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-overlord": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-plasmancer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-psychomancer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-royal-warden": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-scarab-swarms": {
     "models": 9,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-skorpekh-destroyers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-technomancer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-tesseract-vault": {
     "models": 1,
-    "price": 175
+    "prices": {
+      "GBP": 175,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-tomb-blades": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-transcendent-ctan": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-triarch-praetorians": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-triarch-stalker": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "necron-warriors": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": null,
+      "EUR": null
+    }
   }
 }

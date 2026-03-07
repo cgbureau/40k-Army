@@ -1,18 +1,34 @@
 {
   "ork-battlewagon": {
     "models": 1,
-    "price": 50
+    "prices": {
+      "GBP": 50,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ork-beastboss": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ork-boyz": {
     "models": 10,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ork-deffkoptas": {
     "models": 5,
-    "price": 38
+    "prices": {
+      "GBP": 38,
+      "USD": null,
+      "EUR": null
+    }
   }
 }

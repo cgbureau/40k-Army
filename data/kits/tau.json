@@ -1,86 +1,170 @@
 {
   "strike-team": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "pathfinder-team": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "crisis-battlesuits": {
     "models": 3,
-    "price": 54.5
+    "prices": {
+      "GBP": 54.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "broadside-battlesuits": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "stealth-battlesuits": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ghostkeel-battlesuit": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": null,
+      "EUR": null
+    }
   },
   "riptide-battlesuit": {
     "models": 1,
-    "price": 78
+    "prices": {
+      "GBP": 78,
+      "USD": null,
+      "EUR": null
+    }
   },
   "cadre-fireblade": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ethereal": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "commander-farsight": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "devilfish": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "hammerhead-gunship": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "piranha": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "sun-shark-bomber": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": null,
+      "EUR": null
+    }
   },
   "kroot-carnivores": {
     "models": 10,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "kroot-farstalkers": {
     "models": 10,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "kroot-hounds": {
     "models": 4,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "krootox-riders": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "vespid-stingwings": {
     "models": 5,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "tactical-drones": {
     "models": 4,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "tidewall": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   }
 }

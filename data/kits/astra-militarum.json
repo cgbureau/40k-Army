@@ -1,102 +1,202 @@
 {
   "cadian-shock-troops": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "catachan-jungle-fighters": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "death-korps-of-krieg": {
     "models": 10,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "tempestus-scions": {
     "models": 5,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "commissar": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "castellan": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "lord-solar-leontus": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "rogue-trader": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "sergeant-harker": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "heavy-weapons-squad": {
     "models": 3,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ogryn": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "ratlings": {
     "models": 5,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "rough-riders": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "field-ordnance-battery": {
     "models": 2,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "armoured-sentinel": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "scout-sentinel": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "leman-russ": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": null,
+      "EUR": null
+    }
   },
   "basilisk": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": null,
+      "EUR": null
+    }
   },
   "manticore": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": null,
+      "EUR": null
+    }
   },
   "hellhound": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "hydra": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "wyvern": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "medusa": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "valkyrie": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": null,
+      "EUR": null
+    }
   },
   "baneblade": {
     "models": 1,
-    "price": 105
+    "prices": {
+      "GBP": 105,
+      "USD": null,
+      "EUR": null
+    }
   }
 }

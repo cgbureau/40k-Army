@@ -1,70 +1,138 @@
 {
   "bloodletters": {
     "models": 10,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "daemonettes": {
     "models": 10,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "pink-horrors": {
     "models": 10,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "plaguebearers": {
     "models": 10,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": null,
+      "EUR": null
+    }
   },
   "bloodcrushers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "flesh-hounds": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "seekers": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "flamers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "screamers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": null,
+      "EUR": null
+    }
   },
   "nurglings": {
     "models": 3,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "exalted-flamer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": null,
+      "EUR": null
+    }
   },
   "bloodthirster": {
     "models": 1,
-    "price": 78
+    "prices": {
+      "GBP": 78,
+      "USD": null,
+      "EUR": null
+    }
   },
   "keeper-of-secrets": {
     "models": 1,
-    "price": 78
+    "prices": {
+      "GBP": 78,
+      "USD": null,
+      "EUR": null
+    }
   },
   "lord-of-change": {
     "models": 1,
-    "price": 78
+    "prices": {
+      "GBP": 78,
+      "USD": null,
+      "EUR": null
+    }
   },
   "great-unclean-one": {
     "models": 1,
-    "price": 78
+    "prices": {
+      "GBP": 78,
+      "USD": null,
+      "EUR": null
+    }
   },
   "daemon-prince": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": null,
+      "EUR": null
+    }
   },
   "soul-grinder": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": null,
+      "EUR": null
+    }
   }
 }
