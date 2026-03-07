@@ -5,183 +5,313 @@
       "id": "autarch",
       "name": "Autarch",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "autarch_wayleaper",
       "name": "Autarch Wayleaper",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "avatar_of_khaine",
       "name": "Avatar of Khaine",
       "points": 270,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "crimson_hunter",
       "name": "Crimson Hunter",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "dark_reapers",
       "name": "Dark Reapers",
       "points": 105,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "dire_avengers",
       "name": "Dire Avengers",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "farseer",
       "name": "Farseer",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "farseer_skyrunner",
       "name": "Farseer Skyrunner",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "fire_dragon",
       "name": "Fire Dragons",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "fire_prism",
       "name": "Fire Prism",
       "points": 150,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "guardian_defenders",
       "name": "Guardian Defenders",
       "points": 110,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "hemlock_wraithfighter",
       "name": "Hemlock Wraithfighter",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "howling_banshees",
       "name": "Howling Banshees",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "jain_zar",
       "name": "Jain Zar",
       "points": 100,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "night_spinner",
       "name": "Night Spinner",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "rangers",
       "name": "Rangers",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "shining_spears",
       "name": "Shining Spears",
       "points": 125,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "swooping_hawks",
       "name": "Swooping Hawks",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "war_walker",
       "name": "War Walker",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "warlock",
       "name": "Warlock",
       "points": 45,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "warlock_skyrunner",
       "name": "Warlock Skyrunner",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "warp_spider",
       "name": "Warp Spiders",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "windrider",
       "name": "Windriders",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "wraithguard",
       "name": "Wraithguard",
       "points": 170,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "wraithknight",
       "name": "Wraithknight",
       "points": 475,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 105,
+      "prices": {
+        "GBP": 105,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "wraithlord",
       "name": "Wraithlord",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

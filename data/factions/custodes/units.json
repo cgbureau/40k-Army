@@ -5,99 +5,169 @@
       "id": "allarus_custodians",
       "name": "Allarus Custodians",
       "points": 150,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "blade_champion",
       "name": "Blade Champion",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "contemptor_achillus",
       "name": "Contemptor-Achillus Dreadnought",
       "points": 180,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "contemptor_galatus",
       "name": "Contemptor-Galatus Dreadnought",
       "points": 180,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "custodian_guard",
       "name": "Custodian Guard",
       "points": 150,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "custodian_wardens",
       "name": "Custodian Wardens",
       "points": 175,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "knight_centura",
       "name": "Knight Centura",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "sagittarum_custodians",
       "name": "Sagittarum Custodians",
       "points": 175,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "shield_captain",
       "name": "Shield Captain",
       "points": 120,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "shield_captain_in_allarus",
       "name": "Shield-Captain in Allarus Terminator Armour",
       "points": 140,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "trajann_valoris",
       "name": "Trajann Valoris",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "venatari",
       "name": "Venatari Custodians",
       "points": 130,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "vertus_praetors",
       "name": "Vertus Praetors",
       "points": 180,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "vexilus_praetor",
       "name": "Vexilus Praetor",
       "points": 105,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

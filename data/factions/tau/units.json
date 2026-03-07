@@ -5,169 +5,289 @@
       "id": "breacher_team",
       "name": "Breacher Team",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "broadside_battlesuits",
       "name": "Broadside Battlesuits",
       "points": 110,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "cadre_fireblade",
       "name": "Cadre Fireblade",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "farsight",
       "name": "Commander Farsight",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "crisis_battlesuits",
       "name": "Crisis Battlesuits",
       "points": 195,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 54.5,
+      "prices": {
+        "GBP": 54.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "darkstrider",
       "name": "Darkstrider",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "devilfish",
       "name": "Devilfish",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "ethereal",
       "name": "Ethereal",
       "points": 50,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "ghostkeel_battlesuit",
       "name": "Ghostkeel Battlesuit",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "hammerhead_gunship",
       "name": "Hammerhead Gunship",
       "points": 130,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kroot_carnivores",
       "name": "Kroot Carnivores",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kroot_farstalkers",
       "name": "Kroot Farstalkers",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kroot_hounds",
       "name": "Kroot Hounds",
       "points": 30,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 4,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "krootox_riders",
       "name": "Krootox Riders",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "pathfinder_team",
       "name": "Pathfinder Team",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "piranha",
       "name": "Piranha",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "riptide_battlesuit",
       "name": "Riptide Battlesuit",
       "points": 235,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "skyray_gunship",
       "name": "Skyray Gunship",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "stealth_battlesuits",
       "name": "Stealth Battlesuits",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "strike_team",
       "name": "Strike Team",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "sun_shark_bomber",
       "name": "Sun Shark Bomber",
       "points": 165,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "tactical_drones",
       "name": "Tactical Drones",
       "points": 50,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 4,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "tidewall",
       "name": "Tidewall",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "vespid_stingwings",
       "name": "Vespid Stingwings",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

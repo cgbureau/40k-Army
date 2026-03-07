@@ -5,64 +5,109 @@
       "id": "brôkhyr_thunderkyn",
       "name": "Brôkhyr Thunderkyn",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "cthonian_beserks",
       "name": "Cthonian Beserks",
       "points": 100,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "einhyr_champion",
       "name": "Einhyr Champion",
       "points": 60,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "grimnyr",
       "name": "Grimnyr",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "hearthkyn_warriors",
       "name": "Hearthkyn Warriors",
       "points": 110,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "land_fortress",
       "name": "Hekaton Land Fortress",
       "points": 225,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "hernkyn_pioneers",
       "name": "Hernkyn Pioneers",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kâhl",
       "name": "Kâhl",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "sagitaur",
       "name": "Sagitaur",
       "points": 130,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

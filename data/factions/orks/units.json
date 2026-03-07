@@ -5,211 +5,361 @@
       "id": "battlewagon",
       "name": "Battlewagon",
       "points": 125,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "beastboss",
       "name": "Beastboss",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "big_mek_in_meka_armour",
       "name": "Big Mek in Meka Armour",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "big_mek_with_shokk_attack_gun",
       "name": "Big Mek with Shokk Attack Gun",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "boyz",
       "name": "Boyz",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "burna_boyz",
       "name": "Burna Boyz",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "deff_dread",
       "name": "Deff Dread",
       "points": 130,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "deffkoptas",
       "name": "Deffkoptas",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {
+        "GBP": 38,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "flash_gitz",
       "name": "Flash Gitz",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {
+        "GBP": 38,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "gretchin",
       "name": "Gretchin",
       "points": 45,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "hunta_rig",
       "name": "Hunta Rig",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kill_rig",
       "name": "Kill Rig",
       "points": 180,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "killa_kans",
       "name": "Killa Kans",
       "points": 140,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {
+        "GBP": 38,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kommandos",
       "name": "Kommandos",
       "points": 135,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {
+        "GBP": 38,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "lootas",
       "name": "Lootas",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "meganobz",
       "name": "Meganobz",
       "points": 125,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {
+        "GBP": 38,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "mek",
       "name": "Mek",
       "points": 45,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "nobz",
       "name": "Nobz",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "painboy",
       "name": "Painboy",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "rukkatrukk_squigbuggy",
       "name": "Rukkatrukk Squigbuggy",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "shokkjump_dragsta",
       "name": "Shokkjump Dragsta",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "snagga_boyz",
       "name": "Snagga Boyz",
       "points": 105,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "squighog_boyz",
       "name": "Squighog Boyz",
       "points": 125,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "stormboyz",
       "name": "Stormboyz",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "tankbustas",
       "name": "Tankbustas",
       "points": 120,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "trukk",
       "name": "Trukk",
       "points": 50,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 50,
+      "prices": {
+        "GBP": 50,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "warboss",
       "name": "Warboss",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "warboss_in_mega_armour",
       "name": "Warboss in Mega Armour",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "weirdboy",
       "name": "Weirdboy",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "zodgrod_wortsnagga",
       "name": "Zodgrod Wortsnagga",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

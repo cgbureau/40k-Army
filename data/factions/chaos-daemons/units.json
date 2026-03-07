@@ -5,120 +5,205 @@
       "id": "bloodcrushers",
       "name": "Bloodcrushers",
       "points": 120,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "bloodletters",
       "name": "Bloodletters",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "bloodthirster",
       "name": "Bloodthirster",
       "points": 320,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "daemon_prince",
       "name": "Daemon Prince",
       "points": 215,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "daemonettes",
       "name": "Daemonettes",
       "points": 120,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "exalted_flamer",
       "name": "Exalted Flamer",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "flamers",
       "name": "Flamers",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "flesh_hounds",
       "name": "Flesh Hounds",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "great_unclean_one",
       "name": "Great Unclean One",
       "points": 260,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "keeper_of_secrets",
       "name": "Keeper of Secrets",
       "points": 260,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "lord_of_change",
       "name": "Lord of Change",
       "points": 230,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "nurglings",
       "name": "Nurglings",
       "points": 40,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "pink_horrors",
       "name": "Pink Horrors",
       "points": 125,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "plaguebearers",
       "name": "Plaguebearers",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "screamers",
       "name": "Screamers",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "seekers",
       "name": "Seekers",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "soul_grinder",
       "name": "Soul Grinder",
       "points": 230,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

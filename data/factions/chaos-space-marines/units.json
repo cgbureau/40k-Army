@@ -5,197 +5,337 @@
       "id": "abbadon",
       "name": "Abaddon the Despoiler",
       "points": 310,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "accursed_cultists",
       "name": "Accursed Cultists",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chaos_bikers",
       "name": "Chaos Bikers",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chaos_land_raider",
       "name": "Chaos Land Raider",
       "points": 220,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "lord",
       "name": "Chaos Lord",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "lord_on_chaos_steed",
       "name": "Chaos Lord on Chaos Steed",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chaos_predator",
       "name": "Chaos Predator",
       "points": 140,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chaos_rhino",
       "name": "Chaos Rhino",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 36,
+      "prices": {
+        "GBP": 36,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chaos_terminators",
       "name": "Chaos Terminator Squad",
       "points": 195,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "vindicator",
       "name": "Chaos Vindicator",
       "points": 190,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chosen",
       "name": "Chosen",
       "points": 140,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "cultist_mob",
       "name": "Cultist Mob",
       "points": 55,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "dark_apostle",
       "name": "Dark Apostle",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "defiler",
       "name": "Defiler",
       "points": 195,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "forgefiend",
       "name": "Forgefiend",
       "points": 180,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "havocs",
       "name": "Havocs",
       "points": 135,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "helbrute",
       "name": "Helbrute",
       "points": 155,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "master_of_executions",
       "name": "Master of Executions",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "maulerfiend",
       "name": "Maulerfiend",
       "points": 155,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "noise_marines",
       "name": "Noise Marines",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "obliterators",
       "name": "Obliterators",
       "points": 260,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 2,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "possessed",
       "name": "Possessed",
       "points": 145,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "raptors",
       "name": "Raptors",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "sorcerer",
       "name": "Sorcerer",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "sorcerer_in_terminator_armour",
       "name": "Sorcerer in Terminator Armour",
       "points": 105,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "venomcrawler",
       "name": "Venomcrawler",
       "points": 120,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "talons",
       "name": "Warp Talons",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "warpsmith",
       "name": "Warpsmith",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

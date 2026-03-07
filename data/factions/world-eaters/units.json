@@ -5,78 +5,133 @@
       "id": "angron",
       "name": "Angron",
       "points": 415,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 105,
+      "prices": {
+        "GBP": 105,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "chaos_rhino",
       "name": "Chaos Rhino",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 36,
+      "prices": {
+        "GBP": 36,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "eightbound",
       "name": "Eightbound",
       "points": 155,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "exalted_eightbound",
       "name": "Exalted Eightbound",
       "points": 180,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "jackals",
       "name": "Jakhals",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "kharn",
       "name": "Khârn the Betrayer",
       "points": 95,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "berzerkers",
       "name": "Khorne Berzerkers",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "invocatus",
       "name": "Lord Invocatus",
       "points": 140,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "master_of_executions",
       "name": "Master of Executions",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "maulerfiend",
       "name": "Maulerfiend",
       "points": 155,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "lord_on_jugger",
       "name": "World Eaters Lord on Juggernaut",
       "points": 125,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }

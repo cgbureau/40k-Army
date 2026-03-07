@@ -5,71 +5,121 @@
       "id": "ahriman",
       "name": "Ahriman",
       "points": 110,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "exalted_sorcerer",
       "name": "Exalted Sorcerer",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "exalted_sorcerer_on_disc",
       "name": "Exalted Sorcerer on Disc",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "infernal_master",
       "name": "Infernal Master",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "magnus",
       "name": "Magnus the Red",
       "points": 410,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 105,
+      "prices": {
+        "GBP": 105,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "mutalith_vortex_beast",
       "name": "Mutalith Vortex Beast",
       "points": 145,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 1,
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "rubric_marines",
       "name": "Rubric Marines",
       "points": 190,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "scarab_occult_terminators",
       "name": "Scarab Occult Terminators",
       "points": 215,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 5,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "soulreaper_cannon",
       "name": "Tzaangor Enlightened",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": null,
+        "EUR": null
+      }
     },
     {
       "id": "tzaangors",
       "name": "Tzaangors",
       "points": 65,
-      "models_per_box": null,
-      "box_price": null
+      "models_per_box": 10,
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": null,
+        "EUR": null
+      }
     }
   ]
 }
