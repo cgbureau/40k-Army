@@ -1,0 +1,102 @@
+{
+  "cadian-shock-troops": {
+    "models": 10,
+    "price": 31.5
+  },
+  "catachan-jungle-fighters": {
+    "models": 10,
+    "price": 31.5
+  },
+  "death-korps-of-krieg": {
+    "models": 10,
+    "price": 35
+  },
+  "tempestus-scions": {
+    "models": 5,
+    "price": 28
+  },
+  "commissar": {
+    "models": 1,
+    "price": 26
+  },
+  "castellan": {
+    "models": 1,
+    "price": 26
+  },
+  "lord-solar-leontus": {
+    "models": 1,
+    "price": 42.5
+  },
+  "rogue-trader": {
+    "models": 1,
+    "price": 26
+  },
+  "sergeant-harker": {
+    "models": 1,
+    "price": 26
+  },
+  "heavy-weapons-squad": {
+    "models": 3,
+    "price": 28
+  },
+  "ogryn": {
+    "models": 3,
+    "price": 35
+  },
+  "ratlings": {
+    "models": 5,
+    "price": 26
+  },
+  "rough-riders": {
+    "models": 5,
+    "price": 35
+  },
+  "field-ordnance-battery": {
+    "models": 2,
+    "price": 42.5
+  },
+  "armoured-sentinel": {
+    "models": 1,
+    "price": 42.5
+  },
+  "scout-sentinel": {
+    "models": 1,
+    "price": 42.5
+  },
+  "leman-russ": {
+    "models": 1,
+    "price": 52
+  },
+  "basilisk": {
+    "models": 1,
+    "price": 52
+  },
+  "manticore": {
+    "models": 1,
+    "price": 52
+  },
+  "hellhound": {
+    "models": 1,
+    "price": 47.5
+  },
+  "hydra": {
+    "models": 1,
+    "price": 47.5
+  },
+  "wyvern": {
+    "models": 1,
+    "price": 47.5
+  },
+  "medusa": {
+    "models": 1,
+    "price": 47.5
+  },
+  "valkyrie": {
+    "models": 1,
+    "price": 58
+  },
+  "baneblade": {
+    "models": 1,
+    "price": 105
+  }
+}

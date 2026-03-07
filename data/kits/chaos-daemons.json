@@ -1,0 +1,70 @@
+{
+  "bloodletters": {
+    "models": 10,
+    "price": 28
+  },
+  "daemonettes": {
+    "models": 10,
+    "price": 28
+  },
+  "pink-horrors": {
+    "models": 10,
+    "price": 28
+  },
+  "plaguebearers": {
+    "models": 10,
+    "price": 28
+  },
+  "bloodcrushers": {
+    "models": 3,
+    "price": 35
+  },
+  "flesh-hounds": {
+    "models": 5,
+    "price": 35
+  },
+  "seekers": {
+    "models": 5,
+    "price": 35
+  },
+  "flamers": {
+    "models": 3,
+    "price": 35
+  },
+  "screamers": {
+    "models": 3,
+    "price": 35
+  },
+  "nurglings": {
+    "models": 3,
+    "price": 26
+  },
+  "exalted-flamer": {
+    "models": 1,
+    "price": 26
+  },
+  "bloodthirster": {
+    "models": 1,
+    "price": 78
+  },
+  "keeper-of-secrets": {
+    "models": 1,
+    "price": 78
+  },
+  "lord-of-change": {
+    "models": 1,
+    "price": 78
+  },
+  "great-unclean-one": {
+    "models": 1,
+    "price": 78
+  },
+  "daemon-prince": {
+    "models": 1,
+    "price": 42.5
+  },
+  "soul-grinder": {
+    "models": 1,
+    "price": 58
+  }
+}

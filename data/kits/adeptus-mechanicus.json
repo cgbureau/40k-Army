@@ -1,0 +1,78 @@
+{
+  "skitarii-rangers": {
+    "models": 10,
+    "price": 31.5
+  },
+  "skitarii-vanguard": {
+    "models": 10,
+    "price": 31.5
+  },
+  "sicarian-ruststalkers": {
+    "models": 5,
+    "price": 28
+  },
+  "sicarian-infiltrators": {
+    "models": 5,
+    "price": 28
+  },
+  "electro-priests": {
+    "models": 5,
+    "price": 35
+  },
+  "kataphron-destroyers": {
+    "models": 3,
+    "price": 42.5
+  },
+  "kataphron-breachers": {
+    "models": 3,
+    "price": 42.5
+  },
+  "tech-priest-enginseer": {
+    "models": 1,
+    "price": 26
+  },
+  "tech-priest-dominus": {
+    "models": 1,
+    "price": 26
+  },
+  "tech-priest-manipulus": {
+    "models": 1,
+    "price": 26
+  },
+  "onager-dunecrawler": {
+    "models": 1,
+    "price": 42.5
+  },
+  "sydonian-dragoon": {
+    "models": 1,
+    "price": 35
+  },
+  "ironstrider-ballistarii": {
+    "models": 1,
+    "price": 35
+  },
+  "skorpius-dunerider": {
+    "models": 1,
+    "price": 42.5
+  },
+  "skorpius-disintegrator": {
+    "models": 1,
+    "price": 42.5
+  },
+  "pteraxii-skystalkers": {
+    "models": 5,
+    "price": 35
+  },
+  "pteraxii-sterylizors": {
+    "models": 5,
+    "price": 35
+  },
+  "serberys-raiders": {
+    "models": 3,
+    "price": 35
+  },
+  "serberys-sulphurhounds": {
+    "models": 3,
+    "price": 35
+  }
+}

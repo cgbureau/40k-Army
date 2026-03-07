@@ -1,25 +1,21 @@
 {
-  "aggressor": {
+  "aggressors": {
     "models": 3,
     "price": 38
   },
-  "ancient": {
+  "space-marine-captain": {
     "models": 1,
     "price": 27
   },
-  "ancient-in-terminator-armor": {
+  "space-marine-captain-in-terminator-armour": {
     "models": 1,
     "price": 29
   },
-  "apothecary": {
+  "space-marine-chaplain": {
     "models": 1,
     "price": 26
   },
-  "apothecary-biologis": {
-    "models": 1,
-    "price": 25
-  },
-  "assault-intercessor": {
+  "intercessors": {
     "models": 10,
     "price": 40
   },
@@ -27,300 +23,120 @@
     "models": 5,
     "price": 38
   },
-  "astraeus": {
+  "space-marine-astraeus": {
     "models": 1,
     "price": 286
   },
-  "ballistus-dreadnought": {
+  "space-marine-ballistus-dreadnought": {
     "models": 1,
     "price": 44.5
   },
-  "bladeguard-ancient": {
+  "space-marine-bladeguard-ancient": {
     "models": 1,
     "price": 105
   },
-  "bladeguard-veteran": {
-    "models": 3,
-    "price": 38
-  },
-  "brutalis-dreadnought": {
+  "space-marine-brutalis-dreadnought": {
     "models": 1,
     "price": 52
   },
-  "captain": {
-    "models": 1,
-    "price": 27
-  },
-  "captain-in-gravis-armour": {
-    "models": 1,
-    "price": 27
-  },
-  "captain-in-phobos-armour": {
-    "models": 1,
-    "price": 27
-  },
-  "captain-in-terminator-armour": {
-    "models": 1,
-    "price": 29
-  },
-  "captain-with-jump-pack": {
-    "models": 1,
-    "price": 27
-  },
-  "centurion-assault": {
+  "centurion-assaults": {
     "models": 3,
     "price": 50
   },
-  "centurion-devastator": {
-    "models": 3,
-    "price": 50
-  },
-  "chaplain": {
-    "models": 1,
-    "price": 26
-  },
-  "chaplain-in-terminator-armour": {
-    "models": 1,
-    "price": 29
-  },
-  "chaplain-on-bike": {
+  "space-marine-chaplain-on-bike": {
     "models": 1,
     "price": 35.5
-  },
-  "chaplain-with-jump-pack": {
-    "models": 1,
-    "price": 25
   },
   "company-heroes": {
     "models": 5,
     "price": 42.5
   },
-  "desolation": {
-    "models": 3,
-    "price": 38
-  },
-  "devastator": {
+  "devastators": {
     "models": 6,
     "price": 40
   },
-  "dreadnought": {
-    "models": 1,
-    "price": 25
-  },
-  "drop-pod": {
-    "models": 1,
-    "price": 52
-  },
-  "eliminator": {
-    "models": 3,
-    "price": 38
-  },
-  "eradicator": {
-    "models": 3,
-    "price": 38
-  },
-  "gladiator-lancer": {
+  "space-marine-gladiator-lancer": {
     "models": 1,
     "price": 58
   },
-  "gladiator-reaper": {
-    "models": 1,
-    "price": 58
-  },
-  "gladiator-valiant": {
-    "models": 1,
-    "price": 58
-  },
-  "hammerfall-bunker": {
+  "space-marine-hammerfall-bunker": {
     "models": 1,
     "price": 42.5
   },
-  "heavy-intercessor": {
-    "models": 5,
-    "price": 42.5
-  },
-  "hellblaster": {
-    "models": 10,
-    "price": 40
-  },
-  "impulsor": {
+  "space-marine-impulsor": {
     "models": 1,
     "price": 55
   },
-  "inceptor": {
-    "models": 3,
-    "price": 38
-  },
-  "incursor": {
+  "space-marine-incursors": {
     "models": 1,
     "price": 40
   },
-  "infernus": {
-    "models": 10,
-    "price": 40
-  },
-  "infiltrator": {
-    "models": 10,
-    "price": 40
-  },
-  "intercessor": {
-    "models": 10,
-    "price": 40
-  },
-  "invader-atv": {
+  "space-marine-invader-atv": {
     "models": 1,
     "price": 32.5
   },
-  "invictor-tactical-warsuit": {
-    "models": 1,
-    "price": 44.5
-  },
-  "judiciar": {
-    "models": 1,
-    "price": 105
-  },
-  "land-raider": {
-    "models": 1,
-    "price": 58
-  },
-  "land-raider-crusader": {
+  "space-marine-land-raider-crusader": {
     "models": 1,
     "price": 71.5
   },
-  "land-raider-redeemer": {
-    "models": 1,
-    "price": 71.5
-  },
-  "librarian": {
-    "models": 1,
-    "price": 26
-  },
-  "librarian-in-phobos-armour": {
+  "space-marine-lieutenant": {
     "models": 1,
     "price": 25
   },
-  "librarian-in-terminator-armour": {
+  "space-marine-librarian-in-terminator-armour": {
     "models": 1,
     "price": 23
   },
-  "lieutenant": {
-    "models": 1,
-    "price": 25
-  },
-  "lieutenant-in-phobos-armour": {
-    "models": 1,
-    "price": 25
-  },
-  "lieutenant-in-reiver-armour": {
-    "models": 1,
-    "price": 25
-  },
-  "lieutenant-with-combi-weapon": {
-    "models": 1,
-    "price": 25
-  },
-  "outrider": {
+  "outriders": {
     "models": 3,
     "price": 40
   },
-  "predator-annihilator": {
+  "space-marine-predator-annihilator": {
     "models": 1,
     "price": 47.5
   },
-  "predator-destructor": {
-    "models": 1,
-    "price": 47.5
-  },
-  "razorback": {
+  "space-marine-razorback": {
     "models": 1,
     "price": 36
+  },
+  "space-marine-redemptor-dreadnought": {
+    "models": 1,
+    "price": 49.5
+  },
+  "sternguard-veterans": {
+    "models": 5,
+    "price": 40
+  },
+  "space-marine-stormraven-gunship": {
+    "models": 1,
+    "price": 78
+  },
+  "suppressors": {
+    "models": 3,
+    "price": 91
+  },
+  "tacticals": {
+    "models": 10,
+    "price": 38
+  },
+  "terminators": {
+    "models": 6,
+    "price": 42.5
+  },
+  "space-marine-thunderhawk-gunship": {
+    "models": 1,
+    "price": 619
+  },
+  "space-marine-whirlwind": {
+    "models": 1,
+    "price": 45
+  },
+  "space-marine-apothecary": {
+    "models": 1,
+    "price": 26
   },
   "redemptor-dreadnought": {
     "models": 1,
     "price": 49.5
-  },
-  "reiver": {
-    "models": 10,
-    "price": 40
-  },
-  "repulsor": {
-    "models": 1,
-    "price": 58
-  },
-  "repulsor-executioner": {
-    "models": 1,
-    "price": 71.5
-  },
-  "rhino": {
-    "models": 1,
-    "price": 36
-  },
-  "scout": {
-    "models": 10,
-    "price": 40
-  },
-  "sternguard-veteran": {
-    "models": 5,
-    "price": 40
-  },
-  "storm-speeder-hailstrike": {
-    "models": 1,
-    "price": 49.5
-  },
-  "storm-speeder-hammerstrike": {
-    "models": 1,
-    "price": 49.5
-  },
-  "storm-speeder-thunderstrike": {
-    "models": 1,
-    "price": 49.5
-  },
-  "stormhawk-interceptor": {
-    "models": 1,
-    "price": 42.5
-  },
-  "stormraven-gunship": {
-    "models": 1,
-    "price": 78
-  },
-  "stormtalon-gunship": {
-    "models": 1,
-    "price": 42.5
-  },
-  "suppressor": {
-    "models": 3,
-    "price": 91
-  },
-  "tactical": {
-    "models": 10,
-    "price": 38
-  },
-  "techmarine": {
-    "models": 1,
-    "price": 27
-  },
-  "terminator-assault": {
-    "models": 6,
-    "price": 42.5
-  },
-  "terminator": {
-    "models": 6,
-    "price": 42.5
-  },
-  "thunderhawk-gunship": {
-    "models": 1,
-    "price": 619
-  },
-  "vanguard-veteran-squad-with-jump-packs": {
-    "models": 5,
-    "price": 38
-  },
-  "vindicator": {
-    "models": 1,
-    "price": 47.5
-  },
-  "whirlwind": {
-    "models": 1,
-    "price": 45
   }
 }

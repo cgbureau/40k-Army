@@ -1,0 +1,106 @@
+{
+  "chaos-terminators": {
+    "models": 5,
+    "price": 42.5
+  },
+  "chosen": {
+    "models": 5,
+    "price": 42.5
+  },
+  "cultist-mob": {
+    "models": 10,
+    "price": 28
+  },
+  "accursed-cultists": {
+    "models": 5,
+    "price": 35
+  },
+  "havocs": {
+    "models": 5,
+    "price": 35
+  },
+  "raptors": {
+    "models": 5,
+    "price": 35
+  },
+  "warp-talons": {
+    "models": 5,
+    "price": 35
+  },
+  "possessed": {
+    "models": 5,
+    "price": 42.5
+  },
+  "noise-marines": {
+    "models": 5,
+    "price": 35
+  },
+  "chaos-lord": {
+    "models": 1,
+    "price": 26
+  },
+  "dark-apostle": {
+    "models": 1,
+    "price": 26
+  },
+  "sorcerer": {
+    "models": 1,
+    "price": 26
+  },
+  "master-of-executions": {
+    "models": 1,
+    "price": 26
+  },
+  "warpsmith": {
+    "models": 1,
+    "price": 26
+  },
+  "abaddon-the-despoiler": {
+    "models": 1,
+    "price": 52
+  },
+  "chaos-bikers": {
+    "models": 3,
+    "price": 40
+  },
+  "chaos-rhino": {
+    "models": 1,
+    "price": 36
+  },
+  "chaos-land-raider": {
+    "models": 1,
+    "price": 58
+  },
+  "chaos-predator": {
+    "models": 1,
+    "price": 47.5
+  },
+  "chaos-vindicator": {
+    "models": 1,
+    "price": 47.5
+  },
+  "helbrute": {
+    "models": 1,
+    "price": 42.5
+  },
+  "forgefiend": {
+    "models": 1,
+    "price": 52
+  },
+  "maulerfiend": {
+    "models": 1,
+    "price": 52
+  },
+  "defiler": {
+    "models": 1,
+    "price": 58
+  },
+  "venomcrawler": {
+    "models": 1,
+    "price": 42.5
+  },
+  "obliterators": {
+    "models": 2,
+    "price": 42.5
+  }
+}

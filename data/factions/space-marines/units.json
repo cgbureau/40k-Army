@@ -34,7 +34,7 @@
       "name": "Apothecary Biologis",
       "points": 70,
       "models_per_box": 1,
-      "box_price": 25
+      "box_price": 26
     },
     {
       "id": "assault_intercessor_squad",
@@ -160,7 +160,7 @@
       "name": "Chaplain with Jump Pack",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 25
+      "box_price": 26
     },
     {
       "id": "company_heroes",
@@ -188,7 +188,7 @@
       "name": "Dreadnought",
       "points": 135,
       "models_per_box": 1,
-      "box_price": 25
+      "box_price": 49.5
     },
     {
       "id": "drop_pod",

@@ -1,0 +1,82 @@
+{
+  "faction": "Grey Knights",
+  "units": [
+    {
+      "id": "brother_captain",
+      "name": "Brother-Captain",
+      "points": 95,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "brotherhood_librarian",
+      "name": "Brotherhood Librarian",
+      "points": 90,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "brotherhood_terminator_squad",
+      "name": "Brotherhood Terminator Squad",
+      "points": 225,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "castellan_crowe",
+      "name": "Castellan Crowe",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "grand_master_in_nemesis_dreadknight",
+      "name": "Grand Master in Nemesis Dreadknight",
+      "points": 230,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "grey_knights_strike_squad",
+      "name": "Grey Knights Strike Squad",
+      "points": 125,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "interceptor_squad",
+      "name": "Interceptor Squad",
+      "points": 135,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "kaldor_draigo",
+      "name": "Kaldor Draigo",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "nemesis_dreadknight",
+      "name": "Nemesis Dreadknight",
+      "points": 215,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "paladin_squad",
+      "name": "Paladin Squad",
+      "points": 255,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "purifier_squad",
+      "name": "Purifier Squad",
+      "points": 135,
+      "models_per_box": 5,
+      "box_price": 42.5
+    }
+  ]
+}

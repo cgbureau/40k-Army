@@ -1,0 +1,42 @@
+{
+  "custodian-guard": {
+    "models": 5,
+    "price": 42.5
+  },
+  "allarus-custodians": {
+    "models": 3,
+    "price": 42.5
+  },
+  "custodian-wardens": {
+    "models": 3,
+    "price": 42.5
+  },
+  "vertus-praetors": {
+    "models": 3,
+    "price": 52
+  },
+  "venatari-custodians": {
+    "models": 3,
+    "price": 42.5
+  },
+  "blade-champion": {
+    "models": 1,
+    "price": 26
+  },
+  "trajann-valoris": {
+    "models": 1,
+    "price": 35
+  },
+  "knight-centura": {
+    "models": 1,
+    "price": 26
+  },
+  "contemptor-galatus": {
+    "models": 1,
+    "price": 52
+  },
+  "contemptor-achillus": {
+    "models": 1,
+    "price": 52
+  }
+}

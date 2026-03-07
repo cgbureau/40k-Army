@@ -1,4 +1,222 @@
 {
   "faction": "Tyranids",
-  "units": []
+  "units": [
+    {
+      "id": "barbgaunts",
+      "name": "Barbgaunts",
+      "points": 50,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "biovore",
+      "name": "Biovore",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "broodlord",
+      "name": "Broodlord",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "carnifex",
+      "name": "Carnifex",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "deathleaper",
+      "name": "Deathleaper",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "exocrine",
+      "name": "Exocrine",
+      "points": 135,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "genestealers",
+      "name": "Genestealers",
+      "points": 100,
+      "models_per_box": 8,
+      "box_price": 28
+    },
+    {
+      "id": "harpy",
+      "name": "Harpy",
+      "points": 200,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "haruspex",
+      "name": "Haruspex",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "hive_crone",
+      "name": "Hive Crone",
+      "points": 210,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "hive_tyrant",
+      "name": "Hive Tyrant",
+      "points": 220,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "hormagaunts",
+      "name": "Hormagaunts",
+      "points": 65,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "lictor",
+      "name": "Lictor",
+      "points": 60,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "maleceptor",
+      "name": "Maleceptor",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "mawloc",
+      "name": "Mawloc",
+      "points": 145,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "neurotyrant",
+      "name": "Neurotyrant",
+      "points": 105,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "norn_emissary",
+      "name": "Norn Emissary",
+      "points": 290,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "norn_queen",
+      "name": "Norn Queen",
+      "points": 290,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "parasite_of_mortrex",
+      "name": "Parasite of Mortrex",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "pyrovores",
+      "name": "Pyrovores",
+      "points": 30,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "raveners",
+      "name": "Raveners",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "ripper_swarms",
+      "name": "Ripper Swarms",
+      "points": 35,
+      "models_per_box": 3,
+      "box_price": 26
+    },
+    {
+      "id": "screamer_killer",
+      "name": "Screamer-Killer",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "termagants",
+      "name": "Termagants",
+      "points": 60,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "tervigon",
+      "name": "Tervigon",
+      "points": 200,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "tyranid_warrior",
+      "name": "Tyranid Warriors",
+      "points": 90,
+      "models_per_box": 3,
+      "box_price": 28
+    },
+    {
+      "id": "tyrannocyte",
+      "name": "Tyrannocyte",
+      "points": 105,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "tyrant_guard",
+      "name": "Tyrant Guard",
+      "points": 95,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "venomthropes",
+      "name": "Venomthropes",
+      "points": 70,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "von_ryan_leapers",
+      "name": "Von Ryan's Leapers",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "zoanthropes",
+      "name": "Zoanthropes",
+      "points": 90,
+      "models_per_box": 3,
+      "box_price": 35
+    }
+  ]
 }

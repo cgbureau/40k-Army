@@ -1,0 +1,38 @@
+{
+  "hearthkyn-warriors": {
+    "models": 10,
+    "price": 35
+  },
+  "brokhyr-thunderkyn": {
+    "models": 3,
+    "price": 35
+  },
+  "cthonian-beserks": {
+    "models": 5,
+    "price": 35
+  },
+  "hernkyn-pioneers": {
+    "models": 3,
+    "price": 42.5
+  },
+  "kahl": {
+    "models": 1,
+    "price": 26
+  },
+  "einhyr-champion": {
+    "models": 1,
+    "price": 26
+  },
+  "grimnyr": {
+    "models": 1,
+    "price": 26
+  },
+  "sagitaur": {
+    "models": 1,
+    "price": 42.5
+  },
+  "hekaton-land-fortress": {
+    "models": 1,
+    "price": 78
+  }
+}

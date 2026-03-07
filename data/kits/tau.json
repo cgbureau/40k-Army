@@ -1,0 +1,86 @@
+{
+  "strike-team": {
+    "models": 10,
+    "price": 31.5
+  },
+  "pathfinder-team": {
+    "models": 10,
+    "price": 31.5
+  },
+  "crisis-battlesuits": {
+    "models": 3,
+    "price": 54.5
+  },
+  "broadside-battlesuits": {
+    "models": 1,
+    "price": 42.5
+  },
+  "stealth-battlesuits": {
+    "models": 3,
+    "price": 35
+  },
+  "ghostkeel-battlesuit": {
+    "models": 1,
+    "price": 52
+  },
+  "riptide-battlesuit": {
+    "models": 1,
+    "price": 78
+  },
+  "cadre-fireblade": {
+    "models": 1,
+    "price": 26
+  },
+  "ethereal": {
+    "models": 1,
+    "price": 26
+  },
+  "commander-farsight": {
+    "models": 1,
+    "price": 26
+  },
+  "devilfish": {
+    "models": 1,
+    "price": 47.5
+  },
+  "hammerhead-gunship": {
+    "models": 1,
+    "price": 47.5
+  },
+  "piranha": {
+    "models": 1,
+    "price": 35
+  },
+  "sun-shark-bomber": {
+    "models": 1,
+    "price": 58
+  },
+  "kroot-carnivores": {
+    "models": 10,
+    "price": 28
+  },
+  "kroot-farstalkers": {
+    "models": 10,
+    "price": 35
+  },
+  "kroot-hounds": {
+    "models": 4,
+    "price": 26
+  },
+  "krootox-riders": {
+    "models": 1,
+    "price": 35
+  },
+  "vespid-stingwings": {
+    "models": 5,
+    "price": 28
+  },
+  "tactical-drones": {
+    "models": 4,
+    "price": 26
+  },
+  "tidewall": {
+    "models": 1,
+    "price": 42.5
+  }
+}

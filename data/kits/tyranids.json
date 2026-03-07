@@ -1,0 +1,118 @@
+{
+  "termagants": {
+    "models": 10,
+    "price": 28
+  },
+  "hormagaunts": {
+    "models": 10,
+    "price": 31.5
+  },
+  "genestealers": {
+    "models": 8,
+    "price": 28
+  },
+  "tyranid-warriors": {
+    "models": 3,
+    "price": 28
+  },
+  "biovore": {
+    "models": 1,
+    "price": 26
+  },
+  "broodlord": {
+    "models": 1,
+    "price": 26
+  },
+  "deathleaper": {
+    "models": 1,
+    "price": 26
+  },
+  "lictor": {
+    "models": 1,
+    "price": 26
+  },
+  "neurotyrant": {
+    "models": 1,
+    "price": 35
+  },
+  "parasite-of-mortrex": {
+    "models": 1,
+    "price": 26
+  },
+  "pyrovores": {
+    "models": 1,
+    "price": 26
+  },
+  "ripper-swarms": {
+    "models": 3,
+    "price": 26
+  },
+  "venomthropes": {
+    "models": 3,
+    "price": 35
+  },
+  "zoanthropes": {
+    "models": 3,
+    "price": 35
+  },
+  "raveners": {
+    "models": 3,
+    "price": 35
+  },
+  "von-ryan-leapers": {
+    "models": 3,
+    "price": 35
+  },
+  "tyrant-guard": {
+    "models": 3,
+    "price": 35
+  },
+  "carnifex": {
+    "models": 1,
+    "price": 42.5
+  },
+  "screamer-killer": {
+    "models": 1,
+    "price": 42.5
+  },
+  "haruspex": {
+    "models": 1,
+    "price": 42.5
+  },
+  "exocrine": {
+    "models": 1,
+    "price": 52
+  },
+  "maleceptor": {
+    "models": 1,
+    "price": 52
+  },
+  "mawloc": {
+    "models": 1,
+    "price": 52
+  },
+  "hive-tyrant": {
+    "models": 1,
+    "price": 52
+  },
+  "tervigon": {
+    "models": 1,
+    "price": 52
+  },
+  "harpy": {
+    "models": 1,
+    "price": 52
+  },
+  "hive-crone": {
+    "models": 1,
+    "price": 52
+  },
+  "tyrannocyte": {
+    "models": 1,
+    "price": 42.5
+  },
+  "norn-emissary": {
+    "models": 1,
+    "price": 78
+  }
+}

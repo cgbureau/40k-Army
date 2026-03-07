@@ -1,0 +1,38 @@
+{
+  "rubric-marines": {
+    "models": 10,
+    "price": 42.5
+  },
+  "scarab-occult-terminators": {
+    "models": 5,
+    "price": 42.5
+  },
+  "tzaangors": {
+    "models": 10,
+    "price": 28
+  },
+  "tzaangor-enlightened": {
+    "models": 3,
+    "price": 35
+  },
+  "exalted-sorcerers": {
+    "models": 3,
+    "price": 42.5
+  },
+  "ahriman": {
+    "models": 1,
+    "price": 35
+  },
+  "infernal-master": {
+    "models": 1,
+    "price": 26
+  },
+  "magnus-the-red": {
+    "models": 1,
+    "price": 105
+  },
+  "mutalith-vortex-beast": {
+    "models": 1,
+    "price": 52
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "faction": "Adeptus Mechanicus",
+  "units": [
+    {
+      "id": "corpuscarii_electro_priests",
+      "name": "Corpuscarii Electro-Priests",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "fulgurite_electro_priests",
+      "name": "Fulgurite Electro-Priests",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "ironstrider_ballistarii",
+      "name": "Ironstrider Ballistarii",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "kataphron_breachers",
+      "name": "Kataphron Breachers",
+      "points": 130,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "kataphron_destroyers",
+      "name": "Kataphron Destroyers",
+      "points": 120,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "onager_dunecrawler",
+      "name": "Onager Dunecrawler",
+      "points": 140,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "pteraxii_skystalkers",
+      "name": "Pteraxii Skystalkers",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "pteraxii_sterylizors",
+      "name": "Pteraxii Sterylizors",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "serberys_raiders",
+      "name": "Serberys Raiders",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "serberys_sulphurhounds",
+      "name": "Serberys Sulphurhounds",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "sicarian_infiltrators",
+      "name": "Sicarian Infiltrators",
+      "points": 70,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "sicarian_ruststalkers",
+      "name": "Sicarian Ruststalkers",
+      "points": 70,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "skitarii_rangers",
+      "name": "Skitarii Rangers",
+      "points": 90,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "skitarii_vanguard",
+      "name": "Skitarii Vanguard",
+      "points": 80,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "skorpius_disintegrator",
+      "name": "Skorpius Disintegrator",
+      "points": 195,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "skorpius_dunerider",
+      "name": "Skorpius Dunerider",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "sydonian_dragoon",
+      "name": "Sydonian Dragoon",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "tech_priest_dominus",
+      "name": "Tech-Priest Dominus",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "tech_priest_enginseer",
+      "name": "Tech-Priest Enginseer",
+      "points": 45,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "tech_priest_manipulus",
+      "name": "Tech-Priest Manipulus",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26
+    }
+  ]
+}

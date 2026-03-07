@@ -1,0 +1,82 @@
+{
+  "faction": "World Eaters",
+  "units": [
+    {
+      "id": "angron",
+      "name": "Angron",
+      "points": 415,
+      "models_per_box": 1,
+      "box_price": 105
+    },
+    {
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 36
+    },
+    {
+      "id": "eightbound",
+      "name": "Eightbound",
+      "points": 155,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "exalted_eightbound",
+      "name": "Exalted Eightbound",
+      "points": 180,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "jackals",
+      "name": "Jakhals",
+      "points": 70,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "kharn",
+      "name": "Khârn the Betrayer",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "berzerkers",
+      "name": "Khorne Berzerkers",
+      "points": 115,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "invocatus",
+      "name": "Lord Invocatus",
+      "points": 140,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "master_of_executions",
+      "name": "Master of Executions",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "maulerfiend",
+      "name": "Maulerfiend",
+      "points": 155,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "lord_on_jugger",
+      "name": "World Eaters Lord on Juggernaut",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 42.5
+    }
+  ]
+}

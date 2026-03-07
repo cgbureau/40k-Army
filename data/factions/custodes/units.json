@@ -1,0 +1,103 @@
+{
+  "faction": "Adeptus Custodes",
+  "units": [
+    {
+      "id": "allarus_custodians",
+      "name": "Allarus Custodians",
+      "points": 150,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "blade_champion",
+      "name": "Blade Champion",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "contemptor_achillus",
+      "name": "Contemptor-Achillus Dreadnought",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "contemptor_galatus",
+      "name": "Contemptor-Galatus Dreadnought",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "custodian_guard",
+      "name": "Custodian Guard",
+      "points": 150,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "custodian_wardens",
+      "name": "Custodian Wardens",
+      "points": 175,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "knight_centura",
+      "name": "Knight Centura",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "sagittarum_custodians",
+      "name": "Sagittarum Custodians",
+      "points": 175,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "shield_captain",
+      "name": "Shield Captain",
+      "points": 120,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "shield_captain_in_allarus",
+      "name": "Shield-Captain in Allarus Terminator Armour",
+      "points": 140,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "trajann_valoris",
+      "name": "Trajann Valoris",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "venatari",
+      "name": "Venatari Custodians",
+      "points": 130,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "vertus_praetors",
+      "name": "Vertus Praetors",
+      "points": 180,
+      "models_per_box": 3,
+      "box_price": 52
+    },
+    {
+      "id": "vexilus_praetor",
+      "name": "Vexilus Praetor",
+      "points": 105,
+      "models_per_box": 5,
+      "box_price": 42.5
+    }
+  ]
+}

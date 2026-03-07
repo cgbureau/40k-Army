@@ -1,0 +1,70 @@
+{
+  "kabalite-warriors": {
+    "models": 10,
+    "price": 31.5
+  },
+  "wyches": {
+    "models": 10,
+    "price": 31.5
+  },
+  "wracks": {
+    "models": 5,
+    "price": 28
+  },
+  "incubi": {
+    "models": 5,
+    "price": 35
+  },
+  "scourges": {
+    "models": 5,
+    "price": 35
+  },
+  "mandrakes": {
+    "models": 5,
+    "price": 35
+  },
+  "grotesques": {
+    "models": 3,
+    "price": 35
+  },
+  "hellions": {
+    "models": 5,
+    "price": 35
+  },
+  "reavers": {
+    "models": 3,
+    "price": 35
+  },
+  "archon": {
+    "models": 1,
+    "price": 26
+  },
+  "succubus": {
+    "models": 1,
+    "price": 26
+  },
+  "beastmaster": {
+    "models": 1,
+    "price": 26
+  },
+  "raider": {
+    "models": 1,
+    "price": 42.5
+  },
+  "ravager": {
+    "models": 1,
+    "price": 42.5
+  },
+  "venom": {
+    "models": 1,
+    "price": 35
+  },
+  "talos": {
+    "models": 1,
+    "price": 42.5
+  },
+  "cronos": {
+    "models": 1,
+    "price": 35
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "neophyte-hybrids": {
+    "models": 10,
+    "price": 31.5
+  },
+  "acolyte-hybrids": {
+    "models": 5,
+    "price": 28
+  },
+  "hybrid-metamorphs": {
+    "models": 5,
+    "price": 28
+  },
+  "purestrain-genestealers": {
+    "models": 8,
+    "price": 28
+  },
+  "aberrants": {
+    "models": 5,
+    "price": 35
+  },
+  "atalan-jackals": {
+    "models": 5,
+    "price": 35
+  },
+  "patriarch": {
+    "models": 1,
+    "price": 35
+  },
+  "primus": {
+    "models": 1,
+    "price": 26
+  },
+  "magus": {
+    "models": 1,
+    "price": 26
+  },
+  "nexos": {
+    "models": 1,
+    "price": 26
+  },
+  "kelermorph": {
+    "models": 1,
+    "price": 26
+  },
+  "sanctus": {
+    "models": 1,
+    "price": 26
+  },
+  "reductor": {
+    "models": 1,
+    "price": 26
+  },
+  "biophagus": {
+    "models": 1,
+    "price": 26
+  },
+  "goliath-truck": {
+    "models": 1,
+    "price": 42.5
+  },
+  "goliath-rockgrinder": {
+    "models": 1,
+    "price": 42.5
+  },
+  "ridgerunner": {
+    "models": 1,
+    "price": 35
+  }
+}

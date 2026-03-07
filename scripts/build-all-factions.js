@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 /**
- * Build faction datasets for every faction that has a kit-mappings file.
+ * Build faction datasets for every faction in army-data-no-legends.json.
  * Usage: node scripts/build-all-factions.js
  *
- * Discovers factions from data/kit-mappings/*.json and runs the pipeline for each.
+ * Loads data/army-data-no-legends.json, reads all faction keys, converts each to
+ * kebab-case slug (e.g. space_marines -> space-marines), and runs the dataset
+ * builder for each. Output: data/factions/{faction}/units.json per faction.
  */
 
 const fs = require("fs");
@@ -11,37 +13,64 @@ const path = require("path");
 const { buildFaction } = require("./build-faction-dataset.js");
 
 const DATA_DIR = path.join(__dirname, "..", "data");
-const KIT_MAPPINGS_DIR = path.join(DATA_DIR, "kit-mappings");
+const SOURCE_FILE = path.join(DATA_DIR, "army-data-no-legends.json");
+
+/** Convert faction_key to kebab-case slug for paths. */
+function factionKeyToSlug(key) {
+  return String(key || "")
+    .trim()
+    .toLowerCase()
+    .replace(/_/g, "-");
+}
 
 function main() {
-  if (!fs.existsSync(KIT_MAPPINGS_DIR)) {
-    console.log("No kit-mappings directory found. Nothing to build.");
+  if (!fs.existsSync(SOURCE_FILE)) {
+    console.log("Source file not found: " + SOURCE_FILE);
     return;
   }
 
-  const files = fs.readdirSync(KIT_MAPPINGS_DIR).filter((f) => f.endsWith(".json"));
-  const factions = files.map((f) => path.basename(f, ".json")).sort();
+  let data;
+  try {
+    data = JSON.parse(fs.readFileSync(SOURCE_FILE, "utf8"));
+  } catch (e) {
+    console.error("Invalid JSON in " + SOURCE_FILE + ": " + e.message);
+    return;
+  }
 
-  if (factions.length === 0) {
-    console.log("No faction kit-mappings found.");
+  const factionKeys = Object.keys(data.factions || {}).sort();
+  if (factionKeys.length === 0) {
+    console.log("No factions found in " + SOURCE_FILE);
     return;
   }
 
   console.log("Building faction datasets\n");
 
-  for (const factionSlug of factions) {
+  let totalUnitsProcessed = 0;
+  let totalUnitsEnriched = 0;
+  const datasetsGenerated = [];
+
+  for (const factionKey of factionKeys) {
+    const slug = factionKeyToSlug(factionKey);
     try {
-      const result = buildFaction(factionSlug);
+      const result = buildFaction(slug);
       console.log(result.factionName);
       console.log("Units processed:  " + result.unitsProcessed);
       console.log("Units enriched:   " + result.unitsEnriched);
       console.log("");
+      totalUnitsProcessed += result.unitsProcessed;
+      totalUnitsEnriched += result.unitsEnriched;
+      datasetsGenerated.push(result.factionName);
     } catch (err) {
-      console.error("Faction: " + factionSlug);
+      console.error("Faction: " + slug);
       console.error("Error: " + err.message);
       console.error("");
     }
   }
+
+  console.log("---");
+  console.log("Total factions processed: " + factionKeys.length);
+  console.log("Total units processed:   " + totalUnitsProcessed);
+  console.log("Datasets generated:      " + datasetsGenerated.length);
 }
 
 main();

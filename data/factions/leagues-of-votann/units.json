@@ -1,0 +1,68 @@
+{
+  "faction": "Leagues of Votann",
+  "units": [
+    {
+      "id": "brôkhyr_thunderkyn",
+      "name": "Brôkhyr Thunderkyn",
+      "points": 95,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "cthonian_beserks",
+      "name": "Cthonian Beserks",
+      "points": 100,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "einhyr_champion",
+      "name": "Einhyr Champion",
+      "points": 60,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "grimnyr",
+      "name": "Grimnyr",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "hearthkyn_warriors",
+      "name": "Hearthkyn Warriors",
+      "points": 110,
+      "models_per_box": 10,
+      "box_price": 35
+    },
+    {
+      "id": "land_fortress",
+      "name": "Hekaton Land Fortress",
+      "points": 225,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "hernkyn_pioneers",
+      "name": "Hernkyn Pioneers",
+      "points": 90,
+      "models_per_box": 3,
+      "box_price": 42.5
+    },
+    {
+      "id": "kâhl",
+      "name": "Kâhl",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "sagitaur",
+      "name": "Sagitaur",
+      "points": 130,
+      "models_per_box": 1,
+      "box_price": 42.5
+    }
+  ]
+}

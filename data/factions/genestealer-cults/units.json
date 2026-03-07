@@ -1,0 +1,124 @@
+{
+  "faction": "Genestealer Cults",
+  "units": [
+    {
+      "id": "aberrants",
+      "name": "Aberrants",
+      "points": 165,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "acolyte_hybrids",
+      "name": "Acolyte Hybrids",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "atalan_jackals",
+      "name": "Atalan Jackals",
+      "points": 70,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "biophagus",
+      "name": "Biophagus",
+      "points": 45,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "goliath_rockgrinder",
+      "name": "Goliath Rockgrinder",
+      "points": 155,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "goliath_truck",
+      "name": "Goliath Truck",
+      "points": 110,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "hybrid_metamorphs",
+      "name": "Hybrid Metamorphs",
+      "points": 90,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "kelermorph",
+      "name": "Kelermorph",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "magus",
+      "name": "Magus",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "neophyte_hybrids",
+      "name": "Neophyte Hybrids",
+      "points": 85,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "nexos",
+      "name": "Nexos",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "patriarch",
+      "name": "Patriarch",
+      "points": 210,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "primus",
+      "name": "Primus",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "purestrain_genestealers",
+      "name": "Purestrain Genestealers",
+      "points": 120,
+      "models_per_box": 8,
+      "box_price": 28
+    },
+    {
+      "id": "reductor",
+      "name": "Reductus Saboteur",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "ridgerunner",
+      "name": "Ridgerunner",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "sanctus",
+      "name": "Sanctus",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 26
+    }
+  ]
+}

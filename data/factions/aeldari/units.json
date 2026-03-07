@@ -1,0 +1,187 @@
+{
+  "faction": "Aeldari",
+  "units": [
+    {
+      "id": "autarch",
+      "name": "Autarch",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "autarch_wayleaper",
+      "name": "Autarch Wayleaper",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "avatar_of_khaine",
+      "name": "Avatar of Khaine",
+      "points": 270,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "crimson_hunter",
+      "name": "Crimson Hunter",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 58
+    },
+    {
+      "id": "dark_reapers",
+      "name": "Dark Reapers",
+      "points": 105,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "dire_avengers",
+      "name": "Dire Avengers",
+      "points": 70,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "farseer",
+      "name": "Farseer",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "farseer_skyrunner",
+      "name": "Farseer Skyrunner",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "fire_dragon",
+      "name": "Fire Dragons",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "fire_prism",
+      "name": "Fire Prism",
+      "points": 150,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "guardian_defenders",
+      "name": "Guardian Defenders",
+      "points": 110,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "hemlock_wraithfighter",
+      "name": "Hemlock Wraithfighter",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 58
+    },
+    {
+      "id": "howling_banshees",
+      "name": "Howling Banshees",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "jain_zar",
+      "name": "Jain Zar",
+      "points": 100,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "night_spinner",
+      "name": "Night Spinner",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "rangers",
+      "name": "Rangers",
+      "points": 55,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "shining_spears",
+      "name": "Shining Spears",
+      "points": 125,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "swooping_hawks",
+      "name": "Swooping Hawks",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "war_walker",
+      "name": "War Walker",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "points": 45,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "warlock_skyrunner",
+      "name": "Warlock Skyrunner",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 35
+    },
+    {
+      "id": "warp_spider",
+      "name": "Warp Spiders",
+      "points": 115,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "windrider",
+      "name": "Windriders",
+      "points": 80,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "wraithguard",
+      "name": "Wraithguard",
+      "points": 170,
+      "models_per_box": 5,
+      "box_price": 52
+    },
+    {
+      "id": "wraithknight",
+      "name": "Wraithknight",
+      "points": 475,
+      "models_per_box": 1,
+      "box_price": 105
+    },
+    {
+      "id": "wraithlord",
+      "name": "Wraithlord",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 42.5
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "faction": "Chaos Daemons",
+  "units": [
+    {
+      "id": "bloodcrushers",
+      "name": "Bloodcrushers",
+      "points": 120,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "bloodletters",
+      "name": "Bloodletters",
+      "points": 80,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "bloodthirster",
+      "name": "Bloodthirster",
+      "points": 320,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "daemon_prince",
+      "name": "Daemon Prince",
+      "points": 215,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "daemonettes",
+      "name": "Daemonettes",
+      "points": 120,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "exalted_flamer",
+      "name": "Exalted Flamer",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "flamers",
+      "name": "Flamers",
+      "points": 80,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "flesh_hounds",
+      "name": "Flesh Hounds",
+      "points": 70,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "great_unclean_one",
+      "name": "Great Unclean One",
+      "points": 260,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "keeper_of_secrets",
+      "name": "Keeper of Secrets",
+      "points": 260,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "lord_of_change",
+      "name": "Lord of Change",
+      "points": 230,
+      "models_per_box": 1,
+      "box_price": 78
+    },
+    {
+      "id": "nurglings",
+      "name": "Nurglings",
+      "points": 40,
+      "models_per_box": 3,
+      "box_price": 26
+    },
+    {
+      "id": "pink_horrors",
+      "name": "Pink Horrors",
+      "points": 125,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "plaguebearers",
+      "name": "Plaguebearers",
+      "points": 80,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "screamers",
+      "name": "Screamers",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "seekers",
+      "name": "Seekers",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "soul_grinder",
+      "name": "Soul Grinder",
+      "points": 230,
+      "models_per_box": 1,
+      "box_price": 58
+    }
+  ]
+}

@@ -1,4 +1,201 @@
 {
   "faction": "Chaos Space Marines",
-  "units": []
+  "units": [
+    {
+      "id": "abbadon",
+      "name": "Abaddon the Despoiler",
+      "points": 310,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "accursed_cultists",
+      "name": "Accursed Cultists",
+      "points": 115,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "chaos_bikers",
+      "name": "Chaos Bikers",
+      "points": 85,
+      "models_per_box": 3,
+      "box_price": 40
+    },
+    {
+      "id": "chaos_land_raider",
+      "name": "Chaos Land Raider",
+      "points": 220,
+      "models_per_box": 1,
+      "box_price": 58
+    },
+    {
+      "id": "lord",
+      "name": "Chaos Lord",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "lord_on_chaos_steed",
+      "name": "Chaos Lord on Chaos Steed",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "chaos_predator",
+      "name": "Chaos Predator",
+      "points": 140,
+      "models_per_box": 1,
+      "box_price": 47.5
+    },
+    {
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 36
+    },
+    {
+      "id": "chaos_terminators",
+      "name": "Chaos Terminator Squad",
+      "points": 195,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "vindicator",
+      "name": "Chaos Vindicator",
+      "points": 190,
+      "models_per_box": 1,
+      "box_price": 47.5
+    },
+    {
+      "id": "chosen",
+      "name": "Chosen",
+      "points": 140,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "cultist_mob",
+      "name": "Cultist Mob",
+      "points": 55,
+      "models_per_box": 10,
+      "box_price": 28
+    },
+    {
+      "id": "dark_apostle",
+      "name": "Dark Apostle",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "defiler",
+      "name": "Defiler",
+      "points": 195,
+      "models_per_box": 1,
+      "box_price": 58
+    },
+    {
+      "id": "forgefiend",
+      "name": "Forgefiend",
+      "points": 180,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "havocs",
+      "name": "Havocs",
+      "points": 135,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "helbrute",
+      "name": "Helbrute",
+      "points": 155,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "master_of_executions",
+      "name": "Master of Executions",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "maulerfiend",
+      "name": "Maulerfiend",
+      "points": 155,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "noise_marines",
+      "name": "Noise Marines",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "obliterators",
+      "name": "Obliterators",
+      "points": 260,
+      "models_per_box": 2,
+      "box_price": 42.5
+    },
+    {
+      "id": "possessed",
+      "name": "Possessed",
+      "points": 145,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "raptors",
+      "name": "Raptors",
+      "points": 95,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "sorcerer",
+      "name": "Sorcerer",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "sorcerer_in_terminator_armour",
+      "name": "Sorcerer in Terminator Armour",
+      "points": 105,
+      "models_per_box": 5,
+      "box_price": 42.5
+    },
+    {
+      "id": "venomcrawler",
+      "name": "Venomcrawler",
+      "points": 120,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "talons",
+      "name": "Warp Talons",
+      "points": 115,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "warpsmith",
+      "name": "Warpsmith",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 26
+    }
+  ]
 }

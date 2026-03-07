@@ -1,0 +1,201 @@
+{
+  "faction": "Astra Militarum",
+  "units": [
+    {
+      "id": "armoured_sentinel",
+      "name": "Armoured Sentinel",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "baneblade",
+      "name": "Baneblade",
+      "points": 480,
+      "models_per_box": 1,
+      "box_price": 105
+    },
+    {
+      "id": "basilisk",
+      "name": "Basilisk",
+      "points": 135,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "cadian_shock_troops",
+      "name": "Cadian Shock Troops",
+      "points": 60,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "castellan",
+      "name": "Castellan",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "catachan_jungle_fighters",
+      "name": "Catachan Jungle Fighters",
+      "points": 55,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "commissar",
+      "name": "Commissar",
+      "points": 30,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "death_korps_of_krieg",
+      "name": "Death Korps of Krieg",
+      "points": 65,
+      "models_per_box": 10,
+      "box_price": 35
+    },
+    {
+      "id": "field_ordnance_battery",
+      "name": "Field Ordnance Battery",
+      "points": 120,
+      "models_per_box": 2,
+      "box_price": 42.5
+    },
+    {
+      "id": "mortar_team",
+      "name": "Heavy Weapons Squad",
+      "points": 60,
+      "models_per_box": 3,
+      "box_price": 28
+    },
+    {
+      "id": "hellhound",
+      "name": "Hellhound",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 47.5
+    },
+    {
+      "id": "hydra",
+      "name": "Hydra",
+      "points": 110,
+      "models_per_box": 1,
+      "box_price": 47.5
+    },
+    {
+      "id": "infantry_squad",
+      "name": "Infantry Squad",
+      "points": 60,
+      "models_per_box": 10,
+      "box_price": 31.5
+    },
+    {
+      "id": "battle_tank",
+      "name": "Leman Russ Battle Tank",
+      "points": 195,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "demolisher",
+      "name": "Leman Russ Demolisher",
+      "points": 200,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "lord_solar_leontus",
+      "name": "Lord Solar Leontus",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "manticore",
+      "name": "Manticore",
+      "points": 150,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "medusa",
+      "name": "Medusa",
+      "points": 130,
+      "models_per_box": 1,
+      "box_price": 47.5
+    },
+    {
+      "id": "ogryn",
+      "name": "Ogryn Squad",
+      "points": 130,
+      "models_per_box": 3,
+      "box_price": 35
+    },
+    {
+      "id": "ratling",
+      "name": "Ratlings",
+      "points": 60,
+      "models_per_box": 5,
+      "box_price": 26
+    },
+    {
+      "id": "rogue_trader",
+      "name": "Rogue Trader",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "rough_riders",
+      "name": "Rough Riders",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 35
+    },
+    {
+      "id": "scout_sentinel",
+      "name": "Scout Sentinel",
+      "points": 60,
+      "models_per_box": 1,
+      "box_price": 42.5
+    },
+    {
+      "id": "sergeant_hatt",
+      "name": "Sergeant Harker",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 26
+    },
+    {
+      "id": "tank_commander",
+      "name": "Tank Commander",
+      "points": 205,
+      "models_per_box": 1,
+      "box_price": 52
+    },
+    {
+      "id": "tempestus_scions",
+      "name": "Tempestus Scions",
+      "points": 55,
+      "models_per_box": 5,
+      "box_price": 28
+    },
+    {
+      "id": "valkyrie",
+      "name": "Valkyrie",
+      "points": 170,
+      "models_per_box": 1,
+      "box_price": 58
+    },
+    {
+      "id": "wyvern",
+      "name": "Wyvern",
+      "points": 110,
+      "models_per_box": 1,
+      "box_price": 47.5
+    }
+  ]
+}

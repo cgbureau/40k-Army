@@ -1,0 +1,134 @@
+{
+  "necron-annihilation-barge": {
+    "models": 1,
+    "price": 42.5
+  },
+  "necron-canoptek-doomstalker": {
+    "models": 1,
+    "price": 42.5
+  },
+  "necron-canoptek-reanimator": {
+    "models": 1,
+    "price": 35
+  },
+  "necron-canoptek-spyder": {
+    "models": 1,
+    "price": 35
+  },
+  "necron-catacomb-command-barge": {
+    "models": 1,
+    "price": 42.5
+  },
+  "necron-chronomancer": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-cryptothralls": {
+    "models": 2,
+    "price": 26
+  },
+  "necron-ctan-nightbringer": {
+    "models": 1,
+    "price": 42.5
+  },
+  "necron-ctan-void-dragon": {
+    "models": 1,
+    "price": 52
+  },
+  "necron-doomsday-ark": {
+    "models": 1,
+    "price": 58
+  },
+  "necron-doom-scythe": {
+    "models": 1,
+    "price": 58
+  },
+  "necron-flayed-ones": {
+    "models": 5,
+    "price": 28
+  },
+  "necron-hexmark-destroyer": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-immortals": {
+    "models": 5,
+    "price": 28
+  },
+  "necron-lychguard": {
+    "models": 5,
+    "price": 35
+  },
+  "necron-lokhust-destroyers": {
+    "models": 3,
+    "price": 35
+  },
+  "necron-lokhust-heavy-destroyers": {
+    "models": 1,
+    "price": 35
+  },
+  "necron-monolith": {
+    "models": 1,
+    "price": 105
+  },
+  "necron-obelisk": {
+    "models": 1,
+    "price": 78
+  },
+  "necron-ophydian-destroyers": {
+    "models": 3,
+    "price": 35
+  },
+  "necron-overlord": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-plasmancer": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-psychomancer": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-royal-warden": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-scarab-swarms": {
+    "models": 9,
+    "price": 26
+  },
+  "necron-skorpekh-destroyers": {
+    "models": 3,
+    "price": 35
+  },
+  "necron-technomancer": {
+    "models": 1,
+    "price": 26
+  },
+  "necron-tesseract-vault": {
+    "models": 1,
+    "price": 175
+  },
+  "necron-tomb-blades": {
+    "models": 3,
+    "price": 35
+  },
+  "necron-transcendent-ctan": {
+    "models": 1,
+    "price": 35
+  },
+  "necron-triarch-praetorians": {
+    "models": 5,
+    "price": 35
+  },
+  "necron-triarch-stalker": {
+    "models": 1,
+    "price": 47.5
+  },
+  "necron-warriors": {
+    "models": 10,
+    "price": 31.5
+  }
+}

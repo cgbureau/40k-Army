@@ -1,31 +1,18 @@
 {
-  "ork-boyz": { "models": 10, "price": 30 },
-  "ork-nobz": { "models": 5, "price": 27 },
-  "meganobz": { "models": 3, "price": 44.5 },
-  "lootas-burna-boyz": { "models": 5, "price": 27 },
-  "gretchin": { "models": 10, "price": 16 },
-  "stormboyz": { "models": 5, "price": 27 },
-  "ork-kommandos": { "models": 10, "price": 42.5 },
-  "flash-gitz": { "models": 5, "price": 35 },
-  "deff-dread": { "models": 1, "price": 44 },
-  "killa-kans": { "models": 3, "price": 35 },
-  "ork-trukk": { "models": 1, "price": 37.5 },
-  "battlewagon": { "models": 1, "price": 60 },
-  "beastboss": { "models": 1, "price": 22 },
-  "big-mek-in-mega-armour": { "models": 1, "price": 22 },
-  "big-mek-with-shokk-attack-gun": { "models": 1, "price": 22 },
-  "deffkoptas": { "models": 3, "price": 35 },
-  "hunta-rig": { "models": 1, "price": 60 },
-  "kill-rig": { "models": 1, "price": 60 },
-  "mek": { "models": 1, "price": 22 },
-  "painboy": { "models": 1, "price": 22 },
-  "rukkatrukk-squigbuggy": { "models": 1, "price": 35 },
-  "shokkjump-dragsta": { "models": 1, "price": 35 },
-  "beast-snagga-boyz": { "models": 10, "price": 30 },
-  "squighog-boyz": { "models": 3, "price": 35 },
-  "tankbustas": { "models": 5, "price": 27 },
-  "ork-warboss": { "models": 1, "price": 22 },
-  "warboss-in-mega-armour": { "models": 1, "price": 27 },
-  "weirdboy": { "models": 1, "price": 22 },
-  "zodgrod-wortsnagga": { "models": 1, "price": 22 }
+  "ork-battlewagon": {
+    "models": 1,
+    "price": 50
+  },
+  "ork-beastboss": {
+    "models": 1,
+    "price": 26
+  },
+  "ork-boyz": {
+    "models": 10,
+    "price": 35
+  },
+  "ork-deffkoptas": {
+    "models": 5,
+    "price": 38
+  }
 }

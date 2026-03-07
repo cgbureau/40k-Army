@@ -1,0 +1,22 @@
+{
+  "grey-knights-strike-squad": {
+    "models": 5,
+    "price": 42.5
+  },
+  "grey-knights-terminators": {
+    "models": 5,
+    "price": 42.5
+  },
+  "nemesis-dreadknight": {
+    "models": 1,
+    "price": 52
+  },
+  "castellan-crowe": {
+    "models": 1,
+    "price": 26
+  },
+  "kaldor-draigo": {
+    "models": 1,
+    "price": 35
+  }
+}

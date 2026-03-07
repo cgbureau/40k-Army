@@ -1,0 +1,42 @@
+{
+  "khorne-berzerkers": {
+    "models": 5,
+    "price": 42.5
+  },
+  "jakhals": {
+    "models": 10,
+    "price": 28
+  },
+  "eightbound": {
+    "models": 3,
+    "price": 42.5
+  },
+  "angron": {
+    "models": 1,
+    "price": 105
+  },
+  "kharn": {
+    "models": 1,
+    "price": 26
+  },
+  "lord-invocatus": {
+    "models": 1,
+    "price": 42.5
+  },
+  "lord-on-jugger": {
+    "models": 1,
+    "price": 42.5
+  },
+  "master-of-executions": {
+    "models": 1,
+    "price": 26
+  },
+  "chaos-rhino": {
+    "models": 1,
+    "price": 36
+  },
+  "maulerfiend": {
+    "models": 1,
+    "price": 52
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "plague-marines": {
+    "models": 7,
+    "price": 42.5
+  },
+  "poxwalkers": {
+    "models": 10,
+    "price": 28
+  },
+  "cultist-mob": {
+    "models": 10,
+    "price": 28
+  },
+  "blightlord-terminators": {
+    "models": 5,
+    "price": 42.5
+  },
+  "death-shroud": {
+    "models": 3,
+    "price": 42.5
+  },
+  "lord-of-contagion": {
+    "models": 1,
+    "price": 35
+  },
+  "lord-of-virulence": {
+    "models": 1,
+    "price": 35
+  },
+  "malignant-plaguecaster": {
+    "models": 1,
+    "price": 26
+  },
+  "typhus": {
+    "models": 1,
+    "price": 35
+  },
+  "mortarion": {
+    "models": 1,
+    "price": 105
+  },
+  "foetid-bloat-drone": {
+    "models": 1,
+    "price": 42.5
+  },
+  "myphitic-blight-haulers": {
+    "models": 3,
+    "price": 42.5
+  },
+  "plagueburst-crawler": {
+    "models": 1,
+    "price": 52
+  },
+  "chaos-rhino": {
+    "models": 1,
+    "price": 36
+  }
+}

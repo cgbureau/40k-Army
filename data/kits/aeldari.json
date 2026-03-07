@@ -1,0 +1,106 @@
+{
+  "guardian-defenders": {
+    "models": 10,
+    "price": 31.5
+  },
+  "dire-avengers": {
+    "models": 5,
+    "price": 28
+  },
+  "rangers": {
+    "models": 5,
+    "price": 28
+  },
+  "howling-banshees": {
+    "models": 5,
+    "price": 35
+  },
+  "fire-dragons": {
+    "models": 5,
+    "price": 35
+  },
+  "swooping-hawks": {
+    "models": 5,
+    "price": 35
+  },
+  "warp-spiders": {
+    "models": 5,
+    "price": 35
+  },
+  "dark-reapers": {
+    "models": 5,
+    "price": 35
+  },
+  "wraithguard": {
+    "models": 5,
+    "price": 52
+  },
+  "windriders": {
+    "models": 3,
+    "price": 35
+  },
+  "shining-spears": {
+    "models": 3,
+    "price": 35
+  },
+  "farseer": {
+    "models": 1,
+    "price": 26
+  },
+  "farseer-skyrunner": {
+    "models": 1,
+    "price": 35
+  },
+  "warlock": {
+    "models": 1,
+    "price": 26
+  },
+  "warlock-skyrunner": {
+    "models": 1,
+    "price": 35
+  },
+  "autarch": {
+    "models": 1,
+    "price": 26
+  },
+  "autarch-wayleaper": {
+    "models": 1,
+    "price": 26
+  },
+  "jain-zar": {
+    "models": 1,
+    "price": 35
+  },
+  "war-walker": {
+    "models": 1,
+    "price": 35
+  },
+  "wraithlord": {
+    "models": 1,
+    "price": 42.5
+  },
+  "avatar-of-khaine": {
+    "models": 1,
+    "price": 78
+  },
+  "fire-prism": {
+    "models": 1,
+    "price": 52
+  },
+  "night-spinner": {
+    "models": 1,
+    "price": 52
+  },
+  "crimson-hunter": {
+    "models": 1,
+    "price": 58
+  },
+  "hemlock-wraithfighter": {
+    "models": 1,
+    "price": 58
+  },
+  "wraithknight": {
+    "models": 1,
+    "price": 105
+  }
+}
