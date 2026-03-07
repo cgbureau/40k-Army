@@ -5,78 +5,78 @@
       "id": "brother_captain",
       "name": "Brother-Captain",
       "points": 95,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "brotherhood_librarian",
       "name": "Brotherhood Librarian",
       "points": 90,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "brotherhood_terminator_squad",
       "name": "Brotherhood Terminator Squad",
       "points": 225,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "castellan_crowe",
       "name": "Castellan Crowe",
       "points": 75,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "grand_master_in_nemesis_dreadknight",
       "name": "Grand Master in Nemesis Dreadknight",
       "points": 230,
-      "models_per_box": 1,
-      "box_price": 52
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "grey_knights_strike_squad",
       "name": "Grey Knights Strike Squad",
       "points": 125,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "interceptor_squad",
       "name": "Interceptor Squad",
       "points": 135,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "kaldor_draigo",
       "name": "Kaldor Draigo",
       "points": 125,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "nemesis_dreadknight",
       "name": "Nemesis Dreadknight",
       "points": 215,
-      "models_per_box": 1,
-      "box_price": 52
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "paladin_squad",
       "name": "Paladin Squad",
       "points": 255,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "purifier_squad",
       "name": "Purifier Squad",
       "points": 135,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     }
   ]
 }

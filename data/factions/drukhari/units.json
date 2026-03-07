@@ -5,120 +5,120 @@
       "id": "archon",
       "name": "Archon",
       "points": 85,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "beastmaster",
       "name": "Beastmaster",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "cronos",
       "name": "Cronos",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "grotesques",
       "name": "Grotesques",
       "points": 105,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "hellions",
       "name": "Hellions",
       "points": 90,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "incubi",
       "name": "Incubi",
       "points": 85,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "kabalite_warriors",
       "name": "Kabalite Warriors",
       "points": 110,
-      "models_per_box": 10,
-      "box_price": 31.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "mandrakes",
       "name": "Mandrakes",
       "points": 65,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "raider",
       "name": "Raider",
       "points": 90,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "ravager",
       "name": "Ravager",
       "points": 115,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "reavers",
       "name": "Reavers",
       "points": 70,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "scourges",
       "name": "Scourges",
       "points": 75,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "succubus",
       "name": "Succubus",
       "points": 55,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "talos",
       "name": "Talos",
       "points": 90,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "venom",
       "name": "Venom",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "wracks",
       "name": "Wracks",
       "points": 65,
-      "models_per_box": 5,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "wyches",
       "name": "Wyches",
       "points": 90,
-      "models_per_box": 10,
-      "box_price": 31.5
+      "models_per_box": null,
+      "box_price": null
     }
   ]
 }

@@ -5,120 +5,120 @@
       "id": "bloodcrushers",
       "name": "Bloodcrushers",
       "points": 120,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "bloodletters",
       "name": "Bloodletters",
       "points": 80,
-      "models_per_box": 10,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "bloodthirster",
       "name": "Bloodthirster",
       "points": 320,
-      "models_per_box": 1,
-      "box_price": 78
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "daemon_prince",
       "name": "Daemon Prince",
       "points": 215,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "daemonettes",
       "name": "Daemonettes",
       "points": 120,
-      "models_per_box": 10,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "exalted_flamer",
       "name": "Exalted Flamer",
       "points": 70,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "flamers",
       "name": "Flamers",
       "points": 80,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "flesh_hounds",
       "name": "Flesh Hounds",
       "points": 70,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "great_unclean_one",
       "name": "Great Unclean One",
       "points": 260,
-      "models_per_box": 1,
-      "box_price": 78
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "keeper_of_secrets",
       "name": "Keeper of Secrets",
       "points": 260,
-      "models_per_box": 1,
-      "box_price": 78
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lord_of_change",
       "name": "Lord of Change",
       "points": 230,
-      "models_per_box": 1,
-      "box_price": 78
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "nurglings",
       "name": "Nurglings",
       "points": 40,
-      "models_per_box": 3,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "pink_horrors",
       "name": "Pink Horrors",
       "points": 125,
-      "models_per_box": 10,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "plaguebearers",
       "name": "Plaguebearers",
       "points": 80,
-      "models_per_box": 10,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "screamers",
       "name": "Screamers",
       "points": 75,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "seekers",
       "name": "Seekers",
       "points": 85,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "soul_grinder",
       "name": "Soul Grinder",
       "points": 230,
-      "models_per_box": 1,
-      "box_price": 58
+      "models_per_box": null,
+      "box_price": null
     }
   ]
 }

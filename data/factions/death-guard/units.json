@@ -5,106 +5,106 @@
       "id": "blightlord_terminators",
       "name": "Blightlord Terminators",
       "points": 165,
-      "models_per_box": 5,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "bloat_drone",
       "name": "Bloat-drone",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "chaos_rhino",
       "name": "Chaos Rhino",
       "points": 75,
-      "models_per_box": 1,
-      "box_price": 36
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "death_guard_cultists",
       "name": "Cultist Mob",
       "points": 55,
-      "models_per_box": 10,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "death_shroud",
       "name": "Death Shroud Terminators",
       "points": 140,
-      "models_per_box": 3,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "foetid_bloat_drone",
       "name": "Foetid Bloat-drone",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lord_of_contagion",
       "name": "Lord of Contagion",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lord_of_virulence",
       "name": "Lord of Virulence",
       "points": 95,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "malignant_plaguecaster",
       "name": "Malignant Plaguecaster",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "mortarion",
       "name": "Mortarion",
       "points": 325,
-      "models_per_box": 1,
-      "box_price": 105
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "myphitic_blight_haulers",
       "name": "Myphitic Blight-haulers",
       "points": 100,
-      "models_per_box": 3,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "plague_marines",
       "name": "Plague Marines",
       "points": 100,
-      "models_per_box": 7,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "plagueburst_crawler",
       "name": "Plagueburst Crawler",
       "points": 165,
-      "models_per_box": 1,
-      "box_price": 52
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "poxwalkers",
       "name": "Poxwalkers",
       "points": 60,
-      "models_per_box": 10,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "typhus",
       "name": "Typhus",
       "points": 115,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     }
   ]
 }

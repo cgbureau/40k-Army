@@ -5,267 +5,267 @@
       "id": "annihilation_barge",
       "name": "Annihilation Barge",
       "points": 115,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "c'tan_shard_of_the_nightbringer",
       "name": "C'tan Shard of the Nightbringer",
       "points": 255,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "c'tan_shard_of_the_void_dragon",
       "name": "C'tan Shard of the Void Dragon",
       "points": 270,
-      "models_per_box": 1,
-      "box_price": 52
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "canoptek_doomstalker",
       "name": "Canoptek Doomstalker",
       "points": 135,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "canoptek_reanimator",
       "name": "Canoptek Reanimator",
       "points": 75,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "canoptek_spyder",
       "name": "Canoptek Spyder",
       "points": 65,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "catacomb_command_barge",
       "name": "Catacomb Command Barge",
       "points": 185,
-      "models_per_box": 1,
-      "box_price": 42.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "chronomancer",
       "name": "Chronomancer",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "cryptothralls",
       "name": "Cryptothralls",
       "points": 40,
-      "models_per_box": 2,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "deathmarks",
       "name": "Deathmarks",
       "points": 65,
-      "models_per_box": 5,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "doom_scythe",
       "name": "Doom Scythe",
       "points": 225,
-      "models_per_box": 1,
-      "box_price": 58
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "doomsday_ark",
       "name": "Doomsday Ark",
       "points": 200,
-      "models_per_box": 1,
-      "box_price": 58
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "flayed_ones",
       "name": "Flayed Ones",
       "points": 70,
-      "models_per_box": 5,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "hexmark_destroyer",
       "name": "Hexmark Destroyer",
       "points": 70,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "immortals",
       "name": "Immortals",
       "points": 70,
-      "models_per_box": 5,
-      "box_price": 28
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lokhust_destroyers",
       "name": "Lokhust Destroyers",
       "points": 120,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lokhust_heavy_destroyers",
       "name": "Lokhust Heavy Destroyers",
       "points": 90,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lord",
       "name": "Lord",
       "points": 65,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lord_overlord",
       "name": "Lord Overlord",
       "points": 85,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lichguard",
       "name": "Lychguard",
       "points": 95,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "lychguard",
       "name": "Lychguard",
       "points": 95,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "monolith",
       "name": "Monolith",
       "points": 385,
-      "models_per_box": 1,
-      "box_price": 105
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "necron_warriors",
       "name": "Necron Warriors",
       "points": 110,
-      "models_per_box": 10,
-      "box_price": 31.5
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "night_scythe",
       "name": "Night Scythe",
       "points": 150,
-      "models_per_box": 1,
-      "box_price": 58
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "obelisk",
       "name": "Obelisk",
       "points": 180,
-      "models_per_box": 1,
-      "box_price": 78
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "ophydian_destroyers",
       "name": "Ophydian Destroyers",
       "points": 110,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "overlord",
       "name": "Overlord",
       "points": 85,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "plasmancer",
       "name": "Plasmancer",
       "points": 55,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "psychomancer",
       "name": "Psychomancer",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "royal_warden",
       "name": "Royal Warden",
       "points": 40,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "scarab_swarms",
       "name": "Scarab Swarms",
       "points": 40,
-      "models_per_box": 9,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "skorpekh_destroyers",
       "name": "Skorpekh Destroyers",
       "points": 120,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "technomancer",
       "name": "Technomancer",
       "points": 55,
-      "models_per_box": 1,
-      "box_price": 26
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "vault",
       "name": "Tesseract Vault",
       "points": 400,
-      "models_per_box": 1,
-      "box_price": 175
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "tomb_blades",
       "name": "Tomb Blades",
       "points": 80,
-      "models_per_box": 3,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "transcendent_c'tan",
       "name": "Transcendent C'tan",
       "points": 290,
-      "models_per_box": 1,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "triarch_praetorians",
       "name": "Triarch Praetorians",
       "points": 120,
-      "models_per_box": 5,
-      "box_price": 35
+      "models_per_box": null,
+      "box_price": null
     },
     {
       "id": "triarch_stalker",
       "name": "Triarch Stalker",
       "points": 125,
-      "models_per_box": 1,
-      "box_price": 47.5
+      "models_per_box": null,
+      "box_price": null
     }
   ]
 }
