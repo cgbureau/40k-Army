@@ -1,4 +1,4 @@
-import { Analytics } from '@vercel/analytics/react'
+import { Analytics } from '@vercel/analytics/next'
 import type { Metadata } from "next";
 import { Workbench, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en" className={`${workbench.variable} ${ibmPlexMono.variable}`}>
       <body className="font-plex-mono antialiased bg-[#B2C4AE] text-[#231F20]">
         {children}
+        <Analytics />
       </body>
     </html>
   );
