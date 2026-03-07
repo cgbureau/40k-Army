@@ -37,23 +37,23 @@ async function main() {
     try {
       const report = await downloadFactionImages(faction);
       if (report.error) {
-        console.log(report.factionName);
-        console.log("Error: " + report.error);
+        console.log("Faction:", report.factionName);
+        console.log("Error:", report.error);
         console.log("");
         continue;
       }
-      console.log(report.factionName);
-      console.log("Units processed:   " + report.unitsProcessed);
-      console.log("Images downloaded: " + report.imagesDownloaded);
-      console.log("Images skipped:    " + report.imagesSkipped);
-      console.log("Images failed:     " + report.imagesFailed);
+      console.log("Faction:", report.factionName);
+      console.log("Units processed:", report.unitsProcessed);
+      console.log("Downloaded:", report.downloaded);
+      console.log("Skipped:", report.skipped);
+      console.log("Failed:", report.failed);
       if (report.failedUnits.length > 0) {
-        console.log("Failed units: " + report.failedUnits.length);
+        report.failedUnits.forEach((n) => console.log("FAILED:", n));
       }
       console.log("");
     } catch (err) {
-      console.log(faction);
-      console.log("Error: " + (err.message || String(err)));
+      console.log("Faction:", faction);
+      console.log("Error:", err.message || String(err));
       console.log("");
     }
   }

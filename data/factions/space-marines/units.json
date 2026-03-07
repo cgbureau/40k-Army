@@ -6,648 +6,567 @@
       "name": "Aggressor Squad",
       "points": 95,
       "models_per_box": 3,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "ancient",
       "name": "Ancient",
       "points": 50,
       "models_per_box": 1,
-      "box_price": 27,
-      "is_legends": false
+      "box_price": 27
     },
     {
       "id": "ancient_in_terminator_armor",
       "name": "Ancient in Terminator Armor",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 29,
-      "is_legends": false
+      "box_price": 29
     },
     {
       "id": "apothecary",
       "name": "Apothecary",
       "points": 50,
       "models_per_box": 1,
-      "box_price": 26,
-      "is_legends": false
+      "box_price": 26
     },
     {
       "id": "apothecary_biologis",
       "name": "Apothecary Biologis",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null,
-      "is_legends": false
+      "models_per_box": 1,
+      "box_price": 25
     },
     {
       "id": "assault_intercessor_squad",
       "name": "Assault Intercessor Squad",
       "points": 75,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "assault_intercessors_with_jump_packs",
       "name": "Assault Intercessors with Jump Packs",
       "points": 90,
       "models_per_box": 5,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "astraeus",
       "name": "Astraeus",
       "points": 525,
       "models_per_box": 1,
-      "box_price": 286,
-      "is_legends": false
+      "box_price": 286
     },
     {
       "id": "ballistus_dreadnought",
       "name": "Ballistus Dreadnought",
       "points": 150,
       "models_per_box": 1,
-      "box_price": 44.5,
-      "is_legends": false
+      "box_price": 44.5
     },
     {
       "id": "bladeguard_ancient",
       "name": "Bladeguard Ancient",
       "points": 45,
       "models_per_box": 1,
-      "box_price": 105,
-      "is_legends": false
+      "box_price": 105
     },
     {
       "id": "bladeguard_veteran_squad",
       "name": "Bladeguard Veteran Squad",
       "points": 80,
       "models_per_box": 3,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "brutalis_dreadnought",
       "name": "Brutalis Dreadnought",
       "points": 160,
       "models_per_box": 1,
-      "box_price": 52,
-      "is_legends": false
+      "box_price": 52
     },
     {
       "id": "captain",
       "name": "Captain",
       "points": 80,
       "models_per_box": 1,
-      "box_price": 27,
-      "is_legends": false
+      "box_price": 27
     },
     {
       "id": "captain_in_gravis_armour",
       "name": "Captain in Gravis Armour",
       "points": 80,
       "models_per_box": 1,
-      "box_price": 27,
-      "is_legends": false
+      "box_price": 27
     },
     {
       "id": "captain_in_phobos_armour",
       "name": "Captain in Phobos Armour",
       "points": 70,
       "models_per_box": 1,
-      "box_price": 27,
-      "is_legends": false
+      "box_price": 27
     },
     {
       "id": "captain_in_terminator_armour",
       "name": "Captain in Terminator Armour",
       "points": 95,
       "models_per_box": 1,
-      "box_price": 29,
-      "is_legends": false
+      "box_price": 29
     },
     {
       "id": "captain_with_jump_pack",
       "name": "Captain with Jump Pack",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 27,
-      "is_legends": false
+      "box_price": 27
     },
     {
       "id": "centurion_assault_squad",
       "name": "Centurion Assault Squad",
       "points": 150,
       "models_per_box": 3,
-      "box_price": 50,
-      "is_legends": false
+      "box_price": 50
     },
     {
       "id": "centurion_devastator_squad",
       "name": "Centurion Devastator Squad",
       "points": 175,
       "models_per_box": 3,
-      "box_price": 50,
-      "is_legends": false
+      "box_price": 50
     },
     {
       "id": "chaplain",
       "name": "Chaplain",
       "points": 60,
       "models_per_box": 1,
-      "box_price": 26,
-      "is_legends": false
+      "box_price": 26
     },
     {
       "id": "chaplain_in_terminator_armour",
       "name": "Chaplain in Terminator Armour",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 29,
-      "is_legends": false
+      "box_price": 29
     },
     {
       "id": "chaplain_on_bike",
       "name": "Chaplain on Bike",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 35.5,
-      "is_legends": false
+      "box_price": 35.5
     },
     {
       "id": "chaplain_with_jump_pack",
       "name": "Chaplain with Jump Pack",
       "points": 75,
-      "models_per_box": null,
-      "box_price": null,
-      "is_legends": false
+      "models_per_box": 1,
+      "box_price": 25
     },
     {
       "id": "company_heroes",
       "name": "Company Heroes",
       "points": 105,
       "models_per_box": 5,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "desolation_squad",
       "name": "Desolation Squad",
       "points": 200,
       "models_per_box": 3,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "devastator_squad",
       "name": "Devastator Squad",
       "points": 120,
       "models_per_box": 6,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "dreadnought",
       "name": "Dreadnought",
       "points": 135,
-      "models_per_box": null,
-      "box_price": null,
-      "is_legends": false
+      "models_per_box": 1,
+      "box_price": 25
     },
     {
       "id": "drop_pod",
       "name": "Drop Pod",
       "points": 70,
       "models_per_box": 1,
-      "box_price": 52,
-      "is_legends": false
+      "box_price": 52
     },
     {
       "id": "eliminator_squad",
       "name": "Eliminator Squad",
       "points": 85,
       "models_per_box": 3,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "eradicator_squad",
       "name": "Eradicator Squad",
       "points": 90,
       "models_per_box": 3,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "gladiator_lancer",
       "name": "Gladiator Lancer",
       "points": 160,
       "models_per_box": 1,
-      "box_price": 58,
-      "is_legends": false
+      "box_price": 58
     },
     {
       "id": "gladiator_reaper",
       "name": "Gladiator Reaper",
       "points": 160,
       "models_per_box": 1,
-      "box_price": 58,
-      "is_legends": false
+      "box_price": 58
     },
     {
       "id": "gladiator_valiant",
       "name": "Gladiator Valiant",
       "points": 150,
       "models_per_box": 1,
-      "box_price": 58,
-      "is_legends": false
+      "box_price": 58
     },
     {
       "id": "hammerfall_bunker",
       "name": "Hammerfall Bunker",
       "points": 175,
       "models_per_box": 1,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "heavy_intercessor_squad",
       "name": "Heavy Intercessor Squad",
       "points": 100,
       "models_per_box": 5,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "hellblaster_squad",
       "name": "Hellblaster Squad",
       "points": 110,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "impulsor",
       "name": "Impulsor",
       "points": 80,
       "models_per_box": 1,
-      "box_price": 55,
-      "is_legends": false
+      "box_price": 55
     },
     {
       "id": "inceptor_squad",
       "name": "Inceptor Squad",
       "points": 120,
       "models_per_box": 3,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "incursor_squad",
       "name": "Incursor Squad",
       "points": 80,
       "models_per_box": 1,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "infernus_squad",
       "name": "Infernus Squad",
       "points": 90,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "infiltrator_squad",
       "name": "Infiltrator Squad",
       "points": 100,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "intercessor_squad",
       "name": "Intercessor Squad",
       "points": 80,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "invader_atv",
       "name": "Invader ATV",
       "points": 60,
       "models_per_box": 1,
-      "box_price": 32.5,
-      "is_legends": false
+      "box_price": 32.5
     },
     {
       "id": "invictor_tactical_warsuit",
       "name": "Invictor Tactical Warsuit",
       "points": 125,
       "models_per_box": 1,
-      "box_price": 44.5,
-      "is_legends": false
+      "box_price": 44.5
     },
     {
       "id": "judiciar",
       "name": "Judiciar",
       "points": 70,
       "models_per_box": 1,
-      "box_price": 105,
-      "is_legends": false
+      "box_price": 105
     },
     {
       "id": "land_raider",
       "name": "Land Raider",
       "points": 220,
       "models_per_box": 1,
-      "box_price": 58,
-      "is_legends": false
+      "box_price": 58
     },
     {
       "id": "land_raider_crusader",
       "name": "Land Raider Crusader",
       "points": 220,
       "models_per_box": 1,
-      "box_price": 71.5,
-      "is_legends": false
+      "box_price": 71.5
     },
     {
       "id": "land_raider_redeemer",
       "name": "Land Raider Redeemer",
       "points": 270,
       "models_per_box": 1,
-      "box_price": 71.5,
-      "is_legends": false
+      "box_price": 71.5
     },
     {
       "id": "librarian",
       "name": "Librarian",
       "points": 65,
       "models_per_box": 1,
-      "box_price": 26,
-      "is_legends": false
+      "box_price": 26
     },
     {
       "id": "librarian_in_phobos_armour",
       "name": "Librarian in Phobos Armour",
       "points": 70,
       "models_per_box": 1,
-      "box_price": 25,
-      "is_legends": false
+      "box_price": 25
     },
     {
       "id": "librarian_in_terminator_armour",
       "name": "Librarian in Terminator Armour",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 23,
-      "is_legends": false
+      "box_price": 23
     },
     {
       "id": "lieutenant",
       "name": "Lieutenant",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 25,
-      "is_legends": false
+      "box_price": 25
     },
     {
       "id": "lieutenant_in_phobos_armour",
       "name": "Lieutenant in Phobos Armour",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 25,
-      "is_legends": false
+      "box_price": 25
     },
     {
       "id": "lieutenant_in_reiver_armour",
       "name": "Lieutenant in Reiver Armour",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 25,
-      "is_legends": false
+      "box_price": 25
     },
     {
       "id": "lieutenant_with_combi_weapon",
       "name": "Lieutenant with Combi-weapon",
       "points": 70,
       "models_per_box": 1,
-      "box_price": 25,
-      "is_legends": false
+      "box_price": 25
     },
     {
       "id": "outrider_squad",
       "name": "Outrider Squad",
       "points": 80,
       "models_per_box": 3,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "predator_annihilator",
       "name": "Predator Annihilator",
       "points": 135,
       "models_per_box": 1,
-      "box_price": 47.5,
-      "is_legends": false
+      "box_price": 47.5
     },
     {
       "id": "predator_destructor",
       "name": "Predator Destructor",
       "points": 140,
       "models_per_box": 1,
-      "box_price": 47.5,
-      "is_legends": false
+      "box_price": 47.5
     },
     {
       "id": "razorback",
       "name": "Razorback",
       "points": 95,
       "models_per_box": 1,
-      "box_price": 36,
-      "is_legends": false
+      "box_price": 36
     },
     {
       "id": "redemptor_dreadnought",
       "name": "Redemptor Dreadnought",
       "points": 195,
       "models_per_box": 1,
-      "box_price": 49.5,
-      "is_legends": false
+      "box_price": 49.5
     },
     {
       "id": "reiver_squad",
       "name": "Reiver Squad",
       "points": 80,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "repulsor",
       "name": "Repulsor",
       "points": 180,
       "models_per_box": 1,
-      "box_price": 58,
-      "is_legends": false
+      "box_price": 58
     },
     {
       "id": "repulsor_executioner",
       "name": "Repulsor Executioner",
       "points": 220,
       "models_per_box": 1,
-      "box_price": 71.5,
-      "is_legends": false
+      "box_price": 71.5
     },
     {
       "id": "rhino",
       "name": "Rhino",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 36,
-      "is_legends": false
+      "box_price": 36
     },
     {
       "id": "scout_squad",
       "name": "Scout Squad",
       "points": 70,
       "models_per_box": 10,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "sternguard_veteran_squad",
       "name": "Sternguard Veteran Squad",
       "points": 100,
       "models_per_box": 5,
-      "box_price": 40,
-      "is_legends": false
+      "box_price": 40
     },
     {
       "id": "storm_speeder_hailstrike",
       "name": "Storm Speeder Hailstrike",
       "points": 115,
       "models_per_box": 1,
-      "box_price": 49.5,
-      "is_legends": false
+      "box_price": 49.5
     },
     {
       "id": "storm_speeder_hammerstrike",
       "name": "Storm Speeder Hammerstrike",
       "points": 125,
       "models_per_box": 1,
-      "box_price": 49.5,
-      "is_legends": false
+      "box_price": 49.5
     },
     {
       "id": "storm_speeder_thunderstrike",
       "name": "Storm Speeder Thunderstrike",
       "points": 135,
       "models_per_box": 1,
-      "box_price": 49.5,
-      "is_legends": false
+      "box_price": 49.5
     },
     {
       "id": "stormhawk_interceptor",
       "name": "Stormhawk Interceptor",
       "points": 155,
       "models_per_box": 1,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "stormraven_gunship",
       "name": "Stormraven Gunship",
       "points": 280,
       "models_per_box": 1,
-      "box_price": 78,
-      "is_legends": false
+      "box_price": 78
     },
     {
       "id": "stormtalon_gunship",
       "name": "Stormtalon Gunship",
       "points": 165,
       "models_per_box": 1,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "suppressor_squad",
       "name": "Suppressor Squad",
       "points": 75,
       "models_per_box": 3,
-      "box_price": 91,
-      "is_legends": false
+      "box_price": 91
     },
     {
       "id": "tactical_squad",
       "name": "Tactical Squad",
       "points": 140,
       "models_per_box": 10,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "techmarine",
       "name": "Techmarine",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 27,
-      "is_legends": false
+      "box_price": 27
     },
     {
       "id": "terminator_assault_squad",
       "name": "Terminator Assault Squad",
       "points": 180,
       "models_per_box": 6,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "terminator_squad",
       "name": "Terminator Squad",
       "points": 170,
       "models_per_box": 6,
-      "box_price": 42.5,
-      "is_legends": false
+      "box_price": 42.5
     },
     {
       "id": "thunderhawk_gunship",
       "name": "Thunderhawk Gunship",
       "points": 840,
       "models_per_box": 1,
-      "box_price": 619,
-      "is_legends": false
+      "box_price": 619
     },
     {
       "id": "vanguard_veteran_squad_with_jump_packs",
       "name": "Vanguard Veteran Squad with Jump Packs",
       "points": 100,
       "models_per_box": 5,
-      "box_price": 38,
-      "is_legends": false
+      "box_price": 38
     },
     {
       "id": "vindicator",
       "name": "Vindicator",
       "points": 185,
       "models_per_box": 1,
-      "box_price": 47.5,
-      "is_legends": false
+      "box_price": 47.5
     },
     {
       "id": "whirlwind",
       "name": "Whirlwind",
       "points": 190,
       "models_per_box": 1,
-      "box_price": 45,
-      "is_legends": false
+      "box_price": 45
     }
   ]
 }

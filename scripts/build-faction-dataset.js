@@ -15,8 +15,27 @@ const path = require("path");
 const DATA_DIR = path.join(__dirname, "..", "data");
 const SOURCE_FILE = path.join(DATA_DIR, "army-data-no-legends.json");
 
+function nameToSlug(name) {
+  return (name || "")
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/['']/g, "");
+}
+
+function getFactionKeyFromSlug(slug) {
+  const raw = fs.readFileSync(SOURCE_FILE, "utf8");
+  const data = JSON.parse(raw);
+  const normalized = String(slug).trim().toLowerCase();
+  for (const key of Object.keys(data.factions || {})) {
+    if (key === normalized) return key;
+    const name = data.factions[key].name;
+    if (nameToSlug(name) === normalized) return key;
+  }
+  return null;
+}
+
 function getPaths(faction) {
-  const slug = String(faction).trim().toLowerCase();
+  const slug = String(faction).trim().toLowerCase().replace(/_/g, "-");
   if (!slug) throw new Error("Faction argument required");
   return {
     slug,
@@ -29,7 +48,8 @@ function getPaths(faction) {
 function loadUnits(factionSlug) {
   const raw = fs.readFileSync(SOURCE_FILE, "utf8");
   const data = JSON.parse(raw);
-  const factionData = data.factions?.[factionSlug];
+  const factionKey = getFactionKeyFromSlug(factionSlug);
+  const factionData = factionKey ? data.factions?.[factionKey] : null;
   if (!factionData || !Array.isArray(factionData.units)) {
     throw new Error("Faction '" + factionSlug + "' not found in " + SOURCE_FILE);
   }

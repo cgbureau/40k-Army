@@ -1,720 +1,329 @@
-# IMAGE_PIPELINE.md
+# IMAGE PIPELINE (DEFERRED)
 
-## Purpose
+The image pipeline is currently disabled.
 
-This document defines the complete pipeline for collecting, saving, and organising **unit product images for all Warhammer 40,000 factions** used by 40KArmy.
+Image sourcing from retailer CDNs and the Games Workshop CDN proved unreliable for automated deterministic downloads.
 
-The objective of this pipeline is to build a reliable local image library for every unit so that later visual features can be added cleanly, including:
+Image acquisition will be implemented in a later phase using a verified image dataset or curated image source.
 
-- selected unit preview cards
-- faction-specific unit panels
-- pixel / 8-bit converted artwork
-- hover states
-- future codex-style UI elements
+The current pipeline only prepares the folder structure:
 
-The image pipeline must produce a consistent, well-labelled local asset library that can be used later without re-downloading or re-organising files.
+public/unit-images/{faction}/
 
-The end result is:
+No automatic downloads are performed during the main build pipeline.
 
-```text
-/public/unit-images/{faction}/{unit-id}.jpg
+Future phases will populate these folders.
 
-or, if needed:
+---
 
-/public/unit-images/{faction}/{unit-id}.png
+# IMAGE SOURCE
 
-This pipeline must be:
+Images must be downloaded from a retailer CDN where filenames match product slugs.
 
-deterministic
+Use the Element Games product image CDN.
 
-repeatable
+Base URL:
 
-clearly foldered
-
-clearly named
-
-non-destructive
-
-easy to validate
-
-suitable for later batch image editing in Photoshop
-
-Core Principle
-
-The image pipeline is not concerned with image styling, image conversion, or visual effects.
-
-Its job is only to:
-
-identify the correct source product image
-
-download the primary image
-
-save it in a predictable local structure
-
-name it clearly
-
-avoid duplicates
-
-prepare the library for future editing workflows
-
-This means the pipeline must favour:
-
-clean organisation
-
-naming consistency
-
-predictable folder structure
-
-one canonical source image per unit
-
-Final Output
-
-For every unit that has a valid kit mapping and a source image, the pipeline should save:
-
-/public/unit-images/{faction}/{unit-id}.jpg
-
-Examples:
-
-/public/unit-images/orks/boyz.jpg
-/public/unit-images/orks/nobz.jpg
-/public/unit-images/space-marines/aggressor_squad.jpg
-/public/unit-images/tyranids/termagants.jpg
-
-If image format detection requires PNG instead of JPG, the pipeline may save:
-
-/public/unit-images/{faction}/{unit-id}.png
-
-However, the preferred default is:
-
-.jpg
-
-for consistency and easier batch handling later.
-
-Scope
-
-This image pipeline must support all factions used by 40KArmy, including:
-
-Space Marines
-
-Orks
-
-Chaos Space Marines
-
-Tyranids
-
-Necrons
-
-Adepta Sororitas
-
-Adeptus Custodes
-
-Adeptus Mechanicus
-
-Astra Militarum
-
-Grey Knights
-
-Genestealer Cults
-
-Drukhari
-
-Aeldari
-
-T’au Empire
-
-Death Guard
-
-Thousand Sons
-
-Chaos Daemons
-
-World Eaters
-
-Imperial Knights
-
-Chaos Knights
-
-Leagues of Votann
-
-Black Templars
-
-Blood Angels
-
-Dark Angels
-
-Space Wolves
-
-Deathwatch
-
-and any other faction represented in the local dataset
-
-The image system must scale to all factions without needing a new architecture.
-
-Relationship to Faction Data Pipeline
-
-The image pipeline depends on the faction data pipeline and should use the same local structure wherever possible.
-
-Relevant files:
-
-/data/factions/{faction}/units.json
-/data/kit-mappings/{faction}.json
-/data/kits/{faction}.json
-
-The image pipeline should not guess unit names independently if the data pipeline already provides a stable identity.
-
-Preferred resolution path:
-
-unit id
-→ kit mapping
-→ kit slug
-→ product page
-→ primary product image
-→ local saved unit image
-
-This keeps image naming aligned with the rest of the app.
-
-Image Source Strategy
-
-The image pipeline should aim to download the primary product image for each kit.
-
-The ideal source image is the standard retailer / product image showing the kit on a clean white or neutral background.
-
-This is important because the future workflow includes:
-
-batch Photoshop actions
-
-pixel conversion
-
-card-style crops
-
-consistent visual presentation
-
-The pipeline should prefer the main “hero” image, not random thumbnails or lifestyle images.
-
-Approved Source Type
-
-The image pipeline may use a structured product source such as:
-
-retailer product pages
-
-product image URLs directly embedded in product pages
-
-stable product CDN image URLs
-
-The exact implementation source may evolve, but the pipeline rules stay the same.
-
-The image pipeline should:
-
-download the first relevant product image
-
-avoid banners
-
-avoid logos
-
-avoid unrelated thumbnails
-
-avoid duplicate alternate views unless explicitly needed later
-
-Only one canonical product image is required per unit for now.
-
-Folder Structure
-
-The required folder structure is:
-
-/public
-  /unit-images
-    /space-marines
-    /orks
-    /chaos-space-marines
-    /tyranids
-    /necrons
-    /adepta-sororitas
-    /adeptus-custodes
-    /adeptus-mechanicus
-    /astra-militarum
-    /grey-knights
-    /genestealer-cults
-    /drukhari
-    /aeldari
-    /tau-empire
-    /death-guard
-    /thousand-sons
-    /chaos-daemons
-    /world-eaters
-    /imperial-knights
-    /chaos-knights
-    /leagues-of-votann
-    ...
-
-The pipeline must create missing faction folders automatically.
-
-No images should be saved outside this structure.
-
-Naming Rules
-
-Image files must be named by unit id, not by product title.
-
-This is critical because the site uses unit ids consistently.
-
-Required format
-{unit-id}.jpg
-
-Examples:
-
-boyz.jpg
-nobz.jpg
-aggressor_squad.jpg
-captain_in_terminator_armour.jpg
-Rules
-
-lowercase only
-
-use the exact unit id from the data pipeline
-
-preserve underscores if unit ids use underscores
-
-do not invent new display-name filenames
-
-do not use spaces
-
-do not use product titles as filenames
-
-do not include faction name in the file name if it is already in the folder path
-
-Correct:
-
-/public/unit-images/orks/boyz.jpg
-
-Incorrect:
-
-/public/unit-images/orks/Ork Boyz Product Image.jpg
-/public/unit-images/orks/ork-boyz.jpg
-
-if the unit id is actually boyz.
-
-The filename must align with the app’s data model.
-
-One Image Per Unit Rule
-
-The current pipeline should save one primary image per unit.
-
-Even if several units map to the same kit, each unit should still get its own file if that makes downstream usage easier.
+https://elementgames.co.uk/images/products/
 
 Example:
 
-burna_boyz → lootas-burna-boyz kit
-lootas → lootas-burna-boyz kit
+slug: boyz
 
-Both units may use the same source image, but the saved output should be:
+image URL:
+https://elementgames.co.uk/images/products/boyz.jpg
 
-/public/unit-images/orks/burna_boyz.jpg
-/public/unit-images/orks/lootas.jpg
+This allows deterministic image URLs without HTML scraping.
 
-This is preferable because later UI code can reference images by unit id directly, without performing runtime kit lookups.
+---
 
-Canonical Resolution Path
+# IMAGE STORAGE STRUCTURE
 
-For each faction, the image pipeline should follow this path:
+Images must be saved to:
 
-1. Load faction units
-2. Load kit mappings
-3. Resolve unit id → kit slug
-4. Resolve product page or image source for kit slug
-5. Extract primary image URL
-6. Download image
-7. Save image under unit id
-8. Skip or report failures cleanly
 
-This ensures the image pipeline stays aligned with the faction dataset pipeline.
+public/unit-images/{faction}/{unit-id}.jpg
 
-Inputs
 
-The image pipeline may use these local inputs:
+Example:
 
-1. Final faction units
 
-Location:
+public/unit-images/orks/boyz.jpg
+public/unit-images/space-marines/aggressor_squad.jpg
 
-/data/factions/{faction}/units.json
 
-Purpose:
+Folder structure:
 
-enumerate valid units
 
-ensure only real app-facing units are processed
+public/
+unit-images/
+orks/
+space-marines/
+tyranids/
+necrons/
+chaos-space-marines/
 
-2. Kit mappings
 
-Location:
+Each faction gets its own folder.
 
-/data/kit-mappings/{faction}.json
+---
 
-Purpose:
+# IMAGE NAMING RULES
 
-resolve unit id → kit slug
+Image filename must match the **unit id**.
 
-3. Optional kit dataset
+Unit id example:
 
-Location:
 
-/data/kits/{faction}.json
+aggressor_squad
 
-Purpose:
 
-keep image pulling aligned with product metadata
+Image file:
 
-support future product-page lookup if needed
 
-Preferred Behaviour
+aggressor_squad.jpg
 
-For every faction and every unit:
 
-If image already exists
+This ensures:
 
-skip download
+• deterministic mapping
+• easy referencing in the UI
+• simple batch processing later
 
-report as skipped
+---
 
-do not overwrite by default
+# INPUT DATA
 
-If image does not exist
+The image pipeline relies on three data sources.
 
-fetch source image
+## 1. Unit dataset
 
-save to correct local path
 
-report as downloaded
+data/factions/{faction}/units.json
 
-If source cannot be resolved
 
-report as failed
+Contains:
 
-continue processing remaining units
 
-The pipeline must not stop on a single broken image.
+id
+name
+points
+models_per_box
+box_price
 
-Non-Destructive Rule
 
-This pipeline must be non-destructive by default.
+---
 
-Meaning:
+## 2. Kit mapping
 
-do not overwrite existing images automatically
 
-do not delete existing images
+data/kit-mappings/{faction}.json
 
-do not rename existing files unless explicitly told to do so
 
-do not replace edited images later unless the user explicitly requests a refresh
+Maps unit ids to kit slugs.
 
-This matters because the user plans to run Photoshop actions on the image library later.
+Example:
 
-Once those edits happen, re-running the pipeline must not destroy that work.
 
-If a future refresh mode is needed, it should be a separate explicit option.
+{
+"aggressor_squad": "aggressor-squad"
+}
 
-Duplicate Handling
 
-Duplicate downloads should be avoided.
+---
 
-The pipeline should prevent duplication in two ways:
+## 3. Kit dataset
 
-1. Per-file check
 
-If this path already exists:
+data/kits/{faction}.json
 
-/public/unit-images/{faction}/{unit-id}.jpg
 
-or
+Contains kit metadata including slug.
 
-/public/unit-images/{faction}/{unit-id}.png
+Example:
 
-then skip download.
 
-2. Per-run duplication logic
+{
+"slug": "aggressor-squad",
+"models_per_box": 3,
+"price": 38
+}
 
-If multiple units resolve to the same source image URL, that is allowed, but each unit should still save its own unit-id-labelled file if missing.
 
-The final library should be unit-addressable, not only kit-addressable.
+---
 
-File Format Rules
+# DOWNLOAD PROCESS
 
-Preferred save format:
+For each unit:
 
-jpg
+1. Load unit id from
 
-Allowed fallback:
 
-png
+data/factions/{faction}/units.json
 
-Rules:
 
-preserve image readability
+2. Find kit slug using
 
-do not over-compress
 
-do not resize unnecessarily
+data/kit-mappings/{faction}.json
 
-do not crop automatically unless explicitly needed later
 
-keep source image as close to original as practical
+3. Construct image URL
 
-This is because later Photoshop and pixel workflows will benefit from the cleanest source possible.
 
-Minimum Image Quality Rules
+https://www.games-workshop.com/resources/catalog/product/920x950/{slug}.jpg
 
-The pipeline should prefer:
 
-the main product image
+4. Download the image
 
-clear white or neutral background
+5. Save it to
 
-product-only composition
 
-readable silhouette
+public/unit-images/{faction}/{unit-id}.jpg
 
-full figure visible where possible
 
-Avoid:
+---
 
-thumbnails if a larger version exists
+# DOWNLOAD RULES
 
-banners
+The script must:
 
-multi-product collages
+• skip image if file already exists  
+• skip if file size > 5KB  
+• validate file after download  
+• continue if any download fails  
+• log failed units  
 
-UI icons
+This ensures the pipeline can be resumed safely.
 
-logos
+---
 
-screenshots
+# PERFORMANCE REQUIREMENTS
 
-review images
+The pipeline must:
 
-random alternate gallery views if the first hero image exists
+• avoid HTML scraping entirely  
+• use direct CDN URLs  
+• download images sequentially  
+• complete quickly (<1 second per image)
 
-The goal is a clean art asset library, not a generic media scrape.
+Expected runtime:
 
-Output Validation
+| Faction | Units | Time |
+|------|------|------|
+| Orks | ~30 | ~5 seconds |
+| Space Marines | ~80 | ~15 seconds |
 
-After download, the pipeline should validate:
+---
 
-file exists
+# SCRIPTS
 
-file size > 0
+Two scripts must exist.
 
-correct folder
+## Single faction download
 
-correct unit-id filename
 
-no accidental HTML saved as image
+scripts/download-faction-images.js
 
-If validation fails, the file should be deleted or ignored and the failure should be reported.
-
-This is important because failed HTTP responses can sometimes save incorrectly if not checked.
-
-Required Reports
-
-The image pipeline must print a clear report per faction.
-
-At minimum:
-
-Faction: Orks
-Units processed: 30
-Images downloaded: 28
-Images skipped: 2
-Images failed: 0
-Output folder: /public/unit-images/orks
-
-If failures occur, list the failed units.
-
-This makes it easy to verify whether the image pull is complete.
-
-Batch Image Pipeline
-
-The image pipeline should support both:
-
-Single-faction image build
-
-Example script:
-
-/scripts/download-faction-images.js
 
 Usage:
+
 
 node scripts/download-faction-images.js orks
-All-factions image build
 
-Example script:
 
-/scripts/download-all-images.js
+Downloads all images for a faction.
+
+---
+
+## All factions download
+
+
+scripts/download-all-images.js
+
 
 Usage:
+
 
 node scripts/download-all-images.js
 
-The batch runner should:
 
-detect all available factions
+This script must:
 
-run the single-faction downloader for each
+1. scan
 
-continue if one faction fails
 
-print a report per faction
+data/factions
 
-This makes it possible to set the whole image collection running in one go.
 
-Relationship to Future Photoshop Workflow
+2. detect all factions
 
-This image library is being prepared for a later “image phase” in which the user will run a Photoshop action or other batch effect across all downloaded images.
+3. run the faction downloader for each.
 
-Because of that, the pipeline must prioritise:
+---
 
-stable naming
+# OUTPUT REPORT
 
-stable folders
+Each run must print:
 
-stable formats
 
-no overwriting by default
+Faction: orks
+Units processed: 30
+Downloaded: 28
+Skipped: 2
+Failed: 0
 
-The image library is not just for direct runtime use; it is also a pre-production asset collection for future art treatment.
 
-This means organisation quality matters as much as download success.
+---
 
-Future 8-Bit / Pixel Phase
+# ERROR HANDLING
 
-The current image pipeline does not perform image styling or pixel conversion.
+If an image cannot be downloaded:
 
-That will happen later.
-
-The future process may include:
-
-8-bit conversion
-
-color reduction
-
-card cropping
-
-outlines
-
-faction frames
-
-UI card exports
-
-This pipeline should simply ensure the source images are well-labelled and ready.
-
-App Usage Goal
-
-Later, the website should be able to reference images simply by unit id.
+• log the unit id  
+• continue processing  
+• do not crash the script
 
 Example:
 
-/public/unit-images/orks/boyz.jpg
 
-This means future UI code can do something like:
+FAILED: beastboss
 
-unit image path = /unit-images/{faction}/{unit-id}.jpg
 
-without complicated runtime lookup logic.
+---
 
-That is why file naming must stay tied to unit-id.
+# RESUME SAFETY
 
-Faction Naming Consistency
+The pipeline must be safe to rerun.
 
-Faction folder names must match the project’s established faction slug system.
+Existing images must **not be re-downloaded**.
 
-Examples:
+This allows interrupted runs to resume without restarting.
 
-space-marines
+---
 
-orks
+# FUTURE PROCESSING
 
-chaos-space-marines
+Images downloaded here will later be batch-processed in Photoshop.
 
-tyranids
+Possible future steps:
 
-necrons
+• background removal  
+• uniform cropping  
+• color grading  
+• icon overlays
 
-This keeps image folders aligned with:
+Therefore **image naming and structure must remain consistent**.
 
-faction datasets
+---
 
-theme mapping
+# SUMMARY
 
-dropdown selection
+Image pipeline rules:
 
-future unit-card references
-
-The image pipeline must not invent alternate faction folder names.
-
-Failure Handling
-
-If an image cannot be downloaded for a unit, the pipeline should:
-
-log the unit
-
-skip it
-
-continue the run
-
-Do not crash the entire job because one unit fails.
-
-A failed image must not prevent the rest of the faction or batch build from completing.
-
-Success Criteria
-
-The image pipeline is successful if:
-
-all factions can be processed through one generic image workflow
-
-images are saved in clear faction folders
-
-files are named by unit id
-
-duplicate downloads are avoided
-
-existing files are not overwritten by default
-
-failed units are reported clearly
-
-the resulting library is ready for batch Photoshop processing later
-
-Non-Goals
-
-This image pipeline is not responsible for:
-
-editing images
-
-cropping for cards
-
-adding frames
-
-reducing colors
-
-generating pixel art
-
-assigning runtime UI behaviour
-
-modifying faction data files
-
-modifying app UI code
-
-Those belong to later processes.
-
-Final Principle
-
-The image pipeline must favour:
-
-organisation over improvisation
-
-stable local assets over hotlinked images
-
-unit-id naming over pretty names
-
-one clean source image per unit over messy galleries
-
-repeatability over cleverness
-
-The end result should be a local image library that is dependable, scalable, and perfectly prepared for the later image-editing phase.
+• Use GW CDN only  
+• No HTML scraping  
+• Deterministic filenames  
+• Fast downloads  
+• Resume-safe behaviour  
+• Clean folder structure

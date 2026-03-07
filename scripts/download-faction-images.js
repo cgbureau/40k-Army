@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 /**
- * Image pipeline — download unit images for one faction.
+ * Image pipeline — download unit images for one faction from Element Games.
  * Usage: node scripts/download-faction-images.js <faction>
  * Example: node scripts/download-faction-images.js orks
  *
- * Reads: data/factions/{faction}/units.json, kit-mappings/{faction}.json, kits/{faction}.json
- * Resolves unit id → kit slug → product page → primary image
+ * Reads: data/factions/{faction}/units.json, data/kit-mappings/{faction}.json
+ * Builds image URL: https://elementgames.co.uk/images/products/{slug}.jpg
  * Saves: public/unit-images/{faction}/{unit-id}.jpg
  *
- * Rules: lowercase filenames, skip if exists, validate file size, continue on errors.
+ * No HTML scraping. Skip if file exists and size > 5KB. Validate after download.
  */
 
 const fs = require("fs");
@@ -18,8 +18,10 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const PUBLIC_DIR = path.join(__dirname, "..", "public");
 const UNIT_IMAGES_DIR = path.join(PUBLIC_DIR, "unit-images");
 
-const FETCH_TIMEOUT_MS = 15000;
-const USER_AGENT = "40KArmy-Image-Pipeline/1.0 (local build tool)";
+const IMAGE_BASE_URL = "https://elementgames.co.uk/images/products/";
+const MIN_VALID_SIZE_BYTES = 5 * 1024; // 5KB
+const FETCH_TIMEOUT_MS = 10000;
+const USER_AGENT = "40KArmy-Image-Pipeline/1.0";
 
 function getPaths(faction) {
   const slug = String(faction).trim().toLowerCase();
@@ -28,7 +30,6 @@ function getPaths(faction) {
     slug,
     unitsFile: path.join(DATA_DIR, "factions", slug, "units.json"),
     kitMappingsFile: path.join(DATA_DIR, "kit-mappings", slug + ".json"),
-    kitsFile: path.join(DATA_DIR, "kits", slug + ".json"),
     outDir: path.join(UNIT_IMAGES_DIR, slug),
   };
 }
@@ -49,73 +50,9 @@ function loadKitMappings(mappingsPath) {
   }
 }
 
-function loadKits(kitsPath) {
-  try {
-    const raw = fs.readFileSync(kitsPath, "utf8");
-    return JSON.parse(raw);
-  } catch (e) {
-    return {};
-  }
-}
-
-/**
- * Build a candidate product page URL from kit slug (e.g. ork-boyz → GW-style path).
- * Games Workshop URLs often look like /en-GB/Product-Name or /en-GB/Product-Name-2020
- */
-function slugToProductPath(slug) {
-  const part = slug
-    .split("-")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
-    .join("-");
-  return part;
-}
-
-/**
- * Fetch product page HTML and extract primary image URL (og:image or first product image).
- */
-async function getImageUrlForKitSlug(kitSlug) {
-  const pathSegment = slugToProductPath(kitSlug);
-  const urlsToTry = [
-    `https://www.games-workshop.com/en-GB/${pathSegment}`,
-    `https://www.games-workshop.com/en-GB/${pathSegment}-2020`,
-    `https://www.games-workshop.com/en-GB/${pathSegment}-2021`,
-  ];
-
-  for (const pageUrl of urlsToTry) {
-    try {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
-      const res = await fetch(pageUrl, {
-        headers: { "User-Agent": USER_AGENT },
-        signal: controller.signal,
-        redirect: "follow",
-      });
-      clearTimeout(timeout);
-      if (!res.ok) continue;
-      const html = await res.text();
-      const imgUrl = extractPrimaryImageUrl(html, pageUrl);
-      if (imgUrl) return imgUrl;
-    } catch (_) {
-      // try next URL
-    }
-  }
-  return null;
-}
-
-function extractPrimaryImageUrl(html, baseUrl) {
-  const ogMatch = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/i)
-    || html.match(/<meta\s+content="([^"]+)"\s+property="og:image"/i);
-  if (ogMatch && ogMatch[1]) {
-    const url = ogMatch[1].trim();
-    if (url.startsWith("http")) return url;
-    try {
-      const base = new URL(baseUrl);
-      return new URL(url, base).href;
-    } catch (_) {}
-  }
-  const imgMatch = html.match(/<img[^>]+src="(https?:\/\/[^"]+\.(?:jpg|jpeg|png|webp))"[^>]*/i);
-  if (imgMatch && imgMatch[1]) return imgMatch[1];
-  return null;
+function imageUrlForSlug(kitSlug) {
+  const slug = String(kitSlug).trim().toLowerCase().replace(/\s+/g, "-");
+  return IMAGE_BASE_URL + slug + ".jpg";
 }
 
 async function downloadImage(url, destPath) {
@@ -134,14 +71,23 @@ async function downloadImage(url, destPath) {
   return buffer.length;
 }
 
+function isValidImageFile(filePath) {
+  try {
+    const stat = fs.statSync(filePath);
+    return stat.size > MIN_VALID_SIZE_BYTES;
+  } catch (_) {
+    return false;
+  }
+}
+
 async function downloadFactionImages(factionArg) {
   const paths = getPaths(factionArg);
   const report = {
     factionName: factionArg,
     unitsProcessed: 0,
-    imagesDownloaded: 0,
-    imagesSkipped: 0,
-    imagesFailed: 0,
+    downloaded: 0,
+    skipped: 0,
+    failed: 0,
     failedUnits: [],
     outDir: paths.outDir,
   };
@@ -155,8 +101,6 @@ async function downloadFactionImages(factionArg) {
   }
 
   const kitMappings = loadKitMappings(paths.kitMappingsFile);
-  loadKits(paths.kitsFile);
-
   fs.mkdirSync(paths.outDir, { recursive: true });
 
   report.unitsProcessed = units.length;
@@ -168,43 +112,40 @@ async function downloadFactionImages(factionArg) {
     const fileBase = unitId.toLowerCase().replace(/\s+/g, "_");
     const jpgPath = path.join(paths.outDir, fileBase + ".jpg");
 
-    if (fs.existsSync(jpgPath)) {
-      try {
-        const stat = fs.statSync(jpgPath);
-        if (stat.size > 0) {
-          report.imagesSkipped++;
-          continue;
-        }
-      } catch (_) {}
+    if (fs.existsSync(jpgPath) && isValidImageFile(jpgPath)) {
+      report.skipped++;
+      continue;
     }
 
     const kitSlug = kitMappings[unit.id];
     if (!kitSlug || typeof kitSlug !== "string") {
-      report.imagesFailed++;
+      report.failed++;
       report.failedUnits.push(unit.name || unitId + " (no kit mapping)");
       continue;
     }
 
-    try {
-      const imageUrl = await getImageUrlForKitSlug(kitSlug.trim());
-      if (!imageUrl) {
-        report.imagesFailed++;
-        report.failedUnits.push(unit.name || unitId + " (no image URL)");
-        continue;
-      }
+    const imageUrl = imageUrlForSlug(kitSlug);
 
+    try {
       await downloadImage(imageUrl, jpgPath);
-      const stat = fs.statSync(jpgPath);
-      if (stat.size > 0) {
-        report.imagesDownloaded++;
+      if (isValidImageFile(jpgPath)) {
+        report.downloaded++;
       } else {
-        fs.unlinkSync(jpgPath);
-        report.imagesFailed++;
-        report.failedUnits.push(unit.name || unitId + " (empty file)");
+        try {
+          fs.unlinkSync(jpgPath);
+        } catch (_) {}
+        report.failed++;
+        report.failedUnits.push(unit.name || unitId + " (invalid size)");
       }
     } catch (e) {
-      report.imagesFailed++;
-      report.failedUnits.push(unit.name || unitId + " (" + (e.message || "download failed") + ")");
+      report.failed++;
+      const msg = e.message || "download failed";
+      report.failedUnits.push(unit.name || unitId + " (" + msg + ")");
+      if (fs.existsSync(jpgPath)) {
+        try {
+          fs.unlinkSync(jpgPath);
+        } catch (_) {}
+      }
     }
   }
 
@@ -224,16 +165,14 @@ function main() {
       console.error("Error:", report.error);
       process.exit(1);
     }
-    console.log(report.factionName);
-    console.log("Units processed:   " + report.unitsProcessed);
-    console.log("Images downloaded: " + report.imagesDownloaded);
-    console.log("Images skipped:    " + report.imagesSkipped);
-    console.log("Images failed:     " + report.imagesFailed);
+    console.log("Faction:", report.factionName);
+    console.log("Units processed:", report.unitsProcessed);
+    console.log("Downloaded:", report.downloaded);
+    console.log("Skipped:", report.skipped);
+    console.log("Failed:", report.failed);
     if (report.failedUnits.length > 0) {
-      console.log("\nFailed units:");
-      report.failedUnits.forEach((n) => console.log("  - " + n));
+      report.failedUnits.forEach((n) => console.log("FAILED:", n));
     }
-    console.log("\nOutput folder: " + report.outDir);
   })();
 }
 
