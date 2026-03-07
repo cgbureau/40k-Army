@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import type { Metadata } from "next";
 import { Workbench, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
