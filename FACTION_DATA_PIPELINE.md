@@ -1,296 +1,212 @@
-# FACTION DATA PIPELINE (v2 — Kit Mapping Method)
+# Faction Data Pipeline
 
-This pipeline generates faction data used by the Warhammer Army Cost Calculator.
+## Overview
 
-The goal is to enrich unit data with:
+The faction data pipeline generates the final faction datasets used by the application.
 
-* models_per_box
-* box_price (GW RRP)
+The system is deterministic and does **not scrape external websites**.
 
-Output files:
+All faction unit data is built from three local sources:
 
-```
-/data/factions/{faction}/units.json
-```
+1. Unit source data
+2. Kit mappings
+3. Kit datasets
 
-These files are consumed directly by the application.
+This ensures the pipeline is:
+
+- reproducible
+- stable
+- extremely fast
+- not dependent on third-party sites
 
 ---
 
-# Source Data
+# Data Sources
 
-All base unit data comes from:
+## 1. Unit Source
 
-```
+Location:
+
 /data/army-data-no-legends.json
-```
 
-Example entry:
-
-```
-{
-"id": "boyz",
-"name": "Boyz",
-"points": 85
-}
-```
-
-Only these fields are used:
-
-* id
-* name
-* points
-
----
-
-# Key Design Change
-
-Previous versions attempted to:
-
-```
-unit → guess product → search retailer
-```
-
-Search results are unreliable and produce low match rates.
-
-The new system uses:
-
-```
-unit → kit mapping → fetch product page
-```
-
-Warhammer units are built from a **small set of kits**, so mapping units to kits is far more reliable.
+Provides the base unit list.
 
 Example:
 
-```
-Boyz → ork-boyz
-Warboss → ork-warboss
-Meganobz → ork-meganobz
-```
+{
+  "id": "boyz",
+  "name": "Boyz",
+  "points": 85
+}
+
+Fields:
+
+- id
+- name
+- points
 
 ---
 
-# Product Source
+## 2. Kit Mapping
 
-Product data is fetched from Element Games.
+Location:
 
-Example product URL:
+/data/kit-mappings/{faction}.json
 
-```
-https://elementgames.co.uk/games-workshop/warhammer-40k/orks/ork-boyz
-```
+Maps a **unit id → kit slug**.
 
-These pages expose:
+Example:
 
-```
-RRP £30.00
-Contains 10 plastic miniatures
-```
+{
+  "boyz": "boyz",
+  "nobz": "nobz",
+  "warboss": "ork-warboss"
+}
 
-Both values can be parsed reliably.
+This mapping connects game units to product kits.
 
 ---
 
-# Pipeline Steps
+## 3. Kit Dataset
 
-## Step 1 — Load Source Data
+Location:
 
-Load:
+/data/kits/{faction}.json
 
-```
+Defines product metadata for each kit.
+
+Example:
+
+{
+  "boyz": {
+    "models": 10,
+    "price": 30
+  },
+  "nobz": {
+    "models": 5,
+    "price": 27
+  }
+}
+
+Fields:
+
+- models → number of miniatures in the box
+- price → Games Workshop RRP in GBP
+
+---
+
+# Pipeline Flow
+
+For each faction:
+
+1. Load unit list from:
+
 /data/army-data-no-legends.json
-```
 
-Extract the requested faction.
+2. Load kit mappings:
 
-Keep:
+/data/kit-mappings/{faction}.json
 
-```
-id
-name
-points
-```
+3. Load kit dataset:
 
-Remove duplicates.
+/data/kits/{faction}.json
 
----
+4. Resolve:
 
-## Step 2 — Generate Kit Mapping
+unit id → kit slug → kit metadata
 
-Generate a `kit_slug` for each unit.
+5. Populate fields:
 
-Examples:
+models_per_box  
+box_price
 
-```
-Boyz → ork-boyz
-Meganobz → ork-meganobz
-Warboss → ork-warboss
-Stormboyz → ork-stormboyz
-Kommandos → ork-kommandos
-Flash Gitz → flash-gitz
-```
+6. Validate each unit:
 
-This mapping is deterministic and does not require search.
+id  
+name  
+points  
+models_per_box  
+box_price  
 
-Example intermediate structure:
+7. Remove duplicate units by id.
 
-```
-{
-"id": "boyz",
-"name": "Boyz",
-"points": 85,
-"kit_slug": "ork-boyz"
-}
-```
+8. Sort alphabetically by unit name.
 
 ---
 
-## Step 3 — Build Product URL
+# Output
 
-Construct the product URL directly:
+The final dataset is written to:
 
-```
-https://elementgames.co.uk/games-workshop/warhammer-40k/{faction}/{kit_slug}
-```
-
-Example:
-
-```
-https://elementgames.co.uk/games-workshop/warhammer-40k/orks/ork-boyz
-```
-
-Fetch this page.
-
----
-
-## Step 4 — Parse Product Page
-
-Extract:
-
-Price:
-
-```
-£([0-9]+(?:\.[0-9]{2})?)
-```
-
-Model count:
-
-```
-contains (\d+)
-(\d+) miniatures
-```
-
-Convert to:
-
-```
-box_price: number
-models_per_box: number
-```
-
----
-
-## Step 5 — Handle Edge Cases
-
-If the page cannot be parsed or the product is ambiguous:
-
-Add:
-
-```
-review_required: true
-```
-
-Do not invent values.
-
----
-
-## Step 6 — Build Final JSON
-
-Output structure:
-
-```
-{
-"faction": "Orks",
-"units": [
-{
-"id": "boyz",
-"name": "Boyz",
-"points": 85,
-"models_per_box": 10,
-"box_price": 30.00
-}
-]
-}
-```
-
----
-
-## Step 7 — Validation
-
-Before saving ensure:
-
-* id exists
-* name exists
-* points exists
-* box_price numeric
-* models_per_box numeric
-
-Remove duplicates.
-
-Sort units alphabetically by name.
-
----
-
-## Step 8 — Save Output
-
-Write to:
-
-```
 /data/factions/{faction}/units.json
-```
 
-Overwrite existing file.
+Example output:
+
+{
+  "id": "boyz",
+  "name": "Boyz",
+  "points": 85,
+  "models_per_box": 10,
+  "box_price": 30
+}
 
 ---
 
-## Step 9 — Report
+# Performance
 
-Print summary:
+Because the pipeline uses only local JSON files:
+
+- execution time is <1 second per faction
+- no network calls are required
+- the output is deterministic
+
+---
+
+# Scripts
+
+Faction build script:
+
+scripts/build-faction-dataset.js
+
+Example usage:
+
+node scripts/build-faction-dataset.js orks
+
+Batch build script:
+
+scripts/build-all-factions.js
 
 Example:
 
-```
-Faction: Orks
+node scripts/build-all-factions.js
 
-Units processed: 32
-Auto matched: 28
-Review required: 4
-```
+This generates faction datasets for all factions present in:
 
-List flagged units.
+/data/kit-mappings/
 
 ---
 
-# Expected Accuracy
+# Folder Structure
 
-Using deterministic kit mapping:
+data/
 
-```
-85–95% automatic matches
-```
+army-data-no-legends.json  
+kit-mappings/  
+kits/  
+factions/
 
-Manual review typically required for:
+Example:
 
-* character variants
-* special kits
-* units sharing a box
+data/kits/orks.json  
+data/kits/space-marines.json  
+data/kits/necrons.json  
 
 ---
 
-# Notes
+# Key Principle
 
-Games Workshop kit data changes rarely.
+The pipeline **never scrapes retailers or APIs**.
 
-The pipeline does not require live updates.
+All product metadata lives in the kit dataset.
 
-Manual corrections can be committed once and reused indefinitely.
+This ensures the system is reliable and maintainable.

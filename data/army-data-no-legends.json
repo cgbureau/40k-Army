@@ -659,6 +659,41 @@
           "is_legends": false
         }
       ]
+    },
+    "orks": {
+      "name": "Orks",
+      "units": [
+        { "id": "battlewagon", "name": "Battlewagon", "points": 125 },
+        { "id": "beastboss", "name": "Beastboss", "points": 80 },
+        { "id": "big_mek_in_meka_armour", "name": "Big Mek in Meka Armour", "points": 85 },
+        { "id": "big_mek_with_shokk_attack_gun", "name": "Big Mek with Shokk Attack Gun", "points": 90 },
+        { "id": "boyz", "name": "Boyz", "points": 85 },
+        { "id": "burna_boyz", "name": "Burna Boyz", "points": 65 },
+        { "id": "deff_dread", "name": "Deff Dread", "points": 130 },
+        { "id": "deffkoptas", "name": "Deffkoptas", "points": 115 },
+        { "id": "flash_gitz", "name": "Flash Gitz", "points": 95 },
+        { "id": "gretchin", "name": "Gretchin", "points": 45 },
+        { "id": "hunta_rig", "name": "Hunta Rig", "points": 160 },
+        { "id": "kill_rig", "name": "Kill Rig", "points": 180 },
+        { "id": "killa_kans", "name": "Killa Kans", "points": 140 },
+        { "id": "kommandos", "name": "Kommandos", "points": 135 },
+        { "id": "lootas", "name": "Lootas", "points": 65 },
+        { "id": "mek", "name": "Mek", "points": 45 },
+        { "id": "meganobz", "name": "Meganobz", "points": 125 },
+        { "id": "nobz", "name": "Nobz", "points": 95 },
+        { "id": "painboy", "name": "Painboy", "points": 55 },
+        { "id": "rukkatrukk_squigbuggy", "name": "Rukkatrukk Squigbuggy", "points": 115 },
+        { "id": "shokkjump_dragsta", "name": "Shokkjump Dragsta", "points": 95 },
+        { "id": "snagga_boyz", "name": "Snagga Boyz", "points": 105 },
+        { "id": "squighog_boyz", "name": "Squighog Boyz", "points": 125 },
+        { "id": "stormboyz", "name": "Stormboyz", "points": 65 },
+        { "id": "tankbustas", "name": "Tankbustas", "points": 120 },
+        { "id": "trukk", "name": "Trukk", "points": 50 },
+        { "id": "warboss", "name": "Warboss", "points": 75 },
+        { "id": "warboss_in_mega_armour", "name": "Warboss in Mega Armour", "points": 95 },
+        { "id": "weirdboy", "name": "Weirdboy", "points": 55 },
+        { "id": "zodgrod_wortsnagga", "name": "Zodgrod Wortsnagga", "points": 65 }
+      ]
     }
   }
 }
