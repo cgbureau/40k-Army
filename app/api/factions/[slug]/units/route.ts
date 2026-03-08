@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
+// Same path build-all-factions.js / build-faction-dataset.js write to:
+// data/factions/{slug}/units.json (relative to app root = warhammer-calculator)
 const DATA_DIR = path.join(process.cwd(), "data");
 const FACTIONS_DIR = path.join(DATA_DIR, "factions");
 

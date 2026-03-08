@@ -93,8 +93,9 @@ function buildFaction(factionArg) {
 
   const enriched = [];
   for (const unit of units) {
+    // Resolve kit by slug only: unit id → kit_mappings → kit_slug → kits[slug]
     const kitSlug = kitMappings[unit.id];
-    const kitData = kitSlug ? kitDataset[String(kitSlug).trim()] : null;
+    const kitData = kitSlug != null ? kitDataset[String(kitSlug).trim()] : null;
     const hasKitData =
       kitData &&
       typeof kitData.models === "number" &&
@@ -107,7 +108,7 @@ function buildFaction(factionArg) {
       points: unit.points,
       models_per_box: hasKitData ? kitData.models : null,
       box_price: hasKitData ? Math.round(kitData.prices.GBP * 100) / 100 : null,
-      prices: hasKitData ? kitData.prices : undefined,
+      prices: hasKitData ? kitData.prices : null,
     });
   }
 

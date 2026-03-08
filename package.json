@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "update:regional-prices": "tsx scripts/update-regional-prices.ts",
+    "update:regional-prices": "tsx scripts/fetch-regional-prices.ts",
     "update:kit-prices": "tsx scripts/fetch-regional-kit-prices.ts"
   },
   "dependencies": {
