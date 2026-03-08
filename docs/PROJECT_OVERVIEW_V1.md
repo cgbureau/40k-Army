@@ -187,3 +187,16 @@ The tool prioritises:
 • simplicity
 • speed
 • accurate kit pricing
+
+
+## V1 Launch Status
+
+Version 1 includes:
+
+• all factions supported
+• verified kit mappings
+• multi-currency pricing (GBP / USD / EUR)
+• army cost calculation
+• shareable army links
+
+Deployment: Vercel

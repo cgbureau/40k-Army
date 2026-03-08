@@ -226,3 +226,19 @@ Static data ensures:
 • simpler security model
 
 The server **only serves static JSON files**.
+
+
+
+## Regional Pricing
+
+Retail kit data now includes multi-currency pricing.
+
+Example:
+
+prices {
+  GBP
+  USD
+  EUR
+}
+
+These values are embedded during dataset generation and are not calculated at runtime.

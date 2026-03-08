@@ -51,7 +51,7 @@ const INPUT_STYLE =
   "w-full border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none";
 const BTN_STYLE =
   "px-1.5 py-0.5 border-2 border-[#231F20] bg-[#B2C4AE] text-[#231F20] text-sm font-plex-mono hover:bg-[#9FB49A] focus:outline-none rounded-none shadow-none";
-const BTN_QTY = `${BTN_STYLE} w-7 h-7 flex items-center justify-center p-0 text-base leading-none shrink-0`;
+const BTN_QTY = `${BTN_STYLE} w-7 h-7 flex items-center justify-center p-0 text-base leading-none shrink-0 min-[901px]:w-7 min-[901px]:h-7 max-[900px]:min-w-[44px] max-[900px]:min-h-[44px] max-[900px]:w-12`;
 
 const CURRENCY_SYMBOLS: Record<"GBP" | "USD" | "EUR", string> = {
   GBP: "£",
@@ -91,6 +91,7 @@ function HomeContent() {
   const [search, setSearch] = useState<string>("");
   const [targetPoints, setTargetPoints] = useState<number>(0);
   const [currency, setCurrency] = useState<"GBP" | "USD" | "EUR">("GBP");
+  const [mobilePanel, setMobilePanel] = useState<"summary" | "cost" | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const unitListScrollRef = useRef<HTMLDivElement>(null);
   const savedScrollTop = useRef(0);
@@ -271,10 +272,13 @@ function HomeContent() {
     factionColors[selectedFactionSlug] ?? DEFAULT_FACTION_COLOR;
 
   return (
-    <div className="min-h-screen lg:h-screen lg:overflow-hidden flex flex-col page-bg text-[#231F20] font-plex-mono">
-      <div className="flex flex-col min-h-0 shrink-0 lg:flex-1 lg:shrink max-w-6xl w-full mx-auto py-4 px-4 lg:overflow-hidden relative z-10">
+    <div className="min-h-screen flex flex-col page-bg text-[#231F20] font-plex-mono max-[900px]:min-h-screen max-[900px]:overflow-auto lg:h-screen lg:overflow-hidden">
+      <div
+        className={`flex flex-col min-h-0 shrink-0 max-[900px]:flex-1 max-[900px]:min-h-0 max-[900px]:overflow-visible lg:flex-1 lg:shrink max-w-6xl w-full mx-auto py-4 px-4 lg:overflow-hidden relative z-10 ${armySummaryUnits.length > 0 ? "max-[900px]:pb-[220px]" : ""}`}
+      >
         <header className="text-center flex-shrink-0 mb-4 relative">
-          <div className="absolute top-0 right-0 flex items-center gap-1.5">
+          {/* Desktop: currency top right */}
+          <div className="absolute top-0 right-0 flex items-center gap-1.5 min-[901px]:flex max-[900px]:hidden">
             <label htmlFor="currency-select" className="text-sm font-workbench whitespace-nowrap">
               Currency
             </label>
@@ -292,24 +296,51 @@ function HomeContent() {
               <option value="EUR">EUR (€)</option>
             </select>
           </div>
-          <div className="flex justify-center mb-2">
-            <Image
-              src="/40KArmy_Logo.svg"
-              alt="40KArmy"
-              width={260}
-              height={104}
-              priority
-              className="h-auto w-auto max-h-24 sm:max-h-28"
-            />
+
+          {/* Mobile: two-column — left = logo (64px), right = title (2 lines) + currency */}
+          <div className="max-[900px]:flex max-[900px]:flex-row max-[900px]:items-stretch max-[900px]:gap-3 max-[900px]:w-full min-[901px]:block">
+            <div className="max-[900px]:shrink-0 max-[900px]:flex max-[900px]:items-center min-[901px]:flex min-[901px]:justify-center min-[901px]:mb-2">
+              <Image
+                src="/40KArmy_Logo.svg"
+                alt="40KArmy logo"
+                width={260}
+                height={104}
+                priority
+                className="max-[900px]:h-16 max-[900px]:w-auto max-[900px]:min-h-[64px] min-[901px]:h-auto min-[901px]:w-auto min-[901px]:max-h-24 sm:max-h-28"
+              />
+            </div>
+            <div className="max-[900px]:flex-1 max-[900px]:flex max-[900px]:flex-col max-[900px]:justify-between max-[900px]:min-w-0 min-[901px]:contents">
+              <div className="max-[900px]:text-right min-[901px]:block min-[901px]:text-center">
+                <p className="max-[900px]:font-workbench max-[900px]:uppercase max-[900px]:tracking-wide max-[900px]:text-[#231F20] max-[900px]:text-sm max-[900px]:leading-tight min-[901px]:font-workbench min-[901px]:uppercase min-[901px]:text-lg min-[901px]:sm:text-xl min-[901px]:tracking-wide min-[901px]:text-[#231F20]">
+                  <span className="max-[900px]:block">WARHAMMER 40K</span>
+                  <span className="max-[900px]:block">ARMY CALCULATOR</span>
+                </p>
+              </div>
+              <div className="max-[900px]:flex max-[900px]:justify-end max-[900px]:items-center max-[900px]:mt-1.5 min-[901px]:hidden">
+                <label htmlFor="currency-select-mobile" className="text-sm font-workbench whitespace-nowrap mr-1.5">
+                  Currency
+                </label>
+                <select
+                  id="currency-select-mobile"
+                  value={currency}
+                  onChange={(e) =>
+                    setCurrency(e.target.value as "GBP" | "USD" | "EUR")
+                  }
+                  className="border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1.5 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none"
+                  aria-label="Select currency"
+                >
+                  <option value="GBP">GBP (£)</option>
+                  <option value="USD">USD ($)</option>
+                  <option value="EUR">EUR (€)</option>
+                </select>
+              </div>
+            </div>
           </div>
-          <p className="font-workbench uppercase text-lg sm:text-xl tracking-wide text-[#231F20]">
-            WARHAMMER 40K ARMY CALCULATOR
-          </p>
         </header>
 
-        <main className="flex-1 min-h-0 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-3 lg:gap-4">
+        <main className="flex-1 min-h-0 max-[900px]:flex max-[900px]:flex-col max-[900px]:gap-4 max-[900px]:overflow-visible max-[900px]:min-h-0 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-3 lg:gap-4">
           <section
-            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col min-h-0 max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden`}
+            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col min-h-0 max-[900px]:min-h-0 max-[900px]:max-h-none max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
             style={{ borderLeftColor: factionAccentColor }}
           >
             <input
@@ -427,7 +458,7 @@ function HomeContent() {
 
             <div
               ref={unitListScrollRef}
-              className={`flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-3 border-2 border-[#231F20] max-h-[calc(100vh-340px)] rounded-none ${PANEL_BG}`}
+              className={`flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-3 border-2 border-[#231F20] rounded-none ${PANEL_BG} max-[900px]:overflow-visible max-[900px]:max-h-none max-[900px]:min-h-0 lg:max-h-[calc(100vh-340px)] lg:overflow-y-auto lg:min-h-0`}
             >
               {factionsLoading || unitsLoading ? (
                 <p className="py-4 text-sm font-plex-mono">Loading...</p>
@@ -436,47 +467,59 @@ function HomeContent() {
                   {filteredUnits.map((unit) => {
                     const qty = quantities[unit.id] ?? 0;
                     const price = getUnitPrice(unit, currency);
+                    const priceStr =
+                      price !== null
+                        ? `${getCurrencySymbol(currency)}${price.toFixed(2)}`
+                        : "--";
+                    const modelsStr =
+                      unit.models_per_box != null
+                        ? `${unit.models_per_box} models per box`
+                        : "--";
+                    const metaStr = `${unit.points}pts • ${modelsStr} • ${priceStr}`;
                     return (
                       <div
                         key={unit.id}
-                        className="grid grid-cols-[1fr_auto_auto_auto_auto] gap-2 sm:gap-3 items-center py-2 px-2 text-sm font-plex-mono"
+                        className="max-[900px]:py-3 max-[900px]:px-2 grid grid-cols-[1fr_auto_auto_auto_auto] gap-2 sm:gap-3 items-center py-2 px-2 text-sm font-plex-mono max-[900px]:grid-cols-1 max-[900px]:gap-2"
                       >
-                        <div className="min-w-0 font-medium truncate sm:whitespace-normal text-[#231F20] uppercase">
+                        <div className="min-w-0 font-medium text-[#231F20] uppercase max-[900px]:whitespace-normal max-[900px]:break-words min-[901px]:truncate min-[901px]:sm:whitespace-normal">
                           {unit.name}
                         </div>
-                        <span className="tabular-nums whitespace-nowrap">
+                        <span className="tabular-nums whitespace-nowrap max-[900px]:hidden">
                           {unit.points}pts
                         </span>
-                        <span className="tabular-nums whitespace-nowrap">
+                        <span className="tabular-nums whitespace-nowrap max-[900px]:hidden">
                           {unit.models_per_box != null
                             ? `${unit.models_per_box}mdls/pb`
                             : "--"}
                         </span>
-                        <span className="tabular-nums whitespace-nowrap">
-                          {price !== null
-                            ? `${getCurrencySymbol(currency)}${price.toFixed(2)}`
-                            : "--"}
+                        <span className="tabular-nums whitespace-nowrap max-[900px]:hidden">
+                          {priceStr}
                         </span>
-                        <div className="flex items-center gap-0.5">
-                          <button
-                            type="button"
-                            onClick={() => handleChangeQuantity(unit.id, -1)}
-                            className={BTN_QTY}
-                            aria-label="Decrease quantity"
-                          >
-                            −
-                          </button>
-                          <span className="w-6 text-center tabular-nums">
-                            {qty}
+                        <div className="flex items-center gap-0.5 min-[901px]:col-span-1 max-[900px]:flex max-[900px]:items-center max-[900px]:justify-between max-[900px]:gap-2 max-[900px]:w-full">
+                          <span className="max-[900px]:text-xs max-[900px]:text-[#231F20]/90 min-[901px]:hidden">
+                            {metaStr}
                           </span>
-                          <button
-                            type="button"
-                            onClick={() => handleChangeQuantity(unit.id, 1)}
-                            className={BTN_QTY}
-                            aria-label="Increase quantity"
-                          >
-                            +
-                          </button>
+                          <div className="flex items-center gap-0.5 max-[900px]:gap-1">
+                            <button
+                              type="button"
+                              onClick={() => handleChangeQuantity(unit.id, -1)}
+                              className={BTN_QTY}
+                              aria-label="Decrease quantity"
+                            >
+                              −
+                            </button>
+                            <span className="w-6 text-center tabular-nums max-[900px]:min-w-[2rem]">
+                              {qty}
+                            </span>
+                            <button
+                              type="button"
+                              onClick={() => handleChangeQuantity(unit.id, 1)}
+                              className={BTN_QTY}
+                              aria-label="Increase quantity"
+                            >
+                              +
+                            </button>
+                          </div>
                         </div>
                       </div>
                     );
@@ -487,10 +530,10 @@ function HomeContent() {
           </section>
 
           <aside
-            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col gap-3 min-h-0 max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden min-w-0`}
+            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col gap-3 min-h-0 max-[900px]:min-h-0 max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden min-w-0 lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
             style={{ borderLeftColor: factionAccentColor }}
           >
-            <div className="flex gap-2 flex-shrink-0">
+            <div className="flex gap-2 flex-shrink-0 max-[900px]:order-3">
               <button
                 type="button"
                 onClick={handleCopyArmyLink}
@@ -514,7 +557,7 @@ function HomeContent() {
               </button>
             </div>
 
-            <div className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden min-w-0 pr-1">
+            <div className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden min-w-0 pr-1 max-[900px]:flex-1 max-[900px]:overflow-visible max-[900px]:min-h-0 max-[900px]:order-1 lg:overflow-y-auto lg:min-h-0">
               <div className="flex-shrink-0 min-w-0">
                 <h2
                   className="font-workbench uppercase text-base tracking-wide mb-1.5 pb-1 border-b-2"
@@ -535,9 +578,9 @@ function HomeContent() {
                     {armySummaryUnits.map((unit) => (
                       <li
                         key={unit.id}
-                        className="flex items-center gap-2 uppercase min-w-0"
+                        className="flex items-center gap-2 min-w-0 flex-wrap"
                       >
-                        <span className="min-w-0 overflow-hidden whitespace-nowrap text-ellipsis flex-1">
+                        <span className="min-w-0 flex-1 break-words uppercase text-[#231F20]">
                           {unit.name}
                         </span>
                         <span className="tabular-nums whitespace-nowrap shrink-0">
@@ -578,15 +621,15 @@ function HomeContent() {
                       return (
                         <li
                           key={unit.id}
-                          className="flex justify-between gap-2 py-1 border-b border-[#231F20]/30 last:border-b-0 uppercase min-w-0"
+                          className="py-1 border-b border-[#231F20]/30 last:border-b-0 min-w-0"
                         >
-                          <span className="min-w-0 overflow-hidden whitespace-nowrap text-ellipsis">
+                          <div className="font-medium text-[#231F20] uppercase break-words">
                             {unit.name}
-                          </span>
-                          <span className="tabular-nums whitespace-nowrap shrink-0">
-                            Qty:{qty} Bxs:{boxesRequired} {sym}
+                          </div>
+                          <div className="text-xs text-[#231F20]/90 tabular-nums mt-0.5">
+                            Qty:{qty} • Box:{boxesRequired} • {sym}
                             {cost.toFixed(2)}
-                          </span>
+                          </div>
                         </li>
                       );
                     })}
@@ -595,7 +638,7 @@ function HomeContent() {
               </div>
             </div>
 
-            <div className="mt-auto pt-3 border-t-2 border-[#231F20] flex-shrink-0">
+            <div className="mt-auto pt-3 border-t-2 border-[#231F20] flex-shrink-0 max-[900px]:mt-4 max-[900px]:order-2 max-[900px]:pt-3">
               <h2 className="font-workbench uppercase text-base tracking-wide mb-2">
                 Totals
               </h2>
@@ -658,6 +701,113 @@ function HomeContent() {
           </p>
         </footer>
       </div>
+
+      {/* Mobile-only sticky totals bar (only when at least one unit selected) */}
+      {armySummaryUnits.length > 0 && (
+        <div className="fixed bottom-0 left-0 right-0 z-20 min-[901px]:hidden border-t-2 border-[#231F20] bg-[#B2C4AE] shadow-[0_-4px_12px_rgba(0,0,0,0.1)]">
+          {/* Expandable panel above the bar */}
+          <div
+            className={`overflow-hidden transition-[max-height] duration-200 ease-out ${
+              mobilePanel ? "max-h-[60vh]" : "max-h-0"
+            }`}
+            aria-hidden={!mobilePanel}
+          >
+            <div className="overflow-y-auto max-h-[60vh] border-b border-[#231F20]/30 bg-[#B2C4AE] px-3 py-3">
+              {mobilePanel === "summary" && (
+                <div>
+                  <h3 className="font-workbench uppercase text-sm tracking-wide mb-2 text-[#231F20]">
+                    Summary
+                  </h3>
+                  <ul className="space-y-1.5 text-sm font-plex-mono">
+                    {armySummaryUnits.map((unit) => (
+                      <li
+                        key={unit.id}
+                        className="text-[#231F20] uppercase break-words"
+                      >
+                        {unit.name} x{quantities[unit.id]}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              {mobilePanel === "cost" && (
+                <div>
+                  <h3 className="font-workbench uppercase text-sm tracking-wide mb-2 text-[#231F20]">
+                    Cost breakdown
+                  </h3>
+                  {armyCostBreakdownUnits.length === 0 ? (
+                    <p className="text-sm font-plex-mono text-[#231F20]/80">
+                      No units with cost data selected.
+                    </p>
+                  ) : (
+                    <ul className="space-y-2 text-sm font-plex-mono">
+                      {armyCostBreakdownUnits.map((unit) => {
+                        const qty = quantities[unit.id] ?? 0;
+                        const boxesRequired = Math.ceil(
+                          qty / (unit.models_per_box ?? 1)
+                        );
+                        const price = getUnitPrice(unit, currency) ?? 0;
+                        const cost = boxesRequired * price;
+                        const sym = getCurrencySymbol(currency);
+                        return (
+                          <li
+                            key={unit.id}
+                            className="border-b border-[#231F20]/20 pb-2 last:border-b-0"
+                          >
+                            <div className="font-medium text-[#231F20] uppercase break-words">
+                              {unit.name}
+                            </div>
+                            <div className="text-xs text-[#231F20]/90 mt-0.5 tabular-nums">
+                              Qty:{qty} • Box:{boxesRequired} • {sym}
+                              {cost.toFixed(2)}
+                            </div>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Sticky bar: totals + Summary / Cost buttons */}
+          <div className="px-3 py-2">
+            <p className="text-sm font-plex-mono font-semibold tabular-nums text-[#231F20]">
+              {totals.totalPoints} pts • {getCurrencySymbol(currency)}
+              {totals.totalCost.toFixed(2)}
+            </p>
+            <div className="flex gap-2 mt-1.5">
+              <button
+                type="button"
+                onClick={() =>
+                  setMobilePanel((p) => (p === "summary" ? null : "summary"))
+                }
+                className={`flex-1 py-2 text-sm font-plex-mono border-2 rounded-none min-h-[44px] ${
+                  mobilePanel === "summary"
+                    ? "bg-[#231F20] text-[#B2C4AE] border-[#231F20]"
+                    : "bg-[#B2C4AE] text-[#231F20] border-[#231F20] hover:bg-[#9FB49A]"
+                }`}
+              >
+                Summary
+              </button>
+              <button
+                type="button"
+                onClick={() =>
+                  setMobilePanel((p) => (p === "cost" ? null : "cost"))
+                }
+                className={`flex-1 py-2 text-sm font-plex-mono border-2 rounded-none min-h-[44px] ${
+                  mobilePanel === "cost"
+                    ? "bg-[#231F20] text-[#B2C4AE] border-[#231F20]"
+                    : "bg-[#B2C4AE] text-[#231F20] border-[#231F20] hover:bg-[#9FB49A]"
+                }`}
+              >
+                Cost
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
