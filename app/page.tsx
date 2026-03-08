@@ -93,8 +93,6 @@ function HomeContent() {
   const [currency, setCurrency] = useState<"GBP" | "USD" | "EUR">("GBP");
   const [mobilePanel, setMobilePanel] = useState<"summary" | "cost" | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
-  const unitListScrollRef = useRef<HTMLDivElement>(null);
-  const savedScrollTop = useRef(0);
 
   // Load faction list on mount
   useEffect(() => {
@@ -146,17 +144,6 @@ function HomeContent() {
     };
   }, [selectedFactionSlug]);
 
-  // Restore unit list scroll position after quantity changes (no scroll jump)
-  useEffect(() => {
-    const el = unitListScrollRef.current;
-    if (el && savedScrollTop.current !== undefined) {
-      const top = savedScrollTop.current;
-      requestAnimationFrame(() => {
-        el.scrollTop = top;
-      });
-    }
-  }, [quantities]);
-
   useEffect(() => {
     const nextArmy = serializeArmy(quantities);
     const currentArmy = searchParams.get("army") ?? "";
@@ -182,21 +169,17 @@ function HomeContent() {
   };
 
   const handleChangeQuantity = useCallback((unitId: string, delta: number) => {
-    if (unitListScrollRef.current) {
-      savedScrollTop.current = unitListScrollRef.current.scrollTop;
-    }
     setQuantities((prev) => {
       const current = prev[unitId] ?? 0;
       const next = Math.max(0, current + delta);
+
       if (next === 0) {
         const { [unitId]: _removed, ...rest } = prev;
         return rest;
       }
+
       return { ...prev, [unitId]: next };
     });
-    if (delta === 1) {
-      setTimeout(() => searchInputRef.current?.focus(), 0);
-    }
   }, []);
 
   const totals = useMemo(() => {
@@ -338,7 +321,10 @@ function HomeContent() {
           </div>
         </header>
 
-        <main className="flex-1 min-h-0 max-[900px]:flex max-[900px]:flex-col max-[900px]:gap-4 max-[900px]:overflow-visible max-[900px]:min-h-0 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-3 lg:gap-4">
+        <main
+          className="flex-1 min-h-0 max-[900px]:flex max-[900px]:flex-col max-[900px]:gap-4 max-[900px]:overflow-visible max-[900px]:min-h-0 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-3 lg:gap-4"
+          style={{ overflowAnchor: "none" }}
+        >
           <section
             className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col min-h-0 max-[900px]:min-h-0 max-[900px]:max-h-none max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
             style={{ borderLeftColor: factionAccentColor }}
@@ -457,8 +443,7 @@ function HomeContent() {
             </h2>
 
             <div
-              ref={unitListScrollRef}
-              className={`flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-3 border-2 border-[#231F20] rounded-none ${PANEL_BG} max-[900px]:overflow-visible max-[900px]:max-h-none max-[900px]:min-h-0 lg:max-h-[calc(100vh-340px)] lg:overflow-y-auto lg:min-h-0`}
+              className={`flex-1 min-h-0 overflow-y-auto overflow-x-hidden pr-3 border-2 border-[#231F20] rounded-none ${PANEL_BG} max-[900px]:overflow-y-auto max-[900px]:max-h-none max-[900px]:min-h-0 lg:max-h-[calc(100vh-340px)] lg:overflow-y-auto lg:min-h-0`}
             >
               {factionsLoading || unitsLoading ? (
                 <p className="py-4 text-sm font-plex-mono">Loading...</p>
@@ -502,6 +487,7 @@ function HomeContent() {
                           <div className="flex items-center gap-0.5 max-[900px]:gap-1">
                             <button
                               type="button"
+                              onMouseDown={(e) => e.preventDefault()}
                               onClick={() => handleChangeQuantity(unit.id, -1)}
                               className={BTN_QTY}
                               aria-label="Decrease quantity"
@@ -513,6 +499,7 @@ function HomeContent() {
                             </span>
                             <button
                               type="button"
+                              onMouseDown={(e) => e.preventDefault()}
                               onClick={() => handleChangeQuantity(unit.id, 1)}
                               className={BTN_QTY}
                               aria-label="Increase quantity"
@@ -530,7 +517,7 @@ function HomeContent() {
           </section>
 
           <aside
-            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col gap-3 min-h-0 max-[900px]:min-h-0 max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden min-w-0 lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
+            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col gap-3 min-h-0 max-[900px]:hidden max-[900px]:min-h-0 max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden min-w-0 lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
             style={{ borderLeftColor: factionAccentColor }}
           >
             <div className="flex gap-2 flex-shrink-0 max-[900px]:order-3">
@@ -766,6 +753,32 @@ function HomeContent() {
                       })}
                     </ul>
                   )}
+                </div>
+              )}
+              {/* Copy / Export / Reset — only when panel is open */}
+              {mobilePanel && (
+                <div className="grid grid-cols-3 gap-2 mt-4 pt-3 border-t border-[#231F20]/30">
+                  <button
+                    type="button"
+                    onClick={handleCopyArmyLink}
+                    className={`${BTN_STYLE} min-h-[44px] flex items-center justify-center`}
+                  >
+                    {copyLinkCopied ? "Copied!" : "Copy"}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleExportList}
+                    className={`${BTN_STYLE} min-h-[44px] flex items-center justify-center`}
+                  >
+                    {exportListCopied ? "Copied List!" : "Export"}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleResetArmy}
+                    className={`${BTN_STYLE} min-h-[44px] flex items-center justify-center`}
+                  >
+                    RESET
+                  </button>
                 </div>
               )}
             </div>
