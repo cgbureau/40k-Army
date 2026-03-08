@@ -3,80 +3,80 @@
     "models": 5,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "jakhals": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "eightbound": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "angron": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 131.25
     }
   },
   "kharn": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "lord-invocatus": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "lord-on-jugger": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "master-of-executions": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "chaos-rhino": {
     "models": 1,
     "prices": {
       "GBP": 36,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 45
     }
   },
   "maulerfiend": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   }
 }

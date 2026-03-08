@@ -9,8 +9,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -21,8 +21,8 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 33.75
       }
     },
     {
@@ -33,8 +33,8 @@
       "box_price": 29,
       "prices": {
         "GBP": 29,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 36.25
       }
     },
     {
@@ -45,8 +45,8 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 32.5
       }
     },
     {
@@ -57,8 +57,8 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 32.5
       }
     },
     {
@@ -69,8 +69,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -81,8 +81,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -93,8 +93,8 @@
       "box_price": 286,
       "prices": {
         "GBP": 286,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 357.5
       }
     },
     {
@@ -105,8 +105,8 @@
       "box_price": 44.5,
       "prices": {
         "GBP": 44.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 55.63
       }
     },
     {
@@ -117,8 +117,8 @@
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 131.25
       }
     },
     {
@@ -129,8 +129,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -141,8 +141,8 @@
       "box_price": 52,
       "prices": {
         "GBP": 52,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 65
       }
     },
     {
@@ -153,8 +153,8 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 33.75
       }
     },
     {
@@ -165,8 +165,8 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 33.75
       }
     },
     {
@@ -177,8 +177,8 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 33.75
       }
     },
     {
@@ -189,8 +189,8 @@
       "box_price": 29,
       "prices": {
         "GBP": 29,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 36.25
       }
     },
     {
@@ -201,8 +201,8 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 33.75
       }
     },
     {
@@ -213,8 +213,8 @@
       "box_price": 50,
       "prices": {
         "GBP": 50,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 62.5
       }
     },
     {
@@ -225,8 +225,8 @@
       "box_price": 50,
       "prices": {
         "GBP": 50,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 62.5
       }
     },
     {
@@ -237,8 +237,8 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 32.5
       }
     },
     {
@@ -249,8 +249,8 @@
       "box_price": 29,
       "prices": {
         "GBP": 29,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 36.25
       }
     },
     {
@@ -261,8 +261,8 @@
       "box_price": 35.5,
       "prices": {
         "GBP": 35.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 44.38
       }
     },
     {
@@ -273,8 +273,8 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 32.5
       }
     },
     {
@@ -285,8 +285,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -297,8 +297,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -309,8 +309,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -321,8 +321,8 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 61.88
       }
     },
     {
@@ -333,8 +333,8 @@
       "box_price": 52,
       "prices": {
         "GBP": 52,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 65
       }
     },
     {
@@ -345,8 +345,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -357,8 +357,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -369,8 +369,8 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 72.5
       }
     },
     {
@@ -381,8 +381,8 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 72.5
       }
     },
     {
@@ -393,8 +393,8 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 72.5
       }
     },
     {
@@ -405,8 +405,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -417,8 +417,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -429,8 +429,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -441,8 +441,8 @@
       "box_price": 55,
       "prices": {
         "GBP": 55,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 68.75
       }
     },
     {
@@ -453,8 +453,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -465,8 +465,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -477,8 +477,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -489,8 +489,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -501,8 +501,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -513,8 +513,8 @@
       "box_price": 32.5,
       "prices": {
         "GBP": 32.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 40.63
       }
     },
     {
@@ -525,8 +525,8 @@
       "box_price": 44.5,
       "prices": {
         "GBP": 44.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 55.63
       }
     },
     {
@@ -537,8 +537,8 @@
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 131.25
       }
     },
     {
@@ -549,8 +549,8 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 72.5
       }
     },
     {
@@ -561,8 +561,8 @@
       "box_price": 71.5,
       "prices": {
         "GBP": 71.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 89.38
       }
     },
     {
@@ -573,8 +573,8 @@
       "box_price": 71.5,
       "prices": {
         "GBP": 71.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 89.38
       }
     },
     {
@@ -585,8 +585,8 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 32.5
       }
     },
     {
@@ -597,8 +597,8 @@
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 31.25
       }
     },
     {
@@ -609,8 +609,8 @@
       "box_price": 23,
       "prices": {
         "GBP": 23,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 28.75
       }
     },
     {
@@ -621,8 +621,8 @@
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 31.25
       }
     },
     {
@@ -633,8 +633,8 @@
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 31.25
       }
     },
     {
@@ -645,8 +645,8 @@
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 31.25
       }
     },
     {
@@ -657,8 +657,8 @@
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 31.25
       }
     },
     {
@@ -669,8 +669,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -681,8 +681,8 @@
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 59.38
       }
     },
     {
@@ -693,8 +693,8 @@
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 59.38
       }
     },
     {
@@ -705,8 +705,8 @@
       "box_price": 36,
       "prices": {
         "GBP": 36,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 45
       }
     },
     {
@@ -717,8 +717,8 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 61.88
       }
     },
     {
@@ -729,8 +729,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -741,8 +741,8 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 72.5
       }
     },
     {
@@ -753,8 +753,8 @@
       "box_price": 71.5,
       "prices": {
         "GBP": 71.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 89.38
       }
     },
     {
@@ -765,8 +765,8 @@
       "box_price": 36,
       "prices": {
         "GBP": 36,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 45
       }
     },
     {
@@ -777,8 +777,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -789,8 +789,8 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 50
       }
     },
     {
@@ -801,8 +801,8 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 61.88
       }
     },
     {
@@ -813,8 +813,8 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 61.88
       }
     },
     {
@@ -825,8 +825,8 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 61.88
       }
     },
     {
@@ -837,8 +837,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -849,8 +849,8 @@
       "box_price": 78,
       "prices": {
         "GBP": 78,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 97.5
       }
     },
     {
@@ -861,8 +861,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -873,8 +873,8 @@
       "box_price": 91,
       "prices": {
         "GBP": 91,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 113.75
       }
     },
     {
@@ -885,8 +885,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -897,8 +897,8 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 33.75
       }
     },
     {
@@ -909,8 +909,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -921,8 +921,8 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 53.13
       }
     },
     {
@@ -933,8 +933,8 @@
       "box_price": 619,
       "prices": {
         "GBP": 619,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 773.75
       }
     },
     {
@@ -945,8 +945,8 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 47.5
       }
     },
     {
@@ -957,8 +957,8 @@
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 59.38
       }
     },
     {
@@ -969,8 +969,8 @@
       "box_price": 45,
       "prices": {
         "GBP": 45,
-        "USD": null,
-        "EUR": null
+        "USD": 127.99,
+        "EUR": 56.25
       }
     }
   ]

@@ -3,280 +3,280 @@
     "models": 3,
     "prices": {
       "GBP": 38,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 47.5
     }
   },
   "space-marine-captain": {
     "models": 1,
     "prices": {
       "GBP": 27,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 33.75
     }
   },
   "space-marine-captain-in-terminator-armour": {
     "models": 1,
     "prices": {
       "GBP": 29,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 36.25
     }
   },
   "space-marine-chaplain": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "intercessors": {
     "models": 10,
     "prices": {
       "GBP": 40,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 50
     }
   },
   "assault-intercessors-with-jump-packs": {
     "models": 5,
     "prices": {
       "GBP": 38,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 47.5
     }
   },
   "space-marine-astraeus": {
     "models": 1,
     "prices": {
       "GBP": 286,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 357.5
     }
   },
   "space-marine-ballistus-dreadnought": {
     "models": 1,
     "prices": {
       "GBP": 44.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 55.63
     }
   },
   "space-marine-bladeguard-ancient": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 131.25
     }
   },
   "space-marine-brutalis-dreadnought": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "centurion-assaults": {
     "models": 3,
     "prices": {
       "GBP": 50,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 62.5
     }
   },
   "space-marine-chaplain-on-bike": {
     "models": 1,
     "prices": {
       "GBP": 35.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 44.38
     }
   },
   "company-heroes": {
     "models": 5,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "devastators": {
     "models": 6,
     "prices": {
       "GBP": 40,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 50
     }
   },
   "space-marine-gladiator-lancer": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 72.5
     }
   },
   "space-marine-hammerfall-bunker": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "space-marine-impulsor": {
     "models": 1,
     "prices": {
       "GBP": 55,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 68.75
     }
   },
   "space-marine-incursors": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 50
     }
   },
   "space-marine-invader-atv": {
     "models": 1,
     "prices": {
       "GBP": 32.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 40.63
     }
   },
   "space-marine-land-raider-crusader": {
     "models": 1,
     "prices": {
       "GBP": 71.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 89.38
     }
   },
   "space-marine-lieutenant": {
     "models": 1,
     "prices": {
       "GBP": 25,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 31.25
     }
   },
   "space-marine-librarian-in-terminator-armour": {
     "models": 1,
     "prices": {
       "GBP": 23,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 28.75
     }
   },
   "outriders": {
     "models": 3,
     "prices": {
       "GBP": 40,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 50
     }
   },
   "space-marine-predator-annihilator": {
     "models": 1,
     "prices": {
       "GBP": 47.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 59.38
     }
   },
   "space-marine-razorback": {
     "models": 1,
     "prices": {
       "GBP": 36,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 45
     }
   },
   "space-marine-redemptor-dreadnought": {
     "models": 1,
     "prices": {
       "GBP": 49.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 61.88
     }
   },
   "sternguard-veterans": {
     "models": 5,
     "prices": {
       "GBP": 40,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 50
     }
   },
   "space-marine-stormraven-gunship": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   },
   "suppressors": {
     "models": 3,
     "prices": {
       "GBP": 91,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 113.75
     }
   },
   "tacticals": {
     "models": 10,
     "prices": {
       "GBP": 38,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 47.5
     }
   },
   "terminators": {
     "models": 6,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "space-marine-thunderhawk-gunship": {
     "models": 1,
     "prices": {
       "GBP": 619,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 773.75
     }
   },
   "space-marine-whirlwind": {
     "models": 1,
     "prices": {
       "GBP": 45,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 56.25
     }
   },
   "space-marine-apothecary": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "redemptor-dreadnought": {
     "models": 1,
     "prices": {
       "GBP": 49.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 61.88
     }
   }
 }

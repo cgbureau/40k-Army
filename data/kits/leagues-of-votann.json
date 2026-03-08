@@ -3,72 +3,72 @@
     "models": 10,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "brokhyr-thunderkyn": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "cthonian-beserks": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "hernkyn-pioneers": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "kahl": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "einhyr-champion": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "grimnyr": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "sagitaur": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "hekaton-land-fortress": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   }
 }

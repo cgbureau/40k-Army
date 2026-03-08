@@ -3,72 +3,72 @@
     "models": 10,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "scarab-occult-terminators": {
     "models": 5,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "tzaangors": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "tzaangor-enlightened": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "exalted-sorcerers": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "ahriman": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "infernal-master": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "magnus-the-red": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 131.25
     }
   },
   "mutalith-vortex-beast": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   }
 }

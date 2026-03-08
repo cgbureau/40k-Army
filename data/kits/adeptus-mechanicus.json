@@ -3,152 +3,152 @@
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 39.38
     }
   },
   "skitarii-vanguard": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 39.38
     }
   },
   "sicarian-ruststalkers": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "sicarian-infiltrators": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "electro-priests": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "kataphron-destroyers": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "kataphron-breachers": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "tech-priest-enginseer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "tech-priest-dominus": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "tech-priest-manipulus": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "onager-dunecrawler": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "sydonian-dragoon": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "ironstrider-ballistarii": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "skorpius-dunerider": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "skorpius-disintegrator": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "pteraxii-skystalkers": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "pteraxii-sterylizors": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "serberys-raiders": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "serberys-sulphurhounds": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   }
 }

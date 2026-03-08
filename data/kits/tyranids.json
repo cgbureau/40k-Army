@@ -3,232 +3,232 @@
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "hormagaunts": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 39.38
     }
   },
   "genestealers": {
     "models": 8,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "tyranid-warriors": {
     "models": 3,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "biovore": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "broodlord": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "deathleaper": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "lictor": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "neurotyrant": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "parasite-of-mortrex": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "pyrovores": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "ripper-swarms": {
     "models": 3,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "venomthropes": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "zoanthropes": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "raveners": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "von-ryan-leapers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "tyrant-guard": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "carnifex": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "screamer-killer": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "haruspex": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "exocrine": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "maleceptor": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "mawloc": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "hive-tyrant": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "tervigon": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "harpy": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "hive-crone": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "tyrannocyte": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "norn-emissary": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   }
 }

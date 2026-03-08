@@ -3,136 +3,136 @@
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 39.38
     }
   },
   "wyches": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 39.38
     }
   },
   "wracks": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "incubi": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "scourges": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "mandrakes": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "grotesques": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "hellions": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "reavers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "archon": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "succubus": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "beastmaster": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "raider": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "ravager": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "venom": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "talos": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "cronos": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   }
 }

@@ -3,208 +3,208 @@
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 39.38
     }
   },
   "dire-avengers": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "rangers": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "howling-banshees": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "fire-dragons": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "swooping-hawks": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "warp-spiders": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "dark-reapers": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "wraithguard": {
     "models": 5,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "windriders": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "shining-spears": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "farseer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "farseer-skyrunner": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "warlock": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "warlock-skyrunner": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "autarch": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "autarch-wayleaper": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "jain-zar": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "war-walker": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "wraithlord": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "avatar-of-khaine": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   },
   "fire-prism": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "night-spinner": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 65
     }
   },
   "crimson-hunter": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 72.5
     }
   },
   "hemlock-wraithfighter": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 72.5
     }
   },
   "wraithknight": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 131.25
     }
   }
 }

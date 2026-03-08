@@ -3,136 +3,136 @@
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "daemonettes": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "pink-horrors": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "plaguebearers": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 35
     }
   },
   "bloodcrushers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "flesh-hounds": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "seekers": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "flamers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "screamers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 43.75
     }
   },
   "nurglings": {
     "models": 3,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "exalted-flamer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 32.5
     }
   },
   "bloodthirster": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   },
   "keeper-of-secrets": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   },
   "lord-of-change": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   },
   "great-unclean-one": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 97.5
     }
   },
   "daemon-prince": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 53.13
     }
   },
   "soul-grinder": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": null,
-      "EUR": null
+      "USD": 127.99,
+      "EUR": 72.5
     }
   }
 }
