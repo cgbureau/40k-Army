@@ -1,106 +1,210 @@
 {
   "chaos-terminators": {
     "models": 5,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 55.25,
+      "EUR": 53.13
+    }
   },
   "chosen": {
     "models": 5,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 53.13,
+      "EUR": 53.13
+    }
   },
   "cultist-mob": {
     "models": 10,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": 29.99,
+      "EUR": 35
+    }
   },
   "accursed-cultists": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   },
   "havocs": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   },
   "raptors": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 45,
+      "EUR": 43.75
+    }
   },
   "warp-talons": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 45,
+      "EUR": 43.75
+    }
   },
   "possessed": {
     "models": 5,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 55.25,
+      "EUR": 53.13
+    }
   },
   "noise-marines": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   },
   "chaos-lord": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 34,
+      "EUR": 32.5
+    }
   },
   "dark-apostle": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 30,
+      "EUR": 32.5
+    }
   },
   "sorcerer": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 35,
+      "EUR": 32.5
+    }
   },
   "master-of-executions": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 34.96,
+      "EUR": 32.5
+    }
   },
   "warpsmith": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 32.3,
+      "EUR": 32.5
+    }
   },
   "abaddon-the-despoiler": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": 62.48,
+      "EUR": 65
+    }
   },
   "chaos-bikers": {
     "models": 3,
-    "price": 40
+    "prices": {
+      "GBP": 40,
+      "USD": 47,
+      "EUR": 50
+    }
   },
   "chaos-rhino": {
     "models": 1,
-    "price": 36
+    "prices": {
+      "GBP": 36,
+      "USD": 46.99,
+      "EUR": 45
+    }
   },
   "chaos-land-raider": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": 69.99,
+      "EUR": 72.5
+    }
   },
   "chaos-predator": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": 49.95,
+      "EUR": 59.38
+    }
   },
   "chaos-vindicator": {
     "models": 1,
-    "price": 47.5
+    "prices": {
+      "GBP": 47.5,
+      "USD": 71.25,
+      "EUR": 59.38
+    }
   },
   "helbrute": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 54,
+      "EUR": 53.13
+    }
   },
   "forgefiend": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": 62.5,
+      "EUR": 65
+    }
   },
   "maulerfiend": {
     "models": 1,
-    "price": 52
+    "prices": {
+      "GBP": 52,
+      "USD": 65.5,
+      "EUR": 65
+    }
   },
   "defiler": {
     "models": 1,
-    "price": 58
+    "prices": {
+      "GBP": 58,
+      "USD": 75,
+      "EUR": 72.5
+    }
   },
   "venomcrawler": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 52.75,
+      "EUR": 53.13
+    }
   },
   "obliterators": {
     "models": 2,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 50.95,
+      "EUR": 53.13
+    }
   }
 }

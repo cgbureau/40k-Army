@@ -6,168 +6,288 @@
       "name": "Breacher Team",
       "points": 90,
       "models_per_box": 10,
-      "box_price": 31.5
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": 42.99,
+        "EUR": 39.38
+      }
     },
     {
       "id": "broadside_battlesuits",
       "name": "Broadside Battlesuits",
       "points": 110,
       "models_per_box": 1,
-      "box_price": 42.5
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 55.25,
+        "EUR": 53.13
+      }
     },
     {
       "id": "cadre_fireblade",
       "name": "Cadre Fireblade",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 35,
+        "EUR": 32.5
+      }
     },
     {
       "id": "farsight",
       "name": "Commander Farsight",
       "points": 90,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 29.99,
+        "EUR": 32.5
+      }
     },
     {
       "id": "crisis_battlesuits",
       "name": "Crisis Battlesuits",
       "points": 195,
       "models_per_box": 3,
-      "box_price": 54.5
+      "box_price": 54.5,
+      "prices": {
+        "GBP": 54.5,
+        "USD": 75.65,
+        "EUR": 68.13
+      }
     },
     {
       "id": "darkstrider",
       "name": "Darkstrider",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 35,
+        "EUR": 32.5
+      }
     },
     {
       "id": "devilfish",
       "name": "Devilfish",
       "points": 95,
       "models_per_box": 1,
-      "box_price": 47.5
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": 55.25,
+        "EUR": 59.38
+      }
     },
     {
       "id": "ethereal",
       "name": "Ethereal",
       "points": 50,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 34.96,
+        "EUR": 32.5
+      }
     },
     {
       "id": "ghostkeel_battlesuit",
       "name": "Ghostkeel Battlesuit",
       "points": 160,
       "models_per_box": 1,
-      "box_price": 52
+      "box_price": 52,
+      "prices": {
+        "GBP": 52,
+        "USD": 69,
+        "EUR": 65
+      }
     },
     {
       "id": "hammerhead_gunship",
       "name": "Hammerhead Gunship",
       "points": 130,
       "models_per_box": 1,
-      "box_price": 47.5
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": 68,
+        "EUR": 59.38
+      }
     },
     {
       "id": "kroot_carnivores",
       "name": "Kroot Carnivores",
       "points": 55,
       "models_per_box": 10,
-      "box_price": 28
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": 29.99,
+        "EUR": 35
+      }
     },
     {
       "id": "kroot_farstalkers",
       "name": "Kroot Farstalkers",
       "points": 75,
       "models_per_box": 10,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 46.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "kroot_hounds",
       "name": "Kroot Hounds",
       "points": 30,
       "models_per_box": 4,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 29.99,
+        "EUR": 32.5
+      }
     },
     {
       "id": "krootox_riders",
       "name": "Krootox Riders",
       "points": 65,
       "models_per_box": 1,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 45,
+        "EUR": 43.75
+      }
     },
     {
       "id": "pathfinder_team",
       "name": "Pathfinder Team",
       "points": 90,
       "models_per_box": 10,
-      "box_price": 31.5
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": 39.99,
+        "EUR": 39.38
+      }
     },
     {
       "id": "piranha",
       "name": "Piranha",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 44,
+        "EUR": 43.75
+      }
     },
     {
       "id": "riptide_battlesuit",
       "name": "Riptide Battlesuit",
       "points": 235,
       "models_per_box": 1,
-      "box_price": 78
+      "box_price": 78,
+      "prices": {
+        "GBP": 78,
+        "USD": 103.7,
+        "EUR": 97.5
+      }
     },
     {
       "id": "skyray_gunship",
       "name": "Skyray Gunship",
       "points": 160,
       "models_per_box": 1,
-      "box_price": 47.5
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": 68,
+        "EUR": 59.38
+      }
     },
     {
       "id": "stealth_battlesuits",
       "name": "Stealth Battlesuits",
       "points": 75,
       "models_per_box": 3,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 46.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "strike_team",
       "name": "Strike Team",
       "points": 80,
       "models_per_box": 10,
-      "box_price": 31.5
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": 42.99,
+        "EUR": 39.38
+      }
     },
     {
       "id": "sun_shark_bomber",
       "name": "Sun Shark Bomber",
       "points": 165,
       "models_per_box": 1,
-      "box_price": 58
+      "box_price": 58,
+      "prices": {
+        "GBP": 58,
+        "USD": 76,
+        "EUR": 72.5
+      }
     },
     {
       "id": "tactical_drones",
       "name": "Tactical Drones",
       "points": 50,
       "models_per_box": 4,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 34.96,
+        "EUR": 32.5
+      }
     },
     {
       "id": "tidewall",
       "name": "Tidewall",
       "points": 85,
       "models_per_box": 1,
-      "box_price": 42.5
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 46.99,
+        "EUR": 53.13
+      }
     },
     {
       "id": "vespid_stingwings",
       "name": "Vespid Stingwings",
       "points": 75,
       "models_per_box": 5,
-      "box_price": 28
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": 34,
+        "EUR": 35
+      }
     }
   ]
 }

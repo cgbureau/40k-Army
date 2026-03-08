@@ -6,119 +6,204 @@
       "name": "Archon",
       "points": 85,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 33.5,
+        "EUR": 32.5
+      }
     },
     {
       "id": "beastmaster",
       "name": "Beastmaster",
       "points": 80,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 33.66,
+        "EUR": 32.5
+      }
     },
     {
       "id": "cronos",
       "name": "Cronos",
       "points": 50,
       "models_per_box": 1,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 46.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "grotesques",
       "name": "Grotesques",
       "points": 105,
       "models_per_box": 3,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 45,
+        "EUR": 43.75
+      }
     },
     {
       "id": "hellions",
       "name": "Hellions",
       "points": 90,
       "models_per_box": 5,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 41.96,
+        "EUR": 43.75
+      }
     },
     {
       "id": "incubi",
       "name": "Incubi",
       "points": 85,
       "models_per_box": 5,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 46.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "kabalite_warriors",
       "name": "Kabalite Warriors",
       "points": 110,
       "models_per_box": 10,
-      "box_price": 31.5
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": 40.8,
+        "EUR": 39.38
+      }
     },
     {
       "id": "mandrakes",
       "name": "Mandrakes",
       "points": 65,
       "models_per_box": 5,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 44,
+        "EUR": 43.75
+      }
     },
     {
       "id": "raider",
       "name": "Raider",
       "points": 90,
       "models_per_box": 1,
-      "box_price": 42.5
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 52,
+        "EUR": 53.13
+      }
     },
     {
       "id": "ravager",
       "name": "Ravager",
       "points": 115,
       "models_per_box": 1,
-      "box_price": 42.5
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 51,
+        "EUR": 53.13
+      }
     },
     {
       "id": "reavers",
       "name": "Reavers",
       "points": 70,
       "models_per_box": 3,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 46.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "scourges",
       "name": "Scourges",
       "points": 75,
       "models_per_box": 5,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 46.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "succubus",
       "name": "Succubus",
       "points": 55,
       "models_per_box": 1,
-      "box_price": 26
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 32.99,
+        "EUR": 32.5
+      }
     },
     {
       "id": "talos",
       "name": "Talos",
       "points": 90,
       "models_per_box": 1,
-      "box_price": 42.5
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 55.25,
+        "EUR": 53.13
+      }
     },
     {
       "id": "venom",
       "name": "Venom",
       "points": 80,
       "models_per_box": 1,
-      "box_price": 35
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 44.99,
+        "EUR": 43.75
+      }
     },
     {
       "id": "wracks",
       "name": "Wracks",
       "points": 65,
       "models_per_box": 5,
-      "box_price": 28
+      "box_price": 28,
+      "prices": {
+        "GBP": 28,
+        "USD": 34.96,
+        "EUR": 35
+      }
     },
     {
       "id": "wyches",
       "name": "Wyches",
       "points": 90,
       "models_per_box": 10,
-      "box_price": 31.5
+      "box_price": 31.5,
+      "prices": {
+        "GBP": 31.5,
+        "USD": 40.8,
+        "EUR": 39.38
+      }
     }
   ]
 }

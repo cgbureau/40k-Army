@@ -11,6 +11,7 @@ type Unit = {
   points: number;
   models_per_box: number | null;
   box_price: number | null;
+  prices?: { GBP?: number | null; USD?: number | null; EUR?: number | null };
   is_legends?: boolean;
 };
 
@@ -52,6 +53,28 @@ const BTN_STYLE =
   "px-1.5 py-0.5 border-2 border-[#231F20] bg-[#B2C4AE] text-[#231F20] text-sm font-plex-mono hover:bg-[#9FB49A] focus:outline-none rounded-none shadow-none";
 const BTN_QTY = `${BTN_STYLE} w-7 h-7 flex items-center justify-center p-0 text-base leading-none shrink-0`;
 
+const CURRENCY_SYMBOLS: Record<"GBP" | "USD" | "EUR", string> = {
+  GBP: "£",
+  USD: "$",
+  EUR: "€",
+};
+
+function getUnitPrice(
+  unit: Unit,
+  currency: "GBP" | "USD" | "EUR"
+): number | null {
+  if (currency === "GBP") {
+    const value = unit.prices?.GBP ?? unit.box_price ?? null;
+    return value != null && value > 0 ? value : null;
+  }
+  const value = unit.prices?.[currency] ?? null;
+  return value != null && value > 0 ? value : null;
+}
+
+function getCurrencySymbol(currency: "GBP" | "USD" | "EUR"): string {
+  return CURRENCY_SYMBOLS[currency];
+}
+
 type QuantityMap = Record<string, number>;
 
 function HomeContent() {
@@ -67,6 +90,7 @@ function HomeContent() {
   const [quantities, setQuantities] = useState<QuantityMap>({});
   const [search, setSearch] = useState<string>("");
   const [targetPoints, setTargetPoints] = useState<number>(0);
+  const [currency, setCurrency] = useState<"GBP" | "USD" | "EUR">("GBP");
   const searchInputRef = useRef<HTMLInputElement>(null);
   const unitListScrollRef = useRef<HTMLDivElement>(null);
   const savedScrollTop = useRef(0);
@@ -182,14 +206,15 @@ function HomeContent() {
       const qty = quantities[unit.id] ?? 0;
       if (qty <= 0) continue;
       totalPoints += unit.points * qty;
-      if (unit.models_per_box != null && unit.box_price != null) {
+      const price = getUnitPrice(unit, currency);
+      if (unit.models_per_box != null && price != null) {
         const boxesRequired = Math.ceil(qty / unit.models_per_box);
         totalBoxes += boxesRequired;
-        totalCost += boxesRequired * unit.box_price;
+        totalCost += boxesRequired * price;
       }
     }
     return { totalPoints, totalBoxes, totalCost };
-  }, [quantities, units]);
+  }, [quantities, units, currency]);
 
   const filteredUnits = useMemo(() => {
     const term = search.trim().toLowerCase();
@@ -227,9 +252,10 @@ function HomeContent() {
   const armyCostBreakdownUnits = useMemo(
     () =>
       armySummaryUnits.filter(
-        (u) => u.models_per_box != null && u.box_price != null
+        (u) =>
+          u.models_per_box != null && getUnitPrice(u, currency) != null
       ),
-    [armySummaryUnits]
+    [armySummaryUnits, currency]
   );
 
   const handleResetArmy = () => {
@@ -247,7 +273,25 @@ function HomeContent() {
   return (
     <div className="min-h-screen lg:h-screen lg:overflow-hidden flex flex-col page-bg text-[#231F20] font-plex-mono">
       <div className="flex flex-col min-h-0 shrink-0 lg:flex-1 lg:shrink max-w-6xl w-full mx-auto py-4 px-4 lg:overflow-hidden relative z-10">
-        <header className="text-center flex-shrink-0 mb-4">
+        <header className="text-center flex-shrink-0 mb-4 relative">
+          <div className="absolute top-0 right-0 flex items-center gap-1.5">
+            <label htmlFor="currency-select" className="text-sm font-workbench whitespace-nowrap">
+              Currency
+            </label>
+            <select
+              id="currency-select"
+              value={currency}
+              onChange={(e) =>
+                setCurrency(e.target.value as "GBP" | "USD" | "EUR")
+              }
+              className="border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none"
+              aria-label="Select currency"
+            >
+              <option value="GBP">GBP (£)</option>
+              <option value="USD">USD ($)</option>
+              <option value="EUR">EUR (€)</option>
+            </select>
+          </div>
           <div className="flex justify-center mb-2">
             <Image
               src="/40KArmy_Logo.svg"
@@ -391,6 +435,7 @@ function HomeContent() {
                 <div className="divide-y divide-[#231F20]/40">
                   {filteredUnits.map((unit) => {
                     const qty = quantities[unit.id] ?? 0;
+                    const price = getUnitPrice(unit, currency);
                     return (
                       <div
                         key={unit.id}
@@ -408,8 +453,8 @@ function HomeContent() {
                             : "--"}
                         </span>
                         <span className="tabular-nums whitespace-nowrap">
-                          {unit.box_price != null && unit.box_price > 0
-                            ? `£${unit.box_price.toFixed(2)}`
+                          {price !== null
+                            ? `${getCurrencySymbol(currency)}${price.toFixed(2)}`
                             : "--"}
                         </span>
                         <div className="flex items-center gap-0.5">
@@ -527,7 +572,9 @@ function HomeContent() {
                       const boxesRequired = Math.ceil(
                         qty / (unit.models_per_box ?? 1)
                       );
-                      const cost = boxesRequired * (unit.box_price ?? 0);
+                      const price = getUnitPrice(unit, currency) ?? 0;
+                      const cost = boxesRequired * price;
+                      const sym = getCurrencySymbol(currency);
                       return (
                         <li
                           key={unit.id}
@@ -537,7 +584,7 @@ function HomeContent() {
                             {unit.name}
                           </span>
                           <span className="tabular-nums whitespace-nowrap shrink-0">
-                            Qty:{qty} Bxs:{boxesRequired} £
+                            Qty:{qty} Bxs:{boxesRequired} {sym}
                             {cost.toFixed(2)}
                           </span>
                         </li>
@@ -582,14 +629,16 @@ function HomeContent() {
                 <div>
                   <div className="text-[#231F20]/80">Est. Cost</div>
                   <div className="tabular-nums font-semibold">
-                    £{totals.totalCost.toFixed(2)}
+                    {getCurrencySymbol(currency)}
+                    {totals.totalCost.toFixed(2)}
                   </div>
                 </div>
                 {costPer1000 != null && (
                   <div className="col-span-2">
                     <div className="text-[#231F20]/80">Cost / 1000pts</div>
                     <div className="tabular-nums font-semibold">
-                      £{costPer1000.toFixed(2)}
+                      {getCurrencySymbol(currency)}
+                      {costPer1000.toFixed(2)}
                     </div>
                   </div>
                 )}

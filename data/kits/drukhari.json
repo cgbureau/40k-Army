@@ -1,70 +1,138 @@
 {
   "kabalite-warriors": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": 40.8,
+      "EUR": 39.38
+    }
   },
   "wyches": {
     "models": 10,
-    "price": 31.5
+    "prices": {
+      "GBP": 31.5,
+      "USD": 40.8,
+      "EUR": 39.38
+    }
   },
   "wracks": {
     "models": 5,
-    "price": 28
+    "prices": {
+      "GBP": 28,
+      "USD": 34.96,
+      "EUR": 35
+    }
   },
   "incubi": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   },
   "scourges": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   },
   "mandrakes": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 44,
+      "EUR": 43.75
+    }
   },
   "grotesques": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 45,
+      "EUR": 43.75
+    }
   },
   "hellions": {
     "models": 5,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 41.96,
+      "EUR": 43.75
+    }
   },
   "reavers": {
     "models": 3,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   },
   "archon": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 33.5,
+      "EUR": 32.5
+    }
   },
   "succubus": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 32.99,
+      "EUR": 32.5
+    }
   },
   "beastmaster": {
     "models": 1,
-    "price": 26
+    "prices": {
+      "GBP": 26,
+      "USD": 33.66,
+      "EUR": 32.5
+    }
   },
   "raider": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 52,
+      "EUR": 53.13
+    }
   },
   "ravager": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 51,
+      "EUR": 53.13
+    }
   },
   "venom": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 44.99,
+      "EUR": 43.75
+    }
   },
   "talos": {
     "models": 1,
-    "price": 42.5
+    "prices": {
+      "GBP": 42.5,
+      "USD": 55.25,
+      "EUR": 53.13
+    }
   },
   "cronos": {
     "models": 1,
-    "price": 35
+    "prices": {
+      "GBP": 35,
+      "USD": 46.99,
+      "EUR": 43.75
+    }
   }
 }
