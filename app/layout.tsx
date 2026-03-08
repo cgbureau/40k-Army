@@ -15,8 +15,34 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "40KArmy – Warhammer 40K Army Calculator",
-  description: "Build and cost your Warhammer 40K army. Points, boxes, and estimated cost.",
+  metadataBase: new URL("https://40karmy.com"),
+  title: "Warhammer 40K Army Cost Calculator | 40KArmy",
+  description:
+    "Calculate the real cost of building a Warhammer 40K army. Add units, track points, estimate boxes and total army price.",
+  keywords: [
+    "warhammer 40k army calculator",
+    "40k army cost",
+    "warhammer army cost calculator",
+    "40k army builder cost",
+    "warhammer points calculator",
+  ],
+  openGraph: {
+    title: "Warhammer 40K Army Cost Calculator",
+    description:
+      "Build your Warhammer 40K army and instantly calculate points, boxes, and real-world cost.",
+    url: "https://40karmy.com",
+    siteName: "40KArmy",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Warhammer 40K Army Cost Calculator",
+    description:
+      "Calculate the real cost of a Warhammer 40K army.",
+  },
+  verification: {
+    google: "XpdILhXzGcYP2lOOpZt0wJSPoKDFB9Vv5KCPEiKKM9A",
+  },
 };
 
 export default function RootLayout({

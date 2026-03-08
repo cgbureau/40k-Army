@@ -677,6 +677,26 @@ function HomeContent() {
           </aside>
         </main>
 
+        <section className="max-w-3xl mx-auto text-xs opacity-80 mt-6 px-4 leading-relaxed">
+          <h2 className="font-workbench uppercase text-sm mb-2">
+            Warhammer 40K Army Cost Calculator
+          </h2>
+
+          <p className="mb-2">
+            This fan-made Warhammer 40K army calculator helps estimate the real-world cost
+            of building a tabletop army. Select units from your faction, track total points,
+            estimate how many model boxes are required, and calculate the approximate cost
+            of your army list.
+          </p>
+
+          <p className="mb-2">
+            The tool is designed to give players a quick way to understand how expensive
+            different Warhammer 40K army builds can be before purchasing miniatures.
+            Points values, box quantities, and pricing data are estimates and may change
+            with future game updates.
+          </p>
+        </section>
+
         <footer className="text-center text-xs opacity-70 mt-[12px] flex-shrink-0">
           <p>
             40KArmy v1 — unofficial Warhammer army cost calculator - A product
