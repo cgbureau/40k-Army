@@ -9,7 +9,15 @@
     "lint": "eslint",
     "fetch-units": "node scripts/fetch-wahapedia-units.js",
     "update:regional-prices": "tsx scripts/fetch-regional-prices.ts",
-    "update:kit-prices": "tsx scripts/fetch-regional-kit-prices.ts"
+    "update:kit-prices": "tsx scripts/fetch-regional-kit-prices.ts",
+    "validate:kits": "tsx scripts/validate-kit-registry.ts",
+    "validate:mappings": "tsx scripts/validate-kit-mappings.ts",
+    "suggest:mappings": "tsx scripts/suggest-kit-mappings.ts",
+    "apply:mappings": "tsx scripts/apply-suggested-mappings.ts",
+    "detect:kits": "tsx scripts/detect-missing-kits.ts",
+    "diagnose:unmapped": "tsx scripts/count-unmapped-by-faction.ts",
+    "diagnose:faction": "tsx scripts/list-unmapped-for-faction.ts",
+    "merge:mappings": "tsx scripts/merge-duplicate-kit-mappings.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^1.6.1",

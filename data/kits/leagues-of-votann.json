@@ -70,5 +70,13 @@
       "USD": 103.7,
       "EUR": 97.5
     }
+  },
+  "thar-the-destined": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
   }
 }

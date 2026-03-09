@@ -39,6 +39,14 @@
       "EUR": 50
     }
   },
+  "assault-intercessors": {
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 60,
+      "EUR": 50
+    }
+  },
   "assault-intercessors-with-jump-packs": {
     "models": 5,
     "prices": {
@@ -79,6 +87,22 @@
       "EUR": 65
     }
   },
+  "bjorn-the-fell-handed": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "carab-culln-the-risen": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
   "centurion-assaults": {
     "models": 3,
     "prices": {
@@ -95,12 +119,28 @@
       "EUR": 44.38
     }
   },
+  "space-marine-drop-pod": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
   "company-heroes": {
     "models": 5,
     "prices": {
       "GBP": 42.5,
       "USD": 53.94,
       "EUR": 53.13
+    }
+  },
+  "death-company-marines": {
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   },
   "devastators": {
@@ -173,6 +213,22 @@
       "GBP": 23,
       "USD": 29.99,
       "EUR": 28.75
+    }
+  },
+  "land-speeder": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "lukas-the-trickster": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   },
   "outriders": {
@@ -277,6 +333,38 @@
       "GBP": 49.5,
       "USD": 69.7,
       "EUR": 61.88
+    }
+  },
+  "space-marine-ancient": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "tycho-the-lost": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "ulrik-the-slayer": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "wolf-guard": {
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   }
 }

@@ -1,0 +1,34 @@
+{
+  "callidus-assassin": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "culexus-assassin": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "eversor-assassin": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "vindicare-assassin": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  }
+}

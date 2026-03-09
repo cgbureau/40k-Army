@@ -1,12 +1,18 @@
 {
   "ahriman": "ahriman",
+  "daemon_prince_of_tzeentch": "daemon-prince",
+  "daemon_prince_of_tzeentch_with_wings": "daemon-prince",
   "exalted_sorcerer": "exalted-sorcerers",
   "exalted_sorcerer_on_disc": "exalted-sorcerers",
+  "exalted_sorcerer_on_disc_of_tzeentch": "exalted-sorcerers",
   "infernal_master": "infernal-master",
   "magnus": "magnus-the-red",
+  "magnus_the_red": "magnus-the-red",
   "mutalith_vortex_beast": "mutalith-vortex-beast",
   "rubric_marines": "rubric-marines",
   "scarab_occult_terminators": "scarab-occult-terminators",
   "soulreaper_cannon": "tzaangor-enlightened",
+  "tzaangor_enlightened": "tzaangor-enlightened",
+  "tzaangor_enlightened_with_fatecaster_greatbows": "tzaangor-enlightened",
   "tzaangors": "tzaangors"
 }

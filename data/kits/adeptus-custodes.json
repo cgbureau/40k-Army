@@ -1,0 +1,10 @@
+{
+  "telemon-heavy-dreadnought": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  }
+}

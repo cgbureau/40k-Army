@@ -31,6 +31,14 @@
       "EUR": 35
     }
   },
+  "an-ggrath-the-unbound": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
   "bloodcrushers": {
     "models": 3,
     "prices": {
@@ -61,6 +69,14 @@
       "GBP": 35,
       "USD": 45.05,
       "EUR": 43.75
+    }
+  },
+  "scabeiathrax-the-bloated": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   },
   "screamers": {

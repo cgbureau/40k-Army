@@ -55,6 +55,14 @@
       "EUR": 43.75
     }
   },
+  "hand-of-the-archon": {
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
   "hellions": {
     "models": 5,
     "prices": {
@@ -77,6 +85,14 @@
       "GBP": 26,
       "USD": 33.5,
       "EUR": 32.5
+    }
+  },
+  "court-of-the-archon": {
+    "models": 4,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   },
   "succubus": {

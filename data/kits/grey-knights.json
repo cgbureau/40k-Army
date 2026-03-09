@@ -38,5 +38,13 @@
       "USD": 46.99,
       "EUR": 43.75
     }
+  },
+  "venerable-dreadnought": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
   }
 }

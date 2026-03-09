@@ -1,4 +1,44 @@
 {
+  "anrakyr-the-traveller": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "c-tan-shard-of-the-deceiver": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "c-tan-shard-of-the-nightbringer": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "c-tan-shard-of-the-void-dragon": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "imotekh-the-stormlord": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
   "necron-annihilation-barge": {
     "models": 1,
     "prices": {
@@ -261,6 +301,22 @@
       "GBP": 31.5,
       "USD": 35.96,
       "EUR": 39.38
+    }
+  },
+  "orikan-the-diviner": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
+  "trazyn-the-infinite": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   }
 }

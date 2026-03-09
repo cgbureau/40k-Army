@@ -204,3 +204,31 @@ Maintaining this structure ensures the system can scale to support:
 - new kits
 - global price updates
 - bundle and discount logic in the future
+
+
+---
+
+# Kit Object Structure
+
+Each kit entry represents a retail product sold by Games Workshop.
+
+Example:
+
+terminators:
+  models: 5
+  prices:
+    GBP: number
+    USD: number
+    EUR: number
+    AUD: number
+    CAD: number
+
+Field definitions:
+
+models  
+Number of models contained in the retail box.
+
+prices  
+Regional retail prices scraped from the official GW store.
+
+All prices represent RRP.

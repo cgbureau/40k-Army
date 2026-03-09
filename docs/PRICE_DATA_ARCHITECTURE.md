@@ -198,3 +198,47 @@ The pricing layer must always follow these rules:
 6. Prices should reflect official Games Workshop MSRP.
 
 Maintaining this structure ensures the calculator remains accurate and scalable as the dataset grows.
+
+
+---
+
+# Pricing Philosophy
+
+All pricing stored in the dataset represents official Games Workshop RRP.
+
+Prices are scraped directly from the official Games Workshop web store for each region.
+
+Supported regions:
+
+- GBP (United Kingdom)
+- USD (United States)
+- EUR (Europe)
+- AUD (Australia)
+- CAD (Canada)
+
+
+# Why RRP Is Used
+
+RRP provides a stable baseline across all regions.
+
+Retailers often sell at a 10–20% discount, but this varies significantly.
+
+Instead of storing discounted prices in the dataset, discounts are applied dynamically in the UI.
+
+
+# UI Discount System
+
+The calculator includes a discount toggle allowing users to simulate retailer discounts.
+
+Examples:
+
+0% — Official GW RRP  
+10% — Typical independent retailer  
+15% — Heavy retailer discount  
+20% — Aggressive discount
+
+Discount is applied at calculation time:
+
+effective_price = RRP × (1 − discount)
+
+This keeps the dataset clean while allowing flexible pricing scenarios.

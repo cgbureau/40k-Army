@@ -394,3 +394,69 @@ This will allow the calculator to become the go-to reference for:
 - all units
 - all points
 - all practical retail cost data
+
+
+---
+
+# V2 DATA PIPELINE (UNIT → KIT → PRICE)
+
+The cost calculation system uses a 3-layer data pipeline.
+
+Layer 1 — Master Unit Dataset  
+`army-data-no-legends.json`
+
+Source: Wahapedia scrape.  
+Contains all valid datasheets and points values.
+
+Total units extracted: ~1577  
+Purchasable units mapped to kits: 613
+
+
+Layer 2 — Unit → Kit Mapping  
+`data/kit-mappings/*.json`
+
+Each faction contains a mapping of:
+
+unit_slug → kit_slug
+
+Example:
+
+terminator_squad → terminators  
+terminator_assault_squad → terminators  
+deathwing_terminators → terminators
+
+Multiple units may map to the same kit if they share a retail product.
+
+
+Layer 3 — Kit Definitions  
+`data/kits/*.json`
+
+Each kit contains:
+
+- number of models
+- regional retail prices
+
+Example structure:
+
+terminators:
+  models: 5
+  prices:
+    GBP: 42.50
+    USD: 60
+    EUR: 50
+    AUD: 95
+    CAD: 80
+
+
+Validation
+
+Kit mappings are validated using:
+
+npm run validate:mappings
+
+This ensures every unit mapping references a valid kit definition.
+
+Current status:
+
+613 mappings validated  
+0 invalid references

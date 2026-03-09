@@ -103,6 +103,14 @@
       "EUR": 32.5
     }
   },
+  "masters-of-the-maelstrom": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
+    }
+  },
   "warpsmith": {
     "models": 1,
     "prices": {
@@ -205,6 +213,14 @@
       "GBP": 42.5,
       "USD": 50.95,
       "EUR": 53.13
+    }
+  },
+  "vashtorr-the-arkifane": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 50,
+      "EUR": 50
     }
   }
 }
