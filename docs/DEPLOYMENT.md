@@ -1,242 +1,233 @@
-# Warhammer Army Cost Calculator — Deployment Guide
+# 40KArmy — Deployment Guide
 
-This document explains how the application is deployed and the security expectations for production.
+## Overview
 
-The project is designed to be deployed as a **static Next.js application with lightweight API routes**.
+40KArmy is deployed on **Vercel** using a standard Next.js deployment pipeline.
 
----
+The application is a **frontend-only Next.js app** that consumes static JSON datasets for factions and units.
 
-# Hosting Platform
+Deployment is designed to remain extremely simple.
 
-Recommended hosting:
-
-**Vercel**
-
-Reasons:
-
-• Native Next.js support
-• Automatic HTTPS
-• Edge caching
-• Simple CI/CD via GitHub
-• Built-in security protections
 
 ---
 
-# Repository
+# Tech Stack
 
-The application is deployed directly from the Git repository.
+Frontend
 
-Typical workflow:
+- Next.js (App Router)
+- TypeScript
+- React
+- Tailwind CSS
 
-```text
-Local development
-↓
-Commit to Git
+Hosting
+
+- Vercel
+
+Analytics
+
+- Vercel Analytics
+
+Version Control
+
+- Git
+- GitHub
+
+
+---
+
+# Repository Structure
+
+Key directories:
+
+
+/docs
+data/
+scripts/
+warhammer-calculator/
+
+
+Application root:
+
+
+warhammer-calculator/
+
+
+Important files:
+
+
+app/layout.tsx
+app/page.tsx
+app/sitemap.ts
+app/robots.ts
+
+
+These control metadata, rendering, and SEO.
+
+
+---
+
+# Deployment Flow
+
+Deployment occurs automatically via Git.
+
+Process:
+
+
+Developer commits changes
 ↓
 Push to GitHub
 ↓
-Vercel auto-deploys
-```
+Vercel detects new commit
+↓
+Vercel builds Next.js app
+↓
+Deployment goes live
+
+
+No manual server setup required.
+
 
 ---
 
-# Build Command
+# Standard Deploy Commands
 
-Vercel automatically detects the Next.js project.
+Typical workflow:
 
-Build command:
 
-```bash
+git add .
+git commit -m "update description"
+git push
+
+
+Vercel then automatically builds and deploys.
+
+
+---
+
+# Build System
+
+Vercel runs:
+
+
+npm install
 npm run build
-```
 
----
 
-# Output
+Which executes the Next.js production build.
 
-Next.js produces a production build that includes:
-
-• static frontend assets
-• API routes
-• optimised JavaScript bundles
 
 ---
 
 # Environment Variables
 
-The project currently requires **no environment variables**.
+Currently **none required**.
 
-However future features may introduce:
+The project uses:
 
-• API keys
-• analytics keys
-• external services
+- static datasets
+- public APIs only
 
-Rules:
-
-• store in Vercel environment settings
-• never commit `.env` files
-• never expose server secrets to the browser
 
 ---
 
-# HTTPS
+# SEO Infrastructure
 
-Production must enforce HTTPS.
+The application includes the following SEO components:
 
-Vercel provides:
 
-• automatic TLS certificates
-• HTTP → HTTPS redirects
+app/sitemap.ts
+app/robots.ts
+metadata in layout.tsx
 
----
 
-# Security Headers
+These provide:
 
-Security headers should be configured in `next.config.js`.
+- sitemap generation
+- crawl permissions
+- search metadata
 
-Recommended headers:
-
-```javascript
-{
-  key: "X-Frame-Options",
-  value: "DENY"
-},
-{
-  key: "X-Content-Type-Options",
-  value: "nosniff"
-},
-{
-  key: "Referrer-Policy",
-  value: "strict-origin-when-cross-origin"
-},
-{
-  key: "Strict-Transport-Security",
-  value: "max-age=63072000; includeSubDomains; preload"
-}
-```
-
-A **Content Security Policy (CSP)** should also be defined.
-
-Example:
-
-```text
-default-src 'self';
-script-src 'self';
-style-src 'self' 'unsafe-inline';
-img-src 'self' data:;
-```
 
 ---
 
-# CORS
+# Domain
 
-The API should only allow requests from the same origin.
+Production domain:
 
-This prevents other websites from abusing the endpoints.
 
----
+https://40karmy.com
 
-# Rate Limiting
 
-Because the API routes are public, rate limiting should be added.
+The domain is configured within Vercel.
 
-Possible approaches:
-
-• Vercel Edge Middleware
-• Vercel rate limiting libraries
-• edge caching of API responses
 
 ---
 
-# Caching
+# Analytics
 
-The API responses are ideal candidates for caching.
+Analytics currently use:
 
-Recommended strategy:
 
-```text
-Cache-Control: public, max-age=3600, immutable
-```
+@vercel/analytics
 
-Because the dataset rarely changes.
 
----
+This provides lightweight traffic monitoring.
 
-# Monitoring
-
-Production monitoring should include:
-
-### Uptime monitoring
-
-Recommended tools:
-
-• UptimeRobot
-• Instatus
-
-These services check the site regularly and notify if downtime occurs.
 
 ---
 
-# Dependency Security
+# Performance Characteristics
 
-Before deployment, run:
+The site is extremely lightweight because:
 
-```bash
-npm audit
-```
+- no database queries
+- static data
+- minimal API usage
 
-Resolve any high-severity vulnerabilities.
+This results in:
 
----
+- fast page loads
+- strong mobile performance
+- minimal infrastructure cost
 
-# Performance Audit
-
-Run Lighthouse or PageSpeed Insights.
-
-Check:
-
-• bundle size
-• caching
-• load speed
-
-The app should load extremely fast due to static data.
 
 ---
 
-# Deployment Checklist
+# Deployment Risks
 
-Before going live:
+Low risk.
 
-• run `npm run build` successfully
-• verify API routes respond correctly
-• verify faction dropdown loads all factions
-• verify cost calculations work
-• confirm HTTPS enabled
-• confirm security headers present
-• confirm CSP working
-• confirm no console errors
+Potential issues:
 
----
+• incorrect dataset updates  
+• breaking UI changes  
+• Next.js build errors  
 
-# First Public Release
 
-Initial release plan:
+All deployments can be rolled back within Vercel.
 
-1. Deploy to Vercel
-2. Verify production build
-3. Test on mobile + desktop
-4. Share link publicly
-
-The application is expected to handle **large traffic spikes** because it serves mostly static content.
 
 ---
 
-# Post-Launch
+# Rollback Procedure
 
-After launch the next priorities are:
+If a deployment fails or introduces a bug:
 
-• image pipeline for unit artwork
-• SEO improvements
-• optional army sharing links
-• performance monitoring
+1. Open Vercel dashboard
+2. Navigate to deployments
+3. Select previous stable deployment
+4. Redeploy
+
+
+---
+
+# Future Deployment Changes
+
+Possible future additions:
+
+• affiliate API integrations  
+• price update scripts  
+• faction SEO pages  
+
+
+These will not significantly change deployment structure.

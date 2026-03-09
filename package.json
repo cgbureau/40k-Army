@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "fetch-units": "node scripts/fetch-wahapedia-units.js",
     "update:regional-prices": "tsx scripts/fetch-regional-prices.ts",
     "update:kit-prices": "tsx scripts/fetch-regional-kit-prices.ts"
   },

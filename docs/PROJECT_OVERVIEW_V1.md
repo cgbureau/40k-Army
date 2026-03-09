@@ -1,202 +1,191 @@
-# Warhammer Army Cost Calculator — Project Overview
+# 40KArmy — Project Overview (V1)
 
 ## Project
 
-A web application that helps Warhammer 40k players estimate the real-world cost of building an army.
+40KArmy is a lightweight web tool that calculates the approximate real-world cost of building a Warhammer 40K army.
 
-The tool allows users to:
+Users select a faction, add units to an army list, and the tool estimates:
 
-* Select a faction
-* Add units to an army list
-* See total points
-* See estimated real-world cost
-* Calculate cost efficiency (£ / 1000pts)
+- Total points
+- Number of boxes required
+- Estimated total cost
 
-The application is **read-only** and uses static data.
-There are **no user accounts**, **no authentication**, and **no database**.
+The tool is intentionally simple, fast, and mobile-friendly.
 
-The app is a **fan-made tool** and not affiliated with Games Workshop.
+Primary audience:
+Warhammer 40K hobbyists planning an army purchase.
 
----
-
-# Core Features
-
-• Select faction from all 18 Warhammer 40k factions
-• View full unit list for that faction
-• Add/remove units to an army list
-• Track total points
-• Calculate number of boxes required
-• Calculate estimated total cost (£)
-• Calculate cost per 1000 points
-• Search units by name
-
-Army composition is limited to **one faction at a time**.
 
 ---
 
-# Dataset
+# Core Features (V1)
 
-The application contains:
+• Faction selector  
+• Unit search  
+• +/- unit quantity controls  
+• Target points tracker  
+• Army summary  
+• Box calculation  
+• Estimated army cost  
+• Currency selection (GBP / USD / EUR)  
+• Shareable army links  
+• Export army list  
 
-• 18 factions
-• 427 total units
 
-Each unit includes:
+---
 
-```
+# Architecture
+
+Frontend only application built with:
+
+- Next.js (App Router)
+- TypeScript
+- Vercel hosting
+- Static JSON datasets for factions and units
+
+No authentication, database, or user accounts.
+
+
+---
+
+# Data Model
+
+Each faction loads units from:
+
+
+data/factions/{faction}/units.json
+
+
+Each unit contains:
+
+
 id
 name
 points
 models_per_box
 box_price
-```
+prices { GBP, USD, EUR }
+is_legends
+
+
+Army state is stored client-side and serialized into the URL.
+
 
 Example:
 
-```
-{
-  "id": "intercessor_squad",
-  "name": "Intercessors",
-  "points": 95,
-  "models_per_box": 10,
-  "box_price": 40
-}
-```
 
-Cost calculations use:
+?army=intercessor:2,dreadnought:1
 
-```
-boxes_required = ceil(quantity / models_per_box)
-total_cost = boxes_required * box_price
-```
+
 
 ---
 
-# Tech Stack
+# Design Goals
 
-Framework:
-• Next.js (App Router)
+1. Extremely fast load time
+2. Mobile-first usability
+3. Clear cost visibility
+4. Minimal UI complexity
+5. Easy dataset maintenance
 
-Language:
-• TypeScript / JavaScript
-
-Data:
-• Static JSON files stored in the repository
-
-No external database is used.
 
 ---
 
-# API
+# Launch
 
-The application exposes two API routes:
+Initial launch occurred via Reddit community posts in r/Warhammer40k.
 
-### GET `/api/factions`
+The launch generated:
 
-Returns a list of factions based on the folder structure:
+- Significant traffic
+- Early user feedback
+- Requests for improved unit data accuracy
 
-```
-data/factions/{slug}
-```
-
-Example response:
-
-```
-[
-  { "slug": "space-marines", "name": "Space Marines" },
-  { "slug": "orks", "name": "Orks" }
-]
-```
 
 ---
 
-### GET `/api/factions/[slug]/units`
+# Known Limitations
 
-Returns all units for the given faction.
+V1 limitations:
 
-Example:
+• Unit data incomplete for some factions  
+• Box calculations may require refinement  
+• Prices currently rough estimates for some regions  
+• No unit imagery  
+• No affiliate monetization yet  
 
-```
-/api/factions/orks/units
-```
-
-Returns:
-
-```
-{
-  faction: "Orks",
-  units: [...]
-}
-```
 
 ---
 
-# Application Behaviour
+# Planned Improvements (V2)
 
-When the page loads:
+Priority roadmap:
 
-1. Factions are fetched from `/api/factions`
-2. Default faction loads
-3. Units load from `/api/factions/[slug]/units`
-4. User builds army client-side
+1. Accurate unit datasets for all factions
+2. Verified points values
+3. Improved box-to-unit mapping
+4. Stronger mobile UX
+5. Affiliate purchase links
+6. Optional desktop unit info panel
+7. Additional SEO pages for factions
 
-All calculations happen **in the browser**.
-
-The server is only used to **serve static data**.
 
 ---
 
-# User Interface
+# Monetisation Direction
 
-Main UI components:
+Primary monetisation strategy:
 
-Left panel
-• Search
-• Target points
-• Unit list
+Affiliate links to hobby retailers.
 
-Right panel
-• Army summary
-• Cost breakdown
-• Totals
+Examples:
 
-Faction colours are used as **subtle UI accents only**.
+- Element Games
+- Wayland Games
+- Goblin Gaming
+- Amazon
+- eBay
+
+Ads are considered a secondary option but not preferred due to UI impact.
+
 
 ---
 
-# Deployment Target
+# Traffic Characteristics (Launch)
 
-The application is intended to be deployed as a **static web application**.
+Early analytics indicate:
 
-Expected hosting:
+• Majority mobile users  
+• Strong US and UK traffic  
+• Reddit as primary acquisition channel  
 
-• Vercel
 
-The application has **no backend services** or database.
+This informs future design priorities (mobile-first).
+
 
 ---
 
-# Project Goal
+# Security Model
 
-Provide a simple tool for players to understand:
+Current system has minimal attack surface.
 
-**"How much will this army cost to build?"**
+The application:
 
-The tool prioritises:
+- has no user accounts
+- stores no personal data
+- performs no server-side writes
 
-• simplicity
-• speed
-• accurate kit pricing
+Security focus is therefore limited to standard hosting protections.
 
 
-## V1 Launch Status
+---
 
-Version 1 includes:
+# Project Philosophy
 
-• all factions supported
-• verified kit mappings
-• multi-currency pricing (GBP / USD / EUR)
-• army cost calculation
-• shareable army links
+The project is designed as a fast, focused utility tool.
 
-Deployment: Vercel
+Success metrics:
+
+- Ease of use
+- Data accuracy
+- Community adoption
