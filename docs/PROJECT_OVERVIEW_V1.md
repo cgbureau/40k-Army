@@ -189,3 +189,12 @@ Success metrics:
 - Ease of use
 - Data accuracy
 - Community adoption
+
+
+## Current Priorities
+
+1. Accurate MSRP price data per region
+2. Improved kit → box mapping
+3. Mobile UI improvements
+4. Discount slider
+5. Cost-per-point metric

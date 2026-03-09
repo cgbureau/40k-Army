@@ -245,3 +245,22 @@ Potential future features:
 - community army sharing
 
 The goal is to become the **standard tool for planning Warhammer army purchases**.
+
+
+## Pricing Engine
+
+Goal:
+Provide accurate retail cost estimates per region.
+
+Requirements:
+• Separate price data from unit data
+• Support GBP / USD / EUR / AUD / CAD MSRP
+• Correct models-per-box mapping
+• Allow discount calculation
+
+Architecture proposal:
+
+units.json
+ → kit-mappings.json
+ → kits.json
+ → prices { GBP, USD, EUR }

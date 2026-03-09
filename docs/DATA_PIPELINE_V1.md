@@ -279,3 +279,118 @@ The pipeline prioritises:
 - easy editing by maintainers
 
 This keeps the dataset maintainable as Warhammer releases new models.
+
+---
+
+# Post-Launch Status Update — Units, Points, and Pricing
+
+## Current Status
+
+The project now has a rebuilt unit dataset sourced from Wahapedia.
+
+Current state:
+
+- 1,577 units loaded
+- ~98% points coverage
+- units and points are now considered the stable backbone of the application
+
+This means the next major phase is no longer unit discovery, but **price data completion and accuracy**.
+
+---
+
+## Pricing Phase Goal
+
+The next development phase is to make 40KArmy the most accurate source for Warhammer army cost estimation.
+
+This requires:
+
+1. Price data for **all purchasable units**
+2. Correct representation of units that come from the same retail kit / box
+3. Clear handling of units that are not currently purchasable
+4. Regional MSRP support for:
+   - GBP
+   - USD
+   - EUR
+   - AUD
+   - CAD
+
+---
+
+## Important Pricing Principle
+
+Prices must not live at the raw unit level.
+
+Prices belong to **retail kits / products**.
+
+The correct architecture remains:
+
+units
+→ kit mappings
+→ kits
+→ prices
+
+This is essential because:
+
+- multiple units may map to the same kit
+- a single kit may build multiple unit variants
+- some units are not currently sold individually
+- box size and purchasability matter just as much as price
+
+---
+
+## Purchasability Rules
+
+The app must support the idea that some units may not currently be purchasable.
+
+Examples:
+
+- out of production
+- not currently sold separately
+- Forge World / specialist stock issues
+- legacy / unusual entries that remain in rules data
+
+These should not be given fake prices.
+
+Instead, the pricing layer should support a state such as:
+
+- purchasable: true / false
+
+And the UI should clearly show when a unit cannot currently be bought.
+
+---
+
+## Box / Kit Representation
+
+Some units are bought through standard boxes, while others may come through:
+
+- shared kits
+- alternate build kits
+- character boxes
+- bundle / boxed sets
+
+The system must represent retail reality, not just game datasheets.
+
+This means the pricing phase must improve the mapping between:
+
+- unit
+- retail kit
+- models per box
+- purchasability
+- regional price
+
+---
+
+## Next Pricing Objective
+
+The next objective is to upgrade the pricing layer so that all kit data can support:
+
+- models per box
+- purchasable state
+- regional prices
+- product identity
+
+This will allow the calculator to become the go-to reference for:
+
+- all units
+- all points
+- all practical retail cost data
