@@ -3,112 +3,140 @@
     "models": 7,
     "prices": {
       "GBP": 42.5,
-      "USD": 51,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "poxwalkers": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": 35,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "cultist-mob": {
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": 29.99,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "blightlord-terminators": {
     "models": 5,
     "prices": {
       "GBP": 42.5,
-      "USD": 55.25,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "death-shroud": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": 55.94,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "lord-of-contagion": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "lord-of-virulence": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 42,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "malignant-plaguecaster": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "typhus": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 44,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "mortarion": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": 127.99,
-      "EUR": 131.25
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 149,
+      "CAD": 205
     }
   },
   "foetid-bloat-drone": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 51,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "myphitic-blight-haulers": {
     "models": 3,
     "prices": {
       "GBP": 42.5,
-      "USD": 46.99,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "plagueburst-crawler": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 68,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "chaos-rhino": {
     "models": 1,
     "prices": {
       "GBP": 36,
-      "USD": 46.99,
-      "EUR": 45
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 74,
+      "CAD": 70
     }
   }
 }

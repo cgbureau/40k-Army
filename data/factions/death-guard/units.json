@@ -2,64 +2,200 @@
   "faction": "Death Guard",
   "units": [
     {
+      "id": "beasts_of_nurgle",
+      "name": "Beasts of Nurgle",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "biologus_putrifier",
+      "name": "Biologus Putrifier",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "blightlord_terminators",
       "name": "Blightlord Terminators",
-      "points": 165,
+      "points": 115,
       "models_per_box": 5,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
-      "id": "bloat_drone",
-      "name": "Bloat-drone",
-      "points": 100,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 51,
-        "EUR": 53.13
-      }
+      "id": "cerberus",
+      "name": "Cerberus",
+      "points": 270,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
-      "id": "chaos_rhino",
-      "name": "Chaos Rhino",
-      "points": 75,
-      "models_per_box": 1,
-      "box_price": 36,
-      "prices": {
-        "GBP": 36,
-        "USD": 46.99,
-        "EUR": 45
-      }
+      "id": "chaos_land_raider",
+      "name": "Chaos Land Raider",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_lord_on_palanquin_of_nurgle",
+      "name": "Chaos Lord On Palanquin Of Nurgle",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_predator_annihilator",
+      "name": "Chaos Predator Annihilator",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_predator_destructor",
+      "name": "Chaos Predator Destructor",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_spawn",
+      "name": "Chaos Spawn",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_thunderhawk",
+      "name": "Chaos Thunderhawk",
+      "points": 840,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "daemon_prince_of_nurgle",
+      "name": "Daemon Prince of Nurgle",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "daemon_prince_of_nurgle_with_wings",
+      "name": "Daemon Prince of Nurgle with Wings",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "death_guard_chaos_lord",
+      "name": "Death Guard Chaos Lord",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "death_guard_chaos_lord_in_terminator_armour",
+      "name": "Death Guard Chaos Lord In Terminator Armour",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "death_guard_cultists",
-      "name": "Cultist Mob",
-      "points": 55,
+      "name": "Death Guard Cultists",
+      "points": 50,
       "models_per_box": 10,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 29.99,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
     },
     {
-      "id": "death_shroud",
-      "name": "Death Shroud Terminators",
-      "points": 140,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 55.94,
-        "EUR": 53.13
-      }
+      "id": "death_guard_possessed",
+      "name": "Death Guard Possessed",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "death_guard_sorcerer_in_terminator_armour",
+      "name": "Death Guard Sorcerer In Terminator Armour",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathshroud_terminators",
+      "name": "Deathshroud Terminators",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "defiler",
+      "name": "Defiler",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deredeo_dreadnought",
+      "name": "Deredeo Dreadnought",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "falchion",
+      "name": "Falchion",
+      "points": 420,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fellblade",
+      "name": "Fellblade",
+      "points": 480,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fire_raptor_gunship",
+      "name": "Fire Raptor Gunship",
+      "points": 290,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "foetid_bloat_drone",
@@ -69,117 +205,423 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 51,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "foetid_bloat_drone_with_heavy_blight_launcher",
+      "name": "Foetid Bloat-drone with Heavy Blight Launcher",
+      "points": 120,
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
+      }
+    },
+    {
+      "id": "foul_blightspawn",
+      "name": "Foul Blightspawn",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "gellerpox_infected",
+      "name": "Gellerpox Infected",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "great_unclean_one",
+      "name": "Great Unclean One",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "greater_blight_drone",
+      "name": "Greater Blight Drone",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "helbrute",
+      "name": "Helbrute",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hell_blade",
+      "name": "Hell Blade",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hell_talon",
+      "name": "Hell Talon",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "icon_bearer",
+      "name": "Icon Bearer",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kratos",
+      "name": "Kratos",
+      "points": 240,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "land_raider_achilles",
+      "name": "Land Raider Achilles",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "land_raider_proteus",
+      "name": "Land Raider Proteus",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "leviathan_dreadnought",
+      "name": "Leviathan Dreadnought",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "lord_of_contagion",
       "name": "Lord of Contagion",
+      "points": 120,
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "lord_of_poxes",
+      "name": "Lord of Poxes",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "lord_of_virulence",
+      "name": "Lord of Virulence",
       "points": 100,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 45,
-        "EUR": 43.75
-      }
-    },
-    {
-      "id": "lord_of_virulence",
-      "name": "Lord of Virulence",
-      "points": 95,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 42,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "malignant_plaguecaster",
       "name": "Malignant Plaguecaster",
-      "points": 80,
+      "points": 60,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "points": 540,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mortarion",
       "name": "Mortarion",
-      "points": 325,
+      "points": 380,
       "models_per_box": 1,
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": 127.99,
-        "EUR": 131.25
+        "USD": 170,
+        "EUR": 135,
+        "AUD": 149,
+        "CAD": 205
       }
     },
     {
-      "id": "myphitic_blight_haulers",
-      "name": "Myphitic Blight-haulers",
+      "id": "mutoid_vermin",
+      "name": "Mutoid Vermin",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "myphitic_blight_hauler",
+      "name": "Myphitic Blight-hauler",
       "points": 100,
       "models_per_box": 3,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 46.99,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "noxious_blightbringer",
+      "name": "Noxious Blightbringer",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "nurglings",
+      "name": "Nurglings",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "plague_drones",
+      "name": "Plague Drones",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "plague_marines",
       "name": "Plague Marines",
-      "points": 100,
+      "points": 95,
       "models_per_box": 7,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 51,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "plague_surgeon",
+      "name": "Plague Surgeon",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "plaguebearers",
+      "name": "Plaguebearers",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "plagueburst_crawler",
       "name": "Plagueburst Crawler",
-      "points": 165,
+      "points": 210,
       "models_per_box": 1,
       "box_price": 52,
       "prices": {
         "GBP": 52,
-        "USD": 68,
-        "EUR": 65
+        "USD": 85,
+        "EUR": 67,
+        "AUD": 145,
+        "CAD": 100
       }
     },
     {
       "id": "poxwalkers",
       "name": "Poxwalkers",
-      "points": 60,
+      "points": 65,
       "models_per_box": 10,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 35,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
+    },
+    {
+      "id": "rapier_carrier",
+      "name": "Rapier Carrier",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "relic_contemptor_dreadnought",
+      "name": "Relic Contemptor Dreadnought",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "rotigus",
+      "name": "Rotigus",
+      "points": 265,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_battle_tank",
+      "name": "Sicaran Battle Tank",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_punisher",
+      "name": "Sicaran Punisher",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_venator",
+      "name": "Sicaran Venator",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sokar_pattern_stormbird",
+      "name": "Sokar-pattern Stormbird",
+      "points": 900,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sorcerer_on_palanquin_of_nurgle",
+      "name": "Sorcerer On Palanquin Of Nurgle",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "spartan",
+      "name": "Spartan",
+      "points": 300,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "storm_eagle_gunship",
+      "name": "Storm Eagle Gunship",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tallyman",
+      "name": "Tallyman",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "typhon",
+      "name": "Typhon",
+      "points": 320,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "typhus",
       "name": "Typhus",
-      "points": 115,
+      "points": 100,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 44,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "whirlwind_scorpius",
+      "name": "Whirlwind Scorpius",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "xiphon_interceptor",
+      "name": "Xiphon Interceptor",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

@@ -3,8 +3,10 @@
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   }
 }

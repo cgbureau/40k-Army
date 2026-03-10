@@ -3,320 +3,400 @@
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "c-tan-shard-of-the-deceiver": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "c-tan-shard-of-the-nightbringer": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "c-tan-shard-of-the-void-dragon": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "imotekh-the-stormlord": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "necron-annihilation-barge": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 51,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "necron-canoptek-doomstalker": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 52,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "necron-canoptek-reanimator": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-canoptek-spyder": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-catacomb-command-barge": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 51,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "necron-chronomancer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-cryptothralls": {
     "models": 2,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-ctan-nightbringer": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 46.99,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "necron-ctan-void-dragon": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 46.99,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "necron-doomsday-ark": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": 65,
-      "EUR": 72.5
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 101,
+      "CAD": 116
     }
   },
   "necron-doom-scythe": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": 75,
-      "EUR": 72.5
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 101,
+      "CAD": 116
     }
   },
   "necron-flayed-ones": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": 35.96,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "necron-hexmark-destroyer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.15,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-immortals": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": 29.99,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "necron-lychguard": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-lokhust-destroyers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-lokhust-heavy-destroyers": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-monolith": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": 127.99,
-      "EUR": 131.25
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 149,
+      "CAD": 205
     }
   },
   "necron-obelisk": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": 127.99,
-      "EUR": 97.5
+      "USD": 127,
+      "EUR": 100,
+      "AUD": 155,
+      "CAD": 152
     }
   },
   "necron-ophydian-destroyers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-overlord": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-plasmancer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-psychomancer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.15,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-royal-warden": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-scarab-swarms": {
     "models": 9,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-skorpekh-destroyers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-technomancer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "necron-tesseract-vault": {
     "models": 1,
     "prices": {
       "GBP": 175,
-      "USD": 185,
-      "EUR": 218.75
+      "USD": 270,
+      "EUR": 215,
+      "AUD": 386,
+      "CAD": 335
     }
   },
   "necron-tomb-blades": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-transcendent-ctan": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-triarch-praetorians": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "necron-triarch-stalker": {
     "models": 1,
     "prices": {
       "GBP": 47.5,
-      "USD": 62.5,
-      "EUR": 59.38
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95
     }
   },
   "necron-warriors": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 35.96,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "orikan-the-diviner": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "trazyn-the-infinite": {
     "models": 1,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   }
 }

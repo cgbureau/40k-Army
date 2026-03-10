@@ -3,200 +3,250 @@
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 45.05,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "catachan-jungle-fighters": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 35,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "death-korps-of-krieg": {
     "models": 10,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "tempestus-scions": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": 33.99,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "commissar": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.15,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "castellan": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.15,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "lord-solar-leontus": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 55.25,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "rogue-trader": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 31.96,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "sergeant-harker": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "heavy-weapons-squad": {
     "models": 3,
     "prices": {
       "GBP": 28,
-      "USD": 29.99,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "ogryn": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 45.05,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "ratlings": {
     "models": 5,
     "prices": {
       "GBP": 26,
-      "USD": 33.5,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "rough-riders": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "field-ordnance-battery": {
     "models": 2,
     "prices": {
       "GBP": 42.5,
-      "USD": 51,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "armoured-sentinel": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 58.65,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "scout-sentinel": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 46.99,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "leman-russ": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "basilisk": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "manticore": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65.5,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "hellhound": {
     "models": 1,
     "prices": {
       "GBP": 47.5,
-      "USD": 58.19,
-      "EUR": 59.38
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95
     }
   },
   "hydra": {
     "models": 1,
     "prices": {
       "GBP": 47.5,
-      "USD": 58.65,
-      "EUR": 59.38
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95
     }
   },
   "wyvern": {
     "models": 1,
     "prices": {
       "GBP": 47.5,
-      "USD": 58.65,
-      "EUR": 59.38
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95
     }
   },
   "medusa": {
     "models": 1,
     "prices": {
       "GBP": 47.5,
-      "USD": 58.65,
-      "EUR": 59.38
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95
     }
   },
   "valkyrie": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": 75,
-      "EUR": 72.5
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 101,
+      "CAD": 116
     }
   },
   "baneblade": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": 127.99,
-      "EUR": 131.25
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 149,
+      "CAD": 205
     }
   }
 }

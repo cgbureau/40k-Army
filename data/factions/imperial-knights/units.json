@@ -1,0 +1,221 @@
+{
+  "faction": "Imperial Knights",
+  "units": [
+    {
+      "id": "acastus_knight_asterius",
+      "name": "Acastus Knight Asterius",
+      "points": 765,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "acastus_knight_porphyrion",
+      "name": "Acastus Knight Porphyrion",
+      "points": 700,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "armiger_helverin",
+      "name": "Armiger Helverin",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "armiger_moirax",
+      "name": "Armiger Moirax",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "armiger_warglaive",
+      "name": "Armiger Warglaive",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canis_rex",
+      "name": "Canis Rex",
+      "points": 415,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cerastus_knight_acheron",
+      "name": "Cerastus Knight Acheron",
+      "points": 395,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cerastus_knight_atrapos",
+      "name": "Cerastus Knight Atrapos",
+      "points": 405,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cerastus_knight_castigator",
+      "name": "Cerastus Knight Castigator",
+      "points": 395,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cerastus_knight_lancer",
+      "name": "Cerastus Knight Lancer",
+      "points": 395,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_castellan",
+      "name": "Knight Castellan",
+      "points": 410,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_crusader",
+      "name": "Knight Crusader",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_defender",
+      "name": "Knight Defender",
+      "points": 415,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_errant",
+      "name": "Knight Errant",
+      "points": 355,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_gallant",
+      "name": "Knight Gallant",
+      "points": 355,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_paladin",
+      "name": "Knight Paladin",
+      "points": 375,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_preceptor",
+      "name": "Knight Preceptor",
+      "points": 365,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_valiant",
+      "name": "Knight Valiant",
+      "points": 410,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_warden",
+      "name": "Knight Warden",
+      "points": 375,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "questoris_knight_magaera",
+      "name": "Questoris Knight Magaera",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "questoris_knight_styrix",
+      "name": "Questoris Knight Styrix",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sir_hekhtur",
+      "name": "Sir Hekhtur",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skitarii_marshal",
+      "name": "Skitarii Marshal",
+      "points": 35,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skitarii_rangers",
+      "name": "Skitarii Rangers",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skitarii_vanguard",
+      "name": "Skitarii Vanguard",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tech_priest_dominus",
+      "name": "Tech-priest Dominus",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tech_priest_manipulus",
+      "name": "Tech-priest Manipulus",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    }
+  ]
+}

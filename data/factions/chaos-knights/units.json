@@ -1,0 +1,301 @@
+{
+  "faction": "Chaos Knights",
+  "units": [
+    {
+      "id": "accursed_cultists",
+      "name": "Accursed Cultists",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_acastus_knight_asterius",
+      "name": "Chaos Acastus Knight Asterius",
+      "points": 765,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_acastus_knight_porphyrion",
+      "name": "Chaos Acastus Knight Porphyrion",
+      "points": 700,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_cerastus_knight_acheron",
+      "name": "Chaos Cerastus Knight Acheron",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_cerastus_knight_atrapos",
+      "name": "Chaos Cerastus Knight Atrapos",
+      "points": 395,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_cerastus_knight_castigator",
+      "name": "Chaos Cerastus Knight Castigator",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_cerastus_knight_lancer",
+      "name": "Chaos Cerastus Knight Lancer",
+      "points": 385,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_questoris_knight_magaera",
+      "name": "Chaos Questoris Knight Magaera",
+      "points": 375,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_questoris_knight_styrix",
+      "name": "Chaos Questoris Knight Styrix",
+      "points": 375,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cultist_firebrand",
+      "name": "Cultist Firebrand",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cultist_mob",
+      "name": "Cultist Mob",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cultist_mob_with_firearms",
+      "name": "Cultist Mob with Firearms",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "dark_commune",
+      "name": "Dark Commune",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fellgor_beastmen",
+      "name": "Fellgor Beastmen",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "gellerpox_infected",
+      "name": "Gellerpox Infected",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_abominant",
+      "name": "Knight Abominant",
+      "points": 355,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_desecrator",
+      "name": "Knight Desecrator",
+      "points": 355,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_despoiler",
+      "name": "Knight Despoiler",
+      "points": 390,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_rampager",
+      "name": "Knight Rampager",
+      "points": 365,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_ruinator",
+      "name": "Knight Ruinator",
+      "points": 355,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_tyrant",
+      "name": "Knight Tyrant",
+      "points": 410,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "mutoid_vermin",
+      "name": "Mutoid Vermin",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "negavolt_cultists",
+      "name": "Negavolt Cultists",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "renegade_enforcer",
+      "name": "Renegade Enforcer",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "renegade_heavy_weapons_squad",
+      "name": "Renegade Heavy Weapons Squad",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "renegade_ogryn_beast_handler",
+      "name": "Renegade Ogryn Beast Handler",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "renegade_ogryn_brutes",
+      "name": "Renegade Ogryn Brutes",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "renegade_plague_ogryns",
+      "name": "Renegade Plague Ogryns",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "rogue_psyker",
+      "name": "Rogue Psyker",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "traitor_enforcer",
+      "name": "Traitor Enforcer",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "traitor_guardsmen_squad",
+      "name": "Traitor Guardsmen Squad",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "war_dog_brigand",
+      "name": "War Dog Brigand",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "war_dog_executioner",
+      "name": "War Dog Executioner",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "war_dog_huntsman",
+      "name": "War Dog Huntsman",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "war_dog_karnivore",
+      "name": "War Dog Karnivore",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "war_dog_moirax",
+      "name": "War Dog Moirax",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "war_dog_stalker",
+      "name": "War Dog Stalker",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    }
+  ]
+}

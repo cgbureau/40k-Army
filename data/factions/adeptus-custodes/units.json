@@ -1,0 +1,251 @@
+{
+  "faction": "Adeptus Custodes",
+  "units": [
+    {
+      "id": "agamatus_custodians",
+      "name": "Agamatus Custodians",
+      "points": 225,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "aleya",
+      "name": "Aleya",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "allarus_custodians",
+      "name": "Allarus Custodians",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "aquilon_custodians",
+      "name": "Aquilon Custodians",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ares_gunship",
+      "name": "Ares Gunship",
+      "points": 580,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "blade_champion",
+      "name": "Blade Champion",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "caladius_grav_tank",
+      "name": "Caladius Grav-tank",
+      "points": 215,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "contemptor_achillus_dreadnought",
+      "name": "Contemptor-achillus Dreadnought",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "contemptor_galatus_dreadnought",
+      "name": "Contemptor-galatus Dreadnought",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "coronus_grav_carrier",
+      "name": "Coronus Grav-carrier",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "custodian_guard",
+      "name": "Custodian Guard",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "custodian_guard_with_adrasite_and_pyrithite_spears",
+      "name": "Custodian Guard With Adrasite And Pyrithite Spears",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "custodian_wardens",
+      "name": "Custodian Wardens",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "knight_centura",
+      "name": "Knight-centura",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "orion_assault_dropship",
+      "name": "Orion Assault Dropship",
+      "points": 690,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "pallas_grav_attack",
+      "name": "Pallas Grav-attack",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "prosecutors",
+      "name": "Prosecutors",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sagittarum_custodians",
+      "name": "Sagittarum Custodians",
+      "points": 225,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "shield_captain",
+      "name": "Shield-captain",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "shield_captain_in_allarus_terminator_armour",
+      "name": "Shield-captain In Allarus Terminator Armour",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "shield_captain_on_dawneagle_jetbike",
+      "name": "Shield-captain On Dawneagle Jetbike",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "telemon_heavy_dreadnought",
+      "name": "Telemon Heavy Dreadnought",
+      "points": 225,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "trajann_valoris",
+      "name": "Trajann Valoris",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "valerian",
+      "name": "Valerian",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "venatari_custodians",
+      "name": "Venatari Custodians",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "venerable_contemptor_dreadnought",
+      "name": "Venerable Contemptor Dreadnought",
+      "points": 170,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "venerable_land_raider",
+      "name": "Venerable Land Raider",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "vertus_praetors",
+      "name": "Vertus Praetors",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "vigilators",
+      "name": "Vigilators",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "witchseekers",
+      "name": "Witchseekers",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    }
+  ]
+}

@@ -3,208 +3,260 @@
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 39.99,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "dire-avengers": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": 29.99,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "rangers": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": 35,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "howling-banshees": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "fire-dragons": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 44.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "swooping-hawks": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "warp-spiders": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "dark-reapers": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "wraithguard": {
     "models": 5,
     "prices": {
       "GBP": 52,
-      "USD": 62.5,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "windriders": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 45.05,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "shining-spears": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "farseer": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 35,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "farseer-skyrunner": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 42,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "warlock": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 30,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "warlock-skyrunner": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "autarch": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 32.5,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "autarch-wayleaper": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "jain-zar": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "war-walker": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 44.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "wraithlord": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 51.14,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "avatar-of-khaine": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": 96.9,
-      "EUR": 97.5
+      "USD": 127,
+      "EUR": 100,
+      "AUD": 155,
+      "CAD": 152
     }
   },
   "fire-prism": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65.55,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "night-spinner": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65.15,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "crimson-hunter": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": 81.6,
-      "EUR": 72.5
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 101,
+      "CAD": 116
     }
   },
   "hemlock-wraithfighter": {
     "models": 1,
     "prices": {
       "GBP": 58,
-      "USD": 81.6,
-      "EUR": 72.5
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 101,
+      "CAD": 116
     }
   },
   "wraithknight": {
     "models": 1,
     "prices": {
       "GBP": 105,
-      "USD": 127.99,
-      "EUR": 131.25
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 149,
+      "CAD": 205
     }
   }
 }

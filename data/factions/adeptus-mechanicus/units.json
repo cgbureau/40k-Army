@@ -2,75 +2,135 @@
   "faction": "Adeptus Mechanicus",
   "units": [
     {
+      "id": "archaeopter_fusilave",
+      "name": "Archaeopter Fusilave",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "archaeopter_stratoraptor",
+      "name": "Archaeopter Stratoraptor",
+      "points": 185,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "archaeopter_transvector",
+      "name": "Archaeopter Transvector",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "belisarius_cawl",
+      "name": "Belisarius Cawl",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "corpuscarii_electro_priests",
-      "name": "Corpuscarii Electro-Priests",
-      "points": 75,
+      "name": "Corpuscarii Electro-priests",
+      "points": 65,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 44.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
+      "id": "cybernetica_datasmith",
+      "name": "Cybernetica Datasmith",
+      "points": 35,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "fulgurite_electro_priests",
-      "name": "Fulgurite Electro-Priests",
-      "points": 75,
+      "name": "Fulgurite Electro-priests",
+      "points": 70,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 44.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "ironstrider_ballistarii",
       "name": "Ironstrider Ballistarii",
-      "points": 75,
+      "points": 85,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "kastelan_robots",
+      "name": "Kastelan Robots",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kataphron_breachers",
       "name": "Kataphron Breachers",
-      "points": 130,
+      "points": 160,
       "models_per_box": 3,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
       "id": "kataphron_destroyers",
       "name": "Kataphron Destroyers",
-      "points": 120,
+      "points": 105,
       "models_per_box": 3,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
       "id": "onager_dunecrawler",
       "name": "Onager Dunecrawler",
-      "points": 140,
+      "points": 155,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 46.99,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
@@ -81,165 +141,257 @@
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "pteraxii_sterylizors",
       "name": "Pteraxii Sterylizors",
-      "points": 75,
+      "points": 80,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "secutarii_hoplites",
+      "name": "Secutarii Hoplites",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "secutarii_peltasts",
+      "name": "Secutarii Peltasts",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "serberys_raiders",
       "name": "Serberys Raiders",
-      "points": 75,
+      "points": 60,
       "models_per_box": 3,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "serberys_sulphurhounds",
       "name": "Serberys Sulphurhounds",
-      "points": 75,
+      "points": 55,
       "models_per_box": 3,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "servitor_battleclade",
+      "name": "Servitor Battleclade",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "servitors",
+      "name": "Servitors",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "sicarian_infiltrators",
       "name": "Sicarian Infiltrators",
-      "points": 70,
+      "points": 75,
       "models_per_box": 5,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 29.99,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
     },
     {
       "id": "sicarian_ruststalkers",
       "name": "Sicarian Ruststalkers",
-      "points": 70,
+      "points": 80,
       "models_per_box": 5,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 29.99,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
+    },
+    {
+      "id": "skitarii_marshal",
+      "name": "Skitarii Marshal",
+      "points": 35,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "skitarii_rangers",
       "name": "Skitarii Rangers",
-      "points": 90,
+      "points": 85,
       "models_per_box": 10,
       "box_price": 31.5,
       "prices": {
         "GBP": 31.5,
-        "USD": 42.49,
-        "EUR": 39.38
+        "USD": 52,
+        "EUR": 41,
+        "AUD": 86,
+        "CAD": 63
       }
     },
     {
       "id": "skitarii_vanguard",
       "name": "Skitarii Vanguard",
-      "points": 80,
+      "points": 95,
       "models_per_box": 10,
       "box_price": 31.5,
       "prices": {
         "GBP": 31.5,
-        "USD": 46.99,
-        "EUR": 39.38
+        "USD": 52,
+        "EUR": 41,
+        "AUD": 86,
+        "CAD": 63
       }
     },
     {
       "id": "skorpius_disintegrator",
       "name": "Skorpius Disintegrator",
-      "points": 195,
+      "points": 165,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 46.99,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
-      "id": "skorpius_dunerider",
-      "name": "Skorpius Dunerider",
-      "points": 80,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 46.99,
-        "EUR": 53.13
-      }
-    },
-    {
-      "id": "sydonian_dragoon",
-      "name": "Sydonian Dragoon",
-      "points": 75,
+      "id": "sydonian_dragoons_with_radium_jezzails",
+      "name": "Sydonian Dragoons With Radium Jezzails",
+      "points": 55,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
+      "id": "sydonian_dragoons_with_taser_lances",
+      "name": "Sydonian Dragoons With Taser Lances",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "sydonian_skatros",
+      "name": "Sydonian Skatros",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "tech_priest_dominus",
-      "name": "Tech-Priest Dominus",
-      "points": 75,
+      "name": "Tech-priest Dominus",
+      "points": 65,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "tech_priest_enginseer",
-      "name": "Tech-Priest Enginseer",
-      "points": 45,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 33.15,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "tech_priest_manipulus",
-      "name": "Tech-Priest Manipulus",
+      "name": "Tech-priest Enginseer",
       "points": 55,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
+    },
+    {
+      "id": "tech_priest_manipulus",
+      "name": "Tech-priest Manipulus",
+      "points": 60,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "technoarcheologist",
+      "name": "Technoarcheologist",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "x_101",
+      "name": "X-101",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

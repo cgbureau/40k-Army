@@ -1,0 +1,269 @@
+{
+  "faction": "Adepta Sororitas",
+  "units": [
+    {
+      "id": "aestred_thurga_and_agathae_dolan",
+      "name": "Aestred Thurga And Agathae Dolan",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "arco_flagellants",
+      "name": "Arco-flagellants",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "battle_sisters_squad",
+      "name": "Battle Sisters Squad",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canoness",
+      "name": "Canoness",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canoness_with_jump_pack",
+      "name": "Canoness with Jump Pack",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "castigator",
+      "name": "Castigator",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "celestian_insidiants",
+      "name": "Celestian Insidiants",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "celestian_sacresant_aveline",
+      "name": "Celestian Sacresant Aveline",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "celestian_sacresants",
+      "name": "Celestian Sacresants",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "crusaders",
+      "name": "Crusaders",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "daemonifuge",
+      "name": "Daemonifuge",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "death_cult_assassins",
+      "name": "Death Cult Assassins",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "dialogus",
+      "name": "Dialogus",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "dogmata",
+      "name": "Dogmata",
+      "points": 45,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "dominion_squad",
+      "name": "Dominion Squad",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "exorcist",
+      "name": "Exorcist",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hospitaller",
+      "name": "Hospitaller",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "imagifier",
+      "name": "Imagifier",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "junith_eruita",
+      "name": "Junith Eruita",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ministorum_priest",
+      "name": "Ministorum Priest",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "mortifiers",
+      "name": "Mortifiers",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "morvenn_vahl",
+      "name": "Morvenn Vahl",
+      "points": 185,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "palatine",
+      "name": "Palatine",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "paragon_warsuits",
+      "name": "Paragon Warsuits",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "penitent_engines",
+      "name": "Penitent Engines",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "repentia_squad",
+      "name": "Repentia Squad",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "retributor_squad",
+      "name": "Retributor Squad",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "saint_celestine",
+      "name": "Saint Celestine",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sanctifiers",
+      "name": "Sanctifiers",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "seraphim_squad",
+      "name": "Seraphim Squad",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sisters_novitiate_squad",
+      "name": "Sisters Novitiate Squad",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "triumph_of_saint_katherine",
+      "name": "Triumph Of Saint Katherine",
+      "points": 235,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "zephyrim_squad",
+      "name": "Zephyrim Squad",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    }
+  ]
+}

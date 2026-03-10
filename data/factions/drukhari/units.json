@@ -4,122 +4,284 @@
     {
       "id": "archon",
       "name": "Archon",
-      "points": 85,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 33.5,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "beastmaster",
-      "name": "Beastmaster",
       "points": 80,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 33.66,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "beastmaster",
+      "name": "Beastmaster",
+      "points": 135,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "corsair_cloud_dancer_band",
+      "name": "Corsair Cloud Dancer Band",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "corsair_reaver_band",
+      "name": "Corsair Reaver Band",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "corsair_skyreaver_band",
+      "name": "Corsair Skyreaver Band",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "corsair_skyreavers",
+      "name": "Corsair Skyreavers",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "corsair_voidreavers",
+      "name": "Corsair Voidreavers",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "corsair_voidscarred",
+      "name": "Corsair Voidscarred",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "court_of_the_archon",
+      "name": "Court of the Archon",
+      "points": 95,
+      "models_per_box": 4,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
       "id": "cronos",
       "name": "Cronos",
-      "points": 50,
+      "points": 55,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "death_jester",
+      "name": "Death Jester",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "drazhar",
+      "name": "Drazhar",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "grotesques",
       "name": "Grotesques",
-      "points": 105,
+      "points": 80,
       "models_per_box": 3,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 45,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "haemonculus",
+      "name": "Haemonculus",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hand_of_the_archon",
+      "name": "Hand of the Archon",
+      "points": 125,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
       "id": "hellions",
       "name": "Hellions",
-      "points": 90,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 41.96,
-        "EUR": 43.75
-      }
-    },
-    {
-      "id": "incubi",
-      "name": "Incubi",
       "points": 85,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "incubi",
+      "name": "Incubi",
+      "points": 90,
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "kabalite_warriors",
       "name": "Kabalite Warriors",
-      "points": 110,
+      "points": 115,
       "models_per_box": 10,
       "box_price": 31.5,
       "prices": {
         "GBP": 31.5,
-        "USD": 40.8,
-        "EUR": 39.38
+        "USD": 52,
+        "EUR": 41,
+        "AUD": 86,
+        "CAD": 63
       }
+    },
+    {
+      "id": "kharseth",
+      "name": "Kharseth",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "lady_malys",
+      "name": "Lady Malys",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "lelith_hesperax",
+      "name": "Lelith Hesperax",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mandrakes",
       "name": "Mandrakes",
-      "points": 65,
+      "points": 75,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 44,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
-      "id": "raider",
-      "name": "Raider",
-      "points": 90,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 52,
-        "EUR": 53.13
-      }
+      "id": "prince_yriel",
+      "name": "Prince Yriel",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "ravager",
       "name": "Ravager",
-      "points": 115,
+      "points": 110,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 51,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "raven_strike_fighter",
+      "name": "Raven Strike Fighter",
+      "points": 170,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "razorwing_jetfighter",
+      "name": "Razorwing Jetfighter",
+      "points": 170,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "reaper",
+      "name": "Reaper",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "reavers",
@@ -129,68 +291,160 @@
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
-      "id": "scourges",
-      "name": "Scourges",
+      "id": "scourges_with_heavy_weapons",
+      "name": "Scourges with Heavy Weapons",
+      "points": 130,
+      "models_per_box": 5,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "scourges_with_shardcarbines",
+      "name": "Scourges with Shardcarbines",
       "points": 75,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "shadowseer",
+      "name": "Shadowseer",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skyweavers",
+      "name": "Skyweavers",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "solitaire",
+      "name": "Solitaire",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "starfangs",
+      "name": "Starfangs",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "succubus",
       "name": "Succubus",
-      "points": 55,
+      "points": 50,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 32.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "talos",
       "name": "Talos",
-      "points": 90,
+      "points": 80,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
-      "id": "venom",
-      "name": "Venom",
+      "id": "tantalus",
+      "name": "Tantalus",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "troupe",
+      "name": "Troupe",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "troupe_master",
+      "name": "Troupe Master",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "urien_rakarth",
+      "name": "Urien Rakarth",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 44.99,
-        "EUR": 43.75
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "voidraven_bomber",
+      "name": "Voidraven Bomber",
+      "points": 245,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "voidweaver",
+      "name": "Voidweaver",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "wracks",
       "name": "Wracks",
-      "points": 65,
+      "points": 60,
       "models_per_box": 5,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 34.96,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
     },
     {
@@ -201,8 +455,10 @@
       "box_price": 31.5,
       "prices": {
         "GBP": 31.5,
-        "USD": 40.8,
-        "EUR": 39.38
+        "USD": 52,
+        "EUR": 41,
+        "AUD": 86,
+        "CAD": 63
       }
     }
   ]

@@ -1,0 +1,365 @@
+{
+  "faction": "Imperial Agents",
+  "units": [
+    {
+      "id": "aquila_kill_team",
+      "name": "Aquila Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "callidus_assassin",
+      "name": "Callidus Assassin",
+      "points": 100,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "corvus_blackstar",
+      "name": "Corvus Blackstar",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "culexus_assassin",
+      "name": "Culexus Assassin",
+      "points": 85,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "daemonhost",
+      "name": "Daemonhost",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "damned_legionnaires",
+      "name": "Damned Legionnaires",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathwatch_kill_team",
+      "name": "Deathwatch Kill Team",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathwatch_terminator_squad",
+      "name": "Deathwatch Terminator Squad",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "eversor_assassin",
+      "name": "Eversor Assassin",
+      "points": 0,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "exaction_squad",
+      "name": "Exaction Squad",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fortis_kill_team",
+      "name": "Fortis Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "grey_knights_terminator_squad",
+      "name": "Grey Knights Terminator Squad",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "imperial_navy_breachers",
+      "name": "Imperial Navy Breachers",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "indomitor_kill_team",
+      "name": "Indomitor Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor",
+      "name": "Inquisitor",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_coteaz",
+      "name": "Inquisitor Coteaz",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_draxus",
+      "name": "Inquisitor Draxus",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_eisenhorn",
+      "name": "Inquisitor Eisenhorn",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_greyfax",
+      "name": "Inquisitor Greyfax",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_in_terminator_armour",
+      "name": "Inquisitor In Terminator Armour",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_karamazov",
+      "name": "Inquisitor Karamazov",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitor_ostromandeus",
+      "name": "Inquisitor Ostromandeus",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "inquisitorial_agents",
+      "name": "Inquisitorial Agents",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "janus_draik",
+      "name": "Janus Draik",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "jokaero_weaponsmith",
+      "name": "Jokaero Weaponsmith",
+      "points": 30,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kill_team_cassius",
+      "name": "Kill Team Cassius",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ministorum_priest",
+      "name": "Ministorum Priest",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "navigator",
+      "name": "Navigator",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "neyam_shai_murad",
+      "name": "Neyam Shai Murad",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "proteus_kill_team",
+      "name": "Proteus Kill Team",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "rogue_trader_entourage",
+      "name": "Rogue Trader Entourage",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sanctifiers",
+      "name": "Sanctifiers",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sisters_of_battle_squad",
+      "name": "Sisters of Battle Squad",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "spectrus_kill_team",
+      "name": "Spectrus Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "subductor_squad",
+      "name": "Subductor Squad",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ur_025",
+      "name": "UR-025",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "veteran_bike_squad",
+      "name": "Veteran Bike Squad",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "vigilant_squad",
+      "name": "Vigilant Squad",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "vindicare_assassin",
+      "name": "Vindicare Assassin",
+      "points": 0,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "voidsmen_at_arms",
+      "name": "Voidsmen-at-arms",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "watch_captain_artemis",
+      "name": "Watch Captain Artemis",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "watch_master",
+      "name": "Watch Master",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    }
+  ]
+}

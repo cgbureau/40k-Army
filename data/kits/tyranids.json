@@ -3,232 +3,290 @@
     "models": 10,
     "prices": {
       "GBP": 28,
-      "USD": 29.99,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "hormagaunts": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 39.75,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "genestealers": {
     "models": 8,
     "prices": {
       "GBP": 28,
-      "USD": 35,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "tyranid-warriors": {
     "models": 3,
     "prices": {
       "GBP": 28,
-      "USD": 35,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "biovore": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 32.5,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "broodlord": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "deathleaper": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.54,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "lictor": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 34.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "neurotyrant": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 44,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "parasite-of-mortrex": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "pyrovores": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "ripper-swarms": {
     "models": 3,
     "prices": {
       "GBP": 26,
-      "USD": 29.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "venomthropes": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 42,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "zoanthropes": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "raveners": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 45.05,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "von-ryan-leapers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 45.05,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "tyrant-guard": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 44.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "carnifex": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 46.99,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "screamer-killer": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 46.99,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "haruspex": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 46.99,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "exocrine": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65.5,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "maleceptor": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65.5,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "mawloc": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65.5,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "hive-tyrant": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 62.5,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "tervigon": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 65,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "harpy": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 60,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "hive-crone": {
     "models": 1,
     "prices": {
       "GBP": 52,
-      "USD": 76,
-      "EUR": 65
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 145,
+      "CAD": 100
     }
   },
   "tyrannocyte": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 52.75,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "norn-emissary": {
     "models": 1,
     "prices": {
       "GBP": 78,
-      "USD": 103.7,
-      "EUR": 97.5
+      "USD": 127,
+      "EUR": 100,
+      "AUD": 155,
+      "CAD": 152
     }
   }
 }

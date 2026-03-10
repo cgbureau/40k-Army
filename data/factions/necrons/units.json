@@ -4,50 +4,102 @@
     {
       "id": "annihilation_barge",
       "name": "Annihilation Barge",
-      "points": 115,
+      "points": 105,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 51,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
-      "id": "c'tan_shard_of_the_nightbringer",
-      "name": "C'tan Shard of the Nightbringer",
-      "points": 255,
+      "id": "anrakyr_the_traveller",
+      "name": "Anrakyr The Traveller",
+      "points": 95,
       "models_per_box": 1,
-      "box_price": 42.5,
+      "box_price": 40,
       "prices": {
-        "GBP": 42.5,
-        "USD": 46.99,
-        "EUR": 53.13
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
-      "id": "c'tan_shard_of_the_void_dragon",
-      "name": "C'tan Shard of the Void Dragon",
-      "points": 270,
+      "id": "c_tan_shard_of_the_deceiver",
+      "name": "C’tan Shard of the Deceiver",
+      "points": 295,
       "models_per_box": 1,
-      "box_price": 52,
+      "box_price": 40,
       "prices": {
-        "GBP": 52,
-        "USD": 46.99,
-        "EUR": 65
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "c_tan_shard_of_the_nightbringer",
+      "name": "C’tan Shard of the Nightbringer",
+      "points": 325,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "c_tan_shard_of_the_void_dragon",
+      "name": "C’tan Shard of the Void Dragon",
+      "points": 320,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "canoptek_acanthrites",
+      "name": "Canoptek Acanthrites",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "canoptek_doomstalker",
       "name": "Canoptek Doomstalker",
-      "points": 135,
+      "points": 140,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 52,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "canoptek_macrocytes",
+      "name": "Canoptek Macrocytes",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "canoptek_reanimator",
@@ -57,80 +109,140 @@
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
-      "id": "canoptek_spyder",
-      "name": "Canoptek Spyder",
-      "points": 65,
+      "id": "canoptek_scarab_swarms",
+      "name": "Canoptek Scarab Swarms",
+      "points": 40,
+      "models_per_box": 9,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "canoptek_spyders",
+      "name": "Canoptek Spyders",
+      "points": 75,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 45,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "canoptek_tomb_crawlers",
+      "name": "Canoptek Tomb Crawlers",
+      "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canoptek_tomb_sentinel",
+      "name": "Canoptek Tomb Sentinel",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canoptek_tomb_stalker",
+      "name": "Canoptek Tomb Stalker",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canoptek_wraiths",
+      "name": "Canoptek Wraiths",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "catacomb_command_barge",
       "name": "Catacomb Command Barge",
-      "points": 185,
+      "points": 120,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 51,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
       "id": "chronomancer",
       "name": "Chronomancer",
-      "points": 50,
+      "points": 65,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "cryptothralls",
       "name": "Cryptothralls",
-      "points": 40,
+      "points": 60,
       "models_per_box": 2,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "deathmarks",
       "name": "Deathmarks",
-      "points": 65,
+      "points": 60,
       "models_per_box": 5,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 29.99,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
     },
     {
       "id": "doom_scythe",
       "name": "Doom Scythe",
-      "points": 225,
+      "points": 230,
       "models_per_box": 1,
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 75,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
     },
     {
@@ -141,33 +253,55 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 65,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
     },
     {
       "id": "flayed_ones",
       "name": "Flayed Ones",
-      "points": 70,
+      "points": 60,
       "models_per_box": 5,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 35.96,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
+    },
+    {
+      "id": "geomancer",
+      "name": "Geomancer",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hexmark_destroyer",
       "name": "Hexmark Destroyer",
-      "points": 70,
+      "points": 75,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 33.15,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
+    },
+    {
+      "id": "illuminor_szeras",
+      "name": "Illuminor Szeras",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "immortals",
@@ -177,33 +311,61 @@
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 29.99,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
+      }
+    },
+    {
+      "id": "imotekh_the_stormlord",
+      "name": "Imotekh The Stormlord",
+      "points": 100,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
       "id": "lokhust_destroyers",
       "name": "Lokhust Destroyers",
-      "points": 120,
+      "points": 40,
       "models_per_box": 3,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "lokhust_heavy_destroyers",
       "name": "Lokhust Heavy Destroyers",
-      "points": 90,
+      "points": 55,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
+    },
+    {
+      "id": "lokhust_lord",
+      "name": "Lokhust Lord",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "lord",
@@ -213,104 +375,132 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "lord_overlord",
-      "name": "Lord Overlord",
-      "points": 85,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "lichguard",
-      "name": "Lychguard",
-      "points": 95,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "lychguard",
       "name": "Lychguard",
-      "points": 95,
+      "points": 85,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "monolith",
       "name": "Monolith",
-      "points": 385,
+      "points": 400,
       "models_per_box": 1,
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": 127.99,
-        "EUR": 131.25
+        "USD": 170,
+        "EUR": 135,
+        "AUD": 149,
+        "CAD": 205
       }
     },
     {
       "id": "necron_warriors",
       "name": "Necron Warriors",
-      "points": 110,
+      "points": 90,
       "models_per_box": 10,
       "box_price": 31.5,
       "prices": {
         "GBP": 31.5,
-        "USD": 35.96,
-        "EUR": 39.38
+        "USD": 52,
+        "EUR": 41,
+        "AUD": 86,
+        "CAD": 63
       }
+    },
+    {
+      "id": "nekrosor_ammentar",
+      "name": "Nekrosor Ammentar",
+      "points": 185,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "nemesor_zahndrekh",
+      "name": "Nemesor Zahndrekh",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "night_scythe",
       "name": "Night Scythe",
-      "points": 150,
+      "points": 145,
       "models_per_box": 1,
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 75,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
+    },
+    {
+      "id": "night_shroud",
+      "name": "Night Shroud",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "obelisk",
       "name": "Obelisk",
-      "points": 180,
+      "points": 300,
       "models_per_box": 1,
       "box_price": 78,
       "prices": {
         "GBP": 78,
-        "USD": 127.99,
-        "EUR": 97.5
+        "USD": 127,
+        "EUR": 100,
+        "AUD": 155,
+        "CAD": 152
       }
     },
     {
       "id": "ophydian_destroyers",
       "name": "Ophydian Destroyers",
-      "points": 110,
+      "points": 80,
       "models_per_box": 3,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "orikan_the_diviner",
+      "name": "Orikan The Diviner",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
@@ -321,8 +511,24 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "overlord_with_translocation_shroud",
+      "name": "Overlord with translocation shroud",
+      "points": 85,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
@@ -333,129 +539,191 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "psychomancer",
       "name": "Psychomancer",
-      "points": 50,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 33.15,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "royal_warden",
-      "name": "Royal Warden",
-      "points": 40,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "scarab_swarms",
-      "name": "Scarab Swarms",
-      "points": 40,
-      "models_per_box": 9,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
-      }
-    },
-    {
-      "id": "skorpekh_destroyers",
-      "name": "Skorpekh Destroyers",
-      "points": 120,
-      "models_per_box": 3,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
-      }
-    },
-    {
-      "id": "technomancer",
-      "name": "Technomancer",
       "points": 55,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
-      "id": "vault",
-      "name": "Tesseract Vault",
-      "points": 400,
+      "id": "royal_warden",
+      "name": "Royal Warden",
+      "points": 50,
       "models_per_box": 1,
-      "box_price": 175,
+      "box_price": 26,
       "prices": {
-        "GBP": 175,
-        "USD": 185,
-        "EUR": 218.75
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
-      "id": "tomb_blades",
-      "name": "Tomb Blades",
-      "points": 80,
+      "id": "seraptek_heavy_construct",
+      "name": "Seraptek Heavy Construct",
+      "points": 540,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skorpekh_destroyers",
+      "name": "Skorpekh Destroyers",
+      "points": 90,
       "models_per_box": 3,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
-      "id": "transcendent_c'tan",
-      "name": "Transcendent C'tan",
-      "points": 290,
+      "id": "skorpekh_lord",
+      "name": "Skorpekh Lord",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "technomancer",
+      "name": "Technomancer",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "tesseract_ark",
+      "name": "Tesseract Ark",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tesseract_vault",
+      "name": "Tesseract Vault",
+      "points": 425,
+      "models_per_box": 1,
+      "box_price": 175,
+      "prices": {
+        "GBP": 175,
+        "USD": 270,
+        "EUR": 215,
+        "AUD": 386,
+        "CAD": 335
+      }
+    },
+    {
+      "id": "the_silent_king",
+      "name": "The Silent King",
+      "points": 400,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tomb_blades",
+      "name": "Tomb Blades",
+      "points": 75,
+      "models_per_box": 3,
+      "box_price": 35,
+      "prices": {
+        "GBP": 35,
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "transcendent_c_tan",
+      "name": "Transcendent C’tan",
+      "points": 315,
       "models_per_box": 1,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "trazyn_the_infinite",
+      "name": "Trazyn The Infinite",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
       "id": "triarch_praetorians",
       "name": "Triarch Praetorians",
-      "points": 120,
+      "points": 90,
       "models_per_box": 5,
       "box_price": 35,
       "prices": {
         "GBP": 35,
-        "USD": 46.99,
-        "EUR": 43.75
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
       }
     },
     {
       "id": "triarch_stalker",
       "name": "Triarch Stalker",
-      "points": 125,
+      "points": 110,
       "models_per_box": 1,
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": 62.5,
-        "EUR": 59.38
+        "USD": 80,
+        "EUR": 62.5,
+        "AUD": 101,
+        "CAD": 95
       }
+    },
+    {
+      "id": "vargard_obyron",
+      "name": "Vargard Obyron",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

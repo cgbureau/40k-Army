@@ -107,7 +107,7 @@ function buildFaction(factionArg) {
       name: unit.name,
       points: unit.points,
       models_per_box: hasKitData ? kitData.models : null,
-      box_price: hasKitData ? Math.round(kitData.prices.GBP * 100) / 100 : null,
+      box_price: hasKitData ? kitData.prices.GBP : null,
       prices: hasKitData ? kitData.prices : null,
     });
   }

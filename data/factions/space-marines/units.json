@@ -2,6 +2,22 @@
   "faction": "Space Marines",
   "units": [
     {
+      "id": "adrax_agatone",
+      "name": "Adrax Agatone",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "aethon_shaan",
+      "name": "Aethon Shaan",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "aggressor_squad",
       "name": "Aggressor Squad",
       "points": 95,
@@ -9,8 +25,10 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
     },
     {
@@ -21,20 +39,38 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": 36.97,
-        "EUR": 33.75
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
       }
     },
     {
-      "id": "ancient_in_terminator_armor",
-      "name": "Ancient in Terminator Armor",
+      "id": "ancient_in_terminator_armour",
+      "name": "Ancient In Terminator Armour",
       "points": 75,
       "models_per_box": 1,
-      "box_price": 29,
+      "box_price": 40,
       "prices": {
-        "GBP": 29,
-        "USD": 39.95,
-        "EUR": 36.25
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "ancient_on_bike",
+      "name": "Ancient on Bike",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
@@ -45,8 +81,10 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
@@ -57,9 +95,41 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
+    },
+    {
+      "id": "apothecary_on_bike",
+      "name": "Apothecary on Bike",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "arjac_rockfist",
+      "name": "Arjac Rockfist",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "asmodai",
+      "name": "Asmodai",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "assault_intercessor_squad",
@@ -69,21 +139,69 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
       "id": "assault_intercessors_with_jump_packs",
-      "name": "Assault Intercessors with Jump Packs",
+      "name": "Assault Intercessors With Jump Packs",
       "points": 90,
       "models_per_box": 5,
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
+    },
+    {
+      "id": "assault_squad",
+      "name": "Assault Squad",
+      "points": 95,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "assault_squad_with_jump_packs",
+      "name": "Assault Squad with Jump Packs",
+      "points": 115,
+      "models_per_box": 5,
+      "box_price": 38,
+      "prices": {
+        "GBP": 38,
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
+      }
+    },
+    {
+      "id": "astartes_servitors",
+      "name": "Astartes Servitors",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "astorath",
+      "name": "Astorath",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "astraeus",
@@ -93,8 +211,40 @@
       "box_price": 286,
       "prices": {
         "GBP": 286,
-        "USD": 127.99,
-        "EUR": 357.5
+        "USD": 435,
+        "EUR": 350,
+        "AUD": 609,
+        "CAD": 540
+      }
+    },
+    {
+      "id": "attack_bike_squad",
+      "name": "Attack Bike Squad",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "azrael",
+      "name": "Azrael",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "baal_predator",
+      "name": "Baal Predator",
+      "points": 125,
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": 80,
+        "EUR": 62.5,
+        "AUD": 101,
+        "CAD": 95
       }
     },
     {
@@ -105,8 +255,40 @@
       "box_price": 44.5,
       "prices": {
         "GBP": 44.5,
-        "USD": 62.48,
-        "EUR": 55.63
+        "USD": 73.5,
+        "EUR": 57.5,
+        "AUD": 125,
+        "CAD": 88
+      }
+    },
+    {
+      "id": "belial",
+      "name": "Belial",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "bike_squad",
+      "name": "Bike Squad",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "bjorn_the_fell_handed",
+      "name": "Bjorn The Fell-handed",
+      "points": 160,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
@@ -117,8 +299,10 @@
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": 127.99,
-        "EUR": 131.25
+        "USD": 170,
+        "EUR": 135,
+        "AUD": 149,
+        "CAD": 205
       }
     },
     {
@@ -129,9 +313,41 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
+    },
+    {
+      "id": "blood_angels_captain",
+      "name": "Blood Angels Captain",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {
+        "GBP": 27,
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
+      }
+    },
+    {
+      "id": "blood_claws",
+      "name": "Blood Claws",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "brother_corbulo",
+      "name": "Brother Corbulo",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "brutalis_dreadnought",
@@ -141,9 +357,35 @@
       "box_price": 52,
       "prices": {
         "GBP": 52,
-        "USD": 72.25,
-        "EUR": 65
+        "USD": 85,
+        "EUR": 67,
+        "AUD": 145,
+        "CAD": 100
       }
+    },
+    {
+      "id": "caanok_var",
+      "name": "Caanok Var",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "caestus_assault_ram",
+      "name": "Caestus Assault Ram",
+      "points": 215,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "canis_wolfborn",
+      "name": "Canis Wolfborn",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "captain",
@@ -153,57 +395,153 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": 36.97,
-        "EUR": 33.75
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
       }
     },
     {
       "id": "captain_in_gravis_armour",
-      "name": "Captain in Gravis Armour",
+      "name": "Captain In Gravis Armour",
       "points": 80,
       "models_per_box": 1,
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": 36.97,
-        "EUR": 33.75
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
       }
     },
     {
       "id": "captain_in_phobos_armour",
-      "name": "Captain in Phobos Armour",
+      "name": "Captain In Phobos Armour",
       "points": 70,
       "models_per_box": 1,
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": 36.97,
-        "EUR": 33.75
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
       }
     },
     {
       "id": "captain_in_terminator_armour",
-      "name": "Captain in Terminator Armour",
+      "name": "Captain In Terminator Armour",
       "points": 95,
       "models_per_box": 1,
       "box_price": 29,
       "prices": {
         "GBP": 29,
-        "USD": 39.95,
-        "EUR": 36.25
+        "USD": 47,
+        "EUR": 37,
+        "AUD": 78,
+        "CAD": 56
       }
     },
     {
-      "id": "captain_with_jump_pack",
-      "name": "Captain with Jump Pack",
+      "id": "captain_on_bike",
+      "name": "Captain on Bike",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {
+        "GBP": 27,
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
+      }
+    },
+    {
+      "id": "captain_sicarius",
+      "name": "Captain Sicarius",
+      "points": 85,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {
+        "GBP": 27,
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
+      }
+    },
+    {
+      "id": "captain_titus",
+      "name": "Captain Titus",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {
+        "GBP": 27,
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
+      }
+    },
+    {
+      "id": "captain_tycho",
+      "name": "Captain Tycho",
       "points": 75,
       "models_per_box": 1,
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": 36.97,
-        "EUR": 33.75
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
       }
+    },
+    {
+      "id": "captain_with_jump_pack",
+      "name": "Captain With Jump Pack",
+      "points": 75,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {
+        "GBP": 27,
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
+      }
+    },
+    {
+      "id": "carab_culln_the_risen",
+      "name": "Carab Culln The Risen",
+      "points": 250,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "castellan",
+      "name": "Castellan",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cato_sicarius",
+      "name": "Cato Sicarius",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "centurion_assault_squad",
@@ -213,8 +551,10 @@
       "box_price": 50,
       "prices": {
         "GBP": 50,
-        "USD": 68,
-        "EUR": 62.5
+        "USD": 80,
+        "EUR": 65,
+        "AUD": 133,
+        "CAD": 98
       }
     },
     {
@@ -225,9 +565,19 @@
       "box_price": 50,
       "prices": {
         "GBP": 50,
-        "USD": 68,
-        "EUR": 62.5
+        "USD": 80,
+        "EUR": 65,
+        "AUD": 133,
+        "CAD": 98
       }
+    },
+    {
+      "id": "cerberus",
+      "name": "Cerberus",
+      "points": 270,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "chaplain",
@@ -237,45 +587,149 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "chaplain_cassius",
+      "name": "Chaplain Cassius",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "chaplain_grimaldus",
+      "name": "Chaplain Grimaldus",
+      "points": 0,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "chaplain_in_terminator_armour",
-      "name": "Chaplain in Terminator Armour",
+      "name": "Chaplain In Terminator Armour",
       "points": 75,
       "models_per_box": 1,
       "box_price": 29,
       "prices": {
         "GBP": 29,
-        "USD": 39.95,
-        "EUR": 36.25
+        "USD": 47,
+        "EUR": 37,
+        "AUD": 78,
+        "CAD": 56
+      }
+    },
+    {
+      "id": "chaplain_kastiel",
+      "name": "Chaplain Kastiel",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "chaplain_on_bike",
-      "name": "Chaplain on Bike",
+      "name": "Chaplain On Bike",
       "points": 75,
       "models_per_box": 1,
       "box_price": 35.5,
       "prices": {
         "GBP": 35.5,
-        "USD": 46.99,
-        "EUR": 44.38
+        "USD": 60,
+        "EUR": 45,
+        "AUD": 88,
+        "CAD": 70
+      }
+    },
+    {
+      "id": "chaplain_venerable_dreadnought",
+      "name": "Chaplain Venerable Dreadnought",
+      "points": 150,
+      "models_per_box": 1,
+      "box_price": 26,
+      "prices": {
+        "GBP": 26,
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
     },
     {
       "id": "chaplain_with_jump_pack",
-      "name": "Chaplain with Jump Pack",
+      "name": "Chaplain With Jump Pack",
       "points": 75,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
+    },
+    {
+      "id": "chief_librarian_mephiston",
+      "name": "Chief Librarian Mephiston",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chief_librarian_tigurius",
+      "name": "Chief Librarian Tigurius",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "command_squad",
+      "name": "Command Squad",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "commander_dante",
+      "name": "Commander Dante",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "company_champion_on_bike",
+      "name": "Company Champion On Bike",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "company_heroes",
@@ -285,9 +739,303 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 53.94,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "company_veterans_on_bikes",
+      "name": "Company Veterans On Bikes",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "corvus_blackstar",
+      "name": "Corvus Blackstar",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "crusade_ancient",
+      "name": "Crusade Ancient",
+      "points": 55,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "crusader_squad",
+      "name": "Crusader Squad",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "crusader_squad_legendary",
+      "name": "Crusader Squad (Legendary)",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cyberwolf",
+      "name": "Cyberwolf",
+      "points": 20,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "darnath_lysander",
+      "name": "Darnath Lysander",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "death_company_captain",
+      "name": "Death Company Captain",
+      "points": 70,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_captain_with_jump_pack",
+      "name": "Death Company Captain with Jump Pack",
+      "points": 75,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_dreadnought",
+      "name": "Death Company Dreadnought",
+      "points": 160,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_dreadnought_with_magna_grapple",
+      "name": "Death Company Dreadnought with Magna-grapple",
+      "points": 145,
+      "models_per_box": 10,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_marines",
+      "name": "Death Company Marines",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_marines_with_bolt_rifles",
+      "name": "Death Company Marines with Bolt Rifles",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_marines_with_boltguns",
+      "name": "Death Company Marines with Boltguns",
+      "points": 125,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_marines_with_boltguns_and_jump_packs",
+      "name": "Death Company Marines with Boltguns and Jump Packs",
+      "points": 140,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "death_company_marines_with_jump_packs",
+      "name": "Death Company Marines With Jump Packs",
+      "points": 120,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "deathstorm_drop_pod",
+      "name": "Deathstorm Drop Pod",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "deathwatch_terminator_squad",
+      "name": "Deathwatch Terminator Squad",
+      "points": 190,
+      "models_per_box": 6,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
+      }
+    },
+    {
+      "id": "deathwatch_veterans",
+      "name": "Deathwatch Veterans",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathwing_command_squad",
+      "name": "Deathwing Command Squad",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathwing_knights",
+      "name": "Deathwing Knights",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathwing_strikemaster",
+      "name": "Deathwing Strikemaster",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deathwing_terminator_squad",
+      "name": "Deathwing Terminator Squad",
+      "points": 180,
+      "models_per_box": 6,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
+      }
+    },
+    {
+      "id": "decimus_kill_team",
+      "name": "Decimus Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deimos_predator",
+      "name": "Deimos Predator",
+      "points": 115,
+      "models_per_box": 1,
+      "box_price": 47.5,
+      "prices": {
+        "GBP": 47.5,
+        "USD": 80,
+        "EUR": 62.5,
+        "AUD": 101,
+        "CAD": 95
+      }
+    },
+    {
+      "id": "deredeo_dreadnought",
+      "name": "Deredeo Dreadnought",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "desolation_squad",
@@ -297,8 +1045,10 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
     },
     {
@@ -309,32 +1059,32 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 47,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
       "id": "dreadnought",
       "name": "Dreadnought",
       "points": 135,
-      "models_per_box": 1,
-      "box_price": 49.5,
-      "prices": {
-        "GBP": 49.5,
-        "USD": 69.7,
-        "EUR": 61.88
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
-      "id": "drop_pod",
-      "name": "Drop Pod",
-      "points": 70,
+      "id": "dreadnought_drop_pod",
+      "name": "Dreadnought Drop Pod",
+      "points": 75,
       "models_per_box": 1,
-      "box_price": 52,
+      "box_price": 40,
       "prices": {
-        "GBP": 52,
-        "USD": 72.25,
-        "EUR": 65
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
@@ -345,9 +1095,19 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
+    },
+    {
+      "id": "emperor_s_champion",
+      "name": "Emperor’s Champion",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "eradicator_squad",
@@ -357,9 +1117,91 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
+    },
+    {
+      "id": "execrator",
+      "name": "Execrator",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ezekiel",
+      "name": "Ezekiel",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "falchion",
+      "name": "Falchion",
+      "points": 420,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fellblade",
+      "name": "Fellblade",
+      "points": 480,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fenrisian_wolves",
+      "name": "Fenrisian Wolves",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fire_raptor_gunship",
+      "name": "Fire Raptor Gunship",
+      "points": 290,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "firestrike_servo_turrets",
+      "name": "Firestrike Servo-turrets",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fortis_kill_team",
+      "name": "Fortis Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "furioso_dreadnought",
+      "name": "Furioso Dreadnought",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "gabriel_seth",
+      "name": "Gabriel Seth",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "gladiator_lancer",
@@ -369,8 +1211,10 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 46.99,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
     },
     {
@@ -381,8 +1225,10 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 46.99,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
     },
     {
@@ -393,21 +1239,27 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 46.99,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
     },
     {
-      "id": "hammerfall_bunker",
-      "name": "Hammerfall Bunker",
-      "points": 175,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 58.65,
-        "EUR": 53.13
-      }
+      "id": "grey_hunters",
+      "name": "Grey Hunters",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "harald_deathwolf",
+      "name": "Harald Deathwolf",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "heavy_intercessor_squad",
@@ -417,8 +1269,10 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 53.94,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
@@ -429,21 +1283,49 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
-      "id": "impulsor",
-      "name": "Impulsor",
+      "id": "high_marshal_helbrecht",
+      "name": "High Marshal Helbrecht",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hounds_of_morkai",
+      "name": "Hounds Of Morkai",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 55,
+      "models_per_box": 10,
+      "box_price": 40,
       "prices": {
-        "GBP": 55,
-        "USD": 75.65,
-        "EUR": 68.75
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "imperial_space_marine",
+      "name": "Imperial Space Marine",
+      "points": 40,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "inceptor_squad",
@@ -453,8 +1335,10 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
     },
     {
@@ -465,9 +1349,19 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 46.99,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "indomitor_kill_team",
+      "name": "Indomitor Kill Team",
+      "points": 265,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "infernus_squad",
@@ -477,8 +1371,10 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
@@ -489,9 +1385,19 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "inner_circle_companions",
+      "name": "Inner Circle Companions",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "intercessor_squad",
@@ -501,8 +1407,10 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
@@ -513,8 +1421,10 @@
       "box_price": 32.5,
       "prices": {
         "GBP": 32.5,
-        "USD": 45.05,
-        "EUR": 40.63
+        "USD": 53,
+        "EUR": 42,
+        "AUD": 90,
+        "CAD": 64
       }
     },
     {
@@ -525,9 +1435,51 @@
       "box_price": 44.5,
       "prices": {
         "GBP": 44.5,
-        "USD": 62.48,
-        "EUR": 55.63
+        "USD": 73.5,
+        "EUR": 57.5,
+        "AUD": 125,
+        "CAD": 88
       }
+    },
+    {
+      "id": "iron_father_feirros",
+      "name": "Iron Father Feirros",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "iron_priest",
+      "name": "Iron Priest",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "iron_priest_on_thunderwolf",
+      "name": "Iron Priest On Thunderwolf",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ironclad_dreadnought",
+      "name": "Ironclad Dreadnought",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "javelin_attack_speeder",
+      "name": "Javelin Attack Speeder",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "judiciar",
@@ -537,9 +1489,59 @@
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": 127.99,
-        "EUR": 131.25
+        "USD": 170,
+        "EUR": 135,
+        "AUD": 149,
+        "CAD": 205
       }
+    },
+    {
+      "id": "judiciar_xacharus",
+      "name": "Judiciar Xacharus",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kayvaan_shrike",
+      "name": "Kayvaan Shrike",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kill_team_cassius",
+      "name": "Kill Team Cassius",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kor_sarro_khan",
+      "name": "Kor’sarro Khan",
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kratos",
+      "name": "Kratos",
+      "points": 240,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "krom_dragongaze",
+      "name": "Krom Dragongaze",
+      "points": 65,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "land_raider",
@@ -549,9 +1551,19 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 46.99,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
+    },
+    {
+      "id": "land_raider_achilles",
+      "name": "Land Raider Achilles",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "land_raider_crusader",
@@ -561,9 +1573,61 @@
       "box_price": 71.5,
       "prices": {
         "GBP": 71.5,
-        "USD": 97.75,
-        "EUR": 89.38
+        "USD": 115,
+        "EUR": 90,
+        "AUD": 150,
+        "CAD": 140
       }
+    },
+    {
+      "id": "land_raider_excelsior",
+      "name": "Land Raider Excelsior",
+      "points": 250,
+      "models_per_box": 1,
+      "box_price": 71.5,
+      "prices": {
+        "GBP": 71.5,
+        "USD": 115,
+        "EUR": 90,
+        "AUD": 150,
+        "CAD": 140
+      }
+    },
+    {
+      "id": "land_raider_helios",
+      "name": "Land Raider Helios",
+      "points": 220,
+      "models_per_box": 1,
+      "box_price": 71.5,
+      "prices": {
+        "GBP": 71.5,
+        "USD": 115,
+        "EUR": 90,
+        "AUD": 150,
+        "CAD": 140
+      }
+    },
+    {
+      "id": "land_raider_prometheus",
+      "name": "Land Raider Prometheus",
+      "points": 250,
+      "models_per_box": 1,
+      "box_price": 71.5,
+      "prices": {
+        "GBP": 71.5,
+        "USD": 115,
+        "EUR": 90,
+        "AUD": 150,
+        "CAD": 140
+      }
+    },
+    {
+      "id": "land_raider_proteus",
+      "name": "Land Raider Proteus",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "land_raider_redeemer",
@@ -573,9 +1637,105 @@
       "box_price": 71.5,
       "prices": {
         "GBP": 71.5,
-        "USD": 97.75,
-        "EUR": 89.38
+        "USD": 115,
+        "EUR": 90,
+        "AUD": 150,
+        "CAD": 140
       }
+    },
+    {
+      "id": "land_speeder",
+      "name": "Land Speeder",
+      "points": 80,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "land_speeder_tempest",
+      "name": "Land Speeder Tempest",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "land_speeder_tornado",
+      "name": "Land Speeder Tornado",
+      "points": 95,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "land_speeder_typhoon",
+      "name": "Land Speeder Typhoon",
+      "points": 100,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "land_speeder_vengeance",
+      "name": "Land Speeder Vengeance",
+      "points": 120,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "lazarus",
+      "name": "Lazarus",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "lemartes",
+      "name": "Lemartes",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "leviathan_dreadnought",
+      "name": "Leviathan Dreadnought",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "librarian",
@@ -585,33 +1745,69 @@
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 29.99,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
+      }
+    },
+    {
+      "id": "librarian_dreadnought",
+      "name": "Librarian Dreadnought",
+      "points": 170,
+      "models_per_box": 1,
+      "box_price": 49.5,
+      "prices": {
+        "GBP": 49.5,
+        "USD": 82,
+        "EUR": 62.5,
+        "AUD": 133,
+        "CAD": 98
       }
     },
     {
       "id": "librarian_in_phobos_armour",
-      "name": "Librarian in Phobos Armour",
+      "name": "Librarian In Phobos Armour",
       "points": 70,
       "models_per_box": 1,
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": 29.99,
-        "EUR": 31.25
+        "USD": 39,
+        "EUR": 32.5,
+        "AUD": 67,
+        "CAD": 50
       }
     },
     {
       "id": "librarian_in_terminator_armour",
-      "name": "Librarian in Terminator Armour",
+      "name": "Librarian In Terminator Armour",
       "points": 75,
       "models_per_box": 1,
       "box_price": 23,
       "prices": {
         "GBP": 23,
-        "USD": 29.99,
-        "EUR": 28.75
+        "USD": 35,
+        "EUR": 29.5,
+        "AUD": 36,
+        "CAD": 45
       }
+    },
+    {
+      "id": "librarian_on_bike",
+      "name": "Librarian on Bike",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "librarian_with_jump_pack",
+      "name": "Librarian with Jump Pack",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "lieutenant",
@@ -621,45 +1817,163 @@
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": 29.99,
-        "EUR": 31.25
+        "USD": 39,
+        "EUR": 32.5,
+        "AUD": 67,
+        "CAD": 50
       }
     },
     {
       "id": "lieutenant_in_phobos_armour",
-      "name": "Lieutenant in Phobos Armour",
+      "name": "Lieutenant In Phobos Armour",
       "points": 55,
       "models_per_box": 1,
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": 29.99,
-        "EUR": 31.25
+        "USD": 39,
+        "EUR": 32.5,
+        "AUD": 67,
+        "CAD": 50
       }
     },
     {
       "id": "lieutenant_in_reiver_armour",
-      "name": "Lieutenant in Reiver Armour",
+      "name": "Lieutenant In Reiver Armour",
       "points": 55,
       "models_per_box": 1,
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": 29.99,
-        "EUR": 31.25
+        "USD": 39,
+        "EUR": 32.5,
+        "AUD": 67,
+        "CAD": 50
       }
     },
     {
       "id": "lieutenant_with_combi_weapon",
-      "name": "Lieutenant with Combi-weapon",
-      "points": 70,
+      "name": "Lieutenant With Combi-weapon",
+      "points": 85,
       "models_per_box": 1,
       "box_price": 25,
       "prices": {
         "GBP": 25,
-        "USD": 29.99,
-        "EUR": 31.25
+        "USD": 39,
+        "EUR": 32.5,
+        "AUD": 67,
+        "CAD": 50
       }
+    },
+    {
+      "id": "lion_el_jonson",
+      "name": "Lion El’jonson",
+      "points": 315,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "logan_grimnar",
+      "name": "Logan Grimnar",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "logan_grimnar_on_stormrider",
+      "name": "Logan Grimnar On Stormrider",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "long_fangs",
+      "name": "Long Fangs",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "lukas_the_trickster",
+      "name": "Lukas The Trickster",
+      "points": 50,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "marneus_calgar",
+      "name": "Marneus Calgar",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "marneus_calgar_in_armour_of_antilochus",
+      "name": "Marneus Calgar in Armour of Antilochus",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "marshal",
+      "name": "Marshal",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "points": 540,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "mortis_dreadnought",
+      "name": "Mortis Dreadnought",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "murderfang",
+      "name": "Murderfang",
+      "points": 150,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "nephilim_jetfighter",
+      "name": "Nephilim Jetfighter",
+      "points": 195,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "njal_stormcaller",
+      "name": "Njal Stormcaller",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "outrider_squad",
@@ -669,9 +1983,19 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 50.99,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "pedro_kantor",
+      "name": "Pedro Kantor",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "predator_annihilator",
@@ -681,8 +2005,10 @@
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": 46.99,
-        "EUR": 59.38
+        "USD": 80,
+        "EUR": 62.5,
+        "AUD": 101,
+        "CAD": 95
       }
     },
     {
@@ -693,32 +2019,88 @@
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": 46.99,
-        "EUR": 59.38
+        "USD": 80,
+        "EUR": 62.5,
+        "AUD": 101,
+        "CAD": 95
       }
     },
     {
-      "id": "razorback",
-      "name": "Razorback",
-      "points": 95,
-      "models_per_box": 1,
-      "box_price": 36,
-      "prices": {
-        "GBP": 36,
-        "USD": 46.99,
-        "EUR": 45
-      }
+      "id": "primaris_company_champion",
+      "name": "Primaris Company Champion",
+      "points": 55,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ragnar_blackmane",
+      "name": "Ragnar Blackmane",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "rapier_carrier",
+      "name": "Rapier Carrier",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ravenwing_black_knights",
+      "name": "Ravenwing Black Knights",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ravenwing_command_squad",
+      "name": "Ravenwing Command Squad",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ravenwing_dark_talon",
+      "name": "Ravenwing Dark Talon",
+      "points": 210,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ravenwing_darkshroud",
+      "name": "Ravenwing Darkshroud",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ravenwing_talonmaster",
+      "name": "Ravenwing Talonmaster",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "redemptor_dreadnought",
       "name": "Redemptor Dreadnought",
-      "points": 195,
+      "points": 205,
       "models_per_box": 1,
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": 69.7,
-        "EUR": 61.88
+        "USD": 82,
+        "EUR": 62.5,
+        "AUD": 133,
+        "CAD": 98
       }
     },
     {
@@ -729,8 +2111,32 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "relic_contemptor_dreadnought",
+      "name": "Relic Contemptor Dreadnought",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "relic_terminator_squad",
+      "name": "Relic Terminator Squad",
+      "points": 200,
+      "models_per_box": 6,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
@@ -741,33 +2147,97 @@
       "box_price": 58,
       "prices": {
         "GBP": 58,
-        "USD": 46.99,
-        "EUR": 72.5
+        "USD": 96,
+        "EUR": 76,
+        "AUD": 101,
+        "CAD": 116
       }
     },
     {
       "id": "repulsor_executioner",
       "name": "Repulsor Executioner",
-      "points": 220,
+      "points": 230,
       "models_per_box": 1,
       "box_price": 71.5,
       "prices": {
         "GBP": 71.5,
-        "USD": 97.75,
-        "EUR": 89.38
+        "USD": 115,
+        "EUR": 90,
+        "AUD": 150,
+        "CAD": 140
       }
     },
     {
-      "id": "rhino",
-      "name": "Rhino",
+      "id": "rhino_primaris",
+      "name": "Rhino Primaris",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "roboute_guilliman",
+      "name": "Roboute Guilliman",
+      "points": 340,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sammael",
+      "name": "Sammael",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sanguinary_guard",
+      "name": "Sanguinary Guard",
+      "points": 125,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sanguinary_priest",
+      "name": "Sanguinary Priest",
       "points": 75,
-      "models_per_box": 1,
-      "box_price": 36,
-      "prices": {
-        "GBP": 36,
-        "USD": 46.99,
-        "EUR": 45
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sanguinary_priest_on_bike",
+      "name": "Sanguinary Priest on Bike",
+      "points": 135,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sanguinary_priest_with_jump_pack",
+      "name": "Sanguinary Priest With Jump Pack",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "scout_bike_squad",
+      "name": "Scout Bike Squad",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "scout_sniper_squad",
+      "name": "Scout Sniper Squad",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "scout_squad",
@@ -777,9 +2247,107 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 51,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "sergeant_chronus",
+      "name": "Sergeant Chronus",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sergeant_telion",
+      "name": "Sergeant Telion",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_arcus",
+      "name": "Sicaran Arcus",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_battle_tank",
+      "name": "Sicaran Battle Tank",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_omega",
+      "name": "Sicaran Omega",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_punisher",
+      "name": "Sicaran Punisher",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_venator",
+      "name": "Sicaran Venator",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skyclaws",
+      "name": "Skyclaws",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sokar_pattern_stormbird",
+      "name": "Sokar-pattern Stormbird",
+      "points": 900,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "spartan",
+      "name": "Spartan",
+      "points": 300,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "spectrus_kill_team",
+      "name": "Spectrus Kill Team",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "stalker",
+      "name": "Stalker",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "sternguard_veteran_squad",
@@ -789,9 +2357,19 @@
       "box_price": 40,
       "prices": {
         "GBP": 40,
-        "USD": 46.99,
-        "EUR": 50
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
+    },
+    {
+      "id": "storm_eagle_gunship",
+      "name": "Storm Eagle Gunship",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "storm_speeder_hailstrike",
@@ -801,8 +2379,10 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": 69.7,
-        "EUR": 61.88
+        "USD": 82,
+        "EUR": 62.5,
+        "AUD": 133,
+        "CAD": 98
       }
     },
     {
@@ -813,8 +2393,10 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": 69.7,
-        "EUR": 61.88
+        "USD": 82,
+        "EUR": 62.5,
+        "AUD": 133,
+        "CAD": 98
       }
     },
     {
@@ -825,9 +2407,19 @@
       "box_price": 49.5,
       "prices": {
         "GBP": 49.5,
-        "USD": 69.7,
-        "EUR": 61.88
+        "USD": 82,
+        "EUR": 62.5,
+        "AUD": 133,
+        "CAD": 98
       }
+    },
+    {
+      "id": "stormfang_gunship",
+      "name": "Stormfang Gunship",
+      "points": 300,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "stormhawk_interceptor",
@@ -837,8 +2429,10 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 58.65,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
@@ -849,8 +2443,10 @@
       "box_price": 78,
       "prices": {
         "GBP": 78,
-        "USD": 107.95,
-        "EUR": 97.5
+        "USD": 127,
+        "EUR": 100,
+        "AUD": 155,
+        "CAD": 152
       }
     },
     {
@@ -861,9 +2457,27 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 58.65,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "stormwolf",
+      "name": "Stormwolf",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "suboden_khan",
+      "name": "Suboden Khan",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "suppressor_squad",
@@ -873,9 +2487,19 @@
       "box_price": 91,
       "prices": {
         "GBP": 91,
-        "USD": 119.99,
-        "EUR": 113.75
+        "USD": 150,
+        "EUR": 120,
+        "AUD": 139,
+        "CAD": 180
       }
+    },
+    {
+      "id": "sword_brethren_squad",
+      "name": "Sword Brethren Squad",
+      "points": 105,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "tactical_squad",
@@ -885,9 +2509,35 @@
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 47.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
+    },
+    {
+      "id": "talonstrike_kill_team",
+      "name": "Talonstrike Kill Team",
+      "points": 275,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tarantula_air_defence_battery",
+      "name": "Tarantula Air Defence Battery",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tarantula_sentry_battery",
+      "name": "Tarantula Sentry Battery",
+      "points": 30,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "techmarine",
@@ -897,9 +2547,19 @@
       "box_price": 27,
       "prices": {
         "GBP": 27,
-        "USD": 36.97,
-        "EUR": 33.75
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
       }
+    },
+    {
+      "id": "techmarine_on_bike",
+      "name": "Techmarine on Bike",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "terminator_assault_squad",
@@ -909,8 +2569,10 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
@@ -921,9 +2583,35 @@
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
+    },
+    {
+      "id": "terminus_ultra",
+      "name": "Terminus Ultra",
+      "points": 285,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "the_sanguinor",
+      "name": "The Sanguinor",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "thunderfire_cannon",
+      "name": "Thunderfire Cannon",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "thunderhawk_gunship",
@@ -933,21 +2621,141 @@
       "box_price": 619,
       "prices": {
         "GBP": 619,
-        "USD": 127.99,
-        "EUR": 773.75
+        "USD": 950,
+        "EUR": 760,
+        "AUD": 1377,
+        "CAD": 1175
       }
     },
     {
+      "id": "thunderhawk_transporter",
+      "name": "Thunderhawk Transporter",
+      "points": 495,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "thunderwolf_cavalry",
+      "name": "Thunderwolf Cavalry",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tor_garadon",
+      "name": "Tor Garadon",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tycho_the_lost",
+      "name": "Tycho The Lost",
+      "points": 90,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "typhon",
+      "name": "Typhon",
+      "points": 320,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tyrannic_war_veterans",
+      "name": "Tyrannic War Veterans",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "ulrik_the_slayer",
+      "name": "Ulrik The Slayer",
+      "points": 70,
+      "models_per_box": 1,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "ultramarines_honour_guard",
+      "name": "Ultramarines Honour Guard",
+      "points": 155,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "uriel_ventris",
+      "name": "Uriel Ventris",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "vanguard_veteran_squad",
+      "name": "Vanguard Veteran Squad",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "vanguard_veteran_squad_with_jump_packs",
-      "name": "Vanguard Veteran Squad with Jump Packs",
+      "name": "Vanguard Veteran Squad With Jump Packs",
       "points": 100,
       "models_per_box": 5,
       "box_price": 38,
       "prices": {
         "GBP": 38,
-        "USD": 46.99,
-        "EUR": 47.5
+        "USD": 60,
+        "EUR": 50,
+        "AUD": 102,
+        "CAD": 74
       }
+    },
+    {
+      "id": "venerable_dreadnought",
+      "name": "Venerable Dreadnought",
+      "points": 130,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "venerable_dreadnought_legendary",
+      "name": "Venerable Dreadnought (Legendary)",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "victrix_honour_guard",
+      "name": "Victrix Honour Guard",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "vindicator",
@@ -957,9 +2765,57 @@
       "box_price": 47.5,
       "prices": {
         "GBP": 47.5,
-        "USD": 46.99,
-        "EUR": 59.38
+        "USD": 80,
+        "EUR": 62.5,
+        "AUD": 101,
+        "CAD": 95
       }
+    },
+    {
+      "id": "vindicator_laser_destroyer",
+      "name": "Vindicator Laser Destroyer",
+      "points": 175,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "vulkan_he_stan",
+      "name": "Vulkan He’stan",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "wardens_of_ultramar",
+      "name": "Wardens of Ultramar",
+      "points": 0,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "watch_captain_artemis",
+      "name": "Watch Captain Artemis",
+      "points": 65,
+      "models_per_box": 1,
+      "box_price": 27,
+      "prices": {
+        "GBP": 27,
+        "USD": 43.5,
+        "EUR": 34.5,
+        "AUD": 71,
+        "CAD": 54
+      }
+    },
+    {
+      "id": "watch_master",
+      "name": "Watch Master",
+      "points": 95,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "whirlwind",
@@ -969,9 +2825,207 @@
       "box_price": 45,
       "prices": {
         "GBP": 45,
-        "USD": 62.05,
-        "EUR": 56.25
+        "USD": 74,
+        "EUR": 58.5,
+        "AUD": 107,
+        "CAD": 90
       }
+    },
+    {
+      "id": "whirlwind_scorpius",
+      "name": "Whirlwind Scorpius",
+      "points": 115,
+      "models_per_box": 1,
+      "box_price": 45,
+      "prices": {
+        "GBP": 45,
+        "USD": 74,
+        "EUR": 58.5,
+        "AUD": 107,
+        "CAD": 90
+      }
+    },
+    {
+      "id": "wolf_guard",
+      "name": "Wolf Guard",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_battle_leader",
+      "name": "Wolf Guard Battle Leader",
+      "points": 65,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_battle_leader_in_terminator_armour",
+      "name": "Wolf Guard Battle Leader In Terminator Armour",
+      "points": 75,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_battle_leader_on_thunderwolf",
+      "name": "Wolf Guard Battle Leader On Thunderwolf",
+      "points": 80,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_headtakers",
+      "name": "Wolf Guard Headtakers",
+      "points": 85,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_pack_leader",
+      "name": "Wolf Guard Pack Leader",
+      "points": 30,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_pack_leader_in_terminator_armour",
+      "name": "Wolf Guard Pack Leader In Terminator Armour",
+      "points": 40,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_pack_leader_with_jump_pack",
+      "name": "Wolf Guard Pack Leader With Jump Pack",
+      "points": 35,
+      "models_per_box": 5,
+      "box_price": 40,
+      "prices": {
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
+      }
+    },
+    {
+      "id": "wolf_guard_terminators",
+      "name": "Wolf Guard Terminators",
+      "points": 170,
+      "models_per_box": 6,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
+      }
+    },
+    {
+      "id": "wolf_lord_on_thunderwolf",
+      "name": "Wolf Lord on Thunderwolf",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "wolf_priest",
+      "name": "Wolf Priest",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "wolf_scouts",
+      "name": "Wolf Scouts",
+      "points": 80,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "wulfen",
+      "name": "Wulfen",
+      "points": 85,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "wulfen_dreadnought",
+      "name": "Wulfen Dreadnought",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "wulfen_with_storm_shields",
+      "name": "Wulfen with Storm Shields",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "xiphon_interceptor",
+      "name": "Xiphon Interceptor",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

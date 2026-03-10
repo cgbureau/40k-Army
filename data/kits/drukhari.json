@@ -3,152 +3,190 @@
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 40.8,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "wyches": {
     "models": 10,
     "prices": {
       "GBP": 31.5,
-      "USD": 40.8,
-      "EUR": 39.38
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63
     }
   },
   "wracks": {
     "models": 5,
     "prices": {
       "GBP": 28,
-      "USD": 34.96,
-      "EUR": 35
+      "USD": 45,
+      "EUR": 35,
+      "AUD": 77,
+      "CAD": 55
     }
   },
   "incubi": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "scourges": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "mandrakes": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 44,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "grotesques": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 45,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "hand-of-the-archon": {
     "models": 10,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "hellions": {
     "models": 5,
     "prices": {
       "GBP": 35,
-      "USD": 41.96,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "reavers": {
     "models": 3,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "archon": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.5,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "court-of-the-archon": {
     "models": 4,
     "prices": {
       "GBP": 40,
-      "USD": 50,
-      "EUR": 50
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78
     }
   },
   "succubus": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 32.99,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "beastmaster": {
     "models": 1,
     "prices": {
       "GBP": 26,
-      "USD": 33.66,
-      "EUR": 32.5
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 72,
+      "CAD": 53
     }
   },
   "raider": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 52,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "ravager": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 51,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "venom": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 44.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   },
   "talos": {
     "models": 1,
     "prices": {
       "GBP": 42.5,
-      "USD": 55.25,
-      "EUR": 53.13
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83
     }
   },
   "cronos": {
     "models": 1,
     "prices": {
       "GBP": 35,
-      "USD": 46.99,
-      "EUR": 43.75
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 88,
+      "CAD": 70
     }
   }
 }

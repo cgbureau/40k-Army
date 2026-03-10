@@ -4,134 +4,504 @@
     {
       "id": "angron",
       "name": "Angron",
-      "points": 415,
+      "points": 340,
       "models_per_box": 1,
       "box_price": 105,
       "prices": {
         "GBP": 105,
-        "USD": 127.99,
-        "EUR": 131.25
+        "USD": 170,
+        "EUR": 135,
+        "AUD": 149,
+        "CAD": 205
       }
     },
     {
-      "id": "chaos_rhino",
-      "name": "Chaos Rhino",
-      "points": 75,
-      "models_per_box": 1,
-      "box_price": 36,
-      "prices": {
-        "GBP": 36,
-        "USD": 46.99,
-        "EUR": 45
-      }
+      "id": "blood_slaughterer",
+      "name": "Blood Slaughterer",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "bloodcrushers",
+      "name": "Bloodcrushers",
+      "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "bloodletters",
+      "name": "Bloodletters",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "bloodthirster",
+      "name": "Bloodthirster",
+      "points": 305,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "cerberus",
+      "name": "Cerberus",
+      "points": 270,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_land_raider",
+      "name": "Chaos Land Raider",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_predator_annihilator",
+      "name": "Chaos Predator Annihilator",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_predator_destructor",
+      "name": "Chaos Predator Destructor",
+      "points": 145,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_spawn",
+      "name": "Chaos Spawn",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_terminators",
+      "name": "Chaos Terminators",
+      "points": 175,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "chaos_thunderhawk",
+      "name": "Chaos Thunderhawk",
+      "points": 840,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "daemon_prince_of_khorne",
+      "name": "Daemon Prince of Khorne",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "daemon_prince_of_khorne_with_wings",
+      "name": "Daemon Prince of Khorne with Wings",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "defiler",
+      "name": "Defiler",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "deredeo_dreadnought",
+      "name": "Deredeo Dreadnought",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "eightbound",
       "name": "Eightbound",
-      "points": 155,
+      "points": 135,
       "models_per_box": 3,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
       "id": "exalted_eightbound",
       "name": "Exalted Eightbound",
-      "points": 180,
+      "points": 140,
       "models_per_box": 3,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 55.25,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
-      "id": "jackals",
+      "id": "falchion",
+      "name": "Falchion",
+      "points": 420,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fellblade",
+      "name": "Fellblade",
+      "points": 480,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "fire_raptor_gunship",
+      "name": "Fire Raptor Gunship",
+      "points": 290,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "flesh_hounds",
+      "name": "Flesh Hounds",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "forgefiend",
+      "name": "Forgefiend",
+      "points": 165,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "goremongers",
+      "name": "Goremongers",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "greater_brass_scorpion",
+      "name": "Greater Brass Scorpion",
+      "points": 500,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "helbrute",
+      "name": "Helbrute",
+      "points": 120,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "heldrake",
+      "name": "Heldrake",
+      "points": 200,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hell_blade",
+      "name": "Hell Blade",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "hell_talon",
+      "name": "Hell Talon",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "jakhals",
       "name": "Jakhals",
-      "points": 70,
+      "points": 65,
       "models_per_box": 10,
       "box_price": 28,
       "prices": {
         "GBP": 28,
-        "USD": 29.99,
-        "EUR": 35
+        "USD": 45,
+        "EUR": 35,
+        "AUD": 77,
+        "CAD": 55
       }
     },
     {
-      "id": "kharn",
-      "name": "Khârn the Betrayer",
-      "points": 95,
+      "id": "kh_rn_the_betrayer",
+      "name": "Khârn The Betrayer",
+      "points": 100,
       "models_per_box": 1,
-      "box_price": 26,
+      "box_price": 40,
       "prices": {
-        "GBP": 26,
-        "USD": 33.15,
-        "EUR": 32.5
+        "GBP": 40,
+        "USD": 65,
+        "EUR": 51.5,
+        "AUD": 110,
+        "CAD": 78
       }
     },
     {
-      "id": "berzerkers",
+      "id": "khorne_berzerkers",
       "name": "Khorne Berzerkers",
-      "points": 115,
-      "models_per_box": 5,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 49.99,
-        "EUR": 53.13
-      }
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
-      "id": "invocatus",
+      "id": "khorne_lord_of_skulls",
+      "name": "Khorne Lord of Skulls",
+      "points": 505,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kratos",
+      "name": "Kratos",
+      "points": 240,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kytan_ravager",
+      "name": "Kytan Ravager",
+      "points": 400,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "land_raider_achilles",
+      "name": "Land Raider Achilles",
+      "points": 230,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "land_raider_proteus",
+      "name": "Land Raider Proteus",
+      "points": 220,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "leviathan_dreadnought",
+      "name": "Leviathan Dreadnought",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "lord_invocatus",
       "name": "Lord Invocatus",
-      "points": 140,
+      "points": 110,
       "models_per_box": 1,
       "box_price": 42.5,
       "prices": {
         "GBP": 42.5,
-        "USD": 58.65,
-        "EUR": 53.13
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
+      }
+    },
+    {
+      "id": "lord_on_juggernaut",
+      "name": "Lord on Juggernaut",
+      "points": 105,
+      "models_per_box": 1,
+      "box_price": 42.5,
+      "prices": {
+        "GBP": 42.5,
+        "USD": 69,
+        "EUR": 55,
+        "AUD": 117,
+        "CAD": 83
       }
     },
     {
       "id": "master_of_executions",
       "name": "Master of Executions",
-      "points": 70,
+      "points": 60,
       "models_per_box": 1,
       "box_price": 26,
       "prices": {
         "GBP": 26,
-        "USD": 34.96,
-        "EUR": 32.5
+        "USD": 42,
+        "EUR": 34,
+        "AUD": 72,
+        "CAD": 53
       }
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "points": 540,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "maulerfiend",
       "name": "Maulerfiend",
-      "points": 155,
+      "points": 150,
       "models_per_box": 1,
       "box_price": 52,
       "prices": {
         "GBP": 52,
-        "USD": 65.5,
-        "EUR": 65
+        "USD": 85,
+        "EUR": 67,
+        "AUD": 145,
+        "CAD": 100
       }
     },
     {
-      "id": "lord_on_jugger",
-      "name": "World Eaters Lord on Juggernaut",
-      "points": 125,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 52.25,
-        "EUR": 53.13
-      }
+      "id": "rapier_carrier",
+      "name": "Rapier Carrier",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "relic_contemptor_dreadnought",
+      "name": "Relic Contemptor Dreadnought",
+      "points": 140,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_battle_tank",
+      "name": "Sicaran Battle Tank",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_punisher",
+      "name": "Sicaran Punisher",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sicaran_venator",
+      "name": "Sicaran Venator",
+      "points": 180,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "skarbrand",
+      "name": "Skarbrand",
+      "points": 305,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "slaughterbound",
+      "name": "Slaughterbound",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "sokar_pattern_stormbird",
+      "name": "Sokar-pattern Stormbird",
+      "points": 900,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "spartan",
+      "name": "Spartan",
+      "points": 300,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "storm_eagle_gunship",
+      "name": "Storm Eagle Gunship",
+      "points": 250,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "typhon",
+      "name": "Typhon",
+      "points": 320,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "whirlwind_scorpius",
+      "name": "Whirlwind Scorpius",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "xiphon_interceptor",
+      "name": "Xiphon Interceptor",
+      "points": 115,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

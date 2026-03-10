@@ -134,5 +134,12 @@
   "wolf_guard_pack_leader_in_terminator_armour": "wolf-guard",
   "wolf_guard_pack_leader_with_jump_pack": "wolf-guard",
   "wolf_guard_terminators": "terminators",
-  "wulfen_dreadnought": "venerable-dreadnought"
+  "wulfen_dreadnought": "venerable-dreadnought",
+  "assault_squad": "assault-intercessors",
+  "assault_squad_with_jump_packs": "assault-intercessors-with-jump-packs",
+  "blood_angels_captain": "space-marine-captain",
+  "crusade_ancient": "space-marine-ancient",
+  "deathstorm_drop_pod": "space-marine-drop-pod",
+  "whirlwind_scorpius": "space-marine-whirlwind",
+  "watch_captain_artemis": "space-marine-captain"
 }

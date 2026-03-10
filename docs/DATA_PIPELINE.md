@@ -200,10 +200,23 @@ Boxes required is calculated as:
 boxes_required = ceil(unit_quantity / models_per_box)
 
 
-Cost is then:
+Cost is calculated as:
 
 
-boxes_required × box_price
+boxes_required × selected_currency_price
+
+
+Where `selected_currency_price` comes from:
+
+
+unit.prices[currency]
+
+
+Example:
+
+
+unit.prices.USD
+unit.prices.GBP
 
 
 
@@ -211,17 +224,34 @@ boxes_required × box_price
 
 # Currency Handling
 
-The dataset may include regional pricing:
+Currency values are stored directly in the dataset.
+
+
+Each unit includes a regional price object:
 
 
 prices {
-GBP
-USD
-EUR
+  GBP
+  USD
+  EUR
+  AUD
+  CAD
 }
 
 
-If a regional price is missing, the system falls back to the base price.
+The frontend selects the correct value directly from the dataset:
+
+
+unit.prices[currency]
+
+
+No currency conversion is performed in the frontend.
+
+
+If a selected currency is unavailable, the system falls back to:
+
+
+unit.prices.GBP
 
 
 ---
@@ -300,19 +330,9 @@ This means the next major phase is no longer unit discovery, but **price data co
 
 ## Pricing Phase Goal
 
-The next development phase is to make 40KArmy the most accurate source for Warhammer army cost estimation.
+The pricing pipeline is now operational and supports regional MSRP.
 
-This requires:
-
-1. Price data for **all purchasable units**
-2. Correct representation of units that come from the same retail kit / box
-3. Clear handling of units that are not currently purchasable
-4. Regional MSRP support for:
-   - GBP
-   - USD
-   - EUR
-   - AUD
-   - CAD
+The remaining work is increasing kit coverage and improving unit-to-kit mappings.
 
 ---
 
