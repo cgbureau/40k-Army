@@ -332,31 +332,72 @@ function HomeContent() {
   return (
     <div className="min-h-[auto] flex flex-col page-bg text-[#231F20] font-plex-mono max-[900px]:min-h-screen max-[900px]:overflow-auto lg:h-screen lg:overflow-hidden">
       <div
-        className={`flex flex-col min-h-0 shrink-0 max-[900px]:flex-1 max-[900px]:min-h-0 max-[900px]:overflow-visible lg:flex-1 lg:shrink max-w-6xl w-full mx-auto py-4 px-4 lg:overflow-hidden relative z-10 ${armySummaryUnits.length > 0 ? "max-[900px]:pb-[220px]" : ""}`}
+        className={`flex flex-col min-h-0 shrink-0 max-[900px]:flex-1 max-[900px]:min-h-0 max-[900px]:overflow-visible lg:flex-1 lg:shrink max-w-6xl w-full mx-auto mt-[20px] py-4 px-4 lg:overflow-hidden relative z-10 ${
+          armySummaryUnits.length > 0 ? "max-[900px]:pb-[220px]" : ""
+        }`}
       >
-        <header className="text-center flex-shrink-0 mb-4 relative">
-          {/* Desktop: currency top right */}
-          <div className="absolute top-0 right-0 flex items-center gap-1.5 min-[901px]:flex max-[900px]:hidden">
-            <select
-              id="currency-select"
-              value={currency}
-              onChange={(e) =>
-                setCurrency(e.target.value as "GBP" | "USD" | "EUR" | "AUD" | "CAD")
-              }
-              className="border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none"
-              aria-label="Select currency"
-            >
-              <option value="GBP">GBP (£)</option>
-              <option value="USD">USD ($)</option>
-              <option value="EUR">EUR (€)</option>
-              <option value="AUD">AUD ($)</option>
-              <option value="CAD">CAD ($)</option>
-            </select>
+        <header className="text-center flex-shrink-0 mb-2 relative">
+          {/* Desktop: header row with Join/Support left, logo center, currency right */}
+          <div className="hidden md:flex relative items-start justify-between max-w-6xl mx-auto pt-6 mb-4 min-h-[120px]">
+            <div className="flex flex-col items-start gap-1 text-left">
+              <button
+                type="button"
+                className="text-xs font-plex-mono underline cursor-pointer uppercase text-[#1E2A44]"
+                onClick={() => setEmailOpen(!emailOpen)}
+              >
+                JOIN THE COMMAND ROSTER FOR UPDATES
+              </button>
+              <a
+                href="https://buymeacoffee.com/40karmy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[11px] uppercase tracking-wider underline font-semibold opacity-85 hover:opacity-100"
+              >
+                Support project development
+              </a>
+            </div>
+            <div className="absolute left-1/2 -translate-x-1/2 mt-[-6px] flex flex-col items-center gap-1">
+              <Image
+                src="/40KArmy_Logo.svg"
+                alt="40KArmy logo"
+                width={260}
+                height={104}
+                priority
+                className="h-16 w-auto min-h-[64px]"
+              />
+              <div className="text-center leading-[1.05] mt-1">
+                <div className="font-workbench text-[15px] tracking-wide">
+                  WARHAMMER 40K
+                </div>
+                <div className="font-workbench text-[15px] tracking-wide">
+                  ARMY CALCULATOR
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <select
+                id="currency-select"
+                value={currency}
+                onChange={(e) =>
+                  setCurrency(
+                    e.target.value as "GBP" | "USD" | "EUR" | "AUD" | "CAD"
+                  )
+                }
+                className="border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none"
+                aria-label="Select currency"
+              >
+                <option value="GBP">GBP (£)</option>
+                <option value="USD">USD ($)</option>
+                <option value="EUR">EUR (€)</option>
+                <option value="AUD">AUD ($)</option>
+                <option value="CAD">CAD ($)</option>
+              </select>
+            </div>
           </div>
 
           {/* Mobile: two-column — left = logo (64px), right = title (2 lines) + currency */}
-          <div className="max-[900px]:flex max-[900px]:flex-row max-[900px]:items-stretch max-[900px]:gap-3 max-[900px]:w-full min-[901px]:block">
-            <div className="max-[900px]:shrink-0 max-[900px]:flex max-[900px]:items-center min-[901px]:flex min-[901px]:justify-center min-[901px]:mb-2">
+          <div className="max-[900px]:flex max-[900px]:flex-row max-[900px]:items-stretch max-[900px]:gap-3 max-[900px]:w-full md:hidden">
+            <div className="max-[900px]:shrink-0 max-[900px]:flex max-[900px]:items-center">
               <Image
                 src="/40KArmy_Logo.svg"
                 alt="40KArmy logo"
@@ -367,7 +408,7 @@ function HomeContent() {
               />
             </div>
             <div className="max-[900px]:flex-1 max-[900px]:flex max-[900px]:flex-col max-[900px]:justify-between max-[900px]:min-w-0 min-[901px]:contents">
-              <div className="max-[900px]:text-right min-[901px]:hidden">
+              <div className="max-[900px]:text-right">
                 <div className="text-right leading-[1.05]">
                   <div className="font-workbench text-[15px] tracking-wide">
                     WARHAMMER 40K
@@ -377,7 +418,7 @@ function HomeContent() {
                   </div>
                 </div>
               </div>
-              <div className="max-[900px]:flex max-[900px]:justify-end max-[900px]:items-center max-[900px]:mt-1.5 min-[901px]:hidden">
+              <div className="max-[900px]:flex max-[900px]:justify-end max-[900px]:items-center max-[900px]:mt-1.5">
                 <select
                   id="currency-select-mobile"
                   value={currency}
@@ -396,18 +437,13 @@ function HomeContent() {
               </div>
             </div>
           </div>
-          <div className="hidden md:flex justify-center mt-6 mb-6">
-            <h1 className="font-workbench text-sm uppercase tracking-wide text-center">
-              Warhammer 40K Army Cost Calculator
-            </h1>
-          </div>
           <div
-            className="px-3 mt-4 mb-3 text-sm font-plex-mono font-semibold underline cursor-pointer uppercase text-[#1E2A44]"
+            className="px-3 mt-4 mb-3 text-sm font-plex-mono font-semibold underline cursor-pointer uppercase text-[#1E2A44] md:hidden"
             onClick={() => setEmailOpen(!emailOpen)}
           >
             JOIN THE COMMAND ROSTER FOR UPDATES
           </div>
-          <div className="flex justify-center mt-0 mb-1">
+          <div className="flex justify-center mt-0 mb-1 md:hidden">
             <a
               href="https://buymeacoffee.com/40karmy"
               target="_blank"
@@ -894,34 +930,76 @@ function HomeContent() {
           </aside>
         </main>
 
-        <section className="mt-10 w-full max-w-[1100px] mx-auto px-4 text-xs opacity-80">
-          <div className="flex flex-col md:flex-row md:gap-12">
-            <div className="md:w-2/3 text-sm leading-relaxed">
-              <h2 className="font-workbench uppercase text-sm mb-2">
+        <section className="mt-4 w-full px-4 text-xs opacity-80">
+          {/* Mobile / tablet stacked layout */}
+          <div className="max-w-6xl mx-auto md:hidden">
+            <div className="mb-6">
+              <h2 className="font-workbench text-sm tracking-wide uppercase mb-2 text-left">
                 Warhammer 40K Army Cost Calculator
               </h2>
-
-              <p className="mb-2">
+              <p className="mb-2 text-xs leading-snug text-gray-600">
                 This fan-made Warhammer 40K army cost calculator helps estimate the
                 real-world cost of building a tabletop army. Select units from your
                 faction, track total points, estimate how many model boxes are required,
                 and calculate the approximate price of your army list before buying
                 miniatures.
               </p>
-
-              <p className="mb-2">
+              <p className="mb-2 text-xs leading-snug text-gray-600">
                 Warhammer armies can vary widely in cost depending on faction, model count
                 and list size. Use this calculator to quickly understand how expensive
                 different Warhammer 40K army builds can be before purchasing models.
               </p>
             </div>
-
-            <div className="md:w-1/3 mt-10 md:mt-0 mb-10">
-              <h3 className="font-workbench text-[12px] uppercase tracking-wider">
+            <div className="mb-10">
+              <h3 className="font-workbench text-sm tracking-wide uppercase mb-2 text-left">
                 Explore army cost guides
               </h3>
+              <ul className="mt-1 text-xs leading-snug text-gray-600 font-plex-mono underline space-y-1">
+                <li>
+                  <a href="/space-marines-army-cost">Space Marines army cost</a>
+                </li>
+                <li>
+                  <a href="/orks-army-cost">Orks army cost</a>
+                </li>
+                <li>
+                  <a href="/necrons-army-cost">Necrons army cost</a>
+                </li>
+                <li>
+                  <a href="/tyranids-army-cost">Tyranids army cost</a>
+                </li>
+                <li>
+                  <a href="/chaos-space-marines-army-cost">
+                    Chaos Space Marines army cost
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
 
-              <ul className="mt-2 text-sm font-plex-mono underline space-y-1">
+          {/* Desktop two-column layout aligned with calculator */}
+          <div className="hidden md:grid max-w-7xl mx-auto mt-4 grid-cols-2 gap-16">
+            <div className="text-left">
+              <h2 className="font-workbench text-sm tracking-wide uppercase mb-2">
+                Warhammer 40K Army Cost Calculator
+              </h2>
+              <p className="mb-2 text-xs leading-snug text-gray-600">
+                This fan-made Warhammer 40K army cost calculator helps estimate the
+                real-world cost of building a tabletop army. Select units from your
+                faction, track total points, estimate how many model boxes are required,
+                and calculate the approximate price of your army list before buying
+                miniatures.
+              </p>
+              <p className="mb-2 text-xs leading-snug text-gray-600">
+                Warhammer armies can vary widely in cost depending on faction, model count
+                and list size. Use this calculator to quickly understand how expensive
+                different Warhammer 40K army builds can be before purchasing models.
+              </p>
+            </div>
+            <div className="text-right">
+              <h3 className="font-workbench text-sm tracking-wide uppercase mb-2">
+                Explore army cost guides
+              </h3>
+              <ul className="mt-1 text-xs leading-snug text-gray-600 font-plex-mono underline space-y-1">
                 <li>
                   <a href="/space-marines-army-cost">Space Marines army cost</a>
                 </li>
@@ -944,15 +1022,19 @@ function HomeContent() {
           </div>
         </section>
 
-        <footer className="text-xs opacity-70 mt-[12px] flex-shrink-0">
-          <p>
-            40KArmy v2 — unofficial Warhammer army cost calculator - A product
-            by the Contemporary Graphics Bureau
-          </p>
-          <p className="mt-0.5">
-            Warhammer 40,000 and all associated names are trademarks of Games
-            Workshop. This project is an unofficial fan-made tool.
-          </p>
+        <footer className="flex-shrink-0">
+          <div className="w-full flex justify-center">
+            <div className="text-xs opacity-70 mt-[12px] flex-shrink-0 text-left md:text-center">
+              <p>
+                40KArmy v2 — unofficial Warhammer army cost calculator - A product
+                by the Contemporary Graphics Bureau
+              </p>
+              <p className="mt-0.5">
+                Warhammer 40,000 and all associated names are trademarks of Games
+                Workshop. This project is an unofficial fan-made tool.
+              </p>
+            </div>
+          </div>
         </footer>
       </div>
 
