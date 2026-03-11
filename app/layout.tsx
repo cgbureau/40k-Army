@@ -16,9 +16,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://40karmy.com"),
-  title: "Warhammer 40K Army Cost Calculator | 40KArmy",
+  title: "Warhammer 40K Army Cost Calculator – Real Army Price Tool",
   description:
-    "Calculate the real cost of building a Warhammer 40K army. Add units, track points, estimate boxes and total army price.",
+    "Calculate the real cost of building a Warhammer 40K army. Add units, track points, estimate model boxes, and see the true retail price before buying miniatures.",
   keywords: [
     "warhammer 40k army calculator",
     "40k army cost",
