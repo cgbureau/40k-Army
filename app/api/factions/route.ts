@@ -42,7 +42,16 @@ export async function GET() {
       }
     }
 
-    return new NextResponse(JSON.stringify(factions), {
+    // Deduplicate factions by display name so entries like "Adeptus Custodes"
+    // only appear once in the dropdown, preserving original ordering.
+    const seenNames = new Set<string>();
+    const uniqueFactions = factions.filter((f) => {
+      if (seenNames.has(f.name)) return false;
+      seenNames.add(f.name);
+      return true;
+    });
+
+    return new NextResponse(JSON.stringify(uniqueFactions), {
       headers: {
         "Content-Type": "application/json",
         "Cache-Control":
