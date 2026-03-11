@@ -7,7 +7,8 @@
       "points": 100,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "battlewagon",
@@ -119,7 +120,8 @@
       "points": 90,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "blitza_bommer",
@@ -203,7 +205,8 @@
       "points": 105,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "da_red_gobbo",
@@ -249,7 +252,8 @@
       "points": 250,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "deffkilla_wartrike",
@@ -315,7 +319,8 @@
       "points": 440,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "ghazghkull_thraka",
@@ -353,7 +358,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "grot_mega_tank",
@@ -361,7 +367,8 @@
       "points": 110,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "grot_tanks",
@@ -369,7 +376,8 @@
       "points": 155,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "hunta_rig",
@@ -407,7 +415,8 @@
       "points": 230,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "kill_rig",
@@ -429,7 +438,8 @@
       "points": 295,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "killa_kans",
@@ -503,7 +513,8 @@
       "points": 225,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "meganobz",
@@ -555,7 +566,8 @@
       "points": 210,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "morkanaut",
@@ -675,7 +687,8 @@
       "points": 150,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "squighog_boyz",
@@ -785,7 +798,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "wartrakks",
@@ -793,7 +807,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "wazbom_blastajet",

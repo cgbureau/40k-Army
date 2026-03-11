@@ -4,6 +4,8 @@ import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "rea
 import Image from "next/image";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { factionColors, DEFAULT_FACTION_COLOR } from "./config/factionColors";
+import orkKitMappings from "../data/kit-mappings/orks.json";
+import orkKits from "../data/kits/orks.json";
 
 type Unit = {
   id: string;
@@ -19,6 +21,7 @@ type Unit = {
     CAD?: number | null;
   };
   is_legends?: boolean;
+  availability?: "retail" | "legends" | "forgeworld";
 };
 
 type FactionListItem = { slug: string; name: string };
@@ -94,6 +97,30 @@ function getCurrencySymbol(currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"): str
 
 type QuantityMap = Record<string, number>;
 
+function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
+  if (factionSlug !== "orks") return units;
+
+  const mapping = orkKitMappings as Record<string, string>;
+  const kits = orkKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >;
+
+  return units.map((unit) => {
+    const kitSlug = mapping[unit.id];
+    const kit = kitSlug ? kits[kitSlug] : null;
+
+    const modelsPerBox = kit?.models ?? unit.models_per_box ?? null;
+    const priceData = (kit?.prices as Unit["prices"]) ?? unit.prices;
+
+    return {
+      ...unit,
+      models_per_box: modelsPerBox,
+      prices: priceData,
+    };
+  });
+}
+
 function HomeContent() {
   const router = useRouter();
   const pathname = usePathname();
@@ -155,7 +182,8 @@ function HomeContent() {
       .then((data: FactionUnitsResponse) => {
         if (cancelled) return;
         const list = Array.isArray(data.units) ? data.units : [];
-        setUnits(list);
+        const enriched = enrichUnitsWithKits(list, selectedFactionSlug);
+        setUnits(enriched);
       })
       .catch(() => setUnits([]))
       .finally(() => setUnitsLoading(false));
@@ -256,12 +284,8 @@ function HomeContent() {
   };
 
   const armyCostBreakdownUnits = useMemo(
-    () =>
-      armySummaryUnits.filter(
-        (u) =>
-          u.models_per_box != null && getUnitPrice(u, currency) != null
-      ),
-    [armySummaryUnits, currency]
+    () => armySummaryUnits,
+    [armySummaryUnits]
   );
 
   const handleResetArmy = () => {
@@ -662,7 +686,7 @@ function HomeContent() {
                                 : "text-[#231F20]"
                             }`}
                           >
-                            {unit.name}
+                            <span>{unit.name}</span>
                           </h3>
                         </div>
                         <div className="flex items-center justify-between w-full">
@@ -682,14 +706,29 @@ function HomeContent() {
                                 {price.toFixed(2)}
                               </span>
                             )}
-                            {!hasBoxData && (
-                              <>
-                                <span>•</span>
-                                <span className="text-[#C23B22] font-workbench">
-                                  AWOL
-                                </span>
-                              </>
-                            )}
+                            {!hasBoxData &&
+                              (unit.availability === "legends" ? (
+                                <>
+                                  <span>•</span>
+                                  <span className="text-violet-500 font-workbench">
+                                    LEGENDS
+                                  </span>
+                                </>
+                              ) : unit.availability === "forgeworld" ? (
+                                <>
+                                  <span>•</span>
+                                  <span className="text-orange-500 font-workbench">
+                                    FORGEWORLD
+                                  </span>
+                                </>
+                              ) : (
+                                <>
+                                  <span>•</span>
+                                  <span className="text-[#C23B22] font-workbench">
+                                    AWOL
+                                  </span>
+                                </>
+                              ))}
                           </div>
                           <div className="flex items-center gap-[2px] shrink-0 ml-2">
                             <button
@@ -768,35 +807,32 @@ function HomeContent() {
                 </h2>
                 {armyCostBreakdownUnits.length === 0 ? (
                   <p className="text-sm font-plex-mono py-1.5">
-                    No units with cost data selected.
+                    No units selected.
                   </p>
                 ) : (
                   <ul className="space-y-1 text-sm font-plex-mono">
                     {armyCostBreakdownUnits.map((unit) => {
                       const qty = quantities[unit.id] ?? 0;
-                      const boxesRequired = Math.ceil(
-                        qty / (unit.models_per_box ?? 1)
-                      );
-                      const price = getUnitPrice(unit, currency) ?? 0;
-                      const cost = boxesRequired * price;
-                      const sym = getCurrencySymbol(currency);
                       const boxCount = Math.floor(
                         qty / (unit.models_per_box ?? 1)
                       );
-                      const modelsPerBox = unit.models_per_box ?? 1;
-                      const modelsTotal = boxCount * modelsPerBox;
-                      const boxCost = boxCount * price;
+                      const pointsTotal = unit.points * boxCount;
+                      const pricePerBox = getUnitPrice(unit, currency);
+                      const sym = getCurrencySymbol(currency);
+                      const totalCost =
+                        pricePerBox != null ? boxCount * pricePerBox : null;
                       return (
                         <li
                           key={unit.id}
                           className="py-1 border-b border-[#231F20]/30 last:border-b-0 min-w-0"
                         >
                           <div className="font-medium text-[#231F20] uppercase break-words">
-                            {unit.name}
+                            <span>{unit.name}</span>
                           </div>
                           <div className="text-xs text-[#231F20]/90 tabular-nums mt-0.5">
-                            Qty:{boxCount} • Mdls:{modelsTotal} • {sym}
-                            {boxCost.toFixed(2)}
+                            {pointsTotal}pts
+                            {totalCost != null &&
+                              ` • ${sym}${totalCost.toFixed(2)}`}
                           </div>
                         </li>
                       );
@@ -938,50 +974,35 @@ function HomeContent() {
                   </h3>
                   {armyCostBreakdownUnits.length === 0 ? (
                     <p className="text-sm font-plex-mono text-[#231F20]/80">
-                      No units with cost data selected.
+                      No units selected.
                     </p>
                   ) : (
                     <>
                       <ul className="space-y-2 text-sm font-plex-mono">
                         {armyCostBreakdownUnits.map((unit) => {
                           const qty = quantities[unit.id] ?? 0;
-                          const boxesRequired = Math.ceil(
-                            qty / (unit.models_per_box ?? 1)
-                          );
-                          const price = getUnitPrice(unit, currency);
-                          const sym = getCurrencySymbol(currency);
                           const boxCount = Math.floor(
                             qty / (unit.models_per_box ?? 1)
                           );
-                          const modelsPerBox = unit.models_per_box ?? 1;
-                          const modelsTotal = boxCount * modelsPerBox;
-                          const boxCost = boxCount * (price ?? 0);
-                          const hasBoxData =
-                            unit.models_per_box != null && price != null;
+                          const pointsTotal = unit.points * boxCount;
+                          const pricePerBox = getUnitPrice(unit, currency);
+                          const sym = getCurrencySymbol(currency);
+                          const totalCost =
+                            pricePerBox != null ? boxCount * pricePerBox : null;
                           return (
                             <li
                               key={unit.id}
                               className="flex justify-between items-start border-b border-[#231F20]/20 py-2 last:border-b-0"
                             >
                               <div className="font-medium text-[#231F20] uppercase break-words mr-2 leading-tight">
-                                {unit.name}
+                                <span>{unit.name}</span>
                               </div>
                               <div className="text-right text-xs leading-tight whitespace-nowrap tabular-nums">
-                                {hasBoxData ? (
-                                  <>
-                                    <div className="font-medium">
-                                      {sym}
-                                      {boxCost.toFixed(2)}
-                                    </div>
-                                    <div className="opacity-80">
-                                      Qty:{boxCount} Mdls:{modelsTotal}
-                                    </div>
-                                  </>
-                                ) : (
-                                  <div className="text-[#C23B22] font-workbench text-right">
-                                    AWOL
-                                  </div>
-                                )}
+                                <div className="opacity-80">
+                                  {pointsTotal}pts
+                                  {totalCost != null &&
+                                    ` • ${sym}${totalCost.toFixed(2)}`}
+                                </div>
                               </div>
                             </li>
                           );
