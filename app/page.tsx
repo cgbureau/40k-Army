@@ -6,6 +6,8 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { factionColors, DEFAULT_FACTION_COLOR } from "./config/factionColors";
 import orkKitMappings from "../data/kit-mappings/orks.json";
 import orkKits from "../data/kits/orks.json";
+import necronsKitMappings from "../data/kit-mappings/necrons.json";
+import necronsKits from "../data/kits/necrons.json";
 
 type Unit = {
   id: string;
@@ -97,26 +99,37 @@ function getCurrencySymbol(currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"): str
 
 type QuantityMap = Record<string, number>;
 
-function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
-  if (factionSlug !== "orks") return units;
+const KIT_MAPPINGS_REGISTRY: Record<string, Record<string, string>> = {
+  orks: orkKitMappings as Record<string, string>,
+  necrons: necronsKitMappings as Record<string, string>,
+};
 
-  const mapping = orkKitMappings as Record<string, string>;
-  const kits = orkKits as Record<
+const KIT_REGISTRY: Record<
+  string,
+  Record<string, { models?: number | null; prices?: Unit["prices"] | null }>
+> = {
+  orks: orkKits as Record<
     string,
     { models?: number | null; prices?: Unit["prices"] | null }
-  >;
+  >,
+  necrons: necronsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+};
+
+function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
+  const mappings = KIT_MAPPINGS_REGISTRY[factionSlug] ?? {};
+  const kits = KIT_REGISTRY[factionSlug] ?? {};
 
   return units.map((unit) => {
-    const kitSlug = mapping[unit.id];
+    const kitSlug = mappings[unit.id];
     const kit = kitSlug ? kits[kitSlug] : null;
-
-    const modelsPerBox = kit?.models ?? unit.models_per_box ?? null;
-    const priceData = (kit?.prices as Unit["prices"]) ?? unit.prices;
 
     return {
       ...unit,
-      models_per_box: modelsPerBox,
-      prices: priceData,
+      models_per_box: kit?.models ?? null,
+      prices: (kit?.prices as Unit["prices"]) ?? unit.prices,
     };
   });
 }
@@ -205,6 +218,11 @@ function HomeContent() {
 
   const currentFactionName =
     factionList.find((f) => f.slug === selectedFactionSlug)?.name ?? selectedFactionSlug;
+
+  const kitMappingsForFaction = useMemo(
+    () => KIT_MAPPINGS_REGISTRY[selectedFactionSlug] ?? {},
+    [selectedFactionSlug]
+  );
 
   const handleFactionChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const newSlug = e.target.value;
@@ -705,8 +723,8 @@ function HomeContent() {
                       price !== null
                         ? `${currencySymbol}${price.toFixed(2)}`
                         : "--";
-                    const hasBoxData =
-                      unit.models_per_box != null && price !== null;
+                    const hasKit = !!kitMappingsForFaction[unit.id];
+                    const hasBoxData = hasKit;
                     return (
                       <div
                         key={unit.id}

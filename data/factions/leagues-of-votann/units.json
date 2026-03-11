@@ -45,15 +45,9 @@
       "id": "cthonian_beserks",
       "name": "Cthonian Beserks",
       "points": 100,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "cthonian_earthshakers",
@@ -67,15 +61,9 @@
       "id": "einhyr_champion",
       "name": "Einhyr Champion",
       "points": 70,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "einhyr_hearthguard",
@@ -89,57 +77,33 @@
       "id": "grimnyr",
       "name": "Grimnyr",
       "points": 65,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hearthkyn_warriors",
       "name": "Hearthkyn Warriors",
       "points": 100,
-      "models_per_box": 10,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hekaton_land_fortress",
       "name": "Hekaton Land Fortress",
       "points": 240,
-      "models_per_box": 1,
-      "box_price": 78,
-      "prices": {
-        "GBP": 78,
-        "USD": 127,
-        "EUR": 100,
-        "AUD": 155,
-        "CAD": 152
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hernkyn_pioneers",
       "name": "Hernkyn Pioneers",
       "points": 80,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hernkyn_yaegirs",
@@ -193,15 +157,9 @@
       "id": "thar_the_destined",
       "name": "Ûthar the Destined",
       "points": 95,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

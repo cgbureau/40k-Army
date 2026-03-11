@@ -167,3 +167,32 @@ Next development phase:
 • dataset expansion
 
 The data pipeline itself is considered stable for V1.
+
+
+## Runtime Unit Enrichment
+
+Units loaded by the UI are enriched at runtime.
+
+Process:
+
+1. Load base unit data
+   data/factions/{faction}/units.json
+
+2. Resolve kit slug
+   data/kit-mappings/{faction}.json
+
+3. Load kit definition
+   data/kits/{faction}.json
+
+4. Enrich unit object with:
+
+- models_per_box
+- prices
+
+Example:
+
+unit.id → "burna_bommer"
+kitMapping → "burna-bommer"
+kit → models + prices
+
+If no kit mapping exists, the unit renders as AWOL.

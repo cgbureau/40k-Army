@@ -85,15 +85,9 @@
       "id": "baneblade",
       "name": "Baneblade",
       "points": 450,
-      "models_per_box": 1,
-      "box_price": 105,
-      "prices": {
-        "GBP": 105,
-        "USD": 170,
-        "EUR": 135,
-        "AUD": 149,
-        "CAD": 205
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "banehammer",
@@ -115,15 +109,9 @@
       "id": "basilisk",
       "name": "Basilisk",
       "points": 140,
-      "models_per_box": 1,
-      "box_price": 52,
-      "prices": {
-        "GBP": 52,
-        "USD": 85,
-        "EUR": 67,
-        "AUD": 145,
-        "CAD": 100
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "bullgryn_squad",
@@ -161,15 +149,9 @@
       "id": "cadian_shock_troops",
       "name": "Cadian Shock Troops",
       "points": 0,
-      "models_per_box": 10,
-      "box_price": 31.5,
-      "prices": {
-        "GBP": 31.5,
-        "USD": 52,
-        "EUR": 41,
-        "AUD": 86,
-        "CAD": 63
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "carnodon",
@@ -199,15 +181,9 @@
       "id": "catachan_jungle_fighters",
       "name": "Catachan Jungle Fighters",
       "points": 0,
-      "models_per_box": 10,
-      "box_price": 31.5,
-      "prices": {
-        "GBP": 31.5,
-        "USD": 52,
-        "EUR": 41,
-        "AUD": 86,
-        "CAD": 63
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "centaur_light_carrier",
@@ -229,15 +205,9 @@
       "id": "commissar",
       "name": "Commissar",
       "points": 30,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "crassus",
@@ -267,15 +237,9 @@
       "id": "death_korps_of_krieg",
       "name": "Death Korps Of Krieg",
       "points": 0,
-      "models_per_box": 10,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "death_rider_commissar",
@@ -345,15 +309,9 @@
       "id": "field_ordnance_battery",
       "name": "Field Ordnance Battery",
       "points": 110,
-      "models_per_box": 2,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "gaunt_s_ghosts",
@@ -423,29 +381,17 @@
       "id": "hellhound",
       "name": "Hellhound",
       "points": 125,
-      "models_per_box": 1,
-      "box_price": 47.5,
-      "prices": {
-        "GBP": 47.5,
-        "USD": 80,
-        "EUR": 62.5,
-        "AUD": 101,
-        "CAD": 95
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hydra",
       "name": "Hydra",
       "points": 95,
-      "models_per_box": 1,
-      "box_price": 47.5,
-      "prices": {
-        "GBP": 47.5,
-        "USD": 80,
-        "EUR": 62.5,
-        "AUD": 101,
-        "CAD": 95
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kasrkin",
@@ -555,15 +501,9 @@
       "id": "lord_solar_leontus",
       "name": "Lord Solar Leontus",
       "points": 130,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "macharius",
@@ -633,15 +573,9 @@
       "id": "manticore",
       "name": "Manticore",
       "points": 165,
-      "models_per_box": 1,
-      "box_price": 52,
-      "prices": {
-        "GBP": 52,
-        "USD": 85,
-        "EUR": 67,
-        "AUD": 145,
-        "CAD": 100
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "marauder_bomber",
@@ -775,15 +709,9 @@
       "id": "ratlings",
       "name": "Ratlings",
       "points": 60,
-      "models_per_box": 5,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "regimental_attach_s",
@@ -853,15 +781,9 @@
       "id": "sergeant_harker",
       "name": "Sergeant Harker",
       "points": 40,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "shadowsword",
@@ -955,15 +877,9 @@
       "id": "tempestus_scions",
       "name": "Tempestus Scions",
       "points": 0,
-      "models_per_box": 5,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "trojan_support_vehicle",
@@ -993,15 +909,9 @@
       "id": "valkyrie",
       "name": "Valkyrie",
       "points": 190,
-      "models_per_box": 1,
-      "box_price": 58,
-      "prices": {
-        "GBP": 58,
-        "USD": 96,
-        "EUR": 76,
-        "AUD": 101,
-        "CAD": 116
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "valkyrie_sky_talon",
@@ -1039,15 +949,9 @@
       "id": "wyvern",
       "name": "Wyvern",
       "points": 110,
-      "models_per_box": 1,
-      "box_price": 47.5,
-      "prices": {
-        "GBP": 47.5,
-        "USD": 80,
-        "EUR": 62.5,
-        "AUD": 101,
-        "CAD": 95
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

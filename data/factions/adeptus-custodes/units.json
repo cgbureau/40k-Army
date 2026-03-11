@@ -173,15 +173,9 @@
       "id": "telemon_heavy_dreadnought",
       "name": "Telemon Heavy Dreadnought",
       "points": 225,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "trajann_valoris",

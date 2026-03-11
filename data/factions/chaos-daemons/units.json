@@ -21,15 +21,9 @@
       "id": "an_ggrath_the_unbound",
       "name": "An’ggrath the Unbound",
       "points": 415,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "be_lakor",
@@ -51,29 +45,17 @@
       "id": "bloodcrushers",
       "name": "Bloodcrushers",
       "points": 110,
-      "models_per_box": 3,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "bloodletters",
       "name": "Bloodletters",
       "points": 110,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "bloodmaster",
@@ -87,15 +69,9 @@
       "id": "bloodthirster",
       "name": "Bloodthirster",
       "points": 305,
-      "models_per_box": 1,
-      "box_price": 78,
-      "prices": {
-        "GBP": 78,
-        "USD": 127,
-        "EUR": 100,
-        "AUD": 155,
-        "CAD": 152
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "blue_horrors",
@@ -229,43 +205,25 @@
       "id": "daemon_prince_of_chaos",
       "name": "Daemon Prince of Chaos",
       "points": 190,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "daemon_prince_of_chaos_with_wings",
       "name": "Daemon Prince Of Chaos With Wings",
       "points": 180,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "daemonettes",
       "name": "Daemonettes",
       "points": 100,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "dark_apostle",
@@ -295,15 +253,9 @@
       "id": "exalted_flamer",
       "name": "Exalted Flamer",
       "points": 65,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "exalted_seeker_chariot",
@@ -341,29 +293,17 @@
       "id": "flamers",
       "name": "Flamers",
       "points": 65,
-      "models_per_box": 3,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "flesh_hounds",
       "name": "Flesh Hounds",
       "points": 75,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "fluxmaster",
@@ -401,15 +341,9 @@
       "id": "great_unclean_one",
       "name": "Great Unclean One",
       "points": 250,
-      "models_per_box": 1,
-      "box_price": 78,
-      "prices": {
-        "GBP": 78,
-        "USD": 127,
-        "EUR": 100,
-        "AUD": 155,
-        "CAD": 152
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "havocs",
@@ -479,15 +413,9 @@
       "id": "keeper_of_secrets",
       "name": "Keeper Of Secrets",
       "points": 240,
-      "models_per_box": 1,
-      "box_price": 78,
-      "prices": {
-        "GBP": 78,
-        "USD": 127,
-        "EUR": 100,
-        "AUD": 155,
-        "CAD": 152
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "legionaries",
@@ -501,15 +429,9 @@
       "id": "lord_of_change",
       "name": "Lord of Change",
       "points": 285,
-      "models_per_box": 1,
-      "box_price": 78,
-      "prices": {
-        "GBP": 78,
-        "USD": 127,
-        "EUR": 100,
-        "AUD": 155,
-        "CAD": 152
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "master_of_possession",
@@ -539,29 +461,17 @@
       "id": "nurglings",
       "name": "Nurglings",
       "points": 40,
-      "models_per_box": 3,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "pink_horrors",
       "name": "Pink Horrors",
       "points": 140,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "plague_drones",
@@ -583,15 +493,9 @@
       "id": "plaguebearers",
       "name": "Plaguebearers",
       "points": 110,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "possessed",
@@ -693,29 +597,17 @@
       "id": "scabeiathrax_the_bloated",
       "name": "Scabeiathrax The Bloated",
       "points": 275,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "screamers",
       "name": "Screamers",
       "points": 80,
-      "models_per_box": 3,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "seeker_chariot",
@@ -729,15 +621,9 @@
       "id": "seekers",
       "name": "Seekers",
       "points": 80,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "shalaxi_helbane",
@@ -831,15 +717,9 @@
       "id": "soul_grinder",
       "name": "Soul Grinder",
       "points": 180,
-      "models_per_box": 1,
-      "box_price": 58,
-      "prices": {
-        "GBP": 58,
-        "USD": 96,
-        "EUR": 76,
-        "AUD": 101,
-        "CAD": 116
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "spined_chaos_beast",

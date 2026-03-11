@@ -14,15 +14,9 @@
       "id": "battlewagon",
       "name": "Battlewagon",
       "points": 160,
-      "models_per_box": 1,
-      "box_price": 50,
-      "prices": {
-        "GBP": 50,
-        "USD": 80,
-        "EUR": 65,
-        "AUD": 133,
-        "CAD": 98
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "beast_snagga_boyz",
@@ -36,29 +30,17 @@
       "id": "beastboss",
       "name": "Beastboss",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "beastboss_on_squigosaur",
       "name": "Beastboss On Squigosaur",
       "points": 110,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "big_gunz",
@@ -104,15 +86,9 @@
       "id": "big_mek_with_shokk_attack_gun",
       "name": "Big Mek With Shokk Attack Gun",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "big_trakk",
@@ -159,15 +135,9 @@
       "id": "boyz",
       "name": "Boyz",
       "points": 80,
-      "models_per_box": 10,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "breaka_boyz",
@@ -181,15 +151,9 @@
       "id": "burna_boyz",
       "name": "Burna Boyz",
       "points": 60,
-      "models_per_box": 10,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "burna_bommer",
@@ -236,15 +200,9 @@
       "id": "deff_dread",
       "name": "Deff Dread",
       "points": 120,
-      "models_per_box": 1,
-      "box_price": 50,
-      "prices": {
-        "GBP": 50,
-        "USD": 80,
-        "EUR": 65,
-        "AUD": 133,
-        "CAD": 98
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "deff_rolla_battle_fortress",
@@ -267,29 +225,17 @@
       "id": "deffkoptas",
       "name": "Deffkoptas",
       "points": 80,
-      "models_per_box": 5,
-      "box_price": 38,
-      "prices": {
-        "GBP": 38,
-        "USD": 60,
-        "EUR": 50,
-        "AUD": 102,
-        "CAD": 74
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "deffkoptas_with_big_shootas",
       "name": "Deffkoptas With Big Shootas",
       "points": 130,
-      "models_per_box": 5,
-      "box_price": 38,
-      "prices": {
-        "GBP": 38,
-        "USD": 60,
-        "EUR": 50,
-        "AUD": 102,
-        "CAD": 74
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "fighta_bommer",
@@ -303,15 +249,9 @@
       "id": "flash_gitz",
       "name": "Flash Gitz",
       "points": 80,
-      "models_per_box": 5,
-      "box_price": 38,
-      "prices": {
-        "GBP": 38,
-        "USD": 60,
-        "EUR": 50,
-        "AUD": 102,
-        "CAD": 74
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "gargantuan_squiggoth",
@@ -342,15 +282,9 @@
       "id": "gretchin",
       "name": "Gretchin",
       "points": 40,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "grot_bomm_launcha",
@@ -383,15 +317,9 @@
       "id": "hunta_rig",
       "name": "Hunta Rig",
       "points": 135,
-      "models_per_box": 1,
-      "box_price": 50,
-      "prices": {
-        "GBP": 50,
-        "USD": 80,
-        "EUR": 65,
-        "AUD": 133,
-        "CAD": 98
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kannonwagon",
@@ -422,15 +350,9 @@
       "id": "kill_rig",
       "name": "Kill Rig",
       "points": 155,
-      "models_per_box": 1,
-      "box_price": 50,
-      "prices": {
-        "GBP": 50,
-        "USD": 80,
-        "EUR": 65,
-        "AUD": 133,
-        "CAD": 98
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kill_tank",
@@ -445,29 +367,17 @@
       "id": "killa_kans",
       "name": "Killa Kans",
       "points": 125,
-      "models_per_box": 5,
-      "box_price": 38,
-      "prices": {
-        "GBP": 38,
-        "USD": 60,
-        "EUR": 50,
-        "AUD": 102,
-        "CAD": 74
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kommandos",
       "name": "Kommandos",
       "points": 120,
-      "models_per_box": 5,
-      "box_price": 38,
-      "prices": {
-        "GBP": 38,
-        "USD": 60,
-        "EUR": 50,
-        "AUD": 102,
-        "CAD": 74
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kustom_boosta_blasta",
@@ -489,15 +399,9 @@
       "id": "lootas",
       "name": "Lootas",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mad_dok_grotsnik",
@@ -520,15 +424,9 @@
       "id": "meganobz",
       "name": "Meganobz",
       "points": 65,
-      "models_per_box": 5,
-      "box_price": 38,
-      "prices": {
-        "GBP": 38,
-        "USD": 60,
-        "EUR": 50,
-        "AUD": 102,
-        "CAD": 74
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "megatrakk_scrapjet",
@@ -542,15 +440,9 @@
       "id": "mek",
       "name": "Mek",
       "points": 45,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mek_gunz",
@@ -597,15 +489,9 @@
       "id": "nobz",
       "name": "Nobz",
       "points": 105,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "nobz_on_warbikes",
@@ -627,15 +513,9 @@
       "id": "painboy",
       "name": "Painboy",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "painboy_on_warbike",
@@ -649,29 +529,17 @@
       "id": "rukkatrukk_squigbuggy",
       "name": "Rukkatrukk Squigbuggy",
       "points": 95,
-      "models_per_box": 1,
-      "box_price": 50,
-      "prices": {
-        "GBP": 50,
-        "USD": 80,
-        "EUR": 65,
-        "AUD": 133,
-        "CAD": 98
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "shokkjump_dragsta",
       "name": "Shokkjump Dragsta",
       "points": 70,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "skorchas",
@@ -694,15 +562,9 @@
       "id": "squighog_boyz",
       "name": "Squighog Boyz",
       "points": 150,
-      "models_per_box": 10,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "stompa",
@@ -716,29 +578,17 @@
       "id": "stormboyz",
       "name": "Stormboyz",
       "points": 65,
-      "models_per_box": 10,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "tankbustas",
       "name": "Tankbustas",
       "points": 140,
-      "models_per_box": 1,
-      "box_price": 50,
-      "prices": {
-        "GBP": 50,
-        "USD": 80,
-        "EUR": 65,
-        "AUD": 133,
-        "CAD": 98
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "ufthak_blackhawk",
@@ -760,29 +610,17 @@
       "id": "warboss",
       "name": "Warboss",
       "points": 75,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "warboss_in_mega_armour",
       "name": "Warboss In Mega Armour",
       "points": 80,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "warboss_on_warbike",
@@ -822,15 +660,9 @@
       "id": "weirdboy",
       "name": "Weirdboy",
       "points": 65,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "wurrboy",
@@ -844,15 +676,9 @@
       "id": "zodgrod_wortsnagga",
       "name": "Zodgrod Wortsnagga",
       "points": 90,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     }
   ]
 }

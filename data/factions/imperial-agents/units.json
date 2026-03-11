@@ -13,15 +13,9 @@
       "id": "callidus_assassin",
       "name": "Callidus Assassin",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "corvus_blackstar",
@@ -35,15 +29,9 @@
       "id": "culexus_assassin",
       "name": "Culexus Assassin",
       "points": 85,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "daemonhost",
@@ -81,15 +69,9 @@
       "id": "eversor_assassin",
       "name": "Eversor Assassin",
       "points": 0,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "exaction_squad",
@@ -327,15 +309,9 @@
       "id": "vindicare_assassin",
       "name": "Vindicare Assassin",
       "points": 0,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "voidsmen_at_arms",

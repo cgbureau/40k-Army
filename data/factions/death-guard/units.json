@@ -21,15 +21,9 @@
       "id": "blightlord_terminators",
       "name": "Blightlord Terminators",
       "points": 115,
-      "models_per_box": 5,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "cerberus",
@@ -123,15 +117,9 @@
       "id": "death_guard_cultists",
       "name": "Death Guard Cultists",
       "points": 50,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "death_guard_possessed",
@@ -201,29 +189,17 @@
       "id": "foetid_bloat_drone",
       "name": "Foetid Bloat-drone",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "foetid_bloat_drone_with_heavy_blight_launcher",
       "name": "Foetid Bloat-drone with Heavy Blight Launcher",
       "points": 120,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "foul_blightspawn",
@@ -325,15 +301,9 @@
       "id": "lord_of_contagion",
       "name": "Lord of Contagion",
       "points": 120,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "lord_of_poxes",
@@ -347,29 +317,17 @@
       "id": "lord_of_virulence",
       "name": "Lord of Virulence",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "malignant_plaguecaster",
       "name": "Malignant Plaguecaster",
       "points": 60,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mastodon",
@@ -383,15 +341,9 @@
       "id": "mortarion",
       "name": "Mortarion",
       "points": 380,
-      "models_per_box": 1,
-      "box_price": 105,
-      "prices": {
-        "GBP": 105,
-        "USD": 170,
-        "EUR": 135,
-        "AUD": 149,
-        "CAD": 205
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mutoid_vermin",
@@ -405,15 +357,9 @@
       "id": "myphitic_blight_hauler",
       "name": "Myphitic Blight-hauler",
       "points": 100,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "noxious_blightbringer",
@@ -443,15 +389,9 @@
       "id": "plague_marines",
       "name": "Plague Marines",
       "points": 95,
-      "models_per_box": 7,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "plague_surgeon",
@@ -473,29 +413,17 @@
       "id": "plagueburst_crawler",
       "name": "Plagueburst Crawler",
       "points": 210,
-      "models_per_box": 1,
-      "box_price": 52,
-      "prices": {
-        "GBP": 52,
-        "USD": 85,
-        "EUR": 67,
-        "AUD": 145,
-        "CAD": 100
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "poxwalkers",
       "name": "Poxwalkers",
       "points": 65,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "rapier_carrier",
@@ -597,15 +525,9 @@
       "id": "typhus",
       "name": "Typhus",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "whirlwind_scorpius",

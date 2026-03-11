@@ -5,15 +5,9 @@
       "id": "angron",
       "name": "Angron",
       "points": 340,
-      "models_per_box": 1,
-      "box_price": 105,
-      "prices": {
-        "GBP": 105,
-        "USD": 170,
-        "EUR": 135,
-        "AUD": 149,
-        "CAD": 205
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "blood_slaughterer",
@@ -139,29 +133,17 @@
       "id": "eightbound",
       "name": "Eightbound",
       "points": 135,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "exalted_eightbound",
       "name": "Exalted Eightbound",
       "points": 140,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "falchion",
@@ -255,29 +237,17 @@
       "id": "jakhals",
       "name": "Jakhals",
       "points": 65,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kh_rn_the_betrayer",
       "name": "Khârn The Betrayer",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 40,
-      "prices": {
-        "GBP": 40,
-        "USD": 65,
-        "EUR": 51.5,
-        "AUD": 110,
-        "CAD": 78
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "khorne_berzerkers",
@@ -339,43 +309,25 @@
       "id": "lord_invocatus",
       "name": "Lord Invocatus",
       "points": 110,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "lord_on_juggernaut",
       "name": "Lord on Juggernaut",
       "points": 105,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "master_of_executions",
       "name": "Master of Executions",
       "points": 60,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mastodon",
@@ -389,15 +341,9 @@
       "id": "maulerfiend",
       "name": "Maulerfiend",
       "points": 150,
-      "models_per_box": 1,
-      "box_price": 52,
-      "prices": {
-        "GBP": 52,
-        "USD": 85,
-        "EUR": 67,
-        "AUD": 145,
-        "CAD": 100
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "rapier_carrier",

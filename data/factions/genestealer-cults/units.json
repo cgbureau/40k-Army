@@ -5,15 +5,9 @@
       "id": "aberrants",
       "name": "Aberrants",
       "points": 135,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "abominant",
@@ -27,43 +21,25 @@
       "id": "achilles_ridgerunners",
       "name": "Achilles Ridgerunners",
       "points": 95,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "acolyte_hybrids_with_autopistols",
       "name": "Acolyte Hybrids With Autopistols",
       "points": 65,
-      "models_per_box": 5,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "acolyte_hybrids_with_hand_flamers",
       "name": "Acolyte Hybrids With Hand Flamers",
       "points": 70,
-      "models_per_box": 5,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "acolyte_iconward",
@@ -109,15 +85,9 @@
       "id": "atalan_jackals",
       "name": "Atalan Jackals",
       "points": 85,
-      "models_per_box": 5,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "atlas_recovery_vehicle",
@@ -179,15 +149,9 @@
       "id": "biophagus",
       "name": "Biophagus",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "cadian_castellan",
@@ -401,15 +365,9 @@
       "id": "goliath_rockgrinder",
       "name": "Goliath Rockgrinder",
       "points": 120,
-      "models_per_box": 1,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "gorgon_heavy_transport",
@@ -479,15 +437,9 @@
       "id": "hybrid_metamorphs",
       "name": "Hybrid Metamorphs",
       "points": 70,
-      "models_per_box": 5,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "hydra",
@@ -525,15 +477,9 @@
       "id": "kelermorph",
       "name": "Kelermorph",
       "points": 60,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "krieg_combat_engineers",
@@ -675,15 +621,9 @@
       "id": "magus",
       "name": "Magus",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "malcador",
@@ -769,15 +709,9 @@
       "id": "neophyte_hybrids",
       "name": "Neophyte Hybrids",
       "points": 65,
-      "models_per_box": 10,
-      "box_price": 31.5,
-      "prices": {
-        "GBP": 31.5,
-        "USD": 52,
-        "EUR": 41,
-        "AUD": 86,
-        "CAD": 63
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "neurolictor",
@@ -791,15 +725,9 @@
       "id": "nexos",
       "name": "Nexos",
       "points": 60,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "parasite_of_mortrex",
@@ -813,15 +741,9 @@
       "id": "patriarch",
       "name": "Patriarch",
       "points": 75,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "praetor",
@@ -843,29 +765,17 @@
       "id": "primus",
       "name": "Primus",
       "points": 70,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "purestrain_genestealers",
       "name": "Purestrain Genestealers",
       "points": 75,
-      "models_per_box": 8,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "quartermaster_cadre_squad",
@@ -943,15 +853,9 @@
       "id": "sanctus",
       "name": "Sanctus",
       "points": 50,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "scout_sentinels",

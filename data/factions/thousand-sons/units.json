@@ -5,15 +5,9 @@
       "id": "ahriman",
       "name": "Ahriman",
       "points": 100,
-      "models_per_box": 1,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "blue_horrors",
@@ -123,29 +117,17 @@
       "id": "exalted_sorcerer",
       "name": "Exalted Sorcerer",
       "points": 80,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "exalted_sorcerer_on_disc_of_tzeentch",
       "name": "Exalted Sorcerer on Disc of Tzeentch",
       "points": 100,
-      "models_per_box": 3,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "falchion",
@@ -223,15 +205,9 @@
       "id": "infernal_master",
       "name": "Infernal Master",
       "points": 95,
-      "models_per_box": 1,
-      "box_price": 26,
-      "prices": {
-        "GBP": 26,
-        "USD": 42,
-        "EUR": 34,
-        "AUD": 72,
-        "CAD": 53
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "kairos_fateweaver",
@@ -285,15 +261,9 @@
       "id": "magnus_the_red",
       "name": "Magnus The Red",
       "points": 435,
-      "models_per_box": 1,
-      "box_price": 105,
-      "prices": {
-        "GBP": 105,
-        "USD": 170,
-        "EUR": 135,
-        "AUD": 149,
-        "CAD": 205
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "mastodon",
@@ -315,15 +285,9 @@
       "id": "mutalith_vortex_beast",
       "name": "Mutalith Vortex Beast",
       "points": 170,
-      "models_per_box": 1,
-      "box_price": 52,
-      "prices": {
-        "GBP": 52,
-        "USD": 85,
-        "EUR": 67,
-        "AUD": 145,
-        "CAD": 100
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "pink_horrors",
@@ -353,29 +317,17 @@
       "id": "rubric_marines",
       "name": "Rubric Marines",
       "points": 100,
-      "models_per_box": 10,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "scarab_occult_terminators",
       "name": "Scarab Occult Terminators",
       "points": 180,
-      "models_per_box": 5,
-      "box_price": 42.5,
-      "prices": {
-        "GBP": 42.5,
-        "USD": 69,
-        "EUR": 55,
-        "AUD": 117,
-        "CAD": 83
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "screamers",
@@ -469,29 +421,17 @@
       "id": "tzaangor_enlightened",
       "name": "Tzaangor Enlightened",
       "points": 45,
-      "models_per_box": 3,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "tzaangor_enlightened_with_fatecaster_greatbows",
       "name": "Tzaangor Enlightened with Fatecaster Greatbows",
       "points": 55,
-      "models_per_box": 3,
-      "box_price": 35,
-      "prices": {
-        "GBP": 35,
-        "USD": 60,
-        "EUR": 45,
-        "AUD": 88,
-        "CAD": 70
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "tzaangor_shaman",
@@ -505,15 +445,9 @@
       "id": "tzaangors",
       "name": "Tzaangors",
       "points": 70,
-      "models_per_box": 10,
-      "box_price": 28,
-      "prices": {
-        "GBP": 28,
-        "USD": 45,
-        "EUR": 35,
-        "AUD": 77,
-        "CAD": 55
-      }
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
     },
     {
       "id": "whirlwind_scorpius",

@@ -232,3 +232,23 @@ prices
 Regional retail prices scraped from the official GW store.
 
 All prices represent RRP.
+
+
+## Availability Flags
+
+Units may include an availability field:
+
+availability: "legends"
+availability: "forgeworld"
+
+If present, the UI renders special states:
+
+LEGENDS → blue label  
+FORGEWORLD → orange label
+
+Units without kit mappings are treated as:
+
+AWOL → no retail kit available
+
+Availability flags do not affect cost calculations.
+They only change UI labeling.

@@ -480,3 +480,46 @@ Current status:
 
 613 mappings validated  
 0 invalid references
+
+
+## Manual Kit Mapping Workflow (Current Process)
+
+Unit → kit mapping is currently performed manually to ensure retail accuracy.
+
+Workflow:
+
+1. Retail kits are sourced manually from the Games Workshop store.
+2. Kits are entered into `data/kits/{faction}.json` with:
+   - models
+   - regional prices (GBP, USD, EUR, etc)
+
+3. Units are sourced from Wahapedia and stored in:
+   `data/factions/{faction}/units.json`
+
+4. Mapping process:
+
+   - Assistant cross-references units against retail kits
+   - Produces two lists:
+     - Safe exact matches
+     - Possible / loose matches
+
+5. Human verification step:
+
+   - Loose matches are manually verified
+   - Only confirmed matches are added to:
+
+   `data/kit-mappings/{faction}.json`
+
+6. Final enrichment pipeline in app:
+
+   unit.id
+   → kit-mappings/{faction}.json
+   → kits/{faction}.json
+
+The UI then automatically resolves:
+
+- models_per_box
+- retail price
+- regional prices
+
+Units without kit matches appear as **AWOL**.
