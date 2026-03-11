@@ -378,10 +378,20 @@ function HomeContent() {
             </h1>
           </div>
           <div
-            className="px-3 mt-4 mb-[6px] text-sm font-plex-mono font-semibold underline cursor-pointer uppercase text-[#1E2A44]"
+            className="px-3 mt-4 mb-3 text-sm font-plex-mono font-semibold underline cursor-pointer uppercase text-[#1E2A44]"
             onClick={() => setEmailOpen(!emailOpen)}
           >
             JOIN THE COMMAND ROSTER FOR UPDATES
+          </div>
+          <div className="flex justify-center mt-0 mb-1">
+            <a
+              href="https://buymeacoffee.com/40karmy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="uppercase tracking-wider underline font-semibold opacity-85 hover:opacity-100 text-[13px]"
+            >
+              Support project development
+            </a>
           </div>
           {emailOpen && (
             <div className="px-3 pt-2 pb-2">
@@ -870,8 +880,8 @@ function HomeContent() {
               </p>
             </div>
 
-            <div className="md:w-1/3 mt-6 md:mt-0">
-              <h3 className="font-workbench text-sm uppercase">
+            <div className="md:w-1/3 mt-10 md:mt-0 mb-10">
+              <h3 className="font-workbench text-[12px] uppercase tracking-wider">
                 Explore army cost guides
               </h3>
 
@@ -898,9 +908,9 @@ function HomeContent() {
           </div>
         </section>
 
-        <footer className="text-center text-xs opacity-70 mt-[12px] flex-shrink-0">
+        <footer className="text-xs opacity-70 mt-[12px] flex-shrink-0">
           <p>
-            40KArmy v1 — unofficial Warhammer army cost calculator - A product
+            40KArmy v2 — unofficial Warhammer army cost calculator - A product
             by the Contemporary Graphics Bureau
           </p>
           <p className="mt-0.5">
