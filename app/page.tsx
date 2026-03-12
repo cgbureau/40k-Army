@@ -4,10 +4,53 @@ import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "rea
 import Image from "next/image";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { factionColors, DEFAULT_FACTION_COLOR } from "./config/factionColors";
-import orkKitMappings from "../data/kit-mappings/orks.json";
-import orkKits from "../data/kits/orks.json";
+import adeptaSororitasKitMappings from "../data/kit-mappings/adepta-sororitas.json";
+import adeptusCustodesKitMappings from "../data/kit-mappings/adeptus-custodes.json";
+import adeptusMechanicusKitMappings from "../data/kit-mappings/adeptus-mechanicus.json";
+import aeldariKitMappings from "../data/kit-mappings/aeldari.json";
+import astraMilitarumKitMappings from "../data/kit-mappings/astra-militarum.json";
+import chaosDaemonsKitMappings from "../data/kit-mappings/chaos-daemons.json";
+import chaosSpaceMarinesKitMappings from "../data/kit-mappings/chaos-space-marines.json";
+import custodesKitMappings from "../data/kit-mappings/custodes.json";
+import deathGuardKitMappings from "../data/kit-mappings/death-guard.json";
+import drukhariKitMappings from "../data/kit-mappings/drukhari.json";
+import emperorsChildrenKitMappings from "../data/kit-mappings/emperor-s-children.json";
+import genestealerCultKitMappings from "../data/kit-mappings/genestealer-cults.json";
+import greyKnightsKitMappings from "../data/kit-mappings/grey-knights.json";
+import imperialAgentsKitMappings from "../data/kit-mappings/imperial-agents.json";
+import imperialKnightsKitMappings from "../data/kit-mappings/imperial-knights.json";
+import leaguesOfVotannKitMappings from "../data/kit-mappings/leagues-of-votann.json";
 import necronsKitMappings from "../data/kit-mappings/necrons.json";
+import orksKitMappings from "../data/kit-mappings/orks.json";
+import spaceMarinesKitMappings from "../data/kit-mappings/space-marines.json";
+import tauKitMappings from "../data/kit-mappings/tau.json";
+import thousandSonsKitMappings from "../data/kit-mappings/thousand-sons.json";
+import tyranidsKitMappings from "../data/kit-mappings/tyranids.json";
+import worldEatersKitMappings from "../data/kit-mappings/world-eaters.json";
+
+import adeptaSororitasKits from "../data/kits/adepta-sororitas.json";
+import adeptusCustodesKits from "../data/kits/adeptus-custodes.json";
+import adeptusMechanicusKits from "../data/kits/adeptus-mechanicus.json";
+import aeldariKits from "../data/kits/aeldari.json";
+import astraMilitarumKits from "../data/kits/astra-militarum.json";
+import chaosDaemonsKits from "../data/kits/chaos-daemons.json";
+import chaosSpaceMarinesKits from "../data/kits/chaos-space-marines.json";
+import custodesKits from "../data/kits/custodes.json";
+import deathGuardKits from "../data/kits/death-guard.json";
+import drukhariKits from "../data/kits/drukhari.json";
+import emperorsChildrenKits from "../data/kits/emperor-s-children.json";
+import genestealerCultKits from "../data/kits/genestealer-cults.json";
+import greyKnightsKits from "../data/kits/grey-knights.json";
+import imperialAgentsKits from "../data/kits/imperial-agents.json";
+import imperialKnightsKits from "../data/kits/imperial-knights.json";
+import leaguesOfVotannKits from "../data/kits/leagues-of-votann.json";
 import necronsKits from "../data/kits/necrons.json";
+import orksKits from "../data/kits/orks.json";
+import spaceMarinesKits from "../data/kits/space-marines.json";
+import tauKits from "../data/kits/tau.json";
+import thousandSonsKits from "../data/kits/thousand-sons.json";
+import tyranidsKits from "../data/kits/tyranids.json";
+import worldEatersKits from "../data/kits/world-eaters.json";
 
 type Unit = {
   id: string;
@@ -100,19 +143,124 @@ function getCurrencySymbol(currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"): str
 type QuantityMap = Record<string, number>;
 
 const KIT_MAPPINGS_REGISTRY: Record<string, Record<string, string>> = {
-  orks: orkKitMappings as Record<string, string>,
+  "adepta-sororitas": adeptaSororitasKitMappings as Record<string, string>,
+  "adeptus-custodes": adeptusCustodesKitMappings as Record<string, string>,
+  "adeptus-mechanicus": adeptusMechanicusKitMappings as Record<string, string>,
+  aeldari: aeldariKitMappings as Record<string, string>,
+  "astra-militarum": astraMilitarumKitMappings as Record<string, string>,
+  "chaos-daemons": chaosDaemonsKitMappings as Record<string, string>,
+  "chaos-space-marines": chaosSpaceMarinesKitMappings as Record<string, string>,
+  custodes: custodesKitMappings as Record<string, string>,
+  "death-guard": deathGuardKitMappings as Record<string, string>,
+  drukhari: drukhariKitMappings as Record<string, string>,
+  "emperor-s-children": emperorsChildrenKitMappings as Record<string, string>,
+  "genestealer-cults": genestealerCultKitMappings as Record<string, string>,
+  "grey-knights": greyKnightsKitMappings as Record<string, string>,
+  "imperial-agents": imperialAgentsKitMappings as Record<string, string>,
+  "imperial-knights": imperialKnightsKitMappings as Record<string, string>,
+  "leagues-of-votann": leaguesOfVotannKitMappings as Record<string, string>,
   necrons: necronsKitMappings as Record<string, string>,
+  orks: orksKitMappings as Record<string, string>,
+  "space-marines": spaceMarinesKitMappings as Record<string, string>,
+  tau: tauKitMappings as Record<string, string>,
+  "thousand-sons": thousandSonsKitMappings as Record<string, string>,
+  tyranids: tyranidsKitMappings as Record<string, string>,
+  "world-eaters": worldEatersKitMappings as Record<string, string>,
 };
 
 const KIT_REGISTRY: Record<
   string,
   Record<string, { models?: number | null; prices?: Unit["prices"] | null }>
 > = {
-  orks: orkKits as Record<
+  "adepta-sororitas": adeptaSororitasKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "adeptus-custodes": adeptusCustodesKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "adeptus-mechanicus": adeptusMechanicusKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  aeldari: aeldariKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "astra-militarum": astraMilitarumKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "chaos-daemons": chaosDaemonsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "chaos-space-marines": chaosSpaceMarinesKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  custodes: custodesKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "death-guard": deathGuardKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  drukhari: drukhariKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "emperor-s-children": emperorsChildrenKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "genestealer-cults": genestealerCultKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "grey-knights": greyKnightsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "imperial-agents": imperialAgentsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "imperial-knights": imperialKnightsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "leagues-of-votann": leaguesOfVotannKits as Record<
     string,
     { models?: number | null; prices?: Unit["prices"] | null }
   >,
   necrons: necronsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  orks: orksKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "space-marines": spaceMarinesKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  tau: tauKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "thousand-sons": thousandSonsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  tyranids: tyranidsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "world-eaters": worldEatersKits as Record<
     string,
     { models?: number | null; prices?: Unit["prices"] | null }
   >,
@@ -127,7 +275,10 @@ function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
     const kit = kitSlug ? kits[kitSlug] : null;
 
     return {
-      ...unit,
+      id: unit.id,
+      name: unit.name,
+      points: unit.points,
+      availability: unit.availability,
       models_per_box: kit?.models ?? null,
       prices: (kit?.prices as Unit["prices"]) ?? unit.prices,
     };
@@ -725,6 +876,15 @@ function HomeContent() {
                         : "--";
                     const hasKit = !!kitMappingsForFaction[unit.id];
                     const hasBoxData = hasKit;
+                    const availability = unit.availability;
+                    let statusLabel: "LEGENDS" | "FORGEWORLD" | "AWOL" | null = null;
+                    if (availability === "legends") {
+                      statusLabel = "LEGENDS";
+                    } else if (availability === "forgeworld") {
+                      statusLabel = "FORGEWORLD";
+                    } else if (!hasKit) {
+                      statusLabel = "AWOL";
+                    }
                     return (
                       <div
                         key={unit.id}
@@ -760,29 +920,26 @@ function HomeContent() {
                                 {price.toFixed(2)}
                               </span>
                             )}
-                            {!hasBoxData &&
-                              (unit.availability === "legends" ? (
-                                <>
-                                  <span>•</span>
+                            {statusLabel && (
+                              <>
+                                <span>•</span>
+                                {statusLabel === "LEGENDS" && (
                                   <span className="text-violet-500 font-workbench">
                                     LEGENDS
                                   </span>
-                                </>
-                              ) : unit.availability === "forgeworld" ? (
-                                <>
-                                  <span>•</span>
+                                )}
+                                {statusLabel === "FORGEWORLD" && (
                                   <span className="text-orange-500 font-workbench">
                                     FORGEWORLD
                                   </span>
-                                </>
-                              ) : (
-                                <>
-                                  <span>•</span>
+                                )}
+                                {statusLabel === "AWOL" && (
                                   <span className="text-[#C23B22] font-workbench">
                                     AWOL
                                   </span>
-                                </>
-                              ))}
+                                )}
+                              </>
+                            )}
                           </div>
                           <div className="flex items-center gap-[2px] shrink-0 ml-2">
                             <button

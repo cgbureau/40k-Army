@@ -1,0 +1,421 @@
+{
+  "aestred-thurga-relinquant-at-arms": {
+    "models": 2,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    }
+  },
+  "combat-patrol-adepta-soritas-2024": {
+    "models": 27,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    }
+  },
+  "codex-adepta-sororitas-2024-eng": {
+    "models": 0,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 104,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    }
+  },
+  "adepta-sororitas-castigator": {
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 92,
+      "EUR": 72.5,
+      "AUD": 155,
+      "CAD": 112,
+      "PLN": 310,
+      "CHF": 72.5
+    }
+  },
+  "adepta-sororitas-paragon-warsuit-2021": {
+    "models": 3,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 133,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    }
+  },
+  "adepta-sororitas-celestian-sacresants-2021": {
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-sister-dogmata-2021": {
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    }
+  },
+  "daemonifuge-ephrael-stern-and-kyganil-2020": {
+    "models": 2,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    }
+  },
+  "adepta-sororitas-rhino-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 54.5,
+      "AUD": 110,
+      "CAD": 80,
+      "PLN": 220,
+      "CHF": 54.5
+    }
+  },
+  "adepta-sororitas-repentia-squad-2020": {
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    }
+  },
+  "adepta-sororitas-canoness-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    }
+  },
+  "adepta-sororitas-immolator-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 52.5,
+      "USD": 84,
+      "EUR": 67.5,
+      "AUD": 140,
+      "CAD": 100,
+      "PLN": 295,
+      "CHF": 67.5
+    }
+  },
+  "adepta-sororitas-dialogus-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    }
+  },
+  "adepta-sororitas-mortifier-2020": {
+    "models": 2,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-penitent-engines-2020": {
+    "models": 2,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-arco-flagellants-2020": {
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    }
+  },
+  "adepta-sororitas-exorcist-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 92,
+      "EUR": 72.5,
+      "AUD": 155,
+      "CAD": 112,
+      "PLN": 310,
+      "CHF": 72.5
+    }
+  },
+  "adepta-sororitas-retributor-squad-2020": {
+    "models": 7,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-battle-sisters-squad-2020": {
+    "models": 11,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "sister-superior-amalia-novena-2019": {
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    }
+  },
+  "space-marine-celestine-the-living-saint-2018": {
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-dominions-celestians-2020": {
+    "models": 11,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-sisters-novitiate-squad-2025": {
+    "models": 10,
+    "prices": {
+      "GBP": 38.5,
+      "USD": 64,
+      "EUR": 50,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    }
+  },
+  "kill-team-sanctifiers-2025": {
+    "models": 11,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    }
+  },
+  "adepta-sororitas-ministorum-priest-2024": {
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 60,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    }
+  },
+  "adepta-sororitas-ministorum-priest-with-vindicator-2024": {
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 59,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    }
+  },
+  "morvenn-vahl-abbess-sanctorum-2021": {
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-palatine-2021": {
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    }
+  },
+  "adepta-sororitas-zephyrim-squad-2020": {
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-seraphim-squad-2020": {
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    }
+  },
+  "adepta-sororitas-imagifier-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 55.5,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    }
+  },
+  "adepta-sororitas-junith-eruita-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    }
+  },
+  "adepta-sororitas-hospitaller-2020": {
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    }
+  },
+  "adepta-sororitas-the-triumph-of-st-katherine-2020": {
+    "models": 6,
+    "prices": {
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "AUD": 207,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    }
+  },
+  "adepta-sororitas-canoness-with-jump-pack-2024": {
+    "models": 1,
+    "prices": {
+      "GBP": 28,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    }
+  }
+}
