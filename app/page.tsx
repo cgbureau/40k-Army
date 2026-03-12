@@ -280,6 +280,7 @@ function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
       points: unit.points,
       availability: unit.availability,
       models_per_box: kit?.models ?? null,
+      box_price: unit.box_price ?? null,
       prices: (kit?.prices as Unit["prices"]) ?? unit.prices,
     };
   });
