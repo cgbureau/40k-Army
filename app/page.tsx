@@ -318,8 +318,12 @@ function HomeContent() {
           a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
         );
         setFactionList(sorted);
+        const urlFaction = searchParams.get("faction");
         const defaultSlug =
-          sorted.find((f) => f.slug === "space-marines")?.slug ?? sorted[0]?.slug ?? "";
+          sorted.find((f) => f.slug === urlFaction)?.slug ??
+          sorted.find((f) => f.slug === "space-marines")?.slug ??
+          sorted[0]?.slug ??
+          "";
         setSelectedFactionSlug(defaultSlug);
       })
       .catch(() => setFactionList([]))
@@ -327,7 +331,7 @@ function HomeContent() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [searchParams]);
 
   // Load units when faction changes
   useEffect(() => {
@@ -500,7 +504,7 @@ function HomeContent() {
   };
 
   return (
-    <div className="min-h-[auto] flex flex-col page-bg text-[#231F20] font-plex-mono max-[900px]:min-h-screen max-[900px]:overflow-auto lg:h-screen lg:overflow-hidden">
+    <div className="min-h-[auto] max-w-full overflow-x-hidden flex flex-col page-bg text-[#231F20] font-plex-mono max-[900px]:min-h-screen max-[900px]:overflow-y-auto lg:h-screen lg:overflow-hidden">
       <div
         className={`flex flex-col min-h-0 shrink-0 max-[900px]:flex-1 max-[900px]:min-h-0 max-[900px]:overflow-visible lg:flex-1 lg:shrink max-w-6xl w-full mx-auto mt-[20px] py-4 px-4 lg:overflow-hidden relative z-10 ${
           armySummaryUnits.length > 0 ? "max-[900px]:pb-[220px]" : ""
@@ -645,7 +649,7 @@ function HomeContent() {
         </header>
 
         <main
-          className="flex-1 min-h-0 max-[900px]:flex max-[900px]:flex-col max-[900px]:gap-4 max-[900px]:overflow-visible max-[900px]:min-h-0 grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-3 lg:gap-4"
+          className="flex-1 min-h-0 flex flex-col gap-3 max-[900px]:overflow-visible max-[900px]:min-h-0 lg:grid lg:grid-cols-[1fr_320px] lg:gap-4"
           style={{ overflowAnchor: "none" }}
         >
           <section
@@ -1200,7 +1204,7 @@ function HomeContent() {
 
         <footer className="flex-shrink-0">
           <div className="w-full flex justify-center">
-            <div className="text-xs opacity-70 mt-[12px] flex-shrink-0 text-left md:text-center">
+            <div className="w-full max-w-full text-xs opacity-70 mt-[12px] break-words text-left md:text-center">
               <p>
                 40KArmy v2 — unofficial Warhammer army cost calculator - A product
                 by the Contemporary Graphics Bureau
