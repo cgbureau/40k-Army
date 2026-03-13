@@ -1,12 +1,485 @@
 {
-  "telemon-heavy-dreadnought": {
+  "combat-patrol-adeptus-custodes-2024": {
+    "display_name": "Combat Patrol: Adeptus Custodes",
+    "slug_short": "combat-patrol-adeptus-custodes",
+    "models": 14,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108094_ACCombatPatrol01.jpg",
+    "year": 2024
+  },
+  "shield-captain-2018": {
+    "display_name": "Shield-Captain",
+    "slug_short": "shield-captain",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108006_CustodianSquadSgt01.jpg",
+    "year": 2018
+  },
+  "adeptus-custodes-shield-captain-2024": {
+    "display_name": "Shield-Captain",
+    "slug_short": "adeptus-custodes-shield-captain",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 67,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108099_ACShieldCaptain01.jpg",
+    "year": 2024
+  },
+  "shield-captain-on-dawneagle-and-2-miniatures-2018": {
+    "display_name": "Shield-Captain on Dawneagle Jetbike",
+    "slug_short": "shield-captain-on-dawneagle-and-2-miniatures",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.25,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108014_VertusPraetors03.jpg",
+    "year": 2018
+  },
+  "shield-captain-in-allarus-terminator-armour-2018": {
+    "display_name": "Shield-Captain in Allarus Terminator Armour",
+    "slug_short": "shield-captain-in-allarus-terminator-armour",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108011_AllarusCustodiansCpt01.jpg",
+    "year": 2018
+  },
+  "captain-general-trajann-valoris-2018": {
+    "display_name": "Captain-General Trajann Valoris",
+    "slug_short": "captain-general-trajann-valoris",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108012_GeneralTrajannValoris01.jpg",
+    "year": 2018
+  },
+  "adeptus-custodes-blade-champion-2022": {
+    "display_name": "Blade Champion",
+    "slug_short": "adeptus-custodes-blade-champion",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108010_ACBladeChampionLead.jpg",
+    "year": 2022
+  },
+  "adeptus-custodes-custodian-guard-2018": {
+    "display_name": "Custodian Guard",
+    "slug_short": "adeptus-custodes-custodian-guard",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010101002_BurningProsperoENG02.jpg",
+    "year": 2018
+  },
+  "adeptus-custodes-custodian-wardens-2018": {
+    "display_name": "Custodian Wardens",
+    "slug_short": "adeptus-custodes-custodian-wardens",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108013_CustodianWardens01.jpg",
+    "year": 2018
+  },
+  "adeptus-custodes-allarus-custodians-2018": {
+    "display_name": "Allarus Custodians",
+    "slug_short": "adeptus-custodes-allarus-custodians",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108011_AllarusCustodians01.jpg",
+    "year": 2018
+  },
+  "adeptus-custodes-vertus-praetors-2018": {
+    "display_name": "Vertus Praetors",
+    "slug_short": "adeptus-custodes-vertus-praetors",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.25,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108014_VertusPraetors01.jpg",
+    "year": 2018
+  },
+  "vexilus-praetor-2018": {
+    "display_name": "Vexilus Praetor",
+    "slug_short": "vexilus-praetor",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108006_CustodianSquadVex01.jpg",
+    "year": 2018
+  },
+  "vexilus-praetor-in-allarus-terminator-armour-2018": {
+    "display_name": "Vexilus Praetor in Allarus Terminator Armour",
+    "slug_short": "vexilus-praetor-in-allarus-terminator-armour",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108011_AllarusCustodiansVex01.jpg",
+    "year": 2018
+  },
+  "vigilator-squad": {
+    "display_name": "Vigilator Squad",
+    "slug_short": "vigilator-squad",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108007_VigilatorSquad01.jpg"
+  },
+  "witchseeker-squad": {
+    "display_name": "Witchseeker Squad",
+    "slug_short": "witchseeker-squad",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 94,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108007_WitchseekerSquad01.jpg"
+  },
+  "sisters-of-silence-2017": {
+    "display_name": "Prosecutor Squad",
+    "slug_short": "sisters-of-silence",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108007_ProsecutorSquad01.jpg",
+    "year": 2017
+  },
+  "talons-of-the-emperor-valerian-and-aleya-2020": {
+    "display_name": "Talons of the Emperor: Valerian and Aleya",
+    "slug_short": "talons-of-the-emperor-valerian-and-aleya",
+    "models": 2,
+    "prices": {
+      "GBP": 37,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 97,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108031_AleyaValerianLead.jpg",
+    "year": 2020
+  },
+  "legiones-astartes-contemptor-dreadnought-2022": {
+    "display_name": "Contemptor Dreadnought",
+    "slug_short": "legiones-astartes-contemptor-dreadnought",
     "models": 1,
     "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123001007_ContemptorLead.jpg",
+    "year": 2022
+  },
+  "venerable-land-raider": {
+    "display_name": "Venerable Land Raider",
+    "slug_short": "venerable-land-raider",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101061_CustodianLandraider01.jpg"
+  },
+  "space-marines-rhino-2020": {
+    "display_name": "Rhino",
+    "slug_short": "space-marines-rhino",
+    "models": 1,
+    "prices": {
+      "GBP": 36,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 68,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101063_SpaceMarineRhinoNEW01.jpg",
+    "year": 2020
+  },
+  "legio-custodes-ares-gunship-2019": {
+    "display_name": "Legio Custodes Ares Gunship",
+    "slug_short": "legio-custodes-ares-gunship",
+    "models": 1,
+    "prices": {
+      "GBP": 364.5,
+      "USD": 575,
+      "EUR": 460,
+      "AUD": 837,
+      "CAD": 715,
+      "PLN": 2060,
+      "CHF": 460
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108214_CustodesAresGunship01a.jpg",
+    "year": 2019
+  },
+  "custodes-gunship-2017": {
+    "display_name": "Legio Custodes Orion Assault Dropship",
+    "slug_short": "custodes-gunship",
+    "models": 1,
+    "prices": {
+      "GBP": 377.5,
+      "USD": 575,
+      "EUR": 460,
+      "AUD": 837,
+      "CAD": 715,
+      "PLN": 2060,
+      "CHF": 460
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108193_OrionDropship01.jpg",
+    "year": 2017
+  },
+  "legio-custodes-shield-captain-2018": {
+    "display_name": "Legio Custodes Shield Captain",
+    "slug_short": "legio-custodes-shield-captain",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 66,
+      "EUR": 52.5,
+      "AUD": 94,
+      "CAD": 81,
+      "PLN": 235,
+      "CHF": 52.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550108194_CustodesShieldCaptain01.jpg",
+    "year": 2018
+  },
+  "legio-custodes-telemon-dreadnought-iliastus-accelerator-culverin-2017": {
+    "display_name": "Legio Custodes Telemon Dreadnought Iliastus Accelerator Culverin",
+    "slug_short": "legio-custodes-telemon-dreadnought-iliastus-accelerator-culverin",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 29,
+      "EUR": 23,
+      "AUD": 42,
+      "CAD": 36,
+      "PLN": 105,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550108192_IliastusAcceleratorCulverin01NEW.jpg",
+    "year": 2017
+  },
+  "legio-custodes-telemon-storm-cannon-arm-2017": {
+    "display_name": "Legio Custodes Telemon Arachnus Storm Cannon",
+    "slug_short": "legio-custodes-telemon-storm-cannon-arm",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 29,
+      "EUR": 23,
+      "AUD": 42,
+      "CAD": 36,
+      "PLN": 105,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550108187_TelemonStormCannon01.jpg",
+    "year": 2017
+  },
+  "legio-custodes-heavy-dreadnought-body-2017": {
+    "display_name": "Legio Custodes Telemon Heavy Dreadnought Body",
+    "slug_short": "legio-custodes-heavy-dreadnought-body",
+    "models": 1,
+    "prices": {
+      "GBP": 66.5,
+      "USD": 103,
+      "EUR": 82,
+      "AUD": 146,
+      "CAD": 127,
+      "PLN": 365,
+      "CHF": 82
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108185_TelemonDreadBody01.jpg",
+    "year": 2017
+  },
+  "legio-custodes-heavy-dreadnought-arm-2017": {
+    "display_name": "Legio Custodes Telemon Caestus",
+    "slug_short": "legio-custodes-heavy-dreadnought-arm",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 29,
+      "EUR": 23,
+      "AUD": 42,
+      "CAD": 36,
+      "PLN": 105,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550108186_TelemonDreadCaestusArm01.jpg",
+    "year": 2017
+  },
+  "legio-custodes-aquilon-terminators-2017": {
+    "display_name": "Legio Custodes Aquilon Terminators",
+    "slug_short": "legio-custodes-aquilon-terminators",
+    "models": 3,
+    "prices": {
+      "GBP": 67.5,
+      "USD": 104,
+      "EUR": 83.5,
+      "AUD": 149,
+      "CAD": 129,
+      "PLN": 370,
+      "CHF": 83.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108190_AquilonTerminators01.jpg",
+    "year": 2017
+  },
+  "legio-custodes-aquilon-terminators-with-infernus-firepikes-2017": {
+    "display_name": "Legio Custodes Aquilon Terminators with Infernus Firepikes",
+    "slug_short": "legio-custodes-aquilon-terminators-with-infernus-firepikes",
+    "models": 3,
+    "prices": {
+      "GBP": 67.5,
+      "USD": 104,
+      "EUR": 83.5,
+      "AUD": 149,
+      "CAD": 129,
+      "PLN": 370,
+      "CHF": 83.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108191_AquilonTerminatorsFirepikes01.jpg",
+    "year": 2017
+  },
+  "legio-custodes-gyrfalcon-pattern-jetbike": {
+    "display_name": "Legio Custodes Gyrfalcon Pattern Jetbike",
+    "slug_short": "legio-custodes-gyrfalcon-pattern-jetbike",
+    "models": 1,
+    "prices": {
+      "GBP": 48.5,
+      "USD": 75,
+      "EUR": 60,
+      "AUD": 109,
+      "CAD": 93,
+      "PLN": 265,
+      "CHF": 60
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108184_GryfalconJetbike01.jpg"
+  },
+  "legio-custodes-pallas-grav-attack": {
+    "display_name": "Legio Custodes Pallas Grav-attack",
+    "slug_short": "legio-custodes-pallas-grav-attack",
+    "models": 1,
+    "prices": {
+      "GBP": 83,
+      "USD": 128,
+      "EUR": 102,
+      "AUD": 185,
+      "CAD": 158,
+      "PLN": 455,
+      "CHF": 102
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108173_CustodesPallasGravTank01.jpg"
   }
 }

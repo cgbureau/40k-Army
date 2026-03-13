@@ -7,7 +7,8 @@
       "points": 225,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "aleya",
@@ -31,7 +32,8 @@
       "points": 195,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "ares_gunship",
@@ -55,7 +57,8 @@
       "points": 215,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "contemptor_achillus_dreadnought",
@@ -63,7 +66,8 @@
       "points": 155,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "contemptor_galatus_dreadnought",
@@ -71,7 +75,8 @@
       "points": 165,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "coronus_grav_carrier",
@@ -79,7 +84,8 @@
       "points": 200,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "custodian_guard",
@@ -127,7 +133,8 @@
       "points": 105,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "prosecutors",
@@ -143,7 +150,8 @@
       "points": 225,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "shield_captain",
@@ -175,7 +183,8 @@
       "points": 225,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "trajann_valoris",
@@ -199,7 +208,8 @@
       "points": 165,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "venerable_contemptor_dreadnought",
@@ -207,7 +217,8 @@
       "points": 170,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "venerable_land_raider",

@@ -1,10 +1,32 @@
 {
-  "contemptor_achillus_dreadnought": "contemptor-achillus",
-  "contemptor_galatus_dreadnought": "contemptor-galatus",
-  "custodian_guard_with_adrasite_and_pyrithite_spears": "custodian-guard",
-  "telemon_heavy_dreadnought": "telemon-heavy-dreadnought",
-  "venatari_custodians": "venatari-custodians",
-  "venerable_contemptor_dreadnought": "venerable-dreadnought",
-  "venerable_land_raider": "space-marine-land-raider-crusader",
-  "witchseekers": "seekers"
+"custodian_guard": "adeptus-custodes-custodian-guard-2018",
+"custodian_wardens": "adeptus-custodes-custodian-wardens-2018",
+"allarus_custodians": "adeptus-custodes-allarus-custodians-2018",
+"vertus_praetors": "adeptus-custodes-vertus-praetors-2018",
+
+"blade_champion": "adeptus-custodes-blade-champion-2022",
+"trajann_valoris": "captain-general-trajann-valoris-2018",
+
+"venerable_land_raider": "venerable-land-raider",
+"ares_gunship": "legio-custodes-ares-gunship-2019",
+"orion_assault_dropship": "custodes-gunship-2017",
+
+"pallas_grav_attack": "legio-custodes-pallas-grav-attack",
+
+"vigilators": "vigilator-squad",
+"witchseekers": "witchseeker-squad",
+"prosecutors": "sisters-of-silence-2017",
+
+"valerian": "talons-of-the-emperor-valerian-and-aleya-2020",
+"aleya": "talons-of-the-emperor-valerian-and-aleya-2020",
+
+"telemon_heavy_dreadnought": [
+"legio-custodes-heavy-dreadnought-body-2017",
+"legio-custodes-heavy-dreadnought-arm-2017",
+"legio-custodes-heavy-dreadnought-arm-2017"
+],
+
+"shield_captain": "shield-captain-2018",
+"shield_captain_in_allarus_terminator_armour": "shield-captain-in-allarus-terminator-armour-2018",
+"shield_captain_on_dawneagle_jetbike": "shield-captain-on-dawneagle-and-2-miniatures-2018"
 }

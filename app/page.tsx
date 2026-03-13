@@ -59,13 +59,15 @@ type Unit = {
   points: number;
   models_per_box: number | null;
   box_price: number | null;
-  prices?: {
-    GBP?: number | null;
-    USD?: number | null;
-    EUR?: number | null;
-    AUD?: number | null;
-    CAD?: number | null;
-  };
+  prices?:
+    | {
+        GBP?: number | null;
+        USD?: number | null;
+        EUR?: number | null;
+        AUD?: number | null;
+        CAD?: number | null;
+      }
+    | null;
   is_legends?: boolean;
   availability?: "retail" | "legends" | "forgeworld";
 };
@@ -141,32 +143,81 @@ function getCurrencySymbol(currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"): str
   return CURRENCY_SYMBOLS[currency];
 }
 
+function formatPrice(
+  unit: Unit,
+  currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"
+): string {
+  const price = getUnitPrice(unit, currency);
+  if (price === null) return "--";
+  const symbol = getCurrencySymbol(currency);
+  return `${symbol}${price.toFixed(2)}`;
+}
+
 type QuantityMap = Record<string, number>;
 
-const KIT_MAPPINGS_REGISTRY: Record<string, Record<string, string>> = {
-  "adepta-sororitas": adeptaSororitasKitMappings as Record<string, string>,
-  "adeptus-custodes": adeptusCustodesKitMappings as Record<string, string>,
-  "adeptus-mechanicus": adeptusMechanicusKitMappings as Record<string, string>,
-  aeldari: aeldariKitMappings as Record<string, string>,
-  "astra-militarum": astraMilitarumKitMappings as Record<string, string>,
-  "chaos-daemons": chaosDaemonsKitMappings as Record<string, string>,
-  "chaos-space-marines": chaosSpaceMarinesKitMappings as Record<string, string>,
-  custodes: custodesKitMappings as Record<string, string>,
-  "death-guard": deathGuardKitMappings as Record<string, string>,
-  drukhari: drukhariKitMappings as Record<string, string>,
-  "emperor-s-children": emperorsChildrenKitMappings as Record<string, string>,
-  "genestealer-cults": genestealerCultKitMappings as Record<string, string>,
-  "grey-knights": greyKnightsKitMappings as Record<string, string>,
-  "imperial-agents": imperialAgentsKitMappings as Record<string, string>,
-  "imperial-knights": imperialKnightsKitMappings as Record<string, string>,
-  "leagues-of-votann": leaguesOfVotannKitMappings as Record<string, string>,
-  necrons: necronsKitMappings as Record<string, string>,
-  orks: orksKitMappings as Record<string, string>,
-  "space-marines": spaceMarinesKitMappings as Record<string, string>,
-  tau: tauKitMappings as Record<string, string>,
-  "thousand-sons": thousandSonsKitMappings as Record<string, string>,
-  tyranids: tyranidsKitMappings as Record<string, string>,
-  "world-eaters": worldEatersKitMappings as Record<string, string>,
+const KIT_MAPPINGS_REGISTRY: Record<
+  string,
+  Record<string, string | string[]>
+> = {
+  "adepta-sororitas": adeptaSororitasKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "adeptus-custodes": adeptusCustodesKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "adeptus-mechanicus": adeptusMechanicusKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  aeldari: aeldariKitMappings as Record<string, string | string[]>,
+  "astra-militarum": astraMilitarumKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "chaos-daemons": chaosDaemonsKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "chaos-space-marines": chaosSpaceMarinesKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  custodes: custodesKitMappings as Record<string, string | string[]>,
+  "death-guard": deathGuardKitMappings as Record<string, string | string[]>,
+  drukhari: drukhariKitMappings as Record<string, string | string[]>,
+  "emperor-s-children": emperorsChildrenKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "genestealer-cults": genestealerCultKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "grey-knights": greyKnightsKitMappings as Record<string, string | string[]>,
+  "imperial-agents": imperialAgentsKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "imperial-knights": imperialKnightsKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  "leagues-of-votann": leaguesOfVotannKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  necrons: necronsKitMappings as Record<string, string | string[]>,
+  orks: orksKitMappings as Record<string, string | string[]>,
+  "space-marines": spaceMarinesKitMappings as Record<string, string | string[]>,
+  tau: tauKitMappings as Record<string, string | string[]>,
+  "thousand-sons": thousandSonsKitMappings as Record<
+    string,
+    string | string[]
+  >,
+  tyranids: tyranidsKitMappings as Record<string, string | string[]>,
+  "world-eaters": worldEatersKitMappings as Record<string, string | string[]>,
 };
 
 const KIT_REGISTRY: Record<
@@ -268,21 +319,29 @@ const KIT_REGISTRY: Record<
 };
 
 function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
-  const mappings = KIT_MAPPINGS_REGISTRY[factionSlug] ?? {};
+  const kitMap = KIT_MAPPINGS_REGISTRY[factionSlug] ?? {};
   const kits = KIT_REGISTRY[factionSlug] ?? {};
 
   return units.map((unit) => {
-    const kitSlug = mappings[unit.id];
-    const kit = kitSlug ? kits[kitSlug] : null;
+    const kitSlugRaw = kitMap[unit.id];
+    const kitSlug = Array.isArray(kitSlugRaw) ? kitSlugRaw[0] : kitSlugRaw;
+
+    if (!kitSlug) {
+      return { ...unit };
+    }
+
+    const kit = kits[kitSlug];
+
+    if (!kit) {
+      return { ...unit };
+    }
 
     return {
-      id: unit.id,
-      name: unit.name,
-      points: unit.points,
-      availability: unit.availability,
-      models_per_box: kit?.models ?? null,
-      box_price: unit.box_price ?? null,
-      prices: (kit?.prices as Unit["prices"]) ?? unit.prices,
+      ...unit,
+      models_per_box: kit.models ?? unit.models_per_box ?? null,
+      prices: (kit.prices as Unit["prices"]) ?? unit.prices ?? null,
+      box_price:
+        (kit.prices as Unit["prices"] | undefined)?.GBP ?? unit.box_price ?? null,
     };
   });
 }
@@ -876,23 +935,9 @@ function HomeContent() {
                 <div className="divide-y divide-[#231F20]/40">
                   {filteredUnits.map((unit, index) => {
                     const qty = quantities[unit.id] ?? 0;
-                    const price = getUnitPrice(unit, currency);
-                    const currencySymbol = getCurrencySymbol(currency);
-                    const priceStr =
-                      price !== null
-                        ? `${currencySymbol}${price.toFixed(2)}`
-                        : "--";
-                    const hasKit = !!kitMappingsForFaction[unit.id];
-                    const hasBoxData = hasKit;
-                    const availability = unit.availability;
-                    let statusLabel: "LEGENDS" | "FORGEWORLD" | "AWOL" | null = null;
-                    if (availability === "legends") {
-                      statusLabel = "LEGENDS";
-                    } else if (availability === "forgeworld") {
-                      statusLabel = "FORGEWORLD";
-                    } else if (!hasKit) {
-                      statusLabel = "AWOL";
-                    }
+                    const hasKitData =
+                      unit.models_per_box !== null && unit.prices !== null;
+
                     return (
                       <div
                         key={unit.id}
@@ -903,9 +948,7 @@ function HomeContent() {
                         <div className="mb-[4px] w-full pr-1">
                           <h3
                             className={`text-sm font-plex-mono uppercase leading-tight break-words ${
-                              !hasBoxData
-                                ? "text-[#5E6E5A]"
-                                : "text-[#231F20]"
+                              !hasKitData ? "text-[#5E6E5A]" : "text-[#231F20]"
                             }`}
                           >
                             <span>{unit.name}</span>
@@ -913,38 +956,46 @@ function HomeContent() {
                         </div>
                         <div className="flex items-center justify-between w-full">
                           <div className="text-[13px] font-plex-mono flex items-center gap-2 min-w-0 text-[#231F20]">
-                            <span className="font-semibold tabular-nums">
-                              {unit.points}pts
-                            </span>
-                            {unit.models_per_box != null && (
-                              <span>
-                                • {unit.models_per_box}{" "}
-                                {unit.models_per_box === 1 ? "mdl" : "mdls"}
-                              </span>
-                            )}
-                            {price !== null && (
-                              <span className="font-semibold tabular-nums">
-                                • {currencySymbol}
-                                {price.toFixed(2)}
-                              </span>
-                            )}
-                            {statusLabel && (
+                            {hasKitData ? (
                               <>
-                                <span>•</span>
-                                {statusLabel === "LEGENDS" && (
-                                  <span className="text-violet-500 font-workbench">
-                                    LEGENDS
-                                  </span>
-                                )}
-                                {statusLabel === "FORGEWORLD" && (
-                                  <span className="text-orange-500 font-workbench">
-                                    FORGEWORLD
-                                  </span>
-                                )}
-                                {statusLabel === "AWOL" && (
-                                  <span className="text-[#C23B22] font-workbench">
-                                    AWOL
-                                  </span>
+                                <span className="font-semibold tabular-nums">
+                                  {unit.points}pts
+                                </span>
+                                <span>
+                                  {" "}
+                                  • {unit.models_per_box} mdls
+                                </span>
+                                <span className="font-semibold tabular-nums">
+                                  {" "}
+                                  • {formatPrice(unit, currency)}
+                                </span>
+                              </>
+                            ) : (
+                              <>
+                                <span className="font-semibold tabular-nums">
+                                  {unit.points}pts
+                                </span>
+                                <span>{" "}•{" "}</span>
+                                {!hasKitData && (
+                                  <>
+                                    {unit.availability === "forgeworld" && (
+                                      <span className="text-orange-500 font-workbench">
+                                        FORGEWORLD
+                                      </span>
+                                    )}
+
+                                    {unit.availability === "legends" && (
+                                      <span className="text-violet-500 font-workbench">
+                                        LEGENDS
+                                      </span>
+                                    )}
+
+                                    {!unit.availability && (
+                                      <span className="text-[#C23B22] font-workbench">
+                                        AWOL
+                                      </span>
+                                    )}
+                                  </>
                                 )}
                               </>
                             )}
