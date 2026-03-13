@@ -2,6 +2,7 @@
 
 import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { factionColors, DEFAULT_FACTION_COLOR } from "./config/factionColors";
 import adeptaSororitasKitMappings from "../data/kit-mappings/adepta-sororitas.json";
@@ -471,6 +472,8 @@ function HomeContent() {
     return Math.round((totals.totalCost / totals.totalPoints) * 1000);
   }, [totals.totalPoints, totals.totalCost]);
 
+  const [showAllFactionGuides, setShowAllFactionGuides] = useState(false);
+
   const factionAccentColor =
     factionColors[selectedFactionSlug] ?? DEFAULT_FACTION_COLOR;
 
@@ -653,7 +656,7 @@ function HomeContent() {
           style={{ overflowAnchor: "none" }}
         >
           <section
-            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col min-h-0 max-[900px]:min-h-0 max-[900px]:max-h-none max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
+            className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col min-h-0 max-[900px]:min-h-0 max-[900px]:max-h-none max-[900px]:overflow-visible max-[900px]:mb-8 max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
             style={{ borderLeftColor: factionAccentColor }}
           >
             <div className="relative mb-3">
@@ -1127,14 +1130,24 @@ function HomeContent() {
               <p className="mb-2 text-xs leading-snug text-gray-600">
                 Warhammer armies can vary widely in cost depending on faction, model count
                 and list size. Use this calculator to quickly understand how expensive
-                different Warhammer 40K army builds can be before purchasing models.
+                different Warhammer 40K army builds can be before purchasing models. If
+                you are exploring{" "}
+                <Link href="/space-marines-army-cost">Space Marines armies</Link>,{" "}
+                <Link href="/orks-army-cost">Orks armies</Link>,{" "}
+                <Link href="/necrons-army-cost">Necrons armies</Link>,{" "}
+                <Link href="/tyranids-army-cost">Tyranids armies</Link>, or{" "}
+                <Link href="/chaos-space-marines-army-cost">
+                  Chaos Space Marines armies
+                </Link>
+                , the calculator can help estimate the real-world cost before you buy
+                miniatures.
               </p>
             </div>
             <div className="mb-10">
               <h3 className="font-workbench text-sm tracking-wide uppercase mb-2 text-left">
                 Explore army cost guides
               </h3>
-              <ul className="mt-1 text-xs leading-snug text-gray-600 font-plex-mono underline space-y-1">
+              <ul className="mt-1 text-[11px] leading-snug text-gray-600 font-plex-mono underline space-y-1">
                 <li>
                   <a href="/space-marines-army-cost">Space Marines army cost</a>
                 </li>
@@ -1147,12 +1160,76 @@ function HomeContent() {
                 <li>
                   <a href="/tyranids-army-cost">Tyranids army cost</a>
                 </li>
-                <li>
-                  <a href="/chaos-space-marines-army-cost">
-                    Chaos Space Marines army cost
-                  </a>
-                </li>
               </ul>
+              <div
+                id="allFactionGuides"
+                className={showAllFactionGuides ? "mt-1" : "hidden mt-1"}
+              >
+                <ul className="text-[11px] leading-snug text-gray-600 font-plex-mono underline space-y-1">
+                  <li>
+                    <a href="/chaos-space-marines-army-cost">
+                      Chaos Space Marines army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/adeptus-custodes-army-cost">
+                      Adeptus Custodes army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/adeptus-mechanicus-army-cost">
+                      Adeptus Mechanicus army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/astra-militarum-army-cost">
+                      Astra Militarum army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/grey-knights-army-cost">Grey Knights army cost</a>
+                  </li>
+                  <li>
+                    <a href="/death-guard-army-cost">Death Guard army cost</a>
+                  </li>
+                  <li>
+                    <a href="/thousand-sons-army-cost">
+                      Thousand Sons army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/drukhari-army-cost">Drukhari army cost</a>
+                  </li>
+                  <li>
+                    <a href="/aeldari-army-cost">Aeldari army cost</a>
+                  </li>
+                  <li>
+                    <a href="/tau-empire-army-cost">Tau Empire army cost</a>
+                  </li>
+                  <li>
+                    <a href="/leagues-of-votann-army-cost">
+                      Leagues of Votann army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/genestealer-cults-army-cost">
+                      Genestealer Cults army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/adepta-sororitas-army-cost">
+                      Adepta Sororitas army cost
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                className="mt-2 text-[11px] underline font-plex-mono"
+                onClick={() => setShowAllFactionGuides((v) => !v)}
+              >
+                {showAllFactionGuides ? "Hide all faction guides" : "View all faction guides"}
+              </button>
             </div>
           </div>
 
@@ -1172,14 +1249,24 @@ function HomeContent() {
               <p className="mb-2 text-xs leading-snug text-gray-600">
                 Warhammer armies can vary widely in cost depending on faction, model count
                 and list size. Use this calculator to quickly understand how expensive
-                different Warhammer 40K army builds can be before purchasing models.
+                different Warhammer 40K army builds can be before purchasing models. If
+                you are exploring{" "}
+                <Link href="/space-marines-army-cost">Space Marines armies</Link>,{" "}
+                <Link href="/orks-army-cost">Orks armies</Link>,{" "}
+                <Link href="/necrons-army-cost">Necrons armies</Link>,{" "}
+                <Link href="/tyranids-army-cost">Tyranids armies</Link>, or{" "}
+                <Link href="/chaos-space-marines-army-cost">
+                  Chaos Space Marines armies
+                </Link>
+                , the calculator can help estimate the real-world cost before you buy
+                miniatures.
               </p>
             </div>
             <div className="text-right">
               <h3 className="font-workbench text-sm tracking-wide uppercase mb-2">
                 Explore army cost guides
               </h3>
-              <ul className="mt-1 text-xs leading-snug text-gray-600 font-plex-mono underline space-y-1">
+              <ul className="mt-1 text-[11px] leading-snug text-gray-600 font-plex-mono underline space-y-1">
                 <li>
                   <a href="/space-marines-army-cost">Space Marines army cost</a>
                 </li>
@@ -1192,12 +1279,76 @@ function HomeContent() {
                 <li>
                   <a href="/tyranids-army-cost">Tyranids army cost</a>
                 </li>
-                <li>
-                  <a href="/chaos-space-marines-army-cost">
-                    Chaos Space Marines army cost
-                  </a>
-                </li>
               </ul>
+              <div
+                id="allFactionGuides"
+                className={showAllFactionGuides ? "mt-1" : "hidden mt-1"}
+              >
+                <ul className="text-[11px] leading-snug text-gray-600 font-plex-mono underline space-y-1">
+                  <li>
+                    <a href="/chaos-space-marines-army-cost">
+                      Chaos Space Marines army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/adeptus-custodes-army-cost">
+                      Adeptus Custodes army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/adeptus-mechanicus-army-cost">
+                      Adeptus Mechanicus army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/astra-militarum-army-cost">
+                      Astra Militarum army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/grey-knights-army-cost">Grey Knights army cost</a>
+                  </li>
+                  <li>
+                    <a href="/death-guard-army-cost">Death Guard army cost</a>
+                  </li>
+                  <li>
+                    <a href="/thousand-sons-army-cost">
+                      Thousand Sons army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/drukhari-army-cost">Drukhari army cost</a>
+                  </li>
+                  <li>
+                    <a href="/aeldari-army-cost">Aeldari army cost</a>
+                  </li>
+                  <li>
+                    <a href="/tau-empire-army-cost">Tau Empire army cost</a>
+                  </li>
+                  <li>
+                    <a href="/leagues-of-votann-army-cost">
+                      Leagues of Votann army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/genestealer-cults-army-cost">
+                      Genestealer Cults army cost
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/adepta-sororitas-army-cost">
+                      Adepta Sororitas army cost
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <button
+                type="button"
+                className="mt-2 text-[11px] underline font-plex-mono"
+                onClick={() => setShowAllFactionGuides((v) => !v)}
+              >
+                {showAllFactionGuides ? "Hide all faction guides" : "View all faction guides"}
+              </button>
             </div>
           </div>
         </section>
