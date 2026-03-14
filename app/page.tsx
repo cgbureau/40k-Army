@@ -378,13 +378,11 @@ function HomeContent() {
           a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
         );
         setFactionList(sorted);
-        const urlFaction = searchParams.get("faction");
         const defaultSlug =
-          sorted.find((f) => f.slug === urlFaction)?.slug ??
           sorted.find((f) => f.slug === "space-marines")?.slug ??
           sorted[0]?.slug ??
           "";
-        setSelectedFactionSlug(defaultSlug);
+        setSelectedFactionSlug((prev) => prev || defaultSlug);
       })
       .catch(() => setFactionList([]))
       .finally(() => setFactionsLoading(false));
