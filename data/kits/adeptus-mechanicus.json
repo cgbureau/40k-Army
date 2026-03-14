@@ -1,192 +1,467 @@
 {
-  "skitarii-rangers": {
+  "combat-patrol-adeptus-mechanicus-2023": {
+    "display_name": "Combat Patrol: Adeptus Mechanicus",
+    "slug_short": "combat-patrol-adeptus-mechanicus",
+    "models": 19,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116044_AMCombatPatrol01.jpg",
+    "year": 2023
+  },
+  "adeptus-mechanicus-sydonian-skatros-2023": {
+    "display_name": "Sydonian Skatros",
+    "slug_short": "adeptus-mechanicus-sydonian-skatros",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 74,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116045_ADMECHSydonianSkatros01.jpg",
+    "year": 2023
+  },
+  "adeptus-mechanicus-tech-priest-manipulus-2020": {
+    "display_name": "Tech-Priest Manipulus",
+    "slug_short": "adeptus-mechanicus-tech-priest-manipulus",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070116002_TechPriestManipulusLead.jpg",
+    "year": 2020
+  },
+  "skitarii-rangers-2017": {
+    "display_name": "Skitarii Rangers",
+    "slug_short": "skitarii-rangers",
     "models": 10,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
-  },
-  "skitarii-vanguard": {
-    "models": 10,
-    "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
-  },
-  "sicarian-ruststalkers": {
-    "models": 5,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "sicarian-infiltrators": {
-    "models": 5,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "electro-priests": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
+      "GBP": 35.5,
       "USD": 60,
       "EUR": 45,
       "AUD": 88,
-      "CAD": 70
-    }
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116002_SkitariiRangers01.jpg",
+    "year": 2017
   },
-  "kataphron-destroyers": {
+  "adeptus-mechanicus-technoarchaeologist-2022": {
+    "display_name": "Technoarcheologist",
+    "slug_short": "adeptus-mechanicus-technoarchaeologist",
+    "models": 1,
+    "prices": {
+      "GBP": 21.5,
+      "USD": 35,
+      "EUR": 27.5,
+      "AUD": 57,
+      "CAD": 42.5,
+      "PLN": 121,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070116007_AMTechnoarchaeologist01.jpg",
+    "year": 2022
+  },
+  "adeptus-mechanicus-serberys-sulphurhounds--2020": {
+    "display_name": "Serberys Sulphurhounds",
+    "slug_short": "adeptus-mechanicus-serberys-sulphurhounds",
     "models": 3,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116026_AMSerberysSulphurhoundsLead.jpg",
+    "year": 2020
   },
-  "kataphron-breachers": {
+  "adeptus-mechanicus-pteraxii-sterylizors-2020": {
+    "display_name": "Pteraxii Sterylizors",
+    "slug_short": "adeptus-mechanicus-pteraxii-sterylizors",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116025_SterylizorsLead.jpg",
+    "year": 2020
+  },
+  "adeptus-mechanicus-archaeopter-fusilave-2020": {
+    "display_name": "Archaeopter Fusilave",
+    "slug_short": "adeptus-mechanicus-archaeopter-fusilave",
+    "models": 1,
+    "prices": {
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116024_AMFusilaveLead.jpg",
+    "year": 2020
+  },
+  "adeptus-mechanicus-serberys-raiders-2020": {
+    "display_name": "Serberys Raiders",
+    "slug_short": "adeptus-mechanicus-serberys-raiders",
     "models": 3,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116026_AMSerberysRaidersLead.jpg",
+    "year": 2020
   },
-  "tech-priest-enginseer": {
+  "adeptus-mechanicus-pteraxii-2020": {
+    "display_name": "Pteraxii Skystalkers",
+    "slug_short": "adeptus-mechanicus-pteraxii",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116025_PteraxiiLead.jpg",
+    "year": 2020
+  },
+  "adeptus-mechanicus-skorpius-dunerider-2019": {
+    "display_name": "Skorpius Dunerider",
+    "slug_short": "adeptus-mechanicus-skorpius-dunerider",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 52.5,
+      "USD": 84,
+      "EUR": 67.5,
+      "AUD": 140,
+      "CAD": 100,
+      "PLN": 295,
+      "CHF": 67.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116023_SkorpiusDistintegrator02.jpg",
+    "year": 2019
   },
-  "tech-priest-dominus": {
+  "adeptus-mechanicus-skorpius-disintegrator-2019": {
+    "display_name": "Skorpius Disintegrator",
+    "slug_short": "adeptus-mechanicus-skorpius-disintegrator",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 52.5,
+      "USD": 84,
+      "EUR": 67.5,
+      "CAD": 100,
+      "PLN": 295,
+      "CHF": 67.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116023_SkorpiusDistintegrator01.jpg",
+    "year": 2019
   },
-  "tech-priest-manipulus": {
+  "kataphron-battle-servitors-destroyers-2017": {
+    "display_name": "Kataphron Destroyers",
+    "slug_short": "kataphron-battle-servitors-destroyers",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116006_AdMechBattleServitorsDestroyers01.jpg",
+    "year": 2017
+  },
+  "kataphron-battle-servitors-breachers-2017": {
+    "display_name": "Kataphron Breachers",
+    "slug_short": "kataphron-battle-servitors-breachers",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116006_AdMechBattleServitorsBreachers01.jpg",
+    "year": 2017
+  },
+  "sicarian-infiltrators-2017": {
+    "display_name": "Sicarian Infiltrators",
+    "slug_short": "sicarian-infiltrators",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 102,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116003_SicarianInfiltrators01.jpg",
+    "year": 2017
+  },
+  "sicarians-2017": {
+    "display_name": "Sicarian Ruststalkers",
+    "slug_short": "sicarians",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116003_SicarianRuststalkers01.jpg",
+    "year": 2017
+  },
+  "skitarii-vanguard-2017": {
+    "display_name": "Skitarii Vanguard",
+    "slug_short": "skitarii-vanguard",
+    "models": 10,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116002_SkitariiVanguard01.jpg",
+    "year": 2017
+  },
+  "kastelan-robots-2017": {
+    "display_name": "Kastelan Robots",
+    "slug_short": "kastelan-robots",
+    "models": 3,
+    "prices": {
+      "GBP": 52,
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 133,
+      "CAD": 100,
+      "PLN": 285,
+      "CHF": 67
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116005_AdMechKastelanRobots01.jpg",
+    "year": 2017
+  },
+  "adeptus-mechanicus-belisarius-cawl-2017": {
+    "display_name": "Belisarius Cawl",
+    "slug_short": "adeptus-mechanicus-belisarius-cawl",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108008_TriumvirateoftheImperium02.jpg",
+    "year": 2017
+  },
+  "astra-militarum-tech-priest-enginseer": {
+    "display_name": "Tech-Priest Enginseer",
+    "slug_short": "astra-militarum-tech-priest-enginseer",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070105002_TechpriestEnginseer01.jpg"
+  },
+  "ad-mec-corpuscarii-electro-priests": {
+    "display_name": "Corpuscarii Electro-Priests",
+    "slug_short": "ad-mec-corpuscarii-electro-priests",
+    "models": 5,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116009_AdMechCorpuscariiElectroPriests01.jpg"
+  },
+  "ad-mec-tech-priest-dominus": {
+    "display_name": "Tech-Priest Dominus",
+    "slug_short": "ad-mec-tech-priest-dominus",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070116001_AdMechTechPriestDominus01.jpg"
+  },
+  "ad-mec-fulgurite-electro-priests": {
+    "display_name": "Fulgurite Electro-Priests",
+    "slug_short": "ad-mec-fulgurite-electro-priests",
+    "models": 5,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 86,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116009_AdMechFulguriteElectroPriests01.jpg"
   },
   "onager-dunecrawler": {
+    "display_name": "Adeptus Mechanicus Onager Dunecrawler",
+    "slug_short": "onager-dunecrawler",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 52.5,
+      "USD": 84,
+      "EUR": 67.5,
+      "AUD": 125,
+      "CAD": 100,
+      "PLN": 295,
+      "CHF": 67.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116004_AdMecOnagerDunecrawler01.jpg"
   },
-  "sydonian-dragoon": {
+  "kill-team-battleclade-2025": {
+    "display_name": "Kill Team: Battleclade",
+    "slug_short": "kill-team-battleclade",
+    "models": 10,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 240,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116048_ENGKillTeamTyphonCoreGame2.jpg",
+    "year": 2025
+  },
+  "adeptus-mechanicus-skitarii-marshall-2021": {
+    "display_name": "Skitarii Marshal",
+    "slug_short": "adeptus-mechanicus-skitarii-marshall",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 21.5,
+      "USD": 35,
+      "EUR": 27.5,
+      "AUD": 57,
+      "CAD": 42.5,
+      "PLN": 121,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070116003_AMSkitariiMarshalLead.jpg",
+    "year": 2021
   },
-  "ironstrider-ballistarii": {
+  "adeptus-mechanicus-archaeopter-stratoraptor-2020": {
+    "display_name": "Archaeopter Stratoraptor",
+    "slug_short": "adeptus-mechanicus-archaeopter-stratoraptor",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116024_AMStratoraptorLead.jpg",
+    "year": 2020
   },
-  "skorpius-dunerider": {
+  "adeptus-mechanicus-archaeopter-2020": {
+    "display_name": "Archaeopter Transvector",
+    "slug_short": "adeptus-mechanicus-archaeopter",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "AUD": 203,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116024_AMTransvectorLead.jpg",
+    "year": 2020
   },
-  "skorpius-disintegrator": {
+  "ironstrider-ballistarius-2017": {
+    "display_name": "Adeptus Mechanicus Ironstrider Ballistarius",
+    "slug_short": "ironstrider-ballistarius",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 101,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116001_Ballistar01.jpg",
+    "year": 2017
   },
-  "pteraxii-skystalkers": {
-    "models": 5,
+  "sydonian-dragoon-2017": {
+    "display_name": "Adeptus Mechanicus Sydonian Dragoon",
+    "slug_short": "sydonian-dragoon",
+    "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "pteraxii-sterylizors": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "serberys-raiders": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "serberys-sulphurhounds": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120116001_SydonianDragoon01.jpg",
+    "year": 2017
   }
 }

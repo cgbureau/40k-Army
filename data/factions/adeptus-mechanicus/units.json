@@ -119,7 +119,8 @@
       "points": 65,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "secutarii_peltasts",
@@ -127,7 +128,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "serberys_raiders",
@@ -271,7 +273,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     }
   ]
 }
