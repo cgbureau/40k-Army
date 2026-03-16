@@ -368,6 +368,7 @@ function HomeContent() {
   const [discount, setDiscount] = useState<number>(0);
   const [emailOpen, setEmailOpen] = useState(false);
   const [emailValue, setEmailValue] = useState("");
+  const [selectedOverviewUnitId, setSelectedOverviewUnitId] = useState<string | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   // Load faction list on mount
@@ -626,9 +627,9 @@ function HomeContent() {
 
   return (
     <>
-      <div className="min-h-[auto] max-w-full overflow-x-hidden flex flex-col page-bg text-[#231F20] font-plex-mono max-[900px]:min-h-screen max-[900px]:overflow-y-auto lg:h-screen lg:overflow-hidden">
+      <div className="min-h-[auto] max-w-full overflow-x-hidden flex flex-col page-bg text-[#231F20] font-plex-mono max-[900px]:min-h-screen max-[900px]:overflow-y-auto lg:min-h-screen">
       <div
-        className={`flex flex-col min-h-0 shrink-0 max-[900px]:flex-1 max-[900px]:min-h-0 max-[900px]:overflow-visible lg:flex-1 lg:shrink max-w-6xl w-full mx-auto mt-[20px] py-4 px-4 lg:overflow-hidden relative z-10 ${
+        className={`flex flex-col min-h-0 shrink-0 max-[900px]:flex-1 max-[900px]:min-h-0 max-[900px]:overflow-visible lg:flex-1 lg:shrink max-w-6xl w-full mx-auto mt-[20px] py-4 px-4 relative z-10 ${
           armySummaryUnits.length > 0 ? "max-[900px]:pb-[220px]" : ""
         }`}
       >
@@ -944,7 +945,35 @@ function HomeContent() {
           </aside>
         </main>
 
-        <section className="mt-4 w-full px-4 text-xs opacity-80">
+        <div className="mt-6 md:mt-8 w-full px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="leading-snug space-y-[2px]">
+              <div className="font-workbench uppercase text-sm mb-1 text-[#231F20]">
+                UNIT KEY
+              </div>
+              <div className="text-[11px] font-plex-mono">
+                <span className="font-workbench uppercase text-sm text-[#C23B22]">
+                  AWOL
+                </span>{" "}
+                = Not currently for sale
+              </div>
+              <div className="text-[11px] font-plex-mono">
+                <span className="font-workbench uppercase text-sm text-orange-500">
+                  FORGEWORLD
+                </span>{" "}
+                = Specialist resin kit
+              </div>
+              <div className="text-[11px] font-plex-mono">
+                <span className="font-workbench uppercase text-sm text-violet-500">
+                  LEGENDS
+                </span>{" "}
+                = No longer tournament legal
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section className="mt-10 w-full px-4 text-xs opacity-80">
           {/* Mobile / tablet stacked layout */}
           <div className="max-w-6xl mx-auto md:hidden">
             <div className="mb-6">
@@ -1213,48 +1242,74 @@ function HomeContent() {
             }`}
             aria-hidden={!mobilePanel}
           >
-            <div className="overflow-y-auto max-h-[60vh] border-b border-[#231F20]/30 bg-[#B2C4AE] px-3 py-3">
+            <div className="border-b border-[#231F20]/30 bg-[#B2C4AE] px-3 py-3">
               {mobilePanel === "cost" && (
                 <div data-army-overview-expanded>
-                  <h3 className="font-workbench uppercase text-sm tracking-wide mb-2 text-[#231F20]">
-                    Army Overview
-                  </h3>
                   {armyCostBreakdownUnits.length === 0 ? (
                     <p className="text-sm font-plex-mono text-[#231F20]/80">
                       No units selected.
                     </p>
                   ) : (
                     <>
-                      <ul className="space-y-2 text-sm font-plex-mono">
-                        {armyCostBreakdownUnits.map((unit) => {
-                          const qty = quantities[unit.id] ?? 0;
-                          const boxCount = Math.floor(
-                            qty / (unit.models_per_box ?? 1)
-                          );
-                          const pointsTotal = unit.points * boxCount;
-                          const pricePerBox = getUnitPrice(unit, currency);
-                          const sym = getCurrencySymbol(currency);
-                          const totalCost =
-                            pricePerBox != null ? boxCount * pricePerBox : null;
-                          return (
-                            <li
-                              key={unit.id}
-                              className="flex justify-between items-start border-b border-[#231F20]/20 py-2 last:border-b-0"
-                            >
-                              <div className="font-medium text-[#231F20] uppercase break-words mr-2 leading-tight">
-                                <span>{unit.name}</span>
-                              </div>
-                              <div className="text-right text-xs leading-tight whitespace-nowrap tabular-nums">
-                                <div className="opacity-80">
-                                  {pointsTotal}pts
-                                  {totalCost != null &&
-                                    ` • ${sym}${totalCost.toFixed(2)}`}
+                      <div className="max-h-[120px] overflow-y-auto">
+                        <ul className="text-sm font-plex-mono">
+                          {armyCostBreakdownUnits.map((unit) => {
+                            const qty = quantities[unit.id] ?? 0;
+                            const boxCount = Math.floor(
+                              qty / (unit.models_per_box ?? 1)
+                            );
+                            const pointsTotal = unit.points * boxCount;
+                            const pricePerBox = getUnitPrice(unit, currency);
+                            const sym = getCurrencySymbol(currency);
+                            const totalCost =
+                              pricePerBox != null ? boxCount * pricePerBox : null;
+                            return (
+                              <li
+                                key={unit.id}
+                                onClick={() =>
+                                  setSelectedOverviewUnitId(
+                                    selectedOverviewUnitId === unit.id ? null : unit.id
+                                  )
+                                }
+                                className={`border-b border-[#231F20]/20 last:border-b-0 cursor-pointer ${
+                                  selectedOverviewUnitId === unit.id ? "bg-[#9FB49A]/40" : ""
+                                }`}
+                              >
+                                <div className="flex justify-between items-start py-2 w-full">
+                                  <div className="font-medium text-[#231F20] uppercase break-words mr-2 leading-tight">
+                                    {boxCount > 1 && (
+                                      <span className="mr-2 opacity-60 tabular-nums">
+                                        x{boxCount}
+                                      </span>
+                                    )}
+                                    <span>{unit.name}</span>
+                                  </div>
+                                  <div className="text-right text-xs leading-tight whitespace-nowrap tabular-nums">
+                                    {selectedOverviewUnitId === unit.id ? (
+                                      <button
+                                        type="button"
+                                        onClick={(e) => {
+                                          e.stopPropagation();
+                                          handleRemoveUnit(unit.id);
+                                        }}
+                                        className="border-2 border-[#231F20] px-1 py-[1px] text-[11px] leading-none font-plex-mono bg-[#B2C4AE] hover:bg-[#9FB49A]"
+                                      >
+                                        -
+                                      </button>
+                                    ) : (
+                                      <div className="opacity-80">
+                                        {pointsTotal}pts
+                                        {totalCost != null &&
+                                          ` • ${sym}${totalCost.toFixed(2)}`}
+                                      </div>
+                                    )}
+                                  </div>
                                 </div>
-                              </div>
-                            </li>
-                          );
-                        })}
-                      </ul>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
                       <div className="flex justify-between items-center text-sm font-plex-mono border-t border-[#231F20]/20 pt-2 mb-2">
                         <span className="opacity-70">Cost / 1000pts</span>
                         <span className="font-medium tabular-nums">
@@ -1270,20 +1325,20 @@ function HomeContent() {
               )}
               {/* Copy / Export / Reset — only when panel is open */}
               {mobilePanel && (
-                <div className="flex gap-2 justify-center mt-2 mb-1">
+                <div className="flex gap-2 justify-start mt-2 mb-1">
                   <button
                     type="button"
                     onClick={handleCopyArmyLink}
                     className={`${BTN_STYLE} flex items-center justify-center py-[2px] px-3`}
                   >
-                    {copyLinkCopied ? "Copied!" : "Copy"}
+                    {copyLinkCopied ? "LINK COPIED!" : "LINK"}
                   </button>
                   <button
                     type="button"
                     onClick={handleExportList}
                     className={`${BTN_STYLE} flex items-center justify-center py-[2px] px-3`}
                   >
-                    {exportListCopied ? "Copied List!" : "Export"}
+                    {exportListCopied ? "COPIED LIST!" : "EXPORT"}
                   </button>
                   <button
                     type="button"
@@ -1297,7 +1352,26 @@ function HomeContent() {
             </div>
           </div>
 
-          {/* Sticky bar: totals + Summary / Cost buttons */}
+          {/* Sticky bar: progress (if target) + totals + Overview button */}
+          {targetPoints > 0 &&
+            (() => {
+              const progressPct = Math.max(
+                0,
+                Math.min(100, (totals.totalPoints / targetPoints) * 100)
+              );
+              const isOverTarget = totals.totalPoints > targetPoints;
+              return (
+                <div className="w-full h-[6px] bg-[#B2C4AE] overflow-hidden">
+                  <div
+                    className="h-full"
+                    style={{
+                      width: `${progressPct}%`,
+                      backgroundColor: isOverTarget ? "#7A1C1C" : "#231F20",
+                    }}
+                  />
+                </div>
+              );
+            })()}
           <div className="px-3 py-2">
             <div className="flex items-center justify-between">
               <p className="text-sm font-plex-mono font-semibold tabular-nums text-[#231F20]">
@@ -1332,13 +1406,13 @@ function HomeContent() {
                 onClick={() =>
                   setMobilePanel((p) => (p === "cost" ? null : "cost"))
                 }
-                className={`flex-1 py-2 text-sm font-plex-mono border-2 rounded-none min-h-[44px] ${
+                className={`flex-1 py-2 text-sm font-workbench border-2 rounded-none min-h-[44px] ${
                   mobilePanel === "cost"
                     ? "bg-[#231F20] text-[#B2C4AE] border-[#231F20]"
                     : "bg-[#B2C4AE] text-[#231F20] border-[#231F20] hover:bg-[#9FB49A]"
                 }`}
               >
-                Overview
+                ARMY OVERVIEW
               </button>
             </div>
           </div>

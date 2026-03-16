@@ -91,13 +91,13 @@ function CalculatorControls({
         )}
       </div>
 
-      <div className="mb-3 space-y-2 lg:space-y-0 lg:flex lg:items-center lg:gap-2">
+      <div className="mb-3 space-y-2 lg:space-y-0 lg:flex lg:flex-wrap lg:items-center lg:gap-2">
         <div className="flex items-center w-full min-w-0">
           <label
             htmlFor="target-points"
             className="text-sm font-workbench shrink-0 mr-2"
           >
-            Target pts
+            TARGET PTS
           </label>
           <div className="flex items-center gap-1 ml-auto min-w-0 overflow-hidden">
             <button
@@ -150,12 +150,12 @@ function CalculatorControls({
             />
           </div>
         </div>
-        <div className="flex items-center w-full min-w-0 gap-2 lg:ml-auto">
+        <div className="flex items-center w-full min-w-0 gap-2">
           <label
             htmlFor="faction-select"
             className="text-sm font-workbench shrink-0 mr-1"
           >
-            Faction
+            FACTION
           </label>
           <div className="flex items-center gap-2 flex-1 min-w-0">
             <select

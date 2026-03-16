@@ -28,7 +28,7 @@ export default function BackToTop({
 
   const visible =
     hasScrolledEnough && !overviewActuallyExpanded;
-  const bottomOffset = hasMiniOverview ? 90 : 24;
+  const bottomOffset = hasMiniOverview ? 120 : 24;
 
   if (!visible) return null;
 
