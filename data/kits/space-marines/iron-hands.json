@@ -1,0 +1,34 @@
+{
+  "iron-hands-feirros-2020": {
+    "display_name": "Iron Father Feirros",
+    "slug_short": "iron-hands-feirros",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101257_SMIHFeirros01.jpg",
+    "year": 2020
+  },
+  "iron-hands-caanok-var-2025": {
+    "display_name": "Caanok Var",
+    "slug_short": "iron-hands-caanok-var",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101447_SpaceMarinesIronHandsCaanokVar01.jpg",
+    "year": 2025
+  }
+}

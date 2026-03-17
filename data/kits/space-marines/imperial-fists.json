@@ -1,0 +1,34 @@
+{
+  "imperial-fists-tor-garadon-2020": {
+    "display_name": "Tor Garadon",
+    "slug_short": "imperial-fists-tor-garadon",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101258_SMIFTorGaradon01.jpg",
+    "year": 2020
+  },
+  "imperial-fists-darnath-lysander-2025": {
+    "display_name": "Darnath Lysander",
+    "slug_short": "imperial-fists-darnath-lysander",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101446_SpaceMarinesImperialFistsDarnathLysander1.jpg",
+    "year": 2025
+  }
+}

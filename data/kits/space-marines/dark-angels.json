@@ -1,0 +1,248 @@
+{
+  "combat-patrol-dark-angels-2024": {
+    "display_name": "Combat Patrol: Dark Angels",
+    "slug_short": "combat-patrol-dark-angels",
+    "models": 19,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101406_DACP2.jpg",
+    "year": 2024
+  },
+  "dark-angels-lion-el-johnson-2023": {
+    "display_name": "Lion El'Jonson",
+    "slug_short": "dark-angels-lion-el-johnson",
+    "models": 1,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101410_LionsRetinue1.jpg",
+    "year": 2023
+  },
+  "dark-angels-azrael-2023": {
+    "display_name": "Azrael, Supreme Grand Master",
+    "slug_short": "dark-angels-azrael",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101379_Azrael1.jpg",
+    "year": 2023
+  },
+  "dark-angels-master-lazarus-2020": {
+    "display_name": "Master Lazarus",
+    "slug_short": "dark-angels-master-lazarus",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101267_MasterLazarus01.jpg",
+    "year": 2020
+  },
+  "dark-angelsbelial-grand-master-of-the-deathwing-2024": {
+    "display_name": "Belial, Grand Master of The Deathwing",
+    "slug_short": "dark-angelsbelial-grand-master-of-the-deathwing",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101404_DABelialGrandMasteroftheDeathwing1.jpg",
+    "year": 2024
+  },
+  "dark-angels-deathwing-knights-2024": {
+    "display_name": "Deathwing Knights",
+    "slug_short": "dark-angels-deathwing-knights",
+    "models": 5,
+    "prices": {
+      "GBP": 44,
+      "USD": 70,
+      "EUR": 55,
+      "AUD": 120,
+      "CAD": 85,
+      "PLN": 240,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010101006_EngDADeathwingAssault04.jpg",
+    "year": 2024
+  },
+  "dark-angels-asmodai-master-of-repentance-2024": {
+    "display_name": "Asmodai, Master of Repentance",
+    "slug_short": "dark-angels-asmodai-master-of-repentance",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101403_DAAsmodaiALT.jpg",
+    "year": 2024
+  },
+  "dark-angels-inner-circle-companions-2024": {
+    "display_name": "Inner Circle Companions",
+    "slug_short": "dark-angels-inner-circle-companions",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101407_DAInnerCircleCompanions2.jpg",
+    "year": 2024
+  },
+  "dark-angels-sammael": {
+    "display_name": "Sammael",
+    "slug_short": "dark-angels-sammael",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 102,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99810101020_SammaelCorvex01.jpg"
+  },
+  "dark-angels-ravenwing-bike-squadron": {
+    "display_name": "Ravenwing Bike Squadron",
+    "slug_short": "dark-angels-ravenwing-bike-squadron",
+    "models": 3,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 85,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101050_BikeSquadNEW_01.jpg"
+  },
+  "dark-angels-interrogator-chaplain-2017": {
+    "display_name": "Dark Angels Interrogator-Chaplain",
+    "slug_short": "dark-angels-interrogator-chaplain",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 36,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101011_DarkAngelsInterrogatorChaplain01.jpg",
+    "year": 2017
+  },
+  "dark-angels-ravenwing-darkshroud": {
+    "display_name": "Ravenwing Darkshroud",
+    "slug_short": "dark-angels-ravenwing-darkshroud",
+    "models": 1,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101098_DADarkshroud01.jpg"
+  },
+  "dark-angels-nephilim-jetfigher": {
+    "display_name": "Nephilim Jetfighter",
+    "slug_short": "dark-angels-nephilim-jetfigher",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "CAD": 107,
+      "PLN": 300
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101095_NephilimJet01.jpg"
+  },
+  "dark-angels-land-speeder-vengeance": {
+    "display_name": "Land Speeder Vengeance",
+    "slug_short": "dark-angels-land-speeder-vengeance",
+    "models": 1,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 102,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101098_LandspeederVengeance01.jpg"
+  },
+  "dark-angels-ravenwing-dark-talon": {
+    "display_name": "Ravenwing Dark Talon",
+    "slug_short": "dark-angels-ravenwing-dark-talon",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 96,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101095_DarkTalon01.jpg"
+  },
+  "dark-angels-ezekiel-grand-master-of-librarians": {
+    "display_name": "Ezekiel, Grand Master of Librarians",
+    "slug_short": "dark-angels-ezekiel-grand-master-of-librarians",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 34,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99060101326_EzekielUpdate2.jpg"
+  }
+}

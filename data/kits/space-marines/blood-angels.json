@@ -1,0 +1,193 @@
+{
+  "combat-patrol-blood-angels-2024": {
+    "display_name": "Combat Patrol: Blood Angels",
+    "slug_short": "combat-patrol-blood-angels",
+    "models": 17,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101412_SMBACP1.jpg",
+    "year": 2024
+  },
+  "blood-angels-baal-predator": {
+    "display_name": "Baal Predator",
+    "slug_short": "blood-angels-baal-predator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101086_BaalPredatorNEW_01.jpg"
+  },
+  "blood-angels-commander-dante-2023": {
+    "display_name": "Commander Dante",
+    "slug_short": "blood-angels-commander-dante",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101395_BACommanderDante01.jpg",
+    "year": 2023
+  },
+  "mephiston-lord-of-death-2020": {
+    "display_name": "Mephiston",
+    "slug_short": "mephiston-lord-of-death",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101266_BAMephistonLordofDeath01.jpg",
+    "year": 2020
+  },
+  "blood-angels-astorath-the-grim-2024": {
+    "display_name": "Astorath the Grim",
+    "slug_short": "blood-angels-astorath-the-grim",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101419_BAAstorathTheGrim01.jpg",
+    "year": 2024
+  },
+  "blood-angels-the-sanguinor-2024": {
+    "display_name": "The Sanguinor",
+    "slug_short": "blood-angels-the-sanguinor",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101414_BATheSanguinor01.jpg",
+    "year": 2024
+  },
+  "blood-angels-lemartes-2024": {
+    "display_name": "Lemartes",
+    "slug_short": "blood-angels-lemartes",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101418_BALemartes01.jpg",
+    "year": 2024
+  },
+  "blood-angels-sanguinary-guard-2024": {
+    "display_name": "Sanguinary Guard",
+    "slug_short": "blood-angels-sanguinary-guard",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101413_BASanguinaryGuard01.jpg",
+    "year": 2024
+  },
+  "blood-angels-captain-2024": {
+    "display_name": "Blood Angels Captain",
+    "slug_short": "blood-angels-captain",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101416_BACaptain01.jpg",
+    "year": 2024
+  },
+  "blood-angels-chaplain-with-jump-pack-2020": {
+    "display_name": "Blood Angels Chaplain With Jump Pack",
+    "slug_short": "blood-angels-chaplain-with-jump-pack",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101017_BloodAngelsChaplainJumpack01.jpg",
+    "year": 2020
+  },
+  "blood-angels-terminator-librarian-2014": {
+    "display_name": "Blood Angels Librarian in Terminator Armour",
+    "slug_short": "blood-angels-terminator-librarian",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 36,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101007_BATerminatorLib01.jpg",
+    "year": 2014
+  },
+  "blood-angels-sanguinary-priest-2024": {
+    "display_name": "Sanguinary Priest",
+    "slug_short": "blood-angels-sanguinary-priest",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 74,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101415_BASanguinaryPriest01.jpg",
+    "year": 2024
+  }
+}

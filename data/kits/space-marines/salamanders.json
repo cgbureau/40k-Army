@@ -1,0 +1,34 @@
+{
+  "salamanders-adrax-agatone-2020": {
+    "display_name": "Adrax Agatone",
+    "slug_short": "salamanders-adrax-agatone",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101259_SALAdraxAgatone01.jpg",
+    "year": 2020
+  },
+  "salamanders-vulkan-hestan-2025": {
+    "display_name": "Vulkan He'stan",
+    "slug_short": "salamanders-vulkan-hestan",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101444_SpaceMarinesSalamandersVulkanHestan1.jpg",
+    "year": 2025
+  }
+}

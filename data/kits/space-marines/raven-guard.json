@@ -1,0 +1,34 @@
+{
+  "raven-guard-aethon-shaan-2025": {
+    "display_name": "Aethon Shaan",
+    "slug_short": "raven-guard-aethon-shaan",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101445_RavenGuardAethonShaan01.jpg",
+    "year": 2025
+  },
+  "raven-guard-kayvaan-shrike-2020": {
+    "display_name": "Kayvaan Shrike",
+    "slug_short": "raven-guard-kayvaan-shrike",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101256_SMRGKayvaanShrike01.jpg",
+    "year": 2020
+  }
+}

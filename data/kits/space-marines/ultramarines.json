@@ -1,0 +1,98 @@
+{
+  "captain-titus-and-the-wardens-of-ultramar-2026": {
+    "display_name": "Captain Titus and The Wardens of Ultramar",
+    "slug_short": "captain-titus-and-the-wardens-of-ultramar",
+    "models": 7,
+    "prices": {
+      "GBP": 57,
+      "USD": 94,
+      "EUR": 74,
+      "AUD": 160,
+      "CAD": 113,
+      "PLN": 315,
+      "CHF": 74
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101459_SpaceMarinesTitusWardens1.jpg",
+    "year": 2026
+  },
+  "ultramarines-chief-librarian-tigurius-2020": {
+    "display_name": "Chief Librarian Tigurius",
+    "slug_short": "ultramarines-chief-librarian-tigurius",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101254_UMChiefLibrarian01.jpg",
+    "year": 2020
+  },
+  "roboute-guilliman-ultramarines-primarch-2020": {
+    "display_name": "Roboute Guilliman",
+    "slug_short": "roboute-guilliman-ultramarines-primarch",
+    "models": 1,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101177_TriumvirateofthePrimarch02.jpg",
+    "year": 2020
+  },
+  "ultramarines-victrix-honour-guard-2025": {
+    "display_name": "Victrix Honour Guard",
+    "slug_short": "ultramarines-victrix-honour-guard",
+    "models": 3,
+    "prices": {
+      "GBP": 38.5,
+      "USD": 65,
+      "EUR": 50,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101453_UltramarinesVictrixHonourGuard1.jpg",
+    "year": 2025
+  },
+  "ultramarines-cato-sicarius-2025": {
+    "display_name": "Cato Sicarius",
+    "slug_short": "ultramarines-cato-sicarius",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 38,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 38
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101452_UltramarinesCatoSicarius1.jpg",
+    "year": 2025
+  },
+  "marneus-calgar-in-armour-of-antilochus-2025": {
+    "display_name": "Marneus Calgar in Armour of Antilochus",
+    "slug_short": "marneus-calgar-in-armour-of-antilochus",
+    "models": 1,
+    "prices": {
+      "GBP": 34,
+      "USD": 55.5,
+      "EUR": 43.5,
+      "AUD": 94,
+      "CAD": 66.5,
+      "PLN": 185,
+      "CHF": 43.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101450_UltramarinesMarneusCalgarArmourAntilochus1.jpg",
+    "year": 2025
+  }
+}

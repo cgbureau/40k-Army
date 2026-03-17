@@ -1,0 +1,66 @@
+{
+  "imperial-agents-deathwatch-captain-artemis-2024": {
+    "display_name": "Watch Captain Artemis",
+    "slug_short": "imperial-agents-deathwatch-captain-artemis",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 40,
+      "EUR": 32.5,
+      "AUD": 70,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070109002_CPTArtemisMTO2.jpg",
+    "year": 2024
+  },
+  "deathwatch-watch-master-2020": {
+    "display_name": "Watch Master",
+    "slug_short": "deathwatch-watch-master",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 42,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070109003_DeathwatchWatchmaster01.jpg",
+    "year": 2020
+  },
+  "deathwatch-corvus-blackstar-2020": {
+    "display_name": "Corvus Blackstar",
+    "slug_short": "deathwatch-corvus-blackstar",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 144,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120109002_CorvusBlackstar01.jpg",
+    "year": 2020
+  },
+  "kill-team-deathwatch-2025": {
+    "display_name": "Kill Team: Deathwatch",
+    "slug_short": "kill-team-deathwatch",
+    "models": 5,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 118,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108119_KTDeathwatch01.jpg",
+    "year": 2025
+  }
+}

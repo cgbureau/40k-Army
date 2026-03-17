@@ -1,0 +1,336 @@
+{
+  "combat-patrol-space-wolves-2025": {
+    "display_name": "Combat Patrol: Space Wolves",
+    "slug_short": "combat-patrol-space-wolves",
+    "models": 21,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101426_SpaceWolvesCombatPatrol1.jpg",
+    "year": 2025
+  },
+  "space-wolves-arjac-rockfist-2025": {
+    "display_name": "Arjac Rockfist",
+    "slug_short": "space-wolves-arjac-rockfist",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101439_SpaceWolvesArjacRockfist1.jpg",
+    "year": 2025
+  },
+  "space-wolves-wolf-guard-terminators-2025": {
+    "display_name": "Wolf Guard Terminators",
+    "slug_short": "space-wolves-wolf-guard-terminators",
+    "models": 5,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101441_SpaceWolvesWolfGuardTerminators1.jpg",
+    "year": 2025
+  },
+  "space-wolves-logan-grimnar-2025": {
+    "display_name": "Logan Grimnar",
+    "slug_short": "space-wolves-logan-grimnar",
+    "models": 1,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101438_SpaceWolvesLoganGrimnar1.jpg",
+    "year": 2025
+  },
+  "ragnar-blackmane-2020": {
+    "display_name": "Ragnar Blackmane",
+    "slug_short": "ragnar-blackmane",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101275_RagnarBlackmaneLead.jpg",
+    "year": 2020
+  },
+  "space-wolves-wolf-priest-2025": {
+    "display_name": "Wolf Priest",
+    "slug_short": "space-wolves-wolf-priest",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 74,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101435_SpaceWolvesWolfPriest1.jpg",
+    "year": 2025
+  },
+  "space-wolves-wolf-guard-battle-leader-2025": {
+    "display_name": "Wolf Guard Battle Leader",
+    "slug_short": "space-wolves-wolf-guard-battle-leader",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101436_SpaceWolvesWolfGuardBattleLeader1.jpg",
+    "year": 2025
+  },
+  "space-wolves-blood-claws-2025": {
+    "display_name": "Blood Claws",
+    "slug_short": "space-wolves-blood-claws",
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101434_SpaceWolvesBloodClaws1.jpg",
+    "year": 2025
+  },
+  "space-wolves-njal-stormcaller-2025": {
+    "display_name": "Njal Stormcaller",
+    "slug_short": "space-wolves-njal-stormcaller",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101440_SpaceWolvesNjalStormcaller1.jpg",
+    "year": 2025
+  },
+  "space-wolves-wolf-guard-headtakers-2025": {
+    "display_name": "Wolf Guard Headtakers",
+    "slug_short": "space-wolves-wolf-guard-headtakers",
+    "models": 6,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101437_SpaceWolvesWolfGuardHeadtakers1.jpg",
+    "year": 2025
+  },
+  "space-wolves-grey-hunters-2025": {
+    "display_name": "Grey Hunters",
+    "slug_short": "space-wolves-grey-hunters",
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101433_SpaceWolvesGreyHuntersSquad1.jpg",
+    "year": 2025
+  },
+  "space-wolves-venerable-dreadnought-2020": {
+    "display_name": "Space Wolves Venerable Dreadnought",
+    "slug_short": "space-wolves-venerable-dreadnought",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 98,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101116_SWVenerableDread01.jpg",
+    "year": 2020
+  },
+  "space-wolves-ulrik-the-slayer-2020": {
+    "display_name": "Ulrik the Slayer",
+    "slug_short": "space-wolves-ulrik-the-slayer",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 66,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101019_UlrikTheSlayer01.jpg",
+    "year": 2020
+  },
+  "space-wolves-iron-priest-2020": {
+    "display_name": "Iron Priest",
+    "slug_short": "space-wolves-iron-priest",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 66,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101018_SpaceWolvesIronPriest01.jpg",
+    "year": 2020
+  },
+  "fenrisian-wolves-2020": {
+    "display_name": "Fenrisian Wolves",
+    "slug_short": "fenrisian-wolves",
+    "models": 5,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101252_FenrisianWolvesLead.jpg",
+    "year": 2020
+  },
+  "murderfang-2020": {
+    "display_name": "Murderfang",
+    "slug_short": "murderfang",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101116_Murderfang01.jpg",
+    "year": 2020
+  },
+  "bjorn-the-fellhanded-2020": {
+    "display_name": "Bjorn the Fell-handed",
+    "slug_short": "bjorn-the-fellhanded",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101116_BornFellhanded01.jpg",
+    "year": 2020
+  },
+  "thunderwolf-cavalry-2020": {
+    "display_name": "Thunderwolf Cavalry",
+    "slug_short": "thunderwolf-cavalry",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101091_ThunderwolfCavalryNEW01.jpg",
+    "year": 2020
+  },
+  "space-wolves-wulfen-2020": {
+    "display_name": "Wulfen",
+    "slug_short": "space-wolves-wulfen",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101140_SpaceWolvesWulfen01.jpg",
+    "year": 2020
+  },
+  "wulfen-dreadnought-2025": {
+    "display_name": "Wulfen Dreadnought",
+    "slug_short": "wulfen-dreadnought",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 98,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101116_Murderfang01.jpg",
+    "year": 2025
+  },
+  "kill-team-wolf-scouts-2026": {
+    "display_name": "Kill Team: Wolf Scouts",
+    "slug_short": "kill-team-wolf-scouts",
+    "models": 6,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 118,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101457_KTWolfScouts01.jpg",
+    "year": 2026
+  }
+}
