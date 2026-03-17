@@ -1,7 +1,39 @@
 {
-  "callidus_assassin": "callidus-assassin",
-  "culexus_assassin": "culexus-assassin",
-  "eversor_assassin": "eversor-assassin",
-  "rogue_trader_entourage": "rogue-trader",
-  "vindicare_assassin": "vindicare-assassin"
+  "callidus_assassin": "imperial-agents-callidus-assassin-2024",
+  "culexus_assassin": "imperial-agents-culexus-assassin-2024",
+  "eversor_assassin": "imperial-agents-eversor-assassin-2024",
+  "vindicare_assassin": "imperial-agents-vindicare-assassin-2024",
+
+  "corvus_blackstar": "deathwatch-corvus-blackstar-2020",
+  "watch_master": "deathwatch-watch-master-2020",
+  "watch_captain_artemis": "imperial-agents-deathwatch-captain-artemis-2024",
+
+  "inquisitor_coteaz": "inquisitor-coteaz-and-the-glodovan-eagle-2024",
+  "inquisitor_draxus": "imperial-agents-inquisitor-draxus-2024",
+  "inquisitor_greyfax": "imperial-agents-inquisitor-greyfax-2024",
+  "inquisitor_eisenhorn": "eisenhorn-2018",
+  "inquisitor_ostromandeus": "warhammer-plus-inquisitor-ostromandeus-2024-year-4",
+
+  "navigator": "imperial-agents-navigator-2024",
+  "ministorum_priest": "adepta-sororitas-ministorum-priest-2024",
+
+  "imperial_navy_breachers": "kill-team-imperial-navy-breachers-2024",
+  "exaction_squad": "kill-team-exaction-squad-2024",
+  "sanctifiers": "kill-team-sanctifiers-2025",
+
+  "rogue_trader_entourage": "imperial-agents-rogue-trader-entourage-and-voidsmen-at-arm-2024",
+  "voidsmen_at_arms": "imperial-agents-rogue-trader-entourage-and-voidsmen-at-arm-2024",
+  
+  "grey_knights_terminator_squad": "grey-knights-terminators-2017",
+
+  "sisters_of_battle_squad": "adepta-sororitas-battle-sisters-squad-2020",
+
+  "inquisitorial_agents": "kill-team-inquisitorial-agents-2024",
+
+  "subductor_squad": "kill-team-exaction-squad-2024",
+
+  "vigilant_squad": "kill-team-exaction-squad-2024",
+
+  "aquila_kill_team": "kill-team-inquisitorial-agents-2024"
+
 }

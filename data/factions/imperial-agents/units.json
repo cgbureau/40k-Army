@@ -39,7 +39,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "damned_legionnaires",
@@ -47,7 +48,8 @@
       "points": 90,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "deathwatch_kill_team",
@@ -119,7 +121,8 @@
       "points": 0,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "inquisitor_coteaz",
@@ -159,7 +162,8 @@
       "points": 70,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "inquisitor_karamazov",
@@ -167,7 +171,8 @@
       "points": 140,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "inquisitor_ostromandeus",
@@ -175,7 +180,8 @@
       "points": 65,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "inquisitorial_agents",
@@ -191,7 +197,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "jokaero_weaponsmith",
@@ -199,7 +206,8 @@
       "points": 30,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "kill_team_cassius",
@@ -231,7 +239,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "proteus_kill_team",
@@ -287,7 +296,8 @@
       "points": 55,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "veteran_bike_squad",

@@ -1,42 +1,400 @@
 {
-  "callidus-assassin": {
-    "models": 1,
+  "combat-patrol-imperial-agents-2024": {
+    "display_name": "Combat Patrol: Imperial Agents",
+    "slug_short": "combat-patrol-imperial-agents",
+    "models": 33,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108101_IACP1.jpg",
+    "year": 2024
   },
-  "culexus-assassin": {
+  "imperial-guard-chimera": {
+    "display_name": "Chimera",
+    "slug_short": "imperial-guard-chimera",
     "models": 1,
     "prices": {
       "GBP": 40,
       "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "EUR": 51.25,
+      "AUD": 84,
+      "CAD": 80,
+      "PLN": 220,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105114_AMChimera1.jpg"
   },
-  "eversor-assassin": {
+  "deathwatch-watch-master-2020": {
+    "display_name": "Watch Master",
+    "slug_short": "deathwatch-watch-master",
     "models": 1,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 42,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070109003_DeathwatchWatchmaster01.jpg",
+    "year": 2020
   },
-  "vindicare-assassin": {
+  "deathwatch-corvus-blackstar-2020": {
+    "display_name": "Corvus Blackstar",
+    "slug_short": "deathwatch-corvus-blackstar",
     "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 144,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120109002_CorvusBlackstar01.jpg",
+    "year": 2020
+  },
+  "space-marines-rhino-2020": {
+    "display_name": "Rhino",
+    "slug_short": "space-marines-rhino",
+    "models": 1,
+    "prices": {
+      "GBP": 36,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 68,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101063_SpaceMarineRhinoNEW01.jpg",
+    "year": 2020
+  },
+  "eisenhorn-2018": {
+    "display_name": "Eisenhorn",
+    "slug_short": "eisenhorn",
+    "models": 1,
+    "prices": {
+      "GBP": 24,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 65,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99810181001_Eisenhorn01.jpg",
+    "year": 2018
+  },
+  "adepta-sororitas-immolator-2020": {
+    "display_name": "Immolator",
+    "slug_short": "adepta-sororitas-immolator",
+    "models": 1,
+    "prices": {
+      "GBP": 52.5,
+      "USD": 84,
+      "EUR": 67.5,
+      "AUD": 140,
+      "CAD": 100,
+      "PLN": 295,
+      "CHF": 67.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108025_SoBImmolatorLead.jpg",
+    "year": 2020
+  },
+  "adepta-sororitas-battle-sisters-squad-2020": {
+    "display_name": "Adepta Sororitas Battle Sisters Squad",
+    "slug_short": "adepta-sororitas-battle-sisters-squad",
+    "models": 11,
     "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108033_SoBSquad01.jpg",
+    "year": 2020
+  },
+  "grey-knights-terminators-2017": {
+    "display_name": "Grey Knights Brotherhood Terminator Squad",
+    "slug_short": "grey-knights-terminators",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 99,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107001_TerminatorsNEW01.jpg",
+    "year": 2017
+  },
+  "kill-team-sanctifiers-2025": {
+    "display_name": "Kill Team: Sanctifiers",
+    "slug_short": "kill-team-sanctifiers",
+    "models": 11,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108116_KillTeamSanctifiers01.jpg",
+    "year": 2025
+  },
+  "kill-team-exaction-squad-2024": {
+    "display_name": "Kill Team: Exaction Squad",
+    "slug_short": "kill-team-exaction-squad",
+    "models": 10,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108109_KTExactionSquad2.jpg",
+    "year": 2024
+  },
+  "kill-team-imperial-navy-breachers-2024": {
+    "display_name": "Kill Team: Imperial Navy Breachers",
+    "slug_short": "kill-team-imperial-navy-breachers",
+    "models": 12,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108108_KTNavyBreachers2.jpg",
+    "year": 2024
+  },
+  "inquisitor-coteaz-and-the-glodovan-eagle-2024": {
+    "display_name": "Inquisitor Coteaz",
+    "slug_short": "inquisitor-coteaz-and-the-glodovan-eagle",
+    "models": 2,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108087_IAInquisitorCoteazGlodovanEagle1.jpg",
+    "year": 2024
+  },
+  "adepta-sororitas-ministorum-priest-2024": {
+    "display_name": "Ministorum Priest",
+    "slug_short": "adepta-sororitas-ministorum-priest",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 60,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108011_ASMinistorumPriest01.jpg",
+    "year": 2024
+  },
+  "imperial-agents-navigator-2024": {
+    "display_name": "Navigator",
+    "slug_short": "imperial-agents-navigator",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 60,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108014_Navigator1.jpg",
+    "year": 2024
+  },
+  "imperial-agents-deathwatch-captain-artemis-2024": {
+    "display_name": "Watch Captain Artemis",
+    "slug_short": "imperial-agents-deathwatch-captain-artemis",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 40,
+      "EUR": 32.5,
+      "AUD": 70,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070109002_CPTArtemisMTO2.jpg",
+    "year": 2024
+  },
+  "imperial-agents-callidus-assassin-2024": {
+    "display_name": "Callidus Assassin",
+    "slug_short": "imperial-agents-callidus-assassin",
+    "models": 1,
+    "prices": {
+      "GBP": 23.5,
+      "USD": 36.5,
+      "EUR": 31,
+      "AUD": 62,
+      "CAD": 45.5,
+      "PLN": 130,
+      "CHF": 31
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108003_CallidusAssassin01.jpg",
+    "year": 2024
+  },
+  "imperial-agents-vindicare-assassin-2024": {
+    "display_name": "Vindicare Assassin",
+    "slug_short": "imperial-agents-vindicare-assassin",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 67,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108001_VindicareAssassin01.jpg",
+    "year": 2024
+  },
+  "imperial-agents-culexus-assassin-2024": {
+    "display_name": "Culexus Assassin",
+    "slug_short": "imperial-agents-culexus-assassin",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 67,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108002_CulexusAssassin01.jpg",
+    "year": 2024
+  },
+  "imperial-agents-eversor-assassin-2024": {
+    "display_name": "Eversor Assassin",
+    "slug_short": "imperial-agents-eversor-assassin",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 67,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108004_EversorAssassin01.jpg",
+    "year": 2024
+  },
+  "imperial-agents-inquisitor-greyfax-2024": {
+    "display_name": "Inquisitor Greyfax",
+    "slug_short": "imperial-agents-inquisitor-greyfax",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108008_TriumvirateoftheImperium04.jpg",
+    "year": 2024
+  },
+  "imperial-agents-inquisitor-draxus-2024": {
+    "display_name": "Lord Inquisitor Kyria Draxus",
+    "slug_short": "imperial-agents-inquisitor-draxus",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108043_INQOXLordInqKyriaDraxusLead.jpg",
+    "year": 2024
+  },
+  "imperial-agents-rogue-trader-entourage-and-voidsmen-at-arm-2024": {
+    "display_name": "Rogue Trader Entourage and Voidsmen-at-Arms",
+    "slug_short": "imperial-agents-rogue-trader-entourage-and-voidsmen-at-arm",
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108113_RTEntourageVoidsmen1.jpg",
+    "year": 2024
+  },
+  "warhammer-plus-inquisitor-ostromandeus-2024-year-4": {
+    "display_name": "Warhammer+ Year 4: Imperial Agents \u2013 Inquisitor Ostromandeus",
+    "slug_short": "warhammer-plus-inquisitor-ostromandeus-2024-year-4",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 74,
+      "CAD": 53,
+      "PLN": 150,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108107_PROMOWHInquisitorOstromandeus01.jpg"
+  },
+  "kill-team-inquisitorial-agents-2024": {
+    "display_name": "Kill Team: Inquisitorial Agents",
+    "slug_short": "kill-team-inquisitorial-agents",
+    "models": 7,
+    "prices": {
+      "GBP": 36,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 100,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199056_KT2AshesOfFaith02.jpg",
+    "year": 2024
   }
 }
