@@ -1,1 +1,253 @@
-{}
+{
+  "imperial-knights-knight-questoris-2025": {
+    "display_name": "Knight Questoris",
+    "slug_short": "imperial-knights-knight-questoris",
+    "models": 1,
+    "prices": {
+      "GBP": 115,
+      "USD": 194,
+      "EUR": 150,
+      "AUD": 235,
+      "CAD": 230,
+      "PLN": 640,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108105_IKKnightQuestorisLEADDefender.jpg",
+    "year": 2025
+  },
+  "imperial-knights-knight-preceptor-canis-rex-2025": {
+    "display_name": "Knight Preceptor/Canis Rex",
+    "slug_short": "imperial-knights-knight-preceptor-canis-rex",
+    "models": 1,
+    "prices": {
+      "GBP": 115,
+      "USD": 194,
+      "EUR": 150,
+      "AUD": 235,
+      "CAD": 230,
+      "PLN": 640,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108106_ImperialKnightPreceptorCanisRex1upd.jpg",
+    "year": 2025
+  },
+  "imperial-knights-knight-armigers-armiger-warglaive-2022": {
+    "display_name": "Armiger Warglaives",
+    "slug_short": "imperial-knights-knight-armigers-armiger-warglaive",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108019_ImperialKnightsArmiger01.jpg",
+    "year": 2022
+  },
+  "imperial-knights-knight-dominus-knight-castellan-2022": {
+    "display_name": "Knight Castellan",
+    "slug_short": "imperial-knights-knight-dominus-knight-castellan",
+    "models": 1,
+    "prices": {
+      "GBP": 118,
+      "USD": 195,
+      "EUR": 150,
+      "AUD": 330,
+      "CAD": 235,
+      "PLN": 650,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108016_IKCastellan01.jpg",
+    "year": 2022
+  },
+  "imperial-knights-knight-dominus-knight-valiant-2022": {
+    "display_name": "Knight Valiant",
+    "slug_short": "imperial-knights-knight-dominus-knight-valiant",
+    "models": 1,
+    "prices": {
+      "GBP": 118,
+      "USD": 195,
+      "EUR": 150,
+      "CAD": 235,
+      "PLN": 650,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108018_ImperialKnightValiant01.jpg",
+    "year": 2022
+  },
+  "imperial-knights-knight-armigers-armiger-helverin-2022": {
+    "display_name": "Armiger Helverins",
+    "slug_short": "imperial-knights-knight-armigers-armiger-helverin",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108015_IKArmigerHelverins01.jpg",
+    "year": 2022
+  },
+  "mechanicum-knight-moirax-with-volkite-veulglaire-fw-2020": {
+    "display_name": "Mechanicum Knight Moirax with Volkite Veuglaire and Gyges Siege Claw",
+    "slug_short": "mechanicum-knight-moirax-with-volkite-veulglaire-fw",
+    "models": 1,
+    "prices": {
+      "GBP": 48.5,
+      "USD": 75,
+      "EUR": 60,
+      "AUD": 109,
+      "CAD": 93,
+      "PLN": 265,
+      "CHF": 60
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108213_MECKnightMoiraxwithVolkiteVeuglaireGygesSiegeClaw01.jpg",
+    "year": 2020
+  },
+  "horus-heresy-cerastus-knight-acheron-2023": {
+    "display_name": "Cerastus Knight Acheron",
+    "slug_short": "horus-heresy-cerastus-knight-acheron",
+    "models": 1,
+    "prices": {
+      "GBP": 129,
+      "USD": 215,
+      "EUR": 170,
+      "AUD": 360,
+      "CAD": 260,
+      "PLN": 710,
+      "CHF": 170
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123008006_HHCerastusKnightAcheron01.jpg",
+    "year": 2023
+  },
+  "horus-heresy-cerastus-knight-castigator-2023": {
+    "display_name": "Cerastus Knight Castigator",
+    "slug_short": "horus-heresy-cerastus-knight-castigator",
+    "models": 1,
+    "prices": {
+      "GBP": 129,
+      "USD": 215,
+      "EUR": 170,
+      "AUD": 360,
+      "CAD": 260,
+      "PLN": 710,
+      "CHF": 170
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123008005_HHCerastusKnightCastigator01.jpg",
+    "year": 2023
+  },
+  "horus-heresy-cerastus-knight-lancer-2023": {
+    "display_name": "Cerastus Knight Lancer",
+    "slug_short": "horus-heresy-cerastus-knight-lancer",
+    "models": 1,
+    "prices": {
+      "GBP": 129,
+      "USD": 215,
+      "EUR": 170,
+      "AUD": 360,
+      "CAD": 260,
+      "PLN": 710,
+      "CHF": 170
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123008004_HHCerastusKnightLancer01.jpg",
+    "year": 2023
+  },
+  "knight-moirax-with-lightning-locks-2019": {
+    "display_name": "Mechanicum Knight Moirax with Lightning Locks",
+    "slug_short": "knight-moirax-with-lightning-locks",
+    "models": 1,
+    "prices": {
+      "GBP": 48.5,
+      "USD": 75,
+      "EUR": 60,
+      "AUD": 109,
+      "CAD": 93,
+      "PLN": 265,
+      "CHF": 60
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108211_MECKnightMoiraxwithLightningLocks01.jpg",
+    "year": 2019
+  },
+  "mechanicum-acastus-knight-asterius-2019": {
+    "display_name": "Acastus Knight Asterius",
+    "slug_short": "mechanicum-acastus-knight-asterius",
+    "models": 1,
+    "prices": {
+      "GBP": 431.5,
+      "USD": 660,
+      "EUR": 525,
+      "AUD": 911,
+      "CAD": 815,
+      "PLN": 2270,
+      "CHF": 525
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108209_AcastusKnightAsterius01.jpg",
+    "year": 2019
+  },
+  "acastus-knight-porphyrion": {
+    "display_name": "Acastus Knight Porphyrion",
+    "slug_short": "acastus-knight-porphyrion",
+    "models": 1,
+    "prices": {
+      "GBP": 463.5,
+      "USD": 710,
+      "EUR": 565,
+      "AUD": 1030,
+      "CAD": 880,
+      "PLN": 2525,
+      "CHF": 565
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108172_AcastusKnightPorphyrion01.jpg"
+  },
+  "mechanicum-cerastus-knight-atrapos": {
+    "display_name": "Mechanicum Cerastus Knight-Atrapos",
+    "slug_short": "mechanicum-cerastus-knight-atrapos",
+    "models": 1,
+    "prices": {
+      "GBP": 243.5,
+      "USD": 370,
+      "EUR": 295,
+      "AUD": 539,
+      "CAD": 460,
+      "PLN": 1330,
+      "CHF": 295
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108146_MechanicumCerastusKnightAtrapos01.jpg"
+  },
+  "questoris-knight-styrix": {
+    "display_name": "Questoris Knight Styrix",
+    "slug_short": "questoris-knight-styrix",
+    "models": 1,
+    "prices": {
+      "GBP": 163.5,
+      "USD": 250,
+      "EUR": 200,
+      "AUD": 348,
+      "CAD": 310,
+      "PLN": 895,
+      "CHF": 200
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108122_QuestorisKnightStyrix01.jpg"
+  },
+  "questoris-knight-magaera": {
+    "display_name": "Questoris Knight Magaera",
+    "slug_short": "questoris-knight-magaera",
+    "models": 1,
+    "prices": {
+      "GBP": 163.5,
+      "USD": 250,
+      "EUR": 200,
+      "AUD": 348,
+      "CAD": 310,
+      "PLN": 895,
+      "CHF": 200
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108120_QuestorisKnightMagaera01.jpg"
+  }
+}

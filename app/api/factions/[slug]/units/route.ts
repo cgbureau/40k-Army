@@ -1,6 +1,9 @@
 import { NextResponse } from "next/server";
+import { unstable_noStore } from "next/cache";
 import fs from "fs";
 import path from "path";
+
+const isDev = process.env.NODE_ENV === "development";
 
 // Same path build-all-factions.js / build-faction-dataset.js write to:
 // data/factions/{slug}/units.json (relative to app root = warhammer-calculator)
@@ -8,6 +11,8 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const FACTIONS_DIR = path.join(DATA_DIR, "factions");
 
 type Params = { params: Promise<{ slug: string }> };
+
+export const dynamic = "force-dynamic";
 
 function getValidFactionSlugs(): string[] {
   if (!fs.existsSync(FACTIONS_DIR)) return [];
@@ -20,6 +25,7 @@ function getValidFactionSlugs(): string[] {
 
 export async function GET(_request: Request, { params }: Params) {
   try {
+    unstable_noStore();
     const { slug } = await params;
 
     if (!slug?.trim()) {
@@ -41,25 +47,27 @@ export async function GET(_request: Request, { params }: Params) {
     }
 
     const unitsPath = path.join(FACTIONS_DIR, safeSlug, "units.json");
-
-    const raw = fs.readFileSync(unitsPath, "utf8");
+    const raw = fs.readFileSync(unitsPath, {
+      encoding: "utf8",
+      flag: "r",
+    });
 
     let data;
 
     try {
-      data = JSON.parse(raw);
+      data = JSON.parse(String(raw));
     } catch {
       return NextResponse.json(
         { error: "Faction data invalid" },
         { status: 500 }
       );
     }
-
     return new NextResponse(JSON.stringify(data), {
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control":
-          "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400",
+        "Cache-Control": isDev
+          ? "no-store"
+          : "public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400",
       },
     });
   } catch (err) {

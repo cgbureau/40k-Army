@@ -7,7 +7,8 @@
       "points": 765,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "acastus_knight_porphyrion",
@@ -15,7 +16,8 @@
       "points": 700,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "armiger_helverin",
@@ -31,7 +33,8 @@
       "points": 150,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "armiger_warglaive",
@@ -55,7 +58,8 @@
       "points": 395,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "cerastus_knight_atrapos",
@@ -63,7 +67,8 @@
       "points": 405,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "cerastus_knight_castigator",
@@ -71,7 +76,8 @@
       "points": 395,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "cerastus_knight_lancer",
@@ -79,7 +85,8 @@
       "points": 395,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "knight_castellan",
@@ -159,7 +166,8 @@
       "points": 385,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "questoris_knight_styrix",
@@ -167,55 +175,8 @@
       "points": 385,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sir_hekhtur",
-      "name": "Sir Hekhtur",
-      "points": 0,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "skitarii_marshal",
-      "name": "Skitarii Marshal",
-      "points": 35,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "skitarii_rangers",
-      "name": "Skitarii Rangers",
-      "points": 85,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "skitarii_vanguard",
-      "name": "Skitarii Vanguard",
-      "points": 95,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "tech_priest_dominus",
-      "name": "Tech-priest Dominus",
-      "points": 65,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "tech_priest_manipulus",
-      "name": "Tech-priest Manipulus",
-      "points": 60,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     }
   ]
 }

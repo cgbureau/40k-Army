@@ -1,3 +1,30 @@
 {
-  "knight_castellan": "castellan"
+  "armiger_warglaive": "imperial-knights-knight-armigers-armiger-warglaive-2022",
+  "armiger_helverin": "imperial-knights-knight-armigers-armiger-helverin-2022",
+  "knight_castellan": "imperial-knights-knight-dominus-knight-castellan-2022",
+  "knight_valiant": "imperial-knights-knight-dominus-knight-valiant-2022",
+  "canis_rex": "imperial-knights-knight-preceptor-canis-rex-2025",
+
+  "acastus_knight_asterius": "mechanicum-acastus-knight-asterius-2019",
+  "acastus_knight_porphyrion": "acastus-knight-porphyrion",
+
+  "cerastus_knight_acheron": "horus-heresy-cerastus-knight-acheron-2023",
+  "cerastus_knight_castigator": "horus-heresy-cerastus-knight-castigator-2023",
+  "cerastus_knight_lancer": "horus-heresy-cerastus-knight-lancer-2023",
+
+  "cerastus_knight_atrapos": "mechanicum-cerastus-knight-atrapos",
+
+  "knight_crusader": "imperial-knights-knight-questoris-2025",
+  "knight_errant": "imperial-knights-knight-questoris-2025",
+  "knight_gallant": "imperial-knights-knight-questoris-2025",
+  "knight_paladin": "imperial-knights-knight-questoris-2025",
+  "knight_preceptor": "imperial-knights-knight-questoris-2025",
+  "knight_warden": "imperial-knights-knight-questoris-2025",
+  "knight_defender": "imperial-knights-knight-questoris-2025",
+
+  "questoris_knight_magaera": "questoris-knight-magaera",
+  "questoris_knight_styrix": "questoris-knight-styrix",
+
+  "armiger_moirax": "mechanicum-knight-moirax-with-volkite-veulglaire-fw-2020"
+
 }
