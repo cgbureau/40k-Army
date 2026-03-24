@@ -15,6 +15,7 @@ import adeptusMechanicusKitMappings from "../../data/kit-mappings/adeptus-mechan
 import aeldariKitMappings from "../../data/kit-mappings/aeldari.json";
 import astraMilitarumKitMappings from "../../data/kit-mappings/astra-militarum.json";
 import chaosDaemonsKitMappings from "../../data/kit-mappings/chaos-daemons.json";
+import chaosKnightsKitMappings from "../../data/kit-mappings/chaos-knights.json";
 import chaosSpaceMarinesKitMappings from "../../data/kit-mappings/chaos-space-marines.json";
 import custodesKitMappings from "../../data/kit-mappings/custodes.json";
 import deathGuardKitMappings from "../../data/kit-mappings/death-guard.json";
@@ -39,6 +40,7 @@ import adeptusMechanicusKits from "../../data/kits/adeptus-mechanicus.json";
 import aeldariKits from "../../data/kits/aeldari.json";
 import astraMilitarumKits from "../../data/kits/astra-militarum.json";
 import chaosDaemonsKits from "../../data/kits/chaos-daemons.json";
+import chaosKnightsKits from "../../data/kits/chaos-knights.json";
 import chaosSpaceMarinesKits from "../../data/kits/chaos-space-marines.json";
 import custodesKits from "../../data/kits/custodes.json";
 import deathGuardKits from "../../data/kits/death-guard.json";
@@ -184,6 +186,10 @@ const KIT_MAPPINGS_REGISTRY: Record<
     string,
     string | string[]
   >,
+  "chaos-knights": chaosKnightsKitMappings as Record<
+    string,
+    string | string[]
+  >,
   "chaos-space-marines": chaosSpaceMarinesKitMappings as Record<
     string,
     string | string[]
@@ -249,6 +255,10 @@ const KIT_REGISTRY: Record<
     { models?: number | null; prices?: Unit["prices"] | null }
   >,
   "chaos-daemons": chaosDaemonsKits as Record<
+    string,
+    { models?: number | null; prices?: Unit["prices"] | null }
+  >,
+  "chaos-knights": chaosKnightsKits as Record<
     string,
     { models?: number | null; prices?: Unit["prices"] | null }
   >,

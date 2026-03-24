@@ -1,0 +1,318 @@
+{
+  "chaos-knights-chaos-knight-ruinator-2025": {
+    "display_name": "Knight Ruinator",
+    "slug_short": "chaos-knights-chaos-knight-ruinator",
+    "models": 1,
+    "prices": {
+      "GBP": 120,
+      "USD": 200,
+      "EUR": 155,
+      "AUD": 245,
+      "CAD": 240,
+      "PLN": 660,
+      "CHF": 155
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102191_CKKnightRuinator01.jpg",
+    "year": 2025
+  },
+  "war-dog-huntsman-2022": {
+    "display_name": "War Dog Huntsmen",
+    "slug_short": "war-dog-huntsman",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108080_CKWardogHuntsmanLead.jpg",
+    "year": 2022
+  },
+  "war-dog-executioner-2022": {
+    "display_name": "War Dog Executioners",
+    "slug_short": "war-dog-executioner",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108080_CKWardogExecutionerLead.jpg",
+    "year": 2022
+  },
+  "chaos-knights-war-dog-stalker-2022": {
+    "display_name": "War Dog Stalkers",
+    "slug_short": "chaos-knights-war-dog-stalker",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102139_CKWarDogStalkerLead.jpg",
+    "year": 2022
+  },
+  "chaos-knights-war-dog-brigand-2022": {
+    "display_name": "War Dog Brigands",
+    "slug_short": "chaos-knights-war-dog-brigand",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102139_CKWarDogBrigandLead.jpg",
+    "year": 2022
+  },
+  "chaos-knights-war-dog-karnivore-2022": {
+    "display_name": "War Dog Karnivores",
+    "slug_short": "chaos-knights-war-dog-karnivore",
+    "models": 2,
+    "prices": {
+      "GBP": 60,
+      "USD": 100,
+      "EUR": 80,
+      "AUD": 165,
+      "CAD": 120,
+      "PLN": 330,
+      "CHF": 80
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102139_CKWarDogKarnivoreLead.jpg",
+    "year": 2022
+  },
+  "imperial-knights-knight-dominus-knight-tyrant-2022": {
+    "display_name": "Knight Tyrant",
+    "slug_short": "imperial-knights-knight-dominus-knight-tyrant",
+    "models": 1,
+    "prices": {
+      "GBP": 118,
+      "USD": 195,
+      "EUR": 150, 
+      "AUD": 235,
+      "CAD": 235,
+      "PLN": 650,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108016_KnightTyrant.jpg",
+    "year": 2022
+  },
+  "imperial-knights-knight-questoris-2025": {
+    "display_name": "Knight Questoris",
+    "slug_short": "imperial-knights-knight-questoris",
+    "models": 1,
+    "prices": {
+      "GBP": 115,
+      "USD": 194,
+      "EUR": 150,
+      "AUD": 235,
+      "CAD": 230,
+      "PLN": 640,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108105_IKKnightQuestorisLEADDefender.jpg",
+    "year": 2025
+  },
+  "horus-heresy-cerastus-knight-acheron-2023": {
+    "display_name": "Cerastus Knight Acheron",
+    "slug_short": "horus-heresy-cerastus-knight-acheron",
+    "models": 1,
+    "prices": {
+      "GBP": 129,
+      "USD": 215,
+      "EUR": 170,
+      "AUD": 360,
+      "CAD": 260,
+      "PLN": 710,
+      "CHF": 170
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123008006_HHCerastusKnightAcheron01.jpg",
+    "year": 2023
+  },
+  "horus-heresy-cerastus-knight-castigator-2023": {
+    "display_name": "Cerastus Knight Castigator",
+    "slug_short": "horus-heresy-cerastus-knight-castigator",
+    "models": 1,
+    "prices": {
+      "GBP": 129,
+      "USD": 215,
+      "EUR": 170,
+      "AUD": 360,
+      "CAD": 260,
+      "PLN": 710,
+      "CHF": 170
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123008005_HHCerastusKnightCastigator01.jpg",
+    "year": 2023
+  },
+  "horus-heresy-cerastus-knight-lancer-2023": {
+    "display_name": "Cerastus Knight Lancer",
+    "slug_short": "horus-heresy-cerastus-knight-lancer",
+    "models": 1,
+    "prices": {
+      "GBP": 129,
+      "USD": 215,
+      "EUR": 170,
+      "AUD": 360,
+      "CAD": 260,
+      "PLN": 710,
+      "CHF": 170
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99123008004_HHCerastusKnightLancer01.jpg",
+    "year": 2023
+  },
+  "MECHANICUM-KNIGHT-MOIRAX-WITH-VOLKITE-VEULGLAIRE-FW-2020": {
+    "display_name": "Mechanicum Knight Moirax with Volkite Veuglaire and Gyges Siege Claw",
+    "slug_short": "MECHANICUM-KNIGHT-MOIRAX-WITH-VOLKITE-VEULGLAIRE-FW",
+    "models": 1,
+    "prices": {
+      "GBP": 48.5,
+      "USD": 75,
+      "EUR": 60,
+      "AUD": 109,
+      "CAD": 93,
+      "PLN": 265,
+      "CHF": 60
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108213_MECKnightMoiraxwithVolkiteVeuglaireGygesSiegeClaw01.jpg",
+    "year": 2020
+  },
+  "Mechanicum-Knight-Moirax-Graviton-Pulsar-2019": {
+    "display_name": "Mechanicum Knight Moirax Graviton Pulsar",
+    "slug_short": "Mechanicum-Knight-Moirax-Graviton-Pulsar",
+    "models": 1,
+    "prices": {
+      "GBP": 17.5,
+      "USD": 28,
+      "EUR": 22,
+      "AUD": 39,
+      "CAD": 34,
+      "PLN": 100,
+      "CHF": 22
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550108215_KnightMoiraxGravitonPulsar01.jpg",
+    "year": 2019
+  },
+  "Mechanicum-Knight-Conversion-Beam-Cannon-2019": {
+    "display_name": "Mechanicum Knight Moirax Conversion Beam Cannon",
+    "slug_short": "Mechanicum-Knight-Conversion-Beam-Cannon",
+    "models": 1,
+    "prices": {
+      "GBP": 17,
+      "USD": 28,
+      "EUR": 22,
+      "AUD": 39,
+      "CAD": 34,
+      "PLN": 100,
+      "CHF": 22
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550108212_KnightConversionBeamCannon01.jpg",
+    "year": 2019
+  },
+  "Knight-Moirax-with-Lightning-Locks-2019": {
+    "display_name": "Mechanicum Knight Moirax with Lightning Locks",
+    "slug_short": "Knight-Moirax-with-Lightning-Locks",
+    "models": 1,
+    "prices": {
+      "GBP": 48.5,
+      "USD": 75,
+      "EUR": 60,
+      "AUD": 109,
+      "CAD": 93,
+      "PLN": 265,
+      "CHF": 60
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108211_MECKnightMoiraxwithLightningLocks01.jpg",
+    "year": 2019
+  },
+  "Mechanicum-Acastus-Knight-Asterius-2019": {
+    "display_name": "Acastus Knight Asterius",
+    "slug_short": "Mechanicum-Acastus-Knight-Asterius",
+    "models": 1,
+    "prices": {
+      "GBP": 431.5,
+      "USD": 660,
+      "EUR": 525,
+      "AUD": 911,
+      "CAD": 815,
+      "PLN": 2270,
+      "CHF": 525
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108209_AcastusKnightAsterius01.jpg",
+    "year": 2019
+  },
+  "Acastus-Knight-Porphyrion": {
+    "display_name": "Acastus Knight Porphyrion",
+    "slug_short": "Acastus-Knight-Porphyrion",
+    "models": 1,
+    "prices": {
+      "GBP": 463.5,
+      "USD": 710,
+      "EUR": 565,
+      "AUD": 1030,
+      "CAD": 880,
+      "PLN": 2525,
+      "CHF": 565
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108172_AcastusKnightPorphyrion01.jpg"
+  },
+  "Mechanicum-Cerastus-Knight-Atrapos": {
+    "display_name": "Mechanicum Cerastus Knight-Atrapos",
+    "slug_short": "Mechanicum-Cerastus-Knight-Atrapos",
+    "models": 1,
+    "prices": {
+      "GBP": 243.5,
+      "USD": 370,
+      "EUR": 295,
+      "AUD": 539,
+      "CAD": 460,
+      "PLN": 1330,
+      "CHF": 295
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560108146_MechanicumCerastusKnightAtrapos01.jpg"
+  },
+  "Questoris-Knight-Styrix": {
+    "display_name": "Questoris Knight Styrix",
+    "slug_short": "Questoris-Knight-Styrix",
+    "models": 1,
+    "prices": {
+      "GBP": 163.5,
+      "USD": 250,
+      "EUR": 200,
+      "AUD": 348,
+      "CAD": 310,
+      "PLN": 895,
+      "CHF": 200
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108122_QuestorisKnightStyrix01.jpg"
+  },
+  "Questoris-Knight-Magaera": {
+    "display_name": "Questoris Knight Magaera",
+    "slug_short": "Questoris-Knight-Magaera",
+    "models": 1,
+    "prices": {
+      "GBP": 163.5,
+      "USD": 250,
+      "EUR": 200,
+      "AUD": 348,
+      "CAD": 310,
+      "PLN": 895,
+      "CHF": 200
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108120_QuestorisKnightMagaera01.jpg"
+  }
+}
