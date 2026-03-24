@@ -18,14 +18,6 @@
       "prices": null
     },
     {
-      "id": "cerberus",
-      "name": "Cerberus",
-      "points": 270,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "chaos_land_raider",
       "name": "Chaos Land Raider",
       "points": 220,
@@ -66,14 +58,6 @@
       "prices": null
     },
     {
-      "id": "chaos_thunderhawk",
-      "name": "Chaos Thunderhawk",
-      "points": 840,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "chaos_vindicator",
       "name": "Chaos Vindicator",
       "points": 185,
@@ -98,22 +82,6 @@
       "prices": null
     },
     {
-      "id": "defiler",
-      "name": "Defiler",
-      "points": 165,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "deredeo_dreadnought",
-      "name": "Deredeo Dreadnought",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "exalted_sorcerer",
       "name": "Exalted Sorcerer",
       "points": 80,
@@ -125,30 +93,6 @@
       "id": "exalted_sorcerer_on_disc_of_tzeentch",
       "name": "Exalted Sorcerer on Disc of Tzeentch",
       "points": 100,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "falchion",
-      "name": "Falchion",
-      "points": 420,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "fellblade",
-      "name": "Fellblade",
-      "points": 480,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "fire_raptor_gunship",
-      "name": "Fire Raptor Gunship",
-      "points": 290,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -178,30 +122,6 @@
       "prices": null
     },
     {
-      "id": "heldrake",
-      "name": "Heldrake",
-      "points": 215,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "hell_blade",
-      "name": "Hell Blade",
-      "points": 115,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "hell_talon",
-      "name": "Hell Talon",
-      "points": 140,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "infernal_master",
       "name": "Infernal Master",
       "points": 95,
@@ -218,38 +138,6 @@
       "prices": null
     },
     {
-      "id": "kratos",
-      "name": "Kratos",
-      "points": 240,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "land_raider_achilles",
-      "name": "Land Raider Achilles",
-      "points": 230,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "land_raider_proteus",
-      "name": "Land Raider Proteus",
-      "points": 220,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "leviathan_dreadnought",
-      "name": "Leviathan Dreadnought",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "lord_of_change",
       "name": "Lord of Change",
       "points": 285,
@@ -261,14 +149,6 @@
       "id": "magnus_the_red",
       "name": "Magnus The Red",
       "points": 435,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "mastodon",
-      "name": "Mastodon",
-      "points": 540,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -293,22 +173,6 @@
       "id": "pink_horrors",
       "name": "Pink Horrors",
       "points": 115,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "rapier_carrier",
-      "name": "Rapier Carrier",
-      "points": 90,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "relic_contemptor_dreadnought",
-      "name": "Relic Contemptor Dreadnought",
-      "points": 140,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -346,38 +210,6 @@
       "prices": null
     },
     {
-      "id": "sicaran_battle_tank",
-      "name": "Sicaran Battle Tank",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sicaran_punisher",
-      "name": "Sicaran Punisher",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sicaran_venator",
-      "name": "Sicaran Venator",
-      "points": 180,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sokar_pattern_stormbird",
-      "name": "Sokar-pattern Stormbird",
-      "points": 900,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "sorcerer",
       "name": "Sorcerer",
       "points": 80,
@@ -389,30 +221,6 @@
       "id": "sorcerer_in_terminator_armour",
       "name": "Sorcerer In Terminator Armour",
       "points": 85,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "spartan",
-      "name": "Spartan",
-      "points": 300,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "storm_eagle_gunship",
-      "name": "Storm Eagle Gunship",
-      "points": 250,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "typhon",
-      "name": "Typhon",
-      "points": 320,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -445,22 +253,6 @@
       "id": "tzaangors",
       "name": "Tzaangors",
       "points": 70,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "whirlwind_scorpius",
-      "name": "Whirlwind Scorpius",
-      "points": 115,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "xiphon_interceptor",
-      "name": "Xiphon Interceptor",
-      "points": 115,
       "models_per_box": null,
       "box_price": null,
       "prices": null

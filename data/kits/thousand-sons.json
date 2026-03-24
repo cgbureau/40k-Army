@@ -1,92 +1,452 @@
 {
-  "rubric-marines": {
-    "models": 10,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "scarab-occult-terminators": {
-    "models": 5,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "tzaangors": {
-    "models": 10,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "tzaangor-enlightened": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "exalted-sorcerers": {
-    "models": 3,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "ahriman": {
+  "thousand-sons-infernal-master-2022": {
+    "display_name": "Infernal Master",
+    "slug_short": "thousand-sons-infernal-master",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102122_TSInfernalMasterLead.jpg",
+    "year": 2022
   },
-  "infernal-master": {
-    "models": 1,
+  "combat-patrol-thousand-sons-2025": {
+    "display_name": "Combat Patrol: Thousand Sons",
+    "slug_short": "combat-patrol-thousand-sons",
+    "models": 15,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102195_TSCombatPatrol01.jpg",
+    "year": 2025
   },
   "magnus-the-red": {
+    "display_name": "Magnus the Red, Daemon Primarch of Tzeentch",
+    "slug_short": "magnus-the-red",
+    "models": 1,
+    "prices": {
+      "GBP": 105.5,
+      "USD": 175,
+      "EUR": 135,
+      "AUD": 267,
+      "CAD": 210,
+      "PLN": 580,
+      "CHF": 140
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102065_MagnustheRed02.jpg"
+  },
+  "exalted-sorcerers": {
+    "display_name": "Exalted Sorcerers",
+    "slug_short": "exalted-sorcerers",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102067_ExhaltedSorcerers02.jpg"
+  },
+  "scarab-occult-terminators": {
+    "display_name": "Scarab Occult Terminators",
+    "slug_short": "scarab-occult-terminators",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102066_ThousandSonsTerminators02.jpg"
+  },
+  "ahriman-arch-sorcerer-of-tzeentch": {
+    "display_name": "Ahriman",
+    "slug_short": "ahriman-arch-sorcerer-of-tzeentch",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102064_Ahriman02.jpg"
+  },
+  "rubric-marines": {
+    "display_name": "Rubric Marines",
+    "slug_short": "rubric-marines",
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102063_RubicMarines02.jpg"
+  },
+  "slaves-to-darkness-daemon-prince-2023": {
+    "display_name": "Daemon Prince",
+    "slug_short": "slaves-to-darkness-daemon-prince",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 150,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201130_S2DDaemonPrince01.jpg",
+    "year": 2023
+  },
+  "pink-horrors-2018": {
+    "display_name": "Pink Horrors",
+    "slug_short": "pink-horrors",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915032_PinkHorrors01.jpg",
+    "year": 2018
+  },
+  "flamers-of-tzeentch-2017": {
+    "display_name": "Flamers",
+    "slug_short": "flamers-of-tzeentch",
+    "models": 3,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 55,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915031_TzeentchFlamers01.jpg",
+    "year": 2017
+  },
+  "blue-horrors-2016": {
+    "display_name": "Blue Horrors and Brimstone Horrors",
+    "slug_short": "blue-horrors",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915029_BlueHorrors01.jpg",
+    "year": 2016
+  },
+  "screamers-2016": {
+    "display_name": "Screamers",
+    "slug_short": "screamers",
+    "models": 3,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915033_TzeentchScreamers01.jpg",
+    "year": 2016
+  },
+  "thousand-sons-sekhetar-robots-2025": {
+    "display_name": "Sekhetar Robots",
+    "slug_short": "thousand-sons-sekhetar-robots",
+    "models": 2,
+    "prices": {
+      "GBP": 31.5,
+      "USD": 52,
+      "EUR": 41,
+      "AUD": 86,
+      "CAD": 63,
+      "PLN": 165,
+      "CHF": 41
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102197_ThousandSonsSekhetarRobotsVehicleSquad01.jpg",
+    "year": 2025
+  },
+  "lord-of-change-2016": {
+    "display_name": "Lord of Change",
+    "slug_short": "lord-of-change",
     "models": 1,
     "prices": {
       "GBP": 105,
       "USD": 170,
       "EUR": 135,
-      "AUD": 149,
-      "CAD": 205
-    }
+      "AUD": 230,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915028_LordofChange01.jpg",
+    "year": 2016
   },
-  "mutalith-vortex-beast": {
+  "Tzaangors-AoS": {
+    "display_name": "Tzaangors",
+    "slug_short": "Tzaangors-AoS",
+    "models": 10,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201065_TzaangorWarriors01.jpg"
+  },
+  "Tzaangor-Shaman": {
+    "display_name": "Tzaangor Shaman",
+    "slug_short": "Tzaangor-Shaman",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070201021_TzaangorShamen01.jpg"
+  },
+  "Chaos-Space-Marine-Maulerfiend-2019": {
+    "display_name": "Maulerfiend",
+    "slug_short": "Chaos-Space-Marine-Maulerfiend",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 107,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend02.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Rhino-2019": {
+    "display_name": "Chaos Rhino",
+    "slug_short": "Chaos-Space-Marine-Rhino",
+    "models": 1,
+    "prices": {
+      "GBP": 36,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 74,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102092_CSMRhino01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Heldrake-2019": {
+    "display_name": "Heldrake",
+    "slug_short": "Chaos-Space-Marines-Heldrake",
+    "models": 1,
+    "prices": {
+      "GBP": 55,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 96,
+      "CAD": 107,
+      "PLN": 305,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102090_CSMHeldrake01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Forgefiend-2019": {
+    "display_name": "Forgefiend",
+    "slug_short": "Chaos-Space-Marines-Forgefiend",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 107,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend01.jpg",
+    "year": 2019
+  },
+  "Tzaangor-Enlightened": {
+    "display_name": "Tzaangor Enlightened",
+    "slug_short": "Tzaangor-Enlightened",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 88,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201064_TzaangorEnlightened01.jpg"
+  },
+  "Helbrute": {
+    "display_name": "Helbrute",
+    "slug_short": "Helbrute",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 96,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102043_CSMHelbrute01.jpg"
+  },
+  "Mutalith-Vortex-Beast": {
+    "display_name": "Mutalith Vortex Beast",
+    "slug_short": "Mutalith-Vortex-Beast",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 117,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201021_MutilithVortexBeast01.jpg"
+  },
+  "Chaos-Space-Marines-Vindicator": {
+    "display_name": "Chaos Vindicator",
+    "slug_short": "Chaos-Space-Marines-Vindicator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102025_ChaosVindicatorNEW_01.jpg"
+  },
+  "Chaos-Space-Marines-Predator": {
+    "display_name": "Chaos Predator",
+    "slug_short": "Chaos-Space-Marines-Predator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102012_ChaosPredator01.jpg"
+  },
+  "Chaos-Space-Marines-Land-Raider": {
+    "display_name": "Chaos Land Raider",
+    "slug_short": "Chaos-Space-Marines-Land-Raider",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 133,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102052_CSMLandRaiderRepack01.jpg"
+  },
+  "Chaos-Terminator-Sorcerer-2019": {
+    "display_name": "Sorcerer Lord in Terminator Armour",
+    "slug_short": "Chaos-Terminator-Sorcerer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102093_CSMTerminatorLord02.jpg",
+    "year": 2019
+  },
+  "Chaos-Spawn-2016": {
+    "display_name": "Chaos Spawn",
+    "slug_short": "Chaos-Spawn",
+    "models": 2,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 74,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201050_ChaosSpawn01.jpg",
+    "year": 2016
+  },
+  "Kairos-Fateweaver-2017": {
+    "display_name": "Kairos Fateweaver",
+    "slug_short": "Kairos-Fateweaver",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 230,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915028_KairosFateweaver01.jpg",
+    "year": 2017
   }
 }
