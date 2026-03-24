@@ -26,25 +26,9 @@
       "prices": null
     },
     {
-      "id": "cerberus",
-      "name": "Cerberus",
-      "points": 270,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "chaos_land_raider",
       "name": "Chaos Land Raider",
       "points": 220,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "chaos_lord_on_palanquin_of_nurgle",
-      "name": "Chaos Lord On Palanquin Of Nurgle",
-      "points": 90,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -69,14 +53,6 @@
       "id": "chaos_spawn",
       "name": "Chaos Spawn",
       "points": 80,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "chaos_thunderhawk",
-      "name": "Chaos Thunderhawk",
-      "points": 840,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -114,22 +90,6 @@
       "prices": null
     },
     {
-      "id": "death_guard_cultists",
-      "name": "Death Guard Cultists",
-      "points": 50,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "death_guard_possessed",
-      "name": "Death Guard Possessed",
-      "points": 155,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "death_guard_sorcerer_in_terminator_armour",
       "name": "Death Guard Sorcerer In Terminator Armour",
       "points": 70,
@@ -141,46 +101,6 @@
       "id": "deathshroud_terminators",
       "name": "Deathshroud Terminators",
       "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "defiler",
-      "name": "Defiler",
-      "points": 165,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "deredeo_dreadnought",
-      "name": "Deredeo Dreadnought",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "falchion",
-      "name": "Falchion",
-      "points": 420,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "fellblade",
-      "name": "Fellblade",
-      "points": 480,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "fire_raptor_gunship",
-      "name": "Fire Raptor Gunship",
-      "points": 290,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -210,14 +130,6 @@
       "prices": null
     },
     {
-      "id": "gellerpox_infected",
-      "name": "Gellerpox Infected",
-      "points": 125,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "great_unclean_one",
       "name": "Great Unclean One",
       "points": 250,
@@ -231,7 +143,8 @@
       "points": 150,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "helbrute",
@@ -242,57 +155,9 @@
       "prices": null
     },
     {
-      "id": "hell_blade",
-      "name": "Hell Blade",
-      "points": 115,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "hell_talon",
-      "name": "Hell Talon",
-      "points": 140,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "icon_bearer",
       "name": "Icon Bearer",
       "points": 45,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "kratos",
-      "name": "Kratos",
-      "points": 240,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "land_raider_achilles",
-      "name": "Land Raider Achilles",
-      "points": 230,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "land_raider_proteus",
-      "name": "Land Raider Proteus",
-      "points": 220,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "leviathan_dreadnought",
-      "name": "Leviathan Dreadnought",
-      "points": 160,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -330,25 +195,9 @@
       "prices": null
     },
     {
-      "id": "mastodon",
-      "name": "Mastodon",
-      "points": 540,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "mortarion",
       "name": "Mortarion",
       "points": 380,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "mutoid_vermin",
-      "name": "Mutoid Vermin",
-      "points": 85,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -426,81 +275,9 @@
       "prices": null
     },
     {
-      "id": "rapier_carrier",
-      "name": "Rapier Carrier",
-      "points": 90,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "relic_contemptor_dreadnought",
-      "name": "Relic Contemptor Dreadnought",
-      "points": 140,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "rotigus",
       "name": "Rotigus",
       "points": 265,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sicaran_battle_tank",
-      "name": "Sicaran Battle Tank",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sicaran_punisher",
-      "name": "Sicaran Punisher",
-      "points": 160,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sicaran_venator",
-      "name": "Sicaran Venator",
-      "points": 180,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sokar_pattern_stormbird",
-      "name": "Sokar-pattern Stormbird",
-      "points": 900,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "sorcerer_on_palanquin_of_nurgle",
-      "name": "Sorcerer On Palanquin Of Nurgle",
-      "points": 80,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "spartan",
-      "name": "Spartan",
-      "points": 300,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "storm_eagle_gunship",
-      "name": "Storm Eagle Gunship",
-      "points": 250,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -514,33 +291,9 @@
       "prices": null
     },
     {
-      "id": "typhon",
-      "name": "Typhon",
-      "points": 320,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "typhus",
       "name": "Typhus",
       "points": 100,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "whirlwind_scorpius",
-      "name": "Whirlwind Scorpius",
-      "points": 115,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "xiphon_interceptor",
-      "name": "Xiphon Interceptor",
-      "points": 115,
       "models_per_box": null,
       "box_price": null,
       "prices": null

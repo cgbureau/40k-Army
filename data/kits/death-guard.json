@@ -1,142 +1,510 @@
 {
-  "plague-marines": {
-    "models": 7,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "poxwalkers": {
-    "models": 10,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "cultist-mob": {
-    "models": 10,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "blightlord-terminators": {
-    "models": 5,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "death-shroud": {
-    "models": 3,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "lord-of-contagion": {
+  "slaves-to-darkness-daemon-prince-2023": {
+    "display_name": "Daemon Prince",
+    "slug_short": "slaves-to-darkness-daemon-prince",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 150,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201130_S2DDaemonPrince01.jpg",
+    "year": 2023
   },
-  "lord-of-virulence": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "malignant-plaguecaster": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "typhus": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "mortarion": {
-    "models": 1,
+  "combat-patrol-death-guard-2025": {
+    "display_name": "Combat Patrol: Death Guard",
+    "slug_short": "combat-patrol-death-guard",
+    "models": 13,
     "prices": {
       "GBP": 105,
       "USD": 170,
       "EUR": 135,
-      "AUD": 149,
-      "CAD": 205
-    }
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102194_DGCombatPatrol01.jpg",
+    "year": 2025
   },
-  "foetid-bloat-drone": {
+  "death-guard-lord-of-poxes-2025": {
+    "display_name": "Lord of Poxes",
+    "slug_short": "death-guard-lord-of-poxes",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102198_ChaosSpaceMarineDeathGuardLordofPoxes1.jpg",
+    "year": 2025
   },
-  "myphitic-blight-haulers": {
+  "plague-drones-of-nurgle-2017": {
+    "display_name": "Plague Drones",
+    "slug_short": "plague-drones-of-nurgle",
     "models": 3,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915017_PlagueDrones01.jpg",
+    "year": 2017
   },
-  "plagueburst-crawler": {
+  "Death-Guard-Daemon-Primarch-Mortarion-2020": {
+    "display_name": "Mortarion, Daemon Primarch of Nurgle",
+    "slug_short": "Death-Guard-Daemon-Primarch-Mortarion",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 105.5,
+      "USD": 175,
+      "EUR": 135,
+      "AUD": 278,
+      "CAD": 210,
+      "PLN": 580,
+      "CHF": 140
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102072_DaemonPrimarchMortarion01.jpg",
+    "year": 2020
   },
-  "chaos-rhino": {
+  "Lord-Felthius-And-The-Tainted-Cohort-2021": {
+    "display_name": "Lord of Contagion and Blightlord Terminators",
+    "slug_short": "Lord-Felthius-And-The-Tainted-Cohort",
+    "models": 4,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 67,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102150_LordFelthiusCohortLead.jpg",
+    "year": 2021
+  },
+  "Death-Guard-Plague-Marine-Icon-Bearer-2020": {
+    "display_name": "Icon Bearer",
+    "slug_short": "Death-Guard-Plague-Marine-Icon-Bearer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102006_DGIconBearer01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Poxwalkers-2021": {
+    "display_name": "Poxwalkers",
+    "slug_short": "Death-Guard-Poxwalkers",
+    "models": 20,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199015_40KDarkImperiumENG17.jpg",
+    "year": 2021
+  },
+  "Etb-Death-Guard-Myphitic-Blight-hauler-2020": {
+    "display_name": "Myphitic Blight-hauler",
+    "slug_short": "Etb-Death-Guard-Myphitic-Blight-hauler",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 32,
+      "EUR": 23,
+      "AUD": 43,
+      "CAD": 36,
+      "PLN": 99,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102080_ETBDeathGuardBlighthauler01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Scribbus-Wretch-2020": {
+    "display_name": "Tallyman",
+    "slug_short": "Death-Guard-Scribbus-Wretch",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102003_DeathGuardScribbusWretch01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Nauseous-Rotbone-2020": {
+    "display_name": "Plague Surgeon",
+    "slug_short": "Death-Guard-Nauseous-Rotbone",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102004_Rotbone01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Foul-Blightspawn-2020": {
+    "display_name": "Foul Blightspawn",
+    "slug_short": "Death-Guard-Foul-Blightspawn",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102002_DeathGuardFoulBlightSpawn01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Foetid-Bloat-drone-2020": {
+    "display_name": "Foetid Bloat-drone",
+    "slug_short": "Death-Guard-Foetid-Bloat-drone",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102077_BloatDrone01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Deathshroud-Bodyguard-2020": {
+    "display_name": "Deathshroud Terminators",
+    "slug_short": "Death-Guard-Deathshroud-Bodyguard",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102073_DeathshroudBodyguard01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Blightlord-Terminators-2020": {
+    "display_name": "Blightlord Terminators",
+    "slug_short": "Death-Guard-Blightlord-Terminators",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102074_DeathGuardBlightLordTerminators01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Biologus-Putrifier-2020": {
+    "display_name": "Biologus Putrifier",
+    "slug_short": "Death-Guard-Biologus-Putrifier",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102005_BiologusPutrifier01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Lord-of-Virulence-2020": {
+    "display_name": "Lord of Virulence",
+    "slug_short": "Death-Guard-Lord-of-Virulence",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102117_DGLordofVirulenceLead.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Chosen-Of-Mortarion-2020": {
+    "display_name": "Malignant Plaguecaster, Noxious Blightbringer, and Plague Marine Champion",
+    "slug_short": "Death-Guard-Chosen-Of-Mortarion",
+    "models": 3,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102114_DGChosenofMortarionLead.jpg",
+    "year": 2020
+  },
+  "Chaos-Space-Marine-Rhino-2019": {
+    "display_name": "Chaos Rhino",
+    "slug_short": "Chaos-Space-Marine-Rhino",
     "models": 1,
     "prices": {
       "GBP": 36,
       "USD": 60,
       "EUR": 47.5,
       "AUD": 74,
-      "CAD": 70
-    }
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102092_CSMRhino01.jpg",
+    "year": 2019
+  },
+  "Helbrute": {
+    "display_name": "Helbrute",
+    "slug_short": "Helbrute",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 96,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102043_CSMHelbrute01.jpg"
+  },
+  "Chaos-Space-Marines-Predator": {
+    "display_name": "Chaos Predator",
+    "slug_short": "Chaos-Space-Marines-Predator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102012_ChaosPredator01.jpg"
+  },
+  "Chaos-Space-Marines-Land-Raider": {
+    "display_name": "Chaos Land Raider",
+    "slug_short": "Chaos-Space-Marines-Land-Raider",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 133,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102052_CSMLandRaiderRepack01.jpg"
+  },
+  "Death-Guard-Plague-Marine-Champion-2020": {
+    "display_name": "Plague Marine Champion",
+    "slug_short": "Death-Guard-Plague-Marine-Champion",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102007_DeathguardChampion01.jpg",
+    "year": 2020
+  },
+  "Rotigus-Rainmaker": {
+    "display_name": "Rotigus",
+    "slug_short": "Rotigus-Rainmaker",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 278,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915063_NURMoNRotigusLead.jpg"
+  },
+  "Great-Unclean-One-2018": {
+    "display_name": "Great Unclean One",
+    "slug_short": "Great-Unclean-One",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 278,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915063_NURMoNGreatUncleanOneLead.jpg",
+    "year": 2018
+  },
+  "Nurglings-2017": {
+    "display_name": "Nurglings",
+    "slug_short": "Nurglings",
+    "models": 3,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 57,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915037_Nurglings01.jpg",
+    "year": 2017
+  },
+  "Chaos-Daemons-Plaguebearers-of-Nurgle-2018": {
+    "display_name": "Plaguebearers",
+    "slug_short": "Chaos-Daemons-Plaguebearers-of-Nurgle",
+    "models": 10,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 65,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915008_Plaguebearers01.jpg",
+    "year": 2018
+  },
+  "Death-Guard-Plague-Marines-2020": {
+    "display_name": "Plague Marines",
+    "slug_short": "Death-Guard-Plague-Marines",
+    "models": 7,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102078_PlagueMarines01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Typhus-2020": {
+    "display_name": "Typhus, Herald of the Plague God",
+    "slug_short": "Death-Guard-Typhus",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102076_DeathGuardTyphus01.jpg",
+    "year": 2020
+  },
+  "Death-Guard-Plagueburst-Crawler-2020": {
+    "display_name": "Plagueburst Crawler",
+    "slug_short": "Death-Guard-Plagueburst-Crawler",
+    "models": 1,
+    "prices": {
+      "GBP": 50,
+      "USD": 80,
+      "EUR": 65,
+      "AUD": 133,
+      "CAD": 100,
+      "PLN": 275,
+      "CHF": 65
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102075_Crawler01.jpg",
+    "year": 2020
+  },
+  "Chaos-Spawn-2016": {
+    "display_name": "Chaos Spawn",
+    "slug_short": "Chaos-Spawn",
+    "models": 2,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 74,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201050_ChaosSpawn01.jpg",
+    "year": 2016
+  },
+  "Beast-Of-Nurgle-2018": {
+    "display_name": "Beast of Nurgle",
+    "slug_short": "Beast-Of-Nurgle",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915044_BeastofNurgle01.jpg",
+    "year": 2018
   }
 }
