@@ -1,112 +1,443 @@
 {
-  "khorne-berzerkers": {
-    "models": 5,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "jakhals": {
-    "models": 10,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "kh-rn-the-betrayer": {
+  "world-eaters-kharn-the-betrayer-2023": {
+    "display_name": "Khârn the Betrayer",
+    "slug_short": "world-eaters-kharn-the-betrayer",
     "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102184_WEKharnTheBetrayer01.jpg",
+    "year": 2023
+  },
+  "combat-patrol-world-eaters-2025": {
+    "display_name": "Combat Patrol: World Eaters",
+    "slug_short": "combat-patrol-world-eaters",
+    "models": 22,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102196_WorldEatersCombatPatrol1.jpg",
+    "year": 2025
+  },
+  "world-eaters-angron-daemon-primarch-of-khorne-2023": {
+    "display_name": "Angron – Daemon Primarch of Khorne",
+    "slug_short": "world-eaters-angron-daemon-primarch-of-khorne",
+    "models": 1,
+    "prices": {
+      "GBP": 105.5,
+      "USD": 175,
+      "EUR": 135,
+      "AUD": 295,
+      "CAD": 210,
+      "PLN": 580,
+      "CHF": 140
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102152_AngronDaemonPrimarch1.jpg",
+    "year": 2023
+  },
+  "world-eaters-eightbound-2023": {
+    "display_name": "Eightbound",
+    "slug_short": "world-eaters-eightbound",
+    "models": 3,
     "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102154_WEEightbound2.jpg",
+    "year": 2023
   },
-  "eightbound": {
+  "world-eaters-jakhals-2023": {
+    "display_name": "Jakhals",
+    "slug_short": "world-eaters-jakhals",
+    "models": 10,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102156_WEJakhals015.jpg",
+    "year": 2023
+  },
+  "world-eaters-exalted-eightbound-2023": {
+    "display_name": "Exalted Eightbound",
+    "slug_short": "world-eaters-exalted-eightbound",
     "models": 3,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102154_ExhaltedEightbound2.jpg",
+    "year": 2023
   },
-  "angron": {
-    "models": 1,
-    "prices": {
-      "GBP": 105,
-      "USD": 170,
-      "EUR": 135,
-      "AUD": 149,
-      "CAD": 205
-    }
-  },
-  "kharn": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "lord-invocatus": {
-    "models": 1,
+  "world-eaters-khorne-berserkers-2023": {
+    "display_name": "Khorne Berzerkers",
+    "slug_short": "world-eaters-khorne-berserkers",
+    "models": 8,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102153_KhorneBerserkers1.jpg",
+    "year": 2023
   },
-  "lord-on-jugger": {
+  "kill-team-goremongers-2025": {
+    "display_name": "Kill Team: Goremongers",
+    "slug_short": "kill-team-goremongers",
+    "models": 8,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102208_KillTeamGoremongers01.jpg",
+    "year": 2025
+  },
+  "world-eaters-lord-on-juggernaut-2023": {
+    "display_name": "Lord on Juggernaut",
+    "slug_short": "world-eaters-lord-on-juggernaut",
     "models": 1,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102155_WELordInvocatus02.jpg",
+    "year": 2023
   },
-  "master-of-executions": {
+  "world-eaters-lord-invocatus-2023": {
+    "display_name": "Lord Invocatus",
+    "slug_short": "world-eaters-lord-invocatus",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102155_WELordInvocatus01.jpg",
+    "year": 2023
   },
-  "chaos-rhino": {
+  "slaves-to-darkness-daemon-prince-2023": {
+    "display_name": "Daemon Prince",
+    "slug_short": "slaves-to-darkness-daemon-prince",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 150,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201130_S2DDaemonPrince01.jpg",
+    "year": 2023
+  },
+  "world-eaters-slaughter-bound-2025": {
+    "display_name": "Slaughterbound",
+    "slug_short": "world-eaters-slaughter-bound",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102199_ChaosSpaceMarineWorldEatersSlaughterbound1.jpg",
+    "year": 2025
+  },
+  "Master-Of-Executions-2019": {
+    "display_name": "Master of Executions",
+    "slug_short": "Master-Of-Executions",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102013_CSMMasterofExecutions01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Terminators-2019": {
+    "display_name": "Chaos Terminator Squad",
+    "slug_short": "Chaos-Space-Marine-Terminators",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102097_CSMTerminators01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Maulerfiend-2019": {
+    "display_name": "Maulerfiend",
+    "slug_short": "Chaos-Space-Marine-Maulerfiend",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 107,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend02.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Rhino-2019": {
+    "display_name": "Chaos Rhino",
+    "slug_short": "Chaos-Space-Marine-Rhino",
     "models": 1,
     "prices": {
       "GBP": 36,
       "USD": 60,
       "EUR": 47.5,
       "AUD": 74,
-      "CAD": 70
-    }
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102092_CSMRhino01.jpg",
+    "year": 2019
   },
-  "maulerfiend": {
+  "Chaos-Space-Marines-Heldrake-2019": {
+    "display_name": "Heldrake",
+    "slug_short": "Chaos-Space-Marines-Heldrake",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 55,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 96,
+      "CAD": 107,
+      "PLN": 305,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102090_CSMHeldrake01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Forgefiend-2019": {
+    "display_name": "Forgefiend",
+    "slug_short": "Chaos-Space-Marines-Forgefiend",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 107,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend01.jpg",
+    "year": 2019
+  },
+  "Helbrute": {
+    "display_name": "Helbrute",
+    "slug_short": "Helbrute",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 96,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102043_CSMHelbrute01.jpg"
+  },
+  "Chaos-Space-Marines-Khorne-Lord-of-Skulls": {
+    "display_name": "Khorne Lord of Skulls",
+    "slug_short": "Chaos-Space-Marines-Khorne-Lord-of-Skulls",
+    "models": 1,
+    "prices": {
+      "GBP": 120,
+      "USD": 197,
+      "EUR": 155,
+      "AUD": 203,
+      "CAD": 240,
+      "PLN": 660,
+      "CHF": 155
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102041_LordofSkulls01.jpg"
+  },
+  "Chaos-Space-Marines-Predator": {
+    "display_name": "Chaos Predator",
+    "slug_short": "Chaos-Space-Marines-Predator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102012_ChaosPredator01.jpg"
+  },
+  "Chaos-Space-Marines-Land-Raider": {
+    "display_name": "Chaos Land Raider",
+    "slug_short": "Chaos-Space-Marines-Land-Raider",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 133,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102052_CSMLandRaiderRepack01.jpg"
+  },
+  "Daemons-Of-Khorne-Bloodletters-40k-2017": {
+    "display_name": "Bloodletters",
+    "slug_short": "Daemons-Of-Khorne-Bloodletters-40k",
+    "models": 10,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 65,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915023_DaemonsofKhorneBloodLetters01.jpg",
+    "year": 2017
+  },
+  "Flesh-Hounds-2019": {
+    "display_name": "Flesh Hounds",
+    "slug_short": "Flesh-Hounds",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915050_BoKHFleshhounds01.jpg",
+    "year": 2019
+  },
+  "Daemons-Of-Khorne-Bloodthirster": {
+    "display_name": "Bloodthirster",
+    "slug_short": "Daemons-Of-Khorne-Bloodthirster",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 208,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915024_DaemonsofKhorneBloodThirster01.jpg"
+  },
+  "Daemons-Of-Khorne-Bloodcrushers": {
+    "display_name": "Bloodcrushers",
+    "slug_short": "Daemons-Of-Khorne-Bloodcrushers",
+    "models": 3,
+    "prices": {
+      "GBP": 65,
+      "USD": 110,
+      "EUR": 85,
+      "AUD": 170,
+      "CAD": 130,
+      "PLN": 360,
+      "CHF": 85
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915022_DaemonsofKhorneBloodCrushers01.jpg"
+  },
+  "Skarbrand-Bloodthirster": {
+    "display_name": "Skarbrand",
+    "slug_short": "Skarbrand-Bloodthirster",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 240,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915071_Skarbrand1.jpg"
+  },
+  "Chaos-Spawn-2016": {
+    "display_name": "Chaos Spawn",
+    "slug_short": "Chaos-Spawn",
+    "models": 2,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 74,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201050_ChaosSpawn01.jpg",
+    "year": 2016
   }
 }

@@ -1,19 +1,39 @@
 {
-  "angron": "angron",
-  "berzerkers": "khorne-berzerkers",
-  "chaos_rhino": "chaos-rhino",
-  "daemon_prince_of_khorne": "daemon-prince",
-  "daemon_prince_of_khorne_with_wings": "daemon-prince",
-  "eightbound": "eightbound",
-  "exalted_eightbound": "eightbound",
-  "invocatus": "lord-invocatus",
-  "jackals": "jakhals",
-  "jakhals": "jakhals",
-  "kh_rn_the_betrayer": "kh-rn-the-betrayer",
-  "kharn": "kharn",
-  "lord_invocatus": "lord-invocatus",
-  "lord_on_jugger": "lord-on-jugger",
-  "lord_on_juggernaut": "lord-on-jugger",
-  "master_of_executions": "master-of-executions",
-  "maulerfiend": "maulerfiend"
+  "angron": "world-eaters-angron-daemon-primarch-of-khorne-2023",
+  "kharn_the_betrayer": "world-eaters-kharn-the-betrayer-2023",
+  
+  "khorne_berzerkers": "world-eaters-khorne-berserkers-2023",
+  "jakhals": "world-eaters-jakhals-2023",
+  
+  "eightbound": "world-eaters-eightbound-2023",
+  "exalted_eightbound": "world-eaters-exalted-eightbound-2023",
+  
+  "lord_invocatus": "world-eaters-lord-invocatus-2023",
+  "lord_on_juggernaut": "world-eaters-lord-on-juggernaut-2023",
+  
+  "slaughterbound": "world-eaters-slaughter-bound-2025",
+  "goremongers": "kill-team-goremongers-2025",
+  
+  "master_of_executions": "Master-Of-Executions-2019",
+  
+  "chaos_terminators": "Chaos-Space-Marine-Terminators-2019",
+  "maulerfiend": "Chaos-Space-Marine-Maulerfiend-2019",
+  "chaos_land_raider": "Chaos-Space-Marines-Land-Raider",
+  "chaos_predator_annihilator": "Chaos-Space-Marines-Predator",
+  "chaos_predator_destructor": "Chaos-Space-Marines-Predator",
+  
+  "helbrute": "Helbrute",
+  "forgefiend": "Chaos-Space-Marines-Forgefiend-2019",
+  "chaos_spawn": "Chaos-Spawn-2016",
+  
+  "bloodletters": "Daemons-Of-Khorne-Bloodletters-40k-2017",
+  "bloodcrushers": "Daemons-Of-Khorne-Bloodcrushers",
+  "bloodthirster": "Daemons-Of-Khorne-Bloodthirster",
+  "flesh_hounds": "Flesh-Hounds-2019",
+  "skarbrand": "Skarbrand-Bloodthirster",
+  
+  "khorne_lord_of_skulls": "Chaos-Space-Marines-Khorne-Lord-of-Skulls",
+
+  "daemon_prince_of_khorne": "slaves-to-darkness-daemon-prince-2023",
+  "daemon_prince_of_khorne_with_wings": "slaves-to-darkness-daemon-prince-2023"
 }
