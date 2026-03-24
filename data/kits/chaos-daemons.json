@@ -1,192 +1,718 @@
 {
-  "bloodletters": {
+  "tormentbringer-2022": {
+    "display_name": "Tormentbringer / Bladebringer",
+    "slug_short": "tormentbringer",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 28,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915012_TormentBringerChariotSlaaneshUpdateLead.jpg",
+    "year": 2022
+  },
+  "hellflayer-2022": {
+    "display_name": "Hellflayer",
+    "slug_short": "hellflayer",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 28,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915012_HellflayerUpdateLead.jpg",
+    "year": 2022
+  },
+  "slaves-to-darkness-daemon-prince-2023": {
+    "display_name": "Daemon Prince",
+    "slug_short": "slaves-to-darkness-daemon-prince",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 150,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201130_S2DDaemonPrince01.jpg",
+    "year": 2023
+  },
+  "changecaster-2022": {
+    "display_name": "Changecaster",
+    "slug_short": "changecaster",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915030_ChangecasterChariotUpdateALT.jpg",
+    "year": 2022
+  },
+  "pink-horrors-2018": {
+    "display_name": "Pink Horrors",
+    "slug_short": "pink-horrors",
     "models": 10,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915032_PinkHorrors01.jpg",
+    "year": 2018
   },
-  "daemonettes": {
+  "plague-drones-of-nurgle-2017": {
+    "display_name": "Plague Drones",
+    "slug_short": "plague-drones-of-nurgle",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915017_PlagueDrones01.jpg",
+    "year": 2017
+  },
+  "the-changeling-2016": {
+    "display_name": "The Changeling",
+    "slug_short": "the-changeling",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 59,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915034_TzeentchChangeling01.jpg",
+    "year": 2016
+  },
+  "screamers-2016": {
+    "display_name": "Screamers",
+    "slug_short": "screamers",
+    "models": 3,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915033_TzeentchScreamers01.jpg",
+    "year": 2016
+  },
+  "flamers-of-tzeentch-2017": {
+    "display_name": "Flamers",
+    "slug_short": "flamers-of-tzeentch",
+    "models": 3,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 55,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915031_TzeentchFlamers01.jpg",
+    "year": 2017
+  },
+  "blue-horrors-2016": {
+    "display_name": "Blue Horrors and Brimstone Horrors",
+    "slug_short": "blue-horrors",
     "models": 10,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915029_BlueHorrors01.jpg",
+    "year": 2016
   },
-  "pink-horrors": {
+  "herald-of-tzeentch-on-burning-chariot-2016": {
+    "display_name": "Fateskimmer, Herald of Tzeentch on Burning Chariot",
+    "slug_short": "herald-of-tzeentch-on-burning-chariot",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915030_HeraldonBurningChariot01.jpg",
+    "year": 2016
+  },
+  "spearhead-blades-of-khorne-fangs-of-the-blood-god-2025": {
+    "display_name": "Spearhead: Blades of Khorne \u2013 Fangs of the Blood God",
+    "slug_short": "spearhead-blades-of-khorne-fangs-of-the-blood-god",
+    "models": 19,
+    "prices": {
+      "GBP": 91,
+      "USD": 150,
+      "EUR": 120,
+      "AUD": 255,
+      "CAD": 180,
+      "PLN": 500,
+      "CHF": 120
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201200_BOKFangsoftheBloodGodSpearhead01.jpg",
+    "year": 2025
+  },
+  "lord-of-change-2016": {
+    "display_name": "Lord of Change",
+    "slug_short": "lord-of-change",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 230,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915028_LordofChange01.jpg",
+    "year": 2016
+  },
+  "Nurglings-2017": {
+    "display_name": "Nurglings",
+    "slug_short": "Nurglings",
+    "models": 3,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 57,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915037_Nurglings01.jpg",
+    "year": 2017
+  },
+  "Chaos-Daemons-Belakor-The-Dark-Master-2021": {
+    "display_name": "Be'lakor, the Dark Master",
+    "slug_short": "Chaos-Daemons-Belakor-The-Dark-Master",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 278,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915058_ChaosDaemonsBelakortheDarkMasterLead.jpg",
+    "year": 2021
+  },
+  "Daemonettes-of-Slaanesh-2021": {
+    "display_name": "Daemonettes of Slaanesh",
+    "slug_short": "Daemonettes-of-Slaanesh",
     "models": 10,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 65,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915036_Daemonettes01.jpg",
+    "year": 2021
   },
-  "plaguebearers": {
+  "Shalaxi-Hellbane-2019": {
+    "display_name": "Shalaxi Helbane",
+    "slug_short": "Shalaxi-Hellbane",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915056_DoSKeeperofSecrets02.jpg",
+    "year": 2019
+  },
+  "Keeper-of-Secrets-2019": {
+    "display_name": "Keeper of Secrets",
+    "slug_short": "Keeper-of-Secrets",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 278,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915056_DoSKeeperofSecrets01.jpg",
+    "year": 2019
+  },
+  "The-Vengeful-Allegiance-2019": {
+    "display_name": "Syll'Esske: The Vengeful Allegiance",
+    "slug_short": "The-Vengeful-Allegiance",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915055_DoSSyllesskeVengefulAlliance01.jpg",
+    "year": 2019
+  },
+  "Infernal-Enrapturess-2019": {
+    "display_name": "Infernal Enrapturess",
+    "slug_short": "Infernal-Enrapturess",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915053_DoSInfernalEnrapturess01.jpg",
+    "year": 2019
+  },
+  "Fiends-of-Slaanesh-2019": {
+    "display_name": "Fiends",
+    "slug_short": "Fiends-of-Slaanesh",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915052_DoSFiends01.jpg",
+    "year": 2019
+  },
+  "Skulltaker-2019": {
+    "display_name": "Skulltaker",
+    "slug_short": "Skulltaker",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915075_Skulltaker1.jpg",
+    "year": 2019
+  },
+  "Flesh-Hounds-2019": {
+    "display_name": "Flesh Hounds",
+    "slug_short": "Flesh-Hounds",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915050_BoKHFleshhounds01.jpg",
+    "year": 2019
+  },
+  "Karanak-the-Hound-of-Vengeance-2019": {
+    "display_name": "Karanak",
+    "slug_short": "Karanak-the-Hound-of-Vengeance",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99079915006_KaranakHoundofVengeance01.jpg",
+    "year": 2019
+  },
+  "Bloodmaster-Herald-of-Khorne-2019": {
+    "display_name": "Bloodmaster, Herald of Khorne",
+    "slug_short": "Bloodmaster-Herald-of-Khorne",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99079915005_BloodmasterofKhorneBox01.jpg",
+    "year": 2019
+  },
+  "Rotigus-Rainmaker": {
+    "display_name": "Rotigus",
+    "slug_short": "Rotigus-Rainmaker",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915063_NURMoNRotigusLead.jpg"
+  },
+  "Great-Unclean-One-2018": {
+    "display_name": "Great Unclean One",
+    "slug_short": "Great-Unclean-One",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 278,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915063_NURMoNGreatUncleanOneLead.jpg",
+    "year": 2018
+  },
+  "Sloppity-Bilepiper-Herald-Of-Nurgle-2018": {
+    "display_name": "Sloppity Bilepiper",
+    "slug_short": "Sloppity-Bilepiper-Herald-Of-Nurgle",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 55,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99079915004_SloppityBilepiper01.jpg",
+    "year": 2018
+  },
+  "Daemons-Of-Khorne-Bloodletters-40k-2017": {
+    "display_name": "Bloodletters",
+    "slug_short": "Daemons-Of-Khorne-Bloodletters-40k",
     "models": 10,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 65,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915023_DaemonsofKhorneBloodLetters01.jpg",
+    "year": 2017
   },
-  "an-ggrath-the-unbound": {
+  "Chaos-Daemons-Plaguebearers-of-Nurgle-2018": {
+    "display_name": "Plaguebearers",
+    "slug_short": "Chaos-Daemons-Plaguebearers-of-Nurgle",
+    "models": 10,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 65,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915008_Plaguebearers01.jpg",
+    "year": 2018
+  },
+  "Burning-Chariot-of-Tzeentch": {
+    "display_name": "Burning Chariot of Tzeentch",
+    "slug_short": "Burning-Chariot-of-Tzeentch",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915030_BurningChariot01.jpg"
+  },
+  "Exalted-Flamer-of-Tzeentch": {
+    "display_name": "Exalted Flamer of Tzeentch",
+    "slug_short": "Exalted-Flamer-of-Tzeentch",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915030_ExhaltedFlameronFoot01.jpg"
+  },
+  "Daemons-Of-Khorne-Skull-Cannon": {
+    "display_name": "Skull Cannon",
+    "slug_short": "Daemons-Of-Khorne-Skull-Cannon",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 35,
+      "AUD": 67,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915025_DaemonsofKhorneSkullCannon01.jpg"
+  },
+  "Daemons-Of-Khorne-Bloodthrone": {
+    "display_name": "Rendmaster, Herald of Khorne on Blood Throne",
+    "slug_short": "Daemons-Of-Khorne-Bloodthrone",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 35,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915025_DaemonsofKhorneBloodThrone01.jpg"
+  },
+  "Daemons-Of-Khorne-Bloodthirster": {
+    "display_name": "Bloodthirster",
+    "slug_short": "Daemons-Of-Khorne-Bloodthirster",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 208,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915024_DaemonsofKhorneBloodThirster01.jpg"
+  },
+  "Daemons-Of-Khorne-Bloodcrushers": {
+    "display_name": "Bloodcrushers",
+    "slug_short": "Daemons-Of-Khorne-Bloodcrushers",
+    "models": 3,
+    "prices": {
+      "GBP": 65,
+      "USD": 110,
+      "EUR": 85,
+      "AUD": 170,
+      "CAD": 130,
+      "PLN": 360,
+      "CHF": 85
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915022_DaemonsofKhorneBloodCrushers01.jpg"
+  },
+  "Skarbrand-Bloodthirster": {
+    "display_name": "Skarbrand",
+    "slug_short": "Skarbrand-Bloodthirster",
+    "models": 1,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 240,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915071_Skarbrand1.jpg"
+  },
+  "Soul-Grinder": {
+    "display_name": "Soul Grinder",
+    "slug_short": "Soul-Grinder",
+    "models": 1,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 62.5,
+      "AUD": 133,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915013_SoulgrinderNEW01.jpg"
+  },
+  "Seekers-of-Slaanesh": {
+    "display_name": "Seekers of Slaanesh",
+    "slug_short": "Seekers-of-Slaanesh",
+    "models": 5,
+    "prices": {
+      "GBP": 21.5,
+      "USD": 35,
+      "EUR": 27.5,
+      "AUD": 52,
+      "CAD": 42.5,
+      "PLN": 121,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915005_SeekersLeadNEW.jpg"
+  },
+  "Seeker-Chariot-of-Slaanesh": {
+    "display_name": "Seeker Chariot",
+    "slug_short": "Seeker-Chariot-of-Slaanesh",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 28,
+      "AUD": 53,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915012_SeekerChariotNEW01.jpg"
+  },
+  "The-Contorted-Epitome-2019": {
+    "display_name": "The Contorted Epitome",
+    "slug_short": "The-Contorted-Epitome",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915054_DoSContortedEpitome01.jpg",
+    "year": 2019
+  },
+  "The-Masque-2019": {
+    "display_name": "The Masque",
+    "slug_short": "The-Masque",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 55,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99079915007_DoSMasque01.jpg",
+    "year": 2019
+  },
+  "Horticulous-Slimux-2018": {
+    "display_name": "Horticulous Slimux",
+    "slug_short": "Horticulous-Slimux",
     "models": 1,
     "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010299012_BlightWarENG03.jpg",
+    "year": 2018
   },
-  "bloodcrushers": {
-    "models": 3,
+  "Beast-Of-Nurgle-2018": {
+    "display_name": "Beast of Nurgle",
+    "slug_short": "Beast-Of-Nurgle",
+    "models": 1,
     "prices": {
-      "GBP": 35,
+      "GBP": 35.5,
       "USD": 60,
       "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915044_BeastofNurgle01.jpg",
+    "year": 2018
   },
-  "flesh-hounds": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "seekers": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "flamers": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "scabeiathrax-the-bloated": {
+  "Poxbringer-Herald-Of-Nurgle-2018": {
+    "display_name": "Poxbringer",
+    "slug_short": "Poxbringer-Herald-Of-Nurgle",
     "models": 1,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 31,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99079915002_Poxbringer01.jpg",
+    "year": 2018
   },
-  "screamers": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "nurglings": {
-    "models": 3,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "exalted-flamer": {
+  "Kairos-Fateweaver-2017": {
+    "display_name": "Kairos Fateweaver",
+    "slug_short": "Kairos-Fateweaver",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "bloodthirster": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
-  },
-  "keeper-of-secrets": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
-  },
-  "lord-of-change": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
-  },
-  "great-unclean-one": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
-  },
-  "daemon-prince": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "soul-grinder": {
-    "models": 1,
-    "prices": {
-      "GBP": 58,
-      "USD": 96,
-      "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915028_KairosFateweaver01.jpg",
+    "year": 2017
   }
 }

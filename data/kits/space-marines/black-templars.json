@@ -1,0 +1,162 @@
+{
+  "combat-patrol-black-templars-2025": {
+    "display_name": "Combat Patrol: Black Templars",
+    "slug_short": "combat-patrol-black-templars",
+    "models": 19,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101428_BlackTemplarsCombatPatrol1.jpg",
+    "year": 2025
+  },
+  "black-templars-marshal-2021": {
+    "display_name": "Black Templars Marshal",
+    "slug_short": "black-templars-marshal",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101368_BTMarshalLead.jpg",
+    "year": 2021
+  },
+  "black-templars-castellan-2021": {
+    "display_name": "Black Templars Castellan",
+    "slug_short": "black-templars-castellan",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101367_CastellanLead.jpg",
+    "year": 2021
+  },
+  "black-templars-emperors-champion-2021": {
+    "display_name": "Emperor's Champion",
+    "slug_short": "black-templars-emperors-champion",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101366_EmperorsChampionLead.jpg",
+    "year": 2021
+  },
+  "black-templars-grimaldus-and-retinue-2021": {
+    "display_name": "Chaplain Grimaldus & Retinue",
+    "slug_short": "black-templars-grimaldus-and-retinue",
+    "models": 4,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101364_BTChaplainGrimaldusandRetinueLead.jpg",
+    "year": 2021
+  },
+  "black-templars-high-marshal-helbrecht-2021": {
+    "display_name": "High Marshal Helbrecht",
+    "slug_short": "black-templars-high-marshal-helbrecht",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101363_BTHighMarshalHelbrechtLead.jpg",
+    "year": 2021
+  },
+  "black-templars-sword-brethren-2021": {
+    "display_name": "Black Templars Sword Brethren",
+    "slug_short": "black-templars-sword-brethren",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101357_BTSwordBrethrenLead.jpg",
+    "year": 2021
+  },
+  "black-templars-primaris-crusader-squad-2021": {
+    "display_name": "Primaris Crusader Squad",
+    "slug_short": "black-templars-primaris-crusader-squad",
+    "models": 10,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101351_CrusaderSquadLead.jpg",
+    "year": 2021
+  },
+  "black-templars-crusade-ancient-2025": {
+    "display_name": "Crusade Ancient",
+    "slug_short": "black-templars-crusade-ancient",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101442_BlackTemplarsCrusadeAncient1Update.jpg",
+    "year": 2025
+  },
+  "black-templars-execrator-2025": {
+    "display_name": "Execrator",
+    "slug_short": "black-templars-execrator",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 74,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101443_BlackTemplarsExecrator1Update.jpg",
+    "year": 2025
+  }
+}

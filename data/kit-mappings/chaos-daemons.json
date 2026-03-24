@@ -1,23 +1,63 @@
 {
-  "an_ggrath_the_unbound": "an-ggrath-the-unbound",
-  "bloodcrushers": "bloodcrushers",
-  "bloodletters": "bloodletters",
-  "bloodthirster": "bloodthirster",
-  "daemon_prince": "daemon-prince",
-  "daemon_prince_of_chaos": "daemon-prince",
-  "daemon_prince_of_chaos_with_wings": "daemon-prince",
-  "daemonettes": "daemonettes",
-  "exalted_flamer": "exalted-flamer",
-  "flamers": "flamers",
-  "flesh_hounds": "flesh-hounds",
-  "great_unclean_one": "great-unclean-one",
-  "keeper_of_secrets": "keeper-of-secrets",
-  "lord_of_change": "lord-of-change",
-  "nurglings": "nurglings",
-  "pink_horrors": "pink-horrors",
-  "plaguebearers": "plaguebearers",
-  "scabeiathrax_the_bloated": "scabeiathrax-the-bloated",
-  "screamers": "screamers",
-  "seekers": "seekers",
-  "soul_grinder": "soul-grinder"
+  "bloodletters": "Daemons-Of-Khorne-Bloodletters-40k-2017",
+  "plaguebearers": "Chaos-Daemons-Plaguebearers-of-Nurgle-2018",
+  "daemonettes": "Daemonettes-of-Slaanesh-2021",
+  "pink_horrors": "pink-horrors-2018",
+  "blue_horrors": "blue-horrors-2016",
+  "nurglings": "Nurglings-2017",
+
+  "bloodcrushers": "Daemons-Of-Khorne-Bloodcrushers",
+  "plague_drones": "plague-drones-of-nurgle-2017",
+  "screamers": "screamers-2016",
+  "seekers": "Seekers-of-Slaanesh",
+
+  "bloodthirster": "Daemons-Of-Khorne-Bloodthirster",
+  "lord_of_change": "lord-of-change-2016",
+  "great_unclean_one": "Great-Unclean-One-2018",
+  "keeper_of_secrets": "Keeper-of-Secrets-2019",
+  "be_lakor": "Chaos-Daemons-Belakor-The-Dark-Master-2021",
+
+  "skarbrand": "Skarbrand-Bloodthirster",
+  "kairos_fateweaver": "Kairos-Fateweaver-2017",
+  "rotigus": "Rotigus-Rainmaker",
+  "shalaxi_helbane": "Shalaxi-Hellbane-2019",
+
+  "bloodmaster": "Bloodmaster-Herald-of-Khorne-2019",
+  "skulltaker": "Skulltaker-2019",
+  "karanak": "Karanak-the-Hound-of-Vengeance-2019",
+  "changecaster": "changecaster-2022",
+  "the_changeling": "the-changeling-2016",
+  "fluxmaster": "herald-of-tzeentch-on-burning-chariot-2016",
+  "fateskimmer": "herald-of-tzeentch-on-burning-chariot-2016",
+
+  "infernal_enrapturess": "Infernal-Enrapturess-2019",
+  "syll_esske": "The-Vengeful-Allegiance-2019",
+  "the_masque_of_slaanesh": "The-Masque-2019",
+
+  "poxbringer": "Poxbringer-Herald-Of-Nurgle-2018",
+  "sloppity_bilepiper": "Sloppity-Bilepiper-Herald-Of-Nurgle-2018",
+  "horticulous_slimux": "Horticulous-Slimux-2018",
+
+  "flamers": "flamers-of-tzeentch-2017",
+  "exalted_flamer": "Exalted-Flamer-of-Tzeentch",
+  "burning_chariot": "Burning-Chariot-of-Tzeentch",
+
+  "fiends": "Fiends-of-Slaanesh-2019",
+
+  "flesh_hounds": "Flesh-Hounds-2019",
+
+  "skull_cannon": "Daemons-Of-Khorne-Skull-Cannon",
+  "rendmaster_on_blood_throne": "Daemons-Of-Khorne-Bloodthrone",
+
+  "soul_grinder": "Soul-Grinder",
+  "beasts_of_nurgle": "Beast-Of-Nurgle-2018",
+
+  "seeker_chariot": "Seeker-Chariot-of-Slaanesh",
+  "hellflayer": "hellflayer-2022",
+  "tormentbringer": "tormentbringer-2022",
+
+  "daemon_prince_of_chaos": "slaves-to-darkness-daemon-prince-2023",
+  "daemon_prince_of_chaos_with_wings": "slaves-to-darkness-daemon-prince-2023"
+
+
 }
