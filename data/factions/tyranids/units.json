@@ -7,7 +7,8 @@
       "points": 340,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "barbgaunts",
@@ -55,7 +56,8 @@
       "points": 200,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "exocrine",
@@ -111,7 +113,8 @@
       "points": 810,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "hive_crone",
@@ -167,7 +170,8 @@
       "points": 75,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "maleceptor",
@@ -295,7 +299,8 @@
       "points": 330,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "sky_slasher_swarms",

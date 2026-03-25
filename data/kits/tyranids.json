@@ -1,292 +1,741 @@
 {
-  "termagants": {
+  "tyranid-prime-with-lash-whip-2026": {
+    "display_name": "Tyranid Prime with Lash Whip",
+    "slug_short": "tyranid-prime-with-lash-whip",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106084_TyranidPrimewithLashWhip01.jpg",
+    "year": 2026
+  },
+  "combat-patrol-tyranid-assault-brood-2025": {
+    "display_name": "Combat Patrol: Tyranid Assault Brood",
+    "slug_short": "combat-patrol-tyranid-assault-brood",
+    "models": 18,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 272,
+      "CAD": 205,
+      "PLN": 550,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106081_TyranidAssaultBroodCombatPatrol1.jpg",
+    "year": 2025
+  },
+  "tyranids-barbgaunts-2023": {
+    "display_name": "Barbgaunts",
+    "slug_short": "tyranids-barbgaunts",
+    "models": 5,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199057_LeviathanEXTRA15.jpg",
+    "year": 2023
+  },
+  "killzone-upgrade-tyranid-infestation-2025": {
+    "display_name": "Killzone Upgrade: Tyranid Infestation",
+    "slug_short": "killzone-upgrade-tyranid-infestation",
+    "models": 0,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106080_KillzoneUpgradeTyranidInfestation1.jpg",
+    "year": 2025
+  },
+  "tyranids-horrors-of-the-hive-2023": {
+    "display_name": "Horrors of the Hive",
+    "slug_short": "tyranids-horrors-of-the-hive",
+    "models": 4,
+    "prices": {
+      "GBP": 69.5,
+      "USD": 114,
+      "EUR": 87.5,
+      "AUD": 195,
+      "CAD": 135,
+      "PLN": 380,
+      "CHF": 90
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106076_HorrorsHive2.jpg",
+    "year": 2023
+  },
+  "tyranids-psychophage-2023": {
+    "display_name": "Psychophage",
+    "slug_short": "tyranids-psychophage",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106074_Psychophage1.jpg",
+    "year": 2023
+  },
+  "tyranids-von-ryans-leapers-2023": {
+    "display_name": "Von Ryan's Leapers",
+    "slug_short": "tyranids-von-ryans-leapers",
+    "models": 3,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199057_LeviathanEXTRA13.jpg",
+    "year": 2023
+  },
+  "tyranids-neurolictor-2023": {
+    "display_name": "Neurolictor",
+    "slug_short": "tyranids-neurolictor",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106072_Neurolictor1.jpg",
+    "year": 2023
+  },
+  "tyranids-lictor-2023": {
+    "display_name": "Lictor",
+    "slug_short": "tyranids-lictor",
+    "models": 1,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106069_Lictor1.jpg",
+    "year": 2023
+  },
+  "tyranids-genestealers-2023": {
+    "display_name": "Genestealers",
+    "slug_short": "tyranids-genestealers",
     "models": 10,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106068_Genestealers2.jpg",
+    "year": 2023
   },
-  "hormagaunts": {
+  "tyranids-deathleaper-2023": {
+    "display_name": "Deathleaper",
+    "slug_short": "tyranids-deathleaper",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106067_Deathleaper1.jpg",
+    "year": 2023
+  },
+  "tyranids-termagants-2023": {
+    "display_name": "Termagants",
+    "slug_short": "tyranids-termagants",
     "models": 10,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106066_Termagaunts2.jpg",
+    "year": 2023
   },
-  "genestealers": {
-    "models": 8,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "tyranid-warriors": {
-    "models": 3,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "biovore": {
+  "tyranids-pyrovore-2023": {
+    "display_name": "Pyrovore",
+    "slug_short": "tyranids-pyrovore",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106065_Pyrovore1.jpg",
+    "year": 2023
   },
-  "broodlord": {
+  "tyranids-biovore-2023": {
+    "display_name": "Biovore",
+    "slug_short": "tyranids-biovore",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106065_Biovore1.jpg",
+    "year": 2023
   },
-  "deathleaper": {
+  "tyranids-norn-assimilator-2023": {
+    "display_name": "Norn Assimilator",
+    "slug_short": "tyranids-norn-assimilator",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "AUD": 207,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106064_NornAssimilator1.jpg",
+    "year": 2023
   },
-  "lictor": {
+  "tyranids-norn-emissary-2023": {
+    "display_name": "Norn Emissary",
+    "slug_short": "tyranids-norn-emissary",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "AUD": 207,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106064_NornEmissary1.jpg",
+    "year": 2023
   },
-  "neurotyrant": {
+  "tyranids-hive-tyrant-no-wings-2022": {
+    "display_name": "Hive Tyrant",
+    "slug_short": "tyranids-hive-tyrant-no-wings",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106060_HiveTyrantLead.jpg",
+    "year": 2022
   },
-  "parasite-of-mortrex": {
+  "tyranids-parasite-of-mortrex-2022": {
+    "display_name": "Parasite of Mortrex",
+    "slug_short": "tyranids-parasite-of-mortrex",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106050_TYRParasiteofMortrexLead.jpg",
+    "year": 2022
   },
-  "pyrovores": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "ripper-swarms": {
-    "models": 3,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "venomthropes": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "zoanthropes": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "raveners": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "von-ryan-leapers": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "tyrant-guard": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "carnifex": {
-    "models": 1,
+  "kill-team-raveners-2025": {
+    "display_name": "Kill Team: Raveners",
+    "slug_short": "kill-team-raveners",
+    "models": 5,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106083_ENGKillTeamTyphonCoreGame3.jpg",
+    "year": 2025
   },
-  "screamer-killer": {
+  "tyranids-prime-2023": {
+    "display_name": "Tyranid Prime",
+    "slug_short": "tyranids-prime",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106075_Prime1.jpg",
+    "year": 2023
   },
-  "haruspex": {
+  "tyranids-neurogaunts-2023": {
+    "display_name": "Neurogaunts",
+    "slug_short": "tyranids-neurogaunts",
+    "models": 11,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199057_LeviathanEXTRA16.jpg",
+    "year": 2023
+  },
+  "tyranids-hormagaunts-2023": {
+    "display_name": "Hormagaunts",
+    "slug_short": "tyranids-hormagaunts",
+    "models": 10,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106073_Hormagaunts2.jpg",
+    "year": 2023
+  },
+  "Tyranids-Hive-Tyrant-2019": {
+    "display_name": "Winged Hive Tyrant",
+    "slug_short": "Tyranids-Hive-Tyrant",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106060_WingedHiveTyrantLead.jpg",
+    "year": 2019
   },
-  "exocrine": {
+  "Old-One-Eyes-Carnifex-Brood-2017": {
+    "display_name": "Old One Eye's Carnifex Brood",
+    "slug_short": "Old-One-Eyes-Carnifex-Brood",
+    "models": 2,
+    "prices": {
+      "GBP": 64.5,
+      "USD": 106,
+      "EUR": 84,
+      "CAD": 127,
+      "PLN": 355,
+      "CHF": 84
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106031_OldOneEyeBrood01.jpg",
+    "year": 2017
+  },
+  "Screamer-Killer-Brood-2017": {
+    "display_name": "Screamer-Killer Brood",
+    "slug_short": "Screamer-Killer-Brood",
+    "models": 2,
+    "prices": {
+      "GBP": 64.5,
+      "USD": 106,
+      "EUR": 84,
+      "CAD": 127,
+      "PLN": 355,
+      "CHF": 84
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106031_ScreamerKillerBrood01.jpg",
+    "year": 2017
+  },
+  "Tyranid-Warriors-2017": {
+    "display_name": "Tyranid Warriors",
+    "slug_short": "Tyranid-Warriors",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 80,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106058_TYRWarriorsLeadPrime.jpg",
+    "year": 2017
+  },
+  "Tyranid-Trygon": {
+    "display_name": "Trygon",
+    "slug_short": "Tyranid-Trygon",
     "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 128,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106019_TrygonNEW01.jpg"
+  },
+  "Maleceptor": {
+    "display_name": "Maleceptor",
+    "slug_short": "Maleceptor",
+    "models": 1,
+    "prices": {
+      "GBP": 52.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 123,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106033_Maleceptor01.jpg"
+  },
+  "Sporocyst": {
+    "display_name": "Sporocyst and Mucolid Spore",
+    "slug_short": "Sporocyst",
+    "models": 1,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106034_Sporocyst01.jpg"
+  },
+  "Tyranid-Harridan": {
+    "display_name": "Tyranid Harridan",
+    "slug_short": "Tyranid-Harridan",
+    "models": 1,
+    "prices": {
+      "GBP": 350.5,
+      "USD": 535,
+      "EUR": 430,
+      "AUD": 751,
+      "CAD": 665,
+      "PLN": 1910,
+      "CHF": 430
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590106024_TyranidHarridanGargoyleClusters02.jpg"
+  },
+  "Tyranid-Hierophant-Bio-Titan": {
+    "display_name": "Tyranid Hierophant Bio-Titan",
+    "slug_short": "Tyranid-Hierophant-Bio-Titan",
+    "models": 1,
+    "prices": {
+      "GBP": 350.5,
+      "USD": 535,
+      "EUR": 430,
+      "AUD": 751,
+      "CAD": 665,
+      "PLN": 1910,
+      "CHF": 430
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590106012_TyranidHierophantBioTitan02.jpg"
+  },
+  "Tyrannocyte": {
+    "display_name": "Tyrannocyte",
+    "slug_short": "Tyrannocyte",
+    "models": 1,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 102,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106034_Tyrannocyte01.jpg"
+  },
+  "Toxicrene": {
+    "display_name": "Toxicrene",
+    "slug_short": "Toxicrene",
+    "models": 1,
+    "prices": {
+      "GBP": 52.5,
+      "USD": 89,
+      "EUR": 70,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106033_Toxicrene01.jpg"
+  },
+  "Exocrine": {
+    "display_name": "Exocrine",
+    "slug_short": "Exocrine",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 123,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106056_ExocreneLead.jpg"
+  },
+  "Tyrant-Guard": {
+    "display_name": "Tyrant Guard",
+    "slug_short": "Tyrant-Guard",
+    "models": 3,
     "prices": {
       "GBP": 52,
       "USD": 85,
       "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "AUD": 107,
+      "CAD": 100,
+      "PLN": 285,
+      "CHF": 67
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106055_TYRHiveGuardLeadALT.jpg"
   },
-  "maleceptor": {
+  "Hive-Crone": {
+    "display_name": "Hive Crone",
+    "slug_short": "Hive-Crone",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 58,
+      "USD": 92,
+      "EUR": 76,
+      "AUD": 139,
+      "CAD": 112,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106024_HiveCrone01.jpg"
   },
-  "mawloc": {
-    "models": 1,
+  "Carnifex-Brood": {
+    "display_name": "Carnifex Brood",
+    "slug_short": "Carnifex-Brood",
+    "models": 2,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "hive-tyrant": {
-    "models": 1,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "tervigon": {
-    "models": 1,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "harpy": {
-    "models": 1,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "hive-crone": {
-    "models": 1,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "tyrannocyte": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "norn-emissary": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
+      "GBP": 64.5,
+      "USD": 106,
+      "EUR": 84,
       "AUD": 155,
-      "CAD": 152
-    }
+      "CAD": 127,
+      "PLN": 355,
+      "CHF": 84
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106031_CarnifexBrood01.jpg"
+  },
+  "Haruspex": {
+    "display_name": "Haruspex",
+    "slug_short": "Haruspex",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 123,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106026_Haruspex01.jpg"
+  },
+  "Hive-Guard": {
+    "display_name": "Hive Guard",
+    "slug_short": "Hive-Guard",
+    "models": 3,
+    "prices": {
+      "GBP": 52,
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 107,
+      "CAD": 100,
+      "PLN": 285,
+      "CHF": 67
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106055_TYRHiveGuardLead.jpg"
+  },
+  "Tyranid-Harpy": {
+    "display_name": "Tyranid Harpy",
+    "slug_short": "Tyranid-Harpy",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 92,
+      "EUR": 76,
+      "AUD": 139,
+      "CAD": 112,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106024_Harpies01.jpg"
+  },
+  "Tyranid-Mawloc": {
+    "display_name": "Mawloc",
+    "slug_short": "Tyranid-Mawloc",
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 128,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106019_MawlocNEW01.jpg"
+  },
+  "The-Swarmlord-2019": {
+    "display_name": "The Swarmlord",
+    "slug_short": "The-Swarmlord",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106060_SwarmlordLead.jpg",
+    "year": 2019
+  },
+  "Tyranid-Tervigon": {
+    "display_name": "Tervigon",
+    "slug_short": "Tyranid-Tervigon",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 116,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106054_TYRTyrannofexLeadALT.jpg"
+  },
+  "Tyranid-Tyrannofex": {
+    "display_name": "Tyrannofex",
+    "slug_short": "Tyranid-Tyrannofex",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 116,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106054_TYRTyrannofexLead.jpg"
+  },
+  "Tyranid-Gargoyle-Brood": {
+    "display_name": "Gargoyle Brood",
+    "slug_short": "Tyranid-Gargoyle-Brood",
+    "models": 10,
+    "prices": {
+      "GBP": 30,
+      "USD": 48.5,
+      "EUR": 38.5,
+      "AUD": 70,
+      "CAD": 58,
+      "PLN": 160
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106052_TYRGargoylesLead.jpg"
+  },
+  "Tyranid-Broodlord": {
+    "display_name": "Broodlord",
+    "slug_short": "Tyranid-Broodlord",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106059_BroodlordLead.jpg"
+  },
+  "Zoanthropes": {
+    "display_name": "Zoanthropes",
+    "slug_short": "Zoanthropes",
+    "models": 3,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 110,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106057_NeurothropesLead.jpg"
+  },
+  "Venomthropes": {
+    "display_name": "Venomthropes",
+    "slug_short": "Venomthropes",
+    "models": 3,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120106057_VenomthropesLead.jpg"
   }
 }
