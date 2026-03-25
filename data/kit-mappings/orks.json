@@ -1,55 +1,91 @@
 {
-  "battlewagon": "battlewagon",
-  "beast_snagga_boyz": "ork-beast-snagga-boyz",
-  "beastboss": "ork-beastboss",
-  "beastboss_on_squigosaur": "beastboss-on-squigosaur",
-  "big_gunz": "mek-gunz-traktor-kannon",
-  "big_mek": "big-mek",
-  "big_mek_in_meka_armour": "big-mek-in-mega-armour",
-  "big_mek_with_shokk_attack_gun": "big-mek-with-shokk-attack-gun",
-  "big_mek_with_kustom_force_field": "big-mek",
-  "blitza_bommer": "blitza-bommer",
-  "boomdakka_snazzwagon": "boomdakka-snazzwagon",
-  "boss_snikrot": "boss-snikrot",
-  "boyz": "boyz",
-  "burna_bommer": "burna-bommer",
-  "burna_boyz": "ork-burna-boyz",
-  "dakkajet": "dakkajet",
-  "deff_dread": "deff-dread",
-  "deffkoptas": "deffkoptas",
-  "deffkoptas_with_big_shootas": "deffkoptas",
-  "flash_gitz": "flash-gitz",
-  "gargantuan_squiggoth": "ork-gargantuan-squiggoth",
-  "ghazghkull_thraka": "ghazghkull-thraka",
-  "gorkanaut": "gorkanaut",
-  "gretchin": "ork-gretchin",
-  "hunta_rig": "hunta-rig",
-  "kill_rig": "kill-rig",
-  "killa_kans": "killa-kans",
-  "kommandos": "kommandos",
-  "kustom_boosta_blasta": "kustom-boosta-blasta",
-  "lootas": "ork-lootas",
-  "meganobz": "meganobz",
-  "megatrakk_scrapjet": "megatrakk-scrapjet",
-  "mek_gunz_bubblechukka": "mek-gunz-bubblechukka",
-  "morkanaut": "morkanaut",
-  "mozrog_skragbad": "mozrog-skragbad",
-  "mek": "ork-mek",
-  "nobz": "ork-nobz",
-  "painboss": "painboss",
-  "painboy": "ork-painboy",
-  "rukkatrukk_squigbuggy": "rukkatrukk-squigbuggy",
-  "shokkjump_dragsta": "shokkjump-dragsta",
-  "snagga_boyz": "ork-beast-snagga-boyz",
-  "squighog_boyz": "squighog-boyz",
-  "stompa": "stompa",
-  "stormboyz": "ork-stormboyz",
-  "tankbustas": "wrecka-krew",
-  "trukk": "trukk",
-  "warbikers": "ork-warbiker-mob",
-  "warboss": "ork-warboss-with-attack-squig",
-  "warboss_in_mega_armour": "warboss-in-mega-armour",
-  "wazbom_blastajet": "wazbom-blastajet",
-  "weirdboy": "weirdboy",
-  "zodgrod_wortsnagga": "zodgrod-wortsnagga"
+  "battlewagon": "orks-battlewagon-2021",
+  "beast_snagga_boyz": "orks-beast-snagga-boyz-2021",
+  "beastboss": "orks-beastboss-2021",
+  "beastboss_on_squigosaur": "beastboss-on-squigosaur-2021",
+
+  "big_mek": "orks-big-mek-2024",
+  "big_mek_in_mega_armour": "Big-Mek-in-Mega-Armour",
+  "big_mek_with_shokk_attack_gun": "Big-Mek-with-Shokk-Attack-Gun",
+
+  "blitza_bommer": "Ork-Blitza-Bommer-NEW",
+  "boomdakka_snazzwagon": "Orks-Boomdakka-Snazzwagon-2018",
+
+  "boss_snikrot": "orks-boss-snikrot-2023",
+
+  "boyz": "Ork-Boyz-2018",
+
+  "burna_boyz": "Ork-Burna-Boyz-2018",
+  "burna_bommer": "Ork-Burna-Bommer-NEW",
+
+  "dakkajet": "Ork-Dakkajet-NEW",
+
+  "deff_dread": "Ork-Deff-Dread",
+  "deffkilla_wartrike": "Orks-Deffkilla-Wartrike-2018",
+  "deffkoptas": "deffkoptas-2022",
+
+  "flash_gitz": "Flash-Gitz",
+
+  "ghazghkull_thraka": "Ghazghkull-Thraka-2020",
+
+  "gorkanaut": "Gorkanaut",
+  "morkanaut": "Morkanaut",
+
+  "gretchin": "Ork-Gretchin-2018",
+
+  "hunta_rig": "hunta-rig-2021",
+  "kill_rig": "orks-kill-rig-2021",
+
+  "killa_kans": "Ork-Killa-Kans",
+
+  "kommandos": "orks-kommandos-2025",
+
+  "kustom_boosta_blasta": "Orks-Kustom-Boosta-Blasta-2019",
+
+  "lootas": "Ork-Lootas-2018",
+
+  "meganobz": "Meganobz",
+
+  "megatrakk_scrapjet": "Orks-Megatrakk-Scrapjet-2018",
+
+  "mek": "Ork-Mek-2018",
+
+  "mek_gunz": "Mek-Gunz-Kustom-Mega-kannon",
+
+  "mozrog_skragbad": "orks-mozrog-skragbad-2021",
+
+  "nobz": "Ork-Nobz-2018",
+
+  "painboss": "orks-painboss-2021",
+  "painboy": "Ork-Painboy-2018",
+
+  "rukkatrukk_squigbuggy": "Orks-Rukkatrukk-Squigbuggy-2018",
+
+  "shokkjump_dragsta": "Orks-Shokkjump-Dragsta-2019",
+
+  "squighog_boyz": "orks-squighog-boyz-2021",
+
+  "stompa": "Ork-Stompa",
+
+  "stormboyz": "Ork-Stormboyz-2018",
+
+  "warbikers": "Ork-Warbiker-Mob-2018",
+
+  "warboss_in_mega_armour": "ork-warboss-in-mega-armour-2022",
+
+  "wazbom_blastajet": "Ork-Wazbom-Blastajet",
+
+  "weirdboy": "Ork-Weirdboy",
+
+  "zodgrod_wortsnagga": "orks-zodgrod-wortsnagga-2021",
+
+  "warboss": "ork-warboss-with-attack-squig-2022",
+
+  "big_gunz": "Mek-Gunz-Kustom-Mega-kannon",
+
+  "deffkoptas_with_big_shootas": "deffkoptas-2022",
+
+  "nob_with_waaagh_banner": "Ork-Nobz-2018",
+
+  "gargantuan_squiggoth": "Ork-Gargantuan-Squiggoth"
 }

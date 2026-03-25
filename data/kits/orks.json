@@ -1,677 +1,71 @@
 {
-"killa-kans": {
-"models": 3,
-"prices": {
-"GBP": 40,
-"USD": 65,
-"EUR": 51.5,
-"AUD": 92,
-"CAD": 78,
-"PLN": 215,
-"CHF": 51.5
-}
-},
-"deff-dread": {
-"models": 1,
-"prices": {
-"GBP": 40,
-"USD": 65,
-"EUR": 51.5,
-"AUD": 101,
-"CAD": 78,
-"PLN": 215,
-"CHF": 51.5
-}
-},
-"boss-snikrot": {
-"models": 1,
-"prices": {
-"GBP": 27,
-"USD": 43.5,
-"EUR": 34.5,
-"AUD": 75.5,
-"CAD": 54,
-"PLN": 152.5,
-"CHF": 34.5
-}
-},
-"ork-warboss-with-attack-squig": {
-"models": 1,
-"prices": {
-"GBP": 25,
-"USD": 39,
-"EUR": 32.5,
-"AUD": 67,
-"CAD": 50,
-"PLN": 140,
-"CHF": 32.5
-}
-},
-"deffkoptas": {
-"models": 3,
-"prices": {
-"GBP": 42.5,
-"USD": 69,
-"EUR": 55,
-"AUD": 117,
-"CAD": 83,
-"PLN": 230,
-"CHF": 55
-}
-},
-"hunta-rig": {
-"models": 1,
-"prices": {
-"GBP": 87.5,
-"USD": 145,
-"EUR": 115,
-"AUD": 240,
-"CAD": 175,
-"PLN": 482.5,
-"CHF": 115
-}
-},
-"kill-rig": {
-"models": 1,
-"prices": {
-"GBP": 87.5,
-"USD": 145,
-"EUR": 115,
-"AUD": 240,
-"CAD": 175,
-"PLN": 482.5,
-"CHF": 115
-}
-},
-"painboss": {
-"models": 2,
-"prices": {
-"GBP": 27,
-"USD": 43.5,
-"EUR": 34.5,
-"AUD": 71,
-"CAD": 54,
-"PLN": 152.5,
-"CHF": 34.5
-}
-},
-"gunwagon": {
-"models": 1,
-"prices": {
-"GBP": 80,
-"USD": 130,
-"EUR": 101.5,
-"AUD": 203,
-"CAD": 160,
-"PLN": 440,
-"CHF": 101.5
-}
-},
-"bonebreaka": {
-"models": 1,
-"prices": {
-"GBP": 80,
-"USD": 130,
-"EUR": 101.5,
-"AUD": 203,
-"CAD": 160,
-"PLN": 440,
-"CHF": 101.5
-}
-},
-"battlewagon": {
-"models": 1,
-"prices": {
-"GBP": 80,
-"USD": 130,
-"EUR": 101.5,
-"AUD": 203,
-"CAD": 160,
-"PLN": 440,
-"CHF": 101.5
-}
-},
-"ork-boyz": {
-  "models": 11,
-  "prices": {
-    "GBP": 29.5,
-    "USD": 48,
-    "EUR": 37,
-    "AUD": 70,
-    "CAD": 57,
-    "PLN": 160,
-    "CHF": 37
-  }
-},
-"ork-mek": {
-  "models": 1,
-  "prices": {
-    "GBP": 18.5,
-    "USD": 32,
-    "EUR": 23,
-    "AUD": 28,
-    "CAD": 36,
-    "PLN": 99,
-    "CHF": 23
-  }
-},
-"ork-painboy": {
-  "models": 1,
-  "prices": {
-    "GBP": 20.5,
-    "USD": 35,
-    "EUR": 26,
-    "AUD": 37,
-    "CAD": 41,
-    "PLN": 115,
-    "CHF": 26
-  }
-},
-"big-mek-with-shokk-attack-gun": {
-  "models": 1,
-  "prices": {
-    "GBP": 27,
-    "USD": 43.5,
-    "EUR": 34.5,
-    "AUD": 49,
-    "CAD": 54,
-    "PLN": 152.5,
-    "CHF": 34.5
-  }
-},
-"morkanaut": {
-  "models": 1,
-  "prices": {
-    "GBP": 91,
-    "USD": 150,
-    "EUR": 120,
-    "AUD": 139,
-    "CAD": 180,
-    "PLN": 500,
-    "CHF": 120
-  }
-},
-"gorkanaut": {
-  "models": 1,
-  "prices": {
-    "GBP": 91,
-    "USD": 150,
-    "EUR": 120,
-    "AUD": 139,
-    "CAD": 180,
-    "PLN": 500,
-    "CHF": 120
-  }
-},
-"trukk": {
-  "models": 1,
-  "prices": {
-    "GBP": 36,
-    "USD": 60,
-    "EUR": 47.5,
-    "AUD": 74,
-    "CAD": 70,
-    "PLN": 200,
-    "CHF": 47.5
-  }
-},
-"big-mek": {
-  "models": 1,
-  "prices": {
-    "GBP": 32.5,
-    "USD": 53,
-    "EUR": 42,
-    "AUD": 90,
-    "CAD": 64,
-    "PLN": 175,
-    "CHF": 42
-  }
-},
-"warboss-in-mega-armour": {
-  "models": 1,
-  "prices": {
-    "GBP": 27,
-    "USD": 43.5,
-    "EUR": 34.5,
-    "AUD": 71,
-    "CAD": 54,
-    "PLN": 152.5,
-    "CHF": 34.5
-  }
-},
-"beastboss-on-squigosaur": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 103,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"mozrog-skragbad": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 103,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"big-ed-bossbunka": {
-  "models": 1,
-  "prices": {
-    "GBP": 52,
-    "USD": 85,
-    "EUR": 67,
-    "AUD": 133,
-    "CAD": 100,
-    "PLN": 285,
-    "CHF": 67
-  }
-},
-"wrecka-krew": {
-  "models": 8,
-  "prices": {
-    "GBP": 42.5,
-    "USD": 69,
-    "EUR": 55,
-    "AUD": 117,
-    "CAD": 83,
-    "PLN": 230,
-    "CHF": 55
-  }
-},
-"zodgrod-wortsnagga": {
-  "models": 1,
-  "prices": {
-    "GBP": 29.5,
-    "USD": 48,
-    "EUR": 37,
-    "AUD": 79.5,
-    "CAD": 57,
-    "PLN": 160,
-    "CHF": 37
-  }
-},
-"ghazghkull-thraka": {
-  "models": 2,
-  "prices": {
-    "GBP": 49.5,
-    "USD": 82,
-    "EUR": 64,
-    "AUD": 133,
-    "CAD": 98,
-    "PLN": 270,
-    "CHF": 64
-  }
-},
-"squighog-boyz": {
-  "models": 5,
-  "prices": {
-    "GBP": 42.5,
-    "USD": 69,
-    "EUR": 55,
-    "AUD": 117,
-    "CAD": 83,
-    "PLN": 230,
-    "CHF": 55
-  }
-},
-"ork-beast-snagga-boyz": {
-  "models": 10,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 103,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"kustom-boosta-blasta": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 95,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"megatrakk-scrapjet": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 95,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"deffkilla-wartrike": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 95,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"ork-warbiker-mob": {
-  "models": 3,
-  "prices": {
-    "GBP": 35.5,
-    "USD": 60,
-    "EUR": 45,
-    "AUD": 84,
-    "CAD": 70,
-    "PLN": 195,
-    "CHF": 45
-  }
-},
-"ork-stormboyz": {
-  "models": 5,
-  "prices": {
-    "GBP": 27,
-    "USD": 42,
-    "EUR": 34.5,
-    "AUD": 60,
-    "CAD": 54,
-    "PLN": 152.5,
-    "CHF": 34.5
-  }
-},
-"ork-nobz": {
-  "models": 6,
-  "prices": {
-    "GBP": 27,
-    "USD": 42,
-    "EUR": 34.5,
-    "AUD": 60,
-    "CAD": 54,
-    "PLN": 152.5,
-    "CHF": 34.5
-  }
-},
-"burna-bommer": {
-  "models": 1,
-  "prices": {
-    "GBP": 57,
-    "USD": 90,
-    "EUR": 74,
-    "AUD": 133,
-    "CAD": 113,
-    "PLN": 315,
-    "CHF": 74
-  }
-},
-"blitza-bommer": {
-  "models": 1,
-  "prices": {
-    "GBP": 57,
-    "USD": 90,
-    "EUR": 74,
-    "AUD": 133,
-    "CAD": 113,
-    "PLN": 315,
-    "CHF": 74
-  }
-},
-"dakkajet": {
-  "models": 1,
-  "prices": {
-    "GBP": 57,
-    "USD": 90,
-    "EUR": 74,
-    "AUD": 133,
-    "CAD": 113,
-    "PLN": 315,
-    "CHF": 74
-  }
-},
-"wazbom-blastajet": {
-  "models": 1,
-  "prices": {
-    "GBP": 57,
-    "USD": 90,
-    "EUR": 74,
-    "AUD": 133,
-    "CAD": 113,
-    "PLN": 315,
-    "CHF": 74
-  }
-},
-"big-mek-in-mega-armour": {
-  "models": 4,
-  "prices": {
-    "GBP": 44.5,
-    "USD": 73.5,
-    "EUR": 57.5,
-    "AUD": 99,
-    "CAD": 88,
-    "PLN": 245,
-    "CHF": 57.5
-  }
-},
-"meganobz": {
-  "models": 3,
-  "prices": {
-    "GBP": 44.5,
-    "USD": 73.5,
-    "EUR": 57.5,
-    "AUD": 99,
-    "CAD": 88,
-    "PLN": 245,
-    "CHF": 57.5
-  }
-},
-"mek-gunz-traktor-kannon": {
-  "models": 6,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 83,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"mek-gunz-kustom-mega-kannon": {
-  "models": 6,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 83,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"mek-gunz-smasha-gun": {
-  "models": 6,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 83,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"mek-gunz-bubblechukka": {
-  "models": 6,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 83,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"flash-gitz": {
-  "models": 5,
-  "prices": {
-    "GBP": 40,
-    "USD": 65,
-    "EUR": 51.5,
-    "AUD": 87,
-    "CAD": 78,
-    "PLN": 215,
-    "CHF": 51.5
-  }
-},
-"stompa": {
-  "models": 1,
-  "prices": {
-    "GBP": 91,
-    "USD": 150,
-    "EUR": 120,
-    "AUD": 203,
-    "CAD": 180,
-    "PLN": 500,
-    "CHF": 120
-  }
-},
-"kommandos": {
-  "models": 12,
-  "prices": {
-    "GBP": 42.5,
-    "USD": 69,
-    "EUR": 55,
-    "AUD": 117,
-    "CAD": 83,
-    "PLN": 230,
-    "CHF": 55
-  }
-},
-"ork-gargantuan-squiggoth": {
-  "models": 1,
-  "prices": {
-    "GBP": 345.5,
-    "USD": 530,
-    "EUR": 420,
-    "AUD": 730,
-    "CAD": 655,
-    "PLN": 1885,
-    "CHF": 420
-  }
-},
-"weirdboy": {
-  "models": 1,
-  "prices": {
-    "GBP": 19,
-    "USD": 33.5,
-    "EUR": 24,
-    "AUD": 48,
-    "CAD": 38,
-    "PLN": 105,
-    "CHF": 24
-  }
-},
-"shokkjump-dragsta": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 95,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"ork-burna-boyz": {
-  "models": 5,
-  "prices": {
-    "GBP": 27,
-    "USD": 42,
-    "EUR": 34.5,
-    "AUD": 60,
-    "CAD": 54,
-    "PLN": 152.5,
-    "CHF": 34.5
-  }
-},
-"ork-lootas": {
-  "models": 5,
-  "prices": {
-    "GBP": 27,
-    "USD": 42,
-    "EUR": 34.5,
-    "AUD": 60,
-    "CAD": 54,
-    "PLN": 152.5,
-    "CHF": 34.5
-  }
-},
-"ork-gretchin": {
-  "models": 11,
-  "prices": {
-    "GBP": 16,
-    "USD": 27,
-    "EUR": 21,
-    "AUD": 36,
-    "CAD": 32,
-    "PLN": 88,
-    "CHF": 21
-  }
-},
-"rukkatrukk-squigbuggy": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 95,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-"boomdakka-snazzwagon": {
-  "models": 1,
-  "prices": {
-    "GBP": 38,
-    "USD": 60,
-    "EUR": 50,
-    "AUD": 95,
-    "CAD": 74,
-    "PLN": 210,
-    "CHF": 50
-  }
-},
-  "ork-beastboss": {
+  "combat-patrol-orks-2024": {
+    "display_name": "Combat Patrol: Orks",
+    "slug_short": "combat-patrol-orks",
+    "models": 26,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 280,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103115_OrkCP2.jpg",
+    "year": 2024
+  },
+  "orks-boss-snikrot-2023": {
+    "display_name": "Boss Snikrot",
+    "slug_short": "orks-boss-snikrot",
     "models": 1,
     "prices": {
       "GBP": 27,
       "USD": 43.5,
       "EUR": 34.5,
-      "AUD": 71,
+      "AUD": 75.5,
       "CAD": 54,
       "PLN": 152.5,
       "CHF": 34.5
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103114_Snikrot1.jpg",
+    "year": 2023
   },
-  "boyz": {
+  "ork-warboss-with-attack-squig-2022": {
+    "display_name": "Ork Warboss with Attack Squig",
+    "slug_short": "ork-warboss-with-attack-squig",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103111_WarbossAttackSquigLead.jpg",
+    "year": 2022
+  },
+  "deffkoptas-2022": {
+    "display_name": "Deffkoptas",
+    "slug_short": "deffkoptas",
+    "models": 3,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103107_DeffkoptasLead.jpg",
+    "year": 2022
+  },
+  "ork-boyz-combat-patrol-2022": {
+    "display_name": "Boyz",
+    "slug_short": "ork-boyz-combat-patrol",
     "models": 10,
     "prices": {
       "GBP": 35.5,
@@ -681,6 +75,836 @@
       "CAD": 70,
       "PLN": 195,
       "CHF": 45
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103106_OrkBoyzLead.jpg",
+    "year": 2022
+  },
+  "ork-warboss-in-mega-armour-2022": {
+    "display_name": "Warboss in Mega Armour",
+    "slug_short": "ork-warboss-in-mega-armour",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103105_WarbossinMegaArmourLead.jpg",
+    "year": 2022
+  },
+  "hunta-rig-2021": {
+    "display_name": "Hunta Rig",
+    "slug_short": "hunta-rig",
+    "models": 1,
+    "prices": {
+      "GBP": 87.5,
+      "USD": 145,
+      "EUR": 115,
+      "AUD": 240,
+      "CAD": 175,
+      "PLN": 482.5,
+      "CHF": 115
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103072_ORKSKillRigHuntaRigLeadAlt.jpg",
+    "year": 2021
+  },
+  "beastboss-on-squigosaur-2021": {
+    "display_name": "Beastboss on Squigosaur",
+    "slug_short": "beastboss-on-squigosaur",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103075_BeastbossSquigasaurLead.jpg",
+    "year": 2021
+  },
+  "orks-mozrog-skragbad-2021": {
+    "display_name": "Mozrog Skragbad",
+    "slug_short": "orks-mozrog-skragbad",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103075_MozrogLead.jpg",
+    "year": 2021
+  },
+  "orks-kill-rig-2021": {
+    "display_name": "Kill Rig",
+    "slug_short": "orks-kill-rig",
+    "models": 1,
+    "prices": {
+      "GBP": 87.5,
+      "USD": 145,
+      "EUR": 115,
+      "AUD": 240,
+      "CAD": 175,
+      "PLN": 482.5,
+      "CHF": 115
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103072_ORKSKillRigHuntaRigLead.jpg",
+    "year": 2021
+  },
+  "orks-painboss-2021": {
+    "display_name": "Painboss",
+    "slug_short": "orks-painboss",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070103006_ORKSPainBossLead.jpg",
+    "year": 2021
+  },
+  "orks-big-ed-bossbunka-2021": {
+    "display_name": "Big'ed Bossbunka",
+    "slug_short": "orks-big-ed-bossbunka",
+    "models": 1,
+    "prices": {
+      "GBP": 52,
+      "USD": 85,
+      "EUR": 67,
+      "AUD": 133,
+      "CAD": 100,
+      "PLN": 285,
+      "CHF": 67
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103082_BigEdBossBunkaLead.jpg",
+    "year": 2021
+  },
+  "orks-beastboss-2021": {
+    "display_name": "Beastboss",
+    "slug_short": "orks-beastboss",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103078_BeastbossLead.jpg",
+    "year": 2021
+  },
+  "orks-squighog-boyz-2021": {
+    "display_name": "Squighog Boyz",
+    "slug_short": "orks-squighog-boyz",
+    "models": 3,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010103001_BeastsnaggaHogzGroup2.jpg",
+    "year": 2021
+  },
+  "orks-zodgrod-wortsnagga-2021": {
+    "display_name": "Zodgrod Wortsnagga",
+    "slug_short": "orks-zodgrod-wortsnagga",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010103001_BeastsnaggaZodGroup1.jpg",
+    "year": 2021
+  },
+  "orks-beast-snagga-boyz-2021": {
+    "display_name": "Ork Beast Snagga Boyz",
+    "slug_short": "orks-beast-snagga-boyz",
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103073_ORKSnaggaBoyzLead.jpg",
+    "year": 2021
+  },
+  "orks-kommandos-2025": {
+    "display_name": "Kommandos",
+    "slug_short": "orks-kommandos",
+    "models": 12,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103127_KT2Group2.jpg",
+    "year": 2025
+  },
+  "kill-team-wrecka-krew-2025": {
+    "display_name": "Kill Team: Wrecka Krew",
+    "slug_short": "kill-team-wrecka-krew",
+    "models": 8,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103123_ENGKTBrutalCunning3.jpg",
+    "year": 2025
+  },
+  "orks-big-mek-2024": {
+    "display_name": "Big Mek",
+    "slug_short": "orks-big-mek",
+    "models": 1,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103120_ORKBigMek01.jpg",
+    "year": 2024
+  },
+  "gunwagon-2021": {
+    "display_name": "Gunwagon",
+    "slug_short": "gunwagon",
+    "models": 1,
+    "prices": {
+      "GBP": 80,
+      "USD": 130,
+      "EUR": 101.5,
+      "AUD": 203,
+      "CAD": 160,
+      "PLN": 440,
+      "CHF": 101.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103084_GunwagonLead.jpg",
+    "year": 2021
+  },
+  "bonebreaka-2021": {
+    "display_name": "Bonebreaka",
+    "slug_short": "bonebreaka",
+    "models": 1,
+    "prices": {
+      "GBP": 80,
+      "USD": 130,
+      "EUR": 101.5,
+      "AUD": 203,
+      "CAD": 160,
+      "PLN": 440,
+      "CHF": 101.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103084_BonebreakaLead.jpg",
+    "year": 2021
+  },
+  "orks-battlewagon-2021": {
+    "display_name": "Battlewagon",
+    "slug_short": "orks-battlewagon",
+    "models": 1,
+    "prices": {
+      "GBP": 80,
+      "USD": 130,
+      "EUR": 101.5,
+      "AUD": 203,
+      "CAD": 160,
+      "PLN": 440,
+      "CHF": 101.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103084_BattlewagonLead.jpg",
+    "year": 2021
+  },
+  "Ork-Killa-Kans": {
+    "display_name": "Killa Kans",
+    "slug_short": "Ork-Killa-Kans",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 92,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103024_KillaKansNEW01.jpg"
+  },
+  "Ork-Deff-Dread": {
+    "display_name": "Deff Dread",
+    "slug_short": "Ork-Deff-Dread",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 101,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103023_DeffDreadNEW01.jpg"
+  },
+  "Ghazghkull-Thraka-2020": {
+    "display_name": "Ghazghkull Thraka",
+    "slug_short": "Ghazghkull-Thraka",
+    "models": 2,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 133,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103079_ThrakaLead.jpg",
+    "year": 2020
+  },
+  "Orks-Shokkjump-Dragsta-2019": {
+    "display_name": "Shokkjump Dragsta",
+    "slug_short": "Orks-Shokkjump-Dragsta",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 95,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103067_ShokkjumpDragsta01.jpg",
+    "year": 2019
+  },
+  "Orks-Rukkatrukk-Squigbuggy-2018": {
+    "display_name": "Rukkatrukk Squigbuggy",
+    "slug_short": "Orks-Rukkatrukk-Squigbuggy",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 95,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103066_RukkatrukkSquigbuggy01.jpg",
+    "year": 2018
+  },
+  "Orks-Boomdakka-Snazzwagon-2018": {
+    "display_name": "Boomdakka Snazzwagon",
+    "slug_short": "Orks-Boomdakka-Snazzwagon",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 95,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103062_BoomdakkaSnazzwagon01.jpg",
+    "year": 2018
+  },
+  "Ork-Gretchin-2018": {
+    "display_name": "Ork Gretchin",
+    "slug_short": "Ork-Gretchin",
+    "models": 11,
+    "prices": {
+      "GBP": 16,
+      "USD": 27,
+      "EUR": 21,
+      "AUD": 36,
+      "CAD": 32,
+      "PLN": 88,
+      "CHF": 21
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103053_OrkGretchin01.jpg",
+    "year": 2018
+  },
+  "Ork-Boyz-2018": {
+    "display_name": "Ork Boyz",
+    "slug_short": "Ork-Boyz",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103052_OrkBoyz01.jpg",
+    "year": 2018
+  },
+  "Ork-Mek-2018": {
+    "display_name": "Ork Mek",
+    "slug_short": "Ork-Mek",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 32,
+      "EUR": 23,
+      "AUD": 28,
+      "CAD": 36,
+      "PLN": 99,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070103004_OrkMek01.jpg",
+    "year": 2018
+  },
+  "Ork-Painboy-2018": {
+    "display_name": "Ork Painboy",
+    "slug_short": "Ork-Painboy",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 37,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070103003_Painboy01.jpg",
+    "year": 2018
+  },
+  "Big-Mek-with-Shokk-Attack-Gun": {
+    "display_name": "Big Mek with Shokk Attack Gun",
+    "slug_short": "Big-Mek-with-Shokk-Attack-Gun",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 49,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103031_ShokkAttackGun01.jpg"
+  },
+  "Morkanaut": {
+    "display_name": "Morkanaut",
+    "slug_short": "Morkanaut",
+    "models": 1,
+    "prices": {
+      "GBP": 91,
+      "USD": 150,
+      "EUR": 120,
+      "AUD": 139,
+      "CAD": 180,
+      "PLN": 500,
+      "CHF": 120
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103034_Morkanaut01.jpg"
+  },
+  "Gorkanaut": {
+    "display_name": "Gorkanaut",
+    "slug_short": "Gorkanaut",
+    "models": 1,
+    "prices": {
+      "GBP": 91,
+      "USD": 150,
+      "EUR": 120,
+      "AUD": 139,
+      "CAD": 180,
+      "PLN": 500,
+      "CHF": 120
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103034_Gorkanaut01.jpg"
+  },
+  "Ork-Trukk": {
+    "display_name": "Trukk",
+    "slug_short": "Ork-Trukk",
+    "models": 1,
+    "prices": {
+      "GBP": 36,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 74,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103012_TrukkNEW01.jpg"
+  },
+  "Orks-Kustom-Boosta-Blasta-2019": {
+    "display_name": "Kustom Boosta-blasta",
+    "slug_short": "Orks-Kustom-Boosta-Blasta",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 95,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103064_BoostaBlasta01.jpg",
+    "year": 2019
+  },
+  "Ork-Burna-Boyz-2018": {
+    "display_name": "Ork Burna Boyz",
+    "slug_short": "Ork-Burna-Boyz",
+    "models": 5,
+    "prices": {
+      "GBP": 27,
+      "USD": 42,
+      "EUR": 34.5,
+      "AUD": 60,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103054_OrkBurnaBoyz01.jpg",
+    "year": 2018
+  },
+  "Orks-Megatrakk-Scrapjet-2018": {
+    "display_name": "Megatrakk Scrapjet",
+    "slug_short": "Orks-Megatrakk-Scrapjet",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 95,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103065_MegatrakScrapjet01.jpg",
+    "year": 2018
+  },
+  "Orks-Deffkilla-Wartrike-2018": {
+    "display_name": "Deffkilla Wartrike",
+    "slug_short": "Orks-Deffkilla-Wartrike",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 95,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103063_DeffkillaWartrike01.jpg",
+    "year": 2018
+  },
+  "Ork-Warbiker-Mob-2018": {
+    "display_name": "Ork Warbiker Mob",
+    "slug_short": "Ork-Warbiker-Mob",
+    "models": 3,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 84,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103057_WarbikerMob01.jpg",
+    "year": 2018
+  },
+  "Ork-Stormboyz-2018": {
+    "display_name": "Ork Stormboyz",
+    "slug_short": "Ork-Stormboyz",
+    "models": 5,
+    "prices": {
+      "GBP": 27,
+      "USD": 42,
+      "EUR": 34.5,
+      "AUD": 60,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103056_Stormboyz01.jpg",
+    "year": 2018
+  },
+  "Ork-Nobz-2018": {
+    "display_name": "Ork Nobz",
+    "slug_short": "Ork-Nobz",
+    "models": 5,
+    "prices": {
+      "GBP": 27,
+      "USD": 42,
+      "EUR": 34.5,
+      "AUD": 60,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103055_Nobz01.jpg",
+    "year": 2018
+  },
+  "Ork-Lootas-2018": {
+    "display_name": "Ork Lootas",
+    "slug_short": "Ork-Lootas",
+    "models": 5,
+    "prices": {
+      "GBP": 27,
+      "USD": 42,
+      "EUR": 34.5,
+      "AUD": 60,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103054_OrkLootas01.jpg",
+    "year": 2018
+  },
+  "Ork-Burna-Bommer-NEW": {
+    "display_name": "Burna-Bommer",
+    "slug_short": "Ork-Burna-Bommer-NEW",
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 90,
+      "EUR": 74,
+      "AUD": 133,
+      "CAD": 113,
+      "PLN": 315,
+      "CHF": 74
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103043_OrkBurnaBommer01.jpg"
+  },
+  "Ork-Blitza-Bommer-NEW": {
+    "display_name": "Blitza-Bommer",
+    "slug_short": "Ork-Blitza-Bommer-NEW",
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 90,
+      "EUR": 74,
+      "AUD": 133,
+      "CAD": 113,
+      "PLN": 315,
+      "CHF": 74
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103043_OrkBlitzaBommer01.jpg"
+  },
+  "Ork-Dakkajet-NEW": {
+    "display_name": "Dakkajet",
+    "slug_short": "Ork-Dakkajet-NEW",
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 90,
+      "EUR": 74,
+      "AUD": 133,
+      "CAD": 113,
+      "PLN": 315,
+      "CHF": 74
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103043_OrkDakkajet01.jpg"
+  },
+  "Ork-Wazbom-Blastajet": {
+    "display_name": "Wazbom Blastajet",
+    "slug_short": "Ork-Wazbom-Blastajet",
+    "models": 1,
+    "prices": {
+      "GBP": 57,
+      "USD": 90,
+      "EUR": 74,
+      "AUD": 133,
+      "CAD": 113,
+      "PLN": 315,
+      "CHF": 74
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103043_WazbomBlastajet01.jpg"
+  },
+  "Big-Mek-in-Mega-Armour": {
+    "display_name": "Big Mek in Mega Armour",
+    "slug_short": "Big-Mek-in-Mega-Armour",
+    "models": 1,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 99,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103035_BigMekMega01.jpg"
+  },
+  "Meganobz": {
+    "display_name": "Meganobz",
+    "slug_short": "Meganobz",
+    "models": 3,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 99,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103089_OrkMeganobzAlt.jpg"
+  },
+  "Mek-Gunz-Traktor-Kannon": {
+    "display_name": "Mek Gunz: Traktor Kannon",
+    "slug_short": "Mek-Gunz-Traktor-Kannon",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 83,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103029_OrkTraktorCannon01.jpg"
+  },
+  "Mek-Gunz-Kustom-Mega-kannon": {
+    "display_name": "Mek Gunz: Kustom Mega-kannon",
+    "slug_short": "Mek-Gunz-Kustom-Mega-kannon",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 83,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103029_OrkKustomCannon01.jpg"
+  },
+  "Mek-Gunz-Smasha-Gun": {
+    "display_name": "Mek Gunz: Smasha Gun",
+    "slug_short": "Mek-Gunz-Smasha-Gun",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 83,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103029_OrkSmashaGun01.jpg"
+  },
+  "Mek-Gunz-Bubblechukka": {
+    "display_name": "Mek Gunz: Bubblechukka",
+    "slug_short": "Mek-Gunz-Bubblechukka",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 83,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103029_OrkBubbleChukka01.jpg"
+  },
+  "Flash-Gitz": {
+    "display_name": "Flash Gitz",
+    "slug_short": "Flash-Gitz",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 87,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103033_FlashGitz01.jpg"
+  },
+  "Ork-Stompa": {
+    "display_name": "Stompa",
+    "slug_short": "Ork-Stompa",
+    "models": 1,
+    "prices": {
+      "GBP": 91,
+      "USD": 150,
+      "EUR": 120,
+      "AUD": 203,
+      "CAD": 180,
+      "PLN": 500,
+      "CHF": 120
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120103021_StompaNEW01.jpg"
+  },
+  "Ork-Gargantuan-Squiggoth": {
+    "display_name": "Ork Gargantuan Squiggoth",
+    "slug_short": "Ork-Gargantuan-Squiggoth",
+    "models": 1,
+    "prices": {
+      "GBP": 345.5,
+      "USD": 530,
+      "EUR": 420,
+      "AUD": 730,
+      "CAD": 655,
+      "PLN": 1885,
+      "CHF": 420
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590103031_ORKGargantuanSquiggothUpdate1.jpg"
+  },
+  "Ork-Weirdboy": {
+    "display_name": "Weirdboy",
+    "slug_short": "Ork-Weirdboy",
+    "models": 1,
+    "prices": {
+      "GBP": 19,
+      "USD": 33.5,
+      "EUR": 24,
+      "AUD": 48,
+      "CAD": 38,
+      "PLN": 105,
+      "CHF": 24
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99800103004_WeirdboyNEW01.jpg"
   }
 }
