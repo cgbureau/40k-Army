@@ -1,192 +1,362 @@
 {
-  "kabalite-warriors": {
-    "models": 10,
+  "combat-patrol-drukhari-2025": {
+    "display_name": "Combat Patrol: Drukhari",
+    "slug_short": "combat-patrol-drukhari",
+    "models": 13,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 255,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112057_DRUCombatPatrol01.jpg",
+    "year": 2025
   },
-  "wyches": {
-    "models": 10,
+  "drukhari-archon-2025": {
+    "display_name": "Archon",
+    "slug_short": "drukhari-archon",
+    "models": 1,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
+      "GBP": 25,
+      "USD": 40,
+      "EUR": 32.5,
+      "AUD": 70,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112060_DrukhariArchon1.jpg",
+    "year": 2025
   },
-  "wracks": {
+  "drukhari-lady-malys-2025": {
+    "display_name": "Lady Malys",
+    "slug_short": "drukhari-lady-malys",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 38,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 38
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112054_DRULadyMalys01.jpg",
+    "year": 2025
+  },
+  "drukhari-wracks-2025": {
+    "display_name": "Wracks",
+    "slug_short": "drukhari-wracks",
     "models": 5,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112033_DRUWracksSquad01.jpg",
+    "year": 2025
+  },
+  "kill-team-hand-of-the-archon-2024": {
+    "display_name": "Kill Team: Hand of the Archon",
+    "slug_short": "kill-team-hand-of-the-archon",
+    "models": 10,
+    "prices": {
+      "GBP": 36,
+      "USD": 60,
+      "EUR": 47.5,
+      "AUD": 100,
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112058_KTHandArchon2.jpg",
+    "year": 2024
+  },
+  "kill-team-mandrakes-2024": {
+    "display_name": "Kill Team: Mandrakes",
+    "slug_short": "kill-team-mandrakes",
+    "models": 10,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 139,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112055_KTMandrakes1.jpg",
+    "year": 2024
+  },
+  "Haemonculus-2017": {
+    "display_name": "Haemonculus",
+    "slug_short": "Haemonculus",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 32,
+      "EUR": 23,
+      "AUD": 34,
+      "CAD": 36,
+      "PLN": 99,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070112002_Haemonculus01.jpg",
+    "year": 2017
+  },
+  "Succubus-2014": {
+    "display_name": "Succubus",
+    "slug_short": "Succubus",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 32,
+      "EUR": 23,
+      "AUD": 31,
+      "CAD": 36,
+      "PLN": 99,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070112003_DESuccubus01.jpg",
+    "year": 2014
+  },
+  "Dark-Eldar-Wyches": {
+    "display_name": "Wyches",
+    "slug_short": "Dark-Eldar-Wyches",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112008_WychesNEW01.jpg"
+  },
+  "Dark-Eldar-Hellions": {
+    "display_name": "Hellions",
+    "slug_short": "Dark-Eldar-Hellions",
+    "models": 5,
+    "prices": {
+      "GBP": 21.5,
+      "USD": 35,
+      "EUR": 27.5,
+      "AUD": 52,
+      "CAD": 42.5,
+      "PLN": 121,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112009_HellionsNEW01.jpg"
+  },
+  "Drukhari-Raider": {
+    "display_name": "Raider",
+    "slug_short": "Drukhari-Raider",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.25,
+      "AUD": 84,
+      "CAD": 80,
+      "PLN": 220,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112012_DERaiderNEW01.jpg"
+  },
+  "Dark-Eldar-Talos-Pain-Engine-2018": {
+    "display_name": "Talos",
+    "slug_short": "Dark-Eldar-Talos-Pain-Engine",
+    "models": 2,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 92,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112030_Cronos01.jpg",
+    "year": 2018
+  },
+  "Dark-Eldar-Cronos-Parasite-Engine-2018": {
+    "display_name": "Cronos",
+    "slug_short": "Dark-Eldar-Cronos-Parasite-Engine",
+    "models": 2,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 104,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112030_Talos01.jpg",
+    "year": 2018
+  },
+  "Voidraven-Bomber": {
+    "display_name": "Voidraven Bomber",
+    "slug_short": "Voidraven-Bomber",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 139,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112020_DEVoidRavenBomber01.jpg"
+  },
+  "Dark-Eldar-Razorwing-Jetfighter": {
+    "display_name": "Razorwing Jetfighter",
+    "slug_short": "Dark-Eldar-Razorwing-Jetfighter",
+    "models": 1,
+    "prices": {
+      "GBP": 38.5,
+      "USD": 65,
+      "EUR": 50,
+      "AUD": 87,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112015_RazorwingJetfighterNEW_01.jpg"
+  },
+  "Dark-Eldar-Scourges": {
+    "display_name": "Scourges",
+    "slug_short": "Dark-Eldar-Scourges",
+    "models": 5,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 57,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112014_ScourgesNEW_01.jpg"
+  },
+  "Drukhari-Lelith-Hesperax-2021": {
+    "display_name": "Lelith Hesperax",
+    "slug_short": "Drukhari-Lelith-Hesperax",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112042_LelithHesperaxLead.jpg",
+    "year": 2021
+  },
+  "Drukhari-Drazhar-2020": {
+    "display_name": "Drazhar",
+    "slug_short": "Drukhari-Drazhar",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112040_Drazhar01.jpg",
+    "year": 2020
+  },
+  "Drukhari-Kabalite-Warriors-2017": {
+    "display_name": "Kabalite Warriors",
+    "slug_short": "Drukhari-Kabalite-Warriors",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112007_KabaliteWarriorsNEW01.jpg",
+    "year": 2017
+  },
+  "Dark-Eldar-Ravager": {
+    "display_name": "Ravager",
+    "slug_short": "Dark-Eldar-Ravager",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 104,
+      "CAD": 85,
+      "PLN": 235,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112011_RavagerNEW01.jpg"
+  },
+  "Dark-Eldar-Reavers": {
+    "display_name": "Reavers",
+    "slug_short": "Dark-Eldar-Reavers",
+    "models": 3,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
       "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112010_ReaversNEW01.jpg"
   },
-  "incubi": {
+  "Drukhari-Incubi-2020": {
+    "display_name": "Incubi",
+    "slug_short": "Drukhari-Incubi",
     "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "scourges": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "mandrakes": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "grotesques": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "hand-of-the-archon": {
-    "models": 10,
     "prices": {
       "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 104,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112041_DRUIncubi01.jpg",
+    "year": 2020
   },
-  "hellions": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "reavers": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "archon": {
+  "Dark-Eldar-Venom-2017": {
+    "display_name": "Venom",
+    "slug_short": "Dark-Eldar-Venom",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "court-of-the-archon": {
-    "models": 4,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "succubus": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "beastmaster": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "raider": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "ravager": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "venom": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "talos": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "cronos": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 67,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112013_VenomNEW_01.jpg",
+    "year": 2017
   }
 }

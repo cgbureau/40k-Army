@@ -1,24 +1,37 @@
 {
-  "archon": "archon",
-  "beastmaster": "beastmaster",
-  "court_of_the_archon": "court-of-the-archon",
-  "cronos": "cronos",
-  "grotesques": "grotesques",
-  "hand_of_the_archon": "hand-of-the-archon",
-  "hellions": "hellions",
-  "incubi": "incubi",
-  "kabalite_warriors": "kabalite-warriors",
-  "mandrakes": "mandrakes",
-  "raider": "raider",
-  "ravager": "ravager",
-  "reaper": "dark-reapers",
-  "reavers": "reavers",
-  "scourges": "scourges",
-  "scourges_with_heavy_weapons": "scourges",
-  "scourges_with_shardcarbines": "scourges",
-  "succubus": "succubus",
-  "talos": "talos",
-  "venom": "venom",
-  "wracks": "wracks",
-  "wyches": "wyches"
+  "archon": "drukhari-archon-2025",
+  "lady_malys": "drukhari-lady-malys-2025",
+
+  "wracks": "drukhari-wracks-2025",
+
+  "haemonculus": "Haemonculus-2017",
+  "succubus": "Succubus-2014",
+
+  "wyches": "Dark-Eldar-Wyches",
+  "hellions": "Dark-Eldar-Hellions",
+
+  "raider": "Drukhari-Raider",
+  "ravager": "Dark-Eldar-Ravager",
+  "venom": "Dark-Eldar-Venom-2017",
+
+  "talos": "Dark-Eldar-Talos-Pain-Engine-2018",
+  "cronos": "Dark-Eldar-Cronos-Parasite-Engine-2018",
+
+  "voidraven_bomber": "Voidraven-Bomber",
+  "razorwing_jetfighter": "Dark-Eldar-Razorwing-Jetfighter",
+
+  "scourges_with_heavy_weapons": "Dark-Eldar-Scourges",
+  "scourges_with_shardcarbines": "Dark-Eldar-Scourges",
+
+  "reavers": "Dark-Eldar-Reavers",
+
+  "incubi": "Drukhari-Incubi-2020",
+  "drazhar": "Drukhari-Drazhar-2020",
+
+  "kabalite_warriors": "Drukhari-Kabalite-Warriors-2017",
+
+  "lelith_hesperax": "Drukhari-Lelith-Hesperax-2021",
+
+  "hand_of_the_archon": "kill-team-hand-of-the-archon-2024",
+  "mandrakes": "kill-team-mandrakes-2024"
 }

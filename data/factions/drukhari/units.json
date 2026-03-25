@@ -215,7 +215,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "reavers",
@@ -295,7 +296,8 @@
       "points": 230,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "troupe",
