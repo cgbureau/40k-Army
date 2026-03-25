@@ -23,7 +23,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "cerberus",
@@ -31,7 +32,8 @@
       "points": 270,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "chaos_bikers",
@@ -159,7 +161,8 @@
       "points": 840,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "chaos_vindicator",
@@ -231,7 +234,8 @@
       "points": 165,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "defiler",
@@ -247,7 +251,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "dreadclaw_drop_pod",
@@ -255,7 +260,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "exalted_champion",
@@ -279,7 +285,8 @@
       "points": 420,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "fellblade",
@@ -287,7 +294,8 @@
       "points": 480,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "fellgor_beastmen",
@@ -303,7 +311,8 @@
       "points": 290,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "forgefiend",
@@ -327,7 +336,8 @@
       "points": 150,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "greater_brass_scorpion",
@@ -335,7 +345,8 @@
       "points": 500,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "haarken_worldclaimer",
@@ -375,7 +386,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "hell_talon",
@@ -383,7 +395,8 @@
       "points": 140,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "heretic_astartes_daemon_prince",
@@ -415,7 +428,8 @@
       "points": 300,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "khorne_berzerkers",
@@ -439,7 +453,8 @@
       "points": 240,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "kytan_ravager",
@@ -447,7 +462,8 @@
       "points": 400,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "land_raider_achilles",
@@ -455,7 +471,8 @@
       "points": 230,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "land_raider_proteus",
@@ -463,7 +480,8 @@
       "points": 220,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "legionaries",
@@ -479,7 +497,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "lord_discordant_on_helstalker",
@@ -519,7 +538,8 @@
       "points": 540,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "maulerfiend",
@@ -535,7 +555,8 @@
       "points": 185,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "mutoid_vermin",
@@ -551,7 +572,8 @@
       "points": 55,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "nemesis_claw",
@@ -599,7 +621,8 @@
       "points": 90,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "raptors",
@@ -631,7 +654,8 @@
       "points": 140,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "renegade_enforcer",
@@ -695,7 +719,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "sicaran_punisher",
@@ -703,7 +728,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "sicaran_venator",
@@ -711,7 +737,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "sokar_pattern_stormbird",
@@ -719,7 +746,8 @@
       "points": 900,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "sorcerer",
@@ -775,7 +803,8 @@
       "points": 300,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "storm_eagle_gunship",
@@ -783,7 +812,8 @@
       "points": 250,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "traitor_enforcer",
@@ -807,7 +837,8 @@
       "points": 320,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "vashtorr_the_arkifane",
@@ -847,7 +878,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "xiphon_interceptor",
@@ -855,7 +887,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     }
   ]
 }

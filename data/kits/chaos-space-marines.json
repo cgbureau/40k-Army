@@ -1,282 +1,860 @@
 {
-  "chaos-terminators": {
+  "combat-patrol-chaos-space-marines-2024": {
+    "display_name": "Combat Patrol: Chaos Space Marines",
+    "slug_short": "combat-patrol-chaos-space-marines",
+    "models": 26,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102190_CSMCP1.jpg",
+    "year": 2024
+  },
+  "chaos-space-marines-red-corsairs-raiders-2026": {
+    "display_name": "Red Corsairs Raiders",
+    "slug_short": "chaos-space-marines-red-corsairs-raiders",
     "models": 5,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 38.5,
+      "USD": 65,
+      "EUR": 50,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102224_RedCorsairsRaiders2.jpg",
+    "year": 2026
   },
-  "chosen": {
-    "models": 5,
+  "chaos-space-marines-red-corsairs-reave-captain-2026": {
+    "display_name": "Red Corsairs Reave-Captain",
+    "slug_short": "chaos-space-marines-red-corsairs-reave-captain",
+    "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102222_RedCorsairsReaveCaptain2.jpg",
+    "year": 2026
   },
-  "cultist-mob": {
+  "combat-patrol-red-corsairs-2026": {
+    "display_name": "Combat Patrol: Red Corsairs",
+    "slug_short": "combat-patrol-red-corsairs",
+    "models": 17,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 270,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102221_RedCorsairsCombatPatrol1.jpg",
+    "year": 2026
+  },
+  "chaos-space-marines-vashtorr-the-arkifane-2023": {
+    "display_name": "Vashtorr the Arkifane",
+    "slug_short": "chaos-space-marines-vashtorr-the-arkifane",
+    "models": 1,
+    "prices": {
+      "GBP": 64.5,
+      "USD": 106,
+      "EUR": 84,
+      "AUD": 178,
+      "CAD": 127,
+      "PLN": 355,
+      "CHF": 84
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102180_CSMVashtorrTheArkifane01.jpg",
+    "year": 2023
+  },
+  "world-eaters-khorne-berserkers-2023": {
+    "display_name": "Khorne Berzerkers",
+    "slug_short": "world-eaters-khorne-berserkers",
     "models": 10,
     "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102153_KhorneBerserkers1.jpg",
+    "year": 2023
   },
-  "accursed-cultists": {
-    "models": 5,
+  "slaves-to-darkness-daemon-prince-2023": {
+    "display_name": "Daemon Prince",
+    "slug_short": "slaves-to-darkness-daemon-prince",
+    "models": 1,
     "prices": {
-      "GBP": 35,
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 150,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201130_S2DDaemonPrince01.jpg",
+    "year": 2023
+  },
+  "chaos-space-marines-accursed-cultists-2022": {
+    "display_name": "Accursed Cultists",
+    "slug_short": "chaos-space-marines-accursed-cultists",
+    "models": 9,
+    "prices": {
+      "GBP": 35.5,
       "USD": 60,
       "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102147_AccursedCultistsLead.jpg",
+    "year": 2022
   },
-  "havocs": {
+  "chaos-space-marines-dark-commune-2022": {
+    "display_name": "Dark Commune",
+    "slug_short": "chaos-space-marines-dark-commune",
     "models": 5,
     "prices": {
-      "GBP": 35,
+      "GBP": 35.5,
       "USD": 60,
       "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102146_CSMDarkCommuneLead.jpg",
+    "year": 2022
   },
-  "raptors": {
+  "chaos-space-marines-chaos-cultists-2022": {
+    "display_name": "Chaos Cultists",
+    "slug_short": "chaos-space-marines-chaos-cultists",
+    "models": 10,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102144_CultistsLead.jpg",
+    "year": 2022
+  },
+  "chaos-space-marines-warpforged-venomcrawler-and-obliterators-2022": {
+    "display_name": "Venomcrawler and Obliterators",
+    "slug_short": "chaos-space-marines-warpforged-venomcrawler-and-obliterators",
+    "models": 3,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 139,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102143_CSMWarpforgedLead.jpg",
+    "year": 2022
+  },
+  "chaos-space-marines-possessed-2022": {
+    "display_name": "Possessed",
+    "slug_short": "chaos-space-marines-possessed",
     "models": 5,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102140_CSMPossessedLead.jpg",
+    "year": 2022
   },
-  "warp-talons": {
-    "models": 5,
+  "rubric-marines": {
+    "display_name": "Rubric Marines",
+    "slug_short": "rubric-marines",
+    "models": 10,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102063_RubicMarines02.jpg"
   },
-  "possessed": {
+  "chaos-space-marines-traitor-enforcer-2025": {
+    "display_name": "Traitor Enforcer",
+    "slug_short": "chaos-space-marines-traitor-enforcer",
+    "models": 1,
+    "prices": {
+      "GBP": 34,
+      "USD": 55.5,
+      "EUR": 43.5,
+      "AUD": 94,
+      "CAD": 66.5,
+      "PLN": 185,
+      "CHF": 43.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102220_CSMTraitorEnforcer1.jpg",
+    "year": 2025
+  },
+  "chaos-space-marines-legionaries-2025": {
+    "display_name": "Legionaries",
+    "slug_short": "chaos-space-marines-legionaries",
+    "models": 10,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 118,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102218_CSMLegionaries1.jpg",
+    "year": 2025
+  },
+  "chaos-space-marines-traitor-guardsmen-squad-2025": {
+    "display_name": "Traitor Guardsmen Squad",
+    "slug_short": "chaos-space-marines-traitor-guardsmen-squad",
+    "models": 10,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 90,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102219_CSMTraitorGuardsmen2.jpg",
+    "year": 2025
+  },
+  "emperors-children-noise-marines-2025": {
+    "display_name": "Noise Marines",
+    "slug_short": "emperors-children-noise-marines",
     "models": 5,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102204_ECNoiseMarines01.jpg",
+    "year": 2025
   },
-  "noise-marines": {
+  "kill-team-fellgor-ravagers-2024": {
+    "display_name": "Kill Team: Fellgor Ravagers",
+    "slug_short": "kill-team-fellgor-ravagers",
+    "models": 10,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102214_KTFellgorRavagers2.jpg",
+    "year": 2024
+  },
+  "chaos-space-marines-chaos-lord-2024": {
+    "display_name": "Chaos Space Marines \u2013 Chaos Lord",
+    "slug_short": "chaos-space-marines-chaos-lord",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102192_CSMLordPowerArmour1.jpg",
+    "year": 2024
+  },
+  "kill-team-nemesis-claw-2024": {
+    "display_name": "Kill Team: Nemesis Claw",
+    "slug_short": "kill-team-nemesis-claw",
+    "models": 6,
+    "prices": {
+      "GBP": 47,
+      "USD": 77,
+      "EUR": 61.5,
+      "AUD": 132,
+      "CAD": 93,
+      "PLN": 260,
+      "CHF": 61.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102182_KTNemesisClaw1.jpg",
+    "year": 2024
+  },
+  "chaos-space-marines-cultist-firebrand-2024": {
+    "display_name": "Cultist Firebrand",
+    "slug_short": "chaos-space-marines-cultist-firebrand",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 60,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102028_CSMCultistFirebrand01.jpg",
+    "year": 2024
+  },
+  "chaos-space-marines-master-of-possession-2023": {
+    "display_name": "Master of Possession",
+    "slug_short": "chaos-space-marines-master-of-possession",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 68,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102016_MasterPossession1.jpg",
+    "year": 2023
+  },
+  "combat-patrol-night-lords-2026": {
+    "display_name": "Combat Patrol: Night Lords",
+    "slug_short": "combat-patrol-night-lords",
+    "models": 17,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 270,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102217_NightLordsCP1.jpg",
+    "year": 2026
+  },
+  "chaos-space-marines-huron-blackheart-2026": {
+    "display_name": "Huron Blackheart and the Masters of the Maelstrom",
+    "slug_short": "chaos-space-marines-huron-blackheart",
+    "models": 4,
+    "prices": {
+      "GBP": 57,
+      "USD": 94,
+      "EUR": 74,
+      "AUD": 160,
+      "CAD": 113,
+      "PLN": 315,
+      "CHF": 74
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102225_ChaosSpaceMarinesHuronBlackheartMastersoftheMaelstrom1.jpg",
+    "year": 2026
+  },
+  "chaos-space-marines-chosen-2022": {
+    "display_name": "Chosen",
+    "slug_short": "chaos-space-marines-chosen",
     "models": 5,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "chaos-lord": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "dark-apostle": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "sorcerer": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "master-of-executions": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "masters-of-the-maelstrom": {
-    "models": 1,
-    "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102141_ChosenLead.jpg",
+    "year": 2022
   },
-  "warpsmith": {
+  "chaos-space-marines-warpsmith-2022": {
+    "display_name": "Warpsmith",
+    "slug_short": "chaos-space-marines-warpsmith",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102138_CSMWarpsmithLead.jpg",
+    "year": 2022
   },
-  "abaddon-the-despoiler": {
+  "chaos-space-marines-lord-with-jump-pack-2024": {
+    "display_name": "Chaos Lord with Jump Pack",
+    "slug_short": "chaos-space-marines-lord-with-jump-pack",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102193_CSMLordJumpPack1.jpg",
+    "year": 2024
   },
-  "chaos-bikers": {
+  "red-corsairs-lords-of-the-maelstrom-2026": {
+    "display_name": "Red Corsairs Battleforce: Lords of the Maelstrom",
+    "slug_short": "red-corsairs-lords-of-the-maelstrom",
+    "models": 36,
+    "prices": {
+      "GBP": 160,
+      "EUR": 206,
+      "USD": 335,
+      "AUD": 435,
+      "CAD": 315,
+      "PLN": 860,
+      "CHF": 206
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102110_ChaosSpaceMarinesRedCorsairsLordsoftheMaelstrom1.jpg",
+    "year": 2026
+  },
+  "Chaos-Space-Marines-Fabius-Bile-2020": {
+    "display_name": "Fabius Bile",
+    "slug_short": "Chaos-Space-Marines-Fabius-Bile",
     "models": 3,
     "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102113_CSMFabiusBileLead.jpg",
+    "year": 2020
+  },
+  "Chaos-Space-Marines-Sorcerer-2019": {
+    "display_name": "Chaos Space Marines Sorcerer",
+    "slug_short": "Chaos-Space-Marines-Sorcerer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 55.5,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102015_CSMSorcerer01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Dark-Apostle-2019": {
+    "display_name": "Dark Apostle",
+    "slug_short": "Chaos-Space-Marines-Dark-Apostle",
+    "models": 3,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102099_CSMDarkApostle01.jpg",
+    "year": 2019
+  },
+  "Master-Of-Executions-2019": {
+    "display_name": "Master of Executions",
+    "slug_short": "Master-Of-Executions",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 49,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102013_CSMMasterofExecutions01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Maulerfiend-2019": {
+    "display_name": "Maulerfiend",
+    "slug_short": "Chaos-Space-Marine-Maulerfiend",
+    "models": 1,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 107,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend02.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Terminators-2019": {
+    "display_name": "Chaos Terminator Squad",
+    "slug_short": "Chaos-Space-Marine-Terminators",
+    "models": 5,
+    "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102097_CSMTerminators01.jpg",
+    "year": 2019
   },
-  "chaos-rhino": {
+  "Abaddon-the-Despoiler-2019": {
+    "display_name": "Abaddon the Despoiler",
+    "slug_short": "Abaddon-the-Despoiler",
+    "models": 1,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102101_CSMAbbaddon01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Rhino-2019": {
+    "display_name": "Chaos Rhino",
+    "slug_short": "Chaos-Space-Marine-Rhino",
     "models": 1,
     "prices": {
       "GBP": 36,
       "USD": 60,
       "EUR": 47.5,
       "AUD": 74,
-      "CAD": 70
-    }
+      "CAD": 70,
+      "PLN": 200,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102092_CSMRhino01.jpg",
+    "year": 2019
   },
-  "chaos-land-raider": {
+  "Chaos-Space-Marine-Bikers-2019": {
+    "display_name": "Chaos Bikers",
+    "slug_short": "Chaos-Space-Marine-Bikers",
+    "models": 3,
+    "prices": {
+      "GBP": 30,
+      "USD": 48.5,
+      "EUR": 38.5,
+      "AUD": 67,
+      "CAD": 58,
+      "PLN": 160,
+      "CHF": 38.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102091_CSMBikers01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Heldrake-2019": {
+    "display_name": "Heldrake",
+    "slug_short": "Chaos-Space-Marines-Heldrake",
     "models": 1,
     "prices": {
-      "GBP": 58,
-      "USD": 96,
-      "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
+      "GBP": 55,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 96,
+      "CAD": 107,
+      "PLN": 305,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102090_CSMHeldrake01.jpg",
+    "year": 2019
   },
-  "chaos-predator": {
+  "Chaos-Space-Marines-Forgefiend-2019": {
+    "display_name": "Forgefiend",
+    "slug_short": "Chaos-Space-Marines-Forgefiend",
     "models": 1,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 107,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend01.jpg",
+    "year": 2019
   },
-  "chaos-vindicator": {
+  "Haarken-Worldclaimer-2018": {
+    "display_name": "Haarken Worldclaimer, Herald of the Apocalypse",
+    "slug_short": "Haarken-Worldclaimer",
     "models": 1,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102088_HaarkenWorldclaimer01.jpg",
+    "year": 2018
   },
-  "helbrute": {
+  "Cypher-2018": {
+    "display_name": "Cypher",
+    "slug_short": "Cypher",
     "models": 1,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101177_TriumvirateofthePrimarch06.jpg",
+    "year": 2018
   },
-  "forgefiend": {
-    "models": 1,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "maulerfiend": {
-    "models": 1,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "defiler": {
-    "models": 1,
-    "prices": {
-      "GBP": 58,
-      "USD": 96,
-      "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
-  },
-  "venomcrawler": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "obliterators": {
-    "models": 2,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "vashtorr-the-arkifane": {
+  "Helbrute": {
+    "display_name": "Helbrute",
+    "slug_short": "Helbrute",
     "models": 1,
     "prices": {
       "GBP": 40,
       "USD": 65,
       "EUR": 51.5,
+      "AUD": 96,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102043_CSMHelbrute01.jpg"
+  },
+  "Chaos-Space-Marines-Khorne-Lord-of-Skulls": {
+    "display_name": "Khorne Lord of Skulls",
+    "slug_short": "Chaos-Space-Marines-Khorne-Lord-of-Skulls",
+    "models": 1,
+    "prices": {
+      "GBP": 120,
+      "USD": 197,
+      "EUR": 155,
+      "AUD": 203,
+      "CAD": 240,
+      "PLN": 660,
+      "CHF": 155
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102041_LordofSkulls01.jpg"
+  },
+  "Chaos-Space-Marines-Vindicator": {
+    "display_name": "Chaos Vindicator",
+    "slug_short": "Chaos-Space-Marines-Vindicator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102025_ChaosVindicatorNEW_01.jpg"
+  },
+  "Chaos-Space-Marines-Predator": {
+    "display_name": "Chaos Predator",
+    "slug_short": "Chaos-Space-Marines-Predator",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 101,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102012_ChaosPredator01.jpg"
+  },
+  "Chaos-Space-Marines-Land-Raider": {
+    "display_name": "Chaos Land Raider",
+    "slug_short": "Chaos-Space-Marines-Land-Raider",
+    "models": 1,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 133,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102052_CSMLandRaiderRepack01.jpg"
+  },
+  "Death-Guard-Plague-Marines-2020": {
+    "display_name": "Plague Marines",
+    "slug_short": "Death-Guard-Plague-Marines",
+    "models": 7,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102078_PlagueMarines01.jpg",
+    "year": 2020
+  },
+  "Chaos-Terminator-Sorcerer-2019": {
+    "display_name": "Sorcerer Lord in Terminator Armour",
+    "slug_short": "Chaos-Terminator-Sorcerer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 46,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102093_CSMTerminatorLord02.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Vex-Machinator-2019": {
+    "display_name": "Lord Discordant on Helstalker",
+    "slug_short": "Chaos-Space-Marines-Vex-Machinator",
+    "models": 1,
+    "prices": {
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 133,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102100_CSMVexMachinator01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Havocs-2019": {
+    "display_name": "Havocs",
+    "slug_short": "Chaos-Space-Marine-Havocs",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
       "AUD": 110,
-      "CAD": 78
-    }
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102096_CSMHavocs01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Chaos-Lord-2019": {
+    "display_name": "Chaos Lord in Terminator Armour",
+    "slug_short": "Chaos-Space-Marine-Chaos-Lord",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 46,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102093_CSMTerminatorLord01.jpg",
+    "year": 2019
+  },
+  "Warp-Talons-2018": {
+    "display_name": "Warp Talons",
+    "slug_short": "Warp-Talons",
+    "models": 5,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102087_WarptalonsRaptors02.jpg",
+    "year": 2018
+  },
+  "Chaos-Space-Marine-Raptors-2018": {
+    "display_name": "Raptors",
+    "slug_short": "Chaos-Space-Marine-Raptors",
+    "models": 5,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102087_WarptalonsRaptors01.jpg",
+    "year": 2018
+  },
+  "Chaos-Spawn-2016": {
+    "display_name": "Chaos Spawn",
+    "slug_short": "Chaos-Spawn",
+    "models": 2,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 74,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201050_ChaosSpawn01.jpg",
+    "year": 2016
   }
 }
