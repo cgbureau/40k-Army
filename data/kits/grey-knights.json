@@ -1,62 +1,162 @@
 {
-  "grey-knights-strike-squad": {
-    "models": 5,
+  "combat-patrol-grey-knights-2025": {
+    "display_name": "Combat Patrol: Grey Knights",
+    "slug_short": "combat-patrol-grey-knights",
+    "models": 17,
     "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 272,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107021_GreyKnightsCombatPatrol01Update.jpg",
+    "year": 2025
   },
-  "grey-knights-terminators": {
-    "models": 5,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "nemesis-dreadknight": {
+  "grey-knights-castellan-crowe-2022": {
+    "display_name": "Castellan Crowe",
+    "slug_short": "grey-knights-castellan-crowe",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107015_GKCastellanCroweLead.jpg",
+    "year": 2022
   },
-  "castellan-crowe": {
+  "grey-knights-purifier-squad-2022": {
+    "display_name": "Grey Knights Purifier Squad",
+    "slug_short": "grey-knights-purifier-squad",
+    "models": 5,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 114,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107018_PurifierLead.jpg",
+    "year": 2022
+  },
+  "grey-knights-purgation-squad-2022": {
+    "display_name": "Grey Knights Purgation Squad",
+    "slug_short": "grey-knights-purgation-squad",
+    "models": 5,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 114,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107018_PurgationLead.jpg",
+    "year": 2022
+  },
+  "grey-knights-interceptor-squad-2022": {
+    "display_name": "Grey Knights Interceptor Squad",
+    "slug_short": "grey-knights-interceptor-squad",
+    "models": 5,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 114,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107018_InceptorLead.jpg",
+    "year": 2022
+  },
+  "grey-knights-terminators-2017": {
+    "display_name": "Grey Knights Brotherhood Terminator Squad",
+    "slug_short": "grey-knights-terminators",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 99,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107001_TerminatorsNEW01.jpg",
+    "year": 2017
+  },
+  "grey-knights-paladins-2017": {
+    "display_name": "Grey Knights Paladins",
+    "slug_short": "grey-knights-paladins",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 99,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107001_PaladinsSquadNEW01.jpg",
+    "year": 2017
+  },
+  "grey-knights-strike-squad-2017": {
+    "display_name": "Grey Knights Strike Squad",
+    "slug_short": "grey-knights-strike-squad",
+    "models": 5,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 114,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107013_StrikeSquad01.jpg",
+    "year": 2017
+  },
+  "grey-knights-grand-master-voldus-2017": {
+    "display_name": "Grand Master Voldus",
+    "slug_short": "grey-knights-grand-master-voldus",
     "models": 1,
     "prices": {
       "GBP": 26,
       "USD": 42,
       "EUR": 34,
       "AUD": 72,
-      "CAD": 53
-    }
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070107001_GrandMasterVoldus01.jpg",
+    "year": 2017
   },
-  "kaldor-draigo": {
+  "grey-knights-grandmaster-in-nemesis-dreadknight-2025": {
+    "display_name": "Grand Master in Nemesis Dreadknight",
+    "slug_short": "grey-knights-grandmaster-in-nemesis-dreadknight",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "venerable-dreadnought": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 128,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120107023_GreyKnightsGrandmasterinNemesisDreadknightVehicle01.jpg",
+    "year": 2025
   }
 }

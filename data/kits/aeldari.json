@@ -1,262 +1,1036 @@
 {
-  "guardian-defenders": {
+  "aeldari-eldritch-raiders-2026": {
+    "display_name": "Aeldari Corsairs Battleforce: Eldritch Raiders",
+    "slug_short": "aeldari-eldritch-raiders",
+    "models": 23,
+    "prices": {
+      "GBP": 160,
+      "USD": 255,
+      "EUR": 206,
+      "AUD": 435,
+      "CAD": 310,
+      "PLN": 860,
+      "CHF": 206
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104088_AeldariEldritchRaiders1.jpg",
+    "year": 2026
+  },
+  "combat-patrol-aeldari-2025": {
+    "display_name": "Combat Patrol: Aeldari",
+    "slug_short": "combat-patrol-aeldari",
+    "models": 21,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104097_AELCombatPatrol01.jpg",
+    "year": 2025
+  },
+  "aeldari-vyper-2026": {
+    "display_name": "Vyper/Starfang",
+    "slug_short": "aeldari-vyper",
+    "models": 1,
+    "prices": {
+      "GBP": 38.5,
+      "USD": 65,
+      "EUR": 50,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104112_AeldariVyper01.jpg",
+    "year": 2026
+  },
+  "aeldari-corsair-voidreavers-2026": {
+    "display_name": "Corsair Voidreavers",
+    "slug_short": "aeldari-corsair-voidreavers",
+    "models": 5,
+    "prices": {
+      "GBP": 38.5,
+      "USD": 65,
+      "EUR": 50,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104115_AeldariCorsairVoidreavers01.jpg",
+    "year": 2026
+  },
+  "aeldari-corsair-skyreavers-2026": {
+    "display_name": "Corsair Skyreavers",
+    "slug_short": "aeldari-corsair-skyreavers",
+    "models": 5,
+    "prices": {
+      "GBP": 37.5,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104111_AeldariCorsairSkyreavers01.jpg",
+    "year": 2026
+  },
+  "aeldari-kharseth-2026": {
+    "display_name": "Kharseth",
+    "slug_short": "aeldari-kharseth",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104114_AeldariKharseth01.jpg",
+    "year": 2026
+  },
+  "aeldari-prince-yriel-2026": {
+    "display_name": "Prince Yriel",
+    "slug_short": "aeldari-prince-yriel",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104113_AeldariPrinceYriel01.jpg",
+    "year": 2026
+  },
+  "combat-patrol-aeldari-corsairs-2026": {
+    "display_name": "Combat Patrol: Aeldari Corsairs",
+    "slug_short": "combat-patrol-aeldari-corsairs",
+    "models": 17,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104110_AeldariCorsairsCombatPatrol01.jpg",
+    "year": 2026
+  },
+  "aeldari-shining-spears-2022": {
+    "display_name": "Shining Spears",
+    "slug_short": "aeldari-shining-spears",
+    "models": 3,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104071_AELShiningSpearLead.jpg",
+    "year": 2022
+  },
+  "aeldari-maugan-ra-2022": {
+    "display_name": "Maugan Ra",
+    "slug_short": "aeldari-maugan-ra",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104069_AELMauganRaLead.jpg",
+    "year": 2022
+  },
+  "aeldari-dark-reapers-2022": {
+    "display_name": "Dark Reapers",
+    "slug_short": "aeldari-dark-reapers",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104068_AELDarkReapersLead.jpg",
+    "year": 2022
+  },
+  "aeldari-phoenix-lord-fuegan-2025": {
+    "display_name": "Fuegan",
+    "slug_short": "aeldari-phoenix-lord-fuegan",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104103_AELFuegan01.jpg",
+    "year": 2025
+  },
+  "aeldari-phoenix-lord-baharroth-2025": {
+    "display_name": "Baharroth",
+    "slug_short": "aeldari-phoenix-lord-baharroth",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104099_AELBaharroth01.jpg",
+    "year": 2025
+  },
+  "aeldari-phoenix-lord-lhykhis-2025": {
+    "display_name": "Lhykhis",
+    "slug_short": "aeldari-phoenix-lord-lhykhis",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104101_AELLhykhis01.jpg",
+    "year": 2025
+  },
+  "aeldari-asurmen-2025": {
+    "display_name": "Asurmen",
+    "slug_short": "aeldari-asurmen",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104089_AELAsurmen01.jpg",
+    "year": 2025
+  },
+  "aeldari-swooping-hawks-2025": {
+    "display_name": "Swooping Hawks",
+    "slug_short": "aeldari-swooping-hawks",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104098_AELSwoopingHawks01.jpg",
+    "year": 2025
+  },
+  "aeldari-fire-dragons-2025": {
+    "display_name": "Fire Dragons",
+    "slug_short": "aeldari-fire-dragons",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104102_AELFireDragons01.jpg",
+    "year": 2025
+  },
+  "aeldari-warp-spiders-2025": {
+    "display_name": "Warp Spiders",
+    "slug_short": "aeldari-warp-spiders",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104100_AELWarpSpiders01.jpg",
+    "year": 2025
+  },
+  "kill-team-blades-of-khaine-2024": {
+    "display_name": "Kill Team: Blades of Khaine",
+    "slug_short": "kill-team-blades-of-khaine",
     "models": 10,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
+      "GBP": 49.5,
+      "USD": 82,
+      "EUR": 64,
+      "AUD": 139,
+      "CAD": 98,
+      "PLN": 270,
+      "CHF": 64
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104105_KTBladesKhaine2.jpg",
+    "year": 2024
   },
-  "dire-avengers": {
+  "aeldari-autarch-2022": {
+    "display_name": "Autarch",
+    "slug_short": "aeldari-autarch",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104077_AELAutarchLead.jpg",
+    "year": 2022
+  },
+  "aeldari-shroud-runners-2022": {
+    "display_name": "Shroud Runners",
+    "slug_short": "aeldari-shroud-runners",
+    "models": 3,
+    "prices": {
+      "GBP": 44.5,
+      "USD": 73.5,
+      "EUR": 57.5,
+      "AUD": 125,
+      "CAD": 88,
+      "PLN": 245,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104074_ShroudRunnersLead.jpg",
+    "year": 2022
+  },
+  "aeldari-rangers-2022": {
+    "display_name": "Rangers",
+    "slug_short": "aeldari-rangers",
     "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104073_AELRangersLead.jpg",
+    "year": 2022
+  },
+  "aeldari-avatar-of-khaine-2022": {
+    "display_name": "Avatar of Khaine",
+    "slug_short": "aeldari-avatar-of-khaine",
+    "models": 1,
+    "prices": {
+      "GBP": 69.5,
+      "USD": 114,
+      "EUR": 90,
+      "AUD": 195,
+      "CAD": 135,
+      "PLN": 380,
+      "CHF": 90
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104072_AELAvatarofKhaineLead.jpg",
+    "year": 2022
+  },
+  "aeldari-storm-guardians-2022": {
+    "display_name": "Storm Guardians",
+    "slug_short": "aeldari-storm-guardians",
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104067_AELGuardiansLeadAlt.jpg",
+    "year": 2022
+  },
+  "aeldari-the-yncarne-2022": {
+    "display_name": "The Yncarne",
+    "slug_short": "aeldari-the-yncarne",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104076_AELYncarneLead.jpg",
+    "year": 2022
+  },
+  "aeldari-guardians-2022": {
+    "display_name": "Guardian Defenders",
+    "slug_short": "aeldari-guardians",
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104067_AELGuardiansLead.jpg",
+    "year": 2022
+  },
+  "aeldari-warlocks-2022": {
+    "display_name": "Warlocks",
+    "slug_short": "aeldari-warlocks",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104066_AELWarlocksLead.jpg",
+    "year": 2022
+  },
+  "aeldari-the-visarch-2022": {
+    "display_name": "The Visarch",
+    "slug_short": "aeldari-the-visarch",
+    "models": 1,
+    "prices": {
+      "GBP": 21.5,
+      "USD": 35,
+      "EUR": 27.5,
+      "AUD": 57,
+      "CAD": 42.5,
+      "PLN": 121,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104010_AELVisarchLead.jpg",
+    "year": 2022
+  },
+  "aeldari-yvraine-2022": {
+    "display_name": "Yvraine",
+    "slug_short": "aeldari-yvraine",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104009_AELYvraineLead.jpg",
+    "year": 2022
+  },
+  "drukhari-archon-2025": {
+    "display_name": "Archon",
+    "slug_short": "drukhari-archon",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 40,
+      "EUR": 32.5,
+      "AUD": 70,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112060_DrukhariArchon1.jpg",
+    "year": 2025
+  },
+  "warhammer-plus-aeldari-infinitys-lament-2025-year-5": {
+    "display_name": "Warhammer+ Year 5: Aeldari – Infinity’s Lament",
+    "slug_short": "warhammer-plus-aeldari-infinitys-lament-2025-year-5",
+    "models": 1,
     "prices": {
       "GBP": 28,
       "USD": 45,
       "EUR": 35,
       "AUD": 77,
-      "CAD": 55
-    }
+      "CAD": 55,
+      "PLN": 155,
+      "CHF": 35
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104109_WarhammerPlusPromoInfinitysLament1.jpg"
   },
-  "rangers": {
-    "models": 5,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "howling-banshees": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "fire-dragons": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "swooping-hawks": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "warp-spiders": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "dark-reapers": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "wraithguard": {
-    "models": 5,
-    "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
-  },
-  "windriders": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "shining-spears": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "farseer": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "farseer-skyrunner": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "warlock": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "warlock-skyrunner": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "autarch": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "autarch-wayleaper": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "jain-zar": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "war-walker": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "wraithlord": {
+  "aeldari-wave-serpent-2025": {
+    "display_name": "Wave Serpent/Falcon",
+    "slug_short": "aeldari-wave-serpent",
     "models": 1,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 85,
+      "PLN": 235,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104023_WaveSerpentNEW_01.jpg",
+    "year": 2025
   },
-  "avatar-of-khaine": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
-  },
-  "fire-prism": {
-    "models": 1,
+  "aeldari-war-walkers-2025": {
+    "display_name": "War Walkers",
+    "slug_short": "aeldari-war-walkers",
+    "models": 2,
     "prices": {
       "GBP": 52,
       "USD": 85,
       "EUR": 67,
       "AUD": 145,
-      "CAD": 100
-    }
+      "CAD": 100,
+      "PLN": 285,
+      "CHF": 67
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104107_AELWarWalkers01.jpg",
+    "year": 2025
   },
-  "night-spinner": {
+  "Craftworlds-Howling-Banshees-2020": {
+    "display_name": "Howling Banshees",
+    "slug_short": "Craftworlds-Howling-Banshees",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 104,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104064_HowlingBanshees01.jpg",
+    "year": 2020
+  },
+  "Craftworlds-Jain-Zar-2020": {
+    "display_name": "Jain Zar",
+    "slug_short": "Craftworlds-Jain-Zar",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104063_CWJainZar01.jpg",
+    "year": 2020
   },
-  "crimson-hunter": {
+  "Eldar-Dire-Avengers-2017": {
+    "display_name": "Dire Avengers",
+    "slug_short": "Eldar-Dire-Avengers",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 72,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104033_DireAvengers01.jpg",
+    "year": 2017
+  },
+  "Eldar-Crimson-Hunter-2017": {
+    "display_name": "Crimson Hunter",
+    "slug_short": "Eldar-Crimson-Hunter",
     "models": 1,
     "prices": {
       "GBP": 58,
       "USD": 96,
       "EUR": 76,
       "AUD": 101,
-      "CAD": 116
-    }
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104080_CrimsonHunterLead_a.jpg",
+    "year": 2017
   },
-  "hemlock-wraithfighter": {
+  "Dark-Eldar-Wyches": {
+    "display_name": "Wyches",
+    "slug_short": "Dark-Eldar-Wyches",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112008_WychesNEW01.jpg"
+  },
+  "Eldar-Support-Weapon": {
+    "display_name": "Support Weapon",
+    "slug_short": "Eldar-Support-Weapon",
+    "models": 3,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 32,
+      "EUR": 23,
+      "AUD": 50,
+      "CAD": 36,
+      "PLN": 99,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104028_HeavySupportWeaponNEW_01.jpg"
+  },
+  "Eldar-Fire-Prism": {
+    "display_name": "Fire Prism",
+    "slug_short": "Eldar-Fire-Prism",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 104,
+      "CAD": 85,
+      "PLN": 235,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104029_FirePrismNEW_01.jpg"
+  },
+  "Craftworlds-Spiritseer-2019": {
+    "display_name": "Spiritseer",
+    "slug_short": "Craftworlds-Spiritseer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 55.5,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104007_Spiritseer01.jpg",
+    "year": 2019
+  },
+  "Drukhari-Raider": {
+    "display_name": "Raider",
+    "slug_short": "Drukhari-Raider",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.25,
+      "AUD": 84,
+      "CAD": 80,
+      "PLN": 220,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112012_DERaiderNEW01.jpg"
+  },
+  "Eldar-Windriders-2017": {
+    "display_name": "Windriders",
+    "slug_short": "Eldar-Windriders",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 86,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104038_ELDARWINDRIDERS01.jpg",
+    "year": 2017
+  },
+  "Eldar-Warlock-Skyrunner-2017": {
+    "display_name": "Warlock Skyrunner",
+    "slug_short": "Eldar-Warlock-Skyrunner",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104002_ELDARWARLOCKSKYRUNNER01.jpg",
+    "year": 2017
+  },
+  "Eldar-Farseer-Skyrunner-2017": {
+    "display_name": "Farseer Skyrunner",
+    "slug_short": "Eldar-Farseer-Skyrunner",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104002_ELDARFARSEERSKYRUNNER01.jpg",
+    "year": 2017
+  },
+  "Eldrad-Ulthran-2017": {
+    "display_name": "Eldrad Ulthran",
+    "slug_short": "Eldrad-Ulthran",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 31.5,
+      "AUD": 55,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104006_Eldrad01.jpg",
+    "year": 2017
+  },
+  "Eldar-Hemlock-Wraithfighter-2017": {
+    "display_name": "Hemlock Wraithfighter",
+    "slug_short": "Eldar-Hemlock-Wraithfighter",
     "models": 1,
     "prices": {
       "GBP": 58,
       "USD": 96,
       "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104080_HemlockWraithfighterLead_a.jpg",
+    "year": 2017
   },
-  "wraithknight": {
+  "Eldar-Wraithknight-2017": {
+    "display_name": "Wraithknight",
+    "slug_short": "Eldar-Wraithknight",
     "models": 1,
     "prices": {
       "GBP": 105,
       "USD": 170,
       "EUR": 135,
       "AUD": 149,
-      "CAD": 205
-    }
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104084_AELWraithknightLead.jpg",
+    "year": 2017
+  },
+  "Harlequin-Troupe-Troop-2017": {
+    "display_name": "Harlequin Troupe",
+    "slug_short": "Harlequin-Troupe-Troop",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120111007_AELHarlequinTroupeLead.jpg",
+    "year": 2017
+  },
+  "Eldar-Wraithlord-2017": {
+    "display_name": "Wraithlord",
+    "slug_short": "Eldar-Wraithlord",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 92,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104013_WraithlordsNEW_01.jpg",
+    "year": 2017
+  },
+  "Eldar-Autarch": {
+    "display_name": "Autarch Wayleaper",
+    "slug_short": "Eldar-Autarch",
+    "models": 1,
+    "prices": {
+      "GBP": 19,
+      "USD": 33.5,
+      "EUR": 24,
+      "AUD": 35,
+      "CAD": 38,
+      "PLN": 105,
+      "CHF": 24
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104003_ELDARAUTARCH01.jpg"
+  },
+  "Succubus-2014": {
+    "display_name": "Succubus",
+    "slug_short": "Succubus",
+    "models": 1,
+    "prices": {
+      "GBP": 18.5,
+      "USD": 32,
+      "EUR": 23,
+      "AUD": 31,
+      "CAD": 36,
+      "PLN": 99,
+      "CHF": 23
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070112003_DESuccubus01.jpg",
+    "year": 2014
+  },
+  "Harlequin-Skyweavers": {
+    "display_name": "Skyweavers",
+    "slug_short": "Harlequin-Skyweavers",
+    "models": 2,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 87,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120111005_AELSkyweaversLead.jpg"
+  },
+  "Solitaire": {
+    "display_name": "Solitaire",
+    "slug_short": "Solitaire",
+    "models": 1,
+    "prices": {
+      "GBP": 19,
+      "USD": 33.5,
+      "EUR": 24,
+      "AUD": 35,
+      "CAD": 38,
+      "PLN": 105,
+      "CHF": 24
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070111003_Solitaire01.jpg"
+  },
+  "Harlequin-Shadowseer": {
+    "display_name": "Shadowseer",
+    "slug_short": "Harlequin-Shadowseer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 37,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070111005_AELShadowseerLead.jpg"
+  },
+  "Harlequin-Death-Jester": {
+    "display_name": "Death Jester",
+    "slug_short": "Harlequin-Death-Jester",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 37,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070111001_HarlequinDeathJester01.jpg"
+  },
+  "Eldar-Farseer": {
+    "display_name": "Farseer",
+    "slug_short": "Eldar-Farseer",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 31,
+      "CAD": 41,
+      "PLN": 115
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070104001_EldarFarseer01.jpg"
+  },
+  "Eldar-Night-Spinner": {
+    "display_name": "Night Spinner",
+    "slug_short": "Eldar-Night-Spinner",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "CAD": 85,
+      "PLN": 235,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104029_NightSpinnerNEW_01.jpg"
+  },
+  "Dark-Eldar-Reavers": {
+    "display_name": "Reavers",
+    "slug_short": "Dark-Eldar-Reavers",
+    "models": 3,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 35,
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112010_ReaversNEW01.jpg"
+  },
+  "Drukhari-Incubi-2020": {
+    "display_name": "Incubi",
+    "slug_short": "Drukhari-Incubi",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 104,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112041_DRUIncubi01.jpg",
+    "year": 2020
+  },
+  "Drukhari-Kabalite-Warriors-2017": {
+    "display_name": "Kabalite Warriors",
+    "slug_short": "Drukhari-Kabalite-Warriors",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 70,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112007_KabaliteWarriorsNEW01.jpg",
+    "year": 2017
+  },
+  "Eldar-Wraithblades-2017": {
+    "display_name": "Wraithblades",
+    "slug_short": "Eldar-Wraithblades",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104031_EldarWraithblades01.jpg",
+    "year": 2017
+  },
+  "Dark-Eldar-Venom-2017": {
+    "display_name": "Venom",
+    "slug_short": "Dark-Eldar-Venom",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 67,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120112013_VenomNEW_01.jpg",
+    "year": 2017
+  },
+  "Eldar-Wraithguard-2017": {
+    "display_name": "Wraithguard",
+    "slug_short": "Eldar-Wraithguard",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 67,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120104031_EldarWraithguard01.jpg",
+    "year": 2017
+  },
+  "Voidweaver": {
+    "display_name": "Voidweaver",
+    "slug_short": "Voidweaver",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120111003_HarlequinVoidweaver01.jpg"
+  },
+  "Harlequin-Starweaver": {
+    "display_name": "Starweaver",
+    "slug_short": "Harlequin-Starweaver",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120111006_AELStarweaverLead.jpg"
   }
 }

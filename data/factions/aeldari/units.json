@@ -71,7 +71,8 @@
       "points": 415,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "corsair_cloud_dancer_band",
@@ -247,7 +248,8 @@
       "points": 100,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "howling_banshees",
@@ -311,7 +313,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "maugan_ra",
@@ -335,7 +338,8 @@
       "points": 150,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "phantom_titan",
@@ -343,7 +347,8 @@
       "points": 2100,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "phoenix",
@@ -367,7 +372,8 @@
       "points": 100,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "rangers",
@@ -383,7 +389,8 @@
       "points": 1100,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "scorpion",
@@ -391,7 +398,8 @@
       "points": 410,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "shadow_spectres",
@@ -399,7 +407,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "shadow_weaver_platform",
@@ -439,7 +448,8 @@
       "points": 490,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "skyweavers",
@@ -535,7 +545,8 @@
       "points": 460,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "vampire_raider",
@@ -543,7 +554,8 @@
       "points": 430,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "vibro_cannon_platform",
@@ -607,7 +619,8 @@
       "points": 145,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "warp_spiders",
@@ -623,7 +636,8 @@
       "points": 95,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "windriders",
@@ -679,7 +693,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "ynnari_archon",
