@@ -2,7 +2,7 @@ function SiteFooterInner() {
   return (
     <footer className="text-center text-xs font-plex-mono opacity-80 mt-12 pb-6">
       <p>
-        40KArmy v2 – unofficial Warhammer army cost calculator – A product by the
+        40KArmy v2.3 – unofficial Warhammer army cost calculator – A product by the
         Contemporary Graphics Bureau
       </p>
 
