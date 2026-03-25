@@ -1,37 +1,95 @@
 {
-  "aberrants": "aberrants",
-  "achilles_ridgerunners": "ridgerunner",
-  "acolyte_hybrids": "acolyte-hybrids",
-  "acolyte_hybrids_with_autopistols": "acolyte-hybrids",
-  "acolyte_hybrids_with_hand_flamers": "acolyte-hybrids",
-  "armoured_sentinels": "armoured-sentinel",
-  "atalan_jackals": "atalan-jackals",
-  "attilan_rough_riders": "rough-riders",
-  "biophagus": "biophagus",
-  "cadian_castellan": "castellan",
-  "cadian_heavy_weapons_squad": "heavy-weapons-squad",
-  "catachan_heavy_weapons_squad": "heavy-weapons-squad",
-  "goliath_rockgrinder": "goliath-rockgrinder",
-  "goliath_truck": "goliath-truck",
-  "hybrid_metamorphs": "hybrid-metamorphs",
-  "kelermorph": "kelermorph",
-  "krieg_heavy_weapons_squad": "heavy-weapons-squad",
-  "leman_russ_battle_tank": "leman-russ",
-  "leman_russ_commander": "leman-russ",
-  "leman_russ_demolisher": "leman-russ",
-  "leman_russ_eradicator": "leman-russ",
-  "leman_russ_executioner": "leman-russ",
-  "leman_russ_punisher": "leman-russ",
-  "leman_russ_vanquisher": "leman-russ",
-  "magus": "magus",
-  "neophyte_hybrids": "neophyte-hybrids",
-  "nexos": "nexos",
-  "patriarch": "patriarch",
-  "praetor": "vertus-praetors",
-  "primus": "primus",
-  "purestrain_genestealers": "purestrain-genestealers",
-  "reductor": "reductor",
-  "ridgerunner": "ridgerunner",
-  "sanctus": "sanctus",
-  "scout_sentinels": "scout-sentinel"
+  
+    "aberrants": "Genestealer-Cults-Aberrants-2019",
+    "abominant": "Genestealer-Cults-Abominant-2019",
+    "achilles_ridgerunners": "Genestealer-Cults-Achilles-Ridgerunner-2019",
+  
+    "acolyte_hybrids_with_autopistols": "acolyte-hybrids-2016",
+    "acolyte_hybrids_with_hand_flamers": "acolyte-hybrids-2016",
+    "acolyte_iconward": "acolyte-iconward-2016",
+  
+    "armoured_sentinels": "astra-militarum-armoured-sentinel-2023",
+    "artillery_team": "astra-militarum-krieg-artillery-team-2025",
+    "atalan_jackals": "Genestealer-Cults-Atalan-Jackals-2019",
+    "attilan_rough_riders": "astra-militarum-attilan-rough-riders-2023",
+  
+    "baneblade": "astra-militarum-baneblade-2023",
+    "banehammer": "astra-militarum-banehammer-2023",
+    "banesword": "astra-militarum-banesword-2023",
+  
+    "basilisk": "Imperial-Guard-Basilisk",
+    "benefictus": "genestealer-cults-benefictus-2024",
+    "biophagus": "Genestealer-Cults-Biophagus-2019",
+  
+    "cadian_castellan": "astra-militarum-cadian-castellan-2023",
+    "cadian_command_squad": "astra-militarum-cadian-command-squad-2023",
+    "cadian_heavy_weapons_squad": "astra-militarum-cadian-heavy-weapons-squad-2023",
+    "cadian_shock_troops": "astra-militarum-cadian-shock-troops-2023",
+  
+    "catachan_command_squad": "Imperial-Guard-Catachan-Command-Squad",
+    "catachan_jungle_fighters": "Imperial-Guard-Catachan-Jungle-Fighters",
+  
+    "clamavus": "Genestealer-Cults-Clamavus-2019",
+    "cyclops_demolition_vehicle": "Cyclops-Demolition-Vehicle",
+  
+    "death_korps_of_krieg": "astra-militarum-death-korps-of-krieg-2025",
+    "death_riders": "astra-militarum-death-riders-2025",
+    "deathstrike": "Imperial-Guard-Deathstrike",
+  
+    "doomhammer": "astra-militarum-doomhammer-2023",
+  
+    "field_ordnance_battery": "astra-militarum-field-ordnance-battery-2023",
+  
+    "goliath_rockgrinder": "goliath-rockgrinder-2016",
+  
+    "hellhammer": "astra-militarum-hellhammer-2023",
+    "hellhound": "Imperial-Guard-Hellhound",
+  
+    "hybrid_metamorphs": "hybrid-metamorphs-2016",
+    "hydra": "Astra-Militarum-Hydra",
+  
+    "jackal_alphus": "Genestealer-Cults-Jackal-Alphus-2019",
+  
+    "kasrkin": "kill-team-kasrkin-2024",
+    "kelermorph": "Genestealer-Cults-Kelermorph-2020",
+  
+    "krieg_combat_engineers": "astra-militarum-krieg-combat-engineers-2025",
+    "krieg_command_squad": "astra-militarum-krieg-command-squad-2025",
+    "krieg_heavy_weapons_squad": "astra-militarum-krieg-heavy-weapons-squad-2025",
+  
+    "leman_russ_battle_tank": "astra-militarum-leman-russ-battle-tank-2023",
+  
+    "locus": "Genestealer-Cults-Locus-2019",
+    "magus": "Genestealer-Cults-Magus-2019",
+  
+    "manticore": "Astra-Militarum-Manticore",
+  
+    "neophyte_hybrids": "neophite-hybrids-2016",
+    "nexos": "Genestealer-Cults-Nexos-2019",
+  
+    "primaris_psyker": "astra-militarum-primaris-psyker-2023",
+  
+    "purestrain_genestealers": "tyranids-genestealers-2023",
+  
+    "reductus_saboteur": "genestealer-cults-reductus-saboteur-2022",
+  
+    "rogal_dorn_battle_tank": "astra-militarum-rogal-dorn-battle-tank-2023",
+  
+    "sanctus": "Genestealer-Cults-Sanctus-2019",
+  
+    "scout_sentinels": "astra-militarum-scout-sentinel-2023",
+  
+    "shadowsword": "astra-militarum-shadowsword-2023",
+    "stormlord": "astra-militarum-stormlord-2023",
+    "stormsword": "astra-militarum-stormsword-2023",
+  
+    "wyvern": "Astra-Militarum-Wyvern",
+
+
+     "goliath_truck": "goliath-truck-2016",
+  "brood_brothers": "kill-team-brood-brothers-2024",
+
+  "patriarch": "Genestealer-Cults-Broodcoven",
+  "primus": "Genestealer-Cults-Broodcoven"
+  
 }

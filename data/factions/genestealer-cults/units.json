@@ -191,7 +191,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "catachan_command_squad",
@@ -223,7 +224,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "clamavus",
@@ -247,7 +249,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "cyclops_demolition_vehicle",
@@ -263,7 +266,8 @@
       "points": 110,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "death_korps_of_krieg",
@@ -311,7 +315,8 @@
       "points": 325,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "doomhammer",
@@ -327,7 +332,8 @@
       "points": 120,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "elysian_drop_sentinel",
@@ -335,7 +341,8 @@
       "points": 85,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "elysian_sniper_squad",
@@ -343,7 +350,8 @@
       "points": 65,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "field_ordnance_battery",
@@ -375,7 +383,8 @@
       "points": 275,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "griffon_mortar_carrier",
@@ -391,7 +400,8 @@
       "points": 110,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "heavy_mortar_team",
@@ -399,7 +409,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "heavy_quad_launcher_team",
@@ -407,7 +418,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "hell_s_last",
@@ -591,7 +603,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "macharius_omega",
@@ -599,7 +612,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "macharius_vanquisher",
@@ -607,7 +621,8 @@
       "points": 285,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "macharius_vulcan",
@@ -615,7 +630,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "magus",
@@ -631,7 +647,8 @@
       "points": 250,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "malcador_annihilator",
@@ -639,7 +656,8 @@
       "points": 270,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "malcador_defender",
@@ -647,7 +665,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "malcador_infernus",
@@ -655,7 +674,8 @@
       "points": 235,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "manticore",
@@ -679,7 +699,8 @@
       "points": 125,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "minotaur",
@@ -751,7 +772,8 @@
       "points": 275,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "primaris_psyker",
@@ -791,7 +813,8 @@
       "points": 35,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "raveners",
@@ -839,7 +862,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "salamander_scout_vehicle",
@@ -847,7 +871,8 @@
       "points": 95,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "sanctus",
@@ -943,7 +968,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "trygon",
@@ -959,7 +985,8 @@
       "points": 285,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "von_ryan_s_leapers",
