@@ -18,7 +18,14 @@ export type UnitTableUnit = {
 export type UnitTableProps = {
   units: UnitTableUnit[];
   quantities: Record<string, number>;
-  currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD";
+  currency:
+    | "GBP"
+    | "USD"
+    | "EUR"
+    | "AUD"
+    | "CAD"
+    | "CHF"
+    | "PLN";
   formatPrice: (unit: UnitTableUnit, currency: UnitTableProps["currency"]) => string;
   onAdd: (unitId: string) => void;
   onRemove: (unitId: string) => void;

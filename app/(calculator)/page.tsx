@@ -59,21 +59,22 @@ import thousandSonsKits from "../../data/kits/thousand-sons.json";
 import tyranidsKits from "../../data/kits/tyranids.json";
 import worldEatersKits from "../../data/kits/world-eaters.json";
 
+type CurrencyCode =
+  | "GBP"
+  | "USD"
+  | "EUR"
+  | "AUD"
+  | "CAD"
+  | "CHF"
+  | "PLN";
+
 type Unit = {
   id: string;
   name: string;
   points: number;
   models_per_box: number | null;
   box_price: number | null;
-  prices?:
-    | {
-        GBP?: number | null;
-        USD?: number | null;
-        EUR?: number | null;
-        AUD?: number | null;
-        CAD?: number | null;
-      }
-    | null;
+  prices?: Partial<Record<CurrencyCode, number | null>> | null;
   is_legends?: boolean;
   availability?: "retail" | "legends" | "forgeworld";
 };
@@ -116,45 +117,32 @@ const BTN_STYLE =
   "px-1.5 py-0.5 border-2 border-[#231F20] bg-[#B2C4AE] text-[#231F20] text-sm font-plex-mono hover:bg-[#9FB49A] focus:outline-none rounded-none shadow-none";
 const BTN_QTY = `${BTN_STYLE} w-7 h-7 flex items-center justify-center p-0 text-base leading-none shrink-0 min-[901px]:w-7 min-[901px]:h-7 max-[900px]:min-w-[44px] max-[900px]:min-h-[44px] max-[900px]:w-12`;
 
-const CURRENCY_SYMBOLS: Record<"GBP" | "USD" | "EUR" | "AUD" | "CAD", string> = {
+const CURRENCY_SYMBOLS: Record<CurrencyCode, string> = {
   GBP: "£",
   USD: "$",
   EUR: "€",
   AUD: "$",
   CAD: "$",
+  CHF: "CHF ",
+  PLN: "zł",
 };
 
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-function getUnitPrice(
-  unit: Unit,
-  currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"
-): number | null {
-  const value = unit.prices?.[currency];
-
-  if (value != null && value > 0) {
-    return value;
-  }
-
-  const fallback = unit.prices?.GBP;
-
-  if (fallback != null && fallback > 0) {
-    return fallback;
-  }
-
-  return null;
+/** Resolved numeric price: selected currency, then GBP fallback, then 0 (never NaN). */
+function getUnitPrice(unit: Unit, currency: CurrencyCode): number {
+  const raw = unit.prices?.[currency] ?? unit.prices?.GBP ?? 0;
+  const n = typeof raw === "number" ? raw : Number(raw);
+  return Number.isFinite(n) ? n : 0;
 }
 
-function getCurrencySymbol(currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"): string {
+function getCurrencySymbol(currency: CurrencyCode): string {
   return CURRENCY_SYMBOLS[currency];
 }
 
-function formatPrice(
-  unit: Unit,
-  currency: "GBP" | "USD" | "EUR" | "AUD" | "CAD"
-): string {
+function formatPrice(unit: Unit, currency: CurrencyCode): string {
   const price = getUnitPrice(unit, currency);
-  if (price === null) return "--";
+  if (price <= 0) return "--";
   const symbol = getCurrencySymbol(currency);
   return `${symbol}${price.toFixed(2)}`;
 }
@@ -355,7 +343,10 @@ function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
       models_per_box: kit.models ?? unit.models_per_box ?? null,
       prices: (kit.prices as Unit["prices"]) ?? unit.prices ?? null,
       box_price:
-        (kit.prices as Unit["prices"] | undefined)?.GBP ?? unit.box_price ?? null,
+        (kit.prices as Unit["prices"] | undefined)?.GBP ??
+        unit.prices?.GBP ??
+        unit.box_price ??
+        null,
     };
   });
 }
@@ -373,7 +364,7 @@ function HomeContent() {
   const [quantities, setQuantities] = useState<QuantityMap>({});
   const [search, setSearch] = useState<string>("");
   const [targetPoints, setTargetPoints] = useState<number>(0);
-  const [currency, setCurrency] = useState<"GBP" | "USD" | "EUR" | "AUD" | "CAD">("GBP");
+  const [currency, setCurrency] = useState<CurrencyCode>("USD");
   const [mobilePanel, setMobilePanel] = useState<"summary" | "cost" | null>(null);
   const [discount, setDiscount] = useState<number>(0);
   const [emailOpen, setEmailOpen] = useState(false);
@@ -524,7 +515,7 @@ function HomeContent() {
       const boxCount = Math.floor(qty / (unit.models_per_box || 1));
       totalPoints += unit.points * boxCount;
       const price = getUnitPrice(unit, currency);
-      if (unit.models_per_box != null && price != null) {
+      if (unit.models_per_box != null && price > 0) {
         const boxesRequired = Math.ceil(qty / unit.models_per_box);
         totalBoxes += boxesRequired;
         totalCost += boxesRequired * price;
@@ -581,7 +572,7 @@ function HomeContent() {
         const pricePerBox = getUnitPrice(unit, currency);
         const sym = getCurrencySymbol(currency);
         const totalCost =
-          pricePerBox != null ? boxCount * pricePerBox : null;
+          pricePerBox > 0 ? boxCount * pricePerBox : null;
         return {
           id: unit.id,
           name: unit.name,
@@ -686,9 +677,7 @@ function HomeContent() {
                 id="currency-select"
                 value={currency}
                 onChange={(e) =>
-                  setCurrency(
-                    e.target.value as "GBP" | "USD" | "EUR" | "AUD" | "CAD"
-                  )
+                  setCurrency(e.target.value as CurrencyCode)
                 }
                 className="border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none"
                 aria-label="Select currency"
@@ -698,6 +687,8 @@ function HomeContent() {
                 <option value="EUR">EUR (€)</option>
                 <option value="AUD">AUD ($)</option>
                 <option value="CAD">CAD ($)</option>
+                <option value="CHF">CHF (CHF)</option>
+                <option value="PLN">PLN (PLN)</option>
               </select>
             </div>
           </div>
@@ -730,7 +721,7 @@ function HomeContent() {
                   id="currency-select-mobile"
                   value={currency}
                   onChange={(e) =>
-                    setCurrency(e.target.value as "GBP" | "USD" | "EUR" | "AUD" | "CAD")
+                    setCurrency(e.target.value as CurrencyCode)
                   }
                   className="border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1.5 text-sm text-[#231F20] font-plex-mono focus:outline-none focus:ring-2 focus:ring-[#231F20] rounded-none"
                   aria-label="Select currency"
@@ -740,6 +731,8 @@ function HomeContent() {
                   <option value="EUR">EUR (€)</option>
                   <option value="AUD">AUD ($)</option>
                   <option value="CAD">CAD ($)</option>
+                  <option value="CHF">CHF (CHF)</option>
+                  <option value="PLN">PLN (PLN)</option>
                 </select>
               </div>
             </div>
@@ -965,7 +958,7 @@ function HomeContent() {
                 <span className="font-workbench uppercase text-sm text-[#C23B22]">
                   AWOL
                 </span>{" "}
-                = Not currently for sale
+                = Not in current retail range
               </div>
               <div className="text-[11px] font-plex-mono">
                 <span className="font-workbench uppercase text-sm text-orange-500">
@@ -1272,7 +1265,7 @@ function HomeContent() {
                             const pricePerBox = getUnitPrice(unit, currency);
                             const sym = getCurrencySymbol(currency);
                             const totalCost =
-                              pricePerBox != null ? boxCount * pricePerBox : null;
+                              pricePerBox > 0 ? boxCount * pricePerBox : null;
                             return (
                               <li
                                 key={unit.id}
