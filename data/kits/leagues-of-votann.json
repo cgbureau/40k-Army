@@ -1,102 +1,370 @@
 {
-  "hearthkyn-warriors": {
+  "lov-kahl-2022": {
+    "display_name": "Kâhl",
+    "slug_short": "lov-kahl",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118011_KharlLead.jpg",
+    "year": 2022
+  },
+  "lov-einhyr-champion-2022": {
+    "display_name": "Einhyr Champion",
+    "slug_short": "lov-einhyr-champion",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118012_EinhyrChampLead.jpg",
+    "year": 2022
+  },
+  "combat-patrol-leagues-of-votann-2025": {
+    "display_name": "Combat Patrol: Leagues of Votann",
+    "slug_short": "combat-patrol-leagues-of-votann",
+    "models": 19,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118024_LOVCombatPatrol01.jpg",
+    "year": 2025
+  },
+  "lov-uthar-the-destined-2022": {
+    "display_name": "Ûthar the Destined",
+    "slug_short": "lov-uthar-the-destined",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118011_UtharDestinedLead.jpg",
+    "year": 2022
+  },
+  "lov-brokhyr-iron-master-2022": {
+    "display_name": "Brôkhyr Iron-master",
+    "slug_short": "lov-brokhyr-iron-master",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118010_BrokhyrIronMasterLead.jpg",
+    "year": 2022
+  },
+  "lov-hearthkyn-warriors-2022": {
+    "display_name": "Hearthkyn Warriors",
+    "slug_short": "lov-hearthkyn-warriors",
     "models": 10,
     "prices": {
-      "GBP": 35,
+      "GBP": 38,
       "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118007_LoVHearthkynWarriorsLead.jpg",
+    "year": 2022
   },
-  "brokhyr-thunderkyn": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "cthonian-beserks": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "hernkyn-pioneers": {
+  "lov-hernkyn-pioneers-2022": {
+    "display_name": "Hernkyn Pioneers",
+    "slug_short": "lov-hernkyn-pioneers",
     "models": 3,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118008_HernkynPioneersLead.jpg",
+    "year": 2022
   },
-  "kahl": {
+  "lov-hekaton-land-fortress-2022": {
+    "display_name": "Hekaton Land Fortress",
+    "slug_short": "lov-hekaton-land-fortress",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "AUD": 207,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118006_LandFortressLead.jpg",
+    "year": 2022
   },
-  "einhyr-champion": {
+  "lov-brokhyr-thunderkin-2022": {
+    "display_name": "Brôkhyr Thunderkyn",
+    "slug_short": "lov-brokhyr-thunderkin",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118005_LoVBrokhyrThunderkynLead.jpg",
+    "year": 2022
+  },
+  "lov-grimnyr-2022": {
+    "display_name": "Grimnyr",
+    "slug_short": "lov-grimnyr",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118004_GrymnyrLead.jpg",
+    "year": 2022
   },
-  "grimnyr": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "sagitaur": {
+  "lov-sagitaur-2022": {
+    "display_name": "Sagitaur",
+    "slug_short": "lov-sagitaur",
     "models": 1,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118003_LoVSagitarLead.jpg",
+    "year": 2022
   },
-  "hekaton-land-fortress": {
-    "models": 1,
-    "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
-  },
-  "thar-the-destined": {
-    "models": 1,
+  "lov-chonian-berserks-2022": {
+    "display_name": "Cthonian Beserks",
+    "slug_short": "lov-chonian-berserks",
+    "models": 4,
     "prices": {
       "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118002_LoVCthonianBeserksLead.jpg",
+    "year": 2022
+  },
+  "lov-einhyr-hearthguard-2022": {
+    "display_name": "Einhyr Hearthguard",
+    "slug_short": "lov-einhyr-hearthguard",
+    "models": 5,
+    "prices": {
+      "GBP": 40,
+      "USD": 62.5,
+      "EUR": 51.25,
+      "AUD": 105,
+      "CAD": 75,
+      "PLN": 210,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118001_LoVEinhyrHGLead.jpg",
+    "year": 2022
+  },
+  "leagues-of-votann-kapricus-2025": {
+    "display_name": "Kapricus Defender/Carrier",
+    "slug_short": "leagues-of-votann-kapricus",
+    "models": 1,
+    "prices": {
+      "GBP": 38.5,
+      "USD": 64,
+      "EUR": 50,
+      "AUD": 108,
+      "CAD": 78,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118022_LOVKapricus01.jpg",
+    "year": 2025
+  },
+  "leagues-of-votann-cthonian-earthshakers-2025": {
+    "display_name": "Cthonian Earthshakers",
+    "slug_short": "leagues-of-votann-cthonian-earthshakers",
+    "models": 8,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118021_LovCthonianEarthshakers01.jpg",
+    "year": 2025
+  },
+  "leagues-of-votann-buri-aegnirsson-2025": {
+    "display_name": "Buri Aegnirssen",
+    "slug_short": "leagues-of-votann-buri-aegnirsson",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118019_LOVBuriAegnirssen01.jpg",
+    "year": 2025
+  },
+  "leagues-of-votann-arkanyst-evaluator-2025": {
+    "display_name": "Arkanyst Evaluator",
+    "slug_short": "leagues-of-votann-arkanyst-evaluator",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 40,
+      "EUR": 32.5,
+      "AUD": 70,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118025_LOVArkanystEvaluator01.jpg",
+    "year": 2025
+  },
+  "leagues-of-votann-memnyr-strategist-2025": {
+    "display_name": "Memnyr Strategist",
+    "slug_short": "leagues-of-votann-memnyr-strategist",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 40,
+      "EUR": 32.5,
+      "AUD": 70,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118026_LOVMemnyrStrategist01.jpg",
+    "year": 2025
+  },
+  "kill-team-hearthkyn-salvagers-2024": {
+    "display_name": "Kill Team: Hearthkyn Salvagers",
+    "slug_short": "kill-team-hearthkyn-salvagers",
+    "models": 10,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118023_KTHearthkynSalvagers2.jpg",
+    "year": 2024
+  },
+  "kill-team-hernkyn-yaegirs-2024": {
+    "display_name": "Kill Team: Hernkyn Yaegirs",
+    "slug_short": "kill-team-hernkyn-yaegirs",
+    "models": 10,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199066_EngKTTerminationGroup02.jpg",
+    "year": 2024
+  },
+  "leagues-of-votann-berehk-stornbrow-2026": {
+    "display_name": "Berehk Stornbröw",
+    "slug_short": "leagues-of-votann-berehk-stornbrow",
+    "models": 1,
+    "prices": {
+      "GBP": 29,
+      "USD": 47,
+      "EUR": 37,
+      "AUD": 78,
+      "CAD": 56,
+      "PLN": 155,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118028_LOVBerehkStornbrow01.jpg",
+    "year": 2026
+  },
+  "leagues-of-votann-ironkin-steeljacks-2025": {
+    "display_name": "Ironkin Steeljacks",
+    "slug_short": "leagues-of-votann-ironkin-steeljacks",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118020_LOVIronkinSteeljacks01.jpg",
+    "year": 2025
+  },
+  "maelstrom-battalion-leagues-of-votann-2026": {
+    "display_name": "The Maelstrom Battalion: Leagues of Votann",
+    "slug_short": "maelstrom-battalion-leagues-of-votann",
+    "models": 10,
+    "prices": {
+      "GBP": 105,
+      "EUR": 135,
+      "USD": 170,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120118027_BattalionLeaguesVotann1.jpg",
+    "year": 2026
   }
 }

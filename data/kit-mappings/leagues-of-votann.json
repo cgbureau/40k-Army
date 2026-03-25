@@ -1,13 +1,32 @@
 {
-  "brôkhyr_thunderkyn": "brokhyr-thunderkyn",
-  "cthonian_beserks": "cthonian-beserks",
-  "einhyr_champion": "einhyr-champion",
-  "grimnyr": "grimnyr",
-  "hearthkyn_warriors": "hearthkyn-warriors",
-  "hekaton_land_fortress": "hekaton-land-fortress",
-  "hernkyn_pioneers": "hernkyn-pioneers",
-  "kâhl": "kahl",
-  "land_fortress": "hekaton-land-fortress",
-  "sagitaur": "sagitaur",
-  "thar_the_destined": "thar-the-destined"
+  "arkanyst_evaluator": "leagues-of-votann-arkanyst-evaluator-2025",
+  "berehk_stornbr_w": "leagues-of-votann-berehk-stornbrow-2026",
+  "buri_aegnirssen": "leagues-of-votann-buri-aegnirsson-2025",
+
+  "cthonian_beserks": "lov-chonian-berserks-2022",
+  "cthonian_earthshakers": "leagues-of-votann-cthonian-earthshakers-2025",
+
+  "einhyr_champion": "lov-einhyr-champion-2022",
+  "einhyr_hearthguard": "lov-einhyr-hearthguard-2022",
+
+  "grimnyr": "lov-grimnyr-2022",
+  "hearthkyn_warriors": "lov-hearthkyn-warriors-2022",
+
+  "hekaton_land_fortress": "lov-hekaton-land-fortress-2022",
+  "hernkyn_pioneers": "lov-hernkyn-pioneers-2022",
+
+  "hernkyn_yaegirs": "kill-team-hernkyn-yaegirs-2024",
+
+  "ironkin_steeljacks_with_heavy_volkanite_disintegrators": "leagues-of-votann-ironkin-steeljacks-2025",
+  "ironkin_steeljacks_with_melee_weapons": "leagues-of-votann-ironkin-steeljacks-2025",
+
+  "kapricus_defenders": "leagues-of-votann-kapricus-2025",
+
+  "memnyr_strategist": "leagues-of-votann-memnyr-strategist-2025",
+
+
+  "k_hl": "lov-kahl-2022",
+  "thar_the_destined": "lov-uthar-the-destined-2022",
+  "br_khyr_iron_master": "lov-brokhyr-iron-master-2022",
+  "br_khyr_thunderkyn": "lov-brokhyr-thunderkin-2022"
 }
