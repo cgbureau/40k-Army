@@ -1,17 +1,23 @@
 {
-  "c-tan-shard-of-the-deceiver": {
-    "models": 1,
+  "combat-patrol-necrons-2023": {
+    "display_name": "Combat Patrol: Necrons",
+    "slug_short": "combat-patrol-necrons",
+    "models": 19,
     "prices": {
-      "GBP": 32.5,
-      "USD": 53,
-      "EUR": 42,
-      "AUD": 78,
-      "CAD": 64,
-      "PLN": 175,
-      "CHF": 42
-    }
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110077_NECCP2.jpg",
+    "year": 2023
   },
-  "c-tan-shard-of-the-nightbringer": {
+  "necrons-ctan-shard-of-the-nightbringer-2026": {
+    "display_name": "C'tan Shard of the Nightbringer",
+    "slug_short": "necrons-ctan-shard-of-the-nightbringer",
     "models": 1,
     "prices": {
       "GBP": 82.5,
@@ -21,297 +27,13 @@
       "CAD": 160,
       "PLN": 440,
       "CHF": 105
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110088_NecronsCtanShardOfTheNightbringer01.jpg",
+    "year": 2026
   },
-  "c-tan-shard-of-the-void-dragon": {
-    "models": 1,
-    "prices": {
-      "GBP": 80,
-      "USD": 130,
-      "EUR": 105,
-      "AUD": 219,
-      "CAD": 160,
-      "PLN": 440,
-      "CHF": 105
-    }
-  },
-  "imotekh-the-stormlord": {
-    "models": 1,
-    "prices": {
-      "GBP": 29.5,
-      "USD": 48,
-      "EUR": 37,
-      "AUD": 79.5,
-      "CAD": 57,
-      "PLN": 160,
-      "CHF": 37
-    }
-  },
-  "necron-annihilation-barge": {
-    "models": 1,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 82,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
-  },
-  "necron-canoptek-doomstalker": {
-    "models": 1,
-    "prices": {
-      "GBP": 32.5,
-      "USD": 53,
-      "EUR": 42,
-      "AUD": 87,
-      "CAD": 64,
-      "PLN": 175,
-      "CHF": 42
-    }
-  },
-  "necron-canoptek-spyder": {
-    "models": 1,
-    "prices": {
-      "GBP": 29.5,
-      "USD": 48,
-      "EUR": 37,
-      "AUD": 74,
-      "CAD": 57,
-      "PLN": 160,
-      "CHF": 37
-    }
-  },
-  "necron-catacomb-command-barge": {
-    "models": 1,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 82,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
-  },
-  "necron-chronomancer": {
-    "models": 1,
-    "prices": {
-      "GBP": 27,
-      "USD": 43.5,
-      "EUR": 34,
-      "AUD": 71,
-      "CAD": 54,
-      "PLN": 152.5,
-      "CHF": 34
-    }
-  },
-  "necron-flayed-ones": {
-    "models": 5,
-    "prices": {
-      "GBP": 35.5,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 96,
-      "CAD": 70,
-      "PLN": 195,
-      "CHF": 45
-    }
-  },
-  "necron-hexmark-destroyer": {
-    "models": 1,
-    "prices": {
-      "GBP": 25,
-      "USD": 39,
-      "EUR": 32.5,
-      "AUD": 67,
-      "CAD": 50,
-      "PLN": 140,
-      "CHF": 32.5
-    }
-  },
-  "necron-immortals": {
-    "models": 5,
-    "prices": {
-      "GBP": 29.5,
-      "USD": 48,
-      "EUR": 37,
-      "AUD": 74,
-      "CAD": 57,
-      "PLN": 160,
-      "CHF": 37
-    }
-  },
-  "necron-lychguard": {
-    "models": 5,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 82,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
-  },
-  "lokhust-destroyer-squadron": {
-    "models": 3,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 105,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
-  },
-  "necron-lokhust-heavy-destroyer": {
-    "models": 1,
-    "prices": {
-      "GBP": 25,
-      "USD": 39,
-      "EUR": 32.5,
-      "AUD": 67,
-      "CAD": 50,
-      "PLN": 140,
-      "CHF": 32.5
-    }
-  },
-  "necron-monolith": {
-    "models": 1,
-    "prices": {
-      "GBP": 115,
-      "USD": 194,
-      "EUR": 150,
-      "AUD": 315,
-      "CAD": 230,
-      "PLN": 640,
-      "CHF": 150
-    }
-  },
-  "necron-ophydian-destroyers": {
-    "models": 4,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78,
-      "PLN": 215,
-      "CHF": 51.5
-    }
-  },
-  "necron-psychomancer": {
-    "models": 1,
-    "prices": {
-      "GBP": 25,
-      "USD": 39,
-      "EUR": 32.5,
-      "AUD": 67,
-      "CAD": 50,
-      "PLN": 140,
-      "CHF": 32.5
-    }
-  },
-  "necron-royal-warden": {
-    "models": 1,
-    "prices": {
-      "GBP": 25,
-      "USD": 39,
-      "EUR": 32.5,
-      "AUD": 68,
-      "CAD": 50,
-      "PLN": 140,
-      "CHF": 32.5
-    }
-  },
-  "necron-skorpekh-destroyers": {
-    "models": 4,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.25,
-      "AUD": 110,
-      "CAD": 78,
-      "PLN": 215,
-      "CHF": 51.5
-    }
-  },
-  "necron-tesseract-vault": {
-    "models": 1,
-    "prices": {
-      "GBP": 120,
-      "USD": 197,
-      "EUR": 155,
-      "AUD": 203,
-      "CAD": 240,
-      "PLN": 660,
-      "CHF": 155
-    }
-  },
-  "necron-tomb-blades": {
-    "models": 3,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 98,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
-  },
-  "necron-triarch-praetorians": {
-    "models": 5,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 82,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
-  },
-  "necron-triarch-stalker": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 97,
-      "CAD": 78,
-      "PLN": 215,
-      "CHF": 51.5
-    }
-  },
-  "necron-warriors": {
-    "models": 13,
-    "prices": {
-      "GBP": 32.5,
-      "USD": 53,
-      "EUR": 42,
-      "AUD": 87,
-      "CAD": 64,
-      "PLN": 175,
-      "CHF": 42
-    }
-  },
-  "orikan-the-diviner": {
-    "models": 1,
-    "prices": {
-      "GBP": 29.5,
-      "USD": 48,
-      "EUR": 37,
-      "AUD": 79.5,
-      "CAD": 57,
-      "PLN": 160,
-      "CHF": 37
-    }
-  },
-  "nekrosor-ammentar": {
+  "necrons-nekrosor-ammentar-2026": {
+    "display_name": "Nekrosor Ammentar",
+    "slug_short": "necrons-nekrosor-ammentar",
     "models": 1,
     "prices": {
       "GBP": 38.5,
@@ -321,129 +43,13 @@
       "CAD": 78,
       "PLN": 210,
       "CHF": 50
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110089_NecronsNekrosorAmmentar01.jpg",
+    "year": 2026
   },
-  "necrons-royal-court": {
-    "models": 5,
-    "prices": {
-      "GBP": 80,
-      "USD": 130,
-      "EUR": 105,
-      "AUD": 219,
-      "CAD": 160,
-      "PLN": 440,
-      "CHF": 105
-    }
-  },
-  "convergence-of-dominion": {
-    "models": 3,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83,
-      "PLN": 230,
-      "CHF": 55
-    }
-  },
-  "szarekh-the-silent-king": {
-    "models": 3,
-    "prices": {
-      "GBP": 105.5,
-      "USD": 175,
-      "EUR": 135,
-      "AUD": 295,
-      "CAD": 210,
-      "PLN": 580,
-      "CHF": 140
-    }
-  },
-  "canoptek-wraiths": {
-    "models": 3,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 97,
-      "CAD": 78,
-      "PLN": 215,
-      "CHF": 51.5
-    }
-  },
-  "night-scythe": {
-    "models": 1,
-    "prices": {
-      "GBP": 47,
-      "USD": 77,
-      "EUR": 61.5,
-      "AUD": 107,
-      "CAD": 93,
-      "PLN": 260,
-      "CHF": 61.5
-    }
-  },
-  "deathmarks": {
-    "models": 5,
-    "prices": {
-      "GBP": 29.5,
-      "USD": 48,
-      "EUR": 37,
-      "AUD": 74,
-      "CAD": 57,
-      "PLN": 160,
-      "CHF": 37
-    }
-  },
-  "ghost-ark": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 104,
-      "CAD": 83,
-      "PLN": 230,
-      "CHF": 55
-    }
-  },
-  "doomsday-ark": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 104,
-      "CAD": 83,
-      "PLN": 230,
-      "CHF": 55
-    }
-  },
-  "cryptek": {
-    "models": 1,
-    "prices": {
-      "GBP": 25,
-      "USD": 39,
-      "EUR": 32.5,
-      "AUD": 67,
-      "CAD": 50,
-      "PLN": 140,
-      "CHF": 32.5
-    }
-  },
-  "obelisk-and-transcendent-ctan": {
-    "models": 2,
-    "prices": {
-      "GBP": 120,
-      "USD": 197,
-      "EUR": 155,
-      "AUD": 203,
-      "CAD": 240,
-      "PLN": 660,
-      "CHF": 155
-    }
-  },
-  "hierotek-circle": {
+  "kill-team-canoptek-circle-2025": {
+    "display_name": "Kill Team: Canoptek Circle",
+    "slug_short": "kill-team-canoptek-circle",
     "models": 8,
     "prices": {
       "GBP": 47,
@@ -453,9 +59,45 @@
       "CAD": 93,
       "PLN": 260,
       "CHF": 61.5
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110086_KTCanoptekCircle01.jpg",
+    "year": 2025
   },
-  "overlord-with-tachyon-arrow": {
+  "kill-team-hierotek-circle-2024": {
+    "display_name": "Kill Team: Hierotek Circle",
+    "slug_short": "kill-team-hierotek-circle",
+    "models": 8,
+    "prices": {
+      "GBP": 47,
+      "USD": 77,
+      "EUR": 61.5,
+      "AUD": 132,
+      "CAD": 93,
+      "PLN": 260,
+      "CHF": 61.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110084_HierotekCircle2.jpg",
+    "year": 2024
+  },
+  "necrons-royal-warden-2023": {
+    "display_name": "Royal Warden",
+    "slug_short": "necrons-royal-warden",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 68,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070110007_RoyalWarden1.jpg",
+    "year": 2023
+  },
+  "necrons-overlord-and-translocation-shroud-2023": {
+    "display_name": "Overlord with Translocation Shroud",
+    "slug_short": "necrons-overlord-and-translocation-shroud",
     "models": 1,
     "prices": {
       "GBP": 26,
@@ -465,9 +107,61 @@
       "CAD": 53,
       "PLN": 145,
       "CHF": 34
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110079_NECOverlordWithTanslocationShroud01.jpg",
+    "year": 2023
   },
-  "seraptek-heavy-construct-with-synaptic-obliterators": {
+  "necrons-orikan-the-diviner-2023": {
+    "display_name": "Orikan the Diviner",
+    "slug_short": "necrons-orikan-the-diviner",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110081_OrikanDiviner1.jpg",
+    "year": 2023
+  },
+  "necrons-overlord-2023": {
+    "display_name": "Overlord with Tachyon Arrow",
+    "slug_short": "necrons-overlord",
+    "models": 1,
+    "prices": {
+      "GBP": 26,
+      "USD": 42,
+      "EUR": 34,
+      "AUD": 74,
+      "CAD": 53,
+      "PLN": 145,
+      "CHF": 34
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070110006_OverlordTachyonArrow1.jpg",
+    "year": 2023
+  },
+  "necrons-imotekh-the-stormlord-2023": {
+    "display_name": "Imotekh the Stormlord",
+    "slug_short": "necrons-imotekh-the-stormlord",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110078_NECImotekhTheStormlord01.jpg",
+    "year": 2023
+  },
+  "seraptek-heavy-construct-with-synaptic-obliterators-2025": {
+    "display_name": "Seraptek Heavy Construct with Synaptic Obliterators",
+    "slug_short": "seraptek-heavy-construct-with-synaptic-obliterators",
     "models": 1,
     "prices": {
       "GBP": 262.5,
@@ -477,45 +171,315 @@
       "CAD": 495,
       "PLN": 1430,
       "CHF": 320
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99860110022_SeraptekHeavyConstructSynapticObliteratorsVehicle1.jpg",
+    "year": 2025
   },
-  "illuminor-szeras": {
+  "Necrons-Flayed-Ones-2021": {
+    "display_name": "Flayed Ones",
+    "slug_short": "Necrons-Flayed-Ones",
+    "models": 5,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110056_NECFlayedOnesLead.jpg",
+    "year": 2021
+  },
+  "Necrons-Chronomancer-2021": {
+    "display_name": "Chronomancer",
+    "slug_short": "Necrons-Chronomancer",
     "models": 1,
     "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 103,
-      "CAD": 74,
-      "PLN": 210,
-      "CHF": 50
-    }
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34,
+      "AUD": 71,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070110003_NECChronomancerLead.jpg",
+    "year": 2021
   },
-  "canoptek-circle": {
-    "models": 8,
+  "Necrons-Royal-Court-2021": {
+    "display_name": "Necrons Royal Court",
+    "slug_short": "Necrons-Royal-Court",
+    "models": 4,
+    "prices": {
+      "GBP": 80,
+      "USD": 130,
+      "EUR": 105,
+      "AUD": 219,
+      "CAD": 160,
+      "PLN": 440,
+      "CHF": 105
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110072_NECRoyalCourtLead.jpg",
+    "year": 2021
+  },
+  "Convergence-of-Dominion-2020": {
+    "display_name": "Convergence of Dominion",
+    "slug_short": "Convergence-of-Dominion",
+    "models": 3,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110066_ConvergenceofDominionLead.jpg",
+    "year": 2020
+  },
+  "Monolith-2020": {
+    "display_name": "Monolith",
+    "slug_short": "Monolith",
+    "models": 1,
+    "prices": {
+      "GBP": 115,
+      "USD": 194,
+      "EUR": 150,
+      "AUD": 315,
+      "CAD": 230,
+      "PLN": 640,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110043_NECMonolithLead.jpg",
+    "year": 2020
+  },
+  "Szarekh-The-Silent-King-2020": {
+    "display_name": "Szarekh, The Silent King",
+    "slug_short": "Szarekh-The-Silent-King",
+    "models": 3,
+    "prices": {
+      "GBP": 105.5,
+      "USD": 175,
+      "EUR": 135,
+      "AUD": 295,
+      "CAD": 210,
+      "PLN": 580,
+      "CHF": 140
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110047_NECSzarekhSilentKingLead.jpg",
+    "year": 2020
+  },
+  "Canoptek-Doomstalker-2020": {
+    "display_name": "Canoptek Doomstalker",
+    "slug_short": "Canoptek-Doomstalker",
+    "models": 1,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 87,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110045_CanoptekDoomstalkerLead.jpg",
+    "year": 2020
+  },
+  "Lokhust-Heavy-Destroyer-2020": {
+    "display_name": "Lokhust Heavy Destroyer",
+    "slug_short": "Lokhust-Heavy-Destroyer",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110044_LokhustHeavyDestroyerLead.jpg",
+    "year": 2020
+  },
+  "Necron-Canoptek-Wraiths-2020": {
+    "display_name": "Canoptek Wraiths",
+    "slug_short": "Necron-Canoptek-Wraiths",
+    "models": 6,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 97,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110060_NECCanoptekWraithsLead.jpg",
+    "year": 2020
+  },
+  "Triarch-Stalker-2020": {
+    "display_name": "Triarch Stalker",
+    "slug_short": "Triarch-Stalker",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 97,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110058_NecronTriarchStalkerLead.jpg",
+    "year": 2020
+  },
+  "Necron-Immortals-2020": {
+    "display_name": "Immortals",
+    "slug_short": "Necron-Immortals",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110057_NECImmortalsLead.jpg",
+    "year": 2020
+  },
+  "Necron-Doom-Scythe-2020": {
+    "display_name": "Night Scythe",
+    "slug_short": "Necron-Doom-Scythe",
+    "models": 1,
     "prices": {
       "GBP": 47,
       "USD": 77,
       "EUR": 61.5,
-      "AUD": 132,
+      "AUD": 107,
       "CAD": 93,
       "PLN": 260,
       "CHF": 61.5
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110065_DoomScytheLead.jpg",
+    "year": 2020
   },
-  "overlord-with-translocation-shroud": {
+  "Necron-Deathmarks-2020": {
+    "display_name": "Deathmarks",
+    "slug_short": "Necron-Deathmarks",
+    "models": 5,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110057_NECImmortalsGroup2.jpg",
+    "year": 2020
+  },
+  "Ghost Ark-2020": {
+    "display_name": "Ghost Ark",
+    "slug_short": "Ghost Ark",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 74,
-      "CAD": 53,
-      "PLN": 145,
-      "CHF": 34
-    }
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 104,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110063_NECGhostArkLead.jpg",
+    "year": 2020
   },
-  "trazyn-the-infinite": {
+  "Doomsday-Ark-2020": {
+    "display_name": "Doomsday Ark",
+    "slug_short": "Doomsday-Ark",
+    "models": 1,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 104,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110063_NECDoomsdayArkLead.jpg",
+    "year": 2020
+  },
+  "Necron-Cryptek-2020": {
+    "display_name": "Cryptek",
+    "slug_short": "Necron-Cryptek",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070110005_NECCryptekLead.jpg",
+    "year": 2020
+  },
+  "Canoptek-Spyder-2020": {
+    "display_name": "Canoptek Spyder",
+    "slug_short": "Canoptek-Spyder",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 74,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110061_CanoptekSpyderLead.jpg",
+    "year": 2020
+  },
+  "Necron-Obelisk": {
+    "display_name": "Obelisk & Transcendent C'tan",
+    "slug_short": "Necron-Obelisk",
+    "models": 1,
+    "prices": {
+      "GBP": 120,
+      "USD": 197,
+      "EUR": 155,
+      "AUD": 203,
+      "CAD": 240,
+      "PLN": 660,
+      "CHF": 155
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110026_NecronObeliskLead.jpg"
+  },
+  "NecronsTesseract-Vault": {
+    "display_name": "Tesseract Vault",
+    "slug_short": "NecronsTesseract-Vault",
+    "models": 1,
+    "prices": {
+      "GBP": 120,
+      "USD": 197,
+      "EUR": 155,
+      "AUD": 203,
+      "CAD": 240,
+      "PLN": 660,
+      "CHF": 155
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110026_NecronTesseract01.jpg"
+  },
+  "Necron-Trazyn-the-Infinite": {
+    "display_name": "Trazyn the Infinite",
+    "slug_short": "Necron-Trazyn-the-Infinite",
     "models": 1,
     "prices": {
       "GBP": 19,
@@ -525,6 +489,230 @@
       "CAD": 38,
       "PLN": 105,
       "CHF": 24
-    }
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99800110009_TrazynTheInfiniteNEW01.jpg"
+  },
+  "Necrons-Psychomancer-2020": {
+    "display_name": "Psychomancer",
+    "slug_short": "Necrons-Psychomancer",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110073_NECPsychomancerLead.jpg",
+    "year": 2020
+  },
+  "CTan-Shard-of-the-Void-Dragon-2020": {
+    "display_name": "C'tan Shard of the Void Dragon",
+    "slug_short": "CTan-Shard-of-the-Void-Dragon",
+    "models": 1,
+    "prices": {
+      "GBP": 80,
+      "USD": 130,
+      "EUR": 105,
+      "AUD": 219,
+      "CAD": 160,
+      "PLN": 440,
+      "CHF": 105
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110054_CTanShardoftheVoidDragonLead.jpg",
+    "year": 2020
+  },
+  "Ophydian-Destroyers-2020": {
+    "display_name": "Ophydian Destroyers",
+    "slug_short": "Ophydian-Destroyers",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110053_NECOphydianDestroyersLead.jpg",
+    "year": 2020
+  },
+  "Necron-Destroyer-Squadron-2020": {
+    "display_name": "Lokhust Destroyer Squadron",
+    "slug_short": "Necron-Destroyer-Squadron",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 105,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110071_NecronDestroyerretoolGroup.jpg",
+    "year": 2020
+  },
+  "Necron-Warriors-2020": {
+    "display_name": "Necron Warriors",
+    "slug_short": "Necron-Warriors",
+    "models": 10,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 87,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110052_NecronWarriorsLead.jpg",
+    "year": 2020
+  },
+  "Skorpekh-Destroyers-2020": {
+    "display_name": "Skorpekh Destroyers",
+    "slug_short": "Skorpekh-Destroyers",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.25,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110051_SkorpekhDestroyersLead.jpg",
+    "year": 2020
+  },
+  "Hexmark-Destroyer-2020": {
+    "display_name": "Hexmark Destroyer",
+    "slug_short": "Hexmark-Destroyer",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110048_HexmarkDestroyerLead.jpg",
+    "year": 2020
+  },
+  "Necron-Tomb-Blades-2020": {
+    "display_name": "Tomb Blades",
+    "slug_short": "Necron-Tomb-Blades",
+    "models": 3,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 98,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110059_NECTombBladesLead.jpg",
+    "year": 2020
+  },
+  "Necron-Catacomb-Command-Barge-2020": {
+    "display_name": "Necron Catacomb Command Barge",
+    "slug_short": "Necron-Catacomb-Command-Barge",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 82,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110064_CatacombCommandBargeLead.jpg",
+    "year": 2020
+  },
+  "Necron-Annihilation-Barge-2020": {
+    "display_name": "Annihilation Barge",
+    "slug_short": "Necron-Annihilation-Barge",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110064_CatacombAnnihilationBargeLead.jpg",
+    "year": 2020
+  },
+  "Necron-Triarch-Praetorians-2020": {
+    "display_name": "Triarch Praetorians",
+    "slug_short": "Necron-Triarch-Praetorians",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 82,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110058_NecronsTriarchPraetoriansLead.jpg",
+    "year": 2020
+  },
+  "Necron-Lychguard-2020": {
+    "display_name": "Lychguard",
+    "slug_short": "Necron-Lychguard",
+    "models": 5,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 82,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110058_TriarchLychguardLead.jpg",
+    "year": 2020
+  },
+  "Necrons-Illuminor-Szeras-2020": {
+    "display_name": "Illuminor Szeras",
+    "slug_short": "Necrons-Illuminor-Szeras",
+    "models": 1,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 103,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120110049_IlluminorSzerasLead.jpg",
+    "year": 2020
+  },
+  "Necron-C-tan-Shard-of-The-Deceiver": {
+    "display_name": "C'tan Shard of The Deceiver",
+    "slug_short": "Necron-C-tan-Shard-of-The-Deceiver",
+    "models": 1,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 78,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99810110003_TheDeceiverNEW01.jpg"
   }
 }

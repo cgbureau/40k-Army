@@ -1,47 +1,70 @@
 {
-  "annihilation_barge": "necron-annihilation-barge",
-  "c_tan_shard_of_the_deceiver": "c-tan-shard-of-the-deceiver",
-  "c_tan_shard_of_the_nightbringer": "c-tan-shard-of-the-nightbringer",
-  "c_tan_shard_of_the_void_dragon": "c-tan-shard-of-the-void-dragon",
-  "canoptek_doomstalker": "necron-canoptek-doomstalker",
-  "canoptek_spyder": "necron-canoptek-spyder",
-  "canoptek_wraiths": "canoptek-wraiths",
-  "catacomb_command_barge": "necron-catacomb-command-barge",
-  "chronomancer": "necron-chronomancer",
-  "deathmarks": "deathmarks",
-  "doomsday_ark": "doomsday-ark",
-  "doom-scythe": "night-scythe",
-  "flayed_ones": "necron-flayed-ones",
-  "hexmark_destroyer": "necron-hexmark-destroyer",
-  "illuminor_szeras": "illuminor-szeras",
-  "immortals": "necron-immortals",
-  "imotekh_the_stormlord": "imotekh-the-stormlord",
-  "lychguard": "necron-lychguard",
-  "lokhust_destroyers": "lokhust-destroyer-squadron",
-  "lokhust_heavy_destroyers": "necron-lokhust-heavy-destroyer",
-  "lord_overlord": "overlord_with_translocation_shroud",
-  "monolith": "necron-monolith",
-  "necron_warriors": "necron-warriors",
-  "nekrosor_ammentar": "nekrosor-ammentar",
-  "night_scythe": "night-scythe",
-  "obelisk": "obelisk-and-transcendent-ctan",
-  "ophydian_destroyers": "necron-ophydian-destroyers",
-  "orikan_the_diviner": "orikan-the-diviner",
-  "overlord_with_translocation_shroud": "overlord-with-translocation-shroud",
-  "psychomancer": "necron-psychomancer",
-  "royal_warden": "necron-royal-warden",
-  "skorpekh_destroyers": "necron-skorpekh-destroyers",
-  "seraptek_heavy_construct": "seraptek-heavy-construct-with-synaptic-obliterators",
-  "tesseract_vault": "necron-tesseract-vault",
-  "tomb_blades": "necron-tomb-blades",
-  "transcendent_c'tan": "necron-transcendent-ctan",
-  "trazyn_the_infinite": "trazyn-the-infinite",
-  "triarch_praetorians": "necron-triarch-praetorians",
-  "triarch_stalker": "necron-triarch-stalker",
-  "vault": "necron-tesseract-vault",
+  "annihilation_barge": "Necron-Annihilation-Barge-2020",
+  "c_tan_shard_of_the_deceiver": "Necron-C-tan-Shard-of-The-Deceiver",
+  "c_tan_shard_of_the_nightbringer": "necrons-ctan-shard-of-the-nightbringer-2026",
+  "c_tan_shard_of_the_void_dragon": "CTan-Shard-of-the-Void-Dragon-2020",
 
-  "canoptek_spyders": "necron-canoptek-spyder",
-  "tesseract_ark": "ghost-ark",
-  "the_silent_king": "szarekh-the-silent-king",
-  "transcendent_c_tan": "obelisk-and-transcendent-ctan"
+  "canoptek_doomstalker": "Canoptek-Doomstalker-2020",
+  "canoptek_spyders": "Canoptek-Spyder-2020",
+  "canoptek_wraiths": "Necron-Canoptek-Wraiths-2020",
+
+  "catacomb_command_barge": "Necron-Catacomb-Command-Barge-2020",
+  "chronomancer": "Necrons-Chronomancer-2021",
+  "deathmarks": "Necron-Deathmarks-2020",
+
+  "doom_scythe": "Necron-Doom-Scythe-2020",
+  "night_scythe": "Necron-Doom-Scythe-2020",
+
+  "doomsday_ark": "Doomsday-Ark-2020",
+  "flayed_ones": "Necrons-Flayed-Ones-2021",
+
+  "hexmark_destroyer": "Hexmark-Destroyer-2020",
+  "illuminor_szeras": "Necrons-Illuminor-Szeras-2020",
+  "immortals": "Necron-Immortals-2020",
+
+  "imotekh_the_stormlord": "necrons-imotekh-the-stormlord-2023",
+
+  "lokhust_destroyers": "Necron-Destroyer-Squadron-2020",
+  "lokhust_heavy_destroyers": "Lokhust-Heavy-Destroyer-2020",
+
+  "lychguard": "Necron-Lychguard-2020",
+
+  "monolith": "Monolith-2020",
+  "necron_warriors": "Necron-Warriors-2020",
+
+  "nekrosor_ammentar": "necrons-nekrosor-ammentar-2026",
+
+  "obelisk": "Necron-Obelisk",
+
+  "ophydian_destroyers": "Ophydian-Destroyers-2020",
+
+  "orikan_the_diviner": "necrons-orikan-the-diviner-2023",
+
+  "overlord": "necrons-overlord-2023",
+  "overlord_with_translocation_shroud": "necrons-overlord-and-translocation-shroud-2023",
+
+  "psychomancer": "Necrons-Psychomancer-2020",
+
+  "royal_warden": "necrons-royal-warden-2023",
+
+  "skorpekh_destroyers": "Skorpekh-Destroyers-2020",
+
+  "tesseract_vault": "NecronsTesseract-Vault",
+
+  "the_silent_king": "Szarekh-The-Silent-King-2020",
+
+  "tomb_blades": "Necron-Tomb-Blades-2020",
+
+  "trazyn_the_infinite": "Necron-Trazyn-the-Infinite",
+
+  "triarch_praetorians": "Necron-Triarch-Praetorians-2020",
+  "triarch_stalker": "Triarch-Stalker-2020",
+
+  "cryptothralls": "Necrons-Royal-Court-2021",
+  "plasmancer": "Necrons-Royal-Court-2021",
+  "skorpekh_lord": "Necrons-Royal-Court-2021",
+
+    "transcendent_c_tan": "Necron-Obelisk",
+
+    "seraptek_heavy_construct": "seraptek-heavy-construct-with-synaptic-obliterators-2025"
 }
