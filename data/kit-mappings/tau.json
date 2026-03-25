@@ -1,26 +1,38 @@
 {
-  "broadside_battlesuits": "broadside-battlesuits",
-  "cadre_fireblade": "cadre-fireblade",
-  "crisis_battlesuits": "crisis-battlesuits",
-  "darkstrider": "cadre-fireblade",
-  "devilfish": "devilfish",
-  "ethereal": "ethereal",
-  "farsight": "commander-farsight",
-  "ghostkeel_battlesuit": "ghostkeel-battlesuit",
-  "hammerhead_gunship": "hammerhead-gunship",
-  "kroot_carnivores": "kroot-carnivores",
-  "kroot_farstalkers": "kroot-farstalkers",
-  "kroot_hounds": "kroot-hounds",
-  "krootox_riders": "krootox-riders",
-  "pathfinder_team": "pathfinder-team",
-  "piranha": "piranha",
-  "riptide_battlesuit": "riptide-battlesuit",
-  "skyray_gunship": "hammerhead-gunship",
-  "stealth_battlesuits": "stealth-battlesuits",
-  "strike_team": "strike-team",
-  "breacher_team": "strike-team",
-  "sun_shark_bomber": "sun-shark-bomber",
-  "tactical_drones": "tactical-drones",
-  "tidewall": "tidewall",
-  "vespid_stingwings": "vespid-stingwings"
+  "breacher_team": "Tau-Fire-Warriors-Breacher-Team-2017",
+  "strike_team": "Tau-Empire-Fire-Warriors-2017",
+
+  "broadside_battlesuits": "Tau-Empire-XV88-Broadside-Battlesuit-2017",
+  "crisis_battlesuits": "XV8-Crisis-Battlesuits",
+  "ghostkeel_battlesuit": "XV95-Ghostkeel-Battlesuit",
+  "riptide_battlesuit": "Tau-Empire-XV104-Riptide-Battlesuit-2017",
+
+  "cadre_fireblade": "Tau-Empire-Cadre-Fireblade-2017",
+  "ethereal": "tau-empire-ethereal-2022",
+  "darkstrider": "tau-empire-darkstrider-2022",
+  "farsight": "tau-empire-commander-farsight-2023",
+
+  "devilfish": "Tau-Empire-TY7-Devilfish-2015",
+  "hammerhead_gunship": "Tau-Empire-Hammerhead-Gunship",
+  "skyray_gunship": "Tau-Empire-Sky-Ray-Missile-Defence-Gunship",
+
+  "piranha": "Tau-Empire-TX4-Piranha-2015",
+
+  "pathfinder_team": "Pathfinder-Team-2017",
+
+  "tactical_drones": "Tau-Drones-2015",
+
+  "sun_shark_bomber": "Tau-Empire-Sun-Shark-Bomber",
+
+  "kroot_carnivores": "tau-empire-kroot-carnivore-squad-2024",
+  "kroot_hounds": "tau-empire-kroot-hounds-2024",
+  "krootox_riders": "tau-empire-krootox-rider-2024",
+
+  "kroot_farstalkers": "kill-team-farstalker-kinband-2024",
+
+  "vespid_stingwings": "kill-team-tau-empire-vespid-stingwings-2024",
+
+  "stealth_battlesuits": "kill-team-xv26-stealth-battlesuits-2026",
+
+   "tidewall": "Tidewall-Shieldline"
 }

@@ -1,212 +1,706 @@
 {
-  "strike-team": {
-    "models": 10,
-    "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
-  },
-  "pathfinder-team": {
-    "models": 10,
-    "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
-  },
-  "crisis-battlesuits": {
-    "models": 3,
-    "prices": {
-      "GBP": 54.5,
-      "USD": 89,
-      "EUR": 70,
-      "AUD": 150,
-      "CAD": 107
-    }
-  },
-  "broadside-battlesuits": {
+  "tau-empire-commander-farsight-2023": {
+    "display_name": "Commander Farsight",
+    "slug_short": "tau-empire-commander-farsight",
     "models": 1,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
       "AUD": 117,
-      "CAD": 83
-    }
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113094_TAUBoardingPatrol01.jpg",
+    "year": 2023
   },
-  "stealth-battlesuits": {
-    "models": 3,
+  "combat-patrol-tau-empire-2024": {
+    "display_name": "Combat Patrol: T’au Empire",
+    "slug_short": "combat-patrol-tau-empire",
+    "models": 25,
     "prices": {
-      "GBP": 35,
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 251,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113091_TAUCP1.jpg",
+    "year": 2024
+  },
+  "combat-patrol-kroot-2026": {
+    "display_name": "Combat Patrol: Kroot",
+    "slug_short": "combat-patrol-kroot",
+    "models": 17,
+    "prices": {
+      "GBP": 105,
+      "USD": 170,
+      "EUR": 135,
+      "AUD": 285,
+      "CAD": 205,
+      "PLN": 565,
+      "CHF": 135
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113100_TAUCombatPatrolKroot1.jpg",
+    "year": 2026
+  },
+  "tau-empire-the-twin-lance-2026": {
+    "display_name": "The Twin Lance",
+    "slug_short": "tau-empire-the-twin-lance",
+    "models": 4,
+    "prices": {
+      "GBP": 67,
+      "USD": 111,
+      "EUR": 87,
+      "AUD": 184,
+      "CAD": 133,
+      "PLN": 370,
+      "CHF": 87
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113101_TAUTwinLance1.jpg",
+    "year": 2026
+  },
+  "tau-empire-darkstrider-2022": {
+    "display_name": "Darkstrider",
+    "slug_short": "tau-empire-darkstrider",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 67,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113005_TauDarkstriderLead.jpg",
+    "year": 2022
+  },
+  "tau-empire-ethereal-2022": {
+    "display_name": "Ethereal",
+    "slug_short": "tau-empire-ethereal",
+    "models": 1,
+    "prices": {
+      "GBP": 21.5,
+      "USD": 35,
+      "EUR": 27.5,
+      "AUD": 57,
+      "CAD": 42.5,
+      "PLN": 121,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113003_EtherealLive.jpg",
+    "year": 2022
+  },
+  "tau-empire-kroot-trail-shaper-2024": {
+    "display_name": "Kroot Trail Shaper",
+    "slug_short": "tau-empire-kroot-trail-shaper",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 60,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113007_KrootTrailShaper1.jpg",
+    "year": 2024
+  },
+  "tau-empire-kroot-flesh-shaper-2024": {
+    "display_name": "Kroot Flesh Shaper",
+    "slug_short": "tau-empire-kroot-flesh-shaper",
+    "models": 1,
+    "prices": {
+      "GBP": 23,
+      "USD": 35,
+      "EUR": 29.5,
+      "AUD": 60,
+      "CAD": 45,
+      "PLN": 125,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113008_KrootFleshShaper1.jpg",
+    "year": 2024
+  },
+  "tau-empire-kroot-war-shaper-2024": {
+    "display_name": "Kroot War Shaper",
+    "slug_short": "tau-empire-kroot-war-shaper",
+    "models": 1,
+    "prices": {
+      "GBP": 25,
+      "USD": 39,
+      "EUR": 32.5,
+      "AUD": 68,
+      "CAD": 50,
+      "PLN": 140,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113093_KrootWarShaper1.jpg",
+    "year": 2024
+  },
+  "tau-empire-krootox-rider-2024": {
+    "display_name": "Krootox Rider",
+    "slug_short": "tau-empire-krootox-rider",
+    "models": 1,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 79.5,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113087_KrootRider1.jpg",
+    "year": 2024
+  },
+  "kill-team-xv26-stealth-battlesuits-2026": {
+    "display_name": "Kill Team: XV26 Stealth Battlesuits",
+    "slug_short": "kill-team-xv26-stealth-battlesuits",
+    "models": 8,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 118,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113102_KTXV26StealthBattlesuits01.jpg",
+    "year": 2026
+  },
+  "kill-team-farstalker-kinband-2024": {
+    "display_name": "Kill Team: Farstalker Kinband",
+    "slug_short": "kill-team-farstalker-kinband",
+    "models": 12,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120114003_KTFarstalkerKinband2.jpg",
+    "year": 2024
+  },
+  "kill-team-tau-empire-vespid-stingwings-2024": {
+    "display_name": "Kill Team: Vespid Stingwings",
+    "slug_short": "kill-team-tau-empire-vespid-stingwings",
+    "models": 11,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 69,
+      "EUR": 55,
+      "AUD": 117,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199070_KTHivestorm3New.jpg",
+    "year": 2024
+  },
+  "tau-empire-kroot-lone-spear-2024": {
+    "display_name": "Kroot Lone-spear",
+    "slug_short": "tau-empire-kroot-lone-spear",
+    "models": 1,
+    "prices": {
+      "GBP": 35.5,
       "USD": 60,
       "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113092_KrootLoneSpear1.jpg",
+    "year": 2024
   },
-  "ghostkeel-battlesuit": {
+  "tau-empire-kroot-hounds-2024": {
+    "display_name": "Kroot Hounds",
+    "slug_short": "tau-empire-kroot-hounds",
+    "models": 10,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 75.5,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113090_KrootHounds1.jpg",
+    "year": 2024
+  },
+  "tau-empire-krootox-rampagers-2024": {
+    "display_name": "Krootox Rampagers",
+    "slug_short": "tau-empire-krootox-rampagers",
+    "models": 3,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 110,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113088_KrootRampagers1.jpg",
+    "year": 2024
+  },
+  "tau-empire-kroot-carnivore-squad-2024": {
+    "display_name": "Kroot Carnivores",
+    "slug_short": "tau-empire-kroot-carnivore-squad",
+    "models": 10,
+    "prices": {
+      "GBP": 35.5,
+      "USD": 60,
+      "EUR": 45,
+      "AUD": 98,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113089_KrootCarnivores1.jpg",
+    "year": 2024
+  },
+  "Tau-Fire-Warriors-Breacher-Team-2017": {
+    "display_name": "Fire Warriors Breacher Team",
+    "slug_short": "Tau-Fire-Warriors-Breacher-Team",
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,  
+      "AUD": 104,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113039_TauBreacherTeam01.jpg",
+    "year": 2017
+  },
+  "Tau-Empire-Fire-Warriors-2017": {
+    "display_name": "Fire Warriors Strike Team",
+    "slug_short": "Tau-Empire-Fire-Warriors",
+    "models": 10,
+    "prices": {
+      "GBP": 38,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 104,
+      "CAD": 74,
+      "PLN": 210,
+      "CHF": 50
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113039_TauFirewarriorTeam01.jpg",
+    "year": 2017
+  },
+  "Tau-Empire-XV88-Broadside-Battlesuit-2017": {
+    "display_name": "XV88 Broadside Battlesuit",
+    "slug_short": "Tau-Empire-XV88-Broadside-Battlesuit",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 92,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113045_TauXV88BroadSideBattleSuit01.jpg",
+    "year": 2017
+  },
+  "Tau-Tigershark-AX-1-0-2017": {
+    "display_name": "T’au Tiger Shark AX-1-0",
+    "slug_short": "Tau-Tigershark-AX-1-0",
+    "models": 1,
+    "prices": {
+      "GBP": 215,
+      "USD": 330,
+      "EUR": 260,
+      "AUD": 456,
+      "CAD": 405,
+      "PLN": 1175,
+      "CHF": 260
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560113055_TauAX1Tigershark01NEW.jpg",
+    "year": 2017
+  },
+  "Pathfinder-Team-2017": {
+    "display_name": "Pathfinder Team",
+    "slug_short": "Pathfinder-Team",
+    "models": 10,
+    "prices": {
+      "GBP": 29.5,
+      "USD": 48,
+      "EUR": 37,
+      "AUD": 65,
+      "CAD": 57,
+      "PLN": 160,
+      "CHF": 37
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113040_TauEmpirePathFinderTeam01.jpg",
+    "year": 2017
+  },
+  "Tau-Empire-Commander-2017": {
+    "display_name": "T'au Empire Commander",
+    "slug_short": "Tau-Empire-Commander",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.5,
+      "AUD": 104,
+      "CAD": 78,
+      "PLN": 215,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113037_TauEmpireCommanderColdStar01.jpg",
+    "year": 2017
+  },
+  "Tau-Empire-Cadre-Fireblade-2017": {
+    "display_name": "Cadre Fireblade",
+    "slug_short": "Tau-Empire-Cadre-Fireblade",
+    "models": 1,
+    "prices": {
+      "GBP": 20.5,
+      "USD": 35,
+      "EUR": 26,
+      "AUD": 31,
+      "CAD": 41,
+      "PLN": 115,
+      "CHF": 26
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113006_CadreFirebladeLead.jpg",
+    "year": 2017
+  },
+  "Tau-KX139-Taunar-Heavy-Rail-Cannon-Array": {
+    "display_name": "KX139 Ta’unar Supremacy Armour Heavy Rail Cannon Array",
+    "slug_short": "Tau-KX139-Taunar-Heavy-Rail-Cannon-Array",
+    "models": 1,
+    "prices": {
+      "GBP": 81,
+      "USD": 124,
+      "EUR": 100,
+      "AUD": 180,
+      "CAD": 154,
+      "PLN": 440,
+      "CHF": 100
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560113054_KX139TaunarSupremacyRailCannon01.jpg"
+  },
+  "Tidewall-Shieldline": {
+    "display_name": "Tidewall Shieldline",
+    "slug_short": "Tidewall-Shieldline",
     "models": 1,
     "prices": {
       "GBP": 52,
       "USD": 85,
       "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "AUD": 124,
+      "CAD": 100,
+      "PLN": 285,
+      "CHF": 67
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113075_TidewallShieldlineLead.jpg"
   },
-  "riptide-battlesuit": {
+  "XV8-Crisis-Battlesuits": {
+    "display_name": "XV8 Crisis Battlesuit Team",
+    "slug_short": "XV8-Crisis-Battlesuits",
+    "models": 3,
+    "prices": {
+      "GBP": 54.5,
+      "USD": 89,
+      "EUR": 70,
+      "AUD": 149,
+      "CAD": 107,
+      "PLN": 300,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113072_TAUCrisisBattlesuitLead.jpg"
+  },
+  "Tau-Drones-2015": {
+    "display_name": "Tactical Drones",
+    "slug_short": "Tau-Drones",
+    "models": 10,
+    "prices": {
+      "GBP": 12.75,
+      "USD": 20,
+      "EUR": 15,
+      "AUD": 31,
+      "CAD": 25,
+      "PLN": 70,
+      "CHF": 15
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070113002_TauEmpireDrones01.jpg",
+    "year": 2015
+  },
+  "KV128-Stormsurge": {
+    "display_name": "KV128 Stormsurge",
+    "slug_short": "KV128-Stormsurge",
     "models": 1,
     "prices": {
-      "GBP": 78,
-      "USD": 127,
+      "GBP": 118,
+      "USD": 195,
+      "EUR": 150,
+      "AUD": 299,
+      "CAD": 235,
+      "PLN": 650,
+      "CHF": 150
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113036_TauKV128Stormsurge01.jpg"
+  },
+  "KX139-Ta'unar-Supremacy-Armour-Fusion-Eradicator": {
+    "display_name": "KX139 Ta'unar Supremacy Armour Fusion Eradicator",
+    "slug_short": "KX139-Ta'unar-Supremacy-Armour-Fusion-Eradicator",
+    "models": 1,
+    "prices": {
+      "GBP": 41.5,
+      "USD": 64,
+      "EUR": 51,
+      "AUD": 94,
+      "CAD": 79,
+      "PLN": 230,
+      "CHF": 51
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99020187141_Supremacysuitfusioneradicator01.jpg"
+  },
+  "KX139-Ta'unar-Supremacy-Armour-Pulse-Ordnance-Multi-driver": {
+    "display_name": "KX139 Ta'unar Supremacy Armour Pulse Ordnance Multi-driver",
+    "slug_short": "KX139-Ta'unar-Supremacy-Armour-Pulse-Ordnance-Multi-driver",
+    "models": 1,
+    "prices": {
+      "GBP": 81,
+      "USD": 124,
       "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
+      "AUD": 180,
+      "CAD": 154,
+      "PLN": 440,
+      "CHF": 100
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99020187139_KX139TaunarSupremacyArmourPulseOrdnanceMultidriver01.jpg"
   },
-  "cadre-fireblade": {
+  "KX139-Ta'unar-Supremacy-Armour-Tri-axis-Ion-Cannon": {
+    "display_name": "KX139 Ta'unar Supremacy Armour Tri-axis Ion Cannon",
+    "slug_short": "KX139-Ta'unar-Supremacy-Armour-Tri-axis-Ion-Cannon",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 41.5,
+      "USD": 64,
+      "EUR": 51,
+      "AUD": 94,
+      "CAD": 79,
+      "PLN": 230,
+      "CHF": 51
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99020187138_KX139TaunarSupremacyArmourTriaxisIonCannon02.jpg"
   },
-  "ethereal": {
+  "KX139-Taunar-Supremacy-Armour-Body": {
+    "display_name": "KX139 Ta'unar Supremacy Armour Body",
+    "slug_short": "KX139-Taunar-Supremacy-Armour-Body",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 177,
+      "USD": 270,
+      "EUR": 215,
+      "AUD": 386,
+      "CAD": 335,
+      "PLN": 965,
+      "CHF": 215
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99020187137_KX139TaunarSupremacyArmourBody09.jpg"
   },
-  "commander-farsight": {
+  "Tau-Empire-Razorshark-Strike-Fighter": {
+    "display_name": "AX3 Razorshark Strike Fighter",
+    "slug_short": "Tau-Empire-Razorshark-Strike-Fighter",
     "models": 1,
     "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
+      "GBP": 55,
+      "USD": 89,
+      "EUR": 67.5,
+      "AUD": 90,
+      "CAD": 107,
+      "PLN": 305,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113029_RazorsharkFighter01.jpg"
   },
-  "devilfish": {
+  "Tau-Empire-Sun-Shark-Bomber": {
+    "display_name": "AX39 Sun Shark Bomber",
+    "slug_short": "Tau-Empire-Sun-Shark-Bomber",
     "models": 1,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "GBP": 55,
+      "USD": 89,
+      "EUR": 67.5,
+      "AUD": 90,
+      "CAD": 107,
+      "PLN": 305,
+      "CHF": 70
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113029_SunsharkBomber01.jpg"
   },
-  "hammerhead-gunship": {
-    "models": 1,
+  "Tau-Empire-Commander-Shadowsun-2020": {
+    "display_name": "Commander Shadowsun",
+    "slug_short": "Tau-Empire-Commander-Shadowsun",
+    "models": 3,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
-  },
-  "piranha": {
-    "models": 1,
-    "prices": {
-      "GBP": 35,
+      "GBP": 35.5,
       "USD": 60,
       "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "AUD": 96,
+      "CAD": 70,
+      "PLN": 195,
+      "CHF": 45
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113066_ComShadowsun01.jpg",
+    "year": 2020
   },
-  "sun-shark-bomber": {
+  "Tau-Empire-XV104-Riptide-Battlesuit-2017": {
+    "display_name": "XV104 Riptide Battlesuit",
+    "slug_short": "Tau-Empire-XV104-Riptide-Battlesuit",
     "models": 1,
     "prices": {
-      "GBP": 58,
-      "USD": 96,
-      "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
+      "GBP": 74,
+      "USD": 122,
+      "EUR": 97,
+      "AUD": 107,
+      "CAD": 146,
+      "PLN": 405,
+      "CHF": 97
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113077_TAURiptideBattlesuitLead.jpg",
+    "year": 2017
   },
-  "kroot-carnivores": {
-    "models": 10,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "kroot-farstalkers": {
-    "models": 10,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "kroot-hounds": {
-    "models": 4,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "krootox-riders": {
+  "KX139-Nexus-Meteor": {
+    "display_name": "KX139 Ta'unar Nexus Missile System",
+    "slug_short": "KX139-Nexus-Meteor",
     "models": 1,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "GBP": 81,
+      "USD": 124,
+      "EUR": 100,
+      "AUD": 180,
+      "CAD": 154,
+      "PLN": 440,
+      "CHF": 100
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560113052_TauNexusMissile01.jpg"
   },
-  "vespid-stingwings": {
-    "models": 5,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "tactical-drones": {
-    "models": 4,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "tidewall": {
+  "Tidewall-Droneport": {
+    "display_name": "Tidewall Droneport",
+    "slug_short": "Tidewall-Droneport",
     "models": 1,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
       "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "AUD": 112,
+      "CAD": 83,
+      "PLN": 230,
+      "CHF": 55
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113049_TauDroneport01.jpg"
+  },
+  "XV95-Ghostkeel-Battlesuit": {
+    "display_name": "XV95 Ghostkeel Battlesuit",
+    "slug_short": "XV95-Ghostkeel-Battlesuit",
+    "models": 3,
+    "prices": {
+      "GBP": 58,
+      "USD": 96,
+      "EUR": 76,
+      "AUD": 149,
+      "CAD": 116,
+      "PLN": 320,
+      "CHF": 76
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113035_TauEmpireGhostkeel01.jpg"
+  },
+  "Tau-Empire-Sky-Ray-Missile-Defence-Gunship": {
+    "display_name": "TX78 Sky Ray Gunship",
+    "slug_short": "Tau-Empire-Sky-Ray-Missile-Defence-Gunship",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 103,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113028_TauSkyray01.jpg"
+  },
+  "Tau-Empire-Hammerhead-Gunship": {
+    "display_name": "Hammerhead Gunship",
+    "slug_short": "Tau-Empire-Hammerhead-Gunship",
+    "models": 1,
+    "prices": {
+      "GBP": 47.5,
+      "USD": 80,
+      "EUR": 62.5,
+      "AUD": 103,
+      "CAD": 95,
+      "PLN": 265,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113028_TauHammerhead01.jpg"
+  },
+  "Tau-Empire-TY7-Devilfish-2015": {
+    "display_name": "Devilfish",
+    "slug_short": "Tau-Empire-TY7-Devilfish",
+    "models": 1,
+    "prices": {
+      "GBP": 40,
+      "USD": 65,
+      "EUR": 51.25,
+      "AUD": 84,
+      "CAD": 80,
+      "PLN": 220,
+      "CHF": 51.25
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113074_TAUDevilfishLead.jpg",
+    "year": 2015
+  },
+  "Tau-Empire-Sniper-Drone-Team": {
+    "display_name": "Firesight Team",
+    "slug_short": "Tau-Empire-Sniper-Drone-Team",
+    "models": 4,
+    "prices": {
+      "GBP": 32.5,
+      "USD": 53,
+      "EUR": 42,
+      "AUD": 78,
+      "CAD": 64,
+      "PLN": 175,
+      "CHF": 42
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99810113001_SniperDroneTeamNEW01.jpg"
+  },
+  "Tau-Empire-TX4-Piranha-2015": {
+    "display_name": "Piranha",
+    "slug_short": "Tau-Empire-TX4-Piranha",
+    "models": 1,
+    "prices": {
+      "GBP": 27,
+      "USD": 43.5,
+      "EUR": 34.5,
+      "AUD": 54,
+      "CAD": 54,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120113042_TauPirahna01.jpg",
+    "year": 2015
   }
 }
