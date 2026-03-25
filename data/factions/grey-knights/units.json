@@ -103,7 +103,8 @@
       "points": 805,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "interceptor_squad",

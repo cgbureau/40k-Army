@@ -1,15 +1,27 @@
 {
-  "brother_captain": "grey-knights-terminators",
-  "brotherhood_librarian": "grey-knights-terminators",
-  "brotherhood_terminator_squad": "grey-knights-terminators",
-  "castellan_crowe": "castellan-crowe",
-  "grand_master_in_nemesis_dreadknight": "nemesis-dreadknight",
-  "grey_knights_dreadnought": "venerable-dreadnought",
-  "grey_knights_strike_squad": "grey-knights-strike-squad",
-  "interceptor_squad": "grey-knights-strike-squad",
-  "kaldor_draigo": "kaldor-draigo",
-  "nemesis_dreadknight": "nemesis-dreadknight",
-  "paladin_squad": "grey-knights-terminators",
-  "purifier_squad": "grey-knights-strike-squad",
-  "strike_squad": "grey-knights-strike-squad"
+ "castellan_crowe": "grey-knights-castellan-crowe-2022",
+
+"purifier_squad": "grey-knights-purifier-squad-2022",
+"purgation_squad": "grey-knights-purgation-squad-2022",
+"interceptor_squad": "grey-knights-interceptor-squad-2022",
+
+"brotherhood_terminator_squad": "grey-knights-terminators-2017",
+"paladin_squad": "grey-knights-paladins-2017",
+
+"strike_squad": "grey-knights-strike-squad-2017",
+
+"grand_master_voldus": "grey-knights-grand-master-voldus-2017",
+
+"grand_master_in_nemesis_dreadknight": "grey-knights-grandmaster-in-nemesis-dreadknight-2025",
+
+"grand_master": "grey-knights-terminators-2017",
+"brother_captain": "grey-knights-terminators-2017",
+"brother_captain_stern": "grey-knights-terminators-2017",
+
+"brotherhood_champion": "grey-knights-strike-squad-2017",
+"brotherhood_chaplain": "grey-knights-strike-squad-2017",
+"brotherhood_librarian": "grey-knights-strike-squad-2017",
+"brotherhood_techmarine": "grey-knights-strike-squad-2017",
+
+"nemesis_dreadknight": "grey-knights-grandmaster-in-nemesis-dreadknight-2025"
 }
