@@ -874,20 +874,24 @@ function HomeContent() {
             className={`${PANEL_BORDER} ${PANEL_BG} border-l-4 p-3 flex flex-col gap-3 min-h-0 max-[900px]:hidden max-[900px]:min-h-0 max-[900px]:overflow-visible max-h-[calc(100vh-220px)] h-full rounded-none overflow-hidden min-w-0 lg:max-h-[calc(100vh-220px)] lg:overflow-hidden`}
             style={{ borderLeftColor: factionAccentColor }}
           >
-            <div className="flex gap-2 flex-shrink-0 max-[900px]:order-3">
+            <div className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden min-w-0 pr-1 max-[900px]:flex-1 max-[900px]:overflow-visible max-[900px]:min-h-0 max-[900px]:order-1 lg:overflow-y-auto lg:min-h-0">
+              <ArmySummary items={armySummaryItems} removeUnit={handleRemoveUnit} />
+            </div>
+
+            <div className="flex gap-2 mt-3 flex-shrink-0 max-[900px]:order-3">
               <button
                 type="button"
                 onClick={handleCopyArmyLink}
                 className={`${BTN_STYLE} flex-1`}
               >
-                {copyLinkCopied ? "Copied!" : "Copy"}
+                {copyLinkCopied ? "LINK COPIED!" : "LINK"}
               </button>
               <button
                 type="button"
                 onClick={handleExportList}
                 className={`${BTN_STYLE} flex-1`}
               >
-                {exportListCopied ? "Copied List!" : "Export"}
+                {exportListCopied ? "COPIED LIST!" : "EXPORT"}
               </button>
               <button
                 type="button"
@@ -896,10 +900,6 @@ function HomeContent() {
               >
                 RESET
               </button>
-            </div>
-
-            <div className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden min-w-0 pr-1 max-[900px]:flex-1 max-[900px]:overflow-visible max-[900px]:min-h-0 max-[900px]:order-1 lg:overflow-y-auto lg:min-h-0">
-              <ArmySummary items={armySummaryItems} />
             </div>
 
             <div className="mt-auto pt-3 border-t-2 border-[#231F20] flex-shrink-0 max-[900px]:mt-4 max-[900px]:order-2 max-[900px]:pt-3">
@@ -969,6 +969,19 @@ function HomeContent() {
                   </div>
                 )}
               </div>
+              <button
+                type="button"
+                onClick={() => {
+                  if (!amazonLink) return;
+                  window.open(amazonLink, "_blank", "noopener,noreferrer");
+                }}
+                disabled={!amazonLink}
+                className={`mt-4 w-full py-2 text-sm font-workbench border-2 rounded-none min-h-[44px] bg-[#231F20] text-[#B2C4AE] border-[#231F20] ${
+                  !amazonLink ? "opacity-50 cursor-not-allowed" : "hover:opacity-90"
+                }`}
+              >
+                BUY
+              </button>
             </div>
           </aside>
         </main>
