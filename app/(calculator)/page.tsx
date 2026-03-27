@@ -8,6 +8,7 @@ import UnitTable from "../components/calculator/UnitTable";
 import CalculatorControls from "../components/calculator/CalculatorControls";
 import ArmySummary from "../components/calculator/ArmySummary";
 import BackToTop from "../components/ui/BackToTop";
+import { buildAmazonAffiliateLink } from "../lib/affiliate/amazon";
 import { factionColors, DEFAULT_FACTION_COLOR } from "../config/factionColors";
 import adeptaSororitasKitMappings from "../../data/kit-mappings/adepta-sororitas.json";
 import adeptusCustodesKitMappings from "../../data/kit-mappings/adeptus-custodes.json";
@@ -351,6 +352,14 @@ function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
   });
 }
 
+function slugToDisplayName(slug: string): string {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
 function HomeContent() {
   const router = useRouter();
   const pathname = usePathname();
@@ -370,6 +379,7 @@ function HomeContent() {
   const [emailOpen, setEmailOpen] = useState(false);
   const [emailValue, setEmailValue] = useState("");
   const [selectedOverviewUnitId, setSelectedOverviewUnitId] = useState<string | null>(null);
+  const [amazonLink, setAmazonLink] = useState<string | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   // Load faction list on mount
@@ -441,6 +451,21 @@ function HomeContent() {
 
   const currentFactionName =
     factionList.find((f) => f.slug === selectedFactionSlug)?.name ?? selectedFactionSlug;
+
+  const factionDisplayName =
+    factionList.find((f) => f.slug === selectedFactionSlug)?.name ??
+    slugToDisplayName(selectedFactionSlug);
+
+  useEffect(() => {
+    if (!factionDisplayName) return;
+
+    const link = buildAmazonAffiliateLink({ factionName: factionDisplayName });
+    setAmazonLink(link);
+  }, [factionDisplayName]);
+
+  useEffect(() => {
+    console.log("Amazon Link:", amazonLink);
+  }, [amazonLink]);
 
   const kitMappingsForFaction = useMemo(
     () => KIT_MAPPINGS_REGISTRY[selectedFactionSlug] ?? {},
@@ -1220,12 +1245,15 @@ function HomeContent() {
           <div className="w-full flex justify-center">
             <div className="w-full max-w-full text-xs opacity-70 mt-[12px] break-words text-left md:text-center">
               <p>
-                40KArmy v2 — unofficial Warhammer army cost calculator - A product
+                40KArmy v2.3 — unofficial Warhammer army cost calculator - A product
                 by the Contemporary Graphics Bureau
               </p>
               <p className="mt-0.5">
                 Warhammer 40,000 and all associated names are trademarks of Games
                 Workshop. This project is an unofficial fan-made tool.
+              </p>
+              <p className="mt-2 text-[10px] opacity-60 text-center">
+                As an Amazon Associate, we earn from qualifying purchases.
               </p>
             </div>
           </div>
@@ -1403,19 +1431,32 @@ function HomeContent() {
                 </span>
               )}
             </div>
-            <div className="flex gap-2 mt-1.5">
+            <div className="flex w-full gap-2 mt-1.5">
               <button
                 type="button"
                 onClick={() =>
                   setMobilePanel((p) => (p === "cost" ? null : "cost"))
                 }
-                className={`flex-1 py-2 text-sm font-workbench border-2 rounded-none min-h-[44px] ${
+                className={`w-[60%] py-2 text-sm font-workbench border-2 rounded-none min-h-[44px] ${
                   mobilePanel === "cost"
                     ? "bg-[#231F20] text-[#B2C4AE] border-[#231F20]"
                     : "bg-[#B2C4AE] text-[#231F20] border-[#231F20] hover:bg-[#9FB49A]"
                 }`}
               >
                 ARMY OVERVIEW
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  if (!amazonLink) return;
+                  window.open(amazonLink, "_blank", "noopener,noreferrer");
+                }}
+                disabled={!amazonLink}
+                className={`w-[40%] py-2 text-sm font-workbench border-2 rounded-none min-h-[44px] bg-[#231F20] text-[#B2C4AE] border-[#231F20] ${
+                  !amazonLink ? "opacity-50 cursor-not-allowed" : "hover:opacity-90"
+                }`}
+              >
+                BUY
               </button>
             </div>
           </div>
