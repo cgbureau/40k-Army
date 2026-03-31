@@ -3,7 +3,11 @@
   "strike_team": "Tau-Empire-Fire-Warriors-2017",
 
   "broadside_battlesuits": "Tau-Empire-XV88-Broadside-Battlesuit-2017",
-  "crisis_battlesuits": "XV8-Crisis-Battlesuits",
+
+  "crisis_fireknife_battlesuits": "XV8-Crisis-Battlesuits",
+  "crisis_starscythe_battlesuits": "XV8-Crisis-Battlesuits",
+  "crisis_sunforge_battlesuits": "XV8-Crisis-Battlesuits",
+
   "ghostkeel_battlesuit": "XV95-Ghostkeel-Battlesuit",
   "riptide_battlesuit": "Tau-Empire-XV104-Riptide-Battlesuit-2017",
 
@@ -34,5 +38,26 @@
 
   "stealth_battlesuits": "kill-team-xv26-stealth-battlesuits-2026",
 
-   "tidewall": "Tidewall-Shieldline"
+   "tidewall_droneport": "Tidewall-Droneport",
+   "tidewall_shieldline": "Tidewall-Shieldline",
+
+   "stormsurge": "KV128-Stormsurge",
+   "razorshark_strike_fighter": "Tau-Empire-Razorshark-Strike-Fighter",
+
+   "firesight_team": "Tau-Empire-Sniper-Drone-Team",
+
+   "commander_coldstar": "Tau-Empire-Commander-2017",
+   "commander_enforcer": "Tau-Empire-Commander-2017",
+   "commander_shadowsun": "Tau-Empire-Commander-Shadowsun-2020",
+
+   "kroot_flesh_shaper": "tau-empire-kroot-flesh-shaper-2024",
+   "kroot_trail_shaper": "tau-empire-kroot-trail-shaper-2024",
+   "kroot_war_shaper": "tau-empire-kroot-war-shaper-2024",
+   "kroot_lone_spear": "tau-empire-kroot-lone-spear-2024",
+
+   "krootox_rampagers": "tau-empire-krootox-rampagers-2024",
+
+   "tigershark_ax_1_0": "Tau-Tigershark-AX-1-0-2017",
+   "the_twin_lance": "tau-empire-the-twin-lance-2026"
+
 }

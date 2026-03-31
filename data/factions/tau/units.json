@@ -34,9 +34,63 @@
       "prices": null
     },
     {
-      "id": "crisis_battlesuits",
-      "name": "Crisis Battlesuits",
-      "points": 195,
+      "id": "firesight_team",
+      "name": "Firesight Team",
+      "points": 60,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "commander_coldstar",
+      "name": "Commander in Coldstar Battlesuit",
+      "points": 95,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "commander_enforcer",
+      "name": "Commander in Enforcer Battlesuit",
+      "points": 80,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "commander_shadowsun",
+      "name": "Commander Shadowsun",
+      "points": 100,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "crisis_fireknife_battlesuits",
+      "name": "Crisis Fireknife Battlesuits",
+      "points": 120,
+      "models_per_unit": 3,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "crisis_starscythe_battlesuits",
+      "name": "Crisis Starscythe Battlesuits",
+      "points": 110,
+      "models_per_unit": 3,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "crisis_sunforge_battlesuits",
+      "name": "Crisis Sunforge Battlesuits",
+      "points": 140,
+      "models_per_unit": 3,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -98,9 +152,54 @@
       "prices": null
     },
     {
+      "id": "kroot_flesh_shaper",
+      "name": "Kroot Flesh Shaper",
+      "points": 45,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "kroot_hounds",
       "name": "Kroot Hounds",
       "points": 30,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kroot_lone_spear",
+      "name": "Kroot Lone-Spear",
+      "points": 80,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kroot_trail_shaper",
+      "name": "Kroot Trail Shaper",
+      "points": 55,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "kroot_war_shaper",
+      "name": "Kroot War Shaper",
+      "points": 50,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "krootox_rampagers",
+      "name": "Krootox Rampagers",
+      "points": 85,
+      "models_per_unit": 3,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -124,7 +223,16 @@
     {
       "id": "piranha",
       "name": "Piranha",
-      "points": 55,
+      "points": 60,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "razorshark_strike_fighter",
+      "name": "Razorshark Strike Fighter",
+      "points": 170,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -148,7 +256,17 @@
     {
       "id": "stealth_battlesuits",
       "name": "Stealth Battlesuits",
-      "points": 75,
+      "points": 100,
+      "models_per_unit": 5,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "stormsurge",
+      "name": "Stormsurge",
+      "points": 360,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -175,12 +293,51 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
+      "prices": null,
+      "availability": "legends"
+    },
+    {
+      "id": "tidewall_droneport",
+      "name": "Tidewall Droneport",
+      "points": 85,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
       "prices": null
     },
     {
-      "id": "tidewall",
-      "name": "Tidewall",
+      "id": "tidewall_shieldline",
+      "name": "Tidewall Shieldline",
       "points": 85,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tidewall_gunrig",
+      "name": "Tidewall Gunrig",
+      "points": 90,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "tigershark_ax_1_0",
+      "name": "Tigershark AX-1-0",
+      "points": 315,
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null,
+      "availability": "forgeworld"
+    },
+    {
+      "id": "the_twin_lance",
+      "name": "The Twin Lance",
+      "points": 160,
+      "models_per_unit": 2,
       "models_per_box": null,
       "box_price": null,
       "prices": null

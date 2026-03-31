@@ -50,7 +50,7 @@
   "tau-empire-the-twin-lance-2026": {
     "display_name": "The Twin Lance",
     "slug_short": "tau-empire-the-twin-lance",
-    "models": 4,
+    "models": 2,
     "prices": {
       "GBP": 67,
       "USD": 111,
@@ -162,7 +162,7 @@
   "kill-team-xv26-stealth-battlesuits-2026": {
     "display_name": "Kill Team: XV26 Stealth Battlesuits",
     "slug_short": "kill-team-xv26-stealth-battlesuits",
-    "models": 8,
+    "models": 5,
     "prices": {
       "GBP": 42.5,
       "USD": 69,
@@ -675,7 +675,7 @@
   "Tau-Empire-Sniper-Drone-Team": {
     "display_name": "Firesight Team",
     "slug_short": "Tau-Empire-Sniper-Drone-Team",
-    "models": 4,
+    "models": 1,
     "prices": {
       "GBP": 32.5,
       "USD": 53,

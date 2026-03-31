@@ -50,6 +50,14 @@
       "prices": null
     },
     {
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "chaos_spawn",
       "name": "Chaos Spawn",
       "points": 65,
@@ -85,6 +93,7 @@
       "id": "exalted_sorcerer",
       "name": "Exalted Sorcerer",
       "points": 80,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -93,6 +102,7 @@
       "id": "exalted_sorcerer_on_disc_of_tzeentch",
       "name": "Exalted Sorcerer on Disc of Tzeentch",
       "points": 100,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -117,6 +127,14 @@
       "id": "helbrute",
       "name": "Helbrute",
       "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "heldrake",
+      "name": "Heldrake",
+      "points": 205,
       "models_per_box": null,
       "box_price": null,
       "prices": null
