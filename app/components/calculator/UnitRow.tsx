@@ -9,12 +9,14 @@ export type UnitRowProps = {
     name: string;
     points: number;
     models_per_box: number | null;
+    models_per_unit?: number | null;
   };
   quantity: number;
   onAdd: (unitId: string) => void;
   onRemove: (unitId: string) => void;
   price: string;
   modelsPerBox: number | null;
+  modelsPerUnit: number | null;
   availability: "retail" | "legends" | "forgeworld" | undefined;
   index: number;
 };
@@ -27,10 +29,19 @@ function UnitRow({
   onRemove,
   price,
   modelsPerBox,
+  modelsPerUnit,
   availability,
   index,
 }: UnitRowProps) {
   const hasKitData = modelsPerBox != null && price !== "--";
+  const modelCountText =
+    modelsPerUnit != null && modelsPerBox != null && modelsPerUnit < modelsPerBox
+      ? `${modelsPerUnit}/${modelsPerBox}mdls`
+      : modelsPerUnit != null
+        ? `${modelsPerUnit}mdls`
+        : modelsPerBox != null
+          ? `${modelsPerBox}mdls`
+          : "--";
 
   return (
     <div
@@ -56,7 +67,7 @@ function UnitRow({
               </span>
               <span>
                 {" "}
-                • {modelsPerBox} mdls
+                • {modelCountText}
               </span>
               <span className="font-semibold tabular-nums">
                 {" "}

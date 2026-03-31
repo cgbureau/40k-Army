@@ -10,6 +10,7 @@ export type UnitTableUnit = {
   name: string;
   points: number;
   models_per_box: number | null;
+  models_per_unit?: number | null;
   box_price: number | null;
   availability?: "retail" | "legends" | "forgeworld";
   prices?: Record<string, number | null> | null;
@@ -76,6 +77,7 @@ function UnitTable({
                 onRemove={onRemove}
                 price={formatPrice(unit, currency)}
                 modelsPerBox={unit.models_per_box}
+                modelsPerUnit={unit.models_per_unit ?? null}
                 availability={unit.availability}
                 index={index}
               />
