@@ -72,6 +72,7 @@
       "id": "canoptek_reanimator",
       "name": "Canoptek Reanimator",
       "points": 75,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -144,9 +145,19 @@
       "prices": null
     },
     {
+      "id": "cconvergence_of_dominion",
+      "name": "Convergence of Dominion",
+      "points": 60, 
+      "models_per_unit": 1,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "cryptothralls",
       "name": "Cryptothralls",
       "points": 60,
+      "models_per_unit": 2,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -356,6 +367,7 @@
       "id": "plasmancer",
       "name": "Plasmancer",
       "points": 55,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -382,7 +394,8 @@
       "points": 540,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "skorpekh_destroyers",
@@ -396,6 +409,7 @@
       "id": "skorpekh_lord",
       "name": "Skorpekh Lord",
       "points": 90,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null

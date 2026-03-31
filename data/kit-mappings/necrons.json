@@ -4,14 +4,18 @@
   "c_tan_shard_of_the_nightbringer": "necrons-ctan-shard-of-the-nightbringer-2026",
   "c_tan_shard_of_the_void_dragon": "CTan-Shard-of-the-Void-Dragon-2020",
 
+
+  "canoptek_reanimator": "Necrons-Royal-Court-2021",
   "canoptek_doomstalker": "Canoptek-Doomstalker-2020",
   "canoptek_spyders": "Canoptek-Spyder-2020",
   "canoptek_wraiths": "Necron-Canoptek-Wraiths-2020",
 
+  "convergence_of_dominion": "Convergence-of-Dominion-2020",
+  "technomancer": "Necron-Cryptek-2020",
+
   "catacomb_command_barge": "Necron-Catacomb-Command-Barge-2020",
   "chronomancer": "Necrons-Chronomancer-2021",
   "deathmarks": "Necron-Deathmarks-2020",
-
   "doom_scythe": "Necron-Doom-Scythe-2020",
   "night_scythe": "Necron-Doom-Scythe-2020",
 
@@ -33,38 +37,24 @@
   "necron_warriors": "Necron-Warriors-2020",
 
   "nekrosor_ammentar": "necrons-nekrosor-ammentar-2026",
-
   "obelisk": "Necron-Obelisk",
-
   "ophydian_destroyers": "Ophydian-Destroyers-2020",
-
   "orikan_the_diviner": "necrons-orikan-the-diviner-2023",
-
   "overlord": "necrons-overlord-2023",
   "overlord_with_translocation_shroud": "necrons-overlord-and-translocation-shroud-2023",
-
   "psychomancer": "Necrons-Psychomancer-2020",
-
   "royal_warden": "necrons-royal-warden-2023",
-
   "skorpekh_destroyers": "Skorpekh-Destroyers-2020",
-
   "tesseract_vault": "NecronsTesseract-Vault",
-
   "the_silent_king": "Szarekh-The-Silent-King-2020",
-
   "tomb_blades": "Necron-Tomb-Blades-2020",
-
   "trazyn_the_infinite": "Necron-Trazyn-the-Infinite",
 
   "triarch_praetorians": "Necron-Triarch-Praetorians-2020",
   "triarch_stalker": "Triarch-Stalker-2020",
-
   "cryptothralls": "Necrons-Royal-Court-2021",
   "plasmancer": "Necrons-Royal-Court-2021",
   "skorpekh_lord": "Necrons-Royal-Court-2021",
-
     "transcendent_c_tan": "Necron-Obelisk",
-
     "seraptek_heavy_construct": "seraptek-heavy-construct-with-synaptic-obliterators-2025"
 }

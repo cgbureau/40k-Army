@@ -14,6 +14,7 @@
       "id": "aleya",
       "name": "Aleya",
       "points": 65,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -22,6 +23,14 @@
       "id": "allarus_custodians",
       "name": "Allarus Custodians",
       "points": 110,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "anathema_psykana_rhino",
+      "name": "Anathema Psykana Rhino",
+      "points": 75,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -198,6 +207,7 @@
       "id": "valerian",
       "name": "Valerian",
       "points": 110,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -206,6 +216,7 @@
       "id": "venatari_custodians",
       "name": "Venatari Custodians",
       "points": 165,
+      "models_per_unit": 3,
       "models_per_box": null,
       "box_price": null,
       "prices": null,
