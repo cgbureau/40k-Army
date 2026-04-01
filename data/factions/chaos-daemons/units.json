@@ -223,16 +223,8 @@
       "prices": null
     },
     {
-      "id": "hellflayer",
-      "name": "Hellflayer",
-      "points": 105,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "hellflayers",
-      "name": "Hellflayers",
+      "name": "Hellflayer",
       "points": 80,
       "models_per_box": null,
       "box_price": null,

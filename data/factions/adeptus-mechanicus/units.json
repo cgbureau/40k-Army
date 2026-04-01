@@ -45,6 +45,7 @@
       "id": "cybernetica_datasmith",
       "name": "Cybernetica Datasmith",
       "points": 35,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null

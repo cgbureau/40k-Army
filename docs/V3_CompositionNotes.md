@@ -8,6 +8,44 @@ Talons of the Emperor (Valerian + Aleya)
 
 ---
 
+## Adeptus Mechanicus
+
+- Cybernetica Datasmith
+  → built from Kastelan Robots kit
+  → shared kit dependency
+
+- Combat Patrol: Adeptus Mechanicus
+  → bundle box containing multiple units
+  → not currently used in pricing logic
+
+---  
+
+## Aeldari
+
+- Combat Patrol: Aeldari
+  → bundle box
+
+- Combat Patrol: Aeldari Corsairs
+  → bundle box
+
+- Eldritch Raiders Battleforce
+  → large bundle box
+
+- Fire Prism / Night Spinner / Firestorm
+  → multiple vehicle variants from same chassis kit
+
+- Wave Serpent / Falcon
+  → multiple vehicle builds from same kit
+  
+---    
+
+## Chaos Daemons
+
+- Spearhead: Blades of Khorne
+  → bundle box
+
+--- 
+
 ### 3. Telemon Dreadnought (Multi-Part Kit)
 
 Current mapping:
