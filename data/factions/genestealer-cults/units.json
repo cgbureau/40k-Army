@@ -55,7 +55,8 @@
       "points": 480,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "armageddon_pattern_medusa",
@@ -63,7 +64,8 @@
       "points": 105,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "armoured_sentinels",
@@ -95,7 +97,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "attilan_rough_riders",
@@ -241,7 +244,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "crassus",
@@ -299,7 +303,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "deathstrike",
@@ -367,7 +372,8 @@
       "points": 85,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "goliath_rockgrinder",
@@ -392,7 +398,8 @@
       "points": 115,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "hades_breaching_drill",
@@ -427,7 +434,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "hellhammer",
@@ -467,7 +475,8 @@
       "points": 165,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "jackal_alphus",
@@ -587,7 +596,8 @@
       "points": 60,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "locus",
@@ -691,7 +701,8 @@
       "points": 135,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "medusa_carriage_battery",
@@ -708,7 +719,8 @@
       "points": 225,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "mukaali_riders",
@@ -740,7 +752,8 @@
       "points": 70,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "nexos",
@@ -756,12 +769,14 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "patriarch",
       "name": "Patriarch",
       "points": 75,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -787,6 +802,7 @@
       "id": "primus",
       "name": "Primus",
       "points": 70,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -805,7 +821,8 @@
       "points": 45,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "rapier_laser_destroyer_battery",
@@ -822,7 +839,8 @@
       "points": 125,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "reductus_saboteur",
@@ -838,7 +856,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "rogal_dorn_battle_tank",
@@ -912,7 +931,8 @@
       "points": 415,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "stormlord",
@@ -936,7 +956,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "tarantula_battery",
@@ -944,7 +965,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "tauros_assault_vehicle",
@@ -952,7 +974,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "tauros_venator",
@@ -960,7 +983,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "trojan_support_vehicle",
@@ -977,7 +1001,8 @@
       "points": 140,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "valdor",
@@ -1002,7 +1027,8 @@
       "points": 170,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "winged_tyranid_prime",
@@ -1010,7 +1036,8 @@
       "points": 65,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "wyvern",

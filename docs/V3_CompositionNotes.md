@@ -102,6 +102,25 @@ Issue:
 
 ---   
 
+## Genestealer Cults
+
+- Astra Militarum integration
+  → large number of cross-faction kits included
+  → treated as valid purchasable kits (not allied)
+
+- Tyranid crossover
+  → only Genestealers included as purchasable
+  → all other Tyranid units should be marked allied
+
+- Broodcoven
+  → multi-unit kit (Patriarch + Primus + Magus)
+  → important for future bundle logic
+
+- Combat Patrol: Genestealer Cults
+  → bundle box
+
+---     
+
 ## Necrons
 
 Royal Court sprue / box composition issue:
