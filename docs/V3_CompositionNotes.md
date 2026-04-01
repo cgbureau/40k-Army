@@ -1,7 +1,28 @@
+## Adeptus Custodes 
+
+Multi-Unit Box (Shared Kit Issue)
+Talons of the Emperor (Valerian + Aleya)
+- 2 characters from 1 box
+- Currently mapped correctly to same kit
+- System charges per unit (incorrect long-term)
+
+---
+
+### 3. Telemon Dreadnought (Multi-Part Kit)
+
+Current mapping:
+- Body + 2 arms (separate kit entries)
+
+Issue:
+- Not treated as a single purchasable entity
+- User could get incorrect pricing depending on configuration
+
+---
+
 ## Necrons
 
 Royal Court sprue / box composition issue:
-- canoptek_reanimator
+- canoptek_reanima tor
 - skorpekh_lord
 - plasmancer
 - cryptothralls
@@ -14,6 +35,14 @@ Shared-sprue / de-duplicated pricing is a V3 composition problem.
 
 ---
 
+## Tau
+
+- Crisis suits
+  → variant builds from same kit
+  → currently fine, but note
+
+---
+
 ## Thousand Sons
 
 - Exalted Sorcerers
@@ -22,8 +51,18 @@ Shared-sprue / de-duplicated pricing is a V3 composition problem.
 
 ---
 
-## Tau
+## Tyranids
 
-- Crisis suits
-  → variant builds from same kit
-  → currently fine, but note
+- Horrors of the Hive
+  → multiple units from one kit (Screamer-Killer + Neurotyrant)
+  → currently mapped per unit, but shared box
+
+- Sporocyst kit (Sporocyst / Mucolid Spores / Tyrannocyte / Spore Mines)
+  → multiple units and sub-units from one kit
+  → includes variable model counts (e.g. Spore Mines)
+  → currently mapped individually, but shared box
+
+- Combat Patrol: Tyranid Assault Brood
+  → bundle box containing multiple units
+  → not currently used in pricing logic  
+

@@ -445,7 +445,7 @@
   "Sporocyst": {
     "display_name": "Sporocyst and Mucolid Spore",
     "slug_short": "Sporocyst",
-    "models": 1,
+    "models": 8,
     "prices": {
       "GBP": 49.5,
       "USD": 82,

@@ -28,12 +28,14 @@
   "the_swarmlord": "The-Swarmlord-2019",
   "toxicrene": "Toxicrene",
   "trygon": "Tyranid-Trygon",
-  "tyranid_prime_with_lash_whip": "tyranid-prime-with-lash-whip-2026",
+ 
   "tyrannofex": "Tyranid-Tyrannofex",
   "tyrant_guard": "Tyrant-Guard",
   "venomthropes": "Venomthropes",
   "von_ryan_s_leapers": "tyranids-von-ryans-leapers-2023",
   "zoanthropes": "Zoanthropes",
+
+  "neurotyrant": "tyranids-horrors-of-the-hive-2023",
 
   "carnifexes": "Carnifex-Brood",
   "old_one_eye": "Old-One-Eyes-Carnifex-Brood-2017",
@@ -50,6 +52,10 @@
     "raveners": "kill-team-raveners-2025",
   "hyperadapted_raveners": "kill-team-raveners-2025",
 
-    "winged_tyranid_prime": "tyranids-prime-2023"
+    "winged_tyranid_prime": "tyranids-prime-2023",
+    "tyranid_prime_with_lash_whip": "tyranid-prime-with-lash-whip-2026",
+
+    "spore_mines": "Sporocyst and Mucolid Spore",
+    "tyrannocyte": "Sporocyst and Mucolid Spore"
 
 }
