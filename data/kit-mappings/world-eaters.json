@@ -18,9 +18,6 @@
   
   "chaos_terminators": "Chaos-Space-Marine-Terminators-2019",
   "maulerfiend": "Chaos-Space-Marine-Maulerfiend-2019",
-  "chaos_land_raider": "Chaos-Space-Marines-Land-Raider",
-  "chaos_predator_annihilator": "Chaos-Space-Marines-Predator",
-  "chaos_predator_destructor": "Chaos-Space-Marines-Predator",
   
   "helbrute": "Helbrute",
   "forgefiend": "Chaos-Space-Marines-Forgefiend-2019",
@@ -36,9 +33,10 @@
   "chaos_land_raider": "Chaos-Space-Marines-Land-Raider",
   "chaos_predator_annihilator": "Chaos-Space-Marines-Predator",
   "chaos_predator_destructor": "Chaos-Space-Marines-Predator",
+  "chaos_rhino": "Chaos-Space-Marine-Rhino-2019",
 
   "heldrake": "Chaos-Space-Marines-Heldrake-2019",
-  "kh_rn_the_betrayer": "world-eaters-kharn-the-betrayer-2023",
+  
 
   
   "khorne_lord_of_skulls": "Chaos-Space-Marines-Khorne-Lord-of-Skulls",

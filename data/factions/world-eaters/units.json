@@ -67,6 +67,14 @@
       "prices": null
     },
     {
+      "id": "chaos_rhino",
+      "name": "Chaos Rhino",
+      "points": 90,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "chaos_spawn",
       "name": "Chaos Spawn",
       "points": 90,
@@ -172,7 +180,7 @@
       "prices": null
     },
     {
-      "id": "kh_rn_the_betrayer",
+      "id": "kharn_the_betrayer",
       "name": "Khârn The Betrayer",
       "points": 100,
       "models_per_box": null,
