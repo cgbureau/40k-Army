@@ -158,10 +158,33 @@ Issue:
 
 ---   
 
+## Leagues of Votann
+
+- Ironkin Steeljacks (weapon variants)
+  → multiple unit builds from same kit
+
+- Combat Patrol: Leagues of Votann
+  → bundle box
+
+- Maelstrom Battalion
+  → bundle box
+
+---   
+
+## Orks
+
+- Mek Gunz variants
+  → multiple weapon builds from same kit
+
+- Combat Patrol: Orks
+  → bundle box
+
+--- 
+
 ## Necrons
 
 Royal Court sprue / box composition issue:
-- canoptek_reanima tor
+- canoptek_reanimator
 - skorpekh_lord
 - plasmancer
 - cryptothralls

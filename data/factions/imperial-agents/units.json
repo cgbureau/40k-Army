@@ -86,14 +86,6 @@
       "prices": null
     },
     {
-      "id": "fortis_kill_team",
-      "name": "Fortis Kill Team",
-      "points": 0,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
       "id": "grey_knights_terminator_squad",
       "name": "Grey Knights Terminator Squad",
       "points": 0,
@@ -105,14 +97,6 @@
       "id": "imperial_navy_breachers",
       "name": "Imperial Navy Breachers",
       "points": 90,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "indomitor_kill_team",
-      "name": "Indomitor Kill Team",
-      "points": 0,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -271,14 +255,6 @@
     {
       "id": "sisters_of_battle_squad",
       "name": "Sisters of Battle Squad",
-      "points": 0,
-      "models_per_box": null,
-      "box_price": null,
-      "prices": null
-    },
-    {
-      "id": "spectrus_kill_team",
-      "name": "Spectrus Kill Team",
       "points": 0,
       "models_per_box": null,
       "box_price": null,

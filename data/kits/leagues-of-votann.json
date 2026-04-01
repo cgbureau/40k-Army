@@ -66,7 +66,7 @@
   "lov-brokhyr-iron-master-2022": {
     "display_name": "Brôkhyr Iron-master",
     "slug_short": "lov-brokhyr-iron-master",
-    "models": 1,
+    "models": 5,
     "prices": {
       "GBP": 35.5,
       "USD": 60,

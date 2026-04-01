@@ -48,7 +48,8 @@
       "points": 20,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "big_mek",
@@ -72,7 +73,8 @@
       "points": 105,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "big_mek_with_kustom_force_field",
@@ -80,7 +82,8 @@
       "points": 55,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "big_mek_with_shokk_attack_gun",
@@ -108,6 +111,14 @@
       "prices": null
     },
     {
+      "id": "bonebreaka",
+      "name": "Bonebreaka",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "boomdakka_snazzwagon",
       "name": "Boomdakka Snazzwagon",
       "points": 70,
@@ -129,7 +140,8 @@
       "points": 90,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "boyz",
@@ -235,7 +247,8 @@
       "points": 130,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "fighta_bommer",
@@ -314,6 +327,14 @@
       "availability": "forgeworld"
     },
     {
+      "id": "gunwagon",
+      "name": "Gunwagon",
+      "points": 160,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "hunta_rig",
       "name": "Hunta Rig",
       "points": 135,
@@ -335,7 +356,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "kill_krusha",
@@ -409,7 +431,8 @@
       "points": 65,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "mega_dread",
@@ -591,6 +614,14 @@
       "prices": null
     },
     {
+      "id": "ork_trukk",
+      "name": "Ork Trukk",
+      "points": 70,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
       "id": "ufthak_blackhawk",
       "name": "Ufthak Blackhawk",
       "points": 70,
@@ -628,7 +659,8 @@
       "points": 75,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "warbuggies",
