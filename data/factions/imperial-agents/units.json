@@ -57,7 +57,8 @@
       "points": 100,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "deathwatch_terminator_squad",
@@ -65,7 +66,8 @@
       "points": 210,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "eversor_assassin",
@@ -305,7 +307,8 @@
       "points": 70,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "vigilant_squad",

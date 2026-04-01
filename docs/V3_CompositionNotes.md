@@ -121,6 +121,43 @@ Issue:
 
 ---     
 
+## Grey Knights
+
+*Seems like these have been treated as a CHAPTER
+
+- Land Raider / Storm vehicles
+  → shared Space Marine kits
+  → require allied tagging
+
+- Dreadnought
+  → no dedicated GK kit
+  → treated as allied (Space Marine source)
+
+- Servitors
+  → no direct kit
+  → treated as allied
+
+- Combat Patrol: Grey Knights
+  → bundle box
+
+---  
+
+## Imperial Agents
+
+- Rogue Trader Entourage
+  → multiple units from one kit
+
+- Exaction Squad variants (Exaction / Subductor / Vigilant)
+  → multiple units from one kit
+
+- Inquisitorial Agents / Aquila Kill Team
+  → multiple units from one kit
+
+- Combat Patrol: Imperial Agents
+  → bundle box
+
+---   
+
 ## Necrons
 
 Royal Court sprue / box composition issue:

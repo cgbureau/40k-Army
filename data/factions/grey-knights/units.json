@@ -95,7 +95,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "grey_knights_thunderhawk_gunship",
@@ -128,7 +129,8 @@
       "points": 220,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "land_raider_crusader",
@@ -136,7 +138,8 @@
       "points": 220,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "land_raider_redeemer",
@@ -144,7 +147,8 @@
       "points": 270,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "nemesis_dreadknight",
@@ -184,7 +188,8 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null, 
+      "availability": "allied"
     },
     {
       "id": "stormhawk_interceptor",
@@ -192,7 +197,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null, 
+      "availability": "allied"
     },
     {
       "id": "stormraven_gunship",
@@ -200,7 +206,8 @@
       "points": 280,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null, 
+      "availability": "allied"
     },
     {
       "id": "stormtalon_gunship",
@@ -208,7 +215,8 @@
       "points": 170,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "strike_squad",
@@ -224,7 +232,8 @@
       "points": 140,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     }
   ]
 }
