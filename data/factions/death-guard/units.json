@@ -79,7 +79,8 @@
       "points": 65,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "death_guard_chaos_lord_in_terminator_armour",
@@ -87,7 +88,8 @@
       "points": 85,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "death_guard_sorcerer_in_terminator_armour",
@@ -95,7 +97,8 @@
       "points": 70,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "allied"
     },
     {
       "id": "deathshroud_terminators",
@@ -144,7 +147,7 @@
       "models_per_box": null,
       "box_price": null,
       "prices": null,
-      "availability": "forgeworld"
+      "availability": "legends"
     },
     {
       "id": "helbrute",
@@ -166,6 +169,7 @@
       "id": "lord_of_contagion",
       "name": "Lord of Contagion",
       "points": 120,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -174,6 +178,7 @@
       "id": "lord_of_poxes",
       "name": "Lord of Poxes",
       "points": 75,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -182,6 +187,7 @@
       "id": "lord_of_virulence",
       "name": "Lord of Virulence",
       "points": 100,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -190,6 +196,7 @@
       "id": "malignant_plaguecaster",
       "name": "Malignant Plaguecaster",
       "points": 60,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -214,6 +221,7 @@
       "id": "noxious_blightbringer",
       "name": "Noxious Blightbringer",
       "points": 50,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null

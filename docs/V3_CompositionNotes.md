@@ -82,6 +82,26 @@ Issue:
 
 ---  
 
+## Death Guard
+
+- Chosen of Mortarion
+  → multiple units from one kit
+
+- Lord Felthius / Tainted Cohort
+  → character + terminators from one kit
+
+- Foetid Bloat Drone
+  → variant builds from same kit
+
+---   
+
+## Drukhari
+
+- Combat Patrol: Drukhari
+  → bundle box
+
+---   
+
 ## Necrons
 
 Royal Court sprue / box composition issue:

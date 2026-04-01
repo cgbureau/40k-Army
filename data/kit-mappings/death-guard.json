@@ -16,10 +16,13 @@
 "lord_of_contagion": "Lord-Felthius-And-The-Tainted-Cohort-2021",
 "lord_of_poxes": "death-guard-lord-of-poxes-2025",
 "lord_of_virulence": "Death-Guard-Lord-of-Virulence-2020",
-"malignant_plaguecaster": "Death-Guard-Chosen-Of-Mortarion-2020",
+
 "mortarion": "Death-Guard-Daemon-Primarch-Mortarion-2020",
+
+"malignant_plaguecaster": "Death-Guard-Chosen-Of-Mortarion-2020",
 "myphitic_blight_hauler": "Etb-Death-Guard-Myphitic-Blight-hauler-2020",
 "noxious_blightbringer": "Death-Guard-Chosen-Of-Mortarion-2020",
+
 "nurglings": "Nurglings-2017",
 "plague_drones": "plague-drones-of-nurgle-2017",
 "plague_marines": "Death-Guard-Plague-Marines-2020",
@@ -34,12 +37,8 @@
 "chaos_predator_annihilator": "Chaos-Space-Marines-Predator",
 "chaos_predator_destructor": "Chaos-Space-Marines-Predator",
 
-"foetid_bloat_drone": "Death-Guard-Foetid-Bloat-drone-2020",
-"foetid_bloat_drone_with_heavy_blight_launcher": "Death-Guard-Foetid-Bloat-drone-2020",
 
-"daemon_prince_of_nurgle": "slaves-to-darkness-daemon-prince-2023",
-"daemon_prince_of_nurgle_with_wings": "slaves-to-darkness-daemon-prince-2023",
+"foetid_bloat_drone_with_heavy_blight_launcher": "Death-Guard-Foetid-Bloat-drone-2020"
 
-"lord_of_contagion": "Lord-Felthius-And-The-Tainted-Cohort-2021"
 
 }
