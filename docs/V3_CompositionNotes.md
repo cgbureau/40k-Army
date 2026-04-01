@@ -6,6 +6,16 @@ Talons of the Emperor (Valerian + Aleya)
 - Currently mapped correctly to same kit
 - System charges per unit (incorrect long-term)
 
+3. Telemon Dreadnought (Multi-Part Kit)
+
+Current mapping:
+- Body + 2 arms (separate kit entries)
+
+Issue:
+- Not treated as a single purchasable entity
+- User could get incorrect pricing depending on configuration
+
+
 ---
 
 ## Adeptus Mechanicus
@@ -46,16 +56,31 @@ Talons of the Emperor (Valerian + Aleya)
 
 --- 
 
-### 3. Telemon Dreadnought (Multi-Part Kit)
+## Chaos Knights
 
-Current mapping:
-- Body + 2 arms (separate kit entries)
+- Questoris Knights (Abominant / Desecrator / Rampager / Despoiler)
+  → multiple unit builds from same kit
 
-Issue:
-- Not treated as a single purchasable entity
-- User could get incorrect pricing depending on configuration
+- War Dog variants (Brigand / Karnivore / Stalker / Huntsman / Executioner)
+  → multiple unit builds from same kit
+
+- Knight Moirax
+  → multiple weapon loadouts from same base kit (FW)
 
 ---
+
+## Chaos Space Marines
+
+- Warpforged (Venomcrawler + Obliterators)
+  → multiple units from same kit
+
+- Red Corsairs Battleforce
+  → bundle box
+
+- Combat Patrol variants
+  → bundle boxes
+
+---  
 
 ## Necrons
 

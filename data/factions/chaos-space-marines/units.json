@@ -595,6 +595,7 @@
       "id": "obliterators",
       "name": "Obliterators",
       "points": 160,
+      "models_per_unit": 2,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -819,6 +820,7 @@
       "id": "traitor_enforcer",
       "name": "Traitor Enforcer",
       "points": 55,
+      "models_per_unit": 2,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -852,6 +854,7 @@
       "id": "venomcrawler",
       "name": "Venomcrawler",
       "points": 110,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null

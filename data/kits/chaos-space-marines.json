@@ -209,7 +209,7 @@
   "chaos-space-marines-traitor-enforcer-2025": {
     "display_name": "Traitor Enforcer",
     "slug_short": "chaos-space-marines-traitor-enforcer",
-    "models": 1,
+    "models": 2,
     "prices": {
       "GBP": 34,
       "USD": 55.5,
