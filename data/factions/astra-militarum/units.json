@@ -7,7 +7,8 @@
       "points": 55,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "aquila_lander",
@@ -15,7 +16,8 @@
       "points": 120,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "arkurian_stormhammer",
@@ -23,7 +25,8 @@
       "points": 480,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "armageddon_pattern_medusa",
@@ -31,7 +34,8 @@
       "points": 105,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "armoured_sentinels",
@@ -55,7 +59,8 @@
       "points": 95,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "atlas_recovery_vehicle",
@@ -63,7 +68,8 @@
       "points": 80,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "attilan_rough_riders",

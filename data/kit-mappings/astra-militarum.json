@@ -18,6 +18,13 @@
 "stormsword": "astra-militarum-stormsword-2023",
 
 "leman_russ_battle_tank": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_commander": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_demolisher": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_eradicator": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_executioner": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_exterminator": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_punisher": "astra-militarum-leman-russ-battle-tank-2023",
+"leman_russ_vanquisher": "astra-militarum-leman-russ-battle-tank-2023",
 
 "rogal_dorn_battle_tank": "astra-militarum-rogal-dorn-battle-tank-2023",
 
@@ -72,5 +79,8 @@
 "taurox_prime": "Taurox-Prime",
 
 "ministorum_priest": "adepta-sororitas-ministorum-priest-2024",
-"gaunt_s_ghosts": "Astra-Militarum-Gaunts-Ghosts-2021"
+"gaunt_s_ghosts": "Astra-Militarum-Gaunts-Ghosts-2021",
+
+"artillery_team": "astra-militarum-krieg-artillery-team-2025",
+"attilan_rough_riders": "astra-militarum-attilan-rough-riders-2023"
 }
