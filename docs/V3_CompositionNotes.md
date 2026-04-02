@@ -49,6 +49,19 @@ Issue:
   
 ---    
 
+## Astra Militarum
+
+
+- Combat Patrol
+  → bundle kit
+  → ignore for now, note for V3
+
+- Kill Teams (Kasrkin, Ratlings, Aquilons)
+  → standalone kits but alt game system
+  → currently fine, but note
+
+---     
+
 ## Chaos Daemons
 
 - Spearhead: Blades of Khorne

@@ -1,32 +1,76 @@
 {
-  "armoured_sentinel": "armoured-sentinel",
-  "baneblade": "baneblade",
-  "basilisk": "basilisk",
-  "battle_tank": "leman-russ",
-  "cadian_shock_troops": "cadian-shock-troops",
-  "castellan": "castellan",
-  "catachan_jungle_fighters": "catachan-jungle-fighters",
-  "commissar": "commissar",
-  "death_korps_of_krieg": "death-korps-of-krieg",
-  "demolisher": "leman-russ",
-  "field_ordnance_battery": "field-ordnance-battery",
-  "hellhound": "hellhound",
-  "hydra": "hydra",
-  "infantry_squad": "cadian-shock-troops",
-  "lord_solar_leontus": "lord-solar-leontus",
-  "manticore": "manticore",
-  "medusa": "medusa",
-  "mortar_team": "heavy-weapons-squad",
-  "ogryn": "ogryn",
-  "ratling": "ratlings",
-  "ratlings": "ratlings",
-  "rogue_trader": "rogue-trader",
-  "rough_riders": "rough-riders",
-  "scout_sentinel": "scout-sentinel",
-  "sergeant_harker": "sergeant-harker",
-  "sergeant_hatt": "sergeant-harker",
-  "tank_commander": "leman-russ",
-  "tempestus_scions": "tempestus-scions",
-  "valkyrie": "valkyrie",
-  "wyvern": "wyvern"
+"manticore": "Astra-Militarum-Manticore",
+"basilisk": "Imperial-Guard-Basilisk",
+"chimera": "Imperial-Guard-Chimera",
+"hellhound": "Imperial-Guard-Hellhound",
+"hydra": "Astra-Militarum-Hydra",
+"wyvern": "Astra-Militarum-Wyvern",
+"deathstrike": "Imperial-Guard-Deathstrike",
+"valkyrie": "Imperial-Guard-Valkyrie",
+
+"baneblade": "astra-militarum-baneblade-2023",
+"banehammer": "astra-militarum-banehammer-2023",
+"banesword": "astra-militarum-banesword-2023",
+"doomhammer": "astra-militarum-doomhammer-2023",
+"hellhammer": "astra-militarum-hellhammer-2023",
+"shadowsword": "astra-militarum-shadowsword-2023",
+"stormlord": "astra-militarum-stormlord-2023",
+"stormsword": "astra-militarum-stormsword-2023",
+
+"leman_russ_battle_tank": "astra-militarum-leman-russ-battle-tank-2023",
+
+"rogal_dorn_battle_tank": "astra-militarum-rogal-dorn-battle-tank-2023",
+
+"armoured_sentinels": "astra-militarum-armoured-sentinel-2023",
+"scout_sentinels": "astra-militarum-scout-sentinel-2023",
+
+"cadian_castellan": "astra-militarum-cadian-castellan-2023",
+"commissar": "astra-militarum-commissar-2023",
+"primaris_psyker": "astra-militarum-primaris-psyker-2023",
+"lord_solar_leontus": "astra-militarum-lord-solar-leontus-2023",
+"ursula_creed": "astra-militarum-lord-castellan-ursula-creed-2023",
+
+"cadian_command_squad": "astra-militarum-cadian-command-squad-2023",
+"cadian_shock_troops": "astra-militarum-cadian-shock-troops-2023",
+"cadian_heavy_weapons_squad": "astra-militarum-cadian-heavy-weapons-squad-2023",
+
+"field_ordnance_battery": "astra-militarum-field-ordnance-battery-2023",
+
+"death_korps_of_krieg": "astra-militarum-death-korps-of-krieg-2025",
+"krieg_command_squad": "astra-militarum-krieg-command-squad-2025",
+"krieg_heavy_weapons_squad": "astra-militarum-krieg-heavy-weapons-squad-2025",
+"krieg_combat_engineers": "astra-militarum-krieg-combat-engineers-2025",
+"death_riders": "astra-militarum-death-riders-2025",
+"lord_marshal_dreir": "astra-militarum-krieg-lord-marshal-dreir-2025",
+
+"tempestus_scions": "Militarum-Tempestus-Scions-2017",
+"militarum_tempestus_command_squad": "Militarum-Tempestus-Scions-Command-Squad-2017",
+
+"ogryn_squad": "Militarum-Auxilla-Ogryns",
+"bullgryn_squad": "Militarum-Auxilla-Bullgryns",
+"nork_deddog": "Militarum-Auxilla-Nork-Deddog",
+
+"catachan_jungle_fighters": "Imperial-Guard-Catachan-Jungle-Fighters",
+"catachan_command_squad": "Imperial-Guard-Catachan-Command-Squad",
+"catachan_heavy_weapons_squad": "Imperial-Guard-Catachan-Heavy-Weapon-Squad",
+
+"ratlings": "kill-team-ratlings-2025",
+"kasrkin": "kill-team-kasrkin-2024",
+"tempestus_aquilons": "kill-team-tempestus-aquilons-2024",
+
+"tech_priest_enginseer": "Astra-Militarum-Tech-Priest-Enginseer",
+
+"sly_marbo": "astra-militarum-sly-marbo-2018",
+
+"cyclops_demolition_vehicle": "Cyclops-Demolition-Vehicle",
+
+"avenger_strike_fighter": "Imperial-Navy-Avenger-Strike-Fighter",
+"marauder_bomber": "Imperial-Navy-Marauder-Bomber",
+"marauder_destroyer": "Imperial-Navy-Marauder-Destroyer",
+
+"taurox": "Taurox",
+"taurox_prime": "Taurox-Prime",
+
+"ministorum_priest": "adepta-sororitas-ministorum-priest-2024",
+"gaunt_s_ghosts": "Astra-Militarum-Gaunts-Ghosts-2021"
 }

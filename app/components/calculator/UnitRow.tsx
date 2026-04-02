@@ -33,7 +33,9 @@ function UnitRow({
   availability,
   index,
 }: UnitRowProps) {
-  const hasKitData = modelsPerBox != null && price !== "--";
+  const hasKitData =
+    price !== "--" &&
+    (modelsPerBox != null || availability === "retail");
   const modelCountText =
     modelsPerUnit != null && modelsPerBox != null && modelsPerUnit < modelsPerBox
       ? `${modelsPerUnit}/${modelsPerBox}mdls`

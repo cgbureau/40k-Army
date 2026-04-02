@@ -79,7 +79,8 @@
       "points": 130,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "baneblade",
@@ -215,7 +216,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "cyclops_demolition_vehicle",
@@ -223,7 +225,8 @@
       "points": 25,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "death_korps_grenadier_squad",
@@ -327,7 +330,8 @@
       "points": 275,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "griffon_mortar_carrier",
@@ -343,7 +347,8 @@
       "points": 110,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "heavy_mortar_team",
@@ -511,7 +516,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "macharius_omega",
@@ -519,7 +525,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "macharius_vanquisher",
@@ -527,7 +534,8 @@
       "points": 285,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "macharius_vulcan",
@@ -535,7 +543,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "malcador",
@@ -543,7 +552,8 @@
       "points": 250,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "malcador_annihilator",
@@ -551,7 +561,8 @@
       "points": 270,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "malcador_defender",
@@ -559,7 +570,8 @@
       "points": 310,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "malcador_infernus",
@@ -567,7 +579,8 @@
       "points": 235,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "manticore",
@@ -583,7 +596,8 @@
       "points": 345,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "marauder_destroyer",
@@ -591,7 +605,8 @@
       "points": 375,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "medusa_carriage_battery",
@@ -703,7 +718,8 @@
       "points": 35,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "ratlings",
@@ -807,7 +823,8 @@
       "points": 415,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "stormlord",
@@ -839,7 +856,8 @@
       "points": 40,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "tauros_assault_vehicle",
@@ -847,12 +865,30 @@
       "points": 50,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "tauros_venator",
       "name": "Tauros Venator",
       "points": 50,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null,
+      "availability": "legends"
+    },
+    {
+      "id": "taurox",
+      "name": "Taurox",
+      "points": 75,
+      "models_per_box": null,
+      "box_price": null,
+      "prices": null
+    },
+    {
+      "id": "taurox_prime",
+      "name": "Taurox Prime",
+      "points": 90,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -919,7 +955,8 @@
       "points": 185,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "vendetta_gunship",
@@ -927,7 +964,8 @@
       "points": 255,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "voss_pattern_lightning",
@@ -943,7 +981,8 @@
       "points": 225,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "wyvern",

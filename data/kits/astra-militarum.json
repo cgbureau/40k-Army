@@ -1,252 +1,994 @@
 {
-  "cadian-shock-troops": {
-    "models": 10,
+  "combat-patrol-astra-militarum-2025": {
+    "display_name": "Combat Patrol: Astra Militarum",
+    "slug_short": "combat-patrol-astra-militarum",
+    "models": 25,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
+      "USD": 170.0,
+      "GBP": 105.0,
+      "AUD": 285.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105124_AstraMilitarumCombatPatrol1.jpg",
+    "year": 2025
   },
-  "catachan-jungle-fighters": {
-    "models": 10,
+  "astra-militarum-cadian-castellan-2023": {
+    "display_name": "Cadian Castellan",
+    "slug_short": "astra-militarum-cadian-castellan",
+    "models": null,
     "prices": {
-      "GBP": 31.5,
-      "USD": 52,
-      "EUR": 41,
-      "AUD": 86,
-      "CAD": 63
-    }
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 68.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105100_CadianCastellan1.jpg",
+    "year": 2023
   },
-  "death-korps-of-krieg": {
-    "models": 10,
+  "astra-militarum-commissar-2023": {
+    "display_name": "Commissar",
+    "slug_short": "astra-militarum-commissar",
+    "models": null,
     "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 68.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105099_AMCommissar1.jpg",
+    "year": 2023
   },
-  "tempestus-scions": {
-    "models": 5,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "commissar": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "castellan": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "lord-solar-leontus": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "rogue-trader": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "sergeant-harker": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "heavy-weapons-squad": {
-    "models": 3,
-    "prices": {
-      "GBP": 28,
-      "USD": 45,
-      "EUR": 35,
-      "AUD": 77,
-      "CAD": 55
-    }
-  },
-  "ogryn": {
-    "models": 3,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "ratlings": {
-    "models": 5,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "rough-riders": {
-    "models": 5,
-    "prices": {
-      "GBP": 35,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "field-ordnance-battery": {
+  "astra-militarum-field-ordnance-battery-2023": {
+    "display_name": "Field Ordnance Battery",
+    "slug_short": "astra-militarum-field-ordnance-battery",
     "models": 2,
     "prices": {
+      "USD": 60.0,
+      "GBP": 35.5,
+      "AUD": 98.0,
+      "CAD": 70.0,
+      "EUR": 45.0,
+      "PLN": 195.0,
+      "CHF": 45.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105104_AMFieldOrdnanceBattery01.jpg",
+    "year": 2023
+  },
+  "astra-militarum-cadian-command-squad-2023": {
+    "display_name": "Cadian Command Squad",
+    "slug_short": "astra-militarum-cadian-command-squad",
+    "models": 5,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010105001_EngAMCoreGame02.jpg",
+    "year": 2023
+  },
+  "astra-militarum-cadian-shock-troops-2023": {
+    "display_name": "Cadian Shock Troops",
+    "slug_short": "astra-militarum-cadian-shock-troops",
+    "models": 10,
+    "prices": {
+      "USD": 53.0,
+      "GBP": 32.5,
+      "AUD": 90.0,
+      "CAD": 64.0,
+      "EUR": 42.0,
+      "PLN": 175.0,
+      "CHF": 42.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60020105008_CadianShockTroopsLead.jpg",
+    "year": 2023
+  },
+  "astra-militarum-lord-castellan-ursula-creed-2023": {
+    "display_name": "Lord Castellan Ursula Creed",
+    "slug_short": "astra-militarum-lord-castellan-ursula-creed",
+    "models": null,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105096_AMLordCastellanUrsulaCreed01.jpg",
+    "year": 2023
+  },
+  "astra-militarum-primaris-psyker-2023": {
+    "display_name": "Primaris Psyker",
+    "slug_short": "astra-militarum-primaris-psyker",
+    "models": null,
+    "prices": {
+      "USD": 35.0,
+      "GBP": 21.5,
+      "AUD": 57.0,
+      "CAD": 42.5,
+      "EUR": 27.5,
+      "PLN": 121.0,
+      "CHF": 27.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070105003_AMPrimarisPsyker01.jpg",
+    "year": 2023
+  },
+  "Astra-Militarum-Gaunts-Ghosts-2021": {
+    "display_name": "Gaunt's Ghosts",
+    "slug_short": "Astra-Militarum-Gaunts-Ghosts",
+    "models": 6,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "AUD": 133.0,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105087_GauntsGhostsLead.jpg",
+    "year": 2021
+  },
+  "Militarum-Tempestus-Scions-Command-Squad-2017": {
+    "display_name": "Militarum Tempestus Scions Command Squad",
+    "slug_short": "Militarum-Tempestus-Scions-Command-Squad",
+    "models": 5,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105055_TempestusScionsCommand01.jpg",
+    "year": 2017
+  },
+  "Militarum-Tempestus-Scions-2017": {
+    "display_name": "Tempestus Scions",
+    "slug_short": "Militarum-Tempestus-Scions",
+    "models": 5,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 60.0,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105055_TempestusScions01.jpg",
+    "year": 2017
+  },
+  "Astra-Militarum-Tech-Priest-Enginseer": {
+    "display_name": "Tech-Priest Enginseer",
+    "slug_short": "Astra-Militarum-Tech-Priest-Enginseer",
+    "models": null,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070105002_TechpriestEnginseer01.jpg",
+    "year": null
+  },
+  "Militarum-Auxilla-Nork-Deddog": {
+    "display_name": "Nork Deddog",
+    "slug_short": "Militarum-Auxilla-Nork-Deddog",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105077_AMBullgrynNorkDeddog01.jpg",
+    "year": null
+  },
+  "Militarum-Auxilla-Ogryns": {
+    "display_name": "Ogryns",
+    "slug_short": "Militarum-Auxilla-Ogryns",
+    "models": 3,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 80.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105117_AMBullgryns2.jpg",
+    "year": null
+  },
+  "Militarum-Auxilla-Bullgryns": {
+    "display_name": "Bullgryns",
+    "slug_short": "Militarum-Auxilla-Bullgryns",
+    "models": 3,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105117_AMBullgryns1.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Catachan-Jungle-Fighters": {
+    "display_name": "Catachan Jungle Fighters",
+    "slug_short": "Imperial-Guard-Catachan-Jungle-Fighters",
+    "models": 10,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 59.0,
+      "CAD": 50.0,
+      "PLN": 140.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105040_AstraMilitarumCatachanJungleFightersUPDATE1.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Catachan-Heavy-Weapon-Squad": {
+    "display_name": "Catachan Heavy Weapons Squad",
+    "slug_short": "Imperial-Guard-Catachan-Heavy-Weapon-Squad",
+    "models": 3,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.0,
+      "CAD": 57.0,
+      "PLN": 160.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105014_CatachanHeavyWeaponsNEW01.jpg",
+    "year": null
+  },
+  "kill-team-ratlings-2025": {
+    "display_name": "Kill Team: Ratlings",
+    "slug_short": "kill-team-ratlings",
+    "models": 11,
+    "prices": {
+      "USD": 69.0,
       "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105132_ENGKTBrutalCunning2.jpg",
+    "year": 2025
   },
-  "armoured-sentinel": {
-    "models": 1,
+  "astra-militarum-krieg-artillery-team-2025": {
+    "display_name": "Artillery Team",
+    "slug_short": "astra-militarum-krieg-artillery-team",
+    "models": null,
     "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105126_AstraMilitarumKriegArtilleryTeam1.jpg",
+    "year": 2025
+  },
+  "astra-militarum-krieg-heavy-weapons-squad-2025": {
+    "display_name": "Krieg Heavy Weapons Squad",
+    "slug_short": "astra-militarum-krieg-heavy-weapons-squad",
+    "models": 4,
+    "prices": {
+      "USD": 53.0,
+      "GBP": 32.5,
+      "AUD": 90.0,
+      "CAD": 64.0,
+      "EUR": 42.0,
+      "PLN": 175.0,
+      "CHF": 42.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105130_AstraMilitarumKriegHeavyWeaponsSquad1.jpg",
+    "year": 2025
+  },
+  "astra-militarum-krieg-combat-engineers-2025": {
+    "display_name": "Krieg Combat Engineers",
+    "slug_short": "astra-militarum-krieg-combat-engineers",
+    "models": 6,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105129_AstraMilitarumKriegCombatEngineersSquad1.jpg",
+    "year": 2025
+  },
+  "astra-militarum-death-korps-of-krieg-2025": {
+    "display_name": "Death Korps of Krieg",
+    "slug_short": "astra-militarum-death-korps-of-krieg",
+    "models": 10,
+    "prices": {
+      "USD": 53.0,
+      "GBP": 32.5,
+      "AUD": 90.0,
+      "CAD": 64.0,
+      "EUR": 42.0,
+      "PLN": 175.0,
+      "CHF": 42.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105135_AstraMilitarumDeathKorpsKriegInfantrySquad1.jpg",
+    "year": 2025
+  },
+  "astra-militarum-krieg-command-squad-2025": {
+    "display_name": "Krieg Command Squad",
+    "slug_short": "astra-militarum-krieg-command-squad",
+    "models": 7,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105127_AstraMilitarumKriegCommandSquad1.jpg",
+    "year": 2025
+  },
+  "kill-team-tempestus-aquilons-2024": {
+    "display_name": "Kill Team: Tempestus Aquilons",
+    "slug_short": "kill-team-tempestus-aquilons",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
       "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105123_KTTempestusAquilons2.jpg",
+    "year": 2024
   },
-  "scout-sentinel": {
-    "models": 1,
+  "adepta-sororitas-ministorum-priest-2024": {
+    "display_name": "Ministorum Priest",
+    "slug_short": "adepta-sororitas-ministorum-priest",
+    "models": null,
     "prices": {
+      "USD": 35.0,
+      "GBP": 23.0,
+      "AUD": 60.0,
+      "CAD": 45.0,
+      "EUR": 29.5,
+      "PLN": 125.0,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108011_ASMinistorumPriest01.jpg",
+    "year": 2024
+  },
+  "warhammer-plus-astra-militarum-unbroken-year3-2023": {
+    "display_name": "Warhammer+ Year 3: Astra Militarum – Unbroken",
+    "slug_short": "warhammer-plus-astra-militarum-unbroken-year3",
+    "models": null,
+    "prices": {
+      "USD": 42.0,
+      "GBP": 26.0,
+      "AUD": 74.0,
+      "CAD": 52.5,
+      "EUR": 34.0,
+      "PLN": 150.0,
+      "CHF": 34.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105120_Unbroken1.jpg",
+    "year": 2023
+  },
+  "Astra-Militarum-Manticore": {
+    "display_name": "Manticore",
+    "slug_short": "Astra-Militarum-Manticore",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
       "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "AUD": 104.0,
+      "CAD": 85.0,
+      "PLN": 235.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105049_ManticoreNEW01.jpg",
+    "year": null
   },
-  "leman-russ": {
+  "Imperial-Guard-Basilisk": {
+    "display_name": "Basilisk",
+    "slug_short": "Imperial-Guard-Basilisk",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 104.0,
+      "CAD": 85.0,
+      "PLN": 235.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105047_BasiliskNEW01.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Chimera": {
+    "display_name": "Chimera",
+    "slug_short": "Imperial-Guard-Chimera",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 84.0,
+      "CAD": 80.0,
+      "PLN": 220.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105114_AMChimera1.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Hellhound": {
+    "display_name": "Hellhound",
+    "slug_short": "Imperial-Guard-Hellhound",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 104.0,
+      "CAD": 80.0,
+      "PLN": 220.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105044_HellhoundNEW01.jpg",
+    "year": null
+  },
+  "astra-militarum-attilan-rough-riders-2023": {
+    "display_name": "Attilan Rough Riders",
+    "slug_short": "astra-militarum-attilan-rough-riders",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105092_AMAttilanRoughRidersUpdate2.jpg",
+    "year": 2023
+  },
+  "astra-militarum-armoured-sentinel-2023": {
+    "display_name": "Armoured Sentinel",
+    "slug_short": "astra-militarum-armoured-sentinel",
+    "models": null,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105103_AMSentinel01.jpg",
+    "year": 2023
+  },
+  "astra-militarum-stormsword-2023": {
+    "display_name": "Stormsword",
+    "slug_short": "astra-militarum-stormsword",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadStormsword.jpg",
+    "year": 2023
+  },
+  "astra-militarum-stormlord-2023": {
+    "display_name": "Stormlord",
+    "slug_short": "astra-militarum-stormlord",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadStormlord.jpg",
+    "year": 2023
+  },
+  "astra-militarum-shadowsword-2023": {
+    "display_name": "Shadowsword",
+    "slug_short": "astra-militarum-shadowsword",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadShadowsword.jpg",
+    "year": 2023
+  },
+  "astra-militarum-hellhammer-2023": {
+    "display_name": "Hellhammer",
+    "slug_short": "astra-militarum-hellhammer",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "AUD": 214.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadHellhammer.jpg",
+    "year": 2023
+  },
+  "astra-militarum-doomhammer-2023": {
+    "display_name": "Doomhammer",
+    "slug_short": "astra-militarum-doomhammer",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadDoomhammer.jpg",
+    "year": 2023
+  },
+  "astra-militarum-banesword-2023": {
+    "display_name": "Banesword",
+    "slug_short": "astra-militarum-banesword",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadBanesword.jpg",
+    "year": 2023
+  },
+  "astra-militarum-banehammer-2023": {
+    "display_name": "Banehammer",
+    "slug_short": "astra-militarum-banehammer",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadBanehammer.jpg",
+    "year": 2023
+  },
+  "astra-militarum-leman-russ-battle-tank-2023": {
+    "display_name": "Leman Russ Battle Tank",
+    "slug_short": "astra-militarum-leman-russ-battle-tank",
+    "models": null,
+    "prices": {
+      "USD": 70.0,
+      "GBP": 42.5,
+      "AUD": 112.0,
+      "CAD": 85.0,
+      "EUR": 55.0,
+      "PLN": 240.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105111_AMLemanRussBattleTank01.jpg",
+    "year": 2023
+  },
+  "astra-militarum-aegis-defence-line-2023": {
+    "display_name": "Aegis Defence Line",
+    "slug_short": "astra-militarum-aegis-defence-line",
+    "models": null,
+    "prices": {
+      "USD": 85.0,
+      "GBP": 52.0,
+      "AUD": 145.0,
+      "CAD": 100.0,
+      "EUR": 67.0,
+      "PLN": 285.0,
+      "CHF": 67.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105108_AMAegisDefenceline01.jpg",
+    "year": 2023
+  },
+  "astra-militarum-baneblade-2023": {
+    "display_name": "Baneblade",
+    "slug_short": "astra-militarum-baneblade",
+    "models": null,
+    "prices": {
+      "USD": 197.0,
+      "GBP": 120.0,
+      "AUD": 214.0,
+      "CAD": 240.0,
+      "EUR": 155.0,
+      "PLN": 660.0,
+      "CHF": 155.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105107_AMBanebladeLeadBaneblade.jpg",
+    "year": 2023
+  },
+  "astra-militarum-scout-sentinel-2023": {
+    "display_name": "Scout Sentinel",
+    "slug_short": "astra-militarum-scout-sentinel",
+    "models": null,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105103_AMSentinel01alt.jpg",
+    "year": 2023
+  },
+  "astra-militarum-rogal-dorn-battle-tank-2023": {
+    "display_name": "Rogal Dorn Battle Tank",
+    "slug_short": "astra-militarum-rogal-dorn-battle-tank",
+    "models": null,
+    "prices": {
+      "USD": 105.0,
+      "GBP": 63.25,
+      "AUD": 172.5,
+      "CAD": 125.0,
+      "EUR": 82.5,
+      "PLN": 345.0,
+      "CHF": 82.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105098_AMRogalDornBattleTank01.jpg",
+    "year": 2023
+  },
+  "Astra-Militarum-Wyvern": {
+    "display_name": "Wyvern",
+    "slug_short": "Astra-Militarum-Wyvern",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "CAD": 85.0,
+      "EUR": 55.0,
+      "PLN": 235.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105115_AMHydra2.jpg",
+    "year": null
+  },
+  "Astra-Militarum-Hydra": {
+    "display_name": "Hydra",
+    "slug_short": "Astra-Militarum-Hydra",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 104.0,
+      "CAD": 85.0,
+      "EUR": 55.0,
+      "PLN": 235.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105115_AMHydra1.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Deathstrike": {
+    "display_name": "Deathstrike",
+    "slug_short": "Imperial-Guard-Deathstrike",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 104.0,
+      "CAD": 85.0,
+      "PLN": 235.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105049_DeathstrikeNEW02.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Valkyrie": {
+    "display_name": "Valkyrie",
+    "slug_short": "Imperial-Guard-Valkyrie",
+    "models": null,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "AUD": 144.0,
+      "CAD": 116.0,
+      "PLN": 320.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105113_AMValkyreLEAD.jpg",
+    "year": null
+  },
+  "Imperial-Guard-Tank-Accessories": {
+    "display_name": "Astra Militarum Tank Accessories",
+    "slug_short": "Imperial-Guard-Tank-Accessories",
+    "models": null,
+    "prices": {
+      "USD": 17.25,
+      "GBP": 11.75,
+      "AUD": 28.0,
+      "CAD": 23.0,
+      "PLN": 65.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105032_ImperialGuardTankAccessoriesNEW01.jpg",
+    "year": null
+  },
+  "astra-militarum-krieg-lord-marshal-dreir-2025": {
+    "display_name": "Lord Marshal Dreir",
+    "slug_short": "astra-militarum-krieg-lord-marshal-dreir",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 105.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105125_AstraMilitarumKriegLordMarshalDreir1.jpg",
+    "year": 2025
+  },
+  "astra-militarum-sly-marbo-2018": {
+    "display_name": "Sly Marbo",
+    "slug_short": "Astra-Militarum-Sly-Marbo",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "USD": 33.5,
+      "GBP": 19.0,
+      "AUD": 49.0,
+      "CAD": 38.0,
+      "EUR": 24.0,
+      "PLN": 105.0,
+      "CHF": 24.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99810105030_SlyMarbo01.jpg",
+    "year": 2018
   },
-  "basilisk": {
-    "models": 1,
+  "Imperial-Navy-Thunderbolt-Heavy-Fighter": {
+    "display_name": "Thunderbolt Heavy Fighter",
+    "slug_short": "Imperial-Navy-Thunderbolt-Heavy-Fighter",
+    "models": null,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "USD": 205.0,
+      "GBP": 136.5,
+      "AUD": 301.0,
+      "CAD": 255.0,
+      "EUR": 165.0,
+      "PLN": 745.0,
+      "CHF": 165.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108017_ThunderboltFighter01.jpg",
+    "year": null
   },
-  "manticore": {
-    "models": 1,
+  "Cyclops-Demolition-Vehicle": {
+    "display_name": "Cyclops Demolition Vehicle",
+    "slug_short": "Cyclops-Demolition-Vehicle",
+    "models": null,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "USD": 31.0,
+      "GBP": 19.5,
+      "AUD": 44.0,
+      "CAD": 38.0,
+      "EUR": 24.5,
+      "PLN": 110.0,
+      "CHF": 24.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99550105103_CyclopsDemolitionVehicle01.jpg",
+    "year": null
   },
-  "hellhound": {
-    "models": 1,
+  "astra-militarum-cadian-upgrades-2023": {
+    "display_name": "Cadian Upgrades",
+    "slug_short": "astra-militarum-cadian-upgrades",
+    "models": null,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "USD": 35.0,
+      "GBP": 23.0,
+      "AUD": 60.0,
+      "CAD": 45.0,
+      "EUR": 29.5,
+      "PLN": 125.0,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105106_CadianUpgrades2.jpg",
+    "year": 2023
   },
-  "hydra": {
-    "models": 1,
+  "astra-militarum-cadian-heavy-weapons-squad-2023": {
+    "display_name": "Heavy Weapons Squad",
+    "slug_short": "astra-militarum-cadian-heavy-weapons-squad",
+    "models": null,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "USD": 53.0,
+      "GBP": 32.5,
+      "AUD": 90.0,
+      "CAD": 64.0,
+      "EUR": 42.0,
+      "PLN": 175.0,
+      "CHF": 42.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105097_AMCadianHeavyWeaponsSquad01.jpg",
+    "year": 2023
   },
-  "wyvern": {
-    "models": 1,
+  "Imperial-Guard-Catachan-Command-Squad": {
+    "display_name": "Catachan Command Squad",
+    "slug_short": "Imperial-Guard-Catachan-Command-Squad",
+    "models": null,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 50.0,
+      "CAD": 50.0,
+      "PLN": 140.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105037_CatachanCommandSquadNEW01.jpg",
+    "year": null
   },
-  "medusa": {
-    "models": 1,
+  "kill-team-kasrkin-2024": {
+    "display_name": "Kill Team: Kasrkin",
+    "slug_short": "kill-team-kasrkin",
+    "models": null,
     "prices": {
-      "GBP": 47.5,
-      "USD": 80,
-      "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199049_EngKTShadowvaultGroup1.jpg",
+    "year": 2024
   },
-  "valkyrie": {
-    "models": 1,
+  "astra-militarum-lord-solar-leontus-2023": {
+    "display_name": "Lord Solar Leontus",
+    "slug_short": "astra-militarum-lord-solar-leontus",
+    "models": null,
     "prices": {
-      "GBP": 58,
-      "USD": 96,
-      "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105095_AMLordSolarLeontus01.jpg",
+    "year": 2023
   },
-  "baneblade": {
-    "models": 1,
+  "Taurox": {
+    "display_name": "Taurox",
+    "slug_short": "Taurox",
+    "models": null,
     "prices": {
-      "GBP": 105,
-      "USD": 170,
-      "EUR": 135,
-      "AUD": 149,
-      "CAD": 205
-    }
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 68.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105054_Taurox01.jpg",
+    "year": null
+  },
+  "Taurox-Prime": {
+    "display_name": "Taurox Prime",
+    "slug_short": "Taurox-Prime",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105054_TauroxPrime01.jpg",
+    "year": null
+  },
+  "astra-militarum-death-riders-2025": {
+    "display_name": "Death Riders",
+    "slug_short": "astra-militarum-death-riders",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120105128_AstraMilitarumKriegDeathRidersSquad1.jpg",
+    "year": 2025
+  },
+  "Imperial-Navy-Avenger-Strike-Fighter": {
+    "display_name": "Avenger Strike Fighter",
+    "slug_short": "Imperial-Navy-Avenger-Strike-Fighter",
+    "models": null,
+    "prices": {
+      "USD": 205.0,
+      "GBP": 135.5,
+      "AUD": 298.0,
+      "CAD": 255.0,
+      "EUR": 165.0,
+      "PLN": 740.0,
+      "CHF": 165.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108089_AvengerStrikeBomber01.jpg",
+    "year": null
+  },
+  "Imperial-Navy-Marauder-Destroyer": {
+    "display_name": "Marauder Destroyer",
+    "slug_short": "Imperial-Navy-Marauder-Destroyer",
+    "models": null,
+    "prices": {
+      "USD": 420.0,
+      "GBP": 275.5,
+      "AUD": 594.0,
+      "CAD": 520.0,
+      "EUR": 335.0,
+      "PLN": 1510.0,
+      "CHF": 335.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108016_MarauderDestroyer01.jpg",
+    "year": null
+  },
+  "Imperial-Navy-Marauder-Bomber": {
+    "display_name": "Marauder Bomber",
+    "slug_short": "Imperial-Navy-Marauder-Bomber",
+    "models": null,
+    "prices": {
+      "USD": 420.0,
+      "GBP": 275.5,
+      "AUD": 594.0,
+      "CAD": 520.0,
+      "EUR": 335.0,
+      "PLN": 1510.0,
+      "CHF": 335.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99590108015_MARAUDERBOMBER1.jpg",
+    "year": null
   }
 }

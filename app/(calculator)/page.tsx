@@ -339,15 +339,23 @@ function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
       return { ...unit };
     }
 
+    const kitPrices = (kit.prices as Unit["prices"]) ?? null;
+    const hasKitPrices =
+      kitPrices != null &&
+      Object.values(kitPrices).some(
+        (v) => typeof v === "number" && Number.isFinite(v) && v > 0
+      );
+
     return {
       ...unit,
       models_per_box: kit.models ?? unit.models_per_box ?? null,
-      prices: (kit.prices as Unit["prices"]) ?? unit.prices ?? null,
+      prices: kitPrices ?? unit.prices ?? null,
       box_price:
-        (kit.prices as Unit["prices"] | undefined)?.GBP ??
+        (kitPrices as Unit["prices"] | undefined)?.GBP ??
         unit.prices?.GBP ??
         unit.box_price ??
         null,
+      availability: hasKitPrices ? "retail" : unit.availability,
     };
   });
 }
@@ -462,10 +470,6 @@ function HomeContent() {
     const link = buildAmazonAffiliateLink({ factionName: factionDisplayName });
     setAmazonLink(link);
   }, [factionDisplayName]);
-
-  useEffect(() => {
-    console.log("Amazon Link:", amazonLink);
-  }, [amazonLink]);
 
   const kitMappingsForFaction = useMemo(
     () => KIT_MAPPINGS_REGISTRY[selectedFactionSlug] ?? {},
