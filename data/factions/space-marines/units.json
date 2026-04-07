@@ -61,6 +61,7 @@
       "id": "apothecary_biologis",
       "name": "Apothecary Biologis",
       "points": 70,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -143,7 +144,8 @@
       "points": 525,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "attack_bike_squad",
@@ -205,6 +207,7 @@
       "id": "bladeguard_ancient",
       "name": "Bladeguard Ancient",
       "points": 45,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -325,6 +328,7 @@
       "id": "captain_titus",
       "name": "Captain Titus",
       "points": 90,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -391,7 +395,8 @@
       "points": 270,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "chaplain",
@@ -543,7 +548,8 @@
       "points": 85,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "cyberwolf",
@@ -711,7 +717,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "desolation_squad",
@@ -791,7 +798,8 @@
       "points": 420,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "fellblade",
@@ -799,7 +807,8 @@
       "points": 480,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "fenrisian_wolves",
@@ -815,7 +824,8 @@
       "points": 290,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "firestrike_servo_turrets",
@@ -1053,6 +1063,7 @@
       "id": "judiciar",
       "name": "Judiciar",
       "points": 70,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -1309,6 +1320,7 @@
       "id": "lieutenant_with_combi_weapon",
       "name": "Lieutenant With Combi-weapon",
       "points": 85,
+      "models_per_unit": 1,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -1383,7 +1395,8 @@
       "points": 540,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "mortis_dreadnought",
@@ -1663,7 +1676,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "sicaran_battle_tank",
@@ -1671,7 +1685,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "sicaran_omega",
@@ -1679,7 +1694,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "sicaran_punisher",
@@ -1687,7 +1703,8 @@
       "points": 160,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "sicaran_venator",
@@ -1695,7 +1712,8 @@
       "points": 180,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "skyclaws",
@@ -1711,7 +1729,8 @@
       "points": 900,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "spartan",
@@ -1741,6 +1760,7 @@
       "id": "sternguard_veteran_squad",
       "name": "Sternguard Veteran Squad",
       "points": 100,
+      "models_per_unit": 5,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -1935,7 +1955,8 @@
       "points": 840,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "thunderhawk_transporter",
@@ -1943,7 +1964,8 @@
       "points": 495,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "thunderwolf_cavalry",
@@ -1975,7 +1997,8 @@
       "points": 320,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "forgeworld"
     },
     {
       "id": "tyrannic_war_veterans",
@@ -2039,7 +2062,8 @@
       "points": 165,
       "models_per_box": null,
       "box_price": null,
-      "prices": null
+      "prices": null,
+      "availability": "legends"
     },
     {
       "id": "victrix_honour_guard",
@@ -2076,7 +2100,8 @@
     {
       "id": "wardens_of_ultramar",
       "name": "Wardens of Ultramar",
-      "points": 0,
+      "points": 105,
+      "models_per_unit": 6,
       "models_per_box": null,
       "box_price": null,
       "prices": null

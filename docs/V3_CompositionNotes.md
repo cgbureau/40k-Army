@@ -208,7 +208,23 @@ All map to:
 Data mapping is correct for V2.4.
 Shared-sprue / de-duplicated pricing is a V3 composition problem.
 
+--- 
+
+## SpaceMarines
+
+Sternguard Veterans:
+- Come with own 5 model kit
+- Also appear in Company Heroes kit
+- For now, only mapped to base Sternguard Veterans kit
+
+Heroes of the Chapter:
+- Contains lots of other units, like Chaplain, Bladeguard Veterans, Eradicators. These are all mapped to their base kit.
+- Some units dont have a base kit, such as Judicar and Bladeguard Ancient. These can only be purchased in this combo box.
+
+
+
 ---
+
 
 ## Tau
 

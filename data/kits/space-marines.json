@@ -1,462 +1,1527 @@
 {
-  "aggressors": {
-    "models": 3,
+  "captain-titus-and-the-wardens-of-ultramar-2026": {
+    "display_name": "Captain Titus and The Wardens of Ultramar",
+    "slug_short": "captain-titus-and-the-wardens-of-ultramar",
+    "models": 7,
     "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 102,
-      "CAD": 74
-    }
+      "USD": 94.0,
+      "GBP": 57.0,
+      "AUD": 160.0,
+      "CAD": 113.0,
+      "EUR": 74.0,
+      "PLN": 315.0,
+      "CHF": 74.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101459_SpaceMarinesTitusWardens1.jpg",
+    "year": 2026
   },
-  "space-marine-captain": {
+  "Ultramarines-Chief-Librarian-Tigurius-2020": {
+    "display_name": "Chief Librarian Tigurius",
+    "slug_short": "Ultramarines-Chief-Librarian-Tigurius",
     "models": 1,
     "prices": {
-      "GBP": 27,
-      "USD": 43.5,
-      "EUR": 34.5,
-      "AUD": 71,
-      "CAD": 54
-    }
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101254_UMChiefLibrarian01.jpg",
+    "year": 2020
   },
-  "space-marine-captain-in-terminator-armour": {
+  "Roboute-Guilliman-Ultramarines-Primarch-2020": {
+    "display_name": "Roboute Guilliman",
+    "slug_short": "Roboute-Guilliman-Ultramarines-Primarch",
     "models": 1,
     "prices": {
-      "GBP": 29,
-      "USD": 47,
-      "EUR": 37,
-      "AUD": 78,
-      "CAD": 56
-    }
-  },
-  "space-marine-chaplain": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "intercessors": {
-    "models": 10,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "assault-intercessors": {
-    "models": 10,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "assault-intercessors-with-jump-packs": {
-    "models": 5,
-    "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 102,
-      "CAD": 74
-    }
-  },
-  "space-marine-astraeus": {
-    "models": 1,
-    "prices": {
-      "GBP": 286,
-      "USD": 435,
-      "EUR": 350,
-      "AUD": 609,
-      "CAD": 540
-    }
-  },
-  "space-marine-ballistus-dreadnought": {
-    "models": 1,
-    "prices": {
-      "GBP": 44.5,
       "USD": 73.5,
+      "GBP": 44.5,
+      "AUD": 125.0,
+      "CAD": 88.0,
       "EUR": 57.5,
-      "AUD": 125,
-      "CAD": 88
-    }
+      "PLN": 245.0,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101177_TriumvirateofthePrimarch02.jpg",
+    "year": 2020
   },
-  "space-marine-bladeguard-ancient": {
+  "ultramarines-cato-sicarius-2025": {
+    "display_name": "Cato Sicarius",
+    "slug_short": "ultramarines-cato-sicarius",
     "models": 1,
     "prices": {
-      "GBP": 105,
-      "USD": 170,
-      "EUR": 135,
-      "AUD": 149,
-      "CAD": 205
-    }
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 38.0,
+      "PLN": 160.0,
+      "CHF": 38.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101452_UltramarinesCatoSicarius1.jpg",
+    "year": 2025
   },
-  "space-marine-brutalis-dreadnought": {
+  "combat-patrol-space-marines-2023": {
+    "display_name": "Combat Patrol: Space Marines",
+    "slug_short": "combat-patrol-space-marines",
+    "models": 13,
+    "prices": {
+      "USD": 170.0,
+      "GBP": 105.0,
+      "AUD": 285.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199067_WH40kUltimateStarterSet2.jpg",
+    "year": 2023
+  },
+  "getting-started-with-warhammer-40k-2023-eng": {
+    "display_name": "Getting Started with Warhammer 40,000",
+    "slug_short": "getting-started-with-warhammer-40k-2023-eng",
+    "models": 2,
+    "prices": {
+      "USD": 20.0,
+      "GBP": 12.5,
+      "AUD": 30.0,
+      "CAD": 25.0,
+      "EUR": 15.0,
+      "PLN": 63.0,
+      "CHF": 15.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60040199169_EngWH40KGettingStartedWithTenthEdition01.jpg",
+    "year": null
+  },
+  "space-marine-librarian-in-terminator-armour-2023": {
+    "display_name": "Librarian in Terminator Armour",
+    "slug_short": "space-marine-librarian-in-terminator-armour",
     "models": 1,
     "prices": {
-      "GBP": 52,
-      "USD": 85,
-      "EUR": 67,
-      "AUD": 145,
-      "CAD": 100
-    }
+      "USD": 42.0,
+      "GBP": 26.0,
+      "AUD": 74.0,
+      "CAD": 53.0,
+      "EUR": 34.0,
+      "PLN": 145.0,
+      "CHF": 34.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199057_LeviathanEXTRA3.jpg",
+    "year": 2023
   },
-  "bjorn-the-fell-handed": {
-    "models": 1,
+  "warhammer-40000-ultimate-starter-set-2023-eng": {
+    "display_name": "Warhammer 40,000 Combat Patrol Starter Set",
+    "slug_short": "warhammer-40000-ultimate-starter-set-2023-eng",
+    "models": 44,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "USD": 220.0,
+      "GBP": 134.0,
+      "AUD": 342.0,
+      "CAD": 265.0,
+      "EUR": 175.0,
+      "PLN": 735.0,
+      "CHF": 175.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199067_ENGWH40KUltimateStarterCombatPatrolVersionLEAD.jpg",
+    "year": null
   },
-  "carab-culln-the-risen": {
-    "models": 1,
+  "warhammer-40000-introductory-set-2023-eng": {
+    "display_name": "Warhammer 40,000 Introductory Set",
+    "slug_short": "warhammer-40000-introductory-set-2023-eng",
+    "models": 2,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "centurion-assaults": {
-    "models": 3,
-    "prices": {
-      "GBP": 50,
-      "USD": 80,
-      "EUR": 65,
-      "AUD": 133,
-      "CAD": 98
-    }
-  },
-  "space-marine-chaplain-on-bike": {
-    "models": 1,
-    "prices": {
-      "GBP": 35.5,
-      "USD": 60,
-      "EUR": 45,
-      "AUD": 88,
-      "CAD": 70
-    }
-  },
-  "space-marine-drop-pod": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "company-heroes": {
-    "models": 5,
-    "prices": {
+      "USD": 69.0,
       "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
+      "AUD": 97.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199059_ENGWH40kIntroductoryStarterSet2.jpg",
+    "year": null
   },
-  "death-company-marines": {
-    "models": 5,
+  "warhammer-40000-starter-set-2023-eng": {
+    "display_name": "Warhammer 40,000 Starter Set",
+    "slug_short": "warhammer-40000-starter-set-2023-eng",
+    "models": 38,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "USD": 114.0,
+      "GBP": 69.5,
+      "AUD": 172.0,
+      "CAD": 135.0,
+      "EUR": 90.0,
+      "PLN": 380.0,
+      "CHF": 90.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199058_ENGWH40kStarterSet2.jpg",
+    "year": null
   },
-  "devastators": {
-    "models": 6,
+  "predator-annihilator-2022": {
+    "display_name": "Predator Annihilator",
+    "slug_short": "predator-annihilator",
+    "models": 94,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "space-marine-gladiator-lancer": {
-    "models": 1,
-    "prices": {
-      "GBP": 58,
-      "USD": 96,
-      "EUR": 76,
-      "AUD": 101,
-      "CAD": 116
-    }
-  },
-  "space-marine-hammerfall-bunker": {
-    "models": 1,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "space-marine-impulsor": {
-    "models": 1,
-    "prices": {
-      "GBP": 55,
-      "USD": 89,
-      "EUR": 70,
-      "AUD": 149,
-      "CAD": 107
-    }
-  },
-  "space-marine-incursors": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "space-marine-invader-atv": {
-    "models": 1,
-    "prices": {
-      "GBP": 32.5,
-      "USD": 53,
-      "EUR": 42,
-      "AUD": 90,
-      "CAD": 64
-    }
-  },
-  "space-marine-land-raider-crusader": {
-    "models": 1,
-    "prices": {
-      "GBP": 71.5,
-      "USD": 115,
-      "EUR": 90,
-      "AUD": 150,
-      "CAD": 140
-    }
-  },
-  "space-marine-lieutenant": {
-    "models": 1,
-    "prices": {
-      "GBP": 25,
-      "USD": 39,
-      "EUR": 32.5,
-      "AUD": 67,
-      "CAD": 50
-    }
-  },
-  "space-marine-librarian-in-terminator-armour": {
-    "models": 1,
-    "prices": {
-      "GBP": 23,
-      "USD": 35,
-      "EUR": 29.5,
-      "AUD": 36,
-      "CAD": 45
-    }
-  },
-  "land-speeder": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "lukas-the-trickster": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "outriders": {
-    "models": 3,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "space-marine-predator-annihilator": {
-    "models": 1,
-    "prices": {
+      "USD": 80.0,
       "GBP": 47.5,
-      "USD": 80,
+      "CAD": 95.0,
       "EUR": 62.5,
-      "AUD": 101,
-      "CAD": 95
-    }
+      "PLN": 265.0,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101247_SMPredator01.jpg",
+    "year": 2022
   },
-  "space-marine-razorback": {
+  "space-marines-captain-in-gravis-armour-2022": {
+    "display_name": "Captain in Gravis Armour",
+    "slug_short": "space-marines-captain-in-gravis-armour",
     "models": 1,
     "prices": {
-      "GBP": 36,
-      "USD": 60,
-      "EUR": 47.5,
-      "AUD": 74,
-      "CAD": 70
-    }
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101077_SMCPTGravisArmourLead.jpg",
+    "year": 2022
   },
-  "space-marine-redemptor-dreadnought": {
+  "space-marines-primaris-ancient-2022": {
+    "display_name": "Ancient",
+    "slug_short": "space-marines-primaris-ancient",
     "models": 1,
     "prices": {
-      "GBP": 49.5,
-      "USD": 82,
-      "EUR": 62.5,
-      "AUD": 133,
-      "CAD": 98
-    }
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101076_SMPrimarisAncientLead.jpg",
+    "year": 2022
   },
-  "sternguard-veterans": {
+  "Space-Marines-Heavy-Intercessors-2021": {
+    "display_name": "Heavy Intercessor Squad",
+    "slug_short": "Space-Marines-Heavy-Intercessors",
     "models": 5,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "USD": 65.0,
+      "GBP": 42.5,
+      "AUD": 110.0,
+      "CAD": 80.0,
+      "EUR": 55.0,
+      "PLN": 220.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101288_SMHeavyIntercessorsLead.jpg",
+    "year": 2021
   },
-  "space-marine-stormraven-gunship": {
+  "Captain-With-Master-crafted-Bolt-Rifle-2021": {
+    "display_name": "Captain in Gravis Armour with Master-crafted Heavy Bolt Rifle",
+    "slug_short": "Captain-With-Master-crafted-Bolt-Rifle",
     "models": 1,
     "prices": {
-      "GBP": 78,
-      "USD": 127,
-      "EUR": 100,
-      "AUD": 155,
-      "CAD": 152
-    }
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101048_SMCaptainMasterCraftedBoltRifleLead.jpg",
+    "year": 2021
   },
-  "suppressors": {
+  "Space-Marines-Honoured-Of-The-Chapter-2021": {
+    "display_name": "Space Marines: Honoured of the Chapter",
+    "slug_short": "Space-Marines-Honoured-Of-The-Chapter",
+    "models": 9,
+    "prices": {
+      "USD": 170.0,
+      "GBP": 105.0,
+      "AUD": 278.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101353_HonouredoftheChapterLead.jpg",
+    "year": 2021
+  },
+  "Space-Marines-Storm-Speeder-Thunderstrike": {
+    "display_name": "Storm Speeder Thunderstrike",
+    "slug_short": "Space-Marines-Storm-Speeder-Thunderstrike",
+    "models": null,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101274_SMThunderstrikeLead.jpg",
+    "year": null
+  },
+  "Space-Marines-Storm-Speeder-Hammerstrike": {
+    "display_name": "Storm Speeder Hammerstrike",
+    "slug_short": "Space-Marines-Storm-Speeder-Hammerstrike",
+    "models": null,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101274_SMHammerstrikeLead.jpg",
+    "year": null
+  },
+  "Space-Marines-Primaris-Eradicators-2020": {
+    "display_name": "Primaris Eradicators",
+    "slug_short": "Space-Marines-Primaris-Eradicators",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101286_SMPrimarisEradicatorsLead.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Bladeguard-Veterans-2020": {
+    "display_name": "Bladeguard Veteran Squad",
+    "slug_short": "Space-Marines-Bladeguard-Veterans",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101284_SMBladeguardVeteransLeadUltramarines.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Storm-Speeder-2020": {
+    "display_name": "Storm Speeder Hailstrike",
+    "slug_short": "Space-Marines-Storm-Speeder",
+    "models": null,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "AUD": 133.0,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101274_SMStormspeederLead.jpg",
+    "year": 2020
+  },
+  "Gladiator-Lancer-2020": {
+    "display_name": "Gladiator Lancer",
+    "slug_short": "Gladiator-Lancer",
+    "models": null,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "AUD": 162.0,
+      "CAD": 116.0,
+      "EUR": 76.0,
+      "PLN": 320.0,
+      "CHF": 76.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101282_SMGladiatorLancerTankLead.jpg",
+    "year": 2020
+  },
+  "Gladiator-Reaper-2020": {
+    "display_name": "Gladiator Reaper",
+    "slug_short": "Gladiator-Reaper",
+    "models": null,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "CAD": 116.0,
+      "EUR": 76.0,
+      "PLN": 320.0,
+      "CHF": 76.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101282_SMGladiatorReaperTankLead.jpg",
+    "year": 2020
+  },
+  "Blood-Angels-Chaplain-with-Jump-Pack-2020": {
+    "display_name": "Blood Angels Chaplain With Jump Pack",
+    "slug_short": "Blood-Angels-Chaplain-with-Jump-Pack",
+    "models": null,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101017_BloodAngelsChaplainJumpack01.jpg",
+    "year": 2020
+  },
+  "Assault-Intercessors-2020": {
+    "display_name": "Assault Intercessor Squad",
+    "slug_short": "Assault-Intercessors",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101283_SMAssaultIntercessorsLead.jpg",
+    "year": 2020
+  },
+  "Outriders-2020": {
+    "display_name": "Outriders",
+    "slug_short": "Outriders",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101285_SMOutridersLead.jpg",
+    "year": 2020
+  },
+  "Gladiator-2020": {
+    "display_name": "Gladiator Valiant",
+    "slug_short": "Gladiator",
+    "models": null,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "CAD": 116.0,
+      "EUR": 76.0,
+      "PLN": 320.0,
+      "CHF": 76.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101282_SMGladiatorLancerReaperTankLead.jpg",
+    "year": 2020
+  },
+  "Hammerfall-Bunker-2020": {
+    "display_name": "Hammerfall Bunker",
+    "slug_short": "Hammerfall-Bunker",
+    "models": null,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101294_SMHammerfallBunkerLead.jpg",
+    "year": 2020
+  },
+  "Primaris-Techmarine-2020": {
+    "display_name": "Techmarine",
+    "slug_short": "Primaris-Techmarine",
+    "models": null,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101278_SMPrimarisTechmarineLead.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Tactical-Squad-2020": {
+    "display_name": "Tactical Squad",
+    "slug_short": "Space-Marine-Tactical-Squad",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 86.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101128_SpaceMarineTacticalSquadReformat01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Eliminators-2020": {
+    "display_name": "Eliminators",
+    "slug_short": "Space-Marines-Primaris-Eliminators",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101260_SMPrimarisEliminators01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Predator-2020": {
+    "display_name": "Predator Destructor",
+    "slug_short": "Space-Marines-Predator",
+    "models": null,
+    "prices": {
+      "USD": 80.0,
+      "GBP": 47.5,
+      "AUD": 101.0,
+      "CAD": 95.0,
+      "EUR": 62.5,
+      "PLN": 265.0,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101247_SMPredator01Alt.jpg",
+    "year": 2020
+  },
+  "Primaris-Chaplain-on-Bike-2020": {
+    "display_name": "Chaplain on Bike",
+    "slug_short": "Primaris-Chaplain-on-Bike",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 35.5,
+      "AUD": 96.0,
+      "CAD": 70.0,
+      "EUR": 45.0,
+      "PLN": 195.0,
+      "CHF": 45.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101273_SMPrimarisChaplainBikeLead.jpg",
+    "year": 2020
+  },
+  "Primaris-Firestrike-Servo-turret-2020": {
+    "display_name": "Firestrike Servo-turret",
+    "slug_short": "Primaris-Firestrike-Servo-turret",
+    "models": null,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101272_PrimarisFirestrikeServoTurretLead.jpg",
+    "year": 2020
+  },
+  "Primaris-Invader-ATV-2020": {
+    "display_name": "Primaris Invader ATV",
+    "slug_short": "Primaris-Invader-ATV",
+    "models": null,
+    "prices": {
+      "USD": 53.0,
+      "GBP": 32.5,
+      "AUD": 87.0,
+      "CAD": 64.0,
+      "EUR": 42.0,
+      "PLN": 175.0,
+      "CHF": 42.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101271_PrimarisInvaderATVLead.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Repulsor-2020": {
+    "display_name": "Primaris Repulsor",
+    "slug_short": "Space-Marines-Primaris-Repulsor",
+    "models": null,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "AUD": 162.0,
+      "CAD": 116.0,
+      "EUR": 76.0,
+      "PLN": 320.0,
+      "CHF": 76.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101192_PrimarisRepulsor01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Reivers-2020": {
+    "display_name": "Reiver Squad",
+    "slug_short": "Space-Marines-Primaris-Reivers",
+    "models": null,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101186_SpaceMarineRievers01.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Primaris-Captain-2020": {
+    "display_name": "Space Marine Captain",
+    "slug_short": "Space-Marine-Primaris-Captain",
+    "models": null,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101179_PrimarisCaptain01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Redemptor-Dreadnought-2020": {
+    "display_name": "Primaris Redemptor Dreadnought",
+    "slug_short": "Space-Marines-Primaris-Redemptor-Dreadnought",
+    "models": null,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "AUD": 133.0,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101191_RedemptorDreadnought01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Rhino-2020": {
+    "display_name": "Rhino",
+    "slug_short": "Space-Marines-Rhino",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 36.0,
+      "AUD": 68.0,
+      "CAD": 70.0,
+      "EUR": 47.5,
+      "PLN": 200.0,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101063_SpaceMarineRhinoNEW01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Razorback-2020": {
+    "display_name": "Razorback",
+    "slug_short": "Space-Marines-Razorback",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 36.0,
+      "CAD": 70.0,
+      "EUR": 47.5,
+      "PLN": 200.0,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101245_SMRazorback01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Chaplain-2020": {
+    "display_name": "Chaplain",
+    "slug_short": "Space-Marines-Primaris-Chaplain",
+    "models": null,
+    "prices": {
+      "USD": 42.0,
+      "GBP": 26.0,
+      "AUD": 67.0,
+      "CAD": 53.0,
+      "EUR": 34.0,
+      "PLN": 145.0,
+      "CHF": 34.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101180_PrimarisChaplain01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Aggressors-2020": {
+    "display_name": "Aggressor Squad",
+    "slug_short": "Space-Marines-Primaris-Aggressors",
     "models": 3,
     "prices": {
-      "GBP": 91,
-      "USD": 150,
-      "EUR": 120,
-      "AUD": 139,
-      "CAD": 180
-    }
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101184_SpaceMarineAggressors01.jpg",
+    "year": 2020
   },
-  "tacticals": {
+  "Space-Marines-Primaris-Librarian-2020": {
+    "display_name": "Primaris Librarian",
+    "slug_short": "Space-Marines-Primaris-Librarian",
+    "models": 1,
+    "prices": {
+      "USD": 42.0,
+      "GBP": 26.0,
+      "AUD": 67.0,
+      "CAD": 53.0,
+      "EUR": 34.0,
+      "PLN": 145.0,
+      "CHF": 34.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101181_PrimarisLibrarian01.jpg",
+    "year": 2020
+  },
+  "Primaris-Lieutenant-In-Phobos-Armour-2020": {
+    "display_name": "Lieutenant in Reiver Armour",
+    "slug_short": "Primaris-Lieutenant-In-Phobos-Armour",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101045_SMPrimarisLieutenantinPhobosArmour01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Impulsor-2020": {
+    "display_name": "Primaris Impulsor",
+    "slug_short": "Space-Marines-Primaris-Impulsor",
+    "models": 1,
+    "prices": {
+      "USD": 89.0,
+      "GBP": 55.0,
+      "AUD": 149.0,
+      "CAD": 107.0,
+      "EUR": 70.0,
+      "PLN": 305.0,
+      "CHF": 70.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101262_SMPrimarisImpulsor01.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Venerable-Dreadnought-2020": {
+    "display_name": "Venerable Dreadnought",
+    "slug_short": "Space-Marine-Venerable-Dreadnought",
+    "models": 1,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 95.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101083_VenerableDreadnoughtNEW01.jpg",
+    "year": 2020
+  },
+  "Centurion-Devastator-Squad-2020": {
+    "display_name": "Centurion Devastator Squad",
+    "slug_short": "Centurion-Devastator-Squad",
+    "models": 3,
+    "prices": {
+      "USD": 80.0,
+      "GBP": 50.0,
+      "AUD": 95.0,
+      "CAD": 100.0,
+      "EUR": 65.0,
+      "PLN": 275.0,
+      "CHF": 65.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101106_CenturionDevastatorSquadNEW01.jpg",
+    "year": 2020
+  },
+  "Centurion-Assault-Squad-2020": {
+    "display_name": "Centurion Assault Squad",
+    "slug_short": "Centurion-Assault-Squad",
+    "models": 3,
+    "prices": {
+      "USD": 80.0,
+      "GBP": 50.0,
+      "AUD": 95.0,
+      "CAD": 100.0,
+      "EUR": 65.0,
+      "PLN": 275.0,
+      "CHF": 65.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101106_CenturionAssaultSquadNEW01.jpg",
+    "year": 2020
+  },
+  "Stormtalon-Gunship-2020": {
+    "display_name": "Stormtalon Gunship",
+    "slug_short": "Stormtalon-Gunship",
+    "models": 1,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101315_StormhawkTalonInterceptorLead.jpg",
+    "year": 2020
+  },
+  "Stormraven-Gunship-2020": {
+    "display_name": "Stormraven Gunship",
+    "slug_short": "Stormraven-Gunship",
+    "models": 1,
+    "prices": {
+      "USD": 127.0,
+      "GBP": 78.0,
+      "AUD": 155.0,
+      "CAD": 152.0,
+      "EUR": 100.0,
+      "PLN": 425.0,
+      "CHF": 100.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101339_SMStormravenGunshipLead.jpg",
+    "year": 2020
+  },
+  "Stormhawk-Interceptor-2020": {
+    "display_name": "Stormhawk Interceptor",
+    "slug_short": "Stormhawk-Interceptor",
+    "models": 1,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 110.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101315_SMStormhawkInterceptorLeadNew.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Infiltrators-2020": {
+    "display_name": "Infiltrator Squad",
+    "slug_short": "Space-Marines-Primaris-Infiltrators",
     "models": 10,
     "prices": {
-      "GBP": 38,
-      "USD": 60,
-      "EUR": 50,
-      "AUD": 102,
-      "CAD": 74
-    }
-  },
-  "terminators": {
-    "models": 6,
-    "prices": {
-      "GBP": 42.5,
-      "USD": 69,
-      "EUR": 55,
-      "AUD": 117,
-      "CAD": 83
-    }
-  },
-  "space-marine-thunderhawk-gunship": {
-    "models": 1,
-    "prices": {
-      "GBP": 619,
-      "USD": 950,
-      "EUR": 760,
-      "AUD": 1377,
-      "CAD": 1175
-    }
-  },
-  "space-marine-whirlwind": {
-    "models": 1,
-    "prices": {
-      "GBP": 45,
-      "USD": 74,
-      "EUR": 58.5,
-      "AUD": 107,
-      "CAD": 90
-    }
-  },
-  "space-marine-apothecary": {
-    "models": 1,
-    "prices": {
-      "GBP": 26,
-      "USD": 42,
-      "EUR": 34,
-      "AUD": 72,
-      "CAD": 53
-    }
-  },
-  "redemptor-dreadnought": {
-    "models": 1,
-    "prices": {
-      "GBP": 49.5,
-      "USD": 82,
-      "EUR": 62.5,
-      "AUD": 133,
-      "CAD": 98
-    }
-  },
-  "space-marine-ancient": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
       "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101263_SMPrimarisInfiltrators01.jpg",
+    "year": 2020
   },
-  "tycho-the-lost": {
-    "models": 1,
+  "Space-Marines-Primaris-Incursors-2020": {
+    "display_name": "Incursor Squad",
+    "slug_short": "Space-Marines-Primaris-Incursors",
+    "models": 10,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
       "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101263_SMPrimarisIncursors01.jpg",
+    "year": 2020
   },
-  "ulrik-the-slayer": {
-    "models": 1,
-    "prices": {
-      "GBP": 40,
-      "USD": 65,
-      "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
-  },
-  "wolf-guard": {
+  "Space-Marine-Vanguard-Veteran-Squad-2020": {
+    "display_name": "Vanguard Veteran Squad",
+    "slug_short": "Space-Marine-Vanguard-Veteran-Squad",
     "models": 5,
     "prices": {
-      "GBP": 40,
-      "USD": 65,
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 96.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101134_Vanguard01.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Devastator-Squad-2020": {
+    "display_name": "Devastator Squad",
+    "slug_short": "Space-Marine-Devastator-Squad",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 102.0,
+      "CAD": 78.0,
       "EUR": 51.5,
-      "AUD": 110,
-      "CAD": 78
-    }
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101127_SMDevastatorSquadUltra01.jpg",
+    "year": 2020
+  },
+  "Primaris-Librarian-In-Phobos-Armour-2020": {
+    "display_name": "Primaris Librarian in Phobos Armour",
+    "slug_short": "Primaris-Librarian-In-Phobos-Armour",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101046_SMPrimarisLibrarianPhobosArmour01.jpg",
+    "year": 2020
+  },
+  "Primaris-Captain-In-Phobos-Armour-2020": {
+    "display_name": "Captain in Phobos Armour",
+    "slug_short": "Primaris-Captain-In-Phobos-Armour",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101046_SMPrimarisCaptainPhobosArmour01.jpg",
+    "year": 2020
+  },
+  "Landraider-Redeemer-2020": {
+    "display_name": "Land Raider Redeemer",
+    "slug_short": "Landraider-Redeemer",
+    "models": 1,
+    "prices": {
+      "USD": 115.0,
+      "GBP": 71.5,
+      "AUD": 150.0,
+      "CAD": 140.0,
+      "EUR": 90.0,
+      "PLN": 385.0,
+      "CHF": 90.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101344_SMLandRaiderCrusaderandRedeemerLead.jpg",
+    "year": 2020
+  },
+  "Land-Raider-Crusader-2020": {
+    "display_name": "Land Raider Crusader",
+    "slug_short": "Land-Raider-Crusader",
+    "models": 1,
+    "prices": {
+      "USD": 115.0,
+      "GBP": 71.5,
+      "AUD": 150.0,
+      "CAD": 140.0,
+      "EUR": 90.0,
+      "PLN": 385.0,
+      "CHF": 90.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101070_LandRaiderCrusaderNEW01.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Primaris-Lieutenant-With-Power-Sword-2020": {
+    "display_name": "Lieutenant with Power Sword",
+    "slug_short": "Space-Marine-Primaris-Lieutenant-With-Power-Sword",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101032_SMPrimarisLieutenantPowerSword01.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Vindicator-2020": {
+    "display_name": "Vindicator",
+    "slug_short": "Space-Marine-Vindicator",
+    "models": 1,
+    "prices": {
+      "USD": 80.0,
+      "GBP": 47.5,
+      "AUD": 101.0,
+      "CAD": 95.0,
+      "EUR": 62.5,
+      "PLN": 265.0,
+      "CHF": 62.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101058_SpaceMarinesVindicatorNEW01.jpg",
+    "year": 2020
+  },
+  "Space-Marine-Primaris-Invictor-Tactical-Warsuit-2020": {
+    "display_name": "Invictor Tactical Warsuit",
+    "slug_short": "Space-Marine-Primaris-Invictor-Tactical-Warsuit",
+    "models": 1,
+    "prices": {
+      "USD": 73.5,
+      "GBP": 44.5,
+      "AUD": 125.0,
+      "CAD": 88.0,
+      "EUR": 57.5,
+      "PLN": 245.0,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101264_SMPrimarisInvictusTacticalWarsuit01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Intercessors-2020": {
+    "display_name": "Intercessor Squad",
+    "slug_short": "Space-Marines-Primaris-Intercessors",
+    "models": 10,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101190_PrimarisIntercessors01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Hellblasters-2020": {
+    "display_name": "Hellblaster Squad",
+    "slug_short": "Space-Marines-Primaris-Hellblasters",
+    "models": 10,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101189_PrimarisHellblasters01.jpg",
+    "year": 2020
+  },
+  "Space-marines-thunderhawk-gunship-2017": {
+    "display_name": "Legion Thunderhawk Gunship",
+    "slug_short": "Space-marines-thunderhawk-gunship",
+    "models": 1,
+    "prices": {
+      "USD": 950.0,
+      "GBP": 619.0,
+      "AUD": 1377.0,
+      "CAD": 1175.0,
+      "EUR": 760.0,
+      "PLN": 3375.0,
+      "CHF": 760.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560101546_Thunderhawk01.jpg",
+    "year": 2017
+  },
+  "Space-Marine-Whirlwind": {
+    "display_name": "Whirlwind",
+    "slug_short": "Space-Marine-Whirlwind",
+    "models": 1,
+    "prices": {
+      "USD": 74.0,
+      "GBP": 45.0,
+      "AUD": 107.0,
+      "CAD": 90.0,
+      "PLN": 250.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101065_SpaceMarinesWhirlwindNEW01.jpg",
+    "year": null
+  },
+  "Space-Marine-Land-Raider": {
+    "display_name": "Land Raider",
+    "slug_short": "Space-Marine-Land-Raider",
+    "models": 1,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "AUD": 133.0,
+      "CAD": 116.0,
+      "PLN": 320.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101061_SpaceMarineLandRaiderNEW01.jpg",
+    "year": null
+  },
+  "space-marines-space-marine-heads-2026": {
+    "display_name": "Space Marine Heads",
+    "slug_short": "space-marines-space-marine-heads",
+    "models": null,
+    "prices": {
+      "USD": 26.0,
+      "GBP": 15.5,
+      "AUD": 41.5,
+      "CAD": 31.0,
+      "EUR": 20.5,
+      "PLN": 85.5,
+      "CHF": 20.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101488_WEBSpaceMarinesHeads1.jpg",
+    "year": 2026
+  },
+  "space-marines-ancient-in-terminator-armour-2025": {
+    "display_name": "Ancient in Terminator Armour",
+    "slug_short": "space-marines-ancient-in-terminator-armour",
+    "models": 1,
+    "prices": {
+      "USD": 47.0,
+      "GBP": 29.0,
+      "AUD": 78.0,
+      "CAD": 56.0,
+      "EUR": 37.0,
+      "PLN": 155.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101455_SPACEMARINESAncientInTerminatorArmour01.jpg",
+    "year": 2025
+  },
+  "space-marines-terminator-assault-squad-2025": {
+    "display_name": "Terminator Assault Squad",
+    "slug_short": "space-marines-terminator-assault-squad",
+    "models": 5,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 118.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101454_SPACEMARINESTerminatorAssaultSquad01.jpg",
+    "year": 2025
+  },
+  "space-marines-captain-with-jump-pack-and-relic-shield-2025": {
+    "display_name": "Captain with Jump Pack and Relic Shield",
+    "slug_short": "space-marines-captain-with-jump-pack-and-relic-shield",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 75.5,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101492_SpaceMarinesCaptainwithJumpPackandRelicShield01.jpg",
+    "year": 2025
+  },
+  "space-marines-drop-pods-2025": {
+    "display_name": "Drop Pods",
+    "slug_short": "space-marines-drop-pods",
+    "models": 1,
+    "prices": {
+      "USD": 85.0,
+      "GBP": 52.0,
+      "AUD": 145.0,
+      "CAD": 100.0,
+      "EUR": 67.0,
+      "PLN": 285.0,
+      "CHF": 67.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101423_SpaceMarinesDropPods1.jpg",
+    "year": 2025
+  },
+  "kill-team-scout-squad-2024": {
+    "display_name": "Kill Team: Scout Squad",
+    "slug_short": "kill-team-scout-squad",
+    "models": 10,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "AUD": 139.0,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199064_KTSalvation3.jpg",
+    "year": 2024
+  },
+  "space-marines-chapter-heroes-2023": {
+    "display_name": "Heroes of the Chapter",
+    "slug_short": "space-marines-chapter-heroes",
+    "models": 7,
+    "prices": {
+      "USD": 114.0,
+      "GBP": 69.5,
+      "AUD": 195.0,
+      "CAD": 135.0,
+      "EUR": 90.0,
+      "PLN": 380.0,
+      "CHF": 90.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101401_SMChapterHeroes2.jpg",
+    "year": 2023
+  },
+  "space-marines-captain-in-terminator-armour-2023": {
+    "display_name": "Captain in Terminator Armour",
+    "slug_short": "space-marines-captain-in-terminator-armour",
+    "models": 1,
+    "prices": {
+      "USD": 47.0,
+      "GBP": 29.0,
+      "AUD": 78.0,
+      "CAD": 56.0,
+      "EUR": 37.0,
+      "PLN": 155.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101400_SMCptTermArmour1.jpg",
+    "year": 2023
+  },
+  "space-marines-ballistus-dreadnought-2023": {
+    "display_name": "Ballistus Dreadnought",
+    "slug_short": "space-marines-ballistus-dreadnought",
+    "models": 1,
+    "prices": {
+      "USD": 73.5,
+      "GBP": 44.5,
+      "AUD": 125.0,
+      "CAD": 88.0,
+      "EUR": 57.5,
+      "PLN": 245.0,
+      "CHF": 57.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101393_BallistusDreadnought1.jpg",
+    "year": 2023
+  },
+  "space-marines-infernus-squad-2023": {
+    "display_name": "Infernus Squad",
+    "slug_short": "space-marines-infernus-squad",
+    "models": 5,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 105.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/60010199057_LeviathanEXTRA9.jpg",
+    "year": 2023
+  },
+  "space-marines-chaplain-in-terminator-armour-2023": {
+    "display_name": "Chaplain in Terminator Armour",
+    "slug_short": "space-marines-chaplain-in-terminator-armour",
+    "models": 1,
+    "prices": {
+      "USD": 47.0,
+      "GBP": 29.0,
+      "AUD": 78.0,
+      "CAD": 56.0,
+      "EUR": 37.0,
+      "PLN": 155.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101399_SMChaplainTermArmour1.jpg",
+    "year": 2023
+  },
+  "space-marines-terminator-squad-2023": {
+    "display_name": "Terminator Squad",
+    "slug_short": "space-marines-terminator-squad",
+    "models": 5,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101398_SMTermSquad2.jpg",
+    "year": 2023
+  },
+  "space-marines-captain-with-jump-pack-2023": {
+    "display_name": "Captain with Jump Pack",
+    "slug_short": "space-marines-captain-with-jump-pack",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 75.5,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101394_SMJumpPkCpt1.jpg",
+    "year": 2023
+  },
+  "space-marines-jump-pack-intercessors-2023": {
+    "display_name": "Assault Intercessors with Jump Packs",
+    "slug_short": "space-marines-jump-pack-intercessors",
+    "models": 5,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 105.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101392_SMJumpPkIntercessors2.jpg",
+    "year": 2023
+  },
+  "space-marines-sternguard-veteran-squad-2023": {
+    "display_name": "Sternguard Veteran Squad",
+    "slug_short": "space-marines-sternguard-veteran-squad",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101390_SMSternguardVetSquad2.jpg",
+    "year": 2023
+  },
+  "space-marines-company-heroes-2023": {
+    "display_name": "Company Heroes",
+    "slug_short": "space-marines-company-heroes",
+    "models": 5,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101389_SMCoHeroes2.jpg",
+    "year": 2023
+  },
+  "space-marines-desolation-squad-2023": {
+    "display_name": "Desolation Squad",
+    "slug_short": "space-marines-desolation-squad",
+    "models": 5,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 105.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101377_SMDesolationSquad2.jpg",
+    "year": 2023
+  },
+  "space-marines-brutalis-dreadnought-2023": {
+    "display_name": "Brutalis Dreadnought",
+    "slug_short": "space-marines-brutalis-dreadnought",
+    "models": 1,
+    "prices": {
+      "USD": 85.0,
+      "GBP": 52.0,
+      "AUD": 145.0,
+      "CAD": 100.0,
+      "EUR": 67.0,
+      "PLN": 285.0,
+      "CHF": 67.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101371_SMBrutlisDread1.jpg",
+    "year": 2023
+  },
+  "space-marines-lieutenant-2023": {
+    "display_name": "Space Marines: Lieutenant",
+    "slug_short": "space-marines-lieutenant",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 68.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101079_SMLieutenant1.jpg",
+    "year": 2023
+  },
+  "space-marines-vanguard-task-force-2023": {
+    "display_name": "Vanguard Task Force",
+    "slug_short": "space-marines-vanguard-task-force",
+    "models": null,
+    "prices": {
+      "USD": 150.0,
+      "GBP": 91.0,
+      "AUD": 255.0,
+      "CAD": 180.0,
+      "EUR": 120.0,
+      "PLN": 500.0,
+      "CHF": 120.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101397_SMVanguard2.jpg",
+    "year": 2023
+  },
+  "space-marines-captain-with-storm-shield-2023": {
+    "display_name": "Captain with Relic Shield",
+    "slug_short": "space-marines-captain-with-storm-shield",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 75.5,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101396_SMCaptainStormShield1.jpg",
+    "year": 2023
+  },
+  "space-marines-lieutenant-with-storm-shield-2023": {
+    "display_name": "Lieutenant with Storm Shield",
+    "slug_short": "space-marines-lieutenant-with-storm-shield",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 68.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070101080_SMLtStormShield1.jpg",
+    "year": 2023
+  },
+  "ultramarines-victrix-honour-guard-2025": {
+    "display_name": "Victrix Honour Guard",
+    "slug_short": "ultramarines-victrix-honour-guard",
+    "models": 2,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 38.5,
+      "AUD": 108.0,
+      "CAD": 78.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101453_UltramarinesVictrixHonourGuard1.jpg",
+    "year": 2025
+  },
+  "marneus-calgar-in-armour-of-antilochus-2025": {
+    "display_name": "Marneus Calgar in Armour of Antilochus",
+    "slug_short": "marneus-calgar-in-armour-of-antilochus",
+    "models": 3,
+    "prices": {
+      "USD": 55.5,
+      "GBP": 34.0,
+      "AUD": 94.0,
+      "CAD": 66.5,
+      "EUR": 43.5,
+      "PLN": 185.0,
+      "CHF": 43.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101450_UltramarinesMarneusCalgarArmourAntilochus1.jpg",
+    "year": 2025
+  },
+  "Space-Marines-Primaris-Repulsor-Executioner-2020": {
+    "display_name": "Repulsor Executioner",
+    "slug_short": "Space-Marines-Primaris-Repulsor-Executioner",
+    "models": 1,
+    "prices": {
+      "USD": 115.0,
+      "GBP": 71.5,
+      "AUD": 185.0,
+      "CAD": 140.0,
+      "EUR": 90.0,
+      "PLN": 385.0,
+      "CHF": 90.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101250_SMPrimarisRepulsorExecutioner01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Inceptors-2020": {
+    "display_name": "Inceptor Squad",
+    "slug_short": "Space-Marines-Primaris-Inceptors",
+    "models": 3,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101193_PrimarisInceptors01.jpg",
+    "year": 2020
+  },
+  "Space-Marines-Primaris-Apothecary-2020": {
+    "display_name": "Apothecary",
+    "slug_short": "Space-Marines-Primaris-Apothecary",
+    "models": 1,
+    "prices": {
+      "USD": 42.0,
+      "GBP": 26.0,
+      "AUD": 67.0,
+      "CAD": 53.0,
+      "EUR": 34.0,
+      "PLN": 145.0,
+      "CHF": 34.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120101178_PrimarisApothecary01.jpg",
+    "year": 2020
+  },
+  "Astraeus-Super-heavy-Tank-2017": {
+    "display_name": "Astraeus Super-heavy Tank",
+    "slug_short": "Astraeus-Super-heavy-Tank",
+    "models": 1,
+    "prices": {
+      "USD": 435.0,
+      "GBP": 286.0,
+      "AUD": 609.0,
+      "CAD": 540.0,
+      "EUR": 350.0,
+      "PLN": 1560.0,
+      "CHF": 350.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99560101569_AstraeusSuperheavyTank01.jpg",
+    "year": 2017
   }
 }
