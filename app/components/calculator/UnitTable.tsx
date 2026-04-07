@@ -12,7 +12,7 @@ export type UnitTableUnit = {
   models_per_box: number | null;
   models_per_unit?: number | null;
   box_price: number | null;
-  availability?: "retail" | "legends" | "forgeworld";
+  availability?: "retail" | "legends" | "forgeworld" | "allied";
   prices?: Record<string, number | null> | null;
 };
 

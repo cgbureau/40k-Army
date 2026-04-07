@@ -17,7 +17,7 @@ export type UnitRowProps = {
   price: string;
   modelsPerBox: number | null;
   modelsPerUnit: number | null;
-  availability: "retail" | "legends" | "forgeworld" | undefined;
+  availability: "retail" | "legends" | "forgeworld" | "allied" | undefined;
   index: number;
 };
 
@@ -84,15 +84,21 @@ function UnitRow({
               <span>{" "}•{" "}</span>
               {!hasKitData && (
                 <>
+                  {availability === "legends" && (
+                    <span className="text-violet-500 font-workbench">
+                      LEGENDS
+                    </span>
+                  )}
+
                   {availability === "forgeworld" && (
                     <span className="text-orange-500 font-workbench">
                       FORGEWORLD
                     </span>
                   )}
 
-                  {availability === "legends" && (
-                    <span className="text-violet-500 font-workbench">
-                      LEGENDS
+                  {availability === "allied" && (
+                    <span className="text-[#008235] font-workbench">
+                      ALLIED
                     </span>
                   )}
 

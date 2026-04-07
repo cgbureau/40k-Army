@@ -77,7 +77,7 @@ type Unit = {
   box_price: number | null;
   prices?: Partial<Record<CurrencyCode, number | null>> | null;
   is_legends?: boolean;
-  availability?: "retail" | "legends" | "forgeworld";
+  availability?: "retail" | "legends" | "forgeworld" | "allied";
 };
 
 type FactionListItem = { slug: string; name: string };
@@ -1013,6 +1013,12 @@ function HomeContent() {
                   LEGENDS
                 </span>{" "}
                 = No longer tournament legal
+              </div>
+              <div className="text-[11px] font-plex-mono">
+                <span className="font-workbench uppercase text-sm text-[#008235]">
+                  ALLIED
+                </span>{" "}
+                = Uses kit from another faction
               </div>
             </div>
           </div>
