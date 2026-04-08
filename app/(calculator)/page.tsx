@@ -984,7 +984,7 @@ function HomeContent() {
                   !amazonLink ? "opacity-50 cursor-not-allowed" : "hover:opacity-90"
                 }`}
               >
-                BUY
+                CHECK PRICES
               </button>
             </div>
           </aside>
@@ -1479,7 +1479,7 @@ function HomeContent() {
                   !amazonLink ? "opacity-50 cursor-not-allowed" : "hover:opacity-90"
                 }`}
               >
-                BUY
+                CHECK PRICES
               </button>
             </div>
           </div>
