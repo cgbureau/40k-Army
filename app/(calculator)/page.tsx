@@ -55,6 +55,7 @@ import leaguesOfVotannKits from "../../data/kits/leagues-of-votann.json";
 import necronsKits from "../../data/kits/necrons.json";
 import orksKits from "../../data/kits/orks.json";
 import spaceMarinesKits from "../../data/kits/space-marines.json";
+import spaceWolvesKits from "../../data/kits/space-marines/space-wolves.json";
 import tauKits from "../../data/kits/tau.json";
 import thousandSonsKits from "../../data/kits/thousand-sons.json";
 import tyranidsKits from "../../data/kits/tyranids.json";
@@ -321,9 +322,13 @@ const KIT_REGISTRY: Record<
   >,
 };
 
-function enrichUnitsWithKits(units: Unit[], factionSlug: string): Unit[] {
+function enrichUnitsWithKits(
+  units: Unit[],
+  factionSlug: string,
+  kitsOverride?: Record<string, { models?: number | null; prices?: Unit["prices"] | null }>
+): Unit[] {
   const kitMap = KIT_MAPPINGS_REGISTRY[factionSlug] ?? {};
-  const kits = KIT_REGISTRY[factionSlug] ?? {};
+  const kits = kitsOverride ?? KIT_REGISTRY[factionSlug] ?? {};
 
   return units.map((unit) => {
     const kitSlugRaw = kitMap[unit.id];
@@ -375,6 +380,7 @@ function HomeContent() {
 
   const [factionList, setFactionList] = useState<FactionListItem[]>([]);
   const [selectedFactionSlug, setSelectedFactionSlug] = useState<string>("");
+  const [chapter, setChapter] = useState<string | null>(null);
   const [units, setUnits] = useState<Unit[]>([]);
   const [factionsLoading, setFactionsLoading] = useState(true);
   const [unitsLoading, setUnitsLoading] = useState(true);
@@ -389,6 +395,15 @@ function HomeContent() {
   const [selectedOverviewUnitId, setSelectedOverviewUnitId] = useState<string | null>(null);
   const [amazonLink, setAmazonLink] = useState<string | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const activeKits = useMemo(() => {
+    if (chapter === "space-wolves") {
+      return {
+        ...spaceMarinesKits,
+        ...spaceWolvesKits,
+      };
+    }
+    return spaceMarinesKits;
+  }, [chapter]);
 
   // Load faction list on mount
   useEffect(() => {
@@ -433,7 +448,11 @@ function HomeContent() {
       .then((data: FactionUnitsResponse) => {
         if (cancelled) return;
         const list = Array.isArray(data.units) ? data.units : [];
-        const enriched = enrichUnitsWithKits(list, selectedFactionSlug);
+        const enriched = enrichUnitsWithKits(
+          list,
+          selectedFactionSlug,
+          selectedFactionSlug === "space-marines" ? activeKits : undefined
+        );
         setUnits(enriched);
       })
       .catch(() => setUnits([]))
@@ -441,6 +460,12 @@ function HomeContent() {
     return () => {
       cancelled = true;
     };
+  }, [selectedFactionSlug, activeKits]);
+
+  useEffect(() => {
+    if (selectedFactionSlug !== "space-marines") {
+      setChapter(null);
+    }
   }, [selectedFactionSlug]);
 
   useEffect(() => {
@@ -556,9 +581,38 @@ function HomeContent() {
 
   const filteredUnits = useMemo(() => {
     const term = search.trim().toLowerCase();
+
+    // Only apply chapter filtering for Space Marines
+    if (selectedFactionSlug === "space-marines") {
+      const kitMappings = KIT_MAPPINGS_REGISTRY["space-marines"] ?? {};
+
+      const baseFiltered = units.filter((u) => {
+        const kitSlugRaw = kitMappings[u.id];
+        const kitSlug = Array.isArray(kitSlugRaw)
+          ? kitSlugRaw[0]
+          : kitSlugRaw;
+
+        // No mapping → AWOL / ForgeWorld / Legends → always show
+        if (!kitSlug) return true;
+
+        // Mapping exists → only show if kit exists in active kits
+        return !!activeKits[kitSlug];
+      });
+
+      if (!term) return baseFiltered;
+
+      return baseFiltered.filter((u) =>
+        u.name.toLowerCase().includes(term)
+      );
+    }
+
+    // Default behaviour for all other factions
     if (!term) return units;
-    return units.filter((u) => u.name.toLowerCase().includes(term));
-  }, [search, units]);
+
+    return units.filter((u) =>
+      u.name.toLowerCase().includes(term)
+    );
+  }, [search, units, selectedFactionSlug, activeKits]);
 
   const armySummaryUnits = useMemo(
     () => units.filter((u) => (quantities[u.id] ?? 0) > 0),
@@ -816,6 +870,8 @@ function HomeContent() {
               setSearch={setSearch}
               selectedFactionSlug={selectedFactionSlug}
               setSelectedFactionSlug={setSelectedFactionSlug}
+              chapter={chapter}
+              setChapter={setChapter}
               targetPoints={targetPoints}
               setTargetPoints={setTargetPoints}
               discount={discount}

@@ -12,6 +12,8 @@ export type CalculatorControlsProps = {
   setSearch: (value: string) => void;
   selectedFactionSlug: string;
   setSelectedFactionSlug: (slug: string) => void;
+  chapter: string | null;
+  setChapter: (value: string | null) => void;
   targetPoints: number;
   setTargetPoints: (value: number) => void;
   discount: number;
@@ -27,6 +29,8 @@ function CalculatorControls({
   setSearch,
   selectedFactionSlug,
   // setSelectedFactionSlug, // handled via onFactionChange to preserve logic
+  chapter,
+  setChapter,
   targetPoints,
   setTargetPoints,
   discount,
@@ -150,30 +154,65 @@ function CalculatorControls({
             />
           </div>
         </div>
-        <div className="flex items-center w-full min-w-0 gap-2">
-          <label
-            htmlFor="faction-select"
-            className="text-sm font-workbench shrink-0 mr-1"
-          >
-            FACTION
-          </label>
-          <div className="flex items-center gap-2 flex-1 min-w-0">
-            <select
-              id="faction-select"
-              value={selectedFactionSlug}
-              onChange={onFactionChange}
-              className="border-2 bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none rounded-none flex-1 min-w-0"
-              style={{
-                borderColor: factionAccentColor,
-              }}
+        <div className="w-full min-w-0 space-y-2">
+          <div className="flex items-center gap-2 w-full min-w-0">
+            <div className="w-[56px] shrink-0 flex items-center">
+              <label
+                htmlFor="faction-select"
+                className="text-sm font-workbench leading-none"
+              >
+                FACTION
+              </label>
+            </div>
+            <div className="flex-1 min-w-0">
+              <select
+                id="faction-select"
+                value={selectedFactionSlug}
+                onChange={onFactionChange}
+                className="border-2 bg-[#B2C4AE] px-2 py-1 text-sm text-[#231F20] font-plex-mono focus:outline-none rounded-none w-full min-w-0"
+                style={{
+                  borderColor: factionAccentColor,
+                }}
+              >
+                {factions.map((f) => (
+                  <option key={f.slug} value={f.slug}>
+                    {f.name}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+          <div className="flex items-center gap-2 w-full min-w-0">
+            <div
+              className={`flex items-center gap-2 flex-1 min-w-0 transition-opacity duration-200 ${
+                selectedFactionSlug === "space-marines"
+                  ? "opacity-100"
+                  : "opacity-20 pointer-events-none"
+              }`}
             >
-              {factions.map((f) => (
-                <option key={f.slug} value={f.slug}>
-                  {f.name}
-                </option>
-              ))}
-            </select>
-            <span className="text-sm font-workbench px-1">-%</span>
+              <div className="w-[56px] shrink-0 flex items-center">
+                <span className="text-sm font-workbench opacity-60 leading-none">
+                  CHAPTER
+                </span>
+              </div>
+              <div className="flex-1 min-w-0">
+                <select
+                  id="chapter-select"
+                  value={chapter ?? ""}
+                  onChange={(e) => setChapter(e.target.value || null)}
+                  className={`w-full max-w-[240px] border-2 bg-[#B2C4AE] px-2 py-1 text-sm font-plex-mono rounded-none focus:outline-none focus:ring-0 min-w-0 text-[#231F20] ${
+                    chapter === "space-wolves"
+                      ? "border-blue-600"
+                      : "border-[#231F20]"
+                  }`}
+                  disabled={selectedFactionSlug !== "space-marines"}
+                >
+                  <option value="">Select Chapter</option>
+                  <option value="space-wolves">Space Wolves</option>
+                </select>
+              </div>
+            </div>
+            <span className="text-sm font-workbench px-1 shrink-0">-%</span>
             <input
               type="number"
               min={0}
@@ -197,7 +236,7 @@ function CalculatorControls({
                   setDiscount(0);
                 }
               }}
-              className="w-[70px] min-w-[58px] border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm font-plex-mono text-[#231F20] tabular-nums rounded-none"
+              className="w-[60px] min-w-[52px] border-2 border-[#231F20] bg-[#B2C4AE] px-2 py-1 text-sm font-plex-mono text-[#231F20] tabular-nums rounded-none shrink-0"
             />
           </div>
         </div>

@@ -222,6 +222,12 @@ Heroes of the Chapter:
 - Some units dont have a base kit, such as Judicar and Bladeguard Ancient. These can only be purchased in this combo box.
 
 
+SPACEWOLVES:
+- SpWolves Venerable Dreadnought UNIT does not currently exist
+- there is a "combat-patrol-space-wolves-2025"
+
+
+
 
 ---
 
