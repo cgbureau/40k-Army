@@ -222,9 +222,36 @@ Heroes of the Chapter:
 - Some units dont have a base kit, such as Judicar and Bladeguard Ancient. These can only be purchased in this combo box.
 
 
+BLACK TEMPLARS:
+- "combat-patrol-black-templars-2025"
+
+BLOOD ANGELS:
+- "blood-angels-terminator-librarian-2014" exists, but we only have one unit for "librarian_in_terminator_armour" which is mapped to BASE SPACE MARINES kit
+- "combat-patrol-blood-angels-2024"
+- "blood-angels-baal-predator" has been mapped to Baal predator, I think this is okay.
+
+DARK ANGELS:
+- Ravenwing Black Knights is missing from Kit file. So "dark-angels-ravenwing-bike-squadron" currently maps to Black Knights despite some difference
+- "dark-angels-interrogator-chaplain-2017" doesnt have a unit to map to, also no unit found on WAHAPEDIA
+- "combat-patrol-dark-angels-2024"
+
+DEATHWATCH:
+- "kill-team-deathwatch-2025" has not been mapped
+- DW units noted, but no kits to map to:
+"deathwatch_terminator_squad"
+"deathwatch_veterans"
+
+IRON HANDS:
+- Only two kits in kit file
+- Some units appearing with iron in, I am not sure if related:
+"iron_priest_on_thunderwolf"
+"ironclad_dreadnought"
+
+
+
 SPACEWOLVES:
 - SpWolves Venerable Dreadnought UNIT does not currently exist
-- there is a "combat-patrol-space-wolves-2025"
+- "combat-patrol-space-wolves-2025"
 
 
 

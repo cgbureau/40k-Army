@@ -56,6 +56,14 @@ import necronsKits from "../../data/kits/necrons.json";
 import orksKits from "../../data/kits/orks.json";
 import spaceMarinesKits from "../../data/kits/space-marines.json";
 import spaceWolvesKits from "../../data/kits/space-marines/space-wolves.json";
+import salamandersKits from "@/data/kits/space-marines/salamanders.json";
+import darkAngelsKits from "@/data/kits/space-marines/dark-angels.json";
+import blackTemplarsKits from "@/data/kits/space-marines/black-templars.json";
+import bloodAngelsKits from "@/data/kits/space-marines/blood-angels.json";
+import deathwatchKits from "@/data/kits/space-marines/deathwatch.json";
+import imperialFistsKits from "@/data/kits/space-marines/imperial-fists.json";
+import ironHandsKits from "@/data/kits/space-marines/iron-hands.json";
+import ravenGuardKits from "@/data/kits/space-marines/raven-guard.json";
 import tauKits from "../../data/kits/tau.json";
 import thousandSonsKits from "../../data/kits/thousand-sons.json";
 import tyranidsKits from "../../data/kits/tyranids.json";
@@ -396,14 +404,61 @@ function HomeContent() {
   const [amazonLink, setAmazonLink] = useState<string | null>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
   const activeKits = useMemo(() => {
+    if (selectedFactionSlug !== "space-marines") return spaceMarinesKits;
+
     if (chapter === "space-wolves") {
       return {
         ...spaceMarinesKits,
         ...spaceWolvesKits,
       };
     }
+
+    if (chapter === "salamanders") {
+      return {
+        ...spaceMarinesKits,
+        ...salamandersKits,
+      };
+    }
+
+    if (chapter === "dark-angels") {
+      return {
+        ...spaceMarinesKits,
+        ...darkAngelsKits,
+      };
+    }
+
+    if (chapter === "blood-angels") {
+      return {
+        ...spaceMarinesKits,
+        ...bloodAngelsKits,
+      };
+    }
+
+    if (chapter === "black-templars") {
+      return {
+        ...spaceMarinesKits,
+        ...blackTemplarsKits,
+      };
+    }
+
+    if (chapter === "deathwatch") {
+      return { ...spaceMarinesKits, ...deathwatchKits };
+    }
+
+    if (chapter === "imperial-fists") {
+      return { ...spaceMarinesKits, ...imperialFistsKits };
+    }
+
+    if (chapter === "iron-hands") {
+      return { ...spaceMarinesKits, ...ironHandsKits };
+    }
+
+    if (chapter === "raven-guard") {
+      return { ...spaceMarinesKits, ...ravenGuardKits };
+    }
+
     return spaceMarinesKits;
-  }, [chapter]);
+  }, [chapter, selectedFactionSlug]);
 
   // Load faction list on mount
   useEffect(() => {

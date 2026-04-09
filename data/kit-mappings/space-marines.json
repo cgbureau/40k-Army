@@ -79,9 +79,71 @@
   "bladeguard_ancient": "Space-Marines-Honoured-Of-The-Chapter-2021",
   "judiciar": "Space-Marines-Honoured-Of-The-Chapter-2021",
 
+
+  "__BLACK_TEMPLARS__": "--------------------",
+  "high_marshal_helbrecht": "black-templars-high-marshal-helbrecht-2021",
+  "chaplain_grimaldus": "black-templars-grimaldus-and-retinue-2021",
+  "emperor_s_champion": "black-templars-emperors-champion-2021",
+  "marshal": "black-templars-marshal-2021",
+  "castellan": "black-templars-castellan-2021",
+  "crusader_squad": "black-templars-primaris-crusader-squad-2021",
+  "sword_brethren_squad": "black-templars-sword-brethren-2021",
+  "crusade_ancient": "black-templars-crusade-ancient-2025",
+  "execrator": "black-templars-execrator-2025",
+
+
+  "__BLOOD_ANGELS__": "--------------------",
+  "blood_angels_captain": "blood-angels-captain-2024",
+  "baal_predator": "blood-angels-baal-predator",
+  "commander_dante": "blood-angels-commander-dante-2023",
+  "chaplain_with_jump_pack": "blood-angels-chaplain-with-jump-pack-2020",
+  "chief_librarian_mephiston": "mephiston-lord-of-death-2020",
+  "astorath": "blood-angels-astorath-the-grim-2024",
+  "the_sanguinor": "blood-angels-the-sanguinor-2024",
+  "lemartes": "blood-angels-lemartes-2024",
+  "sanguinary_guard": "blood-angels-sanguinary-guard-2024",
+  "sanguinary_priest": "blood-angels-sanguinary-priest-2024",
+
+
+  "__DARK_ANGELS__": "--------------------",
+  "lion_el_johnson": "dark-angels-lion-el-johnson-2023",
+  "azrael": "dark-angels-azrael-2023",
+  "lazarus": "dark-angels-master-lazarus-2020",
+  "belial": "dark-angelsbelial-grand-master-of-the-deathwing-2024",
+  "deathwing_knights": "dark-angels-deathwing-knights-2024",
+  "asmodai": "dark-angels-asmodai-master-of-repentance-2024",
+  "inner_circle_companions": "dark-angels-inner-circle-companions-2024",
+  "sammael": "dark-angels-sammael",
+  "ravenwing_black_knights": "dark-angels-ravenwing-bike-squadron",
+  "ravenwing_darkshroud": "dark-angels-ravenwing-darkshroud",
+  "ravenwing_dark_talon": "dark-angels-ravenwing-dark-talon",
+  "nephilim_jetfighter": "dark-angels-nephilim-jetfigher",
+  "land_speeder_vengeance": "dark-angels-land-speeder-vengeance",
+  "ezekiel": "dark-angels-ezekiel-grand-master-of-librarians",
+
+
+  "__DEATHWATCH__": "--------------------",
+  "watch_captain_artemis": "imperial-agents-deathwatch-captain-artemis-2024",
+  "watch_master": "deathwatch-watch-master-2020",
+  "corvus_blackstar": "deathwatch-corvus-blackstar-2020",
+
+
+  "__IMPERIAL_FISTS__": "--------------------",
+  "tor_garadon": "imperial-fists-tor-garadon-2020",
+  "darnath_lysander": "imperial-fists-darnath-lysander-2025",
+
+
+  "__IRON_HANDS__": "--------------------",
+  "iron_father_feirros": "iron-hands-feirros-2020",
+  "caanok_var": "iron-hands-caanok-var-2025",
+
+  
+  "__RAVEN_GUARD__": "--------------------", 
+  "aethon_shaan": "raven-guard-aethon-shaan-2025",
+  "kayvaan_shrike": "raven-guard-kayvaan-shrike-2020",
+
   
   "__SPACE_WOLVES__": "--------------------",
-
   "arjac_rockfist": "space-wolves-arjac-rockfist-2025",
   "bjorn_the_fell_handed": "bjorn-the-fellhanded-2020",
   "blood_claws": "space-wolves-blood-claws-2025",
@@ -100,7 +162,12 @@
   "wolf_priest": "space-wolves-wolf-priest-2025",
   "wolf_scouts": "kill-team-wolf-scouts-2026",
   "wulfen": "space-wolves-wulfen-2020",
-  "wulfen_dreadnought": "wulfen-dreadnought-2025"
+  "wulfen_dreadnought": "wulfen-dreadnought-2025",
+
+
+  "__SALAMANDERS__": "--------------------",
+  "adrax_agatone": "salamanders-adrax-agatone-2020",
+  "vulkan_hestan": "salamanders-vulkan-hestan-2025"
 
 
 

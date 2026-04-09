@@ -207,8 +207,16 @@ function CalculatorControls({
                   }`}
                   disabled={selectedFactionSlug !== "space-marines"}
                 >
-                  <option value="">Select Chapter</option>
+                  <option value="">Ultramarines</option>
                   <option value="space-wolves">Space Wolves</option>
+                  <option value="salamanders">Salamanders</option>
+                  <option value="blood-angels">Blood Angels</option>
+                  <option value="black-templars">Black Templars</option>
+                  <option value="dark-angels">Dark Angels</option>
+                  <option value="deathwatch">Deathwatch</option>
+                  <option value="imperial-fists">Imperial Fists</option>
+                  <option value="iron-hands">Iron Hands</option>
+                  <option value="raven-guard">Raven Guard</option>
                 </select>
               </div>
             </div>

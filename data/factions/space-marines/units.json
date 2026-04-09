@@ -417,7 +417,7 @@
     {
       "id": "chaplain_grimaldus",
       "name": "Chaplain Grimaldus",
-      "points": 0,
+      "points": 110,
       "models_per_box": null,
       "box_price": null,
       "prices": null
@@ -1856,7 +1856,7 @@
     {
       "id": "sword_brethren_squad",
       "name": "Sword Brethren Squad",
-      "points": 105,
+      "points": 130,
       "models_per_box": null,
       "box_price": null,
       "prices": null
