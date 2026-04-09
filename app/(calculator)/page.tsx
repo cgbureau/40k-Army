@@ -1446,7 +1446,7 @@ function HomeContent() {
           <div className="w-full flex justify-center">
             <div className="w-full max-w-full text-xs opacity-70 mt-[12px] break-words text-left md:text-center">
               <p>
-                40KArmy v2.3 — unofficial Warhammer army cost calculator - A product
+                40KArmy v2.5 — unofficial Warhammer army cost calculator - A product
                 by the Contemporary Graphics Bureau
               </p>
               <p className="mt-0.5">
