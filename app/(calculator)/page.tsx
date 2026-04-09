@@ -596,7 +596,7 @@ function HomeContent() {
         if (!kitSlug) return true;
 
         // Mapping exists → only show if kit exists in active kits
-        return !!activeKits[kitSlug];
+        return !!(activeKits as Record<string, any>)[kitSlug];
       });
 
       if (!term) return baseFiltered;
