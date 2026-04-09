@@ -411,6 +411,10 @@ function HomeContent() {
   const [currency, setCurrency] = useState<CurrencyCode>("USD");
   const [mobilePanel, setMobilePanel] = useState<"summary" | "cost" | null>(null);
   const [discount, setDiscount] = useState<number>(0);
+  const [showAwol, setShowAwol] = useState(true);
+  const [showLegends, setShowLegends] = useState(true);
+  const [showForgeworld, setShowForgeworld] = useState(true);
+  const [showAllied, setShowAllied] = useState(true);
   const [emailOpen, setEmailOpen] = useState(false);
   const [emailValue, setEmailValue] = useState("");
   const [selectedOverviewUnitId, setSelectedOverviewUnitId] = useState<string | null>(null);
@@ -681,6 +685,37 @@ function HomeContent() {
       u.name.toLowerCase().includes(term)
     );
   }, [search, units, selectedFactionSlug, activeKits]);
+
+  const visibleUnits = useMemo(() => {
+    return filteredUnits.filter((unit) => {
+      const kitSlugRaw = kitMappingsForFaction[unit.id];
+      const kitSlug = Array.isArray(kitSlugRaw) ? kitSlugRaw[0] : kitSlugRaw;
+
+      let hasMapping = false;
+      if (kitSlug) {
+        if (selectedFactionSlug === "space-marines") {
+          hasMapping = Boolean((activeKits as Record<string, unknown>)[kitSlug]);
+        } else {
+          hasMapping = Boolean((KIT_REGISTRY[selectedFactionSlug] ?? {})[kitSlug]);
+        }
+      }
+
+      if (hasMapping) return true;
+      if (unit.availability === "forgeworld") return showForgeworld;
+      if (unit.availability === "legends") return showLegends;
+      if (unit.availability === "allied") return showAllied;
+      return showAwol;
+    });
+  }, [
+    filteredUnits,
+    kitMappingsForFaction,
+    selectedFactionSlug,
+    activeKits,
+    showAwol,
+    showLegends,
+    showForgeworld,
+    showAllied,
+  ]);
 
   const armySummaryUnits = useMemo(
     () => units.filter((u) => (quantities[u.id] ?? 0) > 0),
@@ -987,14 +1022,22 @@ function HomeContent() {
               })()}
 
             <UnitTable
-              units={filteredUnits}
+              units={visibleUnits}
               quantities={quantities}
               currency={currency}
               formatPrice={formatPrice}
               onAdd={handleAddUnit}
               onRemove={handleRemoveUnit}
-              loading={filteredUnits.length === 0 && (factionsLoading || unitsLoading)}
+              loading={visibleUnits.length === 0 && (factionsLoading || unitsLoading)}
               factionAccentColor={factionAccentColor}
+              showAwol={showAwol}
+              setShowAwol={setShowAwol}
+              showLegends={showLegends}
+              setShowLegends={setShowLegends}
+              showForgeworld={showForgeworld}
+              setShowForgeworld={setShowForgeworld}
+              showAllied={showAllied}
+              setShowAllied={setShowAllied}
               isChapterUnit={(unit) => {
                 const kitSlugRaw = KIT_MAPPINGS_REGISTRY["space-marines"]?.[unit.id];
                 const kitSlug = Array.isArray(kitSlugRaw) ? kitSlugRaw[0] : kitSlugRaw;

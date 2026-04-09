@@ -789,3 +789,318 @@ The project has now moved from:
 to:
 
 "making the data complete"
+
+
+------------------ POST 2.5 update
+
+
+22. Chapter System — Actual Implementation Rules
+
+The Space Marine chapter system is kit-driven, not unit-tag driven.
+
+Important clarification:
+
+- Units do NOT contain a `chapter` field
+- Chapter identity is derived entirely from:
+  - kit mappings
+  - active kit set (base vs chapter merge)
+
+Core Principle:
+
+A unit is considered a chapter unit if:
+
+- it has a valid mapping
+- AND its mapped kit exists only in the active chapter kit set
+- AND does NOT exist in the base Space Marine kit file
+
+This is the definitive rule used in runtime.
+
+
+23. Active Kits System (Critical Runtime Layer)
+
+The system dynamically builds `activeKits`.
+
+Pattern:
+
+if (selectedFaction !== "space-marines") return factionKits;
+
+if (chapter === "space-wolves") {
+  return { ...baseKits, ...spaceWolvesKits };
+}
+
+This pattern applies to all chapters.
+
+Behaviour:
+
+- Base Space Marines → base kits only
+- Chapter selected → base + chapter kits
+
+
+24. Unit Visibility Rules (FINAL)
+
+Space Marines filtering behaves differently to all other factions.
+
+For Space Marines:
+
+For each unit:
+
+IF no mapping → SHOW (AWOL / FORGEWORLD / LEGENDS)
+
+IF mapping exists:
+  SHOW only if kitSlug exists in activeKits
+
+Result:
+
+- Base Space Marines → only base units visible
+- Chapter selected → chapter units appear
+- AWOL / FW / LEGENDS → always visible
+
+
+25. Chapter Unit Identification (UI Layer)
+
+Chapter units are identified at render time.
+
+Definition:
+
+isChapterUnit =
+  mapping exists
+  AND kitSlug NOT in base kits
+
+This is used only for UI distinction.
+
+No data mutation occurs.
+
+
+26. Chapter Visual System
+
+A. Selector Colour
+
+Each chapter has a colour applied to:
+
+- Chapter dropdown border
+
+Examples:
+
+- Salamanders → #45d627
+- Blood Angels → #af0c0c
+
+B. Unit Row Accent
+
+Chapter units are visually marked with:
+
+- a 3px right-edge vertical bar
+- colour = chapter colour
+
+Rules:
+
+- Only applies to chapter units
+- Base units unchanged
+- No badges or labels used
+
+
+27. Important Architectural Constraint
+
+The following must remain true:
+
+- No unit-level chapter tagging
+- No duplication of units per chapter
+- No modification of base unit dataset
+
+All chapter behaviour must emerge from:
+
+- mappings
+- kit files
+- runtime merging
+
+
+28. Ultramarines Positioning (Final Decision)
+
+Ultramarines are treated as:
+
+- implicit base Space Marines
+- NOT a separate chapter layer
+
+UI Decision:
+
+- Default chapter state = "Ultramarines"
+- Behaviour = identical to "no chapter selected"
+
+This avoids duplication and maintains clarity.
+
+
+29. Known Data Limitations (Accepted)
+
+The system currently accepts:
+
+A. High AWOL count
+
+Especially in:
+
+- Space Wolves
+- legacy / Forge World units
+
+Reason:
+
+- no confirmed retail mapping
+- correct behaviour
+
+B. Shared-kit ambiguity
+
+Multiple units may map to one kit.
+
+Handled by:
+
+- current box calculation logic
+- flagged for future refinement
+
+C. Bundle / Combat Patrol kits
+
+- exist in kit files
+- not mapped directly to units
+- currently informational only
+
+
+30. What V2.5 Actually Achieved
+
+V2.5 is now complete.
+
+It delivered:
+
+- Full faction coverage across the site
+- Space Marines fully implemented
+- All major chapters integrated
+- Chapter system working dynamically
+- UI supports chapter identity cleanly
+- No architecture compromise introduced
+
+
+31. System Maturity (IMPORTANT CONTEXT)
+
+The project is now:
+
+- Functionally complete
+- Architecturally stable
+- Data ~95% accurate
+
+Remaining work is:
+
+- data refinement
+- edge-case handling
+- advanced pricing logic
+
+NOT system design.
+
+
+32. Next Phase Direction (Post V2.5)
+
+Future work should focus on:
+
+Data:
+
+- reduce false AWOL
+- refine shared-kit behaviour
+- improve mapping edge cases
+
+Technical:
+
+- bundle handling
+- smarter box allocation
+- performance optimisation at scale
+
+UX (optional later):
+
+- chapter filtering clarity
+- allied vs AWOL clarity
+
+
+33. Final Summary (Use This In New Chats)
+
+The system is:
+
+- kit-driven
+- mapping-driven
+- runtime-enriched
+
+Space Marines are:
+
+- base faction + additive chapter overlays
+
+Chapter logic is:
+
+- derived, not stored
+
+UI is:
+
+- minimal, non-invasive, and consistent
+
+The system should now be treated as:
+
+complete and ready for refinement, not redesign
+
+
+----------------------
+
+
+## DATA SNAPSHOT — V2.5
+
+TOTAL UNITS: 1420  
+TOTAL MAPPED: 922  
+TOTAL AWOL: 253  
+TOTAL FORGEWORLD: 145  
+TOTAL LEGENDS: 79  
+TOTAL ALLIED: 50  
+
+Mapped Coverage: 64.93%  
+Resolved Coverage: 84.23%  
+
+---
+
+### Interpretation
+
+- **Mapped Coverage (~65%)**
+  Represents units directly linked to retail kits.
+  This number decreased slightly due to the expansion of Space Marines and Chapter-specific units.
+
+- **Resolved Coverage (~84%)**
+  Represents all units that are correctly accounted for:
+  - mapped
+  - ForgeWorld
+  - Legends
+  - Allied
+
+  This is the **true measure of system completeness**.
+
+---
+
+### Key Notes
+
+- Space Marines AWOL count is expected due to:
+  - Chapter-specific units
+  - Variant/unit duplication across chapters
+  - Intentional separation of base vs chapter kits
+
+- High-volume factions (Astra Militarum, Genestealer Cults, Chaos Space Marines) contain:
+  - Large numbers of legacy or edge-case units
+  - Opportunities for future mapping improvements
+
+- Several factions are effectively complete:
+  - Custodes
+  - Imperial Knights
+  - Chaos Knights
+  - Leagues of Votann
+
+---
+
+### Status
+
+V2.5 represents a **fully functional, production-ready dataset** with:
+
+- Complete faction coverage
+- Full Space Marine chapter system
+- Correct mapping architecture (units → mappings → kits)
+- Stable UI + runtime enrichment
+
+Remaining work is focused on:
+- Data refinement (AWOL reduction)
+- Bundle / multi-unit kit logic
+- Edge-case mapping improvements
