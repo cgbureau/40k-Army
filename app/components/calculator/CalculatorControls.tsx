@@ -41,6 +41,18 @@ function CalculatorControls({
   searchInputRef,
 }: CalculatorControlsProps) {
   const [showDiscountEmpty, setShowDiscountEmpty] = useState(false);
+  const chapterColors: Record<string, string> = {
+    "": "#566e9f", // Ultramarines (default/base)
+    "space-wolves": "#afc9f9",
+    salamanders: "#45d627",
+    "dark-angels": "#1e7708",
+    "blood-angels": "#af0c0c",
+    "black-templars": "#221f20",
+    deathwatch: "#221f20",
+    "imperial-fists": "#f4e803",
+    "iron-hands": "#727272",
+    "raven-guard": "#221f20",
+  };
 
   return (
     <>
@@ -200,11 +212,10 @@ function CalculatorControls({
                   id="chapter-select"
                   value={chapter ?? ""}
                   onChange={(e) => setChapter(e.target.value || null)}
-                  className={`w-full max-w-[240px] border-2 bg-[#B2C4AE] px-2 py-1 text-sm font-plex-mono rounded-none focus:outline-none focus:ring-0 min-w-0 text-[#231F20] ${
-                    chapter === "space-wolves"
-                      ? "border-blue-600"
-                      : "border-[#231F20]"
-                  }`}
+                  className="w-full max-w-[240px] border-2 bg-[#B2C4AE] px-2 py-1 text-sm font-plex-mono rounded-none focus:outline-none focus:ring-0 min-w-0 text-[#231F20]"
+                  style={{
+                    borderColor: chapterColors[chapter ?? ""] || "#231F20",
+                  }}
                   disabled={selectedFactionSlug !== "space-marines"}
                 >
                   <option value="">Ultramarines</option>

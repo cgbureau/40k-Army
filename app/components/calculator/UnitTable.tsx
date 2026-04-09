@@ -32,6 +32,8 @@ export type UnitTableProps = {
   onRemove: (unitId: string) => void;
   loading: boolean;
   factionAccentColor: string;
+  isChapterUnit?: (unit: UnitTableUnit) => boolean;
+  chapterColor?: string;
 };
 
 function UnitTable({
@@ -43,6 +45,8 @@ function UnitTable({
   onRemove,
   loading,
   factionAccentColor,
+  isChapterUnit,
+  chapterColor,
 }: UnitTableProps) {
   return (
     <>
@@ -80,6 +84,8 @@ function UnitTable({
                 modelsPerUnit={unit.models_per_unit ?? null}
                 availability={unit.availability}
                 index={index}
+                isChapterUnit={isChapterUnit?.(unit)}
+                chapterColor={chapterColor}
               />
             ))}
           </div>

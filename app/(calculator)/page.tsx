@@ -137,6 +137,19 @@ const CURRENCY_SYMBOLS: Record<CurrencyCode, string> = {
   PLN: "zł",
 };
 
+const CHAPTER_COLORS: Record<string, string> = {
+  "": "#566e9f",
+  "space-wolves": "#afc9f9",
+  salamanders: "#45d627",
+  "dark-angels": "#1e7708",
+  "blood-angels": "#af0c0c",
+  "black-templars": "#221f20",
+  deathwatch: "#221f20",
+  "imperial-fists": "#f4e803",
+  "iron-hands": "#727272",
+  "raven-guard": "#221f20",
+};
+
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 /** Resolved numeric price: selected currency, then GBP fallback, then 0 (never NaN). */
@@ -982,6 +995,17 @@ function HomeContent() {
               onRemove={handleRemoveUnit}
               loading={filteredUnits.length === 0 && (factionsLoading || unitsLoading)}
               factionAccentColor={factionAccentColor}
+              isChapterUnit={(unit) => {
+                const kitSlugRaw = KIT_MAPPINGS_REGISTRY["space-marines"]?.[unit.id];
+                const kitSlug = Array.isArray(kitSlugRaw) ? kitSlugRaw[0] : kitSlugRaw;
+                return Boolean(
+                  selectedFactionSlug === "space-marines" &&
+                    chapter &&
+                    kitSlug &&
+                    !spaceMarinesKits[kitSlug as keyof typeof spaceMarinesKits]
+                );
+              }}
+              chapterColor={CHAPTER_COLORS[chapter ?? ""] || "#231F20"}
             />
           </section>
 

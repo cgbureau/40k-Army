@@ -19,6 +19,8 @@ export type UnitRowProps = {
   modelsPerUnit: number | null;
   availability: "retail" | "legends" | "forgeworld" | "allied" | undefined;
   index: number;
+  isChapterUnit?: boolean;
+  chapterColor?: string;
 };
 
 function UnitRow({
@@ -32,6 +34,8 @@ function UnitRow({
   modelsPerUnit,
   availability,
   index,
+  isChapterUnit,
+  chapterColor,
 }: UnitRowProps) {
   const hasKitData =
     price !== "--" &&
@@ -47,7 +51,7 @@ function UnitRow({
 
   return (
     <div
-      className={`border-t border-[#231F20] px-2 py-[9px] ${
+      className={`border-t border-[#231F20] px-2 py-[9px] relative ${
         index % 2 === 0 ? "bg-[#B2C4AE]" : "bg-[#A8BAA3]"
       }`}
     >
@@ -136,6 +140,12 @@ function UnitRow({
           </button>
         </div>
       </div>
+      {isChapterUnit && (
+        <div
+          className="absolute top-0 right-0 h-full w-[3px]"
+          style={{ backgroundColor: chapterColor || "#231F20" }}
+        />
+      )}
     </div>
   );
 }
