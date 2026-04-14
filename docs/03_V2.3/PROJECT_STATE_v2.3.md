@@ -697,3 +697,6 @@ The product is no longer just an experiment.
 It is now a real tool in active build-out.
 
 ---
+
+⚠️ This document is now superseded by PROJECT_OVERVIEW_v2.5.md  
+This file is retained for historical reference only.

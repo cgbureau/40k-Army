@@ -1,0 +1,348 @@
+{
+  "Chaos-Space-Marines-Sorcerer-2019": {
+    "display_name": "Chaos Space Marines Sorcerer",
+    "slug_short": "Chaos-Space-Marines-Sorcerer",
+    "models": 1,
+    "prices": {
+      "USD": 35.0,
+      "GBP": 20.5,
+      "AUD": 55.5,
+      "CAD": 41.0,
+      "EUR": 26.0,
+      "PLN": 115.0,
+      "CHF": 26.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070102015_CSMSorcerer01.jpg",
+    "year": 2019
+  },
+  "combat-patrol-emperors-children-2025": {
+    "display_name": "Combat Patrol: Emperor's Children",
+    "slug_short": "combat-patrol-emperors-children",
+    "models": 17,
+    "prices": {
+      "USD": 170.0,
+      "GBP": 105.0,
+      "AUD": 285.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102207_ECCombatPatrol01.jpg",
+    "year": 2025
+  },
+  "emperors-children-fulgrim-2025": {
+    "display_name": "Fulgrim – Daemon Primarch of Slaanesh",
+    "slug_short": "emperors-children-fulgrim",
+    "models": 1,
+    "prices": {
+      "USD": 175.0,
+      "GBP": 105.5,
+      "AUD": 295.0,
+      "CAD": 210.0,
+      "EUR": 135.0,
+      "PLN": 580.0,
+      "CHF": 140.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102200_ECFulgrim01.jpg",
+    "year": 2025
+  },
+  "Chaos-Space-Marine-Terminators-2019": {
+    "display_name": "Chaos Terminator Squad",
+    "slug_short": "Chaos-Space-Marine-Terminators",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102097_CSMTerminators01.jpg",
+    "year": 2019
+  },
+  "emperors-children-tormentors-2025": {
+    "display_name": "Tormentors",
+    "slug_short": "emperors-children-tormentors",
+    "models": 10,
+    "prices": {
+      "USD": 70.0,
+      "GBP": 44.0,
+      "AUD": 120.0,
+      "CAD": 85.0,
+      "EUR": 55.0,
+      "PLN": 240.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102203_ECTormentors01.jpg",
+    "year": 2025
+  },
+  "emperors-children-noise-marines-2025": {
+    "display_name": "Noise Marines",
+    "slug_short": "emperors-children-noise-marines",
+    "models": 6,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102204_ECNoiseMarines01.jpg",
+    "year": 2025
+  },
+  "emperors-children-lord-exultant-2025": {
+    "display_name": "Lord Exultant",
+    "slug_short": "emperors-children-lord-exultant",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 75.5,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102206_ECLordExultant01.jpg",
+    "year": 2025
+  },
+  "emperors-children-lucius-the-eternal-2025": {
+    "display_name": "Lucius the Eternal",
+    "slug_short": "emperors-children-lucius-the-eternal",
+    "models": 1,
+    "prices": {
+      "USD": 48.0,
+      "GBP": 29.5,
+      "AUD": 79.5,
+      "CAD": 57.0,
+      "EUR": 37.0,
+      "PLN": 160.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102201_ECLuciusTheEternal01.jpg",
+    "year": 2025
+  },
+  "emperors-children-flawless-blades-2025": {
+    "display_name": "Flawless Blades",
+    "slug_short": "emperors-children-flawless-blades",
+    "models": 3,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 105.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102202_ECFlawlessBlades01.jpg",
+    "year": 2025
+  },
+  "emperors-children-lord-kakophonist-2025": {
+    "display_name": "Lord Kakophonist",
+    "slug_short": "emperors-children-lord-kakophonist",
+    "models": 1,
+    "prices": {
+      "USD": 42.0,
+      "GBP": 26.0,
+      "AUD": 74.0,
+      "CAD": 53.0,
+      "EUR": 34.0,
+      "PLN": 145.0,
+      "CHF": 34.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102205_ECLordKakophonist01.jpg",
+    "year": 2025
+  },
+  "slaves-to-darkness-daemon-prince-2023": {
+    "display_name": "Daemon Prince",
+    "slug_short": "slaves-to-darkness-daemon-prince",
+    "models": 1,
+    "prices": {
+      "USD": 89.0,
+      "GBP": 54.5,
+      "AUD": 150.0,
+      "CAD": 107.0,
+      "EUR": 70.0,
+      "PLN": 300.0,
+      "CHF": 70.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201130_S2DDaemonPrince01.jpg",
+    "year": 2023
+  },
+  "Chaos-Space-Marine-Maulerfiend-2019": {
+    "display_name": "Maulerfiend",
+    "slug_short": "Chaos-Space-Marine-Maulerfiend",
+    "models": 1,
+    "prices": {
+      "USD": 89.0,
+      "GBP": 54.5,
+      "CAD": 107.0,
+      "EUR": 70.0,
+      "PLN": 300.0,
+      "CHF": 70.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102089_CSMForgefiend02.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marine-Rhino-2019": {
+    "display_name": "Chaos Rhino",
+    "slug_short": "Chaos-Space-Marine-Rhino",
+    "models": 1,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 36.0,
+      "AUD": 74.0,
+      "CAD": 70.0,
+      "EUR": 47.5,
+      "PLN": 200.0,
+      "CHF": 47.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102092_CSMRhino01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Heldrake-2019": {
+    "display_name": "Heldrake",
+    "slug_short": "Chaos-Space-Marines-Heldrake",
+    "models": 1,
+    "prices": {
+      "USD": 89.0,
+      "GBP": 55.0,
+      "AUD": 86.0,
+      "CAD": 107.0,
+      "EUR": 70.0,
+      "PLN": 305.0,
+      "CHF": 70.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102090_CSMHeldrake01.jpg",
+    "year": 2019
+  },
+  "Chaos-Space-Marines-Land-Raider": {
+    "display_name": "Chaos Land Raider",
+    "slug_short": "Chaos-Space-Marines-Land-Raider",
+    "models": 1,
+    "prices": {
+      "USD": 96.0,
+      "GBP": 58.0,
+      "AUD": 133.0,
+      "CAD": 116.0,
+      "PLN": 320.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102052_CSMLandRaiderRepack01.jpg",
+    "year": null
+  },
+  "chaos-space-marines-defiler-2026": {
+    "display_name": "Defiler",
+    "slug_short": "chaos-space-marines-defiler",
+    "models": 1,
+    "prices": {
+      "USD": 145.0,
+      "GBP": 88.0,
+      "AUD": 245.0,
+      "CAD": 175.0,
+      "EUR": 115.0,
+      "PLN": 485.0,
+      "CHF": 115.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120102229_CSMDefiler2.jpg",
+    "year": 2026
+  },
+  "Chaos-Spawn-2016": {
+    "display_name": "Chaos Spawn",
+    "slug_short": "Chaos-Spawn",
+    "models": 2,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 35.5,
+      "AUD": 74.0,
+      "CAD": 70.0,
+      "EUR": 45.0,
+      "PLN": 195.0,
+      "CHF": 45.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120201050_ChaosSpawn01.jpg",
+    "year": 2016
+  },
+  "Daemonettes-of-Slaanesh-2021": {
+    "display_name": "Daemonettes of Slaanesh",
+    "slug_short": "Daemonettes-of-Slaanesh",
+    "models": 10,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 65.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915036_Daemonettes01.jpg",
+    "year": 2021
+  },
+  "Shalaxi-Hellbane-2019": {
+    "display_name": "Shalaxi Helbane",
+    "slug_short": "Shalaxi-Hellbane",
+    "models": null,
+    "prices": {
+      "USD": 170.0,
+      "GBP": 105.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915056_DoSKeeperofSecrets02.jpg",
+    "year": 2019
+  },
+  "Keeper-of-Secrets-2019": {
+    "display_name": "Keeper of Secrets",
+    "slug_short": "Keeper-of-Secrets",
+    "models": null,
+    "prices": {
+      "USD": 170.0,
+      "GBP": 105.0,
+      "AUD": 278.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915056_DoSKeeperofSecrets01.jpg",
+    "year": 2019
+  },
+  "Fiends-of-Slaanesh-2019": {
+    "display_name": "Fiends",
+    "slug_short": "Fiends-of-Slaanesh",
+    "models": null,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915052_DoSFiends01.jpg",
+    "year": 2019
+  },
+  "Seekers-of-Slaanesh": {
+    "display_name": "Seekers of Slaanesh",
+    "slug_short": "Seekers-of-Slaanesh",
+    "models": null,
+    "prices": {
+      "USD": 35.0,
+      "GBP": 21.5,
+      "AUD": 52.0,
+      "CAD": 42.5,
+      "PLN": 121.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99129915005_SeekersLeadNEW.jpg",
+    "year": null
+  }
+}
