@@ -1,0 +1,545 @@
+{
+  "Aestred-Thurga-Relinquant-At-Arms": {
+    "display_name": "Aestred Thurga, Reliquant at Arms",
+    "slug_short": "Aestred-Thurga-Relinquant-At-Arms",
+    "models": 2,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108050_SoBAestredThurgaRelinquantatArmsLead.jpg",
+    "year": null
+  },
+  "combat-patrol-adepta-soritas-2024": {
+    "display_name": "Combat Patrol: Adepta Sororitas",
+    "slug_short": "combat-patrol-adepta-soritas",
+    "models": 27,
+    "prices": {
+      "USD": 170.0,
+      "GBP": 105.0,
+      "AUD": 285.0,
+      "CAD": 205.0,
+      "EUR": 135.0,
+      "PLN": 565.0,
+      "CHF": 135.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108100_ASCombatPatrol01.jpg",
+    "year": 2024
+  },
+  "Adepta-Sororitas-Castigator": {
+    "display_name": "Castigator",
+    "slug_short": "Adepta-Sororitas-Castigator",
+    "models": 1,
+    "prices": {
+      "USD": 92.0,
+      "GBP": 57.0,
+      "AUD": 155.0,
+      "CAD": 112.0,
+      "EUR": 72.5,
+      "PLN": 310.0,
+      "CHF": 72.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108048_SoBCastigatorLead.jpg",
+    "year": null
+  },
+  "Morvenn-Vahl-Abbess-Sanctorum-2021": {
+    "display_name": "Morvenn Vahl, Abbess Sanctorum of the Adepta Sororitas",
+    "slug_short": "Morvenn-Vahl-Abbess-Sanctorum",
+    "models": 1,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 210.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108047_SoBMorvennVahlAbbessSanctorumLead.jpg",
+    "year": 2021
+  },
+  "Adepta-Sororitas-Paragon-Warsuit-2021": {
+    "display_name": "Paragon Warsuits",
+    "slug_short": "Adepta-Sororitas-Paragon-Warsuit",
+    "models": 1,
+    "prices": {
+      "USD": 82.0,
+      "GBP": 49.5,
+      "AUD": 133.0,
+      "CAD": 98.0,
+      "EUR": 64.0,
+      "PLN": 270.0,
+      "CHF": 64.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108046_SoBParagonWarsuitsLead.jpg",
+    "year": 2021
+  },
+  "Adepta-Sororitas-Celestian-Sacresants-2021": {
+    "display_name": "Celestian Sacresants",
+    "slug_short": "Adepta-Sororitas-Celestian-Sacresants",
+    "models": 1,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108045_SoBCelestianSacresantsLead.jpg",
+    "year": 2021
+  },
+  "Adepta-Sororitas-Sister-Dogmata-2021": {
+    "display_name": "Sister Dogmata",
+    "slug_short": "Adepta-Sororitas-Sister-Dogmata",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108008_SoBSisterDogmataLead.jpg",
+    "year": 2021
+  },
+  "Adepta-Sororitas-Palatine-2021": {
+    "display_name": "Palatine",
+    "slug_short": "Adepta-Sororitas-Palatine",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108007_PalatineLead.jpg",
+    "year": 2021
+  },
+  "Daemonifuge-Ephrael-Stern-and-Kyganil-2020": {
+    "display_name": "Daemonifuge – Ephrael Stern & Kyganil",
+    "slug_short": "Daemonifuge-Ephrael-Stern-and-Kyganil",
+    "models": 1,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120199073_DaemonifugeEphraelSternKyganilLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Zephyrim-Squad-2020": {
+    "display_name": "Zephyrim Squad",
+    "slug_short": "Adepta-Sororitas-Zephyrim-Squad",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108040_SeraphimZephyrimGroup.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Seraphim-Squad-2020": {
+    "display_name": "Seraphim Squad",
+    "slug_short": "Adepta-Sororitas-Seraphim-Squad",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108040_SeraphimZephyrimLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Rhino-2020": {
+    "display_name": "Adepta Sororitas Rhino",
+    "slug_short": "Adepta-Sororitas-Rhino",
+    "models": 1,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 80.0,
+      "EUR": 54.5,
+      "PLN": 220.0,
+      "CHF": 54.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108039_RhinoLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Repentia-Squad-2020": {
+    "display_name": "Repentia Squad",
+    "slug_short": "Adepta-Sororitas-Repentia-Squad",
+    "models": 10,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108036_SoBRepSquadLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Canoness-2020": {
+    "display_name": "Canoness",
+    "slug_short": "Adepta-Sororitas-Canoness",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108034_SoBCanonessLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Immolator-2020": {
+    "display_name": "Immolator",
+    "slug_short": "Adepta-Sororitas-Immolator",
+    "models": 1,
+    "prices": {
+      "USD": 84.0,
+      "GBP": 52.5,
+      "AUD": 140.0,
+      "CAD": 100.0,
+      "EUR": 67.5,
+      "PLN": 295.0,
+      "CHF": 67.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108025_SoBImmolatorLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Dialogus-2020": {
+    "display_name": "Dialogus",
+    "slug_short": "Adepta-Sororitas-Dialogus",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108022_SoBDialogusLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Imagifier-2020": {
+    "display_name": "Imagifier",
+    "slug_short": "Adepta-Sororitas-Imagifier",
+    "models": 1,
+    "prices": {
+      "USD": 35.0,
+      "GBP": 20.5,
+      "AUD": 55.5,
+      "CAD": 41.0,
+      "EUR": 26.0,
+      "PLN": 115.0,
+      "CHF": 26.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108006_SoBImagifierLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Arco-Flagellants-2020": {
+    "display_name": "Arco-flagellants",
+    "slug_short": "Adepta-Sororitas-Arco-Flagellants",
+    "models": 5,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 38.0,
+      "AUD": 103.0,
+      "CAD": 74.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108032_ArcoFlagellants01.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Junith-Eruita-2020": {
+    "display_name": "Junith Eruita",
+    "slug_short": "Adepta-Sororitas-Junith-Eruita",
+    "models": 1,
+    "prices": {
+      "USD": 60.0,
+      "GBP": 35.5,
+      "AUD": 96.0,
+      "CAD": 70.0,
+      "EUR": 45.0,
+      "PLN": 195.0,
+      "CHF": 45.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108026_JunithEruita01.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Exorcist-2020": {
+    "display_name": "Exorcist",
+    "slug_short": "Adepta-Sororitas-Exorcist",
+    "models": 1,
+    "prices": {
+      "USD": 92.0,
+      "GBP": 57.0,
+      "AUD": 155.0,
+      "CAD": 112.0,
+      "EUR": 72.5,
+      "PLN": 310.0,
+      "CHF": 72.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108023_SoBExorcist01.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Retributor-Squad-2020": {
+    "display_name": "Retributor Squad",
+    "slug_short": "Adepta-Sororitas-Retributor-Squad",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108038_SoBRetributorSquad01.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-The-Triumph-Of-St-Katherine-2020": {
+    "display_name": "The Triumph of Saint Katherine",
+    "slug_short": "Adepta-Sororitas-The-Triumph-Of-St-Katherine",
+    "models": 11,
+    "prices": {
+      "USD": 122.0,
+      "GBP": 74.0,
+      "AUD": 207.0,
+      "CAD": 146.0,
+      "EUR": 97.0,
+      "PLN": 405.0,
+      "CHF": 97.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108037_TriumphofKatherine01.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Battle-Sisters-Squad-2020": {
+    "display_name": "Adepta Sororitas Battle Sisters Squad",
+    "slug_short": "Adepta-Sororitas-Battle-Sisters-Squad",
+    "models": 10,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108033_SoBSquad01.jpg",
+    "year": 2020
+  },
+  "Sister-Superior-Amalia-Novena-2019": {
+    "display_name": "Sister Superior Amalia Novena",
+    "slug_short": "Sister-Superior-Amalia-Novena",
+    "models": 1,
+    "prices": {
+      "USD": 39.0,
+      "GBP": 25.0,
+      "AUD": 67.0,
+      "CAD": 50.0,
+      "EUR": 32.5,
+      "PLN": 140.0,
+      "CHF": 32.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108020_SisterAmaliaNovena01.jpg",
+    "year": 2019
+  },
+  "Space-Marine-Celestine-The-Living-Saint-2018": {
+    "display_name": "Celestine, the Living Saint",
+    "slug_short": "Space-Marine-Celestine-The-Living-Saint",
+    "models": 3,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108008_TriumvirateoftheImperium06.jpg",
+    "year": 2018
+  },
+  "Adepta-Sororitas-Dominions-Celestians-2020": {
+    "display_name": "Adepta Sororitas Dominion Squad",
+    "slug_short": "Adepta-Sororitas-Dominions-Celestians",
+    "models": 5,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108033_SoBDominions1.jpg",
+    "year": 2020
+  },
+  "adepta-sororitas-sisters-novitiate-squad-2025": {
+    "display_name": "Sisters Novitiate Squad",
+    "slug_short": "adepta-sororitas-sisters-novitiate-squad",
+    "models": 10,
+    "prices": {
+      "USD": 64.0,
+      "GBP": 38.5,
+      "AUD": 108.0,
+      "CAD": 78.0,
+      "EUR": 50.0,
+      "PLN": 210.0,
+      "CHF": 50.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108121_CalanathGroup1.jpg",
+    "year": 2025
+  },
+  "kill-team-sanctifiers-2025": {
+    "display_name": "Kill Team: Sanctifiers",
+    "slug_short": "kill-team-sanctifiers",
+    "models": 10,
+    "prices": {
+      "USD": 69.0,
+      "GBP": 42.5,
+      "AUD": 117.0,
+      "CAD": 83.0,
+      "EUR": 55.0,
+      "PLN": 230.0,
+      "CHF": 55.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108116_KillTeamSanctifiers01.jpg",
+    "year": 2025
+  },
+  "adepta-sororitas-canoness-with-jump-pack-2024": {
+    "display_name": "Canoness with Jump Pack",
+    "slug_short": "adepta-sororitas-canoness-with-jump-pack",
+    "models": 1,
+    "prices": {
+      "USD": 47.0,
+      "GBP": 28.0,
+      "AUD": 78.0,
+      "CAD": 56.0,
+      "EUR": 37.0,
+      "PLN": 155.0,
+      "CHF": 37.0
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108103_ASCanonessJumpPack1.jpg",
+    "year": 2024
+  },
+  "adepta-sororitas-ministorum-priest-2024": {
+    "display_name": "Ministorum Priest",
+    "slug_short": "adepta-sororitas-ministorum-priest",
+    "models": 1,
+    "prices": {
+      "USD": 35.0,
+      "GBP": 23.0,
+      "AUD": 60.0,
+      "CAD": 45.0,
+      "EUR": 29.5,
+      "PLN": 125.0,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108011_ASMinistorumPriest01.jpg",
+    "year": 2024
+  },
+  "adepta-sororitas-ministorum-priest-with-vindicator-2024": {
+    "display_name": "Ministorum Priest with Vindictor",
+    "slug_short": "adepta-sororitas-ministorum-priest-with-vindicator",
+    "models": 1,
+    "prices": {
+      "USD": 35.0,
+      "GBP": 23.0,
+      "AUD": 59.0,
+      "CAD": 45.0,
+      "EUR": 29.5,
+      "PLN": 125.0,
+      "CHF": 29.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99070108012_ASMinistorumPriestWithVindictor01.jpg",
+    "year": 2024
+  },
+  "Adepta-Sororitas-Mortifier-2020": {
+    "display_name": "Mortifiers",
+    "slug_short": "Adepta-Sororitas-Mortifier",
+    "models": 2,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108035_ASMortifierLead.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Penitent-Engines-2020": {
+    "display_name": "Penitent Engines",
+    "slug_short": "Adepta-Sororitas-Penitent-Engines",
+    "models": 2,
+    "prices": {
+      "USD": 65.0,
+      "GBP": 40.0,
+      "AUD": 110.0,
+      "CAD": 78.0,
+      "EUR": 51.5,
+      "PLN": 215.0,
+      "CHF": 51.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108035_PenitentEngines01.jpg",
+    "year": 2020
+  },
+  "Adepta-Sororitas-Hospitaller-2020": {
+    "display_name": "Hospitaller",
+    "slug_short": "Adepta-Sororitas-Hospitaller",
+    "models": 1,
+    "prices": {
+      "USD": 43.5,
+      "GBP": 27.0,
+      "AUD": 71.0,
+      "CAD": 54.0,
+      "EUR": 34.5,
+      "PLN": 152.5,
+      "CHF": 34.5
+    },
+    "image": "https://www.warhammer.com/app/resources/catalog/product/920x950/99120108024_Hospitaller01.jpg",
+    "year": 2020
+  }
+}
