@@ -564,7 +564,7 @@ function HomeContent() {
   useEffect(() => {
     if (!factionDisplayName) return;
 
-    const link = buildAmazonAffiliateLink({ factionName: factionDisplayName });
+    const link = buildAmazonAffiliateLink({ factionName: factionDisplayName, region: "AU" });
     setAmazonLink(link);
   }, [factionDisplayName]);
 
