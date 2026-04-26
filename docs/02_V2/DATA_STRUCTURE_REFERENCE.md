@@ -1,12 +1,14 @@
 # DATA STRUCTURE REFERENCE
 
-This document defines the canonical data architecture for the 40KArmy calculator.
+This document defines the canonical data architecture for the 40KArmy
+calculator.
 
-All future development must respect these structures to avoid breaking the application.
+All future development must respect these structures to avoid breaking the
+application.
 
 ---
 
-# Core System Architecture
+## Core System Architecture
 
 The calculator uses a 3-layer data pipeline.
 
@@ -18,7 +20,7 @@ Each layer serves a different purpose and must remain separated.
 
 ---
 
-# Layer 1 — Units
+## Layer 1 — Units
 
 File:
 
@@ -35,14 +37,14 @@ Fields typically include:
 
 Example:
 
-
+```json
 {
-"name": "Rubric Marines",
-"slug": "rubric_marines",
-"points": 105,
-"faction": "thousand_sons"
+  "name": "Rubric Marines",
+  "slug": "rubric_marines",
+  "points": 105,
+  "faction": "thousand_sons"
 }
-
+```
 
 Important rules:
 
@@ -54,7 +56,7 @@ This dataset is sourced from Wahapedia and represents gameplay data only.
 
 ---
 
-# Layer 2 — Kit Mappings
+## Layer 2 — Kit Mappings
 
 File location:
 
@@ -64,15 +66,17 @@ These files map a gameplay unit to the retail kit used to purchase it.
 
 Example:
 
-
+```text
 rubric_marines → rubric-marines
-
+```
 
 Example mapping file entry:
 
-
-"rubric_marines": "rubric-marines"
-
+```json
+{
+  "rubric_marines": "rubric-marines"
+}
+```
 
 Important rules:
 
@@ -84,7 +88,7 @@ This layer exists because many units share the same retail box.
 
 ---
 
-# Layer 3 — Retail Kits
+## Layer 3 — Retail Kits
 
 File location:
 
@@ -94,20 +98,22 @@ Retail kits represent physical products sold by Games Workshop.
 
 Example kit entry:
 
-
-"rubric-marines": {
-"name": "Rubric Marines",
-"models": 10,
-"purchasable": true,
-"prices": {
-"GBP": 42.5,
-"USD": 60,
-"EUR": 50,
-"AUD": 98,
-"CAD": 75
+```json
+{
+  "rubric-marines": {
+    "name": "Rubric Marines",
+    "models": 10,
+    "purchasable": true,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 98,
+      "CAD": 75
+    }
+  }
 }
-}
-
+```
 
 Fields:
 
@@ -131,7 +137,7 @@ Important rules:
 
 ---
 
-# Calculation Pipeline
+## Calculation Pipeline
 
 The application calculates army cost using the following steps:
 
@@ -145,7 +151,6 @@ The application calculates army cost using the following steps:
 
 Example:
 
-
 Rubric Marines selected: 15
 
 models per box: 10
@@ -154,10 +159,9 @@ models per box: 10
 
 2 × £42.50 = £85
 
-
 ---
 
-# Rules That Must Never Be Broken
+## Rules That Must Never Be Broken
 
 These rules protect the architecture.
 
@@ -171,7 +175,7 @@ Violating these rules will cause pricing errors and inconsistent calculations.
 
 ---
 
-# Handling Missing Kits
+## Handling Missing Kits
 
 Some units may not currently have a retail kit.
 
@@ -183,15 +187,13 @@ Possible reasons:
 
 In these cases:
 
-
 purchasable: false
-
 
 The UI should display that the unit cannot currently be purchased.
 
 ---
 
-# Summary
+## Summary
 
 The architecture of the calculator is intentionally simple:
 
@@ -205,23 +207,28 @@ Maintaining this structure ensures the system can scale to support:
 - global price updates
 - bundle and discount logic in the future
 
-
 ---
 
-# Kit Object Structure
+## Kit Object Structure
 
 Each kit entry represents a retail product sold by Games Workshop.
 
 Example:
 
-terminators:
-  models: 5
-  prices:
-    GBP: number
-    USD: number
-    EUR: number
-    AUD: number
-    CAD: number
+```ts
+type Kit = {
+  terminators: {
+    models: 5;
+    prices: {
+      GBP: number;
+      USD: number;
+      EUR: number;
+      AUD: number;
+      CAD: number;
+    };
+  };
+};
+```
 
 Field definitions:
 
@@ -233,13 +240,21 @@ Regional retail prices scraped from the official GW store.
 
 All prices represent RRP.
 
-
 ## Availability Flags
 
 Units may include an availability field:
 
-availability: "legends"
-availability: "forgeworld"
+```json
+{
+  "availability": "legends"
+}
+```
+
+```json
+{
+  "availability": "forgeworld"
+}
+```
 
 If present, the UI renders special states:
 
@@ -250,5 +265,5 @@ Units without kit mappings are treated as:
 
 AWOL → no retail kit available
 
-Availability flags do not affect cost calculations.
-They only change UI labeling.
+Availability flags do not affect cost calculations. They only change UI
+labeling.

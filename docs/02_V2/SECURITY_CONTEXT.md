@@ -1,32 +1,35 @@
 # Warhammer Army Cost Calculator — Security Context
 
-This document provides the context required to perform a **full security sweep** of the application.
+This document provides the context required to perform a **full security sweep**
+of the application.
 
-It describes the architecture, current attack surface, and how the security principles in the **Security Spine** apply to this project.
+It describes the architecture, current attack surface, and how the security
+principles in the **Security Spine** apply to this project.
 
 ---
 
-# Security Goal
+## Security Goal
 
-The application will be posted publicly to large online communities (e.g. Reddit).
-It must therefore be safe against:
+The application will be posted publicly to large online communities (e.g.
+Reddit). It must therefore be safe against:
 
-• malicious requests
-• automated scraping or abuse
-• injection attacks
-• server crashes
-• misconfigured headers
+- malicious requests
+- automated scraping or abuse
+- injection attacks
+- server crashes
+- misconfigured headers
 
 The application should also be **future-safe for scaling**.
 
 ---
 
-# Application Architecture
+## Application Architecture
 
 The app is intentionally simple.
 
 Architecture:
 
+```text
 Client (browser)
 ↓
 Next.js frontend
@@ -34,6 +37,7 @@ Next.js frontend
 Next.js API routes
 ↓
 Static JSON datasets
+```
 
 There is **no database**.
 
@@ -45,7 +49,7 @@ The server **only reads static files and returns JSON**.
 
 ---
 
-# Data Sources
+## Data Sources
 
 All data lives inside the repository:
 
@@ -64,7 +68,7 @@ Users cannot upload data.
 
 ---
 
-# API Surface
+## API Surface
 
 Two API endpoints exist.
 
@@ -86,25 +90,25 @@ Returns all units for the requested faction.
 
 Example:
 
-```
+```text
 /api/factions/orks/units
 ```
 
 The API reads:
 
-```
+```text
 data/factions/{slug}/units.json
 ```
 
 ---
 
-# Server Behaviour
+## Server Behaviour
 
 The server:
 
-• reads JSON files
-• parses them
-• returns them as JSON responses
+- reads JSON files
+- parses them
+- returns them as JSON responses
 
 There are **no POST endpoints**.
 
@@ -114,7 +118,7 @@ There is **no user data**.
 
 ---
 
-# Current Risk Surface
+## Current Risk Surface
 
 Primary potential risks:
 
@@ -122,7 +126,7 @@ Primary potential risks:
 
 A malicious user could attempt:
 
-```
+```text
 /api/factions/../../etc/passwd
 ```
 
@@ -136,8 +140,8 @@ Because the endpoints are public, someone could spam requests.
 
 Protection should include:
 
-• rate limiting
-• edge caching
+- rate limiting
+- edge caching
 
 ---
 
@@ -153,7 +157,7 @@ API parameters must be validated.
 
 Example:
 
-```
+```text
 slug must match known faction slugs
 ```
 
@@ -163,13 +167,14 @@ slug must match known faction slugs
 
 Unit names and faction names originate from internal datasets.
 
-Even though they are internal, they should be treated as **untrusted input** and rendered safely.
+Even though they are internal, they should be treated as **untrusted input** and
+rendered safely.
 
 React already escapes content by default, but this should be verified.
 
 ---
 
-# Security Spine — Relevance to this Project
+## Security Spine — Relevance to this Project
 
 The full security spine includes many categories.
 
@@ -177,72 +182,77 @@ Some **apply now**, others apply **only if the product grows**.
 
 ---
 
-# Core Environment
+## Core Environment
 
-Production environment
+Production environment:
+
 The app will be deployed publicly.
 
-Development environment
+Development environment:
+
 Local development via:
 
-```
+```text
 npm run dev
 ```
 
 ---
 
-# Middleware
+## Middleware
 
 Next.js middleware can be used for:
 
-• request validation
-• rate limiting
-• header enforcement
+- request validation
+- rate limiting
+- header enforcement
 
 ---
 
-# Data & Permissions
+## Data & Permissions
 
-Row Level Security
-Not applicable — no database.
+Row Level Security:
 
-SQL database
+Not applicable because there is no database.
+
+SQL database:
+
 Not used.
 
-Database warnings
+Database warnings:
+
 Not applicable.
 
 ---
 
-# Secrets & Credentials
+## Secrets & Credentials
 
 The app currently uses **no external APIs**.
 
 However:
 
-• environment variables must never be committed
-• future integrations must keep keys server-side
+- environment variables must never be committed
+- future integrations must keep keys server-side
 
 ---
 
-# Authentication
+## Authentication
 
 There is **no authentication system**.
 
 Future features may include:
 
-• saved army lists
-• user accounts
+- saved army lists
+- user accounts
 
 If added later, authentication must include:
 
-• secure session tokens
-• server validation
-• session expiry
+- secure session tokens
+- server validation
+- session expiry
 
 ---
 
-# Admin Interfaces
+## Admin Interfaces
 
 There is **no admin panel**.
 
@@ -250,7 +260,7 @@ If one is added in the future, it must never rely on client-side checks.
 
 ---
 
-# Request Handling
+## Request Handling
 
 Important protections for this project:
 
@@ -268,13 +278,13 @@ Validate all request parameters.
 
 ---
 
-# Security Headers
+## Security Headers
 
 The production deployment should include strong headers.
 
 Recommended:
 
-```
+```text
 Content-Security-Policy
 X-Frame-Options
 X-Content-Type-Options
@@ -286,11 +296,11 @@ These reduce common attack vectors.
 
 ---
 
-# CSP (Content Security Policy)
+## CSP (Content Security Policy)
 
 CSP should restrict script sources to:
 
-```
+```text
 self
 ```
 
@@ -298,24 +308,24 @@ No external scripts are required.
 
 ---
 
-# CORS
+## CORS
 
 API endpoints should only allow requests from the same origin.
 
 ---
 
-# CSRF
+## CSRF
 
 CSRF is minimal risk because:
 
-• no POST endpoints
-• no authenticated sessions
+- no POST endpoints
+- no authenticated sessions
 
 However headers should still enforce safe defaults.
 
 ---
 
-# XSS Protection
+## XSS Protection
 
 All dynamic content must be safely rendered.
 
@@ -323,29 +333,29 @@ React's default escaping should prevent injection.
 
 However:
 
-• avoid dangerouslySetInnerHTML
-• never render unsanitised HTML
+- avoid raw HTML rendering helpers
+- never render unsanitised HTML
 
 ---
 
-# Webhooks
+## Webhooks
 
 Not used.
 
 ---
 
-# Ingress / Egress
+## Ingress / Egress
 
 The app should minimise:
 
-• unnecessary endpoints
-• unnecessary outbound calls
+- unnecessary endpoints
+- unnecessary outbound calls
 
 Currently there are **no outbound network calls**.
 
 ---
 
-# Encryption
+## Encryption
 
 Encryption in transit:
 
@@ -357,53 +367,53 @@ Handled by hosting provider (Vercel).
 
 ---
 
-# Caching
+## Caching
 
 The API responses are ideal for caching.
 
 Recommended:
 
-• edge caching
-• immutable JSON responses
+- edge caching
+- immutable JSON responses
 
 ---
 
-# Performance Security
+## Performance Security
 
 Prevent performance-based attacks.
 
 Focus areas:
 
-• avoid excessive memory usage
-• avoid loading large datasets unnecessarily
+- avoid excessive memory usage
+- avoid loading large datasets unnecessarily
 
 Current dataset size is small (~427 units).
 
 ---
 
-# Logging
+## Logging
 
 The app should log:
 
-• server errors
-• failed requests
+- server errors
+- failed requests
 
 Logs must **not include sensitive data**.
 
 ---
 
-# Monitoring
+## Monitoring
 
 Production should include uptime monitoring.
 
 Recommended:
 
-• UptimeRobot
-• Instatus
+- UptimeRobot
+- Instatus
 
 ---
 
-# Security Audit Goal
+## Security Audit Goal
 
 The upcoming security sweep should verify:
 

@@ -2,11 +2,12 @@
 
 This document defines how pricing data works in the 40KArmy calculator.
 
-It exists to prevent future development from mixing price data with unit data or breaking the retail mapping system.
+It exists to prevent future development from mixing price data with unit data or
+breaking the retail mapping system.
 
 ---
 
-# Core Principle
+## Core Principle
 
 Prices do NOT belong to units.
 
@@ -17,14 +18,16 @@ Kits are physical products sold by Games Workshop.
 
 The correct data pipeline is:
 
+```text
 units
 → kit mappings
 → retail kits
 → price data
+```
 
 ---
 
-# Why Pricing Must Live at Kit Level
+## Why Pricing Must Live at Kit Level
 
 Many Warhammer units share the same retail kit.
 
@@ -45,43 +48,44 @@ Therefore **kits are the only place price data should exist.**
 
 ---
 
-# Retail Kit Data Structure
+## Retail Kit Data Structure
 
 Each kit entry should represent a real retail product.
 
 Example structure:
 
-
+```text
 kit_slug
 name
 models
 purchasable
 prices
 url
-
+```
 
 Example:
 
-
-"rubric-marines": {
-"name": "Rubric Marines",
-"models": 10,
-"purchasable": true,
-"prices": {
-"GBP": 42.5,
-"USD": 60,
-"EUR": 50,
-"AUD": 98,
-"CAD": 75
-},
-"url": "https://www.warhammer.com/en-GB/shop/rubric-marines
-"
+```json
+{
+  "rubric-marines": {
+    "name": "Rubric Marines",
+    "models": 10,
+    "purchasable": true,
+    "prices": {
+      "GBP": 42.5,
+      "USD": 60,
+      "EUR": 50,
+      "AUD": 98,
+      "CAD": 75
+    },
+    "url": "https://www.warhammer.com/en-GB/shop/rubric-marines"
+  }
 }
-
+```
 
 ---
 
-# Required Price Regions
+## Required Price Regions
 
 The calculator must support MSRP pricing for:
 
@@ -97,7 +101,7 @@ Prices must come from the official Games Workshop store whenever possible.
 
 ---
 
-# Handling Units That Are Not Purchasable
+## Handling Units That Are Not Purchasable
 
 Some units may exist in the rules but cannot currently be purchased.
 
@@ -110,9 +114,9 @@ Examples:
 
 These kits must be marked with:
 
-
+```text
 purchasable: false
-
+```
 
 When this occurs:
 
@@ -123,57 +127,57 @@ This preserves accuracy and avoids inventing fake prices.
 
 ---
 
-# Relationship Between Units and Kits
+## Relationship Between Units and Kits
 
 Units map to kits through the kit-mapping layer.
 
 Example:
 
-
+```text
 rubric_marines → rubric-marines
-
+```
 
 The calculator then uses:
 
-
+```text
 required models
 ÷ models per box
 = boxes required
 
 boxes required × price
 = estimated cost
-
+```
 
 ---
 
-# Box Logic
+## Box Logic
 
 A kit may contain multiple models.
 
 Example:
 
-
+```text
 rubric-marines
 models: 10
-
+```
 
 If a user selects:
 
-
+```text
 rubric marines × 15
-
+```
 
 The calculator should compute:
 
-
+```text
 15 ÷ 10 = 1.5 → 2 boxes
-
+```
 
 Then multiply by the kit price.
 
 ---
 
-# Future Improvements
+## Future Improvements
 
 Possible future improvements to the pricing layer include:
 
@@ -182,11 +186,12 @@ Possible future improvements to the pricing layer include:
 - army set boxes
 - third-party retailer discount estimates
 
-However the base system should always rely on **official MSRP** as the canonical price.
+However the base system should always rely on **official MSRP** as the canonical
+price.
 
 ---
 
-# Summary
+## Summary
 
 The pricing layer must always follow these rules:
 
@@ -197,16 +202,17 @@ The pricing layer must always follow these rules:
 5. Kits define purchasability.
 6. Prices should reflect official Games Workshop MSRP.
 
-Maintaining this structure ensures the calculator remains accurate and scalable as the dataset grows.
-
+Maintaining this structure ensures the calculator remains accurate and scalable
+as the dataset grows.
 
 ---
 
-# Pricing Philosophy
+## Pricing Philosophy
 
 All pricing stored in the dataset represents official Games Workshop RRP.
 
-Prices are scraped directly from the official Games Workshop web store for each region.
+Prices are scraped directly from the official Games Workshop web store for each
+region.
 
 Supported regions:
 
@@ -216,19 +222,19 @@ Supported regions:
 - AUD (Australia)
 - CAD (Canada)
 
-
-# Why RRP Is Used
+## Why RRP Is Used
 
 RRP provides a stable baseline across all regions.
 
 Retailers often sell at a 10–20% discount, but this varies significantly.
 
-Instead of storing discounted prices in the dataset, discounts are applied dynamically in the UI.
+Instead of storing discounted prices in the dataset, discounts are applied
+dynamically in the UI.
 
+## UI Discount System
 
-# UI Discount System
-
-The calculator includes a discount toggle allowing users to simulate retailer discounts.
+The calculator includes a discount toggle allowing users to simulate retailer
+discounts.
 
 Examples:
 

@@ -1,7 +1,6 @@
 # Kit Data Pipeline
 
-Purpose:
-Populate accurate kit data for all factions.
+Purpose: Populate accurate kit data for all factions.
 
 This stage adds two pieces of information:
 
@@ -14,14 +13,11 @@ These values must come from real retail kits.
 
 ## Data Sources
 
-Faction units:
-data/army-data-no-legends.json
+Faction units: data/army-data-no-legends.json
 
-Kit mappings:
-data/kit-mappings/{faction}.json
+Kit mappings: data/kit-mappings/{faction}.json
 
-Kit dataset:
-data/kits/{faction}.json
+Kit dataset: data/kits/{faction}.json
 
 ---
 
@@ -33,11 +29,13 @@ data/kit-mappings/{faction}.json
 
 Example:
 
+```json
 {
   "aggressor_squad": "aggressors",
   "intercessor_squad": "intercessors",
   "captain": "space-marine-captain"
 }
+```
 
 This maps each unit to a kit slug.
 
@@ -51,6 +49,7 @@ data/kits/{faction}.json
 
 Example:
 
+```json
 {
   "aggressors": {
     "models": 3,
@@ -61,6 +60,7 @@ Example:
     "price": 40
   }
 }
+```
 
 Values must match real retail kit contents.
 
@@ -93,19 +93,19 @@ For each faction:
 
 data/army-data-no-legends.json
 
-2. For each unit:
+1. For each unit:
 
 identify the real retail kit that builds the unit.
 
-3. Create or update:
+1. Create or update:
 
 data/kit-mappings/{faction}.json
 
-4. Add kit entries to:
+1. Add kit entries to:
 
 data/kits/{faction}.json
 
-5. Verify:
+1. Verify:
 
 - models per box
 - GW retail price
@@ -118,10 +118,12 @@ Multiple units may map to the same kit.
 
 Example:
 
+```text
 captain
 captain_with_jump_pack
 
 → both map to captain kit.
+```
 
 ---
 
@@ -140,15 +142,19 @@ After generation:
 
 After processing a faction print:
 
+```text
 Faction name
 Total units
 Units mapped
 Units unresolved
 Kits created
+```
 
 Final summary:
 
+```text
 Total factions processed
 Total units mapped
 Total kits created
 Total unresolved units
+```

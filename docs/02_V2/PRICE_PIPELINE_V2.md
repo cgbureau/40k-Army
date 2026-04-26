@@ -4,7 +4,6 @@ The pricing system populates regional RRP for every kit in the dataset.
 
 Total kits: ~359
 
-
 ## Regions Supported
 
 - United Kingdom (GBP)
@@ -13,23 +12,24 @@ Total kits: ~359
 - Australia (AUD)
 - Canada (CAD)
 
-
 ## Source
 
 All prices are sourced from the official Games Workshop web store:
 
-https://www.warhammer.com
-
+<https://www.warhammer.com>
 
 ## Scraping Strategy
 
-Instead of scraping each product individually, the scraper processes catalogue pages per region.
+Instead of scraping each product individually, the scraper processes catalogue
+pages per region.
 
 Example:
 
+```text
 /en-GB/shop
 /en-US/shop
 /en-AU/shop
+```
 
 Catalogue pages return structured product data containing:
 
@@ -37,15 +37,15 @@ Catalogue pages return structured product data containing:
 - price
 - currency
 
-
 ## Matching
 
 Scraped product names are matched to kit slugs.
 
 Example:
 
+```text
 "Terminator Squad" → terminators
-
+```
 
 ## Validation
 
@@ -55,12 +55,18 @@ Scripts verify:
 - no negative values
 - no impossible currency conversions
 
-
 ## Final Dataset
 
+```text
 data/kits/*.json
+```
 
 Each kit contains:
 
-models  
-prices { GBP, USD, EUR, AUD, CAD }
+- `models`
+- `prices`
+  - `GBP`
+  - `USD`
+  - `EUR`
+  - `AUD`
+  - `CAD`

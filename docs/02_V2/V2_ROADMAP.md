@@ -1,34 +1,38 @@
 # 40KArmy – V2 Roadmap
 
-This document defines the next development priorities following the successful MVP launch of **40karmy.com**.
+This document defines the next development priorities following the successful
+MVP launch of **40karmy.com**.
 
-The MVP validated that the concept is useful and interesting to the Warhammer 40K community. The next phase focuses on improving **data accuracy, usability (especially mobile), and monetisation potential**.
+The MVP validated that the concept is useful and interesting to the Warhammer
+40K community. The next phase focuses on improving **data accuracy, usability
+(especially mobile), and monetisation potential**.
 
 ---
 
-# Current Status (Post-MVP Launch)
+## Current Status (Post-MVP Launch)
 
-Launch source:
-Reddit thread in r/Warhammer40k
+Launch source: Reddit thread in r/Warhammer40k
 
 Initial results:
+
 - ~1300 visitors within the first launch window
 - Strong positive feedback on usefulness and design
 - Multiple feature requests
 - Several data accuracy issues identified
 
-Key takeaway:
-The concept is validated. The next phase must improve **data accuracy and usability** before expanding features.
+Key takeaway: The concept is validated. The next phase must improve **data
+accuracy and usability** before expanding features.
 
 ---
 
-# V2 Development Priorities
+## V2 Development Priorities
 
 ## 1. Data Accuracy (Highest Priority)
 
 Trust in the tool depends entirely on accurate data.
 
 Current problems:
+
 - Some units missing across factions
 - Incorrect model counts per box
 - Incorrect points values
@@ -38,22 +42,25 @@ Current problems:
 Required improvements:
 
 ### Complete Unit Coverage
+
 All factions must include:
+
 - All currently sold units
 - Correct models per box
 - Correct points cost
 - Correct retail price
 
 ### Regional Pricing
+
 Instead of currency conversion, store real prices:
 
-
+```text
 prices: {
-GBP
-USD
-EUR
+  GBP
+  USD
+  EUR
 }
-
+```
 
 Prices should reflect **local Games Workshop MSRP**.
 
@@ -61,15 +68,15 @@ Prices should reflect **local Games Workshop MSRP**.
 
 Current architecture:
 
-
+```text
 units → kit mapping → kit definitions → faction dataset
-
+```
 
 Maintain this system and improve validation.
 
 ---
 
-# 2. Bundle / Combat Patrol Support
+## 2. Bundle / Combat Patrol Support
 
 Highly requested feature.
 
@@ -81,13 +88,13 @@ Many armies are purchased through:
 
 System design example:
 
-
+```text
 bundle = {
-name
-price
-included_units[]
+  name
+  price
+  included_units[]
 }
-
+```
 
 Bundles should:
 
@@ -97,7 +104,7 @@ Bundles should:
 
 ---
 
-# 3. Discount Calculator
+## 3. Discount Calculator
 
 Many hobbyists buy from third-party retailers with discounts.
 
@@ -105,7 +112,7 @@ Add a global discount control.
 
 Example options:
 
-
+```text
 Retail Discount
 
 0%
@@ -113,19 +120,19 @@ Retail Discount
 10%
 15%
 20%
-
+```
 
 Price calculation:
 
-
+```text
 final_price = rrp * (1 - discount)
-
+```
 
 This dramatically improves real-world accuracy.
 
 ---
 
-# 4. Mobile Optimisation (Critical)
+## 4. Mobile Optimisation (Critical)
 
 A large percentage of traffic is mobile.
 
@@ -143,7 +150,7 @@ Mobile must become the **primary user experience**.
 
 ---
 
-# 5. Affiliate Monetisation
+## 5. Affiliate Monetisation
 
 Primary monetisation strategy.
 
@@ -158,13 +165,13 @@ Potential partners:
 
 Example UX:
 
-
+```text
 Unit card
 ↓
 Buy this kit
 ↓
 Affiliate retailer link
-
+```
 
 Goal:
 
@@ -172,7 +179,7 @@ Convert **purchase intent → affiliate revenue**.
 
 ---
 
-# 6. Unit Image System
+## 6. Unit Image System
 
 Future enhancement.
 
@@ -180,9 +187,9 @@ Each unit should eventually include a small visual reference.
 
 Possible system:
 
-
+```text
 unit_image: "/images/units/intercessor.png"
-
+```
 
 Images must be:
 
@@ -192,7 +199,7 @@ Images must be:
 
 ---
 
-# 7. Security Review (Future)
+## 7. Security Review (Future)
 
 Current system is low risk.
 
@@ -212,7 +219,7 @@ Security review will focus on:
 
 ---
 
-# 8. SEO Expansion (Later Phase)
+## 8. SEO Expansion (Later Phase)
 
 Current SEO setup includes:
 
@@ -232,7 +239,7 @@ This can generate significant organic traffic.
 
 ---
 
-# Long-Term Vision
+## Long-Term Vision
 
 40KArmy can evolve into a full hobby planning tool.
 
@@ -244,23 +251,25 @@ Potential future features:
 - bundle optimisation
 - community army sharing
 
-The goal is to become the **standard tool for planning Warhammer army purchases**.
-
+The goal is to become the **standard tool for planning Warhammer army
+purchases**.
 
 ## Pricing Engine
 
-Goal:
-Provide accurate retail cost estimates per region.
+Goal: Provide accurate retail cost estimates per region.
 
 Requirements:
-• Separate price data from unit data
-• Support GBP / USD / EUR / AUD / CAD MSRP
-• Correct models-per-box mapping
-• Allow discount calculation
+
+- Separate price data from unit data
+- Support GBP / USD / EUR / AUD / CAD MSRP
+- Correct models-per-box mapping
+- Allow discount calculation
 
 Architecture proposal:
 
+```text
 units.json
- → kit-mappings.json
- → kits.json
- → prices { GBP, USD, EUR }
+→ kit-mappings.json
+→ kits.json
+→ prices { GBP, USD, EUR }
+```
