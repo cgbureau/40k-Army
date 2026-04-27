@@ -8,9 +8,9 @@
 
 It allows users to:
 
-* Build an army using real gameplay units
-* See total points cost
-* See real-world monetary cost based on Games Workshop retail kits
+- Build an army using real gameplay units
+- See total points cost
+- See real-world monetary cost based on Games Workshop retail kits
 
 The system bridges:
 
@@ -24,16 +24,14 @@ This is the core value of the product.
 
 The project is now:
 
-* Functionally complete
-* Architecturally stable
-* Data-complete across all factions
-* Production-ready
+- Functionally complete
+- Architecturally stable
+- Data-complete across all factions
+- Production-ready
 
 V2.5 represents the transition from:
 
-“Building the system”
-→
-“Refining and improving the system”
+“Building the system” → “Refining and improving the system”
 
 ---
 
@@ -41,41 +39,36 @@ V2.5 represents the transition from:
 
 The system operates on a strict 3-layer architecture:
 
-Units
-→ Kit Mappings
-→ Retail Kits
+Units → Kit Mappings → Retail Kits
 
 Runtime enrichment connects these layers.
 
 ### Layer 1 — Units
 
-Location:
-data/factions/{faction}/units.json
+Location: data/factions/{faction}/units.json
 
 Contains:
 
-* id
-* name
-* points
-* optional availability
+- id
+- name
+- points
+- optional availability
 
 Rules:
 
-* NO pricing data
-* Represents full gameplay universe
-* Includes:
-
-  * standard units
-  * Forge World
-  * Legends
-  * allied-style entries
+- NO pricing data
+- Represents full gameplay universe
+- Includes:
+  - standard units
+  - Forge World
+  - Legends
+  - allied-style entries
 
 ---
 
 ### Layer 2 — Kit Mappings
 
-Location:
-data/kit-mappings/{faction}.json
+Location: data/kit-mappings/{faction}.json
 
 Maps:
 
@@ -83,30 +76,29 @@ unit_id → kit_slug
 
 Rules:
 
-* No pricing
-* No model counts
-* Many units can map to one kit
-* Must match exact unit IDs and kit slugs
+- No pricing
+- No model counts
+- Many units can map to one kit
+- Must match exact unit IDs and kit slugs
 
 ---
 
 ### Layer 3 — Retail Kits
 
-Location:
-data/kits/{faction}.json
+Location: data/kits/{faction}.json
 
 Source of truth for:
 
-* what Games Workshop sells
-* model counts
-* regional pricing
+- what Games Workshop sells
+- model counts
+- regional pricing
 
 Contains:
 
-* slug
-* display name
-* models
-* prices { GBP, USD, EUR, AUD, CAD, PLN, CHF }
+- slug
+- display name
+- models
+- prices { GBP, USD, EUR, AUD, CAD, PLN, CHF }
 
 ---
 
@@ -114,16 +106,13 @@ Contains:
 
 Process:
 
-unit
-→ mapping
-→ kit
-→ enriched unit
+unit → mapping → kit → enriched unit
 
 Adds:
 
-* models_per_box
-* prices
-* box_price
+- models_per_box
+- prices
+- box_price
 
 Critical rule:
 
@@ -132,8 +121,8 @@ return {
   ...unit,
   models_per_box,
   prices,
-  box_price
-}
+  box_price,
+};
 ```
 
 The original unit must always be preserved.
@@ -144,33 +133,30 @@ The original unit must always be preserved.
 
 Units can have:
 
-* LEGENDS
-* FORGEWORLD
-* ALLIED
-* AWOL
+- LEGENDS
+- FORGEWORLD
+- ALLIED
+- AWOL
 
 ### Definitions
 
-LEGENDS
-Legacy / unsupported units
+LEGENDS Legacy / unsupported units
 
-FORGEWORLD
-Specialist resin / FW range
+FORGEWORLD Specialist resin / FW range
 
-ALLIED
-Unit belongs to another faction’s retail ecosystem but is valid in gameplay context
+ALLIED Unit belongs to another faction’s retail ecosystem but is valid in
+gameplay context
 
-AWOL
-No confirmed retail kit mapping and no special availability
+AWOL No confirmed retail kit mapping and no special availability
 
 ---
 
 ### Rules
 
-* Mapping takes priority over availability
-* Allied units can still have prices
-* AWOL is acceptable (not an error state)
-* Availability is descriptive, not corrective
+- Mapping takes priority over availability
+- Allied units can still have prices
+- AWOL is acceptable (not an error state)
+- Availability is descriptive, not corrective
 
 ---
 
@@ -180,22 +166,22 @@ Space Marines use a **two-layer architecture**.
 
 ### Layer 1 — Base Space Marines
 
-* Core units
-* Base kit file
-* Base mappings
+- Core units
+- Base kit file
+- Base mappings
 
 ### Layer 2 — Chapter Overlays
 
 Examples:
 
-* Blood Angels
-* Dark Angels
-* Space Wolves
+- Blood Angels
+- Dark Angels
+- Space Wolves
 
 Each chapter adds:
 
-* additional kits
-* additional mappings
+- additional kits
+- additional mappings
 
 ---
 
@@ -216,8 +202,7 @@ For each unit:
 
 IF no mapping → SHOW (AWOL / FW / LEGENDS)
 
-IF mapping exists →
-SHOW only if kit exists in active kit set
+IF mapping exists → SHOW only if kit exists in active kit set
 
 ---
 
@@ -225,8 +210,8 @@ SHOW only if kit exists in active kit set
 
 A unit is a chapter unit if:
 
-* it has a mapping
-* AND its kit does not exist in base kits
+- it has a mapping
+- AND its kit does not exist in base kits
 
 No unit-level tagging exists.
 
@@ -234,15 +219,15 @@ No unit-level tagging exists.
 
 ### Key Constraint
 
-* No duplication of units
-* No chapter field in unit data
-* No mutation of base dataset
+- No duplication of units
+- No chapter field in unit data
+- No mutation of base dataset
 
 Everything is derived from:
 
-* mappings
-* kit files
-* runtime logic
+- mappings
+- kit files
+- runtime logic
 
 ---
 
@@ -254,9 +239,9 @@ page.tsx is now a controller only.
 
 Responsibilities:
 
-* data loading
-* state management
-* totals calculation
+- data loading
+- state management
+- totals calculation
 
 Rendering is handled by components.
 
@@ -264,29 +249,29 @@ Rendering is handled by components.
 
 ### Core Components
 
-* CalculatorControls
-* UnitTable
-* UnitRow (memoized)
-* ArmySummary
-* MobileTotalsBar
+- CalculatorControls
+- UnitTable
+- UnitRow (memoized)
+- ArmySummary
+- MobileTotalsBar
 
 ---
 
 ### Performance Rules
 
-* Unit rows must be memoized
-* Table must not remount on updates
-* Loading must not clear existing data
-* Scroll position must be preserved
+- Unit rows must be memoized
+- Table must not remount on updates
+- Loading must not clear existing data
+- Scroll position must be preserved
 
 ---
 
 ### Outcome
 
-* No hydration flashes
-* Smooth updates
-* Stable mobile experience
-* Maintainable codebase
+- No hydration flashes
+- Smooth updates
+- Stable mobile experience
+- Maintainable codebase
 
 ---
 
@@ -294,30 +279,28 @@ Rendering is handled by components.
 
 The data system is now:
 
-* complete across all factions
-* structurally consistent
-* validated by real users
+- complete across all factions
+- structurally consistent
+- validated by real users
 
 ---
 
 ### Coverage Snapshot
 
-* Total Units: 1420
-* Mapped: 922
-* AWOL: 253
-* ForgeWorld: 145
-* Legends: 79
-* Allied: 50
+- Total Units: 1420
+- Mapped: 922
+- AWOL: 253
+- ForgeWorld: 145
+- Legends: 79
+- Allied: 50
 
-Mapped Coverage: ~65%
-Resolved Coverage: ~84%
+Mapped Coverage: ~65% Resolved Coverage: ~84%
 
 ---
 
 ### Interpretation
 
-Mapped = directly purchasable
-Resolved = correctly classified
+Mapped = directly purchasable Resolved = correctly classified
 
 Resolved coverage is the true measure of completeness.
 
@@ -325,12 +308,12 @@ Resolved coverage is the true measure of completeness.
 
 ## 8. What V2.5 Achieved
 
-* Full faction coverage
-* Space Marines + chapter system complete
-* Stable runtime enrichment
-* Clean UI architecture
-* Real-world validated dataset
-* No architectural compromises
+- Full faction coverage
+- Space Marines + chapter system complete
+- Stable runtime enrichment
+- Clean UI architecture
+- Real-world validated dataset
+- No architectural compromises
 
 ---
 
@@ -338,9 +321,9 @@ Resolved coverage is the true measure of completeness.
 
 The system is:
 
-* kit-driven
-* mapping-driven
-* runtime-enriched
+- kit-driven
+- mapping-driven
+- runtime-enriched
 
 It is no longer experimental.
 
@@ -352,22 +335,22 @@ It is a stable platform.
 
 The following are absolute constraints:
 
-* Units must never contain pricing
-* Kit files are the only pricing source
-* Mapping layer must remain separate
-* Runtime enrichment must remain intact
-* No unit-level chapter tagging
-* No duplication of units
-* No breaking of 3-layer architecture
+- Units must never contain pricing
+- Kit files are the only pricing source
+- Mapping layer must remain separate
+- Runtime enrichment must remain intact
+- No unit-level chapter tagging
+- No duplication of units
+- No breaking of 3-layer architecture
 
 ---
 
 ## 11. Known Limitations (Accepted)
 
-* High AWOL counts in some factions
-* Shared-kit pricing ambiguity
-* Bundle / Combat Patrol kits not fully utilised
-* Some mapping gaps remain
+- High AWOL counts in some factions
+- Shared-kit pricing ambiguity
+- Bundle / Combat Patrol kits not fully utilised
+- Some mapping gaps remain
 
 These are acceptable at this stage.
 
@@ -381,20 +364,20 @@ Future work is refinement.
 
 ### Data
 
-* Reduce false AWOL
-* Improve mapping coverage
-* Refine shared-kit logic
+- Reduce false AWOL
+- Improve mapping coverage
+- Refine shared-kit logic
 
 ### Technical
 
-* Smarter box allocation
-* Bundle detection
-* Performance at scale
+- Smarter box allocation
+- Bundle detection
+- Performance at scale
 
 ### UX (Optional)
 
-* AWOL vs Allied clarity
-* Chapter clarity improvements
+- AWOL vs Allied clarity
+- Chapter clarity improvements
 
 ---
 
@@ -402,8 +385,8 @@ Future work is refinement.
 
 40KArmy is now:
 
-A complete, working, real-world useful tool
-with a stable architecture and scalable foundation
+A complete, working, real-world useful tool with a stable architecture and
+scalable foundation
 
 The focus is no longer:
 
@@ -415,5 +398,4 @@ The focus is now:
 
 ---
 
-## END
-
+END

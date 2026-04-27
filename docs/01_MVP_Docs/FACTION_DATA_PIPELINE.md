@@ -2,9 +2,12 @@
 
 ## Purpose
 
-This document defines the complete, deterministic pipeline for generating **all Warhammer 40,000 faction datasets** used by 40KArmy.
+This document defines the complete, deterministic pipeline for generating **all
+Warhammer 40,000 faction datasets** used by 40KArmy.
 
-The objective of this pipeline is to produce clean, validated faction data files that the website can use directly, without relying on live retailer scraping or fragile search-based matching at runtime.
+The objective of this pipeline is to produce clean, validated faction data files
+that the website can use directly, without relying on live retailer scraping or
+fragile search-based matching at runtime.
 
 This pipeline must support:
 
@@ -16,62 +19,54 @@ The end result is a folder of faction datasets:
 
 ```text
 /data/factions/{faction}/units.json
+```
 
 Each generated faction file must contain fully enriched unit data:
 
-id
-
-name
-
-points
-
-models_per_box
-
-box_price
+- `id`
+- `name`
+- `points`
+- `models_per_box`
+- `box_price`
 
 The pipeline must be:
 
-deterministic
+- deterministic
+- repeatable
+- fast
+- local
+- easy to validate
+- easy to re-run later
 
-repeatable
+## Core Principle
 
-fast
-
-local
-
-easy to validate
-
-easy to re-run later
-
-Core Principle
-
-The faction data pipeline does not rely on live scraping to determine product price or box size.
+The faction data pipeline does not rely on live scraping to determine product
+price or box size.
 
 Instead, it uses a stable local architecture:
 
-Unit Source
-→ Kit Mapping
-→ Kit Dataset
-→ Final Faction Dataset
+```text
+Unit Source → Kit Mapping → Kit Dataset → Final Faction Dataset
+```
 
 This is the correct long-term system because:
 
-unit points come from a structured game dataset
+- unit points come from a structured game dataset
+- product information is more stable when stored locally
+- multiple units often map to one product kit
+- deterministic local data is easier to review and maintain than scraped data
 
-product information is more stable when stored locally
-
-multiple units often map to one product kit
-
-deterministic local data is easier to review and maintain than scraped data
-
-Final Output
+## Final Output
 
 For every faction, the final output file must be:
 
+```text
 /data/factions/{faction}/units.json
+```
 
 Example:
 
+```json
 {
   "faction": "Orks",
   "units": [
@@ -84,24 +79,22 @@ Example:
     }
   ]
 }
+```
 
 Rules:
 
-one unit object per unit
+- one unit object per unit
+- no duplicates
+- sorted alphabetically by name
+- valid JSON
+- all numeric fields must be numbers, not strings
+- if a value cannot be resolved confidently, use null and flag for manual review
+  in reporting
 
-no duplicates
+## Scope
 
-sorted alphabetically by name
-
-valid JSON
-
-all numeric fields must be numbers, not strings
-
-if a value cannot be resolved confidently, use null and flag for manual review in reporting
-
-Scope
-
-This pipeline should build datasets for all available Warhammer 40,000 factions, including but not limited to:
+This pipeline should build datasets for all available Warhammer 40,000 factions,
+including but not limited to:
 
 Space Marines
 
@@ -157,71 +150,83 @@ Deathwatch
 
 and any other faction represented in the source data
 
-Sub-factions may remain grouped under their parent faction if that matches the current site architecture.
+Sub-factions may remain grouped under their parent faction if that matches the
+current site architecture.
 
-Data Sources
+## Data Sources
 
 The pipeline uses three local sources.
 
-1. Unit Source
+### 1. Unit Source
 
 Location:
 
+```text
 /data/army-data-no-legends.json
+```
 
-This file contains the base unit data, derived from the Warhammer / BSData source.
+This file contains the base unit data, derived from the Warhammer / BSData
+source.
 
 Each unit source entry provides:
 
-id
-
-name
-
-points
+- `id`
+- `name`
+- `points`
 
 Example:
 
+```json
 {
   "id": "boyz",
   "name": "Boyz",
   "points": 85
 }
+```
 
 This is the authoritative gameplay source for unit identity and points values.
 
-2. Kit Mapping
+### 2. Kit Mapping
 
 Location:
 
+```text
 /data/kit-mappings/{faction}.json
+```
 
 This file maps unit ids to a kit slug.
 
 Purpose:
 
-A unit is not always sold as a product of the exact same name. Many units map to a kit with a different product name, and many units share a box.
+A unit is not always sold as a product of the exact same name. Many units map to
+a kit with a different product name, and many units share a box.
 
 Examples:
 
+```json
 {
   "boyz": "boyz",
   "burna_boyz": "lootas-burna-boyz",
   "lootas": "lootas-burna-boyz",
   "warboss": "ork-warboss"
 }
+```
 
 This file is the translation layer between game unit and product kit.
 
-3. Kit Dataset
+### 3. Kit Dataset
 
 Location:
 
+```text
 /data/kits/{faction}.json
+```
 
 This file defines the actual product metadata for each kit slug.
 
 Example:
 
+```json
 {
   "boyz": {
     "models": 10,
@@ -232,16 +237,16 @@ Example:
     "price": 27
   }
 }
+```
 
 Fields:
 
-models: number of miniatures in the kit
-
-price: Games Workshop RRP in GBP
+- `models`: number of miniatures in the kit
+- `price`: Games Workshop RRP in GBP
 
 This is the authoritative product source for cost calculation.
 
-Pipeline Architecture
+## Pipeline Architecture
 
 The correct pipeline flow is:
 
@@ -258,10 +263,11 @@ The correct pipeline flow is:
 
 No live scraping is required in the final production version of this pipeline.
 
-Required Folder Structure
+## Required Folder Structure
 
 The pipeline expects and maintains the following structure:
 
+```text
 /data
   /factions
     /space-marines
@@ -282,207 +288,187 @@ The pipeline expects and maintains the following structure:
     chaos-space-marines.json
     ...
   army-data-no-legends.json
+```
 
 Each folder must be created automatically if missing.
 
-Faction Naming Rules
+## Faction Naming Rules
 
 Faction slugs should use lowercase kebab-case.
 
 Examples:
 
-space-marines
-
-orks
-
-chaos-space-marines
-
-adepta-sororitas
-
-imperial-knights
+- `space-marines`
+- `orks`
+- `chaos-space-marines`
+- `adepta-sororitas`
+- `imperial-knights`
 
 These slugs are used in:
 
-file names
-
-folder names
-
-script arguments
-
-image folder names
-
-theme mapping
+- file names
+- folder names
+- script arguments
+- image folder names
+- theme mapping
 
 The human-readable faction name remains inside the JSON output:
 
+```json
 {
   "faction": "Orks"
 }
-Unit Validation Rules
+```
+
+## Unit Validation Rules
 
 Every final unit object must contain:
 
-id
-
-name
-
-points
-
-models_per_box
-
-box_price
+- `id`
+- `name`
+- `points`
+- `models_per_box`
+- `box_price`
 
 Validation requirements:
 
-id
-
-required
-
-string
-
-unique within a faction dataset
-
-name
-
-required
-
-string
-
-must match source unit name
-
-points
-
-required
-
-numeric
-
-copied from source dataset
-
-models_per_box
-
-numeric if known
-
-null if unresolved
-
-box_price
-
-numeric if known
-
-null if unresolved
+- `id`
+  - required
+  - string
+  - unique within a faction dataset
+- `name`
+  - required
+  - string
+  - must match source unit name
+- `points`
+  - required
+  - numeric
+  - copied from source dataset
+- `models_per_box`
+  - numeric if known
+  - null if unresolved
+- `box_price`
+  - numeric if known
+  - null if unresolved
 
 If any field fails validation, the pipeline must not crash. Instead:
 
-log the issue
+- log the issue
+- flag the unit in reporting
+- continue processing the remaining units
 
-flag the unit in reporting
-
-continue processing the remaining units
-
-Deduplication Rules
+## Deduplication Rules
 
 Duplicates must never appear in the final faction dataset.
 
 Deduplicate by:
 
-unit.id
+- `unit.id`
 
 If two source units have the same id:
 
-keep the first clean valid entry
-
-ignore additional duplicates
-
-report duplicate count in logs if useful
+- keep the first clean valid entry
+- ignore additional duplicates
+- report duplicate count in logs if useful
 
 The final output must contain only one unit object per unique unit id.
 
-Sorting Rules
+## Sorting Rules
 
-The final units array in each faction output file must be sorted alphabetically by name.
+The final units array in each faction output file must be sorted alphabetically
+by name.
 
 Example order:
 
-Battlewagon
-
-Beastboss
-
-Big Mek in Mega Armour
-
-Boyz
-
-Burna Boyz
+- Battlewagon
+- Beastboss
+- Big Mek in Mega Armour
+- Boyz
+- Burna Boyz
 
 This makes files predictable and easier to diff.
 
-Kit Mapping Rules
+## Kit Mapping Rules
 
 Kit mapping files are critical and must be treated carefully.
 
-Purpose
+### Mapping Purpose
 
 Translate a game unit id into the appropriate product kit slug.
 
-Rules
+### Rules
 
-mapping keys must exactly match unit ids from the source dataset
+- mapping keys must exactly match unit ids from the source dataset
+- mapping values must exactly match kit slugs used in the faction kit dataset
+- multiple units may map to the same kit
+- not every unit requires a unique kit
 
-mapping values must exactly match kit slugs used in the faction kit dataset
-
-multiple units may map to the same kit
-
-not every unit requires a unique kit
-
-Examples
+### Examples
 
 Correct:
 
+```json
 {
   "burna_boyz": "lootas-burna-boyz",
   "lootas": "lootas-burna-boyz"
 }
+```
 
 Incorrect:
 
+```json
 {
   "burna-boyz": "lootas-burna-boyz"
 }
+```
 
 because the key must match the actual unit id exactly.
 
-Kit Dataset Rules
+## Kit Dataset Rules
 
 Kit dataset files define the actual product metadata.
 
-Required structure
+Required structure:
+
+```json
 {
   "kit-slug": {
     "models": 10,
     "price": 30
   }
 }
-Rules
+```
 
-models must be numeric
+Rules:
 
-price must be numeric
+- models must be numeric
+- price must be numeric
+- values should reflect official GW RRP in GBP
+- one kit slug per product box
+- no duplicate kit keys
+- use integers for whole pound values where possible
+- decimals are allowed for half-pound prices or similar
 
-values should reflect official GW RRP in GBP
+Examples:
 
-one kit slug per product box
-
-no duplicate kit keys
-
-use integers for whole pound values where possible
-
-decimals are allowed for half-pound prices or similar
-
-Examples
+```json
 {
-  "ork-boyz": { "models": 10, "price": 30 },
-  "meganobz": { "models": 3, "price": 44.5 },
-  "ork-warboss": { "models": 1, "price": 22 }
+  "ork-boyz": {
+    "models": 10,
+    "price": 30
+  },
+  "meganobz": {
+    "models": 3,
+    "price": 44.5
+  },
+  "ork-warboss": {
+    "models": 1,
+    "price": 22
+  }
 }
-Accuracy Target
+```
+
+## Accuracy Target
 
 The target accuracy for this pipeline is:
 
@@ -490,75 +476,77 @@ The target accuracy for this pipeline is:
 
 This means:
 
-at least 90% of faction units should resolve cleanly through mapping + kit dataset
-
-unresolved units should be rare and easy to inspect manually
-
-a faction should never require large-scale manual cleanup once the mapping and kit dataset are mature
+- at least 90% of faction units should resolve cleanly through mapping + kit
+  dataset
+- unresolved units should be rare and easy to inspect manually
+- a faction should never require large-scale manual cleanup once the mapping and
+  kit dataset are mature
 
 The system should aim for deterministic confidence, not fuzzy approximation.
 
-Generic Scripts
+## Generic Scripts
 
 The pipeline should be powered by two generic scripts.
 
-1. Single-faction builder
+### 1. Single-Faction Builder
+
+```text
 /scripts/build-faction-dataset.js
+```
 
 Usage:
 
+```bash
 node scripts/build-faction-dataset.js orks
+```
 
 Behaviour:
 
-load one faction
+- load one faction
+- process through mapping + kit dataset
+- save one output file
+- print a per-faction report
 
-process through mapping + kit dataset
+### 2. Batch Builder
 
-save one output file
-
-print a per-faction report
-
-2. Batch builder
+```text
 /scripts/build-all-factions.js
+```
 
 Usage:
 
+```bash
 node scripts/build-all-factions.js
+```
 
 Behaviour:
 
-detect every faction present in /data/kit-mappings/
+- detect every faction present in `/data/kit-mappings/`
+- run the single-faction build for each one
+- continue even if one faction errors
+- print a report per faction
 
-run the single-faction build for each one
-
-continue even if one faction errors
-
-print a report per faction
-
-Required Build Report
+## Required Build Report
 
 Every faction build should produce a concise report.
 
 Example:
 
+```text
 Faction: Orks
 Units processed: 30
 Units enriched: 30
 Units unresolved: 0
 Output: /data/factions/orks/units.json
+```
 
 At minimum, the report should include:
 
-faction name
-
-units processed
-
-units enriched
-
-units unresolved
-
-output file path
+- faction name
+- units processed
+- units enriched
+- units unresolved
+- output file path
 
 If unresolved units exist, print their names.
 
@@ -615,11 +603,13 @@ The overall system depends on these two local files per faction:
 
 /data/kits/{faction}.json
 
-These may be created manually, semi-automatically, or through future helper scripts.
+These may be created manually, semi-automatically, or through future helper
+scripts.
 
 The faction pipeline assumes they already exist before a build.
 
-If they do not exist, the builder should fail gracefully and report the missing file.
+If they do not exist, the builder should fail gracefully and report the missing
+file.
 
 Relationship to the Website
 
@@ -643,7 +633,8 @@ The website should never need to repair or transform this data at runtime.
 
 Theme Support
 
-Each faction in the generated data must align cleanly with the site’s theme system.
+Each faction in the generated data must align cleanly with the site’s theme
+system.
 
 The faction slug naming must be stable so the UI can apply:
 
@@ -653,7 +644,8 @@ panel tint
 
 future faction-specific styles
 
-The pipeline itself does not style the UI, but it must preserve consistent faction naming for theme mapping later.
+The pipeline itself does not style the UI, but it must preserve consistent
+faction naming for theme mapping later.
 
 Non-Goals
 
@@ -703,4 +695,5 @@ deterministic mapping over fuzzy matching
 
 clean rebuilds over ad-hoc edits
 
-The end result should be a system you can trust, re-run, and expand indefinitely.
+The end result should be a system you can trust, re-run, and expand
+indefinitely.

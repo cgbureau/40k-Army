@@ -1,26 +1,32 @@
 # 40karmy – REFRACTOR v2.3
+
 UI Stability & Architecture Cleanup
 
 This document defines the controlled refactor plan for the 40karmy application.
 
-The goal is to improve UI stability, eliminate hydration glitches, and prepare the
-codebase for scale WITHOUT modifying the core data architecture.
+The goal is to improve UI stability, eliminate hydration glitches, and prepare
+the codebase for scale WITHOUT modifying the core data architecture.
 
 This is NOT a rewrite.
 
 All existing data pipelines and logic must remain intact.
 
+---
 
---------------------------------
-CORE ARCHITECTURE (DO NOT CHANGE)
---------------------------------
+## CORE ARCHITECTURE (DO NOT CHANGE)
 
 The application uses a 3-layer data architecture.
 
-Layer 1 — Gameplay Data
+### Layer 1 — Gameplay Data
+
+File:
+
+```text
 data/factions/{faction}/units.json
+```
 
 Contains:
+
 - unit id
 - unit name
 - points
@@ -29,57 +35,64 @@ Contains:
 
 This layer MUST NEVER contain pricing.
 
+### Layer 2 — Kit Mappings
 
-Layer 2 — Kit Mappings
+File:
+
+```text
 data/kit-mappings/{faction}.json
+```
 
-Maps:
-unit_id → kit_slug
+Maps: unit_id → kit_slug
 
 Contains no pricing data.
 
+### Layer 3 — Retail Kits
 
-Layer 3 — Retail Kits
+File:
+
+```text
 data/kits/{faction}.json
+```
 
 Contains:
+
 - kit_slug
 - model_count
 - prices { GBP, USD, EUR etc }
 
-
 Runtime enrichment resolves:
 
+```text
 unit
 → mapping
 → kit
 → models_per_box
 → retail price
-
+```
 
 Availability flags:
 
+```text
 availability: "forgeworld"
 availability: "legends"
+```
 
 These are UI labels only.
 
 If a unit has no kit mapping it is marked AWOL.
 
-
 This architecture MUST NOT change.
 
+---
 
---------------------------------
-GOALS OF THIS REFACTOR
---------------------------------
+## GOALS OF THIS REFACTOR
 
 1. Stabilize the UI
 2. Remove hydration flashes
 3. Eliminate unnecessary re-renders
 4. Improve page.tsx maintainability
 5. Prepare the codebase for future features
-
 
 Future features that must remain possible:
 
@@ -91,15 +104,14 @@ Future features that must remain possible:
 - detailed unit insights
 - dark mode
 
-
 The refactor must NOT block these.
 
+---
 
---------------------------------
-CURRENT PROBLEM
---------------------------------
+## CURRENT PROBLEM
 
-page.tsx has become too large (~1800 lines) and performs too many responsibilities.
+page.tsx has become too large (~1800 lines) and performs too many
+responsibilities.
 
 This causes:
 
@@ -109,13 +121,11 @@ This causes:
 - janky UI updates
 - hard-to-maintain code
 
-
 The solution is to separate rendering from state logic.
 
+---
 
---------------------------------
-TARGET ARCHITECTURE
---------------------------------
+## TARGET ARCHITECTURE
 
 page.tsx becomes a controller only.
 
@@ -127,38 +137,28 @@ Responsibilities:
 - compute totals
 - pass props to components
 
-
 All rendering logic moves into components.
-
 
 Target page.tsx size:
 
 150–250 lines.
 
+---
 
---------------------------------
-NEW COMPONENT STRUCTURE
---------------------------------
+## NEW COMPONENT STRUCTURE
 
 Create:
 
 /components/calculator/
 
-
 Inside create:
 
-CalculatorControls.tsx
-UnitTable.tsx
-UnitRow.tsx
-ArmySummary.tsx
+CalculatorControls.tsx UnitTable.tsx UnitRow.tsx ArmySummary.tsx
 MobileTotalsBar.tsx
-
 
 Responsibilities:
 
-
-CalculatorControls
-------------------
+## CalculatorControls
 
 Handles:
 
@@ -167,9 +167,7 @@ Handles:
 - points selector
 - discount selector
 
-
-UnitTable
----------
+## UnitTable
 
 Renders the unit table.
 
@@ -179,9 +177,7 @@ Receives:
 - selected army
 - add/remove handlers
 
-
-UnitRow
--------
+## UnitRow
 
 Represents a single unit row.
 
@@ -191,9 +187,7 @@ React.memo()
 
 to prevent full table re-renders.
 
-
-ArmySummary
------------
+## ArmySummary
 
 Displays:
 
@@ -202,9 +196,7 @@ Displays:
 - total cost
 - box count
 
-
-MobileTotalsBar
----------------
+## MobileTotalsBar
 
 Sticky bar for mobile showing:
 
@@ -212,17 +204,15 @@ Sticky bar for mobile showing:
 - total cost
 - unit count
 
+---
 
---------------------------------
-PERFORMANCE RULES
---------------------------------
+## PERFORMANCE RULES
 
 UnitTable must NOT rerender fully when a unit is added.
 
 Use:
 
 React.memo(UnitRow)
-
 
 Loading units must NOT clear the table.
 
@@ -234,15 +224,13 @@ Instead use:
 
 loading state flags.
 
+---
 
---------------------------------
-UX IMPROVEMENTS
---------------------------------
+## UX IMPROVEMENTS
 
 Prevent scroll jumping when adding units.
 
 Maintain scroll position after state updates.
-
 
 Add subtle mobile "Back to Top" button.
 
@@ -253,10 +241,9 @@ Button should:
 - low opacity
 - minimal UI impact
 
+---
 
---------------------------------
-STRICT RULES
---------------------------------
+## STRICT RULES
 
 The following systems must remain unchanged:
 
@@ -268,44 +255,33 @@ The following systems must remain unchanged:
 - URL army param
 - data folder structure
 
-
 Refactor ONLY affects UI structure.
 
+---
 
---------------------------------
-REFRACTOR ORDER
---------------------------------
+## REFRACTOR ORDER
 
 Perform changes in small steps.
 
-Step 1
-Extract UnitRow component
+Step 1 Extract UnitRow component
 
-Step 2
-Extract UnitTable component
+Step 2 Extract UnitTable component
 
-Step 3
-Extract CalculatorControls
+Step 3 Extract CalculatorControls
 
-Step 4
-Extract ArmySummary
+Step 4 Extract ArmySummary
 
-Step 5
-Add memoization
+Step 5 Add memoization
 
-Step 6
-Add loading state improvements
+Step 6 Add loading state improvements
 
-Step 7
-Add mobile totals bar
-
+Step 7 Add mobile totals bar
 
 Each step must preserve functionality.
 
+---
 
---------------------------------
-TESTING REQUIREMENTS
---------------------------------
+## TESTING REQUIREMENTS
 
 After each step verify:
 
@@ -316,13 +292,11 @@ After each step verify:
 - availability labels still show
 - AWOL units display correctly
 
-
 No regression allowed.
 
+---
 
---------------------------------
-FINAL TARGET
---------------------------------
+## FINAL TARGET
 
 The refactor is complete when:
 
@@ -333,7 +307,6 @@ The refactor is complete when:
 - unit selection does not reset scroll
 - codebase is modular
 
+---
 
---------------------------------
 END
---------------------------------

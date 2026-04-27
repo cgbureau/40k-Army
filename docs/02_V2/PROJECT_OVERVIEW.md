@@ -2,7 +2,8 @@
 
 ## Project
 
-40KArmy is a lightweight web tool that calculates the approximate real-world cost of building a Warhammer 40K army.
+40KArmy is a lightweight web tool that calculates the approximate real-world
+cost of building a Warhammer 40K army.
 
 Users select a faction, add units to an army list, and the tool estimates:
 
@@ -12,13 +13,11 @@ Users select a faction, add units to an army list, and the tool estimates:
 
 The tool is intentionally simple, fast, and mobile-friendly.
 
-Primary audience:
-Warhammer 40K hobbyists planning an army purchase.
-
+Primary audience: Warhammer 40K hobbyists planning an army purchase.
 
 ---
 
-# Core Features (V1)
+## Core Features (V1)
 
 • Faction selector  
 • Unit search  
@@ -29,12 +28,11 @@ Warhammer 40K hobbyists planning an army purchase.
 • Estimated army cost  
 • Currency selection (GBP / USD / EUR)  
 • Shareable army links  
-• Export army list  
-
+• Export army list
 
 ---
 
-# Architecture
+## Architecture
 
 Frontend only application built with:
 
@@ -45,42 +43,40 @@ Frontend only application built with:
 
 No authentication, database, or user accounts.
 
-
 ---
 
-# Data Model
+## Data Model
 
 Each faction loads units from:
 
-
+```text
 data/factions/{faction}/units.json
-
+```
 
 Each unit contains:
 
-
-id
-name
-points
-models_per_box
-box_price
-prices { GBP, USD, EUR }
-is_legends
-
+- `id`
+- `name`
+- `points`
+- `models_per_box`
+- `box_price`
+- `prices`
+  - `GBP`
+  - `USD`
+  - `EUR`
+- `is_legends`
 
 Army state is stored client-side and serialized into the URL.
 
-
 Example:
 
-
+```text
 ?army=intercessor:2,dreadnought:1
-
-
+```
 
 ---
 
-# Design Goals
+## Design Goals
 
 1. Extremely fast load time
 2. Mobile-first usability
@@ -88,10 +84,9 @@ Example:
 4. Minimal UI complexity
 5. Easy dataset maintenance
 
-
 ---
 
-# Launch
+## Launch
 
 Initial launch occurred via Reddit community posts in r/Warhammer40k.
 
@@ -101,10 +96,9 @@ The launch generated:
 - Early user feedback
 - Requests for improved unit data accuracy
 
-
 ---
 
-# Known Limitations
+## Known Limitations
 
 V1 limitations:
 
@@ -112,12 +106,11 @@ V1 limitations:
 • Box calculations may require refinement  
 • Prices currently rough estimates for some regions  
 • No unit imagery  
-• No affiliate monetization yet  
-
+• No affiliate monetization yet
 
 ---
 
-# Planned Improvements (V2)
+## Planned Improvements (V2)
 
 Priority roadmap:
 
@@ -129,10 +122,9 @@ Priority roadmap:
 6. Optional desktop unit info panel
 7. Additional SEO pages for factions
 
-
 ---
 
-# Monetisation Direction
+## Monetisation Direction
 
 Primary monetisation strategy:
 
@@ -148,24 +140,21 @@ Examples:
 
 Ads are considered a secondary option but not preferred due to UI impact.
 
-
 ---
 
-# Traffic Characteristics (Launch)
+## Traffic Characteristics (Launch)
 
 Early analytics indicate:
 
 • Majority mobile users  
 • Strong US and UK traffic  
-• Reddit as primary acquisition channel  
-
+• Reddit as primary acquisition channel
 
 This informs future design priorities (mobile-first).
 
-
 ---
 
-# Security Model
+## Security Model
 
 Current system has minimal attack surface.
 
@@ -177,10 +166,9 @@ The application:
 
 Security focus is therefore limited to standard hosting protections.
 
-
 ---
 
-# Project Philosophy
+## Project Philosophy
 
 The project is designed as a fast, focused utility tool.
 
@@ -189,7 +177,6 @@ Success metrics:
 - Ease of use
 - Data accuracy
 - Community adoption
-
 
 ## Current Priorities
 

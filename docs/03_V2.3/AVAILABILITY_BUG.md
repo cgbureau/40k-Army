@@ -1,49 +1,53 @@
 # Availability Rendering Bug (FORGEWORLD / LEGENDS showing as AWOL)
 
-This document records the debugging process and final solution for a recurring bug where units with an `availability` tag (e.g. `"forgeworld"` or `"legends"`) incorrectly display as `AWOL` in the UI.
+This document records the debugging process and final solution for a recurring
+bug where units with an `availability` tag (e.g. `"forgeworld"` or `"legends"`)
+incorrectly display as `AWOL` in the UI.
 
-This issue first appeared when integrating **Adeptus Custodes** and later appeared again when integrating **Adeptus Mechanicus**.
+This issue first appeared when integrating **Adeptus Custodes** and later
+appeared again when integrating **Adeptus Mechanicus**.
 
-The purpose of this document is to ensure the issue can be diagnosed and fixed quickly in the future without repeating the full debugging process.
+The purpose of this document is to ensure the issue can be diagnosed and fixed
+quickly in the future without repeating the full debugging process.
 
 ---
 
-# Expected Behaviour
+## Expected Behaviour
 
 Units in `units.json` may include an availability tag:
 
+```json
+{
+  "availability": "forgeworld"
+}
+```
 
-"availability": "forgeworld"
+or:
 
-
-or
-
-
-"availability": "legends"
-
+```json
+{
+  "availability": "legends"
+}
+```
 
 If a unit has:
 
-models_per_box = null  
-prices = null  
+```text
+models_per_box = null
+prices = null
+```
 
 but **availability exists**, the UI should render:
 
-
 FORGEWORLD
-
 
 or
 
-
 LEGENDS
-
 
 If **no availability exists**, the UI should render:
 
-
 AWOL
-
 
 Correct priority:
 
@@ -53,35 +57,31 @@ Correct priority:
 
 ---
 
-# Symptom
+## Symptom
 
 Units with:
 
-
-"availability": "forgeworld"
-
+```json
+{
+  "availability": "forgeworld"
+}
+```
 
 render as:
 
-
 AWOL
-
 
 Example:
 
-
 Secutarii Hoplites → AWOL (incorrect)
-
 
 Expected:
 
-
 Secutarii Hoplites → FORGEWORLD
-
 
 ---
 
-# Initial Suspicions
+## Initial Suspicions
 
 Several potential causes were investigated.
 
@@ -89,21 +89,19 @@ Several potential causes were investigated.
 
 Checked faction files:
 
-
 data/factions/adeptus-custodes/units.json
 data/factions/adeptus-mechanicus/units.json
-
 
 Confirmed availability fields exist.
 
 Example:
 
-
+```json
 {
-"id": "secutarii_hoplites",
-"availability": "forgeworld"
+  "id": "secutarii_hoplites",
+  "availability": "forgeworld"
 }
-
+```
 
 Result:  
 ❌ Not the cause.
@@ -114,35 +112,26 @@ Result:
 
 Investigated:
 
-
 enrichUnitsWithKits()
-
 
 Confirmed every return spreads the unit:
 
-
-return { ...unit }
-
+```ts
+return { ...unit };
+```
 
 or
 
-
-return {
-...unit,
-models_per_box,
-prices,
-box_price
-}
-
+```ts
+return { ...unit, models_per_box, prices, box_price };
+```
 
 Meaning fields like:
 
-
-availability
-id
-name
-points
-
+- availability
+- id
+- name
+- points
 
 are preserved.
 
@@ -155,20 +144,16 @@ Result:
 
 Renderer structure inside:
 
-
 filteredUnits.map(...)
-
 
 Looked like:
 
-
+```text
 if (hasKitData) → show price
-
-else
-if availability === "forgeworld" → FORGEWORLD
-if availability === "legends" → LEGENDS
-if !availability → AWOL
-
+else if availability === "forgeworld" → FORGEWORLD
+else if availability === "legends" → LEGENDS
+else if !availability → AWOL
+```
 
 At first glance this looked correct.
 
@@ -176,15 +161,15 @@ However the bug persisted.
 
 ---
 
-# Debug Logging
+## Debug Logging
 
 Temporary logging was added:
 
-
-console.log("RAW UNITS", units)
-console.log("ENRICH START", unit)
-console.log("ENRICH END", unit)
-
+```ts
+console.log("RAW UNITS", units);
+console.log("ENRICH START", unit);
+console.log("ENRICH END", unit);
+```
 
 This confirmed:
 
@@ -194,19 +179,21 @@ This confirmed:
 
 ---
 
-# Final Root Cause
+## Final Root Cause
 
-The issue occurs when **availability is lost or misinterpreted during rendering logic**.
+The issue occurs when **availability is lost or misinterpreted during rendering
+logic**.
 
 Specifically:
 
-The AWOL fallback was triggered when the renderer incorrectly evaluated the availability condition.
+The AWOL fallback was triggered when the renderer incorrectly evaluated the
+availability condition.
 
 This happens when:
 
-
+```ts
 !unit.availability
-
+```
 
 evaluates true.
 
@@ -218,51 +205,38 @@ Possible triggers:
 
 ---
 
-# Final Fix
+## Final Fix
 
 Ensure the renderer strictly follows this order:
 
-
-const hasKitData =
-unit.models_per_box !== null &&
-unit.prices !== null
-
+```ts
+const hasKitData = unit.models_per_box !== null && unit.prices !== null
+```
 
 Rendering priority must be:
 
-
-if (hasKitData)
-show price
-
-else if (unit.availability === "forgeworld")
-show FORGEWORLD
-
-else if (unit.availability === "legends")
-show LEGENDS
-
-else
-show AWOL
-
+```text
+if (hasKitData) show price
+else if (unit.availability === "forgeworld") show FORGEWORLD
+else if (unit.availability === "legends") show LEGENDS
+else show AWOL
+```
 
 AWOL must **only render when availability is missing**.
 
 ---
 
-# Permanent Rule
+## Permanent Rule
 
 The renderer must **never check AWOL before availability**.
 
 Correct logic order:
 
-
-price
-→ availability
-→ AWOL
-
+price → availability → AWOL
 
 ---
 
-# Debug Procedure (Future)
+## Debug Procedure (Future)
 
 When this bug appears again:
 
@@ -274,22 +248,23 @@ When this bug appears again:
 
 ---
 
-# Files Involved
+## Files Involved
 
-
+```text
 app/page.tsx
 data/factions/{faction}/units.json
 data/kits/{faction}.json
 data/kit-mappings/{faction}.json
-
+```
 
 ---
 
-# Notes
+## Notes
 
 This bug appeared during integration of:
 
 • Adeptus Custodes  
 • Adeptus Mechanicus
 
-The underlying cause is related to **renderer logic priority and availability propagation**.
+The underlying cause is related to **renderer logic priority and availability
+propagation**.

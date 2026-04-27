@@ -1,16 +1,18 @@
 # 40KArmy — Data Operations Guide (V2.3)
 
-This document describes the **operational workflow** used to build and maintain faction datasets for the 40KArmy calculator.
+This document describes the **operational workflow** used to build and maintain
+faction datasets for the 40KArmy calculator.
 
 It complements the system architecture described in:
 
 DATA_SYSTEM.md
 
-Where DATA_SYSTEM defines the **data architecture**, this document defines the **human workflow used to populate it**.
+Where DATA_SYSTEM defines the **data architecture**, this document defines the
+**human workflow used to populate it**.
 
 ---
 
-# Data Pipeline Recap
+## Data Pipeline Recap
 
 The system uses a strict 3-layer pipeline:
 
@@ -19,15 +21,16 @@ Units
 → Retail Kits  
 → Regional Prices
 
-Operationally this means every faction integration requires work across **three files**.
+Operationally this means every faction integration requires work across **three
+files**.
 
 ---
 
-# Required Files Per Faction
+## Required Files Per Faction
 
 Each faction requires the following data files.
 
-```
+```text
 data/factions/{faction}/units.json
 data/kit-mappings/{faction}.json
 data/kits/{faction}.json
@@ -37,7 +40,7 @@ These three files together define the faction's cost calculation data.
 
 ---
 
-# File Responsibilities
+## File Responsibilities
 
 ## units.json
 
@@ -57,13 +60,13 @@ Important:
 
 models_per_box  
 box_price  
-prices  
+prices
 
 start as **null** and are filled by enrichment.
 
 Example:
 
-```
+```text
 {
 "id": "terminator_squad",
 "name": "Terminator Squad",
@@ -76,7 +79,7 @@ Example:
 
 Forge World or Legends units include:
 
-```
+```text
 availability: "forgeworld"
 availability: "legends"
 ```
@@ -89,7 +92,7 @@ Maps unit IDs to kit slugs.
 
 Example:
 
-```
+```text
 {
 "terminator_squad": "terminators",
 "deathwing_terminators": "terminators"
@@ -100,7 +103,7 @@ Rules:
 
 • keys must match unit.id  
 • values must match kit slug  
-• multiple units may map to one kit  
+• multiple units may map to one kit
 
 ---
 
@@ -110,7 +113,7 @@ Defines retail kit data.
 
 Example:
 
-```
+```text
 terminators:
   models: 5
   prices:
@@ -129,7 +132,7 @@ Rules:
 
 ---
 
-# Mapping Workflow (Used In Development)
+## Mapping Workflow (Used In Development)
 
 When integrating a faction:
 
@@ -160,19 +163,19 @@ Human verifies LIKELY mappings.
 Step 6  
 Confirmed mappings added to:
 
-```
+```text
 data/kit-mappings/{faction}.json
 ```
 
 ---
 
-# Data Enrichment Pipeline
+## Data Enrichment Pipeline
 
 At runtime units are enriched using kit mappings.
 
 Pipeline:
 
-```
+```text
 unit.id
 → lookup mapping
 → lookup kit
@@ -186,7 +189,7 @@ The enrichment function **must always spread the original unit object**.
 
 Correct implementation:
 
-```
+```text
 return {
   ...unit,
   models_per_box,
@@ -200,11 +203,11 @@ This preserves:
 id  
 name  
 points  
-availability  
+availability
 
 ---
 
-# UI Display States
+## UI Display States
 
 The UI supports four states.
 
@@ -220,7 +223,7 @@ points • models • price
 
 2️⃣ Forge World
 
-```
+```text
 availability: "forgeworld"
 ```
 
@@ -232,7 +235,7 @@ FORGEWORLD label
 
 3️⃣ Legends
 
-```
+```text
 availability: "legends"
 ```
 
@@ -246,7 +249,7 @@ LEGENDS label
 
 Unit has:
 
-```
+```text
 models_per_box = null
 prices = null
 availability missing
@@ -262,11 +265,11 @@ unit has no known retail kit.
 
 ---
 
-# Known Recurring Bug
+## Known Recurring Bug
 
 A recurring bug exists where units with:
 
-```
+```text
 availability: "forgeworld"
 ```
 
@@ -278,13 +281,13 @@ This occurs when availability is lost or misinterpreted during rendering.
 
 This issue is documented in:
 
-```
+```text
 docs/availability_bug.md
 ```
 
 ---
 
-# Current Development Status
+## Current Development Status
 
 The project currently contains:
 
@@ -300,31 +303,31 @@ The focus of current development is:
 
 ---
 
-# Contributor Workflow
+## Contributor Workflow
 
 When a contributor provides faction data:
 
 1. Add kit definitions to:
 
-```
+```text
 data/kits/{faction}.json
 ```
 
-2. Add kit mappings to:
+1. Add kit mappings to:
 
-```
+```text
 data/kit-mappings/{faction}.json
 ```
 
-3. Ensure units exist in:
+1. Ensure units exist in:
 
-```
+```text
 data/factions/{faction}/units.json
 ```
 
-4. Run validation scripts.
+1. Run validation scripts.
 
-5. Load the faction page and verify:
+2. Load the faction page and verify:
 
 • models per box  
 • prices  
@@ -332,7 +335,7 @@ data/factions/{faction}/units.json
 
 ---
 
-# Long-Term Data Goals
+## Long-Term Data Goals
 
 Future improvements include:
 
@@ -342,4 +345,5 @@ Future improvements include:
 • owned model tracking  
 • automated price refresh
 
-Maintaining the current workflow ensures the system remains stable as the dataset expands.
+Maintaining the current workflow ensures the system remains stable as the
+dataset expands.

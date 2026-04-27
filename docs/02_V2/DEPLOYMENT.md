@@ -4,14 +4,14 @@
 
 40KArmy is deployed on **Vercel** using a standard Next.js deployment pipeline.
 
-The application is a **frontend-only Next.js app** that consumes static JSON datasets for factions and units.
+The application is a **frontend-only Next.js app** that consumes static JSON
+datasets for factions and units.
 
 Deployment is designed to remain extremely simple.
 
-
 ---
 
-# Tech Stack
+## Tech Stack
 
 Frontend
 
@@ -33,47 +33,45 @@ Version Control
 - Git
 - GitHub
 
-
 ---
 
-# Repository Structure
+## Repository Structure
 
 Key directories:
 
-
+```text
 /docs
 data/
 scripts/
 warhammer-calculator/
-
+```
 
 Application root:
 
-
+```text
 warhammer-calculator/
-
+```
 
 Important files:
 
-
+```text
 app/layout.tsx
 app/page.tsx
 app/sitemap.ts
 app/robots.ts
-
+```
 
 These control metadata, rendering, and SEO.
 
-
 ---
 
-# Deployment Flow
+## Deployment Flow
 
 Deployment occurs automatically via Git.
 
 Process:
 
-
+```text
 Developer commits changes
 ↓
 Push to GitHub
@@ -83,43 +81,40 @@ Vercel detects new commit
 Vercel builds Next.js app
 ↓
 Deployment goes live
-
+```
 
 No manual server setup required.
 
-
 ---
 
-# Standard Deploy Commands
+## Standard Deploy Commands
 
 Typical workflow:
 
-
+```bash
 git add .
 git commit -m "update description"
 git push
-
+```
 
 Vercel then automatically builds and deploys.
 
-
 ---
 
-# Build System
+## Build System
 
 Vercel runs:
 
-
+```bash
 npm install
 npm run build
-
+```
 
 Which executes the Next.js production build.
 
-
 ---
 
-# Environment Variables
+## Environment Variables
 
 Currently **none required**.
 
@@ -128,18 +123,15 @@ The project uses:
 - static datasets
 - public APIs only
 
-
 ---
 
-# SEO Infrastructure
+## SEO Infrastructure
 
 The application includes the following SEO components:
 
-
-app/sitemap.ts
-app/robots.ts
-metadata in layout.tsx
-
+- `app/sitemap.ts`
+- `app/robots.ts`
+- metadata in `layout.tsx`
 
 These provide:
 
@@ -147,36 +139,31 @@ These provide:
 - crawl permissions
 - search metadata
 
-
 ---
 
-# Domain
+## Domain
 
 Production domain:
 
-
-https://40karmy.com
-
+<https://40karmy.com>
 
 The domain is configured within Vercel.
 
-
 ---
 
-# Analytics
+## Analytics
 
 Analytics currently use:
 
-
+```text
 @vercel/analytics
-
+```
 
 This provides lightweight traffic monitoring.
 
-
 ---
 
-# Performance Characteristics
+## Performance Characteristics
 
 The site is extremely lightweight because:
 
@@ -190,26 +177,23 @@ This results in:
 - strong mobile performance
 - minimal infrastructure cost
 
-
 ---
 
-# Deployment Risks
+## Deployment Risks
 
 Low risk.
 
 Potential issues:
 
-• incorrect dataset updates  
-• breaking UI changes  
-• Next.js build errors  
-
+- incorrect dataset updates
+- breaking UI changes
+- Next.js build errors
 
 All deployments can be rolled back within Vercel.
 
-
 ---
 
-# Rollback Procedure
+## Rollback Procedure
 
 If a deployment fails or introduces a bug:
 
@@ -218,16 +202,14 @@ If a deployment fails or introduces a bug:
 3. Select previous stable deployment
 4. Redeploy
 
-
 ---
 
-# Future Deployment Changes
+## Future Deployment Changes
 
 Possible future additions:
 
-• affiliate API integrations  
-• price update scripts  
-• faction SEO pages  
-
+- affiliate API integrations
+- price update scripts
+- faction SEO pages
 
 These will not significantly change deployment structure.

@@ -2,7 +2,8 @@
 
 ## Overview
 
-The 40KArmy application uses a **static JSON dataset pipeline** to provide faction and unit data.
+The 40KArmy application uses a **static JSON dataset pipeline** to provide
+faction and unit data.
 
 The goal is:
 
@@ -13,10 +14,9 @@ The goal is:
 
 All data is stored inside the repository.
 
-
 ---
 
-# Data Architecture
+## Data Architecture
 
 The pipeline uses **three layers of data**.
 
@@ -24,16 +24,15 @@ The pipeline uses **three layers of data**.
 2. Kit mapping layer
 3. Kit definition layer
 
-
 ---
 
-# Layer 1 — Master Unit Dataset
+## Layer 1 — Master Unit Dataset
 
 File:
 
-
+```text
 army-data-no-legends.json
-
+```
 
 This file contains:
 
@@ -47,50 +46,48 @@ Provide a single **canonical unit list**.
 
 Example structure:
 
-
+```json
 {
-"id": "intercessor",
-"name": "Intercessor Squad",
-"points": 95,
-"faction": "space-marines"
+  "id": "intercessor",
+  "name": "Intercessor Squad",
+  "points": 95,
+  "faction": "space-marines"
 }
-
-
+```
 
 ---
 
-# Layer 2 — Unit → Kit Mapping
+## Layer 2 — Unit → Kit Mapping
 
 Directory:
 
-
+```text
 data/kit-mappings/{faction}.json
-
+```
 
 This layer maps units to their retail kits.
 
 Example:
 
-
+```json
 {
-"intercessor": "space-marine-intercessors"
+  "intercessor": "space-marine-intercessors"
 }
-
+```
 
 Purpose:
 
 Separate gameplay units from retail products.
 
-
 ---
 
-# Layer 3 — Kit Definitions
+## Layer 3 — Kit Definitions
 
 Directory:
 
-
+```text
 data/kits/{faction}.json
-
+```
 
 This file defines:
 
@@ -100,88 +97,83 @@ This file defines:
 
 Example:
 
-
+```json
 {
-"slug": "space-marine-intercessors",
-"models": 10,
-"prices": {
-"GBP": 37.50,
-"USD": 60,
-"EUR": 50
+  "slug": "space-marine-intercessors",
+  "models": 10,
+  "prices": {
+    "GBP": 37.50,
+    "USD": 60,
+    "EUR": 50
+  }
 }
-}
-
+```
 
 Purpose:
 
 Store **real-world product data**.
 
-
 ---
 
-# Final Generated Dataset
+## Final Generated Dataset
 
 Scripts combine the above layers into the runtime dataset:
 
-
+```text
 data/factions/{faction}/units.json
-
+```
 
 This is the dataset consumed by the frontend.
 
 Example:
 
-
+```json
 {
-"id": "intercessor",
-"name": "Intercessor Squad",
-"points": 95,
-"models_per_box": 10,
-"box_price": 37.50,
-"prices": {
-"GBP": 37.50,
-"USD": 60,
-"EUR": 50
+  "id": "intercessor",
+  "name": "Intercessor Squad",
+  "points": 95,
+  "models_per_box": 10,
+  "box_price": 37.50,
+  "prices": {
+    "GBP": 37.50,
+    "USD": 60,
+    "EUR": 50
+  }
 }
-}
-
-
+```
 
 ---
 
-# Runtime Data Loading
+## Runtime Data Loading
 
 Frontend requests data via API routes:
 
-
+```text
 /api/factions
 /api/factions/{faction}/units
-
+```
 
 These endpoints return the compiled dataset.
 
-
 ---
 
-# Frontend Consumption
+## Frontend Consumption
 
 The application loads:
 
-
+```text
 units.json
-
+```
 
 Each unit object contains:
 
-
-id
-name
-points
-models_per_box
-box_price
-prices
-is_legends
-
+- `id`
+- `name`
+- `points`
+- `models_per_box`
+- `box_price`
+- `prices`
+- `is_legends`
 
 This allows the UI to calculate:
 
@@ -189,47 +181,44 @@ This allows the UI to calculate:
 - boxes required
 - estimated cost
 
-
 ---
 
-# Box Calculation Logic
+## Box Calculation Logic
 
 Boxes required is calculated as:
 
-
+```text
 boxes_required = ceil(unit_quantity / models_per_box)
-
+```
 
 Cost is calculated as:
 
-
+```text
 boxes_required × selected_currency_price
-
+```
 
 Where `selected_currency_price` comes from:
 
-
+```ts
 unit.prices[currency]
-
+```
 
 Example:
 
-
+```text
 unit.prices.USD
 unit.prices.GBP
-
-
+```
 
 ---
 
-# Currency Handling
+## Currency Handling
 
 Currency values are stored directly in the dataset.
 
-
 Each unit includes a regional price object:
 
-
+```text
 prices {
   GBP
   USD
@@ -237,41 +226,38 @@ prices {
   AUD
   CAD
 }
-
+```
 
 The frontend selects the correct value directly from the dataset:
 
-
+```ts
 unit.prices[currency]
-
+```
 
 No currency conversion is performed in the frontend.
 
-
 If a selected currency is unavailable, the system falls back to:
 
-
+```text
 unit.prices.GBP
-
+```
 
 ---
 
-# Known Data Challenges
+## Known Data Challenges
 
 Several complexities exist in the Warhammer ecosystem:
 
 • units with multiple kit options  
 • kits that build multiple unit types  
 • partial box usage  
-• faction-specific kit reuse  
-
+• faction-specific kit reuse
 
 These require manual mapping.
 
-
 ---
 
-# Data Sources
+## Data Sources
 
 Current sources include:
 
@@ -283,12 +269,11 @@ Future improvements may include:
 
 • Wahapedia integration  
 • automated price updates  
-• improved kit mappings  
-
+• improved kit mappings
 
 ---
 
-# Pipeline Goals (V2)
+## Pipeline Goals (V2)
 
 The V2 pipeline will aim to achieve:
 
@@ -297,10 +282,9 @@ The V2 pipeline will aim to achieve:
 3. Accurate box-to-unit mapping
 4. Reliable regional price data
 
-
 ---
 
-# Pipeline Philosophy
+## Pipeline Philosophy
 
 The pipeline prioritises:
 
@@ -312,7 +296,7 @@ This keeps the dataset maintainable as Warhammer releases new models.
 
 ---
 
-# Post-Launch Status Update — Units, Points, and Pricing
+## Post-Launch Status Update — Units, Points, and Pricing
 
 ## Current Status
 
@@ -324,7 +308,8 @@ Current state:
 - ~98% points coverage
 - units and points are now considered the stable backbone of the application
 
-This means the next major phase is no longer unit discovery, but **price data completion and accuracy**.
+This means the next major phase is no longer unit discovery, but **price data
+completion and accuracy**.
 
 ---
 
@@ -332,7 +317,8 @@ This means the next major phase is no longer unit discovery, but **price data co
 
 The pricing pipeline is now operational and supports regional MSRP.
 
-The remaining work is increasing kit coverage and improving unit-to-kit mappings.
+The remaining work is increasing kit coverage and improving unit-to-kit
+mappings.
 
 ---
 
@@ -344,10 +330,7 @@ Prices belong to **retail kits / products**.
 
 The correct architecture remains:
 
-units
-→ kit mappings
-→ kits
-→ prices
+units → kit mappings → kits → prices
 
 This is essential because:
 
@@ -402,7 +385,8 @@ This means the pricing phase must improve the mapping between:
 
 ## Next Pricing Objective
 
-The next objective is to upgrade the pricing layer so that all kit data can support:
+The next objective is to upgrade the pricing layer so that all kit data can
+support:
 
 - models per box
 - purchasable state
@@ -415,10 +399,9 @@ This will allow the calculator to become the go-to reference for:
 - all points
 - all practical retail cost data
 
-
 ---
 
-# V2 DATA PIPELINE (UNIT → KIT → PRICE)
+## V2 DATA PIPELINE (UNIT → KIT → PRICE)
 
 The cost calculation system uses a 3-layer data pipeline.
 
@@ -431,22 +414,24 @@ Contains all valid datasheets and points values.
 Total units extracted: ~1577  
 Purchasable units mapped to kits: 613
 
-
 Layer 2 — Unit → Kit Mapping  
 `data/kit-mappings/*.json`
 
 Each faction contains a mapping of:
 
+```text
 unit_slug → kit_slug
+```
 
 Example:
 
-terminator_squad → terminators  
-terminator_assault_squad → terminators  
+```text
+terminator_squad → terminators
+terminator_assault_squad → terminators
 deathwing_terminators → terminators
+```
 
 Multiple units may map to the same kit if they share a retail product.
-
 
 Layer 3 — Kit Definitions  
 `data/kits/*.json`
@@ -458,6 +443,7 @@ Each kit contains:
 
 Example structure:
 
+```text
 terminators:
   models: 5
   prices:
@@ -466,13 +452,15 @@ terminators:
     EUR: 50
     AUD: 95
     CAD: 80
-
+```
 
 Validation
 
 Kit mappings are validated using:
 
+```bash
 npm run validate:mappings
+```
 
 This ensures every unit mapping references a valid kit definition.
 
@@ -480,7 +468,6 @@ Current status:
 
 613 mappings validated  
 0 invalid references
-
 
 ## Manual Kit Mapping Workflow (Current Process)
 
@@ -497,14 +484,12 @@ Workflow:
    `data/factions/{faction}/units.json`
 
 4. Mapping process:
-
    - Assistant cross-references units against retail kits
    - Produces two lists:
      - Safe exact matches
      - Possible / loose matches
 
 5. Human verification step:
-
    - Loose matches are manually verified
    - Only confirmed matches are added to:
 
@@ -512,9 +497,7 @@ Workflow:
 
 6. Final enrichment pipeline in app:
 
-   unit.id
-   → kit-mappings/{faction}.json
-   → kits/{faction}.json
+   unit.id → kit-mappings/{faction}.json → kits/{faction}.json
 
 The UI then automatically resolves:
 

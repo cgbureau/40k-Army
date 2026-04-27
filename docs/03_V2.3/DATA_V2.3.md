@@ -1,6 +1,7 @@
 # 40KArmy — Complete Data System (Authoritative Reference)
 
-This document defines the **entire data architecture** for the 40KArmy application.
+This document defines the **entire data architecture** for the 40KArmy
+application.
 
 It replaces the following previous documents:
 
@@ -14,7 +15,7 @@ This file is the **single source of truth for the 40KArmy data pipeline.**
 
 ---
 
-# System Overview
+## System Overview
 
 The application calculates the real-world cost of Warhammer armies.
 
@@ -30,11 +31,11 @@ Gameplay data and retail data must **never be mixed**.
 
 ---
 
-# Core Architecture
+## Core Architecture
 
 The system uses a **3-layer data pipeline**.
 
-```
+```text
 Units
 → Kit Mapping
 → Retail Kits
@@ -45,11 +46,11 @@ Each layer has a clear responsibility.
 
 ---
 
-# Layer 1 — Master Unit Dataset
+## Layer 1 — Master Unit Dataset
 
 Source file:
 
-```
+```text
 army-data-no-legends.json
 ```
 
@@ -59,7 +60,7 @@ It contains all gameplay units and points values.
 
 Example:
 
-```
+```text
 {
 "id": "intercessor_squad",
 "name": "Intercessor Squad",
@@ -82,11 +83,11 @@ This layer defines the **game universe**, not the retail store.
 
 ---
 
-# Layer 2 — Unit → Kit Mapping
+## Layer 2 — Unit → Kit Mapping
 
 Location:
 
-```
+```text
 data/kit-mappings/{faction}.json
 ```
 
@@ -94,7 +95,7 @@ This layer connects a gameplay unit to the retail kit that builds it.
 
 Example:
 
-```
+```text
 "intercessor_squad": "space-marine-intercessors"
 ```
 
@@ -111,11 +112,11 @@ GAME DATA ≠ RETAIL PRODUCTS
 
 ---
 
-# Layer 3 — Retail Kit Definitions
+## Layer 3 — Retail Kit Definitions
 
 Location:
 
-```
+```text
 data/kits/{faction}.json
 ```
 
@@ -123,7 +124,7 @@ Retail kits represent real products sold by Games Workshop.
 
 Example:
 
-```
+```text
 "space-marine-intercessors": {
   "name": "Space Marine Intercessors",
   "models": 10,
@@ -154,7 +155,7 @@ Prices **must only exist in the kit layer**.
 
 ---
 
-# Regional Price System
+## Regional Price System
 
 Supported currencies:
 
@@ -166,7 +167,7 @@ Supported currencies:
 
 Prices are stored directly inside each kit:
 
-```
+```text
 prices {
   GBP
   USD
@@ -180,29 +181,29 @@ No currency conversion occurs in the frontend.
 
 The UI selects the price directly:
 
-```
+```text
 unit.prices[currency]
 ```
 
 Fallback currency:
 
-```
+```text
 GBP
 ```
 
 ---
 
-# Final Runtime Dataset
+## Final Runtime Dataset
 
 The frontend consumes compiled faction datasets:
 
-```
+```text
 data/factions/{faction}/units.json
 ```
 
 Example entry:
 
-```
+```text
 {
 "id": "intercessor_squad",
 "name": "Intercessor Squad",
@@ -221,13 +222,13 @@ These files are **derived datasets**, not source data.
 
 ---
 
-# Runtime Enrichment Pipeline
+## Runtime Enrichment Pipeline
 
 The application enriches units at runtime.
 
 Process:
 
-```
+```text
 unit.id
 → kit mapping lookup
 → kit lookup
@@ -236,7 +237,7 @@ unit.id
 
 Result:
 
-```
+```text
 models_per_box
 box_price
 prices
@@ -246,7 +247,7 @@ The enrichment function must **always spread the original unit**.
 
 Correct structure:
 
-```
+```text
 return {
   ...unit,
   models_per_box,
@@ -257,7 +258,7 @@ return {
 
 This ensures metadata such as:
 
-```
+```text
 availability
 id
 name
@@ -268,13 +269,13 @@ are never lost.
 
 ---
 
-# UI Availability States
+## UI Availability States
 
 Units may include an availability flag.
 
 Example:
 
-```
+```text
 availability: "forgeworld"
 availability: "legends"
 ```
@@ -283,16 +284,16 @@ These affect **UI display only**, not pricing.
 
 Rendering rules:
 
-| Condition | UI Result |
-|--------|--------|
-| kit data exists | show price |
+| Condition                 | UI Result       |
+| ------------------------- | --------------- |
+| kit data exists           | show price      |
 | availability = forgeworld | show FORGEWORLD |
-| availability = legends | show LEGENDS |
-| no kit + no availability | show AWOL |
+| availability = legends    | show LEGENDS    |
+| no kit + no availability  | show AWOL       |
 
 AWOL represents:
 
-```
+```text
 unit has no known retail kit
 ```
 
@@ -304,11 +305,11 @@ Examples:
 
 ---
 
-# AWOL Definition
+## AWOL Definition
 
 A unit is AWOL if:
 
-```
+```text
 models_per_box = null
 prices = null
 availability missing
@@ -316,7 +317,7 @@ availability missing
 
 AWOL means:
 
-```
+```text
 No known purchasable retail kit.
 ```
 
@@ -324,7 +325,7 @@ AWOL units do not participate in cost calculations.
 
 ---
 
-# Manual Kit Mapping Workflow
+## Manual Kit Mapping Workflow
 
 Kit mapping is currently **manual** to ensure accuracy.
 
@@ -333,13 +334,13 @@ Process:
 1. Retail kits sourced from Games Workshop store.
 2. Kits added to:
 
-```
+```text
 data/kits/{faction}.json
 ```
 
-3. Units sourced from Wahapedia.
+1. Units sourced from Wahapedia.
 
-4. Assistant compares units to retail kits.
+2. Assistant compares units to retail kits.
 
 Two mapping categories produced:
 
@@ -351,19 +352,19 @@ LIKELY = needs human verification
 
 Only verified mappings are added to:
 
-```
+```text
 data/kit-mappings/{faction}.json
 ```
 
 ---
 
-# Data Validation Scripts
+## Data Validation Scripts
 
 Scripts validate mapping integrity.
 
 Example:
 
-```
+```text
 npm run validate:mappings
 ```
 
@@ -375,19 +376,19 @@ Checks include:
 
 ---
 
-# Price Pipeline
+## Price Pipeline
 
 Prices are scraped from the official Games Workshop store.
 
 Source:
 
-```
+```text
 warhammer.com
 ```
 
 Regions scraped:
 
-```
+```text
 /en-GB/shop
 /en-US/shop
 /en-AU/shop
@@ -401,7 +402,7 @@ Scraper extracts:
 
 These values populate:
 
-```
+```text
 data/kits/*.json
 ```
 
@@ -409,7 +410,7 @@ All prices represent **RRP**.
 
 ---
 
-# Pricing Philosophy
+## Pricing Philosophy
 
 Prices must reflect **official Games Workshop retail price**.
 
@@ -419,7 +420,7 @@ Discount logic will exist in the UI via a user toggle.
 
 ---
 
-# Known Warhammer Data Complexities
+## Known Warhammer Data Complexities
 
 The Warhammer ecosystem contains edge cases:
 
@@ -433,7 +434,7 @@ The architecture is designed to accommodate these.
 
 ---
 
-# Current Dataset Status
+## Current Dataset Status
 
 Current system includes:
 
@@ -451,7 +452,7 @@ The remaining work is expanding:
 
 ---
 
-# Architecture Rules (Must Never Be Broken)
+## Architecture Rules (Must Never Be Broken)
 
 1. Units must never contain price data.
 2. Prices must only exist in retail kits.
@@ -463,7 +464,7 @@ Violating these rules will break the cost pipeline.
 
 ---
 
-# Long-Term Vision
+## Long-Term Vision
 
 The data system will eventually support:
 

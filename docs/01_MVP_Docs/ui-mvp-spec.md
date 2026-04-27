@@ -4,9 +4,11 @@
 
 This document defines the MVP user interface redesign for the 40KArmy web app.
 
-The app already has a working engine and existing product logic. This redesign is **UI-only**.
+The app already has a working engine and existing product logic. This redesign
+is **UI-only**.
 
-The goal is to restyle the current working Next.js page so it matches the provided visual direction:
+The goal is to restyle the current working Next.js page so it matches the
+provided visual direction:
 
 - retro / pixel / tabletop utility feel
 - monochrome-green interface
@@ -21,7 +23,8 @@ This is not a marketing page. It is a **tool UI**.
 
 ## Critical Rule: Preserve Existing Logic
 
-The following already work and **must not be broken or rewritten unless absolutely necessary for layout integration**:
+The following already work and **must not be broken or rewritten unless
+absolutely necessary for layout integration**:
 
 - faction selector
 - search input
@@ -36,7 +39,8 @@ The following already work and **must not be broken or rewritten unless absolute
 - export list button
 - copy link button
 - URL persistence / query param syncing
-- sticky totals behaviour, unless reworked to fit the new layout while preserving visibility
+- sticky totals behaviour, unless reworked to fit the new layout while
+  preserving visibility
 
 You are redesigning the interface, not rebuilding the product logic.
 
@@ -75,6 +79,7 @@ The interface should feel like:
 - graphic and structured, not soft SaaS
 
 Avoid:
+
 - rounded “modern SaaS cards”
 - shadows
 - glossy styling
@@ -83,6 +88,7 @@ Avoid:
 - playful consumer app styling
 
 Prefer:
+
 - strong outlines
 - tight spacing
 - deliberate visual hierarchy
@@ -94,6 +100,7 @@ Prefer:
 ## Brand Assets
 
 ### Logo
+
 Use this file:
 
 `/public/40KArmy_Logo.svg`
@@ -102,15 +109,14 @@ Display it centered at the top of the page.
 
 ### Colors
 
-Primary background:
-`#B2C4AE`
+Primary background: `#B2C4AE`
 
-Primary text / borders:
-`#231F20`
+Primary text / borders: `#231F20`
 
 These two colors should drive almost the entire UI.
 
 Suggested use:
+
 - page background: `#B2C4AE`
 - panels: slightly transparent or same green tone
 - text: `#231F20`
@@ -123,21 +129,22 @@ Do not introduce unrelated accent colors unless needed for functional states.
 ### Fonts
 
 #### Display / headings
-Use Google Font:
-`Workbench`
+
+Use Google Font: `Workbench`
 
 Use for:
+
 - logo-adjacent title
 - section headings
 - totals heading
 - major UI labels if appropriate
 
 #### Data / body / table text
-Use Google Font:
-`IBM Plex Mono`
-(or a very close monospace fallback if needed)
+
+Use Google Font: `IBM Plex Mono` (or a very close monospace fallback if needed)
 
 Use for:
+
 - unit rows
 - values
 - labels
@@ -149,7 +156,8 @@ Use for:
 
 ## Page Layout Overview
 
-The page should be a centered composition with a maximum width suitable for desktop-first use.
+The page should be a centered composition with a maximum width suitable for
+desktop-first use.
 
 ### Overall page structure
 
@@ -157,14 +165,15 @@ The page should be a centered composition with a maximum width suitable for desk
 2. Main two-column content area
 
 ### Header zone
-Centered logo at the top.
-Below the logo, centered subtitle:
+
+Centered logo at the top. Below the logo, centered subtitle:
 
 `WARHAMMER 40K ARMY CALCULATOR`
 
 This should feel like a product header, not a blog title.
 
 ### Main content area
+
 Two columns:
 
 - **Left column**: army builder interface
@@ -173,6 +182,7 @@ Two columns:
 Desktop layout should match the supplied design direction.
 
 Approximate proportion:
+
 - left column: ~68–72%
 - right column: ~28–32%
 
@@ -183,10 +193,11 @@ On smaller screens, stack vertically if needed, but preserve all features.
 ## Header Specification
 
 ### Header container
-Centered horizontally.
-Top margin/padding should feel deliberate and balanced.
 
-### Logo
+Centered horizontally. Top margin/padding should feel deliberate and balanced.
+
+### Header logo
+
 - centered
 - prominent
 - not oversized to the point of crowding layout
@@ -194,10 +205,11 @@ Top margin/padding should feel deliberate and balanced.
 - use SVG cleanly
 
 ### Subtitle
-Text:
-`WARHAMMER 40K ARMY CALCULATOR`
+
+Text: `WARHAMMER 40K ARMY CALCULATOR`
 
 Style:
+
 - Workbench font
 - uppercase
 - centered
@@ -211,6 +223,7 @@ Style:
 Use a two-panel bordered layout.
 
 ### Shared panel style
+
 Both left and right panels should share a consistent visual language:
 
 - solid border using `#231F20`
@@ -221,8 +234,7 @@ Both left and right panels should share a consistent visual language:
 - internal padding
 - strong graphic structure
 
-Suggested visual idea:
-“boxed control panel”
+Suggested visual idea: “boxed control panel”
 
 ---
 
@@ -239,12 +251,13 @@ The left panel contains:
 4. Scrollable unit list
 
 ### Search field
+
 Position: top of left panel
 
-Placeholder:
-`Search...`
+Placeholder: `Search...`
 
 Style:
+
 - full width
 - dark border
 - green-toned fill
@@ -253,14 +266,17 @@ Style:
 - should feel like an input field inside a utility interface
 
 Avoid:
+
 - pill shapes
 - oversized input height
 - soft shadows
 
 ### Controls row
+
 Below the search field.
 
 Must contain:
+
 - target points label
 - preset buttons 500 / 1000 / 2000
 - a visual zero/off state if target points is 0
@@ -269,62 +285,68 @@ Must contain:
 This row can wrap slightly on smaller screens, but should stay compact.
 
 ### Target points
+
 Should remain fully functional.
 
 Default state is already 0 and should remain so.
 
 If target points = 0:
+
 - this is effectively “no target”
 - UI should not feel broken or empty
 
-A small representation like:
-`0---`
-or equivalent visual treatment is acceptable if easy to integrate, but do not force this if it complicates functionality.
+A small representation like: `0---` or equivalent visual treatment is acceptable
+if easy to integrate, but do not force this if it complicates functionality.
 
-Primary requirement:
-the input remains usable and clear.
+Primary requirement: the input remains usable and clear.
 
 ### Preset buttons
+
 Keep:
+
 - 500
 - 1000
 - 2000
 
-Compact, tactical styling.
-These should feel like small utility buttons, not big CTA buttons.
+Compact, tactical styling. These should feel like small utility buttons, not big
+CTA buttons.
 
 ### Faction selector
+
 Place on the right side of the controls area.
 
-Label:
-`Faction`
+Label: `Faction`
 
 Should remain fully functional and future-ready for more factions.
 
-Even though only Space Marines currently exists, the selector should still appear.
+Even though only Space Marines currently exists, the selector should still
+appear.
 
 ---
 
 ## Units Section
 
 ### Section label
-Add a small label:
-`Units`
+
+Add a small label: `Units`
 
 This should sit above the unit list and help structure the panel.
 
 ### Unit list container
+
 This must remain scrollable.
 
 It should visually resemble a compact table/list, not separate cards.
 
 Use:
+
 - tight row spacing
 - column alignment
 - monospace data
 - consistent row rhythm
 
 ### Unit row structure
+
 Each row should show:
 
 - Unit Name
@@ -337,13 +359,12 @@ Approximate desktop row layout:
 
 `OUTRIDER SQUAD    80pts    3mdls/pb    £40.00    [-] 0 [+]`
 
-Important:
-This should still be readable and flexible with longer names.
+Important: This should still be readable and flexible with longer names.
 
-Recommended approach:
-Use a CSS grid or flex layout with fixed/minmax columns.
+Recommended approach: Use a CSS grid or flex layout with fixed/minmax columns.
 
 Suggested columns:
+
 1. unit name
 2. points
 3. models per box
@@ -351,6 +372,7 @@ Suggested columns:
 5. controls
 
 ### Unit name
+
 - dominant within row
 - uppercase is acceptable
 - monospace or body font
@@ -358,35 +380,33 @@ Suggested columns:
 - truncate carefully if needed, but prefer wrapping only if layout requires it
 
 ### Points
-Display like:
-`80pts`
+
+Display like: `80pts`
 
 ### Models per box
-Display like:
-`3mdls/pb`
 
-If models_per_box is null:
-display a fallback like:
-`--`
+Display like: `3mdls/pb`
+
+If models_per_box is null: display a fallback like: `--`
 
 ### Box price
-Display like:
-`£40.00`
 
-If box_price is null:
-display a fallback like:
-`--`
+Display like: `£40.00`
+
+If box_price is null: display a fallback like: `--`
 
 ### Quantity controls
+
 Must preserve existing behaviour:
+
 - minus button
 - current quantity
 - plus button
 
-Display format should be compact:
-`[-] 0 [+]`
+Display format should be compact: `[-] 0 [+]`
 
 Buttons should fit the retro UI:
+
 - bordered
 - square-ish
 - no shadow
@@ -395,7 +415,9 @@ Buttons should fit the retro UI:
 - green background
 
 ### Unit row separators
+
 Optional but recommended:
+
 - subtle bottom border or spacing between rows
 - keep it clean and dense
 
@@ -414,7 +436,8 @@ The right panel contains, in this order:
 3. Cost Breakdown
 4. Totals
 
-This panel is more informational and should remain visually secondary to the builder, but still strong and readable.
+This panel is more informational and should remain visually secondary to the
+builder, but still strong and readable.
 
 ---
 
@@ -426,28 +449,28 @@ At the top of the right panel, place two actions:
 - `EXPORT`
 
 These correspond to the existing:
+
 - copy army link button
 - export army list button
 
-Use the existing functionality.
-Only restyle and relabel visually if needed.
+Use the existing functionality. Only restyle and relabel visually if needed.
 
 Style:
+
 - compact
 - monospace
 - aligned horizontally
 - simple bordered controls or text-buttons
 - visually integrated into panel top edge
 
-Do not remove the copied feedback behaviour.
-If the existing temporary labels like `Copied!` or `Copied List!` remain, that is acceptable.
+Do not remove the copied feedback behaviour. If the existing temporary labels
+like `Copied!` or `Copied List!` remain, that is acceptable.
 
 ---
 
 ## Army Summary Section
 
-Section heading:
-`Army Summary`
+Section heading: `Army Summary`
 
 Below it, list all currently selected units.
 
@@ -457,12 +480,13 @@ Format example:
 `WHIRLWIND                                    x1`
 
 Requirements:
+
 - only show units where quantity > 0
 - keep existing logic
-- if none selected, show an empty state such as:
-  `No units selected`
+- if none selected, show an empty state such as: `No units selected`
 
 Presentation:
+
 - simple vertical list
 - compact
 - readable
@@ -472,10 +496,10 @@ Presentation:
 
 ## Cost Breakdown Section
 
-Section heading:
-`Cost Breakdown`
+Section heading: `Cost Breakdown`
 
 For each unit where:
+
 - quantity > 0
 - models_per_box is available
 - box_price is available
@@ -492,12 +516,13 @@ Format example:
 `VINDICATOR   Qty:1   Bxs:1   £47.50`
 
 Requirements:
+
 - preserve existing calculation logic
 - skip units without cost data
-- if no valid units selected, show:
-  `No units with cost data selected`
+- if no valid units selected, show: `No units with cost data selected`
 
 Presentation:
+
 - compact rows
 - monospace
 - no card-within-card styling
@@ -511,22 +536,24 @@ Place at the bottom of the right panel.
 
 This should feel visually anchored and important.
 
-Section heading:
-`Totals`
+Section heading: `Totals`
 
 Show:
+
 - Current Points
 - Total Boxes
 - Estimated Cost
 
 If target points > 0, also show:
+
 - Remaining Points
 
 Use existing logic for whether Remaining Points appears.
 
 ### Display style
-This should not remain as modern boxed KPI cards.
-Instead, shift toward a more integrated information block.
+
+This should not remain as modern boxed KPI cards. Instead, shift toward a more
+integrated information block.
 
 Example structure:
 
@@ -545,6 +572,7 @@ Remaining Points
 `1625`
 
 Layout can be:
+
 - two-column
 - stacked
 - small grid
@@ -553,10 +581,13 @@ Layout can be:
 But it should fit the retro utility style.
 
 ### Sticky behaviour
-If possible, preserve totals visibility.
-However, if the new right-panel layout naturally keeps totals visible without the previous sticky implementation, that is acceptable.
+
+If possible, preserve totals visibility. However, if the new right-panel layout
+naturally keeps totals visible without the previous sticky implementation, that
+is acceptable.
 
 Priority:
+
 - clear visibility
 - no broken overlapping
 - no awkward mobile issues
@@ -568,13 +599,17 @@ Priority:
 This MVP is desktop-first, but should not break on smaller screens.
 
 ### Desktop
+
 Use the intended two-column layout.
 
 ### Tablet / small desktop
+
 Can reduce spacing slightly, keep two columns if possible.
 
 ### Mobile
+
 Panels may stack vertically:
+
 - header
 - left panel
 - right panel
@@ -582,6 +617,7 @@ Panels may stack vertically:
 The UI must remain functional.
 
 On smaller screens:
+
 - unit rows may wrap more
 - controls may stack
 - faction selector may move below target controls if needed
@@ -597,11 +633,13 @@ The project already uses Next.js + Tailwind.
 Use Tailwind utilities where sensible.
 
 If cleaner, you may:
+
 - use CSS variables for the two brand colors
 - add utility classes in globals if needed for fonts/colors
 - use Next.js font loading for Google Fonts
 
 Recommended:
+
 - import fonts with `next/font/google`
 - apply Workbench to headings
 - apply IBM Plex Mono to data/body
@@ -621,7 +659,8 @@ Priority order:
 5. Restyle summary / breakdown / totals to match retro UI
 6. Ensure responsive stability
 
-If a visual detail from the mock conflicts with usability or existing functionality, prefer usability while staying faithful to the design direction.
+If a visual detail from the mock conflicts with usability or existing
+functionality, prefer usability while staying faithful to the design direction.
 
 ---
 
@@ -630,6 +669,7 @@ If a visual detail from the mock conflicts with usability or existing functional
 The implementation is successful if all of the following are true:
 
 ### Functional
+
 - all current calculations still work
 - search still works
 - faction selector still works
@@ -643,6 +683,7 @@ The implementation is successful if all of the following are true:
 - URL query persistence still works
 
 ### Visual
+
 - logo appears at top center
 - page uses green + black palette
 - headings use Workbench
@@ -654,6 +695,7 @@ The implementation is successful if all of the following are true:
 - UI feels like a retro tabletop utility tool
 
 ### Technical
+
 - no runtime errors
 - no broken imports
 - no hydration issues
@@ -665,8 +707,8 @@ The implementation is successful if all of the following are true:
 
 Implement this as a polished MVP UI refactor of the existing page.
 
-Do not remove features.
-Do not simplify working functionality.
-Do not replace the app with a mockup.
+Do not remove features. Do not simplify working functionality. Do not replace
+the app with a mockup.
 
-This must remain a fully working product page with the new visual design applied.
+This must remain a fully working product page with the new visual design
+applied.
