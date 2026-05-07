@@ -1,5 +1,9 @@
-// create stable ids for seed records from human-readable natural keys
-
+/**
+ * Canonical game-edition seed slugs used by seed data and relationship fixtures.
+ *
+ * These slugs are intentionally stable and should match the corresponding
+ * `game_edition_slug` values in the game edition seed dataset.
+ */
 type GameEditionSeedSlug =
   | "rt"
   | "2e"
@@ -13,6 +17,12 @@ type GameEditionSeedSlug =
   | "10e"
   | "11e";
 
+/**
+ * Fixed ULIDs for canonical game-edition seed records.
+ *
+ * The values were generated once and then checked in so repeated seed runs use
+ * the same primary keys. Do not replace these with runtime `ulid()` calls.
+ */
 const gameEditionSeedIds: Record<GameEditionSeedSlug, string> = {
   rt: "01KQZTSBVHY3BV4T71G630NW0Q",
   "2e": "01KQZTSBVNGWT7Y8XAQTVFV02X",
@@ -27,6 +37,12 @@ const gameEditionSeedIds: Record<GameEditionSeedSlug, string> = {
   "11e": "01KQZTSBVNYZ7MZNQXQ7GTRGBM",
 };
 
+/**
+ * Returns the stable database ID for a canonical game edition seed slug.
+ *
+ * @param slug - Canonical game edition slug such as `rt`, `10e`, or `11e`.
+ * @returns The fixed ULID assigned to that game edition.
+ */
 export const gameEditionId = (slug: GameEditionSeedSlug): string => {
   return gameEditionSeedIds[slug];
 };
