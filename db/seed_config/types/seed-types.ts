@@ -1,5 +1,5 @@
 import type { DateOptions } from "@/utils/general_utils";
-import { SeedingError } from "./seed-error-types";
+import type { SeedingError } from "./seed-error-types";
 import type { LogInfo } from "@/utils/logger";
 import {
   GameEdition,
@@ -142,24 +142,6 @@ export type PlayerCollectionConfig = BaseEntityConfig &
 export type PlayerCollectionModelConfig = BaseEntityConfig &
   Omit<PlayerCollectionModel, "created_at" | "updated_at">;
 
-/*
-Add types for the following concepts:
-SeedMode - how the seeder is running
-SeedPhaseName - which logical phase of the seeder is running
-SeedPhaseStatus
-SeedTableConfigMap
-SeedRecord - a normalized config row with table metadata
-SeedBuildResult
-SeedValidationIssue
-SeedValidationResult
-SeedInsertResult
-SeedPhaseContext
-SeedPhase - the contract every phase must implement; A seed phase declares its name, dependencies, affected tables, and exposes build, validate, insert, and summarize behavior.
-SeedRunSummary - what the whole seed run reports at the end
-*/
-
-// dry_run = load, build, validate, summarize, but do not write to the database
-// live = load, build, validate, insert, summarize, write to the database
 export type SeedMode = "dry_run" | "live";
 
 export type SeedRunOptions = {
@@ -214,7 +196,89 @@ export type SeedTableConfigMap = {
   player_collection_models: PlayerCollectionModelConfig;
 };
 
-type BaseTimestamps = {
+export type SeedTableName = keyof SeedTableConfigMap;
+
+export type SeedRecord<TTable extends SeedTableName> = {
+  table: TTable;
+  data: SeedTableConfigMap[TTable];
+};
+
+export type SeedDataset<TTable extends SeedTableName> = {
+  table: TTable;
+  records: SeedTableConfigMap[TTable][];
+};
+
+export type AnySeedDataset = {
+  [TTable in SeedTableName]: SeedDataset<TTable>;
+}[SeedTableName];
+
+export type SeedBuildResult = {
+  phase: SeedPhaseName;
+  datasets: AnySeedDataset[];
+  builtAt: Date;
+};
+
+export type SeedValidationSeverity = "error" | "warning";
+
+export type SeedValidationIssue = {
+  phase: SeedPhaseName;
+  table: SeedTableName;
+  recordId?: string;
+  field?: string;
+  message: string;
+  severity: SeedValidationSeverity;
+};
+
+export type SeedValidationResult = {
+  phase: SeedPhaseName;
+  isValid: boolean;
+  issues: SeedValidationIssue[];
+  validatedAt: Date;
+};
+
+export type SeedInsertResult = {
+  phase: SeedPhaseName;
+  insertedAt: Date;
+  created: number;
+  updated: number;
+  skipped: number;
+  failed: number;
+};
+
+export type SeedPhaseContext = {
+  options: SeedRunOptions;
+  startedAt: Date;
+  logInfo?: LogInfo;
+};
+
+export type SeedPhase = {
+  name: SeedPhaseName;
+  dependencies: SeedPhaseName[];
+  tables: SeedTableName[];
+  build: (
+    context: SeedPhaseContext,
+  ) => SeedBuildResult | Promise<SeedBuildResult>;
+  validate: (
+    buildResult: SeedBuildResult,
+    context: SeedPhaseContext,
+  ) => SeedValidationResult | Promise<SeedValidationResult>;
+  insert: (
+    buildResult: SeedBuildResult,
+    context: SeedPhaseContext,
+  ) => SeedInsertResult | Promise<SeedInsertResult>;
+};
+
+export type SeedRunSummary = {
+  mode: SeedMode;
+  startedAt: Date;
+  completedAt: Date;
+  phases: SeedPhaseName[];
+  buildResults: SeedBuildResult[];
+  validationResults: SeedValidationResult[];
+  insertResults: SeedInsertResult[];
+};
+
+export type BaseTimestamps = {
   stateStarted: Date;
   stateEnded: Date | null;
 };
@@ -232,7 +296,7 @@ type FailureState<T> = BaseState & {
   lastValidState?: SeederState<T>;
 };
 
-type SeederStatus =
+export type SeedPhaseStatus =
   | "not_started"
   | "loading_source"
   | "source_loaded"
@@ -248,7 +312,7 @@ type SeederStatus =
   | "failing"
   | "failed";
 
-type SeederStatusName =
+export type SeedPhaseStage =
   | "loading"
   | "building"
   | "validating"
@@ -256,14 +320,16 @@ type SeederStatusName =
   | "summarizing"
   | "completed";
 
-type SeederState<T> = BaseState &
+export type SeederState<T> = BaseState &
   DataState<T> &
   FailureState<T> & {
-    status: SeederStatus;
+    status: SeedPhaseStatus;
+    stage?: SeedPhaseStage;
+    rowsLoaded?: number;
     rowsBuilt?: number;
+    rowsValidated?: number;
     rowsInserted?: number;
-    rowsReturned?: number;
-    phase?: SeederStatusName;
+    rowsSummarized?: number;
     lastValidState?: SeederState<T>;
   };
 
@@ -272,13 +338,28 @@ type BaseEvent = {
   logInfo: LogInfo;
 };
 
+export type SeederEventType =
+  | "START_LOAD"
+  | "LOAD_COMPLETE"
+  | "START_BUILD"
+  | "BUILD_COMPLETE"
+  | "START_VALIDATE"
+  | "VALIDATE_COMPLETE"
+  | "START_INSERT"
+  | "INSERT_COMPLETE"
+  | "START_SUMMARIZE"
+  | "SUMMARIZE_COMPLETE"
+  | "START_FAIL"
+  | "FAIL_COMPLETE"
+  | "PHASE_COMPLETE";
+
 export type SeederEvent = BaseEvent & {
-  status: SeederStatus;
-  statusName: SeederStatusName;
+  type: SeederEventType;
+  stage: SeedPhaseStage;
   error?: SeedingError;
 };
 
-export type ValidationResult = {
+export type StateValidationResult = {
   isValid: boolean;
   error?: string;
 };
@@ -287,7 +368,7 @@ export type Transition<T> = {
   from: SeederState<T>;
   to: SeederState<T>;
   event: SeederEvent;
-  validation?: ValidationResult;
+  validation?: StateValidationResult;
 };
 
 export type TransitionFunction<T, S extends SeederState<T>["status"]> = (
@@ -297,7 +378,7 @@ export type TransitionFunction<T, S extends SeederState<T>["status"]> = (
 
 export type StateTransitionMap<T> = {
   [S in SeederState<T>["status"]]: {
-    [E in SeederStatus]: TransitionFunction<T, S>;
+    [E in SeederEventType]: TransitionFunction<T, S>;
   };
 };
 
@@ -305,7 +386,7 @@ export function isLoadingState<T>(
   state: SeederState<T>,
 ): state is DataState<T> & {
   status: "loading_source" | "source_loaded";
-  rowsBuilt: number;
+  rowsLoaded: number;
 } {
   return ["loading_source", "source_loaded"].includes(state.status);
 }
@@ -350,12 +431,7 @@ export function isFailingState<T>(
   state: SeederState<T>,
 ): state is FailureState<T> & {
   status: "failing" | "failed";
-  statusName:
-    | "loading"
-    | "building"
-    | "validating"
-    | "inserting"
-    | "summarizing";
+  stage: "loading" | "building" | "validating" | "inserting" | "summarizing";
 } {
   return ["failing", "failed"].includes(state.status);
 }
@@ -370,19 +446,7 @@ export function isCompletedState<T>(
 }
 
 export type StateHistoryEntry = {
-  status: SeederStatus;
+  status: SeedPhaseStatus;
   stateStarted: Date;
   stateEnded: Date | null;
-};
-
-// for handling single row
-export type SeedRecord<TTable extends keyof SeedTableConfigMap> = {
-  table: TTable;
-  data: SeedTableConfigMap[TTable];
-};
-
-// for handling multiple rows
-export type SeedDataset<TTable extends keyof SeedTableConfigMap> = {
-  table: TTable;
-  records: SeedTableConfigMap[TTable][];
 };
