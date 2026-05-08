@@ -134,5 +134,5 @@ export const gameEditionsDataset: SeedDataset<"game_editions"> = {
     ninthEdition,
     tenthEdition,
     eleventhEdition,
-  ],
+  ] satisfies GameEditionConfig[],
 };

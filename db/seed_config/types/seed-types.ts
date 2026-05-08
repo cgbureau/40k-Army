@@ -244,27 +244,24 @@ export type PlayerCollectionModelConfig = BaseEntityConfig &
 export type SeedMode = "dry_run" | "live";
 
 /**
- * Runtime options that control how the seed runner executes phases.
+ * Domain-level group of seed data processed as one ordered collection.
+ */
+export type SeedDataCollection =
+  | "reference_data"
+  | "factions"
+  | "units"
+  | "models"
+  | "kits"
+  | "player_data";
+
+/**
+ * Runtime options that control how the seed runner executes collections.
  */
 export type SeedRunOptions = {
   mode: SeedMode;
   resetBeforeSeed: boolean;
-  phase?: SeedPhaseName;
+  collection?: SeedDataCollection;
 };
-
-/**
- * Coarse-grained domain phase used to order related table seeders.
- */
-export type SeedPhaseName =
-  | "reference_data"
-  | "factions"
-  | "detachments"
-  | "units"
-  | "models"
-  | "unit_rules"
-  | "kits"
-  | "leader_rules"
-  | "player_data";
 
 /**
  * Maps each seedable database table to the config type accepted by that table.
@@ -333,10 +330,10 @@ export type AnySeedDataset = {
 }[SeedTableName];
 
 /**
- * Result produced when a phase builds normalized seed datasets.
+ * Result produced when a collection builds normalized seed datasets.
  */
 export type SeedBuildResult = {
-  phase: SeedPhaseName;
+  collection: SeedDataCollection;
   datasets: AnySeedDataset[];
   builtAt: Date;
 };
@@ -347,10 +344,10 @@ export type SeedBuildResult = {
 export type SeedValidationSeverity = "error" | "warning";
 
 /**
- * One validation finding for a phase, table, record, or field.
+ * One validation finding for a collection, table, record, or field.
  */
 export type SeedValidationIssue = {
-  phase: SeedPhaseName;
+  collection: SeedDataCollection;
   table: SeedTableName;
   recordId?: string;
   field?: string;
@@ -359,20 +356,21 @@ export type SeedValidationIssue = {
 };
 
 /**
- * Result produced when a phase validates its built seed datasets.
+ * Result produced when a collection validates its built seed datasets.
  */
 export type SeedValidationResult = {
-  phase: SeedPhaseName;
+  collection: SeedDataCollection;
   isValid: boolean;
   issues: SeedValidationIssue[];
   validatedAt: Date;
+  validated: number;
 };
 
 /**
- * Result produced when a live phase writes records to the database.
+ * Result produced when a live collection writes records to the database.
  */
 export type SeedInsertResult = {
-  phase: SeedPhaseName;
+  collection: SeedDataCollection;
   insertedAt: Date;
   created: number;
   updated: number;
@@ -381,32 +379,62 @@ export type SeedInsertResult = {
 };
 
 /**
- * Shared execution context passed to every phase method.
+ * Result produced when a collection summarizes its build/validate/insert work.
  */
-export type SeedPhaseContext = {
+export type SeedSummaryResult = {
+  collection: SeedDataCollection;
+  summarizedAt: Date;
+  totalDatasets: number;
+  totalRecords: number;
+  created: number;
+  validated: number;
+  updated: number;
+  skipped: number;
+  failed: number;
+};
+
+/**
+ * Shared execution context passed to every collection method.
+ */
+export type SeedCollectionContext = {
   options: SeedRunOptions;
   startedAt: Date;
   logInfo?: LogInfo;
 };
 
 /**
- * Contract implemented by every seed phase.
+ * Configuration for a collection backed by static TypeScript datasets.
  */
-export type SeedPhase = {
-  name: SeedPhaseName;
-  dependencies: SeedPhaseName[];
+export type StaticSeedCollectionConfig = {
+  collection: SeedDataCollection;
+  dependencies: SeedDataCollection[];
+  datasets: AnySeedDataset[];
+};
+
+/**
+ * Contract implemented by every seed data collection.
+ */
+export type SeedCollectionSeeder = {
+  collection: SeedDataCollection;
+  dependencies: SeedDataCollection[];
   tables: SeedTableName[];
   build: (
-    context: SeedPhaseContext,
+    context: SeedCollectionContext,
   ) => SeedBuildResult | Promise<SeedBuildResult>;
   validate: (
     buildResult: SeedBuildResult,
-    context: SeedPhaseContext,
+    context: SeedCollectionContext,
   ) => SeedValidationResult | Promise<SeedValidationResult>;
   insert: (
     buildResult: SeedBuildResult,
-    context: SeedPhaseContext,
+    context: SeedCollectionContext,
   ) => SeedInsertResult | Promise<SeedInsertResult>;
+  summarize: (
+    buildResult: SeedBuildResult,
+    validationResult: SeedValidationResult,
+    insertResult: SeedInsertResult,
+    context: SeedCollectionContext,
+  ) => SeedSummaryResult | Promise<SeedSummaryResult>;
 };
 
 /**
@@ -416,10 +444,11 @@ export type SeedRunSummary = {
   mode: SeedMode;
   startedAt: Date;
   completedAt: Date;
-  phases: SeedPhaseName[];
+  collections: SeedDataCollection[];
   buildResults: SeedBuildResult[];
   validationResults: SeedValidationResult[];
   insertResults: SeedInsertResult[];
+  summaryResults: SeedSummaryResult[];
 };
 
 /**
@@ -453,9 +482,21 @@ type FailureState<T> = BaseState & {
 };
 
 /**
- * Fine-grained state-machine status for one seed phase.
+ * Lifecycle stage a seed data collection is currently executing.
  */
-export type SeedPhaseStatus =
+export type SeedStage =
+  | "load"
+  | "build"
+  | "validate"
+  | "insert"
+  | "summarize"
+  | "complete"
+  | "error";
+
+/**
+ * Fine-grained state-machine status for one seed stage.
+ */
+export type SeedStageStatus =
   | "not_started"
   | "loading_source"
   | "source_loaded"
@@ -472,24 +513,13 @@ export type SeedPhaseStatus =
   | "failed";
 
 /**
- * Human-readable lifecycle stage used for logs and failure context.
- */
-export type SeedPhaseStage =
-  | "loading"
-  | "building"
-  | "validating"
-  | "inserting"
-  | "summarizing"
-  | "completed";
-
-/**
- * Current state-machine snapshot for one phase execution.
+ * Current state-machine snapshot for one collection execution.
  */
 export type SeederState<T> = BaseState &
   DataState<T> &
   FailureState<T> & {
-    status: SeedPhaseStatus;
-    stage?: SeedPhaseStage;
+    status: SeedStageStatus;
+    stage?: SeedStage;
     rowsLoaded?: number;
     rowsBuilt?: number;
     rowsValidated?: number;
@@ -507,7 +537,7 @@ type BaseEvent = {
 };
 
 /**
- * Events that drive state transitions for one seed phase.
+ * Events that drive state transitions for one seed collection.
  */
 export type SeederEventType =
   | "START_LOAD"
@@ -522,14 +552,14 @@ export type SeederEventType =
   | "SUMMARIZE_COMPLETE"
   | "START_FAIL"
   | "FAIL_COMPLETE"
-  | "PHASE_COMPLETE";
+  | "COLLECTION_COMPLETE";
 
 /**
- * State-machine event emitted while a seed phase advances.
+ * State-machine event emitted while a seed collection advances.
  */
 export type SeederEvent = BaseEvent & {
   type: SeederEventType;
-  stage: SeedPhaseStage;
+  stage: SeedStage;
   error?: SeedingError;
 };
 
@@ -635,13 +665,13 @@ export function isFailingState<T>(
   state: SeederState<T>,
 ): state is FailureState<T> & {
   status: "failing" | "failed";
-  stage: "loading" | "building" | "validating" | "inserting" | "summarizing";
+  stage: "load" | "build" | "validate" | "insert" | "summarize" | "error";
 } {
   return ["failing", "failed"].includes(state.status);
 }
 
 /**
- * Narrows a state to a completed phase state.
+ * Narrows a state to a completed collection state.
  */
 export function isCompletedState<T>(
   state: SeederState<T>,
@@ -656,7 +686,7 @@ export function isCompletedState<T>(
  * One historical status interval recorded by the state machine.
  */
 export type StateHistoryEntry = {
-  status: SeedPhaseStatus;
+  status: SeedStageStatus;
   stateStarted: Date;
   stateEnded: Date | null;
 };
