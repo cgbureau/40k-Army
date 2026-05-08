@@ -1,7 +1,7 @@
 import type {
   GameSizeConfig,
   SeedDataset,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `game_sizes` table.

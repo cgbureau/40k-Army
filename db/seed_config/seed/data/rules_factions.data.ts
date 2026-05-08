@@ -1,7 +1,7 @@
 import type {
   RulesFactionConfig,
   SeedDataset,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `rules_factions` table.

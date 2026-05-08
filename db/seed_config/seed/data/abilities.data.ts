@@ -1,4 +1,4 @@
-import type { AbilityConfig, SeedDataset } from "@db_index/";
+import type { AbilityConfig, SeedDataset } from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `abilities` table.

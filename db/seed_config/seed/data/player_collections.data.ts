@@ -1,7 +1,7 @@
 import type {
   PlayerCollectionConfig,
   SeedDataset,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `player_collections` table.

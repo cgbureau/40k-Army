@@ -1,7 +1,7 @@
 import type {
   LeaderEligibilityKeywordConfig,
   SeedDataset,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `leader_eligibility_keywords` table.

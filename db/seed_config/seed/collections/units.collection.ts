@@ -1,16 +1,42 @@
-// units phase
-// - units
-// - unit_profiles
-// - unit_profile_stats
-// - unit_point_costs
-// - unit_keywords
-// - detachment_unit_keywords
-// - leader_eligibilities
-// - leader_eligibility_keywords
-// - unit_abilities
-// - unit_models
-// - unit_selection_limits
+import {
+  unitsDataset,
+  unitProfilesDataset,
+  unitProfileStatsDataset,
+  unitPointCostsDataset,
+  unitKeywordsDataset,
+  detachmentUnitKeywordsDataset,
+  leaderEligibilitiesDataset,
+  leaderEligibilityKeywordsDataset,
+  unitAbilitiesDataset,
+  unitSelectionLimitsDataset,
+} from "../data/_index.data";
+import { createStaticSeedCollection } from "./utils.collection";
 
-export type UnitCollections = {
-  placeholder: "this is temporary";
-};
+/**
+ * Static datasets owned by the units seed collection.
+ */
+const unitDataDatasets = [
+  unitsDataset,
+  unitProfilesDataset,
+  unitProfileStatsDataset,
+  unitPointCostsDataset,
+  unitKeywordsDataset,
+  detachmentUnitKeywordsDataset,
+  leaderEligibilitiesDataset,
+  leaderEligibilityKeywordsDataset,
+  unitAbilitiesDataset,
+  unitSelectionLimitsDataset,
+];
+
+/**
+ * Seed collection for unit data.
+ *
+ * This collection intentionally avoids database-specific insertion behavior for
+ * now. `createStaticSeedCollection` supplies shared build, validation, no-op
+ * insert, and summary behavior for static dataset modules.
+ */
+export const unitDataCollection = createStaticSeedCollection({
+  collection: "units",
+  dependencies: ["reference_data", "factions"],
+  datasets: unitDataDatasets,
+});

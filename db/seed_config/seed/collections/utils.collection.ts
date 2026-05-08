@@ -9,7 +9,7 @@ import type {
   SeedValidationIssue,
   SeedValidationResult,
   StaticSeedCollectionConfig,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Counts all records across a list of seed datasets.

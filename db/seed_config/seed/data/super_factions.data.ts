@@ -1,7 +1,7 @@
 import type {
   SeedDataset,
   SuperFactionConfig,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `super_factions` table.

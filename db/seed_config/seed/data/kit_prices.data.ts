@@ -1,7 +1,7 @@
 import type {
   KitPriceConfig,
   SeedDataset,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `kit_prices` table.

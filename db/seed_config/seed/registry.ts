@@ -1,6 +1,20 @@
 // catalog of seed collection seeders
 // what seed collections exist, and in what order should they run?
 
-import { referenceDataCollection } from "@db_index/";
+import {
+  factionDataCollection,
+  kitDataCollection,
+  modelDataCollection,
+  playerDataCollection,
+  referenceDataCollection,
+  unitDataCollection,
+} from "./collections/_index.collection";
 
-export const seedCollections = [referenceDataCollection];
+export const seedCollections = [
+  referenceDataCollection,
+  factionDataCollection,
+  unitDataCollection,
+  modelDataCollection,
+  kitDataCollection,
+  playerDataCollection,
+];

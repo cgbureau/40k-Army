@@ -4,6 +4,33 @@
 // - kit_models
 // - kit_prices
 
-export type KitCollections = {
-  placeholder: "this is temporary";
-};
+import {
+  kitTypesDataset,
+  kitsDataset,
+  kitModelsDataset,
+  kitPricesDataset,
+} from "../data/_index.data";
+import { createStaticSeedCollection } from "./utils.collection";
+
+/**
+ * Static datasets owned by the kits seed collection.
+ */
+const kitDataDatasets = [
+  kitTypesDataset,
+  kitsDataset,
+  kitModelsDataset,
+  kitPricesDataset,
+];
+
+/**
+ * Seed collection for kit data.
+ *
+ * This collection intentionally avoids database-specific insertion behavior for
+ * now. `createStaticSeedCollection` supplies shared build, validation, no-op
+ * insert, and summary behavior for static dataset modules.
+ */
+export const kitDataCollection = createStaticSeedCollection({
+  collection: "kits",
+  dependencies: ["models"],
+  datasets: kitDataDatasets,
+});

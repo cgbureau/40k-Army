@@ -1,4 +1,4 @@
-import type { DetachmentUnitKeywordConfig, SeedDataset } from "@db_index/";
+import type { DetachmentUnitKeywordConfig, SeedDataset } from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `detachment_unit_keywords` table.

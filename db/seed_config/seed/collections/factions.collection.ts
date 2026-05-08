@@ -1,11 +1,34 @@
-// factions phase
-// - super_factions
-// - rules_factions
-// - rules_faction_sources
-// - detachments
-// - rules_faction_detachments
-// - rules_faction_units
+import {
+  superFactionsDataset,
+  rulesFactionsDataset,
+  rulesFactionSourcesDataset,
+  detachmentsDataset,
+  rulesFactionDetachmentsDataset,
+  rulesFactionUnitsDataset,
+} from "../data/_index.data";
+import { createStaticSeedCollection } from "./utils.collection";
 
-export type FactionCollections = {
-  placeholder: "this is temporary";
-};
+/**
+ * Static datasets owned by the factions seed collection.
+ */
+const factionDataDatasets = [
+  superFactionsDataset,
+  rulesFactionsDataset,
+  rulesFactionSourcesDataset,
+  detachmentsDataset,
+  rulesFactionDetachmentsDataset,
+  rulesFactionUnitsDataset,
+];
+
+/**
+ * Seed collection for super factions, factions, and detachments.
+ *
+ * This collection intentionally avoids database-specific insertion behavior for
+ * now. `createStaticSeedCollection` supplies shared build, validation, no-op
+ * insert, and summary behavior for static dataset modules.
+ */
+export const factionDataCollection = createStaticSeedCollection({
+  collection: "factions",
+  dependencies: ["reference_data"],
+  datasets: factionDataDatasets,
+});

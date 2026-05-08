@@ -1,7 +1,7 @@
 import type {
   SeedDataset,
   UnitModelConfig,
-} from "@db_index/";
+} from "../../types/_index.types";
 
 /**
  * Typed seed dataset for the `unit_models` table.

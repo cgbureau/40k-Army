@@ -1,8 +1,8 @@
 import type {
   GameEditionConfig,
   SeedDataset,
-} from "@db_index/";
-import { gameEditionId } from "@db_index/";
+} from "../../types/_index.types";
+import { gameEditionId } from "../ids";
 
 /**
  * First edition game seed record.

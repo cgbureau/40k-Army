@@ -13,7 +13,6 @@
  * 3. where do we store each stage result?
  */
 
-import { seedCollections } from "@db_index/";
 import type {
   SeedBuildResult,
   SeedCollectionContext,
@@ -23,7 +22,8 @@ import type {
   SeedRunSummary,
   SeedSummaryResult,
   SeedValidationResult,
-} from "@db_index/";
+} from "../types/_index.types";
+import { seedCollections } from "./registry";
 
 const defaultSeedRunOptions: SeedRunOptions = {
   mode: "dry_run",
