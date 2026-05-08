@@ -1,4 +1,4 @@
-import type { SeedTable } from "./seed-error-types";
+import type { SeedTable } from "@db_index/";
 
 export type SeedDateConfig = {
   createdAt: Date;

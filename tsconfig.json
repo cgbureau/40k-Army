@@ -22,7 +22,8 @@
       "@/*": ["./*"],
       "@utils/*": ["./utils/*"],
       "@db/*": ["./db/*"],
-      "@schemas/*": ["./db/schemas/*"]
+      "@schemas/*": ["./db/schemas/*"],
+      "@db_index/*": ["./db/_index.db.ts"]
     }
   },
   "include": [

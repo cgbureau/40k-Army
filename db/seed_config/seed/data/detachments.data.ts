@@ -1,7 +1,4 @@
-import type {
-  DetachmentConfig,
-  SeedDataset,
-} from "@db/seed_config/types/seed-types";
+import type { DetachmentConfig, SeedDataset } from "@db_index/";
 
 /**
  * Typed seed dataset for the `detachments` table.

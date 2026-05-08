@@ -1,7 +1,7 @@
 import type {
   RulesFactionDetachmentConfig,
   SeedDataset,
-} from "@db/seed_config/types/seed-types";
+} from "@db_index/";
 
 /**
  * Typed seed dataset for the `rules_faction_detachments` table.

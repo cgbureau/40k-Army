@@ -1,7 +1,7 @@
 import type {
   SeedDataset,
   UnitSelectionLimitConfig,
-} from "@db/seed_config/types/seed-types";
+} from "@db_index/";
 
 /**
  * Typed seed dataset for the `unit_selection_limits` table.

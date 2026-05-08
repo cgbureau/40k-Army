@@ -1,7 +1,7 @@
 import type {
   PlayerArmyListUnitConfig,
   SeedDataset,
-} from "@db/seed_config/types/seed-types";
+} from "@db_index/";
 
 /**
  * Typed seed dataset for the `player_army_list_units` table.

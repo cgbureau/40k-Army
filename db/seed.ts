@@ -1,4 +1,4 @@
-import { runSeedCollections } from "./seed_config/seed/runner";
+import { runSeedCollections } from "@db_index/";
 
 export const seedDb = async () => {
   const summary = await runSeedCollections({

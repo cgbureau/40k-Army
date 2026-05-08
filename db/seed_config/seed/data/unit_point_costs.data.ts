@@ -1,7 +1,7 @@
 import type {
   SeedDataset,
   UnitPointCostConfig,
-} from "@db/seed_config/types/seed-types";
+} from "@db_index/";
 
 /**
  * Typed seed dataset for the `unit_point_costs` table.

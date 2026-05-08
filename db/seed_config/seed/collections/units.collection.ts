@@ -10,3 +10,7 @@
 // - unit_abilities
 // - unit_models
 // - unit_selection_limits
+
+export type UnitCollections = {
+  placeholder: "this is temporary";
+};

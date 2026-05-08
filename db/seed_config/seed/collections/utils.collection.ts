@@ -1,7 +1,6 @@
 import type {
   AnySeedDataset,
   SeedBuildResult,
-  SeedCollectionContext,
   SeedCollectionSeeder,
   SeedDataCollection,
   SeedInsertResult,
@@ -10,7 +9,7 @@ import type {
   SeedValidationIssue,
   SeedValidationResult,
   StaticSeedCollectionConfig,
-} from "@db/seed_config/types/seed-types";
+} from "@db_index/";
 
 /**
  * Counts all records across a list of seed datasets.

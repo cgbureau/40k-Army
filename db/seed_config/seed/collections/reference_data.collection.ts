@@ -4,8 +4,8 @@ import {
   gameSizesDataset,
   keywordsDataset,
   rulesSourcesDataset,
-} from "../data";
-import { createStaticSeedCollection } from "../utils";
+} from "@db_index/";
+import { createStaticSeedCollection } from "@db_index/";
 
 /**
  * Static datasets owned by the reference data seed collection.

@@ -31,11 +31,13 @@ import {
   unitProfileStatSchema,
   unitSchema,
   unitSelectionLimitSchema,
-} from "@db/schemas/index";
+} from "@db_index/";
 import { z } from "zod";
-import { abilityTypeSchema } from "./abilities.schema";
-import { unitSelectionLimitKindSchema } from "./unitSelectionLimits.schema";
-import { keywordTypeSchema } from "./keywords.schema";
+import {
+  abilityTypeSchema,
+  unitSelectionLimitKindSchema,
+  keywordTypeSchema,
+} from "@db_index/";
 
 // export inferred types from schemas
 export type GameEdition = z.infer<typeof gameEditionSchema>;

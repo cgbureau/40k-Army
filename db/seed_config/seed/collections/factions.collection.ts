@@ -5,3 +5,7 @@
 // - detachments
 // - rules_faction_detachments
 // - rules_faction_units
+
+export type FactionCollections = {
+  placeholder: "this is temporary";
+};
