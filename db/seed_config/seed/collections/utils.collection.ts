@@ -10,6 +10,7 @@ import type {
   SeedValidationResult,
   StaticSeedCollectionConfig,
 } from "../../types/_index.types";
+import { validateSeedRecord } from "../validators";
 
 /**
  * Counts all records across a list of seed datasets.
@@ -37,10 +38,8 @@ export const buildCollection = (
 });
 
 /**
- * Performs basic structural validation for built static seed datasets.
- *
- * This intentionally validates collection shape only. Table-specific Zod
- * validation can be added later in `validators.ts`.
+ * Performs structural and table-specific validation for built static seed
+ * datasets.
  *
  * @param buildResult - Built datasets to validate.
  * @returns Validation result with any structural issues found.
@@ -82,6 +81,14 @@ export const validateCollection = (
           severity: "error",
         });
       }
+
+      issues.push(
+        ...validateSeedRecord(
+          buildResult.collection,
+          dataset.table,
+          record,
+        ),
+      );
     }
   }
 
