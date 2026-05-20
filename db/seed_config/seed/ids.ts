@@ -102,3 +102,39 @@ const rulesSourceSeedIds: Record<RulesSourceSeedType, string> = {
 export const rulesSourceId = (type: RulesSourceSeedType): string => {
   return rulesSourceSeedIds[type];
 };
+
+/**
+ * Fixed ULIDs for canonical ability seed types.
+ *
+ * The values were generated once and then checked in so repeated seed runs use
+ * the same primary keys. Do not replace these with runtime `ulid()` calls.
+ */
+
+type AbilitySeedType =
+  | "deep_strike"
+  | "leader"
+  | "infiltrators"
+  | "scouts_6"
+  | "stealth"
+  | "waagh"
+  | "sneaky_surprise"
+  | "distraction_grot"
+  | "bomb_squigs"
+  | "krumpin_time";
+
+const abilitySeedIds: Record<AbilitySeedType, string> = {
+  deep_strike: "01KQZTSBVHY3BV4T71G630NW0Q",
+  leader: "01KQZTSBVNGWT7Y8XAQTVFV02X",
+  infiltrators: "01KQZTSBVN39YRT5GVB9QQ64HF",
+  scouts_6: "01KQZTSBVNXHYKMJWFXV03MWM2",
+  stealth: "01KQZTSBVN1P7E8HZF381JHY33",
+  waagh: "01KQZTSBVN754VS4CN5CVKHWR9",
+  sneaky_surprise: "01KQZTSBVNQHVW8JYCTJ4QY46B",
+  distraction_grot: "01KQZTSBVNKZ5VBS5A1WQX475Q",
+  bomb_squigs: "01KQZTSBVN0A66ZRZ7GBD3MK3S",
+  krumpin_time: "01KQZTSBVNDFJZ0NN5WCC2Z026",
+};
+
+export const abilityId = (type: AbilitySeedType): string => {
+  return abilitySeedIds[type];
+};
