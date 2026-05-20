@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import time
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import urlparse
@@ -93,6 +94,7 @@ def collect_wahapedia_data(
     refresh: bool = False,
     limit: int | None = None,
     throttle_seconds: float = 0.2,
+    max_workers: int = 4,
     user_agent: str = DEFAULT_USER_AGENT,
     command: str = "",
 ) -> Path:
@@ -163,24 +165,30 @@ def collect_wahapedia_data(
     if limit is not None:
         target_urls = target_urls[:limit]
 
-    for page_kind, url, faction_slug in target_urls:
+    def collect_page(page: tuple[str, str, str | None]) -> CollectedPage:
+        page_kind, url, faction_slug = page
         html, cache_path, cache_hit = fetch_cached(
             url,
             cache_root=paths.cache_root,
             refresh=refresh,
             user_agent=user_agent,
         )
-        pages.append(
-            CollectedPage(
-                page_kind=page_kind,
-                url=url,
-                cache_path=str(cache_path),
-                cache_hit=cache_hit,
-                faction_slug=faction_slug,
-            )
-        )
-        if not cache_hit and throttle_seconds > 0:
+        if max_workers <= 1 and not cache_hit and throttle_seconds > 0:
             time.sleep(throttle_seconds)
+        return CollectedPage(
+            page_kind=page_kind,
+            url=url,
+            cache_path=str(cache_path),
+            cache_hit=cache_hit,
+            faction_slug=faction_slug,
+        )
+
+    worker_count = max(1, min(max_workers, len(target_urls) or 1))
+    if worker_count == 1:
+        pages.extend(collect_page(page) for page in target_urls)
+    else:
+        with ThreadPoolExecutor(max_workers=worker_count) as executor:
+            pages.extend(executor.map(collect_page, target_urls))
 
     output_path = (
         Path(output).expanduser()

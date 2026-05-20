@@ -18,33 +18,58 @@ from .common import (
 )
 
 ABILITY_TYPES = {"core", "faction", "datasheet", "wargear", "other"}
+RULE_KEYWORD_SLUGS = {"battleline", "dedicated_transport", "epic_hero"}
+FACTION_KEYWORD_SLUGS = {
+    "aeldari",
+    "adeptus_astartes",
+    "chaos",
+    "imperium",
+    "orks",
+    "tyranids",
+}
+
+EXCLUDED_ABILITY_SLUGS = {
+    "designers_note",
+    "designer_note",
+}
+
+CANONICAL_ABILITY_ALIASES = {
+    "cherubs": "cherub",
+}
 
 
 @dataclass(frozen=True)
 class AbilityCandidate:
-    id: str | None
-    id_key: str
+    seed_id_key: str
     ability_slug: str
     ability_name: str
     ability_type: str
+    aliases: list[str]
+    source_names: list[str]
     created_at: str
     updated_at: str | None
 
 
 @dataclass(frozen=True)
 class UnitAbilityCandidate:
-    id: str | None
-    unit_id: str | None
     unit_slug: str
-    ability_id: str | None
     ability_slug: str
-    game_edition_id: str | None
+    source_ability_name: str
     game_edition_slug: str
-    rules_source_id: str | None
     rules_source_slug: str | None
     rules_text: str
     effective_date: str | None
     superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class KeywordCandidate:
+    seed_id_key: str
+    keyword_slug: str
+    keyword_name: str
+    keyword_type: str
     created_at: str
     updated_at: str | None
 
@@ -63,12 +88,18 @@ def normalize_wahapedia_manifest(
     manifest_data = read_json(manifest_path)
     paths = import_paths(work_root)
 
-    if kind != "abilities":
+    if kind not in {"abilities", "keywords"}:
         raise ValueError(f"Unsupported normalize kind: {kind}")
 
-    abilities, unit_abilities = _extract_abilities(
-        manifest_data, include_unit_abilities=include_unit_abilities
-    )
+    abilities: list[AbilityCandidate] = []
+    unit_abilities: list[UnitAbilityCandidate] = []
+    keywords: list[KeywordCandidate] = []
+    if kind == "abilities":
+        abilities, unit_abilities = _extract_abilities(
+            manifest_data, include_unit_abilities=include_unit_abilities
+        )
+    if kind == "keywords":
+        keywords = _extract_keywords(manifest_data)
     output_path = (
         Path(output).expanduser()
         if output
@@ -89,14 +120,18 @@ def normalize_wahapedia_manifest(
         faction=manifest_data.get("faction"),
         records={
             "abilities": [candidate.__dict__ for candidate in abilities],
+            "keywords": [candidate.__dict__ for candidate in keywords],
             "unit_abilities": [candidate.__dict__ for candidate in unit_abilities],
         },
     )
     write_json(output_path, payload)
 
-    if emit_seed_ts:
+    if emit_seed_ts and kind == "abilities":
         seed_output = output_path.with_suffix(".seed-snippets.ts")
         seed_output.write_text(_ability_seed_snippets(abilities), encoding="utf-8")
+    if emit_seed_ts and kind == "keywords":
+        seed_output = output_path.with_suffix(".seed-snippets.ts")
+        seed_output.write_text(_keyword_seed_snippets(keywords), encoding="utf-8")
 
     return output_path
 
@@ -105,6 +140,8 @@ def _extract_abilities(
     manifest_data: dict[str, Any], *, include_unit_abilities: bool
 ) -> tuple[list[AbilityCandidate], list[UnitAbilityCandidate]]:
     ability_by_slug: dict[str, AbilityCandidate] = {}
+    ability_aliases: dict[str, set[str]] = {}
+    ability_source_names: dict[str, set[str]] = {}
     unit_abilities: list[UnitAbilityCandidate] = []
     edition = manifest_data["edition"]
     created_at = now_iso()
@@ -116,30 +153,33 @@ def _extract_abilities(
         text = html_to_text(html)
         unit_slug = _unit_slug_from_url(page["url"])
         for parsed in _parse_datasheet_abilities(text):
-            ability_slug = normalize_slug(parsed["ability_name"])
-            if not ability_slug:
+            source_ability_name = parsed["ability_name"]
+            raw_slug = normalize_slug(source_ability_name)
+            ability_slug = _canonical_ability_slug(raw_slug)
+            if not _is_seedable_slug(ability_slug) or ability_slug in EXCLUDED_ABILITY_SLUGS:
                 continue
+            ability_aliases.setdefault(ability_slug, set())
+            ability_source_names.setdefault(ability_slug, set()).add(source_ability_name)
+            if raw_slug != ability_slug:
+                ability_aliases[ability_slug].add(raw_slug)
             if ability_slug not in ability_by_slug:
                 ability_by_slug[ability_slug] = AbilityCandidate(
-                    id=None,
-                    id_key=ability_slug,
+                    seed_id_key=ability_slug,
                     ability_slug=ability_slug,
-                    ability_name=parsed["ability_name"],
+                    ability_name=_canonical_ability_name(source_ability_name, ability_slug),
                     ability_type=parsed["ability_type"],
+                    aliases=[],
+                    source_names=[],
                     created_at=created_at,
                     updated_at=None,
                 )
             if include_unit_abilities:
                 unit_abilities.append(
                     UnitAbilityCandidate(
-                        id=None,
-                        unit_id=None,
                         unit_slug=unit_slug,
-                        ability_id=None,
                         ability_slug=ability_slug,
-                        game_edition_id=None,
+                        source_ability_name=source_ability_name,
                         game_edition_slug=edition,
-                        rules_source_id=None,
                         rules_source_slug=None,
                         rules_text=parsed["rules_text"],
                         effective_date=None,
@@ -149,10 +189,101 @@ def _extract_abilities(
                     )
                 )
 
+    abilities = [
+        AbilityCandidate(
+            seed_id_key=candidate.seed_id_key,
+            ability_slug=candidate.ability_slug,
+            ability_name=candidate.ability_name,
+            ability_type=candidate.ability_type,
+            aliases=sorted(ability_aliases.get(candidate.ability_slug, set())),
+            source_names=sorted(ability_source_names.get(candidate.ability_slug, set())),
+            created_at=candidate.created_at,
+            updated_at=candidate.updated_at,
+        )
+        for candidate in ability_by_slug.values()
+    ]
+
     return (
-        sorted(ability_by_slug.values(), key=lambda item: (item.ability_type, item.ability_slug)),
+        sorted(abilities, key=lambda item: (item.ability_type, item.ability_slug)),
         sorted(unit_abilities, key=lambda item: (item.unit_slug, item.ability_slug)),
     )
+
+
+def _extract_keywords(manifest_data: dict[str, Any]) -> list[KeywordCandidate]:
+    keyword_by_slug: dict[str, KeywordCandidate] = {}
+    created_at = now_iso()
+
+    for page in manifest_data.get("pages", []):
+        if page.get("page_kind") != "unit-datasheet":
+            continue
+        html = Path(page["cache_path"]).read_text(encoding="utf-8")
+        text = html_to_text(html)
+        for parsed in _parse_datasheet_keywords(text):
+            keyword_slug = normalize_slug(parsed["keyword_name"])
+            if not keyword_slug or keyword_slug in keyword_by_slug:
+                continue
+            keyword_by_slug[keyword_slug] = KeywordCandidate(
+                seed_id_key=keyword_slug,
+                keyword_slug=keyword_slug,
+                keyword_name=parsed["keyword_name"],
+                keyword_type=parsed["keyword_type"],
+                created_at=created_at,
+                updated_at=None,
+            )
+
+    return sorted(
+        keyword_by_slug.values(),
+        key=lambda item: (item.keyword_type, item.keyword_slug),
+    )
+
+
+def _parse_datasheet_keywords(text: str) -> list[dict[str, str]]:
+    stratagems_start = text.find("STRATAGEMS")
+    datasheet_text = text[:stratagems_start] if stratagems_start >= 0 else text
+    parsed: list[dict[str, str]] = []
+    for keyword_name in _extract_keyword_section(
+        datasheet_text, r"(?<!FACTION )KEYWORDS:", r"FACTION KEYWORDS:"
+    ):
+        keyword_slug = normalize_slug(keyword_name)
+        parsed.append(
+            {
+                "keyword_name": keyword_name,
+                "keyword_type": _classify_keyword_type(keyword_slug),
+            }
+        )
+    for keyword_name in _extract_keyword_section(datasheet_text, r"FACTION KEYWORDS:", r"$"):
+        parsed.append({"keyword_name": keyword_name, "keyword_type": "faction"})
+    return parsed
+
+
+def _classify_keyword_type(keyword_slug: str) -> str:
+    if keyword_slug in RULE_KEYWORD_SLUGS:
+        return "rules"
+    if keyword_slug in FACTION_KEYWORD_SLUGS:
+        return "faction"
+    return "unit"
+
+
+def _extract_keyword_section(text: str, start_pattern: str, end_pattern: str) -> list[str]:
+    start_match = re.search(start_pattern, text)
+    if not start_match:
+        return []
+    end_match = re.search(end_pattern, text[start_match.end() :])
+    end = start_match.end() + end_match.start() if end_match else len(text)
+    section = text[start_match.end() : end].strip()
+    if not section:
+        return []
+    section = re.sub(r"\s+", " ", section)
+    return [
+        _clean_keyword_name(value)
+        for value in section.split(",")
+        if _clean_keyword_name(value)
+    ]
+
+
+def _clean_keyword_name(value: str) -> str:
+    value = value.strip(" .")
+    return re.sub(r"\s+", " ", value).title()
 
 
 def _parse_datasheet_abilities(text: str) -> list[dict[str, str]]:
@@ -235,6 +366,20 @@ def _normalize_ability_type(value: str) -> str:
     return slug if slug in ABILITY_TYPES else "other"
 
 
+def _canonical_ability_slug(slug: str) -> str:
+    return CANONICAL_ABILITY_ALIASES.get(slug, slug)
+
+
+def _is_seedable_slug(slug: str) -> bool:
+    return bool(slug and re.search(r"[a-z]", slug))
+
+
+def _canonical_ability_name(source_name: str, ability_slug: str) -> str:
+    if normalize_slug(source_name) == ability_slug:
+        return source_name
+    return display_name_from_slug(ability_slug)
+
+
 def _unit_slug_from_url(url: str) -> str:
     tail = url.rstrip("/").split("/")[-1]
     return normalize_slug(tail)
@@ -253,9 +398,9 @@ def _ability_seed_snippets(abilities: list[AbilityCandidate]) -> str:
             "\n".join(
                 [
                     f"export const {const_name}Ability: AbilityConfig = {{",
-                    f'  id: abilityId("{ability.id_key}"),',
+                    f'  id: abilityId("{ability.seed_id_key}"),',
                     f'  ability_slug: "{ability.ability_slug}",',
-                    f'  ability_name: "{ability.ability_name}",',
+                    f"  ability_name: {_ts_string(ability.ability_name)},",
                     f'  ability_type: "{ability.ability_type}",',
                     "};",
                     "",
@@ -263,3 +408,32 @@ def _ability_seed_snippets(abilities: list[AbilityCandidate]) -> str:
             )
         )
     return "\n".join(blocks)
+
+
+def _keyword_seed_snippets(keywords: list[KeywordCandidate]) -> str:
+    blocks = [
+        "/* Generated review snippets. Review before pasting into seed files. */",
+        "",
+    ]
+    for keyword in keywords:
+        const_name = "".join(part.capitalize() for part in keyword.keyword_slug.split("_"))
+        blocks.append(
+            "\n".join(
+                [
+                    f"export const {const_name}Keyword: KeywordConfig = {{",
+                    f'  id: keywordId("{keyword.seed_id_key}"),',
+                    f'  keyword_slug: "{keyword.keyword_slug}",',
+                    f"  keyword_name: {_ts_string(keyword.keyword_name)},",
+                    f'  keyword_type: "{keyword.keyword_type}",',
+                    "};",
+                    "",
+                ]
+            )
+        )
+    return "\n".join(blocks)
+
+
+def _ts_string(value: str) -> str:
+    import json
+
+    return json.dumps(value, ensure_ascii=True)

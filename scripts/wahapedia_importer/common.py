@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import subprocess
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from html import unescape
@@ -126,10 +127,34 @@ def read_json(path: Path) -> dict[str, Any]:
 
 
 def fetch_text(url: str, *, user_agent: str = DEFAULT_USER_AGENT, timeout: int = 30) -> str:
-    request = Request(url, headers={"User-Agent": user_agent})
-    with urlopen(request, timeout=timeout) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace").lstrip("\ufeff")
+    curl = [
+        "curl",
+        "--fail",
+        "--location",
+        "--silent",
+        "--show-error",
+        "--compressed",
+        "--connect-timeout",
+        "10",
+        "--max-time",
+        str(timeout),
+        "--user-agent",
+        user_agent,
+        url,
+    ]
+    try:
+        result = subprocess.run(curl, check=True, capture_output=True, timeout=timeout + 5)
+        return result.stdout.decode("utf-8", errors="replace").lstrip("\ufeff")
+    except FileNotFoundError:
+        request = Request(url, headers={"User-Agent": user_agent})
+        with urlopen(request, timeout=timeout) as response:
+            charset = response.headers.get_content_charset() or "utf-8"
+            return response.read().decode(charset, errors="replace").lstrip("\ufeff")
+    except subprocess.TimeoutExpired as exc:
+        raise WahapediaImportError(f"Timed out fetching {url}") from exc
+    except subprocess.CalledProcessError as exc:
+        message = exc.stderr.decode("utf-8", errors="replace").strip()
+        raise WahapediaImportError(f"Failed fetching {url}: {message}") from exc
 
 
 def cache_path_for_url(cache_root: Path, url: str) -> Path:
