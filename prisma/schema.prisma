@@ -18,6 +18,7 @@ enum RulesSourceType {
   OTHER                  @map("other")
   MUNITORUM_FIELD_MANUAL @map("munitorum_field_manual")
   CODEX_SUPPLEMENT       @map("codex_supplement")
+  BALANCE_DATASLATE      @map("balance_dataslate")
 
   @@map("rules_source_type")
 }
@@ -169,25 +170,27 @@ model RulesFaction {
 /// why: units, profiles, detachments, faction access, and points need source attribution
 /// example: Codex: Space Marines for 10th edition
 model RulesSource {
-  id                  String               @id @default(ulid()) @db.Char(26)
-  rulesSourceSlug     String               @map("rules_source_slug")
-  rulesSourceName     String               @map("rules_source_name")
-  rulesSourceType     RulesSourceType?     @default(CODEX) @map("rules_source_type") /// example: a 10th edition Space Marines index; a 10th edition Space Marines codex
-  releaseDate         DateTime?            @map("release_date") @db.Date
-  supersededDate      DateTime?            @map("superseded_date") @db.Date /// example: a 10th edition Space Marines index being replaced by the 10th edition Space Marines Codex
-  gameEdition         GameEdition          @relation(fields: [gameEditionId], references: [id])
-  gameEditionId       String               @map("game_edition_id") @db.Char(26)
-  rulesFactionSources RulesFactionSource[]
-  unitProfiles        UnitProfile[]
-  unitPointCosts      UnitPointCost[]
-  rulesFactionUnits   RulesFactionUnit[]
-  detachments         Detachment[]
-  playerArmyListUnits PlayerArmyListUnit[] @relation("PlayerArmyListUnitPointsSource")
-  unitKeywords        UnitKeyword[]
-  unitAbilities       UnitAbility[]
-  leaderEligibilities LeaderEligibility[]
-  createdAt           DateTime             @default(now()) @map("created_at")
-  updatedAt           DateTime?            @updatedAt @map("updated_at")
+  id                     String               @id @default(ulid()) @db.Char(26)
+  rulesSourceSlug        String               @map("rules_source_slug")
+  rulesSourceName        String               @map("rules_source_name")
+  rulesSourceType        RulesSourceType?     @default(CODEX) @map("rules_source_type") /// example: a 10th edition Space Marines index; a 10th edition Space Marines codex
+  rulesSourceVersion     String?              @map("rules_source_version") /// publication version label, e.g. 3.4 for a Balance Dataslate or 1.8 for a Core Rules update
+  rulesSourceVersionSlug String?              @map("rules_source_version_slug") /// normalized version key for import matching, e.g. v3-4 or march-2026-v3-4
+  releaseDate            DateTime?            @map("release_date") @db.Date
+  supersededDate         DateTime?            @map("superseded_date") @db.Date /// example: a 10th edition Space Marines index being replaced by the 10th edition Space Marines Codex
+  gameEdition            GameEdition          @relation(fields: [gameEditionId], references: [id])
+  gameEditionId          String               @map("game_edition_id") @db.Char(26)
+  rulesFactionSources    RulesFactionSource[]
+  unitProfiles           UnitProfile[]
+  unitPointCosts         UnitPointCost[]
+  rulesFactionUnits      RulesFactionUnit[]
+  detachments            Detachment[]
+  playerArmyListUnits    PlayerArmyListUnit[] @relation("PlayerArmyListUnitPointsSource")
+  unitKeywords           UnitKeyword[]
+  unitAbilities          UnitAbility[]
+  leaderEligibilities    LeaderEligibility[]
+  createdAt              DateTime             @default(now()) @map("created_at")
+  updatedAt              DateTime?            @updatedAt @map("updated_at")
 
   @@unique([gameEditionId, rulesSourceSlug])
   @@index([gameEditionId])

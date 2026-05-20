@@ -35,8 +35,11 @@ import {
 import { z } from "zod";
 import {
   abilityTypeSchema,
-  unitSelectionLimitKindSchema,
+  accessTypeSchema,
   keywordTypeSchema,
+  rulesSourceTypeSchema,
+  sourceRelationshipSchema,
+  unitSelectionLimitKindSchema,
 } from "@db_index/";
 
 // export inferred types from schemas
@@ -82,16 +85,9 @@ export type AbilityType = z.infer<typeof abilityTypeSchema>;
 export type UnitSelectionLimitKind = z.infer<
   typeof unitSelectionLimitKindSchema
 >;
-export type RulesSourceType = z.infer<
-  typeof rulesSourceSchema.shape.rules_source_type
->;
-export type UnitAccessType = z.infer<
-  typeof rulesFactionUnitSchema.shape.unit_access_type
->;
-export type SourceRelationship = z.infer<
-  typeof rulesFactionsSourcesSchema.shape.source_relationship
->;
+export type RulesSourceType = z.infer<typeof rulesSourceTypeSchema>;
+export type AccessType = z.infer<typeof accessTypeSchema>;
+export type UnitAccessType = AccessType;
+export type DetachmentAccessType = AccessType;
+export type SourceRelationship = z.infer<typeof sourceRelationshipSchema>;
 export type KeywordType = z.infer<typeof keywordTypeSchema>;
-export type DetachmentAccessType = z.infer<
-  typeof rulesFactionDetachmentSchema.shape.detachment_access_type
->;
