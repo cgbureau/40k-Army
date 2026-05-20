@@ -9,6 +9,9 @@ export const rulesSourceTypeSchema = z.enum([
   "munitorum_field_manual",
   "codex_supplement",
   "balance_dataslate",
+  "combat_patrol",
+  "faction_pack",
+  "chapter_approved_tournament_companion",
 ]);
 
 export const rulesSourceSchema = z.object({

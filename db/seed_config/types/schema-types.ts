@@ -39,6 +39,7 @@ import {
   keywordTypeSchema,
   rulesSourceTypeSchema,
   sourceRelationshipSchema,
+  sourceScopeSchema,
   unitSelectionLimitKindSchema,
 } from "@db_index/";
 
@@ -90,4 +91,5 @@ export type AccessType = z.infer<typeof accessTypeSchema>;
 export type UnitAccessType = AccessType;
 export type DetachmentAccessType = AccessType;
 export type SourceRelationship = z.infer<typeof sourceRelationshipSchema>;
+export type SourceScope = z.infer<typeof sourceScopeSchema>;
 export type KeywordType = z.infer<typeof keywordTypeSchema>;

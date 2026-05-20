@@ -11,31 +11,49 @@ datasource db {
 /// why: to standardize the list of sources for consistency
 /// example: CODEX for Codex: Space Marines
 enum RulesSourceType {
-  CODEX                  @map("codex")
-  ONLINE                 @map("online")
-  EXPANSION              @map("expansion")
-  CAMPAIGN_BOOK          @map("campaign_book")
-  OTHER                  @map("other")
-  MUNITORUM_FIELD_MANUAL @map("munitorum_field_manual")
-  CODEX_SUPPLEMENT       @map("codex_supplement")
-  BALANCE_DATASLATE      @map("balance_dataslate")
+  CODEX                                 @map("codex")
+  ONLINE                                @map("online")
+  EXPANSION                             @map("expansion")
+  CAMPAIGN_BOOK                         @map("campaign_book")
+  OTHER                                 @map("other")
+  MUNITORUM_FIELD_MANUAL                @map("munitorum_field_manual")
+  CODEX_SUPPLEMENT                      @map("codex_supplement")
+  BALANCE_DATASLATE                     @map("balance_dataslate")
+  COMBAT_PATROL                         @map("combat_patrol")
+  FACTION_PACK                          @map("faction_pack")
+  CHAPTER_APPROVED_TOURNAMENT_COMPANION @map("chapter_approved_tournament_companion")
 
   @@map("rules_source_type")
 }
 
 /// what: a list of relationships between a rules faction and a rules source
-/// why: to distinguish primary codexes, shared base books, supplements, and exclusive source links
+/// why: to describe what kind of rules content the source contributes
 /// example: PRIMARY for Space Marines using Codex: Space Marines
 /// example: SUPPLEMENT for Blood Angels using Codex Supplement: Blood Angels
-/// example: SHARED_BASE for Blood Angels using Codex: Space Marines
-/// example: EXCLUSIVE for a faction-specific campaign or online release
+/// example: ERRATA_FAQ for a Balance Dataslate or faction pack FAQ
+/// example: POINTS for Munitorum Field Manual points
 enum SourceRelationship {
-  PRIMARY     @map("primary")
-  SUPPLEMENT  @map("supplement")
+  PRIMARY       @map("primary")
+  SUPPLEMENT    @map("supplement")
+  ERRATA_FAQ    @map("errata_faq")
+  POINTS        @map("points")
+  BASE_SIZES    @map("base_sizes")
+  COMBAT_PATROL @map("combat_patrol")
+
+  @@map("source_relationship")
+}
+
+/// what: a list of applicability scopes between a rules faction and source
+/// why: to distinguish faction-exclusive sources from shared and global sources
+/// example: SHARED_BASE for Blood Angels using Codex: Space Marines
+/// example: EXCLUSIVE for Blood Angels using Codex Supplement: Blood Angels
+/// example: GLOBAL for Blood Angels using the current Balance Dataslate
+enum SourceScope {
+  GLOBAL      @map("global")
   SHARED_BASE @map("shared_base")
   EXCLUSIVE   @map("exclusive")
 
-  @@map("source_relationship")
+  @@map("source_scope")
 }
 
 /// what: a list of access types for faction-specific units and detachments
@@ -207,6 +225,7 @@ model RulesFactionSource {
   rulesSource        RulesSource        @relation(fields: [rulesSourceId], references: [id])
   rulesSourceId      String             @map("rules_source_id") @db.Char(26)
   sourceRelationship SourceRelationship @map("source_relationship") /// describes how this source contributes to the faction's rules
+  sourceScope        SourceScope        @map("source_scope") /// describes how broadly this source applies to the faction
   createdAt          DateTime           @default(now()) @map("created_at")
   updatedAt          DateTime?          @updatedAt @map("updated_at")
 
