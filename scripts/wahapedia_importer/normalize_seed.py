@@ -2,8 +2,10 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass
+from html import unescape
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 from .common import (
     display_name_from_slug,
@@ -74,6 +76,36 @@ class KeywordCandidate:
     updated_at: str | None
 
 
+@dataclass(frozen=True)
+class RulesSourceCandidate:
+    seed_id_key: str
+    rules_source_slug: str
+    rules_source_name: str
+    rules_source_type: str
+    rules_source_version: str | None
+    rules_source_version_slug: str | None
+    release_date: str | None
+    superseded_date: str | None
+    game_edition_slug: str
+    source_url: str | None
+    source_book_name: str
+    source_kind: str
+    last_update_label: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class RulesFactionSourceCandidate:
+    seed_id_key: str
+    rules_faction_slug: str
+    rules_source_slug: str
+    source_relationship: str
+    source_scope: str
+    created_at: str
+    updated_at: str | None
+
+
 def normalize_wahapedia_manifest(
     *,
     manifest: str,
@@ -88,18 +120,22 @@ def normalize_wahapedia_manifest(
     manifest_data = read_json(manifest_path)
     paths = import_paths(work_root)
 
-    if kind not in {"abilities", "keywords"}:
+    if kind not in {"abilities", "keywords", "rules-sources"}:
         raise ValueError(f"Unsupported normalize kind: {kind}")
 
     abilities: list[AbilityCandidate] = []
     unit_abilities: list[UnitAbilityCandidate] = []
     keywords: list[KeywordCandidate] = []
+    rules_sources: list[RulesSourceCandidate] = []
+    rules_faction_sources: list[RulesFactionSourceCandidate] = []
     if kind == "abilities":
         abilities, unit_abilities = _extract_abilities(
             manifest_data, include_unit_abilities=include_unit_abilities
         )
     if kind == "keywords":
         keywords = _extract_keywords(manifest_data)
+    if kind == "rules-sources":
+        rules_sources, rules_faction_sources = _extract_rules_sources(manifest_data)
     output_path = (
         Path(output).expanduser()
         if output
@@ -121,6 +157,10 @@ def normalize_wahapedia_manifest(
         records={
             "abilities": [candidate.__dict__ for candidate in abilities],
             "keywords": [candidate.__dict__ for candidate in keywords],
+            "rules_sources": [candidate.__dict__ for candidate in rules_sources],
+            "rules_faction_sources": [
+                candidate.__dict__ for candidate in rules_faction_sources
+            ],
             "unit_abilities": [candidate.__dict__ for candidate in unit_abilities],
         },
     )
@@ -235,6 +275,245 @@ def _extract_keywords(manifest_data: dict[str, Any]) -> list[KeywordCandidate]:
         keyword_by_slug.values(),
         key=lambda item: (item.keyword_type, item.keyword_slug),
     )
+
+
+def _extract_rules_sources(
+    manifest_data: dict[str, Any],
+) -> tuple[list[RulesSourceCandidate], list[RulesFactionSourceCandidate]]:
+    source_by_slug: dict[str, RulesSourceCandidate] = {}
+    faction_source_by_key: dict[str, RulesFactionSourceCandidate] = {}
+    created_at = now_iso()
+    edition = manifest_data["edition"]
+    faction_slug = (
+        normalize_slug(manifest_data["faction"]).replace("_", "-")
+        if manifest_data.get("faction")
+        else None
+    )
+    rules_faction_slug = faction_slug.replace("-", "_") if faction_slug else None
+
+    for page in manifest_data.get("pages", []):
+        if page.get("page_kind") != "faction-index":
+            continue
+        html = Path(page["cache_path"]).read_text(encoding="utf-8")
+        for row in _parse_wahapedia_books_table(html):
+            if row.get("edition") and _edition_slug_from_number(row["edition"]) != edition:
+                continue
+            candidate = _rules_source_from_book_row(row, edition=edition, created_at=created_at)
+            if not candidate:
+                continue
+            source_by_slug.setdefault(candidate.rules_source_slug, candidate)
+            if rules_faction_slug:
+                relationship, scope = _rules_faction_source_semantics(candidate)
+                link_slug = f"{rules_faction_slug}__{candidate.rules_source_slug}"
+                faction_source_by_key.setdefault(
+                    link_slug,
+                    RulesFactionSourceCandidate(
+                        seed_id_key=link_slug,
+                        rules_faction_slug=rules_faction_slug,
+                        rules_source_slug=candidate.rules_source_slug,
+                        source_relationship=relationship,
+                        source_scope=scope,
+                        created_at=created_at,
+                        updated_at=None,
+                    ),
+                )
+
+    return (
+        sorted(source_by_slug.values(), key=lambda item: item.rules_source_slug),
+        sorted(faction_source_by_key.values(), key=lambda item: item.seed_id_key),
+    )
+
+
+def _parse_wahapedia_books_table(html: str) -> list[dict[str, str | None]]:
+    start = html.find('<a name="Books"')
+    if start < 0:
+        return []
+    table_start = html.find("<table", start)
+    table_end = html.find("</tbody></table>", table_start)
+    if table_start < 0 or table_end < 0:
+        return []
+    table_html = html[table_start:table_end]
+    rows: list[dict[str, str | None]] = []
+    current_book: str | None = None
+    current_kind: str | None = None
+
+    for row_match in re.finditer(r"<tr\b[^>]*>(?P<row>.*?)</tr>", table_html, flags=re.DOTALL):
+        row_html = row_match.group("row")
+        cells = [
+            _clean_html_cell(match.group("cell"))
+            for match in re.finditer(r"<td\b[^>]*>(?P<cell>.*?)</td>", row_html, flags=re.DOTALL)
+        ]
+        if not cells:
+            continue
+        if "book_tight" in row_match.group(0):
+            current_book = cells[0]
+            continue
+        if cells[0].lower() == "book" or "Show History" in cells[0]:
+            continue
+
+        source_url = _extract_first_href(row_html)
+        if len(cells) >= 5 and cells[0]:
+            current_book = cells[0]
+            current_kind = cells[1]
+            rows.append(
+                {
+                    "book_name": current_book,
+                    "kind": current_kind,
+                    "edition": cells[2],
+                    "version": cells[3],
+                    "last_update": cells[4],
+                    "source_url": source_url,
+                    "historical": "false",
+                }
+            )
+        elif len(cells) >= 4 and current_book:
+            rows.append(
+                {
+                    "book_name": current_book,
+                    "kind": current_kind,
+                    "edition": cells[-3],
+                    "version": cells[-2],
+                    "last_update": cells[-1],
+                    "source_url": source_url,
+                    "historical": "true",
+                }
+            )
+
+    return rows
+
+
+def _rules_source_from_book_row(
+    row: dict[str, str | None], *, edition: str, created_at: str
+) -> RulesSourceCandidate | None:
+    book_name = row.get("book_name") or ""
+    kind = row.get("kind") or ""
+    version = row.get("version") or None
+    if not book_name:
+        return None
+    source_type = _classify_rules_source_type(book_name, kind, row.get("source_url"))
+    version_slug = _rules_source_version_slug(version)
+    rules_source_slug = _rules_source_slug(
+        source_type=source_type,
+        book_name=book_name,
+        edition=edition,
+        version_slug=version_slug,
+    )
+    rules_source_name = _rules_source_name(source_type=source_type, book_name=book_name)
+    return RulesSourceCandidate(
+        seed_id_key=rules_source_slug,
+        rules_source_slug=rules_source_slug,
+        rules_source_name=rules_source_name,
+        rules_source_type=source_type,
+        rules_source_version=f"v{version}" if version and re.match(r"^\d", version) else version,
+        rules_source_version_slug=version_slug,
+        release_date=None,
+        superseded_date=None,
+        game_edition_slug=edition,
+        source_url=row.get("source_url"),
+        source_book_name=book_name,
+        source_kind=kind,
+        last_update_label=row.get("last_update"),
+        created_at=created_at,
+        updated_at=None,
+    )
+
+
+def _classify_rules_source_type(book_name: str, kind: str, source_url: str | None) -> str:
+    value = normalize_slug(" ".join(part for part in [book_name, kind, source_url or ""] if part))
+    if "munitorum_field_manual" in value:
+        return "munitorum_field_manual"
+    if "balance_dataslate" in value:
+        return "balance_dataslate"
+    if "combat_patrol" in value:
+        return "combat_patrol"
+    if "faction_pack" in value or normalize_slug(kind) == "faction_pack":
+        return "faction_pack"
+    if "chapter_approved_tournament_companion" in value:
+        return "chapter_approved_tournament_companion"
+    if normalize_slug(kind) == "codex_supplement":
+        return "codex_supplement"
+    if normalize_slug(kind) == "codex":
+        return "codex"
+    if normalize_slug(kind) in {"expansion", "campaign_book"}:
+        return normalize_slug(kind)
+    if normalize_slug(kind) == "rulebook":
+        return "online"
+    return "other"
+
+
+def _rules_source_slug(
+    *, source_type: str, book_name: str, edition: str, version_slug: str | None
+) -> str:
+    edition_part = edition
+    name_slug = normalize_slug(book_name)
+    if source_type in {"balance_dataslate", "munitorum_field_manual"}:
+        base = f"{source_type}_{edition_part}"
+    elif name_slug.startswith(source_type):
+        base = f"{name_slug}_{edition_part}"
+    else:
+        base = f"{source_type}_{name_slug}_{edition_part}"
+    return f"{base}_{version_slug}" if version_slug else base
+
+
+def _rules_source_name(*, source_type: str, book_name: str) -> str:
+    if source_type == "faction_pack":
+        return f"Faction Pack: {book_name}"
+    return book_name
+
+
+def _rules_source_version_slug(version: str | None) -> str | None:
+    if not version:
+        return None
+    version_slug = normalize_slug(version)
+    if re.match(r"^\d", version_slug):
+        return f"v{version_slug}"
+    return version_slug
+
+
+def _rules_faction_source_semantics(candidate: RulesSourceCandidate) -> tuple[str, str]:
+    if candidate.rules_source_type == "munitorum_field_manual":
+        return "points", "global"
+    if candidate.rules_source_type == "balance_dataslate":
+        return "errata_faq", "global"
+    if candidate.rules_source_type == "chapter_approved_tournament_companion":
+        return "base_sizes", "global"
+    if candidate.rules_source_type == "combat_patrol":
+        return "combat_patrol", "exclusive"
+    if candidate.rules_source_type in {"faction_pack", "codex_supplement"}:
+        return "errata_faq", "exclusive"
+    if candidate.rules_source_type in {"expansion", "campaign_book"}:
+        return "supplement", "global"
+    if candidate.rules_source_type == "codex":
+        return "primary", "exclusive"
+    return "supplement", "exclusive"
+
+
+def _edition_slug_from_number(value: str) -> str:
+    value = value.strip().lower()
+    return value if value.endswith("e") else f"{value}e"
+
+
+def _clean_html_cell(value: str) -> str:
+    value = re.sub(r"<script\b.*?</script>", " ", value, flags=re.DOTALL | re.IGNORECASE)
+    value = re.sub(r"<style\b.*?</style>", " ", value, flags=re.DOTALL | re.IGNORECASE)
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = unescape(value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip(" \u00a0")
+
+
+def _extract_first_href(value: str) -> str | None:
+    match = re.search(r"""href=["']([^"']+)["']""", value, flags=re.IGNORECASE)
+    if not match:
+        return None
+    href = unescape(match.group(1))
+    if href.startswith("//"):
+        return f"https:{href}"
+    if href.startswith("/"):
+        return f"https://wahapedia.ru{href}"
+    if urlparse(href).scheme:
+        return href
+    return None
 
 
 def _parse_datasheet_keywords(text: str) -> list[dict[str, str]]:

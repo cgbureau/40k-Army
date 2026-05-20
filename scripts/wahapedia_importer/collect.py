@@ -22,6 +22,10 @@ from .common import (
     write_json,
 )
 
+WARHAMMER_40000_DOWNLOADS_URL = (
+    "https://www.warhammer-community.com/en-gb/downloads/warhammer-40000/"
+)
+
 
 @dataclass(frozen=True)
 class CollectedPage:
@@ -157,6 +161,17 @@ def collect_wahapedia_data(
                 faction_slug,
             )
         ]
+    elif kind == "rules-sources":
+        target_urls = [("warhammer-community-downloads", WARHAMMER_40000_DOWNLOADS_URL, None)]
+        if faction:
+            faction_slug = normalize_slug(faction).replace("_", "-")
+            target_urls.append(
+                (
+                    "faction-index",
+                    _find_faction_index_url(locations, path_segment, faction_slug),
+                    faction_slug,
+                )
+            )
     elif kind == "core-rules":
         target_urls = [("core-rules", f"{BASE_URL}/{path_segment}/the-rules/core-rules/", None)]
     else:

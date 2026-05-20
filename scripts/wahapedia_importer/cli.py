@@ -11,6 +11,7 @@ from .normalize_seed import normalize_wahapedia_manifest
 COLLECT_TARGETS = [
     ("abilities", "Abilities from unit datasheets"),
     ("keywords", "Keywords from unit datasheets"),
+    ("rules-sources", "Rules source publications"),
     ("unit-abilities", "Unit ability source pages"),
     ("units", "Unit source pages"),
     ("faction", "Faction and detachment source page"),
@@ -38,7 +39,15 @@ def main(argv: list[str] | None = None) -> int:
     collect_parser = subparsers.add_parser("collect")
     collect_parser.add_argument(
         "kind",
-        choices=["abilities", "keywords", "unit-abilities", "units", "faction", "core-rules"],
+        choices=[
+            "abilities",
+            "keywords",
+            "rules-sources",
+            "unit-abilities",
+            "units",
+            "faction",
+            "core-rules",
+        ],
     )
     collect_parser.add_argument("--edition", required=True)
     collect_parser.add_argument("--faction")
@@ -50,7 +59,7 @@ def main(argv: list[str] | None = None) -> int:
     collect_parser.add_argument("--max-workers", type=int, default=4)
 
     normalize_parser = subparsers.add_parser("normalize")
-    normalize_parser.add_argument("kind", choices=["abilities", "keywords"])
+    normalize_parser.add_argument("kind", choices=["abilities", "keywords", "rules-sources"])
     normalize_parser.add_argument("--manifest", required=True)
     normalize_parser.add_argument("--work-root")
     normalize_parser.add_argument("--output")
@@ -124,7 +133,7 @@ def interactive_prompt() -> int:
 
     collect_kind = "unit-abilities" if target in {"abilities", "keywords"} else target
     faction: str | None = None
-    if collect_kind in {"unit-abilities", "units", "faction"}:
+    if collect_kind in {"unit-abilities", "units", "faction", "rules-sources"}:
         faction_slugs = list_faction_slugs(edition=edition, refresh=refresh)
         faction = _choose(
             "Faction",
@@ -149,7 +158,7 @@ def interactive_prompt() -> int:
     )
     print(f"\nManifest written: {manifest_path}")
 
-    if target in {"abilities", "keywords"}:
+    if target in {"abilities", "keywords", "rules-sources"}:
         should_normalize = _choose(
             f"Normalize {target} now",
             [("yes", "Yes"), ("no", "No")],
