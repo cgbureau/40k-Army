@@ -1,1 +1,1 @@
-export * from "./imperium/_index.ids";
+export * from "./factions.ids";

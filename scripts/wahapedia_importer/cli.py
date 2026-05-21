@@ -4,7 +4,12 @@ import argparse
 import sys
 from pathlib import Path
 
-from .apply_seed import apply_abilities_seed, apply_keywords_seed
+from .apply_seed import (
+    apply_abilities_seed,
+    apply_faction_data_seed,
+    apply_keywords_seed,
+    apply_rules_sources_seed,
+)
 from .collect import collect_wahapedia_data, list_faction_slugs
 from .normalize_seed import normalize_wahapedia_manifest
 
@@ -59,7 +64,9 @@ def main(argv: list[str] | None = None) -> int:
     collect_parser.add_argument("--max-workers", type=int, default=4)
 
     normalize_parser = subparsers.add_parser("normalize")
-    normalize_parser.add_argument("kind", choices=["abilities", "keywords", "rules-sources"])
+    normalize_parser.add_argument(
+        "kind", choices=["abilities", "keywords", "rules-sources", "faction-data"]
+    )
     normalize_parser.add_argument("--manifest", required=True)
     normalize_parser.add_argument("--work-root")
     normalize_parser.add_argument("--output")
@@ -67,8 +74,10 @@ def main(argv: list[str] | None = None) -> int:
     normalize_parser.add_argument("--include-unit-abilities", action="store_true")
 
     apply_parser = subparsers.add_parser("apply")
-    apply_parser.add_argument("kind", choices=["abilities", "keywords"])
-    apply_parser.add_argument("--normalized", required=True)
+    apply_parser.add_argument(
+        "kind", choices=["abilities", "keywords", "rules-sources", "faction-data"]
+    )
+    apply_parser.add_argument("--normalized", required=True, nargs="+")
 
     args = parser.parse_args(argv)
     command = " ".join(sys.argv if argv is None else ["wahapedia-importer", *argv])
@@ -101,9 +110,13 @@ def main(argv: list[str] | None = None) -> int:
         )
     elif args.command_name == "apply":
         if args.kind == "abilities":
-            paths = apply_abilities_seed(normalized=args.normalized)
+            paths = apply_abilities_seed(normalized=args.normalized[0])
+        elif args.kind == "keywords":
+            paths = apply_keywords_seed(normalized=args.normalized[0])
+        elif args.kind == "rules-sources":
+            paths = apply_rules_sources_seed(normalized=args.normalized)
         else:
-            paths = apply_keywords_seed(normalized=args.normalized)
+            paths = apply_faction_data_seed(normalized=args.normalized)
         for path in paths:
             print(path)
         return 0

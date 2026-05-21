@@ -43,5 +43,10 @@ export const onslaughtGameSize: GameSizeConfig = {
 };
 export const gameSizesDataset: SeedDataset<"game_sizes"> = {
   table: "game_sizes",
-  records: [] satisfies GameSizeConfig[],
+  records: [
+    combatPatrolGameSize,
+    incursionGameSize,
+    strikeForceGameSize,
+    onslaughtGameSize,
+  ] satisfies GameSizeConfig[],
 };

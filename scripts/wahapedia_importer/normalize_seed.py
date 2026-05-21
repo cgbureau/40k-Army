@@ -48,7 +48,7 @@ TEN_E_CODEX_FACTIONS = {
     "chaos_knights": "Chaos Knights",
     "chaos_space_marines": "Chaos Space Marines",
     "drukhari": "Drukhari",
-    "emperor_s_children": "Emperor's Children",
+    "emperors_children": "Emperor's Children",
     "genestealer_cults": "Genestealer Cults",
     "grey_knights": "Grey Knights",
     "imperial_agents": "Imperial Agents",
@@ -57,7 +57,7 @@ TEN_E_CODEX_FACTIONS = {
     "necrons": "Necrons",
     "orks": "Orks",
     "space_marines": "Space Marines",
-    "t_au_empire": "T'au Empire",
+    "tau_empire": "T'au Empire",
     "thousand_sons": "Thousand Sons",
     "tyranids": "Tyranids",
 }
@@ -75,6 +75,16 @@ SPACE_MARINE_CHAPTER_SOURCE_NAMES = {
     "dark_angels": "Dark Angels",
     "deathwatch": "Deathwatch",
     "space_wolves": "Space Wolves",
+}
+
+CANONICAL_RULES_FACTION_SLUGS = {
+    "emperor_s_children": "emperors_children",
+    "t_au_empire": "tau_empire",
+}
+
+CANONICAL_RULES_SOURCE_SLUGS = {
+    "faction_pack_adeptus_titanicus_10e_v1_0": "faction_pack_adeptus_titanicus_forge_world_10e_v1_0",
+    "codex_unaligned_forces_10e": "legends_unaligned_forces_10e",
 }
 
 
@@ -145,6 +155,52 @@ class RulesFactionSourceCandidate:
     updated_at: str | None
 
 
+@dataclass(frozen=True)
+class DetachmentCandidate:
+    seed_id_key: str
+    detachment_slug: str
+    detachment_name: str
+    rules_source_slug: str
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class RulesFactionDetachmentCandidate:
+    seed_id_key: str
+    rules_faction_slug: str
+    detachment_slug: str
+    detachment_access_type: str | None
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class UnitCandidate:
+    seed_id_key: str
+    unit_slug: str
+    unit_name: str
+    wahapedia_url: str
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class RulesFactionUnitCandidate:
+    seed_id_key: str
+    rules_faction_unit_slug: str
+    rules_faction_slug: str
+    unit_slug: str
+    unit_access_type: str | None
+    rules_source_slug: str
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
 def normalize_wahapedia_manifest(
     *,
     manifest: str,
@@ -159,7 +215,7 @@ def normalize_wahapedia_manifest(
     manifest_data = read_json(manifest_path)
     paths = import_paths(work_root)
 
-    if kind not in {"abilities", "keywords", "rules-sources"}:
+    if kind not in {"abilities", "keywords", "rules-sources", "faction-data"}:
         raise ValueError(f"Unsupported normalize kind: {kind}")
 
     abilities: list[AbilityCandidate] = []
@@ -167,6 +223,10 @@ def normalize_wahapedia_manifest(
     keywords: list[KeywordCandidate] = []
     rules_sources: list[RulesSourceCandidate] = []
     rules_faction_sources: list[RulesFactionSourceCandidate] = []
+    detachments: list[DetachmentCandidate] = []
+    rules_faction_detachments: list[RulesFactionDetachmentCandidate] = []
+    units: list[UnitCandidate] = []
+    rules_faction_units: list[RulesFactionUnitCandidate] = []
     if kind == "abilities":
         abilities, unit_abilities = _extract_abilities(
             manifest_data, include_unit_abilities=include_unit_abilities
@@ -175,6 +235,13 @@ def normalize_wahapedia_manifest(
         keywords = _extract_keywords(manifest_data)
     if kind == "rules-sources":
         rules_sources, rules_faction_sources = _extract_rules_sources(manifest_data)
+    if kind == "faction-data":
+        (
+            detachments,
+            rules_faction_detachments,
+            units,
+            rules_faction_units,
+        ) = _extract_faction_data(manifest_data)
     output_path = (
         Path(output).expanduser()
         if output
@@ -201,6 +268,14 @@ def normalize_wahapedia_manifest(
                 candidate.__dict__ for candidate in rules_faction_sources
             ],
             "unit_abilities": [candidate.__dict__ for candidate in unit_abilities],
+            "detachments": [candidate.__dict__ for candidate in detachments],
+            "rules_faction_detachments": [
+                candidate.__dict__ for candidate in rules_faction_detachments
+            ],
+            "units": [candidate.__dict__ for candidate in units],
+            "rules_faction_units": [
+                candidate.__dict__ for candidate in rules_faction_units
+            ],
         },
     )
     write_json(output_path, payload)
@@ -329,7 +404,9 @@ def _extract_rules_sources(
         if manifest_data.get("faction")
         else None
     )
-    rules_faction_slug = faction_slug.replace("-", "_") if faction_slug else None
+    rules_faction_slug = _canonical_rules_faction_slug(
+        faction_slug.replace("-", "_") if faction_slug else None
+    )
 
     for page in manifest_data.get("pages", []):
         if page.get("page_kind") != "faction-index":
@@ -373,6 +450,209 @@ def _extract_rules_sources(
         sorted(source_by_slug.values(), key=lambda item: item.rules_source_slug),
         sorted(faction_source_by_key.values(), key=lambda item: item.seed_id_key),
     )
+
+
+def _extract_faction_data(
+    manifest_data: dict[str, Any],
+) -> tuple[
+    list[DetachmentCandidate],
+    list[RulesFactionDetachmentCandidate],
+    list[UnitCandidate],
+    list[RulesFactionUnitCandidate],
+]:
+    created_at = now_iso()
+    edition = manifest_data["edition"]
+    faction_slug = (
+        normalize_slug(manifest_data["faction"]).replace("_", "-")
+        if manifest_data.get("faction")
+        else None
+    )
+    rules_faction_slug = _canonical_rules_faction_slug(
+        faction_slug.replace("-", "_") if faction_slug else None
+    )
+    if not rules_faction_slug:
+        return ([], [], [], [])
+
+    faction_html = ""
+    for page in manifest_data.get("pages", []):
+        if page.get("page_kind") == "faction-index":
+            faction_html = Path(page["cache_path"]).read_text(encoding="utf-8")
+            break
+
+    detachment_source_slug = _default_detachment_source_slug(
+        faction_html=faction_html,
+        edition=edition,
+        rules_faction_slug=rules_faction_slug,
+    )
+    detachments_by_slug: dict[str, DetachmentCandidate] = {}
+    rules_faction_detachments_by_slug: dict[str, RulesFactionDetachmentCandidate] = {}
+    if detachment_source_slug:
+        for detachment_name in _parse_faction_detachment_names(faction_html):
+            detachment_slug = normalize_slug(detachment_name)
+            detachments_by_slug.setdefault(
+                detachment_slug,
+                DetachmentCandidate(
+                    seed_id_key=detachment_slug,
+                    detachment_slug=detachment_slug,
+                    detachment_name=detachment_name,
+                    rules_source_slug=detachment_source_slug,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+            link_slug = f"{rules_faction_slug}__{detachment_slug}"
+            rules_faction_detachments_by_slug.setdefault(
+                link_slug,
+                RulesFactionDetachmentCandidate(
+                    seed_id_key=link_slug,
+                    rules_faction_slug=rules_faction_slug,
+                    detachment_slug=detachment_slug,
+                    detachment_access_type="exclusive",
+                    effective_date=None,
+                    superseded_date=None,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+    units_by_slug: dict[str, UnitCandidate] = {}
+    rules_faction_units_by_slug: dict[str, RulesFactionUnitCandidate] = {}
+    for page in manifest_data.get("pages", []):
+        if page.get("page_kind") != "unit-datasheet":
+            continue
+        html = Path(page["cache_path"]).read_text(encoding="utf-8")
+        unit_name = _parse_datasheet_unit_name(html) or display_name_from_slug(
+            _unit_slug_from_url(page["url"])
+        )
+        unit_slug = normalize_slug(unit_name)
+        rules_source_slug = _parse_datasheet_rules_source_slug(
+            html=html,
+            edition=edition,
+            fallback_faction_slug=rules_faction_slug,
+        )
+        if not rules_source_slug:
+            rules_source_slug = detachment_source_slug or f"codex_{rules_faction_slug}_{edition}"
+        units_by_slug.setdefault(
+            unit_slug,
+            UnitCandidate(
+                seed_id_key=unit_slug,
+                unit_slug=unit_slug,
+                unit_name=unit_name,
+                wahapedia_url=page["url"],
+                created_at=created_at,
+                updated_at=None,
+            ),
+        )
+        link_slug = f"{rules_faction_slug}__{unit_slug}"
+        rules_faction_units_by_slug.setdefault(
+            link_slug,
+            RulesFactionUnitCandidate(
+                seed_id_key=link_slug,
+                rules_faction_unit_slug=link_slug,
+                rules_faction_slug=rules_faction_slug,
+                unit_slug=unit_slug,
+                unit_access_type="exclusive",
+                rules_source_slug=rules_source_slug,
+                effective_date=None,
+                superseded_date=None,
+                created_at=created_at,
+                updated_at=None,
+            ),
+        )
+
+    return (
+        sorted(detachments_by_slug.values(), key=lambda item: item.detachment_slug),
+        sorted(
+            rules_faction_detachments_by_slug.values(),
+            key=lambda item: item.seed_id_key,
+        ),
+        sorted(units_by_slug.values(), key=lambda item: item.unit_slug),
+        sorted(rules_faction_units_by_slug.values(), key=lambda item: item.seed_id_key),
+    )
+
+
+def _parse_faction_detachment_names(html: str) -> list[str]:
+    names: set[str] = set()
+    for match in re.finditer(
+        r'<div class="detachName">(?P<name>.*?)</div>',
+        html,
+        flags=re.DOTALL,
+    ):
+        name = _clean_html_cell(match.group("name"))
+        if name:
+            names.add(name)
+    return sorted(names)
+
+
+def _default_detachment_source_slug(
+    *, faction_html: str, edition: str, rules_faction_slug: str
+) -> str | None:
+    if rules_faction_slug in SPACE_MARINE_CODEX_SUPPLEMENTS:
+        return f"codex_supplement_{rules_faction_slug}_{edition}"
+    if rules_faction_slug in TEN_E_CODEX_FACTIONS:
+        return f"codex_{rules_faction_slug}_{edition}"
+    faction_pack_slugs: list[str] = []
+    for row in _parse_wahapedia_books_table(faction_html):
+        candidate = _rules_source_from_book_row(row, edition=edition, created_at=now_iso())
+        if candidate and candidate.rules_source_type == "faction_pack":
+            faction_pack_slugs.append(candidate.rules_source_slug)
+    if faction_pack_slugs:
+        return sorted(faction_pack_slugs)[-1]
+    return None
+
+
+def _parse_datasheet_unit_name(html: str) -> str | None:
+    match = re.search(
+        r'<div class="dsH2Header">\s*<div>(?P<name>.*?)</div>',
+        html,
+        flags=re.DOTALL,
+    )
+    if not match:
+        return None
+    return _clean_html_cell(match.group("name"))
+
+
+def _parse_datasheet_rules_source_slug(
+    *, html: str, edition: str, fallback_faction_slug: str
+) -> str | None:
+    match = re.search(
+        r'class="tooltip logo3"\s+title="(?P<title>[^"]+)"',
+        html,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+    title = _clean_html_cell(match.group("title"))
+    source_name = title.split(" (", 1)[0]
+    version_match = re.search(r"version\s+([^)]+)", title, flags=re.IGNORECASE)
+    version_slug = _rules_source_version_slug(version_match.group(1)) if version_match else None
+    source_type = _classify_rules_source_type(source_name, "", None)
+    if source_type == "other" and source_name.startswith("Faction Pack."):
+        source_type = "faction_pack"
+    source_name = source_name.replace("Faction Pack. ", "").strip()
+    if source_type == "faction_pack":
+        return _canonical_rules_source_slug(
+            _rules_source_slug(
+                source_type=source_type,
+                book_name=source_name,
+                edition=edition,
+                version_slug=version_slug,
+            )
+        )
+    if source_type == "legends" and "warhammer legends" in normalize_slug(title):
+        return _canonical_rules_source_slug(
+            _rules_source_slug(
+                source_type="faction_pack",
+                book_name=source_name,
+                edition=edition,
+                version_slug=version_slug,
+            )
+        )
+    return _canonical_rules_source_slug(f"codex_{fallback_faction_slug}_{edition}")
+
+
+def _canonical_rules_source_slug(slug: str) -> str:
+    return CANONICAL_RULES_SOURCE_SLUGS.get(slug, slug)
 
 
 def _parse_wahapedia_books_table(html: str) -> list[dict[str, str | None]]:
@@ -625,8 +905,14 @@ def _rules_faction_slug_for_source(
             if source_name_slug == normalize_slug(chapter_name) or source_name_slug.endswith(
                 f"_{chapter_slug}"
             ):
-                return chapter_slug
-    return default_rules_faction_slug
+                return _canonical_rules_faction_slug(chapter_slug)
+    return _canonical_rules_faction_slug(default_rules_faction_slug)
+
+
+def _canonical_rules_faction_slug(slug: str | None) -> str | None:
+    if slug is None:
+        return None
+    return CANONICAL_RULES_FACTION_SLUGS.get(slug, slug)
 
 
 def _rules_source_slug(
