@@ -22,6 +22,9 @@ enum RulesSourceType {
   COMBAT_PATROL                         @map("combat_patrol")
   FACTION_PACK                          @map("faction_pack")
   CHAPTER_APPROVED_TOURNAMENT_COMPANION @map("chapter_approved_tournament_companion")
+  LEGENDS                               @map("legends")
+  WHITE_DWARF                           @map("white_dwarf")
+  BOXSET                                @map("boxset")
 
   @@map("rules_source_type")
 }

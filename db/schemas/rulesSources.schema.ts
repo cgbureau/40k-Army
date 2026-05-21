@@ -12,6 +12,9 @@ export const rulesSourceTypeSchema = z.enum([
   "combat_patrol",
   "faction_pack",
   "chapter_approved_tournament_companion",
+  "legends",
+  "white_dwarf",
+  "boxset",
 ]);
 
 export const rulesSourceSchema = z.object({

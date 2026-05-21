@@ -39,6 +39,44 @@ CANONICAL_ABILITY_ALIASES = {
     "cherubs": "cherub",
 }
 
+TEN_E_CODEX_FACTIONS = {
+    "adepta_sororitas": "Adepta Sororitas",
+    "adeptus_custodes": "Adeptus Custodes",
+    "adeptus_mechanicus": "Adeptus Mechanicus",
+    "aeldari": "Aeldari",
+    "astra_militarum": "Astra Militarum",
+    "chaos_knights": "Chaos Knights",
+    "chaos_space_marines": "Chaos Space Marines",
+    "drukhari": "Drukhari",
+    "emperor_s_children": "Emperor's Children",
+    "genestealer_cults": "Genestealer Cults",
+    "grey_knights": "Grey Knights",
+    "imperial_agents": "Imperial Agents",
+    "imperial_knights": "Imperial Knights",
+    "leagues_of_votann": "Leagues of Votann",
+    "necrons": "Necrons",
+    "orks": "Orks",
+    "space_marines": "Space Marines",
+    "t_au_empire": "T'au Empire",
+    "thousand_sons": "Thousand Sons",
+    "tyranids": "Tyranids",
+}
+
+SPACE_MARINE_CODEX_SUPPLEMENTS = {
+    "black_templars": "Black Templars",
+    "blood_angels": "Blood Angels",
+    "dark_angels": "Dark Angels",
+    "space_wolves": "Space Wolves",
+}
+
+SPACE_MARINE_CHAPTER_SOURCE_NAMES = {
+    "black_templars": "Black Templars",
+    "blood_angels": "Blood Angels",
+    "dark_angels": "Dark Angels",
+    "deathwatch": "Deathwatch",
+    "space_wolves": "Space Wolves",
+}
+
 
 @dataclass(frozen=True)
 class AbilityCandidate:
@@ -90,6 +128,7 @@ class RulesSourceCandidate:
     source_url: str | None
     source_book_name: str
     source_kind: str
+    source_origin: str
     last_update_label: str | None
     created_at: str
     updated_at: str | None
@@ -282,6 +321,7 @@ def _extract_rules_sources(
 ) -> tuple[list[RulesSourceCandidate], list[RulesFactionSourceCandidate]]:
     source_by_slug: dict[str, RulesSourceCandidate] = {}
     faction_source_by_key: dict[str, RulesFactionSourceCandidate] = {}
+    observed_factions: set[str] = set()
     created_at = now_iso()
     edition = manifest_data["edition"]
     faction_slug = (
@@ -302,14 +342,16 @@ def _extract_rules_sources(
             if not candidate:
                 continue
             source_by_slug.setdefault(candidate.rules_source_slug, candidate)
-            if rules_faction_slug:
+            link_faction_slug = _rules_faction_slug_for_source(candidate, rules_faction_slug)
+            if link_faction_slug:
+                observed_factions.add(link_faction_slug)
                 relationship, scope = _rules_faction_source_semantics(candidate)
-                link_slug = f"{rules_faction_slug}__{candidate.rules_source_slug}"
+                link_slug = f"{link_faction_slug}__{candidate.rules_source_slug}"
                 faction_source_by_key.setdefault(
                     link_slug,
                     RulesFactionSourceCandidate(
                         seed_id_key=link_slug,
-                        rules_faction_slug=rules_faction_slug,
+                        rules_faction_slug=link_faction_slug,
                         rules_source_slug=candidate.rules_source_slug,
                         source_relationship=relationship,
                         source_scope=scope,
@@ -317,6 +359,15 @@ def _extract_rules_sources(
                         updated_at=None,
                     ),
                 )
+
+    for inferred_faction_slug in sorted({rules_faction_slug, *observed_factions} - {None}):
+        _add_inferred_rules_sources(
+            source_by_slug=source_by_slug,
+            faction_source_by_key=faction_source_by_key,
+            rules_faction_slug=inferred_faction_slug,
+            edition=edition,
+            created_at=created_at,
+        )
 
     return (
         sorted(source_by_slug.values(), key=lambda item: item.rules_source_slug),
@@ -412,9 +463,127 @@ def _rules_source_from_book_row(
         source_url=row.get("source_url"),
         source_book_name=book_name,
         source_kind=kind,
+        source_origin="wahapedia_books_table",
         last_update_label=row.get("last_update"),
         created_at=created_at,
         updated_at=None,
+    )
+
+
+def _add_inferred_rules_sources(
+    *,
+    source_by_slug: dict[str, RulesSourceCandidate],
+    faction_source_by_key: dict[str, RulesFactionSourceCandidate],
+    rules_faction_slug: str,
+    edition: str,
+    created_at: str,
+) -> None:
+    if edition != "10e":
+        return
+
+    if rules_faction_slug in TEN_E_CODEX_FACTIONS:
+        source = _inferred_rules_source(
+            source_type="codex",
+            source_name=f"Codex: {TEN_E_CODEX_FACTIONS[rules_faction_slug]}",
+            source_slug=f"codex_{rules_faction_slug}_{edition}",
+            edition=edition,
+            created_at=created_at,
+        )
+        source_by_slug.setdefault(source.rules_source_slug, source)
+        _add_inferred_faction_source(
+            faction_source_by_key,
+            rules_faction_slug=rules_faction_slug,
+            rules_source_slug=source.rules_source_slug,
+            relationship="primary",
+            scope="exclusive",
+            created_at=created_at,
+        )
+
+    if rules_faction_slug in SPACE_MARINE_CODEX_SUPPLEMENTS:
+        space_marines_codex = _inferred_rules_source(
+            source_type="codex",
+            source_name="Codex: Space Marines",
+            source_slug=f"codex_space_marines_{edition}",
+            edition=edition,
+            created_at=created_at,
+        )
+        source_by_slug.setdefault(space_marines_codex.rules_source_slug, space_marines_codex)
+        _add_inferred_faction_source(
+            faction_source_by_key,
+            rules_faction_slug=rules_faction_slug,
+            rules_source_slug=space_marines_codex.rules_source_slug,
+            relationship="primary",
+            scope="shared_base",
+            created_at=created_at,
+        )
+
+        supplement = _inferred_rules_source(
+            source_type="codex_supplement",
+            source_name=f"Codex Supplement: {SPACE_MARINE_CODEX_SUPPLEMENTS[rules_faction_slug]}",
+            source_slug=f"codex_supplement_{rules_faction_slug}_{edition}",
+            edition=edition,
+            created_at=created_at,
+        )
+        source_by_slug.setdefault(supplement.rules_source_slug, supplement)
+        _add_inferred_faction_source(
+            faction_source_by_key,
+            rules_faction_slug=rules_faction_slug,
+            rules_source_slug=supplement.rules_source_slug,
+            relationship="supplement",
+            scope="exclusive",
+            created_at=created_at,
+        )
+
+
+def _inferred_rules_source(
+    *,
+    source_type: str,
+    source_name: str,
+    source_slug: str,
+    edition: str,
+    created_at: str,
+) -> RulesSourceCandidate:
+    return RulesSourceCandidate(
+        seed_id_key=source_slug,
+        rules_source_slug=source_slug,
+        rules_source_name=source_name,
+        rules_source_type=source_type,
+        rules_source_version=None,
+        rules_source_version_slug=None,
+        release_date=None,
+        superseded_date=None,
+        game_edition_slug=edition,
+        source_url=None,
+        source_book_name=source_name,
+        source_kind="Inferred",
+        source_origin="inferred",
+        last_update_label=None,
+        created_at=created_at,
+        updated_at=None,
+    )
+
+
+def _add_inferred_faction_source(
+    faction_source_by_key: dict[str, RulesFactionSourceCandidate],
+    *,
+    rules_faction_slug: str,
+    rules_source_slug: str,
+    relationship: str,
+    scope: str,
+    created_at: str,
+) -> None:
+    link_slug = f"{rules_faction_slug}__{rules_source_slug}"
+    faction_source_by_key.setdefault(
+        link_slug,
+        RulesFactionSourceCandidate(
+            seed_id_key=link_slug,
+            rules_faction_slug=rules_faction_slug,
+            rules_source_slug=rules_source_slug,
+            source_relationship=relationship,
+            source_scope=scope,
+            created_at=created_at,
+            updated_at=None,
+        ),
     )
 
 
@@ -424,6 +593,12 @@ def _classify_rules_source_type(book_name: str, kind: str, source_url: str | Non
         return "munitorum_field_manual"
     if "balance_dataslate" in value:
         return "balance_dataslate"
+    if "legends" in value or "warhammer_legends" in value:
+        return "legends"
+    if normalize_slug(kind) == "white_dwarf":
+        return "white_dwarf"
+    if normalize_slug(kind) == "boxset":
+        return "boxset"
     if "combat_patrol" in value:
         return "combat_patrol"
     if "faction_pack" in value or normalize_slug(kind) == "faction_pack":
@@ -439,6 +614,19 @@ def _classify_rules_source_type(book_name: str, kind: str, source_url: str | Non
     if normalize_slug(kind) == "rulebook":
         return "online"
     return "other"
+
+
+def _rules_faction_slug_for_source(
+    candidate: RulesSourceCandidate, default_rules_faction_slug: str | None
+) -> str | None:
+    source_name_slug = normalize_slug(candidate.source_book_name)
+    if candidate.rules_source_type in {"faction_pack", "codex_supplement", "legends"}:
+        for chapter_slug, chapter_name in SPACE_MARINE_CHAPTER_SOURCE_NAMES.items():
+            if source_name_slug == normalize_slug(chapter_name) or source_name_slug.endswith(
+                f"_{chapter_slug}"
+            ):
+                return chapter_slug
+    return default_rules_faction_slug
 
 
 def _rules_source_slug(
