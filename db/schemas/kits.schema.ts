@@ -12,7 +12,7 @@ export const kitUnitPriceAllocationBasisSchema = z.enum([
   "average_unit_price",
   "model_count",
   "manual",
-  "reseller_observation",
+  "market_observation",
 ]);
 
 export const kitTypeSchema = z.object({
@@ -56,8 +56,8 @@ export const kitUnitSchema = z.object({
   id: z.ulid(),
   kit_id: z.ulid(),
   unit_id: z.ulid(),
-  unit_count: z.number().int(),
-  model_count: z.number().int(),
+  unit_count: z.number().int().positive(),
+  model_count: z.number().int().positive(),
   component_type: kitUnitComponentTypeSchema,
   effective_date: z.date().nullable(),
   superseded_date: z.date().nullable(),
@@ -71,7 +71,7 @@ export const kitUnitPriceAllocationSchema = z.object({
   unit_id: z.ulid(),
   allocation_ratio: z.number().gt(0).lte(1),
   reference_price: z.number().positive().nullable(),
-  reference_currency: z.string().nullable(),
+  reference_currency: z.string().length(3).nullable(),
   allocation_basis: kitUnitPriceAllocationBasisSchema,
   effective_date: z.date().nullable(),
   superseded_date: z.date().nullable(),
@@ -82,7 +82,7 @@ export const kitUnitPriceAllocationSchema = z.object({
 export const kitPriceSchema = z.object({
   id: z.ulid(),
   kit_id: z.ulid(),
-  currency: z.string(),
+  currency: z.string().length(3),
   price: z.union([z.number(), z.string()]),
   price_source: z.string().nullable(),
   price_source_url: z.string().nullable(),

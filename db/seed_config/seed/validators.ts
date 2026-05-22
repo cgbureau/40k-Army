@@ -113,10 +113,14 @@ export const seedTableSchemas = {
   player_collection_models: createSeedConfigSchema(playerCollectionModelSchema),
 } satisfies SeedTableSchemaMap;
 
-export const validateSeedRecord = (
+// TODO(P1): enforce that kit_unit_price_allocations.allocation_ratio values for a
+// given kit_id sum to 1.0. Cannot be expressed per-row — requires an app-layer
+// aggregation guard or a DB check constraint before inserts are wired.
+
+export const validateSeedRecord = <T extends SeedTableName>(
   collection: SeedDataCollection,
-  table: SeedTableName,
-  record: SeedTableConfigMap[SeedTableName],
+  table: T,
+  record: SeedTableConfigMap[T],
 ): SeedValidationIssue[] => {
   const result = seedTableSchemas[table].safeParse(record);
 
