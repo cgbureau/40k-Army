@@ -21,6 +21,8 @@ import type {
   KitType,
   Kit,
   KitModel,
+  KitUnit,
+  KitUnitPriceAllocation,
   KitPrice,
   Ability,
   UnitAbility,
@@ -177,6 +179,18 @@ export type KitModelConfig = BaseEntityConfig &
   Omit<KitModel, "created_at" | "updated_at">;
 
 /**
+ * Seed config shape for linking a kit to satisfied units.
+ */
+export type KitUnitConfig = BaseEntityConfig &
+  Omit<KitUnit, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for assigning kit price allocation metadata to satisfied units.
+ */
+export type KitUnitPriceAllocationConfig = BaseEntityConfig &
+  Omit<KitUnitPriceAllocation, "created_at" | "updated_at">;
+
+/**
  * Seed config shape for a kit price observation.
  */
 export type KitPriceConfig = BaseEntityConfig &
@@ -262,6 +276,8 @@ export type SeedTableConfigMap = {
   kit_types: KitTypeConfig;
   kits: KitConfig;
   kit_models: KitModelConfig;
+  kit_units: KitUnitConfig;
+  kit_unit_price_allocations: KitUnitPriceAllocationConfig;
   kit_prices: KitPriceConfig;
   abilities: AbilityConfig;
   unit_abilities: UnitAbilityConfig;

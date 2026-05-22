@@ -108,6 +108,29 @@ enum UnitSelectionLimitKind {
   @@map("unit_selection_limit_kind")
 }
 
+/// what: describes how a purchasable kit maps to a satisfied unit
+/// why: bundle, alternate-build, and upgrade products need explicit unit-level satisfaction metadata
+enum KitUnitComponentType {
+  COMPLETE_UNIT     @map("complete_unit")
+  PARTIAL_UNIT      @map("partial_unit")
+  ALTERNATE_BUILD   @map("alternate_build")
+  UPGRADE_COMPONENT @map("upgrade_component")
+
+  @@map("kit_unit_component_type")
+}
+
+/// what: describes the evidence or calculation basis used to allocate kit price across units
+/// why: purchase recommendations need auditable per-unit value estimates for multi-unit kits
+enum KitUnitPriceAllocationBasis {
+  STANDALONE_MSRP      @map("standalone_msrp")
+  AVERAGE_UNIT_PRICE   @map("average_unit_price")
+  MODEL_COUNT          @map("model_count")
+  MANUAL               @map("manual")
+  RESELLER_OBSERVATION @map("reseller_observation")
+
+  @@map("kit_unit_price_allocation_basis")
+}
+
 /// what: represents a row for each edition of the game
 /// why: this will allow more comprehensive indexing and uniqueness on objects that repeat every edition--e.g. each edition has a Codex: Space Marines
 /// example: '11th Edition', 'Armageddon', '11'
@@ -280,22 +303,24 @@ model RulesFactionDetachment {
 /// why: units are the central rules object for list building and collection comparison
 /// example: Intercessor Squad, Inquisitor, or Wardens of Ultramar
 model Unit {
-  id                  String                  @id @default(ulid()) @db.Char(26)
-  unitName            String                  @map("unit_name")
-  unitSlug            String                  @unique @map("unit_slug")
-  wahapediaUrl        String?                 @map("wahapedia_url") /// optional source/reference URL for the unit's Wahapedia datasheet page
-  unitProfiles        UnitProfile[]
-  unitModels          UnitModel[]
-  unitPointCosts      UnitPointCost[]
-  unitKeywords        UnitKeyword[]
-  detachmentKeywords  DetachmentUnitKeyword[]
-  unitAbilities       UnitAbility[]
-  leaderRules         LeaderEligibility[]     @relation("LeaderUnit")
-  leadableByRules     LeaderEligibility[]     @relation("LeaderTargetUnit")
-  rulesFactionUnits   RulesFactionUnit[]
-  playerArmyListUnits PlayerArmyListUnit[]
-  createdAt           DateTime                @default(now()) @map("created_at")
-  updatedAt           DateTime?               @updatedAt @map("updated_at")
+  id                      String                   @id @default(ulid()) @db.Char(26)
+  unitName                String                   @map("unit_name")
+  unitSlug                String                   @unique @map("unit_slug")
+  wahapediaUrl            String?                  @map("wahapedia_url") /// optional source/reference URL for the unit's Wahapedia datasheet page
+  unitProfiles            UnitProfile[]
+  unitModels              UnitModel[]
+  unitPointCosts          UnitPointCost[]
+  unitKeywords            UnitKeyword[]
+  detachmentKeywords      DetachmentUnitKeyword[]
+  unitAbilities           UnitAbility[]
+  leaderRules             LeaderEligibility[]      @relation("LeaderUnit")
+  leadableByRules         LeaderEligibility[]      @relation("LeaderTargetUnit")
+  rulesFactionUnits       RulesFactionUnit[]
+  kitUnits                KitUnit[]
+  kitUnitPriceAllocations KitUnitPriceAllocation[]
+  playerArmyListUnits     PlayerArmyListUnit[]
+  createdAt               DateTime                 @default(now()) @map("created_at")
+  updatedAt               DateTime?                @updatedAt @map("updated_at")
 
   @@map("units")
 }
@@ -546,24 +571,26 @@ model KitType {
 /// why: army cost estimation compares missing models against available retail kits
 /// example: Captain Titus and the Wardens of Ultramar
 model Kit {
-  id               String     @id @default(ulid()) @db.Char(26)
-  kitSlug          String     @unique @map("kit_slug")
-  kitName          String     @map("kit_name")
-  gwSlug           String?    @map("gw_slug") /// Games Workshop product URL slug, often including a release year
-  displayName      String     @map("display_name") /// user-facing product label shown in calculator and purchase flows
-  gwShortSlug      String?    @map("gw_short_slug") /// shorter Games Workshop slug without release-year suffix when available
-  gwYear           Int?       @map("gw_year") /// release or product-page year parsed from Games Workshop data when available
-  modelCount       Int        @map("model_count") /// total physical model count in the boxed product
-  kitType          KitType    @relation(fields: [kitTypeId], references: [id])
-  kitTypeId        String     @map("kit_type_id") @db.Char(26)
-  gwProductUrl     String?    @map("gw_product_url") /// source product page used for purchase links and price attribution
-  gwImageUrl       String?    @map("gw_image_url") /// source image URL used for display and future product matching
-  releaseDate      DateTime?  @map("release_date") @db.Date
-  discontinuedDate DateTime?  @map("discontinued_date") @db.Date
-  kitModels        KitModel[]
-  kitPrices        KitPrice[]
-  createdAt        DateTime   @default(now()) @map("created_at")
-  updatedAt        DateTime?  @updatedAt @map("updated_at")
+  id                      String                   @id @default(ulid()) @db.Char(26)
+  kitSlug                 String                   @unique @map("kit_slug")
+  kitName                 String                   @map("kit_name")
+  gwSlug                  String?                  @map("gw_slug") /// Games Workshop product URL slug, often including a release year
+  displayName             String                   @map("display_name") /// user-facing product label shown in calculator and purchase flows
+  gwShortSlug             String?                  @map("gw_short_slug") /// shorter Games Workshop slug without release-year suffix when available
+  gwYear                  Int?                     @map("gw_year") /// release or product-page year parsed from Games Workshop data when available
+  modelCount              Int                      @map("model_count") /// total physical model count in the boxed product
+  kitType                 KitType                  @relation(fields: [kitTypeId], references: [id])
+  kitTypeId               String                   @map("kit_type_id") @db.Char(26)
+  gwProductUrl            String?                  @map("gw_product_url") /// source product page used for purchase links and price attribution
+  gwImageUrl              String?                  @map("gw_image_url") /// source image URL used for display and future product matching
+  releaseDate             DateTime?                @map("release_date") @db.Date
+  discontinuedDate        DateTime?                @map("discontinued_date") @db.Date
+  kitModels               KitModel[]
+  kitUnits                KitUnit[]
+  kitUnitPriceAllocations KitUnitPriceAllocation[]
+  kitPrices               KitPrice[]
+  createdAt               DateTime                 @default(now()) @map("created_at")
+  updatedAt               DateTime?                @updatedAt @map("updated_at")
 
   @@index([kitTypeId])
   @@map("kits")
@@ -585,6 +612,51 @@ model KitModel {
   @@unique([kitId, modelId])
   @@index([modelId])
   @@map("kit_models")
+}
+
+/// what: a join between a purchasable kit and a game unit that kit can satisfy
+/// why: purchase recommendations need unit-level kit satisfaction beyond physical model contents
+/// example: a combined character-and-squad kit satisfying both a character unit and a squad unit
+model KitUnit {
+  id             String               @id @default(ulid()) @db.Char(26)
+  kit            Kit                  @relation(fields: [kitId], references: [id])
+  kitId          String               @map("kit_id") @db.Char(26)
+  unit           Unit                 @relation(fields: [unitId], references: [id])
+  unitId         String               @map("unit_id") @db.Char(26)
+  unitCount      Int                  @map("unit_count")
+  modelCount     Int                  @map("model_count")
+  componentType  KitUnitComponentType @map("component_type")
+  effectiveDate  DateTime?            @map("effective_date") @db.Date
+  supersededDate DateTime?            @map("superseded_date") @db.Date
+  createdAt      DateTime             @default(now()) @map("created_at")
+  updatedAt      DateTime?            @updatedAt @map("updated_at")
+
+  @@unique([kitId, unitId, componentType])
+  @@index([unitId])
+  @@map("kit_units")
+}
+
+/// what: allocation metadata for assigning a kit's observed price across satisfied units
+/// why: multi-unit kits need explainable per-unit value estimates without replacing kit-level prices
+/// example: assigning 42.10526 percent of a bundle price to the included character unit
+model KitUnitPriceAllocation {
+  id                String                      @id @default(ulid()) @db.Char(26)
+  kit               Kit                         @relation(fields: [kitId], references: [id])
+  kitId             String                      @map("kit_id") @db.Char(26)
+  unit              Unit                        @relation(fields: [unitId], references: [id])
+  unitId            String                      @map("unit_id") @db.Char(26)
+  allocationRatio   Decimal                     @map("allocation_ratio") @db.Decimal(10, 7)
+  referencePrice    Decimal?                    @map("reference_price") @db.Decimal(10, 2)
+  referenceCurrency String?                     @map("reference_currency")
+  allocationBasis   KitUnitPriceAllocationBasis @map("allocation_basis")
+  effectiveDate     DateTime?                   @map("effective_date") @db.Date
+  supersededDate    DateTime?                   @map("superseded_date") @db.Date
+  createdAt         DateTime                    @default(now()) @map("created_at")
+  updatedAt         DateTime?                   @updatedAt @map("updated_at")
+
+  @@unique([kitId, unitId, allocationBasis])
+  @@index([unitId])
+  @@map("kit_unit_price_allocations")
 }
 
 /// what: a price observation for a kit in one currency and source

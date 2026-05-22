@@ -9,6 +9,8 @@ import {
   kitPriceSchema,
   kitSchema,
   kitTypeSchema,
+  kitUnitPriceAllocationSchema,
+  kitUnitSchema,
   leaderEligibilityKeywordSchema,
   leaderEligibilitySchema,
   modelSchema,
@@ -86,15 +88,17 @@ export const seedTableSchemas = {
   unit_point_costs: createSeedConfigSchema(unitPointCostSchema),
   keywords: createSeedConfigSchema(keywordSchema),
   unit_keywords: createSeedConfigSchema(unitKeywordSchema),
-  detachment_unit_keywords: createSeedConfigSchema(
-    detachmentUnitKeywordSchema,
-  ),
+  detachment_unit_keywords: createSeedConfigSchema(detachmentUnitKeywordSchema),
   unit_selection_limits: createSeedConfigSchema(unitSelectionLimitSchema),
   models: createSeedConfigSchema(modelSchema),
   unit_models: createSeedConfigSchema(unitModelSchema),
   kit_types: createSeedConfigSchema(kitTypeSchema),
   kits: createSeedConfigSchema(kitSchema),
   kit_models: createSeedConfigSchema(kitModelSchema),
+  kit_units: createSeedConfigSchema(kitUnitSchema),
+  kit_unit_price_allocations: createSeedConfigSchema(
+    kitUnitPriceAllocationSchema,
+  ),
   kit_prices: createSeedConfigSchema(kitPriceSchema),
   abilities: createSeedConfigSchema(abilitySchema),
   unit_abilities: createSeedConfigSchema(unitAbilitySchema),
@@ -106,9 +110,7 @@ export const seedTableSchemas = {
   player_army_lists: createSeedConfigSchema(playerArmyListSchema),
   player_army_list_units: createSeedConfigSchema(playerArmyListUnitSchema),
   player_collections: createSeedConfigSchema(playerCollectionSchema),
-  player_collection_models: createSeedConfigSchema(
-    playerCollectionModelSchema,
-  ),
+  player_collection_models: createSeedConfigSchema(playerCollectionModelSchema),
 } satisfies SeedTableSchemaMap;
 
 export const validateSeedRecord = (

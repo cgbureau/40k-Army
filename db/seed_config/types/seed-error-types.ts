@@ -21,6 +21,8 @@ export type SeedTable =
   | "kit_types"
   | "kits"
   | "kit_models"
+  | "kit_units"
+  | "kit_unit_price_allocations"
   | "kit_prices"
   | "abilities"
   | "unit_abilities"

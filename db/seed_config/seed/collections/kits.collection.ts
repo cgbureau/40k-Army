@@ -2,12 +2,16 @@
 // - kit_types
 // - kits
 // - kit_models
+// - kit_units
+// - kit_unit_price_allocations
 // - kit_prices
 
 import {
   kitTypesDataset,
   kitsDataset,
   kitModelsDataset,
+  kitUnitsDataset,
+  kitUnitPriceAllocationsDataset,
   kitPricesDataset,
 } from "../data/_index.data";
 import { createStaticSeedCollection } from "./utils.collection";
@@ -19,6 +23,8 @@ const kitDataDatasets = [
   kitTypesDataset,
   kitsDataset,
   kitModelsDataset,
+  kitUnitsDataset,
+  kitUnitPriceAllocationsDataset,
   kitPricesDataset,
 ];
 

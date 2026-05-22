@@ -7,6 +7,8 @@ export * from "./keywords.data";
 export * from "./kit_models.data";
 export * from "./kit_prices.data";
 export * from "./kit_types.data";
+export * from "./kit_unit_price_allocations.data";
+export * from "./kit_units.data";
 export * from "./kits.data";
 export * from "./leader_eligibilities.data";
 export * from "./leader_eligibility_keywords.data";

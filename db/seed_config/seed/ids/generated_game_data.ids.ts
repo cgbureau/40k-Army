@@ -5868,3 +5868,32 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
 export const rulesFactionUnitId = (slug: RulesFactionUnitSeedSlug): string => {
   return rulesFactionUnitSeedIds[slug];
 };
+
+type KitUnitSeedSlug = never;
+
+const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {};
+
+export const kitUnitId = (slug: KitUnitSeedSlug): string => {
+  return kitUnitSeedIds[slug];
+};
+
+type KitUnitPriceAllocationSeedSlug = never;
+
+const kitUnitPriceAllocationSeedIds: Record<
+  KitUnitPriceAllocationSeedSlug,
+  string
+> = {};
+
+export const kitUnitPriceAllocationId = (
+  slug: KitUnitPriceAllocationSeedSlug,
+): string => {
+  return kitUnitPriceAllocationSeedIds[slug];
+};
+
+type KitSeedSlug = never;
+
+const kitSeedIds: Record<KitSeedSlug, string> = {};
+
+export const kitId = (slug: KitSeedSlug): string => {
+  return kitSeedIds[slug];
+};

@@ -11,6 +11,8 @@ import {
   kitTypeSchema,
   kitSchema,
   kitModelSchema,
+  kitUnitSchema,
+  kitUnitPriceAllocationSchema,
   kitPriceSchema,
   leaderEligibilityKeywordSchema,
   leaderEligibilitySchema,
@@ -41,6 +43,8 @@ import {
   sourceRelationshipSchema,
   sourceScopeSchema,
   unitSelectionLimitKindSchema,
+  kitUnitComponentTypeSchema,
+  kitUnitPriceAllocationBasisSchema,
 } from "@db_index/";
 
 // export inferred types from schemas
@@ -68,6 +72,10 @@ export type UnitModel = z.infer<typeof unitModelSchema>;
 export type KitType = z.infer<typeof kitTypeSchema>;
 export type Kit = z.infer<typeof kitSchema>;
 export type KitModel = z.infer<typeof kitModelSchema>;
+export type KitUnit = z.infer<typeof kitUnitSchema>;
+export type KitUnitPriceAllocation = z.infer<
+  typeof kitUnitPriceAllocationSchema
+>;
 export type KitPrice = z.infer<typeof kitPriceSchema>;
 export type Ability = z.infer<typeof abilitySchema>;
 export type UnitAbility = z.infer<typeof unitAbilitySchema>;
@@ -93,3 +101,7 @@ export type DetachmentAccessType = AccessType;
 export type SourceRelationship = z.infer<typeof sourceRelationshipSchema>;
 export type SourceScope = z.infer<typeof sourceScopeSchema>;
 export type KeywordType = z.infer<typeof keywordTypeSchema>;
+export type KitUnitComponentType = z.infer<typeof kitUnitComponentTypeSchema>;
+export type KitUnitPriceAllocationBasis = z.infer<
+  typeof kitUnitPriceAllocationBasisSchema
+>;
