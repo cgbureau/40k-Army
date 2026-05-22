@@ -252,11 +252,9 @@ def apply_rules_sources_seed(*, normalized: list[str]) -> list[Path]:
 
     existing_rules_source_ids = _parse_existing_seed_ids_from_paths(
         REPO_ROOT / "db" / "seed_config" / "seed" / "ids" / "rules_sources",
-        "rulesSource",
     )
     existing_rules_faction_source_ids = _parse_existing_seed_ids_from_paths(
         REPO_ROOT / "db" / "seed_config" / "seed" / "ids" / "factions",
-        "rulesFactionSource",
     )
 
     _write_rules_source_ids_file(rules_source_records, existing_rules_source_ids)
@@ -345,7 +343,6 @@ def apply_faction_data_seed(*, normalized: list[str]) -> list[Path]:
     )
     existing_ids = _parse_existing_seed_ids_from_paths(
         REPO_ROOT / "db" / "seed_config" / "seed" / "ids",
-        "generatedGameData",
     )
     _write_generated_game_data_ids_file(
         detachments,
@@ -394,7 +391,6 @@ def apply_kit_units_seed(*, normalized: list[str]) -> list[Path]:
     )
     existing_ids = _parse_existing_seed_ids_from_paths(
         REPO_ROOT / "db" / "seed_config" / "seed" / "ids",
-        "generatedGameData",
     )
     _write_generated_kit_data_ids_blocks(
         kit_slugs=[record.kit_slug for record in records],
@@ -440,7 +436,6 @@ def apply_kit_unit_price_allocations_seed(*, normalized: list[str]) -> list[Path
     )
     existing_ids = _parse_existing_seed_ids_from_paths(
         REPO_ROOT / "db" / "seed_config" / "seed" / "ids",
-        "generatedGameData",
     )
     _write_generated_kit_data_ids_blocks(
         kit_slugs=[record.kit_slug for record in records],
@@ -653,8 +648,8 @@ def _merge_existing_rules_source_data(
                 rules_source_slug=slug,
                 rules_source_name=name,
                 rules_source_type=source_type,
-                rules_source_version=_extract_nullable_ts_field(block, "rules_source_version"),
-                rules_source_version_slug=_extract_nullable_ts_field(
+                rules_source_version=_extract_ts_field(block, "rules_source_version"),
+                rules_source_version_slug=_extract_ts_field(
                     block, "rules_source_version_slug"
                 ),
                 release_date=_extract_nullable_date_field(block, "release_date"),
@@ -729,7 +724,7 @@ def _parse_existing_seed_ids(ids_text: str, const_name: str) -> dict[str, str]:
     return ids
 
 
-def _parse_existing_seed_ids_from_paths(root: Path, namespace: str) -> dict[str, str]:
+def _parse_existing_seed_ids_from_paths(root: Path) -> dict[str, str]:
     ids: dict[str, str] = {}
     if not root.exists():
         return ids
@@ -1678,9 +1673,6 @@ def _extract_ts_field(block: str, field_name: str) -> str | None:
         return None
     return _decode_ts_string(match.group(1))
 
-
-def _extract_nullable_ts_field(block: str, field_name: str) -> str | None:
-    return _extract_ts_field(block, field_name)
 
 
 def _extract_nullable_date_field(block: str, field_name: str) -> str | None:

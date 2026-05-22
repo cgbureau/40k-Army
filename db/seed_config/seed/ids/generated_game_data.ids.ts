@@ -5869,6 +5869,23 @@ export const rulesFactionUnitId = (slug: RulesFactionUnitSeedSlug): string => {
   return rulesFactionUnitSeedIds[slug];
 };
 
+type KitSeedSlug =
+  | "masters_of_the_maelstrom_box"
+  | "combat_patrol_blood_angels"
+  | "intercessor_squad_box"
+  | "assault_intercessor_squad_box";
+
+const kitSeedIds: Record<KitSeedSlug, string> = {
+  masters_of_the_maelstrom_box: "01KS81VM5FY9CB72APED1E3EQJ",
+  combat_patrol_blood_angels: "01KS81VM5FHG3GT1D8ZG9VYNET",
+  intercessor_squad_box: "01KS81VM5F8FYSBDMMCYJQ55VJ",
+  assault_intercessor_squad_box: "01KS81VM5F35A46GG6H6554PX1",
+};
+
+export const kitId = (slug: KitSeedSlug): string => {
+  return kitSeedIds[slug];
+};
+
 type KitUnitSeedSlug =
   | "masters_of_the_maelstrom_box__huron_blackheart__complete_unit"
   | "masters_of_the_maelstrom_box__masters_of_the_maelstrom__complete_unit"
@@ -5907,21 +5924,4 @@ export const kitUnitPriceAllocationId = (
   slug: KitUnitPriceAllocationSeedSlug,
 ): string => {
   return kitUnitPriceAllocationSeedIds[slug];
-};
-
-type KitSeedSlug =
-  | "masters_of_the_maelstrom_box"
-  | "combat_patrol_blood_angels"
-  | "intercessor_squad_box"
-  | "assault_intercessor_squad_box";
-
-const kitSeedIds: Record<KitSeedSlug, string> = {
-  masters_of_the_maelstrom_box: "01KS81VM5FY9CB72APED1E3EQJ",
-  combat_patrol_blood_angels: "01KS81VM5FHG3GT1D8ZG9VYNET",
-  intercessor_squad_box: "01KS81VM5F8FYSBDMMCYJQ55VJ",
-  assault_intercessor_squad_box: "01KS81VM5F35A46GG6H6554PX1",
-};
-
-export const kitId = (slug: KitSeedSlug): string => {
-  return kitSeedIds[slug];
 };
