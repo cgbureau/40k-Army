@@ -5869,20 +5869,39 @@ export const rulesFactionUnitId = (slug: RulesFactionUnitSeedSlug): string => {
   return rulesFactionUnitSeedIds[slug];
 };
 
-type KitUnitSeedSlug = never;
+type KitUnitSeedSlug =
+  | "masters_of_the_maelstrom_box__huron_blackheart__complete_unit"
+  | "masters_of_the_maelstrom_box__masters_of_the_maelstrom__complete_unit"
+  | "intercessor_squad_box__intercessor_squad__complete_unit"
+  | "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit";
 
-const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {};
+const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
+  "masters_of_the_maelstrom_box__huron_blackheart__complete_unit":
+    "01KS81VM5FV97DPVKPN6MWV0D0",
+  "masters_of_the_maelstrom_box__masters_of_the_maelstrom__complete_unit":
+    "01KS81VM5F0BP8FG944MAYCHRD",
+  "intercessor_squad_box__intercessor_squad__complete_unit":
+    "01KS81VM5FQ54Z8X3M8HRVGA7G",
+  "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit":
+    "01KS81VM5F6729ZGMFJSJYSC7N",
+};
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {
   return kitUnitSeedIds[slug];
 };
 
-type KitUnitPriceAllocationSeedSlug = never;
+type KitUnitPriceAllocationSeedSlug =
+  | "masters_of_the_maelstrom_box__huron_blackheart"
+  | "masters_of_the_maelstrom_box__masters_of_the_maelstrom";
 
 const kitUnitPriceAllocationSeedIds: Record<
   KitUnitPriceAllocationSeedSlug,
   string
-> = {};
+> = {
+  "masters_of_the_maelstrom_box__huron_blackheart": "01KS81VM5FQ521TDV7SC9C5X58",
+  "masters_of_the_maelstrom_box__masters_of_the_maelstrom":
+    "01KS81VM5FEK1P6R86KVX89ZSM",
+};
 
 export const kitUnitPriceAllocationId = (
   slug: KitUnitPriceAllocationSeedSlug,
@@ -5890,9 +5909,18 @@ export const kitUnitPriceAllocationId = (
   return kitUnitPriceAllocationSeedIds[slug];
 };
 
-type KitSeedSlug = never;
+type KitSeedSlug =
+  | "masters_of_the_maelstrom_box"
+  | "combat_patrol_blood_angels"
+  | "intercessor_squad_box"
+  | "assault_intercessor_squad_box";
 
-const kitSeedIds: Record<KitSeedSlug, string> = {};
+const kitSeedIds: Record<KitSeedSlug, string> = {
+  masters_of_the_maelstrom_box: "01KS81VM5FY9CB72APED1E3EQJ",
+  combat_patrol_blood_angels: "01KS81VM5FHG3GT1D8ZG9VYNET",
+  intercessor_squad_box: "01KS81VM5F8FYSBDMMCYJQ55VJ",
+  assault_intercessor_squad_box: "01KS81VM5F35A46GG6H6554PX1",
+};
 
 export const kitId = (slug: KitSeedSlug): string => {
   return kitSeedIds[slug];

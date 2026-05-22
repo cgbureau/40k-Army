@@ -70,3 +70,26 @@ const gameSizeSeedIds: Record<GameSizeSeedSlug, string> = {
 export const gameSizeId = (slug: GameSizeSeedSlug): string => {
   return gameSizeSeedIds[slug];
 };
+
+/**
+ * Canonical kit-type seed slugs.
+ *
+ * - single_faction_single_unit: A standard retail box for one unit from one faction.
+ * - single_faction_multi_unit: A combined box containing multiple distinct units
+ *   from a single faction (e.g. Masters of the Maelstrom, Launch Box).
+ * - combat_patrol: A GW Combat Patrol box containing several units for one faction.
+ */
+type KitTypeSeedSlug =
+  | "single_faction_single_unit"
+  | "single_faction_multi_unit"
+  | "combat_patrol";
+
+const kitTypeSeedIds: Record<KitTypeSeedSlug, string> = {
+  single_faction_single_unit: "01KS81VM5EVR541FZTK8S9NDXV",
+  single_faction_multi_unit: "01KS81VM5F4TG4H4EXFJV84A1Z",
+  combat_patrol: "01KS81VM5F2M8820QH97FHR5WM",
+};
+
+export const kitTypeId = (slug: KitTypeSeedSlug): string => {
+  return kitTypeSeedIds[slug];
+};
