@@ -317,6 +317,8 @@ Recommended `component_type` values:
 - `alternate_build`: the kit can build this unit instead of another listed unit.
 - `upgrade_component`: the kit modifies or upgrades another model/unit.
 
+**Seeding slugs (Python layer only):** `kit_unit_slug` and `kit_unit_price_allocation_slug` are computed identifiers used by the Wahapedia importer for deduplication during seeding. They do not correspond to any database column. The canonical unique key in the database is the `@@unique` constraint on `(kit_id, unit_id, component_type)` for `kit_units`, and `(kit_id, unit_id)` for `kit_unit_price_allocations`.
+
 ### Kit Unit Price Allocations
 
 Kit unit price allocations describe how to apportion a kit price across the units

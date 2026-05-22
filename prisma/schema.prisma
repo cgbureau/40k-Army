@@ -126,7 +126,7 @@ enum KitUnitPriceAllocationBasis {
   AVERAGE_UNIT_PRICE   @map("average_unit_price")
   MODEL_COUNT          @map("model_count")
   MANUAL               @map("manual")
-  RESELLER_OBSERVATION @map("reseller_observation")
+  MARKET_OBSERVATION @map("market_observation")
 
   @@map("kit_unit_price_allocation_basis")
 }
@@ -645,9 +645,9 @@ model KitUnitPriceAllocation {
   kitId             String                      @map("kit_id") @db.Char(26)
   unit              Unit                        @relation(fields: [unitId], references: [id])
   unitId            String                      @map("unit_id") @db.Char(26)
-  allocationRatio   Decimal                     @map("allocation_ratio") @db.Decimal(10, 7)
+  allocationRatio   Decimal                     @map("allocation_ratio") @db.Decimal(10, 7) // 7 decimal places for allocation ratio precision (e.g. 0.4210526)
   referencePrice    Decimal?                    @map("reference_price") @db.Decimal(10, 2)
-  referenceCurrency String?                     @map("reference_currency")
+  referenceCurrency String?                     @map("reference_currency") @db.VarChar(3)
   allocationBasis   KitUnitPriceAllocationBasis @map("allocation_basis")
   effectiveDate     DateTime?                   @map("effective_date") @db.Date
   supersededDate    DateTime?                   @map("superseded_date") @db.Date
@@ -666,7 +666,7 @@ model KitPrice {
   id             String    @id @default(ulid()) @db.Char(26)
   kit            Kit       @relation(fields: [kitId], references: [id])
   kitId          String    @map("kit_id") @db.Char(26)
-  currency       String /// lower-case ISO-style currency code, e.g. usd, gbp, eur
+  currency       String  @db.VarChar(3) /// lower-case ISO-style currency code, e.g. usd, gbp, eur
   price          Decimal   @db.Decimal(10, 2) /// exact numeric amount in the listed currency
   priceSource    String?   @map("price_source") /// human-readable source label, e.g. Games Workshop US
   priceSourceUrl String?   @map("price_source_url") /// URL where this price was observed

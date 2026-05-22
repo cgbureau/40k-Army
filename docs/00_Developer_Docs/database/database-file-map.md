@@ -139,6 +139,8 @@ changes. No current in-repo imports of these generated files were found.
 | `KeywordType`            | Classifies keywords as unit, faction, model, or rules keywords.                                                                           |
 | `AbilityType`            | Classifies abilities as core, faction, datasheet, wargear, or other.                                                                      |
 | `UnitSelectionLimitKind` | Captures repeated-unit limit types: epic, battleline, or other.                                                                           |
+| `KitUnitComponentType`   | Classifies the relationship between a kit and a unit: complete_unit, partial_unit, alternate_build, or upgrade_component.             |
+| `KitUnitPriceAllocationBasis` | Records the evidence or method used to allocate kit price across units: standalone_msrp, average_unit_price, model_count, manual, or market_observation. |
 
 `prisma/schema.prisma` defines these models:
 
@@ -166,6 +168,8 @@ changes. No current in-repo imports of these generated files were found.
 | `KitType`                  | Product/kit category metadata.                                                              |
 | `Kit`                      | Games Workshop product/box information.                                                     |
 | `KitModel`                 | Join table connecting kits to the model identities inside them.                             |
+| `KitUnit`                  | Maps a purchasable kit to the army-list units it satisfies, with component type and effective-date versioning. |
+| `KitUnitPriceAllocation`   | Allocates a fraction of a combined kit's price to each constituent unit using an auditable ratio and basis.  |
 | `KitPrice`                 | Observed kit price with source/currency/date metadata.                                      |
 | `Ability`                  | Reusable ability identity.                                                                  |
 | `UnitAbility`              | Edition/source-specific ability text attached to a unit.                                    |
@@ -190,7 +194,7 @@ Prisma's generated camelCase model property names.
 | `db/schemas/detachments.schema.ts`          | Validation shapes for detachments, faction-detachment access, and detachment-granted unit keywords. | `detachmentSchema`, `rulesFactionDetachmentSchema`, `detachmentUnitKeywordSchema`. | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
 | `db/schemas/game.schema.ts`                 | Validation shapes for game editions and game sizes.                                                 | `gameEditionSchema`, `gameSizeSchema`.                                             | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
 | `db/schemas/keywords.schema.ts`             | Validation shapes for keyword records and unit-keyword assignments.                                 | `keywordTypeSchema`, `keywordSchema`, `unitKeywordSchema`.                         | Re-exported by `db/schemas/_index.schema.ts`; `keywordTypeSchema` is also directly imported by `schema-types.ts`.            |
-| `db/schemas/kits.schema.ts`                 | Validation shapes for kit types, kits, kit-model joins, and kit prices.                             | `kitTypeSchema`, `kitSchema`, `kitModelSchema`, `kitPriceSchema`.                  | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
+| `db/schemas/kits.schema.ts`                 | Validation shapes for kit types, kits, kit-model joins, kit-unit mappings, price allocations, and kit prices. | `kitUnitComponentTypeSchema`, `kitUnitPriceAllocationBasisSchema`, `kitTypeSchema`, `kitSchema`, `kitModelSchema`, `kitUnitSchema`, `kitUnitPriceAllocationSchema`, `kitPriceSchema`. | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
 | `db/schemas/leaderEligibility.schema.ts`    | Validation shapes for leader-to-target-unit rules and keyword requirements.                         | `leaderEligibilitySchema`, `leaderEligibilityKeywordSchema`.                       | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
 | `db/schemas/models.schema.ts`               | Validation shapes for physical model identities and unit composition rows.                          | `modelSchema`, `unitModelSchema`.                                                  | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
 | `db/schemas/playerArmyList.schema.ts`       | Validation shapes for saved player lists and units selected into those lists.                       | `playerArmyListSchema`, `playerArmyListUnitSchema`.                                | Re-exported by `db/schemas/_index.schema.ts`; imported through the barrel by `schema-types.ts`.                              |
