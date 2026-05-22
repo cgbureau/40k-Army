@@ -291,6 +291,59 @@ for deciding which kits satisfy missing models.
 | 8  | 2      | 1        | 1           |
 | 9  | 2      | 2        | 4           |
 
+### Kit Units
+
+Kit units define which game units a purchasable product can satisfy. This table
+is intentionally distinct from kit models: `kit_models` answers what physical
+models are in the box, while `kit_units` answers how the box maps to army-list
+unit demand.
+
+This distinction matters for combined kits, combat patrols, launch boxes,
+battleforces, alternate-build kits, upgrade sprues, named characters bundled with
+squads, and future resale or split-kit pricing. A purchase calculator should use
+`kit_units` to determine which kits satisfy selected army-list units, then use
+`kit_models` for physical inventory validation and collection matching.
+
+| id | kit_id | unit_id | unit_count | model_count | component_type |
+| --- | ------ | ------- | ---------- | ----------- | -------------- |
+| 1  | 1      | 7       | 1          | 1           | complete_unit  |
+| 2  | 1      | 8       | 1          | 6           | complete_unit  |
+
+Recommended `component_type` values:
+
+- `complete_unit`: the kit contains the complete unit as fielded.
+- `partial_unit`: the kit contributes models/components but does not satisfy the
+  full unit by itself.
+- `alternate_build`: the kit can build this unit instead of another listed unit.
+- `upgrade_component`: the kit modifies or upgrades another model/unit.
+
+### Kit Unit Price Allocations
+
+Kit unit price allocations describe how to apportion a kit price across the units
+the kit satisfies. They should not replace `kit_prices`: the purchasable product
+still has one observed price, and per-unit values are derived from allocation
+ratios.
+
+For example, if a combined kit contains a $40 character-equivalent unit and a $55
+squad-equivalent unit, the reference value total is $95. If the kit sells for
+$75, the character's allocated value is `40 / 95` of the kit price and the squad's
+allocated value is `55 / 95` of the kit price. The app can then explain both the
+full-kit purchase cost and the implied unit share.
+
+| id | kit_id | unit_id | allocation_ratio | reference_price | reference_currency | allocation_basis |
+| --- | ------ | ------- | ---------------- | --------------- | ------------------ | ---------------- |
+| 1  | 1      | 7       | 0.4210526        | 40              | usd                | average_unit_price |
+| 2  | 1      | 8       | 0.5789474        | 55              | usd                | average_unit_price |
+
+Recommended `allocation_basis` values:
+
+- `standalone_msrp`: based on official separate-kit MSRP where available.
+- `average_unit_price`: based on an average or estimated comparable-unit price.
+- `model_count`: based purely on physical model count.
+- `manual`: intentionally curated by an admin/editor.
+- `reseller_observation`: based on observed split-kit or third-party resale
+  prices.
+
 ### Kit Prices
 
 Kit prices store the purchase price for a kit in a supported currency and pricing

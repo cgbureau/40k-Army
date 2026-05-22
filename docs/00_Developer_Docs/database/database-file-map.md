@@ -22,9 +22,10 @@ The current database stack has three layers:
 The seed implementation layer under `db/seed_config/seed/**` now has a runnable
 dry-run pipeline: registered collections build static TypeScript datasets,
 validate records with Zod table schemas, run a no-op insert stage, and summarize
-the result. It does not yet write to a database. Only the game edition reference
-data currently has populated seed records; the other table data modules are still
-empty scaffolds for exercising and hardening the process.
+the result. It does not yet write to a database. Several reference and game-data
+datasets are now populated from importer output, including abilities, keywords,
+rules sources, rules faction sources, detachments, units, rules faction
+detachments, and rules faction units.
 
 ## Relationship Graph
 
@@ -220,21 +221,36 @@ Prisma's generated camelCase model property names.
 | `db/seed_config/_index.seed_config.ts`              | Public seed-config barrel.                                                                                                                          | Re-exports `seed/_index.seed` and `types/_index.types`.                                                                              | Re-exported from `db/_index.db.ts` for `@db_index/` imports.                                                      |
 | `db/seed_config/types/*.ts`                         | Active seed contracts for table configs, datasets, collections, run summaries, state-machine status, errors, success records, and inferred schemas. | Export seed table/config maps, collection interfaces, run options/results, validation issue shapes, state-machine types, and helpers. | Used by seed data modules, validators, collections, runner, and `db/seed.ts`.                                     |
 | `db/seed_config/seed/dates.ts`                      | Shared date helper module for seed records.                                                                                                         | Exports date helper/config behavior for seed data.                                                                                   | Used by seed data modules when records need deterministic or generated dates.                                     |
-| `db/seed_config/seed/ids.ts`                        | Stable deterministic ID helpers for seed records.                                                                                                    | Exports helpers such as `gameEditionId`.                                                                                             | Used by populated and future seed data modules so static records do not call `ulid()` at runtime.                 |
+| `db/seed_config/seed/ids.ts`                        | Stable deterministic ID helper barrel for seed records.                                                                                              | Re-exports helpers and ID maps from the split files under `seed/ids/**`, including generated game data IDs.                           | Used by populated and future seed data modules so static records do not call `ulid()` at runtime.                 |
 | `db/seed_config/seed/validators.ts`                 | Table-specific seed validation.                                                                                                                     | Imports all Zod table schemas; exports `seedTableSchemas` and `validateSeedRecord`.                                                   | Called by collection validation in `collections/utils.collection.ts`.                                             |
 | `db/seed_config/seed/state-machine.ts`              | Seed lifecycle state transition helper.                                                                                                             | Exports transition helpers for seed stage status tracking.                                                                           | Available through the seed barrel; not yet central to the runner flow.                                           |
 | `db/seed_config/seed/registry.ts`                   | Registered collection catalog and execution order.                                                                                                   | Exports `seedCollections`.                                                                                                           | Used by `runner.ts`.                                                                                             |
 | `db/seed_config/seed/runner.ts`                     | Seed collection orchestration.                                                                                                                       | Exports `runSeedCollections`, which builds, validates, no-op inserts, and summarizes selected collections.                            | Used by `db/seed.ts`; available through `@db_index/`.                                                            |
 | `db/seed_config/seed/collections/*.collection.ts`   | Domain-level seed collection definitions for `reference_data`, `factions`, `units`, `models`, `kits`, and `player_data`.                            | Import owned datasets and `createStaticSeedCollection`; export one collection seeder per domain.                                      | Registered in `registry.ts`.                                                                                     |
 | `db/seed_config/seed/collections/utils.collection.ts` | Shared static collection lifecycle implementation.                                                                                                  | Exports build, validate, no-op insert, summarize, and factory helpers.                                                               | Used by every static collection. The insert helper intentionally skips records until Prisma upserts are designed. |
-| `db/seed_config/seed/data/*.data.ts`                | One typed seed dataset module per database table.                                                                                                    | Export table-specific `SeedDataset` values. `game_editions.data.ts` is the first populated real dataset; the rest are mostly empty.   | Imported by collection files through `data/_index.data.ts`.                                                      |
+| `db/seed_config/seed/data/*.data.ts`                | One typed seed dataset module per database table.                                                                                                    | Export table-specific `SeedDataset` values. Several are populated manually or by importer apply passes; some remain empty scaffolds.  | Imported by collection files through `data/_index.data.ts`.                                                      |
 | `db/seed_config/seed/import/*.ts`                   | Reserved import pipeline modules for loading, normalizing, reporting, and converting source JSON into typed seed modules.                            | Currently empty placeholders.                                                                                                        | No current consumers found.                                                                                      |
 | `db/seed_config/seed/generated/*.seed.ts`           | Reserved generated/static seed modules from earlier planning.                                                                                        | Currently empty placeholders.                                                                                                        | No current consumers found; active hand-written datasets live under `seed/data/*.data.ts`.                       |
+| `scripts/wahapedia_importer.py` and `scripts/wahapedia_importer/**` | Python importer for Wahapedia-sourced data.                                                                                         | Provides CLI commands for collect, normalize, and apply. Current normalize/apply kinds include abilities, keywords, rules sources, and faction data. | Used manually from the repo root. Cache and normalized output are staged outside the repo under `~/code/ai-team-projects/40karmy/wahapedia`. |
 
-The current data authoring workflow is deliberately manual and instructional:
-Mike has been writing each `*.data.ts` file while agents operate in
-teaching/mentoring mode. Future work should continue filling the remaining data
-modules one table at a time unless Mike explicitly asks for direct generation.
+The current data authoring workflow is mixed: curated reference rows can still be
+written by hand, but high-volume source-derived data should flow through the
+Wahapedia importer and generated apply pass. Keep source-cache data out of the
+repository unless Mike explicitly changes that policy.
+
+## Purchase Data Modeling Note
+
+The kit/pricing model separates physical contents from army-list satisfaction:
+
+- `kit_models` answers what physical models are included in a purchasable kit.
+- `unit_models` answers what models a unit requires or permits.
+- A planned `kit_units` table should answer which units a kit satisfies.
+- A planned kit/unit price allocation table should describe how a kit's observed
+  price is apportioned across contained units for bundle boxes, combat patrols,
+  battleforces, launch boxes, and split-kit/reseller workflows.
+
+The purchase calculator should choose purchasable kits from `kit_units` and
+`kit_prices`, then use allocation rows only to explain or estimate per-unit value.
 
 ## Static and Generated Data Roles
 
