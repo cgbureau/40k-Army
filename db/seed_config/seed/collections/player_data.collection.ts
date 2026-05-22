@@ -34,6 +34,6 @@ const playerDataDatasets = [
  */
 export const playerDataCollection = createStaticSeedCollection({
   collection: "player_data",
-  dependencies: ["units", "models", "kits"],
+  dependencies: ["reference_data", "factions", "units", "models", "kits"],
   datasets: playerDataDatasets,
 });

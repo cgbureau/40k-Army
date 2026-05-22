@@ -9,6 +9,7 @@ import {
   leaderEligibilityKeywordsDataset,
   unitAbilitiesDataset,
   unitSelectionLimitsDataset,
+  rulesFactionUnitsDataset,
 } from "../data/_index.data";
 import { createStaticSeedCollection } from "./utils.collection";
 
@@ -26,6 +27,7 @@ const unitDataDatasets = [
   leaderEligibilityKeywordsDataset,
   unitAbilitiesDataset,
   unitSelectionLimitsDataset,
+  rulesFactionUnitsDataset,
 ];
 
 /**

@@ -37,6 +37,6 @@ const kitDataDatasets = [
  */
 export const kitDataCollection = createStaticSeedCollection({
   collection: "kits",
-  dependencies: ["models"],
+  dependencies: ["models", "units"],
   datasets: kitDataDatasets,
 });

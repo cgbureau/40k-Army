@@ -4,7 +4,6 @@ import {
   rulesFactionSourcesDataset,
   detachmentsDataset,
   rulesFactionDetachmentsDataset,
-  rulesFactionUnitsDataset,
 } from "../data/_index.data";
 import { createStaticSeedCollection } from "./utils.collection";
 
@@ -17,7 +16,6 @@ const factionDataDatasets = [
   rulesFactionSourcesDataset,
   detachmentsDataset,
   rulesFactionDetachmentsDataset,
-  rulesFactionUnitsDataset,
 ];
 
 /**
