@@ -186,7 +186,6 @@ class KitUnitSeedRecord:
     unit_count: int
     model_count: int
     component_type: str
-    notes: str | None
     effective_date: str | None
     superseded_date: str | None
 
@@ -201,7 +200,6 @@ class KitUnitPriceAllocationSeedRecord:
     reference_price: str | None
     reference_currency: str | None
     allocation_basis: str
-    notes: str | None
     effective_date: str | None
     superseded_date: str | None
 
@@ -386,7 +384,6 @@ def apply_kit_units_seed(*, normalized: list[str]) -> list[Path]:
                 unit_count=item["unit_count"],
                 model_count=item["model_count"],
                 component_type=item["component_type"],
-                notes=item.get("notes"),
                 effective_date=item.get("effective_date"),
                 superseded_date=item.get("superseded_date"),
             )
@@ -433,7 +430,6 @@ def apply_kit_unit_price_allocations_seed(*, normalized: list[str]) -> list[Path
                 ),
                 reference_currency=item.get("reference_currency"),
                 allocation_basis=item["allocation_basis"],
-                notes=item.get("notes"),
                 effective_date=item.get("effective_date"),
                 superseded_date=item.get("superseded_date"),
             )
@@ -1272,7 +1268,7 @@ def _render_seed_id_block(
     else:
         type_block = f"type {type_name} = never;"
     id_lines = "\n".join(
-        f'  {key}: "{existing_ids.get(key, _deterministic_ulid(namespace, key))}",'
+        f'  "{key}": "{existing_ids.get(key, _deterministic_ulid(namespace, key))}",'
         for key in keys
     )
     return "\n".join(
@@ -1655,9 +1651,6 @@ def _ts_string(value: str) -> str:
 def _nullable_ts_string(value: str | None) -> str:
     return "null" if value is None else _ts_string(value)
 
-
-def _nullable_int(value: int | None) -> str:
-    return "null" if value is None else str(value)
 
 
 def _nullable_date(value: str | None) -> str:

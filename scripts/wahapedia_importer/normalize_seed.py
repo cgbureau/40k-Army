@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from dataclasses import dataclass
 from html import unescape
@@ -210,7 +211,6 @@ class KitUnitCandidate:
     unit_count: int
     model_count: int
     component_type: str
-    notes: str | None
     effective_date: str | None
     superseded_date: str | None
     created_at: str
@@ -227,7 +227,6 @@ class KitUnitPriceAllocationCandidate:
     reference_price: str | None
     reference_currency: str | None
     allocation_basis: str
-    notes: str | None
     effective_date: str | None
     superseded_date: str | None
     created_at: str
@@ -355,16 +354,16 @@ def _extract_kit_units(manifest_data: dict[str, Any]) -> list[KitUnitCandidate]:
         kit_slug = _required_slug(item, "kit_slug")
         unit_slug = _required_slug(item, "unit_slug")
         kit_unit_slug = _optional_slug(item, "kit_unit_slug") or f"{kit_slug}__{unit_slug}"
+        component_type = normalize_slug(str(item.get("component_type") or "complete_unit"))
         candidates.append(
             KitUnitCandidate(
-                seed_id_key=item.get("seed_id_key") or kit_unit_slug,
+                seed_id_key=item.get("seed_id_key") or f"{kit_slug}__{unit_slug}__{component_type}",
                 kit_unit_slug=kit_unit_slug,
                 kit_slug=kit_slug,
                 unit_slug=unit_slug,
                 unit_count=_required_int(item, "unit_count"),
                 model_count=_required_int(item, "model_count"),
-                component_type=normalize_slug(str(item.get("component_type") or "complete_unit")),
-                notes=item.get("notes"),
+                component_type=component_type,
                 effective_date=item.get("effective_date"),
                 superseded_date=item.get("superseded_date"),
                 created_at=item.get("created_at") or created_at,
@@ -408,7 +407,6 @@ def _extract_kit_unit_price_allocations(
                     None if reference_currency is None else str(reference_currency).strip().lower()
                 ),
                 allocation_basis=allocation_basis,
-                notes=item.get("notes"),
                 effective_date=item.get("effective_date"),
                 superseded_date=item.get("superseded_date"),
                 created_at=item.get("created_at") or created_at,
@@ -1371,6 +1369,4 @@ def _keyword_seed_snippets(keywords: list[KeywordCandidate]) -> str:
 
 
 def _ts_string(value: str) -> str:
-    import json
-
     return json.dumps(value, ensure_ascii=True)
