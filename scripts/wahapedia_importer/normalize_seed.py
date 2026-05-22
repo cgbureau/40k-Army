@@ -201,6 +201,39 @@ class RulesFactionUnitCandidate:
     updated_at: str | None
 
 
+@dataclass(frozen=True)
+class KitUnitCandidate:
+    seed_id_key: str
+    kit_unit_slug: str
+    kit_slug: str
+    unit_slug: str
+    unit_count: int
+    model_count: int
+    component_type: str
+    notes: str | None
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class KitUnitPriceAllocationCandidate:
+    seed_id_key: str
+    kit_unit_price_allocation_slug: str
+    kit_slug: str
+    unit_slug: str
+    allocation_ratio: str
+    reference_price: str | None
+    reference_currency: str | None
+    allocation_basis: str
+    notes: str | None
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
 def normalize_wahapedia_manifest(
     *,
     manifest: str,
@@ -215,7 +248,14 @@ def normalize_wahapedia_manifest(
     manifest_data = read_json(manifest_path)
     paths = import_paths(work_root)
 
-    if kind not in {"abilities", "keywords", "rules-sources", "faction-data"}:
+    if kind not in {
+        "abilities",
+        "keywords",
+        "rules-sources",
+        "faction-data",
+        "kit-units",
+        "kit-unit-price-allocations",
+    }:
         raise ValueError(f"Unsupported normalize kind: {kind}")
 
     abilities: list[AbilityCandidate] = []
@@ -227,6 +267,8 @@ def normalize_wahapedia_manifest(
     rules_faction_detachments: list[RulesFactionDetachmentCandidate] = []
     units: list[UnitCandidate] = []
     rules_faction_units: list[RulesFactionUnitCandidate] = []
+    kit_units: list[KitUnitCandidate] = []
+    kit_unit_price_allocations: list[KitUnitPriceAllocationCandidate] = []
     if kind == "abilities":
         abilities, unit_abilities = _extract_abilities(
             manifest_data, include_unit_abilities=include_unit_abilities
@@ -242,6 +284,10 @@ def normalize_wahapedia_manifest(
             units,
             rules_faction_units,
         ) = _extract_faction_data(manifest_data)
+    if kind == "kit-units":
+        kit_units = _extract_kit_units(manifest_data)
+    if kind == "kit-unit-price-allocations":
+        kit_unit_price_allocations = _extract_kit_unit_price_allocations(manifest_data)
     output_path = (
         Path(output).expanduser()
         if output
@@ -273,9 +319,20 @@ def normalize_wahapedia_manifest(
                 candidate.__dict__ for candidate in rules_faction_detachments
             ],
             "units": [candidate.__dict__ for candidate in units],
-            "rules_faction_units": [
-                candidate.__dict__ for candidate in rules_faction_units
+            "rules_faction_units": [candidate.__dict__ for candidate in rules_faction_units],
+            "kit_units": [candidate.__dict__ for candidate in kit_units],
+            "kit_unit_price_allocations": [
+                candidate.__dict__ for candidate in kit_unit_price_allocations
             ],
+        },
+        metadata={
+            "curated_input_required": kind
+            in {"kit-units", "kit-unit-price-allocations"},
+            "notes": _normalization_notes(
+                kind=kind,
+                kit_units=kit_units,
+                kit_unit_price_allocations=kit_unit_price_allocations,
+            ),
         },
     )
     write_json(output_path, payload)
@@ -288,6 +345,133 @@ def normalize_wahapedia_manifest(
         seed_output.write_text(_keyword_seed_snippets(keywords), encoding="utf-8")
 
     return output_path
+
+
+def _extract_kit_units(manifest_data: dict[str, Any]) -> list[KitUnitCandidate]:
+    records = _curated_records(manifest_data, "kit_units")
+    created_at = now_iso()
+    candidates: list[KitUnitCandidate] = []
+    for item in records:
+        kit_slug = _required_slug(item, "kit_slug")
+        unit_slug = _required_slug(item, "unit_slug")
+        kit_unit_slug = _optional_slug(item, "kit_unit_slug") or f"{kit_slug}__{unit_slug}"
+        candidates.append(
+            KitUnitCandidate(
+                seed_id_key=item.get("seed_id_key") or kit_unit_slug,
+                kit_unit_slug=kit_unit_slug,
+                kit_slug=kit_slug,
+                unit_slug=unit_slug,
+                unit_count=_required_int(item, "unit_count"),
+                model_count=_required_int(item, "model_count"),
+                component_type=normalize_slug(str(item.get("component_type") or "complete_unit")),
+                notes=item.get("notes"),
+                effective_date=item.get("effective_date"),
+                superseded_date=item.get("superseded_date"),
+                created_at=item.get("created_at") or created_at,
+                updated_at=item.get("updated_at"),
+            )
+        )
+    return sorted(candidates, key=lambda item: item.seed_id_key)
+
+
+def _extract_kit_unit_price_allocations(
+    manifest_data: dict[str, Any],
+) -> list[KitUnitPriceAllocationCandidate]:
+    records = _curated_records(manifest_data, "kit_unit_price_allocations")
+    created_at = now_iso()
+    candidates: list[KitUnitPriceAllocationCandidate] = []
+    for item in records:
+        kit_slug = _required_slug(item, "kit_slug")
+        unit_slug = _required_slug(item, "unit_slug")
+        allocation_basis = normalize_slug(str(item.get("allocation_basis") or "manual"))
+        reference_currency = item.get("reference_currency")
+        slug_parts = [
+            kit_slug,
+            unit_slug,
+            allocation_basis,
+            normalize_slug(str(reference_currency)) if reference_currency else None,
+        ]
+        allocation_slug = _optional_slug(item, "kit_unit_price_allocation_slug") or "__".join(
+            part for part in slug_parts if part
+        )
+        candidates.append(
+            KitUnitPriceAllocationCandidate(
+                seed_id_key=item.get("seed_id_key") or allocation_slug,
+                kit_unit_price_allocation_slug=allocation_slug,
+                kit_slug=kit_slug,
+                unit_slug=unit_slug,
+                allocation_ratio=str(item["allocation_ratio"]),
+                reference_price=(
+                    None if item.get("reference_price") is None else str(item["reference_price"])
+                ),
+                reference_currency=(
+                    None if reference_currency is None else str(reference_currency).strip().lower()
+                ),
+                allocation_basis=allocation_basis,
+                notes=item.get("notes"),
+                effective_date=item.get("effective_date"),
+                superseded_date=item.get("superseded_date"),
+                created_at=item.get("created_at") or created_at,
+                updated_at=item.get("updated_at"),
+            )
+        )
+    return sorted(candidates, key=lambda item: item.seed_id_key)
+
+
+def _curated_records(manifest_data: dict[str, Any], record_key: str) -> list[dict[str, Any]]:
+    records = manifest_data.get(record_key)
+    if records is None and isinstance(manifest_data.get("records"), dict):
+        records = manifest_data["records"].get(record_key)
+    if records is None:
+        return []
+    if not isinstance(records, list):
+        raise ValueError(f"Curated input field {record_key} must be a list")
+    return records
+
+
+def _normalization_notes(
+    *,
+    kind: str,
+    kit_units: list[KitUnitCandidate],
+    kit_unit_price_allocations: list[KitUnitPriceAllocationCandidate],
+) -> list[str]:
+    if kind == "kit-units" and not kit_units:
+        return [
+            "No curated records were supplied; Wahapedia datasheets are not used to infer purchasable kit-to-unit mappings."
+        ]
+    if kind == "kit-unit-price-allocations" and not kit_unit_price_allocations:
+        return [
+            "No curated records were supplied; Wahapedia data is not used to infer kit prices, SKUs, product URLs, bundles, or price allocation."
+        ]
+    return []
+
+
+def _required_slug(item: dict[str, Any], key: str) -> str:
+    value = _optional_slug(item, key)
+    if not value:
+        raise ValueError(f"Curated record is missing required slug field {key}")
+    return value
+
+
+def _optional_slug(item: dict[str, Any], key: str) -> str | None:
+    value = item.get(key)
+    if value is None:
+        return None
+    return normalize_slug(str(value))
+
+
+def _optional_int(item: dict[str, Any], key: str) -> int | None:
+    value = item.get(key)
+    if value is None:
+        return None
+    return int(value)
+
+
+def _required_int(item: dict[str, Any], key: str) -> int:
+    value = _optional_int(item, key)
+    if value is None:
+        raise ValueError(f"Curated record is missing required integer field {key}")
+    return value
 
 
 def _extract_abilities(

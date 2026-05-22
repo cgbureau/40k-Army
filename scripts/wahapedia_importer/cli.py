@@ -7,6 +7,8 @@ from pathlib import Path
 from .apply_seed import (
     apply_abilities_seed,
     apply_faction_data_seed,
+    apply_kit_unit_price_allocations_seed,
+    apply_kit_units_seed,
     apply_keywords_seed,
     apply_rules_sources_seed,
 )
@@ -65,7 +67,15 @@ def main(argv: list[str] | None = None) -> int:
 
     normalize_parser = subparsers.add_parser("normalize")
     normalize_parser.add_argument(
-        "kind", choices=["abilities", "keywords", "rules-sources", "faction-data"]
+        "kind",
+        choices=[
+            "abilities",
+            "keywords",
+            "rules-sources",
+            "faction-data",
+            "kit-units",
+            "kit-unit-price-allocations",
+        ],
     )
     normalize_parser.add_argument("--manifest", required=True)
     normalize_parser.add_argument("--work-root")
@@ -75,7 +85,15 @@ def main(argv: list[str] | None = None) -> int:
 
     apply_parser = subparsers.add_parser("apply")
     apply_parser.add_argument(
-        "kind", choices=["abilities", "keywords", "rules-sources", "faction-data"]
+        "kind",
+        choices=[
+            "abilities",
+            "keywords",
+            "rules-sources",
+            "faction-data",
+            "kit-units",
+            "kit-unit-price-allocations",
+        ],
     )
     apply_parser.add_argument("--normalized", required=True, nargs="+")
 
@@ -115,6 +133,10 @@ def main(argv: list[str] | None = None) -> int:
             paths = apply_keywords_seed(normalized=args.normalized[0])
         elif args.kind == "rules-sources":
             paths = apply_rules_sources_seed(normalized=args.normalized)
+        elif args.kind == "kit-units":
+            paths = apply_kit_units_seed(normalized=args.normalized)
+        elif args.kind == "kit-unit-price-allocations":
+            paths = apply_kit_unit_price_allocations_seed(normalized=args.normalized)
         else:
             paths = apply_faction_data_seed(normalized=args.normalized)
         for path in paths:

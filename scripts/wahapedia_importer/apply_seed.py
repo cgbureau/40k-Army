@@ -79,6 +79,15 @@ UNITS_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "units.da
 RULES_FACTION_UNITS_DATA_PATH = (
     REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "rules_faction_units.data.ts"
 )
+KIT_UNITS_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "kit_units.data.ts"
+KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH = (
+    REPO_ROOT
+    / "db"
+    / "seed_config"
+    / "seed"
+    / "data"
+    / "kit_unit_price_allocations.data.ts"
+)
 
 ABILITY_TYPE_ORDER = {
     "core": 0,
@@ -164,6 +173,35 @@ class RulesFactionUnitSeedRecord:
     unit_slug: str
     unit_access_type: str | None
     rules_source_slug: str
+    effective_date: str | None
+    superseded_date: str | None
+
+
+@dataclass(frozen=True)
+class KitUnitSeedRecord:
+    seed_id_key: str
+    kit_unit_slug: str
+    kit_slug: str
+    unit_slug: str
+    unit_count: int
+    model_count: int
+    component_type: str
+    notes: str | None
+    effective_date: str | None
+    superseded_date: str | None
+
+
+@dataclass(frozen=True)
+class KitUnitPriceAllocationSeedRecord:
+    seed_id_key: str
+    kit_unit_price_allocation_slug: str
+    kit_slug: str
+    unit_slug: str
+    allocation_ratio: str
+    reference_price: str | None
+    reference_currency: str | None
+    allocation_basis: str
+    notes: str | None
     effective_date: str | None
     superseded_date: str | None
 
@@ -333,6 +371,96 @@ def apply_faction_data_seed(*, normalized: list[str]) -> list[Path]:
     ]
 
 
+def apply_kit_units_seed(*, normalized: list[str]) -> list[Path]:
+    payloads = [
+        _latest_payload(read_json(path))
+        for path in _normalized_paths(normalized, "kit-units.normalized.json")
+    ]
+    records = _unique_by_slug(
+        [
+            KitUnitSeedRecord(
+                seed_id_key=item.get("seed_id_key") or item["kit_unit_slug"],
+                kit_unit_slug=item["kit_unit_slug"],
+                kit_slug=item["kit_slug"],
+                unit_slug=item["unit_slug"],
+                unit_count=item["unit_count"],
+                model_count=item["model_count"],
+                component_type=item["component_type"],
+                notes=item.get("notes"),
+                effective_date=item.get("effective_date"),
+                superseded_date=item.get("superseded_date"),
+            )
+            for payload in payloads
+            for item in payload["records"]["kit_units"]
+        ],
+        "seed_id_key",
+    )
+    existing_ids = _parse_existing_seed_ids_from_paths(
+        REPO_ROOT / "db" / "seed_config" / "seed" / "ids",
+        "generatedGameData",
+    )
+    _write_generated_kit_data_ids_blocks(
+        kit_slugs=[record.kit_slug for record in records],
+        kit_units=records,
+        price_allocations=None,
+        existing_ids=existing_ids,
+    )
+    _ensure_generated_game_data_ids_export()
+    _write_kit_units_data_file(records)
+    return [GENERATED_GAME_DATA_IDS_PATH, SEED_IDS_INDEX_PATH, KIT_UNITS_DATA_PATH]
+
+
+def apply_kit_unit_price_allocations_seed(*, normalized: list[str]) -> list[Path]:
+    payloads = [
+        _latest_payload(read_json(path))
+        for path in _normalized_paths(
+            normalized, "kit-unit-price-allocations.normalized.json"
+        )
+    ]
+    records = _unique_by_slug(
+        [
+            KitUnitPriceAllocationSeedRecord(
+                seed_id_key=item.get("seed_id_key")
+                or item["kit_unit_price_allocation_slug"],
+                kit_unit_price_allocation_slug=item[
+                    "kit_unit_price_allocation_slug"
+                ],
+                kit_slug=item["kit_slug"],
+                unit_slug=item["unit_slug"],
+                allocation_ratio=str(item["allocation_ratio"]),
+                reference_price=(
+                    None if item.get("reference_price") is None else str(item["reference_price"])
+                ),
+                reference_currency=item.get("reference_currency"),
+                allocation_basis=item["allocation_basis"],
+                notes=item.get("notes"),
+                effective_date=item.get("effective_date"),
+                superseded_date=item.get("superseded_date"),
+            )
+            for payload in payloads
+            for item in payload["records"]["kit_unit_price_allocations"]
+        ],
+        "seed_id_key",
+    )
+    existing_ids = _parse_existing_seed_ids_from_paths(
+        REPO_ROOT / "db" / "seed_config" / "seed" / "ids",
+        "generatedGameData",
+    )
+    _write_generated_kit_data_ids_blocks(
+        kit_slugs=[record.kit_slug for record in records],
+        kit_units=None,
+        price_allocations=records,
+        existing_ids=existing_ids,
+    )
+    _ensure_generated_game_data_ids_export()
+    _write_kit_unit_price_allocations_data_file(records)
+    return [
+        GENERATED_GAME_DATA_IDS_PATH,
+        SEED_IDS_INDEX_PATH,
+        KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH,
+    ]
+
+
 def _latest_payload(data: Any) -> dict[str, Any]:
     if isinstance(data, list):
         if not data:
@@ -352,7 +480,7 @@ def _normalized_paths(values: list[str], filename: str) -> list[Path]:
         else:
             paths.append(path)
     if not paths:
-        raise ValueError("No normalized rules-source files found")
+        raise ValueError(f"No normalized files found for {filename}")
     return paths
 
 
@@ -611,7 +739,7 @@ def _parse_existing_seed_ids_from_paths(root: Path, namespace: str) -> dict[str,
         return ids
     for path in sorted(root.rglob("*.ts")):
         for key, value in re.findall(
-            r"([a-zA-Z0-9_]+(?:__[a-zA-Z0-9_]+)?):\s*\"([0-9A-HJKMNP-TV-Z]{26})\"",
+            r"([a-zA-Z0-9_]+(?:__[a-zA-Z0-9_]+)*):\s*\"([0-9A-HJKMNP-TV-Z]{26})\"",
             path.read_text(encoding="utf-8"),
         ):
             ids.setdefault(key, value)
@@ -953,6 +1081,11 @@ def _write_generated_game_data_ids_file(
     existing_ids: dict[str, str],
 ) -> None:
     GENERATED_GAME_DATA_IDS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    existing_text = (
+        GENERATED_GAME_DATA_IDS_PATH.read_text(encoding="utf-8")
+        if GENERATED_GAME_DATA_IDS_PATH.exists()
+        else ""
+    )
     blocks = [
         _render_seed_id_block(
             type_name="DetachmentSeedSlug",
@@ -987,6 +1120,10 @@ def _write_generated_game_data_ids_file(
             existing_ids=existing_ids,
         ),
     ]
+    for function_name in ("kitId", "kitUnitId", "kitUnitPriceAllocationId"):
+        existing_block = _extract_seed_id_block(existing_text, function_name)
+        if existing_block:
+            blocks.append(existing_block)
     GENERATED_GAME_DATA_IDS_PATH.write_text("\n\n".join(blocks) + "\n", encoding="utf-8")
 
 
@@ -995,6 +1132,130 @@ def _ensure_generated_game_data_ids_export() -> None:
     text = SEED_IDS_INDEX_PATH.read_text(encoding="utf-8")
     if export_line not in text:
         SEED_IDS_INDEX_PATH.write_text(f"{text.rstrip()}\n{export_line}\n", encoding="utf-8")
+
+
+def _write_generated_kit_data_ids_blocks(
+    *,
+    kit_slugs: list[str],
+    kit_units: list[KitUnitSeedRecord] | None,
+    price_allocations: list[KitUnitPriceAllocationSeedRecord] | None,
+    existing_ids: dict[str, str],
+) -> None:
+    GENERATED_GAME_DATA_IDS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    text = (
+        GENERATED_GAME_DATA_IDS_PATH.read_text(encoding="utf-8")
+        if GENERATED_GAME_DATA_IDS_PATH.exists()
+        else ""
+    )
+    if kit_slugs or "export const kitId" not in text:
+        kit_id_keys = sorted(set(kit_slugs) | set(_extract_seed_id_keys(text, "KitSeedSlug")))
+        text = _replace_or_append_seed_id_block(
+            text,
+            _render_seed_id_block(
+                type_name="KitSeedSlug",
+                const_name="kitSeedIds",
+                function_name="kitId",
+                namespace="kit",
+                keys=kit_id_keys,
+                existing_ids=existing_ids,
+            ),
+            "KitSeedSlug",
+            "kitId",
+        )
+    if kit_units is not None:
+        text = _replace_or_append_seed_id_block(
+            text,
+            _render_seed_id_block(
+                type_name="KitUnitSeedSlug",
+                const_name="kitUnitSeedIds",
+                function_name="kitUnitId",
+                namespace="kitUnit",
+                keys=[item.seed_id_key for item in kit_units],
+                existing_ids=existing_ids,
+            ),
+            "KitUnitSeedSlug",
+            "kitUnitId",
+        )
+    elif "export const kitUnitId" not in text:
+        text = _append_text_block(
+            text,
+            _render_seed_id_block(
+                type_name="KitUnitSeedSlug",
+                const_name="kitUnitSeedIds",
+                function_name="kitUnitId",
+                namespace="kitUnit",
+                keys=[],
+                existing_ids=existing_ids,
+            ),
+        )
+
+    if price_allocations is not None:
+        text = _replace_or_append_seed_id_block(
+            text,
+            _render_seed_id_block(
+                type_name="KitUnitPriceAllocationSeedSlug",
+                const_name="kitUnitPriceAllocationSeedIds",
+                function_name="kitUnitPriceAllocationId",
+                namespace="kitUnitPriceAllocation",
+                keys=[item.seed_id_key for item in price_allocations],
+                existing_ids=existing_ids,
+            ),
+            "KitUnitPriceAllocationSeedSlug",
+            "kitUnitPriceAllocationId",
+        )
+    elif "export const kitUnitPriceAllocationId" not in text:
+        text = _append_text_block(
+            text,
+            _render_seed_id_block(
+                type_name="KitUnitPriceAllocationSeedSlug",
+                const_name="kitUnitPriceAllocationSeedIds",
+                function_name="kitUnitPriceAllocationId",
+                namespace="kitUnitPriceAllocation",
+                keys=[],
+                existing_ids=existing_ids,
+            ),
+        )
+    GENERATED_GAME_DATA_IDS_PATH.write_text(text.rstrip() + "\n", encoding="utf-8")
+
+
+def _replace_or_append_seed_id_block(
+    text: str, block: str, type_name: str, function_name: str
+) -> str:
+    pattern = re.compile(
+        rf"type {type_name} =.*?export const {function_name} = "
+        rf"\([^)]*\): string => \{{\n\s*return .*?\n\}};",
+        flags=re.DOTALL,
+    )
+    if pattern.search(text):
+        return pattern.sub(block, text)
+    return _append_text_block(text, block)
+
+
+def _extract_seed_id_block(text: str, function_name: str) -> str | None:
+    pattern = re.compile(
+        rf"type [A-Za-z0-9]+ =.*?export const {function_name} = "
+        r"\([^)]*\): string => \{\n\s*return .*?\n\};",
+        flags=re.DOTALL,
+    )
+    match = pattern.search(text)
+    return match.group(0) if match else None
+
+
+def _extract_seed_id_keys(text: str, type_name: str) -> list[str]:
+    pattern = re.compile(
+        rf"type {type_name} =(?P<body>.*?);\n\nconst ",
+        flags=re.DOTALL,
+    )
+    match = pattern.search(text)
+    if not match:
+        return []
+    return re.findall(r'"([^"]+)"', match.group("body"))
+
+
+def _append_text_block(text: str, block: str) -> str:
+    if not text.strip():
+        return block
+    return f"{text.rstrip()}\n\n{block}"
 
 
 def _render_seed_id_block(
@@ -1026,6 +1287,119 @@ def _render_seed_id_block(
             f"  return {const_name}[slug];",
             "};",
         ]
+    )
+
+
+def _write_kit_units_data_file(records: list[KitUnitSeedRecord]) -> None:
+    const_names = [_const_name(item.seed_id_key, "KitUnit") for item in records]
+    blocks = [
+        'import type { KitUnitConfig, SeedDataset } from "../../types/_index.types";',
+    ]
+    if records:
+        blocks.extend(['import { kitId, kitUnitId, unitId } from "../ids";', ""])
+    else:
+        blocks.append("")
+    blocks.extend(
+        [
+        "/**",
+        " * Curated kit-to-unit mapping seed scaffold.",
+        " * Wahapedia does not provide reliable purchasable kit packaging data.",
+        " */",
+        "",
+        ]
+    )
+    for record, const_name in zip(records, const_names, strict=True):
+        blocks.extend(
+            [
+                f"export const {const_name}: KitUnitConfig = {{",
+                f'  id: kitUnitId("{record.seed_id_key}"),',
+                f'  kit_id: kitId("{record.kit_slug}"),',
+                f'  unit_id: unitId("{record.unit_slug}"),',
+                f"  unit_count: {record.unit_count},",
+                f"  model_count: {record.model_count},",
+                f'  component_type: "{record.component_type}",',
+                f"  effective_date: {_nullable_date(record.effective_date)},",
+                f"  superseded_date: {_nullable_date(record.superseded_date)},",
+                "};",
+                "",
+            ]
+        )
+    blocks.extend(
+        [
+            'export const kitUnitsDataset: SeedDataset<"kit_units"> = {',
+            '  table: "kit_units",',
+            "  records: [",
+            "\n".join(f"    {name}," for name in const_names),
+            "  ] satisfies KitUnitConfig[],",
+            "};",
+            "",
+        ]
+    )
+    KIT_UNITS_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    KIT_UNITS_DATA_PATH.write_text("\n".join(blocks), encoding="utf-8")
+
+
+def _write_kit_unit_price_allocations_data_file(
+    records: list[KitUnitPriceAllocationSeedRecord],
+) -> None:
+    const_names = [
+        _const_name(item.seed_id_key, "KitUnitPriceAllocation") for item in records
+    ]
+    blocks = [
+        (
+            'import type { KitUnitPriceAllocationConfig, SeedDataset } '
+            'from "../../types/_index.types";'
+        ),
+    ]
+    if records:
+        blocks.extend(
+            ['import { kitId, kitUnitPriceAllocationId, unitId } from "../ids";', ""]
+        )
+    else:
+        blocks.append("")
+    blocks.extend(
+        [
+        "/**",
+        " * Curated kit-unit price allocation seed scaffold.",
+        " * Wahapedia does not provide kit prices, SKUs, product URLs, bundles, or allocations.",
+        " */",
+        "",
+        ]
+    )
+    for record, const_name in zip(records, const_names, strict=True):
+        blocks.extend(
+            [
+                f"export const {const_name}: KitUnitPriceAllocationConfig = {{",
+                f'  id: kitUnitPriceAllocationId("{record.seed_id_key}"),',
+                f'  kit_id: kitId("{record.kit_slug}"),',
+                f'  unit_id: unitId("{record.unit_slug}"),',
+                f"  allocation_ratio: {_ts_string(record.allocation_ratio)},",
+                f"  reference_price: {_nullable_ts_string(record.reference_price)},",
+                f"  reference_currency: {_nullable_ts_string(record.reference_currency)},",
+                f'  allocation_basis: "{record.allocation_basis}",',
+                f"  effective_date: {_nullable_date(record.effective_date)},",
+                f"  superseded_date: {_nullable_date(record.superseded_date)},",
+                "};",
+                "",
+            ]
+        )
+    blocks.extend(
+        [
+            (
+                'export const kitUnitPriceAllocationsDataset: '
+                'SeedDataset<"kit_unit_price_allocations"> = {'
+            ),
+            '  table: "kit_unit_price_allocations",',
+            "  records: [",
+            "\n".join(f"    {name}," for name in const_names),
+            "  ] satisfies KitUnitPriceAllocationConfig[],",
+            "};",
+            "",
+        ]
+    )
+    KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH.write_text(
+        "\n".join(blocks), encoding="utf-8"
     )
 
 
@@ -1280,6 +1654,10 @@ def _ts_string(value: str) -> str:
 
 def _nullable_ts_string(value: str | None) -> str:
     return "null" if value is None else _ts_string(value)
+
+
+def _nullable_int(value: int | None) -> str:
+    return "null" if value is None else str(value)
 
 
 def _nullable_date(value: str | None) -> str:
