@@ -1,0 +1,67 @@
+# Source type classification patterns and canonical slug rewrites.
+
+# Values used as the `rules_source_type` enum.
+source_types:
+  - munitorum_field_manual
+  - balance_dataslate
+  - legends
+  - white_dwarf
+  - boxset
+  - combat_patrol
+  - faction_pack
+  - chapter_approved_tournament_companion
+  - codex_supplement
+  - codex
+  - expansion
+  - campaign_book
+  - online
+  - other
+
+# Order used when sorting source types (lower = higher precedence).
+source_type_order:
+  codex: 0
+  codex_supplement: 1
+  faction_pack: 2
+  expansion: 3
+  campaign_book: 3
+  combat_patrol: 4
+  chapter_approved_tournament_companion: 5
+  munitorum_field_manual: 6
+  balance_dataslate: 7
+  white_dwarf: 8
+  boxset: 9
+  legends: 10
+  online: 11
+  other: 12
+
+canonical_rules_source_slugs:
+  faction_pack_adeptus_titanicus_10e_v1_0: faction_pack_adeptus_titanicus_forge_world_10e_v1_0
+  codex_unaligned_forces_10e: legends_unaligned_forces_10e
+
+# Keyword/ability classification sets
+ability_types:
+  - core
+  - faction
+  - datasheet
+  - wargear
+  - other
+
+rule_keyword_slugs:
+  - battleline
+  - dedicated_transport
+  - epic_hero
+
+faction_keyword_slugs:
+  - aeldari
+  - adeptus_astartes
+  - chaos
+  - imperium
+  - orks
+  - tyranids
+
+excluded_ability_slugs:
+  - designers_note
+  - designer_note
+
+canonical_ability_aliases:
+  cherubs: cherub
