@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import hashlib
 import json
 import re
 from dataclasses import dataclass
@@ -8,97 +7,42 @@ from pathlib import Path
 from typing import Any
 
 from .common import read_json
-
-REPO_ROOT = Path(__file__).resolve().parents[2]
-ABILITIES_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "abilities.data.ts"
-KEYWORDS_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "keywords.data.ts"
-ABILITY_IDS_PATH = (
-    REPO_ROOT
-    / "db"
-    / "seed_config"
-    / "seed"
-    / "ids"
-    / "reference_data"
-    / "abilities.ids.ts"
+from .data.loaders import source_type_order_map
+from .writers.seed_workspace import (
+    ABILITIES_DATA_PATH,
+    ABILITY_IDS_PATH,
+    ABILITY_TYPE_ORDER,
+    CROCKFORD_BASE32,
+    DETACHMENTS_DATA_PATH,
+    GENERATED_GAME_DATA_IDS_PATH,
+    KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH,
+    KIT_UNITS_DATA_PATH,
+    KEYWORD_IDS_PATH,
+    KEYWORDS_DATA_PATH,
+    REPO_ROOT,
+    RULES_FACTION_DETACHMENTS_DATA_PATH,
+    RULES_FACTION_SOURCE_IDS_PATH,
+    RULES_FACTION_SOURCES_DATA_DIR,
+    RULES_FACTION_SOURCES_DATA_PATH,
+    RULES_FACTION_SOURCES_INDEX_DATA_PATH,
+    RULES_FACTION_UNITS_DATA_PATH,
+    RULES_SOURCES_DATA_DIR,
+    RULES_SOURCES_DATA_PATH,
+    RULES_SOURCES_IDS_PATH,
+    RULES_SOURCES_INDEX_DATA_PATH,
+    RULES_SOURCES_INDEX_IDS_PATH,
+    SEED_IDS_INDEX_PATH,
+    TS_STRING_PATTERN,
+    UNITS_DATA_PATH,
+    _append_text_block,
+    _deterministic_ulid,
+    _extract_seed_id_block,
+    _extract_seed_id_keys,
+    _parse_existing_seed_ids,
+    _parse_existing_seed_ids_from_paths,
+    _render_seed_id_block,
+    _replace_or_append_seed_id_block,
 )
-KEYWORD_IDS_PATH = (
-    REPO_ROOT
-    / "db"
-    / "seed_config"
-    / "seed"
-    / "ids"
-    / "reference_data"
-    / "keywords.ids.ts"
-)
-RULES_SOURCES_IDS_PATH = (
-    REPO_ROOT
-    / "db"
-    / "seed_config"
-    / "seed"
-    / "ids"
-    / "rules_sources"
-    / "10e"
-    / "generated.rules_sources.ids.ts"
-)
-RULES_SOURCES_INDEX_IDS_PATH = (
-    REPO_ROOT
-    / "db"
-    / "seed_config"
-    / "seed"
-    / "ids"
-    / "rules_sources"
-    / "10e"
-    / "_index.rules_sources.ids.ts"
-)
-RULES_FACTION_SOURCE_IDS_PATH = (
-    REPO_ROOT / "db" / "seed_config" / "seed" / "ids" / "factions" / "factions.ids.ts"
-)
-RULES_SOURCES_DATA_DIR = (
-    REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "rules_sources" / "10e"
-)
-RULES_SOURCES_DATA_PATH = RULES_SOURCES_DATA_DIR / "generated.rules_sources.data.ts"
-RULES_SOURCES_INDEX_DATA_PATH = RULES_SOURCES_DATA_DIR / "_index.rules_sources.data.ts"
-RULES_FACTION_SOURCES_DATA_DIR = (
-    REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "rules_faction_sources" / "10e"
-)
-RULES_FACTION_SOURCES_DATA_PATH = (
-    RULES_FACTION_SOURCES_DATA_DIR / "generated.rules_faction_sources.data.ts"
-)
-RULES_FACTION_SOURCES_INDEX_DATA_PATH = (
-    RULES_FACTION_SOURCES_DATA_DIR / "_index.rules_faction_sources.data.ts"
-)
-GENERATED_GAME_DATA_IDS_PATH = (
-    REPO_ROOT / "db" / "seed_config" / "seed" / "ids" / "generated_game_data.ids.ts"
-)
-SEED_IDS_INDEX_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "ids.ts"
-DETACHMENTS_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "detachments.data.ts"
-RULES_FACTION_DETACHMENTS_DATA_PATH = (
-    REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "rules_faction_detachments.data.ts"
-)
-UNITS_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "units.data.ts"
-RULES_FACTION_UNITS_DATA_PATH = (
-    REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "rules_faction_units.data.ts"
-)
-KIT_UNITS_DATA_PATH = REPO_ROOT / "db" / "seed_config" / "seed" / "data" / "kit_units.data.ts"
-KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH = (
-    REPO_ROOT
-    / "db"
-    / "seed_config"
-    / "seed"
-    / "data"
-    / "kit_unit_price_allocations.data.ts"
-)
-
-ABILITY_TYPE_ORDER = {
-    "core": 0,
-    "faction": 1,
-    "datasheet": 2,
-    "wargear": 3,
-    "other": 4,
-}
-
-CROCKFORD_BASE32 = "0123456789ABCDEFGHJKMNPQRSTVWXYZ"
-TS_STRING_PATTERN = r'"((?:\\.|[^"\\])*)"'
 
 
 @dataclass(frozen=True)
@@ -196,8 +140,8 @@ class KitUnitPriceAllocationSeedRecord:
     kit_unit_price_allocation_slug: str
     kit_slug: str
     unit_slug: str
-    allocation_ratio: str
-    reference_price: str | None
+    allocation_ratio: float
+    reference_price: float | None
     reference_currency: str | None
     allocation_basis: str
     effective_date: str | None
@@ -420,9 +364,9 @@ def apply_kit_unit_price_allocations_seed(*, normalized: list[str]) -> list[Path
                 ],
                 kit_slug=item["kit_slug"],
                 unit_slug=item["unit_slug"],
-                allocation_ratio=str(item["allocation_ratio"]),
+                allocation_ratio=float(item["allocation_ratio"]),
                 reference_price=(
-                    None if item.get("reference_price") is None else str(item["reference_price"])
+                    None if item.get("reference_price") is None else float(item["reference_price"])
                 ),
                 reference_currency=item.get("reference_currency"),
                 allocation_basis=item["allocation_basis"],
@@ -705,36 +649,6 @@ def _merge_existing_rules_faction_source_data(
         key=lambda item: (item.rules_faction_slug, item.rules_source_slug),
     )
 
-
-def _parse_existing_seed_ids(ids_text: str, const_name: str) -> dict[str, str]:
-    block_match = re.search(
-        rf"const {const_name}: Record<[^>]+, string> = \{{(?P<body>.*?)\}};",
-        ids_text,
-        flags=re.DOTALL,
-    )
-    if not block_match:
-        return {}
-
-    ids: dict[str, str] = {}
-    for key, value in re.findall(
-        r"([a-zA-Z0-9_]+):\s*\"([0-9A-HJKMNP-TV-Z]{26})\"",
-        block_match.group("body"),
-    ):
-        ids[key] = value
-    return ids
-
-
-def _parse_existing_seed_ids_from_paths(root: Path) -> dict[str, str]:
-    ids: dict[str, str] = {}
-    if not root.exists():
-        return ids
-    for path in sorted(root.rglob("*.ts")):
-        for key, value in re.findall(
-            r"([a-zA-Z0-9_]+(?:__[a-zA-Z0-9_]+)*):\s*\"([0-9A-HJKMNP-TV-Z]{26})\"",
-            path.read_text(encoding="utf-8"),
-        ):
-            ids.setdefault(key, value)
-    return ids
 
 
 def _write_ability_ids_file(records: list[AbilitySeedRecord], existing_ids: dict[str, str]) -> None:
@@ -1209,78 +1123,6 @@ def _write_generated_kit_data_ids_blocks(
     GENERATED_GAME_DATA_IDS_PATH.write_text(text.rstrip() + "\n", encoding="utf-8")
 
 
-def _replace_or_append_seed_id_block(
-    text: str, block: str, type_name: str, function_name: str
-) -> str:
-    pattern = re.compile(
-        rf"type {type_name} =.*?export const {function_name} = "
-        rf"\([^)]*\): string => \{{\n\s*return .*?\n\}};",
-        flags=re.DOTALL,
-    )
-    if pattern.search(text):
-        return pattern.sub(block, text)
-    return _append_text_block(text, block)
-
-
-def _extract_seed_id_block(text: str, function_name: str) -> str | None:
-    pattern = re.compile(
-        rf"type [A-Za-z0-9]+ =.*?export const {function_name} = "
-        r"\([^)]*\): string => \{\n\s*return .*?\n\};",
-        flags=re.DOTALL,
-    )
-    match = pattern.search(text)
-    return match.group(0) if match else None
-
-
-def _extract_seed_id_keys(text: str, type_name: str) -> list[str]:
-    pattern = re.compile(
-        rf"type {type_name} =(?P<body>.*?);\n\nconst ",
-        flags=re.DOTALL,
-    )
-    match = pattern.search(text)
-    if not match:
-        return []
-    return re.findall(r'"([^"]+)"', match.group("body"))
-
-
-def _append_text_block(text: str, block: str) -> str:
-    if not text.strip():
-        return block
-    return f"{text.rstrip()}\n\n{block}"
-
-
-def _render_seed_id_block(
-    *,
-    type_name: str,
-    const_name: str,
-    function_name: str,
-    namespace: str,
-    keys: list[str],
-    existing_ids: dict[str, str],
-) -> str:
-    if keys:
-        type_block = f"type {type_name} =\n" + "\n".join(f'  | "{key}"' for key in keys) + ";"
-    else:
-        type_block = f"type {type_name} = never;"
-    id_lines = "\n".join(
-        f'  "{key}": "{existing_ids.get(key, _deterministic_ulid(namespace, key))}",'
-        for key in keys
-    )
-    return "\n".join(
-        [
-            type_block,
-            "",
-            f"const {const_name}: Record<{type_name}, string> = {{",
-            id_lines,
-            "};",
-            "",
-            f"export const {function_name} = (slug: {type_name}): string => {{",
-            f"  return {const_name}[slug];",
-            "};",
-        ]
-    )
-
-
 def _write_kit_units_data_file(records: list[KitUnitSeedRecord]) -> None:
     const_names = [_const_name(item.seed_id_key, "KitUnit") for item in records]
     blocks = [
@@ -1364,8 +1206,8 @@ def _write_kit_unit_price_allocations_data_file(
                 f'  id: kitUnitPriceAllocationId("{record.seed_id_key}"),',
                 f'  kit_id: kitId("{record.kit_slug}"),',
                 f'  unit_id: unitId("{record.unit_slug}"),',
-                f"  allocation_ratio: {_ts_string(record.allocation_ratio)},",
-                f"  reference_price: {_nullable_ts_string(record.reference_price)},",
+                f"  allocation_ratio: {record.allocation_ratio},",
+                f"  reference_price: {record.reference_price if record.reference_price is not None else 'null'},",
                 f"  reference_currency: {_nullable_ts_string(record.reference_currency)},",
                 f'  allocation_basis: "{record.allocation_basis}",',
                 f"  effective_date: {_nullable_date(record.effective_date)},",
@@ -1690,29 +1532,11 @@ def _extract_call_arg(block: str, function_name: str) -> str | None:
 
 
 def _rules_source_type_order(source_type: str) -> int:
-    order = {
-        "codex": 0,
-        "codex_supplement": 1,
-        "faction_pack": 2,
-        "combat_patrol": 3,
-        "munitorum_field_manual": 4,
-        "balance_dataslate": 5,
-        "chapter_approved_tournament_companion": 6,
-        "legends": 7,
-        "white_dwarf": 8,
-        "boxset": 9,
-        "expansion": 10,
-        "campaign_book": 11,
-        "other": 99,
-    }
-    return order.get(source_type, 98)
+    """Return the sort position for a rules source type.
+
+    Values are loaded from data/rules_sources.yaml (source_type_order key).
+    Types absent from the map sort after all known types (returns 98).
+    """
+    return source_type_order_map().get(source_type, 98)
 
 
-def _deterministic_ulid(namespace: str, seed: str) -> str:
-    digest = hashlib.sha256(f"{namespace}:{seed}".encode("utf-8")).digest()
-    value = int.from_bytes(digest, "big")
-    chars: list[str] = []
-    for _ in range(23):
-        chars.append(CROCKFORD_BASE32[value & 31])
-        value >>= 5
-    return "01K" + "".join(reversed(chars))
