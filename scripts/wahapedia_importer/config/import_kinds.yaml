@@ -1,0 +1,139 @@
+import_kinds:
+  - name: abilities
+    collect_kind: unit-abilities
+    normalize_handler: abilities
+    apply_handler: abilities
+    record_groups:
+      - abilities
+      - unit_abilities
+    required_page_kinds:
+      - unit-abilities
+    generated_tables:
+      - abilities
+    owning_collection: reference_data
+    status: partial
+    notes: >
+      Collect remaps abilities -> unit-abilities. Apply writes abilities only;
+      unit_abilities apply path is missing. unit_abilities records are gated
+      behind --include-unit-abilities at normalize time.
+
+  - name: unit-abilities
+    collect_kind: unit-abilities
+    normalize_handler: null
+    apply_handler: null
+    record_groups:
+      - unit_abilities
+    required_page_kinds:
+      - unit-abilities
+    generated_tables: []
+    owning_collection: reference_data
+    status: partial
+    notes: >
+      Collected as unit-abilities pages. Normalize and apply are missing;
+      unit_abilities records surface only via the abilities pipeline behind
+      --include-unit-abilities. Full standalone pipeline is not implemented.
+
+  - name: keywords
+    collect_kind: unit-abilities
+    normalize_handler: keywords
+    apply_handler: keywords
+    record_groups:
+      - keywords
+    required_page_kinds:
+      - unit-abilities
+    generated_tables:
+      - keywords
+    owning_collection: reference_data
+    status: partial
+    notes: >
+      Collect remaps keywords -> unit-abilities (same pages as abilities).
+      Full pipeline exists for keywords table; unit_abilities side-product
+      not applied.
+
+  - name: rules-sources
+    collect_kind: rules-sources
+    normalize_handler: rules-sources
+    apply_handler: rules-sources
+    record_groups:
+      - rules_sources
+      - rules_faction_sources
+    required_page_kinds:
+      - rules-sources
+    generated_tables:
+      - rules_sources
+      - rules_faction_sources
+    owning_collection: factions
+    status: partial
+    notes: >
+      Full collect -> normalize -> apply pipeline is present. Marked partial
+      because the faction-sources cross-reference depends on faction-data
+      having been applied first.
+
+  - name: faction-data
+    collect_kind: faction
+    normalize_handler: faction-data
+    apply_handler: faction-data
+    record_groups:
+      - detachments
+      - rules_faction_detachments
+      - units
+      - rules_faction_units
+    required_page_kinds:
+      - faction
+      - units
+    generated_tables:
+      - detachments
+      - rules_faction_detachments
+      - units
+      - rules_faction_units
+    owning_collection: factions
+    status: partial
+    notes: >
+      Collect kind is "faction" (index page only); unit pages require a
+      separate "units" collect step to populate the manifest. Normalize and
+      apply are supported once the manifest includes both page kinds.
+
+  - name: kit-units
+    collect_kind: null
+    normalize_handler: kit-units
+    apply_handler: kit-units
+    record_groups:
+      - kit_units
+    required_page_kinds: []
+    generated_tables:
+      - kit_units
+    owning_collection: kits
+    status: partial
+    notes: >
+      Collect is missing by design: kit_units records are curated manually.
+      Normalize and apply are fully supported for curated input files.
+
+  - name: kit-unit-price-allocations
+    collect_kind: null
+    normalize_handler: kit-unit-price-allocations
+    apply_handler: kit-unit-price-allocations
+    record_groups:
+      - kit_unit_price_allocations
+    required_page_kinds: []
+    generated_tables:
+      - kit_unit_price_allocations
+    owning_collection: kits
+    status: partial
+    notes: >
+      Curated import only — no Wahapedia collect path. Numeric rendering fixed:
+      allocation_ratio and reference_price now emit as bare float literals.
+
+  - name: core-rules
+    collect_kind: core-rules
+    normalize_handler: null
+    apply_handler: null
+    record_groups: []
+    required_page_kinds:
+      - core-rules
+    generated_tables: []
+    owning_collection: null
+    status: partial
+    notes: >
+      Collect is supported (fetches the core rules source page). Normalize
+      and apply handlers are not implemented; no record groups or tables are
+      produced yet.
