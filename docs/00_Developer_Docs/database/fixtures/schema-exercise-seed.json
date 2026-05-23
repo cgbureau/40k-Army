@@ -1,0 +1,734 @@
+{
+  "notes": [
+    "Representative fixture data for exercising the schema-design.md relational model.",
+    "Keep this fixture focused on relationship coverage; exhaustive faction imports should be generated from source data separately.",
+    "Space Marines and Death Guard unit names are grounded in repository data under data/factions.",
+    "Blood Angels examples are modeled as a rules faction that inherits Space Marines access and adds exclusive units from Codex Supplement: Blood Angels.",
+    "Full faction, unit, model, weapon, and profile imports can be sourced from https://wahapedia.ru/wh40k10ed when building production seed/import pipelines."
+  ],
+  "super_factions": [
+    {
+      "super_faction_id": 2,
+      "super_faction": "chaos"
+    },
+    {
+      "super_faction_id": 4,
+      "super_faction": "space_marines"
+    }
+  ],
+  "rules_factions": [
+    {
+      "rules_faction_id": 1,
+      "super_faction_id": 4,
+      "rules_faction_name": "Space Marines"
+    },
+    {
+      "rules_faction_id": 3,
+      "super_faction_id": 4,
+      "rules_faction_name": "Blood Angels"
+    },
+    {
+      "rules_faction_id": 6,
+      "super_faction_id": 2,
+      "rules_faction_name": "Death Guard"
+    }
+  ],
+  "rules_sources": [
+    {
+      "rules_source_id": 1,
+      "rules_source_name": "Codex: Space Marines",
+      "rules_source_type": "codex",
+      "release_date": "2023-10-14"
+    },
+    {
+      "rules_source_id": 2,
+      "rules_source_name": "Warhammer Community",
+      "rules_source_type": "online",
+      "release_date": null
+    },
+    {
+      "rules_source_id": 4,
+      "rules_source_name": "Codex Supplement: Blood Angels",
+      "rules_source_type": "codex_supplement",
+      "release_date": "2024-09-14"
+    },
+    {
+      "rules_source_id": 5,
+      "rules_source_name": "Codex: Death Guard",
+      "rules_source_type": "codex",
+      "release_date": "2025-09-01"
+    },
+    {
+      "rules_source_id": 6,
+      "rules_source_name": "Munitorum Field Manual June 2025",
+      "rules_source_type": "munitorum_field_manual",
+      "release_date": "2025-06-01"
+    }
+  ],
+  "rules_faction_sources": [
+    {
+      "rules_faction_source_id": 1,
+      "rules_faction_id": 1,
+      "rules_source_id": 1,
+      "source_relationship": "primary"
+    },
+    {
+      "rules_faction_source_id": 2,
+      "rules_faction_id": 3,
+      "rules_source_id": 1,
+      "source_relationship": "shared_base"
+    },
+    {
+      "rules_faction_source_id": 3,
+      "rules_faction_id": 3,
+      "rules_source_id": 4,
+      "source_relationship": "supplement"
+    },
+    {
+      "rules_faction_source_id": 4,
+      "rules_faction_id": 6,
+      "rules_source_id": 5,
+      "source_relationship": "primary"
+    }
+  ],
+  "detachments": [
+    {
+      "detachment_id": 1,
+      "detachment_name": "Gladius Task Force",
+      "rules_source_id": 1
+    },
+    {
+      "detachment_id": 2,
+      "detachment_name": "Anvil Siege Force",
+      "rules_source_id": 1
+    },
+    {
+      "detachment_id": 3,
+      "detachment_name": "Ceramite Sentinels",
+      "rules_source_id": 2
+    },
+    {
+      "detachment_id": 4,
+      "detachment_name": "Liberator Assault Group",
+      "rules_source_id": 4
+    },
+    {
+      "detachment_id": 5,
+      "detachment_name": "The Lost Brethren",
+      "rules_source_id": 4
+    },
+    {
+      "detachment_id": 6,
+      "detachment_name": "Mortarion's Hammer",
+      "rules_source_id": 5
+    }
+  ],
+  "rules_faction_detachments": [
+    {
+      "rules_faction_detachment_id": 1,
+      "rules_faction_id": 1,
+      "detachment_id": 1,
+      "detachment_access_type": "shared"
+    },
+    {
+      "rules_faction_detachment_id": 2,
+      "rules_faction_id": 1,
+      "detachment_id": 2,
+      "detachment_access_type": "shared"
+    },
+    {
+      "rules_faction_detachment_id": 3,
+      "rules_faction_id": 1,
+      "detachment_id": 3,
+      "detachment_access_type": "shared"
+    },
+    {
+      "rules_faction_detachment_id": 4,
+      "rules_faction_id": 3,
+      "detachment_id": 1,
+      "detachment_access_type": "inherited"
+    },
+    {
+      "rules_faction_detachment_id": 5,
+      "rules_faction_id": 3,
+      "detachment_id": 2,
+      "detachment_access_type": "inherited"
+    },
+    {
+      "rules_faction_detachment_id": 6,
+      "rules_faction_id": 3,
+      "detachment_id": 3,
+      "detachment_access_type": "inherited"
+    },
+    {
+      "rules_faction_detachment_id": 7,
+      "rules_faction_id": 3,
+      "detachment_id": 4,
+      "detachment_access_type": "exclusive"
+    },
+    {
+      "rules_faction_detachment_id": 8,
+      "rules_faction_id": 3,
+      "detachment_id": 5,
+      "detachment_access_type": "exclusive"
+    },
+    {
+      "rules_faction_detachment_id": 9,
+      "rules_faction_id": 6,
+      "detachment_id": 6,
+      "detachment_access_type": "exclusive"
+    }
+  ],
+  "units": [
+    {
+      "unit_id": 1,
+      "unit_slug": "intercessor_squad",
+      "unit_name": "Intercessor Squad"
+    },
+    {
+      "unit_id": 2,
+      "unit_slug": "assault_intercessor_squad",
+      "unit_name": "Assault Intercessor Squad"
+    },
+    {
+      "unit_id": 3,
+      "unit_slug": "heavy_intercessor_squad",
+      "unit_name": "Heavy Intercessor Squad"
+    },
+    {
+      "unit_id": 4,
+      "unit_slug": "ballistus_dreadnought",
+      "unit_name": "Ballistus Dreadnought"
+    },
+    {
+      "unit_id": 5,
+      "unit_slug": "sanguinary_guard",
+      "unit_name": "Sanguinary Guard"
+    },
+    {
+      "unit_id": 6,
+      "unit_slug": "commander_dante",
+      "unit_name": "Commander Dante"
+    },
+    {
+      "unit_id": 7,
+      "unit_slug": "death_company_marines",
+      "unit_name": "Death Company Marines"
+    },
+    {
+      "unit_id": 8,
+      "unit_slug": "baal_predator",
+      "unit_name": "Baal Predator"
+    },
+    {
+      "unit_id": 9,
+      "unit_slug": "blightlord_terminators",
+      "unit_name": "Blightlord Terminators"
+    },
+    {
+      "unit_id": 10,
+      "unit_slug": "plague_marines",
+      "unit_name": "Plague Marines"
+    },
+    {
+      "unit_id": 11,
+      "unit_slug": "death_guard_chaos_lord",
+      "unit_name": "Death Guard Chaos Lord"
+    },
+    {
+      "unit_id": 12,
+      "unit_slug": "mortarion",
+      "unit_name": "Mortarion"
+    }
+  ],
+  "rules_faction_units": [
+    {
+      "rules_faction_unit_id": 1,
+      "unit_id": 1,
+      "rules_faction_id": 1,
+      "unit_access_type": "shared",
+      "rules_source_id": 1
+    },
+    {
+      "rules_faction_unit_id": 2,
+      "unit_id": 2,
+      "rules_faction_id": 1,
+      "unit_access_type": "shared",
+      "rules_source_id": 1
+    },
+    {
+      "rules_faction_unit_id": 3,
+      "unit_id": 3,
+      "rules_faction_id": 1,
+      "unit_access_type": "shared",
+      "rules_source_id": 1
+    },
+    {
+      "rules_faction_unit_id": 4,
+      "unit_id": 4,
+      "rules_faction_id": 1,
+      "unit_access_type": "shared",
+      "rules_source_id": 1
+    },
+    {
+      "rules_faction_unit_id": 5,
+      "unit_id": 5,
+      "rules_faction_id": 3,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 4
+    },
+    {
+      "rules_faction_unit_id": 6,
+      "unit_id": 6,
+      "rules_faction_id": 3,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 4
+    },
+    {
+      "rules_faction_unit_id": 7,
+      "unit_id": 7,
+      "rules_faction_id": 3,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 4
+    },
+    {
+      "rules_faction_unit_id": 8,
+      "unit_id": 8,
+      "rules_faction_id": 3,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 4
+    },
+    {
+      "rules_faction_unit_id": 9,
+      "unit_id": 9,
+      "rules_faction_id": 6,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 5
+    },
+    {
+      "rules_faction_unit_id": 10,
+      "unit_id": 10,
+      "rules_faction_id": 6,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 5
+    },
+    {
+      "rules_faction_unit_id": 11,
+      "unit_id": 11,
+      "rules_faction_id": 6,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 5
+    },
+    {
+      "rules_faction_unit_id": 12,
+      "unit_id": 12,
+      "rules_faction_id": 6,
+      "unit_access_type": "exclusive",
+      "rules_source_id": 5
+    }
+  ],
+  "models": [
+    {
+      "model_id": 1,
+      "model_name": "Intercessor Sergeant",
+      "is_epic": false
+    },
+    {
+      "model_id": 2,
+      "model_name": "Intercessor",
+      "is_epic": false
+    },
+    {
+      "model_id": 3,
+      "model_name": "Sanguinary Guard",
+      "is_epic": false
+    },
+    {
+      "model_id": 4,
+      "model_name": "Commander Dante",
+      "is_epic": true
+    },
+    {
+      "model_id": 5,
+      "model_name": "Death Company Marine",
+      "is_epic": false
+    },
+    {
+      "model_id": 6,
+      "model_name": "Baal Predator",
+      "is_epic": false
+    },
+    {
+      "model_id": 7,
+      "model_name": "Blightlord Champion",
+      "is_epic": false
+    },
+    {
+      "model_id": 8,
+      "model_name": "Blightlord Terminator",
+      "is_epic": false
+    },
+    {
+      "model_id": 9,
+      "model_name": "Plague Marine Champion",
+      "is_epic": false
+    },
+    {
+      "model_id": 10,
+      "model_name": "Plague Marine",
+      "is_epic": false
+    },
+    {
+      "model_id": 11,
+      "model_name": "Death Guard Chaos Lord",
+      "is_epic": false
+    },
+    {
+      "model_id": 12,
+      "model_name": "Mortarion",
+      "is_epic": true
+    }
+  ],
+  "unit_models": [
+    {
+      "unit_model_id": 1,
+      "unit_id": 1,
+      "model_id": 1,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    },
+    {
+      "unit_model_id": 2,
+      "unit_id": 1,
+      "model_id": 2,
+      "minimum_model_count": 4,
+      "maximum_model_count": 9
+    },
+    {
+      "unit_model_id": 3,
+      "unit_id": 5,
+      "model_id": 3,
+      "minimum_model_count": 3,
+      "maximum_model_count": 6
+    },
+    {
+      "unit_model_id": 4,
+      "unit_id": 6,
+      "model_id": 4,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    },
+    {
+      "unit_model_id": 5,
+      "unit_id": 7,
+      "model_id": 5,
+      "minimum_model_count": 5,
+      "maximum_model_count": 10
+    },
+    {
+      "unit_model_id": 6,
+      "unit_id": 8,
+      "model_id": 6,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    },
+    {
+      "unit_model_id": 7,
+      "unit_id": 9,
+      "model_id": 7,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    },
+    {
+      "unit_model_id": 8,
+      "unit_id": 9,
+      "model_id": 8,
+      "minimum_model_count": 2,
+      "maximum_model_count": 9
+    },
+    {
+      "unit_model_id": 9,
+      "unit_id": 10,
+      "model_id": 9,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    },
+    {
+      "unit_model_id": 10,
+      "unit_id": 10,
+      "model_id": 10,
+      "minimum_model_count": 4,
+      "maximum_model_count": 9
+    },
+    {
+      "unit_model_id": 11,
+      "unit_id": 11,
+      "model_id": 11,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    },
+    {
+      "unit_model_id": 12,
+      "unit_id": 12,
+      "model_id": 12,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1
+    }
+  ],
+  "unit_point_costs": [
+    {
+      "unit_point_cost_id": 1,
+      "game_edition_id": 10,
+      "unit_id": 1,
+      "rules_source_id": 6,
+      "minimum_model_count": 5,
+      "maximum_model_count": 5,
+      "unit_points": 80,
+      "effective_date": "2025-06-01",
+      "superseded_date": null
+    },
+    {
+      "unit_point_cost_id": 2,
+      "game_edition_id": 10,
+      "unit_id": 1,
+      "rules_source_id": 6,
+      "minimum_model_count": 10,
+      "maximum_model_count": 10,
+      "unit_points": 160,
+      "effective_date": "2025-06-01",
+      "superseded_date": null
+    },
+    {
+      "unit_point_cost_id": 3,
+      "game_edition_id": 10,
+      "unit_id": 5,
+      "rules_source_id": 6,
+      "minimum_model_count": 3,
+      "maximum_model_count": 3,
+      "unit_points": 130,
+      "effective_date": "2025-06-01",
+      "superseded_date": null
+    },
+    {
+      "unit_point_cost_id": 4,
+      "game_edition_id": 10,
+      "unit_id": 6,
+      "rules_source_id": 6,
+      "minimum_model_count": 1,
+      "maximum_model_count": 1,
+      "unit_points": 130,
+      "effective_date": "2025-06-01",
+      "superseded_date": null
+    },
+    {
+      "unit_point_cost_id": 5,
+      "game_edition_id": 10,
+      "unit_id": 9,
+      "rules_source_id": 6,
+      "minimum_model_count": 5,
+      "maximum_model_count": 5,
+      "unit_points": 185,
+      "effective_date": "2025-06-01",
+      "superseded_date": null
+    },
+    {
+      "unit_point_cost_id": 6,
+      "game_edition_id": 10,
+      "unit_id": 10,
+      "rules_source_id": 6,
+      "minimum_model_count": 5,
+      "maximum_model_count": 5,
+      "unit_points": 90,
+      "effective_date": "2025-06-01",
+      "superseded_date": null
+    }
+  ],
+  "kits": [
+    {
+      "kit_id": 1,
+      "kit": "Blood Angels Sanguinary Guard",
+      "gw_slug": "blood-angels-sanguinary-guard-2024",
+      "display_name": "Sanguinary Guard",
+      "gw_short_slug": "blood-angels-sanguinary-guard",
+      "40karmy_slug": "sanguinary_guard",
+      "model_count": 3,
+      "kit_type": 2
+    },
+    {
+      "kit_id": 2,
+      "kit": "Blood Angels Commander Dante",
+      "gw_slug": "blood-angels-commander-dante-2023",
+      "display_name": "Commander Dante",
+      "gw_short_slug": "blood-angels-commander-dante",
+      "40karmy_slug": "commander_dante",
+      "model_count": 1,
+      "kit_type": 1
+    },
+    {
+      "kit_id": 3,
+      "kit": "Death Guard Blightlord Terminators",
+      "gw_slug": "death-guard-blightlord-terminators-2020",
+      "display_name": "Blightlord Terminators",
+      "gw_short_slug": "death-guard-blightlord-terminators",
+      "40karmy_slug": "blightlord_terminators",
+      "model_count": 5,
+      "kit_type": 2
+    }
+  ],
+  "kit_models": [
+    {
+      "kit_model_id": 1,
+      "kit_id": 1,
+      "model_id": 3,
+      "model_count": 3
+    },
+    {
+      "kit_model_id": 2,
+      "kit_id": 2,
+      "model_id": 4,
+      "model_count": 1
+    },
+    {
+      "kit_model_id": 3,
+      "kit_id": 3,
+      "model_id": 7,
+      "model_count": 1
+    },
+    {
+      "kit_model_id": 4,
+      "kit_id": 3,
+      "model_id": 8,
+      "model_count": 4
+    }
+  ],
+  "kit_prices": [
+    {
+      "kit_price_id": 1,
+      "kit_id": 1,
+      "currency": "usd",
+      "price": 62,
+      "price_source": "gw"
+    },
+    {
+      "kit_price_id": 2,
+      "kit_id": 2,
+      "currency": "usd",
+      "price": 48,
+      "price_source": "gw"
+    },
+    {
+      "kit_price_id": 3,
+      "kit_id": 3,
+      "currency": "usd",
+      "price": 65,
+      "price_source": "gw"
+    }
+  ],
+  "player_army_lists": [
+    {
+      "player_army_list_id": 1,
+      "player_id": 1,
+      "rules_faction_id": 3,
+      "detachment_id": 4,
+      "faction_display_name": "Sanguine Angels",
+      "list_name": "Strike Force Test",
+      "game_size_id": 3,
+      "points_limit": 2000,
+      "game_edition_id": 10
+    },
+    {
+      "player_army_list_id": 2,
+      "player_id": 1,
+      "rules_faction_id": 6,
+      "detachment_id": 6,
+      "faction_display_name": "The Rusted Choir",
+      "list_name": "Death Guard Test",
+      "game_size_id": 2,
+      "points_limit": 1000,
+      "game_edition_id": 10
+    }
+  ],
+  "player_army_list_units": [
+    {
+      "player_army_list_unit_id": 1,
+      "player_army_list_id": 1,
+      "unit_id": 1,
+      "selected_model_count": 10,
+      "display_name": "Squad Raphael",
+      "points_cost": 160
+    },
+    {
+      "player_army_list_unit_id": 2,
+      "player_army_list_id": 1,
+      "unit_id": 1,
+      "selected_model_count": 5,
+      "display_name": "Squad Barachiel",
+      "points_cost": 80
+    },
+    {
+      "player_army_list_unit_id": 3,
+      "player_army_list_id": 1,
+      "unit_id": 5,
+      "selected_model_count": 3,
+      "display_name": "Golden Host",
+      "points_cost": 130
+    },
+    {
+      "player_army_list_unit_id": 4,
+      "player_army_list_id": 2,
+      "unit_id": 9,
+      "selected_model_count": 5,
+      "display_name": "The Bell-Tollers",
+      "points_cost": 185
+    }
+  ],
+  "player_collections": [
+    {
+      "player_collection_id": 1,
+      "player_id": 1,
+      "collection_name": "Sanguine Angels"
+    },
+    {
+      "player_collection_id": 2,
+      "player_id": 1,
+      "collection_name": "Death Guard Backlog"
+    }
+  ],
+  "player_collection_models": [
+    {
+      "player_collection_model_id": 1,
+      "player_collection_id": 1,
+      "rules_faction_id": 3,
+      "model_id": 1,
+      "model_count": 2
+    },
+    {
+      "player_collection_model_id": 2,
+      "player_collection_id": 1,
+      "rules_faction_id": 3,
+      "model_id": 2,
+      "model_count": 16
+    },
+    {
+      "player_collection_model_id": 3,
+      "player_collection_id": 1,
+      "rules_faction_id": 3,
+      "model_id": 3,
+      "model_count": 3
+    },
+    {
+      "player_collection_model_id": 4,
+      "player_collection_id": 2,
+      "rules_faction_id": 6,
+      "model_id": 7,
+      "model_count": 1
+    },
+    {
+      "player_collection_model_id": 5,
+      "player_collection_id": 2,
+      "rules_faction_id": 6,
+      "model_id": 8,
+      "model_count": 4
+    }
+  ]
+}

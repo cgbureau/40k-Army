@@ -1,0 +1,881 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// what: a list of potential sources of rules for a unit/model
+/// why: to standardize the list of sources for consistency
+/// example: CODEX for Codex: Space Marines
+enum RulesSourceType {
+  CODEX                                 @map("codex")
+  ONLINE                                @map("online")
+  EXPANSION                             @map("expansion")
+  CAMPAIGN_BOOK                         @map("campaign_book")
+  OTHER                                 @map("other")
+  MUNITORUM_FIELD_MANUAL                @map("munitorum_field_manual")
+  CODEX_SUPPLEMENT                      @map("codex_supplement")
+  BALANCE_DATASLATE                     @map("balance_dataslate")
+  COMBAT_PATROL                         @map("combat_patrol")
+  FACTION_PACK                          @map("faction_pack")
+  CHAPTER_APPROVED_TOURNAMENT_COMPANION @map("chapter_approved_tournament_companion")
+  LEGENDS                               @map("legends")
+  WHITE_DWARF                           @map("white_dwarf")
+  BOXSET                                @map("boxset")
+
+  @@map("rules_source_type")
+}
+
+/// what: a list of relationships between a rules faction and a rules source
+/// why: to describe what kind of rules content the source contributes
+/// example: PRIMARY for Space Marines using Codex: Space Marines
+/// example: SUPPLEMENT for Blood Angels using Codex Supplement: Blood Angels
+/// example: ERRATA_FAQ for a Balance Dataslate or faction pack FAQ
+/// example: POINTS for Munitorum Field Manual points
+enum SourceRelationship {
+  PRIMARY       @map("primary")
+  SUPPLEMENT    @map("supplement")
+  ERRATA_FAQ    @map("errata_faq")
+  POINTS        @map("points")
+  BASE_SIZES    @map("base_sizes")
+  COMBAT_PATROL @map("combat_patrol")
+
+  @@map("source_relationship")
+}
+
+/// what: a list of applicability scopes between a rules faction and source
+/// why: to distinguish faction-exclusive sources from shared and global sources
+/// example: SHARED_BASE for Blood Angels using Codex: Space Marines
+/// example: EXCLUSIVE for Blood Angels using Codex Supplement: Blood Angels
+/// example: GLOBAL for Blood Angels using the current Balance Dataslate
+enum SourceScope {
+  GLOBAL      @map("global")
+  SHARED_BASE @map("shared_base")
+  EXCLUSIVE   @map("exclusive")
+
+  @@map("source_scope")
+}
+
+/// what: a list of access types for faction-specific units and detachments
+/// why: to distinguish shared, inherited, and exclusive list-building permissions
+/// example: SHARED for Gladius Task Force access from Space Marines
+/// example: INHERITED for Blood Angels using shared Space Marines units
+/// example: EXCLUSIVE for Sanguinary Guard access in Blood Angels lists
+enum AccessType {
+  SHARED    @map("shared")
+  INHERITED @map("inherited")
+  EXCLUSIVE @map("exclusive")
+
+  @@map("access_type")
+}
+
+/// what: a list of keyword categories used by unit datasheets
+/// why: to distinguish normal unit keywords from faction keywords and model-specific keywords
+/// example: UNIT for Infantry, FACTION for Adeptus Astartes, MODEL for Psyker on Dainal Kornelius, RULES for Battleline
+enum KeywordType {
+  UNIT    @map("unit")
+  FACTION @map("faction")
+  MODEL   @map("model")
+  RULES   @map("rules")
+
+  @@map("keyword_type")
+}
+
+/// what: a list of ability categories used by datasheets
+/// why: to group core, faction, datasheet, and wargear abilities consistently
+/// example: the Inquisitor unit from Agents of the Imperium has CORE for Leader, FACTION for Assigned Agents, WARGEAR for Blessed Wardings
+enum AbilityType {
+  CORE      @map("core")
+  FACTION   @map("faction")
+  DATASHEET @map("datasheet")
+  WARGEAR   @map("wargear")
+  OTHER     @map("other")
+
+  @@map("ability_type")
+}
+
+/// what: a list of selection-limit categories for list construction
+/// why: to encode edition and game-size unit repetition rules without hardcoding them in application code
+/// example: EPIC for unique Epic Hero limits, BATTLELINE for six-per-list style limits, OTHER for normal units
+enum UnitSelectionLimitKind {
+  EPIC       @map("epic")
+  BATTLELINE @map("battleline")
+  OTHER      @map("other")
+
+  @@map("unit_selection_limit_kind")
+}
+
+/// what: describes how a purchasable kit maps to a satisfied unit
+/// why: bundle, alternate-build, and upgrade products need explicit unit-level satisfaction metadata
+enum KitUnitComponentType {
+  COMPLETE_UNIT     @map("complete_unit")
+  PARTIAL_UNIT      @map("partial_unit")
+  ALTERNATE_BUILD   @map("alternate_build")
+  UPGRADE_COMPONENT @map("upgrade_component")
+
+  @@map("kit_unit_component_type")
+}
+
+/// what: describes the evidence or calculation basis used to allocate kit price across units
+/// why: purchase recommendations need auditable per-unit value estimates for multi-unit kits
+enum KitUnitPriceAllocationBasis {
+  STANDALONE_MSRP      @map("standalone_msrp")
+  AVERAGE_UNIT_PRICE   @map("average_unit_price")
+  MODEL_COUNT          @map("model_count")
+  MANUAL               @map("manual")
+  MARKET_OBSERVATION @map("market_observation")
+
+  @@map("kit_unit_price_allocation_basis")
+}
+
+/// what: represents a row for each edition of the game
+/// why: this will allow more comprehensive indexing and uniqueness on objects that repeat every edition--e.g. each edition has a Codex: Space Marines
+/// example: '11th Edition', 'Armageddon', '11'
+model GameEdition {
+  id                       String               @id @default(ulid()) @db.Char(26)
+  gameEditionName          String               @unique @map("game_edition_name")
+  gameEditionAlternateName String?              @unique @map("game_edition_alternate_name") /// example: 'Armageddon', 'Indomitus'
+  gameEditionSlug          String               @unique @map("game_edition_slug") /// example: 10, 11
+  gameSizes                GameSize[]
+  rulesSources             RulesSource[]
+  unitProfiles             UnitProfile[]
+  unitPointCosts           UnitPointCost[]
+  playerArmyLists          PlayerArmyList[]
+  unitKeywords             UnitKeyword[]
+  unitSelectionLimits      UnitSelectionLimit[]
+  unitAbilities            UnitAbility[]
+  leaderEligibilities      LeaderEligibility[]
+  createdAt                DateTime             @default(now()) @map("created_at")
+  updatedAt                DateTime?            @updatedAt @map("updated_at")
+
+  @@map("game_editions")
+}
+
+/// what: represents the varying game sizes for an edition
+/// why: for list building, knowing game size determines things like # of times a unit may be repeated in a list
+/// example: in 10th edition, 'Onslaught' was min:1001 max:2000 and would define the cap on a single unit being repeated in a list to 3
+/// example: in 10th edition, 'Incursion' was min:1 max:1000 and set the cap at 2
+model GameSize {
+  id              String               @id @default(ulid()) @db.Char(26)
+  gameSizeName    String               @map("game_size_name")
+  gameSizeSlug    String               @unique @map("game_size_slug")
+  minimumPoints   Int?                 @map("minimum_points") /// inclusive lower bound for this game size
+  maximumPoints   Int?                 @map("maximum_points") /// inclusive upper bound; null means open-ended
+  gameEdition     GameEdition          @relation(fields: [gameEditionId], references: [id])
+  gameEditionId   String               @map("game_edition_id") @db.Char(26)
+  armyLists       PlayerArmyList[]
+  selectionLimits UnitSelectionLimit[]
+  createdAt       DateTime             @default(now()) @map("created_at")
+  updatedAt       DateTime?            @updatedAt @map("updated_at")
+
+  @@index([gameEditionId])
+  @@map("game_sizes")
+}
+
+/// what: a top-level browsing and product taxonomy bucket
+/// why: factions need broad grouping for navigation, import organization, and future product filters
+/// example: Imperium, Chaos, Xenos, and Space Marines
+model SuperFaction {
+  id               String         @id @default(ulid()) @db.Char(26)
+  superFactionName String         @unique @map("super_faction_name")
+  superFactionSlug String         @unique @map("super_faction_slug")
+  rulesFactions    RulesFaction[]
+  createdAt        DateTime       @default(now()) @map("created_at")
+  updatedAt        DateTime?      @updatedAt @map("updated_at")
+
+  @@map("super_factions")
+}
+
+/// what: a game-facing faction identity used for legal unit, detachment, and source access
+/// why: player display names can vary, but list validation needs stable rules factions
+/// example: Blood Angels as a rules faction under the Space Marines super-faction
+model RulesFaction {
+  id                      String                   @id @default(ulid()) @db.Char(26)
+  superFaction            SuperFaction             @relation(fields: [superFactionId], references: [id])
+  superFactionId          String                   @map("super_faction_id") @db.Char(26)
+  rulesFactionSlug        String                   @unique @map("rules_faction_slug")
+  rulesFactionName        String                   @unique @map("rules_faction_name")
+  rulesFactionSources     RulesFactionSource[]
+  rulesFactionDetachments RulesFactionDetachment[]
+  rulesFactionUnits       RulesFactionUnit[]
+  playerArmyLists         PlayerArmyList[]
+  playerCollectionModels  PlayerCollectionModel[]
+  createdAt               DateTime                 @default(now()) @map("created_at")
+  updatedAt               DateTime?                @updatedAt @map("updated_at")
+
+  @@index([superFactionId])
+  @@map("rules_factions")
+}
+
+/// what: a publication or online release that provides rules content for a game edition
+/// why: units, profiles, detachments, faction access, and points need source attribution
+/// example: Codex: Space Marines for 10th edition
+model RulesSource {
+  id                     String               @id @default(ulid()) @db.Char(26)
+  rulesSourceSlug        String               @map("rules_source_slug")
+  rulesSourceName        String               @map("rules_source_name")
+  rulesSourceType        RulesSourceType?     @default(CODEX) @map("rules_source_type") /// example: a 10th edition Space Marines index; a 10th edition Space Marines codex
+  rulesSourceVersion     String?              @map("rules_source_version") /// publication version label, e.g. 3.4 for a Balance Dataslate or 1.8 for a Core Rules update
+  rulesSourceVersionSlug String?              @map("rules_source_version_slug") /// normalized version key for import matching, e.g. v3-4 or march-2026-v3-4
+  releaseDate            DateTime?            @map("release_date") @db.Date
+  supersededDate         DateTime?            @map("superseded_date") @db.Date /// example: a 10th edition Space Marines index being replaced by the 10th edition Space Marines Codex
+  gameEdition            GameEdition          @relation(fields: [gameEditionId], references: [id])
+  gameEditionId          String               @map("game_edition_id") @db.Char(26)
+  rulesFactionSources    RulesFactionSource[]
+  unitProfiles           UnitProfile[]
+  unitPointCosts         UnitPointCost[]
+  rulesFactionUnits      RulesFactionUnit[]
+  detachments            Detachment[]
+  playerArmyListUnits    PlayerArmyListUnit[] @relation("PlayerArmyListUnitPointsSource")
+  unitKeywords           UnitKeyword[]
+  unitAbilities          UnitAbility[]
+  leaderEligibilities    LeaderEligibility[]
+  createdAt              DateTime             @default(now()) @map("created_at")
+  updatedAt              DateTime?            @updatedAt @map("updated_at")
+
+  @@unique([gameEditionId, rulesSourceSlug])
+  @@index([gameEditionId])
+  @@map("rules_sources")
+}
+
+/// what: a join between a rules faction and a rules source
+/// why: one faction can draw from multiple sources and one source can support multiple factions
+/// example: Blood Angels using Codex: Space Marines as SHARED_BASE and Codex Supplement: Blood Angels as SUPPLEMENT
+model RulesFactionSource {
+  id                 String             @id @default(ulid()) @db.Char(26)
+  rulesFaction       RulesFaction       @relation(fields: [rulesFactionId], references: [id])
+  rulesFactionId     String             @map("rules_faction_id") @db.Char(26)
+  rulesSource        RulesSource        @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId      String             @map("rules_source_id") @db.Char(26)
+  sourceRelationship SourceRelationship @map("source_relationship") /// describes how this source contributes to the faction's rules
+  sourceScope        SourceScope        @map("source_scope") /// describes how broadly this source applies to the faction
+  createdAt          DateTime           @default(now()) @map("created_at")
+  updatedAt          DateTime?          @updatedAt @map("updated_at")
+
+  @@unique([rulesFactionId, rulesSourceId])
+  @@index([rulesSourceId])
+  @@map("rules_faction_sources")
+}
+
+/// what: a selectable army rule package published in a rules source
+/// why: army lists choose detachments, and detachments can alter unit access or effective keywords
+/// example: Gladius Task Force from Codex: Space Marines
+model Detachment {
+  id                      String                   @id @default(ulid()) @db.Char(26)
+  detachmentName          String                   @map("detachment_name")
+  detachmentSlug          String                   @unique @map("detachment_slug")
+  rulesSource             RulesSource              @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId           String                   @map("rules_source_id") @db.Char(26)
+  rulesFactionDetachments RulesFactionDetachment[]
+  detachmentUnitKeywords  DetachmentUnitKeyword[]
+  playerArmyLists         PlayerArmyList[]
+  createdAt               DateTime                 @default(now()) @map("created_at")
+  updatedAt               DateTime?                @updatedAt @map("updated_at")
+
+  @@index([rulesSourceId])
+  @@map("detachments")
+}
+
+/// what: a join between a rules faction and a detachment it may select
+/// why: detachment legality depends on faction and can be shared, inherited, or exclusive
+/// example: Blood Angels inheriting Gladius Task Force and exclusively using Liberator Assault Group
+model RulesFactionDetachment {
+  id                   String       @id @default(ulid()) @db.Char(26)
+  rulesFaction         RulesFaction @relation(fields: [rulesFactionId], references: [id])
+  rulesFactionId       String       @map("rules_faction_id") @db.Char(26)
+  detachment           Detachment   @relation(fields: [detachmentId], references: [id])
+  detachmentId         String       @map("detachment_id") @db.Char(26)
+  detachmentAccessType AccessType?  @map("detachment_access_type") /// shared, inherited, or exclusive access for the faction
+  effectiveDate        DateTime?    @map("effective_date") @db.Date
+  supersededDate       DateTime?    @map("superseded_date") @db.Date
+  createdAt            DateTime     @default(now()) @map("created_at")
+  updatedAt            DateTime?    @updatedAt @map("updated_at")
+
+  @@unique([rulesFactionId, detachmentId])
+  @@index([detachmentId])
+  @@map("rules_faction_detachments")
+}
+
+/// what: a datasheet-level game entity that can appear in lists and have models, profiles, points, keywords, and abilities
+/// why: units are the central rules object for list building and collection comparison
+/// example: Intercessor Squad, Inquisitor, or Wardens of Ultramar
+model Unit {
+  id                      String                   @id @default(ulid()) @db.Char(26)
+  unitName                String                   @map("unit_name")
+  unitSlug                String                   @unique @map("unit_slug")
+  wahapediaUrl            String?                  @map("wahapedia_url") /// optional source/reference URL for the unit's Wahapedia datasheet page
+  unitProfiles            UnitProfile[]
+  unitModels              UnitModel[]
+  unitPointCosts          UnitPointCost[]
+  unitKeywords            UnitKeyword[]
+  detachmentKeywords      DetachmentUnitKeyword[]
+  unitAbilities           UnitAbility[]
+  leaderRules             LeaderEligibility[]      @relation("LeaderUnit")
+  leadableByRules         LeaderEligibility[]      @relation("LeaderTargetUnit")
+  rulesFactionUnits       RulesFactionUnit[]
+  kitUnits                KitUnit[]
+  kitUnitPriceAllocations KitUnitPriceAllocation[]
+  playerArmyListUnits     PlayerArmyListUnit[]
+  createdAt               DateTime                 @default(now()) @map("created_at")
+  updatedAt               DateTime?                @updatedAt @map("updated_at")
+
+  @@map("units")
+}
+
+/// what: a join between a rules faction, unit, and source that grants unit access
+/// why: list legality depends on which factions can use which shared, inherited, or exclusive units
+/// example: Blood Angels inheriting Intercessor Squad access from Space Marines
+model RulesFactionUnit {
+  id                   String       @id @default(ulid()) @db.Char(26)
+  rulesFactionUnitSlug String       @map("rules_faction_unit_slug")
+  rulesFaction         RulesFaction @relation(fields: [rulesFactionId], references: [id])
+  rulesFactionId       String       @map("rules_faction_id") @db.Char(26)
+  unit                 Unit         @relation(fields: [unitId], references: [id])
+  unitId               String       @map("unit_id") @db.Char(26)
+  unitAccessType       AccessType?  @map("unit_access_type") /// SHARED means granted directly to this faction; INHERITED means available through a broader parent faction; EXCLUSIVE means only this faction gets it
+  rulesSource          RulesSource  @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId        String       @map("rules_source_id") @db.Char(26)
+  effectiveDate        DateTime?    @map("effective_date") @db.Date
+  supersededDate       DateTime?    @map("superseded_date") @db.Date
+  createdAt            DateTime     @default(now()) @map("created_at")
+  updatedAt            DateTime?    @updatedAt @map("updated_at")
+
+  @@unique([rulesFactionUnitSlug])
+  @@unique([rulesFactionId, unitId, rulesSourceId])
+  @@index([unitId])
+  @@index([rulesSourceId])
+  @@map("rules_faction_units")
+}
+
+/// what: an edition/source-specific stat profile for a unit or one model within a unit
+/// why: datasheet profiles can change by edition, source, and effective date
+/// example: an Intercessor Sergeant profile in Codex: Space Marines
+model UnitProfile {
+  id               String            @id @default(ulid()) @db.Char(26)
+  unitProfileSlug  String            @unique @map("unit_profile_slug")
+  unitProfileName  String            @map("unit_profile_name")
+  gameEdition      GameEdition       @relation(fields: [gameEditionId], references: [id])
+  gameEditionId    String            @map("game_edition_id") @db.Char(26)
+  unit             Unit              @relation(fields: [unitId], references: [id])
+  unitId           String            @map("unit_id") @db.Char(26)
+  model            Model?            @relation(fields: [modelId], references: [id])
+  modelId          String?           @map("model_id") @db.Char(26) /// null when this profile applies to the unit as a whole
+  rulesSource      RulesSource       @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId    String            @map("rules_source_id") @db.Char(26)
+  unitProfileStats UnitProfileStat[]
+  effectiveDate    DateTime?         @map("effective_date") @db.Date
+  supersededDate   DateTime?         @map("superseded_date") @db.Date
+  createdAt        DateTime          @default(now()) @map("created_at")
+  updatedAt        DateTime?         @updatedAt @map("updated_at")
+
+  @@index([gameEditionId, unitId, effectiveDate])
+  @@index([modelId])
+  @@index([rulesSourceId])
+  @@map("unit_profiles")
+}
+
+/// what: one key/value stat row for a unit profile
+/// why: stat lines vary across editions, so flexible keys support movement, toughness, save, strength, and other edition-specific stats
+/// example: movement = 6" or objective_control = 2
+model UnitProfileStat {
+  id            String      @id @default(ulid()) @db.Char(26)
+  unitProfile   UnitProfile @relation(fields: [unitProfileId], references: [id])
+  unitProfileId String      @map("unit_profile_id") @db.Char(26)
+  statKey       String      @map("stat_key") /// example: Move became a separate value in 8th edition; Strength stopped being a unit stat in 10th edition
+  statValue     String      @map("stat_value") /// stored as text because stat formats vary by edition, e.g. 6", 3+, or 2
+  createdAt     DateTime    @default(now()) @map("created_at")
+  updatedAt     DateTime?   @updatedAt @map("updated_at")
+
+  @@unique([unitProfileId, statKey])
+  @@map("unit_profile_stats")
+}
+
+/// what: an edition/source-specific points cost for a unit at a model-count range
+/// why: points change over time and often vary by unit size
+/// example: Intercessor Squad at 5 models costing 80 points from a Munitorum Field Manual
+model UnitPointCost {
+  id                String               @id @default(ulid()) @db.Char(26)
+  unitPointCostSlug String               @unique @map("unit_point_cost_slug")
+  gameEdition       GameEdition          @relation(fields: [gameEditionId], references: [id])
+  gameEditionId     String               @map("game_edition_id") @db.Char(26)
+  unit              Unit                 @relation(fields: [unitId], references: [id])
+  unitId            String               @map("unit_id") @db.Char(26)
+  rulesSource       RulesSource          @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId     String               @map("rules_source_id") @db.Char(26)
+  minimumModelCount Int                  @map("minimum_model_count") /// a blightlord terminators unit has breakpoints at 3-4 models, 5-9 models, and 10 models
+  maximumModelCount Int                  @map("maximum_model_count") /// so blightlord maximum model counts would be 4, 9, 10 in the above example
+  unitPoints        Int                  @map("unit_points") /// blightlords: 115 pts for 3-4 models; 185 points for 5-9 models; 370 points for 10 models
+  effectiveDate     DateTime             @map("effective_date") @db.Date /// points for a unit change constantly, usually through MFMs within an edition
+  supersededDate    DateTime?            @map("superseded_date") @db.Date /// basically allowing auditing on old/previous points costs for a unit
+  armyListUnits     PlayerArmyListUnit[]
+  createdAt         DateTime             @default(now()) @map("created_at")
+  updatedAt         DateTime?            @updatedAt @map("updated_at")
+
+  @@index([gameEditionId, unitId, effectiveDate])
+  @@index([rulesSourceId])
+  @@map("unit_point_costs")
+}
+
+/// what: a canonical datasheet keyword such as Infantry, Epic Hero, Battleline, Imperium, or Adeptus Astartes
+/// why: keywords drive list validation, faction identity, leader eligibility, and detachment-specific overrides
+/// example: Battleline as a UNIT keyword, Ultramarines as a FACTION keyword, Psyker as a MODEL keyword
+model Keyword {
+  id                        String                     @id @default(ulid()) @db.Char(26)
+  keywordSlug               String                     @unique @map("keyword_slug")
+  keywordName               String                     @map("keyword_name")
+  keywordType               KeywordType                @map("keyword_type") /// UNIT/FACTION/MODEL are datasheet keywords; RULES keywords drive validation such as Battleline limits
+  unitKeywords              UnitKeyword[]
+  detachmentUnitKeywords    DetachmentUnitKeyword[]
+  unitSelectionLimits       UnitSelectionLimit[]
+  leaderEligibilityKeywords LeaderEligibilityKeyword[]
+  createdAt                 DateTime                   @default(now()) @map("created_at")
+  updatedAt                 DateTime?                  @updatedAt @map("updated_at")
+
+  @@index([keywordType])
+  @@map("keywords")
+}
+
+/// what: assigns an edition/source-specific keyword to a unit, optionally scoped to a specific model in that unit
+/// why: 10th edition keywords can apply to the whole unit or to only one named model, such as Dainal Kornelius gaining Psyker
+/// example: Wardens of Ultramar get Infantry and Epic Hero at unit scope, while Dainal Kornelius gets Psyker at model scope
+model UnitKeyword {
+  id             String      @id @default(ulid()) @db.Char(26)
+  unit           Unit        @relation(fields: [unitId], references: [id])
+  unitId         String      @map("unit_id") @db.Char(26)
+  keyword        Keyword     @relation(fields: [keywordId], references: [id])
+  keywordId      String      @map("keyword_id") @db.Char(26)
+  model          Model?      @relation(fields: [modelId], references: [id])
+  modelId        String?     @map("model_id") @db.Char(26) /// null when the keyword applies to every model in the unit
+  gameEdition    GameEdition @relation(fields: [gameEditionId], references: [id])
+  gameEditionId  String      @map("game_edition_id") @db.Char(26)
+  rulesSource    RulesSource @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId  String      @map("rules_source_id") @db.Char(26)
+  effectiveDate  DateTime?   @map("effective_date") @db.Date
+  supersededDate DateTime?   @map("superseded_date") @db.Date
+  createdAt      DateTime    @default(now()) @map("created_at")
+  updatedAt      DateTime?   @updatedAt @map("updated_at")
+
+  @@unique([unitId, keywordId, modelId, gameEditionId, rulesSourceId])
+  @@index([keywordId])
+  @@index([modelId])
+  @@index([gameEditionId])
+  @@index([rulesSourceId])
+  @@map("unit_keywords")
+}
+
+/// what: grants a keyword to a unit only when a specific detachment is selected
+/// why: some detachments make non-battleline units count as Battleline for list construction
+/// example: an Ork detachment granting Battleline to Warbikes
+model DetachmentUnitKeyword {
+  id             String     @id @default(ulid()) @db.Char(26)
+  detachment     Detachment @relation(fields: [detachmentId], references: [id])
+  detachmentId   String     @map("detachment_id") @db.Char(26)
+  unit           Unit       @relation(fields: [unitId], references: [id])
+  unitId         String     @map("unit_id") @db.Char(26)
+  keyword        Keyword    @relation(fields: [keywordId], references: [id])
+  keywordId      String     @map("keyword_id") @db.Char(26) /// keyword granted only while this detachment applies
+  effectiveDate  DateTime?  @map("effective_date") @db.Date /// first date this detachment keyword override is valid
+  supersededDate DateTime?  @map("superseded_date") @db.Date /// null means this override is still current
+  createdAt      DateTime   @default(now()) @map("created_at")
+  updatedAt      DateTime?  @updatedAt @map("updated_at")
+
+  @@unique([detachmentId, unitId, keywordId])
+  @@index([unitId])
+  @@index([keywordId])
+  @@map("detachment_unit_keywords")
+}
+
+/// what: defines how many times a unit category may be selected for a specific edition and game size
+/// why: 10th edition repeats differ by game size and by whether the unit is Epic, Battleline, or Other
+/// example: 10th edition Strike Force uses EPIC = 1, BATTLELINE = 6, OTHER = 3
+model UnitSelectionLimit {
+  id            String                 @id @default(ulid()) @db.Char(26)
+  gameEdition   GameEdition            @relation(fields: [gameEditionId], references: [id])
+  gameEditionId String                 @map("game_edition_id") @db.Char(26)
+  gameSize      GameSize               @relation(fields: [gameSizeId], references: [id])
+  gameSizeId    String                 @map("game_size_id") @db.Char(26)
+  keyword       Keyword?               @relation(fields: [keywordId], references: [id])
+  keywordId     String?                @map("keyword_id") @db.Char(26) /// optional keyword that triggers this limit, e.g. Epic Hero or Battleline
+  limitKind     UnitSelectionLimitKind @map("limit_kind") /// EPIC means units with Epic Hero keyword; BATTLELINE means effective Battleline keyword; OTHER is the fallback cap
+  maxInstances  Int                    @map("max_instances") /// maximum repeated instances of the same unit in a list
+  createdAt     DateTime               @default(now()) @map("created_at")
+  updatedAt     DateTime?              @updatedAt @map("updated_at")
+
+  @@unique([gameEditionId, gameSizeId, limitKind])
+  @@index([gameSizeId])
+  @@index([keywordId])
+  @@map("unit_selection_limits")
+}
+
+/// what: a physical model identity that can be fielded in units, included in kits, or owned in a collection
+/// why: collections and kit contents need model-level tracking rather than only unit-level tracking
+/// example: Intercessor Sergeant, Blightlord Terminator, Huron Blackheart, or Dainal Kornelius
+model Model {
+  id                     String                  @id @default(ulid()) @db.Char(26)
+  modelSlug              String                  @unique @map("model_slug")
+  modelName              String                  @map("model_name")
+  unitProfiles           UnitProfile[]
+  unitModels             UnitModel[]
+  unitKeywords           UnitKeyword[]
+  kitModels              KitModel[]
+  playerCollectionModels PlayerCollectionModel[]
+  createdAt              DateTime                @default(now()) @map("created_at")
+  updatedAt              DateTime?               @updatedAt @map("updated_at")
+
+  @@map("models")
+}
+
+/// what: a composition rule connecting a unit to one model type and allowed counts
+/// why: units can contain multiple model identities with minimum and maximum counts
+/// example: an Intercessor Squad requires one Intercessor Sergeant and four to nine Intercessors
+model UnitModel {
+  id                String    @id @default(ulid()) @db.Char(26)
+  unit              Unit      @relation(fields: [unitId], references: [id])
+  unitId            String    @map("unit_id") @db.Char(26)
+  model             Model     @relation(fields: [modelId], references: [id])
+  modelId           String    @map("model_id") @db.Char(26)
+  minimumModelCount Int       @map("minimum_model_count") /// minimum number of this model identity required in the unit
+  maximumModelCount Int       @map("maximum_model_count") /// maximum number of this model identity allowed in the unit
+  effectiveDate     DateTime? @map("effective_date") @db.Date /// first date this composition rule is valid
+  supersededDate    DateTime? @map("superseded_date") @db.Date /// null means this composition rule is still current
+  createdAt         DateTime  @default(now()) @map("created_at")
+  updatedAt         DateTime? @updatedAt @map("updated_at")
+
+  @@unique([unitId, modelId])
+  @@index([modelId])
+  @@map("unit_models")
+}
+
+/// what: a category for commercial miniature packaging
+/// why: kit type supports purchase filters, pricing assumptions, and bundle handling
+/// example: combat patrol, battleforce, game edition launch box, codex launch box, duel box, , unit, or character + unit
+/// example[character + unit]: Huron Blackheart and the Masters of the Maelstrom; Captain Titus and the Wardens of Ultramar
+/// example[duel box]: Blood of the Phoenix, which contained Jain Zar, Howling Banshees, a Wave Serpent, a Vyper, Drazhar, Incubi, Hellions, a Venom, and Scourges
+model KitType {
+  id               String    @id @default(ulid()) @db.Char(26)
+  kitTypeSlug      String    @unique @map("kit_type_slug")
+  kitTypeName      String    @map("kit_type_name")
+  multiUnit        Boolean   @map("multi_unit") /// true when the kit normally contains models for more than one unit
+  numberOfFactions Int       @map("number_of_factions") /// number of represented factions, useful for duel boxes and launch boxes
+  kits             Kit[]
+  createdAt        DateTime  @default(now()) @map("created_at")
+  updatedAt        DateTime? @updatedAt @map("updated_at")
+
+  @@map("kit_types")
+}
+
+/// what: a purchasable product that contains one or more physical models
+/// why: army cost estimation compares missing models against available retail kits
+/// example: Captain Titus and the Wardens of Ultramar
+model Kit {
+  id                      String                   @id @default(ulid()) @db.Char(26)
+  kitSlug                 String                   @unique @map("kit_slug")
+  kitName                 String                   @map("kit_name")
+  gwSlug                  String?                  @map("gw_slug") /// Games Workshop product URL slug, often including a release year
+  displayName             String                   @map("display_name") /// user-facing product label shown in calculator and purchase flows
+  gwShortSlug             String?                  @map("gw_short_slug") /// shorter Games Workshop slug without release-year suffix when available
+  gwYear                  Int?                     @map("gw_year") /// release or product-page year parsed from Games Workshop data when available
+  modelCount              Int                      @map("model_count") /// total physical model count in the boxed product
+  kitType                 KitType                  @relation(fields: [kitTypeId], references: [id])
+  kitTypeId               String                   @map("kit_type_id") @db.Char(26)
+  gwProductUrl            String?                  @map("gw_product_url") /// source product page used for purchase links and price attribution
+  gwImageUrl              String?                  @map("gw_image_url") /// source image URL used for display and future product matching
+  releaseDate             DateTime?                @map("release_date") @db.Date
+  discontinuedDate        DateTime?                @map("discontinued_date") @db.Date
+  kitModels               KitModel[]
+  kitUnits                KitUnit[]
+  kitUnitPriceAllocations KitUnitPriceAllocation[]
+  kitPrices               KitPrice[]
+  createdAt               DateTime                 @default(now()) @map("created_at")
+  updatedAt               DateTime?                @updatedAt @map("updated_at")
+
+  @@index([kitTypeId])
+  @@map("kits")
+}
+
+/// what: a join between a kit and one model identity included in that kit
+/// why: kit contents power collection matching and purchase recommendations
+/// example: a Blightlord Terminators kit containing one Blightlord Champion and four Blightlord Terminators
+model KitModel {
+  id         String    @id @default(ulid()) @db.Char(26)
+  kit        Kit       @relation(fields: [kitId], references: [id])
+  kitId      String    @map("kit_id") @db.Char(26)
+  model      Model     @relation(fields: [modelId], references: [id])
+  modelId    String    @map("model_id") @db.Char(26)
+  modelCount Int       @map("model_count")
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime? @updatedAt @map("updated_at")
+
+  @@unique([kitId, modelId])
+  @@index([modelId])
+  @@map("kit_models")
+}
+
+/// what: a join between a purchasable kit and a game unit that kit can satisfy
+/// why: purchase recommendations need unit-level kit satisfaction beyond physical model contents
+/// example: a combined character-and-squad kit satisfying both a character unit and a squad unit
+model KitUnit {
+  id             String               @id @default(ulid()) @db.Char(26)
+  kit            Kit                  @relation(fields: [kitId], references: [id])
+  kitId          String               @map("kit_id") @db.Char(26)
+  unit           Unit                 @relation(fields: [unitId], references: [id])
+  unitId         String               @map("unit_id") @db.Char(26)
+  unitCount      Int                  @map("unit_count")
+  modelCount     Int                  @map("model_count")
+  componentType  KitUnitComponentType @map("component_type")
+  effectiveDate  DateTime?            @map("effective_date") @db.Date
+  supersededDate DateTime?            @map("superseded_date") @db.Date
+  createdAt      DateTime             @default(now()) @map("created_at")
+  updatedAt      DateTime?            @updatedAt @map("updated_at")
+
+  @@unique([kitId, unitId, componentType])
+  @@index([unitId])
+  @@map("kit_units")
+}
+
+/// what: allocation metadata for assigning a kit's observed price across satisfied units
+/// why: multi-unit kits need explainable per-unit value estimates without replacing kit-level prices
+/// example: assigning 42.10526 percent of a bundle price to the included character unit
+model KitUnitPriceAllocation {
+  id                String                      @id @default(ulid()) @db.Char(26)
+  kit               Kit                         @relation(fields: [kitId], references: [id])
+  kitId             String                      @map("kit_id") @db.Char(26)
+  unit              Unit                        @relation(fields: [unitId], references: [id])
+  unitId            String                      @map("unit_id") @db.Char(26)
+  allocationRatio   Decimal                     @map("allocation_ratio") @db.Decimal(10, 7) // 7 decimal places for allocation ratio precision (e.g. 0.4210526)
+  referencePrice    Decimal?                    @map("reference_price") @db.Decimal(10, 2)
+  referenceCurrency String?                     @map("reference_currency") @db.VarChar(3)
+  allocationBasis   KitUnitPriceAllocationBasis @map("allocation_basis")
+  effectiveDate     DateTime?                   @map("effective_date") @db.Date
+  supersededDate    DateTime?                   @map("superseded_date") @db.Date
+  createdAt         DateTime                    @default(now()) @map("created_at")
+  updatedAt         DateTime?                   @updatedAt @map("updated_at")
+
+  @@unique([kitId, unitId, allocationBasis])
+  @@index([unitId])
+  @@map("kit_unit_price_allocations")
+}
+
+/// what: a price observation for a kit in one currency and source
+/// why: kit pricing changes by region and over time
+/// example: a Games Workshop USD price observed for a Blightlord Terminators kit
+model KitPrice {
+  id             String    @id @default(ulid()) @db.Char(26)
+  kit            Kit       @relation(fields: [kitId], references: [id])
+  kitId          String    @map("kit_id") @db.Char(26)
+  currency       String  @db.VarChar(3) /// lower-case ISO-style currency code, e.g. usd, gbp, eur
+  price          Decimal   @db.Decimal(10, 2) /// exact numeric amount in the listed currency
+  priceSource    String?   @map("price_source") /// human-readable source label, e.g. Games Workshop US
+  priceSourceUrl String?   @map("price_source_url") /// URL where this price was observed
+  observedDate   DateTime? @map("observed_date") @db.Date /// date this price was captured
+  supersededDate DateTime? @map("superseded_date") @db.Date /// null means this is the latest known price for the source
+  createdAt      DateTime  @default(now()) @map("created_at")
+  updatedAt      DateTime? @updatedAt @map("updated_at")
+
+  @@index([kitId, currency, priceSource])
+  @@map("kit_prices")
+}
+
+/// what: a reusable datasheet ability definition
+/// why: abilities like Leader, Assigned Agents, Power of the Rosette, and Blessed Wardings need consistent names and categories
+/// example: Leader as CORE, Assigned Agents as FACTION, Blessed Wardings as WARGEAR
+model Ability {
+  id            String        @id @default(ulid()) @db.Char(26)
+  abilitySlug   String        @unique @map("ability_slug")
+  abilityName   String        @map("ability_name")
+  abilityType   AbilityType   @map("ability_type") /// broad category printed on the datasheet or assigned by import normalization
+  unitAbilities UnitAbility[]
+  createdAt     DateTime      @default(now()) @map("created_at")
+  updatedAt     DateTime?     @updatedAt @map("updated_at")
+
+  @@index([abilityType])
+  @@map("abilities")
+}
+
+/// what: assigns an ability and its rules text to a unit for a specific edition/source
+/// why: the same ability label can appear on many units while the rules text can vary by datasheet or source
+/// example: Inquisitor has CORE Leader, FACTION Assigned Agents, and WARGEAR Psychic Gifts
+model UnitAbility {
+  id             String      @id @default(ulid()) @db.Char(26)
+  unit           Unit        @relation(fields: [unitId], references: [id])
+  unitId         String      @map("unit_id") @db.Char(26)
+  ability        Ability     @relation(fields: [abilityId], references: [id])
+  abilityId      String      @map("ability_id") @db.Char(26)
+  gameEdition    GameEdition @relation(fields: [gameEditionId], references: [id])
+  gameEditionId  String      @map("game_edition_id") @db.Char(26)
+  rulesSource    RulesSource @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId  String      @map("rules_source_id") @db.Char(26)
+  rulesText      String      @map("rules_text") /// source text for this unit's ability in the relevant edition/source
+  effectiveDate  DateTime?   @map("effective_date") @db.Date
+  supersededDate DateTime?   @map("superseded_date") @db.Date
+  createdAt      DateTime    @default(now()) @map("created_at")
+  updatedAt      DateTime?   @updatedAt @map("updated_at")
+
+  @@unique([unitId, abilityId, gameEditionId, rulesSourceId])
+  @@index([abilityId])
+  @@index([gameEditionId])
+  @@index([rulesSourceId])
+  @@map("unit_abilities")
+}
+
+/// what: declares that a leader unit can attach to either an exact target unit or units matching required keywords
+/// why: Leader eligibility can name specific units and broader predicates like IMPERIUM BATTLELINE INFANTRY
+/// example: Inquisitor can lead Exaction Squad directly or any unit with Imperium, Battleline, and Infantry keywords
+model LeaderEligibility {
+  id               String                     @id @default(ulid()) @db.Char(26)
+  leaderUnit       Unit                       @relation("LeaderUnit", fields: [leaderUnitId], references: [id])
+  leaderUnitId     String                     @map("leader_unit_id") @db.Char(26)
+  targetUnit       Unit?                      @relation("LeaderTargetUnit", fields: [targetUnitId], references: [id])
+  targetUnitId     String?                    @map("target_unit_id") @db.Char(26) /// null when eligibility is expressed by required keywords instead of exact unit
+  gameEdition      GameEdition                @relation(fields: [gameEditionId], references: [id])
+  gameEditionId    String                     @map("game_edition_id") @db.Char(26)
+  rulesSource      RulesSource                @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId    String                     @map("rules_source_id") @db.Char(26)
+  requiredKeywords LeaderEligibilityKeyword[]
+  createdAt        DateTime                   @default(now()) @map("created_at")
+  updatedAt        DateTime?                  @updatedAt @map("updated_at")
+
+  @@index([leaderUnitId])
+  @@index([targetUnitId])
+  @@index([gameEditionId])
+  @@index([rulesSourceId])
+  @@map("leader_eligibilities")
+}
+
+/// what: stores one required keyword for a predicate-based leader eligibility row
+/// why: multiple rows can express compound requirements such as Imperium plus Battleline plus Infantry
+/// example: Inquisitor eligibility for IMPERIUM BATTLELINE INFANTRY stores three required keyword rows
+model LeaderEligibilityKeyword {
+  id                  String            @id @default(ulid()) @db.Char(26)
+  leaderEligibility   LeaderEligibility @relation(fields: [leaderEligibilityId], references: [id])
+  leaderEligibilityId String            @map("leader_eligibility_id") @db.Char(26)
+  keyword             Keyword           @relation(fields: [keywordId], references: [id])
+  keywordId           String            @map("keyword_id") @db.Char(26) /// one keyword required on the unit being led
+  createdAt           DateTime          @default(now()) @map("created_at")
+  updatedAt           DateTime?         @updatedAt @map("updated_at")
+
+  @@unique([leaderEligibilityId, keywordId])
+  @@index([keywordId])
+  @@map("leader_eligibility_keywords")
+}
+
+/// what: a registered user who can save army lists and model collections
+/// why: player-owned data needs a stable owner for lists, collections, and future auth mapping
+/// example: a player account for gravetitan
+model Player {
+  id                String             @id @default(ulid()) @db.Char(26)
+  playerName        String             @map("player_name")
+  playerUsername    String             @unique @map("player_username")
+  playerArmyLists   PlayerArmyList[]
+  playerCollections PlayerCollection[]
+  createdAt         DateTime           @default(now()) @map("created_at")
+  updatedAt         DateTime?          @updatedAt @map("updated_at")
+
+  @@map("players")
+}
+
+/// what: a saved army list built for one player, faction, detachment, game edition, and game size
+/// why: lists need user-facing names plus rules and points snapshot metadata
+/// example: a 2,000 point Blood Angels Strike Force list named Sanguine Angels
+model PlayerArmyList {
+  id                      String               @id @default(ulid()) @db.Char(26)
+  playerArmyListSlug      String               @unique @map("player_army_list_slug")
+  player                  Player               @relation(fields: [playerId], references: [id])
+  playerId                String               @map("player_id") @db.Char(26)
+  rulesFaction            RulesFaction         @relation(fields: [rulesFactionId], references: [id])
+  rulesFactionId          String               @map("rules_faction_id") @db.Char(26)
+  detachment              Detachment           @relation(fields: [detachmentId], references: [id])
+  detachmentId            String               @map("detachment_id") @db.Char(26)
+  factionDisplayName      String               @map("faction_display_name")
+  listName                String               @map("list_name")
+  gameSize                GameSize             @relation(fields: [gameSizeId], references: [id])
+  gameSizeId              String               @map("game_size_id") @db.Char(26)
+  pointsLimit             Int                  @map("points_limit")
+  pointsTotal             Int                  @map("points_total")
+  gameEdition             GameEdition          @relation(fields: [gameEditionId], references: [id])
+  gameEditionId           String               @map("game_edition_id") @db.Char(26)
+  rulesAsOfDate           DateTime?            @map("rules_as_of_date") @db.Date /// rules snapshot date used for legality checks
+  pointsAsOfDate          DateTime?            @map("points_as_of_date") @db.Date /// points snapshot date used for cost calculation
+  lastRecalculationDate   DateTime?            @map("last_recalculation_date") @db.Date /// date when copied list points were last refreshed from current point-cost rows
+  lastRecalculationPoints Int?                 @map("last_recalculation_points")
+  units                   PlayerArmyListUnit[]
+  createdAt               DateTime             @default(now()) @map("created_at")
+  updatedAt               DateTime?            @updatedAt @map("updated_at")
+
+  @@index([playerId])
+  @@index([rulesFactionId])
+  @@index([detachmentId])
+  @@index([gameSizeId])
+  @@index([gameEditionId])
+  @@map("player_army_lists")
+}
+
+/// what: one selected unit instance inside a saved army list
+/// why: repeated units need separate rows for counts, display names, points snapshots, and future wargear choices
+/// example: Squad Raphael as a 10-model Intercessor Squad with copied points cost
+model PlayerArmyListUnit {
+  id                   String         @id @default(ulid()) @db.Char(26)
+  playerArmyList       PlayerArmyList @relation(fields: [playerArmyListId], references: [id])
+  playerArmyListId     String         @map("player_army_list_id") @db.Char(26)
+  unit                 Unit           @relation(fields: [unitId], references: [id])
+  unitId               String         @map("unit_id") @db.Char(26)
+  selectedModelCount   Int            @map("selected_model_count")
+  unitDisplayName      String         @map("unit_display_name")
+  unitPointCost        UnitPointCost  @relation(fields: [unitPointCostId], references: [id])
+  unitPointCostId      String         @map("unit_point_cost_id") @db.Char(26) /// source-of-truth point-cost row used when this list unit was calculated
+  copiedPointsCost     Int            @map("copied_points_cost") /// denormalized audit snapshot of the points shown when the list was last calculated
+  pointsSourceId       String?        @map("points_source_id") @db.Char(26) /// optional copied source attribution for explaining historical point values
+  pointsSource         RulesSource?   @relation("PlayerArmyListUnitPointsSource", fields: [pointsSourceId], references: [id])
+  pointsEffectiveDate  DateTime?      @map("points_effective_date") @db.Date
+  pointsSupersededDate DateTime?      @map("points_superseded_date") @db.Date
+  createdAt            DateTime       @default(now()) @map("created_at")
+  updatedAt            DateTime?      @updatedAt @map("updated_at")
+
+  @@index([playerArmyListId])
+  @@index([unitId])
+  @@index([unitPointCostId])
+  @@index([pointsSourceId])
+  @@map("player_army_list_units")
+}
+
+/// what: a named set of models owned by a player
+/// why: players may keep one large collection or multiple themed army collections
+/// example: Sanguine Angels or Death Guard Backlog
+model PlayerCollection {
+  id                     String                  @id @default(ulid()) @db.Char(26)
+  player                 Player                  @relation(fields: [playerId], references: [id])
+  playerId               String                  @map("player_id") @db.Char(26)
+  collectionSlug         String                  @unique @map("collection_slug")
+  collectionName         String                  @map("collection_name")
+  playerCollectionModels PlayerCollectionModel[]
+  createdAt              DateTime                @default(now()) @map("created_at")
+  updatedAt              DateTime?               @updatedAt @map("updated_at")
+
+  @@index([playerId])
+  @@map("player_collections")
+}
+
+/// what: one model identity and count inside a player collection
+/// why: collection matching needs owned model counts, optional faction assignment, and display names
+/// example: sixteen Intercessors assigned to a Blood Angels collection
+model PlayerCollectionModel {
+  id                 String           @id @default(ulid()) @db.Char(26)
+  playerCollection   PlayerCollection @relation(fields: [playerCollectionId], references: [id])
+  playerCollectionId String           @map("player_collection_id") @db.Char(26)
+  rulesFaction       RulesFaction?    @relation(fields: [rulesFactionId], references: [id])
+  rulesFactionId     String?          @map("rules_faction_id") @db.Char(26)
+  model              Model            @relation(fields: [modelId], references: [id])
+  modelId            String           @map("model_id") @db.Char(26)
+  modelDisplayName   String           @map("model_display_name")
+  modelCount         Int?             @map("model_count") /// null means owned quantity is unknown or not yet counted
+  createdAt          DateTime         @default(now()) @map("created_at")
+  updatedAt          DateTime?        @updatedAt @map("updated_at")
+
+  @@index([playerCollectionId])
+  @@index([rulesFactionId])
+  @@index([modelId])
+  @@map("player_collection_models")
+}
