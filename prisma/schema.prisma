@@ -767,7 +767,9 @@ model LeaderEligibilityKeyword {
 /// example: a player account for gravetitan
 model Player {
   id                String             @id @default(ulid()) @db.Char(26)
-  playerName        String             @map("player_name")
+  playerFirstName   String             @map("player_first_name")
+  playerLastName    String             @map("player_last_name")
+  playerSlug        String             @unique @map("player_slug")
   playerUsername    String             @unique @map("player_username")
   playerArmyLists   PlayerArmyList[]
   playerCollections PlayerCollection[]
