@@ -881,3 +881,35 @@ model PlayerCollectionModel {
   @@index([modelId])
   @@map("player_collection_models")
 }
+
+
+/// what: just a countries list, with a bunch of fun data to play with
+/// why: mainly for default currency, stuff like that, but also for some fun features
+model Country {
+  cca2                String      @id @db.Char(2) // ISO 3166-1 alpha-2 - the natural stable key
+  cca3                String      @unique @db.Char(3)
+  ccn3                String?     @db.Char(3)
+  nameCommon          String      @map("name_common")
+  nameOfficial        String      @map("name_official")
+  nameNative          Json?       @map("name_native")
+  unMember            Boolean     @map("un_member")
+  region              String
+  subregion           String?
+  continents          String[]
+  tld                 String[]
+  timezones           String[]
+  flag                Json
+  population          Int
+  currencies          Json  // { USD: { name, symbol } }
+  languages           Json  // { eng: "English" }
+  car                 Json  // { signs: [...], side: "left" }
+  postalCode          Json?     @map("postal_code") // { format, regex } - not all countries have one
+  latlng              Float[] // [lat, lng]
+  government          Json?
+  gdp                 Json?
+  hdi                 Decimal?
+  createdAt           DateTime  @default(now()) @map("created_at")
+  updatedAt           DateTime?  @updatedAt      @map("updated_at")
+
+  @@map("countries")
+}
