@@ -1,0 +1,40 @@
+# Faction slug-to-name mappings and canonical slug rewrites.
+
+ten_e_codex_factions:
+  adepta_sororitas: "Adepta Sororitas"
+  adeptus_custodes: "Adeptus Custodes"
+  adeptus_mechanicus: "Adeptus Mechanicus"
+  aeldari: "Aeldari"
+  astra_militarum: "Astra Militarum"
+  chaos_knights: "Chaos Knights"
+  chaos_space_marines: "Chaos Space Marines"
+  drukhari: "Drukhari"
+  emperors_children: "Emperor's Children"
+  genestealer_cults: "Genestealer Cults"
+  grey_knights: "Grey Knights"
+  imperial_agents: "Imperial Agents"
+  imperial_knights: "Imperial Knights"
+  leagues_of_votann: "Leagues of Votann"
+  necrons: "Necrons"
+  orks: "Orks"
+  space_marines: "Space Marines"
+  tau_empire: "T'au Empire"
+  thousand_sons: "Thousand Sons"
+  tyranids: "Tyranids"
+
+space_marine_codex_supplements:
+  black_templars: "Black Templars"
+  blood_angels: "Blood Angels"
+  dark_angels: "Dark Angels"
+  space_wolves: "Space Wolves"
+
+space_marine_chapter_source_names:
+  black_templars: "Black Templars"
+  blood_angels: "Blood Angels"
+  dark_angels: "Dark Angels"
+  deathwatch: "Deathwatch"
+  space_wolves: "Space Wolves"
+
+canonical_rules_faction_slugs:
+  emperor_s_children: emperors_children
+  t_au_empire: tau_empire

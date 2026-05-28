@@ -19,74 +19,38 @@ from .common import (
     read_json,
     write_json,
 )
+from .data.loaders import (
+    ability_types as _load_ability_types,
+    canonical_ability_aliases as _load_canonical_ability_aliases,
+    canonical_rules_faction_slugs as _load_canonical_rules_faction_slugs,
+    canonical_rules_source_slugs as _load_canonical_rules_source_slugs,
+    excluded_ability_slugs as _load_excluded_ability_slugs,
+    faction_keyword_slugs as _load_faction_keyword_slugs,
+    rule_keyword_slugs as _load_rule_keyword_slugs,
+    space_marine_chapter_source_names as _load_space_marine_chapter_source_names,
+    space_marine_codex_supplements as _load_space_marine_codex_supplements,
+    ten_e_codex_factions as _load_ten_e_codex_factions,
+)
+from .normalizers.rules_sources import (
+    _canonical_rules_faction_slug,
+    _classify_rules_source_type,
+    _rules_faction_slug_for_source,
+    _rules_faction_source_semantics,
+    _rules_source_name,
+    _rules_source_slug,
+    _rules_source_version_slug,
+)
 
-ABILITY_TYPES = {"core", "faction", "datasheet", "wargear", "other"}
-RULE_KEYWORD_SLUGS = {"battleline", "dedicated_transport", "epic_hero"}
-FACTION_KEYWORD_SLUGS = {
-    "aeldari",
-    "adeptus_astartes",
-    "chaos",
-    "imperium",
-    "orks",
-    "tyranids",
-}
-
-EXCLUDED_ABILITY_SLUGS = {
-    "designers_note",
-    "designer_note",
-}
-
-CANONICAL_ABILITY_ALIASES = {
-    "cherubs": "cherub",
-}
-
-TEN_E_CODEX_FACTIONS = {
-    "adepta_sororitas": "Adepta Sororitas",
-    "adeptus_custodes": "Adeptus Custodes",
-    "adeptus_mechanicus": "Adeptus Mechanicus",
-    "aeldari": "Aeldari",
-    "astra_militarum": "Astra Militarum",
-    "chaos_knights": "Chaos Knights",
-    "chaos_space_marines": "Chaos Space Marines",
-    "drukhari": "Drukhari",
-    "emperors_children": "Emperor's Children",
-    "genestealer_cults": "Genestealer Cults",
-    "grey_knights": "Grey Knights",
-    "imperial_agents": "Imperial Agents",
-    "imperial_knights": "Imperial Knights",
-    "leagues_of_votann": "Leagues of Votann",
-    "necrons": "Necrons",
-    "orks": "Orks",
-    "space_marines": "Space Marines",
-    "tau_empire": "T'au Empire",
-    "thousand_sons": "Thousand Sons",
-    "tyranids": "Tyranids",
-}
-
-SPACE_MARINE_CODEX_SUPPLEMENTS = {
-    "black_templars": "Black Templars",
-    "blood_angels": "Blood Angels",
-    "dark_angels": "Dark Angels",
-    "space_wolves": "Space Wolves",
-}
-
-SPACE_MARINE_CHAPTER_SOURCE_NAMES = {
-    "black_templars": "Black Templars",
-    "blood_angels": "Blood Angels",
-    "dark_angels": "Dark Angels",
-    "deathwatch": "Deathwatch",
-    "space_wolves": "Space Wolves",
-}
-
-CANONICAL_RULES_FACTION_SLUGS = {
-    "emperor_s_children": "emperors_children",
-    "t_au_empire": "tau_empire",
-}
-
-CANONICAL_RULES_SOURCE_SLUGS = {
-    "faction_pack_adeptus_titanicus_10e_v1_0": "faction_pack_adeptus_titanicus_forge_world_10e_v1_0",
-    "codex_unaligned_forces_10e": "legends_unaligned_forces_10e",
-}
+ABILITY_TYPES: set[str] = _load_ability_types()
+RULE_KEYWORD_SLUGS: set[str] = _load_rule_keyword_slugs()
+FACTION_KEYWORD_SLUGS: set[str] = _load_faction_keyword_slugs()
+EXCLUDED_ABILITY_SLUGS: set[str] = _load_excluded_ability_slugs()
+CANONICAL_ABILITY_ALIASES: dict[str, str] = _load_canonical_ability_aliases()
+TEN_E_CODEX_FACTIONS: dict[str, str] = _load_ten_e_codex_factions()
+SPACE_MARINE_CODEX_SUPPLEMENTS: dict[str, str] = _load_space_marine_codex_supplements()
+SPACE_MARINE_CHAPTER_SOURCE_NAMES: dict[str, str] = _load_space_marine_chapter_source_names()
+CANONICAL_RULES_FACTION_SLUGS: dict[str, str] = _load_canonical_rules_faction_slugs()
+CANONICAL_RULES_SOURCE_SLUGS: dict[str, str] = _load_canonical_rules_source_slugs()
 
 
 @dataclass(frozen=True)
@@ -223,8 +187,8 @@ class KitUnitPriceAllocationCandidate:
     kit_unit_price_allocation_slug: str
     kit_slug: str
     unit_slug: str
-    allocation_ratio: str
-    reference_price: str | None
+    allocation_ratio: float
+    reference_price: float | None
     reference_currency: str | None
     allocation_basis: str
     effective_date: str | None
@@ -399,9 +363,9 @@ def _extract_kit_unit_price_allocations(
                 kit_unit_price_allocation_slug=allocation_slug,
                 kit_slug=kit_slug,
                 unit_slug=unit_slug,
-                allocation_ratio=str(item["allocation_ratio"]),
+                allocation_ratio=float(item["allocation_ratio"]),
                 reference_price=(
-                    None if item.get("reference_price") is None else str(item["reference_price"])
+                    None if item.get("reference_price") is None else float(item["reference_price"])
                 ),
                 reference_currency=(
                     None if reference_currency is None else str(reference_currency).strip().lower()
@@ -1048,100 +1012,6 @@ def _add_inferred_faction_source(
         ),
     )
 
-
-def _classify_rules_source_type(book_name: str, kind: str, source_url: str | None) -> str:
-    value = normalize_slug(" ".join(part for part in [book_name, kind, source_url or ""] if part))
-    if "munitorum_field_manual" in value:
-        return "munitorum_field_manual"
-    if "balance_dataslate" in value:
-        return "balance_dataslate"
-    if "legends" in value or "warhammer_legends" in value:
-        return "legends"
-    if normalize_slug(kind) == "white_dwarf":
-        return "white_dwarf"
-    if normalize_slug(kind) == "boxset":
-        return "boxset"
-    if "combat_patrol" in value:
-        return "combat_patrol"
-    if "faction_pack" in value or normalize_slug(kind) == "faction_pack":
-        return "faction_pack"
-    if "chapter_approved_tournament_companion" in value:
-        return "chapter_approved_tournament_companion"
-    if normalize_slug(kind) == "codex_supplement":
-        return "codex_supplement"
-    if normalize_slug(kind) == "codex":
-        return "codex"
-    if normalize_slug(kind) in {"expansion", "campaign_book"}:
-        return normalize_slug(kind)
-    if normalize_slug(kind) == "rulebook":
-        return "online"
-    return "other"
-
-
-def _rules_faction_slug_for_source(
-    candidate: RulesSourceCandidate, default_rules_faction_slug: str | None
-) -> str | None:
-    source_name_slug = normalize_slug(candidate.source_book_name)
-    if candidate.rules_source_type in {"faction_pack", "codex_supplement", "legends"}:
-        for chapter_slug, chapter_name in SPACE_MARINE_CHAPTER_SOURCE_NAMES.items():
-            if source_name_slug == normalize_slug(chapter_name) or source_name_slug.endswith(
-                f"_{chapter_slug}"
-            ):
-                return _canonical_rules_faction_slug(chapter_slug)
-    return _canonical_rules_faction_slug(default_rules_faction_slug)
-
-
-def _canonical_rules_faction_slug(slug: str | None) -> str | None:
-    if slug is None:
-        return None
-    return CANONICAL_RULES_FACTION_SLUGS.get(slug, slug)
-
-
-def _rules_source_slug(
-    *, source_type: str, book_name: str, edition: str, version_slug: str | None
-) -> str:
-    edition_part = edition
-    name_slug = normalize_slug(book_name)
-    if source_type in {"balance_dataslate", "munitorum_field_manual"}:
-        base = f"{source_type}_{edition_part}"
-    elif name_slug.startswith(source_type):
-        base = f"{name_slug}_{edition_part}"
-    else:
-        base = f"{source_type}_{name_slug}_{edition_part}"
-    return f"{base}_{version_slug}" if version_slug else base
-
-
-def _rules_source_name(*, source_type: str, book_name: str) -> str:
-    if source_type == "faction_pack":
-        return f"Faction Pack: {book_name}"
-    return book_name
-
-
-def _rules_source_version_slug(version: str | None) -> str | None:
-    if not version:
-        return None
-    version_slug = normalize_slug(version)
-    if re.match(r"^\d", version_slug):
-        return f"v{version_slug}"
-    return version_slug
-
-
-def _rules_faction_source_semantics(candidate: RulesSourceCandidate) -> tuple[str, str]:
-    if candidate.rules_source_type == "munitorum_field_manual":
-        return "points", "global"
-    if candidate.rules_source_type == "balance_dataslate":
-        return "errata_faq", "global"
-    if candidate.rules_source_type == "chapter_approved_tournament_companion":
-        return "base_sizes", "global"
-    if candidate.rules_source_type == "combat_patrol":
-        return "combat_patrol", "exclusive"
-    if candidate.rules_source_type in {"faction_pack", "codex_supplement"}:
-        return "errata_faq", "exclusive"
-    if candidate.rules_source_type in {"expansion", "campaign_book"}:
-        return "supplement", "global"
-    if candidate.rules_source_type == "codex":
-        return "primary", "exclusive"
-    return "supplement", "exclusive"
 
 
 def _edition_slug_from_number(value: str) -> str:

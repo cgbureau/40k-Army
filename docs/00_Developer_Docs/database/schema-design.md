@@ -407,10 +407,10 @@ army list validation and user-facing list filters.
 Players are registered users who can save army lists, pricing calculator lists,
 and collections.
 
-| id  | player_name  | player_username |
-| --- | ------------ | --------------- |
-| 1   | Mike Earley  | gravetitan      |
-| 2   | George Brown | georgebrown     |
+| id  | player_first_name | player_last_name | player_slug  | player_username |
+| --- | ----------------- | ---------------- | ------------ | --------------- |
+| 1   | Mike              | Earley           | mike-earley  | gravetitan      |
+| 2   | George            | Brown            | george-brown | georgebrown     |
 
 ### Player Army Lists
 
