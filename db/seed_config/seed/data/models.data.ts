@@ -54,6 +54,12 @@ export const AegisDefenceLineModel: ModelConfig = {
   model_name: "Aegis Defence Line",
 };
 
+export const AggressorSergeantModel: ModelConfig = {
+  id: modelId("aggressor_sergeant"),
+  model_slug: "aggressor_sergeant",
+  model_name: "Aggressor Sergeant",
+};
+
 export const AlluressModel: ModelConfig = {
   id: modelId("alluress"),
   model_slug: "alluress",
@@ -66,10 +72,46 @@ export const AnathemaPsykanaRhinoModel: ModelConfig = {
   model_name: "Anathema Psykana Rhino",
 };
 
+export const AncientModel: ModelConfig = {
+  id: modelId("ancient"),
+  model_slug: "ancient",
+  model_name: "Ancient",
+};
+
+export const AncientInTerminatorArmourModel: ModelConfig = {
+  id: modelId("ancient_in_terminator_armour"),
+  model_slug: "ancient_in_terminator_armour",
+  model_name: "Ancient in Terminator Armour",
+};
+
+export const AncientOnBikeModel: ModelConfig = {
+  id: modelId("ancient_on_bike"),
+  model_slug: "ancient_on_bike",
+  model_name: "Ancient on Bike",
+};
+
 export const AnnihilationBargeModel: ModelConfig = {
   id: modelId("annihilation_barge"),
   model_slug: "annihilation_barge",
   model_name: "Annihilation Barge",
+};
+
+export const ApothecaryModel: ModelConfig = {
+  id: modelId("apothecary"),
+  model_slug: "apothecary",
+  model_name: "Apothecary",
+};
+
+export const ApothecaryBiologisModel: ModelConfig = {
+  id: modelId("apothecary_biologis"),
+  model_slug: "apothecary_biologis",
+  model_name: "Apothecary Biologis",
+};
+
+export const ApothecaryOnBikeModel: ModelConfig = {
+  id: modelId("apothecary_on_bike"),
+  model_slug: "apothecary_on_bike",
+  model_name: "Apothecary on Bike",
 };
 
 export const AquilaLanderModel: ModelConfig = {
@@ -174,6 +216,54 @@ export const AspiringSorcererModel: ModelConfig = {
   model_name: "Aspiring Sorcerer",
 };
 
+export const AssaultCenturionSergeantModel: ModelConfig = {
+  id: modelId("assault_centurion_sergeant"),
+  model_slug: "assault_centurion_sergeant",
+  model_name: "Assault Centurion Sergeant",
+};
+
+export const AssaultIntercessorSergeantModel: ModelConfig = {
+  id: modelId("assault_intercessor_sergeant"),
+  model_slug: "assault_intercessor_sergeant",
+  model_name: "Assault Intercessor Sergeant",
+};
+
+export const AssaultIntercessorSergeantWithJumpPackModel: ModelConfig = {
+  id: modelId("assault_intercessor_sergeant_with_jump_pack"),
+  model_slug: "assault_intercessor_sergeant_with_jump_pack",
+  model_name: "Assault Intercessor Sergeant with Jump Pack",
+};
+
+export const AssaultSergeantModel: ModelConfig = {
+  id: modelId("assault_sergeant"),
+  model_slug: "assault_sergeant",
+  model_name: "Assault Sergeant",
+};
+
+export const AssaultSergeantWithJumpPackModel: ModelConfig = {
+  id: modelId("assault_sergeant_with_jump_pack"),
+  model_slug: "assault_sergeant_with_jump_pack",
+  model_name: "Assault Sergeant with Jump Pack",
+};
+
+export const AssaultTerminatorSergeantModel: ModelConfig = {
+  id: modelId("assault_terminator_sergeant"),
+  model_slug: "assault_terminator_sergeant",
+  model_name: "Assault Terminator Sergeant",
+};
+
+export const AstartesServitorModel: ModelConfig = {
+  id: modelId("astartes_servitor"),
+  model_slug: "astartes_servitor",
+  model_name: "Astartes Servitor",
+};
+
+export const AstraeusModel: ModelConfig = {
+  id: modelId("astraeus"),
+  model_slug: "astraeus",
+  model_name: "Astraeus",
+};
+
 export const AstropathModel: ModelConfig = {
   id: modelId("astropath"),
   model_slug: "astropath",
@@ -226,6 +316,18 @@ export const Ax10TigerSharkModel: ModelConfig = {
   id: modelId("ax_1_0_tiger_shark"),
   model_slug: "ax_1_0_tiger_shark",
   model_name: "AX-1-0 Tiger Shark",
+};
+
+export const BaalPredatorModel: ModelConfig = {
+  id: modelId("baal_predator"),
+  model_slug: "baal_predator",
+  model_name: "Baal Predator",
+};
+
+export const BallistusDreadnoughtModel: ModelConfig = {
+  id: modelId("ballistus_dreadnought"),
+  model_slug: "ballistus_dreadnought",
+  model_name: "Ballistus Dreadnought",
 };
 
 export const BanebladeModel: ModelConfig = {
@@ -360,6 +462,12 @@ export const BikerChampionModel: ModelConfig = {
   model_name: "Biker Champion",
 };
 
+export const BikerSergeantModel: ModelConfig = {
+  id: modelId("biker_sergeant"),
+  model_slug: "biker_sergeant",
+  model_name: "Biker Sergeant",
+};
+
 export const BiologusPutrifierModel: ModelConfig = {
   id: modelId("biologus_putrifier"),
   model_slug: "biologus_putrifier",
@@ -376,6 +484,18 @@ export const BladeChampionModel: ModelConfig = {
   id: modelId("blade_champion"),
   model_slug: "blade_champion",
   model_name: "Blade Champion",
+};
+
+export const BladeguardAncientModel: ModelConfig = {
+  id: modelId("bladeguard_ancient"),
+  model_slug: "bladeguard_ancient",
+  model_name: "Bladeguard Ancient",
+};
+
+export const BladeguardVeteranSergeantModel: ModelConfig = {
+  id: modelId("bladeguard_veteran_sergeant"),
+  model_slug: "bladeguard_veteran_sergeant",
+  model_name: "Bladeguard Veteran Sergeant",
 };
 
 export const BlessedBladeModel: ModelConfig = {
@@ -400,6 +520,18 @@ export const BlitzaBommerModel: ModelConfig = {
   id: modelId("blitza_bommer"),
   model_slug: "blitza_bommer",
   model_name: "Blitza-bommer",
+};
+
+export const BloodAngelsCaptainModel: ModelConfig = {
+  id: modelId("blood_angels_captain"),
+  model_slug: "blood_angels_captain",
+  model_name: "Blood Angels Captain",
+};
+
+export const BloodClawPackLeaderModel: ModelConfig = {
+  id: modelId("blood_claw_pack_leader"),
+  model_slug: "blood_claw_pack_leader",
+  model_name: "Blood Claw Pack Leader",
 };
 
 export const BloodHeraldModel: ModelConfig = {
@@ -540,6 +672,12 @@ export const BrotherhoodTechmarineModel: ModelConfig = {
   model_name: "Brotherhood Techmarine",
 };
 
+export const BrutalisDreadnoughtModel: ModelConfig = {
+  id: modelId("brutalis_dreadnought"),
+  model_slug: "brutalis_dreadnought",
+  model_name: "Brutalis Dreadnought",
+};
+
 export const BullgrynBoneEadModel: ModelConfig = {
   id: modelId("bullgryn_bone_ead"),
   model_slug: "bullgryn_bone_ead",
@@ -580,6 +718,12 @@ export const CadreFirebladeModel: ModelConfig = {
   id: modelId("cadre_fireblade"),
   model_slug: "cadre_fireblade",
   model_name: "Cadre Fireblade",
+};
+
+export const CaestusAssaultRamModel: ModelConfig = {
+  id: modelId("caestus_assault_ram"),
+  model_slug: "caestus_assault_ram",
+  model_name: "Caestus Assault Ram",
 };
 
 export const CaladiusGravTankModel: ModelConfig = {
@@ -642,10 +786,52 @@ export const CanoptekTombStalkerModel: ModelConfig = {
   model_name: "Canoptek Tomb Stalker",
 };
 
+export const CaptainModel: ModelConfig = {
+  id: modelId("captain"),
+  model_slug: "captain",
+  model_name: "Captain",
+};
+
+export const CaptainInGravisArmourModel: ModelConfig = {
+  id: modelId("captain_in_gravis_armour"),
+  model_slug: "captain_in_gravis_armour",
+  model_name: "Captain in Gravis Armour",
+};
+
+export const CaptainInPhobosArmourModel: ModelConfig = {
+  id: modelId("captain_in_phobos_armour"),
+  model_slug: "captain_in_phobos_armour",
+  model_name: "Captain in Phobos Armour",
+};
+
+export const CaptainInTerminatorArmourModel: ModelConfig = {
+  id: modelId("captain_in_terminator_armour"),
+  model_slug: "captain_in_terminator_armour",
+  model_name: "Captain in Terminator Armour",
+};
+
+export const CaptainOnBikeModel: ModelConfig = {
+  id: modelId("captain_on_bike"),
+  model_slug: "captain_on_bike",
+  model_name: "Captain on Bike",
+};
+
+export const CaptainWithJumpPackModel: ModelConfig = {
+  id: modelId("captain_with_jump_pack"),
+  model_slug: "captain_with_jump_pack",
+  model_name: "Captain with Jump Pack",
+};
+
 export const CarnodonModel: ModelConfig = {
   id: modelId("carnodon"),
   model_slug: "carnodon",
   model_name: "Carnodon",
+};
+
+export const CastellanModel: ModelConfig = {
+  id: modelId("castellan"),
+  model_slug: "castellan",
+  model_name: "Castellan",
 };
 
 export const CastigatorModel: ModelConfig = {
@@ -676,6 +862,12 @@ export const CelestianInsidiantSuperiorModel: ModelConfig = {
   id: modelId("celestian_insidiant_superior"),
   model_slug: "celestian_insidiant_superior",
   model_name: "Celestian Insidiant Superior",
+};
+
+export const CenobyteServitorsModel: ModelConfig = {
+  id: modelId("cenobyte_servitors"),
+  model_slug: "cenobyte_servitors",
+  model_name: "Cenobyte Servitors*",
 };
 
 export const CentaurLightCarrierModel: ModelConfig = {
@@ -712,6 +904,12 @@ export const CerastusKnightLancerModel: ModelConfig = {
   id: modelId("cerastus_knight_lancer"),
   model_slug: "cerastus_knight_lancer",
   model_name: "Cerastus Knight Lancer",
+};
+
+export const CerberusModel: ModelConfig = {
+  id: modelId("cerberus"),
+  model_slug: "cerberus",
+  model_name: "Cerberus",
 };
 
 export const ChangecasterModel: ModelConfig = {
@@ -870,6 +1068,42 @@ export const ChaosVindicatorModel: ModelConfig = {
   model_name: "Chaos Vindicator",
 };
 
+export const ChaplainModel: ModelConfig = {
+  id: modelId("chaplain"),
+  model_slug: "chaplain",
+  model_name: "Chaplain",
+};
+
+export const ChaplainInTerminatorArmourModel: ModelConfig = {
+  id: modelId("chaplain_in_terminator_armour"),
+  model_slug: "chaplain_in_terminator_armour",
+  model_name: "Chaplain in Terminator Armour",
+};
+
+export const ChaplainOnBikeModel: ModelConfig = {
+  id: modelId("chaplain_on_bike"),
+  model_slug: "chaplain_on_bike",
+  model_name: "Chaplain on Bike",
+};
+
+export const ChaplainVenerableDreadnoughtModel: ModelConfig = {
+  id: modelId("chaplain_venerable_dreadnought"),
+  model_slug: "chaplain_venerable_dreadnought",
+  model_name: "Chaplain Venerable Dreadnought",
+};
+
+export const ChaplainWithJumpPackModel: ModelConfig = {
+  id: modelId("chaplain_with_jump_pack"),
+  model_slug: "chaplain_with_jump_pack",
+  model_name: "Chaplain with Jump Pack",
+};
+
+export const ChapterChampionModel: ModelConfig = {
+  id: modelId("chapter_champion"),
+  model_slug: "chapter_champion",
+  model_name: "Chapter Champion",
+};
+
 export const ChimeraModel: ModelConfig = {
   id: modelId("chimera"),
   model_slug: "chimera",
@@ -946,6 +1180,30 @@ export const CommissarModel: ModelConfig = {
   id: modelId("commissar"),
   model_slug: "commissar",
   model_name: "Commissar",
+};
+
+export const CompanyAncientModel: ModelConfig = {
+  id: modelId("company_ancient"),
+  model_slug: "company_ancient",
+  model_name: "Company Ancient",
+};
+
+export const CompanyChampionModel: ModelConfig = {
+  id: modelId("company_champion"),
+  model_slug: "company_champion",
+  model_name: "Company Champion",
+};
+
+export const CompanyChampionOnBikeModel: ModelConfig = {
+  id: modelId("company_champion_on_bike"),
+  model_slug: "company_champion_on_bike",
+  model_name: "Company Champion on Bike",
+};
+
+export const CompanyVeteranModel: ModelConfig = {
+  id: modelId("company_veteran"),
+  model_slug: "company_veteran",
+  model_name: "Company Veteran",
 };
 
 export const ContemptorAchillusDreadnoughtModel: ModelConfig = {
@@ -1038,6 +1296,12 @@ export const CrisisSunforgeShasvreModel: ModelConfig = {
   model_name: "Crisis Sunforge Shas\u2019vre",
 };
 
+export const CrusadeAncientModel: ModelConfig = {
+  id: modelId("crusade_ancient"),
+  model_slug: "crusade_ancient",
+  model_name: "Crusade Ancient",
+};
+
 export const CryptothrallModel: ModelConfig = {
   id: modelId("cryptothrall"),
   model_slug: "cryptothrall",
@@ -1084,6 +1348,12 @@ export const CyberneticaDatasmithModel: ModelConfig = {
   id: modelId("cybernetica_datasmith"),
   model_slug: "cybernetica_datasmith",
   model_name: "Cybernetica Datasmith",
+};
+
+export const CyberwolfModel: ModelConfig = {
+  id: modelId("cyberwolf"),
+  model_slug: "cyberwolf",
+  model_name: "Cyberwolf",
 };
 
 export const CyclopsDemolitionVehicleModel: ModelConfig = {
@@ -1188,6 +1458,24 @@ export const DarkReaperExarchModel: ModelConfig = {
   model_name: "Dark Reaper Exarch",
 };
 
+export const DeathCompanyCaptainModel: ModelConfig = {
+  id: modelId("death_company_captain"),
+  model_slug: "death_company_captain",
+  model_name: "Death Company Captain",
+};
+
+export const DeathCompanyCaptainWithJumpPackModel: ModelConfig = {
+  id: modelId("death_company_captain_with_jump_pack"),
+  model_slug: "death_company_captain_with_jump_pack",
+  model_name: "Death Company Captain with Jump Pack",
+};
+
+export const DeathCompanyDreadnoughtModel: ModelConfig = {
+  id: modelId("death_company_dreadnought"),
+  model_slug: "death_company_dreadnought",
+  model_name: "Death Company Dreadnought",
+};
+
 export const DeathCultAssassinModel: ModelConfig = {
   id: modelId("death_cult_assassin"),
   model_slug: "death_cult_assassin",
@@ -1248,6 +1536,12 @@ export const DeathshroudChampionModel: ModelConfig = {
   model_name: "Deathshroud Champion",
 };
 
+export const DeathstormDropPodModel: ModelConfig = {
+  id: modelId("deathstorm_drop_pod"),
+  model_slug: "deathstorm_drop_pod",
+  model_name: "Deathstorm Drop Pod",
+};
+
 export const DeathstrikeModel: ModelConfig = {
   id: modelId("deathstrike"),
   model_slug: "deathstrike",
@@ -1264,6 +1558,42 @@ export const DeathwatchVeteranModel: ModelConfig = {
   id: modelId("deathwatch_veteran"),
   model_slug: "deathwatch_veteran",
   model_name: "Deathwatch Veteran",
+};
+
+export const DeathwingAncientModel: ModelConfig = {
+  id: modelId("deathwing_ancient"),
+  model_slug: "deathwing_ancient",
+  model_name: "Deathwing Ancient",
+};
+
+export const DeathwingApothecaryModel: ModelConfig = {
+  id: modelId("deathwing_apothecary"),
+  model_slug: "deathwing_apothecary",
+  model_name: "Deathwing Apothecary",
+};
+
+export const DeathwingChampionModel: ModelConfig = {
+  id: modelId("deathwing_champion"),
+  model_slug: "deathwing_champion",
+  model_name: "Deathwing Champion",
+};
+
+export const DeathwingKnightModel: ModelConfig = {
+  id: modelId("deathwing_knight"),
+  model_slug: "deathwing_knight",
+  model_name: "Deathwing Knight",
+};
+
+export const DeathwingSergeantModel: ModelConfig = {
+  id: modelId("deathwing_sergeant"),
+  model_slug: "deathwing_sergeant",
+  model_name: "Deathwing Sergeant",
+};
+
+export const DeathwingStrikemasterModel: ModelConfig = {
+  id: modelId("deathwing_strikemaster"),
+  model_slug: "deathwing_strikemaster",
+  model_name: "Deathwing Strikemaster",
 };
 
 export const DecimatorModel: ModelConfig = {
@@ -1300,6 +1630,42 @@ export const DefkillaWartrikeModel: ModelConfig = {
   id: modelId("defkilla_wartrike"),
   model_slug: "defkilla_wartrike",
   model_name: "Defkilla Wartrike",
+};
+
+export const DeimosPredatorModel: ModelConfig = {
+  id: modelId("deimos_predator"),
+  model_slug: "deimos_predator",
+  model_name: "Deimos Predator",
+};
+
+export const DeredeoDreadnoughtModel: ModelConfig = {
+  id: modelId("deredeo_dreadnought"),
+  model_slug: "deredeo_dreadnought",
+  model_name: "Deredeo Dreadnought",
+};
+
+export const DesolationMarineModel: ModelConfig = {
+  id: modelId("desolation_marine"),
+  model_slug: "desolation_marine",
+  model_name: "Desolation Marine",
+};
+
+export const DesolationSergeantModel: ModelConfig = {
+  id: modelId("desolation_sergeant"),
+  model_slug: "desolation_sergeant",
+  model_name: "Desolation Sergeant",
+};
+
+export const DevastatorCenturionSergeantModel: ModelConfig = {
+  id: modelId("devastator_centurion_sergeant"),
+  model_slug: "devastator_centurion_sergeant",
+  model_name: "Devastator Centurion Sergeant",
+};
+
+export const DevastatorSergeantModel: ModelConfig = {
+  id: modelId("devastator_sergeant"),
+  model_slug: "devastator_sergeant",
+  model_name: "Devastator Sergeant",
 };
 
 export const DevilfishModel: ModelConfig = {
@@ -1380,10 +1746,28 @@ export const DreadclawDropPodModel: ModelConfig = {
   model_name: "Dreadclaw Drop Pod",
 };
 
+export const DreadnoughtModel: ModelConfig = {
+  id: modelId("dreadnought"),
+  model_slug: "dreadnought",
+  model_name: "Dreadnought",
+};
+
+export const DreadnoughtDropPodModel: ModelConfig = {
+  id: modelId("dreadnought_drop_pod"),
+  model_slug: "dreadnought_drop_pod",
+  model_name: "Dreadnought Drop Pod",
+};
+
 export const DroneSentryTurretModel: ModelConfig = {
   id: modelId("drone_sentry_turret"),
   model_slug: "drone_sentry_turret",
   model_name: "Drone Sentry Turret",
+};
+
+export const DropPodModel: ModelConfig = {
+  id: modelId("drop_pod"),
+  model_slug: "drop_pod",
+  model_name: "Drop Pod",
 };
 
 export const ECogsModel: ModelConfig = {
@@ -1416,6 +1800,18 @@ export const EinhyrChampionModel: ModelConfig = {
   model_name: "Einhyr Champion",
 };
 
+export const EliminatorModel: ModelConfig = {
+  id: modelId("eliminator"),
+  model_slug: "eliminator",
+  model_name: "Eliminator",
+};
+
+export const EliminatorSergeantModel: ModelConfig = {
+  id: modelId("eliminator_sergeant"),
+  model_slug: "eliminator_sergeant",
+  model_name: "Eliminator Sergeant",
+};
+
 export const ElysianDropSentinelModel: ModelConfig = {
   id: modelId("elysian_drop_sentinel"),
   model_slug: "elysian_drop_sentinel",
@@ -1426,6 +1822,18 @@ export const ElysianSniperTeamModel: ModelConfig = {
   id: modelId("elysian_sniper_team"),
   model_slug: "elysian_sniper_team",
   model_name: "Elysian Sniper Team",
+};
+
+export const EmperorsChampionModel: ModelConfig = {
+  id: modelId("emperors_champion"),
+  model_slug: "emperors_champion",
+  model_name: "Emperor\u2019s Champion",
+};
+
+export const EradicatorSergeantModel: ModelConfig = {
+  id: modelId("eradicator_sergeant"),
+  model_slug: "eradicator_sergeant",
+  model_name: "Eradicator Sergeant",
 };
 
 export const EtherealModel: ModelConfig = {
@@ -1476,6 +1884,12 @@ export const ExaltedSorcererModel: ModelConfig = {
   model_name: "Exalted Sorcerer",
 };
 
+export const ExecratorModel: ModelConfig = {
+  id: modelId("execrator"),
+  model_slug: "execrator",
+  model_name: "Execrator",
+};
+
 export const ExocrineModel: ModelConfig = {
   id: modelId("exocrine"),
   model_slug: "exocrine",
@@ -1486,6 +1900,12 @@ export const ExorcistModel: ModelConfig = {
   id: modelId("exorcist"),
   model_slug: "exorcist",
   model_name: "Exorcist",
+};
+
+export const FalchionModel: ModelConfig = {
+  id: modelId("falchion"),
+  model_slug: "falchion",
+  model_name: "Falchion",
 };
 
 export const FalconModel: ModelConfig = {
@@ -1516,6 +1936,12 @@ export const FeculentGnarlmawModel: ModelConfig = {
   id: modelId("feculent_gnarlmaw"),
   model_slug: "feculent_gnarlmaw",
   model_name: "Feculent Gnarlmaw",
+};
+
+export const FellbladeModel: ModelConfig = {
+  id: modelId("fellblade"),
+  model_slug: "fellblade",
+  model_name: "Fellblade",
 };
 
 export const FellgorBeastmenModel: ModelConfig = {
@@ -1552,6 +1978,12 @@ export const FirePrismModel: ModelConfig = {
   id: modelId("fire_prism"),
   model_slug: "fire_prism",
   model_name: "Fire Prism",
+};
+
+export const FireRaptorGunshipModel: ModelConfig = {
+  id: modelId("fire_raptor_gunship"),
+  model_slug: "fire_raptor_gunship",
+  model_name: "Fire Raptor Gunship",
 };
 
 export const FireWarriorModel: ModelConfig = {
@@ -1602,6 +2034,12 @@ export const FoulBlightspawnModel: ModelConfig = {
   model_name: "Foul Blightspawn",
 };
 
+export const FuriosoDreadnoughtModel: ModelConfig = {
+  id: modelId("furioso_dreadnought"),
+  model_slug: "furioso_dreadnought",
+  model_name: "Furioso Dreadnought",
+};
+
 export const GargantuanSquiggothModel: ModelConfig = {
   id: modelId("gargantuan_squiggoth"),
   model_slug: "gargantuan_squiggoth",
@@ -1648,6 +2086,24 @@ export const GiantChaosSpawnModel: ModelConfig = {
   id: modelId("giant_chaos_spawn"),
   model_slug: "giant_chaos_spawn",
   model_name: "Giant Chaos Spawn",
+};
+
+export const GladiatorLancerModel: ModelConfig = {
+  id: modelId("gladiator_lancer"),
+  model_slug: "gladiator_lancer",
+  model_name: "Gladiator Lancer",
+};
+
+export const GladiatorReaperModel: ModelConfig = {
+  id: modelId("gladiator_reaper"),
+  model_slug: "gladiator_reaper",
+  model_name: "Gladiator Reaper",
+};
+
+export const GladiatorValiantModel: ModelConfig = {
+  id: modelId("gladiator_valiant"),
+  model_slug: "gladiator_valiant",
+  model_name: "Gladiator Valiant",
 };
 
 export const GoliathRockgrinderModel: ModelConfig = {
@@ -1752,6 +2208,18 @@ export const GretchinModel: ModelConfig = {
   model_name: "Gretchin",
 };
 
+export const GreyHunterModel: ModelConfig = {
+  id: modelId("grey_hunter"),
+  model_slug: "grey_hunter",
+  model_name: "Grey Hunter",
+};
+
+export const GreyHunterPackLeaderModel: ModelConfig = {
+  id: modelId("grey_hunter_pack_leader"),
+  model_slug: "grey_hunter_pack_leader",
+  model_name: "Grey Hunter Pack Leader",
+};
+
 export const GreyKnightsDreadnoughtModel: ModelConfig = {
   id: modelId("grey_knights_dreadnought"),
   model_slug: "grey_knights_dreadnought",
@@ -1822,6 +2290,12 @@ export const HaemonculusModel: ModelConfig = {
   id: modelId("haemonculus"),
   model_slug: "haemonculus",
   model_name: "Haemonculus",
+};
+
+export const HammerfallBunkerModel: ModelConfig = {
+  id: modelId("hammerfall_bunker"),
+  model_slug: "hammerfall_bunker",
+  model_name: "Hammerfall Bunker",
 };
 
 export const HammerheadGunshipModel: ModelConfig = {
@@ -1902,6 +2376,12 @@ export const HeavyGunDroneModel: ModelConfig = {
   model_name: "Heavy Gun Drone",
 };
 
+export const HeavyIntercessorSergeantModel: ModelConfig = {
+  id: modelId("heavy_intercessor_sergeant"),
+  model_slug: "heavy_intercessor_sergeant",
+  model_name: "Heavy Intercessor Sergeant",
+};
+
 export const HeavyMortarTeamModel: ModelConfig = {
   id: modelId("heavy_mortar_team"),
   model_slug: "heavy_mortar_team",
@@ -1966,6 +2446,12 @@ export const HellTalonModel: ModelConfig = {
   id: modelId("hell_talon"),
   model_slug: "hell_talon",
   model_name: "Hell Talon",
+};
+
+export const HellblasterSergeantModel: ModelConfig = {
+  id: modelId("hellblaster_sergeant"),
+  model_slug: "hellblaster_sergeant",
+  model_name: "Hellblaster Sergeant",
 };
 
 export const HellhammerModel: ModelConfig = {
@@ -2046,6 +2532,12 @@ export const HiveTyrantModel: ModelConfig = {
   model_name: "Hive Tyrant",
 };
 
+export const HonourGuardModel: ModelConfig = {
+  id: modelId("honour_guard"),
+  model_slug: "honour_guard",
+  model_name: "Honour Guard",
+};
+
 export const HopliteAlphaModel: ModelConfig = {
   id: modelId("hoplite_alpha"),
   model_slug: "hoplite_alpha",
@@ -2064,6 +2556,12 @@ export const HospitallerModel: ModelConfig = {
   model_name: "Hospitaller",
 };
 
+export const HoundOfMorkaiPackLeaderModel: ModelConfig = {
+  id: modelId("hound_of_morkai_pack_leader"),
+  model_slug: "hound_of_morkai_pack_leader",
+  model_name: "Hound of Morkai Pack Leader",
+};
+
 export const HowlingBansheeExarchModel: ModelConfig = {
   id: modelId("howling_banshee_exarch"),
   model_slug: "howling_banshee_exarch",
@@ -2074,6 +2572,24 @@ export const HuntaRigModel: ModelConfig = {
   id: modelId("hunta_rig"),
   model_slug: "hunta_rig",
   model_name: "Hunta Rig",
+};
+
+export const HunterModel: ModelConfig = {
+  id: modelId("hunter"),
+  model_slug: "hunter",
+  model_name: "Hunter",
+};
+
+export const HuntingWolfModel: ModelConfig = {
+  id: modelId("hunting_wolf"),
+  model_slug: "hunting_wolf",
+  model_name: "Hunting Wolf",
+};
+
+export const HuntingWolveModel: ModelConfig = {
+  id: modelId("hunting_wolve"),
+  model_slug: "hunting_wolve",
+  model_name: "Hunting Wolve",
 };
 
 export const HydraModel: ModelConfig = {
@@ -2124,6 +2640,30 @@ export const ImperialRhinoModel: ModelConfig = {
   model_name: "Imperial Rhino",
 };
 
+export const ImperialSpaceMarineModel: ModelConfig = {
+  id: modelId("imperial_space_marine"),
+  model_slug: "imperial_space_marine",
+  model_name: "Imperial Space Marine",
+};
+
+export const ImpulsorModel: ModelConfig = {
+  id: modelId("impulsor"),
+  model_slug: "impulsor",
+  model_name: "Impulsor",
+};
+
+export const InceptorSergeantModel: ModelConfig = {
+  id: modelId("inceptor_sergeant"),
+  model_slug: "inceptor_sergeant",
+  model_name: "Inceptor Sergeant",
+};
+
+export const IncursorSergeantModel: ModelConfig = {
+  id: modelId("incursor_sergeant"),
+  model_slug: "incursor_sergeant",
+  model_name: "Incursor Sergeant",
+};
+
 export const InfernalEnrapturessModel: ModelConfig = {
   id: modelId("infernal_enrapturess"),
   model_slug: "infernal_enrapturess",
@@ -2134,6 +2674,18 @@ export const InfernalMasterModel: ModelConfig = {
   id: modelId("infernal_master"),
   model_slug: "infernal_master",
   model_name: "Infernal Master",
+};
+
+export const InfernusSergeantModel: ModelConfig = {
+  id: modelId("infernus_sergeant"),
+  model_slug: "infernus_sergeant",
+  model_name: "Infernus Sergeant",
+};
+
+export const InfiltratorSergeantModel: ModelConfig = {
+  id: modelId("infiltrator_sergeant"),
+  model_slug: "infiltrator_sergeant",
+  model_name: "Infiltrator Sergeant",
 };
 
 export const InquisitorModel: ModelConfig = {
@@ -2158,6 +2710,42 @@ export const InterceptorJusticarModel: ModelConfig = {
   id: modelId("interceptor_justicar"),
   model_slug: "interceptor_justicar",
   model_name: "Interceptor Justicar",
+};
+
+export const IntercessorSergeantModel: ModelConfig = {
+  id: modelId("intercessor_sergeant"),
+  model_slug: "intercessor_sergeant",
+  model_name: "Intercessor Sergeant",
+};
+
+export const InvaderAtvModel: ModelConfig = {
+  id: modelId("invader_atv"),
+  model_slug: "invader_atv",
+  model_name: "Invader ATV",
+};
+
+export const InvictorTacticalWarsuitModel: ModelConfig = {
+  id: modelId("invictor_tactical_warsuit"),
+  model_slug: "invictor_tactical_warsuit",
+  model_name: "Invictor Tactical Warsuit",
+};
+
+export const IronPriestModel: ModelConfig = {
+  id: modelId("iron_priest"),
+  model_slug: "iron_priest",
+  model_name: "Iron Priest",
+};
+
+export const IronPriestOnThunderwolfModel: ModelConfig = {
+  id: modelId("iron_priest_on_thunderwolf"),
+  model_slug: "iron_priest_on_thunderwolf",
+  model_name: "Iron Priest on Thunderwolf",
+};
+
+export const IroncladDreadnoughtModel: ModelConfig = {
+  id: modelId("ironclad_dreadnought"),
+  model_slug: "ironclad_dreadnought",
+  model_name: "Ironclad Dreadnought",
 };
 
 export const IronkinAssistantModel: ModelConfig = {
@@ -2190,10 +2778,22 @@ export const JakhalPackLeader2DishonouredModel: ModelConfig = {
   model_name: "Jakhal Pack Leader, 2 Dishonoured",
 };
 
+export const JavelinAttackSpeederModel: ModelConfig = {
+  id: modelId("javelin_attack_speeder"),
+  model_slug: "javelin_attack_speeder",
+  model_name: "Javelin Attack Speeder",
+};
+
 export const JokaeroWeaponsmithModel: ModelConfig = {
   id: modelId("jokaero_weaponsmith"),
   model_slug: "jokaero_weaponsmith",
   model_name: "Jokaero Weaponsmith",
+};
+
+export const JudiciarModel: ModelConfig = {
+  id: modelId("judiciar"),
+  model_slug: "judiciar",
+  model_name: "Judiciar",
 };
 
 export const JungleFighterModel: ModelConfig = {
@@ -2334,6 +2934,12 @@ export const KillTeamSergeantModel: ModelConfig = {
   model_name: "Kill Team Sergeant",
 };
 
+export const KillTeamSergeantWithJumpPackModel: ModelConfig = {
+  id: modelId("kill_team_sergeant_with_jump_pack"),
+  model_slug: "kill_team_sergeant_with_jump_pack",
+  model_name: "Kill Team Sergeant with Jump Pack",
+};
+
 export const KillTeamTerminatorGarranBranatarModel: ModelConfig = {
   id: modelId("kill_team_terminator_garran_branatar"),
   model_slug: "kill_team_terminator_garran_branatar",
@@ -2406,6 +3012,12 @@ export const KnightGallantModel: ModelConfig = {
   model_name: "Knight Gallant",
 };
 
+export const KnightMasterModel: ModelConfig = {
+  id: modelId("knight_master"),
+  model_slug: "knight_master",
+  model_name: "Knight Master",
+};
+
 export const KnightOfTheFlameModel: ModelConfig = {
   id: modelId("knight_of_the_flame"),
   model_slug: "knight_of_the_flame",
@@ -2460,10 +3072,22 @@ export const KommandoModel: ModelConfig = {
   model_name: "Kommando",
 };
 
+export const KratosModel: ModelConfig = {
+  id: modelId("kratos"),
+  model_slug: "kratos",
+  model_name: "Kratos",
+};
+
 export const KriegEngineerWatchmasterModel: ModelConfig = {
   id: modelId("krieg_engineer_watchmaster"),
   model_slug: "krieg_engineer_watchmaster",
   model_name: "Krieg Engineer Watchmaster",
+};
+
+export const KromDragongazeModel: ModelConfig = {
+  id: modelId("krom_dragongaze"),
+  model_slug: "krom_dragongaze",
+  model_name: "Krom Dragongaze",
 };
 
 export const KrootFarstalkerModel: ModelConfig = {
@@ -2526,16 +3150,82 @@ export const LandRaiderModel: ModelConfig = {
   model_name: "Land Raider",
 };
 
+export const LandRaiderAchillesModel: ModelConfig = {
+  id: modelId("land_raider_achilles"),
+  model_slug: "land_raider_achilles",
+  model_name: "Land Raider Achilles",
+};
+
 export const LandRaiderCrusaderModel: ModelConfig = {
   id: modelId("land_raider_crusader"),
   model_slug: "land_raider_crusader",
   model_name: "Land Raider Crusader",
 };
 
+export const LandRaiderExcelsiorModel: ModelConfig = {
+  id: modelId("land_raider_excelsior"),
+  model_slug: "land_raider_excelsior",
+  model_name: "Land Raider Excelsior",
+};
+
+export const LandRaiderHeliosModel: ModelConfig = {
+  id: modelId("land_raider_helios"),
+  model_slug: "land_raider_helios",
+  model_name: "Land Raider Helios",
+};
+
+export const LandRaiderPrometheusModel: ModelConfig = {
+  id: modelId("land_raider_prometheus"),
+  model_slug: "land_raider_prometheus",
+  model_name: "Land Raider Prometheus",
+};
+
+export const LandRaiderProteusModel: ModelConfig = {
+  id: modelId("land_raider_proteus"),
+  model_slug: "land_raider_proteus",
+  model_name: "Land Raider Proteus",
+};
+
 export const LandRaiderRedeemerModel: ModelConfig = {
   id: modelId("land_raider_redeemer"),
   model_slug: "land_raider_redeemer",
   model_name: "Land Raider Redeemer",
+};
+
+export const LandSpeederModel: ModelConfig = {
+  id: modelId("land_speeder"),
+  model_slug: "land_speeder",
+  model_name: "Land Speeder",
+};
+
+export const LandSpeederStormModel: ModelConfig = {
+  id: modelId("land_speeder_storm"),
+  model_slug: "land_speeder_storm",
+  model_name: "Land Speeder Storm",
+};
+
+export const LandSpeederTempestModel: ModelConfig = {
+  id: modelId("land_speeder_tempest"),
+  model_slug: "land_speeder_tempest",
+  model_name: "Land Speeder Tempest",
+};
+
+export const LandSpeederTornadoModel: ModelConfig = {
+  id: modelId("land_speeder_tornado"),
+  model_slug: "land_speeder_tornado",
+  model_name: "Land Speeder Tornado",
+};
+
+export const LandSpeederTyphoonModel: ModelConfig = {
+  id: modelId("land_speeder_typhoon"),
+  model_slug: "land_speeder_typhoon",
+  model_name: "Land Speeder Typhoon",
+};
+
+export const LandSpeederVengeanceModel: ModelConfig = {
+  id: modelId("land_speeder_vengeance"),
+  model_slug: "land_speeder_vengeance",
+  model_name: "Land Speeder Vengeance",
 };
 
 export const LeadPlayerModel: ModelConfig = {
@@ -2610,16 +3300,82 @@ export const LesksHeroeModel: ModelConfig = {
   model_name: "Lesk\u2019s Heroe",
 };
 
+export const LeviathanDreadnoughtModel: ModelConfig = {
+  id: modelId("leviathan_dreadnought"),
+  model_slug: "leviathan_dreadnought",
+  model_name: "Leviathan Dreadnought",
+};
+
 export const LhamaeanModel: ModelConfig = {
   id: modelId("lhamaean"),
   model_slug: "lhamaean",
   model_name: "Lhamaean",
 };
 
+export const LibrarianModel: ModelConfig = {
+  id: modelId("librarian"),
+  model_slug: "librarian",
+  model_name: "Librarian",
+};
+
+export const LibrarianDreadnoughtModel: ModelConfig = {
+  id: modelId("librarian_dreadnought"),
+  model_slug: "librarian_dreadnought",
+  model_name: "Librarian Dreadnought",
+};
+
+export const LibrarianInPhobosArmourModel: ModelConfig = {
+  id: modelId("librarian_in_phobos_armour"),
+  model_slug: "librarian_in_phobos_armour",
+  model_name: "Librarian in Phobos Armour",
+};
+
+export const LibrarianInTerminatorArmourModel: ModelConfig = {
+  id: modelId("librarian_in_terminator_armour"),
+  model_slug: "librarian_in_terminator_armour",
+  model_name: "Librarian in Terminator Armour",
+};
+
+export const LibrarianOnBikeModel: ModelConfig = {
+  id: modelId("librarian_on_bike"),
+  model_slug: "librarian_on_bike",
+  model_name: "Librarian on Bike",
+};
+
+export const LibrarianWithJumpPackModel: ModelConfig = {
+  id: modelId("librarian_with_jump_pack"),
+  model_slug: "librarian_with_jump_pack",
+  model_name: "Librarian with Jump Pack",
+};
+
 export const LictorModel: ModelConfig = {
   id: modelId("lictor"),
   model_slug: "lictor",
   model_name: "Lictor",
+};
+
+export const LieutenantModel: ModelConfig = {
+  id: modelId("lieutenant"),
+  model_slug: "lieutenant",
+  model_name: "Lieutenant",
+};
+
+export const LieutenantInPhobosArmourModel: ModelConfig = {
+  id: modelId("lieutenant_in_phobos_armour"),
+  model_slug: "lieutenant_in_phobos_armour",
+  model_name: "Lieutenant in Phobos Armour",
+};
+
+export const LieutenantInReiverArmourModel: ModelConfig = {
+  id: modelId("lieutenant_in_reiver_armour"),
+  model_slug: "lieutenant_in_reiver_armour",
+  model_name: "Lieutenant in Reiver Armour",
+};
+
+export const LieutenantWithCombiWeaponModel: ModelConfig = {
+  id: modelId("lieutenant_with_combi_weapon"),
+  model_slug: "lieutenant_with_combi_weapon",
+  model_name: "Lieutenant with Combi-weapon",
 };
 
 export const LiftaWagonModel: ModelConfig = {
@@ -2638,6 +3394,12 @@ export const LokhustLordModel: ModelConfig = {
   id: modelId("lokhust_lord"),
   model_slug: "lokhust_lord",
   model_name: "Lokhust Lord",
+};
+
+export const LongFangPackLeaderModel: ModelConfig = {
+  id: modelId("long_fang_pack_leader"),
+  model_slug: "long_fang_pack_leader",
+  model_name: "Long Fang Pack Leader",
 };
 
 export const LongQuillModel: ModelConfig = {
@@ -2820,6 +3582,12 @@ export const MarauderDestroyerModel: ModelConfig = {
   model_name: "Marauder Destroyer",
 };
 
+export const MarshalModel: ModelConfig = {
+  id: modelId("marshal"),
+  model_slug: "marshal",
+  model_name: "Marshal",
+};
+
 export const MasterOfExecutionsModel: ModelConfig = {
   id: modelId("master_of_executions"),
   model_slug: "master_of_executions",
@@ -2836,6 +3604,12 @@ export const MasterOfPossessionModel: ModelConfig = {
   id: modelId("master_of_possession"),
   model_slug: "master_of_possession",
   model_name: "Master of Possession",
+};
+
+export const MastodonModel: ModelConfig = {
+  id: modelId("mastodon"),
+  model_slug: "mastodon",
+  model_name: "Mastodon",
 };
 
 export const MauganRaModel: ModelConfig = {
@@ -2970,6 +3744,12 @@ export const MorkanautModel: ModelConfig = {
   model_name: "Morkanaut",
 };
 
+export const MortisDreadnoughtModel: ModelConfig = {
+  id: modelId("mortis_dreadnought"),
+  model_slug: "mortis_dreadnought",
+  model_name: "Mortis Dreadnought",
+};
+
 export const MukaaliRiderModel: ModelConfig = {
   id: modelId("mukaali_rider"),
   model_slug: "mukaali_rider",
@@ -3040,6 +3820,12 @@ export const NeophyteLeaderModel: ModelConfig = {
   id: modelId("neophyte_leader"),
   model_slug: "neophyte_leader",
   model_name: "Neophyte Leader",
+};
+
+export const NephilimJetfighterModel: ModelConfig = {
+  id: modelId("nephilim_jetfighter"),
+  model_slug: "nephilim_jetfighter",
+  model_name: "Nephilim Jetfighter",
 };
 
 export const NeurolictorModel: ModelConfig = {
@@ -3208,6 +3994,12 @@ export const OrionAssaultDropshipModel: ModelConfig = {
   id: modelId("orion_assault_dropship"),
   model_slug: "orion_assault_dropship",
   model_name: "Orion Assault Dropship",
+};
+
+export const OutriderSergeantModel: ModelConfig = {
+  id: modelId("outrider_sergeant"),
+  model_slug: "outrider_sergeant",
+  model_name: "Outrider Sergeant",
 };
 
 export const OverlordModel: ModelConfig = {
@@ -3390,6 +4182,24 @@ export const PreacherModel: ModelConfig = {
   model_name: "Preacher",
 };
 
+export const PredatorAnnihilatorModel: ModelConfig = {
+  id: modelId("predator_annihilator"),
+  model_slug: "predator_annihilator",
+  model_name: "Predator Annihilator",
+};
+
+export const PredatorDestructorModel: ModelConfig = {
+  id: modelId("predator_destructor"),
+  model_slug: "predator_destructor",
+  model_name: "Predator Destructor",
+};
+
+export const PrimarisCompanyChampionModel: ModelConfig = {
+  id: modelId("primaris_company_champion"),
+  model_slug: "primaris_company_champion",
+  model_name: "Primaris Company Champion",
+};
+
 export const PrimarisPsykerModel: ModelConfig = {
   id: modelId("primaris_psyker"),
   model_slug: "primaris_psyker",
@@ -3486,6 +4296,12 @@ export const RaiderModel: ModelConfig = {
   model_name: "Raider",
 };
 
+export const RapierCarrierModel: ModelConfig = {
+  id: modelId("rapier_carrier"),
+  model_slug: "rapier_carrier",
+  model_name: "Rapier Carrier",
+};
+
 export const RaptorChampionModel: ModelConfig = {
   id: modelId("raptor_champion"),
   model_slug: "raptor_champion",
@@ -3514,6 +4330,48 @@ export const RavenerPrimeModel: ModelConfig = {
   id: modelId("ravener_prime"),
   model_slug: "ravener_prime",
   model_name: "Ravener Prime",
+};
+
+export const RavenwingAncientModel: ModelConfig = {
+  id: modelId("ravenwing_ancient"),
+  model_slug: "ravenwing_ancient",
+  model_name: "Ravenwing Ancient",
+};
+
+export const RavenwingApothecaryModel: ModelConfig = {
+  id: modelId("ravenwing_apothecary"),
+  model_slug: "ravenwing_apothecary",
+  model_name: "Ravenwing Apothecary",
+};
+
+export const RavenwingChampionModel: ModelConfig = {
+  id: modelId("ravenwing_champion"),
+  model_slug: "ravenwing_champion",
+  model_name: "Ravenwing Champion",
+};
+
+export const RavenwingDarkTalonModel: ModelConfig = {
+  id: modelId("ravenwing_dark_talon"),
+  model_slug: "ravenwing_dark_talon",
+  model_name: "Ravenwing Dark Talon",
+};
+
+export const RavenwingDarkshroudModel: ModelConfig = {
+  id: modelId("ravenwing_darkshroud"),
+  model_slug: "ravenwing_darkshroud",
+  model_name: "Ravenwing Darkshroud",
+};
+
+export const RavenwingHuntmasterModel: ModelConfig = {
+  id: modelId("ravenwing_huntmaster"),
+  model_slug: "ravenwing_huntmaster",
+  model_name: "Ravenwing Huntmaster",
+};
+
+export const RavenwingTalonmasterModel: ModelConfig = {
+  id: modelId("ravenwing_talonmaster"),
+  model_slug: "ravenwing_talonmaster",
+  model_name: "Ravenwing Talonmaster",
 };
 
 export const RazorbackModel: ModelConfig = {
@@ -3570,16 +4428,46 @@ export const RedCorsairsReaveCaptainModel: ModelConfig = {
   model_name: "Red Corsairs Reave-Captain",
 };
 
+export const RedemptorDreadnoughtModel: ModelConfig = {
+  id: modelId("redemptor_dreadnought"),
+  model_slug: "redemptor_dreadnought",
+  model_name: "Redemptor Dreadnought",
+};
+
 export const ReductusSaboteurModel: ModelConfig = {
   id: modelId("reductus_saboteur"),
   model_slug: "reductus_saboteur",
   model_name: "Reductus Saboteur",
 };
 
+export const ReiverSergeantModel: ModelConfig = {
+  id: modelId("reiver_sergeant"),
+  model_slug: "reiver_sergeant",
+  model_name: "Reiver Sergeant",
+};
+
 export const RejuvenatAdeptModel: ModelConfig = {
   id: modelId("rejuvenat_adept"),
   model_slug: "rejuvenat_adept",
   model_name: "Rejuvenat Adept",
+};
+
+export const RelicContemptorDreadnoughtModel: ModelConfig = {
+  id: modelId("relic_contemptor_dreadnought"),
+  model_slug: "relic_contemptor_dreadnought",
+  model_name: "Relic Contemptor Dreadnought",
+};
+
+export const RelicRazorbackModel: ModelConfig = {
+  id: modelId("relic_razorback"),
+  model_slug: "relic_razorback",
+  model_name: "Relic Razorback",
+};
+
+export const RelicTerminatorSergeantModel: ModelConfig = {
+  id: modelId("relic_terminator_sergeant"),
+  model_slug: "relic_terminator_sergeant",
+  model_name: "Relic Terminator Sergeant",
 };
 
 export const RemoraStealthDroneModel: ModelConfig = {
@@ -3636,6 +4524,18 @@ export const RepressorModel: ModelConfig = {
   model_name: "Repressor",
 };
 
+export const RepulsorModel: ModelConfig = {
+  id: modelId("repulsor"),
+  model_slug: "repulsor",
+  model_name: "Repulsor",
+};
+
+export const RepulsorExecutionerModel: ModelConfig = {
+  id: modelId("repulsor_executioner"),
+  model_slug: "repulsor_executioner",
+  model_name: "Repulsor Executioner",
+};
+
 export const RetributorModel: ModelConfig = {
   id: modelId("retributor"),
   model_slug: "retributor",
@@ -3658,6 +4558,12 @@ export const RhinoModel: ModelConfig = {
   id: modelId("rhino"),
   model_slug: "rhino",
   model_name: "Rhino",
+};
+
+export const RhinoPrimarisModel: ModelConfig = {
+  id: modelId("rhino_primaris"),
+  model_slug: "rhino_primaris",
+  model_name: "Rhino Primaris",
 };
 
 export const RidemasterModel: ModelConfig = {
@@ -3774,6 +4680,18 @@ export const SanctusModel: ModelConfig = {
   model_name: "Sanctus",
 };
 
+export const SanguinaryPriestModel: ModelConfig = {
+  id: modelId("sanguinary_priest"),
+  model_slug: "sanguinary_priest",
+  model_name: "Sanguinary Priest",
+};
+
+export const SanguinaryPriestOnBikeModel: ModelConfig = {
+  id: modelId("sanguinary_priest_on_bike"),
+  model_slug: "sanguinary_priest_on_bike",
+  model_name: "Sanguinary Priest on Bike",
+};
+
 export const ScarabOccultSorcererModel: ModelConfig = {
   id: modelId("scarab_occult_sorcerer"),
   model_slug: "scarab_occult_sorcerer",
@@ -3790,6 +4708,24 @@ export const ScourgeModel: ModelConfig = {
   id: modelId("scourge"),
   model_slug: "scourge",
   model_name: "Scourge",
+};
+
+export const ScoutBikerSergeantModel: ModelConfig = {
+  id: modelId("scout_biker_sergeant"),
+  model_slug: "scout_biker_sergeant",
+  model_name: "Scout Biker Sergeant",
+};
+
+export const ScoutSergeantModel: ModelConfig = {
+  id: modelId("scout_sergeant"),
+  model_slug: "scout_sergeant",
+  model_name: "Scout Sergeant",
+};
+
+export const ScoutSniperSergeantModel: ModelConfig = {
+  id: modelId("scout_sniper_sergeant"),
+  model_slug: "scout_sniper_sergeant",
+  model_name: "Scout Sniper Sergeant",
 };
 
 export const ScreamerKillerModel: ModelConfig = {
@@ -3918,6 +4854,36 @@ export const ShokkjumpDragstaModel: ModelConfig = {
   model_name: "Shokkjump Dragsta",
 };
 
+export const SicaranArcusModel: ModelConfig = {
+  id: modelId("sicaran_arcus"),
+  model_slug: "sicaran_arcus",
+  model_name: "Sicaran Arcus",
+};
+
+export const SicaranBattleTankModel: ModelConfig = {
+  id: modelId("sicaran_battle_tank"),
+  model_slug: "sicaran_battle_tank",
+  model_name: "Sicaran Battle Tank",
+};
+
+export const SicaranOmegaModel: ModelConfig = {
+  id: modelId("sicaran_omega"),
+  model_slug: "sicaran_omega",
+  model_name: "Sicaran Omega",
+};
+
+export const SicaranPunisherModel: ModelConfig = {
+  id: modelId("sicaran_punisher"),
+  model_slug: "sicaran_punisher",
+  model_name: "Sicaran Punisher",
+};
+
+export const SicaranVenatorModel: ModelConfig = {
+  id: modelId("sicaran_venator"),
+  model_slug: "sicaran_venator",
+  model_name: "Sicaran Venator",
+};
+
 export const SicarianInfiltratorPrincepsModel: ModelConfig = {
   id: modelId("sicarian_infiltrator_princeps"),
   model_slug: "sicarian_infiltrator_princeps",
@@ -4026,6 +4992,12 @@ export const SkySlasherSwarmModel: ModelConfig = {
   model_name: "Sky-slasher Swarm",
 };
 
+export const SkyclawPackLeaderModel: ModelConfig = {
+  id: modelId("skyclaw_pack_leader"),
+  model_slug: "skyclaw_pack_leader",
+  model_name: "Skyclaw Pack Leader",
+};
+
 export const SkyreaverFelarchModel: ModelConfig = {
   id: modelId("skyreaver_felarch"),
   model_slug: "skyreaver_felarch",
@@ -4042,6 +5014,12 @@ export const SloppityBilepiperModel: ModelConfig = {
   id: modelId("sloppity_bilepiper"),
   model_slug: "sloppity_bilepiper",
   model_name: "Sloppity Bilepiper",
+};
+
+export const SokarPatternStormbirdModel: ModelConfig = {
+  id: modelId("sokar_pattern_stormbird"),
+  model_slug: "sokar_pattern_stormbird",
+  model_name: "Sokar-pattern Stormbird",
 };
 
 export const SolariteModel: ModelConfig = {
@@ -4098,6 +5076,12 @@ export const SoulGrinderModel: ModelConfig = {
   model_name: "Soul Grinder",
 };
 
+export const SpartanModel: ModelConfig = {
+  id: modelId("spartan"),
+  model_slug: "spartan",
+  model_name: "Spartan",
+};
+
 export const SpinedChaosBeastModel: ModelConfig = {
   id: modelId("spined_chaos_beast"),
   model_slug: "spined_chaos_beast",
@@ -4134,6 +5118,12 @@ export const SslythModel: ModelConfig = {
   model_name: "Sslyth",
 };
 
+export const StalkerModel: ModelConfig = {
+  id: modelId("stalker"),
+  model_slug: "stalker",
+  model_name: "Stalker",
+};
+
 export const StarweaverModel: ModelConfig = {
   id: modelId("starweaver"),
   model_slug: "starweaver",
@@ -4158,6 +5148,18 @@ export const SteeljackTheynModel: ModelConfig = {
   model_name: "Steeljack Theyn",
 };
 
+export const SternguardVeteranSergeantModel: ModelConfig = {
+  id: modelId("sternguard_veteran_sergeant"),
+  model_slug: "sternguard_veteran_sergeant",
+  model_name: "Sternguard Veteran Sergeant",
+};
+
+export const SternguardVeteranSquadLeaderModel: ModelConfig = {
+  id: modelId("sternguard_veteran_squad_leader"),
+  model_slug: "sternguard_veteran_squad_leader",
+  model_name: "Sternguard Veteran Squad Leader",
+};
+
 export const StompaModel: ModelConfig = {
   id: modelId("stompa"),
   model_slug: "stompa",
@@ -4170,16 +5172,46 @@ export const StormChimeraModel: ModelConfig = {
   model_name: "Storm Chimera",
 };
 
+export const StormEagleGunshipModel: ModelConfig = {
+  id: modelId("storm_eagle_gunship"),
+  model_slug: "storm_eagle_gunship",
+  model_name: "Storm Eagle Gunship",
+};
+
 export const StormGuardianModel: ModelConfig = {
   id: modelId("storm_guardian"),
   model_slug: "storm_guardian",
   model_name: "Storm Guardian",
 };
 
+export const StormSpeederHailstrikeModel: ModelConfig = {
+  id: modelId("storm_speeder_hailstrike"),
+  model_slug: "storm_speeder_hailstrike",
+  model_name: "Storm Speeder Hailstrike",
+};
+
+export const StormSpeederHammerstrikeModel: ModelConfig = {
+  id: modelId("storm_speeder_hammerstrike"),
+  model_slug: "storm_speeder_hammerstrike",
+  model_name: "Storm Speeder Hammerstrike",
+};
+
+export const StormSpeederThunderstrikeModel: ModelConfig = {
+  id: modelId("storm_speeder_thunderstrike"),
+  model_slug: "storm_speeder_thunderstrike",
+  model_name: "Storm Speeder Thunderstrike",
+};
+
 export const StormbladeModel: ModelConfig = {
   id: modelId("stormblade"),
   model_slug: "stormblade",
   model_name: "Stormblade",
+};
+
+export const StormfangGunshipModel: ModelConfig = {
+  id: modelId("stormfang_gunship"),
+  model_slug: "stormfang_gunship",
+  model_name: "Stormfang Gunship",
 };
 
 export const StormhawkInterceptorModel: ModelConfig = {
@@ -4218,6 +5250,12 @@ export const StormtalonGunshipModel: ModelConfig = {
   model_name: "Stormtalon Gunship",
 };
 
+export const StormwolfModel: ModelConfig = {
+  id: modelId("stormwolf"),
+  model_slug: "stormwolf",
+  model_name: "Stormwolf",
+};
+
 export const StrikingScorpionExarchModel: ModelConfig = {
   id: modelId("striking_scorpion_exarch"),
   model_slug: "striking_scorpion_exarch",
@@ -4248,6 +5286,18 @@ export const SunSharkBomberModel: ModelConfig = {
   model_name: "Sun Shark Bomber",
 };
 
+export const SuppressorModel: ModelConfig = {
+  id: modelId("suppressor"),
+  model_slug: "suppressor",
+  model_name: "Suppressor",
+};
+
+export const SuppressorSergeantModel: ModelConfig = {
+  id: modelId("suppressor_sergeant"),
+  model_slug: "suppressor_sergeant",
+  model_name: "Suppressor Sergeant",
+};
+
 export const SurgeonAcolyteModel: ModelConfig = {
   id: modelId("surgeon_acolyte"),
   model_slug: "surgeon_acolyte",
@@ -4260,6 +5310,12 @@ export const SwoopingHawkExarchModel: ModelConfig = {
   model_name: "Swooping Hawk Exarch",
 };
 
+export const SwordBrotherModel: ModelConfig = {
+  id: modelId("sword_brother"),
+  model_slug: "sword_brother",
+  model_name: "Sword Brother",
+};
+
 export const SybariteModel: ModelConfig = {
   id: modelId("sybarite"),
   model_slug: "sybarite",
@@ -4270,6 +5326,18 @@ export const SydonianSkatrosModel: ModelConfig = {
   id: modelId("sydonian_skatros"),
   model_slug: "sydonian_skatros",
   model_name: "Sydonian Skatros",
+};
+
+export const TacticalMarineModel: ModelConfig = {
+  id: modelId("tactical_marine"),
+  model_slug: "tactical_marine",
+  model_name: "Tactical Marine",
+};
+
+export const TacticalSergeantModel: ModelConfig = {
+  id: modelId("tactical_sergeant"),
+  model_slug: "tactical_sergeant",
+  model_name: "Tactical Sergeant",
 };
 
 export const TallymanModel: ModelConfig = {
@@ -4294,6 +5362,18 @@ export const TantalusModel: ModelConfig = {
   id: modelId("tantalus"),
   model_slug: "tantalus",
   model_name: "Tantalus",
+};
+
+export const TarantulaAirDefenceBatteryModel: ModelConfig = {
+  id: modelId("tarantula_air_defence_battery"),
+  model_slug: "tarantula_air_defence_battery",
+  model_name: "Tarantula Air Defence Battery",
+};
+
+export const TarantulaSentryBatteryModel: ModelConfig = {
+  id: modelId("tarantula_sentry_battery"),
+  model_slug: "tarantula_sentry_battery",
+  model_name: "Tarantula Sentry Battery",
 };
 
 export const TaunarSupremacyArmourModel: ModelConfig = {
@@ -4342,6 +5422,24 @@ export const TechPriestManipulusModel: ModelConfig = {
   id: modelId("tech_priest_manipulus"),
   model_slug: "tech_priest_manipulus",
   model_name: "Tech-Priest Manipulus",
+};
+
+export const TechmarineModel: ModelConfig = {
+  id: modelId("techmarine"),
+  model_slug: "techmarine",
+  model_name: "Techmarine",
+};
+
+export const TechmarineGunnerModel: ModelConfig = {
+  id: modelId("techmarine_gunner"),
+  model_slug: "techmarine_gunner",
+  model_name: "Techmarine Gunner",
+};
+
+export const TechmarineOnBikeModel: ModelConfig = {
+  id: modelId("techmarine_on_bike"),
+  model_slug: "techmarine_on_bike",
+  model_name: "Techmarine on Bike",
 };
 
 export const TechnoarcheologistModel: ModelConfig = {
@@ -4410,6 +5508,24 @@ export const TerminatorJusticarModel: ModelConfig = {
   model_name: "Terminator Justicar",
 };
 
+export const TerminatorSergeantModel: ModelConfig = {
+  id: modelId("terminator_sergeant"),
+  model_slug: "terminator_sergeant",
+  model_name: "Terminator Sergeant",
+};
+
+export const TerminatorSquadLeaderModel: ModelConfig = {
+  id: modelId("terminator_squad_leader"),
+  model_slug: "terminator_squad_leader",
+  model_name: "Terminator Squad Leader",
+};
+
+export const TerminusUltraModel: ModelConfig = {
+  id: modelId("terminus_ultra"),
+  model_slug: "terminus_ultra",
+  model_name: "Terminus Ultra",
+};
+
 export const TerraxPatternTermiteModel: ModelConfig = {
   id: modelId("terrax_pattern_termite"),
   model_slug: "terrax_pattern_termite",
@@ -4438,6 +5554,30 @@ export const TheynModel: ModelConfig = {
   id: modelId("theyn"),
   model_slug: "theyn",
   model_name: "Theyn",
+};
+
+export const ThunderfireCannonModel: ModelConfig = {
+  id: modelId("thunderfire_cannon"),
+  model_slug: "thunderfire_cannon",
+  model_name: "Thunderfire Cannon",
+};
+
+export const ThunderhawkGunshipModel: ModelConfig = {
+  id: modelId("thunderhawk_gunship"),
+  model_slug: "thunderhawk_gunship",
+  model_name: "Thunderhawk Gunship",
+};
+
+export const ThunderhawkTransporterModel: ModelConfig = {
+  id: modelId("thunderhawk_transporter"),
+  model_slug: "thunderhawk_transporter",
+  model_name: "Thunderhawk Transporter",
+};
+
+export const ThunderwolfCavalryPackLeaderModel: ModelConfig = {
+  id: modelId("thunderwolf_cavalry_pack_leader"),
+  model_slug: "thunderwolf_cavalry_pack_leader",
+  model_name: "Thunderwolf Cavalry Pack Leader",
 };
 
 export const TidewallDroneportModel: ModelConfig = {
@@ -4572,6 +5712,12 @@ export const Tx42PiranhaModel: ModelConfig = {
   model_name: "TX42 Piranha",
 };
 
+export const TyphonModel: ModelConfig = {
+  id: modelId("typhon"),
+  model_slug: "typhon",
+  model_name: "Typhon",
+};
+
 export const TyranidPrimeModel: ModelConfig = {
   id: modelId("tyranid_prime"),
   model_slug: "tyranid_prime",
@@ -4582,6 +5728,12 @@ export const TyranidPrimeWithLashWhipModel: ModelConfig = {
   id: modelId("tyranid_prime_with_lash_whip"),
   model_slug: "tyranid_prime_with_lash_whip",
   model_name: "Tyranid Prime with Lash Whip",
+};
+
+export const TyrannicWarVeteranModel: ModelConfig = {
+  id: modelId("tyrannic_war_veteran"),
+  model_slug: "tyrannic_war_veteran",
+  model_name: "Tyrannic War Veteran",
 };
 
 export const TyrannocyteModel: ModelConfig = {
@@ -4638,6 +5790,18 @@ export const VampireRaiderModel: ModelConfig = {
   model_name: "Vampire Raider",
 };
 
+export const VanguardVeteranSergeantModel: ModelConfig = {
+  id: modelId("vanguard_veteran_sergeant"),
+  model_slug: "vanguard_veteran_sergeant",
+  model_name: "Vanguard Veteran Sergeant",
+};
+
+export const VanguardVeteranSergeantWithJumpPackModel: ModelConfig = {
+  id: modelId("vanguard_veteran_sergeant_with_jump_pack"),
+  model_slug: "vanguard_veteran_sergeant_with_jump_pack",
+  model_name: "Vanguard Veteran Sergeant with Jump Pack",
+};
+
 export const VendettaGunshipModel: ModelConfig = {
   id: modelId("vendetta_gunship"),
   model_slug: "vendetta_gunship",
@@ -4692,6 +5856,12 @@ export const VeteranGuardsmenModel: ModelConfig = {
   model_name: "Veteran Guardsmen",
 };
 
+export const VeteranSergeantModel: ModelConfig = {
+  id: modelId("veteran_sergeant"),
+  model_slug: "veteran_sergeant",
+  model_name: "Veteran Sergeant",
+};
+
 export const VibroCannonPlatformModel: ModelConfig = {
   id: modelId("vibro_cannon_platform"),
   model_slug: "vibro_cannon_platform",
@@ -4708,6 +5878,18 @@ export const VigilatorSisterSuperiorModel: ModelConfig = {
   id: modelId("vigilator_sister_superior"),
   model_slug: "vigilator_sister_superior",
   model_name: "Vigilator Sister Superior",
+};
+
+export const VindicatorModel: ModelConfig = {
+  id: modelId("vindicator"),
+  model_slug: "vindicator",
+  model_name: "Vindicator",
+};
+
+export const VindicatorLaserDestroyerModel: ModelConfig = {
+  id: modelId("vindicator_laser_destroyer"),
+  model_slug: "vindicator_laser_destroyer",
+  model_name: "Vindicator Laser Destroyer",
 };
 
 export const VisionaryModel: ModelConfig = {
@@ -4890,6 +6072,18 @@ export const WeirdboyModel: ModelConfig = {
   model_name: "Weirdboy",
 };
 
+export const WhirlwindModel: ModelConfig = {
+  id: modelId("whirlwind"),
+  model_slug: "whirlwind",
+  model_name: "Whirlwind",
+};
+
+export const WhirlwindScorpiusModel: ModelConfig = {
+  id: modelId("whirlwind_scorpius"),
+  model_slug: "whirlwind_scorpius",
+  model_name: "Whirlwind Scorpius",
+};
+
 export const WingedHiveTyrantModel: ModelConfig = {
   id: modelId("winged_hive_tyrant"),
   model_slug: "winged_hive_tyrant",
@@ -4906,6 +6100,72 @@ export const WitchseekerSisterSuperiorModel: ModelConfig = {
   id: modelId("witchseeker_sister_superior"),
   model_slug: "witchseeker_sister_superior",
   model_name: "Witchseeker Sister Superior",
+};
+
+export const WolfGuardBattleLeaderModel: ModelConfig = {
+  id: modelId("wolf_guard_battle_leader"),
+  model_slug: "wolf_guard_battle_leader",
+  model_name: "Wolf Guard Battle Leader",
+};
+
+export const WolfGuardBattleLeaderInTerminatorArmourModel: ModelConfig = {
+  id: modelId("wolf_guard_battle_leader_in_terminator_armour"),
+  model_slug: "wolf_guard_battle_leader_in_terminator_armour",
+  model_name: "Wolf Guard Battle Leader in Terminator Armour",
+};
+
+export const WolfGuardBattleLeaderOnThunderworlfModel: ModelConfig = {
+  id: modelId("wolf_guard_battle_leader_on_thunderworlf"),
+  model_slug: "wolf_guard_battle_leader_on_thunderworlf",
+  model_name: "Wolf Guard Battle Leader on Thunderworlf",
+};
+
+export const WolfGuardPackLeaderModel: ModelConfig = {
+  id: modelId("wolf_guard_pack_leader"),
+  model_slug: "wolf_guard_pack_leader",
+  model_name: "Wolf Guard Pack Leader",
+};
+
+export const WolfGuardPackLeaderInTerminatorArmourModel: ModelConfig = {
+  id: modelId("wolf_guard_pack_leader_in_terminator_armour"),
+  model_slug: "wolf_guard_pack_leader_in_terminator_armour",
+  model_name: "Wolf Guard Pack Leader in Terminator Armour",
+};
+
+export const WolfGuardPackLeaderWithJumpPackModel: ModelConfig = {
+  id: modelId("wolf_guard_pack_leader_with_jump_pack"),
+  model_slug: "wolf_guard_pack_leader_with_jump_pack",
+  model_name: "Wolf Guard Pack Leader with Jump Pack",
+};
+
+export const WolfGuardTerminatorPackLeaderModel: ModelConfig = {
+  id: modelId("wolf_guard_terminator_pack_leader"),
+  model_slug: "wolf_guard_terminator_pack_leader",
+  model_name: "Wolf Guard Terminator Pack Leader",
+};
+
+export const WolfLordOnThunderwolfModel: ModelConfig = {
+  id: modelId("wolf_lord_on_thunderwolf"),
+  model_slug: "wolf_lord_on_thunderwolf",
+  model_name: "Wolf Lord on Thunderwolf",
+};
+
+export const WolfPriestModel: ModelConfig = {
+  id: modelId("wolf_priest"),
+  model_slug: "wolf_priest",
+  model_name: "Wolf Priest",
+};
+
+export const WolfScoutModel: ModelConfig = {
+  id: modelId("wolf_scout"),
+  model_slug: "wolf_scout",
+  model_name: "Wolf Scout",
+};
+
+export const WolfScoutPackLeaderModel: ModelConfig = {
+  id: modelId("wolf_scout_pack_leader"),
+  model_slug: "wolf_scout_pack_leader",
+  model_name: "Wolf Scout Pack Leader",
 };
 
 export const WraithbladeModel: ModelConfig = {
@@ -4950,6 +6210,12 @@ export const WraithseerModel: ModelConfig = {
   model_name: "Wraithseer",
 };
 
+export const WulfenDreadnoughtModel: ModelConfig = {
+  id: modelId("wulfen_dreadnought"),
+  model_slug: "wulfen_dreadnought",
+  model_name: "Wulfen Dreadnought",
+};
+
 export const WurrboyModel: ModelConfig = {
   id: modelId("wurrboy"),
   model_slug: "wurrboy",
@@ -4966,6 +6232,12 @@ export const WyvernModel: ModelConfig = {
   id: modelId("wyvern"),
   model_slug: "wyvern",
   model_name: "Wyvern",
+};
+
+export const XiphonInterceptorModel: ModelConfig = {
+  id: modelId("xiphon_interceptor"),
+  model_slug: "xiphon_interceptor",
+  model_name: "Xiphon Interceptor",
 };
 
 export const YaegirTheynModel: ModelConfig = {
@@ -4997,9 +6269,16 @@ export const modelsDataset: SeedDataset<"models"> = {
     AcolyteLeaderModel,
     AcothystModel,
     AegisDefenceLineModel,
+    AggressorSergeantModel,
     AlluressModel,
     AnathemaPsykanaRhinoModel,
+    AncientModel,
+    AncientInTerminatorArmourModel,
+    AncientOnBikeModel,
     AnnihilationBargeModel,
+    ApothecaryModel,
+    ApothecaryBiologisModel,
+    ApothecaryOnBikeModel,
     AquilaLanderModel,
     ArchaeopterFusilaveModel,
     ArchaeopterStratoraptorModel,
@@ -5017,6 +6296,14 @@ export const modelsDataset: SeedDataset<"models"> = {
     ArvusLighterModel,
     AspiringChampionModel,
     AspiringSorcererModel,
+    AssaultCenturionSergeantModel,
+    AssaultIntercessorSergeantModel,
+    AssaultIntercessorSergeantWithJumpPackModel,
+    AssaultSergeantModel,
+    AssaultSergeantWithJumpPackModel,
+    AssaultTerminatorSergeantModel,
+    AstartesServitorModel,
+    AstraeusModel,
     AstropathModel,
     AtlasRecoveryVehicleModel,
     AttackFightaModel,
@@ -5026,6 +6313,8 @@ export const modelsDataset: SeedDataset<"models"> = {
     AvengerStrikeFighterModel,
     AviarchModel,
     Ax10TigerSharkModel,
+    BaalPredatorModel,
+    BallistusDreadnoughtModel,
     BanebladeModel,
     BanehammerModel,
     BaneswordModel,
@@ -5048,13 +6337,18 @@ export const modelsDataset: SeedDataset<"models"> = {
     BigTrakkModel,
     BigedBossbunkaModel,
     BikerChampionModel,
+    BikerSergeantModel,
     BiologusPutrifierModel,
     BiophagusModel,
     BladeChampionModel,
+    BladeguardAncientModel,
+    BladeguardVeteranSergeantModel,
     BlessedBladeModel,
     BlightlordChampionModel,
     BlissbringerModel,
     BlitzaBommerModel,
+    BloodAngelsCaptainModel,
+    BloodClawPackLeaderModel,
     BloodHeraldModel,
     BloodSlaughtererModel,
     BloodhunterModel,
@@ -5078,6 +6372,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     BrotherhoodChaplainModel,
     BrotherhoodLibrarianModel,
     BrotherhoodTechmarineModel,
+    BrutalisDreadnoughtModel,
     BullgrynBoneEadModel,
     BurnaBommerModel,
     BurningChariotModel,
@@ -5085,6 +6380,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     CadianCommanderModel,
     CadianVeteranGuardsmenModel,
     CadreFirebladeModel,
+    CaestusAssaultRamModel,
     CaladiusGravTankModel,
     CanidModel,
     CanonessModel,
@@ -5095,18 +6391,27 @@ export const modelsDataset: SeedDataset<"models"> = {
     CanoptekTombCrawlerModel,
     CanoptekTombSentinelModel,
     CanoptekTombStalkerModel,
+    CaptainModel,
+    CaptainInGravisArmourModel,
+    CaptainInPhobosArmourModel,
+    CaptainInTerminatorArmourModel,
+    CaptainOnBikeModel,
+    CaptainWithJumpPackModel,
     CarnodonModel,
+    CastellanModel,
     CastigatorModel,
     CatachanCommanderModel,
     CatacombCommandBargeModel,
     CelestianInsidiantModel,
     CelestianInsidiantSuperiorModel,
+    CenobyteServitorsModel,
     CentaurLightCarrierModel,
     CentaurRsvModel,
     CerastusKnightAcheronModel,
     CerastusKnightAtraposModel,
     CerastusKnightCastigatorModel,
     CerastusKnightLancerModel,
+    CerberusModel,
     ChangecasterModel,
     ChaosAcastusKnightAsteriusModel,
     ChaosAcastusKnightPorphyrionModel,
@@ -5133,6 +6438,12 @@ export const modelsDataset: SeedDataset<"models"> = {
     ChaosTerminatorModel,
     ChaosThunderhawkModel,
     ChaosVindicatorModel,
+    ChaplainModel,
+    ChaplainInTerminatorArmourModel,
+    ChaplainOnBikeModel,
+    ChaplainVenerableDreadnoughtModel,
+    ChaplainWithJumpPackModel,
+    ChapterChampionModel,
     ChimeraModel,
     ChinorkWarkoptaModel,
     ChosenChampionModel,
@@ -5146,6 +6457,10 @@ export const modelsDataset: SeedDataset<"models"> = {
     CommanderInCrisisBattlesuitModel,
     CommanderInEnforcerBattlesuitModel,
     CommissarModel,
+    CompanyAncientModel,
+    CompanyChampionModel,
+    CompanyChampionOnBikeModel,
+    CompanyVeteranModel,
     ContemptorAchillusDreadnoughtModel,
     ContemptorGalatusDreadnoughtModel,
     ContortedEpitomeModel,
@@ -5161,6 +6476,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     CrisisStarscytheShasvreModel,
     CrisisSunforgeShasuiModel,
     CrisisSunforgeShasvreModel,
+    CrusadeAncientModel,
     CryptothrallModel,
     CthonianEarthshakerModel,
     CultDemagogueModel,
@@ -5169,6 +6485,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     CustodianGuardWithAdrasiteModel,
     CyberMastiffModel,
     CyberneticaDatasmithModel,
+    CyberwolfModel,
     CyclopsDemolitionVehicleModel,
     DCannonPlatformModel,
     DaemonPrinceOfChaosModel,
@@ -5186,6 +6503,9 @@ export const modelsDataset: SeedDataset<"models"> = {
     DarkApostleModel,
     DarkDiscipleModel,
     DarkReaperExarchModel,
+    DeathCompanyCaptainModel,
+    DeathCompanyCaptainWithJumpPackModel,
+    DeathCompanyDreadnoughtModel,
     DeathCultAssassinModel,
     DeathGuardChaosLordModel,
     DeathGuardChaosLordInTerminatorArmourModel,
@@ -5196,15 +6516,28 @@ export const modelsDataset: SeedDataset<"models"> = {
     DeathKorpsWatchmasterModel,
     DeathRiderCommissarModel,
     DeathshroudChampionModel,
+    DeathstormDropPodModel,
     DeathstrikeModel,
     DeathwatchTerminatorSergeantModel,
     DeathwatchVeteranModel,
+    DeathwingAncientModel,
+    DeathwingApothecaryModel,
+    DeathwingChampionModel,
+    DeathwingKnightModel,
+    DeathwingSergeantModel,
+    DeathwingStrikemasterModel,
     DecimatorModel,
     DeffDreadModel,
     DeffRollaBattleFortressModel,
     DeffkoptasWithBigShootaModel,
     DefilerModel,
     DefkillaWartrikeModel,
+    DeimosPredatorModel,
+    DeredeoDreadnoughtModel,
+    DesolationMarineModel,
+    DesolationSergeantModel,
+    DevastatorCenturionSergeantModel,
+    DevastatorSergeantModel,
     DevilfishModel,
     DialogusModel,
     DimachaeronModel,
@@ -5218,14 +6551,21 @@ export const modelsDataset: SeedDataset<"models"> = {
     DoomhammerModel,
     DoomsdayArkModel,
     DreadclawDropPodModel,
+    DreadnoughtModel,
+    DreadnoughtDropPodModel,
     DroneSentryTurretModel,
+    DropPodModel,
     ECogsModel,
     EarthshakerCarriageModel,
     EarthshakerPlatformModel,
     EightboundChampionModel,
     EinhyrChampionModel,
+    EliminatorModel,
+    EliminatorSergeantModel,
     ElysianDropSentinelModel,
     ElysianSniperTeamModel,
+    EmperorsChampionModel,
+    EradicatorSergeantModel,
     EtherealModel,
     EtherealGuardModel,
     ExactionVigilantModel,
@@ -5234,19 +6574,23 @@ export const modelsDataset: SeedDataset<"models"> = {
     ExaltedFlamerModel,
     ExaltedSeekerChariotModel,
     ExaltedSorcererModel,
+    ExecratorModel,
     ExocrineModel,
     ExorcistModel,
+    FalchionModel,
     FalconModel,
     FarseerModel,
     FarseerSkyrunnerModel,
     FateskimmerModel,
     FeculentGnarlmawModel,
+    FellbladeModel,
     FellgorBeastmenModel,
     FellgorChampionModel,
     FightaBommerModel,
     FireCoordinatorModel,
     FireDragonExarchModel,
     FirePrismModel,
+    FireRaptorGunshipModel,
     FireWarriorModel,
     FireWarriorShasuiModel,
     FiresightMarksmanModel,
@@ -5255,6 +6599,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     FoetidBloatDroneModel,
     ForgefiendModel,
     FoulBlightspawnModel,
+    FuriosoDreadnoughtModel,
     GargantuanSquiggothModel,
     GaussPylonModel,
     GellerpoxMutantModel,
@@ -5263,6 +6608,9 @@ export const modelsDataset: SeedDataset<"models"> = {
     GhostArkModel,
     GhostkeelBattlesuitModel,
     GiantChaosSpawnModel,
+    GladiatorLancerModel,
+    GladiatorReaperModel,
+    GladiatorValiantModel,
     GoliathRockgrinderModel,
     GoliathTruckModel,
     GoreHoundModel,
@@ -5280,6 +6628,8 @@ export const modelsDataset: SeedDataset<"models"> = {
     GrenadierSergeantModel,
     GrenadierSergeant7GrenadiersModel,
     GretchinModel,
+    GreyHunterModel,
+    GreyHunterPackLeaderModel,
     GreyKnightsDreadnoughtModel,
     GreyKnightsRelicRazorbackModel,
     GreyKnightsTerminatorModel,
@@ -5292,6 +6642,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     GunServitorModel,
     HadesBreachingDrillModel,
     HaemonculusModel,
+    HammerfallBunkerModel,
     HammerheadGunshipModel,
     HarpyModel,
     HarridanModel,
@@ -5305,6 +6656,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     HearthkynWarriorModel,
     HeartseekerModel,
     HeavyGunDroneModel,
+    HeavyIntercessorSergeantModel,
     HeavyMortarTeamModel,
     HeavyQuadLauncherTeamModel,
     HeavyWeaponPlatformModel,
@@ -5316,6 +6668,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     HeldrakeModel,
     HellBladeModel,
     HellTalonModel,
+    HellblasterSergeantModel,
     HellhammerModel,
     HellhoundModel,
     HelliarchModel,
@@ -5329,11 +6682,16 @@ export const modelsDataset: SeedDataset<"models"> = {
     HierophantModel,
     HiveCroneModel,
     HiveTyrantModel,
+    HonourGuardModel,
     HopliteAlphaModel,
     HornetModel,
     HospitallerModel,
+    HoundOfMorkaiPackLeaderModel,
     HowlingBansheeExarchModel,
     HuntaRigModel,
+    HunterModel,
+    HuntingWolfModel,
+    HuntingWolveModel,
     HydraModel,
     HydraPlatformModel,
     IbramGauntModel,
@@ -5342,18 +6700,32 @@ export const modelsDataset: SeedDataset<"models"> = {
     ImagifierModel,
     ImmolatorModel,
     ImperialRhinoModel,
+    ImperialSpaceMarineModel,
+    ImpulsorModel,
+    InceptorSergeantModel,
+    IncursorSergeantModel,
     InfernalEnrapturessModel,
     InfernalMasterModel,
+    InfernusSergeantModel,
+    InfiltratorSergeantModel,
     InquisitorModel,
     InquisitorInTerminatorArmourModel,
     InquisitorialChimeraModel,
     InterceptorJusticarModel,
+    IntercessorSergeantModel,
+    InvaderAtvModel,
+    InvictorTacticalWarsuitModel,
+    IronPriestModel,
+    IronPriestOnThunderwolfModel,
+    IroncladDreadnoughtModel,
     IronkinAssistantModel,
     JackalAlphusModel,
     JakhalModel,
     JakhalPackLeader1DishonouredModel,
     JakhalPackLeader2DishonouredModel,
+    JavelinAttackSpeederModel,
     JokaeroWeaponsmithModel,
+    JudiciarModel,
     JungleFighterModel,
     JungleFighterSergeantModel,
     JusticarModel,
@@ -5377,6 +6749,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     KillTankModel,
     KillTeamBikerJetekSubereiModel,
     KillTeamSergeantModel,
+    KillTeamSergeantWithJumpPackModel,
     KillTeamTerminatorGarranBranatarModel,
     KlaivexModel,
     KnarlocRiderModel,
@@ -5389,6 +6762,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     KnightDespoilerModel,
     KnightErrantModel,
     KnightGallantModel,
+    KnightMasterModel,
     KnightOfTheFlameModel,
     KnightPaladinModel,
     KnightPreceptorModel,
@@ -5398,7 +6772,9 @@ export const modelsDataset: SeedDataset<"models"> = {
     KnightValiantModel,
     KnightWardenModel,
     KommandoModel,
+    KratosModel,
     KriegEngineerWatchmasterModel,
+    KromDragongazeModel,
     KrootFarstalkerModel,
     KrootFleshShaperModel,
     KrootHoundModel,
@@ -5409,8 +6785,19 @@ export const modelsDataset: SeedDataset<"models"> = {
     KustomBoostaBlastaModel,
     KytanRavagerModel,
     LandRaiderModel,
+    LandRaiderAchillesModel,
     LandRaiderCrusaderModel,
+    LandRaiderExcelsiorModel,
+    LandRaiderHeliosModel,
+    LandRaiderPrometheusModel,
+    LandRaiderProteusModel,
     LandRaiderRedeemerModel,
+    LandSpeederModel,
+    LandSpeederStormModel,
+    LandSpeederTempestModel,
+    LandSpeederTornadoModel,
+    LandSpeederTyphoonModel,
+    LandSpeederVengeanceModel,
     LeadPlayerModel,
     LectroMaesterModel,
     LegionnaireSergeantModel,
@@ -5423,11 +6810,23 @@ export const modelsDataset: SeedDataset<"models"> = {
     LemanRussPunisherModel,
     LemanRussVanquisherModel,
     LesksHeroeModel,
+    LeviathanDreadnoughtModel,
     LhamaeanModel,
+    LibrarianModel,
+    LibrarianDreadnoughtModel,
+    LibrarianInPhobosArmourModel,
+    LibrarianInTerminatorArmourModel,
+    LibrarianOnBikeModel,
+    LibrarianWithJumpPackModel,
     LictorModel,
+    LieutenantModel,
+    LieutenantInPhobosArmourModel,
+    LieutenantInReiverArmourModel,
+    LieutenantWithCombiWeaponModel,
     LiftaWagonModel,
     LocusModel,
     LokhustLordModel,
+    LongFangPackLeaderModel,
     LongQuillModel,
     LordModel,
     LordCommissarModel,
@@ -5458,9 +6857,11 @@ export const modelsDataset: SeedDataset<"models"> = {
     ManticorePlatformModel,
     MarauderBomberModel,
     MarauderDestroyerModel,
+    MarshalModel,
     MasterOfExecutionsModel,
     MasterOfOrdnance1OfficerOfTheFleetModel,
     MasterOfPossessionModel,
+    MastodonModel,
     MauganRaModel,
     MaulerfiendModel,
     MawlocModel,
@@ -5483,6 +6884,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     ModelsMaximumModel,
     MonolithModel,
     MorkanautModel,
+    MortisDreadnoughtModel,
     MukaaliRiderModel,
     MukaaliRiderSergeantModel,
     MunitorumServitorModel,
@@ -5495,6 +6897,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     NegavoltCultistModel,
     NemesisDreadknightModel,
     NeophyteLeaderModel,
+    NephilimJetfighterModel,
     NeurolictorModel,
     NeurothropeModel,
     NeurotyrantModel,
@@ -5523,6 +6926,7 @@ export const modelsDataset: SeedDataset<"models"> = {
     OrcaDropshipModel,
     OrdnanceTeamModel,
     OrionAssaultDropshipModel,
+    OutriderSergeantModel,
     OverlordModel,
     OverlordWithTranslocationShroudModel,
     PainbossModel,
@@ -5553,6 +6957,9 @@ export const modelsDataset: SeedDataset<"models"> = {
     PoxbringerModel,
     PraetorModel,
     PreacherModel,
+    PredatorAnnihilatorModel,
+    PredatorDestructorModel,
+    PrimarisCompanyChampionModel,
     PrimarisPsykerModel,
     PrimusModel,
     ProctorExactantModel,
@@ -5569,11 +6976,19 @@ export const modelsDataset: SeedDataset<"models"> = {
     QuestorisKnightMagaeraModel,
     QuestorisKnightStyrixModel,
     RaiderModel,
+    RapierCarrierModel,
     RaptorChampionModel,
     RavagerModel,
     RavenStrikeFighterModel,
     RavenerModel,
     RavenerPrimeModel,
+    RavenwingAncientModel,
+    RavenwingApothecaryModel,
+    RavenwingChampionModel,
+    RavenwingDarkTalonModel,
+    RavenwingDarkshroudModel,
+    RavenwingHuntmasterModel,
+    RavenwingTalonmasterModel,
     RazorbackModel,
     RazorsharkStrikeFighterModel,
     RazorwingFlockModel,
@@ -5583,8 +6998,13 @@ export const modelsDataset: SeedDataset<"models"> = {
     ReconTrooperModelModel,
     RedCorsairsRaiderChampionModel,
     RedCorsairsReaveCaptainModel,
+    RedemptorDreadnoughtModel,
     ReductusSaboteurModel,
+    ReiverSergeantModel,
     RejuvenatAdeptModel,
+    RelicContemptorDreadnoughtModel,
+    RelicRazorbackModel,
+    RelicTerminatorSergeantModel,
     RemoraStealthDroneModel,
     RemoteSensorTowerModel,
     RendmasterOnBloodThroneModel,
@@ -5594,10 +7014,13 @@ export const modelsDataset: SeedDataset<"models"> = {
     RenegadePlagueOgrynModel,
     RepentiaSuperiorModel,
     RepressorModel,
+    RepulsorModel,
+    RepulsorExecutionerModel,
     RetributorModel,
     RetributorSuperiorModel,
     RevenantTitanModel,
     RhinoModel,
+    RhinoPrimarisModel,
     RidemasterModel,
     RiptideBattlesuitModel,
     RogalDornBattleTankModel,
@@ -5617,9 +7040,14 @@ export const modelsDataset: SeedDataset<"models"> = {
     SalvationistModel,
     SanctifierModel,
     SanctusModel,
+    SanguinaryPriestModel,
+    SanguinaryPriestOnBikeModel,
     ScarabOccultSorcererModel,
     ScorpionModel,
     ScourgeModel,
+    ScoutBikerSergeantModel,
+    ScoutSergeantModel,
+    ScoutSniperSergeantModel,
     ScreamerKillerModel,
     ScythedHieroduleModel,
     SentinelPowerlifterModel,
@@ -5641,6 +7069,11 @@ export const modelsDataset: SeedDataset<"models"> = {
     ShockTrooperModel,
     ShockTrooperSergeantModel,
     ShokkjumpDragstaModel,
+    SicaranArcusModel,
+    SicaranBattleTankModel,
+    SicaranOmegaModel,
+    SicaranPunisherModel,
+    SicaranVenatorModel,
     SicarianInfiltratorPrincepsModel,
     SicarianRuststalkerPrincepsModel,
     SisterSuperiorModel,
@@ -5659,9 +7092,11 @@ export const modelsDataset: SeedDataset<"models"> = {
     SkullmasterModel,
     SkyRayGunshipModel,
     SkySlasherSwarmModel,
+    SkyclawPackLeaderModel,
     SkyreaverFelarchModel,
     SlaughterboundModel,
     SloppityBilepiperModel,
+    SokarPatternStormbirdModel,
     SolariteModel,
     SorcererModel,
     SorcererInTerminatorArmourModel,
@@ -5671,39 +7106,56 @@ export const modelsDataset: SeedDataset<"models"> = {
     SorcererOnSteedOfSlaaneshModel,
     SororitasRhinoModel,
     SoulGrinderModel,
+    SpartanModel,
     SpinedChaosBeastModel,
     SpiritseerModel,
     SpoilpoxScrivenerModel,
     SporocystModel,
     SquiggothModel,
     SslythModel,
+    StalkerModel,
     StarweaverModel,
     StealthShasuiModel,
     StealthShasvreModel,
     SteeljackTheynModel,
+    SternguardVeteranSergeantModel,
+    SternguardVeteranSquadLeaderModel,
     StompaModel,
     StormChimeraModel,
+    StormEagleGunshipModel,
     StormGuardianModel,
+    StormSpeederHailstrikeModel,
+    StormSpeederHammerstrikeModel,
+    StormSpeederThunderstrikeModel,
     StormbladeModel,
+    StormfangGunshipModel,
     StormhawkInterceptorModel,
     StormlordModel,
     StormravenGunshipModel,
     StormsurgeModel,
     StormswordModel,
     StormtalonGunshipModel,
+    StormwolfModel,
     StrikingScorpionExarchModel,
     StygiesDestroyerTankHunterModel,
     SubductorModel,
     SuccubusModel,
     SunSharkBomberModel,
+    SuppressorModel,
+    SuppressorSergeantModel,
     SurgeonAcolyteModel,
     SwoopingHawkExarchModel,
+    SwordBrotherModel,
     SybariteModel,
     SydonianSkatrosModel,
+    TacticalMarineModel,
+    TacticalSergeantModel,
     TallymanModel,
     TanithGhostModel,
     TankbustaModel,
     TantalusModel,
+    TarantulaAirDefenceBatteryModel,
+    TarantulaSentryBatteryModel,
     TaunarSupremacyArmourModel,
     TaurosAssaultVehicleModel,
     TaurosVenatorModel,
@@ -5712,6 +7164,9 @@ export const modelsDataset: SeedDataset<"models"> = {
     TechPriestDominusModel,
     TechPriestEnginseerModel,
     TechPriestManipulusModel,
+    TechmarineModel,
+    TechmarineGunnerModel,
+    TechmarineOnBikeModel,
     TechnoarcheologistModel,
     TechnomancerModel,
     TectonicFragdrillModel,
@@ -5723,11 +7178,18 @@ export const modelsDataset: SeedDataset<"models"> = {
     TempestusScionModel,
     TerminatorChampionModel,
     TerminatorJusticarModel,
+    TerminatorSergeantModel,
+    TerminatorSquadLeaderModel,
+    TerminusUltraModel,
     TerraxPatternTermiteModel,
     TervigonModel,
     TesseractArkModel,
     TesseractVaultModel,
     TheynModel,
+    ThunderfireCannonModel,
+    ThunderhawkGunshipModel,
+    ThunderhawkTransporterModel,
+    ThunderwolfCavalryPackLeaderModel,
     TidewallDroneportModel,
     TidewallGunrigModel,
     TidewallShieldlineModel,
@@ -5750,8 +7212,10 @@ export const modelsDataset: SeedDataset<"models"> = {
     TrygonModel,
     TwistbrayModel,
     Tx42PiranhaModel,
+    TyphonModel,
     TyranidPrimeModel,
     TyranidPrimeWithLashWhipModel,
+    TyrannicWarVeteranModel,
     TyrannocyteModel,
     TyrannofexModel,
     TzaangorShamanModel,
@@ -5761,6 +7225,8 @@ export const modelsDataset: SeedDataset<"models"> = {
     ValkyrieSkyTalonModel,
     VampireHunterModel,
     VampireRaiderModel,
+    VanguardVeteranSergeantModel,
+    VanguardVeteranSergeantWithJumpPackModel,
     VendettaGunshipModel,
     VenerableContemptorDreadnoughtModel,
     VenerableDreadnoughtModel,
@@ -5770,9 +7236,12 @@ export const modelsDataset: SeedDataset<"models"> = {
     VespidStrainLeaderModel,
     VeteranBikerSergeantModel,
     VeteranGuardsmenModel,
+    VeteranSergeantModel,
     VibroCannonPlatformModel,
     VigilantModel,
     VigilatorSisterSuperiorModel,
+    VindicatorModel,
+    VindicatorLaserDestroyerModel,
     VisionaryModel,
     VoidmasterModel,
     VoidravenBomberModel,
@@ -5803,9 +7272,22 @@ export const modelsDataset: SeedDataset<"models"> = {
     WaveSerpentModel,
     WazbomBlastajetModel,
     WeirdboyModel,
+    WhirlwindModel,
+    WhirlwindScorpiusModel,
     WingedHiveTyrantModel,
     WingedTyranidPrimeModel,
     WitchseekerSisterSuperiorModel,
+    WolfGuardBattleLeaderModel,
+    WolfGuardBattleLeaderInTerminatorArmourModel,
+    WolfGuardBattleLeaderOnThunderworlfModel,
+    WolfGuardPackLeaderModel,
+    WolfGuardPackLeaderInTerminatorArmourModel,
+    WolfGuardPackLeaderWithJumpPackModel,
+    WolfGuardTerminatorPackLeaderModel,
+    WolfLordOnThunderwolfModel,
+    WolfPriestModel,
+    WolfScoutModel,
+    WolfScoutPackLeaderModel,
     WraithbladeModel,
     WraithboneArcheModel,
     WraithguardModel,
@@ -5813,9 +7295,11 @@ export const modelsDataset: SeedDataset<"models"> = {
     WraithknightWithGhostglaiveModel,
     WraithlordModel,
     WraithseerModel,
+    WulfenDreadnoughtModel,
     WurrboyModel,
     WycheModel,
     WyvernModel,
+    XiphonInterceptorModel,
     YaegirTheynModel,
     YvahraBattlesuitModel,
     ZephyrimSuperiorModel,
