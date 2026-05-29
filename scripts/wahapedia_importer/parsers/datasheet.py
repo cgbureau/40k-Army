@@ -29,13 +29,16 @@ def parse_unit_name(html: str) -> str | None:
 # Model profiles (stat blocks)
 # ---------------------------------------------------------------------------
 
-def parse_model_profiles(html: str) -> list[dict[str, Any]]:
+def parse_model_profiles(html: str, unit_name: str | None = None) -> list[dict[str, Any]]:
     """Return one dict per model profile block found on the datasheet.
 
     Each dict has:
         model_name  : str  — e.g. "GRETCHIN", "RUNTHERD"
         base_size   : str | None  — e.g. "25mm"
         stats       : dict[str, str]  — keyed by stat label, e.g. {"M": "6\"", "T": "2"}
+
+    Single-model vehicles have no dsModelName span in their profile block.
+    Pass unit_name as a fallback so those units still produce a profile record.
     """
     results: list[dict[str, Any]] = []
 
@@ -52,9 +55,13 @@ def parse_model_profiles(html: str) -> list[dict[str, Any]]:
         block = block_match.group("block")
 
         name_match = re.search(r'class="dsModelName[^"]*"[^>]*>([^<]+)', block)
-        if not name_match:
+        # Single-model vehicles omit the dsModelName span; fall back to unit_name.
+        if name_match:
+            model_name = _clean_text(name_match.group(1))
+        elif unit_name:
+            model_name = unit_name.upper()
+        else:
             continue
-        model_name = _clean_text(name_match.group(1))
 
         base_match = re.search(
             r'class="dsModelBase[^"]*"[^>]*>\(&#8960;(?P<size>[^)]+)\)', block
@@ -271,22 +278,39 @@ def _parse_model_count_text(text: str) -> dict[str, int]:
 
 
 def _parse_equipment_assignments(comp_html: str) -> dict[str, list[str]]:
-    """Parse "Every Runtherd is equipped with: slugga; Runtherd tools." sections."""
-    equipment: dict[str, list[str]] = {}
+    """Parse equipment lines from the composition block.
+
+    Handles two patterns:
+    - "Every Runtherd is equipped with: slugga; Runtherd tools."  (multi-model units)
+    - "This model is equipped with: storm bolter; armoured tracks."  (single-model vehicles)
+
+    The key for "This model" entries is None (resolved by the caller to the unit name).
+    """
+    equipment: dict[str | None, list[str]] = {}
     plain = re.sub(r"<[^>]+>", " ", comp_html)
     plain = re.sub(r"\s+", " ", plain)
 
+    # Multi-model pattern: "Every <ModelName> is equipped with: ..."
     for match in re.finditer(
         r"Every\s+(?P<model>[A-Z][^.]+?)\s+is equipped with:\s*(?P<weapons>[^.]+)\.",
         plain,
         flags=re.IGNORECASE,
     ):
         model_name = match.group("model").strip()
-        weapons_raw = match.group("weapons").strip()
-        weapons = [w.strip() for w in re.split(r";|,", weapons_raw) if w.strip()]
+        weapons = [w.strip() for w in re.split(r";|,", match.group("weapons")) if w.strip()]
         equipment[model_name] = weapons
 
-    return equipment
+    # Single-model pattern: "This model is equipped with: ..."
+    this_match = re.search(
+        r"This model is equipped with:\s*(?P<weapons>[^.]+)\.",
+        plain,
+        flags=re.IGNORECASE,
+    )
+    if this_match and None not in equipment:
+        weapons = [w.strip() for w in re.split(r";|,", this_match.group("weapons")) if w.strip()]
+        equipment[None] = weapons  # type: ignore[index]
+
+    return equipment  # type: ignore[return-value]
 
 
 def _parse_point_costs(comp_block: str) -> list[dict[str, int]]:

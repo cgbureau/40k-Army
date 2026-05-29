@@ -597,7 +597,7 @@ def _extract_unit_datasheets(
             )
 
         # --- unit profiles (stat blocks) ---
-        profiles = parse_model_profiles(html)
+        profiles = parse_model_profiles(html, unit_name=raw_unit_name)
         for profile in profiles:
             model_name = profile["model_name"].title()
             model_slug = normalize_slug(model_name)
@@ -661,11 +661,16 @@ def _extract_unit_datasheets(
                 ),
             )
 
-            # Match weapon to model via equipment assignment dict
+            # Match weapon to model via equipment assignment dict.
+            # None key = "This model is equipped with:" (single-model vehicle).
             assigned_model_slug: str | None = None
             for model_name_raw, weapon_names in equipment.items():
                 if any(normalize_slug(wn) == weapon_slug for wn in weapon_names):
-                    assigned_model_slug = normalize_slug(model_name_raw)
+                    if model_name_raw is None:
+                        # Resolve to the unit's own model slug (same as unit_slug for vehicles)
+                        assigned_model_slug = normalize_slug(raw_unit_name)
+                    else:
+                        assigned_model_slug = normalize_slug(model_name_raw)
                     break
 
             uw_key = f"{unit_slug}__{assigned_model_slug or 'all'}__{weapon_profile_slug}"
