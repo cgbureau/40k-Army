@@ -11,6 +11,7 @@ from .apply_seed import (
     apply_kit_units_seed,
     apply_keywords_seed,
     apply_rules_sources_seed,
+    apply_unit_datasheets_seed,
 )
 from .collect import collect_wahapedia_data, list_faction_slugs
 from .normalize_seed import normalize_wahapedia_manifest
@@ -139,6 +140,8 @@ def main(argv: list[str] | None = None) -> int:
             paths = apply_kit_units_seed(normalized=args.normalized)
         elif args.kind == "kit-unit-price-allocations":
             paths = apply_kit_unit_price_allocations_seed(normalized=args.normalized)
+        elif args.kind == "unit-datasheets":
+            paths = apply_unit_datasheets_seed(normalized=args.normalized)
         else:
             paths = apply_faction_data_seed(normalized=args.normalized)
         for path in paths:

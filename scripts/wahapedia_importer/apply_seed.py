@@ -1477,7 +1477,7 @@ def _rules_faction_source_const_name(slug: str) -> str:
 
 
 def _const_name(slug: str, suffix: str) -> str:
-    name = "".join(part.capitalize() for part in re.split(r"_+", slug)) + suffix
+    name = "".join(part.capitalize() for part in re.split(r"[_\-]+", slug)) + suffix
     return f"{suffix}{name}" if name[:1].isdigit() else name
 
 
@@ -1540,3 +1540,798 @@ def _rules_source_type_order(source_type: str) -> int:
     return source_type_order_map().get(source_type, 98)
 
 
+
+
+# ---------------------------------------------------------------------------
+# unit-datasheets seed records
+# ---------------------------------------------------------------------------
+
+@dataclass(frozen=True)
+class ModelSeedRecord:
+    seed_id_key: str
+    model_slug: str
+    model_name: str
+
+
+@dataclass(frozen=True)
+class WeaponSeedRecord:
+    seed_id_key: str
+    weapon_slug: str
+    weapon_name: str
+    weapon_type: str
+
+
+@dataclass(frozen=True)
+class WeaponProfileSeedRecord:
+    seed_id_key: str
+    weapon_profile_slug: str
+    weapon_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    range: str
+    attacks: str
+    skill: str
+    strength: str
+    armor_penetration: int
+    damage: str
+
+
+@dataclass(frozen=True)
+class WeaponProfileKeywordSeedRecord:
+    seed_id_key: str
+    weapon_profile_slug: str
+    keyword_slug: str
+    keyword_parameter: str | None
+
+
+@dataclass(frozen=True)
+class UnitModelSeedRecord:
+    seed_id_key: str
+    unit_slug: str
+    model_slug: str
+    min_count: int
+    max_count: int
+
+
+@dataclass(frozen=True)
+class UnitProfileSeedRecord:
+    seed_id_key: str
+    unit_profile_slug: str
+    unit_profile_name: str
+    unit_slug: str
+    model_slug: str | None
+    game_edition_slug: str
+    rules_source_slug: str | None
+    stats: dict[str, str]
+
+
+@dataclass(frozen=True)
+class UnitPointCostSeedRecord:
+    seed_id_key: str
+    unit_point_cost_slug: str
+    unit_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    model_count: int
+    points: int
+
+
+@dataclass(frozen=True)
+class UnitSelectionLimitSeedRecord:
+    seed_id_key: str
+    unit_slug: str
+    game_edition_slug: str
+    min_models: int
+    max_models: int
+
+
+@dataclass(frozen=True)
+class UnitWeaponSeedRecord:
+    seed_id_key: str
+    unit_slug: str
+    model_slug: str | None
+    weapon_profile_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    is_default: bool
+
+
+@dataclass(frozen=True)
+class LeaderEligibilitySeedRecord:
+    seed_id_key: str
+    leader_unit_slug: str
+    target_unit_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    is_legends: bool
+
+
+# ---------------------------------------------------------------------------
+# apply_unit_datasheets_seed — three-phase single-pass apply
+# ---------------------------------------------------------------------------
+
+def apply_unit_datasheets_seed(*, normalized: list[str]) -> list[Path]:
+    """Apply unit-datasheet normalized JSONs to TypeScript seed files.
+
+    Accepts all faction normalized files at once. Runs three internal phases:
+      1. Collect & deduplicate: builds global registries for models, weapons,
+         weapon_profiles, and weapon_profile_keywords across all factions.
+      2. Build per-faction records: junction/unit-specific records per faction,
+         referencing slugs guaranteed to exist in the global registries.
+      3. Write files: 4 global files + up to 8 per-faction files × 25 factions.
+    """
+    paths = _normalized_paths(normalized, "unit-datasheets.normalized.json")
+    payloads = [_latest_payload(read_json(p)) for p in paths]
+
+    # --- Phase 1: global deduplication ---
+    models_reg: dict[str, ModelSeedRecord] = {}
+    weapons_reg: dict[str, WeaponSeedRecord] = {}
+    wp_reg: dict[str, WeaponProfileSeedRecord] = {}
+    wpk_reg: dict[str, WeaponProfileKeywordSeedRecord] = {}
+
+    for payload in payloads:
+        records = payload.get("records", {})
+
+        for m in records.get("models", []):
+            models_reg.setdefault(
+                m["model_slug"],
+                ModelSeedRecord(
+                    seed_id_key=m["seed_id_key"],
+                    model_slug=m["model_slug"],
+                    model_name=m["model_name"],
+                ),
+            )
+
+        for w in records.get("weapons", []):
+            weapons_reg.setdefault(
+                w["weapon_slug"],
+                WeaponSeedRecord(
+                    seed_id_key=w["seed_id_key"],
+                    weapon_slug=w["weapon_slug"],
+                    weapon_name=w["weapon_name"],
+                    weapon_type=w["weapon_type"],
+                ),
+            )
+
+        for wp in records.get("weapon_profiles", []):
+            key = wp["weapon_profile_slug"]
+            if key not in wp_reg:
+                wp_reg[key] = WeaponProfileSeedRecord(
+                    seed_id_key=wp["seed_id_key"],
+                    weapon_profile_slug=wp["weapon_profile_slug"],
+                    weapon_slug=wp["weapon_slug"],
+                    game_edition_slug=wp["game_edition_slug"],
+                    rules_source_slug=wp.get("rules_source_slug"),
+                    range=wp["range"],
+                    attacks=wp["attacks"],
+                    skill=wp["skill"],
+                    strength=wp["strength"],
+                    armor_penetration=wp["armor_penetration"],
+                    damage=wp["damage"],
+                )
+                for kw in wp.get("keywords", []):
+                    kw_key = f"{key}__{kw['keyword_name'].replace(' ', '_')}"
+                    wpk_reg.setdefault(
+                        kw_key,
+                        WeaponProfileKeywordSeedRecord(
+                            seed_id_key=kw_key,
+                            weapon_profile_slug=key,
+                            keyword_slug=kw["keyword_name"].replace(" ", "_"),
+                            keyword_parameter=kw.get("keyword_parameter"),
+                        ),
+                    )
+
+    # --- Phase 2: per-faction records ---
+    faction_records: dict[str, dict[str, list[Any]]] = {}
+
+    for payload in payloads:
+        faction = payload.get("faction") or "unknown"
+        records = payload.get("records", {})
+
+        um: list[UnitModelSeedRecord] = []
+        for r in records.get("unit_models", []):
+            um.append(UnitModelSeedRecord(
+                seed_id_key=r["seed_id_key"],
+                unit_slug=r["unit_slug"],
+                model_slug=r["model_slug"],
+                min_count=r["min_count"],
+                max_count=r["max_count"],
+            ))
+
+        up: list[UnitProfileSeedRecord] = []
+        for r in records.get("unit_profiles", []):
+            up.append(UnitProfileSeedRecord(
+                seed_id_key=r["seed_id_key"],
+                unit_profile_slug=r["unit_profile_slug"],
+                unit_profile_name=r["unit_profile_name"],
+                unit_slug=r["unit_slug"],
+                model_slug=r.get("model_slug"),
+                game_edition_slug=r["game_edition_slug"],
+                rules_source_slug=r.get("rules_source_slug"),
+                stats=r.get("stats", {}),
+            ))
+
+        upc: list[UnitPointCostSeedRecord] = []
+        for r in records.get("unit_point_costs", []):
+            upc.append(UnitPointCostSeedRecord(
+                seed_id_key=r["seed_id_key"],
+                unit_point_cost_slug=r["unit_point_cost_slug"],
+                unit_slug=r["unit_slug"],
+                game_edition_slug=r["game_edition_slug"],
+                rules_source_slug=r.get("rules_source_slug"),
+                model_count=r["model_count"],
+                points=r["points"],
+            ))
+
+        usl: list[UnitSelectionLimitSeedRecord] = []
+        for r in records.get("unit_selection_limits", []):
+            usl.append(UnitSelectionLimitSeedRecord(
+                seed_id_key=r["seed_id_key"],
+                unit_slug=r["unit_slug"],
+                game_edition_slug=r["game_edition_slug"],
+                min_models=r["min_models"],
+                max_models=r["max_models"],
+            ))
+
+        uw: list[UnitWeaponSeedRecord] = []
+        for r in records.get("unit_weapons", []):
+            uw.append(UnitWeaponSeedRecord(
+                seed_id_key=r["seed_id_key"],
+                unit_slug=r["unit_slug"],
+                model_slug=r.get("model_slug"),
+                weapon_profile_slug=r["weapon_profile_slug"],
+                game_edition_slug=r["game_edition_slug"],
+                rules_source_slug=r.get("rules_source_slug"),
+                is_default=r.get("is_default", True),
+            ))
+
+        le: list[LeaderEligibilitySeedRecord] = []
+        for r in records.get("leader_eligibilities", []):
+            le.append(LeaderEligibilitySeedRecord(
+                seed_id_key=r["seed_id_key"],
+                leader_unit_slug=r["leader_unit_slug"],
+                target_unit_slug=r["target_unit_slug"],
+                game_edition_slug=r["game_edition_slug"],
+                rules_source_slug=r.get("rules_source_slug"),
+                is_legends=r.get("is_legends", False),
+            ))
+
+        faction_records[faction] = {
+            "unit_models": um,
+            "unit_profiles": up,
+            "unit_point_costs": upc,
+            "unit_selection_limits": usl,
+            "unit_weapons": uw,
+            "leader_eligibilities": le,
+        }
+
+    # --- Phase 3: write files ---
+    from .writers.seed_workspace import (
+        MODELS_DATA_PATH,
+        WEAPONS_DATA_PATH,
+        WEAPON_PROFILES_DATA_PATH,
+        WEAPON_PROFILE_KEYWORDS_DATA_PATH,
+        UNIT_DATASHEETS_DATA_DIR,
+    )
+
+    written: list[Path] = []
+
+    _write_models_data_file(sorted(models_reg.values(), key=lambda r: r.model_slug))
+    written.append(MODELS_DATA_PATH)
+
+    _write_weapons_data_file(sorted(weapons_reg.values(), key=lambda r: r.weapon_slug))
+    written.append(WEAPONS_DATA_PATH)
+
+    _write_weapon_profiles_data_file(sorted(wp_reg.values(), key=lambda r: r.weapon_profile_slug))
+    written.append(WEAPON_PROFILES_DATA_PATH)
+
+    # weapon_profile_keywords deferred — weapon keywords ([PISTOL], [TORRENT] etc.)
+    # are not yet seeded into the keywords table. This file will be generated in a
+    # follow-up pass once weapon keywords are added to the keyword seed data.
+    # _write_weapon_profile_keywords_data_file(...)
+
+    UNIT_DATASHEETS_DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    for faction, tables in sorted(faction_records.items()):
+        faction_dir = UNIT_DATASHEETS_DATA_DIR / faction
+        faction_dir.mkdir(parents=True, exist_ok=True)
+
+        written += _write_faction_unit_datasheets(faction, faction_dir, tables)
+
+    return written
+
+
+# ---------------------------------------------------------------------------
+# Global file writers
+# ---------------------------------------------------------------------------
+
+def _write_models_data_file(records: list[ModelSeedRecord]) -> None:
+    from .writers.seed_workspace import MODELS_DATA_PATH
+    const_names = [_const_name(r.model_slug, "Model") for r in records]
+    lines = [
+        'import type { ModelConfig, SeedDataset } from "../../types/_index.types";',
+        'import { modelId } from "../ids";',
+        "",
+        "/**",
+        " * Typed seed dataset for the `models` table.",
+        " * Generated from Wahapedia unit-datasheet data — deduped across all factions.",
+        " */",
+        "",
+    ]
+    for record, const_name in zip(records, const_names, strict=True):
+        lines += [
+            f"export const {const_name}: ModelConfig = {{",
+            f'  id: modelId("{record.seed_id_key}"),',
+            f"  model_slug: {_ts_string(record.model_slug)},",
+            f"  model_name: {_ts_string(record.model_name)},",
+            "};",
+            "",
+        ]
+    lines += [
+        'export const modelsDataset: SeedDataset<"models"> = {',
+        '  table: "models",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies ModelConfig[],",
+        "};",
+        "",
+    ]
+    MODELS_DATA_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def _write_weapons_data_file(records: list[WeaponSeedRecord]) -> None:
+    from .writers.seed_workspace import WEAPONS_DATA_PATH
+    const_names = [_const_name(r.weapon_slug, "Weapon") for r in records]
+    lines = [
+        'import type { WeaponConfig, SeedDataset } from "../../types/_index.types";',
+        'import { weaponId } from "../ids";',
+        "",
+        "/**",
+        " * Typed seed dataset for the `weapons` table.",
+        " * Generated from Wahapedia unit-datasheet data — deduped across all factions.",
+        " */",
+        "",
+    ]
+    for record, const_name in zip(records, const_names, strict=True):
+        lines += [
+            f"export const {const_name}: WeaponConfig = {{",
+            f'  id: weaponId("{record.seed_id_key}"),',
+            f"  weapon_slug: {_ts_string(record.weapon_slug)},",
+            f"  weapon_name: {_ts_string(record.weapon_name)},",
+            f'  weapon_type: "{record.weapon_type}",',
+            "};",
+            "",
+        ]
+    lines += [
+        'export const weaponsDataset: SeedDataset<"weapons"> = {',
+        '  table: "weapons",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies WeaponConfig[],",
+        "};",
+        "",
+    ]
+    WEAPONS_DATA_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def _write_weapon_profiles_data_file(records: list[WeaponProfileSeedRecord]) -> None:
+    from .writers.seed_workspace import WEAPON_PROFILES_DATA_PATH
+    const_names = [_const_name(r.weapon_profile_slug, "WeaponProfile") for r in records]
+    lines = [
+        'import type { WeaponProfileConfig, SeedDataset } from "../../types/_index.types";',
+        'import { gameEditionId, rulesSourceId, weaponId, weaponProfileId } from "../ids";',
+        "",
+        "/**",
+        " * Typed seed dataset for the `weapon_profiles` table.",
+        " * Generated from Wahapedia unit-datasheet data — deduped across all factions.",
+        " */",
+        "",
+    ]
+    for record, const_name in zip(records, const_names, strict=True):
+        rs = f'rulesSourceId("{record.rules_source_slug}")' if record.rules_source_slug else "null"
+        lines += [
+            f"export const {const_name}: WeaponProfileConfig = {{",
+            f'  id: weaponProfileId("{record.seed_id_key}"),',
+            f"  weapon_profile_slug: {_ts_string(record.weapon_profile_slug)},",
+            f'  weapon_id: weaponId("{record.weapon_slug}"),',
+            f'  game_edition_id: gameEditionId("{record.game_edition_slug}"),',
+            f"  rules_source_id: {rs},",
+            f"  range: {_ts_string(record.range)},",
+            f"  attacks: {_ts_string(record.attacks)},",
+            f"  skill: {_ts_string(record.skill)},",
+            f"  strength: {_ts_string(record.strength)},",
+            f"  armor_penetration: {record.armor_penetration},",
+            f"  damage: {_ts_string(record.damage)},",
+            "  effective_date: null,",
+            "  superseded_date: null,",
+            "};",
+            "",
+        ]
+    lines += [
+        'export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {',
+        '  table: "weapon_profiles",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies WeaponProfileConfig[],",
+        "};",
+        "",
+    ]
+    WEAPON_PROFILES_DATA_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+def _write_weapon_profile_keywords_data_file(records: list[WeaponProfileKeywordSeedRecord]) -> None:
+    from .writers.seed_workspace import WEAPON_PROFILE_KEYWORDS_DATA_PATH
+    const_names = [_const_name(r.seed_id_key, "Wpk") for r in records]
+    lines = [
+        'import type { WeaponProfileKeywordConfig, SeedDataset } from "../../types/_index.types";',
+        'import { keywordId, weaponProfileId, weaponProfileKeywordId } from "../ids";',
+        "",
+        "/**",
+        " * Typed seed dataset for the `weapon_profile_keywords` table.",
+        " * Generated from Wahapedia unit-datasheet data.",
+        " */",
+        "",
+    ]
+    for record, const_name in zip(records, const_names, strict=True):
+        param = _nullable_ts_string(record.keyword_parameter)
+        lines += [
+            f"export const {const_name}: WeaponProfileKeywordConfig = {{",
+            f'  id: weaponProfileKeywordId("{record.seed_id_key}"),',
+            f'  weapon_profile_id: weaponProfileId("{record.weapon_profile_slug}"),',
+            f'  keyword_id: keywordId("{record.keyword_slug}"),',
+            f"  keyword_parameter: {param},",
+            "};",
+            "",
+        ]
+    lines += [
+        'export const weaponProfileKeywordsDataset: SeedDataset<"weapon_profile_keywords"> = {',
+        '  table: "weapon_profile_keywords",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies WeaponProfileKeywordConfig[],",
+        "};",
+        "",
+    ]
+    WEAPON_PROFILE_KEYWORDS_DATA_PATH.write_text("\n".join(lines), encoding="utf-8")
+
+
+# ---------------------------------------------------------------------------
+# Per-faction file writers
+# ---------------------------------------------------------------------------
+
+def _write_faction_unit_datasheets(
+    faction: str,
+    faction_dir: Path,
+    tables: dict[str, list[Any]],
+) -> list[Path]:
+    written: list[Path] = []
+
+    writers = [
+        ("unit_models",          tables["unit_models"],          _render_unit_models_file),
+        ("unit_profiles",        tables["unit_profiles"],        _render_unit_profiles_file),
+        ("unit_point_costs",     tables["unit_point_costs"],     _render_unit_point_costs_file),
+        ("unit_weapons",         tables["unit_weapons"],         _render_unit_weapons_file),
+        ("leader_eligibilities", tables["leader_eligibilities"], _render_leader_eligibilities_file),
+        # unit_selection_limits not generated — that table stores game-size/keyword list-building
+        # limits, not unit composition counts. Requires different source data.
+    ]
+    for table_name, records, renderer in writers:
+        if not records:
+            continue
+        path = faction_dir / f"{faction}_{table_name}.data.ts"
+        path.write_text(renderer(faction, records), encoding="utf-8")
+        written.append(path)
+
+    # unit_profile_stats derived from unit_profiles
+    if tables["unit_profiles"]:
+        path = faction_dir / f"{faction}_unit_profile_stats.data.ts"
+        path.write_text(_render_unit_profile_stats_file(faction, tables["unit_profiles"]), encoding="utf-8")
+        written.append(path)
+
+    # leader_eligibility_keywords: only units that were led by named units
+    # (keyword-predicate leader eligibility is not yet extracted — placeholder empty file)
+    le_kw_path = faction_dir / f"{faction}_leader_eligibility_keywords.data.ts"
+    le_kw_path.write_text(_render_leader_eligibility_keywords_file(faction), encoding="utf-8")
+    written.append(le_kw_path)
+
+    return written
+
+
+def _render_unit_models_file(faction: str, records: list[UnitModelSeedRecord]) -> str:
+    const_names = [_const_name(r.seed_id_key, "UnitModel") for r in records]
+    lines = [
+        'import type { UnitModelConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { modelId, unitId, unitModelId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Unit-model composition records for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    for record, const_name in zip(records, const_names, strict=True):
+        lines += [
+            f"export const {const_name}: UnitModelConfig = {{",
+            f'  id: unitModelId("{record.seed_id_key}"),',
+            f'  unit_id: unitId("{record.unit_slug}"),',
+            f'  model_id: modelId("{record.model_slug}"),',
+            f"  minimum_model_count: {record.min_count},",
+            f"  maximum_model_count: {record.max_count},",
+            "  effective_date: null,",
+            "  superseded_date: null,",
+            "};",
+            "",
+        ]
+    lines += [
+        f'export const {_faction_const(faction, "unitModels")}Dataset: SeedDataset<"unit_models"> = {{',
+        '  table: "unit_models",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies UnitModelConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_unit_profiles_file(faction: str, records: list[UnitProfileSeedRecord]) -> str:
+    # Skip profiles with no rules source — rules_source_id is not nullable in the schema.
+    valid = [r for r in records if r.rules_source_slug]
+    const_names = [_const_name(r.unit_profile_slug, "UnitProfile") for r in valid]
+    lines = [
+        'import type { UnitProfileConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { gameEditionId, modelId, rulesSourceId, unitId, unitProfileId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Unit profile stat-block records for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    for record, const_name in zip(valid, const_names, strict=True):
+        model_id = f'modelId("{record.model_slug}")' if record.model_slug else "null"
+        lines += [
+            f"export const {const_name}: UnitProfileConfig = {{",
+            f'  id: unitProfileId("{record.seed_id_key}"),',
+            f"  unit_profile_slug: {_ts_string(record.unit_profile_slug)},",
+            f"  unit_profile_name: {_ts_string(record.unit_profile_name)},",
+            f'  unit_id: unitId("{record.unit_slug}"),',
+            f"  model_id: {model_id},",
+            f'  game_edition_id: gameEditionId("{record.game_edition_slug}"),',
+            f'  rules_source_id: rulesSourceId("{record.rules_source_slug}"),',
+            "  effective_date: null,",
+            "  superseded_date: null,",
+            "};",
+            "",
+        ]
+    lines += [
+        f'export const {_faction_const(faction, "unitProfiles")}Dataset: SeedDataset<"unit_profiles"> = {{',
+        '  table: "unit_profiles",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies UnitProfileConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_unit_profile_stats_file(faction: str, profiles: list[UnitProfileSeedRecord]) -> str:
+    # Only emit stats for profiles that have a rules source (same filter as profiles file).
+    profiles = [p for p in profiles if p.rules_source_slug]
+    lines = [
+        'import type { UnitProfileStatConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { unitProfileId, unitProfileStatId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Unit profile stat rows for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    all_const_names: list[str] = []
+    for profile in profiles:
+        for stat_key, stat_value in profile.stats.items():
+            stat_slug = f"{profile.unit_profile_slug}__{stat_key.lower()}"
+            const_name = _const_name(stat_slug, "Stat")
+            all_const_names.append(const_name)
+            lines += [
+                f"export const {const_name}: UnitProfileStatConfig = {{",
+                f'  id: unitProfileStatId("{stat_slug}"),',
+                f'  unit_profile_id: unitProfileId("{profile.seed_id_key}"),',
+                f"  stat_key: {_ts_string(stat_key)},",
+                f"  stat_value: {_ts_string(stat_value)},",
+                "};",
+                "",
+            ]
+    lines += [
+        f'export const {_faction_const(faction, "unitProfileStats")}Dataset: SeedDataset<"unit_profile_stats"> = {{',
+        '  table: "unit_profile_stats",',
+        "  records: [",
+        *[f"    {n}," for n in all_const_names],
+        "  ] satisfies UnitProfileStatConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_unit_point_costs_file(faction: str, records: list[UnitPointCostSeedRecord]) -> str:
+    # Skip records with no rules source — rules_source_id is not nullable.
+    valid = [r for r in records if r.rules_source_slug]
+    const_names = [_const_name(r.seed_id_key, "PointCost") for r in valid]
+    lines = [
+        'import type { UnitPointCostConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { gameEditionId, rulesSourceId, unitId, unitPointCostId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Unit points costs for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    for record, const_name in zip(valid, const_names, strict=True):
+        lines += [
+            f"export const {const_name}: UnitPointCostConfig = {{",
+            f'  id: unitPointCostId("{record.seed_id_key}"),',
+            f"  unit_point_cost_slug: {_ts_string(record.unit_point_cost_slug)},",
+            f'  unit_id: unitId("{record.unit_slug}"),',
+            f'  game_edition_id: gameEditionId("{record.game_edition_slug}"),',
+            f'  rules_source_id: rulesSourceId("{record.rules_source_slug}"),',
+            f"  minimum_model_count: {record.model_count},",
+            f"  maximum_model_count: {record.model_count},",
+            f"  unit_points: {record.points},",
+            f"  effective_date: new Date({_ts_string('2024-01-01')}),",
+            "  superseded_date: null,",
+            "};",
+            "",
+        ]
+    lines += [
+        f'export const {_faction_const(faction, "unitPointCosts")}Dataset: SeedDataset<"unit_point_costs"> = {{',
+        '  table: "unit_point_costs",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies UnitPointCostConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_unit_selection_limits_file(faction: str, records: list[UnitSelectionLimitSeedRecord]) -> str:
+    const_names = [_const_name(r.seed_id_key, "SelectionLimit") for r in records]
+    lines = [
+        'import type { UnitSelectionLimitConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { gameEditionId, unitId, unitSelectionLimitId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Unit selection limits for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    for record, const_name in zip(records, const_names, strict=True):
+        lines += [
+            f"export const {const_name}: UnitSelectionLimitConfig = {{",
+            f'  id: unitSelectionLimitId("{record.seed_id_key}"),',
+            f'  unit_id: unitId("{record.unit_slug}"),',
+            f'  game_edition_id: gameEditionId("{record.game_edition_slug}"),',
+            f"  min_models: {record.min_models},",
+            f"  max_models: {record.max_models},",
+            "};",
+            "",
+        ]
+    lines += [
+        f'export const {_faction_const(faction, "unitSelectionLimits")}Dataset: SeedDataset<"unit_selection_limits"> = {{',
+        '  table: "unit_selection_limits",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies UnitSelectionLimitConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_unit_weapons_file(faction: str, records: list[UnitWeaponSeedRecord]) -> str:
+    # Skip records with no rules source — rules_source_id is not nullable.
+    valid = [r for r in records if r.rules_source_slug]
+    const_names = [_const_name(r.seed_id_key, "UnitWeapon") for r in valid]
+    lines = [
+        'import type { UnitWeaponConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { gameEditionId, modelId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Unit weapon assignments for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    for record, const_name in zip(valid, const_names, strict=True):
+        model_id = f'modelId("{record.model_slug}")' if record.model_slug else "null"
+        lines += [
+            f"export const {const_name}: UnitWeaponConfig = {{",
+            f'  id: unitWeaponId("{record.seed_id_key}"),',
+            f'  unit_id: unitId("{record.unit_slug}"),',
+            f"  model_id: {model_id},",
+            f'  weapon_profile_id: weaponProfileId("{record.weapon_profile_slug}"),',
+            f'  game_edition_id: gameEditionId("{record.game_edition_slug}"),',
+            f'  rules_source_id: rulesSourceId("{record.rules_source_slug}"),',
+            f"  is_default: {str(record.is_default).lower()},",
+            "  effective_date: null,",
+            "  superseded_date: null,",
+            "};",
+            "",
+        ]
+    lines += [
+        f'export const {_faction_const(faction, "unitWeapons")}Dataset: SeedDataset<"unit_weapons"> = {{',
+        '  table: "unit_weapons",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies UnitWeaponConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_leader_eligibilities_file(faction: str, records: list[LeaderEligibilitySeedRecord]) -> str:
+    # Skip records with no rules source — rules_source_id is not nullable.
+    valid = [r for r in records if r.rules_source_slug]
+    const_names = [_const_name(r.seed_id_key, "LeaderEligibility") for r in valid]
+    lines = [
+        'import type { LeaderEligibilityConfig, SeedDataset } from "../../../../types/_index.types";',
+        'import { gameEditionId, leaderEligibilityId, rulesSourceId, unitId } from "../../../ids";',
+        "",
+        f"/**",
+        f" * Leader eligibility (LED BY) records for the {faction} faction.",
+        f" * Generated from Wahapedia unit-datasheet data.",
+        f" */",
+        "",
+    ]
+    for record, const_name in zip(valid, const_names, strict=True):
+        lines += [
+            f"export const {const_name}: LeaderEligibilityConfig = {{",
+            f'  id: leaderEligibilityId("{record.seed_id_key}"),',
+            f'  leader_unit_id: unitId("{record.leader_unit_slug}"),',
+            f'  target_unit_id: unitId("{record.target_unit_slug}"),',
+            f'  game_edition_id: gameEditionId("{record.game_edition_slug}"),',
+            f'  rules_source_id: rulesSourceId("{record.rules_source_slug}"),',
+            "};",
+            "",
+        ]
+    lines += [
+        f'export const {_faction_const(faction, "leaderEligibilities")}Dataset: SeedDataset<"leader_eligibilities"> = {{',
+        '  table: "leader_eligibilities",',
+        "  records: [",
+        *[f"    {n}," for n in const_names],
+        "  ] satisfies LeaderEligibilityConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _render_leader_eligibility_keywords_file(faction: str) -> str:
+    """Placeholder — keyword-predicate leader eligibility not yet extracted from Wahapedia."""
+    lines = [
+        'import type { LeaderEligibilityKeywordConfig, SeedDataset } from "../../../../types/_index.types";',
+        "",
+        f"/**",
+        f" * Leader eligibility keyword predicates for the {faction} faction.",
+        f" * Not yet extracted — populated manually or in a future importer pass.",
+        f" */",
+        f'export const {_faction_const(faction, "leaderEligibilityKeywords")}Dataset: SeedDataset<"leader_eligibility_keywords"> = {{',
+        '  table: "leader_eligibility_keywords",',
+        "  records: [] satisfies LeaderEligibilityKeywordConfig[],",
+        "};",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def _faction_const(faction: str, suffix: str) -> str:
+    """camelCase faction name + suffix, e.g. 'space-marines' + 'unitModels' → 'spaceMarinesUnitModels'."""
+    parts = re.split(r"[-_]+", faction)
+    camel = parts[0] + "".join(p.capitalize() for p in parts[1:])
+    return camel + suffix[0].upper() + suffix[1:]

@@ -529,14 +529,16 @@ def _extract_unit_datasheets(
         # e.g. configs=[{Runtherd:1, Gretchin:10}, {Runtherd:2, Gretchin:20}]
         # → Runtherd: min=1 max=2, Gretchin: min=10 max=20
         model_min_max: dict[str, tuple[int, int]] = {}
+        model_display_names: dict[str, str] = {}
         for cfg in configs:
             for model_name, count in cfg["model_counts"].items():
                 slug = normalize_slug(model_name)
                 prev_min, prev_max = model_min_max.get(slug, (count, count))
                 model_min_max[slug] = (min(prev_min, count), max(prev_max, count))
+                model_display_names.setdefault(slug, model_name)
 
-        for model_name, (mn, mx) in model_min_max.items():
-            model_slug = normalize_slug(model_name)
+        for model_slug, (mn, mx) in model_min_max.items():
+            model_name = model_display_names[model_slug]
             models_by_slug.setdefault(
                 model_slug,
                 ModelCandidate(

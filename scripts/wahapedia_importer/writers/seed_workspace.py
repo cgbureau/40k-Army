@@ -101,6 +101,16 @@ KIT_UNIT_PRICE_ALLOCATIONS_DATA_PATH = (
     / "kit_unit_price_allocations.data.ts"
 )
 
+# unit-datasheets global output paths
+SEED_DATA_DIR = REPO_ROOT / "db" / "seed_config" / "seed" / "data"
+MODELS_DATA_PATH = SEED_DATA_DIR / "models.data.ts"
+WEAPONS_DATA_PATH = SEED_DATA_DIR / "weapons.data.ts"
+WEAPON_PROFILES_DATA_PATH = SEED_DATA_DIR / "weapon_profiles.data.ts"
+WEAPON_PROFILE_KEYWORDS_DATA_PATH = SEED_DATA_DIR / "weapon_profile_keywords.data.ts"
+
+# unit-datasheets per-faction data lives under data/unit_datasheets/{faction}/
+UNIT_DATASHEETS_DATA_DIR = SEED_DATA_DIR / "unit_datasheets"
+
 # ---------------------------------------------------------------------------
 # ID allocation helpers
 # ---------------------------------------------------------------------------
