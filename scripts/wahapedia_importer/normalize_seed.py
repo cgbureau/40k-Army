@@ -496,6 +496,8 @@ def _extract_unit_datasheets(
         if manifest_data.get("faction")
         else None
     )
+    # Underscore form used for seed slugs (e.g. codex_astra_militarum_10e).
+    faction_slug_underscore = faction_slug.replace("-", "_") if faction_slug else None
 
     models_by_slug: dict[str, ModelCandidate] = {}
     unit_models_by_key: dict[str, UnitModelCandidate] = {}
@@ -518,7 +520,7 @@ def _extract_unit_datasheets(
         rules_source_slug = _parse_datasheet_rules_source_slug(
             html=html,
             edition=edition,
-            fallback_faction_slug=faction_slug or unit_slug,
+            fallback_faction_slug=faction_slug_underscore or unit_slug,
         )
 
         # --- composition, selection limits, point costs ---

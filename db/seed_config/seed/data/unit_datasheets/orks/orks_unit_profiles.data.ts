@@ -789,7 +789,7 @@ export const MozrogSkragbadMozrogSkragbad10eUnitProfile: UnitProfileConfig = {
 export const NobWithWaaaghBannerNobWithWaaaghBanner10eUnitProfile: UnitProfileConfig = {
   id: unitProfileId("nob_with_waaagh_banner__nob_with_waaagh_banner__10e"),
   unit_profile_slug: "nob_with_waaagh_banner__nob_with_waaagh_banner__10e",
-  unit_profile_name: "Nob With Waaagh Banner \u2014 Nob With Waaagh Banner",
+  unit_profile_name: "Nob With Waaagh! Banner \u2014 Nob With Waaagh! Banner",
   unit_id: unitId("nob_with_waaagh_banner"),
   model_id: null,
   game_edition_id: gameEditionId("10e"),

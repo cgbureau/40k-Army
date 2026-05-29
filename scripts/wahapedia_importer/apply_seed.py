@@ -1663,8 +1663,18 @@ def apply_unit_datasheets_seed(*, normalized: list[str]) -> list[Path]:
          referencing slugs guaranteed to exist in the global registries.
       3. Write files: 4 global files + up to 8 per-faction files × 25 factions.
     """
+    # Factions excluded from all phases of generation.
+    _SKIP_FACTIONS = {
+        "unaligned-forces",  # all Legends terrain/fortifications; no codex
+        "adeptus-titanicus",  # separate game system, not 40K army building
+    }
+
     paths = _normalized_paths(normalized, "unit-datasheets.normalized.json")
-    payloads = [_latest_payload(read_json(p)) for p in paths]
+    payloads = [
+        _latest_payload(read_json(p))
+        for p in paths
+        if not any(skip in str(p) for skip in _SKIP_FACTIONS)
+    ]
 
     # --- Phase 1: global deduplication ---
     models_reg: dict[str, ModelSeedRecord] = {}
@@ -1825,7 +1835,9 @@ def apply_unit_datasheets_seed(*, normalized: list[str]) -> list[Path]:
     _write_weapons_data_file(sorted(weapons_reg.values(), key=lambda r: r.weapon_slug))
     written.append(WEAPONS_DATA_PATH)
 
-    _write_weapon_profiles_data_file(sorted(wp_reg.values(), key=lambda r: r.weapon_profile_slug))
+    # Filter weapon profiles that have no rules source — rules_source_id is not nullable.
+    valid_wp = [r for r in wp_reg.values() if r.rules_source_slug]
+    _write_weapon_profiles_data_file(sorted(valid_wp, key=lambda r: r.weapon_profile_slug))
     written.append(WEAPON_PROFILES_DATA_PATH)
 
     # weapon_profile_keywords deferred — weapon keywords ([PISTOL], [TORRENT] etc.)
@@ -1836,6 +1848,8 @@ def apply_unit_datasheets_seed(*, normalized: list[str]) -> list[Path]:
     UNIT_DATASHEETS_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     for faction, tables in sorted(faction_records.items()):
+        if faction in _SKIP_FACTIONS:
+            continue
         faction_dir = UNIT_DATASHEETS_DATA_DIR / faction
         faction_dir.mkdir(parents=True, exist_ok=True)
 
