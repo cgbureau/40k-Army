@@ -75,6 +75,7 @@ def main(argv: list[str] | None = None) -> int:
             "faction-data",
             "kit-units",
             "kit-unit-price-allocations",
+            "unit-datasheets",
         ],
     )
     normalize_parser.add_argument("--manifest", required=True)
@@ -93,6 +94,7 @@ def main(argv: list[str] | None = None) -> int:
             "faction-data",
             "kit-units",
             "kit-unit-price-allocations",
+            "unit-datasheets",
         ],
     )
     apply_parser.add_argument("--normalized", required=True, nargs="+")

@@ -28,6 +28,10 @@ import type {
   UnitAbility,
   LeaderEligibility,
   LeaderEligibilityKeyword,
+  Weapon,
+  WeaponProfile,
+  WeaponProfileKeyword,
+  UnitWeapon,
   Player,
   PlayerArmyList,
   PlayerArmyListUnit,
@@ -197,6 +201,30 @@ export type KitPriceConfig = BaseEntityConfig &
   Omit<KitPrice, "created_at" | "updated_at">;
 
 /**
+ * Seed config shape for a canonical weapon type.
+ */
+export type WeaponConfig = BaseEntityConfig &
+  Omit<Weapon, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for an edition/source-specific weapon stat line.
+ */
+export type WeaponProfileConfig = BaseEntityConfig &
+  Omit<WeaponProfile, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for assigning a weapon keyword to a weapon profile.
+ */
+export type WeaponProfileKeywordConfig = BaseEntityConfig &
+  Omit<WeaponProfileKeyword, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for assigning a weapon profile to a unit or model within a unit.
+ */
+export type UnitWeaponConfig = BaseEntityConfig &
+  Omit<UnitWeapon, "created_at" | "updated_at">;
+
+/**
  * Seed config shape for a reusable ability definition.
  */
 export type AbilityConfig = BaseEntityConfig &
@@ -279,6 +307,10 @@ export type SeedTableConfigMap = {
   kit_units: KitUnitConfig;
   kit_unit_price_allocations: KitUnitPriceAllocationConfig;
   kit_prices: KitPriceConfig;
+  weapons: WeaponConfig;
+  weapon_profiles: WeaponProfileConfig;
+  weapon_profile_keywords: WeaponProfileKeywordConfig;
+  unit_weapons: UnitWeaponConfig;
   abilities: AbilityConfig;
   unit_abilities: UnitAbilityConfig;
   leader_eligibilities: LeaderEligibilityConfig;

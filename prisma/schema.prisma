@@ -80,8 +80,19 @@ enum KeywordType {
   FACTION @map("faction")
   MODEL   @map("model")
   RULES   @map("rules")
+  WEAPON  @map("weapon") /// weapon special-rule keywords printed in brackets on datasheets, e.g. [TORRENT], [PISTOL], [SUSTAINED HITS 1]
 
   @@map("keyword_type")
+}
+
+/// what: distinguishes whether a weapon is used in ranged or melee combat
+/// why: ranged and melee weapons use different skill stats (BS vs WS) and have different legal targets
+/// example: Grot blasta is RANGED; Runtherd tools is MELEE
+enum WeaponType {
+  RANGED @map("ranged")
+  MELEE  @map("melee")
+
+  @@map("weapon_type")
 }
 
 /// what: a list of ability categories used by datasheets
@@ -148,6 +159,8 @@ model GameEdition {
   unitSelectionLimits      UnitSelectionLimit[]
   unitAbilities            UnitAbility[]
   leaderEligibilities      LeaderEligibility[]
+  weaponProfiles           WeaponProfile[]
+  unitWeapons              UnitWeapon[]
   createdAt                DateTime             @default(now()) @map("created_at")
   updatedAt                DateTime?            @updatedAt @map("updated_at")
 
@@ -233,6 +246,8 @@ model RulesSource {
   unitKeywords           UnitKeyword[]
   unitAbilities          UnitAbility[]
   leaderEligibilities    LeaderEligibility[]
+  weaponProfiles         WeaponProfile[]
+  unitWeapons            UnitWeapon[]
   createdAt              DateTime             @default(now()) @map("created_at")
   updatedAt              DateTime?            @updatedAt @map("updated_at")
 
@@ -313,6 +328,7 @@ model Unit {
   unitKeywords            UnitKeyword[]
   detachmentKeywords      DetachmentUnitKeyword[]
   unitAbilities           UnitAbility[]
+  unitWeapons             UnitWeapon[]
   leaderRules             LeaderEligibility[]      @relation("LeaderUnit")
   leadableByRules         LeaderEligibility[]      @relation("LeaderTargetUnit")
   rulesFactionUnits       RulesFactionUnit[]
@@ -431,6 +447,7 @@ model Keyword {
   detachmentUnitKeywords    DetachmentUnitKeyword[]
   unitSelectionLimits       UnitSelectionLimit[]
   leaderEligibilityKeywords LeaderEligibilityKeyword[]
+  weaponProfileKeywords     WeaponProfileKeyword[]
   createdAt                 DateTime                   @default(now()) @map("created_at")
   updatedAt                 DateTime?                  @updatedAt @map("updated_at")
 
@@ -520,6 +537,7 @@ model Model {
   unitProfiles           UnitProfile[]
   unitModels             UnitModel[]
   unitKeywords           UnitKeyword[]
+  unitWeapons            UnitWeapon[]
   kitModels              KitModel[]
   playerCollectionModels PlayerCollectionModel[]
   createdAt              DateTime                @default(now()) @map("created_at")
@@ -912,4 +930,100 @@ model Country {
   updatedAt           DateTime?  @updatedAt      @map("updated_at")
 
   @@map("countries")
+}
+
+/// what: a canonical weapon type shared across units, kits, and editions
+/// why: the same weapon (e.g. Boltgun) appears on many units and in many editions; storing it once avoids duplication
+/// example: "Slugga Pistol" is one Weapon record referenced by every Ork unit that carries it
+model Weapon {
+  id              String          @id @default(ulid()) @db.Char(26)
+  weaponSlug      String          @unique @map("weapon_slug")
+  weaponName      String          @map("weapon_name")
+  weaponType      WeaponType      @map("weapon_type")
+  weaponProfiles  WeaponProfile[]
+  createdAt       DateTime        @default(now()) @map("created_at")
+  updatedAt       DateTime?       @updatedAt @map("updated_at")
+
+  @@index([weaponType])
+  @@map("weapons")
+}
+
+/// what: the edition- and source-specific stat line for a weapon
+/// why: weapon stats change between editions and are sometimes errata'd mid-edition by Balance Dataslates
+/// example: a Boltgun profile for 10th edition from Codex: Space Marines has Range 24", A 2, BS 3+, S 4, AP 0, D 1
+model WeaponProfile {
+  id                    String                  @id @default(ulid()) @db.Char(26)
+  weaponProfileSlug     String                  @unique @map("weapon_profile_slug")
+  weapon                Weapon                  @relation(fields: [weaponId], references: [id])
+  weaponId              String                  @map("weapon_id") @db.Char(26)
+  gameEdition           GameEdition             @relation(fields: [gameEditionId], references: [id])
+  gameEditionId         String                  @map("game_edition_id") @db.Char(26)
+  rulesSource           RulesSource             @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId         String                  @map("rules_source_id") @db.Char(26)
+  range                 String                  @map("range") /// printed range value, e.g. 12", 24", or Melee
+  attacks               String                  @map("attacks") /// printed attacks value, e.g. 1, 2, or D6
+  skill                 String                  @map("skill") /// BS for ranged weapons, WS for melee weapons, e.g. 4+ or 3+
+  strength              String                  @map("strength") /// printed strength value, e.g. 3, 4, or 2×
+  armorPenetration      Int                     @map("armor_penetration") /// stored as 0 or negative integer matching the printed minus value, e.g. AP -1 stored as -1
+  damage                String                  @map("damage") /// printed damage value, e.g. 1, D3, or D6+2
+  weaponProfileKeywords WeaponProfileKeyword[]
+  unitWeapons           UnitWeapon[]
+  effectiveDate         DateTime?               @map("effective_date") @db.Date
+  supersededDate        DateTime?               @map("superseded_date") @db.Date
+  createdAt             DateTime                @default(now()) @map("created_at")
+  updatedAt             DateTime?               @updatedAt @map("updated_at")
+
+  @@unique([weaponId, gameEditionId, rulesSourceId])
+  @@index([weaponId])
+  @@index([gameEditionId])
+  @@index([rulesSourceId])
+  @@map("weapon_profiles")
+}
+
+/// what: assigns a weapon special-rule keyword to a weapon profile
+/// why: weapon keywords like [TORRENT] or [SUSTAINED HITS 2] modify how a weapon behaves; some carry a numeric or threshold parameter
+/// example: a [SUSTAINED HITS 2] keyword is stored with keyword_parameter = "2"; [ANTI-INFANTRY 4+] stores "4+"
+model WeaponProfileKeyword {
+  id               String        @id @default(ulid()) @db.Char(26)
+  weaponProfile    WeaponProfile @relation(fields: [weaponProfileId], references: [id])
+  weaponProfileId  String        @map("weapon_profile_id") @db.Char(26)
+  keyword          Keyword       @relation(fields: [keywordId], references: [id])
+  keywordId        String        @map("keyword_id") @db.Char(26)
+  keywordParameter String?       @map("keyword_parameter") /// optional parameter for parameterised keywords, e.g. "2" for [SUSTAINED HITS 2] or "4+" for [ANTI-INFANTRY 4+]
+  createdAt        DateTime      @default(now()) @map("created_at")
+  updatedAt        DateTime?     @updatedAt @map("updated_at")
+
+  @@unique([weaponProfileId, keywordId])
+  @@index([keywordId])
+  @@map("weapon_profile_keywords")
+}
+
+/// what: assigns a weapon profile to a unit, optionally scoped to a specific model type within that unit
+/// why: different model types in the same unit can carry different weapons; model_id is null when the weapon applies to all models
+/// example: in a Gretchin unit, Runtherd models carry Runtherd tools (model_id set) while Gretchin carry Grot blastas (model_id set)
+model UnitWeapon {
+  id              String        @id @default(ulid()) @db.Char(26)
+  unit            Unit          @relation(fields: [unitId], references: [id])
+  unitId          String        @map("unit_id") @db.Char(26)
+  model           Model?        @relation(fields: [modelId], references: [id])
+  modelId         String?       @map("model_id") @db.Char(26) /// null when the weapon applies to all models in the unit rather than a specific model type
+  weaponProfile   WeaponProfile @relation(fields: [weaponProfileId], references: [id])
+  weaponProfileId String        @map("weapon_profile_id") @db.Char(26)
+  gameEdition     GameEdition   @relation(fields: [gameEditionId], references: [id])
+  gameEditionId   String        @map("game_edition_id") @db.Char(26)
+  rulesSource     RulesSource   @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId   String        @map("rules_source_id") @db.Char(26)
+  isDefault       Boolean       @default(true) @map("is_default") /// true for standard loadout weapons; false for optional swap weapons
+  effectiveDate   DateTime?     @map("effective_date") @db.Date
+  supersededDate  DateTime?     @map("superseded_date") @db.Date
+  createdAt       DateTime      @default(now()) @map("created_at")
+  updatedAt       DateTime?     @updatedAt @map("updated_at")
+
+  @@unique([unitId, modelId, weaponProfileId, gameEditionId, rulesSourceId])
+  @@index([unitId])
+  @@index([modelId])
+  @@index([weaponProfileId])
+  @@index([gameEditionId])
+  @@index([rulesSourceId])
+  @@map("unit_weapons")
 }

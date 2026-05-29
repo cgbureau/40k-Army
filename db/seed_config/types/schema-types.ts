@@ -16,6 +16,10 @@ import {
   kitPriceSchema,
   leaderEligibilityKeywordSchema,
   leaderEligibilitySchema,
+  weaponSchema,
+  weaponProfileSchema,
+  weaponProfileKeywordSchema,
+  unitWeaponSchema,
   modelSchema,
   unitModelSchema,
   playerArmyListSchema,
@@ -45,6 +49,7 @@ import {
   unitSelectionLimitKindSchema,
   kitUnitComponentTypeSchema,
   kitUnitPriceAllocationBasisSchema,
+  weaponTypeSchema,
 } from "@db_index/";
 
 // export inferred types from schemas
@@ -83,6 +88,10 @@ export type LeaderEligibility = z.infer<typeof leaderEligibilitySchema>;
 export type LeaderEligibilityKeyword = z.infer<
   typeof leaderEligibilityKeywordSchema
 >;
+export type Weapon = z.infer<typeof weaponSchema>;
+export type WeaponProfile = z.infer<typeof weaponProfileSchema>;
+export type WeaponProfileKeyword = z.infer<typeof weaponProfileKeywordSchema>;
+export type UnitWeapon = z.infer<typeof unitWeaponSchema>;
 export type Player = z.infer<typeof playerSchema>;
 export type PlayerArmyList = z.infer<typeof playerArmyListSchema>;
 export type PlayerArmyListUnit = z.infer<typeof playerArmyListUnitSchema>;
@@ -103,3 +112,4 @@ export type KitUnitComponentType = z.infer<typeof kitUnitComponentTypeSchema>;
 export type KitUnitPriceAllocationBasis = z.infer<
   typeof kitUnitPriceAllocationBasisSchema
 >;
+export type WeaponType = z.infer<typeof weaponTypeSchema>;

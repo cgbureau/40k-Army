@@ -19,3 +19,4 @@ export * from "./unitPointCost.schema";
 export * from "./unitProfiles.schema";
 export * from "./units.schema";
 export * from "./unitSelectionLimits.schema";
+export * from "./weapons.schema";

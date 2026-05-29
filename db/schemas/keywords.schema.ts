@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const keywordTypeSchema = z.enum(["unit", "faction", "model", "rules"]);
+export const keywordTypeSchema = z.enum(["unit", "faction", "model", "rules", "weapon"]);
 
 export const keywordSchema = z.object({
   id: z.ulid(),

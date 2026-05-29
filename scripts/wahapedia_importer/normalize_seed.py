@@ -31,6 +31,13 @@ from .data.loaders import (
     space_marine_codex_supplements as _load_space_marine_codex_supplements,
     ten_e_codex_factions as _load_ten_e_codex_factions,
 )
+from .parsers.datasheet import (
+    parse_composition,
+    parse_led_by,
+    parse_model_profiles,
+    parse_unit_name,
+    parse_weapons,
+)
 from .normalizers.rules_sources import (
     _canonical_rules_faction_slug,
     _classify_rules_source_type,
@@ -197,6 +204,125 @@ class KitUnitPriceAllocationCandidate:
     updated_at: str | None
 
 
+@dataclass(frozen=True)
+class ModelCandidate:
+    seed_id_key: str
+    model_slug: str
+    model_name: str
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class UnitModelCandidate:
+    seed_id_key: str
+    unit_slug: str
+    model_slug: str
+    min_count: int
+    max_count: int
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class UnitProfileCandidate:
+    seed_id_key: str
+    unit_profile_slug: str
+    unit_profile_name: str
+    unit_slug: str
+    model_slug: str | None
+    game_edition_slug: str
+    rules_source_slug: str | None
+    stats: dict[str, str]
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class UnitPointCostCandidate:
+    seed_id_key: str
+    unit_point_cost_slug: str
+    unit_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    model_count: int
+    points: int
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class UnitSelectionLimitCandidate:
+    seed_id_key: str
+    unit_slug: str
+    game_edition_slug: str
+    min_models: int
+    max_models: int
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class WeaponCandidate:
+    seed_id_key: str
+    weapon_slug: str
+    weapon_name: str
+    weapon_type: str
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class WeaponProfileCandidate:
+    seed_id_key: str
+    weapon_profile_slug: str
+    weapon_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    range: str
+    attacks: str
+    skill: str
+    strength: str
+    armor_penetration: int
+    damage: str
+    keywords: list[dict[str, str | None]]
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class UnitWeaponCandidate:
+    seed_id_key: str
+    unit_slug: str
+    model_slug: str | None
+    weapon_profile_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    is_default: bool
+    effective_date: str | None
+    superseded_date: str | None
+    created_at: str
+    updated_at: str | None
+
+
+@dataclass(frozen=True)
+class LeaderEligibilityCandidate:
+    seed_id_key: str
+    leader_unit_slug: str
+    target_unit_slug: str
+    game_edition_slug: str
+    rules_source_slug: str | None
+    is_legends: bool
+    created_at: str
+    updated_at: str | None
+
+
 def normalize_wahapedia_manifest(
     *,
     manifest: str,
@@ -218,6 +344,7 @@ def normalize_wahapedia_manifest(
         "faction-data",
         "kit-units",
         "kit-unit-price-allocations",
+        "unit-datasheets",
     }:
         raise ValueError(f"Unsupported normalize kind: {kind}")
 
@@ -232,6 +359,15 @@ def normalize_wahapedia_manifest(
     rules_faction_units: list[RulesFactionUnitCandidate] = []
     kit_units: list[KitUnitCandidate] = []
     kit_unit_price_allocations: list[KitUnitPriceAllocationCandidate] = []
+    models: list[ModelCandidate] = []
+    unit_models: list[UnitModelCandidate] = []
+    unit_profiles: list[UnitProfileCandidate] = []
+    unit_point_costs: list[UnitPointCostCandidate] = []
+    unit_selection_limits: list[UnitSelectionLimitCandidate] = []
+    weapons: list[WeaponCandidate] = []
+    weapon_profiles: list[WeaponProfileCandidate] = []
+    unit_weapons: list[UnitWeaponCandidate] = []
+    leader_eligibilities: list[LeaderEligibilityCandidate] = []
     if kind == "abilities":
         abilities, unit_abilities = _extract_abilities(
             manifest_data, include_unit_abilities=include_unit_abilities
@@ -251,6 +387,18 @@ def normalize_wahapedia_manifest(
         kit_units = _extract_kit_units(manifest_data)
     if kind == "kit-unit-price-allocations":
         kit_unit_price_allocations = _extract_kit_unit_price_allocations(manifest_data)
+    if kind == "unit-datasheets":
+        (
+            models,
+            unit_models,
+            unit_profiles,
+            unit_point_costs,
+            unit_selection_limits,
+            weapons,
+            weapon_profiles,
+            unit_weapons,
+            leader_eligibilities,
+        ) = _extract_unit_datasheets(manifest_data)
     output_path = (
         Path(output).expanduser()
         if output
@@ -287,6 +435,15 @@ def normalize_wahapedia_manifest(
             "kit_unit_price_allocations": [
                 candidate.__dict__ for candidate in kit_unit_price_allocations
             ],
+            "models": [candidate.__dict__ for candidate in models],
+            "unit_models": [candidate.__dict__ for candidate in unit_models],
+            "unit_profiles": [candidate.__dict__ for candidate in unit_profiles],
+            "unit_point_costs": [candidate.__dict__ for candidate in unit_point_costs],
+            "unit_selection_limits": [candidate.__dict__ for candidate in unit_selection_limits],
+            "weapons": [candidate.__dict__ for candidate in weapons],
+            "weapon_profiles": [candidate.__dict__ for candidate in weapon_profiles],
+            "unit_weapons": [candidate.__dict__ for candidate in unit_weapons],
+            "leader_eligibilities": [candidate.__dict__ for candidate in leader_eligibilities],
         },
         metadata={
             "curated_input_required": kind
@@ -308,6 +465,264 @@ def normalize_wahapedia_manifest(
         seed_output.write_text(_keyword_seed_snippets(keywords), encoding="utf-8")
 
     return output_path
+
+
+def _extract_unit_datasheets(
+    manifest_data: dict[str, Any],
+) -> tuple[
+    list[ModelCandidate],
+    list[UnitModelCandidate],
+    list[UnitProfileCandidate],
+    list[UnitPointCostCandidate],
+    list[UnitSelectionLimitCandidate],
+    list[WeaponCandidate],
+    list[WeaponProfileCandidate],
+    list[UnitWeaponCandidate],
+    list[LeaderEligibilityCandidate],
+]:
+    """Extract all unit-datasheet data from cached unit pages in the manifest.
+
+    One HTTP page → many output records across nine target tables. The manifest
+    must have been produced by a collect run with kind=units or kind=unit-abilities
+    so that unit-datasheet pages are present.
+    """
+    created_at = now_iso()
+    edition = manifest_data["edition"]
+    edition_slug = _edition_slug_from_number(edition)
+    faction_slug = (
+        normalize_slug(manifest_data["faction"]).replace("_", "-")
+        if manifest_data.get("faction")
+        else None
+    )
+
+    models_by_slug: dict[str, ModelCandidate] = {}
+    unit_models_by_key: dict[str, UnitModelCandidate] = {}
+    unit_profiles_by_slug: dict[str, UnitProfileCandidate] = {}
+    unit_point_costs_by_slug: dict[str, UnitPointCostCandidate] = {}
+    unit_selection_limits_by_key: dict[str, UnitSelectionLimitCandidate] = {}
+    weapons_by_slug: dict[str, WeaponCandidate] = {}
+    weapon_profiles_by_slug: dict[str, WeaponProfileCandidate] = {}
+    unit_weapons_by_key: dict[str, UnitWeaponCandidate] = {}
+    leader_eligibilities_by_key: dict[str, LeaderEligibilityCandidate] = {}
+
+    for page in manifest_data.get("pages", []):
+        if page.get("page_kind") != "unit-datasheet":
+            continue
+        html = Path(page["cache_path"]).read_text(encoding="utf-8")
+        url = page["url"]
+
+        raw_unit_name = parse_unit_name(html) or _display_name_from_url(url)
+        unit_slug = normalize_slug(raw_unit_name)
+        rules_source_slug = _parse_datasheet_rules_source_slug(
+            html=html,
+            edition=edition,
+            fallback_faction_slug=faction_slug or unit_slug,
+        )
+
+        # --- composition, selection limits, point costs ---
+        comp = parse_composition(html)
+        configs = comp["configs"]
+        equipment = comp["equipment"]  # {model_name: [weapon_name, ...]}
+        point_costs = comp["point_costs"]
+
+        # Build per-model min/max counts across configurations
+        # e.g. configs=[{Runtherd:1, Gretchin:10}, {Runtherd:2, Gretchin:20}]
+        # → Runtherd: min=1 max=2, Gretchin: min=10 max=20
+        model_min_max: dict[str, tuple[int, int]] = {}
+        for cfg in configs:
+            for model_name, count in cfg["model_counts"].items():
+                slug = normalize_slug(model_name)
+                prev_min, prev_max = model_min_max.get(slug, (count, count))
+                model_min_max[slug] = (min(prev_min, count), max(prev_max, count))
+
+        for model_name, (mn, mx) in model_min_max.items():
+            model_slug = normalize_slug(model_name)
+            models_by_slug.setdefault(
+                model_slug,
+                ModelCandidate(
+                    seed_id_key=model_slug,
+                    model_slug=model_slug,
+                    model_name=model_name,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+            um_key = f"{unit_slug}__{model_slug}"
+            unit_models_by_key.setdefault(
+                um_key,
+                UnitModelCandidate(
+                    seed_id_key=um_key,
+                    unit_slug=unit_slug,
+                    model_slug=model_slug,
+                    min_count=mn,
+                    max_count=mx,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+        if configs:
+            all_counts = [cfg["total_models"] for cfg in configs]
+            limit_key = f"{unit_slug}__{edition_slug}"
+            unit_selection_limits_by_key.setdefault(
+                limit_key,
+                UnitSelectionLimitCandidate(
+                    seed_id_key=limit_key,
+                    unit_slug=unit_slug,
+                    game_edition_slug=edition_slug,
+                    min_models=min(all_counts),
+                    max_models=max(all_counts),
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+        for cost in point_costs:
+            cost_slug = f"{unit_slug}__{edition_slug}__{cost['model_count']}m"
+            unit_point_costs_by_slug.setdefault(
+                cost_slug,
+                UnitPointCostCandidate(
+                    seed_id_key=cost_slug,
+                    unit_point_cost_slug=cost_slug,
+                    unit_slug=unit_slug,
+                    game_edition_slug=edition_slug,
+                    rules_source_slug=rules_source_slug,
+                    model_count=cost["model_count"],
+                    points=cost["points"],
+                    effective_date=None,
+                    superseded_date=None,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+        # --- unit profiles (stat blocks) ---
+        profiles = parse_model_profiles(html)
+        for profile in profiles:
+            model_name = profile["model_name"].title()
+            model_slug = normalize_slug(model_name)
+            profile_slug = f"{unit_slug}__{model_slug}__{edition_slug}"
+            unit_profiles_by_slug.setdefault(
+                profile_slug,
+                UnitProfileCandidate(
+                    seed_id_key=profile_slug,
+                    unit_profile_slug=profile_slug,
+                    unit_profile_name=f"{raw_unit_name} — {model_name}",
+                    unit_slug=unit_slug,
+                    model_slug=model_slug if len(profiles) > 1 else None,
+                    game_edition_slug=edition_slug,
+                    rules_source_slug=rules_source_slug,
+                    stats=profile["stats"],
+                    effective_date=None,
+                    superseded_date=None,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+        # --- weapons ---
+        parsed_weapons = parse_weapons(html)
+        for w in parsed_weapons:
+            weapon_slug = normalize_slug(w["weapon_name"])
+            weapon_profile_slug = f"{weapon_slug}__{edition_slug}"
+            if rules_source_slug:
+                weapon_profile_slug = f"{weapon_slug}__{edition_slug}__{normalize_slug(rules_source_slug)}"
+
+            weapons_by_slug.setdefault(
+                weapon_slug,
+                WeaponCandidate(
+                    seed_id_key=weapon_slug,
+                    weapon_slug=weapon_slug,
+                    weapon_name=w["weapon_name"],
+                    weapon_type=w["weapon_type"],
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+            weapon_profiles_by_slug.setdefault(
+                weapon_profile_slug,
+                WeaponProfileCandidate(
+                    seed_id_key=weapon_profile_slug,
+                    weapon_profile_slug=weapon_profile_slug,
+                    weapon_slug=weapon_slug,
+                    game_edition_slug=edition_slug,
+                    rules_source_slug=rules_source_slug,
+                    range=w["range"],
+                    attacks=w["attacks"],
+                    skill=w["skill"],
+                    strength=w["strength"],
+                    armor_penetration=w["armor_penetration"],
+                    damage=w["damage"],
+                    keywords=w["keywords"],
+                    effective_date=None,
+                    superseded_date=None,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+            # Match weapon to model via equipment assignment dict
+            assigned_model_slug: str | None = None
+            for model_name_raw, weapon_names in equipment.items():
+                if any(normalize_slug(wn) == weapon_slug for wn in weapon_names):
+                    assigned_model_slug = normalize_slug(model_name_raw)
+                    break
+
+            uw_key = f"{unit_slug}__{assigned_model_slug or 'all'}__{weapon_profile_slug}"
+            unit_weapons_by_key.setdefault(
+                uw_key,
+                UnitWeaponCandidate(
+                    seed_id_key=uw_key,
+                    unit_slug=unit_slug,
+                    model_slug=assigned_model_slug,
+                    weapon_profile_slug=weapon_profile_slug,
+                    game_edition_slug=edition_slug,
+                    rules_source_slug=rules_source_slug,
+                    is_default=True,
+                    effective_date=None,
+                    superseded_date=None,
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+        # --- leader eligibility (LED BY) ---
+        for leader in parse_led_by(html):
+            leader_slug = normalize_slug(leader["leader_unit_name"])
+            le_key = f"{leader_slug}__{unit_slug}"
+            leader_eligibilities_by_key.setdefault(
+                le_key,
+                LeaderEligibilityCandidate(
+                    seed_id_key=le_key,
+                    leader_unit_slug=leader_slug,
+                    target_unit_slug=unit_slug,
+                    game_edition_slug=edition_slug,
+                    rules_source_slug=rules_source_slug,
+                    is_legends=leader["is_legends"],
+                    created_at=created_at,
+                    updated_at=None,
+                ),
+            )
+
+    def _sort(d: dict) -> list:
+        return sorted(d.values(), key=lambda c: c.seed_id_key)
+
+    return (
+        _sort(models_by_slug),
+        _sort(unit_models_by_key),
+        _sort(unit_profiles_by_slug),
+        _sort(unit_point_costs_by_slug),
+        _sort(unit_selection_limits_by_key),
+        _sort(weapons_by_slug),
+        _sort(weapon_profiles_by_slug),
+        _sort(unit_weapons_by_key),
+        _sort(leader_eligibilities_by_key),
+    )
+
+
+def _display_name_from_url(url: str) -> str:
+    tail = url.rstrip("/").split("/")[-1]
+    return tail.replace("-", " ").title()
 
 
 def _extract_kit_units(manifest_data: dict[str, Any]) -> list[KitUnitCandidate]:

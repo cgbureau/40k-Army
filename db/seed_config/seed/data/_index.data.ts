@@ -32,3 +32,7 @@ export * from "./unit_profile_stats.data";
 export * from "./unit_profiles.data";
 export * from "./unit_selection_limits.data";
 export * from "./units.data";
+export * from "./weapons.data";
+export * from "./weapon_profiles.data";
+export * from "./weapon_profile_keywords.data";
+export * from "./unit_weapons.data";
