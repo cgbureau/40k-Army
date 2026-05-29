@@ -33,6 +33,7 @@ from .data.loaders import (
 )
 from .parsers.datasheet import (
     parse_composition,
+    parse_is_legends,
     parse_led_by,
     parse_model_profiles,
     parse_unit_name,
@@ -154,6 +155,7 @@ class UnitCandidate:
     seed_id_key: str
     unit_slug: str
     unit_name: str
+    is_legends: bool
     wahapedia_url: str
     created_at: str
     updated_at: str | None
@@ -1106,6 +1108,7 @@ def _extract_faction_data(
                 seed_id_key=unit_slug,
                 unit_slug=unit_slug,
                 unit_name=unit_name,
+                is_legends=parse_is_legends(html),
                 wahapedia_url=page["url"],
                 created_at=created_at,
                 updated_at=None,

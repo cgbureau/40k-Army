@@ -14,15 +14,34 @@ from typing import Any
 # Unit name
 # ---------------------------------------------------------------------------
 
+def parse_is_legends(html: str) -> bool:
+    """Return True if this unit is published under Warhammer Legends.
+
+    Legends units have "Warhammer Legends" in the source logo title that
+    appears in the datasheet header (the logo3 tooltip near the unit name).
+    Non-legends units have a normal faction pack or codex title there.
+    """
+    ds_start = html.find('class="dsH2Header"')
+    if ds_start < 0:
+        return False
+    header_area = html[max(0, ds_start - 600) : ds_start + 100]
+    return "Warhammer Legends" in header_area
+
+
 def parse_unit_name(html: str) -> str | None:
-    """Return the unit name from the dsH2Header div, or None if not found."""
+    """Return the unit name from the dsH2Header div, or None if not found.
+
+    Some unit names contain inline spans (e.g. "Big Mek <span>In Mega Armour</span>")
+    so we extract the full inner HTML of the first child div and strip tags.
+    """
     match = re.search(
-        r'class="dsH2Header"[^>]*>\s*<div>(?P<name>[^<]+)</div>',
+        r'class="dsH2Header"[^>]*>\s*<div>(?P<inner>.*?)</div>',
         html,
+        flags=re.DOTALL,
     )
     if not match:
         return None
-    return _clean_text(match.group("name"))
+    return _clean_text(match.group("inner"))
 
 
 # ---------------------------------------------------------------------------

@@ -106,6 +106,7 @@ class UnitSeedRecord:
     seed_id_key: str
     unit_slug: str
     unit_name: str
+    is_legends: bool
     wahapedia_url: str
 
 
@@ -261,6 +262,7 @@ def apply_faction_data_seed(*, normalized: list[str]) -> list[Path]:
                 seed_id_key=item.get("seed_id_key") or item["unit_slug"],
                 unit_slug=item["unit_slug"],
                 unit_name=item["unit_name"],
+                is_legends=item.get("is_legends", False),
                 wahapedia_url=item["wahapedia_url"],
             )
             for payload in payloads
@@ -1335,6 +1337,7 @@ def _write_units_data_file(records: list[UnitSeedRecord]) -> None:
                 f'  id: unitId("{record.seed_id_key}"),',
                 f"  unit_name: {_ts_string(record.unit_name)},",
                 f'  unit_slug: "{record.unit_slug}",',
+                f"  is_legends: {str(record.is_legends).lower()},",
                 f"  wahapedia_url: {_ts_string(record.wahapedia_url)},",
                 "};",
                 "",

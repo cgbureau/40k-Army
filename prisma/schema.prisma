@@ -321,6 +321,7 @@ model Unit {
   id                      String                   @id @default(ulid()) @db.Char(26)
   unitName                String                   @map("unit_name")
   unitSlug                String                   @unique @map("unit_slug")
+  isLegends               Boolean                  @default(false) @map("is_legends") /// true when the unit is published under Warhammer Legends and cannot be used in standard matched play
   wahapediaUrl            String?                  @map("wahapedia_url") /// optional source/reference URL for the unit's Wahapedia datasheet page
   unitProfiles            UnitProfile[]
   unitModels              UnitModel[]
