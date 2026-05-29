@@ -358,6 +358,54 @@ export const AdrathicDevastator10eFactionPackAdeptusCustodes10eV10WeaponProfile:
   superseded_date: null,
 };
 
+export const AeldariMissileLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("aeldari_missile_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "aeldari_missile_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("aeldari_missile_launcher_starshot"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AeldariMissileLauncherSunburst10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("aeldari_missile_launcher_sunburst__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "aeldari_missile_launcher_sunburst__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("aeldari_missile_launcher_sunburst"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AeldariPowerSword10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("aeldari_power_sword__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "aeldari_power_sword__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("aeldari_power_sword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Aeonstave10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("aeonstave__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "aeonstave__10e__faction_pack_necrons_10e_v1_3",
@@ -401,6 +449,22 @@ export const AgentMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfile: We
   skill: "3+",
   strength: "3",
   armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Agoniser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("agoniser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "agoniser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("agoniser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -578,6 +642,22 @@ export const AnnihilatorBeam10eFactionPackNecrons10eV13WeaponProfile: WeaponProf
   strength: "14",
   armor_penetration: -4,
   damage: "6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AnointedHalberd10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("anointed_halberd__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "anointed_halberd__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("anointed_halberd"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -886,6 +966,38 @@ export const ArchiteGlaiveAndAgoniser10eFactionPackDrukhari10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const ArcoFlails10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("arco_flails__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "arco_flails__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("arco_flails"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ArhrasBane10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("arhras_bane__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "arhras_bane__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("arhras_bane"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "2",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ArmigerAutocannon10eFactionPackImperialKnights10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("armiger_autocannon__10e__faction_pack_imperial_knights_10e_v1_2"),
   weapon_profile_slug: "armiger_autocannon__10e__faction_pack_imperial_knights_10e_v1_2",
@@ -998,6 +1110,22 @@ export const ArmouredFeet10eFactionPackImperialKnights10eV12WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const ArmouredFrame10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("armoured_frame__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "armoured_frame__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("armoured_frame"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ArmouredHull10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("armoured_hull__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "armoured_hull__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -1020,6 +1148,22 @@ export const ArmouredHull10eFactionPackAdeptusMechanicus10eV11WeaponProfile: Wea
   weapon_id: weaponId("armoured_hull"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ArmouredHull10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("armoured_hull__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "armoured_hull__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("armoured_hull"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
   range: "Melee",
   attacks: "3",
   skill: "4+",
@@ -1158,6 +1302,22 @@ export const ArmouredLimbs10eFactionPackChaosSpaceMarines10eV16WeaponProfile: We
   superseded_date: null,
 };
 
+export const ArmouredTracks10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("armoured_tracks__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "armoured_tracks__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("armoured_tracks"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ArmouredTracks10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("armoured_tracks__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "armoured_tracks__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -1168,6 +1328,22 @@ export const ArmouredTracks10eFactionPackAdeptusCustodes10eV10WeaponProfile: Wea
   attacks: "3",
   skill: "4+",
   strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ArmouredTracks10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("armoured_tracks__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "armoured_tracks__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("armoured_tracks"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "4+",
+  strength: "8",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -1318,6 +1494,22 @@ export const ArtificerBoltPistol10eFactionPackImperialAgents10eV13WeaponProfile:
   superseded_date: null,
 };
 
+export const ArtificerCraftedStormBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("artificer_crafted_storm_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "artificer_crafted_storm_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("artificer_crafted_storm_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ArtificerCraftedStormBolter10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("artificer_crafted_storm_bolter__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "artificer_crafted_storm_bolter__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -1378,6 +1570,22 @@ export const AssaultBolters10eFactionPackImperialAgents10eV13WeaponProfile: Weap
   strength: "5",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AssaultCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("assault_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "assault_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("assault_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "6",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -1558,6 +1766,70 @@ export const AstralBlast10eFactionPackThousandSons10eV11WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const AstropathsStave10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("astropaths_stave__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "astropaths_stave__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("astropaths_stave"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "1",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AsuVarDuellistStance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("asu_var_duellist_stance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "asu_var_duellist_stance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("asu_var_duellist_stance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AsuVarMythicStance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("asu_var_mythic_stance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "asu_var_mythic_stance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("asu_var_mythic_stance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: -4,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AsuVarQuicksilverStance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("asu_var_quicksilver_stance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "asu_var_quicksilver_stance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("asu_var_quicksilver_stance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "8",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const AtalanIncinerator10eFactionPackGenestealerCults10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("atalan_incinerator__10e__faction_pack_genestealer_cults_10e_v1_0"),
   weapon_profile_slug: "atalan_incinerator__10e__faction_pack_genestealer_cults_10e_v1_0",
@@ -1734,6 +2006,38 @@ export const AutoBoltstormGauntlets10eFactionPackImperialAgents10eV13WeaponProfi
   superseded_date: null,
 };
 
+export const AutoShotgun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("auto_shotgun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "auto_shotgun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("auto_shotgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Autocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Autocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -1798,6 +2102,22 @@ export const AutochPatternCombiBolter10eFactionPackLeaguesOfVotann10eV13WeaponPr
   superseded_date: null,
 };
 
+export const Autogun10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("autogun__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "autogun__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("autogun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Autogun10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("autogun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "autogun__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -1826,6 +2146,38 @@ export const AutomatonClaws10eFactionPackNecrons10eV13WeaponProfile: WeaponProfi
   strength: "8",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Autopistol10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("autopistol__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "autopistol__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("autopistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Autopistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("autopistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "autopistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("autopistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -1910,6 +2262,38 @@ export const Autopistol10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const Autostubber10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("autostubber__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "autostubber__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("autostubber"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AvengerBoltCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("avenger_bolt_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "avenger_bolt_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("avenger_bolt_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "10",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const AvengerChaincannon10eFactionPackChaosKnights10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("avenger_chaincannon__10e__faction_pack_chaos_knights_10e_v1_1"),
   weapon_profile_slug: "avenger_chaincannon__10e__faction_pack_chaos_knights_10e_v1_1",
@@ -1938,6 +2322,22 @@ export const AvengerGatlingCannon10eFactionPackImperialKnights10eV12WeaponProfil
   strength: "6",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AvengerShurikenCatapult10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("avenger_shuriken_catapult__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "avenger_shuriken_catapult__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("avenger_shuriken_catapult"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -2066,6 +2466,22 @@ export const AxeOfKhorneSweep10eFactionPackWorldEaters10eV11WeaponProfile: Weapo
   strength: "8",
   armor_penetration: -2,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BaleEye10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bale_eye__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "bale_eye__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("bale_eye"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "2",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "D3+1",
   effective_date: null,
   superseded_date: null,
 };
@@ -2326,6 +2742,38 @@ export const BaneSweep10eFactionPackLeaguesOfVotann10eV13WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const BanebladeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("baneblade_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "baneblade_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("baneblade_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "3D6",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BansheeBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("banshee_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "banshee_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("banshee_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BarbedOvipositor10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("barbed_ovipositor__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "barbed_ovipositor__10e__faction_pack_tyranids_10e_v1_4",
@@ -2400,6 +2848,22 @@ export const Barblauncher10eFactionPackTyranids10eV14WeaponProfile: WeaponProfil
   attacks: "D6",
   skill: "4+",
   strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BatteryCloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("battery_close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "battery_close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("battery_close_combat_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "5",
+  skill: "4+",
+  strength: "3",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -2870,6 +3334,22 @@ export const BioPlasmicScream10eFactionPackTyranids10eV14WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const BionicArmWithDevilsClaw10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bionic_arm_with_devils_claw__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "bionic_arm_with_devils_claw__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("bionic_arm_with_devils_claw"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BionicGauntlet10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("bionic_gauntlet__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "bionic_gauntlet__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -2882,6 +3362,22 @@ export const BionicGauntlet10eFactionPackChaosSpaceMarines10eV16WeaponProfile: W
   strength: "6",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BitingBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("biting_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "biting_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("biting_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -3014,6 +3510,22 @@ export const BladeOfDecaySweep10eFactionPackChaosDaemons10eV12WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const BladeOfDestruction10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blade_of_destruction__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "blade_of_destruction__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("blade_of_destruction"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "8",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BladeOfMagnusStrike10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("blade_of_magnus_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
   weapon_profile_slug: "blade_of_magnus_strike__10e__faction_pack_thousand_sons_10e_v1_1",
@@ -3074,6 +3586,22 @@ export const BladeOfTheLaer10eFactionPackEmperorsChildren10eV13WeaponProfile: We
   strength: "8",
   armor_penetration: -3,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BladeOfVigil10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blade_of_vigil__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "blade_of_vigil__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("blade_of_vigil"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -3206,6 +3734,22 @@ export const BladestaveAndPreyHook10eFactionPackTauEmpire10eV12WeaponProfile: We
   superseded_date: null,
 };
 
+export const Bladevanes10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bladevanes__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "bladevanes__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("bladevanes"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Bladevanes10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("bladevanes__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "bladevanes__10e__faction_pack_drukhari_10e_v1_1",
@@ -3270,6 +3814,22 @@ export const BlastJavelin10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const BlastPistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blast_pistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "blast_pistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("blast_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BlastPistol10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("blast_pistol__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "blast_pistol__10e__faction_pack_drukhari_10e_v1_1",
@@ -3282,6 +3842,22 @@ export const BlastPistol10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfile
   strength: "8",
   armor_penetration: -3,
   damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Blaster10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blaster__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "blaster__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("blaster"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -4,
+  damage: "D6+1",
   effective_date: null,
   superseded_date: null,
 };
@@ -3330,6 +3906,54 @@ export const BlastmasterVariedFrequency10eFactionPackEmperorsChildren10eV13Weapo
   strength: "6",
   armor_penetration: -2,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BlessedBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blessed_blade__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "blessed_blade__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("blessed_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BlessedHalberd10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blessed_halberd__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "blessed_halberd__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("blessed_halberd"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BlessedSword10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("blessed_sword__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "blessed_sword__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("blessed_sword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -3457,6 +4081,22 @@ export const Bloodlash10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponProfi
   skill: "2+",
   strength: "8",
   armor_penetration: 0,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BloodyTwins10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bloody_twins__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "bloody_twins__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("bloody_twins"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "6",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -3622,6 +4262,54 @@ export const BoltOfTzeentchWitchfire10eFactionPackChaosDaemons10eV12WeaponProfil
   superseded_date: null,
 };
 
+export const BoltPistol10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bolt_pistol__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "bolt_pistol__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("bolt_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BoltPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bolt_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "bolt_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("bolt_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BoltPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bolt_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "bolt_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("bolt_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BoltPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -3702,6 +4390,22 @@ export const BoltPistol10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const BoltPistols10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bolt_pistols__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "bolt_pistols__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("bolt_pistols"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "6",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BoltRevolver10eFactionPackLeaguesOfVotann10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("bolt_revolver__10e__faction_pack_leagues_of_votann_10e_v1_3"),
   weapon_profile_slug: "bolt_revolver__10e__faction_pack_leagues_of_votann_10e_v1_3",
@@ -3766,12 +4470,60 @@ export const BoltSniperRifle10eFactionPackImperialAgents10eV13WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const Boltgun10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("boltgun__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "boltgun__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("boltgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Boltgun10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("boltgun__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "boltgun__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("boltgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Boltgun10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("boltgun__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "boltgun__10e__faction_pack_adeptus_custodes_10e_v1_0",
   weapon_id: weaponId("boltgun"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_adeptus_custodes_10e_v1_0"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Boltgun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("boltgun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "boltgun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("boltgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
   range: "24\"",
   attacks: "1",
   skill: "3+",
@@ -3846,6 +4598,22 @@ export const Boltgun10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const BombastFieldGun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bombast_field_gun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "bombast_field_gun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("bombast_field_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "5+",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BoneCleaverLashWhipAndRendingClaws10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("bone_cleaver_lash_whip_and_rending_claws__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "bone_cleaver_lash_whip_and_rending_claws__10e__faction_pack_tyranids_10e_v1_4",
@@ -3910,6 +4678,54 @@ export const Boomstikks10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfi
   superseded_date: null,
 };
 
+export const BraceOfPistols10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("brace_of_pistols__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "brace_of_pistols__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("brace_of_pistols"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BraggsAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("braggs_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "braggs_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("braggs_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "4",
+  skill: "5+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BrazierOfHolyFire10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("brazier_of_holy_fire__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "brazier_of_holy_fire__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("brazier_of_holy_fire"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BreachaRam10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("breacha_ram__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "breacha_ram__10e__faction_pack_orks_10e_v1_3",
@@ -3942,6 +4758,22 @@ export const BreacherOrdnance10eFactionPackLeaguesOfVotann10eV13WeaponProfile: W
   superseded_date: null,
 };
 
+export const BrightLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bright_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "bright_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("bright_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const BrimstoneVolcanoLance10eFactionPackChaosKnights10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("brimstone_volcano_lance__10e__faction_pack_chaos_knights_10e_v1_1"),
   weapon_profile_slug: "brimstone_volcano_lance__10e__faction_pack_chaos_knights_10e_v1_1",
@@ -3954,6 +4786,22 @@ export const BrimstoneVolcanoLance10eFactionPackChaosKnights10eV11WeaponProfile:
   strength: "20",
   armor_penetration: -5,
   damage: "D6+8",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BroodTwain10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("brood_twain__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "brood_twain__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("brood_twain"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6+3",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -4102,6 +4950,22 @@ export const BuboticWeapons10eFactionPackDeathGuard10eV11WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const BullgrynMaul10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("bullgryn_maul__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "bullgryn_maul__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("bullgryn_maul"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Burna10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("burna__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "burna__10e__faction_pack_orks_10e_v1_3",
@@ -4130,6 +4994,22 @@ export const BurnaExhausts10eFactionPackOrks10eV13WeaponProfile: WeaponProfileCo
   strength: "4",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const BurningHands10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("burning_hands__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "burning_hands__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("burning_hands"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "1",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -4342,6 +5222,54 @@ export const CarnifexScythingTalons10eFactionPackTyranids10eV14WeaponProfile: We
   superseded_date: null,
 };
 
+export const CarnodonTwinAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("carnodon_twin_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "carnodon_twin_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("carnodon_twin_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CarnodonTwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("carnodon_twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "carnodon_twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("carnodon_twin_lascannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CarnodonTwinMultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("carnodon_twin_multi_laser__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "carnodon_twin_multi_laser__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("carnodon_twin_multi_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "6",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CasketOfFlensing10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("casket_of_flensing__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "casket_of_flensing__10e__faction_pack_drukhari_10e_v1_1",
@@ -4390,6 +5318,38 @@ export const Castigation10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const CastigatorAutocannons10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("castigator_autocannons__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "castigator_autocannons__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("castigator_autocannons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "48\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CastigatorBattleCannon10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("castigator_battle_cannon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "castigator_battle_cannon__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("castigator_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CastigatorBoltCannon10eFactionPackChaosKnights10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("castigator_bolt_cannon__10e__faction_pack_chaos_knights_10e_v1_1"),
   weapon_profile_slug: "castigator_bolt_cannon__10e__faction_pack_chaos_knights_10e_v1_1",
@@ -4418,6 +5378,22 @@ export const CastigatorBoltCannon10eFactionPackImperialKnights10eV12WeaponProfil
   strength: "6",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CastigatorGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("castigator_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "castigator_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("castigator_gatling_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "12",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -4694,6 +5670,70 @@ export const Chainfist10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const Chainsabres10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chainsabres__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "chainsabres__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("chainsabres"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Chainsword10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chainsword__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "chainsword__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("chainsword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Chainsword10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chainsword__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "chainsword__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("chainsword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Chainsword10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chainsword__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "chainsword__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("chainsword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "5",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Chainsword10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -4774,6 +5814,22 @@ export const ChaosStave10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const ChemCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chem_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "chem_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("chem_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "D6+1",
+  skill: "N/A",
+  strength: "2",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ChemicalVials10eFactionPackGenestealerCults10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("chemical_vials__10e__faction_pack_genestealer_cults_10e_v1_0"),
   weapon_profile_slug: "chemical_vials__10e__faction_pack_genestealer_cults_10e_v1_0",
@@ -4790,6 +5846,22 @@ export const ChemicalVials10eFactionPackGenestealerCults10eV10WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const ChironGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chiron_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "chiron_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("chiron_gatling_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "12",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Chirurgeon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("chirurgeon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "chirurgeon__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -4800,6 +5872,22 @@ export const Chirurgeon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Weapo
   attacks: "2",
   skill: "2+",
   strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ChirurgeonsTools10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("chirurgeons_tools__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "chirurgeons_tools__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("chirurgeons_tools"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "3",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -4966,6 +6054,38 @@ export const ClearanceIncinerator10eFactionPackGenestealerCults10eV10WeaponProfi
   superseded_date: null,
 };
 
+export const CloseCombatWeapon10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("close_combat_weapon__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "close_combat_weapon__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "Melee",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CloseCombatWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("close_combat_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "close_combat_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CloseCombatWeapon10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("close_combat_weapon__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "close_combat_weapon__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -4990,6 +6110,38 @@ export const CloseCombatWeapon10eFactionPackAdeptusMechanicus10eV11WeaponProfile
   rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
   range: "Melee",
   attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CloseCombatWeapon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("close_combat_weapon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "close_combat_weapon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
   skill: "4+",
   strength: "6",
   armor_penetration: 0,
@@ -5222,6 +6374,22 @@ export const CloseCombatWeapon10eFactionPackWorldEaters10eV11WeaponProfile: Weap
   superseded_date: null,
 };
 
+export const CloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("close_combat_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CloseCombatWeapons10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("close_combat_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "close_combat_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -5270,6 +6438,22 @@ export const CloseCombatWeapons10eFactionPackTauEmpire10eV12WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const CloudburstMissileLauncher10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("cloudburst_missile_launcher__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "cloudburst_missile_launcher__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("cloudburst_missile_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "2D6",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ClusterRocketSystem10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("cluster_rocket_system__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "cluster_rocket_system__10e__faction_pack_tau_empire_10e_v1_2",
@@ -5282,6 +6466,22 @@ export const ClusterRocketSystem10eFactionPackTauEmpire10eV12WeaponProfile: Weap
   strength: "5",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CoaxialAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("coaxial_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "coaxial_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("coaxial_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -5350,6 +6550,22 @@ export const CoiledTentacles10eFactionPackChaosDaemons10eV12WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const ColossusSiegeMortar10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("colossus_siege_mortar__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "colossus_siege_mortar__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("colossus_siege_mortar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "120\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CombatKnife10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("combat_knife__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "combat_knife__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -5361,6 +6577,22 @@ export const CombatKnife10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   skill: "3+",
   strength: "4",
   armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CombatShotgun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("combat_shotgun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "combat_shotgun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("combat_shotgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -5454,6 +6686,22 @@ export const CombiBolter10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProf
   rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
   range: "24\"",
   attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CombiWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("combi_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "combi_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("combi_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
   skill: "4+",
   strength: "4",
   armor_penetration: 0,
@@ -5558,6 +6806,38 @@ export const CombiWeapon10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProf
   superseded_date: null,
 };
 
+export const CommissarsCloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("commissars_close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "commissars_close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("commissars_close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CommissarsPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("commissars_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "commissars_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("commissars_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CommuneBlade10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("commune_blade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "commune_blade__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -5622,6 +6902,38 @@ export const ConcussionMaul10eFactionPackLeaguesOfVotann10eV13WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const CondemnorBoltPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("condemnor_bolt_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "condemnor_bolt_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("condemnor_bolt_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CondemnorBoltgun10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("condemnor_boltgun__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "condemnor_boltgun__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("condemnor_boltgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CondemnorBoltgun10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("condemnor_boltgun__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "condemnor_boltgun__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -5665,6 +6977,22 @@ export const ConflagrationCannon10eFactionPackImperialKnights10eV12WeaponProfile
   skill: "N/A",
   strength: "8",
   armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Conquest10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("conquest__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "conquest__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("conquest"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -5766,6 +7094,22 @@ export const ConversionBeamObliterator10eFactionPackImperialKnights10eV12WeaponP
   superseded_date: null,
 };
 
+export const CorbecsHotShotLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("corbecs_hot_shot_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "corbecs_hot_shot_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("corbecs_hot_shot_lascarbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const CorruptedPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("corrupted_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "corrupted_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -5809,6 +7153,38 @@ export const CorruptedStave10eFactionPackChaosSpaceMarines10eV16WeaponProfile: W
   skill: "4+",
   strength: "5",
   armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CorsairBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("corsair_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "corsair_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("corsair_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CorsairFirearm10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("corsair_firearm__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "corsair_firearm__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("corsair_firearm"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -5970,6 +7346,22 @@ export const CracklingTendrils10eFactionPackNecrons10eV13WeaponProfile: WeaponPr
   strength: "10",
   armor_penetration: -3,
   damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CrewCloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("crew_close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "crew_close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("crew_close_combat_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -6422,6 +7814,102 @@ export const CyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfi
   superseded_date: null,
 };
 
+export const DBombard10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("d_bombard__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "d_bombard__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("d_bombard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "72\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "20",
+  armor_penetration: -4,
+  damage: "2D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("d_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "d_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("d_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "D3",
+  skill: "3+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DFlailBlast10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("d_flail_blast__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "d_flail_blast__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("d_flail_blast"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "D3",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DFlailRift10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("d_flail_rift__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "d_flail_rift__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("d_flail_rift"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D3",
+  skill: "N/A",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DImpaler10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("d_impaler__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "d_impaler__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("d_impaler"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "D6+3",
+  skill: "3+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DScythe10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("d_scythe__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "d_scythe__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("d_scythe"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "7",
+  armor_penetration: -3,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DaGrabzappa10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("da_grabzappa__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "da_grabzappa__10e__faction_pack_orks_10e_v1_3",
@@ -6662,6 +8150,22 @@ export const DarkBlessing10eFactionPackThousandSons10eV11WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const DarkLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dark_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dark_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dark_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DarkLance10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("dark_lance__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "dark_lance__10e__faction_pack_drukhari_10e_v1_1",
@@ -6822,6 +8326,22 @@ export const DawnBladeSweep10eFactionPackTauEmpire10eV12WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const DeathCultBlades10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("death_cult_blades__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "death_cult_blades__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("death_cult_blades"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DeathCultBlades10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("death_cult_blades__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "death_cult_blades__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -6854,6 +8374,22 @@ export const DeathCultPowerBlade10eFactionPackImperialAgents10eV13WeaponProfile:
   superseded_date: null,
 };
 
+export const DeathCultPowerBlades10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("death_cult_power_blades__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "death_cult_power_blades__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("death_cult_power_blades"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DeathRay10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("death_ray__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "death_ray__10e__faction_pack_necrons_10e_v1_3",
@@ -6866,6 +8402,54 @@ export const DeathRay10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConf
   strength: "12",
   armor_penetration: -4,
   damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DeathRiderLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("death_rider_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "death_rider_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("death_rider_lascarbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DeathSpinner10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("death_spinner__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "death_spinner__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("death_spinner"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DeathWeavers10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("death_weavers__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "death_weavers__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("death_weavers"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -6902,6 +8486,38 @@ export const DeathsHeads10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const DeathshroudCannonDispersed10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("deathshroud_cannon_dispersed__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "deathshroud_cannon_dispersed__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("deathshroud_cannon_dispersed"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "3D6",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DeathshroudCannonFocused10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("deathshroud_cannon_focused__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "deathshroud_cannon_focused__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("deathshroud_cannon_focused"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Deathspitter10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("deathspitter__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "deathspitter__10e__faction_pack_tyranids_10e_v1_4",
@@ -6929,6 +8545,22 @@ export const DeathspittersWithSlimerMaggots10eFactionPackTyranids10eV14WeaponPro
   skill: "4+",
   strength: "7",
   armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DeathstrikeMissile10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("deathstrike_missile__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "deathstrike_missile__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("deathstrike_missile"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "N/A",
+  attacks: "2D6",
+  skill: "2+",
+  strength: "16",
+  armor_penetration: -4,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -7110,6 +8742,22 @@ export const DeffstormMegaShoota10eFactionPackOrks10eV13WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const DemiklaivesDualBlades10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("demiklaives_dual_blades__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "demiklaives_dual_blades__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("demiklaives_dual_blades"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DemiklaivesDualBlades10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("demiklaives_dual_blades__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "demiklaives_dual_blades__10e__faction_pack_drukhari_10e_v1_1",
@@ -7126,6 +8774,22 @@ export const DemiklaivesDualBlades10eFactionPackDrukhari10eV11WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const DemiklaivesSingleBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("demiklaives_single_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "demiklaives_single_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("demiklaives_single_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DemiklaivesSingleBlade10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("demiklaives_single_blade__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "demiklaives_single_blade__10e__faction_pack_drukhari_10e_v1_1",
@@ -7138,6 +8802,38 @@ export const DemiklaivesSingleBlade10eFactionPackDrukhari10eV11WeaponProfile: We
   strength: "5",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DemolisherBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("demolisher_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "demolisher_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("demolisher_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D6+1",
+  skill: "4+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DemolisherCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("demolisher_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "demolisher_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("demolisher_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -7170,6 +8866,22 @@ export const DemolisherCannon10eFactionPackThousandSons10eV11WeaponProfile: Weap
   strength: "14",
   armor_penetration: -3,
   damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DemolitionCharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("demolition_charge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "demolition_charge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("demolition_charge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "6\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -7215,6 +8927,22 @@ export const DemolitionCharges10eFactionPackGenestealerCults10eV10WeaponProfile:
   range: "8\"",
   attacks: "D6",
   skill: "5+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Demolitions10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("demolitions__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "demolitions__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("demolitions"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "6\"",
+  attacks: "D6",
+  skill: "4+",
   strength: "9",
   armor_penetration: -2,
   damage: "2",
@@ -7286,6 +9014,22 @@ export const DestroyerMissiles10eFactionPackTauEmpire10eV12WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const Destructor10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("destructor__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "destructor__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("destructor"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Devourer10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("devourer__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "devourer__10e__faction_pack_tyranids_10e_v1_4",
@@ -7334,6 +9078,22 @@ export const DiabolusHeavyStubber10eFactionPackChaosKnights10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const DialogusStaff10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dialogus_staff__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "dialogus_staff__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("dialogus_staff"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DireBioCannon10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("dire_bio_cannon__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "dire_bio_cannon__10e__faction_pack_tyranids_10e_v1_4",
@@ -7366,6 +9126,22 @@ export const DireScytheBlades10eFactionPackDrukhari10eV11WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const Diresword10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("diresword__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "diresword__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("diresword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Dirgesinger10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("dirgesinger__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "dirgesinger__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -7378,6 +9154,22 @@ export const Dirgesinger10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   strength: "4",
   armor_penetration: 0,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Dirk10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dirk__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "dirk__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("dirk"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -7446,6 +9238,22 @@ export const DisgustingSneezes10eFactionPackChaosDaemons10eV12WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const DisintegratorCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("disintegrator_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "disintegrator_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("disintegrator_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DisintegratorCannon10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("disintegrator_cannon__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "disintegrator_cannon__10e__faction_pack_drukhari_10e_v1_1",
@@ -7478,6 +9286,38 @@ export const DisruptorMissileLauncher10eFactionPackAdeptusMechanicus10eV11Weapon
   superseded_date: null,
 };
 
+export const DissonanceCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dissonance_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dissonance_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dissonance_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DissonancePistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dissonance_pistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dissonance_pistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dissonance_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DistensibleJaw10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("distensible_jaw__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "distensible_jaw__10e__faction_pack_tyranids_10e_v1_4",
@@ -7506,6 +9346,22 @@ export const DiviningSpear10eFactionPackThousandSons10eV11WeaponProfile: WeaponP
   strength: "5",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DominusTripleBombard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dominus_triple_bombard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "dominus_triple_bombard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("dominus_triple_bombard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2D6",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -7590,6 +9446,38 @@ export const DoomstalkerLimbs10eFactionPackNecrons10eV13WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const Doomweaver10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("doomweaver__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "doomweaver__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("doomweaver"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "3+",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DozerRam10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dozer_ram__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "dozer_ram__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("dozer_ram"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Drachnyen10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("drachnyen__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "drachnyen__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -7602,6 +9490,70 @@ export const Drachnyen10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Weapon
   strength: "14",
   armor_penetration: -4,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DragonAxe10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dragon_axe__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dragon_axe__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dragon_axe"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DragonFusionGun10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dragon_fusion_gun__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dragon_fusion_gun__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dragon_fusion_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DragonFusionPistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dragon_fusion_pistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dragon_fusion_pistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dragon_fusion_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DragonsBreathFlamer10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dragons_breath_flamer__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dragons_breath_flamer__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dragons_breath_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6+2",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -7634,6 +9586,22 @@ export const DreadKlaw10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig
   strength: "12",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DreadOfTheDeepVoid10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("dread_of_the_deep_void__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "dread_of_the_deep_void__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("dread_of_the_deep_void"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "D6+2",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -7798,6 +9766,22 @@ export const DunecrawlerLegs10eFactionPackAdeptusMechanicus10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const DutyAndVengeance10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("duty_and_vengeance__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "duty_and_vengeance__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("duty_and_vengeance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const DvorgiteSkinner10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("dvorgite_skinner__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "dvorgite_skinner__10e__faction_pack_tau_empire_10e_v1_2",
@@ -7842,6 +9826,22 @@ export const EaglesScream10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weapo
   strength: "5",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const EarthshakerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("earthshaker_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "earthshaker_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("earthshaker_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "240\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -8022,6 +10022,22 @@ export const EldritchLance10eFactionPackNecrons10eV13WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const EldritchStorm10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("eldritch_storm__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "eldritch_storm__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("eldritch_storm"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ElectroGoads10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("electro_goads__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "electro_goads__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -8166,6 +10182,22 @@ export const EmpathicObliterator10eFactionPackNecrons10eV13WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const EnforcerCrew10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("enforcer_crew__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "enforcer_crew__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("enforcer_crew"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "10",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const EnforcerMeleeWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("enforcer_melee_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "enforcer_melee_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -8194,6 +10226,22 @@ export const EnforcerPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile: W
   strength: "4",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const EnginseerAxe10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("enginseer_axe__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "enginseer_axe__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("enginseer_axe"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -8278,6 +10326,22 @@ export const EntropyCannon10eFactionPackDeathGuard10eV11WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const EnvenomedBlade10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("envenomed_blade__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "envenomed_blade__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("envenomed_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const EradicationBeamerDissipated10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("eradication_beamer_dissipated__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "eradication_beamer_dissipated__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -8337,6 +10401,22 @@ export const EradicationRayFocused10eFactionPackAdeptusMechanicus10eV11WeaponPro
   skill: "3+",
   strength: "6",
   armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const EradicatorNovaCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("eradicator_nova_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "eradicator_nova_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("eradicator_nova_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D3+6",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -1,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -8438,6 +10518,54 @@ export const ExaltedWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: We
   superseded_date: null,
 };
 
+export const ExarchsDeathSpinner10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("exarchs_death_spinner__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "exarchs_death_spinner__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("exarchs_death_spinner"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ExarchsDragonFusionGun10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("exarchs_dragon_fusion_gun__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "exarchs_dragon_fusion_gun__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("exarchs_dragon_fusion_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ExarchsLasblaster10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("exarchs_lasblaster__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "exarchs_lasblaster__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("exarchs_lasblaster"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("excruciator_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "excruciator_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -8518,6 +10646,22 @@ export const ExcruciatorMaul10eFactionPackImperialAgents10eV13WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const Executioner10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("executioner__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "executioner__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("executioner"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ExecutionerGreatblade10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("executioner_greatblade__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "executioner_greatblade__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -8546,6 +10690,38 @@ export const ExecutionerPistol10eFactionPackImperialAgents10eV13WeaponProfile: W
   strength: "4",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ExecutionerPlasmaCannonStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("executioner_plasma_cannon_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "executioner_plasma_cannon_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("executioner_plasma_cannon_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ExecutionerPlasmaCannonSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("executioner_plasma_cannon_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "executioner_plasma_cannon_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("executioner_plasma_cannon_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -8662,6 +10838,38 @@ export const ExoarmourGrenadeLauncher10eFactionPackLeaguesOfVotann10eV13WeaponPr
   superseded_date: null,
 };
 
+export const ExorcistConflagrationRockets10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("exorcist_conflagration_rockets__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "exorcist_conflagration_rockets__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("exorcist_conflagration_rockets"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "3D6",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ExorcistMissileLauncher10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("exorcist_missile_launcher__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "exorcist_missile_launcher__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("exorcist_missile_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "D6+2",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ExperimentalPulseSubmunitionsRifleEmp10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("experimental_pulse_submunitions_rifle_emp__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "experimental_pulse_submunitions_rifle_emp__10e__faction_pack_tau_empire_10e_v1_2",
@@ -8690,6 +10898,38 @@ export const ExperimentalPulseSubmunitionsRifleIonic10eFactionPackTauEmpire10eV1
   strength: "6",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ExterminatorAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("exterminator_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "exterminator_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("exterminator_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const EyeOfWrath10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("eye_of_wrath__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "eye_of_wrath__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("eye_of_wrath"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "3",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -8822,6 +11062,22 @@ export const FerrumiteCannon10eFactionPackAdeptusMechanicus10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const Fidelis10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("fidelis__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "fidelis__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("fidelis"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "3",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Fidelity10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("fidelity__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "fidelity__10e__faction_pack_tau_empire_10e_v1_2",
@@ -8834,6 +11090,22 @@ export const Fidelity10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileCo
   strength: "5",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const FireAxe10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("fire_axe__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "fire_axe__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("fire_axe"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -4,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -8886,6 +11158,22 @@ export const FirebladePulseRifle10eFactionPackTauEmpire10eV12WeaponProfile: Weap
   superseded_date: null,
 };
 
+export const Firepike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("firepike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "firepike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("firepike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const FiresOfTheAbyssFocusedWitchfire10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("fires_of_the_abyss_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
   weapon_profile_slug: "fires_of_the_abyss_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1",
@@ -8913,6 +11201,22 @@ export const FiresOfTheAbyssWitchfire10eFactionPackThousandSons10eV11WeaponProfi
   skill: "N/A",
   strength: "6",
   armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const FirestormScatterLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("firestorm_scatter_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "firestorm_scatter_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("firestorm_scatter_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "16",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -8946,6 +11250,54 @@ export const FlailOfCorruption10eFactionPackDeathGuard10eV11WeaponProfile: Weapo
   strength: "5",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Flamer10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("flamer__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "flamer__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Flamer10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("flamer__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "flamer__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Flamer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("flamer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "flamer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -9494,6 +11846,22 @@ export const ForceStave10eFactionPackThousandSons10eV11WeaponProfile: WeaponProf
   superseded_date: null,
 };
 
+export const ForceWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("force_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "force_weapon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("force_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ForceWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("force_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "force_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -9766,6 +12134,22 @@ export const FragCannon10eFactionPackImperialAgents10eV13WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const FragLance10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("frag_lance__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "frag_lance__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("frag_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Fragdrill10eFactionPackGenestealerCults10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("fragdrill__10e__faction_pack_genestealer_cults_10e_v1_0"),
   weapon_profile_slug: "fragdrill__10e__faction_pack_genestealer_cults_10e_v1_0",
@@ -9862,6 +12246,22 @@ export const FreedomsHandSweep10eFactionPackImperialKnights10eV12WeaponProfile: 
   superseded_date: null,
 };
 
+export const FuryOfTheTempest10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("fury_of_the_tempest__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "fury_of_the_tempest__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("fury_of_the_tempest"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "4",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const FusionBlaster10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("fusion_blaster__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "fusion_blaster__10e__faction_pack_tau_empire_10e_v1_2",
@@ -9936,6 +12336,38 @@ export const FusionEradicator10eFactionPackTauEmpire10eV12WeaponProfile: WeaponP
   attacks: "5",
   skill: "4+",
   strength: "10",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const FusionGun10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("fusion_gun__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "fusion_gun__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("fusion_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -4,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const FusionPistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("fusion_pistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "fusion_pistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("fusion_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
   armor_penetration: -4,
   damage: "D6",
   effective_date: null,
@@ -10096,6 +12528,22 @@ export const GauntletOfFire10eFactionPackNecrons10eV13WeaponProfile: WeaponProfi
   attacks: "D6",
   skill: "N/A",
   strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GauntsChainsword10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("gaunts_chainsword__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "gaunts_chainsword__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("gaunts_chainsword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "3",
   armor_penetration: -1,
   damage: "1",
   effective_date: null,
@@ -10390,6 +12838,54 @@ export const GheiststrikeMissileLauncher10eFactionPackChaosKnights10eV11WeaponPr
   superseded_date: null,
 };
 
+export const Ghostaxe10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ghostaxe__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ghostaxe__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ghostaxe"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GhostglaiveStrike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ghostglaive_strike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ghostglaive_strike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ghostglaive_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GhostglaiveSweep10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ghostglaive_sweep__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ghostglaive_sweep__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ghostglaive_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "8",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const GhostkeelFists10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("ghostkeel_fists__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "ghostkeel_fists__10e__faction_pack_tau_empire_10e_v1_2",
@@ -10401,6 +12897,54 @@ export const GhostkeelFists10eFactionPackTauEmpire10eV12WeaponProfile: WeaponPro
   skill: "5+",
   strength: "6",
   armor_penetration: 0,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GhostspearStrike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ghostspear_strike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ghostspear_strike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ghostspear_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GhostspearSweep10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ghostspear_sweep__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ghostspear_sweep__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ghostspear_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "12",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Ghostswords10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ghostswords__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ghostswords__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ghostswords"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: -2,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -10550,6 +13094,22 @@ export const Gnosis10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const GoadLance10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("goad_lance__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "goad_lance__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("goad_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const GodhammerLascannon10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("godhammer_lascannon__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "godhammer_lascannon__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -10674,6 +13234,22 @@ export const GorestormCannon10eFactionPackWorldEaters10eV11WeaponProfile: Weapon
   strength: "10",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GorgonMortar10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("gorgon_mortar__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "gorgon_mortar__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("gorgon_mortar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -11222,6 +13798,38 @@ export const GreaterPlagueProbe10eFactionPackChaosSpaceMarines10eV16WeaponProfil
   superseded_date: null,
 };
 
+export const GrenadeLauncherFrag10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("grenade_launcher_frag__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "grenade_launcher_frag__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("grenade_launcher_frag"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "24\"",
+  attacks: "D3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GrenadeLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("grenade_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "grenade_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("grenade_launcher_frag"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const GrenadeLauncherFrag10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("grenade_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "grenade_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -11270,6 +13878,38 @@ export const GrenadeLauncherFrag10eFactionPackGenestealerCults10eV10WeaponProfil
   superseded_date: null,
 };
 
+export const GrenadeLauncherKrak10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("grenade_launcher_krak__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "grenade_launcher_krak__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("grenade_launcher_krak"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GrenadeLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("grenade_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "grenade_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("grenade_launcher_krak"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const GrenadeLauncherKrak10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("grenade_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "grenade_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -11314,6 +13954,38 @@ export const GrenadeLauncherKrak10eFactionPackGenestealerCults10eV10WeaponProfil
   strength: "9",
   armor_penetration: -2,
   damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GrenadierGauntlet10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("grenadier_gauntlet__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "grenadier_gauntlet__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("grenadier_gauntlet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const GriffonHeavyMortar10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("griffon_heavy_mortar__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "griffon_heavy_mortar__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("griffon_heavy_mortar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -11686,6 +14358,54 @@ export const HaemonculusToolsAndScissorhands10eFactionPackDrukhari10eV11WeaponPr
   superseded_date: null,
 };
 
+export const HallowedChainsword10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hallowed_chainsword__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "hallowed_chainsword__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("hallowed_chainsword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HallowedMace10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hallowed_mace__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "hallowed_mace__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("hallowed_mace"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HandFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hand_flamer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hand_flamer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hand_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HandFlamer10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("hand_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "hand_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -11729,6 +14449,38 @@ export const HandFlamer10eFactionPackImperialAgents10eV13WeaponProfile: WeaponPr
   skill: "N/A",
   strength: "3",
   armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HarlequinsBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("harlequins_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "harlequins_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("harlequins_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HarlequinsSpecialWeapon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("harlequins_special_weapon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "harlequins_special_weapon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("harlequins_special_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -11958,6 +14710,22 @@ export const HavocReaperChaincannon10eFactionPackChaosSpaceMarines10eV16WeaponPr
   superseded_date: null,
 };
 
+export const HawksTalon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hawks_talon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "hawks_talon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("hawks_talon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HaywireBlaster10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("haywire_blaster__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "haywire_blaster__10e__faction_pack_drukhari_10e_v1_1",
@@ -12016,6 +14784,22 @@ export const HeatCannon10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileCo
   attacks: "2",
   skill: "4+",
   strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HeatLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heat_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "heat_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("heat_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "14",
   armor_penetration: -4,
   damage: "D6",
   effective_date: null,
@@ -12198,12 +14982,44 @@ export const HeavyBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile: Weap
   superseded_date: null,
 };
 
+export const HeavyBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "heavy_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("heavy_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HeavyBolter10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("heavy_bolter__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "heavy_bolter__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
   weapon_id: weaponId("heavy_bolter"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  range: "36\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HeavyBolter10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_bolter__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "heavy_bolter__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("heavy_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
   range: "36\"",
   attacks: "3",
   skill: "4+",
@@ -12310,6 +15126,22 @@ export const HeavyBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const HeavyDScythe10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_d_scythe__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "heavy_d_scythe__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("heavy_d_scythe"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HeavyDarkflamer10eFactionPackChaosKnights10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("heavy_darkflamer__10e__faction_pack_chaos_knights_10e_v1_1"),
   weapon_profile_slug: "heavy_darkflamer__10e__faction_pack_chaos_knights_10e_v1_1",
@@ -12342,12 +15174,44 @@ export const HeavyDeathRay10eFactionPackNecrons10eV13WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const HeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HeavyFlamer10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("heavy_flamer__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "heavy_flamer__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
   weapon_id: weaponId("heavy_flamer"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HeavyFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_flamer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "heavy_flamer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
   range: "12\"",
   attacks: "D6",
   skill: "N/A",
@@ -12530,6 +15394,22 @@ export const HeavyIncinerator10eFactionPackGreyKnights10eV10WeaponProfile: Weapo
   strength: "6",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HeavyLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_lascannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "heavy_lascannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("heavy_lascannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "5+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "D6+1",
   effective_date: null,
   superseded_date: null,
 };
@@ -12726,6 +15606,22 @@ export const HeavyMissileLauncherKrak10eFactionPackWorldEaters10eV11WeaponProfil
   superseded_date: null,
 };
 
+export const HeavyMortar10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_mortar__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "heavy_mortar__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("heavy_mortar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "5+",
+  strength: "8",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HeavyMortar10eFactionPackGenestealerCults10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("heavy_mortar__10e__faction_pack_genestealer_cults_10e_v1_0"),
   weapon_profile_slug: "heavy_mortar__10e__faction_pack_genestealer_cults_10e_v1_0",
@@ -12834,6 +15730,22 @@ export const HeavyPsycannon10eFactionPackGreyKnights10eV10WeaponProfile: WeaponP
   strength: "10",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HeavyQuadLauncher10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_quad_launcher__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "heavy_quad_launcher__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("heavy_quad_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2D6",
+  skill: "5+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -12982,6 +15894,22 @@ export const HeavySlugger10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProf
   superseded_date: null,
 };
 
+export const HeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("heavy_stubber"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HeavyStubber10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("heavy_stubber__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "heavy_stubber__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -13110,6 +16038,22 @@ export const HeavyWarpflamer10eFactionPackThousandSons10eV11WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const HeavyWraithcannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("heavy_wraithcannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "heavy_wraithcannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("heavy_wraithcannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "D3",
+  skill: "3+",
+  strength: "20",
+  armor_penetration: -4,
+  damage: "2D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HeirloomPistol10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("heirloom_pistol__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "heirloom_pistol__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -13122,6 +16066,22 @@ export const HeirloomPistol10eFactionPackImperialAgents10eV13WeaponProfile: Weap
   strength: "4",
   armor_penetration: -1,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HekatariiBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hekatarii_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "hekatarii_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("hekatarii_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -13846,6 +16806,22 @@ export const Hellglaive10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileC
   superseded_date: null,
 };
 
+export const HellhammerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hellhammer_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hellhammer_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hellhammer_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "30\"",
+  attacks: "4D6",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HellmawFlameCannons10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("hellmaw_flame_cannons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "hellmaw_flame_cannons__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -13894,6 +16870,22 @@ export const HellstormBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile: 
   superseded_date: null,
 };
 
+export const HellstrikeMissile10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hellstrike_missile__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hellstrike_missile__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hellstrike_missile"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HellstrikeMissileBattery10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("hellstrike_missile_battery__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "hellstrike_missile_battery__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -13922,6 +16914,38 @@ export const HellstrikeMissileBattery10eFactionPackGreyKnights10eV10WeaponProfil
   strength: "8",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HellstrikeMissileRack10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hellstrike_missile_rack__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hellstrike_missile_rack__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hellstrike_missile_rack"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HellstrikeMissiles10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hellstrike_missiles__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hellstrike_missiles__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hellstrike_missiles"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -14166,6 +17190,38 @@ export const HighYieldMissilePods10eFactionPackTauEmpire10eV12WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const HolyEviscerator10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("holy_eviscerator__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "holy_eviscerator__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("holy_eviscerator"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HolyFire10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("holy_fire__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "holy_fire__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("holy_fire"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HolyFire10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("holy_fire__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "holy_fire__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -14178,6 +17234,38 @@ export const HolyFire10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProf
   strength: "6",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HolyPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("holy_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "holy_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("holy_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HolyPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("holy_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "holy_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("holy_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -14230,6 +17318,118 @@ export const HormagauntTalons10eFactionPackTyranids10eV14WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const HornetPulseLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hornet_pulse_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "hornet_pulse_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("hornet_pulse_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HotShotLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hot_shot_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hot_shot_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hot_shot_lascarbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HotShotLasgun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hot_shot_lasgun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hot_shot_lasgun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hot_shot_lasgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HotShotLaspistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hot_shot_laspistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hot_shot_laspistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hot_shot_laspistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HotShotLongLas10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hot_shot_long_las__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hot_shot_long_las__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hot_shot_long_las"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HotShotMarksmanRifle10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hot_shot_marksman_rifle__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hot_shot_marksman_rifle__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hot_shot_marksman_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HotShotVolleyGun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hot_shot_volley_gun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hot_shot_volley_gun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hot_shot_volley_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "30\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HouseholdPistol10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("household_pistol__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "household_pistol__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -14241,6 +17441,22 @@ export const HouseholdPistol10eFactionPackImperialAgents10eV13WeaponProfile: Wea
   skill: "3+",
   strength: "5",
   armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HugeKnife10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("huge_knife__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "huge_knife__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("huge_knife"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "8",
+  armor_penetration: -1,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -14278,6 +17494,22 @@ export const HugeTusksSweep10eFactionPackOrks10eV13WeaponProfile: WeaponProfileC
   superseded_date: null,
 };
 
+export const HunterKillerMissile10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hunter_killer_missile__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "hunter_killer_missile__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("hunter_killer_missile"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "48\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HunterKillerMissile10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("hunter_killer_missile__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "hunter_killer_missile__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -14287,6 +17519,22 @@ export const HunterKillerMissile10eFactionPackAdeptusCustodes10eV10WeaponProfile
   range: "48\"",
   attacks: "1",
   skill: "2+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HunterKillerMissile10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hunter_killer_missile__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hunter_killer_missile__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hunter_killer_missile"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
   strength: "14",
   armor_penetration: -3,
   damage: "D6",
@@ -14358,6 +17606,54 @@ export const HuntingJavelin10eFactionPackTauEmpire10eV12WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const HuntingLance10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hunting_lance__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hunting_lance__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hunting_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HuntingLanceFragTip10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hunting_lance_frag_tip__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hunting_lance_frag_tip__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hunting_lance_frag_tip"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HuntingLanceMeltaTip10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hunting_lance_melta_tip__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hunting_lance_melta_tip__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hunting_lance_melta_tip"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const HurricaneBolter10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("hurricane_bolter__10e__faction_pack_grey_knights_10e_v1_0"),
   weapon_profile_slug: "hurricane_bolter__10e__faction_pack_grey_knights_10e_v1_0",
@@ -14390,6 +17686,22 @@ export const HurricaneBolter10eFactionPackImperialAgents10eV13WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const Huskblade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("huskblade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "huskblade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("huskblade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Huskblade10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("huskblade__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "huskblade__10e__faction_pack_drukhari_10e_v1_1",
@@ -14418,6 +17730,38 @@ export const HybridFirearm10eFactionPackGenestealerCults10eV10WeaponProfile: Wea
   strength: "3",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HydraAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hydra_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hydra_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hydra_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const HydraQuadAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("hydra_quad_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "hydra_quad_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("hydra_quad_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -14642,6 +17986,22 @@ export const IliastusAcceleratorCulverin10eFactionPackAdeptusCustodes10eV10Weapo
   strength: "9",
   armor_penetration: -1,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ImmolationFlamers10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("immolation_flamers__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "immolation_flamers__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("immolation_flamers"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "18\"",
+  attacks: "2D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -15062,6 +18422,22 @@ export const InfernoBoltgun10eFactionPackThousandSons10eV11WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const InfernoCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("inferno_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "inferno_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("inferno_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "2D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const InfernoCombiBolter10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("inferno_combi_bolter__10e__faction_pack_thousand_sons_10e_v1_1"),
   weapon_profile_slug: "inferno_combi_bolter__10e__faction_pack_thousand_sons_10e_v1_1",
@@ -15094,6 +18470,22 @@ export const InfernoCombiWeapon10eFactionPackThousandSons10eV11WeaponProfile: We
   superseded_date: null,
 };
 
+export const InfernoGun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("inferno_gun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "inferno_gun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("inferno_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "D6+3",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const InfernoHeavyBolter10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("inferno_heavy_bolter__10e__faction_pack_thousand_sons_10e_v1_1"),
   weapon_profile_slug: "inferno_heavy_bolter__10e__faction_pack_thousand_sons_10e_v1_1",
@@ -15106,6 +18498,38 @@ export const InfernoHeavyBolter10eFactionPackThousandSons10eV11WeaponProfile: We
   strength: "5",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const InfernoLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("inferno_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "inferno_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("inferno_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const InfernoPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("inferno_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "inferno_pistol__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("inferno_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "6\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -4,
+  damage: "D3",
   effective_date: null,
   superseded_date: null,
 };
@@ -15526,6 +18950,22 @@ export const IronstriderFeet10eFactionPackAdeptusMechanicus10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const Isirmathil10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("isirmathil__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "isirmathil__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("isirmathil"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "8",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const JaggedClawsAndTuskedMaw10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("jagged_claws_and_tusked_maw__10e__faction_pack_chaos_daemons_10e_v1_2"),
   weapon_profile_slug: "jagged_claws_and_tusked_maw__10e__faction_pack_chaos_daemons_10e_v1_2",
@@ -15538,6 +18978,22 @@ export const JaggedClawsAndTuskedMaw10eFactionPackChaosDaemons10eV12WeaponProfil
   strength: "12",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const JestersBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("jesters_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "jesters_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("jesters_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -15782,6 +19238,22 @@ export const KataphronPlasmaCulverinSupercharge10eFactionPackAdeptusMechanicus10
   superseded_date: null,
 };
 
+export const KhaVir10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("kha_vir__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "kha_vir__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("kha_vir"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const KharybdisStormLauncherFrag10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("kharybdis_storm_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "kharybdis_storm_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -15942,6 +19414,22 @@ export const KineticDestroyer10eFactionPackAdeptusCustodes10eV10WeaponProfile: W
   superseded_date: null,
 };
 
+export const Klaive10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("klaive__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "klaive__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("klaive"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Klaive10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("klaive__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "klaive__10e__faction_pack_drukhari_10e_v1_1",
@@ -16070,6 +19558,22 @@ export const KombiWeapon10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConf
   superseded_date: null,
 };
 
+export const KonstantinsHooves10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("konstantins_hooves__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "konstantins_hooves__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("konstantins_hooves"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const KoptaRokkits10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("kopta_rokkits__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "kopta_rokkits__10e__faction_pack_orks_10e_v1_3",
@@ -16082,6 +19586,22 @@ export const KoptaRokkits10eFactionPackOrks10eV13WeaponProfile: WeaponProfileCon
   strength: "9",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const KriegHeavyFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("krieg_heavy_flamer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "krieg_heavy_flamer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("krieg_heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -16566,6 +20086,54 @@ export const LampreyBite10eFactionPackThousandSons10eV11WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const LanceOfIlluminationStrike10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lance_of_illumination_strike__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "lance_of_illumination_strike__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("lance_of_illumination_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LanceOfIlluminationSweep10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lance_of_illumination_sweep__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "lance_of_illumination_sweep__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("lance_of_illumination_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "10",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LandingRamp10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("landing_ramp__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "landing_ramp__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("landing_ramp"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Lantern10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("lantern__10e__faction_pack_death_guard_10e_v1_1"),
   weapon_profile_slug: "lantern__10e__faction_pack_death_guard_10e_v1_1",
@@ -16578,6 +20146,22 @@ export const Lantern10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProfileCo
   strength: "10",
   armor_penetration: -3,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LarkinsLongLas10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("larkins_long_las__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "larkins_long_las__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("larkins_long_las"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "4",
   effective_date: null,
   superseded_date: null,
 };
@@ -16656,6 +20240,38 @@ export const LasTalon10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfile
   attacks: "2",
   skill: "3+",
   strength: "10",
+  armor_penetration: -3,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Lasblaster10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lasblaster__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "lasblaster__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("lasblaster"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Lascannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lascannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "lascannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("lascannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "12",
   armor_penetration: -3,
   damage: "D6+1",
   effective_date: null,
@@ -16774,6 +20390,86 @@ export const Lascannon10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const Lascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lascarbine__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "lascarbine__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("lascarbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LaserDestroyer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("laser_destroyer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "laser_destroyer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("laser_destroyer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "2",
+  skill: "5+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LaserLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("laser_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "laser_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("laser_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Lasgun10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lasgun__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "lasgun__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("lasgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Lasgun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lasgun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "lasgun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("lasgun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Lasgun10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("lasgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "lasgun__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -16798,6 +20494,22 @@ export const Lasgun10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfil
   rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
   range: "24\"",
   attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LasgunArray10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lasgun_array__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "lasgun_array__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("lasgun_array"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "6",
   skill: "4+",
   strength: "3",
   armor_penetration: 0,
@@ -17078,6 +20790,38 @@ export const LashwhipPods10eFactionPackTyranids10eV14WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const Laspistol10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("laspistol__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "laspistol__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("laspistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Laspistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("laspistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "laspistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("laspistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Laspistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("laspistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "laspistol__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -17206,6 +20950,22 @@ export const LelithsBlades10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const LemanRussBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("leman_russ_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "leman_russ_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("leman_russ_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const LiberatorAutostubs10eFactionPackGenestealerCults10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("liberator_autostubs__10e__faction_pack_genestealer_cults_10e_v1_0"),
   weapon_profile_slug: "liberator_autostubs__10e__faction_pack_genestealer_cults_10e_v1_0",
@@ -17314,6 +21074,22 @@ export const LightningCannon10eFactionPackImperialKnights10eV12WeaponProfile: We
   strength: "9",
   armor_penetration: 0,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LightningHellstrikeRack10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lightning_hellstrike_rack__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "lightning_hellstrike_rack__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("lightning_hellstrike_rack"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -17494,6 +21270,54 @@ export const LongBarrelledBurstCannonArray10eFactionPackTauEmpire10eV12WeaponPro
   superseded_date: null,
 };
 
+export const LongLas10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("long_las__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "long_las__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("long_las"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "36\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LongLas10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("long_las__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "long_las__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("long_las"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LongRifle10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("long_rifle__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "long_rifle__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("long_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const LongVigilMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("long_vigil_melee_weapon__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "long_vigil_melee_weapon__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -17574,6 +21398,118 @@ export const LordsBlade10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileCo
   superseded_date: null,
 };
 
+export const LynxPulsar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("lynx_pulsar__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "lynx_pulsar__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("lynx_pulsar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "16",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MaceOfCastigation10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mace_of_castigation__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "mace_of_castigation__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("mace_of_castigation"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MaceOfSaintPraxedes10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mace_of_saint_praxedes__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "mace_of_saint_praxedes__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("mace_of_saint_praxedes"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MaceOfTheRighteous10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mace_of_the_righteous__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "mace_of_the_righteous__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("mace_of_the_righteous"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MachariusTwinBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("macharius_twin_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "macharius_twin_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("macharius_twin_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MachariusTwinVanquisherCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("macharius_twin_vanquisher_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "macharius_twin_vanquisher_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("macharius_twin_vanquisher_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "18",
+  armor_penetration: -4,
+  damage: "D6+6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MachariusVulcanMegaBolter10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("macharius_vulcan_mega_bolter__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "macharius_vulcan_mega_bolter__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("macharius_vulcan_mega_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "16",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MacroScalpel10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("macro_scalpel__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "macro_scalpel__10e__faction_pack_drukhari_10e_v1_1",
@@ -17602,6 +21538,22 @@ export const Macrostubber10eFactionPackAdeptusMechanicus10eV11WeaponProfile: Wea
   strength: "4",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MagmaCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("magma_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "magma_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("magma_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -17830,6 +21782,38 @@ export const MakarisStabba10eFactionPackOrks10eV13WeaponProfile: WeaponProfileCo
   superseded_date: null,
 };
 
+export const MalcadorBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("malcador_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "malcador_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("malcador_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MalcadorTwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("malcador_twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "malcador_twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("malcador_twin_lascannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MaleficCurse10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("malefic_curse__10e__faction_pack_thousand_sons_10e_v1_1"),
   weapon_profile_slug: "malefic_curse__10e__faction_pack_thousand_sons_10e_v1_1",
@@ -17878,6 +21862,22 @@ export const MalleusArgyrum10eFactionPackGreyKnights10eV10WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const MalleusRocketLauncher10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("malleus_rocket_launcher__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "malleus_rocket_launcher__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("malleus_rocket_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+6",
+  skill: "5+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ManipulatorArms10eFactionPackLeaguesOfVotann10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("manipulator_arms__10e__faction_pack_leagues_of_votann_10e_v1_3"),
   weapon_profile_slug: "manipulator_arms__10e__faction_pack_leagues_of_votann_10e_v1_3",
@@ -17922,6 +21922,22 @@ export const ManreaperSweep10eFactionPackDeathGuard10eV11WeaponProfile: WeaponPr
   strength: "4",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MarauderNoseAutocannons10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("marauder_nose_autocannons__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "marauder_nose_autocannons__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("marauder_nose_autocannons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -18182,6 +22198,22 @@ export const MatrAutocannon10eFactionPackLeaguesOfVotann10eV13WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const Maugetar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("maugetar__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "maugetar__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("maugetar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "6",
+  skill: "2+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MaulerChainblade10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("mauler_chainblade__10e__faction_pack_world_eaters_10e_v1_1"),
   weapon_profile_slug: "mauler_chainblade__10e__faction_pack_world_eaters_10e_v1_1",
@@ -18342,6 +22374,54 @@ export const MechanicusPistol10eFactionPackAdeptusMechanicus10eV11WeaponProfile:
   superseded_date: null,
 };
 
+export const MechanicusPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mechanicus_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "mechanicus_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("mechanicus_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MedicalScalpels10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("medical_scalpels__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "medical_scalpels__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("medical_scalpels"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "1",
+  skill: "5+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MedusaSiegeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("medusa_siege_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "medusa_siege_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("medusa_siege_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MegaChoppaStrike10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("mega_choppa_strike__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "mega_choppa_strike__10e__faction_pack_orks_10e_v1_3",
@@ -18422,6 +22502,70 @@ export const MeltaArray10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const MeltaCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("melta_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "melta_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("melta_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "D3",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MeltaCarbine10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("melta_carbine__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "melta_carbine__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("melta_carbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "10\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MeltaCutterDrill10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("melta_cutter_drill__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "melta_cutter_drill__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("melta_cutter_drill"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MeltaMissileArray10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("melta_missile_array__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "melta_missile_array__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("melta_missile_array"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "2",
+  skill: "2+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MeltaRifle10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("melta_rifle__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "melta_rifle__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -18454,12 +22598,60 @@ export const MeltaTendril10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const Meltagun10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("meltagun__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "meltagun__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("meltagun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Meltagun10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("meltagun__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "meltagun__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("meltagun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Meltagun10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("meltagun__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "meltagun__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
   weapon_id: weaponId("meltagun"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Meltagun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("meltagun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "meltagun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("meltagun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
   range: "12\"",
   attacks: "1",
   skill: "4+",
@@ -18598,6 +22790,22 @@ export const MiasmicGouts10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProf
   superseded_date: null,
 };
 
+export const MilitarumMultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("militarum_multi_laser__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "militarum_multi_laser__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("militarum_multi_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MindAssault10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("mind_assault__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "mind_assault__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -18610,6 +22818,22 @@ export const MindAssault10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   strength: "5",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MindWar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mind_war__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "mind_war__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("mind_war"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -18646,6 +22870,22 @@ export const MiningLaser10eFactionPackGenestealerCults10eV10WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const MinistorumFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ministorum_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "ministorum_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("ministorum_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MinistorumFlamer10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("ministorum_flamer__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "ministorum_flamer__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -18656,6 +22896,22 @@ export const MinistorumFlamer10eFactionPackImperialAgents10eV13WeaponProfile: We
   attacks: "D6",
   skill: "N/A",
   strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MinistorumHandFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ministorum_hand_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "ministorum_hand_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("ministorum_hand_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "4",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -18678,6 +22934,22 @@ export const MinistorumHandFlamer10eFactionPackImperialAgents10eV13WeaponProfile
   superseded_date: null,
 };
 
+export const MinistorumHeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ministorum_heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "ministorum_heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("ministorum_heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MinistorumHeavyFlamer10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("ministorum_heavy_flamer__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "ministorum_heavy_flamer__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -18694,6 +22966,38 @@ export const MinistorumHeavyFlamer10eFactionPackImperialAgents10eV13WeaponProfil
   superseded_date: null,
 };
 
+export const MinotaurTwinEarthshakerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("minotaur_twin_earthshaker_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "minotaur_twin_earthshaker_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("minotaur_twin_earthshaker_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "240\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Mirrorswords10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mirrorswords__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "mirrorswords__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("mirrorswords"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Misericordia10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("misericordia__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "misericordia__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -18705,6 +23009,22 @@ export const Misericordia10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weapo
   skill: "2+",
   strength: "5",
   armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MissileLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("missile_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "missile_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("missile_launcher_frag"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -18790,6 +23110,22 @@ export const MissileLauncherFrag10eFactionPackWorldEaters10eV11WeaponProfile: We
   superseded_date: null,
 };
 
+export const MissileLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("missile_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "missile_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("missile_launcher_krak"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -18870,6 +23206,38 @@ export const MissileLauncherKrak10eFactionPackWorldEaters10eV11WeaponProfile: We
   superseded_date: null,
 };
 
+export const MissileLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("missile_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "missile_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("missile_launcher_starshot"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MissileLauncherSunburst10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("missile_launcher_sunburst__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "missile_launcher_sunburst__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("missile_launcher_sunburst"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const MissilePod10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("missile_pod__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "missile_pod__10e__faction_pack_tau_empire_10e_v1_2",
@@ -18886,6 +23254,22 @@ export const MissilePod10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfile
   superseded_date: null,
 };
 
+export const Miststave10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("miststave__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "miststave__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("miststave"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Mk1AssaultWeapon10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("mk_1_assault_weapon__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "mk_1_assault_weapon__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -18896,6 +23280,22 @@ export const Mk1AssaultWeapon10eFactionPackImperialAgents10eV13WeaponProfile: We
   attacks: "4",
   skill: "3+",
   strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MkollsStraightSilverKnife10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mkolls_straight_silver_knife__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "mkolls_straight_silver_knife__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("mkolls_straight_silver_knife"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "3",
   armor_penetration: -1,
   damage: "1",
   effective_date: null,
@@ -19046,6 +23446,22 @@ export const MorksTeeth10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfi
   superseded_date: null,
 };
 
+export const Mortar10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mortar__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "mortar__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("mortar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "5+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Mortar10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("mortar__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "mortar__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -19056,6 +23472,38 @@ export const Mortar10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponPro
   attacks: "D6",
   skill: "5+",
   strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MortifierFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("mortifier_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "mortifier_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("mortifier_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("multi_laser__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "multi_laser__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("multi_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "6",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -19074,6 +23522,22 @@ export const MultiLaser10eFactionPackImperialAgents10eV13WeaponProfile: WeaponPr
   strength: "6",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MultiMelta10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("multi_melta__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "multi_melta__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("multi_melta"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "18\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -19103,6 +23567,22 @@ export const MultiMelta10eFactionPackAdeptusMechanicus10eV11WeaponProfile: Weapo
   range: "18\"",
   attacks: "2",
   skill: "6+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MultiMelta10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("multi_melta__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "multi_melta__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("multi_melta"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "2",
+  skill: "4+",
   strength: "9",
   armor_penetration: -4,
   damage: "D6",
@@ -19202,6 +23682,38 @@ export const MultiMelta10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfi
   strength: "9",
   armor_penetration: -4,
   damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MultipleRocketLauncher10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("multiple_rocket_launcher__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "multiple_rocket_launcher__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("multiple_rocket_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "5+",
+  strength: "2",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MultipleRocketPod10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("multiple_rocket_pod__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "multiple_rocket_pod__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("multiple_rocket_pod"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -19494,6 +24006,38 @@ export const NeuralShredder10eFactionPackImperialAgents10eV13WeaponProfile: Weap
   superseded_date: null,
 };
 
+export const NeuralWhips10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("neural_whips__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "neural_whips__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("neural_whips"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const NeuroDisruptor10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("neuro_disruptor__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "neuro_disruptor__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("neuro_disruptor"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const NeurotyrantClawsAndLashes10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("neurotyrant_claws_and_lashes__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "neurotyrant_claws_and_lashes__10e__faction_pack_tyranids_10e_v1_4",
@@ -19633,6 +24177,38 @@ export const NostramanChainglaive10eFactionPackChaosSpaceMarines10eV16WeaponProf
   skill: "3+",
   strength: "8",
   armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const NovitiateMeleeWeapons10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("novitiate_melee_weapons__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "novitiate_melee_weapons__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("novitiate_melee_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const NullMace10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("null_mace__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "null_mace__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("null_mace"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -19782,6 +24358,38 @@ export const OmbiBolter10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const OmegaPatternPlasmaBlastgunStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("omega_pattern_plasma_blastgun_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "omega_pattern_plasma_blastgun_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("omega_pattern_plasma_blastgun_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "60\"",
+  attacks: "2D6",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const OmegaPatternPlasmaBlastgunSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("omega_pattern_plasma_blastgun_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "omega_pattern_plasma_blastgun_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("omega_pattern_plasma_blastgun_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "60\"",
+  attacks: "2D6",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const OmnissianAxe10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("omnissian_axe__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "omnissian_axe__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -19842,6 +24450,22 @@ export const OphydianHyperphaseWeapons10eFactionPackNecrons10eV13WeaponProfile: 
   strength: "4",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const OppressorCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("oppressor_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "oppressor_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("oppressor_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -19958,6 +24582,22 @@ export const PairedCombatBlades10eFactionPackImperialAgents10eV13WeaponProfile: 
   superseded_date: null,
 };
 
+export const PairedHekatariiBlades10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paired_hekatarii_blades__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "paired_hekatarii_blades__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("paired_hekatarii_blades"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PairedManglers10eFactionPackWorldEaters10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("paired_manglers__10e__faction_pack_world_eaters_10e_v1_1"),
   weapon_profile_slug: "paired_manglers__10e__faction_pack_world_eaters_10e_v1_1",
@@ -19990,6 +24630,22 @@ export const PairedMonstrousWeapons10eFactionPackDrukhari10eV11WeaponProfile: We
   superseded_date: null,
 };
 
+export const PalatineBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("palatine_blade__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "palatine_blade__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("palatine_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PandaemonicDelusion10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("pandaemonic_delusion__10e__faction_pack_thousand_sons_10e_v1_1"),
   weapon_profile_slug: "pandaemonic_delusion__10e__faction_pack_thousand_sons_10e_v1_1",
@@ -20002,6 +24658,118 @@ export const PandaemonicDelusion10eFactionPackThousandSons10eV11WeaponProfile: W
   strength: "5",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonGrenadeLaunchers10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_grenade_launchers__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "paragon_grenade_launchers__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("paragon_grenade_launchers"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonMissileLauncherPrioris10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_missile_launcher_prioris__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "paragon_missile_launcher_prioris__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("paragon_missile_launcher_prioris"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "2",
+  skill: "2+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonMissileLauncherSanctorum10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_missile_launcher_sanctorum__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "paragon_missile_launcher_sanctorum__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("paragon_missile_launcher_sanctorum"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "2D6",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonSabre10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_sabre__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "paragon_sabre__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("paragon_sabre"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonStormBolters10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_storm_bolters__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "paragon_storm_bolters__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("paragon_storm_bolters"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonWarBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_war_blade__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "paragon_war_blade__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("paragon_war_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ParagonWarMace10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("paragon_war_mace__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "paragon_war_mace__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("paragon_war_mace"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -1,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -20150,6 +24918,86 @@ export const PavaneOfSlaaneshWitchfire10eFactionPackEmperorsChildren10eV13Weapon
   superseded_date: null,
 };
 
+export const Payback10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("payback__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "payback__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("payback"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PenitentBuzzBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("penitent_buzz_blade__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "penitent_buzz_blade__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("penitent_buzz_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PenitentEviscerator10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("penitent_eviscerator__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "penitent_eviscerator__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("penitent_eviscerator"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PenitentFlail10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("penitent_flail__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "penitent_flail__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("penitent_flail"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "8",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PenitentFlamers10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("penitent_flamers__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "penitent_flamers__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("penitent_flamers"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "2D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PhantasmagoriaFocusedWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("phantasmagoria_focused_witchfire__10e__faction_pack_chaos_daemons_10e_v1_2"),
   weapon_profile_slug: "phantasmagoria_focused_witchfire__10e__faction_pack_chaos_daemons_10e_v1_2",
@@ -20210,6 +25058,54 @@ export const PhantasmagoriaWitchfire10eFactionPackEmperorsChildren10eV13WeaponPr
   strength: "6",
   armor_penetration: -2,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PhantomFeet10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("phantom_feet__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "phantom_feet__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("phantom_feet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PhantomPulsar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("phantom_pulsar__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "phantom_pulsar__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("phantom_pulsar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "120\"",
+  attacks: "8",
+  skill: "3+",
+  strength: "18",
+  armor_penetration: -4,
+  damage: "6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PhantomStarcannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("phantom_starcannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "phantom_starcannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("phantom_starcannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -20310,6 +25206,22 @@ export const PhlegmBombardment10eFactionPackChaosDaemons10eV12WeaponProfile: Wea
   superseded_date: null,
 };
 
+export const PhoenixMissileArray10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("phoenix_missile_array__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "phoenix_missile_array__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("phoenix_missile_array"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PhoenixPowerSpear10eFactionPackEmperorsChildren10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("phoenix_power_spear__10e__faction_pack_emperors_children_10e_v1_3"),
   weapon_profile_slug: "phoenix_power_spear__10e__faction_pack_emperors_children_10e_v1_3",
@@ -20322,6 +25234,22 @@ export const PhoenixPowerSpear10eFactionPackEmperorsChildren10eV13WeaponProfile:
   strength: "7",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PhoenixPulseLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("phoenix_pulse_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "phoenix_pulse_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("phoenix_pulse_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "4",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -20464,6 +25392,22 @@ export const PinkClaws10eFactionPackThousandSons10eV11WeaponProfile: WeaponProfi
   attacks: "1",
   skill: "4+",
   strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PintleMountedHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("pintle_mounted_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "pintle_mounted_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("pintle_mounted_heavy_stubber"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -20918,6 +25862,22 @@ export const PlasmaCannonStandard10eFactionPackAdeptusMechanicus10eV11WeaponProf
   superseded_date: null,
 };
 
+export const PlasmaCannonStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_cannon_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_cannon_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_cannon_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D3",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PlasmaCannonStandard10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("plasma_cannon_standard__10e__faction_pack_grey_knights_10e_v1_0"),
   weapon_profile_slug: "plasma_cannon_standard__10e__faction_pack_grey_knights_10e_v1_0",
@@ -20966,6 +25926,22 @@ export const PlasmaCannonSupercharge10eFactionPackAdeptusMechanicus10eV11WeaponP
   superseded_date: null,
 };
 
+export const PlasmaCannonSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_cannon_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_cannon_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_cannon_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D3",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PlasmaCannonSupercharge10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("plasma_cannon_supercharge__10e__faction_pack_grey_knights_10e_v1_0"),
   weapon_profile_slug: "plasma_cannon_supercharge__10e__faction_pack_grey_knights_10e_v1_0",
@@ -20990,6 +25966,38 @@ export const PlasmaCannonSupercharge10eFactionPackImperialAgents10eV13WeaponProf
   rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
   range: "36\"",
   attacks: "D3",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaCarbineStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_carbine_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_carbine_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_carbine_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaCarbineSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_carbine_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_carbine_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_carbine_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "2",
   skill: "3+",
   strength: "8",
   armor_penetration: -3,
@@ -21126,6 +26134,54 @@ export const PlasmaExterminatorsSupercharge10eFactionPackImperialAgents10eV13Wea
   superseded_date: null,
 };
 
+export const PlasmaGunStandard10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_gun_standard__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "plasma_gun_standard__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("plasma_gun_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaGunStandard10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_gun_standard__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "plasma_gun_standard__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("plasma_gun_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaGunStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_gun_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_gun_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_gun_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PlasmaGunStandard10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("plasma_gun_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "plasma_gun_standard__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -21186,6 +26242,54 @@ export const PlasmaGunStandard10eFactionPackImperialAgents10eV13WeaponProfile: W
   strength: "7",
   armor_penetration: -2,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaGunSupercharge10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_gun_supercharge__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "plasma_gun_supercharge__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("plasma_gun_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaGunSupercharge10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_gun_supercharge__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "plasma_gun_supercharge__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("plasma_gun_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaGunSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_gun_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_gun_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_gun_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -21318,6 +26422,54 @@ export const PlasmaPicks10eFactionPackLeaguesOfVotann10eV13WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const PlasmaPistolStandard10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_pistol_standard__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "plasma_pistol_standard__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("plasma_pistol_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaPistolStandard10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_pistol_standard__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "plasma_pistol_standard__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("plasma_pistol_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaPistolStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_pistol_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_pistol_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_pistol_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PlasmaPistolStandard10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("plasma_pistol_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "plasma_pistol_standard__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -21394,6 +26546,54 @@ export const PlasmaPistolStandard10eFactionPackWorldEaters10eV11WeaponProfile: W
   strength: "7",
   armor_penetration: -2,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaPistolSupercharge10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_pistol_supercharge__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "plasma_pistol_supercharge__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("plasma_pistol_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "12\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaPistolSupercharge10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_pistol_supercharge__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "plasma_pistol_supercharge__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("plasma_pistol_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PlasmaPistolSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("plasma_pistol_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "plasma_pistol_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("plasma_pistol_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -21558,6 +26758,22 @@ export const PortalOfExile10eFactionPackNecrons10eV13WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const PowerBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "power_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("power_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PowerClaw10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("power_claw__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "power_claw__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -21600,6 +26816,22 @@ export const PowerFist10eFactionPackAdeptusMechanicus10eV11WeaponProfile: Weapon
   attacks: "2",
   skill: "3+",
   strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PowerFist10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_fist__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "power_fist__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("power_fist"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
   armor_penetration: -2,
   damage: "2",
   effective_date: null,
@@ -21702,6 +26934,38 @@ export const PowerFists10eFactionPackImperialAgents10eV13WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const PowerGlaive10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_glaive__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "power_glaive__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("power_glaive"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -3,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PowerKlaw10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_klaw__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "power_klaw__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("power_klaw"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PowerKlaw10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("power_klaw__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "power_klaw__10e__faction_pack_orks_10e_v1_3",
@@ -21730,6 +26994,22 @@ export const PowerMaul10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Weapon
   strength: "5",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PowerSabre10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_sabre__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "power_sabre__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("power_sabre"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -21862,6 +27142,38 @@ export const PowerStabba10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConf
   superseded_date: null,
 };
 
+export const PowerSword10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_sword__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "power_sword__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("power_sword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PowerSword10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_sword__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "power_sword__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("power_sword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PowerSword10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("power_sword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "power_sword__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -21910,6 +27222,22 @@ export const PowerSword10eFactionPackImperialAgents10eV13WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const PowerSwordAndManusMortis10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_sword_and_manus_mortis__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "power_sword_and_manus_mortis__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("power_sword_and_manus_mortis"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PowerSwordAndNeuroGauntlet10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("power_sword_and_neuro_gauntlet__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "power_sword_and_neuro_gauntlet__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -21926,6 +27254,38 @@ export const PowerSwordAndNeuroGauntlet10eFactionPackImperialAgents10eV13WeaponP
   superseded_date: null,
 };
 
+export const PowerWeapon10eCodexAstraMilitarum10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_weapon__10e__codex_astra_militarum_10e"),
+  weapon_profile_slug: "power_weapon__10e__codex_astra_militarum_10e",
+  weapon_id: weaponId("power_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_astra_militarum_10e"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PowerWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "power_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("power_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PowerWeapon10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("power_weapon__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "power_weapon__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -21935,6 +27295,22 @@ export const PowerWeapon10eFactionPackAdeptusMechanicus10eV11WeaponProfile: Weap
   range: "Melee",
   attacks: "4",
   skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PowerWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "power_weapon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("power_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
   strength: "4",
   armor_penetration: -2,
   damage: "1",
@@ -22006,6 +27382,38 @@ export const PowerWeapon10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const PowerbladeArray10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("powerblade_array__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "powerblade_array__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("powerblade_array"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "10",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Powerblades10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("powerblades__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "powerblades__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("powerblades"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PowerfulLimbs10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("powerful_limbs__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "powerful_limbs__10e__faction_pack_tyranids_10e_v1_4",
@@ -22022,6 +27430,22 @@ export const PowerfulLimbs10eFactionPackTyranids10eV14WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const Powerlifter10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("powerlifter__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "powerlifter__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("powerlifter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PoxRiderPlaguesword10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("pox_rider_plaguesword__10e__faction_pack_chaos_daemons_10e_v1_2"),
   weapon_profile_slug: "pox_rider_plaguesword__10e__faction_pack_chaos_daemons_10e_v1_2",
@@ -22034,6 +27458,38 @@ export const PoxRiderPlaguesword10eFactionPackChaosDaemons10eV12WeaponProfile: W
   strength: "4",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PraetorLauncherFirestorm10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("praetor_launcher_firestorm__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "praetor_launcher_firestorm__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("praetor_launcher_firestorm"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "120\"",
+  attacks: "2D6",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PraetorLauncherFoehammer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("praetor_launcher_foehammer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "praetor_launcher_foehammer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("praetor_launcher_foehammer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "120\"",
+  attacks: "D6+1",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -22166,6 +27622,22 @@ export const PredatorTwinLascannon10eFactionPackWorldEaters10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const PrefectusHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prefectus_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "prefectus_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("prefectus_heavy_stubber"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PrimeClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("prime_claws_and_talons__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "prime_claws_and_talons__10e__faction_pack_tyranids_10e_v1_4",
@@ -22210,6 +27682,102 @@ export const PrincessJaws10eFactionPackOrks10eV13WeaponProfile: WeaponProfileCon
   strength: "4",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PrismCannonDispersedPulse10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prism_cannon_dispersed_pulse__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "prism_cannon_dispersed_pulse__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("prism_cannon_dispersed_pulse"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "60\"",
+  attacks: "2D6",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PrismCannonFocusedLances10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prism_cannon_focused_lances__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "prism_cannon_focused_lances__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("prism_cannon_focused_lances"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "60\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "18",
+  armor_penetration: -4,
+  damage: "6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PrismRifleDispersed10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prism_rifle_dispersed__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "prism_rifle_dispersed__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("prism_rifle_dispersed"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PrismRifleFocused10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prism_rifle_focused__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "prism_rifle_focused__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("prism_rifle_focused"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PrismaticCannonDispersedPulse10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prismatic_cannon_dispersed_pulse__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "prismatic_cannon_dispersed_pulse__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("prismatic_cannon_dispersed_pulse"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "2D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PrismaticCannonFocusedLances10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("prismatic_cannon_focused_lances__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "prismatic_cannon_focused_lances__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("prismatic_cannon_focused_lances"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "4",
   effective_date: null,
   superseded_date: null,
 };
@@ -22370,6 +27938,38 @@ export const PsychicCleanse10eFactionPackImperialAgents10eV13WeaponProfile: Weap
   strength: "5",
   armor_penetration: -1,
   damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PsychicMaelstromFocusedWitchfire10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("psychic_maelstrom_focused_witchfire__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "psychic_maelstrom_focused_witchfire__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("psychic_maelstrom_focused_witchfire"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "D6+1",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PsychicMaelstromWitchfire10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("psychic_maelstrom_witchfire__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "psychic_maelstrom_witchfire__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("psychic_maelstrom_witchfire"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -22550,6 +28150,22 @@ export const PsykoGatler10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConf
   superseded_date: null,
 };
 
+export const PsytronomeShaper10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("psytronome_shaper__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "psytronome_shaper__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("psytronome_shaper"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "2",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PteraxiiTalons10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("pteraxii_talons__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "pteraxii_talons__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -22662,6 +28278,22 @@ export const PulseDriverCannon10eFactionPackTauEmpire10eV12WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const PulseLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("pulse_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "pulse_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("pulse_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const PulseOrdnanceDriver10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("pulse_ordnance_driver__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "pulse_ordnance_driver__10e__faction_pack_tau_empire_10e_v1_2",
@@ -22722,6 +28354,38 @@ export const PulseSubmunitionsCannon10eFactionPackTauEmpire10eV12WeaponProfile: 
   strength: "8",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PulveriserCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("pulveriser_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "pulveriser_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("pulveriser_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const PunisherGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("punisher_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "punisher_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("punisher_gatling_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "20",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -22880,6 +28544,54 @@ export const QuadIonTurretStandard10eFactionPackTauEmpire10eV12WeaponProfile: We
   attacks: "8",
   skill: "4+",
   strength: "7",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const QuakeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("quake_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "quake_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("quake_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "D6+6",
+  skill: "4+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const QuartermastersCloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("quartermasters_close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "quartermasters_close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("quartermasters_close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const QuartermastersPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("quartermasters_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "quartermasters_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("quartermasters_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
   armor_penetration: -1,
   damage: "1",
   effective_date: null,
@@ -23046,6 +28758,22 @@ export const RamshackleHull10eFactionPackOrks10eV13WeaponProfile: WeaponProfileC
   superseded_date: null,
 };
 
+export const RangerLongRifle10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ranger_long_rifle__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "ranger_long_rifle__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("ranger_long_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const RapidFireBattleCannon10eFactionPackImperialKnights10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("rapid_fire_battle_cannon__10e__faction_pack_imperial_knights_10e_v1_2"),
   weapon_profile_slug: "rapid_fire_battle_cannon__10e__faction_pack_imperial_knights_10e_v1_2",
@@ -23154,6 +28882,22 @@ export const RavenousMaw10eFactionPackTyranids10eV14WeaponProfile: WeaponProfile
   strength: "7",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RawnesLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("rawnes_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "rawnes_lascarbine__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("rawnes_lascarbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -23558,6 +29302,38 @@ export const ReaperChaintalonSweep10eFactionPackChaosKnights10eV11WeaponProfile:
   superseded_date: null,
 };
 
+export const ReaperLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("reaper_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "reaper_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("reaper_launcher_starshot"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ReaperLauncherStarswarm10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("reaper_launcher_starswarm__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "reaper_launcher_starswarm__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("reaper_launcher_starswarm"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ReaversBlade10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("reavers_blade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "reavers_blade__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -23618,6 +29394,22 @@ export const RelicGaussBlaster10eFactionPackNecrons10eV13WeaponProfile: WeaponPr
   strength: "5",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RelicWeapons10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("relic_weapons__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "relic_weapons__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("relic_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "18",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -23696,6 +29488,86 @@ export const RepeaterCannon10eFactionPackTauEmpire10eV12WeaponProfile: WeaponPro
   attacks: "2",
   skill: "4+",
   strength: "7",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RepressorTwinHeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("repressor_twin_heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "repressor_twin_heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("repressor_twin_heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RevenantFeet10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("revenant_feet__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "revenant_feet__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("revenant_feet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "8",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RevenantPulsar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("revenant_pulsar__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "revenant_pulsar__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("revenant_pulsar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "60\"",
+  attacks: "6",
+  skill: "3+",
+  strength: "14",
+  armor_penetration: -3,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RipperGun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ripper_gun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "ripper_gun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("ripper_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "18\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const RipperPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("ripper_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "ripper_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("ripper_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "3",
+  skill: "2+",
+  strength: "5",
   armor_penetration: -1,
   damage: "2",
   effective_date: null,
@@ -24038,6 +29910,22 @@ export const RuptureCannon10eFactionPackTyranids10eV14WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const SabreOfSacrifice10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sabre_of_sacrifice__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sabre_of_sacrifice__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sabre_of_sacrifice"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SaddlegitWeapons10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("saddlegit_weapons__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "saddlegit_weapons__10e__faction_pack_orks_10e_v1_3",
@@ -24118,6 +30006,22 @@ export const SamniariusAndSpinegrinderSweep10eFactionPackWorldEaters10eV11Weapon
   superseded_date: null,
 };
 
+export const SanctifierMeleeWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sanctifier_melee_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "sanctifier_melee_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("sanctifier_melee_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SanctifierMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("sanctifier_melee_weapon__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "sanctifier_melee_weapon__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -24134,6 +30038,22 @@ export const SanctifierMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfil
   superseded_date: null,
 };
 
+export const Sanctity10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sanctity__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "sanctity__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("sanctity"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SanctusBioDagger10eFactionPackGenestealerCults10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("sanctus_bio_dagger__10e__faction_pack_genestealer_cults_10e_v1_0"),
   weapon_profile_slug: "sanctus_bio_dagger__10e__faction_pack_genestealer_cults_10e_v1_0",
@@ -24146,6 +30066,22 @@ export const SanctusBioDagger10eFactionPackGenestealerCults10eV10WeaponProfile: 
   strength: "3",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SavageClaws10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("savage_claws__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "savage_claws__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("savage_claws"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -24214,6 +30150,22 @@ export const ScaldingRoar10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const ScatterLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("scatter_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "scatter_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("scatter_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "6",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SceptreOfEternalGlory10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("sceptre_of_eternal_glory__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "sceptre_of_eternal_glory__10e__faction_pack_necrons_10e_v1_3",
@@ -24257,6 +30209,38 @@ export const ScorpionCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: W
   skill: "3+",
   strength: "5",
   armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ScorpionChainsword10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("scorpion_chainsword__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "scorpion_chainsword__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("scorpion_chainsword"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "7",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ScorpionsClaw10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("scorpions_claw__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "scorpions_claw__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("scorpions_claw"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -2,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -24374,6 +30358,22 @@ export const ScreamerPistol10eFactionPackEmperorsChildren10eV13WeaponProfile: We
   superseded_date: null,
 };
 
+export const ScribesStaff10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("scribes_staff__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "scribes_staff__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("scribes_staff"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ScytheOfTheNightbringerStrike10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("scythe_of_the_nightbringer_strike__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "scythe_of_the_nightbringer_strike__10e__faction_pack_necrons_10e_v1_3",
@@ -24482,6 +30482,38 @@ export const SearingPurity10eFactionPackGreyKnights10eV10WeaponProfile: WeaponPr
   strength: "12",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SearsongBeam10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("searsong_beam__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "searsong_beam__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("searsong_beam"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "3",
+  skill: "2+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SearsongLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("searsong_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "searsong_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("searsong_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "14",
+  armor_penetration: -4,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -24614,6 +30646,134 @@ export const SentinelBlade10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weap
   superseded_date: null,
 };
 
+export const SentinelChainsaw10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sentinel_chainsaw__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sentinel_chainsaw__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sentinel_chainsaw"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SentryFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sentry_flamer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sentry_flamer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sentry_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "D6+3",
+  skill: "N/A",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SentryGrenadeLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sentry_grenade_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sentry_grenade_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sentry_grenade_launcher_frag"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D3+3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SentryGrenadeLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sentry_grenade_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sentry_grenade_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sentry_grenade_launcher_krak"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SentryHotShotVolleyGun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sentry_hot_shot_volley_gun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sentry_hot_shot_volley_gun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sentry_hot_shot_volley_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "30\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SergeantsAutogun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sergeants_autogun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sergeants_autogun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sergeants_autogun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SergeantsCloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sergeants_close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sergeants_close_combat_weapon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sergeants_close_combat_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SergeantsPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sergeants_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sergeants_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sergeants_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SerpentineTail10eFactionPackEmperorsChildren10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("serpentine_tail__10e__faction_pack_emperors_children_10e_v1_3"),
   weapon_profile_slug: "serpentine_tail__10e__faction_pack_emperors_children_10e_v1_3",
@@ -24656,6 +30816,22 @@ export const ServitorsServoArm10eFactionPackAdeptusMechanicus10eV11WeaponProfile
   attacks: "1",
   skill: "5+",
   strength: "8",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ServitorsServoArm10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("servitors_servo_arm__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "servitors_servo_arm__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("servitors_servo_arm"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "1",
+  skill: "5+",
+  strength: "6",
   armor_penetration: -2,
   damage: "3",
   effective_date: null,
@@ -24742,6 +30918,22 @@ export const ServoArm10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const ServoArm10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("servo_arm__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "servo_arm__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("servo_arm"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "1",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ServoArms10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("servo_arms__10e__faction_pack_grey_knights_10e_v1_0"),
   weapon_profile_slug: "servo_arms__10e__faction_pack_grey_knights_10e_v1_0",
@@ -24806,6 +30998,22 @@ export const Shade10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfi
   superseded_date: null,
 };
 
+export const ShadowWeaver10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shadow_weaver__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shadow_weaver__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shadow_weaver"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6+2",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ShaimeshiBlade10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("shaimeshi_blade__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "shaimeshi_blade__10e__faction_pack_drukhari_10e_v1_1",
@@ -24832,6 +31040,22 @@ export const ShapersBlade10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfi
   attacks: "4",
   skill: "2+",
   strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Shardcarbine10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shardcarbine__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shardcarbine__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shardcarbine"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "2",
   armor_penetration: 0,
   damage: "1",
   effective_date: null,
@@ -25046,6 +31270,22 @@ export const ShieldbreakerMissileLauncher10eFactionPackImperialKnights10eV12Weap
   superseded_date: null,
 };
 
+export const ShiningBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shining_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shining_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shining_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ShockMaul10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("shock_maul__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "shock_maul__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -25158,6 +31398,22 @@ export const ShovellingClaws10eFactionPackTyranids10eV14WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const Shredder10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shredder__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shredder__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shredder"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Shredder10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("shredder__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "shredder__10e__faction_pack_drukhari_10e_v1_1",
@@ -25170,6 +31426,102 @@ export const Shredder10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileCon
   strength: "6",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShriekerCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shrieker_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shrieker_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shrieker_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "3",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShurikenCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shuriken_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shuriken_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shuriken_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShurikenCatapult10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shuriken_catapult__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shuriken_catapult__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shuriken_catapult"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShurikenPistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shuriken_pistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shuriken_pistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shuriken_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShurikenRifle10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("shuriken_rifle__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "shuriken_rifle__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("shuriken_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SiegeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("siege_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "siege_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("siege_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "5+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -25234,6 +31586,38 @@ export const SilenceSweep10eFactionPackDeathGuard10eV11WeaponProfile: WeaponProf
   strength: "8",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SilentDeath10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("silent_death__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "silent_death__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("silent_death"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "6",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SingingSpear10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("singing_spear__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "singing_spear__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("singing_spear"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "9",
+  armor_penetration: 0,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -25410,6 +31794,22 @@ export const SkyspearMissileRack10eFactionPackTauEmpire10eV12WeaponProfile: Weap
   strength: "6",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SkyweaverHaywireCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("skyweaver_haywire_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "skyweaver_haywire_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("skyweaver_haywire_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -25686,6 +32086,22 @@ export const Snazzhammer10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConf
   superseded_date: null,
 };
 
+export const SniperRifle10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sniper_rifle__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sniper_rifle__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sniper_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SolarAtomiser10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("solar_atomiser__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "solar_atomiser__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -25734,6 +32150,38 @@ export const SoleritePowerTalon10eFactionPackAdeptusCustodes10eV10WeaponProfile:
   superseded_date: null,
 };
 
+export const SolitaireWeapons10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("solitaire_weapons__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "solitaire_weapons__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("solitaire_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "9",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SolsRighteousGaze10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sols_righteous_gaze__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "sols_righteous_gaze__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("sols_righteous_gaze"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "2",
+  skill: "2+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Somnus10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("somnus__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "somnus__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -25761,6 +32209,22 @@ export const SonicBlaster10eFactionPackEmperorsChildren10eV13WeaponProfile: Weap
   skill: "3+",
   strength: "5",
   armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SonicLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sonic_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "sonic_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("sonic_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "D6+6",
+  skill: "N/A",
+  strength: "8",
+  armor_penetration: -3,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -25990,6 +32454,54 @@ export const SpHeavyConversionBeamer10eFactionPackLeaguesOfVotann10eV13WeaponPro
   superseded_date: null,
 };
 
+export const SparGlaive10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("spar_glaive__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "spar_glaive__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("spar_glaive"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SpearOfStarlight10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("spear_of_starlight__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "spear_of_starlight__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("spear_of_starlight"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SpearOfTheFaithful10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("spear_of_the_faithful__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "spear_of_the_faithful__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("spear_of_the_faithful"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SpearOfTheVoidDragon10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("spear_of_the_void_dragon__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "spear_of_the_void_dragon__10e__faction_pack_necrons_10e_v1_3",
@@ -26034,6 +32546,22 @@ export const SpearOfTheVoidDragonSweep10eFactionPackNecrons10eV13WeaponProfile: 
   strength: "8",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SpearOfTwilight10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("spear_of_twilight__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "spear_of_twilight__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("spear_of_twilight"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "7",
+  armor_penetration: -3,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -26114,6 +32642,22 @@ export const SpiculusHeavyBoltLauncher10eFactionPackAdeptusCustodes10eV10WeaponP
   strength: "7",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SpidersFangs10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("spiders_fangs__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "spiders_fangs__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("spiders_fangs"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -26230,6 +32774,22 @@ export const Spinemaws10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileCo
   superseded_date: null,
 };
 
+export const SpinneretRifle10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("spinneret_rifle__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "spinneret_rifle__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("spinneret_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SpinninBlades10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("spinnin_blades__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "spinnin_blades__10e__faction_pack_orks_10e_v1_3",
@@ -26294,6 +32854,22 @@ export const SpiritVortex10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfil
   superseded_date: null,
 };
 
+export const SplinterCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("splinter_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "splinter_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("splinter_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SplinterCannon10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("splinter_cannon__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "splinter_cannon__10e__faction_pack_drukhari_10e_v1_1",
@@ -26306,6 +32882,22 @@ export const SplinterCannon10eFactionPackDrukhari10eV11WeaponProfile: WeaponProf
   strength: "3",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SplinterPistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("splinter_pistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "splinter_pistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("splinter_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "2",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -26333,6 +32925,22 @@ export const SplinterPods10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfil
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
   range: "18\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "2",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SplinterRifle10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("splinter_rifle__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "splinter_rifle__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("splinter_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
   attacks: "2",
   skill: "3+",
   strength: "2",
@@ -26630,6 +33238,22 @@ export const StaffOfTzeentch10eFactionPackThousandSons10eV11WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const StaffOfUlthamarAndWitchblade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("staff_of_ulthamar_and_witchblade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "staff_of_ulthamar_and_witchblade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("staff_of_ulthamar_and_witchblade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const StalkerBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("stalker_bolt_rifle__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "stalker_bolt_rifle__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -26674,6 +33298,118 @@ export const StalkersForelimbs10eFactionPackNecrons10eV13WeaponProfile: WeaponPr
   strength: "7",
   armor_penetration: -1,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StarBolas10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("star_bolas__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "star_bolas__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("star_bolas"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D3",
+  skill: "3+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StarGlaive10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("star_glaive__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "star_glaive__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("star_glaive"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StarLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("star_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "star_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("star_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Starcannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("starcannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "starcannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("starcannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StarfangGrenadeLauncher10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("starfang_grenade_launcher__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "starfang_grenade_launcher__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("starfang_grenade_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "D3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SteedsHooves10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("steeds_hooves__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "steeds_hooves__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("steeds_hooves"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SteedsSavageClaws10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("steeds_savage_claws__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "steeds_savage_claws__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("steeds_savage_claws"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -26774,6 +33510,22 @@ export const StingwingClaws10eFactionPackTauEmpire10eV12WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const StompingFeet10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stomping_feet__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stomping_feet__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stomping_feet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const StompyFeet10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("stompy_feet__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "stompy_feet__10e__faction_pack_orks_10e_v1_3",
@@ -26790,6 +33542,22 @@ export const StompyFeet10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfi
   superseded_date: null,
 };
 
+export const StormBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("storm_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "storm_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("storm_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const StormBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("storm_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "storm_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -26799,6 +33567,22 @@ export const StormBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weapon
   range: "24\"",
   attacks: "2",
   skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StormBolter10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("storm_bolter__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "storm_bolter__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("storm_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "2",
+  skill: "4+",
   strength: "4",
   armor_penetration: 0,
   damage: "1",
@@ -26838,6 +33622,22 @@ export const StormBolter10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const StormEagleRockets10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("storm_eagle_rockets__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "storm_eagle_rockets__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("storm_eagle_rockets"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "120\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const StormLaser10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("storm_laser__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "storm_laser__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -26849,6 +33649,22 @@ export const StormLaser10eFactionPackChaosSpaceMarines10eV16WeaponProfile: Weapo
   skill: "3+",
   strength: "6",
   armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StormOfWhispers10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("storm_of_whispers__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "storm_of_whispers__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("storm_of_whispers"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6+3",
+  skill: "2+",
+  strength: "2",
+  armor_penetration: -2,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -26882,6 +33698,54 @@ export const StormVortexProjectorBlast10eFactionPackDrukhari10eV11WeaponProfile:
   strength: "6",
   armor_penetration: -2,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StormbladePlasmaBlastgunStandard10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stormblade_plasma_blastgun_standard__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stormblade_plasma_blastgun_standard__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stormblade_plasma_blastgun_standard"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StormbladePlasmaBlastgunSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stormblade_plasma_blastgun_supercharge__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stormblade_plasma_blastgun_supercharge__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stormblade_plasma_blastgun_supercharge"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StormhammerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stormhammer_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stormhammer_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stormhammer_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "3D6",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -26930,6 +33794,38 @@ export const StormstrikeMissileLauncher10eFactionPackImperialAgents10eV13WeaponP
   strength: "10",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StormswordSiegeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stormsword_siege_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stormsword_siege_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stormsword_siege_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+6",
+  skill: "4+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const StraightSilverKnife10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("straight_silver_knife__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "straight_silver_knife__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("straight_silver_knife"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -26998,6 +33894,22 @@ export const StreamsOfBrackishFilth10eFactionPackDeathGuard10eV11WeaponProfile: 
   superseded_date: null,
 };
 
+export const StubPistol10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stub_pistol__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stub_pistol__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stub_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Stubcarbine10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("stubcarbine__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "stubcarbine__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -27046,6 +33958,22 @@ export const Stunclaw10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileCon
   superseded_date: null,
 };
 
+export const StygiesLaserDestroyer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stygies_laser_destroyer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "stygies_laser_destroyer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("stygies_laser_destroyer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "14",
+  armor_penetration: -4,
+  damage: "D6+3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Sublimator10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("sublimator__10e__faction_pack_grey_knights_10e_v1_0"),
   weapon_profile_slug: "sublimator__10e__faction_pack_grey_knights_10e_v1_0",
@@ -27062,6 +33990,22 @@ export const Sublimator10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const SuccubusWeapons10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("succubus_weapons__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "succubus_weapons__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("succubus_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const SulphurBreath10eFactionPackAdeptusMechanicus10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("sulphur_breath__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
   weapon_profile_slug: "sulphur_breath__10e__faction_pack_adeptus_mechanicus_10e_v1_1",
@@ -27073,6 +34017,38 @@ export const SulphurBreath10eFactionPackAdeptusMechanicus10eV11WeaponProfile: We
   skill: "N/A",
   strength: "3",
   armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Suncannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("suncannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "suncannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("suncannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6+4",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Sunpistol10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sunpistol__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "sunpistol__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("sunpistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -27250,6 +34226,54 @@ export const SwiftstrikeRailgun10eFactionPackTauEmpire10eV12WeaponProfile: Weapo
   strength: "20",
   armor_penetration: -5,
   damage: "D6+6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SwirlingSoulEnergy10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("swirling_soul_energy__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "swirling_soul_energy__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("swirling_soul_energy"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "D6+3",
+  skill: "N/A",
+  strength: "7",
+  armor_penetration: -1,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SwordOfAsur10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sword_of_asur__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "sword_of_asur__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("sword_of_asur"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SybariteWeapon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("sybarite_weapon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "sybarite_weapon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("sybarite_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -27446,6 +34470,22 @@ export const Tankhammer10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfi
   superseded_date: null,
 };
 
+export const TankstopperRifle10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("tankstopper_rifle__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "tankstopper_rifle__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("tankstopper_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TarsisBuckler10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("tarsis_buckler__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "tarsis_buckler__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -27526,6 +34566,102 @@ export const TauTechRifle10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const TaurosGrenadeLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("tauros_grenade_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "tauros_grenade_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("tauros_grenade_launcher_frag"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TaurosGrenadeLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("tauros_grenade_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "tauros_grenade_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("tauros_grenade_launcher_krak"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TauroxBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("taurox_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "taurox_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("taurox_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TauroxGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("taurox_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "taurox_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("taurox_gatling_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "8",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TauroxMissileLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("taurox_missile_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "taurox_missile_launcher_frag__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("taurox_missile_launcher_frag"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TauroxMissileLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("taurox_missile_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "taurox_missile_launcher_krak__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("taurox_missile_launcher_krak"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TechnoVirusInjector10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("techno_virus_injector__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "techno_virus_injector__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -27570,6 +34706,22 @@ export const TellyportBlasta10eFactionPackOrks10eV13WeaponProfile: WeaponProfile
   strength: "8",
   armor_penetration: -1,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TempestLauncher10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("tempest_launcher__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "tempest_launcher__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("tempest_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "2D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -27634,6 +34786,22 @@ export const TempestWarbladeSweep10eFactionPackImperialKnights10eV12WeaponProfil
   strength: "9",
   armor_penetration: -3,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TempestusDagger10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("tempestus_dagger__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "tempestus_dagger__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("tempestus_dagger"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -27878,6 +35046,22 @@ export const TesseractSingularityChamberSeismicLash10eFactionPackNecrons10eV13We
   superseded_date: null,
 };
 
+export const TheArdentBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_ardent_blade__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "the_ardent_blade__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("the_ardent_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TheBladeOfShadowsStrike10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("the_blade_of_shadows_strike__10e__faction_pack_chaos_daemons_10e_v1_2"),
   weapon_profile_slug: "the_blade_of_shadows_strike__10e__faction_pack_chaos_daemons_10e_v1_2",
@@ -27910,6 +35094,38 @@ export const TheBladeOfShadowsSweep10eFactionPackChaosDaemons10eV12WeaponProfile
   superseded_date: null,
 };
 
+export const TheEyeOfWrath10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_eye_of_wrath__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "the_eye_of_wrath__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("the_eye_of_wrath"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "6\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TheOutcastsWeapons10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_outcasts_weapons__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "the_outcasts_weapons__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("the_outcasts_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TheSlayerSword10eFactionPackChaosDaemons10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("the_slayer_sword__10e__faction_pack_chaos_daemons_10e_v1_2"),
   weapon_profile_slug: "the_slayer_sword__10e__faction_pack_chaos_daemons_10e_v1_2",
@@ -27922,6 +35138,38 @@ export const TheSlayerSword10eFactionPackChaosDaemons10eV12WeaponProfile: Weapon
   strength: "6",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TheSpearOfTwilight10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_spear_of_twilight__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "the_spear_of_twilight__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("the_spear_of_twilight"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TheThornOfTheWhiteRose10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_thorn_of_the_white_rose__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "the_thorn_of_the_white_rose__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("the_thorn_of_the_white_rose"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -27954,6 +35202,54 @@ export const TheTrickstersStaff10eFactionPackChaosDaemons10eV12WeaponProfile: We
   strength: "4",
   armor_penetration: -1,
   damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TheWailingDoom10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_wailing_doom__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "the_wailing_doom__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("the_wailing_doom"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TheWailingDoomStrike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_wailing_doom_strike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "the_wailing_doom_strike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("the_wailing_doom_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "2+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "D6+2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TheWailingDoomSweep10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("the_wailing_doom_sweep__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "the_wailing_doom_sweep__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("the_wailing_doom_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "12",
+  skill: "2+",
+  strength: "8",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -28034,6 +35330,22 @@ export const ThoraxSpur10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileC
   strength: "10",
   armor_penetration: -3,
   damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ThroneOfBlame10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("throne_of_blame__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "throne_of_blame__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("throne_of_blame"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -28214,6 +35526,22 @@ export const TinboysKustomShoota10eCodexOrks10eWeaponProfile: WeaponProfileConfi
   superseded_date: null,
 };
 
+export const TitanicFeet10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("titanic_feet__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "titanic_feet__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("titanic_feet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TitanicFeet10eFactionPackChaosKnights10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("titanic_feet__10e__faction_pack_chaos_knights_10e_v1_1"),
   weapon_profile_slug: "titanic_feet__10e__faction_pack_chaos_knights_10e_v1_1",
@@ -28273,6 +35601,38 @@ export const TitanicForelimbsSweep10eFactionPackNecrons10eV13WeaponProfile: Weap
   skill: "3+",
   strength: "8",
   armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TitanicGhostglaiveStrike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("titanic_ghostglaive_strike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "titanic_ghostglaive_strike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("titanic_ghostglaive_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "3+",
+  strength: "16",
+  armor_penetration: -3,
+  damage: "6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TitanicGhostglaiveSweep10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("titanic_ghostglaive_sweep__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "titanic_ghostglaive_sweep__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("titanic_ghostglaive_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "15",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -2,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -28678,6 +36038,22 @@ export const TransuranicArquebus10eFactionPackAdeptusMechanicus10eV11WeaponProfi
   superseded_date: null,
 };
 
+export const TremorCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("tremor_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "tremor_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("tremor_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "2D6+3",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -2,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TremorShells10eFactionPackLeaguesOfVotann10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("tremor_shells__10e__faction_pack_leagues_of_votann_10e_v1_3"),
   weapon_profile_slug: "tremor_shells__10e__faction_pack_leagues_of_votann_10e_v1_3",
@@ -28742,6 +36118,22 @@ export const TremorglaiveShockWavePulse10eFactionPackNecrons10eV13WeaponProfile:
   superseded_date: null,
 };
 
+export const TrenchClub10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("trench_club__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "trench_club__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("trench_club"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TriAxisIonCannonStandard10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("tri_axis_ion_cannon_standard__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "tri_axis_ion_cannon_standard__10e__faction_pack_tau_empire_10e_v1_2",
@@ -28770,6 +36162,38 @@ export const TriAxisIonCannonSupercharge10eFactionPackTauEmpire10eV12WeaponProfi
   strength: "9",
   armor_penetration: -3,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Triskele10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("triskele__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "triskele__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("triskele"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "12\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TroupeMastersBlade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("troupe_masters_blade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "troupe_masters_blade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("troupe_masters_blade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "5",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -28918,6 +36342,22 @@ export const TwinAssaultCannon10eFactionPackImperialAgents10eV13WeaponProfile: W
   superseded_date: null,
 };
 
+export const TwinAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_autocannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_autocannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinAutocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "twin_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -28998,6 +36438,22 @@ export const TwinAutocannon10eFactionPackWorldEaters10eV11WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const TwinBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "D6+3",
+  skill: "4+",
+  strength: "9",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinBigShoota10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_big_shoota__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "twin_big_shoota__10e__faction_pack_orks_10e_v1_3",
@@ -29058,6 +36514,22 @@ export const TwinBoltgun10eFactionPackImperialAgents10eV13WeaponProfile: WeaponP
   strength: "4",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinBrightLance10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_bright_lance__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_bright_lance__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_bright_lance"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "D6+2",
   effective_date: null,
   superseded_date: null,
 };
@@ -29350,6 +36822,22 @@ export const TwinHeatLance10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfi
   superseded_date: null,
 };
 
+export const TwinHeavyBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_heavy_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "twin_heavy_bolter__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("twin_heavy_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "36\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinHeavyBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_heavy_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "twin_heavy_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -29359,6 +36847,22 @@ export const TwinHeavyBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile: We
   range: "36\"",
   attacks: "3",
   skill: "2+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinHeavyBolter10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_heavy_bolter__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_heavy_bolter__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_heavy_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "3",
+  skill: "4+",
   strength: "5",
   armor_penetration: -1,
   damage: "2",
@@ -29494,6 +36998,22 @@ export const TwinHeavyBolter10eFactionPackWorldEaters10eV11WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const TwinHeavyFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_heavy_flamer__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_heavy_flamer__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinHeavyPlasmaCannonStandard10eFactionPackGreyKnights10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_heavy_plasma_cannon_standard__10e__faction_pack_grey_knights_10e_v1_0"),
   weapon_profile_slug: "twin_heavy_plasma_cannon_standard__10e__faction_pack_grey_knights_10e_v1_0",
@@ -29538,6 +37058,22 @@ export const TwinHeavyRailCannon10eFactionPackTauEmpire10eV12WeaponProfile: Weap
   strength: "26",
   armor_penetration: -5,
   damage: "12",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_heavy_stubber"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "3",
+  skill: "4+",
+  strength: "4",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -29734,6 +37270,22 @@ export const TwinKillsaw10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConf
   superseded_date: null,
 };
 
+export const TwinKriegHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_krieg_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_krieg_heavy_stubber__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_krieg_heavy_stubber"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "3",
+  skill: "5+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinKrootGun10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_kroot_gun__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "twin_kroot_gun__10e__faction_pack_tau_empire_10e_v1_2",
@@ -29778,6 +37330,22 @@ export const TwinLasPulsar10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weap
   strength: "9",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_lascannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "D6+1",
   effective_date: null,
   superseded_date: null,
 };
@@ -30038,6 +37606,54 @@ export const TwinMeltagun10eFactionPackImperialKnights10eV12WeaponProfile: Weapo
   superseded_date: null,
 };
 
+export const TwinMinistorumHeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_ministorum_heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "twin_ministorum_heavy_flamer__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("twin_ministorum_heavy_flamer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinMissileLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_missile_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_missile_launcher_starshot__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_missile_launcher_starshot"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinMissileLauncherSunburst10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_missile_launcher_sunburst__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_missile_launcher_sunburst__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_missile_launcher_sunburst"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinMissilePod10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_missile_pod__10e__faction_pack_tau_empire_10e_v1_2"),
   weapon_profile_slug: "twin_missile_pod__10e__faction_pack_tau_empire_10e_v1_2",
@@ -30050,6 +37666,38 @@ export const TwinMissilePod10eFactionPackTauEmpire10eV12WeaponProfile: WeaponPro
   strength: "7",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinMultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_multi_laser__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_multi_laser__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_multi_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinMultiMelta10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_multi_melta__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "twin_multi_melta__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("twin_multi_melta"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "18\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -4,
+  damage: "D6",
   effective_date: null,
   superseded_date: null,
 };
@@ -30098,6 +37746,38 @@ export const TwinOnagerHeavyPhosphorBlaster10eFactionPackAdeptusMechanicus10eV11
   strength: "6",
   armor_penetration: -1,
   damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinPenitentBuzzBlades10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_penitent_buzz_blades__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "twin_penitent_buzz_blades__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("twin_penitent_buzz_blades"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinPenitentFlails10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_penitent_flails__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "twin_penitent_flails__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("twin_penitent_flails"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "8",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -30198,6 +37878,22 @@ export const TwinPulseCarbine10eFactionPackTauEmpire10eV12WeaponProfile: WeaponP
   superseded_date: null,
 };
 
+export const TwinPulseLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_pulse_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_pulse_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_pulse_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "9",
+  armor_penetration: -2,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinRadCleanser10eFactionPackChaosKnights10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_rad_cleanser__10e__faction_pack_chaos_knights_10e_v1_1"),
   weapon_profile_slug: "twin_rad_cleanser__10e__faction_pack_chaos_knights_10e_v1_1",
@@ -30258,6 +37954,70 @@ export const TwinRokkitLauncha10eFactionPackOrks10eV13WeaponProfile: WeaponProfi
   strength: "9",
   armor_penetration: -2,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinScatterLaser10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_scatter_laser__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_scatter_laser__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_scatter_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "6",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinScorpionPulsar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_scorpion_pulsar__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_scorpion_pulsar__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_scorpion_pulsar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "60\"",
+  attacks: "6",
+  skill: "3+",
+  strength: "18",
+  armor_penetration: -3,
+  damage: "5",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinShurikenCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_shuriken_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_shuriken_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_shuriken_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinShurikenCatapult10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_shuriken_catapult__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_shuriken_catapult__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_shuriken_catapult"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "2",
+  skill: "2+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -30358,6 +38118,22 @@ export const TwinSplinterCannon10eFactionPackDrukhari10eV11WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const TwinSplinterRifle10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_splinter_rifle__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_splinter_rifle__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_splinter_rifle"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "2",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const TwinSplinterRifle10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("twin_splinter_rifle__10e__faction_pack_drukhari_10e_v1_1"),
   weapon_profile_slug: "twin_splinter_rifle__10e__faction_pack_drukhari_10e_v1_1",
@@ -30370,6 +38146,22 @@ export const TwinSplinterRifle10eFactionPackDrukhari10eV11WeaponProfile: WeaponP
   strength: "2",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinStarcannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_starcannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_starcannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_starcannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "36\"",
+  attacks: "2",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -30417,6 +38209,22 @@ export const TwinTauFlamer10eFactionPackTauEmpire10eV12WeaponProfile: WeaponProf
   skill: "N/A",
   strength: "4",
   armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinTauroxHotShotVolleyGun10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_taurox_hot_shot_volley_gun__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "twin_taurox_hot_shot_volley_gun__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("twin_taurox_hot_shot_volley_gun"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "30\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -30482,6 +38290,22 @@ export const TwinTorturersTools10eFactionPackDrukhari10eV11WeaponProfile: Weapon
   strength: "4",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TwinVampirePulsar10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("twin_vampire_pulsar__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "twin_vampire_pulsar__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("twin_vampire_pulsar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "60\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "4",
   effective_date: null,
   superseded_date: null,
 };
@@ -30742,6 +38566,38 @@ export const UrtySyringe10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConf
   superseded_date: null,
 };
 
+export const ValdorNeutronLaser10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("valdor_neutron_laser__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "valdor_neutron_laser__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("valdor_neutron_laser"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "16",
+  armor_penetration: -4,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VanquisherBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vanquisher_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vanquisher_battle_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vanquisher_battle_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "72\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "18",
+  armor_penetration: -4,
+  damage: "D6+6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const VashtorrsClaw10eFactionPackChaosSpaceMarines10eV16WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("vashtorrs_claw__10e__faction_pack_chaos_space_marines_10e_v1_6"),
   weapon_profile_slug: "vashtorrs_claw__10e__faction_pack_chaos_space_marines_10e_v1_6",
@@ -30854,6 +38710,38 @@ export const VenatariLance10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weap
   superseded_date: null,
 };
 
+export const VendettaHellstrikeRack10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vendetta_hellstrike_rack__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vendetta_hellstrike_rack__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vendetta_hellstrike_rack"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VendettaTwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vendetta_twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vendetta_twin_lascannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vendetta_twin_lascannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "12",
+  armor_penetration: -3,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const VenomBolt10eFactionPackTyranids10eV14WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("venom_bolt__10e__faction_pack_tyranids_10e_v1_4"),
   weapon_profile_slug: "venom_bolt__10e__faction_pack_tyranids_10e_v1_4",
@@ -30896,6 +38784,22 @@ export const VertusHurricaneBolter10eFactionPackAdeptusCustodes10eV10WeaponProfi
   attacks: "3",
   skill: "2+",
   strength: "4",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VibroCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vibro_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "vibro_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("vibro_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "D6",
+  skill: "3+",
+  strength: "9",
   armor_penetration: -1,
   damage: "2",
   effective_date: null,
@@ -30950,6 +38854,54 @@ export const VigilSpear10eFactionPackImperialAgents10eV13WeaponProfile: WeaponPr
   superseded_date: null,
 };
 
+export const VigilatorCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vigilator_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vigilator_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vigilator_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "D6",
+  skill: "4+",
+  strength: "8",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VilithZharStrike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vilith_zhar_strike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "vilith_zhar_strike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("vilith_zhar_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "12",
+  armor_penetration: -4,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VilithZharSweep10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vilith_zhar_sweep__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "vilith_zhar_sweep__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("vilith_zhar_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "10",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -4,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const VindicareCombatKnife10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("vindicare_combat_knife__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "vindicare_combat_knife__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -30962,6 +38914,22 @@ export const VindicareCombatKnife10eFactionPackImperialAgents10eV13WeaponProfile
   strength: "4",
   armor_penetration: -1,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VirgeOfAdmonition10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("virge_of_admonition__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "virge_of_admonition__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("virge_of_admonition"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "Melee",
+  attacks: "3",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -30982,6 +38950,22 @@ export const VoidLance10eFactionPackDrukhari10eV11WeaponProfile: WeaponProfileCo
   superseded_date: null,
 };
 
+export const VoidSabre10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("void_sabre__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "void_sabre__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("void_sabre"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const Voidblade10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("voidblade__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "voidblade__10e__faction_pack_necrons_10e_v1_3",
@@ -30994,6 +38978,22 @@ export const Voidblade10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileCon
   strength: "5",
   armor_penetration: -2,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Voidbringer10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("voidbringer__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "voidbringer__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("voidbringer"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "1",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -3,
+  damage: "3",
   effective_date: null,
   superseded_date: null,
 };
@@ -31062,6 +39062,54 @@ export const VoidsmanRotorCannon10eFactionPackImperialAgents10eV13WeaponProfile:
   superseded_date: null,
 };
 
+export const VoidstormMissileLauncher10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("voidstorm_missile_launcher__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "voidstorm_missile_launcher__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("voidstorm_missile_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "48\"",
+  attacks: "2D6",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VoidweaverHaywireCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("voidweaver_haywire_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "voidweaver_haywire_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("voidweaver_haywire_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VolcanoCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("volcano_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "volcano_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("volcano_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "96\"",
+  attacks: "D3+1",
+  skill: "4+",
+  strength: "24",
+  armor_penetration: -5,
+  damage: "12",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const VolcanoLance10eFactionPackImperialKnights10eV12WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("volcano_lance__10e__faction_pack_imperial_knights_10e_v1_2"),
   weapon_profile_slug: "volcano_lance__10e__faction_pack_imperial_knights_10e_v1_2",
@@ -31103,6 +39151,22 @@ export const VolkiteBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile: W
   range: "24\"",
   attacks: "3",
   skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VolkiteCaliver10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("volkite_caliver__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "volkite_caliver__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("volkite_caliver"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "2",
+  skill: "4+",
   strength: "5",
   armor_penetration: 0,
   damage: "2",
@@ -31154,6 +39218,22 @@ export const VolkiteCombustor10eFactionPackChaosKnights10eV11WeaponProfile: Weap
   strength: "12",
   armor_penetration: 0,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VolkiteCulverin10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("volkite_culverin__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "volkite_culverin__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("volkite_culverin"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "36\"",
+  attacks: "4",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -31238,6 +39318,54 @@ export const VortexOfDoom10eFactionPackGreyKnights10eV10WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const VulcanMegaBolter10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vulcan_mega_bolter__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vulcan_mega_bolter__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vulcan_mega_bolter"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "20",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: -1,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VultureGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vulture_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vulture_gatling_cannon__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vulture_gatling_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "24\"",
+  attacks: "18",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VultureHellstrikeRack10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("vulture_hellstrike_rack__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "vulture_hellstrike_rack__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("vulture_hellstrike_rack"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2",
+  skill: "4+",
+  strength: "10",
+  armor_penetration: -3,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const WaaaghBanner10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("waaagh_banner__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "waaagh_banner__10e__faction_pack_orks_10e_v1_3",
@@ -31266,6 +39394,22 @@ export const WarDogAutocannon10eFactionPackChaosKnights10eV11WeaponProfile: Weap
   strength: "9",
   armor_penetration: -1,
   damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WarWalkerFeet10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("war_walker_feet__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "war_walker_feet__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("war_walker_feet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -31606,6 +39750,22 @@ export const Warscythe10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileCon
   superseded_date: null,
 };
 
+export const WaspFeet10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wasp_feet__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wasp_feet__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wasp_feet"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const WatchersAxe10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("watchers_axe__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "watchers_axe__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -31622,6 +39782,22 @@ export const WatchersAxe10eFactionPackAdeptusCustodes10eV10WeaponProfile: Weapon
   superseded_date: null,
 };
 
+export const Waystave10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("waystave__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "waystave__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("waystave"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "3",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "3",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const WeaponsOfTheFinalTriarch10eFactionPackNecrons10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("weapons_of_the_final_triarch__10e__faction_pack_necrons_10e_v1_3"),
   weapon_profile_slug: "weapons_of_the_final_triarch__10e__faction_pack_necrons_10e_v1_3",
@@ -31633,6 +39809,38 @@ export const WeaponsOfTheFinalTriarch10eFactionPackNecrons10eV13WeaponProfile: W
   skill: "2+",
   strength: "8",
   armor_penetration: -3,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WeaponsTeamCloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("weapons_team_close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "weapons_team_close_combat_weapons__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("weapons_team_close_combat_weapons"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "Melee",
+  attacks: "2",
+  skill: "4+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Weaverender10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("weaverender__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "weaverender__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("weaverender"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "5",
+  skill: "2+",
+  strength: "6",
+  armor_penetration: -2,
   damage: "2",
   effective_date: null,
   superseded_date: null,
@@ -31718,6 +39926,38 @@ export const WingMissiles10eFactionPackOrks10eV13WeaponProfile: WeaponProfileCon
   superseded_date: null,
 };
 
+export const WitchStaff10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("witch_staff__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "witch_staff__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("witch_staff"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "2",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Witchblade10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("witchblade__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "witchblade__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("witchblade"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "2",
+  skill: "2+",
+  strength: "3",
+  armor_penetration: 0,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const WitchseekerFlamer10eFactionPackAdeptusCustodes10eV10WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("witchseeker_flamer__10e__faction_pack_adeptus_custodes_10e_v1_0"),
   weapon_profile_slug: "witchseeker_flamer__10e__faction_pack_adeptus_custodes_10e_v1_0",
@@ -31766,6 +40006,102 @@ export const WitstealerSword10eFactionPackEmperorsChildren10eV13WeaponProfile: W
   superseded_date: null,
 };
 
+export const WraithGlaiveStrike10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wraith_glaive_strike__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wraith_glaive_strike__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wraith_glaive_strike"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "3+",
+  strength: "18",
+  armor_penetration: -4,
+  damage: "12",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WraithGlaiveSweep10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wraith_glaive_sweep__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wraith_glaive_sweep__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wraith_glaive_sweep"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "12",
+  skill: "3+",
+  strength: "8",
+  armor_penetration: -3,
+  damage: "4",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WraithboneFists10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wraithbone_fists__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wraithbone_fists__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wraithbone_fists"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "4+",
+  strength: "7",
+  armor_penetration: -2,
+  damage: "2",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WraithboneHull10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wraithbone_hull__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wraithbone_hull__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wraithbone_hull"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "6",
+  skill: "4+",
+  strength: "6",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Wraithcannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wraithcannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wraithcannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wraithcannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "18\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "14",
+  armor_penetration: -4,
+  damage: "D6+1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WraithseerDCannon10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wraithseer_d_cannon__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "wraithseer_d_cannon__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("wraithseer_d_cannon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "24\"",
+  attacks: "1",
+  skill: "4+",
+  strength: "14",
+  armor_penetration: -4,
+  damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const WreckinBall10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("wreckin_ball__10e__faction_pack_orks_10e_v1_3"),
   weapon_profile_slug: "wreckin_ball__10e__faction_pack_orks_10e_v1_3",
@@ -31810,6 +40146,22 @@ export const Wurrtower10eFactionPackOrks10eV13WeaponProfile: WeaponProfileConfig
   strength: "12",
   armor_penetration: -3,
   damage: "D6",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WyvernQuadStormshardMortar10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("wyvern_quad_stormshard_mortar__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "wyvern_quad_stormshard_mortar__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("wyvern_quad_stormshard_mortar"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "48\"",
+  attacks: "2D6",
+  skill: "4+",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -31910,6 +40262,38 @@ export const YellowClaws10eFactionPackThousandSons10eV11WeaponProfile: WeaponPro
   superseded_date: null,
 };
 
+export const ZealotsVindictor10eFactionPackAdeptaSororitas10eV13WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("zealots_vindictor__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_slug: "zealots_vindictor__10e__faction_pack_adepta_sororitas_10e_v1_3",
+  weapon_id: weaponId("zealots_vindictor"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ZealotsVindictor10eFactionPackAstraMilitarum10eV16WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("zealots_vindictor__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_slug: "zealots_vindictor__10e__faction_pack_astra_militarum_10e_v1_6",
+  weapon_id: weaponId("zealots_vindictor"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  range: "12\"",
+  attacks: "D6",
+  skill: "N/A",
+  strength: "5",
+  armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const ZealotsVindictor10eFactionPackImperialAgents10eV13WeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("zealots_vindictor__10e__faction_pack_imperial_agents_10e_v1_3"),
   weapon_profile_slug: "zealots_vindictor__10e__faction_pack_imperial_agents_10e_v1_3",
@@ -31922,6 +40306,22 @@ export const ZealotsVindictor10eFactionPackImperialAgents10eV13WeaponProfile: We
   strength: "5",
   armor_penetration: 0,
   damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const Zephyrglaive10eFactionPackAeldari10eV12WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("zephyrglaive__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_slug: "zephyrglaive__10e__faction_pack_aeldari_10e_v1_2",
+  weapon_id: weaponId("zephyrglaive"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "6",
+  armor_penetration: -2,
+  damage: "2",
   effective_date: null,
   superseded_date: null,
 };
@@ -31967,9 +40367,13 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     AdrasiteSpear10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     AdrastusBoltCaliver10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     AdrathicDevastator10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    AeldariMissileLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile,
+    AeldariMissileLauncherSunburst10eFactionPackAeldari10eV12WeaponProfile,
+    AeldariPowerSword10eFactionPackAeldari10eV12WeaponProfile,
     Aeonstave10eFactionPackNecrons10eV13WeaponProfile,
     AgentFirearm10eFactionPackImperialAgents10eV13WeaponProfile,
     AgentMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
+    Agoniser10eFactionPackAeldari10eV12WeaponProfile,
     Agoniser10eFactionPackDrukhari10eV11WeaponProfile,
     AgonisingEnergiesFocusedWitchfire10eFactionPackEmperorsChildren10eV13WeaponProfile,
     AgonisingEnergiesWitchfire10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -31981,6 +40385,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     AncestralWrathWitchfire10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     AnimusSpeculum10eFactionPackImperialAgents10eV13WeaponProfile,
     AnnihilatorBeam10eFactionPackNecrons10eV13WeaponProfile,
+    AnointedHalberd10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     AnointedPistol10eFactionPackGenestealerCults10eV10WeaponProfile,
     AntimatterMeteor10eFactionPackNecrons10eV13WeaponProfile,
     ApmLauncher10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
@@ -32000,6 +40405,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ArcaneFireballWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile,
     ArcheotechPistol10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     ArchiteGlaiveAndAgoniser10eFactionPackDrukhari10eV11WeaponProfile,
+    ArcoFlails10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ArhrasBane10eFactionPackAeldari10eV12WeaponProfile,
     ArmigerAutocannon10eFactionPackImperialKnights10eV12WeaponProfile,
     ArmouredBulk10eFactionPackNecrons10eV13WeaponProfile,
     ArmouredFeet10eFactionPackAdeptusCustodes10eV10WeaponProfile,
@@ -32007,8 +40414,10 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ArmouredFeet10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ArmouredFeet10eFactionPackGreyKnights10eV10WeaponProfile,
     ArmouredFeet10eFactionPackImperialKnights10eV12WeaponProfile,
+    ArmouredFrame10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ArmouredHull10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     ArmouredHull10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    ArmouredHull10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ArmouredHull10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ArmouredHull10eFactionPackGenestealerCults10eV10WeaponProfile,
     ArmouredHull10eFactionPackGreyKnights10eV10WeaponProfile,
@@ -32017,7 +40426,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ArmouredHull10eFactionPackOrks10eV13WeaponProfile,
     ArmouredHull10eFactionPackTauEmpire10eV12WeaponProfile,
     ArmouredLimbs10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    ArmouredTracks10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ArmouredTracks10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    ArmouredTracks10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ArmouredTracks10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ArmouredTracks10eFactionPackDeathGuard10eV11WeaponProfile,
     ArmouredTracks10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -32027,10 +40438,12 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ArmouredTracks10eFactionPackWorldEaters10eV11WeaponProfile,
     ArmouredWheels10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     ArtificerBoltPistol10eFactionPackImperialAgents10eV13WeaponProfile,
+    ArtificerCraftedStormBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ArtificerCraftedStormBolter10eFactionPackImperialAgents10eV13WeaponProfile,
     ArtificerCrozius10eFactionPackImperialAgents10eV13WeaponProfile,
     ArtificerShotgun10eFactionPackImperialAgents10eV13WeaponProfile,
     AssaultBolters10eFactionPackImperialAgents10eV13WeaponProfile,
+    AssaultCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     AssaultCannon10eFactionPackGreyKnights10eV10WeaponProfile,
     AssaultCannon10eFactionPackImperialAgents10eV13WeaponProfile,
     AstartesChainblade10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -32042,6 +40455,10 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     AsteriusVolkiteCulverin10eFactionPackChaosKnights10eV11WeaponProfile,
     AsteriusVolkiteCulverin10eFactionPackImperialKnights10eV12WeaponProfile,
     AstralBlast10eFactionPackThousandSons10eV11WeaponProfile,
+    AstropathsStave10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    AsuVarDuellistStance10eFactionPackAeldari10eV12WeaponProfile,
+    AsuVarMythicStance10eFactionPackAeldari10eV12WeaponProfile,
+    AsuVarQuicksilverStance10eFactionPackAeldari10eV12WeaponProfile,
     AtalanIncinerator10eFactionPackGenestealerCults10eV10WeaponProfile,
     AtalanPowerWeapon10eFactionPackGenestealerCults10eV10WeaponProfile,
     AtalanSmallArms10eFactionPackGenestealerCults10eV10WeaponProfile,
@@ -32053,19 +40470,27 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     AttackSquig10eFactionPackOrks10eV13WeaponProfile,
     AttendantsHellblades10eFactionPackChaosDaemons10eV12WeaponProfile,
     AutoBoltstormGauntlets10eFactionPackImperialAgents10eV13WeaponProfile,
+    AutoShotgun10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    Autocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Autocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     AutochPatternBoltPistol10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     AutochPatternBolter10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     AutochPatternCombiBolter10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    Autogun10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     Autogun10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     AutomatonClaws10eFactionPackNecrons10eV13WeaponProfile,
+    Autopistol10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    Autopistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Autopistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Autopistol10eFactionPackGenestealerCults10eV10WeaponProfile,
     Autopistol10eFactionPackImperialAgents10eV13WeaponProfile,
     Autopistol10eFactionPackThousandSons10eV11WeaponProfile,
     Autopistol10eFactionPackWorldEaters10eV11WeaponProfile,
+    Autostubber10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    AvengerBoltCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     AvengerChaincannon10eFactionPackChaosKnights10eV11WeaponProfile,
     AvengerGatlingCannon10eFactionPackImperialKnights10eV12WeaponProfile,
+    AvengerShurikenCatapult10eFactionPackAeldari10eV12WeaponProfile,
     AxeOfDismemberment10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     AxeOfDismemberment10eFactionPackWorldEaters10eV11WeaponProfile,
     AxeOfDominion10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -32074,6 +40499,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     AxeOfKhorneStrike10eFactionPackWorldEaters10eV11WeaponProfile,
     AxeOfKhorneSweep10eFactionPackChaosDaemons10eV12WeaponProfile,
     AxeOfKhorneSweep10eFactionPackWorldEaters10eV11WeaponProfile,
+    BaleEye10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Baleblast10eFactionPackDrukhari10eV11WeaponProfile,
     BalefirePike10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BalefireTome10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -32090,11 +40516,14 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     BalistusGrenadeLauncher10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     BaneStrike10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     BaneSweep10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    BanebladeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    BansheeBlade10eFactionPackAeldari10eV12WeaponProfile,
     BarbedOvipositor10eFactionPackTyranids10eV14WeaponProfile,
     BarbedStrangler10eFactionPackTyranids10eV14WeaponProfile,
     BarbedTailAndDissectingClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     BarbedTailAndDissectingClaws10eFactionPackEmperorsChildren10eV13WeaponProfile,
     Barblauncher10eFactionPackTyranids10eV14WeaponProfile,
+    BatteryCloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile,
     BattlesuitFists10eFactionPackTauEmpire10eV12WeaponProfile,
     BeastSnaggaKlaw10eFactionPackOrks10eV13WeaponProfile,
     Beastchoppa10eFactionPackOrks10eV13WeaponProfile,
@@ -32124,7 +40553,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     BioPlasmaTorrent10eFactionPackTyranids10eV14WeaponProfile,
     BioPlasmicCannon10eFactionPackTyranids10eV14WeaponProfile,
     BioPlasmicScream10eFactionPackTyranids10eV14WeaponProfile,
+    BionicArmWithDevilsClaw10eFactionPackAstraMilitarum10eV16WeaponProfile,
     BionicGauntlet10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    BitingBlade10eFactionPackAeldari10eV12WeaponProfile,
     BitingMaw10eFactionPackChaosDaemons10eV12WeaponProfile,
     BlackBladeOfAntwyr10eFactionPackGreyKnights10eV10WeaponProfile,
     BlackShieldBlades10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -32133,10 +40564,12 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     BladeOfBlood10eFactionPackChaosDaemons10eV12WeaponProfile,
     BladeOfDecayStrike10eFactionPackChaosDaemons10eV12WeaponProfile,
     BladeOfDecaySweep10eFactionPackChaosDaemons10eV12WeaponProfile,
+    BladeOfDestruction10eFactionPackAeldari10eV12WeaponProfile,
     BladeOfMagnusStrike10eFactionPackThousandSons10eV11WeaponProfile,
     BladeOfMagnusSweep10eFactionPackThousandSons10eV11WeaponProfile,
     BladeOfTheAncestors10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     BladeOfTheLaer10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    BladeOfVigil10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     BladeStruts10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BladeTailAndWhipCoils10eFactionPackNecrons10eV13WeaponProfile,
     BladedAxle10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -32145,14 +40578,20 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     BladedLimbs10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BladedWings10eFactionPackDrukhari10eV11WeaponProfile,
     BladestaveAndPreyHook10eFactionPackTauEmpire10eV12WeaponProfile,
+    Bladevanes10eFactionPackAeldari10eV12WeaponProfile,
     Bladevanes10eFactionPackDrukhari10eV11WeaponProfile,
     BladevanesAndChainsnares10eFactionPackDrukhari10eV11WeaponProfile,
     BlasphemousAppendages10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BlastJavelin10eFactionPackTauEmpire10eV12WeaponProfile,
+    BlastPistol10eFactionPackAeldari10eV12WeaponProfile,
     BlastPistol10eFactionPackDrukhari10eV11WeaponProfile,
+    Blaster10eFactionPackAeldari10eV12WeaponProfile,
     Blaster10eFactionPackDrukhari10eV11WeaponProfile,
     BlastmasterSingleFrequency10eFactionPackEmperorsChildren10eV13WeaponProfile,
     BlastmasterVariedFrequency10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    BlessedBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    BlessedHalberd10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    BlessedSword10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     BlightLauncher10eFactionPackDeathGuard10eV11WeaponProfile,
     BlightreaperCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BlindingVenom10eFactionPackTyranids10eV14WeaponProfile,
@@ -32161,6 +40600,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Bloodflail10eFactionPackChaosDaemons10eV12WeaponProfile,
     Bloodflail10eFactionPackWorldEaters10eV11WeaponProfile,
     Bloodlash10eFactionPackChaosDaemons10eV12WeaponProfile,
+    BloodyTwins10eFactionPackAeldari10eV12WeaponProfile,
     BlueClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     BlueClaws10eFactionPackThousandSons10eV11WeaponProfile,
     BoltCannon10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
@@ -32171,27 +40611,40 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     BoltOfChangeWitchfire10eFactionPackThousandSons10eV11WeaponProfile,
     BoltOfTzeentchFocusedWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile,
     BoltOfTzeentchWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile,
+    BoltPistol10eCodexAstraMilitarum10eWeaponProfile,
+    BoltPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    BoltPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     BoltPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BoltPistol10eFactionPackDeathGuard10eV11WeaponProfile,
     BoltPistol10eFactionPackEmperorsChildren10eV13WeaponProfile,
     BoltPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     BoltPistol10eFactionPackWorldEaters10eV11WeaponProfile,
+    BoltPistols10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     BoltRevolver10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     BoltRifle10eFactionPackImperialAgents10eV13WeaponProfile,
     BoltShotgun10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     BoltSniperRifle10eFactionPackImperialAgents10eV13WeaponProfile,
+    Boltgun10eCodexAstraMilitarum10eWeaponProfile,
+    Boltgun10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     Boltgun10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    Boltgun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Boltgun10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Boltgun10eFactionPackDeathGuard10eV11WeaponProfile,
     Boltgun10eFactionPackEmperorsChildren10eV13WeaponProfile,
     Boltgun10eFactionPackImperialAgents10eV13WeaponProfile,
+    BombastFieldGun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     BoneCleaverLashWhipAndRendingClaws10eFactionPackTyranids10eV14WeaponProfile,
     BoneSabres10eFactionPackTyranids10eV14WeaponProfile,
     Boombits10eFactionPackOrks10eV13WeaponProfile,
     Boomstikks10eFactionPackOrks10eV13WeaponProfile,
+    BraceOfPistols10eFactionPackAeldari10eV12WeaponProfile,
+    BraggsAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    BrazierOfHolyFire10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     BreachaRam10eFactionPackOrks10eV13WeaponProfile,
     BreacherOrdnance10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    BrightLance10eFactionPackAeldari10eV12WeaponProfile,
     BrimstoneVolcanoLance10eFactionPackChaosKnights10eV11WeaponProfile,
+    BroodTwain10eFactionPackAeldari10eV12WeaponProfile,
     BroodlordClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     BrutalAssaultWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     BrutalAssaultWeapon10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -32201,8 +40654,10 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     BubblechukkaWobblyBubble10eFactionPackOrks10eV13WeaponProfile,
     BuboticBlade10eFactionPackDeathGuard10eV11WeaponProfile,
     BuboticWeapons10eFactionPackDeathGuard10eV11WeaponProfile,
+    BullgrynMaul10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Burna10eFactionPackOrks10eV13WeaponProfile,
     BurnaExhausts10eFactionPackOrks10eV13WeaponProfile,
+    BurningHands10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     BurningHands10eFactionPackImperialAgents10eV13WeaponProfile,
     BurningRoar10eFactionPackChaosDaemons10eV12WeaponProfile,
     BurningRoar10eFactionPackWorldEaters10eV11WeaponProfile,
@@ -32216,11 +40671,17 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     CarnifexCrushingClaws10eFactionPackTyranids10eV14WeaponProfile,
     CarnifexExtraScythingTalons10eFactionPackTyranids10eV14WeaponProfile,
     CarnifexScythingTalons10eFactionPackTyranids10eV14WeaponProfile,
+    CarnodonTwinAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    CarnodonTwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    CarnodonTwinMultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CasketOfFlensing10eFactionPackDrukhari10eV11WeaponProfile,
     CastellanAxe10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     Castigation10eFactionPackImperialAgents10eV13WeaponProfile,
+    CastigatorAutocannons10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    CastigatorBattleCannon10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     CastigatorBoltCannon10eFactionPackChaosKnights10eV11WeaponProfile,
     CastigatorBoltCannon10eFactionPackImperialKnights10eV12WeaponProfile,
+    CastigatorGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CavalryArcMaul10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     CavalrySabreAndClawedLimbs10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     CawlsOmnissianAxe10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
@@ -32238,13 +40699,20 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Chainfist10eFactionPackEmperorsChildren10eV13WeaponProfile,
     Chainfist10eFactionPackImperialAgents10eV13WeaponProfile,
     Chainfist10eFactionPackWorldEaters10eV11WeaponProfile,
+    Chainsabres10eFactionPackAeldari10eV12WeaponProfile,
+    Chainsword10eCodexAstraMilitarum10eWeaponProfile,
+    Chainsword10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    Chainsword10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Chainsword10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Chainsword10eFactionPackGenestealerCults10eV10WeaponProfile,
     Chainsword10eFactionPackImperialAgents10eV13WeaponProfile,
     Chainsword10eFactionPackThousandSons10eV11WeaponProfile,
     ChaosStave10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    ChemCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ChemicalVials10eFactionPackGenestealerCults10eV10WeaponProfile,
+    ChironGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Chirurgeon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    ChirurgeonsTools10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ChitinBarbedLimbs10eFactionPackTyranids10eV14WeaponProfile,
     ChitinousClawsAndTeeth10eFactionPackTyranids10eV14WeaponProfile,
     Choppa10eFactionPackOrks10eV13WeaponProfile,
@@ -32255,8 +40723,12 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Claws10eFactionPackNecrons10eV13WeaponProfile,
     ClawsAndTeeth10eFactionPackTyranids10eV14WeaponProfile,
     ClearanceIncinerator10eFactionPackGenestealerCults10eV10WeaponProfile,
+    CloseCombatWeapon10eCodexAstraMilitarum10eWeaponProfile,
+    CloseCombatWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     CloseCombatWeapon10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     CloseCombatWeapon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    CloseCombatWeapon10eFactionPackAeldari10eV12WeaponProfile,
+    CloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CloseCombatWeapon10eFactionPackDeathGuard10eV11WeaponProfile,
     CloseCombatWeapon10eFactionPackDrukhari10eV11WeaponProfile,
@@ -32271,43 +40743,57 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     CloseCombatWeapon10eFactionPackTauEmpire10eV12WeaponProfile,
     CloseCombatWeapon10eFactionPackThousandSons10eV11WeaponProfile,
     CloseCombatWeapon10eFactionPackWorldEaters10eV11WeaponProfile,
+    CloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CloseCombatWeapons10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CloseCombatWeapons10eFactionPackOrks10eV13WeaponProfile,
     CloseCombatWeapons10eFactionPackTauEmpire10eV12WeaponProfile,
+    CloudburstMissileLauncher10eFactionPackAeldari10eV12WeaponProfile,
     ClusterRocketSystem10eFactionPackTauEmpire10eV12WeaponProfile,
+    CoaxialAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CognisFlamer10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     CognisHeavyStubber10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     CognisHeavyStubberArray10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     CoiledTentacles10eFactionPackChaosDaemons10eV12WeaponProfile,
+    ColossusSiegeMortar10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CombatKnife10eFactionPackImperialAgents10eV13WeaponProfile,
+    CombatShotgun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CombiBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     CombiBolter10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     CombiBolter10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CombiBolter10eFactionPackDeathGuard10eV11WeaponProfile,
     CombiBolter10eFactionPackEmperorsChildren10eV13WeaponProfile,
     CombiBolter10eFactionPackWorldEaters10eV11WeaponProfile,
+    CombiWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     CombiWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CombiWeapon10eFactionPackDeathGuard10eV11WeaponProfile,
     CombiWeapon10eFactionPackEmperorsChildren10eV13WeaponProfile,
     CombiWeapon10eFactionPackGreyKnights10eV10WeaponProfile,
     CombiWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
     CombiWeapon10eFactionPackWorldEaters10eV11WeaponProfile,
+    CommissarsCloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    CommissarsPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CommuneBlade10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CommuneStave10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ConcussionGauntlet10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     ConcussionMaul10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    CondemnorBoltPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    CondemnorBoltgun10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     CondemnorBoltgun10eFactionPackImperialAgents10eV13WeaponProfile,
     CondemnorStake10eFactionPackImperialAgents10eV13WeaponProfile,
     ConflagrationCannon10eFactionPackImperialKnights10eV12WeaponProfile,
+    Conquest10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ContemptorCombatWeapon10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     ControlStave10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     ConversionBeamCannon10eFactionPackChaosKnights10eV11WeaponProfile,
     ConversionBeamCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ConversionBeamCannon10eFactionPackImperialKnights10eV12WeaponProfile,
     ConversionBeamObliterator10eFactionPackImperialKnights10eV12WeaponProfile,
+    CorbecsHotShotLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CorruptedPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CorruptedStaff10eFactionPackDeathGuard10eV11WeaponProfile,
     CorruptedStave10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    CorsairBlade10eFactionPackAeldari10eV12WeaponProfile,
+    CorsairFirearm10eFactionPackAeldari10eV12WeaponProfile,
     CoruscatingBlueFlames10eFactionPackChaosDaemons10eV12WeaponProfile,
     CoruscatingBlueFlames10eFactionPackThousandSons10eV11WeaponProfile,
     CoruscatingPinkFlames10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -32318,6 +40804,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     CosmicInsanity10eFactionPackNecrons10eV13WeaponProfile,
     CowardsBane10eFactionPackWorldEaters10eV11WeaponProfile,
     CracklingTendrils10eFactionPackNecrons10eV13WeaponProfile,
+    CrewCloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile,
     CroziusArcanum10eFactionPackGreyKnights10eV10WeaponProfile,
     CrushingBulk10eFactionPackTauEmpire10eV12WeaponProfile,
     CrushingClawsAndRendingClaws10eFactionPackTyranids10eV14WeaponProfile,
@@ -32346,6 +40833,12 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     CycloneMissileLauncherKrak10eFactionPackImperialAgents10eV13WeaponProfile,
     CyphersBoltPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     CyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    DBombard10eFactionPackAeldari10eV12WeaponProfile,
+    DCannon10eFactionPackAeldari10eV12WeaponProfile,
+    DFlailBlast10eFactionPackAeldari10eV12WeaponProfile,
+    DFlailRift10eFactionPackAeldari10eV12WeaponProfile,
+    DImpaler10eFactionPackAeldari10eV12WeaponProfile,
+    DScythe10eFactionPackAeldari10eV12WeaponProfile,
     DaGrabzappa10eFactionPackOrks10eV13WeaponProfile,
     DaRippaStandard10eFactionPackOrks10eV13WeaponProfile,
     DaRippaSupercharge10eFactionPackOrks10eV13WeaponProfile,
@@ -32361,6 +40854,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     DaemonicBladesSweep10eFactionPackEmperorsChildren10eV13WeaponProfile,
     DaemonicClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     DarkBlessing10eFactionPackThousandSons10eV11WeaponProfile,
+    DarkLance10eFactionPackAeldari10eV12WeaponProfile,
     DarkLance10eFactionPackDrukhari10eV11WeaponProfile,
     DarkScythe10eFactionPackDrukhari10eV11WeaponProfile,
     DarkflameCannon10eFactionPackChaosKnights10eV11WeaponProfile,
@@ -32371,13 +40865,21 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Dataspikes10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     DawnBladeStrike10eFactionPackTauEmpire10eV12WeaponProfile,
     DawnBladeSweep10eFactionPackTauEmpire10eV12WeaponProfile,
+    DeathCultBlades10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     DeathCultBlades10eFactionPackImperialAgents10eV13WeaponProfile,
     DeathCultPowerBlade10eFactionPackImperialAgents10eV13WeaponProfile,
+    DeathCultPowerBlades10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     DeathRay10eFactionPackNecrons10eV13WeaponProfile,
+    DeathRiderLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    DeathSpinner10eFactionPackAeldari10eV12WeaponProfile,
+    DeathWeavers10eFactionPackAeldari10eV12WeaponProfile,
     DeathsHeads10eFactionPackChaosDaemons10eV12WeaponProfile,
     DeathsHeads10eFactionPackDeathGuard10eV11WeaponProfile,
+    DeathshroudCannonDispersed10eFactionPackAeldari10eV12WeaponProfile,
+    DeathshroudCannonFocused10eFactionPackAeldari10eV12WeaponProfile,
     Deathspitter10eFactionPackTyranids10eV14WeaponProfile,
     DeathspittersWithSlimerMaggots10eFactionPackTyranids10eV14WeaponProfile,
+    DeathstrikeMissile10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DeathwatchMarksmanBoltCarbine10eFactionPackImperialAgents10eV13WeaponProfile,
     DeathwatchShotgun10eFactionPackImperialAgents10eV13WeaponProfile,
     DeathwatchThunderHammer10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -32389,39 +40891,60 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Deffgun10eFactionPackOrks10eV13WeaponProfile,
     Deffkannon10eFactionPackOrks10eV13WeaponProfile,
     DeffstormMegaShoota10eFactionPackOrks10eV13WeaponProfile,
+    DemiklaivesDualBlades10eFactionPackAeldari10eV12WeaponProfile,
     DemiklaivesDualBlades10eFactionPackDrukhari10eV11WeaponProfile,
+    DemiklaivesSingleBlade10eFactionPackAeldari10eV12WeaponProfile,
     DemiklaivesSingleBlade10eFactionPackDrukhari10eV11WeaponProfile,
+    DemolisherBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    DemolisherCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DemolisherCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     DemolisherCannon10eFactionPackThousandSons10eV11WeaponProfile,
+    DemolitionCharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DemolitionCharge10eFactionPackImperialAgents10eV13WeaponProfile,
     DemolitionChargeCache10eFactionPackGenestealerCults10eV10WeaponProfile,
     DemolitionCharges10eFactionPackGenestealerCults10eV10WeaponProfile,
+    Demolitions10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DesecratorLaserDestructor10eFactionPackChaosKnights10eV11WeaponProfile,
     DespoilerBattleCannon10eFactionPackChaosKnights10eV11WeaponProfile,
     DespoilerGatlingCannon10eFactionPackChaosKnights10eV11WeaponProfile,
     DestroyerMissiles10eFactionPackTauEmpire10eV12WeaponProfile,
+    Destructor10eFactionPackAeldari10eV12WeaponProfile,
     Devourer10eFactionPackTyranids10eV14WeaponProfile,
     DevourersWithBrainleechWorms10eFactionPackTyranids10eV14WeaponProfile,
     DiabolusHeavyStubber10eFactionPackChaosKnights10eV11WeaponProfile,
+    DialogusStaff10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     DireBioCannon10eFactionPackTyranids10eV14WeaponProfile,
     DireScytheBlades10eFactionPackDrukhari10eV11WeaponProfile,
+    Diresword10eFactionPackAeldari10eV12WeaponProfile,
     Dirgesinger10eFactionPackImperialAgents10eV13WeaponProfile,
+    Dirk10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DiseasedClawsAndFangs10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     DiseasedClawsAndTeeth10eFactionPackChaosDaemons10eV12WeaponProfile,
     DiseasedClawsAndTeeth10eFactionPackDeathGuard10eV11WeaponProfile,
     DisgustingSneezes10eFactionPackChaosDaemons10eV12WeaponProfile,
+    DisintegratorCannon10eFactionPackAeldari10eV12WeaponProfile,
     DisintegratorCannon10eFactionPackDrukhari10eV11WeaponProfile,
     DisruptorMissileLauncher10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    DissonanceCannon10eFactionPackAeldari10eV12WeaponProfile,
+    DissonancePistol10eFactionPackAeldari10eV12WeaponProfile,
     DistensibleJaw10eFactionPackTyranids10eV14WeaponProfile,
     DiviningSpear10eFactionPackThousandSons10eV11WeaponProfile,
+    DominusTripleBombard10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DoomsdayBell10eFactionPackChaosDaemons10eV12WeaponProfile,
     DoomsdayBell10eFactionPackDeathGuard10eV11WeaponProfile,
     DoomsdayBlaster10eFactionPackNecrons10eV13WeaponProfile,
     DoomsdayCannon10eFactionPackNecrons10eV13WeaponProfile,
     DoomstalkerLimbs10eFactionPackNecrons10eV13WeaponProfile,
+    Doomweaver10eFactionPackAeldari10eV12WeaponProfile,
+    DozerRam10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     Drachnyen10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    DragonAxe10eFactionPackAeldari10eV12WeaponProfile,
+    DragonFusionGun10eFactionPackAeldari10eV12WeaponProfile,
+    DragonFusionPistol10eFactionPackAeldari10eV12WeaponProfile,
+    DragonsBreathFlamer10eFactionPackAeldari10eV12WeaponProfile,
     DreadKillsaw10eFactionPackOrks10eV13WeaponProfile,
     DreadKlaw10eFactionPackOrks10eV13WeaponProfile,
+    DreadOfTheDeepVoid10eFactionPackAeldari10eV12WeaponProfile,
     DreadRippaKlaw10eFactionPackOrks10eV13WeaponProfile,
     Dreadfists10eFactionPackGreyKnights10eV10WeaponProfile,
     DreadnoughtCombatWeapon10eFactionPackGreyKnights10eV10WeaponProfile,
@@ -32432,9 +40955,11 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     DroolCannon10eFactionPackTyranids10eV14WeaponProfile,
     DuellingSabre10eFactionPackEmperorsChildren10eV13WeaponProfile,
     DunecrawlerLegs10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    DutyAndVengeance10eFactionPackAstraMilitarum10eV16WeaponProfile,
     DvorgiteSkinner10eFactionPackTauEmpire10eV12WeaponProfile,
     Eadbanger10eFactionPackOrks10eV13WeaponProfile,
     EaglesScream10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    EarthshakerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     EavyLobba10eFactionPackOrks10eV13WeaponProfile,
     EctoplasmaCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     EctoplasmaCannon10eFactionPackThousandSons10eV11WeaponProfile,
@@ -32446,6 +40971,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     EctoplasmaDestructor10eFactionPackThousandSons10eV11WeaponProfile,
     EctoplasmaDestructor10eFactionPackWorldEaters10eV11WeaponProfile,
     EldritchLance10eFactionPackNecrons10eV13WeaponProfile,
+    EldritchStorm10eFactionPackAeldari10eV12WeaponProfile,
     ElectroGoads10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ElectroleechStave10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     Electroscourge10eFactionPackChaosKnights10eV11WeaponProfile,
@@ -32455,30 +40981,40 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Electroscourge10eFactionPackWorldEaters10eV11WeaponProfile,
     ElectrostaticGauntlets10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     EmpathicObliterator10eFactionPackNecrons10eV13WeaponProfile,
+    EnforcerCrew10eFactionPackAstraMilitarum10eV16WeaponProfile,
     EnforcerMeleeWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     EnforcerPistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    EnginseerAxe10eFactionPackAstraMilitarum10eV16WeaponProfile,
     EnmiticAnnihilator10eFactionPackNecrons10eV13WeaponProfile,
     EnmiticDisintegratorPistols10eFactionPackNecrons10eV13WeaponProfile,
     EnmiticDisintegrators10eFactionPackNecrons10eV13WeaponProfile,
     EnmiticExterminator10eFactionPackNecrons10eV13WeaponProfile,
     EntropyCannon10eFactionPackDeathGuard10eV11WeaponProfile,
+    EnvenomedBlade10eFactionPackAstraMilitarum10eV16WeaponProfile,
     EradicationBeamerDissipated10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     EradicationBeamerFocused10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     EradicationRayDissipated10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     EradicationRayFocused10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    EradicatorNovaCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     EtacarnPlasmaBeamer10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     EtacarnPlasmaGun10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     Eviscerator10eFactionPackImperialAgents10eV13WeaponProfile,
     ExaltedChainblade10eFactionPackWorldEaters10eV11WeaponProfile,
     ExaltedSeekerTongues10eFactionPackChaosDaemons10eV12WeaponProfile,
     ExaltedWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    ExarchsDeathSpinner10eFactionPackAeldari10eV12WeaponProfile,
+    ExarchsDragonFusionGun10eFactionPackAeldari10eV12WeaponProfile,
+    ExarchsLasblaster10eFactionPackAeldari10eV12WeaponProfile,
     ExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ExcruciatorCannon10eFactionPackEmperorsChildren10eV13WeaponProfile,
     ExcruciatorCannon10eFactionPackThousandSons10eV11WeaponProfile,
     ExcruciatorCannon10eFactionPackWorldEaters10eV11WeaponProfile,
     ExcruciatorMaul10eFactionPackImperialAgents10eV13WeaponProfile,
+    Executioner10eFactionPackAeldari10eV12WeaponProfile,
     ExecutionerGreatblade10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     ExecutionerPistol10eFactionPackImperialAgents10eV13WeaponProfile,
+    ExecutionerPlasmaCannonStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    ExecutionerPlasmaCannonSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ExecutionerShotgun10eFactionPackImperialAgents10eV13WeaponProfile,
     ExecutionersDemiklaivesDualBlades10eFactionPackDrukhari10eV11WeaponProfile,
     ExecutionersDemiklaivesSingleBlade10eFactionPackDrukhari10eV11WeaponProfile,
@@ -32486,8 +41022,12 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ExitusPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     ExitusRifle10eFactionPackImperialAgents10eV13WeaponProfile,
     ExoarmourGrenadeLauncher10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    ExorcistConflagrationRockets10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ExorcistMissileLauncher10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ExperimentalPulseSubmunitionsRifleEmp10eFactionPackTauEmpire10eV12WeaponProfile,
     ExperimentalPulseSubmunitionsRifleIonic10eFactionPackTauEmpire10eV12WeaponProfile,
+    ExterminatorAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    EyeOfWrath10eFactionPackAeldari10eV12WeaponProfile,
     Eyeburst10eFactionPackDrukhari10eV11WeaponProfile,
     EyezOfMork10eFactionPackOrks10eV13WeaponProfile,
     FarstalkerFirearm10eFactionPackTauEmpire10eV12WeaponProfile,
@@ -32496,14 +41036,21 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     FellboreStrike10eFactionPackChaosKnights10eV11WeaponProfile,
     FellboreSweep10eFactionPackChaosKnights10eV11WeaponProfile,
     FerrumiteCannon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    Fidelis10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     Fidelity10eFactionPackTauEmpire10eV12WeaponProfile,
+    FireAxe10eFactionPackAeldari10eV12WeaponProfile,
     FireOfTzeentchBlueFire10eFactionPackChaosDaemons10eV12WeaponProfile,
     FireOfTzeentchPinkFire10eFactionPackChaosDaemons10eV12WeaponProfile,
     FirebladePulseRifle10eFactionPackTauEmpire10eV12WeaponProfile,
+    Firepike10eFactionPackAeldari10eV12WeaponProfile,
     FiresOfTheAbyssFocusedWitchfire10eFactionPackThousandSons10eV11WeaponProfile,
     FiresOfTheAbyssWitchfire10eFactionPackThousandSons10eV11WeaponProfile,
+    FirestormScatterLaser10eFactionPackAeldari10eV12WeaponProfile,
     FixitsWrench10eFactionPackOrks10eV13WeaponProfile,
     FlailOfCorruption10eFactionPackDeathGuard10eV11WeaponProfile,
+    Flamer10eCodexAstraMilitarum10eWeaponProfile,
+    Flamer10eFactionPackAeldari10eV12WeaponProfile,
+    Flamer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Flamer10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Flamer10eFactionPackDeathGuard10eV11WeaponProfile,
     Flamer10eFactionPackGenestealerCults10eV10WeaponProfile,
@@ -32538,6 +41085,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ForceOrbCane10eFactionPackImperialAgents10eV13WeaponProfile,
     ForceStave10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ForceStave10eFactionPackThousandSons10eV11WeaponProfile,
+    ForceWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ForceWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ForceWeapon10eFactionPackDeathGuard10eV11WeaponProfile,
     ForceWeapon10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -32555,17 +41103,21 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     FoulMouthparts10eFactionPackChaosDaemons10eV12WeaponProfile,
     FoulMouthparts10eFactionPackDeathGuard10eV11WeaponProfile,
     FragCannon10eFactionPackImperialAgents10eV13WeaponProfile,
+    FragLance10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Fragdrill10eFactionPackGenestealerCults10eV10WeaponProfile,
     FragmentationClusterShellLauncher10eFactionPackTauEmpire10eV12WeaponProfile,
     FragstormGrenadeLauncher10eFactionPackGreyKnights10eV10WeaponProfile,
     FragstormGrenadeLauncher10eFactionPackImperialAgents10eV13WeaponProfile,
     FreedomsHandStrike10eFactionPackImperialKnights10eV12WeaponProfile,
     FreedomsHandSweep10eFactionPackImperialKnights10eV12WeaponProfile,
+    FuryOfTheTempest10eFactionPackAeldari10eV12WeaponProfile,
     FusionBlaster10eFactionPackTauEmpire10eV12WeaponProfile,
     FusionCascade10eFactionPackTauEmpire10eV12WeaponProfile,
     FusionCollider10eFactionPackTauEmpire10eV12WeaponProfile,
     FusionEliminator10eFactionPackTauEmpire10eV12WeaponProfile,
     FusionEradicator10eFactionPackTauEmpire10eV12WeaponProfile,
+    FusionGun10eFactionPackAeldari10eV12WeaponProfile,
+    FusionPistol10eFactionPackAeldari10eV12WeaponProfile,
     GalatusWarblade10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     GalvanicCarbine10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     GalvanicCasterFlechette10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
@@ -32576,6 +41128,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     GarralisksClawsAndTeeth10eFactionPackImperialAgents10eV13WeaponProfile,
     GatlingPsilencer10eFactionPackGreyKnights10eV10WeaponProfile,
     GauntletOfFire10eFactionPackNecrons10eV13WeaponProfile,
+    GauntsChainsword10eFactionPackAstraMilitarum10eV16WeaponProfile,
     GaussAnnihilator10eFactionPackNecrons10eV13WeaponProfile,
     GaussBlaster10eFactionPackNecrons10eV13WeaponProfile,
     GaussCannon10eFactionPackNecrons10eV13WeaponProfile,
@@ -32594,7 +41147,13 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     GazeOfMagnus10eFactionPackThousandSons10eV11WeaponProfile,
     GenestealerClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     GheiststrikeMissileLauncher10eFactionPackChaosKnights10eV11WeaponProfile,
+    Ghostaxe10eFactionPackAeldari10eV12WeaponProfile,
+    GhostglaiveStrike10eFactionPackAeldari10eV12WeaponProfile,
+    GhostglaiveSweep10eFactionPackAeldari10eV12WeaponProfile,
     GhostkeelFists10eFactionPackTauEmpire10eV12WeaponProfile,
+    GhostspearStrike10eFactionPackAeldari10eV12WeaponProfile,
+    GhostspearSweep10eFactionPackAeldari10eV12WeaponProfile,
+    Ghostswords10eFactionPackAeldari10eV12WeaponProfile,
     GigaShoota10eFactionPackOrks10eV13WeaponProfile,
     GladiatorialWeapons10eFactionPackDrukhari10eV11WeaponProfile,
     GlimmersteelBlade10eFactionPackDrukhari10eV11WeaponProfile,
@@ -32604,6 +41163,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     GnarlrodSweep10eFactionPackDeathGuard10eV11WeaponProfile,
     GnashingMaw10eFactionPackDeathGuard10eV11WeaponProfile,
     Gnosis10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    GoadLance10eFactionPackAstraMilitarum10eV16WeaponProfile,
     GodhammerLascannon10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     GodhammerLascannon10eFactionPackGreyKnights10eV10WeaponProfile,
     GoldenFists10eFactionPackNecrons10eV13WeaponProfile,
@@ -32612,6 +41172,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Gorechild10eFactionPackWorldEaters10eV11WeaponProfile,
     GorestormCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     GorestormCannon10eFactionPackWorldEaters10eV11WeaponProfile,
+    GorgonMortar10eFactionPackAstraMilitarum10eV16WeaponProfile,
     GorinHornsStrike10eFactionPackOrks10eV13WeaponProfile,
     GorinHornsSweep10eFactionPackOrks10eV13WeaponProfile,
     GorksKlawStrike10eFactionPackOrks10eV13WeaponProfile,
@@ -32646,12 +41207,18 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     GreatPlagueBlade10eFactionPackDeathGuard10eV11WeaponProfile,
     GreatWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     GreaterPlagueProbe10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    GrenadeLauncherFrag10eCodexAstraMilitarum10eWeaponProfile,
+    GrenadeLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile,
     GrenadeLauncherFrag10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     GrenadeLauncherFrag10eFactionPackDeathGuard10eV11WeaponProfile,
     GrenadeLauncherFrag10eFactionPackGenestealerCults10eV10WeaponProfile,
+    GrenadeLauncherKrak10eCodexAstraMilitarum10eWeaponProfile,
+    GrenadeLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile,
     GrenadeLauncherKrak10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     GrenadeLauncherKrak10eFactionPackDeathGuard10eV11WeaponProfile,
     GrenadeLauncherKrak10eFactionPackGenestealerCults10eV10WeaponProfile,
+    GrenadierGauntlet10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    GriffonHeavyMortar10eFactionPackAstraMilitarum10eV16WeaponProfile,
     GrotBlasta10eFactionPackOrks10eV13WeaponProfile,
     GrotCrew10eFactionPackOrks10eV13WeaponProfile,
     GrotGuidedBomm10eFactionPackOrks10eV13WeaponProfile,
@@ -32675,9 +41242,14 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HadesLascannon10eFactionPackThousandSons10eV11WeaponProfile,
     HadesLascannon10eFactionPackWorldEaters10eV11WeaponProfile,
     HaemonculusToolsAndScissorhands10eFactionPackDrukhari10eV11WeaponProfile,
+    HallowedChainsword10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    HallowedMace10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    HandFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HandFlamer10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HandFlamer10eFactionPackGenestealerCults10eV10WeaponProfile,
     HandFlamer10eFactionPackImperialAgents10eV13WeaponProfile,
+    HarlequinsBlade10eFactionPackAeldari10eV12WeaponProfile,
+    HarlequinsSpecialWeapon10eFactionPackAeldari10eV12WeaponProfile,
     HarvesterCannon10eFactionPackChaosDaemons10eV12WeaponProfile,
     HavocAutocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HavocHeavyBolter10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -32692,10 +41264,12 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HavocMissilePod10eFactionPackChaosKnights10eV11WeaponProfile,
     HavocMultiLauncher10eFactionPackChaosKnights10eV11WeaponProfile,
     HavocReaperChaincannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    HawksTalon10eFactionPackAeldari10eV12WeaponProfile,
     HaywireBlaster10eFactionPackDrukhari10eV11WeaponProfile,
     HeartstringLyreCacophonousMelody10eFactionPackChaosDaemons10eV12WeaponProfile,
     HeartstringLyreEuphonicBlast10eFactionPackChaosDaemons10eV12WeaponProfile,
     HeatCannon10eFactionPackNecrons10eV13WeaponProfile,
+    HeatLance10eFactionPackAeldari10eV12WeaponProfile,
     HeatLance10eFactionPackDrukhari10eV11WeaponProfile,
     HeatRayDispersed10eFactionPackNecrons10eV13WeaponProfile,
     HeatRayFocused10eFactionPackNecrons10eV13WeaponProfile,
@@ -32707,16 +41281,21 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HeavyBlightLauncher10eFactionPackDeathGuard10eV11WeaponProfile,
     HeavyBoltPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     HeavyBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile,
+    HeavyBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     HeavyBolter10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    HeavyBolter10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HeavyBolter10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HeavyBolter10eFactionPackDeathGuard10eV11WeaponProfile,
     HeavyBolter10eFactionPackGreyKnights10eV10WeaponProfile,
     HeavyBolter10eFactionPackImperialAgents10eV13WeaponProfile,
     HeavyBolter10eFactionPackWorldEaters10eV11WeaponProfile,
     HeavyBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
+    HeavyDScythe10eFactionPackAeldari10eV12WeaponProfile,
     HeavyDarkflamer10eFactionPackChaosKnights10eV11WeaponProfile,
     HeavyDeathRay10eFactionPackNecrons10eV13WeaponProfile,
+    HeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     HeavyFlamer10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    HeavyFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HeavyFlamer10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HeavyFlamer10eFactionPackDeathGuard10eV11WeaponProfile,
     HeavyFlamer10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -32728,6 +41307,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HeavyGaussCannonArray10eFactionPackNecrons10eV13WeaponProfile,
     HeavyGravCannon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     HeavyIncinerator10eFactionPackGreyKnights10eV10WeaponProfile,
+    HeavyLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HeavyMagnaRailCannon10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     HeavyMeleeWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HeavyMiningLaser10eFactionPackGenestealerCults10eV10WeaponProfile,
@@ -32740,6 +41320,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HeavyMissileLauncherKrak10eFactionPackEmperorsChildren10eV13WeaponProfile,
     HeavyMissileLauncherKrak10eFactionPackThousandSons10eV11WeaponProfile,
     HeavyMissileLauncherKrak10eFactionPackWorldEaters10eV11WeaponProfile,
+    HeavyMortar10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HeavyMortar10eFactionPackGenestealerCults10eV10WeaponProfile,
     HeavyPhosphorBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     HeavyPlagueWeapon10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -32747,6 +41328,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HeavyPlasmaCannonStandard10eFactionPackGreyKnights10eV10WeaponProfile,
     HeavyPlasmaCannonSupercharge10eFactionPackGreyKnights10eV10WeaponProfile,
     HeavyPsycannon10eFactionPackGreyKnights10eV10WeaponProfile,
+    HeavyQuadLauncher10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HeavyRailCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     HeavyRailCannonArray10eFactionPackTauEmpire10eV12WeaponProfile,
     HeavyRailRifle10eFactionPackTauEmpire10eV12WeaponProfile,
@@ -32756,6 +41338,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HeavyReaperAutocannon10eFactionPackWorldEaters10eV11WeaponProfile,
     HeavySeismicCannon10eFactionPackGenestealerCults10eV10WeaponProfile,
     HeavySlugger10eFactionPackDeathGuard10eV11WeaponProfile,
+    HeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HeavyStubber10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HeavyStubber10eFactionPackDeathGuard10eV11WeaponProfile,
     HeavyStubber10eFactionPackGenestealerCults10eV10WeaponProfile,
@@ -32764,7 +41347,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HeavyVenomCannon10eFactionPackTyranids10eV14WeaponProfile,
     HeavyVolkaniteDisintegrator10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     HeavyWarpflamer10eFactionPackThousandSons10eV11WeaponProfile,
+    HeavyWraithcannon10eFactionPackAeldari10eV12WeaponProfile,
     HeirloomPistol10eFactionPackImperialAgents10eV13WeaponProfile,
+    HekatariiBlade10eFactionPackAeldari10eV12WeaponProfile,
     HekatariiBlade10eFactionPackDrukhari10eV11WeaponProfile,
     HekatonSiegeClawStrike10eFactionPackChaosKnights10eV11WeaponProfile,
     HekatonSiegeClawStrike10eFactionPackImperialKnights10eV12WeaponProfile,
@@ -32810,11 +41395,15 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HellforgedWeaponsSweep10eFactionPackWorldEaters10eV11WeaponProfile,
     HellfyreMissileRack10eFactionPackThousandSons10eV11WeaponProfile,
     Hellglaive10eFactionPackDrukhari10eV11WeaponProfile,
+    HellhammerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HellmawFlameCannons10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HellstormAutocannons10eFactionPackChaosKnights10eV11WeaponProfile,
     HellstormBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile,
+    HellstrikeMissile10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HellstrikeMissileBattery10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HellstrikeMissileBattery10eFactionPackGreyKnights10eV10WeaponProfile,
+    HellstrikeMissileRack10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HellstrikeMissiles10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Helspear10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HelstalkerAutocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HeraldCombatWeapon10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -32830,22 +41419,42 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     HighIntensityPlasmaRifle10eFactionPackTauEmpire10eV12WeaponProfile,
     HighOutputBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     HighYieldMissilePods10eFactionPackTauEmpire10eV12WeaponProfile,
+    HolyEviscerator10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    HolyFire10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     HolyFire10eFactionPackImperialAgents10eV13WeaponProfile,
+    HolyPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    HolyPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HolyPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     HonourStave10eFactionPackTauEmpire10eV12WeaponProfile,
     HormagauntTalons10eFactionPackTyranids10eV14WeaponProfile,
+    HornetPulseLaser10eFactionPackAeldari10eV12WeaponProfile,
+    HotShotLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HotShotLasgun10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HotShotLaspistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HotShotLongLas10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HotShotMarksmanRifle10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HotShotVolleyGun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HouseholdPistol10eFactionPackImperialAgents10eV13WeaponProfile,
+    HugeKnife10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HugeTusksStrike10eFactionPackOrks10eV13WeaponProfile,
     HugeTusksSweep10eFactionPackOrks10eV13WeaponProfile,
+    HunterKillerMissile10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     HunterKillerMissile10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    HunterKillerMissile10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HunterKillerMissile10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     HunterKillerMissile10eFactionPackGreyKnights10eV10WeaponProfile,
     HunterKillerMissile10eFactionPackImperialAgents10eV13WeaponProfile,
     HuntingJavelin10eFactionPackTauEmpire10eV12WeaponProfile,
+    HuntingLance10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HuntingLanceFragTip10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HuntingLanceMeltaTip10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HurricaneBolter10eFactionPackGreyKnights10eV10WeaponProfile,
     HurricaneBolter10eFactionPackImperialAgents10eV13WeaponProfile,
+    Huskblade10eFactionPackAeldari10eV12WeaponProfile,
     Huskblade10eFactionPackDrukhari10eV11WeaponProfile,
     HybridFirearm10eFactionPackGenestealerCults10eV10WeaponProfile,
+    HydraAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    HydraQuadAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     HydraulicClaw10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     HydraulicVoxRam10eFactionPackImperialAgents10eV13WeaponProfile,
     HylasAutoRifle10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
@@ -32860,6 +41469,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     IchorCannon10eFactionPackWorldEaters10eV11WeaponProfile,
     IconOfDaRevolushun10eFactionPackOrks10eV13WeaponProfile,
     IliastusAcceleratorCulverin10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    ImmolationFlamers10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ImmolationFlamers10eFactionPackImperialAgents10eV13WeaponProfile,
     ImpalerCannon10eFactionPackTyranids10eV14WeaponProfile,
     ImpalerChainglaive10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -32886,9 +41496,13 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     InfernalGazeWitchfire10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     InfernoBoltPistol10eFactionPackThousandSons10eV11WeaponProfile,
     InfernoBoltgun10eFactionPackThousandSons10eV11WeaponProfile,
+    InfernoCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     InfernoCombiBolter10eFactionPackThousandSons10eV11WeaponProfile,
     InfernoCombiWeapon10eFactionPackThousandSons10eV11WeaponProfile,
+    InfernoGun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     InfernoHeavyBolter10eFactionPackThousandSons10eV11WeaponProfile,
+    InfernoLance10eFactionPackAeldari10eV12WeaponProfile,
+    InfernoPistol10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     InfernoPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     InfernusCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     InfernusFirepike10eFactionPackAdeptusCustodes10eV10WeaponProfile,
@@ -32915,7 +41529,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     IronClaw10eFactionPackChaosDaemons10eV12WeaponProfile,
     IronstormMissilePod10eFactionPackImperialKnights10eV12WeaponProfile,
     IronstriderFeet10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    Isirmathil10eFactionPackAeldari10eV12WeaponProfile,
     JaggedClawsAndTuskedMaw10eFactionPackChaosDaemons10eV12WeaponProfile,
+    JestersBlade10eFactionPackAeldari10eV12WeaponProfile,
     JindariiToxCycler10eFactionPackImperialAgents10eV13WeaponProfile,
     JokaeroWeaponsFocused10eFactionPackImperialAgents10eV13WeaponProfile,
     JokaeroWeaponsScattered10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -32931,6 +41547,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     KastelanPhosphorBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     KataphronPlasmaCulverinStandard10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     KataphronPlasmaCulverinSupercharge10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    KhaVir10eFactionPackAeldari10eV12WeaponProfile,
     KharybdisStormLauncherFrag10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     KharybdisStormLauncherKrak10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     KheresPatternAssaultCannon10eFactionPackAdeptusCustodes10eV10WeaponProfile,
@@ -32941,6 +41558,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Killkannon10eFactionPackOrks10eV13WeaponProfile,
     Killsaw10eFactionPackOrks10eV13WeaponProfile,
     KineticDestroyer10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    Klaive10eFactionPackAeldari10eV12WeaponProfile,
     Klaive10eFactionPackDrukhari10eV11WeaponProfile,
     KlawOfGorkStrike10eFactionPackOrks10eV13WeaponProfile,
     KlawOfGorkSweep10eFactionPackOrks10eV13WeaponProfile,
@@ -32949,7 +41567,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     KnarlocBeakAndTalons10eFactionPackTauEmpire10eV12WeaponProfile,
     Knucklebustas10eFactionPackOrks10eV13WeaponProfile,
     KombiWeapon10eFactionPackOrks10eV13WeaponProfile,
+    KonstantinsHooves10eFactionPackAstraMilitarum10eV16WeaponProfile,
     KoptaRokkits10eFactionPackOrks10eV13WeaponProfile,
+    KriegHeavyFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     KromlKsRevengeGravitonStrikes10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     KromlKsRevengePlasmaSweeps10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     KrootBoltThrower10eFactionPackTauEmpire10eV12WeaponProfile,
@@ -32980,12 +41600,18 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     LakrimaeSweep10eFactionPackDeathGuard10eV11WeaponProfile,
     LampreyBite10eFactionPackChaosDaemons10eV12WeaponProfile,
     LampreyBite10eFactionPackThousandSons10eV11WeaponProfile,
+    LanceOfIlluminationStrike10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    LanceOfIlluminationSweep10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    LandingRamp10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Lantern10eFactionPackDeathGuard10eV11WeaponProfile,
+    LarkinsLongLas10eFactionPackAstraMilitarum10eV16WeaponProfile,
     LasBeamCutter10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     LasFusil10eFactionPackImperialAgents10eV13WeaponProfile,
     LasImpulsorHighIntensity10eFactionPackImperialKnights10eV12WeaponProfile,
     LasImpulsorLowIntensity10eFactionPackImperialKnights10eV12WeaponProfile,
     LasTalon10eFactionPackGreyKnights10eV10WeaponProfile,
+    Lasblaster10eFactionPackAeldari10eV12WeaponProfile,
+    Lascannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Lascannon10eFactionPackChaosKnights10eV11WeaponProfile,
     Lascannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Lascannon10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -32993,8 +41619,14 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Lascannon10eFactionPackImperialKnights10eV12WeaponProfile,
     Lascannon10eFactionPackThousandSons10eV11WeaponProfile,
     Lascannon10eFactionPackWorldEaters10eV11WeaponProfile,
+    Lascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    LaserDestroyer10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    LaserLance10eFactionPackAeldari10eV12WeaponProfile,
+    Lasgun10eCodexAstraMilitarum10eWeaponProfile,
+    Lasgun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Lasgun10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Lasgun10eFactionPackImperialAgents10eV13WeaponProfile,
+    LasgunArray10eFactionPackAstraMilitarum10eV16WeaponProfile,
     LasgunArray10eFactionPackImperialAgents10eV13WeaponProfile,
     LashOfKhorne10eFactionPackChaosDaemons10eV12WeaponProfile,
     LashOfKhorne10eFactionPackWorldEaters10eV11WeaponProfile,
@@ -33012,6 +41644,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     LashingTongue10eFactionPackEmperorsChildren10eV13WeaponProfile,
     LashingWarpEnergies10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     LashwhipPods10eFactionPackTyranids10eV14WeaponProfile,
+    Laspistol10eCodexAstraMilitarum10eWeaponProfile,
+    Laspistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Laspistol10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Laspistol10eFactionPackImperialAgents10eV13WeaponProfile,
     LastArgumentAndPowerFist10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -33020,6 +41654,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     LeadersBioWeapons10eFactionPackGenestealerCults10eV10WeaponProfile,
     LeapersTalons10eFactionPackTyranids10eV14WeaponProfile,
     LelithsBlades10eFactionPackDrukhari10eV11WeaponProfile,
+    LemanRussBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     LiberatorAutostubs10eFactionPackGenestealerCults10eV10WeaponProfile,
     LictorClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     LifeDrainingTouch10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -33027,6 +41662,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     LightMissilePod10eFactionPackTauEmpire10eV12WeaponProfile,
     LightningCannon10eFactionPackChaosKnights10eV11WeaponProfile,
     LightningCannon10eFactionPackImperialKnights10eV12WeaponProfile,
+    LightningHellstrikeRack10eFactionPackAstraMilitarum10eV16WeaponProfile,
     LightningLock10eFactionPackChaosKnights10eV11WeaponProfile,
     LightningLock10eFactionPackImperialKnights10eV12WeaponProfile,
     LiquifierGun10eFactionPackDrukhari10eV11WeaponProfile,
@@ -33038,13 +41674,24 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     LondaxiTribalest10eFactionPackTauEmpire10eV12WeaponProfile,
     LongBarrelledBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     LongBarrelledBurstCannonArray10eFactionPackTauEmpire10eV12WeaponProfile,
+    LongLas10eCodexAstraMilitarum10eWeaponProfile,
+    LongLas10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    LongRifle10eFactionPackAeldari10eV12WeaponProfile,
     LongVigilMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
     LongVigilRangedWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
     LongshotPulseRifles10eFactionPackTauEmpire10eV12WeaponProfile,
     LoppingShears10eFactionPackChaosDaemons10eV12WeaponProfile,
     LordsBlade10eFactionPackNecrons10eV13WeaponProfile,
+    LynxPulsar10eFactionPackAeldari10eV12WeaponProfile,
+    MaceOfCastigation10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    MaceOfSaintPraxedes10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    MaceOfTheRighteous10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    MachariusTwinBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MachariusTwinVanquisherCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MachariusVulcanMegaBolter10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MacroScalpel10eFactionPackDrukhari10eV11WeaponProfile,
     Macrostubber10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    MagmaCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MagmaCutter10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MagmaCutter10eFactionPackThousandSons10eV11WeaponProfile,
     MagmaCutter10eFactionPackWorldEaters10eV11WeaponProfile,
@@ -33059,12 +41706,16 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     MagnarailLance10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     MagusStave10eFactionPackGenestealerCults10eV10WeaponProfile,
     MakarisStabba10eFactionPackOrks10eV13WeaponProfile,
+    MalcadorBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MalcadorTwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MaleficCurse10eFactionPackThousandSons10eV11WeaponProfile,
     MaleficLash10eFactionPackEmperorsChildren10eV13WeaponProfile,
     MalleusArgyrum10eFactionPackGreyKnights10eV10WeaponProfile,
+    MalleusRocketLauncher10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ManipulatorArms10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     ManreaperStrike10eFactionPackDeathGuard10eV11WeaponProfile,
     ManreaperSweep10eFactionPackDeathGuard10eV11WeaponProfile,
+    MarauderNoseAutocannons10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MarksmanBoltCarbine10eFactionPackImperialAgents10eV13WeaponProfile,
     Marotter10eFactionPackChaosDaemons10eV12WeaponProfile,
     MassGauntlet10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
@@ -33081,6 +41732,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     MasterCraftedPowerWeapon10eFactionPackDrukhari10eV11WeaponProfile,
     MasterCraftedPowerWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
     MatrAutocannon10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    Maugetar10eFactionPackAeldari10eV12WeaponProfile,
     MaulerChainblade10eFactionPackWorldEaters10eV11WeaponProfile,
     MaulerGoadAndRipperClaw10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MaulerfiendFists10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -33091,14 +41743,24 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     MechadendriteHive10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     MechanicalBite10eFactionPackImperialAgents10eV13WeaponProfile,
     MechanicusPistol10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    MechanicusPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MedicalScalpels10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MedusaSiegeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MegaChoppaStrike10eFactionPackOrks10eV13WeaponProfile,
     MegaChoppaSweep10eFactionPackOrks10eV13WeaponProfile,
     MegaTankWeapons10eFactionPackOrks10eV13WeaponProfile,
     MekSpeshul10eFactionPackOrks10eV13WeaponProfile,
     MeltaArray10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    MeltaCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MeltaCarbine10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MeltaCutterDrill10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MeltaMissileArray10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     MeltaRifle10eFactionPackImperialAgents10eV13WeaponProfile,
     MeltaTendril10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    Meltagun10eCodexAstraMilitarum10eWeaponProfile,
+    Meltagun10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     Meltagun10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    Meltagun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Meltagun10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Meltagun10eFactionPackDeathGuard10eV11WeaponProfile,
     Meltagun10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -33107,25 +41769,38 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     MetamorphMutationsStrike10eFactionPackGenestealerCults10eV10WeaponProfile,
     MetamorphMutationsSweep10eFactionPackGenestealerCults10eV10WeaponProfile,
     MiasmicGouts10eFactionPackDeathGuard10eV11WeaponProfile,
+    MilitarumMultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MindAssault10eFactionPackImperialAgents10eV13WeaponProfile,
+    MindWar10eFactionPackAeldari10eV12WeaponProfile,
     MindWrench10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MiningLaser10eFactionPackGenestealerCults10eV10WeaponProfile,
+    MinistorumFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     MinistorumFlamer10eFactionPackImperialAgents10eV13WeaponProfile,
+    MinistorumHandFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     MinistorumHandFlamer10eFactionPackImperialAgents10eV13WeaponProfile,
+    MinistorumHeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     MinistorumHeavyFlamer10eFactionPackImperialAgents10eV13WeaponProfile,
+    MinotaurTwinEarthshakerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    Mirrorswords10eFactionPackAeldari10eV12WeaponProfile,
     Misericordia10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    MissileLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MissileLauncherFrag10eFactionPackDeathGuard10eV11WeaponProfile,
     MissileLauncherFrag10eFactionPackGreyKnights10eV10WeaponProfile,
     MissileLauncherFrag10eFactionPackThousandSons10eV11WeaponProfile,
     MissileLauncherFrag10eFactionPackWorldEaters10eV11WeaponProfile,
+    MissileLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MissileLauncherKrak10eFactionPackDeathGuard10eV11WeaponProfile,
     MissileLauncherKrak10eFactionPackGreyKnights10eV10WeaponProfile,
     MissileLauncherKrak10eFactionPackThousandSons10eV11WeaponProfile,
     MissileLauncherKrak10eFactionPackWorldEaters10eV11WeaponProfile,
+    MissileLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile,
+    MissileLauncherSunburst10eFactionPackAeldari10eV12WeaponProfile,
     MissilePod10eFactionPackTauEmpire10eV12WeaponProfile,
+    Miststave10eFactionPackAeldari10eV12WeaponProfile,
     Mk1AssaultWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
+    MkollsStraightSilverKnife10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MoleGrenadeLauncher10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     MonomolecularCaneRapier10eFactionPackImperialAgents10eV13WeaponProfile,
     MonomolecularRapier10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -33135,16 +41810,23 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     MonstrousWeapons10eFactionPackDrukhari10eV11WeaponProfile,
     MorksRoar10eFactionPackOrks10eV13WeaponProfile,
     MorksTeeth10eFactionPackOrks10eV13WeaponProfile,
+    Mortar10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Mortar10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    MortifierFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    MultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MultiLaser10eFactionPackImperialAgents10eV13WeaponProfile,
+    MultiMelta10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     MultiMelta10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     MultiMelta10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    MultiMelta10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MultiMelta10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MultiMelta10eFactionPackDeathGuard10eV11WeaponProfile,
     MultiMelta10eFactionPackGreyKnights10eV10WeaponProfile,
     MultiMelta10eFactionPackImperialAgents10eV13WeaponProfile,
     MultiMelta10eFactionPackThousandSons10eV11WeaponProfile,
     MultiMelta10eFactionPackWorldEaters10eV11WeaponProfile,
+    MultipleRocketLauncher10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    MultipleRocketPod10eFactionPackAstraMilitarum10eV16WeaponProfile,
     MutalithClaws10eFactionPackThousandSons10eV11WeaponProfile,
     Mutations10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     MysticStave10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -33163,6 +41845,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     NemesisGreatswordSweep10eFactionPackGreyKnights10eV10WeaponProfile,
     NemesisMace10eFactionPackGreyKnights10eV10WeaponProfile,
     NeuralShredder10eFactionPackImperialAgents10eV13WeaponProfile,
+    NeuralWhips10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    NeuroDisruptor10eFactionPackAeldari10eV12WeaponProfile,
     NeurotyrantClawsAndLashes10eFactionPackTyranids10eV14WeaponProfile,
     NeutronBlaster10eFactionPackTauEmpire10eV12WeaponProfile,
     NeutronGrenadeLauncher10eFactionPackTauEmpire10eV12WeaponProfile,
@@ -33172,6 +41856,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     NoseDrill10eFactionPackOrks10eV13WeaponProfile,
     NostramanChainblade10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     NostramanChainglaive10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    NovitiateMeleeWeapons10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    NullMace10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     NurglingsClawsAndTeeth10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     OcculusBoltCarbine10eFactionPackImperialAgents10eV13WeaponProfile,
     OgrynPlagueClaws10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -33181,10 +41867,13 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     OldOneEyesClawsAndTalonsStrike10eFactionPackTyranids10eV14WeaponProfile,
     OldOneEyesClawsAndTalonsSweep10eFactionPackTyranids10eV14WeaponProfile,
     OmbiBolter10eFactionPackDeathGuard10eV11WeaponProfile,
+    OmegaPatternPlasmaBlastgunStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    OmegaPatternPlasmaBlastgunSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     OmnissianAxe10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     OmnissianPowerAxe10eFactionPackGreyKnights10eV10WeaponProfile,
     OmnissianStaff10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     OphydianHyperphaseWeapons10eFactionPackNecrons10eV13WeaponProfile,
+    OppressorCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Ossefactor10eFactionPackDrukhari10eV11WeaponProfile,
     OverlordsBlade10eFactionPackNecrons10eV13WeaponProfile,
     PainSculptors10eFactionPackDrukhari10eV11WeaponProfile,
@@ -33192,9 +41881,18 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PairedAccursedWeapons10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PairedAccursedWeapons10eFactionPackWorldEaters10eV11WeaponProfile,
     PairedCombatBlades10eFactionPackImperialAgents10eV13WeaponProfile,
+    PairedHekatariiBlades10eFactionPackAeldari10eV12WeaponProfile,
     PairedManglers10eFactionPackWorldEaters10eV11WeaponProfile,
     PairedMonstrousWeapons10eFactionPackDrukhari10eV11WeaponProfile,
+    PalatineBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     PandaemonicDelusion10eFactionPackThousandSons10eV11WeaponProfile,
+    ParagonGrenadeLaunchers10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ParagonMissileLauncherPrioris10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ParagonMissileLauncherSanctorum10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ParagonSabre10eFactionPackAeldari10eV12WeaponProfile,
+    ParagonStormBolters10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ParagonWarBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ParagonWarMace10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ParticleBeamer10eFactionPackNecrons10eV13WeaponProfile,
     ParticleCaster10eFactionPackNecrons10eV13WeaponProfile,
     ParticleShredder10eFactionPackNecrons10eV13WeaponProfile,
@@ -33204,17 +41902,27 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PavaneOfSlaaneshFocusedWitchfire10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PavaneOfSlaaneshWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile,
     PavaneOfSlaaneshWitchfire10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    Payback10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    PenitentBuzzBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PenitentEviscerator10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PenitentFlail10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PenitentFlamers10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     PhantasmagoriaFocusedWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile,
     PhantasmagoriaFocusedWitchfire10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PhantasmagoriaWitchfire10eFactionPackChaosDaemons10eV12WeaponProfile,
     PhantasmagoriaWitchfire10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    PhantomFeet10eFactionPackAeldari10eV12WeaponProfile,
+    PhantomPulsar10eFactionPackAeldari10eV12WeaponProfile,
+    PhantomStarcannon10eFactionPackAeldari10eV12WeaponProfile,
     PhaseSwordAndPoisonBlades10eFactionPackImperialAgents10eV13WeaponProfile,
     PhasedIonGun10eFactionPackTauEmpire10eV12WeaponProfile,
     PhasedPlasmaFlamer10eFactionPackTauEmpire10eV12WeaponProfile,
     PhasedPlasmaFusil10eFactionPackChaosKnights10eV11WeaponProfile,
     PhasedPlasmaFusil10eFactionPackImperialKnights10eV12WeaponProfile,
     PhlegmBombardment10eFactionPackChaosDaemons10eV12WeaponProfile,
+    PhoenixMissileArray10eFactionPackAeldari10eV12WeaponProfile,
     PhoenixPowerSpear10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    PhoenixPulseLaser10eFactionPackAeldari10eV12WeaponProfile,
     PhosphorBlastCarbine10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     PhosphorBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     PhosphorBlaster10eFactionPackImperialKnights10eV12WeaponProfile,
@@ -33224,6 +41932,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PiercingClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     PinkClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     PinkClaws10eFactionPackThousandSons10eV11WeaponProfile,
+    PintleMountedHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PiranhaBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     PiranhaFusionBlaster10eFactionPackTauEmpire10eV12WeaponProfile,
     PlagueBelcher10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -33252,11 +41961,15 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PlasmaCannon10eFactionPackDeathGuard10eV11WeaponProfile,
     PlasmaCannon10eFactionPackWorldEaters10eV11WeaponProfile,
     PlasmaCannonStandard10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    PlasmaCannonStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaCannonStandard10eFactionPackGreyKnights10eV10WeaponProfile,
     PlasmaCannonStandard10eFactionPackImperialAgents10eV13WeaponProfile,
     PlasmaCannonSupercharge10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    PlasmaCannonSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaCannonSupercharge10eFactionPackGreyKnights10eV10WeaponProfile,
     PlasmaCannonSupercharge10eFactionPackImperialAgents10eV13WeaponProfile,
+    PlasmaCarbineStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    PlasmaCarbineSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaDecimatorStandard10eFactionPackImperialKnights10eV12WeaponProfile,
     PlasmaDecimatorSupercharge10eFactionPackImperialKnights10eV12WeaponProfile,
     PlasmaDestroyerStandard10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -33265,10 +41978,16 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PlasmaExecutorSupercharge10eFactionPackImperialKnights10eV12WeaponProfile,
     PlasmaExterminatorsStandard10eFactionPackImperialAgents10eV13WeaponProfile,
     PlasmaExterminatorsSupercharge10eFactionPackImperialAgents10eV13WeaponProfile,
+    PlasmaGunStandard10eCodexAstraMilitarum10eWeaponProfile,
+    PlasmaGunStandard10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PlasmaGunStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaGunStandard10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PlasmaGunStandard10eFactionPackDeathGuard10eV11WeaponProfile,
     PlasmaGunStandard10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PlasmaGunStandard10eFactionPackImperialAgents10eV13WeaponProfile,
+    PlasmaGunSupercharge10eCodexAstraMilitarum10eWeaponProfile,
+    PlasmaGunSupercharge10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PlasmaGunSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaGunSupercharge10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PlasmaGunSupercharge10eFactionPackDeathGuard10eV11WeaponProfile,
     PlasmaGunSupercharge10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -33277,11 +41996,17 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PlasmaIncineratorSupercharge10eFactionPackImperialAgents10eV13WeaponProfile,
     PlasmaKnife10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     PlasmaPicks10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    PlasmaPistolStandard10eCodexAstraMilitarum10eWeaponProfile,
+    PlasmaPistolStandard10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PlasmaPistolStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaPistolStandard10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PlasmaPistolStandard10eFactionPackDeathGuard10eV11WeaponProfile,
     PlasmaPistolStandard10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PlasmaPistolStandard10eFactionPackImperialAgents10eV13WeaponProfile,
     PlasmaPistolStandard10eFactionPackWorldEaters10eV11WeaponProfile,
+    PlasmaPistolSupercharge10eCodexAstraMilitarum10eWeaponProfile,
+    PlasmaPistolSupercharge10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    PlasmaPistolSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PlasmaPistolSupercharge10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PlasmaPistolSupercharge10eFactionPackDeathGuard10eV11WeaponProfile,
     PlasmaPistolSupercharge10eFactionPackEmperorsChildren10eV13WeaponProfile,
@@ -33292,17 +42017,22 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PlasmaTorch10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     PlasmicLance10eFactionPackNecrons10eV13WeaponProfile,
     PortalOfExile10eFactionPackNecrons10eV13WeaponProfile,
+    PowerBlade10eFactionPackAeldari10eV12WeaponProfile,
     PowerClaw10eFactionPackImperialAgents10eV13WeaponProfile,
     PowerClaw10eFactionPackThousandSons10eV11WeaponProfile,
     PowerFist10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    PowerFist10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PowerFist10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PowerFist10eFactionPackDeathGuard10eV11WeaponProfile,
     PowerFist10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PowerFist10eFactionPackImperialAgents10eV13WeaponProfile,
     PowerFist10eFactionPackWorldEaters10eV11WeaponProfile,
     PowerFists10eFactionPackImperialAgents10eV13WeaponProfile,
+    PowerGlaive10eFactionPackAeldari10eV12WeaponProfile,
+    PowerKlaw10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PowerKlaw10eFactionPackOrks10eV13WeaponProfile,
     PowerMaul10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    PowerSabre10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PowerSabre10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PowerScourge10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PowerScourge10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -33311,17 +42041,28 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PowerSledgehammer10eFactionPackGenestealerCults10eV10WeaponProfile,
     PowerSnappa10eFactionPackOrks10eV13WeaponProfile,
     PowerStabba10eFactionPackOrks10eV13WeaponProfile,
+    PowerSword10eFactionPackAeldari10eV12WeaponProfile,
+    PowerSword10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PowerSword10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PowerSword10eFactionPackEmperorsChildren10eV13WeaponProfile,
     PowerSword10eFactionPackImperialAgents10eV13WeaponProfile,
+    PowerSwordAndManusMortis10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PowerSwordAndNeuroGauntlet10eFactionPackImperialAgents10eV13WeaponProfile,
+    PowerWeapon10eCodexAstraMilitarum10eWeaponProfile,
+    PowerWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     PowerWeapon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    PowerWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PowerWeapon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PowerWeapon10eFactionPackDrukhari10eV11WeaponProfile,
     PowerWeapon10eFactionPackGenestealerCults10eV10WeaponProfile,
     PowerWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
+    PowerbladeArray10eFactionPackAeldari10eV12WeaponProfile,
+    Powerblades10eFactionPackAeldari10eV12WeaponProfile,
     PowerfulLimbs10eFactionPackTyranids10eV14WeaponProfile,
+    Powerlifter10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PoxRiderPlaguesword10eFactionPackChaosDaemons10eV12WeaponProfile,
+    PraetorLauncherFirestorm10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    PraetorLauncherFoehammer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PredatorAutocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     PredatorAutocannon10eFactionPackDeathGuard10eV11WeaponProfile,
     PredatorAutocannon10eFactionPackThousandSons10eV11WeaponProfile,
@@ -33330,9 +42071,16 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PredatorTwinLascannon10eFactionPackDeathGuard10eV11WeaponProfile,
     PredatorTwinLascannon10eFactionPackThousandSons10eV11WeaponProfile,
     PredatorTwinLascannon10eFactionPackWorldEaters10eV11WeaponProfile,
+    PrefectusHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PrimeClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     PrimeTalons10eFactionPackTyranids10eV14WeaponProfile,
     PrincessJaws10eFactionPackOrks10eV13WeaponProfile,
+    PrismCannonDispersedPulse10eFactionPackAeldari10eV12WeaponProfile,
+    PrismCannonFocusedLances10eFactionPackAeldari10eV12WeaponProfile,
+    PrismRifleDispersed10eFactionPackAeldari10eV12WeaponProfile,
+    PrismRifleFocused10eFactionPackAeldari10eV12WeaponProfile,
+    PrismaticCannonDispersedPulse10eFactionPackAeldari10eV12WeaponProfile,
+    PrismaticCannonFocusedLances10eFactionPackAeldari10eV12WeaponProfile,
     ProsperineKhopesh10eFactionPackThousandSons10eV11WeaponProfile,
     ProwBlade10eFactionPackDrukhari10eV11WeaponProfile,
     Psilencer10eFactionPackGreyKnights10eV10WeaponProfile,
@@ -33343,6 +42091,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Psycannon10eFactionPackImperialAgents10eV13WeaponProfile,
     PsychicBlast10eFactionPackImperialAgents10eV13WeaponProfile,
     PsychicCleanse10eFactionPackImperialAgents10eV13WeaponProfile,
+    PsychicMaelstromFocusedWitchfire10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    PsychicMaelstromWitchfire10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PsychicOverload10eFactionPackTyranids10eV14WeaponProfile,
     PsychicScream10eFactionPackTyranids10eV14WeaponProfile,
     PsychicShockWave10eFactionPackImperialAgents10eV13WeaponProfile,
@@ -33354,6 +42104,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PsychicTendrilNeuroparasite10eFactionPackTyranids10eV14WeaponProfile,
     PsychoclasticTorrent10eFactionPackTyranids10eV14WeaponProfile,
     PsykoGatler10eFactionPackOrks10eV13WeaponProfile,
+    PsytronomeShaper10eFactionPackAeldari10eV12WeaponProfile,
     PteraxiiTalons10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     PulseBlastCannonDispersed10eFactionPackTauEmpire10eV12WeaponProfile,
     PulseBlastCannonFocused10eFactionPackTauEmpire10eV12WeaponProfile,
@@ -33361,10 +42112,13 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PulseCarbine10eFactionPackTauEmpire10eV12WeaponProfile,
     PulseDisintegrators10eFactionPackDrukhari10eV11WeaponProfile,
     PulseDriverCannon10eFactionPackTauEmpire10eV12WeaponProfile,
+    PulseLaser10eFactionPackAeldari10eV12WeaponProfile,
     PulseOrdnanceDriver10eFactionPackTauEmpire10eV12WeaponProfile,
     PulsePistol10eFactionPackTauEmpire10eV12WeaponProfile,
     PulseRifle10eFactionPackTauEmpire10eV12WeaponProfile,
     PulseSubmunitionsCannon10eFactionPackTauEmpire10eV12WeaponProfile,
+    PulveriserCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    PunisherGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     PurifyingFlame10eFactionPackGreyKnights10eV10WeaponProfile,
     PutridAppendages10eFactionPackChaosDaemons10eV12WeaponProfile,
     PutridAppendages10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -33375,6 +42129,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     PyrithiteSpear10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     QuadIonTurretOvercharge10eFactionPackTauEmpire10eV12WeaponProfile,
     QuadIonTurretStandard10eFactionPackTauEmpire10eV12WeaponProfile,
+    QuakeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    QuartermastersCloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    QuartermastersPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     QuestorisHeavyStubber10eFactionPackImperialKnights10eV12WeaponProfile,
     QuestorisMultiLaser10eFactionPackImperialKnights10eV12WeaponProfile,
     RackOfRokkits10eFactionPackOrks10eV13WeaponProfile,
@@ -33385,6 +42142,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     RailRifle10eFactionPackTauEmpire10eV12WeaponProfile,
     Railgun10eFactionPackTauEmpire10eV12WeaponProfile,
     RamshackleHull10eFactionPackOrks10eV13WeaponProfile,
+    RangerLongRifle10eFactionPackAeldari10eV12WeaponProfile,
     RapidFireBattleCannon10eFactionPackImperialKnights10eV12WeaponProfile,
     RaptureLash10eFactionPackEmperorsChildren10eV13WeaponProfile,
     RattlerKannon10eFactionPackOrks10eV13WeaponProfile,
@@ -33392,6 +42150,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     RavenerClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     RavenerHeavyClawsAndTalons10eFactionPackTyranids10eV14WeaponProfile,
     RavenousMaw10eFactionPackTyranids10eV14WeaponProfile,
+    RawnesLascarbine10eFactionPackAstraMilitarum10eV16WeaponProfile,
     RazorFan10eFactionPackDrukhari10eV11WeaponProfile,
     Razorflail10eFactionPackDrukhari10eV11WeaponProfile,
     RazorwingFeathers10eFactionPackDrukhari10eV11WeaponProfile,
@@ -33417,15 +42176,23 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ReaperChaintalon10eFactionPackChaosKnights10eV11WeaponProfile,
     ReaperChaintalonStrike10eFactionPackChaosKnights10eV11WeaponProfile,
     ReaperChaintalonSweep10eFactionPackChaosKnights10eV11WeaponProfile,
+    ReaperLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile,
+    ReaperLauncherStarswarm10eFactionPackAeldari10eV12WeaponProfile,
     ReaversBlade10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ReductorArray10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ReinforcedRam10eFactionPackOrks10eV13WeaponProfile,
     RelicGaussBlaster10eFactionPackNecrons10eV13WeaponProfile,
+    RelicWeapons10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     RemoraSeekerMissile10eFactionPackTauEmpire10eV12WeaponProfile,
     RemoteExplosives10eFactionPackGenestealerCults10eV10WeaponProfile,
     RendingClaw10eFactionPackTyranids10eV14WeaponProfile,
     RenegadeFirearm10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     RepeaterCannon10eFactionPackTauEmpire10eV12WeaponProfile,
+    RepressorTwinHeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    RevenantFeet10eFactionPackAeldari10eV12WeaponProfile,
+    RevenantPulsar10eFactionPackAeldari10eV12WeaponProfile,
+    RipperGun10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    RipperPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     RippingFangs10eFactionPackTauEmpire10eV12WeaponProfile,
     RiptideFists10eFactionPackTauEmpire10eV12WeaponProfile,
     RiteOfPossessionFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -33447,20 +42214,27 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     RunestaffAndBarbarisater10eFactionPackImperialAgents10eV13WeaponProfile,
     RuntherdTools10eFactionPackOrks10eV13WeaponProfile,
     RuptureCannon10eFactionPackTyranids10eV14WeaponProfile,
+    SabreOfSacrifice10eFactionPackAstraMilitarum10eV16WeaponProfile,
     SaddlegitWeapons10eFactionPackOrks10eV13WeaponProfile,
     SagitaurMissileLauncher10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     SalvoLauncher10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     SamniariusAndSpinegrinderStrike10eFactionPackWorldEaters10eV11WeaponProfile,
     SamniariusAndSpinegrinderSweep10eFactionPackWorldEaters10eV11WeaponProfile,
+    SanctifierMeleeWeapon10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     SanctifierMeleeWeapon10eFactionPackImperialAgents10eV13WeaponProfile,
+    Sanctity10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     SanctusBioDagger10eFactionPackGenestealerCults10eV10WeaponProfile,
+    SavageClaws10eFactionPackAstraMilitarum10eV16WeaponProfile,
     SavageHornsAndHooves10eFactionPackOrks10eV13WeaponProfile,
     SawBlades10eFactionPackOrks10eV13WeaponProfile,
     SawnOffShotgun10eFactionPackOrks10eV13WeaponProfile,
     ScaldingRoar10eFactionPackChaosDaemons10eV12WeaponProfile,
+    ScatterLaser10eFactionPackAeldari10eV12WeaponProfile,
     SceptreOfEternalGlory10eFactionPackNecrons10eV13WeaponProfile,
     ScopedNeedlePistol10eFactionPackGenestealerCults10eV10WeaponProfile,
     ScorpionCannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    ScorpionChainsword10eFactionPackAeldari10eV12WeaponProfile,
+    ScorpionsClaw10eFactionPackAeldari10eV12WeaponProfile,
     Scourging10eFactionPackGreyKnights10eV10WeaponProfile,
     ScourgingWhip10eFactionPackChaosDaemons10eV12WeaponProfile,
     ScouringEye10eFactionPackNecrons10eV13WeaponProfile,
@@ -33468,6 +42242,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ScreamerBites10eFactionPackChaosDaemons10eV12WeaponProfile,
     ScreamerKillerTalons10eFactionPackTyranids10eV14WeaponProfile,
     ScreamerPistol10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    ScribesStaff10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ScytheOfTheNightbringerStrike10eFactionPackNecrons10eV13WeaponProfile,
     ScytheOfTheNightbringerSweep10eFactionPackNecrons10eV13WeaponProfile,
     ScythedLimbs10eFactionPackNecrons10eV13WeaponProfile,
@@ -33475,6 +42250,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ScythingTalonsAndRendingClaws10eFactionPackTyranids10eV14WeaponProfile,
     ScythingWings10eFactionPackTyranids10eV14WeaponProfile,
     SearingPurity10eFactionPackGreyKnights10eV10WeaponProfile,
+    SearsongBeam10eFactionPackAeldari10eV12WeaponProfile,
+    SearsongLance10eFactionPackAeldari10eV12WeaponProfile,
     SeekerMissile10eFactionPackTauEmpire10eV12WeaponProfile,
     SeekerMissileRack10eFactionPackTauEmpire10eV12WeaponProfile,
     SeekerTongues10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -33483,20 +42260,32 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     SemiAutomaticGrenadeLauncherEmp10eFactionPackTauEmpire10eV12WeaponProfile,
     SemiAutomaticGrenadeLauncherFusion10eFactionPackTauEmpire10eV12WeaponProfile,
     SentinelBlade10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    SentinelChainsaw10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SentryFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SentryGrenadeLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SentryGrenadeLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SentryHotShotVolleyGun10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SergeantsAutogun10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SergeantsCloseCombatWeapon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SergeantsPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     SerpentineTail10eFactionPackEmperorsChildren10eV13WeaponProfile,
     SerratedClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     ServitorsServoArm10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    ServitorsServoArm10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ServitorsServoArm10eFactionPackGreyKnights10eV10WeaponProfile,
     ServitorsTools10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     ServitorsTools10eFactionPackGreyKnights10eV10WeaponProfile,
     ServoArcClaw10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     ServoArm10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    ServoArm10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ServoArms10eFactionPackGreyKnights10eV10WeaponProfile,
     ServoClaw10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     ServoHarness10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     Shade10eFactionPackTauEmpire10eV12WeaponProfile,
+    ShadowWeaver10eFactionPackAeldari10eV12WeaponProfile,
     ShaimeshiBlade10eFactionPackDrukhari10eV11WeaponProfile,
     ShapersBlade10eFactionPackTauEmpire10eV12WeaponProfile,
+    Shardcarbine10eFactionPackAeldari10eV12WeaponProfile,
     Shardcarbine10eFactionPackDrukhari10eV11WeaponProfile,
     Shardlauncher10eFactionPackTyranids10eV14WeaponProfile,
     ShardstormBurstSystem10eFactionPackTauEmpire10eV12WeaponProfile,
@@ -33510,6 +42299,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     ShearingClawsSweep10eFactionPackThousandSons10eV11WeaponProfile,
     ShearingClawsSweep10eFactionPackWorldEaters10eV11WeaponProfile,
     ShieldbreakerMissileLauncher10eFactionPackImperialKnights10eV12WeaponProfile,
+    ShiningBlade10eFactionPackAeldari10eV12WeaponProfile,
     ShockMaul10eFactionPackImperialAgents10eV13WeaponProfile,
     Shockcannon10eFactionPackTyranids10eV14WeaponProfile,
     ShokkAttackGun10eFactionPackOrks10eV13WeaponProfile,
@@ -33517,11 +42307,20 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     Shoota10eFactionPackOrks10eV13WeaponProfile,
     Shotgun10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     ShovellingClaws10eFactionPackTyranids10eV14WeaponProfile,
+    Shredder10eFactionPackAeldari10eV12WeaponProfile,
     Shredder10eFactionPackDrukhari10eV11WeaponProfile,
+    ShriekerCannon10eFactionPackAeldari10eV12WeaponProfile,
+    ShurikenCannon10eFactionPackAeldari10eV12WeaponProfile,
+    ShurikenCatapult10eFactionPackAeldari10eV12WeaponProfile,
+    ShurikenPistol10eFactionPackAeldari10eV12WeaponProfile,
+    ShurikenRifle10eFactionPackAeldari10eV12WeaponProfile,
+    SiegeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     SiegeClaw10eFactionPackChaosKnights10eV11WeaponProfile,
     SiegeClaw10eFactionPackImperialKnights10eV12WeaponProfile,
     SilenceStrike10eFactionPackDeathGuard10eV11WeaponProfile,
     SilenceSweep10eFactionPackDeathGuard10eV11WeaponProfile,
+    SilentDeath10eFactionPackAeldari10eV12WeaponProfile,
+    SingingSpear10eFactionPackAeldari10eV12WeaponProfile,
     SingularityGenerator10eFactionPackNecrons10eV13WeaponProfile,
     SkatrosTransuranicArquebus10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     Skorcha10eFactionPackOrks10eV13WeaponProfile,
@@ -33533,6 +42332,7 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     SkullsmasherAndMangler10eFactionPackWorldEaters10eV11WeaponProfile,
     SkyhammerMissileLauncher10eFactionPackGreyKnights10eV10WeaponProfile,
     SkyspearMissileRack10eFactionPackTauEmpire10eV12WeaponProfile,
+    SkyweaverHaywireCannon10eFactionPackAeldari10eV12WeaponProfile,
     SlashingClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     SlashingClaws10eFactionPackEmperorsChildren10eV13WeaponProfile,
     SlaughterAndCarnageStrike10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -33550,11 +42350,15 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     SnappingClaws10eFactionPackEmperorsChildren10eV13WeaponProfile,
     Snazzgun10eFactionPackOrks10eV13WeaponProfile,
     Snazzhammer10eFactionPackOrks10eV13WeaponProfile,
+    SniperRifle10eFactionPackAstraMilitarum10eV16WeaponProfile,
     SolarAtomiser10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     SoleritePowerGauntlet10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     SoleritePowerTalon10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    SolitaireWeapons10eFactionPackAeldari10eV12WeaponProfile,
+    SolsRighteousGaze10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Somnus10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     SonicBlaster10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    SonicLance10eFactionPackAeldari10eV12WeaponProfile,
     SoulRendingFangs10eFactionPackChaosDaemons10eV12WeaponProfile,
     SoulburnerPetard10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     SouleaterBlade10eFactionPackChaosDaemons10eV12WeaponProfile,
@@ -33569,14 +42373,19 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     SoulshatterLascannon10eFactionPackWorldEaters10eV11WeaponProfile,
     SpConversionBeamer10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     SpHeavyConversionBeamer10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
+    SparGlaive10eFactionPackAeldari10eV12WeaponProfile,
+    SpearOfStarlight10eFactionPackAeldari10eV12WeaponProfile,
+    SpearOfTheFaithful10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     SpearOfTheVoidDragon10eFactionPackNecrons10eV13WeaponProfile,
     SpearOfTheVoidDragonStrike10eFactionPackNecrons10eV13WeaponProfile,
     SpearOfTheVoidDragonSweep10eFactionPackNecrons10eV13WeaponProfile,
+    SpearOfTwilight10eFactionPackAeldari10eV12WeaponProfile,
     SpecialIssueBoltPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     SpeedingBulkAndFlamingExhaust10eFactionPackOrks10eV13WeaponProfile,
     SpeshulKommandoShoota10eFactionPackOrks10eV13WeaponProfile,
     SpiculusBoltLauncher10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     SpiculusHeavyBoltLauncher10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    SpidersFangs10eFactionPackAeldari10eV12WeaponProfile,
     SpikeRifle10eFactionPackTyranids10eV14WeaponProfile,
     SpikedRam10eFactionPackOrks10eV13WeaponProfile,
     SpikedWheel10eFactionPackOrks10eV13WeaponProfile,
@@ -33584,13 +42393,17 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     SpineBanks10eFactionPackTyranids10eV14WeaponProfile,
     Spinefists10eFactionPackTyranids10eV14WeaponProfile,
     Spinemaws10eFactionPackTyranids10eV14WeaponProfile,
+    SpinneretRifle10eFactionPackAeldari10eV12WeaponProfile,
     SpinninBlades10eFactionPackOrks10eV13WeaponProfile,
     SpiritLeechTentacles10eFactionPackDrukhari10eV11WeaponProfile,
     SpiritSyphon10eFactionPackDrukhari10eV11WeaponProfile,
     SpiritVortex10eFactionPackDrukhari10eV11WeaponProfile,
+    SplinterCannon10eFactionPackAeldari10eV12WeaponProfile,
     SplinterCannon10eFactionPackDrukhari10eV11WeaponProfile,
+    SplinterPistol10eFactionPackAeldari10eV12WeaponProfile,
     SplinterPistol10eFactionPackDrukhari10eV11WeaponProfile,
     SplinterPods10eFactionPackDrukhari10eV11WeaponProfile,
+    SplinterRifle10eFactionPackAeldari10eV12WeaponProfile,
     SplinterRifle10eFactionPackDrukhari10eV11WeaponProfile,
     SplinterstormCannon10eFactionPackDrukhari10eV11WeaponProfile,
     SporeMineLauncher10eFactionPackTyranids10eV14WeaponProfile,
@@ -33609,34 +42422,57 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     StaffOfTomorrow10eFactionPackThousandSons10eV11WeaponProfile,
     StaffOfTzeentch10eFactionPackChaosDaemons10eV12WeaponProfile,
     StaffOfTzeentch10eFactionPackThousandSons10eV11WeaponProfile,
+    StaffOfUlthamarAndWitchblade10eFactionPackAeldari10eV12WeaponProfile,
     StalkerBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile,
     StalkerPatternBoltgun10eFactionPackImperialAgents10eV13WeaponProfile,
     StalkersForelimbs10eFactionPackNecrons10eV13WeaponProfile,
+    StarBolas10eFactionPackAeldari10eV12WeaponProfile,
+    StarGlaive10eFactionPackAeldari10eV12WeaponProfile,
+    StarLance10eFactionPackAeldari10eV12WeaponProfile,
+    Starcannon10eFactionPackAeldari10eV12WeaponProfile,
+    StarfangGrenadeLauncher10eFactionPackAeldari10eV12WeaponProfile,
+    SteedsHooves10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    SteedsSavageClaws10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Stikka10eFactionPackOrks10eV13WeaponProfile,
     StikkaKannon10eFactionPackOrks10eV13WeaponProfile,
     StingerPistol10eFactionPackDrukhari10eV11WeaponProfile,
     StingerPod10eFactionPackDrukhari10eV11WeaponProfile,
     StingerSalvoes10eFactionPackTyranids10eV14WeaponProfile,
     StingwingClaws10eFactionPackTauEmpire10eV12WeaponProfile,
+    StompingFeet10eFactionPackAstraMilitarum10eV16WeaponProfile,
     StompyFeet10eFactionPackOrks10eV13WeaponProfile,
+    StormBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     StormBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    StormBolter10eFactionPackAstraMilitarum10eV16WeaponProfile,
     StormBolter10eFactionPackGreyKnights10eV10WeaponProfile,
     StormBolter10eFactionPackImperialAgents10eV13WeaponProfile,
+    StormEagleRockets10eFactionPackAstraMilitarum10eV16WeaponProfile,
     StormLaser10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
+    StormOfWhispers10eFactionPackAeldari10eV12WeaponProfile,
     StormVortexProjectorBeam10eFactionPackDrukhari10eV11WeaponProfile,
     StormVortexProjectorBlast10eFactionPackDrukhari10eV11WeaponProfile,
+    StormbladePlasmaBlastgunStandard10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    StormbladePlasmaBlastgunSupercharge10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    StormhammerCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     StormspearRocketPod10eFactionPackImperialKnights10eV12WeaponProfile,
     StormstrikeMissileLauncher10eFactionPackGreyKnights10eV10WeaponProfile,
     StormstrikeMissileLauncher10eFactionPackImperialAgents10eV13WeaponProfile,
+    StormswordSiegeCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    StraightSilverKnife10eFactionPackAstraMilitarum10eV16WeaponProfile,
     StranglethornCannon10eFactionPackTyranids10eV14WeaponProfile,
     Strangleweb10eFactionPackTyranids10eV14WeaponProfile,
     StreamsOfBrackishFilth10eFactionPackChaosDaemons10eV12WeaponProfile,
     StreamsOfBrackishFilth10eFactionPackDeathGuard10eV11WeaponProfile,
+    StubPistol10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Stubcarbine10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     Stubcarbine10eFactionPackImperialAgents10eV13WeaponProfile,
     Stunclaw10eFactionPackDrukhari10eV11WeaponProfile,
+    StygiesLaserDestroyer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Sublimator10eFactionPackGreyKnights10eV10WeaponProfile,
+    SuccubusWeapons10eFactionPackAeldari10eV12WeaponProfile,
     SulphurBreath10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    Suncannon10eFactionPackAeldari10eV12WeaponProfile,
+    Sunpistol10eFactionPackAeldari10eV12WeaponProfile,
     SupaGatler10eFactionPackOrks10eV13WeaponProfile,
     SupaKannon10eFactionPackOrks10eV13WeaponProfile,
     SupaKannonFrag10eFactionPackOrks10eV13WeaponProfile,
@@ -33648,6 +42484,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     SurgeonAcolytesTools10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     SwiftstrikeBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     SwiftstrikeRailgun10eFactionPackTauEmpire10eV12WeaponProfile,
+    SwirlingSoulEnergy10eFactionPackAeldari10eV12WeaponProfile,
+    SwordOfAsur10eFactionPackAeldari10eV12WeaponProfile,
+    SybariteWeapon10eFactionPackAeldari10eV12WeaponProfile,
     SydonianFeet10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     SynapticDisintegrator10eFactionPackNecrons10eV13WeaponProfile,
     SynapticObliterator10eFactionPackNecrons10eV13WeaponProfile,
@@ -33660,18 +42499,27 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TanglebombLauncher10eFactionPackTauEmpire10eV12WeaponProfile,
     Tanglecannon10eFactionPackTauEmpire10eV12WeaponProfile,
     Tankhammer10eFactionPackOrks10eV13WeaponProfile,
+    TankstopperRifle10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TarsisBuckler10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     TaserGoad10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TaserLance10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TauFlamer10eFactionPackTauEmpire10eV12WeaponProfile,
     TauTechRifle10eFactionPackTauEmpire10eV12WeaponProfile,
+    TaurosGrenadeLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    TaurosGrenadeLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    TauroxBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    TauroxGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    TauroxMissileLauncherFrag10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    TauroxMissileLauncherKrak10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TechnoVirusInjector10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     TelemonCaestus10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     TellyportBlasta10eFactionPackOrks10eV13WeaponProfile,
+    TempestLauncher10eFactionPackAeldari10eV12WeaponProfile,
     TempestWarbladeStrike10eFactionPackChaosKnights10eV11WeaponProfile,
     TempestWarbladeStrike10eFactionPackImperialKnights10eV12WeaponProfile,
     TempestWarbladeSweep10eFactionPackChaosKnights10eV11WeaponProfile,
     TempestWarbladeSweep10eFactionPackImperialKnights10eV12WeaponProfile,
+    TempestusDagger10eFactionPackAstraMilitarum10eV16WeaponProfile,
     Tentaclids10eFactionPackTyranids10eV14WeaponProfile,
     TermagantDevourer10eFactionPackTyranids10eV14WeaponProfile,
     TermagantSpinefists10eFactionPackTyranids10eV14WeaponProfile,
@@ -33687,16 +42535,25 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TeslaSpheres10eFactionPackNecrons10eV13WeaponProfile,
     TesseractSingularityChamberParticleHurricane10eFactionPackNecrons10eV13WeaponProfile,
     TesseractSingularityChamberSeismicLash10eFactionPackNecrons10eV13WeaponProfile,
+    TheArdentBlade10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     TheBladeOfShadowsStrike10eFactionPackChaosDaemons10eV12WeaponProfile,
     TheBladeOfShadowsSweep10eFactionPackChaosDaemons10eV12WeaponProfile,
+    TheEyeOfWrath10eFactionPackAeldari10eV12WeaponProfile,
+    TheOutcastsWeapons10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     TheSlayerSword10eFactionPackChaosDaemons10eV12WeaponProfile,
+    TheSpearOfTwilight10eFactionPackAeldari10eV12WeaponProfile,
+    TheThornOfTheWhiteRose10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     TheTitansword10eFactionPackGreyKnights10eV10WeaponProfile,
     TheTrickstersStaff10eFactionPackChaosDaemons10eV12WeaponProfile,
+    TheWailingDoom10eFactionPackAeldari10eV12WeaponProfile,
+    TheWailingDoomStrike10eFactionPackAeldari10eV12WeaponProfile,
+    TheWailingDoomSweep10eFactionPackAeldari10eV12WeaponProfile,
     ThermalCannon10eFactionPackImperialKnights10eV12WeaponProfile,
     ThermalSpear10eFactionPackImperialKnights10eV12WeaponProfile,
     TheynsMeleeWeapon10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     TheynsPistol10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     ThoraxSpur10eFactionPackTyranids10eV14WeaponProfile,
+    ThroneOfBlame10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     ThumpGun10eFactionPackOrks10eV13WeaponProfile,
     ThunderHammer10eFactionPackImperialAgents10eV13WeaponProfile,
     ThundercoilHarpoon10eFactionPackImperialKnights10eV12WeaponProfile,
@@ -33708,10 +42565,13 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TimesArrow10eFactionPackNecrons10eV13WeaponProfile,
     TinboysKlaw10eCodexOrks10eWeaponProfile,
     TinboysKustomShoota10eCodexOrks10eWeaponProfile,
+    TitanicFeet10eFactionPackAeldari10eV12WeaponProfile,
     TitanicFeet10eFactionPackChaosKnights10eV11WeaponProfile,
     TitanicFeet10eFactionPackImperialKnights10eV12WeaponProfile,
     TitanicForelimbsStrike10eFactionPackNecrons10eV13WeaponProfile,
     TitanicForelimbsSweep10eFactionPackNecrons10eV13WeaponProfile,
+    TitanicGhostglaiveStrike10eFactionPackAeldari10eV12WeaponProfile,
+    TitanicGhostglaiveSweep10eFactionPackAeldari10eV12WeaponProfile,
     TitanicScythingTalons10eFactionPackTyranids10eV14WeaponProfile,
     TombSentinelClaws10eFactionPackNecrons10eV13WeaponProfile,
     TombStalkerClaws10eFactionPackNecrons10eV13WeaponProfile,
@@ -33737,12 +42597,16 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TransonicCannon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TransonicRazorAndChordclaw10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TransuranicArquebus10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    TremorCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TremorShells10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     Tremorglaive10eFactionPackNecrons10eV13WeaponProfile,
     TremorglaiveReverberatingBeam10eFactionPackNecrons10eV13WeaponProfile,
     TremorglaiveShockWavePulse10eFactionPackNecrons10eV13WeaponProfile,
+    TrenchClub10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TriAxisIonCannonStandard10eFactionPackTauEmpire10eV12WeaponProfile,
     TriAxisIonCannonSupercharge10eFactionPackTauEmpire10eV12WeaponProfile,
+    Triskele10eFactionPackAeldari10eV12WeaponProfile,
+    TroupeMastersBlade10eFactionPackAeldari10eV12WeaponProfile,
     TrygonScythingTalons10eFactionPackTyranids10eV14WeaponProfile,
     TurboLaserDestructor10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     TurboLaserDestructor10eFactionPackGreyKnights10eV10WeaponProfile,
@@ -33752,15 +42616,18 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TwinArachnusHeavyBlazeCannon10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     TwinAssaultCannon10eFactionPackGreyKnights10eV10WeaponProfile,
     TwinAssaultCannon10eFactionPackImperialAgents10eV13WeaponProfile,
+    TwinAutocannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinAutocannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     TwinAutocannon10eFactionPackDeathGuard10eV11WeaponProfile,
     TwinAutocannon10eFactionPackGenestealerCults10eV10WeaponProfile,
     TwinAutocannon10eFactionPackThousandSons10eV11WeaponProfile,
     TwinAutocannon10eFactionPackWorldEaters10eV11WeaponProfile,
+    TwinBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinBigShoota10eFactionPackOrks10eV13WeaponProfile,
     TwinBoltCannon10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     TwinBoltRifle10eFactionPackImperialAgents10eV13WeaponProfile,
     TwinBoltgun10eFactionPackImperialAgents10eV13WeaponProfile,
+    TwinBrightLance10eFactionPackAeldari10eV12WeaponProfile,
     TwinBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinCognisAutocannon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TwinCognisLascannon10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
@@ -33779,7 +42646,9 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TwinHaywireBlaster10eFactionPackDrukhari10eV11WeaponProfile,
     TwinHazardBurstCannon10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinHeatLance10eFactionPackDrukhari10eV11WeaponProfile,
+    TwinHeavyBolter10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     TwinHeavyBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    TwinHeavyBolter10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinHeavyBolter10eFactionPackChaosKnights10eV11WeaponProfile,
     TwinHeavyBolter10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     TwinHeavyBolter10eFactionPackDeathGuard10eV11WeaponProfile,
@@ -33788,9 +42657,11 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TwinHeavyBolter10eFactionPackImperialAgents10eV13WeaponProfile,
     TwinHeavyBolter10eFactionPackImperialKnights10eV12WeaponProfile,
     TwinHeavyBolter10eFactionPackWorldEaters10eV11WeaponProfile,
+    TwinHeavyFlamer10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinHeavyPlasmaCannonStandard10eFactionPackGreyKnights10eV10WeaponProfile,
     TwinHeavyPlasmaCannonSupercharge10eFactionPackGreyKnights10eV10WeaponProfile,
     TwinHeavyRailCannon10eFactionPackTauEmpire10eV12WeaponProfile,
+    TwinHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinHeavyStubber10eFactionPackGenestealerCults10eV10WeaponProfile,
     TwinHeavyVenomCannon10eFactionPackTyranids10eV14WeaponProfile,
     TwinIcarusAutocannon10eFactionPackImperialKnights10eV12WeaponProfile,
@@ -33803,9 +42674,11 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TwinKastelanFist10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TwinKastelanPhosphorBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TwinKillsaw10eFactionPackOrks10eV13WeaponProfile,
+    TwinKriegHeavyStubber10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinKrootGun10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinKustomMegaBlasta10eFactionPackOrks10eV13WeaponProfile,
     TwinLasPulsar10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    TwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinLascannon10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     TwinLascannon10eFactionPackDeathGuard10eV11WeaponProfile,
     TwinLascannon10eFactionPackGreyKnights10eV10WeaponProfile,
@@ -33822,34 +42695,50 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     TwinMagnaLascannon10eFactionPackChaosKnights10eV11WeaponProfile,
     TwinMagnaLascannon10eFactionPackImperialKnights10eV12WeaponProfile,
     TwinMeltagun10eFactionPackImperialKnights10eV12WeaponProfile,
+    TwinMinistorumHeavyFlamer10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    TwinMissileLauncherStarshot10eFactionPackAeldari10eV12WeaponProfile,
+    TwinMissileLauncherSunburst10eFactionPackAeldari10eV12WeaponProfile,
     TwinMissilePod10eFactionPackTauEmpire10eV12WeaponProfile,
+    TwinMultiLaser10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    TwinMultiMelta10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     TwinMultiMelta10eFactionPackGreyKnights10eV10WeaponProfile,
     TwinMultiMelta10eFactionPackImperialAgents10eV13WeaponProfile,
     TwinOnagerHeavyPhosphorBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    TwinPenitentBuzzBlades10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    TwinPenitentFlails10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     TwinPlagueSpewer10eFactionPackDeathGuard10eV11WeaponProfile,
     TwinPlasmaProjector10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     TwinPlasmaRifle10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinPsycannon10eFactionPackGreyKnights10eV10WeaponProfile,
     TwinPulseBlaster10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinPulseCarbine10eFactionPackTauEmpire10eV12WeaponProfile,
+    TwinPulseLaser10eFactionPackAeldari10eV12WeaponProfile,
     TwinRadCleanser10eFactionPackChaosKnights10eV11WeaponProfile,
     TwinRadCleanser10eFactionPackImperialKnights10eV12WeaponProfile,
     TwinRitualisticBlades10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinRokkitLauncha10eFactionPackOrks10eV13WeaponProfile,
+    TwinScatterLaser10eFactionPackAeldari10eV12WeaponProfile,
+    TwinScorpionPulsar10eFactionPackAeldari10eV12WeaponProfile,
+    TwinShurikenCannon10eFactionPackAeldari10eV12WeaponProfile,
+    TwinShurikenCatapult10eFactionPackAeldari10eV12WeaponProfile,
     TwinSiegebreakerCannon10eFactionPackImperialKnights10eV12WeaponProfile,
     TwinSkorcha10eFactionPackOrks10eV13WeaponProfile,
     TwinSlaughterBlade10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     TwinSlugga10eFactionPackOrks10eV13WeaponProfile,
     TwinSmartMissileSystem10eFactionPackTauEmpire10eV12WeaponProfile,
     TwinSplinterCannon10eFactionPackDrukhari10eV11WeaponProfile,
+    TwinSplinterRifle10eFactionPackAeldari10eV12WeaponProfile,
     TwinSplinterRifle10eFactionPackDrukhari10eV11WeaponProfile,
+    TwinStarcannon10eFactionPackAeldari10eV12WeaponProfile,
     TwinStranglethornCannon10eFactionPackTyranids10eV14WeaponProfile,
     TwinSupaShoota10eFactionPackOrks10eV13WeaponProfile,
     TwinTauFlamer10eFactionPackTauEmpire10eV12WeaponProfile,
+    TwinTauroxHotShotVolleyGun10eFactionPackAstraMilitarum10eV16WeaponProfile,
     TwinTellyportMegaBlasta10eFactionPackOrks10eV13WeaponProfile,
     TwinTeslaCarbine10eFactionPackNecrons10eV13WeaponProfile,
     TwinTeslaDestructor10eFactionPackNecrons10eV13WeaponProfile,
     TwinTorturersTools10eFactionPackDrukhari10eV11WeaponProfile,
+    TwinVampirePulsar10eFactionPackAeldari10eV12WeaponProfile,
     TwinVolkiteCharger10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
     TwinWazbomMegaKannon10eFactionPackOrks10eV13WeaponProfile,
     TyphoonMissileLauncherFrag10eFactionPackGreyKnights10eV10WeaponProfile,
@@ -33866,6 +42755,8 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     UnmakerGauntlet10eFactionPackNecrons10eV13WeaponProfile,
     UrGhulTalons10eFactionPackDrukhari10eV11WeaponProfile,
     UrtySyringe10eFactionPackOrks10eV13WeaponProfile,
+    ValdorNeutronLaser10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    VanquisherBattleCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     VashtorrsClaw10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     VashtorrsHammerStrike10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     VashtorrsHammerSweep10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
@@ -33873,32 +42764,50 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     VaultswordsHurricanus10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     VaultswordsVictus10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     VenatariLance10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    VendettaHellstrikeRack10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    VendettaTwinLascannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     VenomBolt10eFactionPackTyranids10eV14WeaponProfile,
     VenomCannon10eFactionPackTyranids10eV14WeaponProfile,
     VertusHurricaneBolter10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    VibroCannon10eFactionPackAeldari10eV12WeaponProfile,
     ViciousBite10eFactionPackImperialAgents10eV13WeaponProfile,
     ViciousClaws10eFactionPackNecrons10eV13WeaponProfile,
     VigilSpear10eFactionPackImperialAgents10eV13WeaponProfile,
+    VigilatorCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    VilithZharStrike10eFactionPackAeldari10eV12WeaponProfile,
+    VilithZharSweep10eFactionPackAeldari10eV12WeaponProfile,
     VindicareCombatKnife10eFactionPackImperialAgents10eV13WeaponProfile,
+    VirgeOfAdmonition10eFactionPackAdeptaSororitas10eV13WeaponProfile,
     VoidLance10eFactionPackDrukhari10eV11WeaponProfile,
+    VoidSabre10eFactionPackAeldari10eV12WeaponProfile,
     Voidblade10eFactionPackNecrons10eV13WeaponProfile,
+    Voidbringer10eFactionPackAeldari10eV12WeaponProfile,
     VoidravenMissilesImplosionMissiles10eFactionPackDrukhari10eV11WeaponProfile,
     VoidravenMissilesShatterfieldMissiles10eFactionPackDrukhari10eV11WeaponProfile,
     Voidscythe10eFactionPackNecrons10eV13WeaponProfile,
     VoidsmanRotorCannon10eFactionPackImperialAgents10eV13WeaponProfile,
+    VoidstormMissileLauncher10eFactionPackAeldari10eV12WeaponProfile,
+    VoidweaverHaywireCannon10eFactionPackAeldari10eV12WeaponProfile,
+    VolcanoCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
     VolcanoLance10eFactionPackImperialKnights10eV12WeaponProfile,
     VolkaniteDisintegrator10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     VolkiteBlaster10eFactionPackAdeptusMechanicus10eV11WeaponProfile,
+    VolkiteCaliver10eFactionPackAstraMilitarum10eV16WeaponProfile,
     VolkiteChierovile10eFactionPackChaosKnights10eV11WeaponProfile,
     VolkiteChierovile10eFactionPackImperialKnights10eV12WeaponProfile,
     VolkiteCombustor10eFactionPackChaosKnights10eV11WeaponProfile,
+    VolkiteCulverin10eFactionPackAstraMilitarum10eV16WeaponProfile,
     VolkiteVeuglaire10eFactionPackChaosKnights10eV11WeaponProfile,
     VolkiteVeuglaire10eFactionPackImperialKnights10eV12WeaponProfile,
     VoltaicPistol10eFactionPackImperialAgents10eV13WeaponProfile,
     VoltaicStorm10eFactionPackNecrons10eV13WeaponProfile,
     VortexOfDoom10eFactionPackGreyKnights10eV10WeaponProfile,
+    VulcanMegaBolter10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    VultureGatlingCannon10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    VultureHellstrikeRack10eFactionPackAstraMilitarum10eV16WeaponProfile,
     WaaaghBanner10eFactionPackOrks10eV13WeaponProfile,
     WarDogAutocannon10eFactionPackChaosKnights10eV11WeaponProfile,
+    WarWalkerFeet10eFactionPackAeldari10eV12WeaponProfile,
     WarforgeGauntlets10eFactionPackLeaguesOfVotann10eV13WeaponProfile,
     WarpBlastFocusedWitchfire10eFactionPackTyranids10eV14WeaponProfile,
     WarpBlastWitchfire10eFactionPackTyranids10eV14WeaponProfile,
@@ -33920,26 +42829,42 @@ export const weaponProfilesDataset: SeedDataset<"weapon_profiles"> = {
     WarpstrikeClawSweep10eFactionPackChaosKnights10eV11WeaponProfile,
     Warpsword10eFactionPackChaosDaemons10eV12WeaponProfile,
     Warscythe10eFactionPackNecrons10eV13WeaponProfile,
+    WaspFeet10eFactionPackAeldari10eV12WeaponProfile,
     WatchersAxe10eFactionPackAdeptusCustodes10eV10WeaponProfile,
+    Waystave10eFactionPackAeldari10eV12WeaponProfile,
     WeaponsOfTheFinalTriarch10eFactionPackNecrons10eV13WeaponProfile,
+    WeaponsTeamCloseCombatWeapons10eFactionPackAstraMilitarum10eV16WeaponProfile,
+    Weaverender10eFactionPackAeldari10eV12WeaponProfile,
     Webber10eFactionPackGenestealerCults10eV10WeaponProfile,
     Webber10eFactionPackImperialAgents10eV13WeaponProfile,
     WeirdboyStaff10eFactionPackOrks10eV13WeaponProfile,
     WhipCoils10eFactionPackNecrons10eV13WeaponProfile,
     WingMissiles10eFactionPackOrks10eV13WeaponProfile,
+    WitchStaff10eFactionPackAeldari10eV12WeaponProfile,
+    Witchblade10eFactionPackAeldari10eV12WeaponProfile,
     WitchseekerFlamer10eFactionPackAdeptusCustodes10eV10WeaponProfile,
     WitstealerSword10eFactionPackChaosDaemons10eV12WeaponProfile,
     WitstealerSword10eFactionPackEmperorsChildren10eV13WeaponProfile,
+    WraithGlaiveStrike10eFactionPackAeldari10eV12WeaponProfile,
+    WraithGlaiveSweep10eFactionPackAeldari10eV12WeaponProfile,
+    WraithboneFists10eFactionPackAeldari10eV12WeaponProfile,
+    WraithboneHull10eFactionPackAeldari10eV12WeaponProfile,
+    Wraithcannon10eFactionPackAeldari10eV12WeaponProfile,
+    WraithseerDCannon10eFactionPackAeldari10eV12WeaponProfile,
     WreckinBall10eFactionPackOrks10eV13WeaponProfile,
     Wrench10eFactionPackOrks10eV13WeaponProfile,
     Wurrtower10eFactionPackOrks10eV13WeaponProfile,
+    WyvernQuadStormshardMortar10eFactionPackAstraMilitarum10eV16WeaponProfile,
     XenophaseBlade10eFactionPackImperialAgents10eV13WeaponProfile,
     XvPulsePistol10eFactionPackTauEmpire10eV12WeaponProfile,
     XyclosNeedler10eFactionPackChaosSpaceMarines10eV16WeaponProfile,
     YawningMaw10eFactionPackChaosDaemons10eV12WeaponProfile,
     YellowClaws10eFactionPackChaosDaemons10eV12WeaponProfile,
     YellowClaws10eFactionPackThousandSons10eV11WeaponProfile,
+    ZealotsVindictor10eFactionPackAdeptaSororitas10eV13WeaponProfile,
+    ZealotsVindictor10eFactionPackAstraMilitarum10eV16WeaponProfile,
     ZealotsVindictor10eFactionPackImperialAgents10eV13WeaponProfile,
+    Zephyrglaive10eFactionPackAeldari10eV12WeaponProfile,
     ZzapGun10eFactionPackOrks10eV13WeaponProfile,
   ] satisfies WeaponProfileConfig[],
 };

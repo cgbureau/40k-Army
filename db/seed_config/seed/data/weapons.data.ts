@@ -125,6 +125,27 @@ export const AdrathicDevastatorWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const AeldariMissileLauncherStarshotWeapon: WeaponConfig = {
+  id: weaponId("aeldari_missile_launcher_starshot"),
+  weapon_slug: "aeldari_missile_launcher_starshot",
+  weapon_name: "Aeldari missile launcher \u2013 starshot",
+  weapon_type: "ranged",
+};
+
+export const AeldariMissileLauncherSunburstWeapon: WeaponConfig = {
+  id: weaponId("aeldari_missile_launcher_sunburst"),
+  weapon_slug: "aeldari_missile_launcher_sunburst",
+  weapon_name: "Aeldari missile launcher \u2013 sunburst",
+  weapon_type: "ranged",
+};
+
+export const AeldariPowerSwordWeapon: WeaponConfig = {
+  id: weaponId("aeldari_power_sword"),
+  weapon_slug: "aeldari_power_sword",
+  weapon_name: "Aeldari power sword",
+  weapon_type: "melee",
+};
+
 export const AeonstaveWeapon: WeaponConfig = {
   id: weaponId("aeonstave"),
   weapon_slug: "aeonstave",
@@ -221,6 +242,13 @@ export const AnnihilatorBeamWeapon: WeaponConfig = {
   weapon_slug: "annihilator_beam",
   weapon_name: "Annihilator beam",
   weapon_type: "ranged",
+};
+
+export const AnointedHalberdWeapon: WeaponConfig = {
+  id: weaponId("anointed_halberd"),
+  weapon_slug: "anointed_halberd",
+  weapon_name: "Anointed halberd",
+  weapon_type: "melee",
 };
 
 export const AnointedPistolWeapon: WeaponConfig = {
@@ -356,6 +384,20 @@ export const ArchiteGlaiveAndAgoniserWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ArcoFlailsWeapon: WeaponConfig = {
+  id: weaponId("arco_flails"),
+  weapon_slug: "arco_flails",
+  weapon_name: "Arco-flails",
+  weapon_type: "melee",
+};
+
+export const ArhrasBaneWeapon: WeaponConfig = {
+  id: weaponId("arhras_bane"),
+  weapon_slug: "arhras_bane",
+  weapon_name: "Arhra\u2019s Bane",
+  weapon_type: "ranged",
+};
+
 export const ArmigerAutocannonWeapon: WeaponConfig = {
   id: weaponId("armiger_autocannon"),
   weapon_slug: "armiger_autocannon",
@@ -374,6 +416,13 @@ export const ArmouredFeetWeapon: WeaponConfig = {
   id: weaponId("armoured_feet"),
   weapon_slug: "armoured_feet",
   weapon_name: "Armoured feet",
+  weapon_type: "melee",
+};
+
+export const ArmouredFrameWeapon: WeaponConfig = {
+  id: weaponId("armoured_frame"),
+  weapon_slug: "armoured_frame",
+  weapon_name: "Armoured frame",
   weapon_type: "melee",
 };
 
@@ -489,6 +538,34 @@ export const AstralBlastWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const AstropathsStaveWeapon: WeaponConfig = {
+  id: weaponId("astropaths_stave"),
+  weapon_slug: "astropaths_stave",
+  weapon_name: "Astropath\u2019s stave",
+  weapon_type: "melee",
+};
+
+export const AsuVarDuellistStanceWeapon: WeaponConfig = {
+  id: weaponId("asu_var_duellist_stance"),
+  weapon_slug: "asu_var_duellist_stance",
+  weapon_name: "Asu-var \u2013 duellist stance",
+  weapon_type: "melee",
+};
+
+export const AsuVarMythicStanceWeapon: WeaponConfig = {
+  id: weaponId("asu_var_mythic_stance"),
+  weapon_slug: "asu_var_mythic_stance",
+  weapon_name: "Asu-var \u2013 mythic stance",
+  weapon_type: "melee",
+};
+
+export const AsuVarQuicksilverStanceWeapon: WeaponConfig = {
+  id: weaponId("asu_var_quicksilver_stance"),
+  weapon_slug: "asu_var_quicksilver_stance",
+  weapon_name: "Asu-var \u2013 quicksilver stance",
+  weapon_type: "melee",
+};
+
 export const AtalanIncineratorWeapon: WeaponConfig = {
   id: weaponId("atalan_incinerator"),
   weapon_slug: "atalan_incinerator",
@@ -552,6 +629,13 @@ export const AutoBoltstormGauntletsWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const AutoShotgunWeapon: WeaponConfig = {
+  id: weaponId("auto_shotgun"),
+  weapon_slug: "auto_shotgun",
+  weapon_name: "Auto shotgun",
+  weapon_type: "ranged",
+};
+
 export const AutocannonWeapon: WeaponConfig = {
   id: weaponId("autocannon"),
   weapon_slug: "autocannon",
@@ -601,6 +685,20 @@ export const AutopistolWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const AutostubberWeapon: WeaponConfig = {
+  id: weaponId("autostubber"),
+  weapon_slug: "autostubber",
+  weapon_name: "Autostubber",
+  weapon_type: "ranged",
+};
+
+export const AvengerBoltCannonWeapon: WeaponConfig = {
+  id: weaponId("avenger_bolt_cannon"),
+  weapon_slug: "avenger_bolt_cannon",
+  weapon_name: "Avenger bolt cannon",
+  weapon_type: "ranged",
+};
+
 export const AvengerChaincannonWeapon: WeaponConfig = {
   id: weaponId("avenger_chaincannon"),
   weapon_slug: "avenger_chaincannon",
@@ -612,6 +710,13 @@ export const AvengerGatlingCannonWeapon: WeaponConfig = {
   id: weaponId("avenger_gatling_cannon"),
   weapon_slug: "avenger_gatling_cannon",
   weapon_name: "Avenger gatling cannon",
+  weapon_type: "ranged",
+};
+
+export const AvengerShurikenCatapultWeapon: WeaponConfig = {
+  id: weaponId("avenger_shuriken_catapult"),
+  weapon_slug: "avenger_shuriken_catapult",
+  weapon_name: "Avenger shuriken catapult",
   weapon_type: "ranged",
 };
 
@@ -648,6 +753,13 @@ export const AxeOfKhorneSweepWeapon: WeaponConfig = {
   weapon_slug: "axe_of_khorne_sweep",
   weapon_name: "Axe of Khorne \u2013 sweep",
   weapon_type: "melee",
+};
+
+export const BaleEyeWeapon: WeaponConfig = {
+  id: weaponId("bale_eye"),
+  weapon_slug: "bale_eye",
+  weapon_name: "Bale Eye",
+  weapon_type: "ranged",
 };
 
 export const BaleblastWeapon: WeaponConfig = {
@@ -734,6 +846,20 @@ export const BaneSweepWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const BanebladeCannonWeapon: WeaponConfig = {
+  id: weaponId("baneblade_cannon"),
+  weapon_slug: "baneblade_cannon",
+  weapon_name: "Baneblade cannon",
+  weapon_type: "ranged",
+};
+
+export const BansheeBladeWeapon: WeaponConfig = {
+  id: weaponId("banshee_blade"),
+  weapon_slug: "banshee_blade",
+  weapon_name: "Banshee blade",
+  weapon_type: "melee",
+};
+
 export const BarbedOvipositorWeapon: WeaponConfig = {
   id: weaponId("barbed_ovipositor"),
   weapon_slug: "barbed_ovipositor",
@@ -760,6 +886,13 @@ export const BarblauncherWeapon: WeaponConfig = {
   weapon_slug: "barblauncher",
   weapon_name: "Barblauncher",
   weapon_type: "ranged",
+};
+
+export const BatteryCloseCombatWeaponsWeapon: WeaponConfig = {
+  id: weaponId("battery_close_combat_weapons"),
+  weapon_slug: "battery_close_combat_weapons",
+  weapon_name: "Battery close combat weapons",
+  weapon_type: "melee",
 };
 
 export const BattlesuitFistsWeapon: WeaponConfig = {
@@ -951,10 +1084,24 @@ export const BioPlasmicScreamWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const BionicArmWithDevilsClawWeapon: WeaponConfig = {
+  id: weaponId("bionic_arm_with_devils_claw"),
+  weapon_slug: "bionic_arm_with_devils_claw",
+  weapon_name: "Bionic arm with devil\u2019s claw",
+  weapon_type: "melee",
+};
+
 export const BionicGauntletWeapon: WeaponConfig = {
   id: weaponId("bionic_gauntlet"),
   weapon_slug: "bionic_gauntlet",
   weapon_name: "Bionic gauntlet",
+  weapon_type: "melee",
+};
+
+export const BitingBladeWeapon: WeaponConfig = {
+  id: weaponId("biting_blade"),
+  weapon_slug: "biting_blade",
+  weapon_name: "Biting blade",
   weapon_type: "melee",
 };
 
@@ -1014,6 +1161,13 @@ export const BladeOfDecaySweepWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const BladeOfDestructionWeapon: WeaponConfig = {
+  id: weaponId("blade_of_destruction"),
+  weapon_slug: "blade_of_destruction",
+  weapon_name: "Blade of Destruction",
+  weapon_type: "melee",
+};
+
 export const BladeOfMagnusStrikeWeapon: WeaponConfig = {
   id: weaponId("blade_of_magnus_strike"),
   weapon_slug: "blade_of_magnus_strike",
@@ -1039,6 +1193,13 @@ export const BladeOfTheLaerWeapon: WeaponConfig = {
   id: weaponId("blade_of_the_laer"),
   weapon_slug: "blade_of_the_laer",
   weapon_name: "Blade of the Laer",
+  weapon_type: "melee",
+};
+
+export const BladeOfVigilWeapon: WeaponConfig = {
+  id: weaponId("blade_of_vigil"),
+  weapon_slug: "blade_of_vigil",
+  weapon_name: "Blade of Vigil",
   weapon_type: "melee",
 };
 
@@ -1147,6 +1308,27 @@ export const BlastmasterVariedFrequencyWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const BlessedBladeWeapon: WeaponConfig = {
+  id: weaponId("blessed_blade"),
+  weapon_slug: "blessed_blade",
+  weapon_name: "Blessed blade",
+  weapon_type: "melee",
+};
+
+export const BlessedHalberdWeapon: WeaponConfig = {
+  id: weaponId("blessed_halberd"),
+  weapon_slug: "blessed_halberd",
+  weapon_name: "Blessed halberd",
+  weapon_type: "melee",
+};
+
+export const BlessedSwordWeapon: WeaponConfig = {
+  id: weaponId("blessed_sword"),
+  weapon_slug: "blessed_sword",
+  weapon_name: "Blessed sword",
+  weapon_type: "melee",
+};
+
 export const BlightLauncherWeapon: WeaponConfig = {
   id: weaponId("blight_launcher"),
   weapon_slug: "blight_launcher",
@@ -1193,6 +1375,13 @@ export const BloodlashWeapon: WeaponConfig = {
   id: weaponId("bloodlash"),
   weapon_slug: "bloodlash",
   weapon_name: "Bloodlash",
+  weapon_type: "ranged",
+};
+
+export const BloodyTwinsWeapon: WeaponConfig = {
+  id: weaponId("bloody_twins"),
+  weapon_slug: "bloody_twins",
+  weapon_name: "Bloody Twins",
   weapon_type: "ranged",
 };
 
@@ -1252,6 +1441,13 @@ export const BoltPistolWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const BoltPistolsWeapon: WeaponConfig = {
+  id: weaponId("bolt_pistols"),
+  weapon_slug: "bolt_pistols",
+  weapon_name: "Bolt pistols",
+  weapon_type: "ranged",
+};
+
 export const BoltRevolverWeapon: WeaponConfig = {
   id: weaponId("bolt_revolver"),
   weapon_slug: "bolt_revolver",
@@ -1287,6 +1483,13 @@ export const BoltgunWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const BombastFieldGunWeapon: WeaponConfig = {
+  id: weaponId("bombast_field_gun"),
+  weapon_slug: "bombast_field_gun",
+  weapon_name: "Bombast field gun",
+  weapon_type: "ranged",
+};
+
 export const BoneCleaverLashWhipAndRendingClawsWeapon: WeaponConfig = {
   id: weaponId("bone_cleaver_lash_whip_and_rending_claws"),
   weapon_slug: "bone_cleaver_lash_whip_and_rending_claws",
@@ -1315,6 +1518,27 @@ export const BoomstikksWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const BraceOfPistolsWeapon: WeaponConfig = {
+  id: weaponId("brace_of_pistols"),
+  weapon_slug: "brace_of_pistols",
+  weapon_name: "Brace of pistols",
+  weapon_type: "ranged",
+};
+
+export const BraggsAutocannonWeapon: WeaponConfig = {
+  id: weaponId("braggs_autocannon"),
+  weapon_slug: "braggs_autocannon",
+  weapon_name: "Bragg\u2019s autocannon",
+  weapon_type: "ranged",
+};
+
+export const BrazierOfHolyFireWeapon: WeaponConfig = {
+  id: weaponId("brazier_of_holy_fire"),
+  weapon_slug: "brazier_of_holy_fire",
+  weapon_name: "Brazier of holy fire",
+  weapon_type: "ranged",
+};
+
 export const BreachaRamWeapon: WeaponConfig = {
   id: weaponId("breacha_ram"),
   weapon_slug: "breacha_ram",
@@ -1329,10 +1553,24 @@ export const BreacherOrdnanceWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const BrightLanceWeapon: WeaponConfig = {
+  id: weaponId("bright_lance"),
+  weapon_slug: "bright_lance",
+  weapon_name: "Bright lance",
+  weapon_type: "ranged",
+};
+
 export const BrimstoneVolcanoLanceWeapon: WeaponConfig = {
   id: weaponId("brimstone_volcano_lance"),
   weapon_slug: "brimstone_volcano_lance",
   weapon_name: "Brimstone volcano lance",
+  weapon_type: "ranged",
+};
+
+export const BroodTwainWeapon: WeaponConfig = {
+  id: weaponId("brood_twain"),
+  weapon_slug: "brood_twain",
+  weapon_name: "Brood Twain",
   weapon_type: "ranged",
 };
 
@@ -1389,6 +1627,13 @@ export const BuboticWeaponsWeapon: WeaponConfig = {
   id: weaponId("bubotic_weapons"),
   weapon_slug: "bubotic_weapons",
   weapon_name: "Bubotic weapons",
+  weapon_type: "melee",
+};
+
+export const BullgrynMaulWeapon: WeaponConfig = {
+  id: weaponId("bullgryn_maul"),
+  weapon_slug: "bullgryn_maul",
+  weapon_name: "Bullgryn maul",
   weapon_type: "melee",
 };
 
@@ -1490,6 +1735,27 @@ export const CarnifexScythingTalonsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const CarnodonTwinAutocannonWeapon: WeaponConfig = {
+  id: weaponId("carnodon_twin_autocannon"),
+  weapon_slug: "carnodon_twin_autocannon",
+  weapon_name: "Carnodon twin autocannon",
+  weapon_type: "ranged",
+};
+
+export const CarnodonTwinLascannonWeapon: WeaponConfig = {
+  id: weaponId("carnodon_twin_lascannon"),
+  weapon_slug: "carnodon_twin_lascannon",
+  weapon_name: "Carnodon twin lascannon",
+  weapon_type: "ranged",
+};
+
+export const CarnodonTwinMultiLaserWeapon: WeaponConfig = {
+  id: weaponId("carnodon_twin_multi_laser"),
+  weapon_slug: "carnodon_twin_multi_laser",
+  weapon_name: "Carnodon twin multi-laser",
+  weapon_type: "ranged",
+};
+
 export const CasketOfFlensingWeapon: WeaponConfig = {
   id: weaponId("casket_of_flensing"),
   weapon_slug: "casket_of_flensing",
@@ -1511,10 +1777,31 @@ export const CastigationWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const CastigatorAutocannonsWeapon: WeaponConfig = {
+  id: weaponId("castigator_autocannons"),
+  weapon_slug: "castigator_autocannons",
+  weapon_name: "Castigator autocannons",
+  weapon_type: "ranged",
+};
+
+export const CastigatorBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("castigator_battle_cannon"),
+  weapon_slug: "castigator_battle_cannon",
+  weapon_name: "Castigator battle cannon",
+  weapon_type: "ranged",
+};
+
 export const CastigatorBoltCannonWeapon: WeaponConfig = {
   id: weaponId("castigator_bolt_cannon"),
   weapon_slug: "castigator_bolt_cannon",
   weapon_name: "Castigator bolt cannon",
+  weapon_type: "ranged",
+};
+
+export const CastigatorGatlingCannonWeapon: WeaponConfig = {
+  id: weaponId("castigator_gatling_cannon"),
+  weapon_slug: "castigator_gatling_cannon",
+  weapon_name: "Castigator gatling cannon",
   weapon_type: "ranged",
 };
 
@@ -1588,6 +1875,13 @@ export const ChainfistWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ChainsabresWeapon: WeaponConfig = {
+  id: weaponId("chainsabres"),
+  weapon_slug: "chainsabres",
+  weapon_name: "Chainsabres",
+  weapon_type: "ranged",
+};
+
 export const ChainswordWeapon: WeaponConfig = {
   id: weaponId("chainsword"),
   weapon_slug: "chainsword",
@@ -1609,6 +1903,13 @@ export const ChastiserGatlingCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ChemCannonWeapon: WeaponConfig = {
+  id: weaponId("chem_cannon"),
+  weapon_slug: "chem_cannon",
+  weapon_name: "Chem cannon",
+  weapon_type: "ranged",
+};
+
 export const ChemicalVialsWeapon: WeaponConfig = {
   id: weaponId("chemical_vials"),
   weapon_slug: "chemical_vials",
@@ -1616,10 +1917,24 @@ export const ChemicalVialsWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ChironGatlingCannonWeapon: WeaponConfig = {
+  id: weaponId("chiron_gatling_cannon"),
+  weapon_slug: "chiron_gatling_cannon",
+  weapon_name: "Chiron gatling cannon",
+  weapon_type: "ranged",
+};
+
 export const ChirurgeonWeapon: WeaponConfig = {
   id: weaponId("chirurgeon"),
   weapon_slug: "chirurgeon",
   weapon_name: "Chirurgeon",
+  weapon_type: "melee",
+};
+
+export const ChirurgeonsToolsWeapon: WeaponConfig = {
+  id: weaponId("chirurgeons_tools"),
+  weapon_slug: "chirurgeons_tools",
+  weapon_name: "Chirurgeon\u2019s tools",
   weapon_type: "melee",
 };
 
@@ -1700,10 +2015,24 @@ export const CloseCombatWeaponsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const CloudburstMissileLauncherWeapon: WeaponConfig = {
+  id: weaponId("cloudburst_missile_launcher"),
+  weapon_slug: "cloudburst_missile_launcher",
+  weapon_name: "Cloudburst missile launcher",
+  weapon_type: "ranged",
+};
+
 export const ClusterRocketSystemWeapon: WeaponConfig = {
   id: weaponId("cluster_rocket_system"),
   weapon_slug: "cluster_rocket_system",
   weapon_name: "Cluster rocket system",
+  weapon_type: "ranged",
+};
+
+export const CoaxialAutocannonWeapon: WeaponConfig = {
+  id: weaponId("coaxial_autocannon"),
+  weapon_slug: "coaxial_autocannon",
+  weapon_name: "Coaxial autocannon",
   weapon_type: "ranged",
 };
 
@@ -1735,11 +2064,25 @@ export const CoiledTentaclesWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ColossusSiegeMortarWeapon: WeaponConfig = {
+  id: weaponId("colossus_siege_mortar"),
+  weapon_slug: "colossus_siege_mortar",
+  weapon_name: "Colossus siege mortar",
+  weapon_type: "ranged",
+};
+
 export const CombatKnifeWeapon: WeaponConfig = {
   id: weaponId("combat_knife"),
   weapon_slug: "combat_knife",
   weapon_name: "Combat knife",
   weapon_type: "melee",
+};
+
+export const CombatShotgunWeapon: WeaponConfig = {
+  id: weaponId("combat_shotgun"),
+  weapon_slug: "combat_shotgun",
+  weapon_name: "Combat shotgun",
+  weapon_type: "ranged",
 };
 
 export const CombiBolterWeapon: WeaponConfig = {
@@ -1753,6 +2096,20 @@ export const CombiWeaponWeapon: WeaponConfig = {
   id: weaponId("combi_weapon"),
   weapon_slug: "combi_weapon",
   weapon_name: "Combi-weapon",
+  weapon_type: "ranged",
+};
+
+export const CommissarsCloseCombatWeaponWeapon: WeaponConfig = {
+  id: weaponId("commissars_close_combat_weapon"),
+  weapon_slug: "commissars_close_combat_weapon",
+  weapon_name: "Commissar\u2019s close combat weapon",
+  weapon_type: "melee",
+};
+
+export const CommissarsPistolWeapon: WeaponConfig = {
+  id: weaponId("commissars_pistol"),
+  weapon_slug: "commissars_pistol",
+  weapon_name: "Commissar\u2019s pistol",
   weapon_type: "ranged",
 };
 
@@ -1784,6 +2141,13 @@ export const ConcussionMaulWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const CondemnorBoltPistolWeapon: WeaponConfig = {
+  id: weaponId("condemnor_bolt_pistol"),
+  weapon_slug: "condemnor_bolt_pistol",
+  weapon_name: "Condemnor bolt pistol",
+  weapon_type: "ranged",
+};
+
 export const CondemnorBoltgunWeapon: WeaponConfig = {
   id: weaponId("condemnor_boltgun"),
   weapon_slug: "condemnor_boltgun",
@@ -1803,6 +2167,13 @@ export const ConflagrationCannonWeapon: WeaponConfig = {
   weapon_slug: "conflagration_cannon",
   weapon_name: "Conflagration cannon",
   weapon_type: "ranged",
+};
+
+export const ConquestWeapon: WeaponConfig = {
+  id: weaponId("conquest"),
+  weapon_slug: "conquest",
+  weapon_name: "Conquest",
+  weapon_type: "melee",
 };
 
 export const ContemptorCombatWeaponWeapon: WeaponConfig = {
@@ -1833,6 +2204,13 @@ export const ConversionBeamObliteratorWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const CorbecsHotShotLascarbineWeapon: WeaponConfig = {
+  id: weaponId("corbecs_hot_shot_lascarbine"),
+  weapon_slug: "corbecs_hot_shot_lascarbine",
+  weapon_name: "Corbec\u2019s hot-shot lascarbine",
+  weapon_type: "ranged",
+};
+
 export const CorruptedPistolWeapon: WeaponConfig = {
   id: weaponId("corrupted_pistol"),
   weapon_slug: "corrupted_pistol",
@@ -1851,6 +2229,20 @@ export const CorruptedStaveWeapon: WeaponConfig = {
   id: weaponId("corrupted_stave"),
   weapon_slug: "corrupted_stave",
   weapon_name: "Corrupted stave",
+  weapon_type: "ranged",
+};
+
+export const CorsairBladeWeapon: WeaponConfig = {
+  id: weaponId("corsair_blade"),
+  weapon_slug: "corsair_blade",
+  weapon_name: "Corsair blade",
+  weapon_type: "melee",
+};
+
+export const CorsairFirearmWeapon: WeaponConfig = {
+  id: weaponId("corsair_firearm"),
+  weapon_slug: "corsair_firearm",
+  weapon_name: "Corsair firearm",
   weapon_type: "ranged",
 };
 
@@ -1900,6 +2292,13 @@ export const CracklingTendrilsWeapon: WeaponConfig = {
   id: weaponId("crackling_tendrils"),
   weapon_slug: "crackling_tendrils",
   weapon_name: "Crackling tendrils",
+  weapon_type: "melee",
+};
+
+export const CrewCloseCombatWeaponsWeapon: WeaponConfig = {
+  id: weaponId("crew_close_combat_weapons"),
+  weapon_slug: "crew_close_combat_weapons",
+  weapon_name: "Crew close combat weapons",
   weapon_type: "melee",
 };
 
@@ -2099,6 +2498,48 @@ export const CyphersPlasmaPistolWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const DBombardWeapon: WeaponConfig = {
+  id: weaponId("d_bombard"),
+  weapon_slug: "d_bombard",
+  weapon_name: "D-bombard",
+  weapon_type: "ranged",
+};
+
+export const DCannonWeapon: WeaponConfig = {
+  id: weaponId("d_cannon"),
+  weapon_slug: "d_cannon",
+  weapon_name: "D-cannon",
+  weapon_type: "ranged",
+};
+
+export const DFlailBlastWeapon: WeaponConfig = {
+  id: weaponId("d_flail_blast"),
+  weapon_slug: "d_flail_blast",
+  weapon_name: "D-flail \u2013 blast",
+  weapon_type: "ranged",
+};
+
+export const DFlailRiftWeapon: WeaponConfig = {
+  id: weaponId("d_flail_rift"),
+  weapon_slug: "d_flail_rift",
+  weapon_name: "D-flail \u2013 rift",
+  weapon_type: "ranged",
+};
+
+export const DImpalerWeapon: WeaponConfig = {
+  id: weaponId("d_impaler"),
+  weapon_slug: "d_impaler",
+  weapon_name: "D-impaler",
+  weapon_type: "ranged",
+};
+
+export const DScytheWeapon: WeaponConfig = {
+  id: weaponId("d_scythe"),
+  weapon_slug: "d_scythe",
+  weapon_name: "D-scythe",
+  weapon_type: "ranged",
+};
+
 export const DaGrabzappaWeapon: WeaponConfig = {
   id: weaponId("da_grabzappa"),
   weapon_slug: "da_grabzappa",
@@ -2281,6 +2722,13 @@ export const DeathCultPowerBladeWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const DeathCultPowerBladesWeapon: WeaponConfig = {
+  id: weaponId("death_cult_power_blades"),
+  weapon_slug: "death_cult_power_blades",
+  weapon_name: "Death Cult power blades",
+  weapon_type: "melee",
+};
+
 export const DeathRayWeapon: WeaponConfig = {
   id: weaponId("death_ray"),
   weapon_slug: "death_ray",
@@ -2288,10 +2736,45 @@ export const DeathRayWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const DeathRiderLascarbineWeapon: WeaponConfig = {
+  id: weaponId("death_rider_lascarbine"),
+  weapon_slug: "death_rider_lascarbine",
+  weapon_name: "Death Rider lascarbine",
+  weapon_type: "ranged",
+};
+
+export const DeathSpinnerWeapon: WeaponConfig = {
+  id: weaponId("death_spinner"),
+  weapon_slug: "death_spinner",
+  weapon_name: "Death spinner",
+  weapon_type: "ranged",
+};
+
+export const DeathWeaversWeapon: WeaponConfig = {
+  id: weaponId("death_weavers"),
+  weapon_slug: "death_weavers",
+  weapon_name: "Death weavers",
+  weapon_type: "ranged",
+};
+
 export const DeathsHeadsWeapon: WeaponConfig = {
   id: weaponId("deaths_heads"),
   weapon_slug: "deaths_heads",
   weapon_name: "Death\u2019s heads",
+  weapon_type: "ranged",
+};
+
+export const DeathshroudCannonDispersedWeapon: WeaponConfig = {
+  id: weaponId("deathshroud_cannon_dispersed"),
+  weapon_slug: "deathshroud_cannon_dispersed",
+  weapon_name: "Deathshroud cannon \u2013 dispersed",
+  weapon_type: "ranged",
+};
+
+export const DeathshroudCannonFocusedWeapon: WeaponConfig = {
+  id: weaponId("deathshroud_cannon_focused"),
+  weapon_slug: "deathshroud_cannon_focused",
+  weapon_name: "Deathshroud cannon \u2013 focused",
   weapon_type: "ranged",
 };
 
@@ -2306,6 +2789,13 @@ export const DeathspittersWithSlimerMaggotsWeapon: WeaponConfig = {
   id: weaponId("deathspitters_with_slimer_maggots"),
   weapon_slug: "deathspitters_with_slimer_maggots",
   weapon_name: "Deathspitters with slimer maggots",
+  weapon_type: "ranged",
+};
+
+export const DeathstrikeMissileWeapon: WeaponConfig = {
+  id: weaponId("deathstrike_missile"),
+  weapon_slug: "deathstrike_missile",
+  weapon_name: "Deathstrike missile",
   weapon_type: "ranged",
 };
 
@@ -2400,6 +2890,13 @@ export const DemiklaivesSingleBladeWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const DemolisherBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("demolisher_battle_cannon"),
+  weapon_slug: "demolisher_battle_cannon",
+  weapon_name: "Demolisher battle cannon",
+  weapon_type: "ranged",
+};
+
 export const DemolisherCannonWeapon: WeaponConfig = {
   id: weaponId("demolisher_cannon"),
   weapon_slug: "demolisher_cannon",
@@ -2425,6 +2922,13 @@ export const DemolitionChargesWeapon: WeaponConfig = {
   id: weaponId("demolition_charges"),
   weapon_slug: "demolition_charges",
   weapon_name: "Demolition charges",
+  weapon_type: "ranged",
+};
+
+export const DemolitionsWeapon: WeaponConfig = {
+  id: weaponId("demolitions"),
+  weapon_slug: "demolitions",
+  weapon_name: "Demolitions",
   weapon_type: "ranged",
 };
 
@@ -2456,6 +2960,13 @@ export const DestroyerMissilesWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const DestructorWeapon: WeaponConfig = {
+  id: weaponId("destructor"),
+  weapon_slug: "destructor",
+  weapon_name: "Destructor",
+  weapon_type: "ranged",
+};
+
 export const DevourerWeapon: WeaponConfig = {
   id: weaponId("devourer"),
   weapon_slug: "devourer",
@@ -2477,6 +2988,13 @@ export const DiabolusHeavyStubberWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const DialogusStaffWeapon: WeaponConfig = {
+  id: weaponId("dialogus_staff"),
+  weapon_slug: "dialogus_staff",
+  weapon_name: "Dialogus staff",
+  weapon_type: "melee",
+};
+
 export const DireBioCannonWeapon: WeaponConfig = {
   id: weaponId("dire_bio_cannon"),
   weapon_slug: "dire_bio_cannon",
@@ -2491,11 +3009,25 @@ export const DireScytheBladesWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const DireswordWeapon: WeaponConfig = {
+  id: weaponId("diresword"),
+  weapon_slug: "diresword",
+  weapon_name: "Diresword",
+  weapon_type: "melee",
+};
+
 export const DirgesingerWeapon: WeaponConfig = {
   id: weaponId("dirgesinger"),
   weapon_slug: "dirgesinger",
   weapon_name: "Dirgesinger",
   weapon_type: "ranged",
+};
+
+export const DirkWeapon: WeaponConfig = {
+  id: weaponId("dirk"),
+  weapon_slug: "dirk",
+  weapon_name: "Dirk",
+  weapon_type: "melee",
 };
 
 export const DiseasedClawsAndFangsWeapon: WeaponConfig = {
@@ -2533,6 +3065,20 @@ export const DisruptorMissileLauncherWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const DissonanceCannonWeapon: WeaponConfig = {
+  id: weaponId("dissonance_cannon"),
+  weapon_slug: "dissonance_cannon",
+  weapon_name: "Dissonance cannon",
+  weapon_type: "ranged",
+};
+
+export const DissonancePistolWeapon: WeaponConfig = {
+  id: weaponId("dissonance_pistol"),
+  weapon_slug: "dissonance_pistol",
+  weapon_name: "Dissonance pistol",
+  weapon_type: "ranged",
+};
+
 export const DistensibleJawWeapon: WeaponConfig = {
   id: weaponId("distensible_jaw"),
   weapon_slug: "distensible_jaw",
@@ -2545,6 +3091,13 @@ export const DiviningSpearWeapon: WeaponConfig = {
   weapon_slug: "divining_spear",
   weapon_name: "Divining spear",
   weapon_type: "melee",
+};
+
+export const DominusTripleBombardWeapon: WeaponConfig = {
+  id: weaponId("dominus_triple_bombard"),
+  weapon_slug: "dominus_triple_bombard",
+  weapon_name: "Dominus triple bombard",
+  weapon_type: "ranged",
 };
 
 export const DoomsdayBellWeapon: WeaponConfig = {
@@ -2575,11 +3128,53 @@ export const DoomstalkerLimbsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const DoomweaverWeapon: WeaponConfig = {
+  id: weaponId("doomweaver"),
+  weapon_slug: "doomweaver",
+  weapon_name: "Doomweaver",
+  weapon_type: "ranged",
+};
+
+export const DozerRamWeapon: WeaponConfig = {
+  id: weaponId("dozer_ram"),
+  weapon_slug: "dozer_ram",
+  weapon_name: "Dozer ram",
+  weapon_type: "melee",
+};
+
 export const DrachnyenWeapon: WeaponConfig = {
   id: weaponId("drachnyen"),
   weapon_slug: "drachnyen",
   weapon_name: "Drach\u2019nyen",
   weapon_type: "melee",
+};
+
+export const DragonAxeWeapon: WeaponConfig = {
+  id: weaponId("dragon_axe"),
+  weapon_slug: "dragon_axe",
+  weapon_name: "Dragon axe",
+  weapon_type: "melee",
+};
+
+export const DragonFusionGunWeapon: WeaponConfig = {
+  id: weaponId("dragon_fusion_gun"),
+  weapon_slug: "dragon_fusion_gun",
+  weapon_name: "Dragon fusion gun",
+  weapon_type: "ranged",
+};
+
+export const DragonFusionPistolWeapon: WeaponConfig = {
+  id: weaponId("dragon_fusion_pistol"),
+  weapon_slug: "dragon_fusion_pistol",
+  weapon_name: "Dragon fusion pistol",
+  weapon_type: "ranged",
+};
+
+export const DragonsBreathFlamerWeapon: WeaponConfig = {
+  id: weaponId("dragons_breath_flamer"),
+  weapon_slug: "dragons_breath_flamer",
+  weapon_name: "Dragon\u2019s breath flamer",
+  weapon_type: "ranged",
 };
 
 export const DreadKillsawWeapon: WeaponConfig = {
@@ -2594,6 +3189,13 @@ export const DreadKlawWeapon: WeaponConfig = {
   weapon_slug: "dread_klaw",
   weapon_name: "Dread klaw",
   weapon_type: "melee",
+};
+
+export const DreadOfTheDeepVoidWeapon: WeaponConfig = {
+  id: weaponId("dread_of_the_deep_void"),
+  weapon_slug: "dread_of_the_deep_void",
+  weapon_name: "Dread of the Deep Void",
+  weapon_type: "ranged",
 };
 
 export const DreadRippaKlawWeapon: WeaponConfig = {
@@ -2666,6 +3268,13 @@ export const DunecrawlerLegsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const DutyAndVengeanceWeapon: WeaponConfig = {
+  id: weaponId("duty_and_vengeance"),
+  weapon_slug: "duty_and_vengeance",
+  weapon_name: "Duty and Vengeance",
+  weapon_type: "ranged",
+};
+
 export const DvorgiteSkinnerWeapon: WeaponConfig = {
   id: weaponId("dvorgite_skinner"),
   weapon_slug: "dvorgite_skinner",
@@ -2684,6 +3293,13 @@ export const EaglesScreamWeapon: WeaponConfig = {
   id: weaponId("eagles_scream"),
   weapon_slug: "eagles_scream",
   weapon_name: "Eagle's Scream",
+  weapon_type: "ranged",
+};
+
+export const EarthshakerCannonWeapon: WeaponConfig = {
+  id: weaponId("earthshaker_cannon"),
+  weapon_slug: "earthshaker_cannon",
+  weapon_name: "Earthshaker cannon",
   weapon_type: "ranged",
 };
 
@@ -2729,6 +3345,13 @@ export const EldritchLanceWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const EldritchStormWeapon: WeaponConfig = {
+  id: weaponId("eldritch_storm"),
+  weapon_slug: "eldritch_storm",
+  weapon_name: "Eldritch Storm",
+  weapon_type: "ranged",
+};
+
 export const ElectroGoadsWeapon: WeaponConfig = {
   id: weaponId("electro_goads"),
   weapon_slug: "electro_goads",
@@ -2764,6 +3387,13 @@ export const EmpathicObliteratorWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const EnforcerCrewWeapon: WeaponConfig = {
+  id: weaponId("enforcer_crew"),
+  weapon_slug: "enforcer_crew",
+  weapon_name: "Enforcer crew",
+  weapon_type: "melee",
+};
+
 export const EnforcerMeleeWeaponWeapon: WeaponConfig = {
   id: weaponId("enforcer_melee_weapon"),
   weapon_slug: "enforcer_melee_weapon",
@@ -2776,6 +3406,13 @@ export const EnforcerPistolWeapon: WeaponConfig = {
   weapon_slug: "enforcer_pistol",
   weapon_name: "Enforcer pistol",
   weapon_type: "ranged",
+};
+
+export const EnginseerAxeWeapon: WeaponConfig = {
+  id: weaponId("enginseer_axe"),
+  weapon_slug: "enginseer_axe",
+  weapon_name: "Enginseer axe",
+  weapon_type: "melee",
 };
 
 export const EnmiticAnnihilatorWeapon: WeaponConfig = {
@@ -2811,6 +3448,13 @@ export const EntropyCannonWeapon: WeaponConfig = {
   weapon_slug: "entropy_cannon",
   weapon_name: "Entropy cannon",
   weapon_type: "ranged",
+};
+
+export const EnvenomedBladeWeapon: WeaponConfig = {
+  id: weaponId("envenomed_blade"),
+  weapon_slug: "envenomed_blade",
+  weapon_name: "Envenomed blade",
+  weapon_type: "melee",
 };
 
 export const EradicationBeamerDissipatedWeapon: WeaponConfig = {
@@ -2852,6 +3496,13 @@ export const EradicationRayFocusedWeapon: WeaponConfig = {
   id: weaponId("eradication_ray_focused"),
   weapon_slug: "eradication_ray_focused",
   weapon_name: "Eradication ray \u2013 focused",
+  weapon_type: "ranged",
+};
+
+export const EradicatorNovaCannonWeapon: WeaponConfig = {
+  id: weaponId("eradicator_nova_cannon"),
+  weapon_slug: "eradicator_nova_cannon",
+  weapon_name: "Eradicator nova cannon",
   weapon_type: "ranged",
 };
 
@@ -2897,6 +3548,27 @@ export const ExaltedWeaponWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ExarchsDeathSpinnerWeapon: WeaponConfig = {
+  id: weaponId("exarchs_death_spinner"),
+  weapon_slug: "exarchs_death_spinner",
+  weapon_name: "Exarch\u2019s death spinner",
+  weapon_type: "ranged",
+};
+
+export const ExarchsDragonFusionGunWeapon: WeaponConfig = {
+  id: weaponId("exarchs_dragon_fusion_gun"),
+  weapon_slug: "exarchs_dragon_fusion_gun",
+  weapon_name: "Exarch\u2019s Dragon fusion gun",
+  weapon_type: "ranged",
+};
+
+export const ExarchsLasblasterWeapon: WeaponConfig = {
+  id: weaponId("exarchs_lasblaster"),
+  weapon_slug: "exarchs_lasblaster",
+  weapon_name: "Exarch\u2019s lasblaster",
+  weapon_type: "ranged",
+};
+
 export const ExcruciatorCannonWeapon: WeaponConfig = {
   id: weaponId("excruciator_cannon"),
   weapon_slug: "excruciator_cannon",
@@ -2911,6 +3583,13 @@ export const ExcruciatorMaulWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ExecutionerWeapon: WeaponConfig = {
+  id: weaponId("executioner"),
+  weapon_slug: "executioner",
+  weapon_name: "Executioner",
+  weapon_type: "ranged",
+};
+
 export const ExecutionerGreatbladeWeapon: WeaponConfig = {
   id: weaponId("executioner_greatblade"),
   weapon_slug: "executioner_greatblade",
@@ -2922,6 +3601,20 @@ export const ExecutionerPistolWeapon: WeaponConfig = {
   id: weaponId("executioner_pistol"),
   weapon_slug: "executioner_pistol",
   weapon_name: "Executioner pistol",
+  weapon_type: "ranged",
+};
+
+export const ExecutionerPlasmaCannonStandardWeapon: WeaponConfig = {
+  id: weaponId("executioner_plasma_cannon_standard"),
+  weapon_slug: "executioner_plasma_cannon_standard",
+  weapon_name: "Executioner plasma cannon \u2013 standard",
+  weapon_type: "ranged",
+};
+
+export const ExecutionerPlasmaCannonSuperchargeWeapon: WeaponConfig = {
+  id: weaponId("executioner_plasma_cannon_supercharge"),
+  weapon_slug: "executioner_plasma_cannon_supercharge",
+  weapon_name: "Executioner plasma cannon \u2013 supercharge",
   weapon_type: "ranged",
 };
 
@@ -2974,6 +3667,20 @@ export const ExoarmourGrenadeLauncherWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ExorcistConflagrationRocketsWeapon: WeaponConfig = {
+  id: weaponId("exorcist_conflagration_rockets"),
+  weapon_slug: "exorcist_conflagration_rockets",
+  weapon_name: "Exorcist conflagration rockets",
+  weapon_type: "ranged",
+};
+
+export const ExorcistMissileLauncherWeapon: WeaponConfig = {
+  id: weaponId("exorcist_missile_launcher"),
+  weapon_slug: "exorcist_missile_launcher",
+  weapon_name: "Exorcist missile launcher",
+  weapon_type: "ranged",
+};
+
 export const ExperimentalPulseSubmunitionsRifleEmpWeapon: WeaponConfig = {
   id: weaponId("experimental_pulse_submunitions_rifle_emp"),
   weapon_slug: "experimental_pulse_submunitions_rifle_emp",
@@ -2985,6 +3692,20 @@ export const ExperimentalPulseSubmunitionsRifleIonicWeapon: WeaponConfig = {
   id: weaponId("experimental_pulse_submunitions_rifle_ionic"),
   weapon_slug: "experimental_pulse_submunitions_rifle_ionic",
   weapon_name: "Experimental pulse submunitions rifle \u2013 ionic",
+  weapon_type: "ranged",
+};
+
+export const ExterminatorAutocannonWeapon: WeaponConfig = {
+  id: weaponId("exterminator_autocannon"),
+  weapon_slug: "exterminator_autocannon",
+  weapon_name: "Exterminator autocannon",
+  weapon_type: "ranged",
+};
+
+export const EyeOfWrathWeapon: WeaponConfig = {
+  id: weaponId("eye_of_wrath"),
+  weapon_slug: "eye_of_wrath",
+  weapon_name: "Eye of Wrath",
   weapon_type: "ranged",
 };
 
@@ -3044,10 +3765,24 @@ export const FerrumiteCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const FidelisWeapon: WeaponConfig = {
+  id: weaponId("fidelis"),
+  weapon_slug: "fidelis",
+  weapon_name: "Fidelis",
+  weapon_type: "ranged",
+};
+
 export const FidelityWeapon: WeaponConfig = {
   id: weaponId("fidelity"),
   weapon_slug: "fidelity",
   weapon_name: "Fidelity",
+  weapon_type: "melee",
+};
+
+export const FireAxeWeapon: WeaponConfig = {
+  id: weaponId("fire_axe"),
+  weapon_slug: "fire_axe",
+  weapon_name: "Fire Axe",
   weapon_type: "melee",
 };
 
@@ -3072,6 +3807,13 @@ export const FirebladePulseRifleWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const FirepikeWeapon: WeaponConfig = {
+  id: weaponId("firepike"),
+  weapon_slug: "firepike",
+  weapon_name: "Firepike",
+  weapon_type: "ranged",
+};
+
 export const FiresOfTheAbyssFocusedWitchfireWeapon: WeaponConfig = {
   id: weaponId("fires_of_the_abyss_focused_witchfire"),
   weapon_slug: "fires_of_the_abyss_focused_witchfire",
@@ -3083,6 +3825,13 @@ export const FiresOfTheAbyssWitchfireWeapon: WeaponConfig = {
   id: weaponId("fires_of_the_abyss_witchfire"),
   weapon_slug: "fires_of_the_abyss_witchfire",
   weapon_name: "Fires of the Abyss \u2013 witchfire",
+  weapon_type: "ranged",
+};
+
+export const FirestormScatterLaserWeapon: WeaponConfig = {
+  id: weaponId("firestorm_scatter_laser"),
+  weapon_slug: "firestorm_scatter_laser",
+  weapon_name: "Firestorm scatter laser",
   weapon_type: "ranged",
 };
 
@@ -3366,6 +4115,13 @@ export const FragCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const FragLanceWeapon: WeaponConfig = {
+  id: weaponId("frag_lance"),
+  weapon_slug: "frag_lance",
+  weapon_name: "Frag lance",
+  weapon_type: "melee",
+};
+
 export const FragdrillWeapon: WeaponConfig = {
   id: weaponId("fragdrill"),
   weapon_slug: "fragdrill",
@@ -3401,6 +4157,13 @@ export const FreedomsHandSweepWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const FuryOfTheTempestWeapon: WeaponConfig = {
+  id: weaponId("fury_of_the_tempest"),
+  weapon_slug: "fury_of_the_tempest",
+  weapon_name: "Fury of the Tempest",
+  weapon_type: "ranged",
+};
+
 export const FusionBlasterWeapon: WeaponConfig = {
   id: weaponId("fusion_blaster"),
   weapon_slug: "fusion_blaster",
@@ -3433,6 +4196,20 @@ export const FusionEradicatorWeapon: WeaponConfig = {
   id: weaponId("fusion_eradicator"),
   weapon_slug: "fusion_eradicator",
   weapon_name: "Fusion eradicator",
+  weapon_type: "ranged",
+};
+
+export const FusionGunWeapon: WeaponConfig = {
+  id: weaponId("fusion_gun"),
+  weapon_slug: "fusion_gun",
+  weapon_name: "Fusion gun",
+  weapon_type: "ranged",
+};
+
+export const FusionPistolWeapon: WeaponConfig = {
+  id: weaponId("fusion_pistol"),
+  weapon_slug: "fusion_pistol",
+  weapon_name: "Fusion pistol",
   weapon_type: "ranged",
 };
 
@@ -3504,6 +4281,13 @@ export const GauntletOfFireWeapon: WeaponConfig = {
   weapon_slug: "gauntlet_of_fire",
   weapon_name: "Gauntlet of Fire",
   weapon_type: "ranged",
+};
+
+export const GauntsChainswordWeapon: WeaponConfig = {
+  id: weaponId("gaunts_chainsword"),
+  weapon_slug: "gaunts_chainsword",
+  weapon_name: "Gaunt\u2019s chainsword",
+  weapon_type: "melee",
 };
 
 export const GaussAnnihilatorWeapon: WeaponConfig = {
@@ -3632,10 +4416,52 @@ export const GheiststrikeMissileLauncherWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const GhostaxeWeapon: WeaponConfig = {
+  id: weaponId("ghostaxe"),
+  weapon_slug: "ghostaxe",
+  weapon_name: "Ghostaxe",
+  weapon_type: "melee",
+};
+
+export const GhostglaiveStrikeWeapon: WeaponConfig = {
+  id: weaponId("ghostglaive_strike"),
+  weapon_slug: "ghostglaive_strike",
+  weapon_name: "Ghostglaive \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const GhostglaiveSweepWeapon: WeaponConfig = {
+  id: weaponId("ghostglaive_sweep"),
+  weapon_slug: "ghostglaive_sweep",
+  weapon_name: "Ghostglaive \u2013 sweep",
+  weapon_type: "melee",
+};
+
 export const GhostkeelFistsWeapon: WeaponConfig = {
   id: weaponId("ghostkeel_fists"),
   weapon_slug: "ghostkeel_fists",
   weapon_name: "Ghostkeel fists",
+  weapon_type: "melee",
+};
+
+export const GhostspearStrikeWeapon: WeaponConfig = {
+  id: weaponId("ghostspear_strike"),
+  weapon_slug: "ghostspear_strike",
+  weapon_name: "Ghostspear \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const GhostspearSweepWeapon: WeaponConfig = {
+  id: weaponId("ghostspear_sweep"),
+  weapon_slug: "ghostspear_sweep",
+  weapon_name: "Ghostspear \u2013 sweep",
+  weapon_type: "melee",
+};
+
+export const GhostswordsWeapon: WeaponConfig = {
+  id: weaponId("ghostswords"),
+  weapon_slug: "ghostswords",
+  weapon_name: "Ghostswords",
   weapon_type: "melee",
 };
 
@@ -3688,6 +4514,13 @@ export const GnosisWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const GoadLanceWeapon: WeaponConfig = {
+  id: weaponId("goad_lance"),
+  weapon_slug: "goad_lance",
+  weapon_name: "Goad lance",
+  weapon_type: "melee",
+};
+
 export const GodhammerLascannonWeapon: WeaponConfig = {
   id: weaponId("godhammer_lascannon"),
   weapon_slug: "godhammer_lascannon",
@@ -3720,6 +4553,13 @@ export const GorestormCannonWeapon: WeaponConfig = {
   id: weaponId("gorestorm_cannon"),
   weapon_slug: "gorestorm_cannon",
   weapon_name: "Gorestorm cannon",
+  weapon_type: "ranged",
+};
+
+export const GorgonMortarWeapon: WeaponConfig = {
+  id: weaponId("gorgon_mortar"),
+  weapon_slug: "gorgon_mortar",
+  weapon_name: "Gorgon mortar",
   weapon_type: "ranged",
 };
 
@@ -3912,6 +4752,20 @@ export const GrenadeLauncherKrakWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const GrenadierGauntletWeapon: WeaponConfig = {
+  id: weaponId("grenadier_gauntlet"),
+  weapon_slug: "grenadier_gauntlet",
+  weapon_name: "Grenadier gauntlet",
+  weapon_type: "ranged",
+};
+
+export const GriffonHeavyMortarWeapon: WeaponConfig = {
+  id: weaponId("griffon_heavy_mortar"),
+  weapon_slug: "griffon_heavy_mortar",
+  weapon_name: "Griffon heavy mortar",
+  weapon_type: "ranged",
+};
+
 export const GrotBlastaWeapon: WeaponConfig = {
   id: weaponId("grot_blasta"),
   weapon_slug: "grot_blasta",
@@ -4003,11 +4857,39 @@ export const HaemonculusToolsAndScissorhandsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const HallowedChainswordWeapon: WeaponConfig = {
+  id: weaponId("hallowed_chainsword"),
+  weapon_slug: "hallowed_chainsword",
+  weapon_name: "Hallowed Chainsword",
+  weapon_type: "melee",
+};
+
+export const HallowedMaceWeapon: WeaponConfig = {
+  id: weaponId("hallowed_mace"),
+  weapon_slug: "hallowed_mace",
+  weapon_name: "Hallowed mace",
+  weapon_type: "melee",
+};
+
 export const HandFlamerWeapon: WeaponConfig = {
   id: weaponId("hand_flamer"),
   weapon_slug: "hand_flamer",
   weapon_name: "Hand flamer",
   weapon_type: "ranged",
+};
+
+export const HarlequinsBladeWeapon: WeaponConfig = {
+  id: weaponId("harlequins_blade"),
+  weapon_slug: "harlequins_blade",
+  weapon_name: "Harlequin\u2019s blade",
+  weapon_type: "melee",
+};
+
+export const HarlequinsSpecialWeaponWeapon: WeaponConfig = {
+  id: weaponId("harlequins_special_weapon"),
+  weapon_slug: "harlequins_special_weapon",
+  weapon_name: "Harlequin\u2019s special weapon",
+  weapon_type: "melee",
 };
 
 export const HarvesterCannonWeapon: WeaponConfig = {
@@ -4091,6 +4973,13 @@ export const HavocReaperChaincannonWeapon: WeaponConfig = {
   id: weaponId("havoc_reaper_chaincannon"),
   weapon_slug: "havoc_reaper_chaincannon",
   weapon_name: "Havoc reaper chaincannon",
+  weapon_type: "ranged",
+};
+
+export const HawksTalonWeapon: WeaponConfig = {
+  id: weaponId("hawks_talon"),
+  weapon_slug: "hawks_talon",
+  weapon_name: "Hawk\u2019s talon",
   weapon_type: "ranged",
 };
 
@@ -4192,6 +5081,13 @@ export const HeavyBurstCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const HeavyDScytheWeapon: WeaponConfig = {
+  id: weaponId("heavy_d_scythe"),
+  weapon_slug: "heavy_d_scythe",
+  weapon_name: "Heavy D-scythe",
+  weapon_type: "ranged",
+};
+
 export const HeavyDarkflamerWeapon: WeaponConfig = {
   id: weaponId("heavy_darkflamer"),
   weapon_slug: "heavy_darkflamer",
@@ -4231,6 +5127,13 @@ export const HeavyIncineratorWeapon: WeaponConfig = {
   id: weaponId("heavy_incinerator"),
   weapon_slug: "heavy_incinerator",
   weapon_name: "Heavy incinerator",
+  weapon_type: "ranged",
+};
+
+export const HeavyLascannonWeapon: WeaponConfig = {
+  id: weaponId("heavy_lascannon"),
+  weapon_slug: "heavy_lascannon",
+  weapon_name: "Heavy lascannon",
   weapon_type: "ranged",
 };
 
@@ -4325,6 +5228,13 @@ export const HeavyPsycannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const HeavyQuadLauncherWeapon: WeaponConfig = {
+  id: weaponId("heavy_quad_launcher"),
+  weapon_slug: "heavy_quad_launcher",
+  weapon_name: "Heavy quad launcher",
+  weapon_type: "ranged",
+};
+
 export const HeavyRailCannonWeapon: WeaponConfig = {
   id: weaponId("heavy_rail_cannon"),
   weapon_slug: "heavy_rail_cannon",
@@ -4399,6 +5309,13 @@ export const HeavyWarpflamerWeapon: WeaponConfig = {
   id: weaponId("heavy_warpflamer"),
   weapon_slug: "heavy_warpflamer",
   weapon_name: "Heavy warpflamer",
+  weapon_type: "ranged",
+};
+
+export const HeavyWraithcannonWeapon: WeaponConfig = {
+  id: weaponId("heavy_wraithcannon"),
+  weapon_slug: "heavy_wraithcannon",
+  weapon_name: "Heavy wraithcannon",
   weapon_type: "ranged",
 };
 
@@ -4549,6 +5466,13 @@ export const HellglaiveWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const HellhammerCannonWeapon: WeaponConfig = {
+  id: weaponId("hellhammer_cannon"),
+  weapon_slug: "hellhammer_cannon",
+  weapon_name: "Hellhammer cannon",
+  weapon_type: "ranged",
+};
+
 export const HellmawFlameCannonsWeapon: WeaponConfig = {
   id: weaponId("hellmaw_flame_cannons"),
   weapon_slug: "hellmaw_flame_cannons",
@@ -4570,10 +5494,31 @@ export const HellstormBoltRifleWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const HellstrikeMissileWeapon: WeaponConfig = {
+  id: weaponId("hellstrike_missile"),
+  weapon_slug: "hellstrike_missile",
+  weapon_name: "Hellstrike missile",
+  weapon_type: "ranged",
+};
+
 export const HellstrikeMissileBatteryWeapon: WeaponConfig = {
   id: weaponId("hellstrike_missile_battery"),
   weapon_slug: "hellstrike_missile_battery",
   weapon_name: "Hellstrike missile battery",
+  weapon_type: "ranged",
+};
+
+export const HellstrikeMissileRackWeapon: WeaponConfig = {
+  id: weaponId("hellstrike_missile_rack"),
+  weapon_slug: "hellstrike_missile_rack",
+  weapon_name: "Hellstrike missile rack",
+  weapon_type: "ranged",
+};
+
+export const HellstrikeMissilesWeapon: WeaponConfig = {
+  id: weaponId("hellstrike_missiles"),
+  weapon_slug: "hellstrike_missiles",
+  weapon_name: "Hellstrike missiles",
   weapon_type: "ranged",
 };
 
@@ -4654,6 +5599,13 @@ export const HighYieldMissilePodsWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const HolyEvisceratorWeapon: WeaponConfig = {
+  id: weaponId("holy_eviscerator"),
+  weapon_slug: "holy_eviscerator",
+  weapon_name: "Holy Eviscerator",
+  weapon_type: "melee",
+};
+
 export const HolyFireWeapon: WeaponConfig = {
   id: weaponId("holy_fire"),
   weapon_slug: "holy_fire",
@@ -4682,11 +5634,67 @@ export const HormagauntTalonsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const HornetPulseLaserWeapon: WeaponConfig = {
+  id: weaponId("hornet_pulse_laser"),
+  weapon_slug: "hornet_pulse_laser",
+  weapon_name: "Hornet pulse laser",
+  weapon_type: "ranged",
+};
+
+export const HotShotLascarbineWeapon: WeaponConfig = {
+  id: weaponId("hot_shot_lascarbine"),
+  weapon_slug: "hot_shot_lascarbine",
+  weapon_name: "Hot-shot lascarbine",
+  weapon_type: "ranged",
+};
+
+export const HotShotLasgunWeapon: WeaponConfig = {
+  id: weaponId("hot_shot_lasgun"),
+  weapon_slug: "hot_shot_lasgun",
+  weapon_name: "Hot-shot lasgun",
+  weapon_type: "ranged",
+};
+
+export const HotShotLaspistolWeapon: WeaponConfig = {
+  id: weaponId("hot_shot_laspistol"),
+  weapon_slug: "hot_shot_laspistol",
+  weapon_name: "Hot-shot laspistol",
+  weapon_type: "ranged",
+};
+
+export const HotShotLongLasWeapon: WeaponConfig = {
+  id: weaponId("hot_shot_long_las"),
+  weapon_slug: "hot_shot_long_las",
+  weapon_name: "Hot-shot long-las",
+  weapon_type: "ranged",
+};
+
+export const HotShotMarksmanRifleWeapon: WeaponConfig = {
+  id: weaponId("hot_shot_marksman_rifle"),
+  weapon_slug: "hot_shot_marksman_rifle",
+  weapon_name: "Hot-shot marksman rifle",
+  weapon_type: "ranged",
+};
+
+export const HotShotVolleyGunWeapon: WeaponConfig = {
+  id: weaponId("hot_shot_volley_gun"),
+  weapon_slug: "hot_shot_volley_gun",
+  weapon_name: "Hot-shot volley gun",
+  weapon_type: "ranged",
+};
+
 export const HouseholdPistolWeapon: WeaponConfig = {
   id: weaponId("household_pistol"),
   weapon_slug: "household_pistol",
   weapon_name: "Household pistol",
   weapon_type: "ranged",
+};
+
+export const HugeKnifeWeapon: WeaponConfig = {
+  id: weaponId("huge_knife"),
+  weapon_slug: "huge_knife",
+  weapon_name: "Huge knife",
+  weapon_type: "melee",
 };
 
 export const HugeTusksStrikeWeapon: WeaponConfig = {
@@ -4717,6 +5725,27 @@ export const HuntingJavelinWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const HuntingLanceWeapon: WeaponConfig = {
+  id: weaponId("hunting_lance"),
+  weapon_slug: "hunting_lance",
+  weapon_name: "Hunting lance",
+  weapon_type: "melee",
+};
+
+export const HuntingLanceFragTipWeapon: WeaponConfig = {
+  id: weaponId("hunting_lance_frag_tip"),
+  weapon_slug: "hunting_lance_frag_tip",
+  weapon_name: "Hunting lance \u2013 frag tip",
+  weapon_type: "melee",
+};
+
+export const HuntingLanceMeltaTipWeapon: WeaponConfig = {
+  id: weaponId("hunting_lance_melta_tip"),
+  weapon_slug: "hunting_lance_melta_tip",
+  weapon_name: "Hunting lance \u2013 melta tip",
+  weapon_type: "melee",
+};
+
 export const HurricaneBolterWeapon: WeaponConfig = {
   id: weaponId("hurricane_bolter"),
   weapon_slug: "hurricane_bolter",
@@ -4735,6 +5764,20 @@ export const HybridFirearmWeapon: WeaponConfig = {
   id: weaponId("hybrid_firearm"),
   weapon_slug: "hybrid_firearm",
   weapon_name: "Hybrid firearm",
+  weapon_type: "ranged",
+};
+
+export const HydraAutocannonWeapon: WeaponConfig = {
+  id: weaponId("hydra_autocannon"),
+  weapon_slug: "hydra_autocannon",
+  weapon_name: "Hydra autocannon",
+  weapon_type: "ranged",
+};
+
+export const HydraQuadAutocannonWeapon: WeaponConfig = {
+  id: weaponId("hydra_quad_autocannon"),
+  weapon_slug: "hydra_quad_autocannon",
+  weapon_name: "Hydra quad autocannon",
   weapon_type: "ranged",
 };
 
@@ -4955,6 +5998,13 @@ export const InfernoBoltgunWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const InfernoCannonWeapon: WeaponConfig = {
+  id: weaponId("inferno_cannon"),
+  weapon_slug: "inferno_cannon",
+  weapon_name: "Inferno cannon",
+  weapon_type: "ranged",
+};
+
 export const InfernoCombiBolterWeapon: WeaponConfig = {
   id: weaponId("inferno_combi_bolter"),
   weapon_slug: "inferno_combi_bolter",
@@ -4969,10 +6019,24 @@ export const InfernoCombiWeaponWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const InfernoGunWeapon: WeaponConfig = {
+  id: weaponId("inferno_gun"),
+  weapon_slug: "inferno_gun",
+  weapon_name: "Inferno gun",
+  weapon_type: "ranged",
+};
+
 export const InfernoHeavyBolterWeapon: WeaponConfig = {
   id: weaponId("inferno_heavy_bolter"),
   weapon_slug: "inferno_heavy_bolter",
   weapon_name: "Inferno heavy bolter",
+  weapon_type: "ranged",
+};
+
+export const InfernoLanceWeapon: WeaponConfig = {
+  id: weaponId("inferno_lance"),
+  weapon_slug: "inferno_lance",
+  weapon_name: "Inferno lance",
   weapon_type: "ranged",
 };
 
@@ -5158,6 +6222,13 @@ export const IronstriderFeetWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const IsirmathilWeapon: WeaponConfig = {
+  id: weaponId("isirmathil"),
+  weapon_slug: "isirmathil",
+  weapon_name: "Isirmathil",
+  weapon_type: "melee",
+};
+
 export const JaggedClawsAndTuskedMawWeapon: WeaponConfig = {
   id: weaponId("jagged_claws_and_tusked_maw"),
   weapon_slug: "jagged_claws_and_tusked_maw",
@@ -5177,6 +6248,13 @@ export const JerichoClassConversionResonatorTitanicImpactWeapon: WeaponConfig = 
   weapon_slug: "jericho_class_conversion_resonator_titanic_impact",
   weapon_name: "Jericho-class conversion resonator \u2013 titanic impact",
   weapon_type: "ranged",
+};
+
+export const JestersBladeWeapon: WeaponConfig = {
+  id: weaponId("jesters_blade"),
+  weapon_slug: "jesters_blade",
+  weapon_name: "Jester\u2019s blade",
+  weapon_type: "melee",
 };
 
 export const JindariiToxCyclerWeapon: WeaponConfig = {
@@ -5275,6 +6353,13 @@ export const KataphronPlasmaCulverinSuperchargeWeapon: WeaponConfig = {
   weapon_slug: "kataphron_plasma_culverin_supercharge",
   weapon_name: "Kataphron plasma culverin \u2013 supercharge",
   weapon_type: "ranged",
+};
+
+export const KhaVirWeapon: WeaponConfig = {
+  id: weaponId("kha_vir"),
+  weapon_slug: "kha_vir",
+  weapon_name: "Kha-vir",
+  weapon_type: "melee",
 };
 
 export const KharybdisStormLauncherFragWeapon: WeaponConfig = {
@@ -5403,10 +6488,24 @@ export const KombiWeaponWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const KonstantinsHoovesWeapon: WeaponConfig = {
+  id: weaponId("konstantins_hooves"),
+  weapon_slug: "konstantins_hooves",
+  weapon_name: "Konstantin\u2019s hooves",
+  weapon_type: "melee",
+};
+
 export const KoptaRokkitsWeapon: WeaponConfig = {
   id: weaponId("kopta_rokkits"),
   weapon_slug: "kopta_rokkits",
   weapon_name: "Kopta rokkits",
+  weapon_type: "ranged",
+};
+
+export const KriegHeavyFlamerWeapon: WeaponConfig = {
+  id: weaponId("krieg_heavy_flamer"),
+  weapon_slug: "krieg_heavy_flamer",
+  weapon_name: "Krieg heavy flamer",
   weapon_type: "ranged",
 };
 
@@ -5613,10 +6712,38 @@ export const LampreyBiteWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const LanceOfIlluminationStrikeWeapon: WeaponConfig = {
+  id: weaponId("lance_of_illumination_strike"),
+  weapon_slug: "lance_of_illumination_strike",
+  weapon_name: "Lance of Illumination \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const LanceOfIlluminationSweepWeapon: WeaponConfig = {
+  id: weaponId("lance_of_illumination_sweep"),
+  weapon_slug: "lance_of_illumination_sweep",
+  weapon_name: "Lance of Illumination \u2013 sweep",
+  weapon_type: "melee",
+};
+
+export const LandingRampWeapon: WeaponConfig = {
+  id: weaponId("landing_ramp"),
+  weapon_slug: "landing_ramp",
+  weapon_name: "Landing ramp",
+  weapon_type: "melee",
+};
+
 export const LanternWeapon: WeaponConfig = {
   id: weaponId("lantern"),
   weapon_slug: "lantern",
   weapon_name: "Lantern",
+  weapon_type: "ranged",
+};
+
+export const LarkinsLongLasWeapon: WeaponConfig = {
+  id: weaponId("larkins_long_las"),
+  weapon_slug: "larkins_long_las",
+  weapon_name: "Larkin\u2019s long-las",
   weapon_type: "ranged",
 };
 
@@ -5655,10 +6782,38 @@ export const LasTalonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const LasblasterWeapon: WeaponConfig = {
+  id: weaponId("lasblaster"),
+  weapon_slug: "lasblaster",
+  weapon_name: "Lasblaster",
+  weapon_type: "ranged",
+};
+
 export const LascannonWeapon: WeaponConfig = {
   id: weaponId("lascannon"),
   weapon_slug: "lascannon",
   weapon_name: "Lascannon",
+  weapon_type: "ranged",
+};
+
+export const LascarbineWeapon: WeaponConfig = {
+  id: weaponId("lascarbine"),
+  weapon_slug: "lascarbine",
+  weapon_name: "Lascarbine",
+  weapon_type: "ranged",
+};
+
+export const LaserDestroyerWeapon: WeaponConfig = {
+  id: weaponId("laser_destroyer"),
+  weapon_slug: "laser_destroyer",
+  weapon_name: "Laser destroyer",
+  weapon_type: "ranged",
+};
+
+export const LaserLanceWeapon: WeaponConfig = {
+  id: weaponId("laser_lance"),
+  weapon_slug: "laser_lance",
+  weapon_name: "Laser lance",
   weapon_type: "ranged",
 };
 
@@ -5788,6 +6943,13 @@ export const LelithsBladesWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const LemanRussBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("leman_russ_battle_cannon"),
+  weapon_slug: "leman_russ_battle_cannon",
+  weapon_name: "Leman Russ battle cannon",
+  weapon_type: "ranged",
+};
+
 export const LiberatorAutostubsWeapon: WeaponConfig = {
   id: weaponId("liberator_autostubs"),
   weapon_slug: "liberator_autostubs",
@@ -5827,6 +6989,13 @@ export const LightningCannonWeapon: WeaponConfig = {
   id: weaponId("lightning_cannon"),
   weapon_slug: "lightning_cannon",
   weapon_name: "Lightning cannon",
+  weapon_type: "ranged",
+};
+
+export const LightningHellstrikeRackWeapon: WeaponConfig = {
+  id: weaponId("lightning_hellstrike_rack"),
+  weapon_slug: "lightning_hellstrike_rack",
+  weapon_name: "Lightning hellstrike rack",
   weapon_type: "ranged",
 };
 
@@ -5893,6 +7062,20 @@ export const LongBarrelledBurstCannonArrayWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const LongLasWeapon: WeaponConfig = {
+  id: weaponId("long_las"),
+  weapon_slug: "long_las",
+  weapon_name: "Long-las",
+  weapon_type: "ranged",
+};
+
+export const LongRifleWeapon: WeaponConfig = {
+  id: weaponId("long_rifle"),
+  weapon_slug: "long_rifle",
+  weapon_name: "Long rifle",
+  weapon_type: "ranged",
+};
+
 export const LongVigilMeleeWeaponWeapon: WeaponConfig = {
   id: weaponId("long_vigil_melee_weapon"),
   weapon_slug: "long_vigil_melee_weapon",
@@ -5928,6 +7111,55 @@ export const LordsBladeWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const LynxPulsarWeapon: WeaponConfig = {
+  id: weaponId("lynx_pulsar"),
+  weapon_slug: "lynx_pulsar",
+  weapon_name: "Lynx pulsar",
+  weapon_type: "ranged",
+};
+
+export const MaceOfCastigationWeapon: WeaponConfig = {
+  id: weaponId("mace_of_castigation"),
+  weapon_slug: "mace_of_castigation",
+  weapon_name: "Mace of Castigation",
+  weapon_type: "melee",
+};
+
+export const MaceOfSaintPraxedesWeapon: WeaponConfig = {
+  id: weaponId("mace_of_saint_praxedes"),
+  weapon_slug: "mace_of_saint_praxedes",
+  weapon_name: "Mace of Saint Praxedes",
+  weapon_type: "melee",
+};
+
+export const MaceOfTheRighteousWeapon: WeaponConfig = {
+  id: weaponId("mace_of_the_righteous"),
+  weapon_slug: "mace_of_the_righteous",
+  weapon_name: "Mace of the righteous",
+  weapon_type: "melee",
+};
+
+export const MachariusTwinBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("macharius_twin_battle_cannon"),
+  weapon_slug: "macharius_twin_battle_cannon",
+  weapon_name: "Macharius twin battle cannon",
+  weapon_type: "ranged",
+};
+
+export const MachariusTwinVanquisherCannonWeapon: WeaponConfig = {
+  id: weaponId("macharius_twin_vanquisher_cannon"),
+  weapon_slug: "macharius_twin_vanquisher_cannon",
+  weapon_name: "Macharius twin vanquisher cannon",
+  weapon_type: "ranged",
+};
+
+export const MachariusVulcanMegaBolterWeapon: WeaponConfig = {
+  id: weaponId("macharius_vulcan_mega_bolter"),
+  weapon_slug: "macharius_vulcan_mega_bolter",
+  weapon_name: "Macharius vulcan mega-bolter",
+  weapon_type: "ranged",
+};
+
 export const MacroScalpelWeapon: WeaponConfig = {
   id: weaponId("macro_scalpel"),
   weapon_slug: "macro_scalpel",
@@ -5939,6 +7171,13 @@ export const MacrostubberWeapon: WeaponConfig = {
   id: weaponId("macrostubber"),
   weapon_slug: "macrostubber",
   weapon_name: "Macrostubber",
+  weapon_type: "ranged",
+};
+
+export const MagmaCannonWeapon: WeaponConfig = {
+  id: weaponId("magma_cannon"),
+  weapon_slug: "magma_cannon",
+  weapon_name: "Magma cannon",
   weapon_type: "ranged",
 };
 
@@ -6012,6 +7251,20 @@ export const MakarisStabbaWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const MalcadorBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("malcador_battle_cannon"),
+  weapon_slug: "malcador_battle_cannon",
+  weapon_name: "Malcador battle cannon",
+  weapon_type: "ranged",
+};
+
+export const MalcadorTwinLascannonWeapon: WeaponConfig = {
+  id: weaponId("malcador_twin_lascannon"),
+  weapon_slug: "malcador_twin_lascannon",
+  weapon_name: "Malcador twin lascannon",
+  weapon_type: "ranged",
+};
+
 export const MaleficCurseWeapon: WeaponConfig = {
   id: weaponId("malefic_curse"),
   weapon_slug: "malefic_curse",
@@ -6033,6 +7286,13 @@ export const MalleusArgyrumWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const MalleusRocketLauncherWeapon: WeaponConfig = {
+  id: weaponId("malleus_rocket_launcher"),
+  weapon_slug: "malleus_rocket_launcher",
+  weapon_name: "Malleus rocket launcher",
+  weapon_type: "ranged",
+};
+
 export const ManipulatorArmsWeapon: WeaponConfig = {
   id: weaponId("manipulator_arms"),
   weapon_slug: "manipulator_arms",
@@ -6052,6 +7312,13 @@ export const ManreaperSweepWeapon: WeaponConfig = {
   weapon_slug: "manreaper_sweep",
   weapon_name: "Manreaper \u2013 sweep",
   weapon_type: "melee",
+};
+
+export const MarauderNoseAutocannonsWeapon: WeaponConfig = {
+  id: weaponId("marauder_nose_autocannons"),
+  weapon_slug: "marauder_nose_autocannons",
+  weapon_name: "Marauder nose autocannons",
+  weapon_type: "ranged",
 };
 
 export const MarksmanBoltCarbineWeapon: WeaponConfig = {
@@ -6152,6 +7419,13 @@ export const MatrAutocannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MaugetarWeapon: WeaponConfig = {
+  id: weaponId("maugetar"),
+  weapon_slug: "maugetar",
+  weapon_name: "Maugetar",
+  weapon_type: "ranged",
+};
+
 export const MaulerChainbladeWeapon: WeaponConfig = {
   id: weaponId("mauler_chainblade"),
   weapon_slug: "mauler_chainblade",
@@ -6201,6 +7475,20 @@ export const MechanicusPistolWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MedicalScalpelsWeapon: WeaponConfig = {
+  id: weaponId("medical_scalpels"),
+  weapon_slug: "medical_scalpels",
+  weapon_name: "Medical scalpels",
+  weapon_type: "melee",
+};
+
+export const MedusaSiegeCannonWeapon: WeaponConfig = {
+  id: weaponId("medusa_siege_cannon"),
+  weapon_slug: "medusa_siege_cannon",
+  weapon_name: "Medusa siege cannon",
+  weapon_type: "ranged",
+};
+
 export const MegaChoppaStrikeWeapon: WeaponConfig = {
   id: weaponId("mega_choppa_strike"),
   weapon_slug: "mega_choppa_strike",
@@ -6234,6 +7522,34 @@ export const MeltaArrayWeapon: WeaponConfig = {
   weapon_slug: "melta_array",
   weapon_name: "Melta array",
   weapon_type: "melee",
+};
+
+export const MeltaCannonWeapon: WeaponConfig = {
+  id: weaponId("melta_cannon"),
+  weapon_slug: "melta_cannon",
+  weapon_name: "Melta cannon",
+  weapon_type: "ranged",
+};
+
+export const MeltaCarbineWeapon: WeaponConfig = {
+  id: weaponId("melta_carbine"),
+  weapon_slug: "melta_carbine",
+  weapon_name: "Melta carbine",
+  weapon_type: "ranged",
+};
+
+export const MeltaCutterDrillWeapon: WeaponConfig = {
+  id: weaponId("melta_cutter_drill"),
+  weapon_slug: "melta_cutter_drill",
+  weapon_name: "Melta-cutter drill",
+  weapon_type: "melee",
+};
+
+export const MeltaMissileArrayWeapon: WeaponConfig = {
+  id: weaponId("melta_missile_array"),
+  weapon_slug: "melta_missile_array",
+  weapon_name: "Melta missile array",
+  weapon_type: "ranged",
 };
 
 export const MeltaRifleWeapon: WeaponConfig = {
@@ -6278,10 +7594,24 @@ export const MiasmicGoutsWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MilitarumMultiLaserWeapon: WeaponConfig = {
+  id: weaponId("militarum_multi_laser"),
+  weapon_slug: "militarum_multi_laser",
+  weapon_name: "Militarum Multi-laser",
+  weapon_type: "ranged",
+};
+
 export const MindAssaultWeapon: WeaponConfig = {
   id: weaponId("mind_assault"),
   weapon_slug: "mind_assault",
   weapon_name: "Mind Assault",
+  weapon_type: "ranged",
+};
+
+export const MindWarWeapon: WeaponConfig = {
+  id: weaponId("mind_war"),
+  weapon_slug: "mind_war",
+  weapon_name: "Mind War",
   weapon_type: "ranged",
 };
 
@@ -6320,6 +7650,20 @@ export const MinistorumHeavyFlamerWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MinotaurTwinEarthshakerCannonWeapon: WeaponConfig = {
+  id: weaponId("minotaur_twin_earthshaker_cannon"),
+  weapon_slug: "minotaur_twin_earthshaker_cannon",
+  weapon_name: "Minotaur twin earthshaker cannon",
+  weapon_type: "ranged",
+};
+
+export const MirrorswordsWeapon: WeaponConfig = {
+  id: weaponId("mirrorswords"),
+  weapon_slug: "mirrorswords",
+  weapon_name: "Mirrorswords",
+  weapon_type: "melee",
+};
+
 export const MisericordiaWeapon: WeaponConfig = {
   id: weaponId("misericordia"),
   weapon_slug: "misericordia",
@@ -6341,6 +7685,20 @@ export const MissileLauncherKrakWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MissileLauncherStarshotWeapon: WeaponConfig = {
+  id: weaponId("missile_launcher_starshot"),
+  weapon_slug: "missile_launcher_starshot",
+  weapon_name: "Missile launcher \u2013 starshot",
+  weapon_type: "ranged",
+};
+
+export const MissileLauncherSunburstWeapon: WeaponConfig = {
+  id: weaponId("missile_launcher_sunburst"),
+  weapon_slug: "missile_launcher_sunburst",
+  weapon_name: "Missile launcher \u2013 sunburst",
+  weapon_type: "ranged",
+};
+
 export const MissilePodWeapon: WeaponConfig = {
   id: weaponId("missile_pod"),
   weapon_slug: "missile_pod",
@@ -6348,11 +7706,25 @@ export const MissilePodWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MiststaveWeapon: WeaponConfig = {
+  id: weaponId("miststave"),
+  weapon_slug: "miststave",
+  weapon_name: "Miststave",
+  weapon_type: "melee",
+};
+
 export const Mk1AssaultWeaponWeapon: WeaponConfig = {
   id: weaponId("mk_1_assault_weapon"),
   weapon_slug: "mk_1_assault_weapon",
   weapon_name: "Mk 1 assault weapon",
   weapon_type: "ranged",
+};
+
+export const MkollsStraightSilverKnifeWeapon: WeaponConfig = {
+  id: weaponId("mkolls_straight_silver_knife"),
+  weapon_slug: "mkolls_straight_silver_knife",
+  weapon_name: "Mkoll\u2019s straight silver knife",
+  weapon_type: "melee",
 };
 
 export const MoleGrenadeLauncherWeapon: WeaponConfig = {
@@ -6425,6 +7797,13 @@ export const MortarWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const MortifierFlamerWeapon: WeaponConfig = {
+  id: weaponId("mortifier_flamer"),
+  weapon_slug: "mortifier_flamer",
+  weapon_name: "Mortifier flamer",
+  weapon_type: "ranged",
+};
+
 export const MultiLaserWeapon: WeaponConfig = {
   id: weaponId("multi_laser"),
   weapon_slug: "multi_laser",
@@ -6436,6 +7815,20 @@ export const MultiMeltaWeapon: WeaponConfig = {
   id: weaponId("multi_melta"),
   weapon_slug: "multi_melta",
   weapon_name: "Multi-melta",
+  weapon_type: "ranged",
+};
+
+export const MultipleRocketLauncherWeapon: WeaponConfig = {
+  id: weaponId("multiple_rocket_launcher"),
+  weapon_slug: "multiple_rocket_launcher",
+  weapon_name: "Multiple rocket launcher",
+  weapon_type: "ranged",
+};
+
+export const MultipleRocketPodWeapon: WeaponConfig = {
+  id: weaponId("multiple_rocket_pod"),
+  weapon_slug: "multiple_rocket_pod",
+  weapon_name: "Multiple rocket pod",
   weapon_type: "ranged",
 };
 
@@ -6558,6 +7951,20 @@ export const NeuralShredderWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const NeuralWhipsWeapon: WeaponConfig = {
+  id: weaponId("neural_whips"),
+  weapon_slug: "neural_whips",
+  weapon_name: "Neural whips",
+  weapon_type: "melee",
+};
+
+export const NeuroDisruptorWeapon: WeaponConfig = {
+  id: weaponId("neuro_disruptor"),
+  weapon_slug: "neuro_disruptor",
+  weapon_name: "Neuro disruptor",
+  weapon_type: "ranged",
+};
+
 export const NeurotyrantClawsAndLashesWeapon: WeaponConfig = {
   id: weaponId("neurotyrant_claws_and_lashes"),
   weapon_slug: "neurotyrant_claws_and_lashes",
@@ -6628,6 +8035,20 @@ export const NostramanChainglaiveWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const NovitiateMeleeWeaponsWeapon: WeaponConfig = {
+  id: weaponId("novitiate_melee_weapons"),
+  weapon_slug: "novitiate_melee_weapons",
+  weapon_name: "Novitiate melee weapons",
+  weapon_type: "melee",
+};
+
+export const NullMaceWeapon: WeaponConfig = {
+  id: weaponId("null_mace"),
+  weapon_slug: "null_mace",
+  weapon_name: "Null mace",
+  weapon_type: "melee",
+};
+
 export const NurglingsClawsAndTeethWeapon: WeaponConfig = {
   id: weaponId("nurglings_claws_and_teeth"),
   weapon_slug: "nurglings_claws_and_teeth",
@@ -6691,6 +8112,20 @@ export const OmbiBolterWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const OmegaPatternPlasmaBlastgunStandardWeapon: WeaponConfig = {
+  id: weaponId("omega_pattern_plasma_blastgun_standard"),
+  weapon_slug: "omega_pattern_plasma_blastgun_standard",
+  weapon_name: "Omega-pattern plasma blastgun \u2013 standard",
+  weapon_type: "ranged",
+};
+
+export const OmegaPatternPlasmaBlastgunSuperchargeWeapon: WeaponConfig = {
+  id: weaponId("omega_pattern_plasma_blastgun_supercharge"),
+  weapon_slug: "omega_pattern_plasma_blastgun_supercharge",
+  weapon_name: "Omega-pattern plasma blastgun \u2013 supercharge",
+  weapon_type: "ranged",
+};
+
 export const OmnissianAxeWeapon: WeaponConfig = {
   id: weaponId("omnissian_axe"),
   weapon_slug: "omnissian_axe",
@@ -6717,6 +8152,13 @@ export const OphydianHyperphaseWeaponsWeapon: WeaponConfig = {
   weapon_slug: "ophydian_hyperphase_weapons",
   weapon_name: "Ophydian hyperphase weapons",
   weapon_type: "melee",
+};
+
+export const OppressorCannonWeapon: WeaponConfig = {
+  id: weaponId("oppressor_cannon"),
+  weapon_slug: "oppressor_cannon",
+  weapon_name: "Oppressor cannon",
+  weapon_type: "ranged",
 };
 
 export const OssefactorWeapon: WeaponConfig = {
@@ -6754,6 +8196,13 @@ export const PairedCombatBladesWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const PairedHekatariiBladesWeapon: WeaponConfig = {
+  id: weaponId("paired_hekatarii_blades"),
+  weapon_slug: "paired_hekatarii_blades",
+  weapon_name: "Paired Hekatarii blades",
+  weapon_type: "melee",
+};
+
 export const PairedManglersWeapon: WeaponConfig = {
   id: weaponId("paired_manglers"),
   weapon_slug: "paired_manglers",
@@ -6768,11 +8217,67 @@ export const PairedMonstrousWeaponsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const PalatineBladeWeapon: WeaponConfig = {
+  id: weaponId("palatine_blade"),
+  weapon_slug: "palatine_blade",
+  weapon_name: "Palatine blade",
+  weapon_type: "melee",
+};
+
 export const PandaemonicDelusionWeapon: WeaponConfig = {
   id: weaponId("pandaemonic_delusion"),
   weapon_slug: "pandaemonic_delusion",
   weapon_name: "Pandaemonic Delusion",
   weapon_type: "ranged",
+};
+
+export const ParagonGrenadeLaunchersWeapon: WeaponConfig = {
+  id: weaponId("paragon_grenade_launchers"),
+  weapon_slug: "paragon_grenade_launchers",
+  weapon_name: "Paragon grenade launchers",
+  weapon_type: "ranged",
+};
+
+export const ParagonMissileLauncherPriorisWeapon: WeaponConfig = {
+  id: weaponId("paragon_missile_launcher_prioris"),
+  weapon_slug: "paragon_missile_launcher_prioris",
+  weapon_name: "Paragon missile launcher \u2013 prioris",
+  weapon_type: "ranged",
+};
+
+export const ParagonMissileLauncherSanctorumWeapon: WeaponConfig = {
+  id: weaponId("paragon_missile_launcher_sanctorum"),
+  weapon_slug: "paragon_missile_launcher_sanctorum",
+  weapon_name: "Paragon missile launcher \u2013 sanctorum",
+  weapon_type: "ranged",
+};
+
+export const ParagonSabreWeapon: WeaponConfig = {
+  id: weaponId("paragon_sabre"),
+  weapon_slug: "paragon_sabre",
+  weapon_name: "Paragon sabre",
+  weapon_type: "melee",
+};
+
+export const ParagonStormBoltersWeapon: WeaponConfig = {
+  id: weaponId("paragon_storm_bolters"),
+  weapon_slug: "paragon_storm_bolters",
+  weapon_name: "Paragon storm bolters",
+  weapon_type: "ranged",
+};
+
+export const ParagonWarBladeWeapon: WeaponConfig = {
+  id: weaponId("paragon_war_blade"),
+  weapon_slug: "paragon_war_blade",
+  weapon_name: "Paragon war blade",
+  weapon_type: "melee",
+};
+
+export const ParagonWarMaceWeapon: WeaponConfig = {
+  id: weaponId("paragon_war_mace"),
+  weapon_slug: "paragon_war_mace",
+  weapon_name: "Paragon war mace",
+  weapon_type: "melee",
 };
 
 export const ParticleBeamerWeapon: WeaponConfig = {
@@ -6824,6 +8329,41 @@ export const PavaneOfSlaaneshWitchfireWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const PaybackWeapon: WeaponConfig = {
+  id: weaponId("payback"),
+  weapon_slug: "payback",
+  weapon_name: "Payback",
+  weapon_type: "ranged",
+};
+
+export const PenitentBuzzBladeWeapon: WeaponConfig = {
+  id: weaponId("penitent_buzz_blade"),
+  weapon_slug: "penitent_buzz_blade",
+  weapon_name: "Penitent buzz-blade",
+  weapon_type: "melee",
+};
+
+export const PenitentEvisceratorWeapon: WeaponConfig = {
+  id: weaponId("penitent_eviscerator"),
+  weapon_slug: "penitent_eviscerator",
+  weapon_name: "Penitent eviscerator",
+  weapon_type: "melee",
+};
+
+export const PenitentFlailWeapon: WeaponConfig = {
+  id: weaponId("penitent_flail"),
+  weapon_slug: "penitent_flail",
+  weapon_name: "Penitent flail",
+  weapon_type: "melee",
+};
+
+export const PenitentFlamersWeapon: WeaponConfig = {
+  id: weaponId("penitent_flamers"),
+  weapon_slug: "penitent_flamers",
+  weapon_name: "Penitent flamers",
+  weapon_type: "ranged",
+};
+
 export const PhantasmagoriaFocusedWitchfireWeapon: WeaponConfig = {
   id: weaponId("phantasmagoria_focused_witchfire"),
   weapon_slug: "phantasmagoria_focused_witchfire",
@@ -6835,6 +8375,27 @@ export const PhantasmagoriaWitchfireWeapon: WeaponConfig = {
   id: weaponId("phantasmagoria_witchfire"),
   weapon_slug: "phantasmagoria_witchfire",
   weapon_name: "Phantasmagoria \u2013 witchfire",
+  weapon_type: "ranged",
+};
+
+export const PhantomFeetWeapon: WeaponConfig = {
+  id: weaponId("phantom_feet"),
+  weapon_slug: "phantom_feet",
+  weapon_name: "Phantom feet",
+  weapon_type: "melee",
+};
+
+export const PhantomPulsarWeapon: WeaponConfig = {
+  id: weaponId("phantom_pulsar"),
+  weapon_slug: "phantom_pulsar",
+  weapon_name: "Phantom pulsar",
+  weapon_type: "ranged",
+};
+
+export const PhantomStarcannonWeapon: WeaponConfig = {
+  id: weaponId("phantom_starcannon"),
+  weapon_slug: "phantom_starcannon",
+  weapon_name: "Phantom starcannon",
   weapon_type: "ranged",
 };
 
@@ -6873,11 +8434,25 @@ export const PhlegmBombardmentWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const PhoenixMissileArrayWeapon: WeaponConfig = {
+  id: weaponId("phoenix_missile_array"),
+  weapon_slug: "phoenix_missile_array",
+  weapon_name: "Phoenix missile array",
+  weapon_type: "ranged",
+};
+
 export const PhoenixPowerSpearWeapon: WeaponConfig = {
   id: weaponId("phoenix_power_spear"),
   weapon_slug: "phoenix_power_spear",
   weapon_name: "Phoenix power spear",
   weapon_type: "melee",
+};
+
+export const PhoenixPulseLaserWeapon: WeaponConfig = {
+  id: weaponId("phoenix_pulse_laser"),
+  weapon_slug: "phoenix_pulse_laser",
+  weapon_name: "Phoenix pulse laser",
+  weapon_type: "ranged",
 };
 
 export const PhosphorBlastCarbineWeapon: WeaponConfig = {
@@ -6927,6 +8502,13 @@ export const PinkClawsWeapon: WeaponConfig = {
   weapon_slug: "pink_claws",
   weapon_name: "Pink claws",
   weapon_type: "melee",
+};
+
+export const PintleMountedHeavyStubberWeapon: WeaponConfig = {
+  id: weaponId("pintle_mounted_heavy_stubber"),
+  weapon_slug: "pintle_mounted_heavy_stubber",
+  weapon_name: "Pintle-mounted heavy stubber",
+  weapon_type: "ranged",
 };
 
 export const PiranhaBurstCannonWeapon: WeaponConfig = {
@@ -7111,6 +8693,20 @@ export const PlasmaCannonSuperchargeWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const PlasmaCarbineStandardWeapon: WeaponConfig = {
+  id: weaponId("plasma_carbine_standard"),
+  weapon_slug: "plasma_carbine_standard",
+  weapon_name: "Plasma carbine \u2013 standard",
+  weapon_type: "ranged",
+};
+
+export const PlasmaCarbineSuperchargeWeapon: WeaponConfig = {
+  id: weaponId("plasma_carbine_supercharge"),
+  weapon_slug: "plasma_carbine_supercharge",
+  weapon_name: "Plasma carbine \u2013 supercharge",
+  weapon_type: "ranged",
+};
+
 export const PlasmaDecimatorStandardWeapon: WeaponConfig = {
   id: weaponId("plasma_decimator_standard"),
   weapon_slug: "plasma_decimator_standard",
@@ -7258,6 +8854,13 @@ export const PortalOfExileWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const PowerBladeWeapon: WeaponConfig = {
+  id: weaponId("power_blade"),
+  weapon_slug: "power_blade",
+  weapon_name: "Power blade",
+  weapon_type: "melee",
+};
+
 export const PowerClawWeapon: WeaponConfig = {
   id: weaponId("power_claw"),
   weapon_slug: "power_claw",
@@ -7276,6 +8879,13 @@ export const PowerFistsWeapon: WeaponConfig = {
   id: weaponId("power_fists"),
   weapon_slug: "power_fists",
   weapon_name: "Power fists",
+  weapon_type: "melee",
+};
+
+export const PowerGlaiveWeapon: WeaponConfig = {
+  id: weaponId("power_glaive"),
+  weapon_slug: "power_glaive",
+  weapon_name: "Power glaive",
   weapon_type: "melee",
 };
 
@@ -7335,6 +8945,13 @@ export const PowerSwordWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const PowerSwordAndManusMortisWeapon: WeaponConfig = {
+  id: weaponId("power_sword_and_manus_mortis"),
+  weapon_slug: "power_sword_and_manus_mortis",
+  weapon_name: "Power sword and Manus Mortis",
+  weapon_type: "melee",
+};
+
 export const PowerSwordAndNeuroGauntletWeapon: WeaponConfig = {
   id: weaponId("power_sword_and_neuro_gauntlet"),
   weapon_slug: "power_sword_and_neuro_gauntlet",
@@ -7349,10 +8966,31 @@ export const PowerWeaponWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const PowerbladeArrayWeapon: WeaponConfig = {
+  id: weaponId("powerblade_array"),
+  weapon_slug: "powerblade_array",
+  weapon_name: "Powerblade array",
+  weapon_type: "melee",
+};
+
+export const PowerbladesWeapon: WeaponConfig = {
+  id: weaponId("powerblades"),
+  weapon_slug: "powerblades",
+  weapon_name: "Powerblades",
+  weapon_type: "melee",
+};
+
 export const PowerfulLimbsWeapon: WeaponConfig = {
   id: weaponId("powerful_limbs"),
   weapon_slug: "powerful_limbs",
   weapon_name: "Powerful limbs",
+  weapon_type: "melee",
+};
+
+export const PowerlifterWeapon: WeaponConfig = {
+  id: weaponId("powerlifter"),
+  weapon_slug: "powerlifter",
+  weapon_name: "Powerlifter",
   weapon_type: "melee",
 };
 
@@ -7361,6 +8999,20 @@ export const PoxRiderPlagueswordWeapon: WeaponConfig = {
   weapon_slug: "pox_rider_plaguesword",
   weapon_name: "Pox Rider plaguesword",
   weapon_type: "melee",
+};
+
+export const PraetorLauncherFirestormWeapon: WeaponConfig = {
+  id: weaponId("praetor_launcher_firestorm"),
+  weapon_slug: "praetor_launcher_firestorm",
+  weapon_name: "Praetor launcher \u2013 firestorm",
+  weapon_type: "ranged",
+};
+
+export const PraetorLauncherFoehammerWeapon: WeaponConfig = {
+  id: weaponId("praetor_launcher_foehammer"),
+  weapon_slug: "praetor_launcher_foehammer",
+  weapon_name: "Praetor launcher \u2013 foehammer",
+  weapon_type: "ranged",
 };
 
 export const PredatorAutocannonWeapon: WeaponConfig = {
@@ -7374,6 +9026,13 @@ export const PredatorTwinLascannonWeapon: WeaponConfig = {
   id: weaponId("predator_twin_lascannon"),
   weapon_slug: "predator_twin_lascannon",
   weapon_name: "Predator twin lascannon",
+  weapon_type: "ranged",
+};
+
+export const PrefectusHeavyStubberWeapon: WeaponConfig = {
+  id: weaponId("prefectus_heavy_stubber"),
+  weapon_slug: "prefectus_heavy_stubber",
+  weapon_name: "Prefectus heavy stubber",
   weapon_type: "ranged",
 };
 
@@ -7396,6 +9055,48 @@ export const PrincessJawsWeapon: WeaponConfig = {
   weapon_slug: "princess_jaws",
   weapon_name: "Princess\u2019 jaws",
   weapon_type: "melee",
+};
+
+export const PrismCannonDispersedPulseWeapon: WeaponConfig = {
+  id: weaponId("prism_cannon_dispersed_pulse"),
+  weapon_slug: "prism_cannon_dispersed_pulse",
+  weapon_name: "Prism cannon \u2013 dispersed pulse",
+  weapon_type: "ranged",
+};
+
+export const PrismCannonFocusedLancesWeapon: WeaponConfig = {
+  id: weaponId("prism_cannon_focused_lances"),
+  weapon_slug: "prism_cannon_focused_lances",
+  weapon_name: "Prism cannon \u2013 focused lances",
+  weapon_type: "ranged",
+};
+
+export const PrismRifleDispersedWeapon: WeaponConfig = {
+  id: weaponId("prism_rifle_dispersed"),
+  weapon_slug: "prism_rifle_dispersed",
+  weapon_name: "Prism rifle \u2013 dispersed",
+  weapon_type: "ranged",
+};
+
+export const PrismRifleFocusedWeapon: WeaponConfig = {
+  id: weaponId("prism_rifle_focused"),
+  weapon_slug: "prism_rifle_focused",
+  weapon_name: "Prism rifle \u2013 focused",
+  weapon_type: "ranged",
+};
+
+export const PrismaticCannonDispersedPulseWeapon: WeaponConfig = {
+  id: weaponId("prismatic_cannon_dispersed_pulse"),
+  weapon_slug: "prismatic_cannon_dispersed_pulse",
+  weapon_name: "Prismatic cannon \u2013 dispersed pulse",
+  weapon_type: "ranged",
+};
+
+export const PrismaticCannonFocusedLancesWeapon: WeaponConfig = {
+  id: weaponId("prismatic_cannon_focused_lances"),
+  weapon_slug: "prismatic_cannon_focused_lances",
+  weapon_name: "Prismatic cannon \u2013 focused lances",
+  weapon_type: "ranged",
 };
 
 export const ProsperineKhopeshWeapon: WeaponConfig = {
@@ -7451,6 +9152,20 @@ export const PsychicCleanseWeapon: WeaponConfig = {
   id: weaponId("psychic_cleanse"),
   weapon_slug: "psychic_cleanse",
   weapon_name: "Psychic Cleanse",
+  weapon_type: "ranged",
+};
+
+export const PsychicMaelstromFocusedWitchfireWeapon: WeaponConfig = {
+  id: weaponId("psychic_maelstrom_focused_witchfire"),
+  weapon_slug: "psychic_maelstrom_focused_witchfire",
+  weapon_name: "Psychic Maelstrom \u2013 focused witchfire",
+  weapon_type: "ranged",
+};
+
+export const PsychicMaelstromWitchfireWeapon: WeaponConfig = {
+  id: weaponId("psychic_maelstrom_witchfire"),
+  weapon_slug: "psychic_maelstrom_witchfire",
+  weapon_name: "Psychic Maelstrom \u2013 witchfire",
   weapon_type: "ranged",
 };
 
@@ -7531,6 +9246,13 @@ export const PsykoGatlerWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const PsytronomeShaperWeapon: WeaponConfig = {
+  id: weaponId("psytronome_shaper"),
+  weapon_slug: "psytronome_shaper",
+  weapon_name: "Psytronome shaper",
+  weapon_type: "melee",
+};
+
 export const PteraxiiTalonsWeapon: WeaponConfig = {
   id: weaponId("pteraxii_talons"),
   weapon_slug: "pteraxii_talons",
@@ -7580,6 +9302,13 @@ export const PulseDriverCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const PulseLaserWeapon: WeaponConfig = {
+  id: weaponId("pulse_laser"),
+  weapon_slug: "pulse_laser",
+  weapon_name: "Pulse laser",
+  weapon_type: "ranged",
+};
+
 export const PulseOrdnanceDriverWeapon: WeaponConfig = {
   id: weaponId("pulse_ordnance_driver"),
   weapon_slug: "pulse_ordnance_driver",
@@ -7605,6 +9334,20 @@ export const PulseSubmunitionsCannonWeapon: WeaponConfig = {
   id: weaponId("pulse_submunitions_cannon"),
   weapon_slug: "pulse_submunitions_cannon",
   weapon_name: "Pulse submunitions cannon",
+  weapon_type: "ranged",
+};
+
+export const PulveriserCannonWeapon: WeaponConfig = {
+  id: weaponId("pulveriser_cannon"),
+  weapon_slug: "pulveriser_cannon",
+  weapon_name: "Pulveriser cannon",
+  weapon_type: "ranged",
+};
+
+export const PunisherGatlingCannonWeapon: WeaponConfig = {
+  id: weaponId("punisher_gatling_cannon"),
+  weapon_slug: "punisher_gatling_cannon",
+  weapon_name: "Punisher gatling cannon",
   weapon_type: "ranged",
 };
 
@@ -7661,6 +9404,27 @@ export const QuadIonTurretStandardWeapon: WeaponConfig = {
   id: weaponId("quad_ion_turret_standard"),
   weapon_slug: "quad_ion_turret_standard",
   weapon_name: "Quad ion turret \u2013 standard",
+  weapon_type: "ranged",
+};
+
+export const QuakeCannonWeapon: WeaponConfig = {
+  id: weaponId("quake_cannon"),
+  weapon_slug: "quake_cannon",
+  weapon_name: "Quake cannon",
+  weapon_type: "ranged",
+};
+
+export const QuartermastersCloseCombatWeaponWeapon: WeaponConfig = {
+  id: weaponId("quartermasters_close_combat_weapon"),
+  weapon_slug: "quartermasters_close_combat_weapon",
+  weapon_name: "Quartermaster\u2019s close combat weapon",
+  weapon_type: "melee",
+};
+
+export const QuartermastersPistolWeapon: WeaponConfig = {
+  id: weaponId("quartermasters_pistol"),
+  weapon_slug: "quartermasters_pistol",
+  weapon_name: "Quartermaster\u2019s pistol",
   weapon_type: "ranged",
 };
 
@@ -7727,6 +9491,13 @@ export const RamshackleHullWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const RangerLongRifleWeapon: WeaponConfig = {
+  id: weaponId("ranger_long_rifle"),
+  weapon_slug: "ranger_long_rifle",
+  weapon_name: "Ranger long rifle",
+  weapon_type: "ranged",
+};
+
 export const RapidFireBattleCannonWeapon: WeaponConfig = {
   id: weaponId("rapid_fire_battle_cannon"),
   weapon_slug: "rapid_fire_battle_cannon",
@@ -7774,6 +9545,13 @@ export const RavenousMawWeapon: WeaponConfig = {
   weapon_slug: "ravenous_maw",
   weapon_name: "Ravenous maw",
   weapon_type: "melee",
+};
+
+export const RawnesLascarbineWeapon: WeaponConfig = {
+  id: weaponId("rawnes_lascarbine"),
+  weapon_slug: "rawnes_lascarbine",
+  weapon_name: "Rawne\u2019s lascarbine",
+  weapon_type: "ranged",
 };
 
 export const RazorFanWeapon: WeaponConfig = {
@@ -7902,6 +9680,20 @@ export const ReaperChaintalonSweepWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ReaperLauncherStarshotWeapon: WeaponConfig = {
+  id: weaponId("reaper_launcher_starshot"),
+  weapon_slug: "reaper_launcher_starshot",
+  weapon_name: "Reaper launcher \u2013 starshot",
+  weapon_type: "ranged",
+};
+
+export const ReaperLauncherStarswarmWeapon: WeaponConfig = {
+  id: weaponId("reaper_launcher_starswarm"),
+  weapon_slug: "reaper_launcher_starswarm",
+  weapon_name: "Reaper launcher \u2013 starswarm",
+  weapon_type: "ranged",
+};
+
 export const ReaversBladeWeapon: WeaponConfig = {
   id: weaponId("reavers_blade"),
   weapon_slug: "reavers_blade",
@@ -7928,6 +9720,13 @@ export const RelicGaussBlasterWeapon: WeaponConfig = {
   weapon_slug: "relic_gauss_blaster",
   weapon_name: "Relic gauss blaster",
   weapon_type: "ranged",
+};
+
+export const RelicWeaponsWeapon: WeaponConfig = {
+  id: weaponId("relic_weapons"),
+  weapon_slug: "relic_weapons",
+  weapon_name: "Relic weapons",
+  weapon_type: "melee",
 };
 
 export const RemoraSeekerMissileWeapon: WeaponConfig = {
@@ -7962,6 +9761,41 @@ export const RepeaterCannonWeapon: WeaponConfig = {
   id: weaponId("repeater_cannon"),
   weapon_slug: "repeater_cannon",
   weapon_name: "Repeater cannon",
+  weapon_type: "ranged",
+};
+
+export const RepressorTwinHeavyFlamerWeapon: WeaponConfig = {
+  id: weaponId("repressor_twin_heavy_flamer"),
+  weapon_slug: "repressor_twin_heavy_flamer",
+  weapon_name: "Repressor twin heavy flamer",
+  weapon_type: "ranged",
+};
+
+export const RevenantFeetWeapon: WeaponConfig = {
+  id: weaponId("revenant_feet"),
+  weapon_slug: "revenant_feet",
+  weapon_name: "Revenant feet",
+  weapon_type: "melee",
+};
+
+export const RevenantPulsarWeapon: WeaponConfig = {
+  id: weaponId("revenant_pulsar"),
+  weapon_slug: "revenant_pulsar",
+  weapon_name: "Revenant pulsar",
+  weapon_type: "ranged",
+};
+
+export const RipperGunWeapon: WeaponConfig = {
+  id: weaponId("ripper_gun"),
+  weapon_slug: "ripper_gun",
+  weapon_name: "Ripper gun",
+  weapon_type: "ranged",
+};
+
+export const RipperPistolWeapon: WeaponConfig = {
+  id: weaponId("ripper_pistol"),
+  weapon_slug: "ripper_pistol",
+  weapon_name: "Ripper pistol",
   weapon_type: "ranged",
 };
 
@@ -8112,6 +9946,13 @@ export const RuptureCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const SabreOfSacrificeWeapon: WeaponConfig = {
+  id: weaponId("sabre_of_sacrifice"),
+  weapon_slug: "sabre_of_sacrifice",
+  weapon_name: "Sabre of Sacrifice",
+  weapon_type: "melee",
+};
+
 export const SaddlegitWeaponsWeapon: WeaponConfig = {
   id: weaponId("saddlegit_weapons"),
   weapon_slug: "saddlegit_weapons",
@@ -8154,10 +9995,24 @@ export const SanctifierMeleeWeaponWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const SanctityWeapon: WeaponConfig = {
+  id: weaponId("sanctity"),
+  weapon_slug: "sanctity",
+  weapon_name: "Sanctity",
+  weapon_type: "melee",
+};
+
 export const SanctusBioDaggerWeapon: WeaponConfig = {
   id: weaponId("sanctus_bio_dagger"),
   weapon_slug: "sanctus_bio_dagger",
   weapon_name: "Sanctus bio-dagger",
+  weapon_type: "melee",
+};
+
+export const SavageClawsWeapon: WeaponConfig = {
+  id: weaponId("savage_claws"),
+  weapon_slug: "savage_claws",
+  weapon_name: "Savage claws",
   weapon_type: "melee",
 };
 
@@ -8189,6 +10044,13 @@ export const ScaldingRoarWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ScatterLaserWeapon: WeaponConfig = {
+  id: weaponId("scatter_laser"),
+  weapon_slug: "scatter_laser",
+  weapon_name: "Scatter laser",
+  weapon_type: "ranged",
+};
+
 export const SceptreOfEternalGloryWeapon: WeaponConfig = {
   id: weaponId("sceptre_of_eternal_glory"),
   weapon_slug: "sceptre_of_eternal_glory",
@@ -8208,6 +10070,20 @@ export const ScorpionCannonWeapon: WeaponConfig = {
   weapon_slug: "scorpion_cannon",
   weapon_name: "Scorpion cannon",
   weapon_type: "ranged",
+};
+
+export const ScorpionChainswordWeapon: WeaponConfig = {
+  id: weaponId("scorpion_chainsword"),
+  weapon_slug: "scorpion_chainsword",
+  weapon_name: "Scorpion chainsword",
+  weapon_type: "melee",
+};
+
+export const ScorpionsClawWeapon: WeaponConfig = {
+  id: weaponId("scorpions_claw"),
+  weapon_slug: "scorpions_claw",
+  weapon_name: "Scorpion\u2019s claw",
+  weapon_type: "melee",
 };
 
 export const ScourgingWeapon: WeaponConfig = {
@@ -8259,6 +10135,13 @@ export const ScreamerPistolWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ScribesStaffWeapon: WeaponConfig = {
+  id: weaponId("scribes_staff"),
+  weapon_slug: "scribes_staff",
+  weapon_name: "Scribe\u2019s staff",
+  weapon_type: "melee",
+};
+
 export const ScytheOfTheNightbringerStrikeWeapon: WeaponConfig = {
   id: weaponId("scythe_of_the_nightbringer_strike"),
   weapon_slug: "scythe_of_the_nightbringer_strike",
@@ -8305,6 +10188,20 @@ export const SearingPurityWeapon: WeaponConfig = {
   id: weaponId("searing_purity"),
   weapon_slug: "searing_purity",
   weapon_name: "Searing Purity",
+  weapon_type: "ranged",
+};
+
+export const SearsongBeamWeapon: WeaponConfig = {
+  id: weaponId("searsong_beam"),
+  weapon_slug: "searsong_beam",
+  weapon_name: "Searsong \u2013 beam",
+  weapon_type: "ranged",
+};
+
+export const SearsongLanceWeapon: WeaponConfig = {
+  id: weaponId("searsong_lance"),
+  weapon_slug: "searsong_lance",
+  weapon_name: "Searsong \u2013 lance",
   weapon_type: "ranged",
 };
 
@@ -8361,6 +10258,62 @@ export const SentinelBladeWeapon: WeaponConfig = {
   id: weaponId("sentinel_blade"),
   weapon_slug: "sentinel_blade",
   weapon_name: "Sentinel blade",
+  weapon_type: "ranged",
+};
+
+export const SentinelChainsawWeapon: WeaponConfig = {
+  id: weaponId("sentinel_chainsaw"),
+  weapon_slug: "sentinel_chainsaw",
+  weapon_name: "Sentinel chainsaw",
+  weapon_type: "melee",
+};
+
+export const SentryFlamerWeapon: WeaponConfig = {
+  id: weaponId("sentry_flamer"),
+  weapon_slug: "sentry_flamer",
+  weapon_name: "Sentry flamer",
+  weapon_type: "ranged",
+};
+
+export const SentryGrenadeLauncherFragWeapon: WeaponConfig = {
+  id: weaponId("sentry_grenade_launcher_frag"),
+  weapon_slug: "sentry_grenade_launcher_frag",
+  weapon_name: "Sentry grenade launcher \u2013 frag",
+  weapon_type: "ranged",
+};
+
+export const SentryGrenadeLauncherKrakWeapon: WeaponConfig = {
+  id: weaponId("sentry_grenade_launcher_krak"),
+  weapon_slug: "sentry_grenade_launcher_krak",
+  weapon_name: "Sentry grenade launcher \u2013 krak",
+  weapon_type: "ranged",
+};
+
+export const SentryHotShotVolleyGunWeapon: WeaponConfig = {
+  id: weaponId("sentry_hot_shot_volley_gun"),
+  weapon_slug: "sentry_hot_shot_volley_gun",
+  weapon_name: "Sentry hot-shot volley gun",
+  weapon_type: "ranged",
+};
+
+export const SergeantsAutogunWeapon: WeaponConfig = {
+  id: weaponId("sergeants_autogun"),
+  weapon_slug: "sergeants_autogun",
+  weapon_name: "Sergeant's autogun",
+  weapon_type: "ranged",
+};
+
+export const SergeantsCloseCombatWeaponWeapon: WeaponConfig = {
+  id: weaponId("sergeants_close_combat_weapon"),
+  weapon_slug: "sergeants_close_combat_weapon",
+  weapon_name: "Sergeant\u2019s close combat weapon",
+  weapon_type: "melee",
+};
+
+export const SergeantsPistolWeapon: WeaponConfig = {
+  id: weaponId("sergeants_pistol"),
+  weapon_slug: "sergeants_pistol",
+  weapon_name: "Sergeant\u2019s pistol",
   weapon_type: "ranged",
 };
 
@@ -8434,6 +10387,13 @@ export const ShadeWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ShadowWeaverWeapon: WeaponConfig = {
+  id: weaponId("shadow_weaver"),
+  weapon_slug: "shadow_weaver",
+  weapon_name: "Shadow weaver",
+  weapon_type: "ranged",
+};
+
 export const ShaimeshiBladeWeapon: WeaponConfig = {
   id: weaponId("shaimeshi_blade"),
   weapon_slug: "shaimeshi_blade",
@@ -8497,6 +10457,13 @@ export const ShieldbreakerMissileLauncherWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ShiningBladeWeapon: WeaponConfig = {
+  id: weaponId("shining_blade"),
+  weapon_slug: "shining_blade",
+  weapon_name: "Shining Blade",
+  weapon_type: "melee",
+};
+
 export const ShockMaulWeapon: WeaponConfig = {
   id: weaponId("shock_maul"),
   weapon_slug: "shock_maul",
@@ -8553,6 +10520,48 @@ export const ShredderWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ShriekerCannonWeapon: WeaponConfig = {
+  id: weaponId("shrieker_cannon"),
+  weapon_slug: "shrieker_cannon",
+  weapon_name: "Shrieker cannon",
+  weapon_type: "ranged",
+};
+
+export const ShurikenCannonWeapon: WeaponConfig = {
+  id: weaponId("shuriken_cannon"),
+  weapon_slug: "shuriken_cannon",
+  weapon_name: "Shuriken cannon",
+  weapon_type: "ranged",
+};
+
+export const ShurikenCatapultWeapon: WeaponConfig = {
+  id: weaponId("shuriken_catapult"),
+  weapon_slug: "shuriken_catapult",
+  weapon_name: "Shuriken catapult",
+  weapon_type: "ranged",
+};
+
+export const ShurikenPistolWeapon: WeaponConfig = {
+  id: weaponId("shuriken_pistol"),
+  weapon_slug: "shuriken_pistol",
+  weapon_name: "Shuriken pistol",
+  weapon_type: "ranged",
+};
+
+export const ShurikenRifleWeapon: WeaponConfig = {
+  id: weaponId("shuriken_rifle"),
+  weapon_slug: "shuriken_rifle",
+  weapon_name: "Shuriken rifle",
+  weapon_type: "ranged",
+};
+
+export const SiegeCannonWeapon: WeaponConfig = {
+  id: weaponId("siege_cannon"),
+  weapon_slug: "siege_cannon",
+  weapon_name: "Siege cannon",
+  weapon_type: "ranged",
+};
+
 export const SiegeClawWeapon: WeaponConfig = {
   id: weaponId("siege_claw"),
   weapon_slug: "siege_claw",
@@ -8572,6 +10581,20 @@ export const SilenceSweepWeapon: WeaponConfig = {
   weapon_slug: "silence_sweep",
   weapon_name: "Silence \u2013 sweep",
   weapon_type: "melee",
+};
+
+export const SilentDeathWeapon: WeaponConfig = {
+  id: weaponId("silent_death"),
+  weapon_slug: "silent_death",
+  weapon_name: "Silent Death",
+  weapon_type: "ranged",
+};
+
+export const SingingSpearWeapon: WeaponConfig = {
+  id: weaponId("singing_spear"),
+  weapon_slug: "singing_spear",
+  weapon_name: "Singing spear",
+  weapon_type: "ranged",
 };
 
 export const SingularityGeneratorWeapon: WeaponConfig = {
@@ -8641,6 +10664,13 @@ export const SkyspearMissileRackWeapon: WeaponConfig = {
   id: weaponId("skyspear_missile_rack"),
   weapon_slug: "skyspear_missile_rack",
   weapon_name: "Skyspear missile rack",
+  weapon_type: "ranged",
+};
+
+export const SkyweaverHaywireCannonWeapon: WeaponConfig = {
+  id: weaponId("skyweaver_haywire_cannon"),
+  weapon_slug: "skyweaver_haywire_cannon",
+  weapon_name: "Skyweaver haywire cannon",
   weapon_type: "ranged",
 };
 
@@ -8735,6 +10765,13 @@ export const SnazzhammerWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const SniperRifleWeapon: WeaponConfig = {
+  id: weaponId("sniper_rifle"),
+  weapon_slug: "sniper_rifle",
+  weapon_name: "Sniper rifle",
+  weapon_type: "ranged",
+};
+
 export const SolarAtomiserWeapon: WeaponConfig = {
   id: weaponId("solar_atomiser"),
   weapon_slug: "solar_atomiser",
@@ -8756,6 +10793,20 @@ export const SoleritePowerTalonWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const SolitaireWeaponsWeapon: WeaponConfig = {
+  id: weaponId("solitaire_weapons"),
+  weapon_slug: "solitaire_weapons",
+  weapon_name: "Solitaire weapons",
+  weapon_type: "melee",
+};
+
+export const SolsRighteousGazeWeapon: WeaponConfig = {
+  id: weaponId("sols_righteous_gaze"),
+  weapon_slug: "sols_righteous_gaze",
+  weapon_name: "Sol\u2019s Righteous Gaze",
+  weapon_type: "ranged",
+};
+
 export const SomnusWeapon: WeaponConfig = {
   id: weaponId("somnus"),
   weapon_slug: "somnus",
@@ -8767,6 +10818,13 @@ export const SonicBlasterWeapon: WeaponConfig = {
   id: weaponId("sonic_blaster"),
   weapon_slug: "sonic_blaster",
   weapon_name: "Sonic blaster",
+  weapon_type: "ranged",
+};
+
+export const SonicLanceWeapon: WeaponConfig = {
+  id: weaponId("sonic_lance"),
+  weapon_slug: "sonic_lance",
+  weapon_name: "Sonic lance",
   weapon_type: "ranged",
 };
 
@@ -8833,6 +10891,27 @@ export const SpHeavyConversionBeamerWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const SparGlaiveWeapon: WeaponConfig = {
+  id: weaponId("spar_glaive"),
+  weapon_slug: "spar_glaive",
+  weapon_name: "Spar-glaive",
+  weapon_type: "melee",
+};
+
+export const SpearOfStarlightWeapon: WeaponConfig = {
+  id: weaponId("spear_of_starlight"),
+  weapon_slug: "spear_of_starlight",
+  weapon_name: "Spear of Starlight",
+  weapon_type: "ranged",
+};
+
+export const SpearOfTheFaithfulWeapon: WeaponConfig = {
+  id: weaponId("spear_of_the_faithful"),
+  weapon_slug: "spear_of_the_faithful",
+  weapon_name: "Spear of the faithful",
+  weapon_type: "melee",
+};
+
 export const SpearOfTheVoidDragonWeapon: WeaponConfig = {
   id: weaponId("spear_of_the_void_dragon"),
   weapon_slug: "spear_of_the_void_dragon",
@@ -8851,6 +10930,13 @@ export const SpearOfTheVoidDragonSweepWeapon: WeaponConfig = {
   id: weaponId("spear_of_the_void_dragon_sweep"),
   weapon_slug: "spear_of_the_void_dragon_sweep",
   weapon_name: "Spear of the Void Dragon \u2013 sweep",
+  weapon_type: "melee",
+};
+
+export const SpearOfTwilightWeapon: WeaponConfig = {
+  id: weaponId("spear_of_twilight"),
+  weapon_slug: "spear_of_twilight",
+  weapon_name: "Spear of Twilight",
   weapon_type: "melee",
 };
 
@@ -8887,6 +10973,13 @@ export const SpiculusHeavyBoltLauncherWeapon: WeaponConfig = {
   weapon_slug: "spiculus_heavy_bolt_launcher",
   weapon_name: "Spiculus heavy bolt launcher",
   weapon_type: "ranged",
+};
+
+export const SpidersFangsWeapon: WeaponConfig = {
+  id: weaponId("spiders_fangs"),
+  weapon_slug: "spiders_fangs",
+  weapon_name: "Spider\u2019s Fangs",
+  weapon_type: "melee",
 };
 
 export const SpikeRifleWeapon: WeaponConfig = {
@@ -8935,6 +11028,13 @@ export const SpinemawsWeapon: WeaponConfig = {
   id: weaponId("spinemaws"),
   weapon_slug: "spinemaws",
   weapon_name: "Spinemaws",
+  weapon_type: "ranged",
+};
+
+export const SpinneretRifleWeapon: WeaponConfig = {
+  id: weaponId("spinneret_rifle"),
+  weapon_slug: "spinneret_rifle",
+  weapon_name: "Spinneret rifle",
   weapon_type: "ranged",
 };
 
@@ -9092,6 +11192,13 @@ export const StaffOfTzeentchWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const StaffOfUlthamarAndWitchbladeWeapon: WeaponConfig = {
+  id: weaponId("staff_of_ulthamar_and_witchblade"),
+  weapon_slug: "staff_of_ulthamar_and_witchblade",
+  weapon_name: "Staff of Ulthamar and witchblade",
+  weapon_type: "melee",
+};
+
 export const StalkerBoltRifleWeapon: WeaponConfig = {
   id: weaponId("stalker_bolt_rifle"),
   weapon_slug: "stalker_bolt_rifle",
@@ -9110,6 +11217,55 @@ export const StalkersForelimbsWeapon: WeaponConfig = {
   id: weaponId("stalkers_forelimbs"),
   weapon_slug: "stalkers_forelimbs",
   weapon_name: "Stalker\u2019s forelimbs",
+  weapon_type: "melee",
+};
+
+export const StarBolasWeapon: WeaponConfig = {
+  id: weaponId("star_bolas"),
+  weapon_slug: "star_bolas",
+  weapon_name: "Star bolas",
+  weapon_type: "ranged",
+};
+
+export const StarGlaiveWeapon: WeaponConfig = {
+  id: weaponId("star_glaive"),
+  weapon_slug: "star_glaive",
+  weapon_name: "Star glaive",
+  weapon_type: "melee",
+};
+
+export const StarLanceWeapon: WeaponConfig = {
+  id: weaponId("star_lance"),
+  weapon_slug: "star_lance",
+  weapon_name: "Star lance",
+  weapon_type: "ranged",
+};
+
+export const StarcannonWeapon: WeaponConfig = {
+  id: weaponId("starcannon"),
+  weapon_slug: "starcannon",
+  weapon_name: "Starcannon",
+  weapon_type: "ranged",
+};
+
+export const StarfangGrenadeLauncherWeapon: WeaponConfig = {
+  id: weaponId("starfang_grenade_launcher"),
+  weapon_slug: "starfang_grenade_launcher",
+  weapon_name: "Starfang grenade launcher",
+  weapon_type: "ranged",
+};
+
+export const SteedsHoovesWeapon: WeaponConfig = {
+  id: weaponId("steeds_hooves"),
+  weapon_slug: "steeds_hooves",
+  weapon_name: "Steed\u2019s hooves",
+  weapon_type: "melee",
+};
+
+export const SteedsSavageClawsWeapon: WeaponConfig = {
+  id: weaponId("steeds_savage_claws"),
+  weapon_slug: "steeds_savage_claws",
+  weapon_name: "Steed's savage claws",
   weapon_type: "melee",
 };
 
@@ -9155,6 +11311,13 @@ export const StingwingClawsWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const StompingFeetWeapon: WeaponConfig = {
+  id: weaponId("stomping_feet"),
+  weapon_slug: "stomping_feet",
+  weapon_name: "Stomping feet",
+  weapon_type: "melee",
+};
+
 export const StompyFeetWeapon: WeaponConfig = {
   id: weaponId("stompy_feet"),
   weapon_slug: "stompy_feet",
@@ -9169,10 +11332,24 @@ export const StormBolterWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const StormEagleRocketsWeapon: WeaponConfig = {
+  id: weaponId("storm_eagle_rockets"),
+  weapon_slug: "storm_eagle_rockets",
+  weapon_name: "Storm eagle rockets",
+  weapon_type: "ranged",
+};
+
 export const StormLaserWeapon: WeaponConfig = {
   id: weaponId("storm_laser"),
   weapon_slug: "storm_laser",
   weapon_name: "Storm laser",
+  weapon_type: "ranged",
+};
+
+export const StormOfWhispersWeapon: WeaponConfig = {
+  id: weaponId("storm_of_whispers"),
+  weapon_slug: "storm_of_whispers",
+  weapon_name: "Storm of Whispers",
   weapon_type: "ranged",
 };
 
@@ -9190,6 +11367,27 @@ export const StormVortexProjectorBlastWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const StormbladePlasmaBlastgunStandardWeapon: WeaponConfig = {
+  id: weaponId("stormblade_plasma_blastgun_standard"),
+  weapon_slug: "stormblade_plasma_blastgun_standard",
+  weapon_name: "Stormblade plasma blastgun \u2013 standard",
+  weapon_type: "ranged",
+};
+
+export const StormbladePlasmaBlastgunSuperchargeWeapon: WeaponConfig = {
+  id: weaponId("stormblade_plasma_blastgun_supercharge"),
+  weapon_slug: "stormblade_plasma_blastgun_supercharge",
+  weapon_name: "Stormblade plasma blastgun \u2013 supercharge",
+  weapon_type: "ranged",
+};
+
+export const StormhammerCannonWeapon: WeaponConfig = {
+  id: weaponId("stormhammer_cannon"),
+  weapon_slug: "stormhammer_cannon",
+  weapon_name: "Stormhammer cannon",
+  weapon_type: "ranged",
+};
+
 export const StormspearRocketPodWeapon: WeaponConfig = {
   id: weaponId("stormspear_rocket_pod"),
   weapon_slug: "stormspear_rocket_pod",
@@ -9202,6 +11400,20 @@ export const StormstrikeMissileLauncherWeapon: WeaponConfig = {
   weapon_slug: "stormstrike_missile_launcher",
   weapon_name: "Stormstrike missile launcher",
   weapon_type: "ranged",
+};
+
+export const StormswordSiegeCannonWeapon: WeaponConfig = {
+  id: weaponId("stormsword_siege_cannon"),
+  weapon_slug: "stormsword_siege_cannon",
+  weapon_name: "Stormsword siege cannon",
+  weapon_type: "ranged",
+};
+
+export const StraightSilverKnifeWeapon: WeaponConfig = {
+  id: weaponId("straight_silver_knife"),
+  weapon_slug: "straight_silver_knife",
+  weapon_name: "Straight silver knife",
+  weapon_type: "melee",
 };
 
 export const StranglethornCannonWeapon: WeaponConfig = {
@@ -9225,6 +11437,13 @@ export const StreamsOfBrackishFilthWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const StubPistolWeapon: WeaponConfig = {
+  id: weaponId("stub_pistol"),
+  weapon_slug: "stub_pistol",
+  weapon_name: "Stub pistol",
+  weapon_type: "ranged",
+};
+
 export const StubcarbineWeapon: WeaponConfig = {
   id: weaponId("stubcarbine"),
   weapon_slug: "stubcarbine",
@@ -9239,6 +11458,13 @@ export const StunclawWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const StygiesLaserDestroyerWeapon: WeaponConfig = {
+  id: weaponId("stygies_laser_destroyer"),
+  weapon_slug: "stygies_laser_destroyer",
+  weapon_name: "Stygies laser destroyer",
+  weapon_type: "ranged",
+};
+
 export const SublimatorWeapon: WeaponConfig = {
   id: weaponId("sublimator"),
   weapon_slug: "sublimator",
@@ -9246,10 +11472,31 @@ export const SublimatorWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const SuccubusWeaponsWeapon: WeaponConfig = {
+  id: weaponId("succubus_weapons"),
+  weapon_slug: "succubus_weapons",
+  weapon_name: "Succubus weapons",
+  weapon_type: "melee",
+};
+
 export const SulphurBreathWeapon: WeaponConfig = {
   id: weaponId("sulphur_breath"),
   weapon_slug: "sulphur_breath",
   weapon_name: "Sulphur breath",
+  weapon_type: "ranged",
+};
+
+export const SuncannonWeapon: WeaponConfig = {
+  id: weaponId("suncannon"),
+  weapon_slug: "suncannon",
+  weapon_name: "Suncannon",
+  weapon_type: "ranged",
+};
+
+export const SunpistolWeapon: WeaponConfig = {
+  id: weaponId("sunpistol"),
+  weapon_slug: "sunpistol",
+  weapon_name: "Sunpistol",
   weapon_type: "ranged",
 };
 
@@ -9328,6 +11575,27 @@ export const SwiftstrikeRailgunWeapon: WeaponConfig = {
   weapon_slug: "swiftstrike_railgun",
   weapon_name: "Swiftstrike railgun",
   weapon_type: "ranged",
+};
+
+export const SwirlingSoulEnergyWeapon: WeaponConfig = {
+  id: weaponId("swirling_soul_energy"),
+  weapon_slug: "swirling_soul_energy",
+  weapon_name: "Swirling soul energy",
+  weapon_type: "ranged",
+};
+
+export const SwordOfAsurWeapon: WeaponConfig = {
+  id: weaponId("sword_of_asur"),
+  weapon_slug: "sword_of_asur",
+  weapon_name: "Sword of Asur",
+  weapon_type: "melee",
+};
+
+export const SybariteWeaponWeapon: WeaponConfig = {
+  id: weaponId("sybarite_weapon"),
+  weapon_slug: "sybarite_weapon",
+  weapon_name: "Sybarite weapon",
+  weapon_type: "melee",
 };
 
 export const SydonianFeetWeapon: WeaponConfig = {
@@ -9414,6 +11682,13 @@ export const TankhammerWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const TankstopperRifleWeapon: WeaponConfig = {
+  id: weaponId("tankstopper_rifle"),
+  weapon_slug: "tankstopper_rifle",
+  weapon_name: "Tankstopper rifle",
+  weapon_type: "ranged",
+};
+
 export const TarsisBucklerWeapon: WeaponConfig = {
   id: weaponId("tarsis_buckler"),
   weapon_slug: "tarsis_buckler",
@@ -9449,6 +11724,48 @@ export const TauTechRifleWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TaurosGrenadeLauncherFragWeapon: WeaponConfig = {
+  id: weaponId("tauros_grenade_launcher_frag"),
+  weapon_slug: "tauros_grenade_launcher_frag",
+  weapon_name: "Tauros grenade launcher \u2013 frag",
+  weapon_type: "ranged",
+};
+
+export const TaurosGrenadeLauncherKrakWeapon: WeaponConfig = {
+  id: weaponId("tauros_grenade_launcher_krak"),
+  weapon_slug: "tauros_grenade_launcher_krak",
+  weapon_name: "Tauros grenade launcher \u2013 krak",
+  weapon_type: "ranged",
+};
+
+export const TauroxBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("taurox_battle_cannon"),
+  weapon_slug: "taurox_battle_cannon",
+  weapon_name: "Taurox battle cannon",
+  weapon_type: "ranged",
+};
+
+export const TauroxGatlingCannonWeapon: WeaponConfig = {
+  id: weaponId("taurox_gatling_cannon"),
+  weapon_slug: "taurox_gatling_cannon",
+  weapon_name: "Taurox gatling cannon",
+  weapon_type: "ranged",
+};
+
+export const TauroxMissileLauncherFragWeapon: WeaponConfig = {
+  id: weaponId("taurox_missile_launcher_frag"),
+  weapon_slug: "taurox_missile_launcher_frag",
+  weapon_name: "Taurox missile launcher \u2013 frag",
+  weapon_type: "ranged",
+};
+
+export const TauroxMissileLauncherKrakWeapon: WeaponConfig = {
+  id: weaponId("taurox_missile_launcher_krak"),
+  weapon_slug: "taurox_missile_launcher_krak",
+  weapon_name: "Taurox missile launcher \u2013 krak",
+  weapon_type: "ranged",
+};
+
 export const TechnoVirusInjectorWeapon: WeaponConfig = {
   id: weaponId("techno_virus_injector"),
   weapon_slug: "techno_virus_injector",
@@ -9470,6 +11787,13 @@ export const TellyportBlastaWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TempestLauncherWeapon: WeaponConfig = {
+  id: weaponId("tempest_launcher"),
+  weapon_slug: "tempest_launcher",
+  weapon_name: "Tempest launcher",
+  weapon_type: "ranged",
+};
+
 export const TempestWarbladeStrikeWeapon: WeaponConfig = {
   id: weaponId("tempest_warblade_strike"),
   weapon_slug: "tempest_warblade_strike",
@@ -9481,6 +11805,13 @@ export const TempestWarbladeSweepWeapon: WeaponConfig = {
   id: weaponId("tempest_warblade_sweep"),
   weapon_slug: "tempest_warblade_sweep",
   weapon_name: "Tempest warblade \u2013 sweep",
+  weapon_type: "melee",
+};
+
+export const TempestusDaggerWeapon: WeaponConfig = {
+  id: weaponId("tempestus_dagger"),
+  weapon_slug: "tempestus_dagger",
+  weapon_name: "Tempestus dagger",
   weapon_type: "melee",
 };
 
@@ -9589,6 +11920,13 @@ export const TesseractSingularityChamberSeismicLashWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TheArdentBladeWeapon: WeaponConfig = {
+  id: weaponId("the_ardent_blade"),
+  weapon_slug: "the_ardent_blade",
+  weapon_name: "The Ardent Blade",
+  weapon_type: "ranged",
+};
+
 export const TheBladeOfShadowsStrikeWeapon: WeaponConfig = {
   id: weaponId("the_blade_of_shadows_strike"),
   weapon_slug: "the_blade_of_shadows_strike",
@@ -9603,10 +11941,38 @@ export const TheBladeOfShadowsSweepWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const TheEyeOfWrathWeapon: WeaponConfig = {
+  id: weaponId("the_eye_of_wrath"),
+  weapon_slug: "the_eye_of_wrath",
+  weapon_name: "The Eye of Wrath",
+  weapon_type: "ranged",
+};
+
+export const TheOutcastsWeaponsWeapon: WeaponConfig = {
+  id: weaponId("the_outcasts_weapons"),
+  weapon_slug: "the_outcasts_weapons",
+  weapon_name: "The Outcast\u2019s Weapons",
+  weapon_type: "melee",
+};
+
 export const TheSlayerSwordWeapon: WeaponConfig = {
   id: weaponId("the_slayer_sword"),
   weapon_slug: "the_slayer_sword",
   weapon_name: "The Slayer Sword",
+  weapon_type: "melee",
+};
+
+export const TheSpearOfTwilightWeapon: WeaponConfig = {
+  id: weaponId("the_spear_of_twilight"),
+  weapon_slug: "the_spear_of_twilight",
+  weapon_name: "The Spear of Twilight",
+  weapon_type: "melee",
+};
+
+export const TheThornOfTheWhiteRoseWeapon: WeaponConfig = {
+  id: weaponId("the_thorn_of_the_white_rose"),
+  weapon_slug: "the_thorn_of_the_white_rose",
+  weapon_name: "The Thorn of the White Rose",
   weapon_type: "melee",
 };
 
@@ -9621,6 +11987,27 @@ export const TheTrickstersStaffWeapon: WeaponConfig = {
   id: weaponId("the_tricksters_staff"),
   weapon_slug: "the_tricksters_staff",
   weapon_name: "The Trickster\u2019s Staff",
+  weapon_type: "melee",
+};
+
+export const TheWailingDoomWeapon: WeaponConfig = {
+  id: weaponId("the_wailing_doom"),
+  weapon_slug: "the_wailing_doom",
+  weapon_name: "The Wailing Doom",
+  weapon_type: "ranged",
+};
+
+export const TheWailingDoomStrikeWeapon: WeaponConfig = {
+  id: weaponId("the_wailing_doom_strike"),
+  weapon_slug: "the_wailing_doom_strike",
+  weapon_name: "The Wailing Doom \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const TheWailingDoomSweepWeapon: WeaponConfig = {
+  id: weaponId("the_wailing_doom_sweep"),
+  weapon_slug: "the_wailing_doom_sweep",
+  weapon_name: "The Wailing Doom \u2013 sweep",
   weapon_type: "melee",
 };
 
@@ -9656,6 +12043,13 @@ export const ThoraxSpurWeapon: WeaponConfig = {
   id: weaponId("thorax_spur"),
   weapon_slug: "thorax_spur",
   weapon_name: "Thorax spur",
+  weapon_type: "melee",
+};
+
+export const ThroneOfBlameWeapon: WeaponConfig = {
+  id: weaponId("throne_of_blame"),
+  weapon_slug: "throne_of_blame",
+  weapon_name: "Throne of Blame",
   weapon_type: "melee",
 };
 
@@ -9761,6 +12155,20 @@ export const TitanicForelimbsSweepWeapon: WeaponConfig = {
   id: weaponId("titanic_forelimbs_sweep"),
   weapon_slug: "titanic_forelimbs_sweep",
   weapon_name: "Titanic forelimbs \u2013 sweep",
+  weapon_type: "melee",
+};
+
+export const TitanicGhostglaiveStrikeWeapon: WeaponConfig = {
+  id: weaponId("titanic_ghostglaive_strike"),
+  weapon_slug: "titanic_ghostglaive_strike",
+  weapon_name: "Titanic ghostglaive \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const TitanicGhostglaiveSweepWeapon: WeaponConfig = {
+  id: weaponId("titanic_ghostglaive_sweep"),
+  weapon_slug: "titanic_ghostglaive_sweep",
+  weapon_name: "Titanic ghostglaive \u2013 sweep",
   weapon_type: "melee",
 };
 
@@ -9939,6 +12347,13 @@ export const TransuranicArquebusWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TremorCannonWeapon: WeaponConfig = {
+  id: weaponId("tremor_cannon"),
+  weapon_slug: "tremor_cannon",
+  weapon_name: "Tremor cannon",
+  weapon_type: "ranged",
+};
+
 export const TremorShellsWeapon: WeaponConfig = {
   id: weaponId("tremor_shells"),
   weapon_slug: "tremor_shells",
@@ -9967,6 +12382,13 @@ export const TremorglaiveShockWavePulseWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TrenchClubWeapon: WeaponConfig = {
+  id: weaponId("trench_club"),
+  weapon_slug: "trench_club",
+  weapon_name: "Trench club",
+  weapon_type: "melee",
+};
+
 export const TriAxisIonCannonStandardWeapon: WeaponConfig = {
   id: weaponId("tri_axis_ion_cannon_standard"),
   weapon_slug: "tri_axis_ion_cannon_standard",
@@ -9979,6 +12401,20 @@ export const TriAxisIonCannonSuperchargeWeapon: WeaponConfig = {
   weapon_slug: "tri_axis_ion_cannon_supercharge",
   weapon_name: "Tri-axis ion cannon \u2013 supercharge",
   weapon_type: "ranged",
+};
+
+export const TriskeleWeapon: WeaponConfig = {
+  id: weaponId("triskele"),
+  weapon_slug: "triskele",
+  weapon_name: "Triskele",
+  weapon_type: "ranged",
+};
+
+export const TroupeMastersBladeWeapon: WeaponConfig = {
+  id: weaponId("troupe_masters_blade"),
+  weapon_slug: "troupe_masters_blade",
+  weapon_name: "Troupe Master\u2019s blade",
+  weapon_type: "melee",
 };
 
 export const TrygonScythingTalonsWeapon: WeaponConfig = {
@@ -10037,6 +12473,13 @@ export const TwinAutocannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TwinBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("twin_battle_cannon"),
+  weapon_slug: "twin_battle_cannon",
+  weapon_name: "Twin battle cannon",
+  weapon_type: "ranged",
+};
+
 export const TwinBigShootaWeapon: WeaponConfig = {
   id: weaponId("twin_big_shoota"),
   weapon_slug: "twin_big_shoota",
@@ -10062,6 +12505,13 @@ export const TwinBoltgunWeapon: WeaponConfig = {
   id: weaponId("twin_boltgun"),
   weapon_slug: "twin_boltgun",
   weapon_name: "Twin boltgun",
+  weapon_type: "ranged",
+};
+
+export const TwinBrightLanceWeapon: WeaponConfig = {
+  id: weaponId("twin_bright_lance"),
+  weapon_slug: "twin_bright_lance",
+  weapon_name: "Twin bright lance",
   weapon_type: "ranged",
 };
 
@@ -10191,6 +12641,13 @@ export const TwinHeavyBolterWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TwinHeavyFlamerWeapon: WeaponConfig = {
+  id: weaponId("twin_heavy_flamer"),
+  weapon_slug: "twin_heavy_flamer",
+  weapon_name: "Twin heavy flamer",
+  weapon_type: "ranged",
+};
+
 export const TwinHeavyPlasmaCannonStandardWeapon: WeaponConfig = {
   id: weaponId("twin_heavy_plasma_cannon_standard"),
   weapon_slug: "twin_heavy_plasma_cannon_standard",
@@ -10296,6 +12753,13 @@ export const TwinKillsawWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const TwinKriegHeavyStubberWeapon: WeaponConfig = {
+  id: weaponId("twin_krieg_heavy_stubber"),
+  weapon_slug: "twin_krieg_heavy_stubber",
+  weapon_name: "Twin Krieg heavy stubber",
+  weapon_type: "ranged",
+};
+
 export const TwinKrootGunWeapon: WeaponConfig = {
   id: weaponId("twin_kroot_gun"),
   weapon_slug: "twin_kroot_gun",
@@ -10373,10 +12837,38 @@ export const TwinMeltagunWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TwinMinistorumHeavyFlamerWeapon: WeaponConfig = {
+  id: weaponId("twin_ministorum_heavy_flamer"),
+  weapon_slug: "twin_ministorum_heavy_flamer",
+  weapon_name: "Twin Ministorum heavy flamer",
+  weapon_type: "ranged",
+};
+
+export const TwinMissileLauncherStarshotWeapon: WeaponConfig = {
+  id: weaponId("twin_missile_launcher_starshot"),
+  weapon_slug: "twin_missile_launcher_starshot",
+  weapon_name: "Twin missile launcher \u2013 starshot",
+  weapon_type: "ranged",
+};
+
+export const TwinMissileLauncherSunburstWeapon: WeaponConfig = {
+  id: weaponId("twin_missile_launcher_sunburst"),
+  weapon_slug: "twin_missile_launcher_sunburst",
+  weapon_name: "Twin missile launcher \u2013 sunburst",
+  weapon_type: "ranged",
+};
+
 export const TwinMissilePodWeapon: WeaponConfig = {
   id: weaponId("twin_missile_pod"),
   weapon_slug: "twin_missile_pod",
   weapon_name: "Twin missile pod",
+  weapon_type: "ranged",
+};
+
+export const TwinMultiLaserWeapon: WeaponConfig = {
+  id: weaponId("twin_multi_laser"),
+  weapon_slug: "twin_multi_laser",
+  weapon_name: "Twin multi-laser",
   weapon_type: "ranged",
 };
 
@@ -10392,6 +12884,20 @@ export const TwinOnagerHeavyPhosphorBlasterWeapon: WeaponConfig = {
   weapon_slug: "twin_onager_heavy_phosphor_blaster",
   weapon_name: "Twin Onager heavy phosphor blaster",
   weapon_type: "ranged",
+};
+
+export const TwinPenitentBuzzBladesWeapon: WeaponConfig = {
+  id: weaponId("twin_penitent_buzz_blades"),
+  weapon_slug: "twin_penitent_buzz_blades",
+  weapon_name: "Twin penitent buzz-blades",
+  weapon_type: "melee",
+};
+
+export const TwinPenitentFlailsWeapon: WeaponConfig = {
+  id: weaponId("twin_penitent_flails"),
+  weapon_slug: "twin_penitent_flails",
+  weapon_name: "Twin penitent flails",
+  weapon_type: "melee",
 };
 
 export const TwinPlagueSpewerWeapon: WeaponConfig = {
@@ -10436,6 +12942,13 @@ export const TwinPulseCarbineWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TwinPulseLaserWeapon: WeaponConfig = {
+  id: weaponId("twin_pulse_laser"),
+  weapon_slug: "twin_pulse_laser",
+  weapon_name: "Twin pulse laser",
+  weapon_type: "ranged",
+};
+
 export const TwinRadCleanserWeapon: WeaponConfig = {
   id: weaponId("twin_rad_cleanser"),
   weapon_slug: "twin_rad_cleanser",
@@ -10454,6 +12967,34 @@ export const TwinRokkitLaunchaWeapon: WeaponConfig = {
   id: weaponId("twin_rokkit_launcha"),
   weapon_slug: "twin_rokkit_launcha",
   weapon_name: "Twin rokkit launcha",
+  weapon_type: "ranged",
+};
+
+export const TwinScatterLaserWeapon: WeaponConfig = {
+  id: weaponId("twin_scatter_laser"),
+  weapon_slug: "twin_scatter_laser",
+  weapon_name: "Twin scatter laser",
+  weapon_type: "ranged",
+};
+
+export const TwinScorpionPulsarWeapon: WeaponConfig = {
+  id: weaponId("twin_scorpion_pulsar"),
+  weapon_slug: "twin_scorpion_pulsar",
+  weapon_name: "Twin Scorpion pulsar",
+  weapon_type: "ranged",
+};
+
+export const TwinShurikenCannonWeapon: WeaponConfig = {
+  id: weaponId("twin_shuriken_cannon"),
+  weapon_slug: "twin_shuriken_cannon",
+  weapon_name: "Twin shuriken cannon",
+  weapon_type: "ranged",
+};
+
+export const TwinShurikenCatapultWeapon: WeaponConfig = {
+  id: weaponId("twin_shuriken_catapult"),
+  weapon_slug: "twin_shuriken_catapult",
+  weapon_name: "Twin shuriken catapult",
   weapon_type: "ranged",
 };
 
@@ -10506,6 +13047,13 @@ export const TwinSplinterRifleWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const TwinStarcannonWeapon: WeaponConfig = {
+  id: weaponId("twin_starcannon"),
+  weapon_slug: "twin_starcannon",
+  weapon_name: "Twin starcannon",
+  weapon_type: "ranged",
+};
+
 export const TwinStranglethornCannonWeapon: WeaponConfig = {
   id: weaponId("twin_stranglethorn_cannon"),
   weapon_slug: "twin_stranglethorn_cannon",
@@ -10524,6 +13072,13 @@ export const TwinTauFlamerWeapon: WeaponConfig = {
   id: weaponId("twin_tau_flamer"),
   weapon_slug: "twin_tau_flamer",
   weapon_name: "Twin T\u2019au flamer",
+  weapon_type: "ranged",
+};
+
+export const TwinTauroxHotShotVolleyGunWeapon: WeaponConfig = {
+  id: weaponId("twin_taurox_hot_shot_volley_gun"),
+  weapon_slug: "twin_taurox_hot_shot_volley_gun",
+  weapon_name: "Twin Taurox hot-shot volley gun",
   weapon_type: "ranged",
 };
 
@@ -10553,6 +13108,13 @@ export const TwinTorturersToolsWeapon: WeaponConfig = {
   weapon_slug: "twin_torturers_tools",
   weapon_name: "Twin torturer\u2019s tools",
   weapon_type: "melee",
+};
+
+export const TwinVampirePulsarWeapon: WeaponConfig = {
+  id: weaponId("twin_vampire_pulsar"),
+  weapon_slug: "twin_vampire_pulsar",
+  weapon_name: "Twin Vampire pulsar",
+  weapon_type: "ranged",
 };
 
 export const TwinVolkiteChargerWeapon: WeaponConfig = {
@@ -10667,6 +13229,20 @@ export const UrtySyringeWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const ValdorNeutronLaserWeapon: WeaponConfig = {
+  id: weaponId("valdor_neutron_laser"),
+  weapon_slug: "valdor_neutron_laser",
+  weapon_name: "Valdor neutron laser",
+  weapon_type: "ranged",
+};
+
+export const VanquisherBattleCannonWeapon: WeaponConfig = {
+  id: weaponId("vanquisher_battle_cannon"),
+  weapon_slug: "vanquisher_battle_cannon",
+  weapon_name: "Vanquisher battle cannon",
+  weapon_type: "ranged",
+};
+
 export const VashtorrsClawWeapon: WeaponConfig = {
   id: weaponId("vashtorrs_claw"),
   weapon_slug: "vashtorrs_claw",
@@ -10716,6 +13292,20 @@ export const VenatariLanceWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const VendettaHellstrikeRackWeapon: WeaponConfig = {
+  id: weaponId("vendetta_hellstrike_rack"),
+  weapon_slug: "vendetta_hellstrike_rack",
+  weapon_name: "Vendetta hellstrike rack",
+  weapon_type: "ranged",
+};
+
+export const VendettaTwinLascannonWeapon: WeaponConfig = {
+  id: weaponId("vendetta_twin_lascannon"),
+  weapon_slug: "vendetta_twin_lascannon",
+  weapon_name: "Vendetta twin lascannon",
+  weapon_type: "ranged",
+};
+
 export const VenomBoltWeapon: WeaponConfig = {
   id: weaponId("venom_bolt"),
   weapon_slug: "venom_bolt",
@@ -10734,6 +13324,13 @@ export const VertusHurricaneBolterWeapon: WeaponConfig = {
   id: weaponId("vertus_hurricane_bolter"),
   weapon_slug: "vertus_hurricane_bolter",
   weapon_name: "Vertus hurricane bolter",
+  weapon_type: "ranged",
+};
+
+export const VibroCannonWeapon: WeaponConfig = {
+  id: weaponId("vibro_cannon"),
+  weapon_slug: "vibro_cannon",
+  weapon_name: "Vibro cannon",
   weapon_type: "ranged",
 };
 
@@ -10758,10 +13355,38 @@ export const VigilSpearWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const VigilatorCannonWeapon: WeaponConfig = {
+  id: weaponId("vigilator_cannon"),
+  weapon_slug: "vigilator_cannon",
+  weapon_name: "Vigilator cannon",
+  weapon_type: "ranged",
+};
+
+export const VilithZharStrikeWeapon: WeaponConfig = {
+  id: weaponId("vilith_zhar_strike"),
+  weapon_slug: "vilith_zhar_strike",
+  weapon_name: "Vilith-zhar \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const VilithZharSweepWeapon: WeaponConfig = {
+  id: weaponId("vilith_zhar_sweep"),
+  weapon_slug: "vilith_zhar_sweep",
+  weapon_name: "Vilith-zhar \u2013 sweep",
+  weapon_type: "melee",
+};
+
 export const VindicareCombatKnifeWeapon: WeaponConfig = {
   id: weaponId("vindicare_combat_knife"),
   weapon_slug: "vindicare_combat_knife",
   weapon_name: "Vindicare combat knife",
+  weapon_type: "melee",
+};
+
+export const VirgeOfAdmonitionWeapon: WeaponConfig = {
+  id: weaponId("virge_of_admonition"),
+  weapon_slug: "virge_of_admonition",
+  weapon_name: "Virge of admonition",
   weapon_type: "melee",
 };
 
@@ -10772,11 +13397,25 @@ export const VoidLanceWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const VoidSabreWeapon: WeaponConfig = {
+  id: weaponId("void_sabre"),
+  weapon_slug: "void_sabre",
+  weapon_name: "Void sabre",
+  weapon_type: "melee",
+};
+
 export const VoidbladeWeapon: WeaponConfig = {
   id: weaponId("voidblade"),
   weapon_slug: "voidblade",
   weapon_name: "Voidblade",
   weapon_type: "melee",
+};
+
+export const VoidbringerWeapon: WeaponConfig = {
+  id: weaponId("voidbringer"),
+  weapon_slug: "voidbringer",
+  weapon_name: "Voidbringer",
+  weapon_type: "ranged",
 };
 
 export const VoidravenMissilesImplosionMissilesWeapon: WeaponConfig = {
@@ -10807,6 +13446,27 @@ export const VoidsmanRotorCannonWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const VoidstormMissileLauncherWeapon: WeaponConfig = {
+  id: weaponId("voidstorm_missile_launcher"),
+  weapon_slug: "voidstorm_missile_launcher",
+  weapon_name: "Voidstorm missile launcher",
+  weapon_type: "ranged",
+};
+
+export const VoidweaverHaywireCannonWeapon: WeaponConfig = {
+  id: weaponId("voidweaver_haywire_cannon"),
+  weapon_slug: "voidweaver_haywire_cannon",
+  weapon_name: "Voidweaver haywire cannon",
+  weapon_type: "ranged",
+};
+
+export const VolcanoCannonWeapon: WeaponConfig = {
+  id: weaponId("volcano_cannon"),
+  weapon_slug: "volcano_cannon",
+  weapon_name: "Volcano cannon",
+  weapon_type: "ranged",
+};
+
 export const VolcanoLanceWeapon: WeaponConfig = {
   id: weaponId("volcano_lance"),
   weapon_slug: "volcano_lance",
@@ -10828,6 +13488,13 @@ export const VolkiteBlasterWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const VolkiteCaliverWeapon: WeaponConfig = {
+  id: weaponId("volkite_caliver"),
+  weapon_slug: "volkite_caliver",
+  weapon_name: "Volkite caliver",
+  weapon_type: "ranged",
+};
+
 export const VolkiteChierovileWeapon: WeaponConfig = {
   id: weaponId("volkite_chierovile"),
   weapon_slug: "volkite_chierovile",
@@ -10839,6 +13506,13 @@ export const VolkiteCombustorWeapon: WeaponConfig = {
   id: weaponId("volkite_combustor"),
   weapon_slug: "volkite_combustor",
   weapon_name: "Volkite combustor",
+  weapon_type: "ranged",
+};
+
+export const VolkiteCulverinWeapon: WeaponConfig = {
+  id: weaponId("volkite_culverin"),
+  weapon_slug: "volkite_culverin",
+  weapon_name: "Volkite culverin",
   weapon_type: "ranged",
 };
 
@@ -10870,6 +13544,27 @@ export const VortexOfDoomWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const VulcanMegaBolterWeapon: WeaponConfig = {
+  id: weaponId("vulcan_mega_bolter"),
+  weapon_slug: "vulcan_mega_bolter",
+  weapon_name: "Vulcan mega-bolter",
+  weapon_type: "ranged",
+};
+
+export const VultureGatlingCannonWeapon: WeaponConfig = {
+  id: weaponId("vulture_gatling_cannon"),
+  weapon_slug: "vulture_gatling_cannon",
+  weapon_name: "Vulture gatling cannon",
+  weapon_type: "ranged",
+};
+
+export const VultureHellstrikeRackWeapon: WeaponConfig = {
+  id: weaponId("vulture_hellstrike_rack"),
+  weapon_slug: "vulture_hellstrike_rack",
+  weapon_name: "Vulture hellstrike rack",
+  weapon_type: "ranged",
+};
+
 export const WaaaghBannerWeapon: WeaponConfig = {
   id: weaponId("waaagh_banner"),
   weapon_slug: "waaagh_banner",
@@ -10882,6 +13577,13 @@ export const WarDogAutocannonWeapon: WeaponConfig = {
   weapon_slug: "war_dog_autocannon",
   weapon_name: "War Dog autocannon",
   weapon_type: "ranged",
+};
+
+export const WarWalkerFeetWeapon: WeaponConfig = {
+  id: weaponId("war_walker_feet"),
+  weapon_slug: "war_walker_feet",
+  weapon_name: "War Walker feet",
+  weapon_type: "melee",
 };
 
 export const WarforgeGauntletsWeapon: WeaponConfig = {
@@ -11031,6 +13733,13 @@ export const WarscytheWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const WaspFeetWeapon: WeaponConfig = {
+  id: weaponId("wasp_feet"),
+  weapon_slug: "wasp_feet",
+  weapon_name: "Wasp feet",
+  weapon_type: "melee",
+};
+
 export const WatchersAxeWeapon: WeaponConfig = {
   id: weaponId("watchers_axe"),
   weapon_slug: "watchers_axe",
@@ -11038,10 +13747,31 @@ export const WatchersAxeWeapon: WeaponConfig = {
   weapon_type: "melee",
 };
 
+export const WaystaveWeapon: WeaponConfig = {
+  id: weaponId("waystave"),
+  weapon_slug: "waystave",
+  weapon_name: "Waystave",
+  weapon_type: "melee",
+};
+
 export const WeaponsOfTheFinalTriarchWeapon: WeaponConfig = {
   id: weaponId("weapons_of_the_final_triarch"),
   weapon_slug: "weapons_of_the_final_triarch",
   weapon_name: "Weapons of the Final Triarch",
+  weapon_type: "melee",
+};
+
+export const WeaponsTeamCloseCombatWeaponsWeapon: WeaponConfig = {
+  id: weaponId("weapons_team_close_combat_weapons"),
+  weapon_slug: "weapons_team_close_combat_weapons",
+  weapon_name: "Weapons team close combat weapons",
+  weapon_type: "melee",
+};
+
+export const WeaverenderWeapon: WeaponConfig = {
+  id: weaponId("weaverender"),
+  weapon_slug: "weaverender",
+  weapon_name: "Weaverender",
   weapon_type: "melee",
 };
 
@@ -11073,6 +13803,20 @@ export const WingMissilesWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const WitchStaffWeapon: WeaponConfig = {
+  id: weaponId("witch_staff"),
+  weapon_slug: "witch_staff",
+  weapon_name: "Witch staff",
+  weapon_type: "melee",
+};
+
+export const WitchbladeWeapon: WeaponConfig = {
+  id: weaponId("witchblade"),
+  weapon_slug: "witchblade",
+  weapon_name: "Witchblade",
+  weapon_type: "melee",
+};
+
 export const WitchseekerFlamerWeapon: WeaponConfig = {
   id: weaponId("witchseeker_flamer"),
   weapon_slug: "witchseeker_flamer",
@@ -11085,6 +13829,48 @@ export const WitstealerSwordWeapon: WeaponConfig = {
   weapon_slug: "witstealer_sword",
   weapon_name: "Witstealer sword",
   weapon_type: "melee",
+};
+
+export const WraithGlaiveStrikeWeapon: WeaponConfig = {
+  id: weaponId("wraith_glaive_strike"),
+  weapon_slug: "wraith_glaive_strike",
+  weapon_name: "Wraith glaive \u2013 strike",
+  weapon_type: "melee",
+};
+
+export const WraithGlaiveSweepWeapon: WeaponConfig = {
+  id: weaponId("wraith_glaive_sweep"),
+  weapon_slug: "wraith_glaive_sweep",
+  weapon_name: "Wraith glaive \u2013 sweep",
+  weapon_type: "melee",
+};
+
+export const WraithboneFistsWeapon: WeaponConfig = {
+  id: weaponId("wraithbone_fists"),
+  weapon_slug: "wraithbone_fists",
+  weapon_name: "Wraithbone fists",
+  weapon_type: "melee",
+};
+
+export const WraithboneHullWeapon: WeaponConfig = {
+  id: weaponId("wraithbone_hull"),
+  weapon_slug: "wraithbone_hull",
+  weapon_name: "Wraithbone hull",
+  weapon_type: "melee",
+};
+
+export const WraithcannonWeapon: WeaponConfig = {
+  id: weaponId("wraithcannon"),
+  weapon_slug: "wraithcannon",
+  weapon_name: "Wraithcannon",
+  weapon_type: "ranged",
+};
+
+export const WraithseerDCannonWeapon: WeaponConfig = {
+  id: weaponId("wraithseer_d_cannon"),
+  weapon_slug: "wraithseer_d_cannon",
+  weapon_name: "Wraithseer D-cannon",
+  weapon_type: "ranged",
 };
 
 export const WreckinBallWeapon: WeaponConfig = {
@@ -11105,6 +13891,13 @@ export const WurrtowerWeapon: WeaponConfig = {
   id: weaponId("wurrtower"),
   weapon_slug: "wurrtower",
   weapon_name: "Wurrtower",
+  weapon_type: "ranged",
+};
+
+export const WyvernQuadStormshardMortarWeapon: WeaponConfig = {
+  id: weaponId("wyvern_quad_stormshard_mortar"),
+  weapon_slug: "wyvern_quad_stormshard_mortar",
+  weapon_name: "Wyvern quad stormshard mortar",
   weapon_type: "ranged",
 };
 
@@ -11150,6 +13943,13 @@ export const ZealotsVindictorWeapon: WeaponConfig = {
   weapon_type: "ranged",
 };
 
+export const ZephyrglaiveWeapon: WeaponConfig = {
+  id: weaponId("zephyrglaive"),
+  weapon_slug: "zephyrglaive",
+  weapon_name: "Zephyrglaive",
+  weapon_type: "melee",
+};
+
 export const ZzapGunWeapon: WeaponConfig = {
   id: weaponId("zzap_gun"),
   weapon_slug: "zzap_gun",
@@ -11177,6 +13977,9 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     AdrasiteSpearWeapon,
     AdrastusBoltCaliverWeapon,
     AdrathicDevastatorWeapon,
+    AeldariMissileLauncherStarshotWeapon,
+    AeldariMissileLauncherSunburstWeapon,
+    AeldariPowerSwordWeapon,
     AeonstaveWeapon,
     AgentFirearmWeapon,
     AgentMeleeWeaponWeapon,
@@ -11191,6 +13994,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     AncestralWrathWitchfireWeapon,
     AnimusSpeculumWeapon,
     AnnihilatorBeamWeapon,
+    AnointedHalberdWeapon,
     AnointedPistolWeapon,
     AntimatterMeteorWeapon,
     ApmLauncherWeapon,
@@ -11210,9 +14014,12 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ArcaneFireballWitchfireWeapon,
     ArcheotechPistolWeapon,
     ArchiteGlaiveAndAgoniserWeapon,
+    ArcoFlailsWeapon,
+    ArhrasBaneWeapon,
     ArmigerAutocannonWeapon,
     ArmouredBulkWeapon,
     ArmouredFeetWeapon,
+    ArmouredFrameWeapon,
     ArmouredHullWeapon,
     ArmouredLimbsWeapon,
     ArmouredTracksWeapon,
@@ -11229,6 +14036,10 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     AstartesGrenadeLauncherKrakWeapon,
     AsteriusVolkiteCulverinWeapon,
     AstralBlastWeapon,
+    AstropathsStaveWeapon,
+    AsuVarDuellistStanceWeapon,
+    AsuVarMythicStanceWeapon,
+    AsuVarQuicksilverStanceWeapon,
     AtalanIncineratorWeapon,
     AtalanPowerWeaponWeapon,
     AtalanSmallArmsWeapon,
@@ -11238,6 +14049,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     AttackSquigWeapon,
     AttendantsHellbladesWeapon,
     AutoBoltstormGauntletsWeapon,
+    AutoShotgunWeapon,
     AutocannonWeapon,
     AutochPatternBoltPistolWeapon,
     AutochPatternBolterWeapon,
@@ -11245,13 +14057,17 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     AutogunWeapon,
     AutomatonClawsWeapon,
     AutopistolWeapon,
+    AutostubberWeapon,
+    AvengerBoltCannonWeapon,
     AvengerChaincannonWeapon,
     AvengerGatlingCannonWeapon,
+    AvengerShurikenCatapultWeapon,
     AxeOfDismembermentWeapon,
     AxeOfDominionWeapon,
     AxeOfEndingWeapon,
     AxeOfKhorneStrikeWeapon,
     AxeOfKhorneSweepWeapon,
+    BaleEyeWeapon,
     BaleblastWeapon,
     BalefirePikeWeapon,
     BalefireTomeWeapon,
@@ -11264,10 +14080,13 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BalistusGrenadeLauncherWeapon,
     BaneStrikeWeapon,
     BaneSweepWeapon,
+    BanebladeCannonWeapon,
+    BansheeBladeWeapon,
     BarbedOvipositorWeapon,
     BarbedStranglerWeapon,
     BarbedTailAndDissectingClawsWeapon,
     BarblauncherWeapon,
+    BatteryCloseCombatWeaponsWeapon,
     BattlesuitFistsWeapon,
     BeastSnaggaKlawWeapon,
     BeastchoppaWeapon,
@@ -11295,7 +14114,9 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BioPlasmaTorrentWeapon,
     BioPlasmicCannonWeapon,
     BioPlasmicScreamWeapon,
+    BionicArmWithDevilsClawWeapon,
     BionicGauntletWeapon,
+    BitingBladeWeapon,
     BitingMawWeapon,
     BlackBladeOfAntwyrWeapon,
     BlackShieldBladesWeapon,
@@ -11304,10 +14125,12 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BladeOfBloodWeapon,
     BladeOfDecayStrikeWeapon,
     BladeOfDecaySweepWeapon,
+    BladeOfDestructionWeapon,
     BladeOfMagnusStrikeWeapon,
     BladeOfMagnusSweepWeapon,
     BladeOfTheAncestorsWeapon,
     BladeOfTheLaerWeapon,
+    BladeOfVigilWeapon,
     BladeStrutsWeapon,
     BladeTailAndWhipCoilsWeapon,
     BladedAxleWeapon,
@@ -11323,6 +14146,9 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BlasterWeapon,
     BlastmasterSingleFrequencyWeapon,
     BlastmasterVariedFrequencyWeapon,
+    BlessedBladeWeapon,
+    BlessedHalberdWeapon,
+    BlessedSwordWeapon,
     BlightLauncherWeapon,
     BlightreaperCannonWeapon,
     BlindingVenomWeapon,
@@ -11330,6 +14156,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BloodHarpoonWeapon,
     BloodflailWeapon,
     BloodlashWeapon,
+    BloodyTwinsWeapon,
     BlueClawsWeapon,
     BoltCannonWeapon,
     BoltCarbineWeapon,
@@ -11338,18 +14165,25 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BoltOfTzeentchFocusedWitchfireWeapon,
     BoltOfTzeentchWitchfireWeapon,
     BoltPistolWeapon,
+    BoltPistolsWeapon,
     BoltRevolverWeapon,
     BoltRifleWeapon,
     BoltShotgunWeapon,
     BoltSniperRifleWeapon,
     BoltgunWeapon,
+    BombastFieldGunWeapon,
     BoneCleaverLashWhipAndRendingClawsWeapon,
     BoneSabresWeapon,
     BoombitsWeapon,
     BoomstikksWeapon,
+    BraceOfPistolsWeapon,
+    BraggsAutocannonWeapon,
+    BrazierOfHolyFireWeapon,
     BreachaRamWeapon,
     BreacherOrdnanceWeapon,
+    BrightLanceWeapon,
     BrimstoneVolcanoLanceWeapon,
+    BroodTwainWeapon,
     BroodlordClawsAndTalonsWeapon,
     BrutalAssaultWeaponWeapon,
     BrutalWeaponsWeapon,
@@ -11358,6 +14192,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     BubblechukkaWobblyBubbleWeapon,
     BuboticBladeWeapon,
     BuboticWeaponsWeapon,
+    BullgrynMaulWeapon,
     BurnaWeapon,
     BurnaExhaustsWeapon,
     BurningHandsWeapon,
@@ -11372,10 +14207,16 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     CarnifexCrushingClawsWeapon,
     CarnifexExtraScythingTalonsWeapon,
     CarnifexScythingTalonsWeapon,
+    CarnodonTwinAutocannonWeapon,
+    CarnodonTwinLascannonWeapon,
+    CarnodonTwinMultiLaserWeapon,
     CasketOfFlensingWeapon,
     CastellanAxeWeapon,
     CastigationWeapon,
+    CastigatorAutocannonsWeapon,
+    CastigatorBattleCannonWeapon,
     CastigatorBoltCannonWeapon,
+    CastigatorGatlingCannonWeapon,
     CavalryArcMaulWeapon,
     CavalrySabreAndClawedLimbsWeapon,
     CawlsOmnissianAxeWeapon,
@@ -11386,11 +14227,15 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ChainbladeWeapon,
     ChainbladesWeapon,
     ChainfistWeapon,
+    ChainsabresWeapon,
     ChainswordWeapon,
     ChaosStaveWeapon,
     ChastiserGatlingCannonWeapon,
+    ChemCannonWeapon,
     ChemicalVialsWeapon,
+    ChironGatlingCannonWeapon,
     ChirurgeonWeapon,
+    ChirurgeonsToolsWeapon,
     ChitinBarbedLimbsWeapon,
     ChitinousClawsAndTeethWeapon,
     ChoppaWeapon,
@@ -11402,28 +14247,39 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ClearanceIncineratorWeapon,
     CloseCombatWeaponWeapon,
     CloseCombatWeaponsWeapon,
+    CloudburstMissileLauncherWeapon,
     ClusterRocketSystemWeapon,
+    CoaxialAutocannonWeapon,
     CognisFlamerWeapon,
     CognisHeavyStubberWeapon,
     CognisHeavyStubberArrayWeapon,
     CoiledTentaclesWeapon,
+    ColossusSiegeMortarWeapon,
     CombatKnifeWeapon,
+    CombatShotgunWeapon,
     CombiBolterWeapon,
     CombiWeaponWeapon,
+    CommissarsCloseCombatWeaponWeapon,
+    CommissarsPistolWeapon,
     CommuneBladeWeapon,
     CommuneStaveWeapon,
     ConcussionGauntletWeapon,
     ConcussionMaulWeapon,
+    CondemnorBoltPistolWeapon,
     CondemnorBoltgunWeapon,
     CondemnorStakeWeapon,
     ConflagrationCannonWeapon,
+    ConquestWeapon,
     ContemptorCombatWeaponWeapon,
     ControlStaveWeapon,
     ConversionBeamCannonWeapon,
     ConversionBeamObliteratorWeapon,
+    CorbecsHotShotLascarbineWeapon,
     CorruptedPistolWeapon,
     CorruptedStaffWeapon,
     CorruptedStaveWeapon,
+    CorsairBladeWeapon,
+    CorsairFirearmWeapon,
     CoruscatingBlueFlamesWeapon,
     CoruscatingPinkFlamesWeapon,
     CoruscatingYellowFlamesWeapon,
@@ -11431,6 +14287,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     CosmicInsanityWeapon,
     CowardsBaneWeapon,
     CracklingTendrilsWeapon,
+    CrewCloseCombatWeaponsWeapon,
     CroziusArcanumWeapon,
     CrushingBulkWeapon,
     CrushingClawsAndRendingClawsWeapon,
@@ -11459,6 +14316,12 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     CycloneMissileLauncherKrakWeapon,
     CyphersBoltPistolWeapon,
     CyphersPlasmaPistolWeapon,
+    DBombardWeapon,
+    DCannonWeapon,
+    DFlailBlastWeapon,
+    DFlailRiftWeapon,
+    DImpalerWeapon,
+    DScytheWeapon,
     DaGrabzappaWeapon,
     DaRippaStandardWeapon,
     DaRippaSuperchargeWeapon,
@@ -11485,10 +14348,17 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     DawnBladeSweepWeapon,
     DeathCultBladesWeapon,
     DeathCultPowerBladeWeapon,
+    DeathCultPowerBladesWeapon,
     DeathRayWeapon,
+    DeathRiderLascarbineWeapon,
+    DeathSpinnerWeapon,
+    DeathWeaversWeapon,
     DeathsHeadsWeapon,
+    DeathshroudCannonDispersedWeapon,
+    DeathshroudCannonFocusedWeapon,
     DeathspitterWeapon,
     DeathspittersWithSlimerMaggotsWeapon,
+    DeathstrikeMissileWeapon,
     DeathwatchMarksmanBoltCarbineWeapon,
     DeathwatchShotgunWeapon,
     DeathwatchThunderHammerWeapon,
@@ -11502,34 +14372,50 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     DeffstormMegaShootaWeapon,
     DemiklaivesDualBladesWeapon,
     DemiklaivesSingleBladeWeapon,
+    DemolisherBattleCannonWeapon,
     DemolisherCannonWeapon,
     DemolitionChargeWeapon,
     DemolitionChargeCacheWeapon,
     DemolitionChargesWeapon,
+    DemolitionsWeapon,
     DesecratorLaserDestructorWeapon,
     DespoilerBattleCannonWeapon,
     DespoilerGatlingCannonWeapon,
     DestroyerMissilesWeapon,
+    DestructorWeapon,
     DevourerWeapon,
     DevourersWithBrainleechWormsWeapon,
     DiabolusHeavyStubberWeapon,
+    DialogusStaffWeapon,
     DireBioCannonWeapon,
     DireScytheBladesWeapon,
+    DireswordWeapon,
     DirgesingerWeapon,
+    DirkWeapon,
     DiseasedClawsAndFangsWeapon,
     DiseasedClawsAndTeethWeapon,
     DisgustingSneezesWeapon,
     DisintegratorCannonWeapon,
     DisruptorMissileLauncherWeapon,
+    DissonanceCannonWeapon,
+    DissonancePistolWeapon,
     DistensibleJawWeapon,
     DiviningSpearWeapon,
+    DominusTripleBombardWeapon,
     DoomsdayBellWeapon,
     DoomsdayBlasterWeapon,
     DoomsdayCannonWeapon,
     DoomstalkerLimbsWeapon,
+    DoomweaverWeapon,
+    DozerRamWeapon,
     DrachnyenWeapon,
+    DragonAxeWeapon,
+    DragonFusionGunWeapon,
+    DragonFusionPistolWeapon,
+    DragonsBreathFlamerWeapon,
     DreadKillsawWeapon,
     DreadKlawWeapon,
+    DreadOfTheDeepVoidWeapon,
     DreadRippaKlawWeapon,
     DreadfistsWeapon,
     DreadnoughtCombatWeaponWeapon,
@@ -11540,43 +14426,56 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     DroolCannonWeapon,
     DuellingSabreWeapon,
     DunecrawlerLegsWeapon,
+    DutyAndVengeanceWeapon,
     DvorgiteSkinnerWeapon,
     EadbangerWeapon,
     EaglesScreamWeapon,
+    EarthshakerCannonWeapon,
     EavyLobbaWeapon,
     EctoplasmaCannonWeapon,
     EctoplasmaDecimatorStandardWeapon,
     EctoplasmaDecimatorSuperchargeWeapon,
     EctoplasmaDestructorWeapon,
     EldritchLanceWeapon,
+    EldritchStormWeapon,
     ElectroGoadsWeapon,
     ElectroleechStaveWeapon,
     ElectroscourgeWeapon,
     ElectrostaticGauntletsWeapon,
     EmpathicObliteratorWeapon,
+    EnforcerCrewWeapon,
     EnforcerMeleeWeaponWeapon,
     EnforcerPistolWeapon,
+    EnginseerAxeWeapon,
     EnmiticAnnihilatorWeapon,
     EnmiticDisintegratorPistolsWeapon,
     EnmiticDisintegratorsWeapon,
     EnmiticExterminatorWeapon,
     EntropyCannonWeapon,
+    EnvenomedBladeWeapon,
     EradicationBeamerDissipatedWeapon,
     EradicationBeamerFocusedWeapon,
     EradicationCasterDissipatedWeapon,
     EradicationCasterFocusedWeapon,
     EradicationRayDissipatedWeapon,
     EradicationRayFocusedWeapon,
+    EradicatorNovaCannonWeapon,
     EtacarnPlasmaBeamerWeapon,
     EtacarnPlasmaGunWeapon,
     EvisceratorWeapon,
     ExaltedChainbladeWeapon,
     ExaltedSeekerTonguesWeapon,
     ExaltedWeaponWeapon,
+    ExarchsDeathSpinnerWeapon,
+    ExarchsDragonFusionGunWeapon,
+    ExarchsLasblasterWeapon,
     ExcruciatorCannonWeapon,
     ExcruciatorMaulWeapon,
+    ExecutionerWeapon,
     ExecutionerGreatbladeWeapon,
     ExecutionerPistolWeapon,
+    ExecutionerPlasmaCannonStandardWeapon,
+    ExecutionerPlasmaCannonSuperchargeWeapon,
     ExecutionerShotgunWeapon,
     ExecutionersDemiklaivesDualBladesWeapon,
     ExecutionersDemiklaivesSingleBladeWeapon,
@@ -11584,8 +14483,12 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ExitusPistolWeapon,
     ExitusRifleWeapon,
     ExoarmourGrenadeLauncherWeapon,
+    ExorcistConflagrationRocketsWeapon,
+    ExorcistMissileLauncherWeapon,
     ExperimentalPulseSubmunitionsRifleEmpWeapon,
     ExperimentalPulseSubmunitionsRifleIonicWeapon,
+    ExterminatorAutocannonWeapon,
+    EyeOfWrathWeapon,
     EyeburstWeapon,
     EyezOfMorkWeapon,
     FarstalkerFirearmWeapon,
@@ -11594,12 +14497,16 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     FellboreStrikeWeapon,
     FellboreSweepWeapon,
     FerrumiteCannonWeapon,
+    FidelisWeapon,
     FidelityWeapon,
+    FireAxeWeapon,
     FireOfTzeentchBlueFireWeapon,
     FireOfTzeentchPinkFireWeapon,
     FirebladePulseRifleWeapon,
+    FirepikeWeapon,
     FiresOfTheAbyssFocusedWitchfireWeapon,
     FiresOfTheAbyssWitchfireWeapon,
+    FirestormScatterLaserWeapon,
     FixitsWrenchWeapon,
     FlailOfCorruptionWeapon,
     FlamerWeapon,
@@ -11640,16 +14547,20 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     FoulMouthpartsWeapon,
     FragBombardWeapon,
     FragCannonWeapon,
+    FragLanceWeapon,
     FragdrillWeapon,
     FragmentationClusterShellLauncherWeapon,
     FragstormGrenadeLauncherWeapon,
     FreedomsHandStrikeWeapon,
     FreedomsHandSweepWeapon,
+    FuryOfTheTempestWeapon,
     FusionBlasterWeapon,
     FusionCascadeWeapon,
     FusionColliderWeapon,
     FusionEliminatorWeapon,
     FusionEradicatorWeapon,
+    FusionGunWeapon,
+    FusionPistolWeapon,
     GalatusWarbladeWeapon,
     GalvanicCarbineWeapon,
     GalvanicCasterFlechetteWeapon,
@@ -11660,6 +14571,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     GarralisksClawsAndTeethWeapon,
     GatlingPsilencerWeapon,
     GauntletOfFireWeapon,
+    GauntsChainswordWeapon,
     GaussAnnihilatorWeapon,
     GaussBlasterWeapon,
     GaussCannonWeapon,
@@ -11678,7 +14590,13 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     GazeOfMagnusWeapon,
     GenestealerClawsAndTalonsWeapon,
     GheiststrikeMissileLauncherWeapon,
+    GhostaxeWeapon,
+    GhostglaiveStrikeWeapon,
+    GhostglaiveSweepWeapon,
     GhostkeelFistsWeapon,
+    GhostspearStrikeWeapon,
+    GhostspearSweepWeapon,
+    GhostswordsWeapon,
     GigaShootaWeapon,
     GladiatorialWeaponsWeapon,
     GlimmersteelBladeWeapon,
@@ -11686,11 +14604,13 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     GnarlrodSweepWeapon,
     GnashingMawWeapon,
     GnosisWeapon,
+    GoadLanceWeapon,
     GodhammerLascannonWeapon,
     GoldenFistsWeapon,
     GoreDrenchedFangsWeapon,
     GorechildWeapon,
     GorestormCannonWeapon,
+    GorgonMortarWeapon,
     GorinHornsStrikeWeapon,
     GorinHornsSweepWeapon,
     GorksKlawStrikeWeapon,
@@ -11718,6 +14638,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     GreaterPlagueProbeWeapon,
     GrenadeLauncherFragWeapon,
     GrenadeLauncherKrakWeapon,
+    GrenadierGauntletWeapon,
+    GriffonHeavyMortarWeapon,
     GrotBlastaWeapon,
     GrotCrewWeapon,
     GrotGuidedBommWeapon,
@@ -11731,7 +14653,11 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HadesGatlingCannonWeapon,
     HadesLascannonWeapon,
     HaemonculusToolsAndScissorhandsWeapon,
+    HallowedChainswordWeapon,
+    HallowedMaceWeapon,
     HandFlamerWeapon,
+    HarlequinsBladeWeapon,
+    HarlequinsSpecialWeaponWeapon,
     HarvesterCannonWeapon,
     HastariiArcBlasterWeapon,
     HastariiPhosphorBlasterWeapon,
@@ -11744,6 +14670,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HavocMissilePodWeapon,
     HavocMultiLauncherWeapon,
     HavocReaperChaincannonWeapon,
+    HawksTalonWeapon,
     HaywireBlasterWeapon,
     HeartstringLyreCacophonousMelodyWeapon,
     HeartstringLyreEuphonicBlastWeapon,
@@ -11758,12 +14685,14 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HeavyBoltRifleWeapon,
     HeavyBolterWeapon,
     HeavyBurstCannonWeapon,
+    HeavyDScytheWeapon,
     HeavyDarkflamerWeapon,
     HeavyDeathRayWeapon,
     HeavyFlamerWeapon,
     HeavyGaussCannonArrayWeapon,
     HeavyGravCannonWeapon,
     HeavyIncineratorWeapon,
+    HeavyLascannonWeapon,
     HeavyMagnaRailCannonWeapon,
     HeavyMeleeWeaponWeapon,
     HeavyMiningLaserWeapon,
@@ -11777,6 +14706,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HeavyPlasmaCannonStandardWeapon,
     HeavyPlasmaCannonSuperchargeWeapon,
     HeavyPsycannonWeapon,
+    HeavyQuadLauncherWeapon,
     HeavyRailCannonWeapon,
     HeavyRailCannonArrayWeapon,
     HeavyRailRifleWeapon,
@@ -11788,6 +14718,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HeavyVenomCannonWeapon,
     HeavyVolkaniteDisintegratorWeapon,
     HeavyWarpflamerWeapon,
+    HeavyWraithcannonWeapon,
     HeirloomPistolWeapon,
     HekatariiBladeWeapon,
     HekatonSiegeClawStrikeWeapon,
@@ -11809,10 +14740,14 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HellforgedWeaponsSweepWeapon,
     HellfyreMissileRackWeapon,
     HellglaiveWeapon,
+    HellhammerCannonWeapon,
     HellmawFlameCannonsWeapon,
     HellstormAutocannonsWeapon,
     HellstormBoltRifleWeapon,
+    HellstrikeMissileWeapon,
     HellstrikeMissileBatteryWeapon,
+    HellstrikeMissileRackWeapon,
+    HellstrikeMissilesWeapon,
     HelspearWeapon,
     HelstalkerAutocannonWeapon,
     HeraldCombatWeaponWeapon,
@@ -11824,18 +14759,32 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     HighIntensityPlasmaRifleWeapon,
     HighOutputBurstCannonWeapon,
     HighYieldMissilePodsWeapon,
+    HolyEvisceratorWeapon,
     HolyFireWeapon,
     HolyPistolWeapon,
     HonourStaveWeapon,
     HormagauntTalonsWeapon,
+    HornetPulseLaserWeapon,
+    HotShotLascarbineWeapon,
+    HotShotLasgunWeapon,
+    HotShotLaspistolWeapon,
+    HotShotLongLasWeapon,
+    HotShotMarksmanRifleWeapon,
+    HotShotVolleyGunWeapon,
     HouseholdPistolWeapon,
+    HugeKnifeWeapon,
     HugeTusksStrikeWeapon,
     HugeTusksSweepWeapon,
     HunterKillerMissileWeapon,
     HuntingJavelinWeapon,
+    HuntingLanceWeapon,
+    HuntingLanceFragTipWeapon,
+    HuntingLanceMeltaTipWeapon,
     HurricaneBolterWeapon,
     HuskbladeWeapon,
     HybridFirearmWeapon,
+    HydraAutocannonWeapon,
+    HydraQuadAutocannonWeapon,
     HydraulicClawWeapon,
     HydraulicVoxRamWeapon,
     HylasAutoRifleWeapon,
@@ -11867,9 +14816,12 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     InfernalGazeWitchfireWeapon,
     InfernoBoltPistolWeapon,
     InfernoBoltgunWeapon,
+    InfernoCannonWeapon,
     InfernoCombiBolterWeapon,
     InfernoCombiWeaponWeapon,
+    InfernoGunWeapon,
     InfernoHeavyBolterWeapon,
+    InfernoLanceWeapon,
     InfernoPistolWeapon,
     InfernusCannonWeapon,
     InfernusFirepikeWeapon,
@@ -11896,9 +14848,11 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     IronClawWeapon,
     IronstormMissilePodWeapon,
     IronstriderFeetWeapon,
+    IsirmathilWeapon,
     JaggedClawsAndTuskedMawWeapon,
     JerichoClassConversionResonatorShockwaveWeapon,
     JerichoClassConversionResonatorTitanicImpactWeapon,
+    JestersBladeWeapon,
     JindariiToxCyclerWeapon,
     JokaeroWeaponsFocusedWeapon,
     JokaeroWeaponsScatteredWeapon,
@@ -11913,6 +14867,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     KastelanPhosphorBlasterWeapon,
     KataphronPlasmaCulverinStandardWeapon,
     KataphronPlasmaCulverinSuperchargeWeapon,
+    KhaVirWeapon,
     KharybdisStormLauncherFragWeapon,
     KharybdisStormLauncherKrakWeapon,
     KheresPatternAssaultCannonWeapon,
@@ -11931,7 +14886,9 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     KnarlocBeakAndTalonsWeapon,
     KnucklebustasWeapon,
     KombiWeaponWeapon,
+    KonstantinsHoovesWeapon,
     KoptaRokkitsWeapon,
+    KriegHeavyFlamerWeapon,
     KromlKsRevengeGravitonStrikesWeapon,
     KromlKsRevengePlasmaSweepsWeapon,
     KrootBoltThrowerWeapon,
@@ -11961,13 +14918,21 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     LakrimaeStrikeWeapon,
     LakrimaeSweepWeapon,
     LampreyBiteWeapon,
+    LanceOfIlluminationStrikeWeapon,
+    LanceOfIlluminationSweepWeapon,
+    LandingRampWeapon,
     LanternWeapon,
+    LarkinsLongLasWeapon,
     LasBeamCutterWeapon,
     LasFusilWeapon,
     LasImpulsorHighIntensityWeapon,
     LasImpulsorLowIntensityWeapon,
     LasTalonWeapon,
+    LasblasterWeapon,
     LascannonWeapon,
+    LascarbineWeapon,
+    LaserDestroyerWeapon,
+    LaserLanceWeapon,
     LasgunWeapon,
     LasgunArrayWeapon,
     LashOfKhorneWeapon,
@@ -11986,12 +14951,14 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     LeadersBioWeaponsWeapon,
     LeapersTalonsWeapon,
     LelithsBladesWeapon,
+    LemanRussBattleCannonWeapon,
     LiberatorAutostubsWeapon,
     LictorClawsAndTalonsWeapon,
     LifeDrainingTouchWeapon,
     LiftaDroppaWeapon,
     LightMissilePodWeapon,
     LightningCannonWeapon,
+    LightningHellstrikeRackWeapon,
     LightningLockWeapon,
     LiquifierGunWeapon,
     LivingWhipWeapon,
@@ -12001,13 +14968,23 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     LondaxiTribalestWeapon,
     LongBarrelledBurstCannonWeapon,
     LongBarrelledBurstCannonArrayWeapon,
+    LongLasWeapon,
+    LongRifleWeapon,
     LongVigilMeleeWeaponWeapon,
     LongVigilRangedWeaponWeapon,
     LongshotPulseRiflesWeapon,
     LoppingShearsWeapon,
     LordsBladeWeapon,
+    LynxPulsarWeapon,
+    MaceOfCastigationWeapon,
+    MaceOfSaintPraxedesWeapon,
+    MaceOfTheRighteousWeapon,
+    MachariusTwinBattleCannonWeapon,
+    MachariusTwinVanquisherCannonWeapon,
+    MachariusVulcanMegaBolterWeapon,
     MacroScalpelWeapon,
     MacrostubberWeapon,
+    MagmaCannonWeapon,
     MagmaCutterWeapon,
     MagmaCuttersWeapon,
     MagnaCoilAutocannonWeapon,
@@ -12018,12 +14995,16 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     MagnarailLanceWeapon,
     MagusStaveWeapon,
     MakarisStabbaWeapon,
+    MalcadorBattleCannonWeapon,
+    MalcadorTwinLascannonWeapon,
     MaleficCurseWeapon,
     MaleficLashWeapon,
     MalleusArgyrumWeapon,
+    MalleusRocketLauncherWeapon,
     ManipulatorArmsWeapon,
     ManreaperStrikeWeapon,
     ManreaperSweepWeapon,
+    MarauderNoseAutocannonsWeapon,
     MarksmanBoltCarbineWeapon,
     MarotterWeapon,
     MassGauntletWeapon,
@@ -12038,6 +15019,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     MasterCraftedPowerSwordWeapon,
     MasterCraftedPowerWeaponWeapon,
     MatrAutocannonWeapon,
+    MaugetarWeapon,
     MaulerChainbladeWeapon,
     MaulerGoadAndRipperClawWeapon,
     MaulerfiendFistsWeapon,
@@ -12045,28 +15027,42 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     MechadendriteHiveWeapon,
     MechanicalBiteWeapon,
     MechanicusPistolWeapon,
+    MedicalScalpelsWeapon,
+    MedusaSiegeCannonWeapon,
     MegaChoppaStrikeWeapon,
     MegaChoppaSweepWeapon,
     MegaTankWeaponsWeapon,
     MekSpeshulWeapon,
     MeltaArrayWeapon,
+    MeltaCannonWeapon,
+    MeltaCarbineWeapon,
+    MeltaCutterDrillWeapon,
+    MeltaMissileArrayWeapon,
     MeltaRifleWeapon,
     MeltaTendrilWeapon,
     MeltagunWeapon,
     MetamorphMutationsStrikeWeapon,
     MetamorphMutationsSweepWeapon,
     MiasmicGoutsWeapon,
+    MilitarumMultiLaserWeapon,
     MindAssaultWeapon,
+    MindWarWeapon,
     MindWrenchWeapon,
     MiningLaserWeapon,
     MinistorumFlamerWeapon,
     MinistorumHandFlamerWeapon,
     MinistorumHeavyFlamerWeapon,
+    MinotaurTwinEarthshakerCannonWeapon,
+    MirrorswordsWeapon,
     MisericordiaWeapon,
     MissileLauncherFragWeapon,
     MissileLauncherKrakWeapon,
+    MissileLauncherStarshotWeapon,
+    MissileLauncherSunburstWeapon,
     MissilePodWeapon,
+    MiststaveWeapon,
     Mk1AssaultWeaponWeapon,
+    MkollsStraightSilverKnifeWeapon,
     MoleGrenadeLauncherWeapon,
     MonomolecularCaneRapierWeapon,
     MonomolecularRapierWeapon,
@@ -12077,8 +15073,11 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     MorksRoarWeapon,
     MorksTeethWeapon,
     MortarWeapon,
+    MortifierFlamerWeapon,
     MultiLaserWeapon,
     MultiMeltaWeapon,
+    MultipleRocketLauncherWeapon,
+    MultipleRocketPodWeapon,
     MutalithClawsWeapon,
     MutationsWeapon,
     MysticStaveWeapon,
@@ -12096,6 +15095,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     NemesisGreatswordSweepWeapon,
     NemesisMaceWeapon,
     NeuralShredderWeapon,
+    NeuralWhipsWeapon,
+    NeuroDisruptorWeapon,
     NeurotyrantClawsAndLashesWeapon,
     NeutronBlasterWeapon,
     NeutronFusilWeapon,
@@ -12106,6 +15107,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     NoseDrillWeapon,
     NostramanChainbladeWeapon,
     NostramanChainglaiveWeapon,
+    NovitiateMeleeWeaponsWeapon,
+    NullMaceWeapon,
     NurglingsClawsAndTeethWeapon,
     OcculusBoltCarbineWeapon,
     OgrynPlagueClawsWeapon,
@@ -12115,18 +15118,30 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     OldOneEyesClawsAndTalonsStrikeWeapon,
     OldOneEyesClawsAndTalonsSweepWeapon,
     OmbiBolterWeapon,
+    OmegaPatternPlasmaBlastgunStandardWeapon,
+    OmegaPatternPlasmaBlastgunSuperchargeWeapon,
     OmnissianAxeWeapon,
     OmnissianPowerAxeWeapon,
     OmnissianStaffWeapon,
     OphydianHyperphaseWeaponsWeapon,
+    OppressorCannonWeapon,
     OssefactorWeapon,
     OverlordsBladeWeapon,
     PainSculptorsWeapon,
     PairedAccursedWeaponsWeapon,
     PairedCombatBladesWeapon,
+    PairedHekatariiBladesWeapon,
     PairedManglersWeapon,
     PairedMonstrousWeaponsWeapon,
+    PalatineBladeWeapon,
     PandaemonicDelusionWeapon,
+    ParagonGrenadeLaunchersWeapon,
+    ParagonMissileLauncherPriorisWeapon,
+    ParagonMissileLauncherSanctorumWeapon,
+    ParagonSabreWeapon,
+    ParagonStormBoltersWeapon,
+    ParagonWarBladeWeapon,
+    ParagonWarMaceWeapon,
     ParticleBeamerWeapon,
     ParticleCasterWeapon,
     ParticleShredderWeapon,
@@ -12134,14 +15149,24 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PatriarchsClawsWeapon,
     PavaneOfSlaaneshFocusedWitchfireWeapon,
     PavaneOfSlaaneshWitchfireWeapon,
+    PaybackWeapon,
+    PenitentBuzzBladeWeapon,
+    PenitentEvisceratorWeapon,
+    PenitentFlailWeapon,
+    PenitentFlamersWeapon,
     PhantasmagoriaFocusedWitchfireWeapon,
     PhantasmagoriaWitchfireWeapon,
+    PhantomFeetWeapon,
+    PhantomPulsarWeapon,
+    PhantomStarcannonWeapon,
     PhaseSwordAndPoisonBladesWeapon,
     PhasedIonGunWeapon,
     PhasedPlasmaFlamerWeapon,
     PhasedPlasmaFusilWeapon,
     PhlegmBombardmentWeapon,
+    PhoenixMissileArrayWeapon,
     PhoenixPowerSpearWeapon,
+    PhoenixPulseLaserWeapon,
     PhosphorBlastCarbineWeapon,
     PhosphorBlasterWeapon,
     PhosphorPistolWeapon,
@@ -12149,6 +15174,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PhosphorTorchWeapon,
     PiercingClawsAndTalonsWeapon,
     PinkClawsWeapon,
+    PintleMountedHeavyStubberWeapon,
     PiranhaBurstCannonWeapon,
     PiranhaFusionBlasterWeapon,
     PlagueBelcherWeapon,
@@ -12175,6 +15201,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PlasmaCannonWeapon,
     PlasmaCannonStandardWeapon,
     PlasmaCannonSuperchargeWeapon,
+    PlasmaCarbineStandardWeapon,
+    PlasmaCarbineSuperchargeWeapon,
     PlasmaDecimatorStandardWeapon,
     PlasmaDecimatorSuperchargeWeapon,
     PlasmaDestroyerStandardWeapon,
@@ -12196,9 +15224,11 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PlasmaTorchWeapon,
     PlasmicLanceWeapon,
     PortalOfExileWeapon,
+    PowerBladeWeapon,
     PowerClawWeapon,
     PowerFistWeapon,
     PowerFistsWeapon,
+    PowerGlaiveWeapon,
     PowerKlawWeapon,
     PowerMaulWeapon,
     PowerSabreWeapon,
@@ -12207,15 +15237,28 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PowerSnappaWeapon,
     PowerStabbaWeapon,
     PowerSwordWeapon,
+    PowerSwordAndManusMortisWeapon,
     PowerSwordAndNeuroGauntletWeapon,
     PowerWeaponWeapon,
+    PowerbladeArrayWeapon,
+    PowerbladesWeapon,
     PowerfulLimbsWeapon,
+    PowerlifterWeapon,
     PoxRiderPlagueswordWeapon,
+    PraetorLauncherFirestormWeapon,
+    PraetorLauncherFoehammerWeapon,
     PredatorAutocannonWeapon,
     PredatorTwinLascannonWeapon,
+    PrefectusHeavyStubberWeapon,
     PrimeClawsAndTalonsWeapon,
     PrimeTalonsWeapon,
     PrincessJawsWeapon,
+    PrismCannonDispersedPulseWeapon,
+    PrismCannonFocusedLancesWeapon,
+    PrismRifleDispersedWeapon,
+    PrismRifleFocusedWeapon,
+    PrismaticCannonDispersedPulseWeapon,
+    PrismaticCannonFocusedLancesWeapon,
     ProsperineKhopeshWeapon,
     ProwBladeWeapon,
     PsilencerWeapon,
@@ -12224,6 +15267,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PsycannonWeapon,
     PsychicBlastWeapon,
     PsychicCleanseWeapon,
+    PsychicMaelstromFocusedWitchfireWeapon,
+    PsychicMaelstromWitchfireWeapon,
     PsychicOverloadWeapon,
     PsychicScreamWeapon,
     PsychicShockWaveWeapon,
@@ -12235,6 +15280,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PsychicTendrilNeuroparasiteWeapon,
     PsychoclasticTorrentWeapon,
     PsykoGatlerWeapon,
+    PsytronomeShaperWeapon,
     PteraxiiTalonsWeapon,
     PulseBlastCannonDispersedWeapon,
     PulseBlastCannonFocusedWeapon,
@@ -12242,10 +15288,13 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PulseCarbineWeapon,
     PulseDisintegratorsWeapon,
     PulseDriverCannonWeapon,
+    PulseLaserWeapon,
     PulseOrdnanceDriverWeapon,
     PulsePistolWeapon,
     PulseRifleWeapon,
     PulseSubmunitionsCannonWeapon,
+    PulveriserCannonWeapon,
+    PunisherGatlingCannonWeapon,
     PurifyingFlameWeapon,
     PutridAppendagesWeapon,
     PutridVomitWeapon,
@@ -12254,6 +15303,9 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     PyrithiteSpearWeapon,
     QuadIonTurretOverchargeWeapon,
     QuadIonTurretStandardWeapon,
+    QuakeCannonWeapon,
+    QuartermastersCloseCombatWeaponWeapon,
+    QuartermastersPistolWeapon,
     QuestorisHeavyStubberWeapon,
     QuestorisMultiLaserWeapon,
     RackOfRokkitsWeapon,
@@ -12263,6 +15315,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     RailRifleWeapon,
     RailgunWeapon,
     RamshackleHullWeapon,
+    RangerLongRifleWeapon,
     RapidFireBattleCannonWeapon,
     RaptureLashWeapon,
     RattlerKannonWeapon,
@@ -12270,6 +15323,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     RavenerClawsAndTalonsWeapon,
     RavenerHeavyClawsAndTalonsWeapon,
     RavenousMawWeapon,
+    RawnesLascarbineWeapon,
     RazorFanWeapon,
     RazorflailWeapon,
     RazorwingFeathersWeapon,
@@ -12288,15 +15342,23 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ReaperChaintalonWeapon,
     ReaperChaintalonStrikeWeapon,
     ReaperChaintalonSweepWeapon,
+    ReaperLauncherStarshotWeapon,
+    ReaperLauncherStarswarmWeapon,
     ReaversBladeWeapon,
     ReductorArrayWeapon,
     ReinforcedRamWeapon,
     RelicGaussBlasterWeapon,
+    RelicWeaponsWeapon,
     RemoraSeekerMissileWeapon,
     RemoteExplosivesWeapon,
     RendingClawWeapon,
     RenegadeFirearmWeapon,
     RepeaterCannonWeapon,
+    RepressorTwinHeavyFlamerWeapon,
+    RevenantFeetWeapon,
+    RevenantPulsarWeapon,
+    RipperGunWeapon,
+    RipperPistolWeapon,
     RippingFangsWeapon,
     RiptideFistsWeapon,
     RiteOfPossessionFocusedWitchfireWeapon,
@@ -12318,20 +15380,26 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     RunestaffAndBarbarisaterWeapon,
     RuntherdToolsWeapon,
     RuptureCannonWeapon,
+    SabreOfSacrificeWeapon,
     SaddlegitWeaponsWeapon,
     SagitaurMissileLauncherWeapon,
     SalvoLauncherWeapon,
     SamniariusAndSpinegrinderStrikeWeapon,
     SamniariusAndSpinegrinderSweepWeapon,
     SanctifierMeleeWeaponWeapon,
+    SanctityWeapon,
     SanctusBioDaggerWeapon,
+    SavageClawsWeapon,
     SavageHornsAndHoovesWeapon,
     SawBladesWeapon,
     SawnOffShotgunWeapon,
     ScaldingRoarWeapon,
+    ScatterLaserWeapon,
     SceptreOfEternalGloryWeapon,
     ScopedNeedlePistolWeapon,
     ScorpionCannonWeapon,
+    ScorpionChainswordWeapon,
+    ScorpionsClawWeapon,
     ScourgingWeapon,
     ScourgingWhipWeapon,
     ScouringEyeWeapon,
@@ -12339,6 +15407,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ScreamerBitesWeapon,
     ScreamerKillerTalonsWeapon,
     ScreamerPistolWeapon,
+    ScribesStaffWeapon,
     ScytheOfTheNightbringerStrikeWeapon,
     ScytheOfTheNightbringerSweepWeapon,
     ScythedLimbsWeapon,
@@ -12346,6 +15415,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ScythingTalonsAndRendingClawsWeapon,
     ScythingWingsWeapon,
     SearingPurityWeapon,
+    SearsongBeamWeapon,
+    SearsongLanceWeapon,
     SeekerMissileWeapon,
     SeekerMissileRackWeapon,
     SeekerTonguesWeapon,
@@ -12354,6 +15425,14 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     SemiAutomaticGrenadeLauncherEmpWeapon,
     SemiAutomaticGrenadeLauncherFusionWeapon,
     SentinelBladeWeapon,
+    SentinelChainsawWeapon,
+    SentryFlamerWeapon,
+    SentryGrenadeLauncherFragWeapon,
+    SentryGrenadeLauncherKrakWeapon,
+    SentryHotShotVolleyGunWeapon,
+    SergeantsAutogunWeapon,
+    SergeantsCloseCombatWeaponWeapon,
+    SergeantsPistolWeapon,
     SerpentineTailWeapon,
     SerratedClawsWeapon,
     ServitorsServoArmWeapon,
@@ -12364,6 +15443,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ServoClawWeapon,
     ServoHarnessWeapon,
     ShadeWeapon,
+    ShadowWeaverWeapon,
     ShaimeshiBladeWeapon,
     ShapersBladeWeapon,
     ShardcarbineWeapon,
@@ -12373,6 +15453,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ShearingClawsStrikeWeapon,
     ShearingClawsSweepWeapon,
     ShieldbreakerMissileLauncherWeapon,
+    ShiningBladeWeapon,
     ShockMaulWeapon,
     ShockcannonWeapon,
     ShokkAttackGunWeapon,
@@ -12381,9 +15462,17 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     ShotgunWeapon,
     ShovellingClawsWeapon,
     ShredderWeapon,
+    ShriekerCannonWeapon,
+    ShurikenCannonWeapon,
+    ShurikenCatapultWeapon,
+    ShurikenPistolWeapon,
+    ShurikenRifleWeapon,
+    SiegeCannonWeapon,
     SiegeClawWeapon,
     SilenceStrikeWeapon,
     SilenceSweepWeapon,
+    SilentDeathWeapon,
+    SingingSpearWeapon,
     SingularityGeneratorWeapon,
     SkatrosTransuranicArquebusWeapon,
     SkorchaWeapon,
@@ -12394,6 +15483,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     SkullsmasherAndManglerWeapon,
     SkyhammerMissileLauncherWeapon,
     SkyspearMissileRackWeapon,
+    SkyweaverHaywireCannonWeapon,
     SlashingClawsWeapon,
     SlaughterAndCarnageStrikeWeapon,
     SlaughterAndCarnageSweepWeapon,
@@ -12407,11 +15497,15 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     SnappingClawsWeapon,
     SnazzgunWeapon,
     SnazzhammerWeapon,
+    SniperRifleWeapon,
     SolarAtomiserWeapon,
     SoleritePowerGauntletWeapon,
     SoleritePowerTalonWeapon,
+    SolitaireWeaponsWeapon,
+    SolsRighteousGazeWeapon,
     SomnusWeapon,
     SonicBlasterWeapon,
+    SonicLanceWeapon,
     SoulRendingFangsWeapon,
     SoulburnerPetardWeapon,
     SouleaterBladeWeapon,
@@ -12421,14 +15515,19 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     SoulshatterLascannonWeapon,
     SpConversionBeamerWeapon,
     SpHeavyConversionBeamerWeapon,
+    SparGlaiveWeapon,
+    SpearOfStarlightWeapon,
+    SpearOfTheFaithfulWeapon,
     SpearOfTheVoidDragonWeapon,
     SpearOfTheVoidDragonStrikeWeapon,
     SpearOfTheVoidDragonSweepWeapon,
+    SpearOfTwilightWeapon,
     SpecialIssueBoltPistolWeapon,
     SpeedingBulkAndFlamingExhaustWeapon,
     SpeshulKommandoShootaWeapon,
     SpiculusBoltLauncherWeapon,
     SpiculusHeavyBoltLauncherWeapon,
+    SpidersFangsWeapon,
     SpikeRifleWeapon,
     SpikedRamWeapon,
     SpikedWheelWeapon,
@@ -12436,6 +15535,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     SpineBanksWeapon,
     SpinefistsWeapon,
     SpinemawsWeapon,
+    SpinneretRifleWeapon,
     SpinninBladesWeapon,
     SpiritLeechTentaclesWeapon,
     SpiritSyphonWeapon,
@@ -12458,29 +15558,50 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     StaffOfTheDestroyerWeapon,
     StaffOfTomorrowWeapon,
     StaffOfTzeentchWeapon,
+    StaffOfUlthamarAndWitchbladeWeapon,
     StalkerBoltRifleWeapon,
     StalkerPatternBoltgunWeapon,
     StalkersForelimbsWeapon,
+    StarBolasWeapon,
+    StarGlaiveWeapon,
+    StarLanceWeapon,
+    StarcannonWeapon,
+    StarfangGrenadeLauncherWeapon,
+    SteedsHoovesWeapon,
+    SteedsSavageClawsWeapon,
     StikkaWeapon,
     StikkaKannonWeapon,
     StingerPistolWeapon,
     StingerPodWeapon,
     StingerSalvoesWeapon,
     StingwingClawsWeapon,
+    StompingFeetWeapon,
     StompyFeetWeapon,
     StormBolterWeapon,
+    StormEagleRocketsWeapon,
     StormLaserWeapon,
+    StormOfWhispersWeapon,
     StormVortexProjectorBeamWeapon,
     StormVortexProjectorBlastWeapon,
+    StormbladePlasmaBlastgunStandardWeapon,
+    StormbladePlasmaBlastgunSuperchargeWeapon,
+    StormhammerCannonWeapon,
     StormspearRocketPodWeapon,
     StormstrikeMissileLauncherWeapon,
+    StormswordSiegeCannonWeapon,
+    StraightSilverKnifeWeapon,
     StranglethornCannonWeapon,
     StranglewebWeapon,
     StreamsOfBrackishFilthWeapon,
+    StubPistolWeapon,
     StubcarbineWeapon,
     StunclawWeapon,
+    StygiesLaserDestroyerWeapon,
     SublimatorWeapon,
+    SuccubusWeaponsWeapon,
     SulphurBreathWeapon,
+    SuncannonWeapon,
+    SunpistolWeapon,
     SupaGatlerWeapon,
     SupaKannonWeapon,
     SupaKannonFragWeapon,
@@ -12492,6 +15613,9 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     SurgeonAcolytesToolsWeapon,
     SwiftstrikeBurstCannonWeapon,
     SwiftstrikeRailgunWeapon,
+    SwirlingSoulEnergyWeapon,
+    SwordOfAsurWeapon,
+    SybariteWeaponWeapon,
     SydonianFeetWeapon,
     SynapticDisintegratorWeapon,
     SynapticObliteratorWeapon,
@@ -12504,16 +15628,25 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TanglebombLauncherWeapon,
     TanglecannonWeapon,
     TankhammerWeapon,
+    TankstopperRifleWeapon,
     TarsisBucklerWeapon,
     TaserGoadWeapon,
     TaserLanceWeapon,
     TauFlamerWeapon,
     TauTechRifleWeapon,
+    TaurosGrenadeLauncherFragWeapon,
+    TaurosGrenadeLauncherKrakWeapon,
+    TauroxBattleCannonWeapon,
+    TauroxGatlingCannonWeapon,
+    TauroxMissileLauncherFragWeapon,
+    TauroxMissileLauncherKrakWeapon,
     TechnoVirusInjectorWeapon,
     TelemonCaestusWeapon,
     TellyportBlastaWeapon,
+    TempestLauncherWeapon,
     TempestWarbladeStrikeWeapon,
     TempestWarbladeSweepWeapon,
+    TempestusDaggerWeapon,
     TentaclidsWeapon,
     TermagantDevourerWeapon,
     TermagantSpinefistsWeapon,
@@ -12529,16 +15662,25 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TeslaSpheresWeapon,
     TesseractSingularityChamberParticleHurricaneWeapon,
     TesseractSingularityChamberSeismicLashWeapon,
+    TheArdentBladeWeapon,
     TheBladeOfShadowsStrikeWeapon,
     TheBladeOfShadowsSweepWeapon,
+    TheEyeOfWrathWeapon,
+    TheOutcastsWeaponsWeapon,
     TheSlayerSwordWeapon,
+    TheSpearOfTwilightWeapon,
+    TheThornOfTheWhiteRoseWeapon,
     TheTitanswordWeapon,
     TheTrickstersStaffWeapon,
+    TheWailingDoomWeapon,
+    TheWailingDoomStrikeWeapon,
+    TheWailingDoomSweepWeapon,
     ThermalCannonWeapon,
     ThermalSpearWeapon,
     TheynsMeleeWeaponWeapon,
     TheynsPistolWeapon,
     ThoraxSpurWeapon,
+    ThroneOfBlameWeapon,
     ThumpGunWeapon,
     ThunderHammerWeapon,
     ThundercoilHarpoonWeapon,
@@ -12554,6 +15696,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TitanicFeetWeapon,
     TitanicForelimbsStrikeWeapon,
     TitanicForelimbsSweepWeapon,
+    TitanicGhostglaiveStrikeWeapon,
+    TitanicGhostglaiveSweepWeapon,
     TitanicScythingTalonsWeapon,
     TombSentinelClawsWeapon,
     TombStalkerClawsWeapon,
@@ -12579,12 +15723,16 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TransonicCannonWeapon,
     TransonicRazorAndChordclawWeapon,
     TransuranicArquebusWeapon,
+    TremorCannonWeapon,
     TremorShellsWeapon,
     TremorglaiveWeapon,
     TremorglaiveReverberatingBeamWeapon,
     TremorglaiveShockWavePulseWeapon,
+    TrenchClubWeapon,
     TriAxisIonCannonStandardWeapon,
     TriAxisIonCannonSuperchargeWeapon,
+    TriskeleWeapon,
+    TroupeMastersBladeWeapon,
     TrygonScythingTalonsWeapon,
     TurboLaserDestructorWeapon,
     TwinAdrathicDestructorWeapon,
@@ -12593,10 +15741,12 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TwinArachnusHeavyBlazeCannonWeapon,
     TwinAssaultCannonWeapon,
     TwinAutocannonWeapon,
+    TwinBattleCannonWeapon,
     TwinBigShootaWeapon,
     TwinBoltCannonWeapon,
     TwinBoltRifleWeapon,
     TwinBoltgunWeapon,
+    TwinBrightLanceWeapon,
     TwinBurstCannonWeapon,
     TwinCognisAutocannonWeapon,
     TwinCognisLascannonWeapon,
@@ -12615,6 +15765,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TwinHazardBurstCannonWeapon,
     TwinHeatLanceWeapon,
     TwinHeavyBolterWeapon,
+    TwinHeavyFlamerWeapon,
     TwinHeavyPlasmaCannonStandardWeapon,
     TwinHeavyPlasmaCannonSuperchargeWeapon,
     TwinHeavyRailCannonWeapon,
@@ -12630,6 +15781,7 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TwinKastelanFistWeapon,
     TwinKastelanPhosphorBlasterWeapon,
     TwinKillsawWeapon,
+    TwinKriegHeavyStubberWeapon,
     TwinKrootGunWeapon,
     TwinKustomMegaBlastaWeapon,
     TwinLasPulsarWeapon,
@@ -12641,18 +15793,29 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TwinMagnaCoilAutocannonWeapon,
     TwinMagnaLascannonWeapon,
     TwinMeltagunWeapon,
+    TwinMinistorumHeavyFlamerWeapon,
+    TwinMissileLauncherStarshotWeapon,
+    TwinMissileLauncherSunburstWeapon,
     TwinMissilePodWeapon,
+    TwinMultiLaserWeapon,
     TwinMultiMeltaWeapon,
     TwinOnagerHeavyPhosphorBlasterWeapon,
+    TwinPenitentBuzzBladesWeapon,
+    TwinPenitentFlailsWeapon,
     TwinPlagueSpewerWeapon,
     TwinPlasmaProjectorWeapon,
     TwinPlasmaRifleWeapon,
     TwinPsycannonWeapon,
     TwinPulseBlasterWeapon,
     TwinPulseCarbineWeapon,
+    TwinPulseLaserWeapon,
     TwinRadCleanserWeapon,
     TwinRitualisticBladesWeapon,
     TwinRokkitLaunchaWeapon,
+    TwinScatterLaserWeapon,
+    TwinScorpionPulsarWeapon,
+    TwinShurikenCannonWeapon,
+    TwinShurikenCatapultWeapon,
     TwinSiegebreakerCannonWeapon,
     TwinSkorchaWeapon,
     TwinSlaughterBladeWeapon,
@@ -12660,13 +15823,16 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     TwinSmartMissileSystemWeapon,
     TwinSplinterCannonWeapon,
     TwinSplinterRifleWeapon,
+    TwinStarcannonWeapon,
     TwinStranglethornCannonWeapon,
     TwinSupaShootaWeapon,
     TwinTauFlamerWeapon,
+    TwinTauroxHotShotVolleyGunWeapon,
     TwinTellyportMegaBlastaWeapon,
     TwinTeslaCarbineWeapon,
     TwinTeslaDestructorWeapon,
     TwinTorturersToolsWeapon,
+    TwinVampirePulsarWeapon,
     TwinVolkiteChargerWeapon,
     TwinWazbomMegaKannonWeapon,
     TyphoonMissileLauncherFragWeapon,
@@ -12683,6 +15849,8 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     UnmakerGauntletWeapon,
     UrGhulTalonsWeapon,
     UrtySyringeWeapon,
+    ValdorNeutronLaserWeapon,
+    VanquisherBattleCannonWeapon,
     VashtorrsClawWeapon,
     VashtorrsHammerStrikeWeapon,
     VashtorrsHammerSweepWeapon,
@@ -12690,30 +15858,48 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     VaultswordsHurricanusWeapon,
     VaultswordsVictusWeapon,
     VenatariLanceWeapon,
+    VendettaHellstrikeRackWeapon,
+    VendettaTwinLascannonWeapon,
     VenomBoltWeapon,
     VenomCannonWeapon,
     VertusHurricaneBolterWeapon,
+    VibroCannonWeapon,
     ViciousBiteWeapon,
     ViciousClawsWeapon,
     VigilSpearWeapon,
+    VigilatorCannonWeapon,
+    VilithZharStrikeWeapon,
+    VilithZharSweepWeapon,
     VindicareCombatKnifeWeapon,
+    VirgeOfAdmonitionWeapon,
     VoidLanceWeapon,
+    VoidSabreWeapon,
     VoidbladeWeapon,
+    VoidbringerWeapon,
     VoidravenMissilesImplosionMissilesWeapon,
     VoidravenMissilesShatterfieldMissilesWeapon,
     VoidscytheWeapon,
     VoidsmanRotorCannonWeapon,
+    VoidstormMissileLauncherWeapon,
+    VoidweaverHaywireCannonWeapon,
+    VolcanoCannonWeapon,
     VolcanoLanceWeapon,
     VolkaniteDisintegratorWeapon,
     VolkiteBlasterWeapon,
+    VolkiteCaliverWeapon,
     VolkiteChierovileWeapon,
     VolkiteCombustorWeapon,
+    VolkiteCulverinWeapon,
     VolkiteVeuglaireWeapon,
     VoltaicPistolWeapon,
     VoltaicStormWeapon,
     VortexOfDoomWeapon,
+    VulcanMegaBolterWeapon,
+    VultureGatlingCannonWeapon,
+    VultureHellstrikeRackWeapon,
     WaaaghBannerWeapon,
     WarDogAutocannonWeapon,
+    WarWalkerFeetWeapon,
     WarforgeGauntletsWeapon,
     WarpBlastFocusedWitchfireWeapon,
     WarpBlastWitchfireWeapon,
@@ -12735,23 +15921,37 @@ export const weaponsDataset: SeedDataset<"weapons"> = {
     WarpstrikeClawSweepWeapon,
     WarpswordWeapon,
     WarscytheWeapon,
+    WaspFeetWeapon,
     WatchersAxeWeapon,
+    WaystaveWeapon,
     WeaponsOfTheFinalTriarchWeapon,
+    WeaponsTeamCloseCombatWeaponsWeapon,
+    WeaverenderWeapon,
     WebberWeapon,
     WeirdboyStaffWeapon,
     WhipCoilsWeapon,
     WingMissilesWeapon,
+    WitchStaffWeapon,
+    WitchbladeWeapon,
     WitchseekerFlamerWeapon,
     WitstealerSwordWeapon,
+    WraithGlaiveStrikeWeapon,
+    WraithGlaiveSweepWeapon,
+    WraithboneFistsWeapon,
+    WraithboneHullWeapon,
+    WraithcannonWeapon,
+    WraithseerDCannonWeapon,
     WreckinBallWeapon,
     WrenchWeapon,
     WurrtowerWeapon,
+    WyvernQuadStormshardMortarWeapon,
     XenophaseBladeWeapon,
     XvPulsePistolWeapon,
     XyclosNeedlerWeapon,
     YawningMawWeapon,
     YellowClawsWeapon,
     ZealotsVindictorWeapon,
+    ZephyrglaiveWeapon,
     ZzapGunWeapon,
   ] satisfies WeaponConfig[],
 };
