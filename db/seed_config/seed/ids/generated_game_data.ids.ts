@@ -1,146 +1,410 @@
 type DetachmentSeedSlug =
+  | "1st_company_task_force_detachment"
+  | "alien_hunters_ordo_xenos_detachment"
   | "angelic_inheritors_detachment"
+  | "annihilation_legion_detachment"
+  | "anvil_siege_force_detachment"
+  | "armoured_infantry_detachment"
+  | "armoured_speartip_detachment"
+  | "armoured_warhost_detachment"
+  | "army_of_faith_detachment"
   | "aspect_host_detachment"
   | "assimilation_swarm_detachment"
+  | "augurium_task_force_detachment"
   | "auric_champions_detachment"
+  | "auxiliary_cadre_detachment"
+  | "awakened_dynasty_detachment"
+  | "banishers_detachment"
   | "bastion_task_force_detachment"
+  | "berzerker_warband_detachment"
+  | "biosanctic_broodsurge_detachment"
   | "black_spear_task_force_detachment"
+  | "blade_of_ultramar_detachment"
+  | "blitz_brigade_detachment"
+  | "blood_legion_detachment"
+  | "brandfast_oathband_detachment"
+  | "bridgehead_strike_detachment"
+  | "bringers_of_flame_detachment"
   | "brood_brother_auxilia_detachment"
+  | "brotherhood_strike_detachment"
+  | "bully_boyz_detachment"
+  | "cabal_of_chaos_detachment"
   | "canoptek_court_detachment"
   | "carnival_of_excess_detachment"
   | "ceramite_sentinels_detachment"
+  | "champions_of_contagion_detachment"
   | "champions_of_faith_detachment"
   | "champions_of_fenris_detachment"
+  | "changehost_of_deceit_detachment"
   | "chaos_cult_detachment"
+  | "cohort_cybernetica_detachment"
+  | "combined_arms_detachment"
+  | "companions_of_vehemence_detachment"
+  | "company_of_hunters_detachment"
+  | "corsair_coterie_detachment"
   | "coterie_of_the_conceited_detachment"
+  | "court_of_the_phoenician_detachment"
+  | "covenite_coterie_detachment"
   | "creations_of_bile_detachment"
+  | "crusher_stampede_detachment"
   | "cryptek_conclave_detachment"
   | "cult_of_blood_detachment"
+  | "cult_of_the_arkifane_detachment"
+  | "cursed_legion_detachment"
+  | "da_big_hunt_detachment"
+  | "daemon_hunters_ordo_malleus_detachment"
   | "daemonic_incursion_detachment"
+  | "dalve_assault_shift_detachment"
+  | "data_psalm_conclave_detachment"
+  | "death_lords_chosen_detachment"
   | "deceptors_detachment"
-  | "dread_carnival_detachment"
+  | "devoted_of_ynnead_detachment"
   | "dread_mob_detachment"
+  | "dread_talons_detachment"
+  | "eldritch_raiders_detachment"
+  | "emperors_shield_detachment"
+  | "eradication_cohort_detachment"
+  | "experimental_prototype_cadre_detachment"
+  | "explorator_maniple_detachment"
+  | "fellhammer_siege_host_detachment"
   | "final_day_detachment"
+  | "firestorm_assault_force_detachment"
+  | "flyblown_host_detachment"
+  | "forgefathers_seekers_detachment"
+  | "freeblade_company_detachment"
   | "freebooter_krew_detachment"
   | "gate_warden_lance_detachment"
+  | "ghosts_of_the_webway_detachment"
   | "gladius_task_force_detachment"
   | "godhammer_assault_force_detachment"
+  | "goretrack_onslaught_detachment"
   | "grand_coven_detachment"
+  | "green_tide_detachment"
+  | "grizzled_company_detachment"
+  | "guardian_battlehost_detachment"
+  | "hallowed_conclave_detachment"
   | "hallowed_martyrs_detachment"
   | "haloscreed_battle_clade_detachment"
-  | "harbinger_cabal_detachment"
+  | "hammer_of_avernii_detachment"
+  | "hammer_of_the_emperor_detachment"
+  | "headhunter_task_force_detachment"
+  | "hearthband_detachment"
   | "hearthfyre_arsenal_detachment"
+  | "helhunt_lance_detachment"
   | "hexwarp_thrallband_detachment"
+  | "host_of_ascension_detachment"
+  | "houndpack_lance_detachment"
   | "hurons_marauders_detachment"
   | "hypercrypt_legion_detachment"
+  | "iconoclast_fiefdom_detachment"
   | "imperialis_fleet_detachment"
   | "infernal_lance_detachment"
+  | "inner_circle_task_force_detachment"
   | "invasion_fleet_detachment"
+  | "ironstorm_spearhead_detachment"
   | "kabalite_cartel_detachment"
   | "kauyon_detachment"
-  | "khaines_arrow_detachment"
   | "khorne_daemonkin_detachment"
+  | "kroot_hunting_pack_detachment"
+  | "kult_of_speed_detachment"
+  | "legion_of_excess_detachment"
   | "liberator_assault_group_detachment"
+  | "librarius_conclave_detachment"
+  | "lions_blade_task_force_detachment"
+  | "lions_of_the_emperor_detachment"
   | "lords_of_dread_detachment"
+  | "mechanised_assault_detachment"
+  | "mercenary_oathband_detachment"
+  | "mercurial_host_detachment"
   | "montka_detachment"
+  | "more_dakka_detachment"
+  | "mortarions_hammer_detachment"
+  | "needgard_oathband_detachment"
+  | "nightmare_hunt_detachment"
+  | "null_maiden_vigil_detachment"
+  | "obeisance_phalanx_detachment"
+  | "orbital_assault_force_detachment"
+  | "outlander_claw_detachment"
+  | "pactbound_zealots_detachment"
   | "pantheon_of_woe_detachment"
   | "peerless_bladesmen_detachment"
   | "penitent_host_detachment"
   | "persecution_prospect_detachment"
   | "plague_legion_detachment"
   | "possessed_slaughterband_detachment"
+  | "purgation_force_ordo_hereticus_detachment"
+  | "questor_forgepact_detachment"
+  | "questoris_companions_detachment"
   | "rad_zone_corps_detachment"
+  | "rage_cursed_onslaught_detachment"
+  | "rapid_evisceration_detachment"
+  | "realspace_raiders_detachment"
+  | "reapers_wager_detachment"
+  | "reclamation_force_detachment"
+  | "recon_element_detachment"
+  | "renegade_raiders_detachment"
   | "renegade_warband_detachment"
+  | "retaliation_cadre_detachment"
   | "rubricae_phalanx_detachment"
+  | "saga_of_the_beastslayer_detachment"
   | "saga_of_the_bold_detachment"
   | "saga_of_the_great_wolf_detachment"
+  | "saga_of_the_hunter_detachment"
+  | "sanctic_spearhead_detachment"
   | "scintillating_legion_detachment"
   | "seer_council_detachment"
+  | "serpents_brood_detachment"
+  | "shadow_legion_detachment"
+  | "shadowmark_talon_detachment"
+  | "shamblerot_vectorium_detachment"
+  | "shield_host_detachment"
+  | "siege_regiment_detachment"
+  | "skitarii_hunter_cohort_detachment"
+  | "skysplinter_assault_detachment"
   | "slaaneshs_chosen_detachment"
+  | "solar_spearhead_detachment"
+  | "soulforged_warpack_detachment"
+  | "spearhead_at_arms_detachment"
+  | "spearpoint_task_force_detachment"
   | "spectacle_of_spite_detachment"
+  | "speedwaaagh_detachment"
+  | "spirit_conclave_detachment"
+  | "starshatter_arsenal_detachment"
+  | "steel_hammer_detachment"
   | "stormlance_task_force_detachment"
   | "subterranean_assault_detachment"
   | "synaptic_nexus_detachment"
   | "taktikal_brigade_detachment"
+  | "tallyband_summoners_detachment"
   | "talons_of_the_emperor_detachment"
+  | "the_angelic_host_detachment"
+  | "the_lost_brethren_detachment"
+  | "traitoris_lance_detachment"
   | "unending_swarm_detachment"
+  | "unforgiven_task_force_detachment"
+  | "valourstrike_lance_detachment"
   | "vanguard_onslaught_detachment"
+  | "vanguard_spearhead_detachment"
+  | "veiled_blade_elimination_force_detachment"
   | "vessels_of_wrath_detachment"
   | "veterans_of_the_long_war_detachment"
+  | "vindication_task_force_detachment"
+  | "virulent_vectorium_detachment"
+  | "war_horde_detachment"
+  | "warhost_detachment"
   | "warpbane_task_force_detachment"
-  | "wrathful_procession_detachment";
+  | "warpforged_cabal_detachment"
+  | "warpmeld_pact_detachment"
+  | "warpstrike_champions_detachment"
+  | "warrior_bioform_onslaught_detachment"
+  | "windrider_host_detachment"
+  | "wrath_of_the_rock_detachment"
+  | "wrathful_procession_detachment"
+  | "xenocreed_congregation_detachment";
 
 const detachmentSeedIds: Record<DetachmentSeedSlug, string> = {
-  angelic_inheritors_detachment: "01KZTM999G1ZMBC1D01D4J81E4",
-  aspect_host_detachment: "01KTX42S54N3XREAR5QGKY1T2F",
-  assimilation_swarm_detachment: "01KZ6HE0V1N3N1CHN9J1G0X2C3",
-  auric_champions_detachment: "01KN90MG6G0ENWR3TW01G4GN1Y",
-  bastion_task_force_detachment: "01KNP30ETN0MXH7T67ZBEKQP8W",
-  black_spear_task_force_detachment: "01KQSKKCQMEKH6R5J0BV3496ZE",
-  brood_brother_auxilia_detachment: "01K71F1B67KYQB493VHYDE5P67",
-  canoptek_court_detachment: "01KSQ2Y6DQVRCPHRS01Y328F9Y",
-  carnival_of_excess_detachment: "01KZH1SETNC1VEXMAVX9C4EQDF",
-  ceramite_sentinels_detachment: "01KWEQDAV29P7S49GFQV9TPSC3",
-  champions_of_faith_detachment: "01KB8NT4WNAZ0BC2AWM6MYPKSX",
-  champions_of_fenris_detachment: "01KT3W52FGND8D9JCQS1A37R9J",
-  chaos_cult_detachment: "01K6EVAEVJ251CT2W2J66RNMDK",
-  coterie_of_the_conceited_detachment: "01KT4DKTZ68QYBSPBB39WRKVJV",
-  creations_of_bile_detachment: "01K4ZWK1ESR2ZBQ8B6JV7PQK02",
-  cryptek_conclave_detachment: "01K5NCXME5BEPC6NFR9E95W82T",
-  cult_of_blood_detachment: "01K3DGSHZGNNF6FEKCNAWDWWHB",
-  daemonic_incursion_detachment: "01KTNQ93NEHXSGC76KNYD6WYC1",
-  deceptors_detachment: "01K60FZSJ5NKBHP84NZY6QY1J3",
-  dread_carnival_detachment: "01K5XXH64DSM10AZFMRYCCT174",
-  dread_mob_detachment: "01KSCQHK0EKYVQ640NQ9CJPQ0A",
-  final_day_detachment: "01KND2YJMBBWXFJGWPRCHH6PZQ",
-  freebooter_krew_detachment: "01K165YA2GSSFA3MR42E6Y8THN",
-  gate_warden_lance_detachment: "01KZ51NK7XSRKRMYBJ6TT2FHW4",
-  gladius_task_force_detachment: "01KHYJ1D0WW348FP4A1DKRHRAG",
-  godhammer_assault_force_detachment: "01K1TGV80CPE1YFZ78K4D6P0WX",
-  grand_coven_detachment: "01KCEVFEM4HK73FDX7DAB50ASX",
-  hallowed_martyrs_detachment: "01KDSRP2NWMYR6DCJR786D9MZ3",
-  haloscreed_battle_clade_detachment: "01KRFKQ4FQWCY300WV663AKJ0S",
-  harbinger_cabal_detachment: "01K2JQYBZ1FXHAKCJEQ7VHMYC1",
-  hearthfyre_arsenal_detachment: "01KA7MKNP5BTD2J4KNNXK000MV",
-  hexwarp_thrallband_detachment: "01K9CP12DX2B3H6GT39MX94RAD",
-  hurons_marauders_detachment: "01KNQ31ATDRJVG9W3V6YMBVD9Y",
-  hypercrypt_legion_detachment: "01K9V8V9S3VPZ3VN5YV87JM4QP",
-  imperialis_fleet_detachment: "01KJE71PN5PKPGWQ7T1RR57ESJ",
-  infernal_lance_detachment: "01KRSVT9SPD06STWW6P5WAX7NE",
-  invasion_fleet_detachment: "01KJZF9R95P98HSDZWTK50HX2E",
-  kabalite_cartel_detachment: "01KDWA1TN9QXKD3H7GPD09QKF5",
-  kauyon_detachment: "01KV0H1H9ZBSRWRZ38FP8K6PKP",
-  khaines_arrow_detachment: "01KKBV3FZ06YH5W2JQ0ZXX8Z54",
-  khorne_daemonkin_detachment: "01KPKQGT7E9GPDVT69XCDGYFMG",
-  liberator_assault_group_detachment: "01KA107MH173B8AA30T50B2RJX",
-  lords_of_dread_detachment: "01K6HW7YGH3E545XW2R4EKWZX6",
-  montka_detachment: "01KGDSN96JGG4SA77MP9M24WXQ",
-  pantheon_of_woe_detachment: "01K4ZVFHWBR2121X3H62EDW86D",
-  peerless_bladesmen_detachment: "01KAHXQWFCMZD2REKD18GSPCNC",
-  penitent_host_detachment: "01KBWYYNV3JB4P0CZ64N30H2E4",
-  persecution_prospect_detachment: "01KE5YQ34T9B8QKP4Z2G5A4RVP",
-  plague_legion_detachment: "01KDXB4TB398668GD93ZJ8M0BX",
-  possessed_slaughterband_detachment: "01KYRC0GM3AKPKHPTNZW23PM1V",
-  rad_zone_corps_detachment: "01KVX804DEZMXDCBWQF104KV9S",
-  renegade_warband_detachment: "01KY3BEYFTMJTY3XQ62FJP0RC7",
-  rubricae_phalanx_detachment: "01KBT8EXWKY7NTNSZSHZ2NKWG5",
-  saga_of_the_bold_detachment: "01K8Z5JX3G8KNDT7S7E6DA1GAW",
-  saga_of_the_great_wolf_detachment: "01K16TKZTHSK6RH56KZDPJMCHF",
-  scintillating_legion_detachment: "01KVWQEWANC0NJA3B9SZPTHPTD",
-  seer_council_detachment: "01KR9QTREE5G4D9GVAQ2PD1B39",
-  slaaneshs_chosen_detachment: "01KMH9F10YRZR9XVD2JMYK52D1",
-  spectacle_of_spite_detachment: "01K9NDM43MPW1MPHBWZD1K1CAB",
-  stormlance_task_force_detachment: "01K5HTXDH41XXBNDW1SDJ6X6RY",
-  subterranean_assault_detachment: "01KMRJDSDWD3P3JF9THN7XNJCH",
-  synaptic_nexus_detachment: "01KQV3GTXG7WFH62WKGB44NV1G",
-  taktikal_brigade_detachment: "01KEVE1XJV47WHRP9215WNRYCQ",
-  talons_of_the_emperor_detachment: "01K8P55EC051CYH4148ME49AY2",
-  unending_swarm_detachment: "01KXXRT3T6CJ0JBT6PJPQTS1SM",
-  vanguard_onslaught_detachment: "01KG6WP93B6PHFKN4CF0PAP30Y",
-  vessels_of_wrath_detachment: "01KGFD3V187H20XSE9MWMK5G7Q",
-  veterans_of_the_long_war_detachment: "01KQC1DFXCX741T35MC6GPVRY4",
-  warpbane_task_force_detachment: "01KVEEK7NNVKERP1CNZM91X36S",
-  wrathful_procession_detachment: "01K9S2997K7CEDY01DBEX46KTC",
+  "1st_company_task_force_detachment": "01K2479DF3RSBP3E8488P4V9V1",
+  "alien_hunters_ordo_xenos_detachment": "01KZBFQ1Z8CGEYD5R6H9AG4Y5P",
+  "angelic_inheritors_detachment": "01KZTM999G1ZMBC1D01D4J81E4",
+  "annihilation_legion_detachment": "01KV9CGD486M2Z4442E6JBY8RJ",
+  "anvil_siege_force_detachment": "01KS6FVKB6R258B9QK70F45W8G",
+  "armoured_infantry_detachment": "01KVCC810ESQFTWPXCR78CN46T",
+  "armoured_speartip_detachment": "01K2XRQ99Q1ENR6NF2RGT5H3M1",
+  "armoured_warhost_detachment": "01K080ET2V4TA7FTFA6BPGHPKX",
+  "army_of_faith_detachment": "01K53AT2HA9HM86CP03XGJ16DK",
+  "aspect_host_detachment": "01KTX42S54N3XREAR5QGKY1T2F",
+  "assimilation_swarm_detachment": "01KZ6HE0V1N3N1CHN9J1G0X2C3",
+  "augurium_task_force_detachment": "01K673A7EP70N7A59P9PHGT7N5",
+  "auric_champions_detachment": "01KN90MG6G0ENWR3TW01G4GN1Y",
+  "auxiliary_cadre_detachment": "01KVM2TRHW9RBV5N3DEVT06Y7H",
+  "awakened_dynasty_detachment": "01K7A72H9NFDBQ6H250YPXGA74",
+  "banishers_detachment": "01KRKZFDV86W407FSJ7VE0R2FA",
+  "bastion_task_force_detachment": "01KNP30ETN0MXH7T67ZBEKQP8W",
+  "berzerker_warband_detachment": "01KTZ51Y1SBGSHE5ZKBPTNCWP1",
+  "biosanctic_broodsurge_detachment": "01KD03CH2XXAAEA75BDKHSF7YM",
+  "black_spear_task_force_detachment": "01KQSKKCQMEKH6R5J0BV3496ZE",
+  "blade_of_ultramar_detachment": "01KK9RT4JP8MRGVSWVEZC7S7BV",
+  "blitz_brigade_detachment": "01KTMMDEKF8YRGBEYZTSM4K5MP",
+  "blood_legion_detachment": "01K7PWTNE2Z38H8ZDAVCC1TN64",
+  "brandfast_oathband_detachment": "01K8FD3RHT5EQBBKSNPYTS18QK",
+  "bridgehead_strike_detachment": "01K1T254VCBS0K91444Q9F66BK",
+  "bringers_of_flame_detachment": "01KEY7TC66X9WZZ98XJEB9GWTK",
+  "brood_brother_auxilia_detachment": "01K71F1B67KYQB493VHYDE5P67",
+  "brotherhood_strike_detachment": "01KFRYDR1T0FPEVSM3Y1345VBN",
+  "bully_boyz_detachment": "01KAW1HX6P1VBZRRRWJW7W9KF5",
+  "cabal_of_chaos_detachment": "01K8WBCE1QM7W6PQZHZH6CVKTJ",
+  "canoptek_court_detachment": "01KSQ2Y6DQVRCPHRS01Y328F9Y",
+  "carnival_of_excess_detachment": "01KZH1SETNC1VEXMAVX9C4EQDF",
+  "ceramite_sentinels_detachment": "01KWEQDAV29P7S49GFQV9TPSC3",
+  "champions_of_contagion_detachment": "01K6B70GP0FP95X6H70VVMJ8XQ",
+  "champions_of_faith_detachment": "01KB8NT4WNAZ0BC2AWM6MYPKSX",
+  "champions_of_fenris_detachment": "01KT3W52FGND8D9JCQS1A37R9J",
+  "changehost_of_deceit_detachment": "01KQFAGEA5KN9T329F8Z8R4124",
+  "chaos_cult_detachment": "01K6EVAEVJ251CT2W2J66RNMDK",
+  "cohort_cybernetica_detachment": "01KNWYND0T4EM6YZ4Y68FDSWRD",
+  "combined_arms_detachment": "01KVC5P24VWKTKNKNRWB208KXZ",
+  "companions_of_vehemence_detachment": "01KH5M3GE4GG0N7CQQZ1E9HD3N",
+  "company_of_hunters_detachment": "01KWD0X30HKXXH3CMKP3Z2YE29",
+  "corsair_coterie_detachment": "01KH9GN09GBG6K867RB4CEBTBT",
+  "coterie_of_the_conceited_detachment": "01KT4DKTZ68QYBSPBB39WRKVJV",
+  "court_of_the_phoenician_detachment": "01KJF4EYNTTH5DMG1YEM9VFCXP",
+  "covenite_coterie_detachment": "01KE52AAT75JZV5725CGE864F8",
+  "creations_of_bile_detachment": "01K4ZWK1ESR2ZBQ8B6JV7PQK02",
+  "crusher_stampede_detachment": "01KKN6H40Q6ZTBKFG3FZ1SP5VT",
+  "cryptek_conclave_detachment": "01K5NCXME5BEPC6NFR9E95W82T",
+  "cult_of_blood_detachment": "01K3DGSHZGNNF6FEKCNAWDWWHB",
+  "cult_of_the_arkifane_detachment": "01KQHK063W5G9M5KBKX42GVNZ0",
+  "cursed_legion_detachment": "01KXHH69DQZ9V6QQMC687B2KD0",
+  "da_big_hunt_detachment": "01K26BBCV3KJKA0KN3K6VM6N1H",
+  "daemon_hunters_ordo_malleus_detachment": "01K670YFXPAEZQKKZA4B34ZS2F",
+  "daemonic_incursion_detachment": "01KTNQ93NEHXSGC76KNYD6WYC1",
+  "dalve_assault_shift_detachment": "01K8FAD6WAGJ9T4W3F5JJKHHGQ",
+  "data_psalm_conclave_detachment": "01K5Z2C7QDGWVBYSFP3JKDRAHK",
+  "death_lords_chosen_detachment": "01KR7EVN7G95C15J2KWDGY1M5V",
+  "deceptors_detachment": "01K60FZSJ5NKBHP84NZY6QY1J3",
+  "devoted_of_ynnead_detachment": "01KR5MAQ71TPP7HW3D2FK7NCFN",
+  "dread_mob_detachment": "01KSCQHK0EKYVQ640NQ9CJPQ0A",
+  "dread_talons_detachment": "01KXWQ556M76XNVS3TM3CZEJYQ",
+  "eldritch_raiders_detachment": "01KDJQTF72DYFPYT1CXAWRFYX6",
+  "emperors_shield_detachment": "01K26BHAP2CKYWARCVCGTGNV6W",
+  "eradication_cohort_detachment": "01K0QREZTXTHRGG6S5CY1H8M5C",
+  "experimental_prototype_cadre_detachment": "01KQE46PSTA1M45YEPVN109B2D",
+  "explorator_maniple_detachment": "01KEXK3FRWNSEMS3KZ548HR4DS",
+  "fellhammer_siege_host_detachment": "01KEKG107WX74F4E0R7WF7MSH7",
+  "final_day_detachment": "01KND2YJMBBWXFJGWPRCHH6PZQ",
+  "firestorm_assault_force_detachment": "01K3CKDEJQ33AMXQ6BFBPY0S5S",
+  "flyblown_host_detachment": "01KE1970W9MJGZBFEPTV8FX1B0",
+  "forgefathers_seekers_detachment": "01KRKWZJS32D3CWYH3NVNE6KD7",
+  "freeblade_company_detachment": "01K3XCZ848DR559J1C4WAWFQ7T",
+  "freebooter_krew_detachment": "01K165YA2GSSFA3MR42E6Y8THN",
+  "gate_warden_lance_detachment": "01KZ51NK7XSRKRMYBJ6TT2FHW4",
+  "ghosts_of_the_webway_detachment": "01K99HFW9KFXFADB62BWV45F5S",
+  "gladius_task_force_detachment": "01KHYJ1D0WW348FP4A1DKRHRAG",
+  "godhammer_assault_force_detachment": "01K1TGV80CPE1YFZ78K4D6P0WX",
+  "goretrack_onslaught_detachment": "01K3KY8A0YVR4Y0EMRGYAK4SBW",
+  "grand_coven_detachment": "01KCEVFEM4HK73FDX7DAB50ASX",
+  "green_tide_detachment": "01KXDEQ467Y7T0H0S8T6347VC6",
+  "grizzled_company_detachment": "01K0A7NDZVXW0TYJBYQB0YGXT2",
+  "guardian_battlehost_detachment": "01KG4487XN6NPTXVDJPJB6HSX9",
+  "hallowed_conclave_detachment": "01KQTRH5T08934RWAKK8XWESRW",
+  "hallowed_martyrs_detachment": "01KDSRP2NWMYR6DCJR786D9MZ3",
+  "haloscreed_battle_clade_detachment": "01KRFKQ4FQWCY300WV663AKJ0S",
+  "hammer_of_avernii_detachment": "01K9SS37FVXNC9C4TPP4A1740A",
+  "hammer_of_the_emperor_detachment": "01KXSTYVFXQK4NTZ6BXH573Y7V",
+  "headhunter_task_force_detachment": "01KMJ09J3WGXJ50WPVYNJD2F74",
+  "hearthband_detachment": "01K3SEC766CYFYJ4PHRD9BVX08",
+  "hearthfyre_arsenal_detachment": "01KA7MKNP5BTD2J4KNNXK000MV",
+  "helhunt_lance_detachment": "01KDFRA6F2V3PBPJ4VNVKJQ1QE",
+  "hexwarp_thrallband_detachment": "01K9CP12DX2B3H6GT39MX94RAD",
+  "host_of_ascension_detachment": "01K7HMF64JT74RRMYNKTHPAHVV",
+  "houndpack_lance_detachment": "01KFQ3GW34GT9WN04Z33T598A7",
+  "hurons_marauders_detachment": "01KNQ31ATDRJVG9W3V6YMBVD9Y",
+  "hypercrypt_legion_detachment": "01K9V8V9S3VPZ3VN5YV87JM4QP",
+  "iconoclast_fiefdom_detachment": "01K9CH3N6MAHXW0KTS63F68JYX",
+  "imperialis_fleet_detachment": "01KJE71PN5PKPGWQ7T1RR57ESJ",
+  "infernal_lance_detachment": "01KRSVT9SPD06STWW6P5WAX7NE",
+  "inner_circle_task_force_detachment": "01KPZCB4RQZY3EA3GZT64FR6H4",
+  "invasion_fleet_detachment": "01KJZF9R95P98HSDZWTK50HX2E",
+  "ironstorm_spearhead_detachment": "01KJ1YVE2TNQDCVWE5RSP2SDCB",
+  "kabalite_cartel_detachment": "01KDWA1TN9QXKD3H7GPD09QKF5",
+  "kauyon_detachment": "01KV0H1H9ZBSRWRZ38FP8K6PKP",
+  "khorne_daemonkin_detachment": "01KPKQGT7E9GPDVT69XCDGYFMG",
+  "kroot_hunting_pack_detachment": "01KA8DTZS3JW3QFGHCY9P2B1R7",
+  "kult_of_speed_detachment": "01KX4DQ000SY35D3JVGXMJ4JK9",
+  "legion_of_excess_detachment": "01K39PTD823CRPSNAP2MMCXFMP",
+  "liberator_assault_group_detachment": "01KA107MH173B8AA30T50B2RJX",
+  "librarius_conclave_detachment": "01K3PRQJHME6JW0568HH7YAXCB",
+  "lions_blade_task_force_detachment": "01KYXNGT2P4YVTH5V3KP47J6YX",
+  "lions_of_the_emperor_detachment": "01KR7Q3NV6WAXEPE5WARZJM6ZS",
+  "lords_of_dread_detachment": "01K6HW7YGH3E545XW2R4EKWZX6",
+  "mechanised_assault_detachment": "01K7EB84CNBDH6857M9CA9E3N4",
+  "mercenary_oathband_detachment": "01KWNW487WVS6QTAGT2MP59W2T",
+  "mercurial_host_detachment": "01KVYP3QW6M46CKTXD5BAG3Y9F",
+  "montka_detachment": "01KGDSN96JGG4SA77MP9M24WXQ",
+  "more_dakka_detachment": "01KMMAX5590E602GN6HN64P8EB",
+  "mortarions_hammer_detachment": "01KPYDJFQC81303NVN0831WBN8",
+  "needgard_oathband_detachment": "01KK20Y61MEFYP5M94EB20E3Q1",
+  "nightmare_hunt_detachment": "01K4ET4BKGZV1EF91564B2D77M",
+  "null_maiden_vigil_detachment": "01KY8J7TH12HZ6HDQBFGN9W5GX",
+  "obeisance_phalanx_detachment": "01KDNKXSRPB5FDZBYC21FGF4H5",
+  "orbital_assault_force_detachment": "01KGZYDYX0E74G3KTY6X7Y1AF6",
+  "outlander_claw_detachment": "01KRXPTS4VQWF24561Z209WW1C",
+  "pactbound_zealots_detachment": "01KW9HYXDKZ9AVMRASSMF14VPX",
+  "pantheon_of_woe_detachment": "01K4ZVFHWBR2121X3H62EDW86D",
+  "peerless_bladesmen_detachment": "01KAHXQWFCMZD2REKD18GSPCNC",
+  "penitent_host_detachment": "01KBWYYNV3JB4P0CZ64N30H2E4",
+  "persecution_prospect_detachment": "01KE5YQ34T9B8QKP4Z2G5A4RVP",
+  "plague_legion_detachment": "01KDXB4TB398668GD93ZJ8M0BX",
+  "possessed_slaughterband_detachment": "01KYRC0GM3AKPKHPTNZW23PM1V",
+  "purgation_force_ordo_hereticus_detachment": "01K3N2602Z6ST731R6RDWKTCAX",
+  "questor_forgepact_detachment": "01KHHR63ZXPCFAS3DXW114NF3Q",
+  "questoris_companions_detachment": "01KS8PDHQQNCQS7GPE0K5Z0Y22",
+  "rad_zone_corps_detachment": "01KVX804DEZMXDCBWQF104KV9S",
+  "rage_cursed_onslaught_detachment": "01KB8261AKVE77F1TJZ5FVX4A0",
+  "rapid_evisceration_detachment": "01K37FJHKZY5A6VN1W8GJEK72R",
+  "realspace_raiders_detachment": "01K51BN1CQTNA8S9K8T1GJ28HG",
+  "reapers_wager_detachment": "01KHRY4AWWKC80NQBQZT8K8Q0C",
+  "reclamation_force_detachment": "01K6K6S5KVB2D6RS27Q626ZSSV",
+  "recon_element_detachment": "01KENPSE0S199W2D0RA8FPA7E9",
+  "renegade_raiders_detachment": "01K1CTGXNGJ7NT8HZMAT5SFABD",
+  "renegade_warband_detachment": "01KY3BEYFTMJTY3XQ62FJP0RC7",
+  "retaliation_cadre_detachment": "01KX6APQ7F614NC85PPF39RXPH",
+  "rubricae_phalanx_detachment": "01KBT8EXWKY7NTNSZSHZ2NKWG5",
+  "saga_of_the_beastslayer_detachment": "01K35FBM1DW5Z0VEQ7BCJ3RG3F",
+  "saga_of_the_bold_detachment": "01K8Z5JX3G8KNDT7S7E6DA1GAW",
+  "saga_of_the_great_wolf_detachment": "01K16TKZTHSK6RH56KZDPJMCHF",
+  "saga_of_the_hunter_detachment": "01KGDQNXQQHJXFH6MKF6X6T2DB",
+  "sanctic_spearhead_detachment": "01K318VHFSQ64W9PDH578XJDEG",
+  "scintillating_legion_detachment": "01KVWQEWANC0NJA3B9SZPTHPTD",
+  "seer_council_detachment": "01KR9QTREE5G4D9GVAQ2PD1B39",
+  "serpents_brood_detachment": "01KT9QTJH363Q5CBHA870FCMZ6",
+  "shadow_legion_detachment": "01K731DYXMGHSD5KSDZD9VV89S",
+  "shadowmark_talon_detachment": "01KK8G6WW8CXRRGT5F0X6WZPY2",
+  "shamblerot_vectorium_detachment": "01KVCFM283SD1CXKQFXJGGV3ES",
+  "shield_host_detachment": "01KF0D72Q65KVZZ56NK8GN0QQV",
+  "siege_regiment_detachment": "01KYT0ZMMRN0A9PF5VFFD7586B",
+  "skitarii_hunter_cohort_detachment": "01K42J0Z0GMGJCFMY4XD5KMXGW",
+  "skysplinter_assault_detachment": "01KAH3HDVA7F3PT23M8CEET18P",
+  "slaaneshs_chosen_detachment": "01KMH9F10YRZR9XVD2JMYK52D1",
+  "solar_spearhead_detachment": "01KX9H5TXECHE2VA8V3B78SAZJ",
+  "soulforged_warpack_detachment": "01KEF8MK1631D0W9BYEHBV4PS2",
+  "spearhead_at_arms_detachment": "01KFV29806J8S3WACP1KG5AXYX",
+  "spearpoint_task_force_detachment": "01KEZ3W0XM5AS6Q1C5GHZB4BVX",
+  "spectacle_of_spite_detachment": "01K9NDM43MPW1MPHBWZD1K1CAB",
+  "speedwaaagh_detachment": "01KWZ553NQZFVDX6Y44P2T6Y3N",
+  "spirit_conclave_detachment": "01KBJNQ4H7RY6M907CMEXAAV60",
+  "starshatter_arsenal_detachment": "01K9TZ0F79WKFXT563BY6G3EA0",
+  "steel_hammer_detachment": "01K2EZPME1AK24F5HS7M07KJD8",
+  "stormlance_task_force_detachment": "01K5HTXDH41XXBNDW1SDJ6X6RY",
+  "subterranean_assault_detachment": "01KMRJDSDWD3P3JF9THN7XNJCH",
+  "synaptic_nexus_detachment": "01KQV3GTXG7WFH62WKGB44NV1G",
+  "taktikal_brigade_detachment": "01KEVE1XJV47WHRP9215WNRYCQ",
+  "tallyband_summoners_detachment": "01KJ1YDKZPY2P43K6CH8HG88AG",
+  "talons_of_the_emperor_detachment": "01K8P55EC051CYH4148ME49AY2",
+  "the_angelic_host_detachment": "01KTJBCVNN6Z6AH6DS7NPDAXM2",
+  "the_lost_brethren_detachment": "01KV4A9KWYXN51DRR983FFGN21",
+  "traitoris_lance_detachment": "01K73YG3SYTS5Z809T9B2QYR15",
+  "unending_swarm_detachment": "01KXXRT3T6CJ0JBT6PJPQTS1SM",
+  "unforgiven_task_force_detachment": "01K527C0M6XAZP67VG6JCQBEV0",
+  "valourstrike_lance_detachment": "01KCP63SVWE355JPJKTETYNZM0",
+  "vanguard_onslaught_detachment": "01KG6WP93B6PHFKN4CF0PAP30Y",
+  "vanguard_spearhead_detachment": "01KESDHFV8SZHY8DNA4VRGBFRF",
+  "veiled_blade_elimination_force_detachment": "01KG9VBKD7CF2B92QM1PWC0EFS",
+  "vessels_of_wrath_detachment": "01KGFD3V187H20XSE9MWMK5G7Q",
+  "veterans_of_the_long_war_detachment": "01KQC1DFXCX741T35MC6GPVRY4",
+  "vindication_task_force_detachment": "01KHDKSBHT0VR4MBPK7CQBHKH5",
+  "virulent_vectorium_detachment": "01K91Y4SWC7Q0ZKEPESJ986N7F",
+  "war_horde_detachment": "01KCE78A33YHKMF0NVZCMTPWDJ",
+  "warhost_detachment": "01KY87WVV632X7CT0MPQ897ES2",
+  "warpbane_task_force_detachment": "01KVEEK7NNVKERP1CNZM91X36S",
+  "warpforged_cabal_detachment": "01KWVK963D1DQRFHMJYABQWDBK",
+  "warpmeld_pact_detachment": "01K2Y5622E45CB52XJN972W4QJ",
+  "warpstrike_champions_detachment": "01K5MNWG4KB9JQF0TRMVN53KGM",
+  "warrior_bioform_onslaught_detachment": "01K0TC1VCXVRMD6AMSDMNB5VAM",
+  "windrider_host_detachment": "01K933DPZ48NTQJD0BDMWSR25R",
+  "wrath_of_the_rock_detachment": "01KW94WT2W3JF5T46WEQEZWAH4",
+  "wrathful_procession_detachment": "01K9S2997K7CEDY01DBEX46KTC",
+  "xenocreed_congregation_detachment": "01KKW67F605BTEY46G9Y81Z8AZ",
 };
 
 export const detachmentId = (slug: DetachmentSeedSlug): string => {
@@ -148,168 +412,694 @@ export const detachmentId = (slug: DetachmentSeedSlug): string => {
 };
 
 type RulesFactionDetachmentSeedSlug =
+  | "adepta_sororitas__army_of_faith_detachment"
+  | "adepta_sororitas__bringers_of_flame_detachment"
   | "adepta_sororitas__champions_of_faith_detachment"
   | "adepta_sororitas__hallowed_martyrs_detachment"
   | "adepta_sororitas__penitent_host_detachment"
   | "adeptus_custodes__auric_champions_detachment"
+  | "adeptus_custodes__lions_of_the_emperor_detachment"
+  | "adeptus_custodes__null_maiden_vigil_detachment"
+  | "adeptus_custodes__shield_host_detachment"
+  | "adeptus_custodes__solar_spearhead_detachment"
   | "adeptus_custodes__talons_of_the_emperor_detachment"
+  | "adeptus_mechanicus__cohort_cybernetica_detachment"
+  | "adeptus_mechanicus__data_psalm_conclave_detachment"
+  | "adeptus_mechanicus__eradication_cohort_detachment"
+  | "adeptus_mechanicus__explorator_maniple_detachment"
   | "adeptus_mechanicus__haloscreed_battle_clade_detachment"
   | "adeptus_mechanicus__rad_zone_corps_detachment"
+  | "adeptus_mechanicus__skitarii_hunter_cohort_detachment"
+  | "aeldari__armoured_warhost_detachment"
   | "aeldari__aspect_host_detachment"
-  | "aeldari__khaines_arrow_detachment"
+  | "aeldari__corsair_coterie_detachment"
+  | "aeldari__devoted_of_ynnead_detachment"
+  | "aeldari__eldritch_raiders_detachment"
+  | "aeldari__ghosts_of_the_webway_detachment"
+  | "aeldari__guardian_battlehost_detachment"
   | "aeldari__seer_council_detachment"
+  | "aeldari__serpents_brood_detachment"
+  | "aeldari__spirit_conclave_detachment"
+  | "aeldari__warhost_detachment"
+  | "aeldari__windrider_host_detachment"
+  | "astra_militarum__armoured_infantry_detachment"
+  | "astra_militarum__bridgehead_strike_detachment"
+  | "astra_militarum__combined_arms_detachment"
+  | "astra_militarum__grizzled_company_detachment"
+  | "astra_militarum__hammer_of_the_emperor_detachment"
+  | "astra_militarum__mechanised_assault_detachment"
+  | "astra_militarum__recon_element_detachment"
+  | "astra_militarum__siege_regiment_detachment"
+  | "astra_militarum__steel_hammer_detachment"
+  | "black_templars__anvil_siege_force_detachment"
+  | "black_templars__armoured_speartip_detachment"
+  | "black_templars__bastion_task_force_detachment"
+  | "black_templars__ceramite_sentinels_detachment"
+  | "black_templars__companions_of_vehemence_detachment"
+  | "black_templars__firestorm_assault_force_detachment"
+  | "black_templars__gladius_task_force_detachment"
+  | "black_templars__godhammer_assault_force_detachment"
+  | "black_templars__headhunter_task_force_detachment"
+  | "black_templars__ironstorm_spearhead_detachment"
+  | "black_templars__orbital_assault_force_detachment"
+  | "black_templars__stormlance_task_force_detachment"
+  | "black_templars__vanguard_spearhead_detachment"
+  | "black_templars__vindication_task_force_detachment"
+  | "black_templars__wrathful_procession_detachment"
+  | "blood_angels__1st_company_task_force_detachment"
+  | "blood_angels__angelic_inheritors_detachment"
+  | "blood_angels__anvil_siege_force_detachment"
+  | "blood_angels__armoured_speartip_detachment"
+  | "blood_angels__bastion_task_force_detachment"
+  | "blood_angels__ceramite_sentinels_detachment"
+  | "blood_angels__firestorm_assault_force_detachment"
+  | "blood_angels__gladius_task_force_detachment"
+  | "blood_angels__headhunter_task_force_detachment"
+  | "blood_angels__ironstorm_spearhead_detachment"
+  | "blood_angels__liberator_assault_group_detachment"
+  | "blood_angels__librarius_conclave_detachment"
+  | "blood_angels__orbital_assault_force_detachment"
+  | "blood_angels__rage_cursed_onslaught_detachment"
+  | "blood_angels__stormlance_task_force_detachment"
+  | "blood_angels__the_angelic_host_detachment"
+  | "blood_angels__the_lost_brethren_detachment"
+  | "blood_angels__vanguard_spearhead_detachment"
+  | "chaos_daemons__blood_legion_detachment"
   | "chaos_daemons__daemonic_incursion_detachment"
-  | "chaos_daemons__dread_carnival_detachment"
+  | "chaos_daemons__legion_of_excess_detachment"
   | "chaos_daemons__plague_legion_detachment"
   | "chaos_daemons__scintillating_legion_detachment"
+  | "chaos_daemons__shadow_legion_detachment"
+  | "chaos_knights__helhunt_lance_detachment"
+  | "chaos_knights__houndpack_lance_detachment"
+  | "chaos_knights__iconoclast_fiefdom_detachment"
   | "chaos_knights__infernal_lance_detachment"
   | "chaos_knights__lords_of_dread_detachment"
+  | "chaos_knights__traitoris_lance_detachment"
+  | "chaos_space_marines__cabal_of_chaos_detachment"
   | "chaos_space_marines__chaos_cult_detachment"
   | "chaos_space_marines__creations_of_bile_detachment"
+  | "chaos_space_marines__cult_of_the_arkifane_detachment"
   | "chaos_space_marines__deceptors_detachment"
+  | "chaos_space_marines__dread_talons_detachment"
+  | "chaos_space_marines__fellhammer_siege_host_detachment"
   | "chaos_space_marines__hurons_marauders_detachment"
+  | "chaos_space_marines__nightmare_hunt_detachment"
+  | "chaos_space_marines__pactbound_zealots_detachment"
+  | "chaos_space_marines__renegade_raiders_detachment"
   | "chaos_space_marines__renegade_warband_detachment"
+  | "chaos_space_marines__soulforged_warpack_detachment"
   | "chaos_space_marines__veterans_of_the_long_war_detachment"
+  | "chaos_space_marines__warpstrike_champions_detachment"
+  | "dark_angels__1st_company_task_force_detachment"
+  | "dark_angels__anvil_siege_force_detachment"
+  | "dark_angels__armoured_speartip_detachment"
+  | "dark_angels__bastion_task_force_detachment"
+  | "dark_angels__ceramite_sentinels_detachment"
+  | "dark_angels__company_of_hunters_detachment"
+  | "dark_angels__firestorm_assault_force_detachment"
+  | "dark_angels__gladius_task_force_detachment"
+  | "dark_angels__headhunter_task_force_detachment"
+  | "dark_angels__inner_circle_task_force_detachment"
+  | "dark_angels__ironstorm_spearhead_detachment"
+  | "dark_angels__librarius_conclave_detachment"
+  | "dark_angels__lions_blade_task_force_detachment"
+  | "dark_angels__orbital_assault_force_detachment"
+  | "dark_angels__stormlance_task_force_detachment"
+  | "dark_angels__unforgiven_task_force_detachment"
+  | "dark_angels__vanguard_spearhead_detachment"
+  | "dark_angels__wrath_of_the_rock_detachment"
+  | "death_guard__champions_of_contagion_detachment"
+  | "death_guard__death_lords_chosen_detachment"
+  | "death_guard__flyblown_host_detachment"
+  | "death_guard__mortarions_hammer_detachment"
+  | "death_guard__shamblerot_vectorium_detachment"
+  | "death_guard__tallyband_summoners_detachment"
+  | "death_guard__virulent_vectorium_detachment"
+  | "deathwatch__1st_company_task_force_detachment"
+  | "deathwatch__anvil_siege_force_detachment"
+  | "deathwatch__armoured_speartip_detachment"
+  | "deathwatch__bastion_task_force_detachment"
+  | "deathwatch__black_spear_task_force_detachment"
+  | "deathwatch__ceramite_sentinels_detachment"
+  | "deathwatch__firestorm_assault_force_detachment"
+  | "deathwatch__gladius_task_force_detachment"
+  | "deathwatch__headhunter_task_force_detachment"
+  | "deathwatch__ironstorm_spearhead_detachment"
+  | "deathwatch__librarius_conclave_detachment"
+  | "deathwatch__orbital_assault_force_detachment"
+  | "deathwatch__stormlance_task_force_detachment"
+  | "deathwatch__vanguard_spearhead_detachment"
+  | "drukhari__covenite_coterie_detachment"
   | "drukhari__kabalite_cartel_detachment"
+  | "drukhari__realspace_raiders_detachment"
+  | "drukhari__reapers_wager_detachment"
+  | "drukhari__skysplinter_assault_detachment"
   | "drukhari__spectacle_of_spite_detachment"
   | "emperors_children__carnival_of_excess_detachment"
   | "emperors_children__coterie_of_the_conceited_detachment"
+  | "emperors_children__court_of_the_phoenician_detachment"
+  | "emperors_children__mercurial_host_detachment"
   | "emperors_children__peerless_bladesmen_detachment"
+  | "emperors_children__rapid_evisceration_detachment"
   | "emperors_children__slaaneshs_chosen_detachment"
+  | "genestealer_cults__biosanctic_broodsurge_detachment"
   | "genestealer_cults__brood_brother_auxilia_detachment"
   | "genestealer_cults__final_day_detachment"
+  | "genestealer_cults__host_of_ascension_detachment"
+  | "genestealer_cults__outlander_claw_detachment"
+  | "genestealer_cults__xenocreed_congregation_detachment"
+  | "grey_knights__augurium_task_force_detachment"
+  | "grey_knights__banishers_detachment"
+  | "grey_knights__brotherhood_strike_detachment"
+  | "grey_knights__hallowed_conclave_detachment"
+  | "grey_knights__sanctic_spearhead_detachment"
   | "grey_knights__warpbane_task_force_detachment"
+  | "imperial_agents__alien_hunters_ordo_xenos_detachment"
+  | "imperial_agents__daemon_hunters_ordo_malleus_detachment"
   | "imperial_agents__imperialis_fleet_detachment"
+  | "imperial_agents__purgation_force_ordo_hereticus_detachment"
+  | "imperial_agents__veiled_blade_elimination_force_detachment"
+  | "imperial_fists__1st_company_task_force_detachment"
+  | "imperial_fists__anvil_siege_force_detachment"
+  | "imperial_fists__armoured_speartip_detachment"
+  | "imperial_fists__bastion_task_force_detachment"
+  | "imperial_fists__ceramite_sentinels_detachment"
+  | "imperial_fists__emperors_shield_detachment"
+  | "imperial_fists__firestorm_assault_force_detachment"
+  | "imperial_fists__gladius_task_force_detachment"
+  | "imperial_fists__headhunter_task_force_detachment"
+  | "imperial_fists__ironstorm_spearhead_detachment"
+  | "imperial_fists__librarius_conclave_detachment"
+  | "imperial_fists__orbital_assault_force_detachment"
+  | "imperial_fists__stormlance_task_force_detachment"
+  | "imperial_fists__vanguard_spearhead_detachment"
+  | "imperial_knights__freeblade_company_detachment"
   | "imperial_knights__gate_warden_lance_detachment"
+  | "imperial_knights__questor_forgepact_detachment"
+  | "imperial_knights__questoris_companions_detachment"
+  | "imperial_knights__spearhead_at_arms_detachment"
+  | "imperial_knights__valourstrike_lance_detachment"
+  | "iron_hands__1st_company_task_force_detachment"
+  | "iron_hands__anvil_siege_force_detachment"
+  | "iron_hands__armoured_speartip_detachment"
+  | "iron_hands__bastion_task_force_detachment"
+  | "iron_hands__ceramite_sentinels_detachment"
+  | "iron_hands__firestorm_assault_force_detachment"
+  | "iron_hands__gladius_task_force_detachment"
+  | "iron_hands__hammer_of_avernii_detachment"
+  | "iron_hands__headhunter_task_force_detachment"
+  | "iron_hands__ironstorm_spearhead_detachment"
+  | "iron_hands__librarius_conclave_detachment"
+  | "iron_hands__orbital_assault_force_detachment"
+  | "iron_hands__stormlance_task_force_detachment"
+  | "iron_hands__vanguard_spearhead_detachment"
+  | "leagues_of_votann__brandfast_oathband_detachment"
+  | "leagues_of_votann__dalve_assault_shift_detachment"
+  | "leagues_of_votann__hearthband_detachment"
   | "leagues_of_votann__hearthfyre_arsenal_detachment"
+  | "leagues_of_votann__mercenary_oathband_detachment"
+  | "leagues_of_votann__needgard_oathband_detachment"
   | "leagues_of_votann__persecution_prospect_detachment"
+  | "necrons__annihilation_legion_detachment"
+  | "necrons__awakened_dynasty_detachment"
   | "necrons__canoptek_court_detachment"
   | "necrons__cryptek_conclave_detachment"
-  | "necrons__harbinger_cabal_detachment"
+  | "necrons__cursed_legion_detachment"
   | "necrons__hypercrypt_legion_detachment"
+  | "necrons__obeisance_phalanx_detachment"
   | "necrons__pantheon_of_woe_detachment"
+  | "necrons__starshatter_arsenal_detachment"
+  | "orks__blitz_brigade_detachment"
+  | "orks__bully_boyz_detachment"
+  | "orks__da_big_hunt_detachment"
   | "orks__dread_mob_detachment"
   | "orks__freebooter_krew_detachment"
+  | "orks__green_tide_detachment"
+  | "orks__kult_of_speed_detachment"
+  | "orks__more_dakka_detachment"
+  | "orks__speedwaaagh_detachment"
   | "orks__taktikal_brigade_detachment"
-  | "space_marines__angelic_inheritors_detachment"
+  | "orks__war_horde_detachment"
+  | "raven_guard__1st_company_task_force_detachment"
+  | "raven_guard__anvil_siege_force_detachment"
+  | "raven_guard__armoured_speartip_detachment"
+  | "raven_guard__bastion_task_force_detachment"
+  | "raven_guard__ceramite_sentinels_detachment"
+  | "raven_guard__firestorm_assault_force_detachment"
+  | "raven_guard__gladius_task_force_detachment"
+  | "raven_guard__headhunter_task_force_detachment"
+  | "raven_guard__ironstorm_spearhead_detachment"
+  | "raven_guard__librarius_conclave_detachment"
+  | "raven_guard__orbital_assault_force_detachment"
+  | "raven_guard__shadowmark_talon_detachment"
+  | "raven_guard__stormlance_task_force_detachment"
+  | "raven_guard__vanguard_spearhead_detachment"
+  | "salamanders__1st_company_task_force_detachment"
+  | "salamanders__anvil_siege_force_detachment"
+  | "salamanders__armoured_speartip_detachment"
+  | "salamanders__bastion_task_force_detachment"
+  | "salamanders__ceramite_sentinels_detachment"
+  | "salamanders__firestorm_assault_force_detachment"
+  | "salamanders__forgefathers_seekers_detachment"
+  | "salamanders__gladius_task_force_detachment"
+  | "salamanders__headhunter_task_force_detachment"
+  | "salamanders__ironstorm_spearhead_detachment"
+  | "salamanders__librarius_conclave_detachment"
+  | "salamanders__orbital_assault_force_detachment"
+  | "salamanders__stormlance_task_force_detachment"
+  | "salamanders__vanguard_spearhead_detachment"
+  | "space_marines__1st_company_task_force_detachment"
+  | "space_marines__anvil_siege_force_detachment"
+  | "space_marines__armoured_speartip_detachment"
   | "space_marines__bastion_task_force_detachment"
-  | "space_marines__black_spear_task_force_detachment"
   | "space_marines__ceramite_sentinels_detachment"
-  | "space_marines__champions_of_fenris_detachment"
+  | "space_marines__firestorm_assault_force_detachment"
   | "space_marines__gladius_task_force_detachment"
-  | "space_marines__godhammer_assault_force_detachment"
-  | "space_marines__liberator_assault_group_detachment"
-  | "space_marines__saga_of_the_bold_detachment"
-  | "space_marines__saga_of_the_great_wolf_detachment"
+  | "space_marines__headhunter_task_force_detachment"
+  | "space_marines__ironstorm_spearhead_detachment"
+  | "space_marines__librarius_conclave_detachment"
+  | "space_marines__orbital_assault_force_detachment"
   | "space_marines__stormlance_task_force_detachment"
-  | "space_marines__wrathful_procession_detachment"
+  | "space_marines__vanguard_spearhead_detachment"
+  | "space_wolves__1st_company_task_force_detachment"
+  | "space_wolves__anvil_siege_force_detachment"
+  | "space_wolves__armoured_speartip_detachment"
+  | "space_wolves__bastion_task_force_detachment"
+  | "space_wolves__ceramite_sentinels_detachment"
+  | "space_wolves__champions_of_fenris_detachment"
+  | "space_wolves__firestorm_assault_force_detachment"
+  | "space_wolves__gladius_task_force_detachment"
+  | "space_wolves__headhunter_task_force_detachment"
+  | "space_wolves__ironstorm_spearhead_detachment"
+  | "space_wolves__librarius_conclave_detachment"
+  | "space_wolves__orbital_assault_force_detachment"
+  | "space_wolves__saga_of_the_beastslayer_detachment"
+  | "space_wolves__saga_of_the_bold_detachment"
+  | "space_wolves__saga_of_the_great_wolf_detachment"
+  | "space_wolves__saga_of_the_hunter_detachment"
+  | "space_wolves__stormlance_task_force_detachment"
+  | "space_wolves__vanguard_spearhead_detachment"
+  | "tau_empire__auxiliary_cadre_detachment"
+  | "tau_empire__experimental_prototype_cadre_detachment"
   | "tau_empire__kauyon_detachment"
+  | "tau_empire__kroot_hunting_pack_detachment"
   | "tau_empire__montka_detachment"
+  | "tau_empire__retaliation_cadre_detachment"
+  | "thousand_sons__changehost_of_deceit_detachment"
   | "thousand_sons__grand_coven_detachment"
   | "thousand_sons__hexwarp_thrallband_detachment"
   | "thousand_sons__rubricae_phalanx_detachment"
+  | "thousand_sons__warpforged_cabal_detachment"
+  | "thousand_sons__warpmeld_pact_detachment"
   | "tyranids__assimilation_swarm_detachment"
+  | "tyranids__crusher_stampede_detachment"
   | "tyranids__invasion_fleet_detachment"
   | "tyranids__subterranean_assault_detachment"
   | "tyranids__synaptic_nexus_detachment"
   | "tyranids__unending_swarm_detachment"
   | "tyranids__vanguard_onslaught_detachment"
+  | "tyranids__warrior_bioform_onslaught_detachment"
+  | "ultramarines__1st_company_task_force_detachment"
+  | "ultramarines__anvil_siege_force_detachment"
+  | "ultramarines__armoured_speartip_detachment"
+  | "ultramarines__bastion_task_force_detachment"
+  | "ultramarines__blade_of_ultramar_detachment"
+  | "ultramarines__ceramite_sentinels_detachment"
+  | "ultramarines__firestorm_assault_force_detachment"
+  | "ultramarines__gladius_task_force_detachment"
+  | "ultramarines__headhunter_task_force_detachment"
+  | "ultramarines__ironstorm_spearhead_detachment"
+  | "ultramarines__librarius_conclave_detachment"
+  | "ultramarines__orbital_assault_force_detachment"
+  | "ultramarines__reclamation_force_detachment"
+  | "ultramarines__stormlance_task_force_detachment"
+  | "ultramarines__vanguard_spearhead_detachment"
+  | "white_scars__1st_company_task_force_detachment"
+  | "white_scars__anvil_siege_force_detachment"
+  | "white_scars__armoured_speartip_detachment"
+  | "white_scars__bastion_task_force_detachment"
+  | "white_scars__ceramite_sentinels_detachment"
+  | "white_scars__firestorm_assault_force_detachment"
+  | "white_scars__gladius_task_force_detachment"
+  | "white_scars__headhunter_task_force_detachment"
+  | "white_scars__ironstorm_spearhead_detachment"
+  | "white_scars__librarius_conclave_detachment"
+  | "white_scars__orbital_assault_force_detachment"
+  | "white_scars__spearpoint_task_force_detachment"
+  | "white_scars__stormlance_task_force_detachment"
+  | "white_scars__vanguard_spearhead_detachment"
+  | "world_eaters__berzerker_warband_detachment"
   | "world_eaters__cult_of_blood_detachment"
+  | "world_eaters__goretrack_onslaught_detachment"
   | "world_eaters__khorne_daemonkin_detachment"
   | "world_eaters__possessed_slaughterband_detachment"
   | "world_eaters__vessels_of_wrath_detachment";
 
-const rulesFactionDetachmentSeedIds: Record<
-  RulesFactionDetachmentSeedSlug,
-  string
-> = {
-  adepta_sororitas__champions_of_faith_detachment: "01KZ0DTSCX5D5N6QWQ9PZGG6JV",
-  adepta_sororitas__hallowed_martyrs_detachment: "01KNS1XZE2BBYWK4YCD1DTE7E8",
-  adepta_sororitas__penitent_host_detachment: "01KG3199DDTW63EATWXDEQQ4PA",
-  adeptus_custodes__auric_champions_detachment: "01K9FNYPY96HB16RB95XHYB7DE",
-  adeptus_custodes__talons_of_the_emperor_detachment:
-    "01KC1K0JW30RNZMFF26WPYJNGS",
-  adeptus_mechanicus__haloscreed_battle_clade_detachment:
-    "01KD9GD4WHYE8JS4G0KQZ8TAJB",
-  adeptus_mechanicus__rad_zone_corps_detachment: "01KYKKM1S9QJG3Q7H7D4W9E4CW",
-  aeldari__aspect_host_detachment: "01K77VBY5QVF2EEAFF0QJNWHAD",
-  aeldari__khaines_arrow_detachment: "01K2AW97P7YKTAFZ7V98X5ERME",
-  aeldari__seer_council_detachment: "01KYH53PQT2N04QP8E3V11D48N",
-  chaos_daemons__daemonic_incursion_detachment: "01KK2GYN5ZGA1ZBAB6CNNH59PQ",
-  chaos_daemons__dread_carnival_detachment: "01KZGEC1VVDT3DJR96N0W2S37H",
-  chaos_daemons__plague_legion_detachment: "01KCETAV11K91PJJHKXJZ743G2",
-  chaos_daemons__scintillating_legion_detachment: "01KP8ZCFMBNWWVCX8QKX4KBS4E",
-  chaos_knights__infernal_lance_detachment: "01K7X0MBWR2Q2BV3273WKH29Q5",
-  chaos_knights__lords_of_dread_detachment: "01K620HRN46Q75C9RFN40JDQ7R",
-  chaos_space_marines__chaos_cult_detachment: "01KZPNACX23181H7EE19WZZV59",
-  chaos_space_marines__creations_of_bile_detachment:
-    "01KF130941WEJM8KR1KB2CRSV0",
-  chaos_space_marines__deceptors_detachment: "01KDGN3P1Q11J4WMM14H8EPFNM",
-  chaos_space_marines__hurons_marauders_detachment:
-    "01KMGR0Y19NWMVWEMQE1V433KC",
-  chaos_space_marines__renegade_warband_detachment:
-    "01KR0PZECTPH1KVS4P4VD9C43M",
-  chaos_space_marines__veterans_of_the_long_war_detachment:
-    "01KKDJMT7PYAPM0XETBYRW10CM",
-  drukhari__kabalite_cartel_detachment: "01KVBV62YA4CH6QPF4Y1DVSPX3",
-  drukhari__spectacle_of_spite_detachment: "01K34K7D03VK2320MDFMW8VDMK",
-  emperors_children__carnival_of_excess_detachment:
-    "01KYB942HBQ9HDYZTKJCTVC1GF",
-  emperors_children__coterie_of_the_conceited_detachment:
-    "01KNJ0H2XHBWQDKFBBHB355DX5",
-  emperors_children__peerless_bladesmen_detachment:
-    "01KQBNTG0QDKAVJ1M2492WH6JX",
-  emperors_children__slaaneshs_chosen_detachment: "01KF8KE2218NF07WTB7F82WFEN",
-  genestealer_cults__brood_brother_auxilia_detachment:
-    "01KFX1WJRABFH6FZEWJG3BSPFZ",
-  genestealer_cults__final_day_detachment: "01KCWZWTTFNMBNEK3Y012AXXFA",
-  grey_knights__warpbane_task_force_detachment: "01K7K1PP6TH780884FNSQT7JQC",
-  imperial_agents__imperialis_fleet_detachment: "01K1NFBAGW8YY88416VRDHW2TH",
-  imperial_knights__gate_warden_lance_detachment: "01KWVCNG64CDN6TKPDS112KA7E",
-  leagues_of_votann__hearthfyre_arsenal_detachment:
-    "01KWWZ374KHQBVY17XN1RNYRBB",
-  leagues_of_votann__persecution_prospect_detachment:
-    "01KCCCJ6Z57VH7MTMB1541BMZP",
-  necrons__canoptek_court_detachment: "01KEZ3EGQMRFKKX7GXT9SYH9E6",
-  necrons__cryptek_conclave_detachment: "01KTZVP0P1TZZ2SRHYEESTP6VG",
-  necrons__harbinger_cabal_detachment: "01KEGNH9QXKF05C226AQNTSR9P",
-  necrons__hypercrypt_legion_detachment: "01KY32ACPGAV4TPKX5SBGS9D98",
-  necrons__pantheon_of_woe_detachment: "01KVPYS01MVNRY4WCFHSZXG937",
-  orks__dread_mob_detachment: "01K4AF15YWGM6MGTNPC8TZ2Y7N",
-  orks__freebooter_krew_detachment: "01KK9W318HXT3PRDJSM88MP404",
-  orks__taktikal_brigade_detachment: "01K22PEGEAVPBQQPKWW6KWAZC8",
-  space_marines__angelic_inheritors_detachment: "01K00X8S2PD7AV2KAX48KN73Q4",
-  space_marines__bastion_task_force_detachment: "01KCKVBCR60Q68FY5SHBTBF9PP",
-  space_marines__black_spear_task_force_detachment:
-    "01K42QW9S44E00GWPDRDBW14AM",
-  space_marines__ceramite_sentinels_detachment: "01KF844DEDTC0E5E8J8E2ESCMT",
-  space_marines__champions_of_fenris_detachment: "01KJRG2N97CGZHXCVZX87CYWGC",
-  space_marines__gladius_task_force_detachment: "01KBTRTNR7856GNB43MJX8FD98",
-  space_marines__godhammer_assault_force_detachment:
-    "01KYEQKNW66P3C5FFHF7QQHF2E",
-  space_marines__liberator_assault_group_detachment:
-    "01KRKB1ZY3828A3AWRDVMZYCBA",
-  space_marines__saga_of_the_bold_detachment: "01KS9XTSHW5CBH6ATFZ1ZM7X44",
-  space_marines__saga_of_the_great_wolf_detachment:
-    "01KYJMRM3V8XH9YVNRJZVD2TDZ",
-  space_marines__stormlance_task_force_detachment: "01KWS4VTJ3NY4FCEZP9230HTXC",
-  space_marines__wrathful_procession_detachment: "01K13G5TDHRTK9D0GVRWGC6FXV",
-  tau_empire__kauyon_detachment: "01K47CGMHV3CX7XBRG07X0QXFE",
-  tau_empire__montka_detachment: "01KJ3DQR96JCKBHRKAHMJXAF9Q",
-  thousand_sons__grand_coven_detachment: "01K50AJD6VCVC0PRHXVQYRDVCH",
-  thousand_sons__hexwarp_thrallband_detachment: "01K063KNBEQ8PSSV2CSMKM9YM8",
-  thousand_sons__rubricae_phalanx_detachment: "01KQ962RNCS9QY5GKCCRTD2JQP",
-  tyranids__assimilation_swarm_detachment: "01K512AW2RTC9Q81WD0M8302HD",
-  tyranids__invasion_fleet_detachment: "01K84SA29GBW30HA1MVGSEKK33",
-  tyranids__subterranean_assault_detachment: "01KBDR077A0W8FGP9D6NC26C7A",
-  tyranids__synaptic_nexus_detachment: "01K5C87DAX95HS28HTZDK0P0RA",
-  tyranids__unending_swarm_detachment: "01K2XAJRDR4BJC0CKT0VNP7V9Q",
-  tyranids__vanguard_onslaught_detachment: "01KW0TBX2NJGJYN78XB2E28MX1",
-  world_eaters__cult_of_blood_detachment: "01K1HG6355VS0KF6D22STA50SP",
-  world_eaters__khorne_daemonkin_detachment: "01KMFY7TKKWQ0WQKV966A4YMFN",
-  world_eaters__possessed_slaughterband_detachment:
-    "01K4HFQ78Q30C1K4XYT11WFWVA",
-  world_eaters__vessels_of_wrath_detachment: "01KTAC0GCZ53SSCAKJJP871AVP",
+const rulesFactionDetachmentSeedIds: Record<RulesFactionDetachmentSeedSlug, string> = {
+  "adepta_sororitas__army_of_faith_detachment": "01KTP6DFZ6TGRDMRER9T4ZR7M0",
+  "adepta_sororitas__bringers_of_flame_detachment": "01KRVGSDAVZBR8CAQD6BFY2JBH",
+  "adepta_sororitas__champions_of_faith_detachment": "01KZ0DTSCX5D5N6QWQ9PZGG6JV",
+  "adepta_sororitas__hallowed_martyrs_detachment": "01KNS1XZE2BBYWK4YCD1DTE7E8",
+  "adepta_sororitas__penitent_host_detachment": "01KG3199DDTW63EATWXDEQQ4PA",
+  "adeptus_custodes__auric_champions_detachment": "01K9FNYPY96HB16RB95XHYB7DE",
+  "adeptus_custodes__lions_of_the_emperor_detachment": "01K6T62JCGCPPJYYGESRY1JV84",
+  "adeptus_custodes__null_maiden_vigil_detachment": "01KFXGXFPVN61VAY41WK88KQ6S",
+  "adeptus_custodes__shield_host_detachment": "01KCMNBGZSQ6NP3D3Q4YZ7AEXZ",
+  "adeptus_custodes__solar_spearhead_detachment": "01KE4WKF95GTNY2YRB3MC80R20",
+  "adeptus_custodes__talons_of_the_emperor_detachment": "01KC1K0JW30RNZMFF26WPYJNGS",
+  "adeptus_mechanicus__cohort_cybernetica_detachment": "01KWHEYF2Q8ADACKQXB9KAJ3NJ",
+  "adeptus_mechanicus__data_psalm_conclave_detachment": "01KXCDZ7SJ1HYX0317AAH96CAM",
+  "adeptus_mechanicus__eradication_cohort_detachment": "01KXA5SZKZQ98HVFB6VTY4STXQ",
+  "adeptus_mechanicus__explorator_maniple_detachment": "01K0NXDBRNGS59T9KS6SCVHJD2",
+  "adeptus_mechanicus__haloscreed_battle_clade_detachment": "01KD9GD4WHYE8JS4G0KQZ8TAJB",
+  "adeptus_mechanicus__rad_zone_corps_detachment": "01KYKKM1S9QJG3Q7H7D4W9E4CW",
+  "adeptus_mechanicus__skitarii_hunter_cohort_detachment": "01K89GM0SPN3EP476WHD4DK8Y7",
+  "aeldari__armoured_warhost_detachment": "01KE865EGV1H44ZME0K2PG98AG",
+  "aeldari__aspect_host_detachment": "01K77VBY5QVF2EEAFF0QJNWHAD",
+  "aeldari__corsair_coterie_detachment": "01KC5ZT1KQTKSWZQ0Q71Z0VHV6",
+  "aeldari__devoted_of_ynnead_detachment": "01KCRRPK123WGX9XDAW9MRAPAC",
+  "aeldari__eldritch_raiders_detachment": "01KEY0TWZMFTSGVCGHS7CJZRBT",
+  "aeldari__ghosts_of_the_webway_detachment": "01K340J3B2JB2JEAMGZ60AVJ4S",
+  "aeldari__guardian_battlehost_detachment": "01K2JRSGWAEXPW7VNYYZMS88TK",
+  "aeldari__seer_council_detachment": "01KYH53PQT2N04QP8E3V11D48N",
+  "aeldari__serpents_brood_detachment": "01KA7RWRKME7V31NSS3WJ04EJY",
+  "aeldari__spirit_conclave_detachment": "01KK91RSYMRTNPM1MBAMA7YN76",
+  "aeldari__warhost_detachment": "01K95K2J134GWZDBDCJCFGT2YF",
+  "aeldari__windrider_host_detachment": "01KW76NEV5SKZ6VE6A0QR5BMWJ",
+  "astra_militarum__armoured_infantry_detachment": "01K3T0MF1FA1M1Y4P4CWBHVCX9",
+  "astra_militarum__bridgehead_strike_detachment": "01KW1MQFH2D4DE43NSENMY04V5",
+  "astra_militarum__combined_arms_detachment": "01KN70NCXQF71T2XAT202M2KYQ",
+  "astra_militarum__grizzled_company_detachment": "01KB7S7PFT6T0NYY4M8X6BGGBS",
+  "astra_militarum__hammer_of_the_emperor_detachment": "01K8T33HMKHZJ6QZ7SB20D18NR",
+  "astra_militarum__mechanised_assault_detachment": "01KWJVZ1MNPDPYK1X1590KKPD6",
+  "astra_militarum__recon_element_detachment": "01KDR0CQDDP3PZBXDTNVV5Y1DK",
+  "astra_militarum__siege_regiment_detachment": "01KSJH8MNHDDW3YDWSM3QEPKAP",
+  "astra_militarum__steel_hammer_detachment": "01KNCFXDPMQ6XBQSNRQFH3KGVW",
+  "black_templars__anvil_siege_force_detachment": "01KJGENQB0M29GNBGGMNAKP5BC",
+  "black_templars__armoured_speartip_detachment": "01KBWZ14853CVFJXB1YBCMVVP7",
+  "black_templars__bastion_task_force_detachment": "01KCJY0Q96CH1RWGMPQDC9S6AE",
+  "black_templars__ceramite_sentinels_detachment": "01KHH8JE42SQGAQEXA1MNV2XF3",
+  "black_templars__companions_of_vehemence_detachment": "01KSMPV9ZHXMVM4A9N38HZ63TR",
+  "black_templars__firestorm_assault_force_detachment": "01KGHWF1CCG5HF4Z76H8A5HCCN",
+  "black_templars__gladius_task_force_detachment": "01KH8EKE95C6CAT26QD7CPCGBX",
+  "black_templars__godhammer_assault_force_detachment": "01KZCJBHDNMAWK08SJVHH5253Z",
+  "black_templars__headhunter_task_force_detachment": "01KFH7K6E0Q546DVNGMK97TDM3",
+  "black_templars__ironstorm_spearhead_detachment": "01K2A1JCM1B9618XZG278F7ZB4",
+  "black_templars__orbital_assault_force_detachment": "01KKQJHBM4SDDH4BHE6B9N1J4F",
+  "black_templars__stormlance_task_force_detachment": "01K7ZY7QXPXYG40CVPQK897M7W",
+  "black_templars__vanguard_spearhead_detachment": "01K59RAWA0MMZK6KW56REX202D",
+  "black_templars__vindication_task_force_detachment": "01KQ5JKZ7P3WB1GE9HXAG28QFJ",
+  "black_templars__wrathful_procession_detachment": "01KEZHB633BVGFYACE6N9EGQHG",
+  "blood_angels__1st_company_task_force_detachment": "01KTQJXFVPGJRABFT9D8PA09K7",
+  "blood_angels__angelic_inheritors_detachment": "01KZ0FTVMHW5HPE5X32052K45A",
+  "blood_angels__anvil_siege_force_detachment": "01K4C3H4ZY96Y5VPZMQBCBYQKH",
+  "blood_angels__armoured_speartip_detachment": "01K0YC23BEV7DBH4CXQ7TACKRF",
+  "blood_angels__bastion_task_force_detachment": "01K9EE12RW390E4VW4HZQ0AN36",
+  "blood_angels__ceramite_sentinels_detachment": "01KJAMCANBTMVC90CNNG59XMGN",
+  "blood_angels__firestorm_assault_force_detachment": "01KECE9R0J8K7CC3FEW1VSJJD9",
+  "blood_angels__gladius_task_force_detachment": "01K389FHCVGGRYPMQED1E7NH8P",
+  "blood_angels__headhunter_task_force_detachment": "01KRE72YZKK0ZJ2XY3G387WDC4",
+  "blood_angels__ironstorm_spearhead_detachment": "01KQCQ3ASSKEB84006KJ1ZPP37",
+  "blood_angels__liberator_assault_group_detachment": "01KRRPHPC84FZAXDQEJXJPV8B3",
+  "blood_angels__librarius_conclave_detachment": "01K09N6XY9DDZME2FQF5EVBD2K",
+  "blood_angels__orbital_assault_force_detachment": "01K2JF8YNKVX7T6C0C749M5XMT",
+  "blood_angels__rage_cursed_onslaught_detachment": "01KW3VWERZ441ZEJCN5561839R",
+  "blood_angels__stormlance_task_force_detachment": "01KBNN2SJZNXYK6KRHNE3DSM5J",
+  "blood_angels__the_angelic_host_detachment": "01KM0B01R06KFCN0Z7VTFF6W4K",
+  "blood_angels__the_lost_brethren_detachment": "01KRKTBETCCMBV7Q6BD2ZTA79G",
+  "blood_angels__vanguard_spearhead_detachment": "01KJYS02J5XG8WE17T5W7PA6R7",
+  "chaos_daemons__blood_legion_detachment": "01KX7MBBMXFZMGCCAYKKE0PSP5",
+  "chaos_daemons__daemonic_incursion_detachment": "01KK2GYN5ZGA1ZBAB6CNNH59PQ",
+  "chaos_daemons__legion_of_excess_detachment": "01KENHE7M68E13HZ66YJ6N4E56",
+  "chaos_daemons__plague_legion_detachment": "01KCETAV11K91PJJHKXJZ743G2",
+  "chaos_daemons__scintillating_legion_detachment": "01KP8ZCFMBNWWVCX8QKX4KBS4E",
+  "chaos_daemons__shadow_legion_detachment": "01KWQJYZ6Y2QX3NYD7AGS2WP9T",
+  "chaos_knights__helhunt_lance_detachment": "01K4K91TGNC14Y7791GJ343QFJ",
+  "chaos_knights__houndpack_lance_detachment": "01KZZ46CY5BA030DF6A94TTN7Z",
+  "chaos_knights__iconoclast_fiefdom_detachment": "01K9WM5AY9V0H7NRX4RA3D6B0E",
+  "chaos_knights__infernal_lance_detachment": "01K7X0MBWR2Q2BV3273WKH29Q5",
+  "chaos_knights__lords_of_dread_detachment": "01K620HRN46Q75C9RFN40JDQ7R",
+  "chaos_knights__traitoris_lance_detachment": "01K2T1MP31Z6WSVE4V8VSJR8P9",
+  "chaos_space_marines__cabal_of_chaos_detachment": "01KP4NS4S83VMT2Y3HBN4ZSH70",
+  "chaos_space_marines__chaos_cult_detachment": "01KZPNACX23181H7EE19WZZV59",
+  "chaos_space_marines__creations_of_bile_detachment": "01KF130941WEJM8KR1KB2CRSV0",
+  "chaos_space_marines__cult_of_the_arkifane_detachment": "01K57DETGJKAJM8MSBV50TB2SK",
+  "chaos_space_marines__deceptors_detachment": "01KDGN3P1Q11J4WMM14H8EPFNM",
+  "chaos_space_marines__dread_talons_detachment": "01KE8J7BWJPGX6Q48BV7B0J8WM",
+  "chaos_space_marines__fellhammer_siege_host_detachment": "01K71DJC54DKC6BYDG26HM7RTZ",
+  "chaos_space_marines__hurons_marauders_detachment": "01KMGR0Y19NWMVWEMQE1V433KC",
+  "chaos_space_marines__nightmare_hunt_detachment": "01KX0BXNHNB61V2WDFK7S0J1V7",
+  "chaos_space_marines__pactbound_zealots_detachment": "01KZVAARH1ZNHBRH7HNNGRN05C",
+  "chaos_space_marines__renegade_raiders_detachment": "01KCS76AH9RC30EGNYKRPS28P1",
+  "chaos_space_marines__renegade_warband_detachment": "01KR0PZECTPH1KVS4P4VD9C43M",
+  "chaos_space_marines__soulforged_warpack_detachment": "01KFAH4333Q4X4FPX4WEG1AMW4",
+  "chaos_space_marines__veterans_of_the_long_war_detachment": "01KKDJMT7PYAPM0XETBYRW10CM",
+  "chaos_space_marines__warpstrike_champions_detachment": "01KDZWXD0GCXA23TPG9EAYR4MY",
+  "dark_angels__1st_company_task_force_detachment": "01KQY74KZFXMSR47JZK7MFF9MC",
+  "dark_angels__anvil_siege_force_detachment": "01KVGPTBEKY2Y5MQYET6TSHETC",
+  "dark_angels__armoured_speartip_detachment": "01K0QY0WMK6PE04KW579AXHCJD",
+  "dark_angels__bastion_task_force_detachment": "01KTJN5F4TWT6AVY7AHEK7RHXE",
+  "dark_angels__ceramite_sentinels_detachment": "01K73JMRSA4C2DEEDD1X3R5ZKN",
+  "dark_angels__company_of_hunters_detachment": "01KEC4FJ18HWHDQXMTDWPMY79G",
+  "dark_angels__firestorm_assault_force_detachment": "01KGX802Y8DFCXDVCH0EY89981",
+  "dark_angels__gladius_task_force_detachment": "01KS92TJTBMZ6S4006STDVDH9P",
+  "dark_angels__headhunter_task_force_detachment": "01K1150GSKJ7T6SPET9WFKW736",
+  "dark_angels__inner_circle_task_force_detachment": "01KZC0R3CHNE13FPNY4QBJXSE1",
+  "dark_angels__ironstorm_spearhead_detachment": "01K55PWTWPFRZC7BMZ7YKVDGAN",
+  "dark_angels__librarius_conclave_detachment": "01KT4303NZYRDKCQNY2FSPRGDA",
+  "dark_angels__lions_blade_task_force_detachment": "01KFNNZJBQB6ERJTR1WTKAS4KV",
+  "dark_angels__orbital_assault_force_detachment": "01KWHKR1SEHXWKCJY1Q0RBTY5M",
+  "dark_angels__stormlance_task_force_detachment": "01KFZ7EAQ872NQGQHZM7TVPVRA",
+  "dark_angels__unforgiven_task_force_detachment": "01KK9TCRTMXXEMTTSMC3YG8857",
+  "dark_angels__vanguard_spearhead_detachment": "01KHHTA3NF3QHR8M86AC5FNF76",
+  "dark_angels__wrath_of_the_rock_detachment": "01K7GMV6073GRTZNCP7J67TW1Z",
+  "death_guard__champions_of_contagion_detachment": "01KBHCZ4K1ZNYJ2WN1HRESW8SW",
+  "death_guard__death_lords_chosen_detachment": "01K2V7B013FN5DDD7Y3BSTDJ28",
+  "death_guard__flyblown_host_detachment": "01KNWFA58BQSNGGAE7PS8391R4",
+  "death_guard__mortarions_hammer_detachment": "01KJVRQ2005MVD1E749Z3W9J6G",
+  "death_guard__shamblerot_vectorium_detachment": "01KDJJHHDBYWZ46QVT6EF50K8N",
+  "death_guard__tallyband_summoners_detachment": "01K94F8SY44TAMS2A8MP91MCF9",
+  "death_guard__virulent_vectorium_detachment": "01KJWPV3CXK781AVB5DKF92T64",
+  "deathwatch__1st_company_task_force_detachment": "01KH3RCW97B7A8BYG5P7N5QN0Y",
+  "deathwatch__anvil_siege_force_detachment": "01K4GCGJTCXXMQ4FANS7HMA2ZZ",
+  "deathwatch__armoured_speartip_detachment": "01KCVKJKKA9YDAHZDSTFBD89K0",
+  "deathwatch__bastion_task_force_detachment": "01KCJAR33PYJNWJ012RZYPGBWN",
+  "deathwatch__black_spear_task_force_detachment": "01KN6VAW73SSHA0SMY3M8QF8Y3",
+  "deathwatch__ceramite_sentinels_detachment": "01KVMP8HJDB3509992QMXBVKR9",
+  "deathwatch__firestorm_assault_force_detachment": "01K5K6A6C4DCBZPSRYV20ZQSVR",
+  "deathwatch__gladius_task_force_detachment": "01KE9Q9324DTH69WT45JCTHK5F",
+  "deathwatch__headhunter_task_force_detachment": "01KVB6VW3MT164GV4GH1WQKQCK",
+  "deathwatch__ironstorm_spearhead_detachment": "01K71P28ASE900RHMNCZ3AAQNQ",
+  "deathwatch__librarius_conclave_detachment": "01KJ1MTVGN1KHRNE46626FNBX8",
+  "deathwatch__orbital_assault_force_detachment": "01K9H4A4H4DMHY9K51VDVK5Z1V",
+  "deathwatch__stormlance_task_force_detachment": "01KTKJ0NGJ4MEFM7VK4Y27V87A",
+  "deathwatch__vanguard_spearhead_detachment": "01KRGV4FA4K5A5Q3K6B7HJTM52",
+  "drukhari__covenite_coterie_detachment": "01KJTR2A9QF5RMKNH900VRTHZ7",
+  "drukhari__kabalite_cartel_detachment": "01KVBV62YA4CH6QPF4Y1DVSPX3",
+  "drukhari__realspace_raiders_detachment": "01K0FX6HXT9CK9FVTS9JHM0S7E",
+  "drukhari__reapers_wager_detachment": "01KMPR6CWPY11E2SX2ADAV9SYB",
+  "drukhari__skysplinter_assault_detachment": "01K92MF5RM43ZF2KBJRPK6TAN5",
+  "drukhari__spectacle_of_spite_detachment": "01K34K7D03VK2320MDFMW8VDMK",
+  "emperors_children__carnival_of_excess_detachment": "01KYB942HBQ9HDYZTKJCTVC1GF",
+  "emperors_children__coterie_of_the_conceited_detachment": "01KNJ0H2XHBWQDKFBBHB355DX5",
+  "emperors_children__court_of_the_phoenician_detachment": "01KR8S0BWYNFHC6F08SZFTZVG1",
+  "emperors_children__mercurial_host_detachment": "01KSS1AV36FM3MZAW38BBZ0ZFB",
+  "emperors_children__peerless_bladesmen_detachment": "01KQBNTG0QDKAVJ1M2492WH6JX",
+  "emperors_children__rapid_evisceration_detachment": "01KK67FTVCH5SDBKX57XCRXPZ8",
+  "emperors_children__slaaneshs_chosen_detachment": "01KF8KE2218NF07WTB7F82WFEN",
+  "genestealer_cults__biosanctic_broodsurge_detachment": "01K38F61QNC00PFMPKYVHNH20C",
+  "genestealer_cults__brood_brother_auxilia_detachment": "01KFX1WJRABFH6FZEWJG3BSPFZ",
+  "genestealer_cults__final_day_detachment": "01KCWZWTTFNMBNEK3Y012AXXFA",
+  "genestealer_cults__host_of_ascension_detachment": "01KS1CCWRT11CCSZYY26WMB0HA",
+  "genestealer_cults__outlander_claw_detachment": "01KMW6HXG8TRTG9BBEJC43YN73",
+  "genestealer_cults__xenocreed_congregation_detachment": "01KY5RC862ZYM0T1FSYXX4TA86",
+  "grey_knights__augurium_task_force_detachment": "01KXXNSPN6YY4N245434FKSAX1",
+  "grey_knights__banishers_detachment": "01K958B92NCQGNWE4R35YKJRNX",
+  "grey_knights__brotherhood_strike_detachment": "01K0DRGQ3ZR3A87AA64HYHQ2MM",
+  "grey_knights__hallowed_conclave_detachment": "01KMDPDEVMTHP3RRRT7CTP18JW",
+  "grey_knights__sanctic_spearhead_detachment": "01KZZ0Q66BCXJCKF03YC87NRK4",
+  "grey_knights__warpbane_task_force_detachment": "01K7K1PP6TH780884FNSQT7JQC",
+  "imperial_agents__alien_hunters_ordo_xenos_detachment": "01KBB8R38ZF5QE8RJHBB2D7AF2",
+  "imperial_agents__daemon_hunters_ordo_malleus_detachment": "01KWW842STXFKMFNMJEQX5P0B7",
+  "imperial_agents__imperialis_fleet_detachment": "01K1NFBAGW8YY88416VRDHW2TH",
+  "imperial_agents__purgation_force_ordo_hereticus_detachment": "01KM99G5SRXJ6ZY8ZT7V4EFD57",
+  "imperial_agents__veiled_blade_elimination_force_detachment": "01K3WRM1BY5HJTKSGDJMP9PPXH",
+  "imperial_fists__1st_company_task_force_detachment": "01K3055N66XGD63FTE9JW9R68N",
+  "imperial_fists__anvil_siege_force_detachment": "01KSBVW4RB3ZPWD5175GJDXRVR",
+  "imperial_fists__armoured_speartip_detachment": "01KVSKXZB1B9XPQ122WDBMP80Q",
+  "imperial_fists__bastion_task_force_detachment": "01KABFQZ0Y7277C1G1NAJMXHZV",
+  "imperial_fists__ceramite_sentinels_detachment": "01KD9QYG23NAJTEFRGC9XJTZ79",
+  "imperial_fists__emperors_shield_detachment": "01K8W9536PZP5X0P4GVT2Q7ABS",
+  "imperial_fists__firestorm_assault_force_detachment": "01KYVZYXG0NX1Q3P8XYG02M1C5",
+  "imperial_fists__gladius_task_force_detachment": "01K6PR9YCHPR2395N2PCZTYTHX",
+  "imperial_fists__headhunter_task_force_detachment": "01K4RDE1B6PFZ1V2KQ10G4MF7Z",
+  "imperial_fists__ironstorm_spearhead_detachment": "01KYJGP1BV1EMDS4PX5PN0JF0C",
+  "imperial_fists__librarius_conclave_detachment": "01K0YPC6A774B39C0W5T4HEQCC",
+  "imperial_fists__orbital_assault_force_detachment": "01K4QZZGD0PHF2QTB084GE9MNZ",
+  "imperial_fists__stormlance_task_force_detachment": "01KFWZPFG6BC92VC7PEZ70KE0H",
+  "imperial_fists__vanguard_spearhead_detachment": "01KP83N8W3B5VGEGWXPGDH00ER",
+  "imperial_knights__freeblade_company_detachment": "01K3DK614SF4PYDMK5MDN2N9R1",
+  "imperial_knights__gate_warden_lance_detachment": "01KWVCNG64CDN6TKPDS112KA7E",
+  "imperial_knights__questor_forgepact_detachment": "01KPMY0R22MSG1RHJ0YBZG2FQ2",
+  "imperial_knights__questoris_companions_detachment": "01KHS1YG9RC8SG6K0ZQW16ZGY4",
+  "imperial_knights__spearhead_at_arms_detachment": "01KCB0QCTXKER6CPYSN9NV191Q",
+  "imperial_knights__valourstrike_lance_detachment": "01KCQ8EM33T5JV97JE3T3EYQZR",
+  "iron_hands__1st_company_task_force_detachment": "01KPXHNNQ6EJDZK7N422SEEGCD",
+  "iron_hands__anvil_siege_force_detachment": "01KJ6QNY8FW79KXRR8S1410B6P",
+  "iron_hands__armoured_speartip_detachment": "01KDHZF5PFFNCBVQZ24ZEEC8SY",
+  "iron_hands__bastion_task_force_detachment": "01KZ4YFM40ZQQ5CEN68VCHW71A",
+  "iron_hands__ceramite_sentinels_detachment": "01KX8906ZKQG5Y4MB8V31AJ8NA",
+  "iron_hands__firestorm_assault_force_detachment": "01K1Y8C70Q86S9EQ3XQXW6Z8JV",
+  "iron_hands__gladius_task_force_detachment": "01K5NYZZ0387DGQMHC4KPD8DSG",
+  "iron_hands__hammer_of_avernii_detachment": "01KH7ZP0WCBRQ1RJ6VW5SF1STP",
+  "iron_hands__headhunter_task_force_detachment": "01K71GMQP2Y41D63TFRZYMGZD6",
+  "iron_hands__ironstorm_spearhead_detachment": "01KXMVZYWJQ2WW689DWE521D6M",
+  "iron_hands__librarius_conclave_detachment": "01KEH5S36EGAH4RFKS52YJMAQ1",
+  "iron_hands__orbital_assault_force_detachment": "01KG7RTHGHEK418FFM8CV4TFH2",
+  "iron_hands__stormlance_task_force_detachment": "01KWR8EWN1XYBYHFAX5TVAFSNH",
+  "iron_hands__vanguard_spearhead_detachment": "01K78JP9JMAG47RN56GX6H3BP6",
+  "leagues_of_votann__brandfast_oathband_detachment": "01K4NXENZNYZ1JZ7PFBMS6GJVM",
+  "leagues_of_votann__dalve_assault_shift_detachment": "01KXTT8YB5XRJDT8ZZAGQK295Z",
+  "leagues_of_votann__hearthband_detachment": "01K7766MDR0C91QN0M2DDPKGSK",
+  "leagues_of_votann__hearthfyre_arsenal_detachment": "01KWWZ374KHQBVY17XN1RNYRBB",
+  "leagues_of_votann__mercenary_oathband_detachment": "01KF5BB6EN1GM07TZSZVTY8B79",
+  "leagues_of_votann__needgard_oathband_detachment": "01KFHEMEYV3QH7KYV7A1NN21XS",
+  "leagues_of_votann__persecution_prospect_detachment": "01KCCCJ6Z57VH7MTMB1541BMZP",
+  "necrons__annihilation_legion_detachment": "01KCFXCKFV2P1RE3VGEZJS00AA",
+  "necrons__awakened_dynasty_detachment": "01KHKVNC0A05BA3MX5XB1MK2HE",
+  "necrons__canoptek_court_detachment": "01KEZ3EGQMRFKKX7GXT9SYH9E6",
+  "necrons__cryptek_conclave_detachment": "01KTZVP0P1TZZ2SRHYEESTP6VG",
+  "necrons__cursed_legion_detachment": "01KD4CXDTES3KYYX5WFDJ8WCH4",
+  "necrons__hypercrypt_legion_detachment": "01KY32ACPGAV4TPKX5SBGS9D98",
+  "necrons__obeisance_phalanx_detachment": "01KB7BQ46AA96RB5TAG980ZQJS",
+  "necrons__pantheon_of_woe_detachment": "01KVPYS01MVNRY4WCFHSZXG937",
+  "necrons__starshatter_arsenal_detachment": "01KZHW8YV0WM69W8ZD2428XKNV",
+  "orks__blitz_brigade_detachment": "01K46710HTVSYC2MXEV33Z5AHJ",
+  "orks__bully_boyz_detachment": "01K06YGYCGA3X94DE5D9B312N0",
+  "orks__da_big_hunt_detachment": "01KG5MK23QZ9CEC98V39C1NB8S",
+  "orks__dread_mob_detachment": "01K4AF15YWGM6MGTNPC8TZ2Y7N",
+  "orks__freebooter_krew_detachment": "01KK9W318HXT3PRDJSM88MP404",
+  "orks__green_tide_detachment": "01KQ53SX60VBWJDDXXD987MMCK",
+  "orks__kult_of_speed_detachment": "01KA8TB3FAPH2KC6DEYTAKHWZE",
+  "orks__more_dakka_detachment": "01K3XNMQG3N9MZ8PVMXW8FZJ0R",
+  "orks__speedwaaagh_detachment": "01KP8D7RQRRC6CYNTVVGQF4KN4",
+  "orks__taktikal_brigade_detachment": "01K22PEGEAVPBQQPKWW6KWAZC8",
+  "orks__war_horde_detachment": "01KGK24RWHFNJ3HYBM4YHCH2FK",
+  "raven_guard__1st_company_task_force_detachment": "01KNRX21RADDHKMTS0M4VGVZR0",
+  "raven_guard__anvil_siege_force_detachment": "01KC9A77VRPXSFV610E0WF16AN",
+  "raven_guard__armoured_speartip_detachment": "01KJQTFRNDMH402PBD3WBQVSHQ",
+  "raven_guard__bastion_task_force_detachment": "01K5ZA82VV8Y07A3C63DS8SEEB",
+  "raven_guard__ceramite_sentinels_detachment": "01KE3YSW0R46E168BZ26KYNMQA",
+  "raven_guard__firestorm_assault_force_detachment": "01KM9M0E2Q7HNV5S87FHPVH88N",
+  "raven_guard__gladius_task_force_detachment": "01KRVD32EPP6YPAPAJ594ZS4ER",
+  "raven_guard__headhunter_task_force_detachment": "01KM7KN8XQ3XEASGJ25FVGHN0Z",
+  "raven_guard__ironstorm_spearhead_detachment": "01KT67TQA42Q4H3B96MHEW7YA5",
+  "raven_guard__librarius_conclave_detachment": "01K2PPXM030FD80BJ1NBD4V0FT",
+  "raven_guard__orbital_assault_force_detachment": "01KPNX861B4F0JPQDPSQN9CFKX",
+  "raven_guard__shadowmark_talon_detachment": "01KJ59MPP1Z1W3AJEVXGV7RV7C",
+  "raven_guard__stormlance_task_force_detachment": "01K06ZSBVW3DY9NR5F1P57DRV0",
+  "raven_guard__vanguard_spearhead_detachment": "01K05M26JRTKAN6JJ5Y5PMVXA8",
+  "salamanders__1st_company_task_force_detachment": "01K0H54Z47BB0C3WT81HHV3A7G",
+  "salamanders__anvil_siege_force_detachment": "01KVDDW6Q0JD6CX6SXR76N15AH",
+  "salamanders__armoured_speartip_detachment": "01K248YC06Z0CM85WJMBG85F7C",
+  "salamanders__bastion_task_force_detachment": "01KZ8FAA3QTN3EE880PV3GJMMW",
+  "salamanders__ceramite_sentinels_detachment": "01KMZS6ZVVABKHEE6X22MG1NDP",
+  "salamanders__firestorm_assault_force_detachment": "01K674T82FVR6HTFNXE67FTZCF",
+  "salamanders__forgefathers_seekers_detachment": "01K0D6W8SKYX2FZEPNMK4JV105",
+  "salamanders__gladius_task_force_detachment": "01KV27PMBJAWSX57W6P5FB59Y2",
+  "salamanders__headhunter_task_force_detachment": "01KNWSPPPKBQQ4YZ9EE1KJERGF",
+  "salamanders__ironstorm_spearhead_detachment": "01K44GNJ8FP6PAF8TDV8VHF8DG",
+  "salamanders__librarius_conclave_detachment": "01K3JP811XTMM9YVN3GY2QNFYN",
+  "salamanders__orbital_assault_force_detachment": "01KHHPVS759X942XCZW683H9YH",
+  "salamanders__stormlance_task_force_detachment": "01KQE5994ET5C7JE150T32YF3C",
+  "salamanders__vanguard_spearhead_detachment": "01K0SS1QD4FHPR2060V01FY9Q0",
+  "space_marines__1st_company_task_force_detachment": "01KVXFND8KNA4S8FTMZ0EJT3C2",
+  "space_marines__anvil_siege_force_detachment": "01KJQRMZMDNBNQECMBMM8XGFR3",
+  "space_marines__armoured_speartip_detachment": "01KW46NYWNG2Y99HSY9YBZ6KNN",
+  "space_marines__bastion_task_force_detachment": "01KCKVBCR60Q68FY5SHBTBF9PP",
+  "space_marines__ceramite_sentinels_detachment": "01KF844DEDTC0E5E8J8E2ESCMT",
+  "space_marines__firestorm_assault_force_detachment": "01KRVXVBYT7ZWVFRB6JZM41P0T",
+  "space_marines__gladius_task_force_detachment": "01KBTRTNR7856GNB43MJX8FD98",
+  "space_marines__headhunter_task_force_detachment": "01KQPP02KA4RB0G6MW8DWEX4WZ",
+  "space_marines__ironstorm_spearhead_detachment": "01KNTQVMQZGHHDS4JPR77M24MS",
+  "space_marines__librarius_conclave_detachment": "01KR2EX10GQYGDQ7F6C4Z0RH5V",
+  "space_marines__orbital_assault_force_detachment": "01KFGNT8KN5K1GRP2SSXM112KC",
+  "space_marines__stormlance_task_force_detachment": "01KWS4VTJ3NY4FCEZP9230HTXC",
+  "space_marines__vanguard_spearhead_detachment": "01KQ8Y3CQKBESGAA18BP71QP1X",
+  "space_wolves__1st_company_task_force_detachment": "01KGS975GC7MYJ2FES4QY02ZP1",
+  "space_wolves__anvil_siege_force_detachment": "01KCJJRKX6S5C54A9DBW8ACJPQ",
+  "space_wolves__armoured_speartip_detachment": "01KRX3JZZNGFV43MGAK8Y4ZEF7",
+  "space_wolves__bastion_task_force_detachment": "01KNJ3K2XDXDXXFFM0ZFQQGH79",
+  "space_wolves__ceramite_sentinels_detachment": "01KNH9THQ4VV3S1457BJW1EF5F",
+  "space_wolves__champions_of_fenris_detachment": "01KTME0MCJ2V70ZJD1CHDCCBYA",
+  "space_wolves__firestorm_assault_force_detachment": "01KRA6D9AK8ZK1Q15EH74FDB32",
+  "space_wolves__gladius_task_force_detachment": "01KVRHRBJGD2YH0Z1J2X4HMD8E",
+  "space_wolves__headhunter_task_force_detachment": "01KN632VSG1Y3KXHTRSHCVSX5X",
+  "space_wolves__ironstorm_spearhead_detachment": "01K2J8Q4X15VWBR4QC199N1RA6",
+  "space_wolves__librarius_conclave_detachment": "01KT9C2PT1EFEEX6YM4ZZYR7EQ",
+  "space_wolves__orbital_assault_force_detachment": "01K1GP9WZWAXATHBE05W63RKTN",
+  "space_wolves__saga_of_the_beastslayer_detachment": "01K9NQZREE6GAAS6NPFCD885R9",
+  "space_wolves__saga_of_the_bold_detachment": "01K3JTN7SMYYWYTZK4B3EZ6BY0",
+  "space_wolves__saga_of_the_great_wolf_detachment": "01KC2RQVCJEFTF6MCY634RWXCK",
+  "space_wolves__saga_of_the_hunter_detachment": "01KKHJ8CG385ZY97JSJRQ6J9VF",
+  "space_wolves__stormlance_task_force_detachment": "01KEAFMQDX08XVM4TGJATBES6T",
+  "space_wolves__vanguard_spearhead_detachment": "01KPCTQKVVPDJJPB299RT7MT54",
+  "tau_empire__auxiliary_cadre_detachment": "01K9DC2T13F2PQP46NVH60B6F9",
+  "tau_empire__experimental_prototype_cadre_detachment": "01KSSPW5B7H22CQYBA0JCT9ADQ",
+  "tau_empire__kauyon_detachment": "01K47CGMHV3CX7XBRG07X0QXFE",
+  "tau_empire__kroot_hunting_pack_detachment": "01KPW9MWRV95Q5KZ36ZDP35RKS",
+  "tau_empire__montka_detachment": "01KJ3DQR96JCKBHRKAHMJXAF9Q",
+  "tau_empire__retaliation_cadre_detachment": "01KTJ1PQ6M95ZP4J2A67REGJZZ",
+  "thousand_sons__changehost_of_deceit_detachment": "01KEZ0GVHYD1X7FGJW2KQW870W",
+  "thousand_sons__grand_coven_detachment": "01K50AJD6VCVC0PRHXVQYRDVCH",
+  "thousand_sons__hexwarp_thrallband_detachment": "01K063KNBEQ8PSSV2CSMKM9YM8",
+  "thousand_sons__rubricae_phalanx_detachment": "01KQ962RNCS9QY5GKCCRTD2JQP",
+  "thousand_sons__warpforged_cabal_detachment": "01K1779HKYYWXA6ZK3869RKF34",
+  "thousand_sons__warpmeld_pact_detachment": "01KKRACKA72EDDRP8T2D0VSAYC",
+  "tyranids__assimilation_swarm_detachment": "01K512AW2RTC9Q81WD0M8302HD",
+  "tyranids__crusher_stampede_detachment": "01KH0X5PMGVDSKEDQCRCMCT1HT",
+  "tyranids__invasion_fleet_detachment": "01K84SA29GBW30HA1MVGSEKK33",
+  "tyranids__subterranean_assault_detachment": "01KBDR077A0W8FGP9D6NC26C7A",
+  "tyranids__synaptic_nexus_detachment": "01K5C87DAX95HS28HTZDK0P0RA",
+  "tyranids__unending_swarm_detachment": "01K2XAJRDR4BJC0CKT0VNP7V9Q",
+  "tyranids__vanguard_onslaught_detachment": "01KW0TBX2NJGJYN78XB2E28MX1",
+  "tyranids__warrior_bioform_onslaught_detachment": "01KXJPR879DPJYKF60PMDW104W",
+  "ultramarines__1st_company_task_force_detachment": "01KK4TZW5YXZJSPAYCGA99814C",
+  "ultramarines__anvil_siege_force_detachment": "01K47YH22DY9BC3P83NR5TDP9T",
+  "ultramarines__armoured_speartip_detachment": "01K09CG3MYPJ5DMXNMMCJN3XNE",
+  "ultramarines__bastion_task_force_detachment": "01KPMHNYBG68VRDBVF2XTH8E4P",
+  "ultramarines__blade_of_ultramar_detachment": "01K5XQQZ676H89YXGAGSGXHTYM",
+  "ultramarines__ceramite_sentinels_detachment": "01K0ES5YGB78YP6AQQ2MYMYD6K",
+  "ultramarines__firestorm_assault_force_detachment": "01KYPY1HFG9FB0Q33JE8X3HP20",
+  "ultramarines__gladius_task_force_detachment": "01K4G3G2N4Z5A6WP3PCAJGXXB4",
+  "ultramarines__headhunter_task_force_detachment": "01KKF6XR70XH8FM9NNT6V5V0B3",
+  "ultramarines__ironstorm_spearhead_detachment": "01KFZVRV8ZH4ZPHEVX6NYE44P1",
+  "ultramarines__librarius_conclave_detachment": "01KK5KHRPVQ4C64RH1SKQRJ3Z6",
+  "ultramarines__orbital_assault_force_detachment": "01K1VF3K1WP9F4VWMV90J3MYX9",
+  "ultramarines__reclamation_force_detachment": "01KTD1BRE0S2WKDCQX54SS5ABS",
+  "ultramarines__stormlance_task_force_detachment": "01K9XPWQQ200Y8XA6Y1MQDB368",
+  "ultramarines__vanguard_spearhead_detachment": "01K06PFRTJXQ2ME5FPMX81T68V",
+  "white_scars__1st_company_task_force_detachment": "01KC9JF77NK1Z01NHJ9H48QAX9",
+  "white_scars__anvil_siege_force_detachment": "01K9T4VFJP2E4Y7SK4AMEQT660",
+  "white_scars__armoured_speartip_detachment": "01KTEMTDEN3ZHH637GXH9826AR",
+  "white_scars__bastion_task_force_detachment": "01KAQJRMEZ0M1DTBDCSPX3ET37",
+  "white_scars__ceramite_sentinels_detachment": "01K39HK84B1E1VV1XTE8H5D5C7",
+  "white_scars__firestorm_assault_force_detachment": "01KR1K5NPRSFYDN3JQS31RH6N7",
+  "white_scars__gladius_task_force_detachment": "01KDR4JY1N6NS1A5Q9PZ0NBXR5",
+  "white_scars__headhunter_task_force_detachment": "01K7J0AFWMBY7A3XB7VHKS2GK7",
+  "white_scars__ironstorm_spearhead_detachment": "01KZ1CV002TDEDR5ENZ267KHP3",
+  "white_scars__librarius_conclave_detachment": "01K72YEVRY7FJG95HJ1KES50ZN",
+  "white_scars__orbital_assault_force_detachment": "01KNRZZS0Z994G5QJVH9NT380Q",
+  "white_scars__spearpoint_task_force_detachment": "01KS0ZWT8582WG2HFX7MF91ZQ3",
+  "white_scars__stormlance_task_force_detachment": "01KH62E0JNQTWHHKZ6VFPGSWFT",
+  "white_scars__vanguard_spearhead_detachment": "01K6Y3PEBMKXP9DADVGGY6VDJT",
+  "world_eaters__berzerker_warband_detachment": "01K13391N53ECZ5GDMPPZVS3MD",
+  "world_eaters__cult_of_blood_detachment": "01K1HG6355VS0KF6D22STA50SP",
+  "world_eaters__goretrack_onslaught_detachment": "01KDX5D6MYWX16670ENBA1BE2G",
+  "world_eaters__khorne_daemonkin_detachment": "01KMFY7TKKWQ0WQKV966A4YMFN",
+  "world_eaters__possessed_slaughterband_detachment": "01K4HFQ78Q30C1K4XYT11WFWVA",
+  "world_eaters__vessels_of_wrath_detachment": "01KTAC0GCZ53SSCAKJJP871AVP",
 };
 
 export const rulesFactionDetachmentId = (

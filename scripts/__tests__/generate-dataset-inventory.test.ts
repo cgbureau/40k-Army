@@ -39,6 +39,7 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.rules_factions.expected).toBe("1");
     expect(bloodAngels?.cells.rules_faction_sources.actual).toBe(3);
     expect(bloodAngels?.cells.rules_faction_sources.expected).toBe("3");
+    expect(bloodAngels?.cells.rules_faction_detachments.actual).toBe(18);
     expect(bloodAngels?.cells.unit_models.actual).toBe(0);
     expect(bloodAngels?.cells.unit_models.expected).toBe("234");
   });
@@ -68,9 +69,12 @@ describe("dataset inventory generator", () => {
 
     expect(spaceMarines?.cells.rules_faction_units.expected).toBe("129");
     expect(inventory.columnTotals.rules_faction_sources.expected).toBe("212");
+    expect(inventory.columnTotals.rules_faction_detachments.expected).toBe("343");
+    expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
     expect(spaceMarines?.cells.unit_profiles.expected).toBe("200");
     expect(spaceMarines?.cells.unit_profile_stats.expected).toBe("1200");
     expect(bloodAngels?.cells.rules_faction_units.expected).toBe("156");
+    expect(bloodAngels?.cells.rules_faction_detachments.expected).toBe("18");
     expect(bloodAngels?.cells.unit_models.expected).not.toBe("?");
   });
 });

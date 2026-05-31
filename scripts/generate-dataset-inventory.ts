@@ -75,6 +75,7 @@ const DEFAULT_BSDATA_ROOT =
   process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "rules_faction_units",
+  "rules_faction_detachments",
   "unit_models",
   "unit_point_costs",
   "unit_profile_stats",
@@ -250,11 +251,12 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "",
     "- `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.",
     "- `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.",
+    "- `rules_faction_detachments` expected counts come from BSData Detachment choices visible to each mapped faction catalog. Space Marine chapter factions include shared Codex Space Marines detachments plus chapter-visible exclusive detachments.",
     "- `unit_models` and `models` expected counts come from BSData model selection entries within each expected unit. Single-model unit entries count as one model when they do not contain nested model selections.",
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
     "- `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.",
-    "- `rules_faction_detachments`, `leader_eligibilities`, and `leader_eligibility_keywords` remain `?` because their BSData structures need table-specific mapping rules before the counts are comparable.",
+    "- `leader_eligibilities` and `leader_eligibility_keywords` remain `?` because their BSData structures need table-specific mapping rules before the counts are comparable.",
     "",
     "## Table Completion Workflow",
     "",
