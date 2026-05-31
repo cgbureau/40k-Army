@@ -43,6 +43,8 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.leader_eligibilities.actual).toBe(173);
     expect(bloodAngels?.cells.unit_models.actual).toBe(233);
     expect(bloodAngels?.cells.unit_models.expected).toBe("233");
+    expect(bloodAngels?.cells.unit_point_costs.actual).toBe(200);
+    expect(bloodAngels?.cells.unit_point_costs.expected).toBe("200");
     expect(bloodAngels?.cells.models.actual).toBe(223);
     expect(bloodAngels?.cells.models.expected).toBe("223");
   });
@@ -77,6 +79,8 @@ describe("dataset inventory generator", () => {
     expect(inventory.columnTotals.leader_eligibility_keywords.expected).toBe("82");
     expect(inventory.columnTotals.unit_models.actual).toBe(4681);
     expect(inventory.columnTotals.unit_models.expected).toBe("4681");
+    expect(inventory.columnTotals.unit_point_costs.actual).toBe(3988);
+    expect(inventory.columnTotals.unit_point_costs.expected).toBe("3988");
     expect(inventory.columnTotals.models.actual).toBe(4548);
     expect(inventory.columnTotals.models.expected).toBe("4548");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");

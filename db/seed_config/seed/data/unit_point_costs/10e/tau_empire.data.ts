@@ -1,9 +1,12 @@
-import type { UnitPointCostConfig, SeedDataset } from "../../../../types/_index.types";
+import type {
+  SeedDataset,
+  UnitPointCostConfig,
+} from "../../../../types/_index.types";
 import { gameEditionId, rulesSourceId, unitId, unitPointCostId } from "../../../ids";
 
 /**
- * Unit points costs for the t-au-empire faction.
- * Generated from Wahapedia unit-datasheet data.
+ * 10th edition unit point cost rows owned by `tau_empire`.
+ * Generated from BSData point cost values and modifiers.
  */
 
 export const Aunshi10e1mPointCost: UnitPointCostConfig = {
@@ -11,7 +14,7 @@ export const Aunshi10e1mPointCost: UnitPointCostConfig = {
   unit_point_cost_slug: "aunshi__10e__1m",
   unit_id: unitId("aunshi"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 50,
@@ -19,12 +22,13 @@ export const Aunshi10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Aunva10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("aunva__10e__3m"),
   unit_point_cost_slug: "aunva__10e__3m",
   unit_id: unitId("aunva"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 65,
@@ -32,12 +36,13 @@ export const Aunva10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Ax10TigerShark10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("ax_1_0_tiger_shark__10e__1m"),
   unit_point_cost_slug: "ax_1_0_tiger_shark__10e__1m",
   unit_id: unitId("ax_1_0_tiger_shark"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 315,
@@ -45,12 +50,13 @@ export const Ax10TigerShark10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Barracuda10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("barracuda__10e__1m"),
   unit_point_cost_slug: "barracuda__10e__1m",
   unit_id: unitId("barracuda"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 220,
@@ -58,12 +64,55 @@ export const Barracuda10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
+export const BattlesuitVeteranCrucible10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("battlesuit_veteran_crucible__10e__1m"),
+  unit_point_cost_slug: "battlesuit_veteran_crucible__10e__1m",
+  unit_id: unitId("battlesuit_veteran_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 60,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const BattlesuitVeteranCrucible10e2mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("battlesuit_veteran_crucible__10e__2m"),
+  unit_point_cost_slug: "battlesuit_veteran_crucible__10e__2m",
+  unit_id: unitId("battlesuit_veteran_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 2,
+  maximum_model_count: 2,
+  unit_points: 5,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const BattlesuitVeteranCrucible10e3mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("battlesuit_veteran_crucible__10e__3m"),
+  unit_point_cost_slug: "battlesuit_veteran_crucible__10e__3m",
+  unit_id: unitId("battlesuit_veteran_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 3,
+  maximum_model_count: 3,
+  unit_points: 10,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
 export const BreacherTeam10e10mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("breacher_team__10e__10m"),
   unit_point_cost_slug: "breacher_team__10e__10m",
   unit_id: unitId("breacher_team"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 10,
   maximum_model_count: 10,
   unit_points: 90,
@@ -71,12 +120,13 @@ export const BreacherTeam10e10mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const BroadsideBattlesuits10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("broadside_battlesuits__10e__1m"),
   unit_point_cost_slug: "broadside_battlesuits__10e__1m",
   unit_id: unitId("broadside_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 80,
@@ -84,12 +134,13 @@ export const BroadsideBattlesuits10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const BroadsideBattlesuits10e2mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("broadside_battlesuits__10e__2m"),
   unit_point_cost_slug: "broadside_battlesuits__10e__2m",
   unit_id: unitId("broadside_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 2,
   maximum_model_count: 2,
   unit_points: 170,
@@ -97,12 +148,13 @@ export const BroadsideBattlesuits10e2mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const BroadsideBattlesuits10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("broadside_battlesuits__10e__3m"),
   unit_point_cost_slug: "broadside_battlesuits__10e__3m",
   unit_id: unitId("broadside_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 270,
@@ -110,12 +162,13 @@ export const BroadsideBattlesuits10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CadreFireblade10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("cadre_fireblade__10e__1m"),
   unit_point_cost_slug: "cadre_fireblade__10e__1m",
   unit_id: unitId("cadre_fireblade"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 50,
@@ -123,12 +176,13 @@ export const CadreFireblade10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CommanderFarsight10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("commander_farsight__10e__1m"),
   unit_point_cost_slug: "commander_farsight__10e__1m",
   unit_id: unitId("commander_farsight"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 85,
@@ -136,12 +190,13 @@ export const CommanderFarsight10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CommanderInColdstarBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("commander_in_coldstar_battlesuit__10e__1m"),
   unit_point_cost_slug: "commander_in_coldstar_battlesuit__10e__1m",
   unit_id: unitId("commander_in_coldstar_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 95,
@@ -149,25 +204,27 @@ export const CommanderInColdstarBattlesuit10e1mPointCost: UnitPointCostConfig = 
   superseded_date: null,
 };
 
+
 export const CommanderInCrisisBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("commander_in_crisis_battlesuit__10e__1m"),
   unit_point_cost_slug: "commander_in_crisis_battlesuit__10e__1m",
   unit_id: unitId("commander_in_crisis_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 80,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const CommanderInEnforcerBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("commander_in_enforcer_battlesuit__10e__1m"),
   unit_point_cost_slug: "commander_in_enforcer_battlesuit__10e__1m",
   unit_id: unitId("commander_in_enforcer_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 80,
@@ -175,12 +232,13 @@ export const CommanderInEnforcerBattlesuit10e1mPointCost: UnitPointCostConfig = 
   superseded_date: null,
 };
 
+
 export const CommanderShadowsun10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("commander_shadowsun__10e__1m"),
   unit_point_cost_slug: "commander_shadowsun__10e__1m",
   unit_id: unitId("commander_shadowsun"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 100,
@@ -188,12 +246,13 @@ export const CommanderShadowsun10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CrisisBattlesuits10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("crisis_battlesuits__10e__3m"),
   unit_point_cost_slug: "crisis_battlesuits__10e__3m",
   unit_id: unitId("crisis_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 200,
@@ -201,12 +260,13 @@ export const CrisisBattlesuits10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CrisisBattlesuits10e6mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("crisis_battlesuits__10e__6m"),
   unit_point_cost_slug: "crisis_battlesuits__10e__6m",
   unit_id: unitId("crisis_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 6,
   maximum_model_count: 6,
   unit_points: 400,
@@ -214,12 +274,13 @@ export const CrisisBattlesuits10e6mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CrisisFireknifeBattlesuits10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("crisis_fireknife_battlesuits__10e__3m"),
   unit_point_cost_slug: "crisis_fireknife_battlesuits__10e__3m",
   unit_id: unitId("crisis_fireknife_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 120,
@@ -227,12 +288,13 @@ export const CrisisFireknifeBattlesuits10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CrisisStarscytheBattlesuits10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("crisis_starscythe_battlesuits__10e__3m"),
   unit_point_cost_slug: "crisis_starscythe_battlesuits__10e__3m",
   unit_id: unitId("crisis_starscythe_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 110,
@@ -240,12 +302,13 @@ export const CrisisStarscytheBattlesuits10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CrisisSunforgeBattlesuits10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("crisis_sunforge_battlesuits__10e__3m"),
   unit_point_cost_slug: "crisis_sunforge_battlesuits__10e__3m",
   unit_id: unitId("crisis_sunforge_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 140,
@@ -253,12 +316,13 @@ export const CrisisSunforgeBattlesuits10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Darkstrider10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("darkstrider__10e__1m"),
   unit_point_cost_slug: "darkstrider__10e__1m",
   unit_id: unitId("darkstrider"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 60,
@@ -266,12 +330,13 @@ export const Darkstrider10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Devilfish10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("devilfish__10e__1m"),
   unit_point_cost_slug: "devilfish__10e__1m",
   unit_id: unitId("devilfish"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 85,
@@ -279,25 +344,27 @@ export const Devilfish10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const DroneSentryTurret10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("drone_sentry_turret__10e__1m"),
   unit_point_cost_slug: "drone_sentry_turret__10e__1m",
   unit_id: unitId("drone_sentry_turret"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 50,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const Ethereal10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("ethereal__10e__1m"),
   unit_point_cost_slug: "ethereal__10e__1m",
   unit_id: unitId("ethereal"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 50,
@@ -305,12 +372,13 @@ export const Ethereal10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const FiresightTeam10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("firesight_team__10e__1m"),
   unit_point_cost_slug: "firesight_team__10e__1m",
   unit_id: unitId("firesight_team"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 60,
@@ -318,12 +386,13 @@ export const FiresightTeam10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const GhostkeelBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("ghostkeel_battlesuit__10e__1m"),
   unit_point_cost_slug: "ghostkeel_battlesuit__10e__1m",
   unit_id: unitId("ghostkeel_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 160,
@@ -331,12 +400,13 @@ export const GhostkeelBattlesuit10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const GreatKnarloc10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("great_knarloc__10e__1m"),
   unit_point_cost_slug: "great_knarloc__10e__1m",
   unit_id: unitId("great_knarloc"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 100,
@@ -344,12 +414,13 @@ export const GreatKnarloc10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const HammerheadGunship10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("hammerhead_gunship__10e__1m"),
   unit_point_cost_slug: "hammerhead_gunship__10e__1m",
   unit_id: unitId("hammerhead_gunship"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 145,
@@ -357,77 +428,13 @@ export const HammerheadGunship10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const HeavyGunDrones10e2mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("heavy_gun_drones__10e__2m"),
-  unit_point_cost_slug: "heavy_gun_drones__10e__2m",
+
+export const HeavyGunDrones10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("heavy_gun_drones__10e__1m"),
+  unit_point_cost_slug: "heavy_gun_drones__10e__1m",
   unit_id: unitId("heavy_gun_drones"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 2,
-  maximum_model_count: 2,
-  unit_points: 45,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KnarlocRiders10e3mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("knarloc_riders__10e__3m"),
-  unit_point_cost_slug: "knarloc_riders__10e__3m",
-  unit_id: unitId("knarloc_riders"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 3,
-  maximum_model_count: 3,
-  unit_points: 110,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KrootCarnivores10e10mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_carnivores__10e__10m"),
-  unit_point_cost_slug: "kroot_carnivores__10e__10m",
-  unit_id: unitId("kroot_carnivores"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 10,
-  maximum_model_count: 10,
-  unit_points: 65,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KrootCarnivores10e20mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_carnivores__10e__20m"),
-  unit_point_cost_slug: "kroot_carnivores__10e__20m",
-  unit_id: unitId("kroot_carnivores"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 20,
-  maximum_model_count: 20,
-  unit_points: 140,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KrootFarstalkers10e12mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_farstalkers__10e__12m"),
-  unit_point_cost_slug: "kroot_farstalkers__10e__12m",
-  unit_id: unitId("kroot_farstalkers"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 12,
-  maximum_model_count: 12,
-  unit_points: 85,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KrootFleshShaper10e1mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_flesh_shaper__10e__1m"),
-  unit_point_cost_slug: "kroot_flesh_shaper__10e__1m",
-  unit_id: unitId("kroot_flesh_shaper"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 45,
@@ -435,51 +442,13 @@ export const KrootFleshShaper10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const KrootHounds10e10mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_hounds__10e__10m"),
-  unit_point_cost_slug: "kroot_hounds__10e__10m",
-  unit_id: unitId("kroot_hounds"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 10,
-  maximum_model_count: 10,
-  unit_points: 80,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
 
-export const KrootHounds10e5mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_hounds__10e__5m"),
-  unit_point_cost_slug: "kroot_hounds__10e__5m",
-  unit_id: unitId("kroot_hounds"),
+export const KinbandChampionCrucible10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kinband_champion_crucible__10e__1m"),
+  unit_point_cost_slug: "kinband_champion_crucible__10e__1m",
+  unit_id: unitId("kinband_champion_crucible"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 5,
-  maximum_model_count: 5,
-  unit_points: 40,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KrootLoneSpear10e1mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_lone_spear__10e__1m"),
-  unit_point_cost_slug: "kroot_lone_spear__10e__1m",
-  unit_id: unitId("kroot_lone_spear"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 1,
-  maximum_model_count: 1,
-  unit_points: 80,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const KrootTrailShaper10e1mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("kroot_trail_shaper__10e__1m"),
-  unit_point_cost_slug: "kroot_trail_shaper__10e__1m",
-  unit_id: unitId("kroot_trail_shaper"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 55,
@@ -487,12 +456,167 @@ export const KrootTrailShaper10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
+export const KinbandChampionCrucible10e2mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kinband_champion_crucible__10e__2m"),
+  unit_point_cost_slug: "kinband_champion_crucible__10e__2m",
+  unit_id: unitId("kinband_champion_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 2,
+  maximum_model_count: 2,
+  unit_points: 5,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KinbandChampionCrucible10e3mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kinband_champion_crucible__10e__3m"),
+  unit_point_cost_slug: "kinband_champion_crucible__10e__3m",
+  unit_id: unitId("kinband_champion_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 3,
+  maximum_model_count: 3,
+  unit_points: 10,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KnarlocRiders10e3mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("knarloc_riders__10e__3m"),
+  unit_point_cost_slug: "knarloc_riders__10e__3m",
+  unit_id: unitId("knarloc_riders"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 3,
+  maximum_model_count: 3,
+  unit_points: 110,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootCarnivores10e22mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_carnivores__10e__22m"),
+  unit_point_cost_slug: "kroot_carnivores__10e__22m",
+  unit_id: unitId("kroot_carnivores"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 22,
+  maximum_model_count: 22,
+  unit_points: 140,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootCarnivores10e8mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_carnivores__10e__8m"),
+  unit_point_cost_slug: "kroot_carnivores__10e__8m",
+  unit_id: unitId("kroot_carnivores"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 8,
+  maximum_model_count: 8,
+  unit_points: 65,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootFarstalkers10e11mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_farstalkers__10e__11m"),
+  unit_point_cost_slug: "kroot_farstalkers__10e__11m",
+  unit_id: unitId("kroot_farstalkers"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 11,
+  maximum_model_count: 11,
+  unit_points: 85,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootFleshShaper10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_flesh_shaper__10e__1m"),
+  unit_point_cost_slug: "kroot_flesh_shaper__10e__1m",
+  unit_id: unitId("kroot_flesh_shaper"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 45,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootHounds10e10mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_hounds__10e__10m"),
+  unit_point_cost_slug: "kroot_hounds__10e__10m",
+  unit_id: unitId("kroot_hounds"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 10,
+  maximum_model_count: 10,
+  unit_points: 80,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootHounds10e5mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_hounds__10e__5m"),
+  unit_point_cost_slug: "kroot_hounds__10e__5m",
+  unit_id: unitId("kroot_hounds"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 5,
+  maximum_model_count: 5,
+  unit_points: 40,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootLoneSpear10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_lone_spear__10e__1m"),
+  unit_point_cost_slug: "kroot_lone_spear__10e__1m",
+  unit_id: unitId("kroot_lone_spear"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 80,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const KrootTrailShaper10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("kroot_trail_shaper__10e__1m"),
+  unit_point_cost_slug: "kroot_trail_shaper__10e__1m",
+  unit_id: unitId("kroot_trail_shaper"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 55,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
 export const KrootWarShaper10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("kroot_war_shaper__10e__1m"),
   unit_point_cost_slug: "kroot_war_shaper__10e__1m",
   unit_id: unitId("kroot_war_shaper"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 50,
@@ -500,12 +624,13 @@ export const KrootWarShaper10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KrootoxRampagers10e3mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("krootox_rampagers__10e__3m"),
   unit_point_cost_slug: "krootox_rampagers__10e__3m",
   unit_id: unitId("krootox_rampagers"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 3,
   maximum_model_count: 3,
   unit_points: 85,
@@ -513,12 +638,13 @@ export const KrootoxRampagers10e3mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KrootoxRampagers10e6mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("krootox_rampagers__10e__6m"),
   unit_point_cost_slug: "krootox_rampagers__10e__6m",
   unit_id: unitId("krootox_rampagers"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 6,
   maximum_model_count: 6,
   unit_points: 170,
@@ -526,12 +652,13 @@ export const KrootoxRampagers10e6mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KrootoxRiders10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("krootox_riders__10e__1m"),
   unit_point_cost_slug: "krootox_riders__10e__1m",
   unit_id: unitId("krootox_riders"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 40,
@@ -539,12 +666,13 @@ export const KrootoxRiders10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KrootoxRiders10e2mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("krootox_riders__10e__2m"),
   unit_point_cost_slug: "krootox_riders__10e__2m",
   unit_id: unitId("krootox_riders"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 2,
   maximum_model_count: 2,
   unit_points: 60,
@@ -552,25 +680,27 @@ export const KrootoxRiders10e2mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const KrootoxRiders10e3mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("krootox_riders__10e__3m"),
-  unit_point_cost_slug: "krootox_riders__10e__3m",
+
+export const KrootoxRiders10e6mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("krootox_riders__10e__6m"),
+  unit_point_cost_slug: "krootox_riders__10e__6m",
   unit_id: unitId("krootox_riders"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 3,
-  maximum_model_count: 3,
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 6,
+  maximum_model_count: 6,
   unit_points: 90,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const Longstrike10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("longstrike__10e__1m"),
   unit_point_cost_slug: "longstrike__10e__1m",
   unit_id: unitId("longstrike"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 140,
@@ -578,12 +708,13 @@ export const Longstrike10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Manta10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("manta__10e__1m"),
   unit_point_cost_slug: "manta__10e__1m",
   unit_id: unitId("manta"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 2100,
@@ -591,12 +722,13 @@ export const Manta10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const OrcaDropship10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("orca_dropship__10e__1m"),
   unit_point_cost_slug: "orca_dropship__10e__1m",
   unit_id: unitId("orca_dropship"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 275,
@@ -604,12 +736,13 @@ export const OrcaDropship10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const PathfinderTeam10e10mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("pathfinder_team__10e__10m"),
   unit_point_cost_slug: "pathfinder_team__10e__10m",
   unit_id: unitId("pathfinder_team"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 10,
   maximum_model_count: 10,
   unit_points: 90,
@@ -617,12 +750,13 @@ export const PathfinderTeam10e10mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Piranhas10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("piranhas__10e__1m"),
   unit_point_cost_slug: "piranhas__10e__1m",
   unit_id: unitId("piranhas"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 60,
@@ -630,38 +764,13 @@ export const Piranhas10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const Piranhas10e2mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("piranhas__10e__2m"),
-  unit_point_cost_slug: "piranhas__10e__2m",
-  unit_id: unitId("piranhas"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 2,
-  maximum_model_count: 2,
-  unit_points: 120,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
-
-export const Piranhas10e3mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("piranhas__10e__3m"),
-  unit_point_cost_slug: "piranhas__10e__3m",
-  unit_id: unitId("piranhas"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 3,
-  maximum_model_count: 3,
-  unit_points: 180,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
 
 export const RazorsharkStrikeFighter10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("razorshark_strike_fighter__10e__1m"),
   unit_point_cost_slug: "razorshark_strike_fighter__10e__1m",
   unit_id: unitId("razorshark_strike_fighter"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 170,
@@ -669,12 +778,13 @@ export const RazorsharkStrikeFighter10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const RemoraStealthDrones10e2mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("remora_stealth_drones__10e__2m"),
   unit_point_cost_slug: "remora_stealth_drones__10e__2m",
   unit_id: unitId("remora_stealth_drones"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 2,
   maximum_model_count: 2,
   unit_points: 160,
@@ -682,12 +792,13 @@ export const RemoraStealthDrones10e2mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const RemoteSensorTower10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("remote_sensor_tower__10e__1m"),
   unit_point_cost_slug: "remote_sensor_tower__10e__1m",
   unit_id: unitId("remote_sensor_tower"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 50,
@@ -695,25 +806,27 @@ export const RemoteSensorTower10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const RiptideBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("riptide_battlesuit__10e__1m"),
   unit_point_cost_slug: "riptide_battlesuit__10e__1m",
   unit_id: unitId("riptide_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 200,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const RvarnaBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("rvarna_battlesuit__10e__1m"),
   unit_point_cost_slug: "rvarna_battlesuit__10e__1m",
   unit_id: unitId("rvarna_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 200,
@@ -721,12 +834,55 @@ export const RvarnaBattlesuit10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
+export const ShasnelCrucible10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("shasnel_crucible__10e__1m"),
+  unit_point_cost_slug: "shasnel_crucible__10e__1m",
+  unit_id: unitId("shasnel_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 50,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const ShasnelCrucible10e2mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("shasnel_crucible__10e__2m"),
+  unit_point_cost_slug: "shasnel_crucible__10e__2m",
+  unit_id: unitId("shasnel_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 2,
+  maximum_model_count: 2,
+  unit_points: 5,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const ShasnelCrucible10e3mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("shasnel_crucible__10e__3m"),
+  unit_point_cost_slug: "shasnel_crucible__10e__3m",
+  unit_id: unitId("shasnel_crucible"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 3,
+  maximum_model_count: 3,
+  unit_points: 10,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
 export const ShasoRalai10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("shaso_ralai__10e__1m"),
   unit_point_cost_slug: "shaso_ralai__10e__1m",
   unit_id: unitId("shaso_ralai"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 80,
@@ -734,12 +890,13 @@ export const ShasoRalai10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const SkyRayGunship10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("sky_ray_gunship__10e__1m"),
   unit_point_cost_slug: "sky_ray_gunship__10e__1m",
   unit_id: unitId("sky_ray_gunship"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 150,
@@ -747,25 +904,27 @@ export const SkyRayGunship10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const StealthBattlesuits10e5mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("stealth_battlesuits__10e__5m"),
-  unit_point_cost_slug: "stealth_battlesuits__10e__5m",
+
+export const StealthBattlesuits10e3mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("stealth_battlesuits__10e__3m"),
+  unit_point_cost_slug: "stealth_battlesuits__10e__3m",
   unit_id: unitId("stealth_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 5,
-  maximum_model_count: 5,
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 3,
+  maximum_model_count: 3,
   unit_points: 100,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const Stormsurge10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("stormsurge__10e__1m"),
   unit_point_cost_slug: "stormsurge__10e__1m",
   unit_id: unitId("stormsurge"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 360,
@@ -773,25 +932,27 @@ export const Stormsurge10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const StrikeTeam10e10mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("strike_team__10e__10m"),
-  unit_point_cost_slug: "strike_team__10e__10m",
+
+export const StrikeTeam10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("strike_team__10e__1m"),
+  unit_point_cost_slug: "strike_team__10e__1m",
   unit_id: unitId("strike_team"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 10,
-  maximum_model_count: 10,
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
   unit_points: 70,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const SunSharkBomber10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("sun_shark_bomber__10e__1m"),
   unit_point_cost_slug: "sun_shark_bomber__10e__1m",
   unit_id: unitId("sun_shark_bomber"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 160,
@@ -799,25 +960,13 @@ export const SunSharkBomber10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const TacticalDrones10e12mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("tactical_drones__10e__12m"),
-  unit_point_cost_slug: "tactical_drones__10e__12m",
-  unit_id: unitId("tactical_drones"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 12,
-  maximum_model_count: 12,
-  unit_points: 210,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
 
 export const TacticalDrones10e4mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tactical_drones__10e__4m"),
   unit_point_cost_slug: "tactical_drones__10e__4m",
   unit_id: unitId("tactical_drones"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 4,
   maximum_model_count: 4,
   unit_points: 70,
@@ -825,25 +974,13 @@ export const TacticalDrones10e4mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const TacticalDrones10e8mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("tactical_drones__10e__8m"),
-  unit_point_cost_slug: "tactical_drones__10e__8m",
-  unit_id: unitId("tactical_drones"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 8,
-  maximum_model_count: 8,
-  unit_points: 140,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
 
 export const TaunarSupremacyArmour10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("taunar_supremacy_armour__10e__1m"),
   unit_point_cost_slug: "taunar_supremacy_armour__10e__1m",
   unit_id: unitId("taunar_supremacy_armour"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 790,
@@ -851,12 +988,13 @@ export const TaunarSupremacyArmour10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Tetras10e2mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tetras__10e__2m"),
   unit_point_cost_slug: "tetras__10e__2m",
   unit_id: unitId("tetras"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 2,
   maximum_model_count: 2,
   unit_points: 80,
@@ -864,12 +1002,13 @@ export const Tetras10e2mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Tetras10e4mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tetras__10e__4m"),
   unit_point_cost_slug: "tetras__10e__4m",
   unit_id: unitId("tetras"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 4,
   maximum_model_count: 4,
   unit_points: 160,
@@ -877,12 +1016,13 @@ export const Tetras10e4mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const TheTwinLance10e2mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("the_twin_lance__10e__2m"),
   unit_point_cost_slug: "the_twin_lance__10e__2m",
   unit_id: unitId("the_twin_lance"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 2,
   maximum_model_count: 2,
   unit_points: 185,
@@ -890,12 +1030,13 @@ export const TheTwinLance10e2mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const TidewallDroneport10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tidewall_droneport__10e__1m"),
   unit_point_cost_slug: "tidewall_droneport__10e__1m",
   unit_id: unitId("tidewall_droneport"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 85,
@@ -903,12 +1044,13 @@ export const TidewallDroneport10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const TidewallGunrig10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tidewall_gunrig__10e__1m"),
   unit_point_cost_slug: "tidewall_gunrig__10e__1m",
   unit_id: unitId("tidewall_gunrig"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 90,
@@ -916,25 +1058,41 @@ export const TidewallGunrig10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const TidewallShieldline10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tidewall_shieldline__10e__1m"),
   unit_point_cost_slug: "tidewall_shieldline__10e__1m",
   unit_id: unitId("tidewall_shieldline"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
+  unit_points: 20,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
+export const TidewallShieldline10e2mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("tidewall_shieldline__10e__2m"),
+  unit_point_cost_slug: "tidewall_shieldline__10e__2m",
+  unit_id: unitId("tidewall_shieldline"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 2,
+  maximum_model_count: 2,
   unit_points: 85,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const TigerShark10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tiger_shark__10e__1m"),
   unit_point_cost_slug: "tiger_shark__10e__1m",
   unit_id: unitId("tiger_shark"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 325,
@@ -942,12 +1100,13 @@ export const TigerShark10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Tx42Piranha10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("tx42_piranha__10e__1m"),
   unit_point_cost_slug: "tx42_piranha__10e__1m",
   unit_id: unitId("tx42_piranha"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 60,
@@ -955,25 +1114,27 @@ export const Tx42Piranha10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const VespidStingwings10e10mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("vespid_stingwings__10e__10m"),
-  unit_point_cost_slug: "vespid_stingwings__10e__10m",
+
+export const VespidStingwings10e13mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("vespid_stingwings__10e__13m"),
+  unit_point_cost_slug: "vespid_stingwings__10e__13m",
   unit_id: unitId("vespid_stingwings"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 10,
-  maximum_model_count: 10,
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
+  minimum_model_count: 13,
+  maximum_model_count: 13,
   unit_points: 130,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const VespidStingwings10e5mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("vespid_stingwings__10e__5m"),
   unit_point_cost_slug: "vespid_stingwings__10e__5m",
   unit_id: unitId("vespid_stingwings"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 5,
   maximum_model_count: 5,
   unit_points: 65,
@@ -981,12 +1142,13 @@ export const VespidStingwings10e5mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const Xv9HazardBattlesuits10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("xv9_hazard_battlesuits__10e__1m"),
   unit_point_cost_slug: "xv9_hazard_battlesuits__10e__1m",
   unit_id: unitId("xv9_hazard_battlesuits"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 55,
@@ -994,25 +1156,13 @@ export const Xv9HazardBattlesuits10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const Xv9HazardBattlesuits10e2mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("xv9_hazard_battlesuits__10e__2m"),
-  unit_point_cost_slug: "xv9_hazard_battlesuits__10e__2m",
-  unit_id: unitId("xv9_hazard_battlesuits"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
-  minimum_model_count: 2,
-  maximum_model_count: 2,
-  unit_points: 110,
-  effective_date: new Date("2024-01-01"),
-  superseded_date: null,
-};
 
 export const YvahraBattlesuit10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("yvahra_battlesuit__10e__1m"),
   unit_point_cost_slug: "yvahra_battlesuit__10e__1m",
   unit_id: unitId("yvahra_battlesuit"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_tau_empire_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 210,
@@ -1020,13 +1170,17 @@ export const YvahraBattlesuit10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const tAuEmpireUnitPointCostsDataset: SeedDataset<"unit_point_costs"> = {
+
+export const tauEmpireUnitPointCosts10e: SeedDataset<"unit_point_costs"> = {
   table: "unit_point_costs",
   records: [
     Aunshi10e1mPointCost,
     Aunva10e3mPointCost,
     Ax10TigerShark10e1mPointCost,
     Barracuda10e1mPointCost,
+    BattlesuitVeteranCrucible10e1mPointCost,
+    BattlesuitVeteranCrucible10e2mPointCost,
+    BattlesuitVeteranCrucible10e3mPointCost,
     BreacherTeam10e10mPointCost,
     BroadsideBattlesuits10e1mPointCost,
     BroadsideBattlesuits10e2mPointCost,
@@ -1050,11 +1204,14 @@ export const tAuEmpireUnitPointCostsDataset: SeedDataset<"unit_point_costs"> = {
     GhostkeelBattlesuit10e1mPointCost,
     GreatKnarloc10e1mPointCost,
     HammerheadGunship10e1mPointCost,
-    HeavyGunDrones10e2mPointCost,
+    HeavyGunDrones10e1mPointCost,
+    KinbandChampionCrucible10e1mPointCost,
+    KinbandChampionCrucible10e2mPointCost,
+    KinbandChampionCrucible10e3mPointCost,
     KnarlocRiders10e3mPointCost,
-    KrootCarnivores10e10mPointCost,
-    KrootCarnivores10e20mPointCost,
-    KrootFarstalkers10e12mPointCost,
+    KrootCarnivores10e22mPointCost,
+    KrootCarnivores10e8mPointCost,
+    KrootFarstalkers10e11mPointCost,
     KrootFleshShaper10e1mPointCost,
     KrootHounds10e10mPointCost,
     KrootHounds10e5mPointCost,
@@ -1065,28 +1222,27 @@ export const tAuEmpireUnitPointCostsDataset: SeedDataset<"unit_point_costs"> = {
     KrootoxRampagers10e6mPointCost,
     KrootoxRiders10e1mPointCost,
     KrootoxRiders10e2mPointCost,
-    KrootoxRiders10e3mPointCost,
+    KrootoxRiders10e6mPointCost,
     Longstrike10e1mPointCost,
     Manta10e1mPointCost,
     OrcaDropship10e1mPointCost,
     PathfinderTeam10e10mPointCost,
     Piranhas10e1mPointCost,
-    Piranhas10e2mPointCost,
-    Piranhas10e3mPointCost,
     RazorsharkStrikeFighter10e1mPointCost,
     RemoraStealthDrones10e2mPointCost,
     RemoteSensorTower10e1mPointCost,
     RiptideBattlesuit10e1mPointCost,
     RvarnaBattlesuit10e1mPointCost,
+    ShasnelCrucible10e1mPointCost,
+    ShasnelCrucible10e2mPointCost,
+    ShasnelCrucible10e3mPointCost,
     ShasoRalai10e1mPointCost,
     SkyRayGunship10e1mPointCost,
-    StealthBattlesuits10e5mPointCost,
+    StealthBattlesuits10e3mPointCost,
     Stormsurge10e1mPointCost,
-    StrikeTeam10e10mPointCost,
+    StrikeTeam10e1mPointCost,
     SunSharkBomber10e1mPointCost,
-    TacticalDrones10e12mPointCost,
     TacticalDrones10e4mPointCost,
-    TacticalDrones10e8mPointCost,
     TaunarSupremacyArmour10e1mPointCost,
     Tetras10e2mPointCost,
     Tetras10e4mPointCost,
@@ -1094,12 +1250,12 @@ export const tAuEmpireUnitPointCostsDataset: SeedDataset<"unit_point_costs"> = {
     TidewallDroneport10e1mPointCost,
     TidewallGunrig10e1mPointCost,
     TidewallShieldline10e1mPointCost,
+    TidewallShieldline10e2mPointCost,
     TigerShark10e1mPointCost,
     Tx42Piranha10e1mPointCost,
-    VespidStingwings10e10mPointCost,
+    VespidStingwings10e13mPointCost,
     VespidStingwings10e5mPointCost,
     Xv9HazardBattlesuits10e1mPointCost,
-    Xv9HazardBattlesuits10e2mPointCost,
     YvahraBattlesuit10e1mPointCost,
   ] satisfies UnitPointCostConfig[],
 };

@@ -304,6 +304,11 @@ def main() -> None:
         help="Emit expected global models derived from BSData unit model selections.",
     )
     parser.add_argument(
+        "--emit-unit-point-costs",
+        action="store_true",
+        help="Emit expected unit_point_costs memberships instead of counts.",
+    )
+    parser.add_argument(
         "--repo-root",
         default=str(Path(__file__).resolve().parents[1]),
         help="Repository root used to load current seed unit slugs for slug aliases.",
@@ -335,6 +340,10 @@ def main() -> None:
         records = expected_models(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_unit_point_costs:
+        records = expected_unit_point_costs(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
 
     seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
@@ -362,6 +371,9 @@ def main() -> None:
     model_counts = expected_model_counts(index, Path(args.repo_root))
     for slug, count in model_counts.items():
         result[slug]["models"] = count
+    unit_point_cost_counts = expected_unit_point_cost_counts(index, Path(args.repo_root))
+    for slug, count in unit_point_cost_counts.items():
+        result[slug]["unit_point_costs"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -505,6 +517,215 @@ def expected_models(
     )
 
 
+def expected_unit_point_cost_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_unit_point_costs(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_unit_point_costs(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str | int]]:
+    seed_unit_slugs = load_seed_unit_slugs(repo_root)
+    records: list[dict[str, str | int]] = []
+
+    for faction_slug, sources in CATALOG_SOURCES.items():
+        unit_entries: "OrderedDict[str, UnitEntry]" = OrderedDict()
+
+        for mode, filename in sources:
+            for entry in source_unit_entries(index, mode, filename):
+                unit_slug = seed_unit_slug(entry.name, seed_unit_slugs)
+                if not include_unit_for_faction(unit_slug, faction_slug):
+                    continue
+                unit_entries[unit_slug] = entry
+
+        for unit_slug, entry in unit_entries.items():
+            for cost_record in point_cost_records_for_unit(entry.element):
+                records.append(
+                    {
+                        "rules_faction_slug": faction_slug,
+                        "unit_slug": unit_slug,
+                        "unit_point_cost_slug": (
+                            f"{unit_slug}__10e__{cost_record['model_count']}m"
+                        ),
+                        "minimum_model_count": cost_record["model_count"],
+                        "maximum_model_count": cost_record["model_count"],
+                        "unit_points": cost_record["unit_points"],
+                        "rules_source_slug": unit_rules_source_slug(
+                            unit_slug,
+                            entry.source_file,
+                            faction_slug,
+                        ),
+                        "source_owner_slug": unit_source_owner_slug(
+                            unit_slug,
+                            entry.source_file,
+                            faction_slug,
+                        ),
+                        "source_file": entry.source_file,
+                        "source_mode": entry.source_mode,
+                        "bsdata_unit_name": entry.name,
+                        "bsdata_cost_kind": cost_record["cost_kind"],
+                    },
+                )
+
+    return sorted(
+        records,
+        key=lambda record: (
+            str(record["rules_faction_slug"]),
+            str(record["unit_point_cost_slug"]),
+        ),
+    )
+
+
+def point_cost_records_for_unit(entry: ET.Element) -> list[dict[str, str | int]]:
+    min_model_count, max_model_count = unit_model_count_bounds(entry)
+    raw_records: list[dict[str, str | int]] = []
+    seen_values: set[int] = set()
+
+    for cost in entry.findall(".//bs:cost", BS_NS):
+        if cost.attrib.get("name") != "pts" or cost.attrib.get("value") is None:
+            continue
+        unit_points = int(float(cost.attrib["value"]))
+        if unit_points in seen_values:
+            continue
+        seen_values.add(unit_points)
+        raw_records.append(
+            {
+                "model_count": min_model_count,
+                "unit_points": unit_points,
+                "cost_kind": "cost",
+            },
+        )
+
+    thresholds = point_modifier_thresholds(entry)
+    for index, modifier in enumerate(point_modifiers(entry)):
+        unit_points = int(float(modifier.attrib["value"]))
+        if unit_points in seen_values:
+            continue
+        seen_values.add(unit_points)
+        raw_records.append(
+            {
+                "model_count": model_count_for_point_modifier(
+                    modifier,
+                    thresholds,
+                    max_model_count,
+                    index,
+                ),
+                "unit_points": unit_points,
+                "cost_kind": modifier.attrib.get("type", "modifier"),
+            },
+        )
+
+    return with_unique_point_cost_model_counts(raw_records)
+
+
+def point_modifiers(entry: ET.Element) -> list[ET.Element]:
+    return [
+        modifier
+        for modifier in entry.findall(".//bs:modifier", BS_NS)
+        if (
+            modifier.attrib.get("field") == POINTS_FIELD_ID
+            and modifier.attrib.get("value") is not None
+        )
+    ]
+
+
+def point_modifier_thresholds(entry: ET.Element) -> list[int]:
+    thresholds: set[int] = set()
+
+    for modifier in point_modifiers(entry):
+        threshold = point_modifier_threshold(modifier)
+        if threshold is not None:
+            thresholds.add(threshold)
+
+    return sorted(thresholds)
+
+
+def point_modifier_threshold(modifier: ET.Element) -> int | None:
+    for condition in modifier.findall(".//bs:condition", BS_NS):
+        if (
+            condition.attrib.get("field") == "selections"
+            and condition.attrib.get("value") is not None
+        ):
+            return int(float(condition.attrib["value"]))
+
+    return None
+
+
+def model_count_for_point_modifier(
+    modifier: ET.Element,
+    thresholds: list[int],
+    max_model_count: int,
+    index: int,
+) -> int:
+    threshold = point_modifier_threshold(modifier)
+    if threshold is None:
+        return max_model_count + index
+
+    condition_type = ""
+    condition = modifier.find(".//bs:condition", BS_NS)
+    if condition is not None:
+        condition_type = condition.attrib.get("type", "")
+
+    if condition_type == "equalTo":
+        return threshold
+    if condition_type in {"lessThan", "atMost"}:
+        return max(1, threshold - 1)
+
+    higher_thresholds = [value for value in thresholds if value > threshold]
+    if higher_thresholds:
+        return higher_thresholds[0] - 1
+
+    return max_model_count
+
+
+def with_unique_point_cost_model_counts(
+    records: list[dict[str, str | int]],
+) -> list[dict[str, str | int]]:
+    used_counts: set[int] = set()
+    results: list[dict[str, str | int]] = []
+
+    for index, record in enumerate(records):
+        model_count = int(record["model_count"])
+        while model_count in used_counts:
+            model_count += 1
+        used_counts.add(model_count)
+        results.append({**record, "model_count": model_count})
+
+    return results
+
+
+def unit_model_count_bounds(entry: ET.Element) -> tuple[int, int]:
+    if entry.attrib.get("type") == "model":
+        return (1, 1)
+
+    model_entries = [
+        model
+        for model in entry.findall(".//bs:selectionEntry", BS_NS)
+        if model.attrib.get("type") == "model"
+    ]
+    if not model_entries:
+        return (1, 1)
+
+    min_count = sum(
+        selection_count_with_default(model, "min", default=0)
+        for model in model_entries
+    )
+    max_count = sum(
+        selection_count_with_default(model, "max", default=0)
+        for model in model_entries
+    )
+
+    return (max(1, min_count), max(max_count, min_count, 1))
+
+
 def model_records_for_unit(
     entry: ET.Element,
     fallback_model_name: str,
@@ -559,6 +780,15 @@ def with_unit_model_slugs(
 
 
 def selection_count(selection: ET.Element, count_type: str) -> int:
+    return selection_count_with_default(selection, count_type, default=1)
+
+
+def selection_count_with_default(
+    selection: ET.Element,
+    count_type: str,
+    *,
+    default: int,
+) -> int:
     for constraint in selection.findall("./bs:constraints/bs:constraint", BS_NS):
         if (
             constraint.attrib.get("type") == count_type
@@ -567,7 +797,7 @@ def selection_count(selection: ET.Element, count_type: str) -> int:
         ):
             return int(float(constraint.attrib["value"]))
 
-    return 1
+    return default
 
 
 def source_unit_entries(

@@ -1,9 +1,12 @@
-import type { UnitPointCostConfig, SeedDataset } from "../../../../types/_index.types";
+import type {
+  SeedDataset,
+  UnitPointCostConfig,
+} from "../../../../types/_index.types";
 import { gameEditionId, rulesSourceId, unitId, unitPointCostId } from "../../../ids";
 
 /**
- * Unit points costs for the imperial-knights faction.
- * Generated from Wahapedia unit-datasheet data.
+ * 10th edition unit point cost rows owned by `imperial_knights`.
+ * Generated from BSData point cost values and modifiers.
  */
 
 export const AcastusKnightAsterius10e1mPointCost: UnitPointCostConfig = {
@@ -11,7 +14,7 @@ export const AcastusKnightAsterius10e1mPointCost: UnitPointCostConfig = {
   unit_point_cost_slug: "acastus_knight_asterius__10e__1m",
   unit_id: unitId("acastus_knight_asterius"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 765,
@@ -19,12 +22,13 @@ export const AcastusKnightAsterius10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const AcastusKnightPorphyrion10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("acastus_knight_porphyrion__10e__1m"),
   unit_point_cost_slug: "acastus_knight_porphyrion__10e__1m",
   unit_id: unitId("acastus_knight_porphyrion"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 700,
@@ -32,12 +36,13 @@ export const AcastusKnightPorphyrion10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const ArmigerHelverin10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("armiger_helverin__10e__1m"),
   unit_point_cost_slug: "armiger_helverin__10e__1m",
   unit_id: unitId("armiger_helverin"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 135,
@@ -45,12 +50,13 @@ export const ArmigerHelverin10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const ArmigerMoirax10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("armiger_moirax__10e__1m"),
   unit_point_cost_slug: "armiger_moirax__10e__1m",
   unit_id: unitId("armiger_moirax"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 150,
@@ -58,12 +64,13 @@ export const ArmigerMoirax10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const ArmigerWarglaive10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("armiger_warglaive__10e__1m"),
   unit_point_cost_slug: "armiger_warglaive__10e__1m",
   unit_id: unitId("armiger_warglaive"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 140,
@@ -71,25 +78,27 @@ export const ArmigerWarglaive10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const CanisRex10e1mPointCost: UnitPointCostConfig = {
-  id: unitPointCostId("canis_rex__10e__1m"),
-  unit_point_cost_slug: "canis_rex__10e__1m",
+
+export const CanisRex10e2mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("canis_rex__10e__2m"),
+  unit_point_cost_slug: "canis_rex__10e__2m",
   unit_id: unitId("canis_rex"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
-  minimum_model_count: 1,
-  maximum_model_count: 1,
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
+  minimum_model_count: 2,
+  maximum_model_count: 2,
   unit_points: 415,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const CerastusKnightAcheron10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("cerastus_knight_acheron__10e__1m"),
   unit_point_cost_slug: "cerastus_knight_acheron__10e__1m",
   unit_id: unitId("cerastus_knight_acheron"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 395,
@@ -97,12 +106,13 @@ export const CerastusKnightAcheron10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CerastusKnightAtrapos10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("cerastus_knight_atrapos__10e__1m"),
   unit_point_cost_slug: "cerastus_knight_atrapos__10e__1m",
   unit_id: unitId("cerastus_knight_atrapos"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 405,
@@ -110,25 +120,27 @@ export const CerastusKnightAtrapos10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const CerastusKnightCastigator10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("cerastus_knight_castigator__10e__1m"),
   unit_point_cost_slug: "cerastus_knight_castigator__10e__1m",
   unit_id: unitId("cerastus_knight_castigator"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 395,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const CerastusKnightLancer10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("cerastus_knight_lancer__10e__1m"),
   unit_point_cost_slug: "cerastus_knight_lancer__10e__1m",
   unit_id: unitId("cerastus_knight_lancer"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 395,
@@ -136,12 +148,13 @@ export const CerastusKnightLancer10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightCastellan10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_castellan__10e__1m"),
   unit_point_cost_slug: "knight_castellan__10e__1m",
   unit_id: unitId("knight_castellan"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 410,
@@ -149,12 +162,13 @@ export const KnightCastellan10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightCrusader10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_crusader__10e__1m"),
   unit_point_cost_slug: "knight_crusader__10e__1m",
   unit_id: unitId("knight_crusader"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 385,
@@ -162,12 +176,13 @@ export const KnightCrusader10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightDefender10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_defender__10e__1m"),
   unit_point_cost_slug: "knight_defender__10e__1m",
   unit_id: unitId("knight_defender"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 415,
@@ -175,25 +190,41 @@ export const KnightDefender10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
+export const KnightDestrier10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("knight_destrier__10e__1m"),
+  unit_point_cost_slug: "knight_destrier__10e__1m",
+  unit_id: unitId("knight_destrier"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 250,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
 export const KnightErrant10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_errant__10e__1m"),
   unit_point_cost_slug: "knight_errant__10e__1m",
   unit_id: unitId("knight_errant"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 355,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const KnightGallant10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_gallant__10e__1m"),
   unit_point_cost_slug: "knight_gallant__10e__1m",
   unit_id: unitId("knight_gallant"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 355,
@@ -201,12 +232,13 @@ export const KnightGallant10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightPaladin10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_paladin__10e__1m"),
   unit_point_cost_slug: "knight_paladin__10e__1m",
   unit_id: unitId("knight_paladin"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 375,
@@ -214,12 +246,13 @@ export const KnightPaladin10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightPreceptor10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_preceptor__10e__1m"),
   unit_point_cost_slug: "knight_preceptor__10e__1m",
   unit_id: unitId("knight_preceptor"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 365,
@@ -227,12 +260,13 @@ export const KnightPreceptor10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightValiant10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_valiant__10e__1m"),
   unit_point_cost_slug: "knight_valiant__10e__1m",
   unit_id: unitId("knight_valiant"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 410,
@@ -240,12 +274,13 @@ export const KnightValiant10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const KnightWarden10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("knight_warden__10e__1m"),
   unit_point_cost_slug: "knight_warden__10e__1m",
   unit_id: unitId("knight_warden"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 375,
@@ -253,25 +288,27 @@ export const KnightWarden10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
+
 export const QuestorisKnightMagaera10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("questoris_knight_magaera__10e__1m"),
   unit_point_cost_slug: "questoris_knight_magaera__10e__1m",
   unit_id: unitId("questoris_knight_magaera"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 385,
   effective_date: new Date("2024-01-01"),
   superseded_date: null,
 };
+
 
 export const QuestorisKnightStyrix10e1mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("questoris_knight_styrix__10e__1m"),
   unit_point_cost_slug: "questoris_knight_styrix__10e__1m",
   unit_id: unitId("questoris_knight_styrix"),
   game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
+  rules_source_id: rulesSourceId("codex_imperial_knights_10e"),
   minimum_model_count: 1,
   maximum_model_count: 1,
   unit_points: 385,
@@ -279,7 +316,8 @@ export const QuestorisKnightStyrix10e1mPointCost: UnitPointCostConfig = {
   superseded_date: null,
 };
 
-export const imperialKnightsUnitPointCostsDataset: SeedDataset<"unit_point_costs"> = {
+
+export const imperialKnightsUnitPointCosts10e: SeedDataset<"unit_point_costs"> = {
   table: "unit_point_costs",
   records: [
     AcastusKnightAsterius10e1mPointCost,
@@ -287,7 +325,7 @@ export const imperialKnightsUnitPointCostsDataset: SeedDataset<"unit_point_costs
     ArmigerHelverin10e1mPointCost,
     ArmigerMoirax10e1mPointCost,
     ArmigerWarglaive10e1mPointCost,
-    CanisRex10e1mPointCost,
+    CanisRex10e2mPointCost,
     CerastusKnightAcheron10e1mPointCost,
     CerastusKnightAtrapos10e1mPointCost,
     CerastusKnightCastigator10e1mPointCost,
@@ -295,6 +333,7 @@ export const imperialKnightsUnitPointCostsDataset: SeedDataset<"unit_point_costs
     KnightCastellan10e1mPointCost,
     KnightCrusader10e1mPointCost,
     KnightDefender10e1mPointCost,
+    KnightDestrier10e1mPointCost,
     KnightErrant10e1mPointCost,
     KnightGallant10e1mPointCost,
     KnightPaladin10e1mPointCost,
