@@ -9,11 +9,14 @@ import { dirname, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 import {
+  leaderEligibilitiesDataset,
   rulesFactionDetachmentsDataset,
   rulesFactionsDataset,
   rulesFactionSourcesDataset,
   rulesFactionUnitsDataset,
+  unitsDataset,
 } from "../db/seed_config/seed/data/_index.data";
+import { leaderEligibilityId } from "../db/seed_config/seed/ids";
 
 export const DATASET_INVENTORY_COLUMNS = [
   { key: "rules_factions", label: "rules_factions" },
@@ -66,6 +69,14 @@ type RulesFactionLinkedRecord = {
 
 type BsDataExpectedCounts = Partial<Record<DatasetInventoryColumnKey, number>>;
 
+type BsDataLeaderEligibilityRecord = {
+  rules_faction_slug: string;
+  leader_eligibility_slug: string;
+  leader_unit_slug: string;
+  target_unit_slug: string | null;
+  target_kind: "unit" | "keyword_predicate";
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -76,6 +87,7 @@ const DEFAULT_BSDATA_ROOT =
 const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "rules_faction_units",
   "rules_faction_detachments",
+  "leader_eligibilities",
   "unit_models",
   "unit_point_costs",
   "unit_profile_stats",
@@ -124,7 +136,6 @@ const TARGET_FACTIONS: TargetFaction[] = [
 const FACTION_DATASET_SUFFIXES: Partial<
   Record<DatasetInventoryColumnKey, string>
 > = {
-  leader_eligibilities: "leader_eligibilities",
   leader_eligibility_keywords: "leader_eligibility_keywords",
   unit_models: "unit_models",
   unit_point_costs: "unit_point_costs",
@@ -163,6 +174,13 @@ export function buildDatasetInventory(
     rulesFactionDetachmentsDataset.records,
     factionSlugById,
   );
+  const leaderEligibilityCountsByFaction = countLeaderEligibilityCoverageByFaction(
+    factionSlugById,
+    repoRoot,
+    bsDataRoot,
+  ) ?? countLeaderEligibilitiesByFaction(
+    factionSlugById,
+  );
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -184,6 +202,8 @@ export function buildDatasetInventory(
     );
     cells.rules_faction_detachments.actual =
       detachmentCountsByFaction.get(faction.slug) ?? 0;
+    cells.leader_eligibilities.actual =
+      leaderEligibilityCountsByFaction.get(faction.slug) ?? 0;
 
     for (const [columnKey, suffix] of Object.entries(FACTION_DATASET_SUFFIXES)) {
       const key = columnKey as DatasetInventoryColumnKey;
@@ -225,7 +245,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "",
     "Cell format: `actual / expected`.",
     "",
-    "- `actual` is the current seed row count in this repository.",
+    "- `actual` is the current seed row count or faction coverage count in this repository. For global unit-linked tables such as `leader_eligibilities`, it is the count of BSData faction memberships covered by checked-in global seed rows.",
     "- `expected` is either the BSData-derived target count or, for curated tables, the policy-backed seed target. Cells marked `?` still need table-specific mapping rules before expected counts are comparable.",
     "- Faction-scoped datasheet columns count physical files under `db/seed_config/seed/data/unit_datasheets/<faction>/`, not inherited or effective access through `rules_faction_units`.",
     "- `models` counts distinct `model_id` references in the faction's `unit_models` file. The global `models` table itself does not carry a direct `rules_faction_id`.",
@@ -252,11 +272,12 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.",
     "- `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.",
     "- `rules_faction_detachments` expected counts come from BSData Detachment choices visible to each mapped faction catalog. Space Marine chapter factions include shared Codex Space Marines detachments plus chapter-visible exclusive detachments.",
+    "- `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null` and will receive child keyword rows in the `leader_eligibility_keywords` slice.",
     "- `unit_models` and `models` expected counts come from BSData model selection entries within each expected unit. Single-model unit entries count as one model when they do not contain nested model selections.",
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
     "- `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.",
-    "- `leader_eligibilities` and `leader_eligibility_keywords` remain `?` because their BSData structures need table-specific mapping rules before the counts are comparable.",
+    "- `leader_eligibility_keywords` remains `?` because its BSData structures need table-specific mapping rules before the counts are comparable.",
     "",
     "## Table Completion Workflow",
     "",
@@ -347,6 +368,130 @@ function countByFactionSlug(
   }
 
   return counts;
+}
+
+function countLeaderEligibilityCoverageByFaction(
+  factionSlugById: Map<string, string>,
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> | null {
+  const result = spawnSync(
+    "python3",
+    [
+      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
+      "--bsdata-root",
+      bsDataRoot,
+      "--repo-root",
+      repoRoot,
+      "--emit-leader-eligibilities",
+    ],
+    {
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+    },
+  );
+
+  if (result.status !== 0) {
+    return null;
+  }
+
+  const expectedRecords = JSON.parse(
+    result.stdout,
+  ) as BsDataLeaderEligibilityRecord[];
+  const coveredKeys = currentLeaderEligibilityCoverageKeys();
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(leaderEligibilityCoverageKey(record))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function currentLeaderEligibilityCoverageKeys(): Set<string> {
+  const unitSlugById = new Map(
+    unitsDataset.records.map((record) => [record.id, record.unit_slug]),
+  );
+  const keys = new Set<string>();
+
+  for (const record of leaderEligibilitiesDataset.records) {
+    const leaderSlug = unitSlugById.get(record.leader_unit_id);
+    if (!leaderSlug) {
+      continue;
+    }
+
+    if (!record.target_unit_id) {
+      keys.add(record.id);
+      continue;
+    }
+
+    const targetSlug = unitSlugById.get(record.target_unit_id);
+    if (!targetSlug) {
+      continue;
+    }
+
+    keys.add(`${leaderSlug}__${targetSlug}`);
+  }
+
+  return keys;
+}
+
+function leaderEligibilityCoverageKey(
+  record: BsDataLeaderEligibilityRecord,
+): string {
+  if (record.target_unit_slug) {
+    return `${record.leader_unit_slug}__${record.target_unit_slug}`;
+  }
+
+  return leaderEligibilityId(record.leader_eligibility_slug);
+}
+
+function countLeaderEligibilitiesByFaction(
+  factionSlugById: Map<string, string>,
+): Map<string, number> {
+  const unitFactionSlugsById = new Map<string, Set<string>>();
+
+  for (const record of rulesFactionUnitsDataset.records) {
+    const factionSlug = factionSlugById.get(record.rules_faction_id);
+    if (!factionSlug) {
+      continue;
+    }
+
+    const factionSlugs =
+      unitFactionSlugsById.get(record.unit_id) ?? new Set<string>();
+    factionSlugs.add(factionSlug);
+    unitFactionSlugsById.set(record.unit_id, factionSlugs);
+  }
+
+  const counts = new Map<string, number>();
+
+  for (const record of leaderEligibilitiesDataset.records) {
+    const leaderFactionSlugs =
+      unitFactionSlugsById.get(record.leader_unit_id) ?? new Set<string>();
+    const eligibleFactionSlugs = record.target_unit_id
+      ? intersectSets(
+          leaderFactionSlugs,
+          unitFactionSlugsById.get(record.target_unit_id) ?? new Set<string>(),
+        )
+      : leaderFactionSlugs;
+
+    for (const factionSlug of eligibleFactionSlugs) {
+      counts.set(factionSlug, (counts.get(factionSlug) ?? 0) + 1);
+    }
+  }
+
+  return counts;
+}
+
+function intersectSets<T>(left: Set<T>, right: Set<T>): Set<T> {
+  return new Set([...left].filter((value) => right.has(value)));
 }
 
 function countFactionDatasetRecords(

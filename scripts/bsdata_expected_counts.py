@@ -149,6 +149,16 @@ DETACHMENT_SLUG_ALIASES = {
     "d_lve_assault_shift_detachment": "dalve_assault_shift_detachment",
 }
 
+LEADER_TARGET_SLUG_ALIASES = {
+    "legionaires": "legionaries",
+    "plague_bearers": "plaguebearers",
+    "raiders": "red_corsairs_raiders",
+    "storm_guardian": "storm_guardians",
+    "sternguard_veterans_squad": "sternguard_veteran_squad",
+    "sword_brethren": "sword_brethren_squad",
+    "traitor_guardsman_squad": "traitor_guardsmen_squad",
+}
+
 
 class BsDataIndex:
     def __init__(self, root: Path) -> None:
@@ -204,6 +214,11 @@ def main() -> None:
         help="Emit expected rules_faction_detachments memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-leader-eligibilities",
+        action="store_true",
+        help="Emit expected leader_eligibilities memberships instead of counts.",
+    )
+    parser.add_argument(
         "--repo-root",
         default=str(Path(__file__).resolve().parents[1]),
         help="Repository root used to load current seed unit slugs for slug aliases.",
@@ -219,6 +234,10 @@ def main() -> None:
         records = expected_rules_faction_detachments(index)
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_leader_eligibilities:
+        records = expected_leader_eligibilities(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
 
     seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
@@ -228,6 +247,12 @@ def main() -> None:
     detachment_counts = expected_rules_faction_detachment_counts(index)
     for slug, count in detachment_counts.items():
         result[slug]["rules_faction_detachments"] = count
+    leader_eligibility_counts = expected_leader_eligibility_counts(
+        index,
+        Path(args.repo_root),
+    )
+    for slug, count in leader_eligibility_counts.items():
+        result[slug]["leader_eligibilities"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -462,6 +487,186 @@ def expected_rules_faction_detachments(index: BsDataIndex) -> list[dict[str, str
             record["detachment_slug"],
         ),
     )
+
+
+def expected_leader_eligibility_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_leader_eligibilities(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_leader_eligibilities(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str | None]]:
+    seed_unit_slugs = load_seed_unit_slugs(repo_root)
+    records: list[dict[str, str | None]] = []
+
+    for faction_slug, sources in CATALOG_SOURCES.items():
+        faction_records: "OrderedDict[str, dict[str, str | None]]" = OrderedDict()
+
+        for mode, filename in sources:
+            for entry in source_unit_entries(index, mode, filename):
+                leader_unit_slug = seed_unit_slug(entry.name, seed_unit_slugs)
+
+                for profile in entry.element.findall(".//bs:profile", BS_NS):
+                    if (
+                        profile.attrib.get("name") != "Leader"
+                        or profile.attrib.get("typeName") != "Abilities"
+                    ):
+                        continue
+
+                    for target_name in leader_target_names(profile):
+                        target_unit_slug = leader_target_unit_slug(
+                            target_name,
+                            seed_unit_slugs,
+                        )
+                        target_kind = (
+                            "unit"
+                            if target_unit_slug is not None
+                            else "keyword_predicate"
+                        )
+                        target_slug = (
+                            target_unit_slug
+                            if target_unit_slug is not None
+                            else f"keyword_{normalize_slug(target_name)}"
+                        )
+                        leader_eligibility_slug = (
+                            f"{leader_unit_slug}__{target_slug}"
+                        )
+
+                        faction_records[leader_eligibility_slug] = {
+                            "rules_faction_slug": faction_slug,
+                            "leader_eligibility_slug": leader_eligibility_slug,
+                            "leader_unit_slug": leader_unit_slug,
+                            "target_unit_slug": target_unit_slug,
+                            "target_kind": target_kind,
+                            "target_text": display_leader_target_name(target_name),
+                            "rules_source_slug": DEFAULT_RULES_SOURCE_BY_FACTION[
+                                faction_slug
+                            ],
+                            "source_file": filename,
+                            "source_mode": mode,
+                            "bsdata_leader_name": entry.name,
+                            "bsdata_target_name": target_name,
+                        }
+
+        records.extend(faction_records.values())
+
+    return sorted(
+        records,
+        key=lambda record: (
+            str(record["rules_faction_slug"]),
+            str(record["leader_eligibility_slug"]),
+        ),
+    )
+
+
+def leader_target_names(profile: ET.Element) -> list[str]:
+    description = " ".join(
+        characteristic.text or ""
+        for characteristic in profile.findall(".//bs:characteristic", BS_NS)
+        if characteristic.attrib.get("name") == "Description"
+    )
+    description = clean_bsdata_text(description, collapse_whitespace=False)
+
+    match = re.search(
+        r"following units?:\s*(.*)",
+        description,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    if not match:
+        return []
+
+    raw_list = match.group(1).strip()
+    bullet_items = leader_bullet_items(raw_list)
+    if bullet_items:
+        return bullet_items
+
+    return leader_inline_items(raw_list)
+
+
+def leader_bullet_items(raw_list: str) -> list[str]:
+    items: list[str] = []
+    started = False
+
+    for line in raw_list.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+
+        bullet_match = re.match(r"^(?:[-•■])\s*(.+)$", stripped)
+        if bullet_match:
+            started = True
+            item = clean_leader_target_name(bullet_match.group(1))
+            if item:
+                items.append(item)
+            continue
+
+        if started:
+            break
+
+    return items
+
+
+def leader_inline_items(raw_list: str) -> list[str]:
+    text = re.split(
+        r"\s+(?:This model|This unit|You can|If you|If a|While this model|In addition)\b",
+        raw_list,
+        maxsplit=1,
+    )[0]
+    text = re.split(r"\n\s*\n", text, maxsplit=1)[0]
+    text = re.sub(r"\([^)]*\)", "", text)
+    text = text.replace(";", ",")
+
+    if "\n" in text:
+        text = text.replace("\n", ",")
+
+    parts = [clean_leader_target_name(part) for part in text.split(",")]
+    return [part for part in parts if part]
+
+
+def clean_bsdata_text(text: str, *, collapse_whitespace: bool = True) -> str:
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"\^\^|\*\*", "", text)
+    text = text.replace("■", "\n■")
+    text = text.replace("•", "\n•")
+    if collapse_whitespace:
+        text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def clean_leader_target_name(name: str) -> str:
+    name = clean_bsdata_text(name)
+    name = re.sub(r"\([^)]*\)", "", name)
+    name = name.strip(" .,:;*-")
+    return re.sub(r"\s+", " ", name).strip()
+
+
+def leader_target_unit_slug(
+    target_name: str,
+    seed_unit_slugs: set[str],
+) -> str | None:
+    target_slug = seed_unit_slug(target_name, seed_unit_slugs)
+    target_slug = LEADER_TARGET_SLUG_ALIASES.get(target_slug, target_slug)
+
+    if target_slug in seed_unit_slugs:
+        return target_slug
+
+    return None
+
+
+def display_leader_target_name(name: str) -> str:
+    if name.isupper():
+        return name.title()
+
+    return name
 
 
 def source_detachment_entries(
