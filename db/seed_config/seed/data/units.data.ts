@@ -11735,6 +11735,869 @@ export const ZodgrodWortsnaggaUnit: UnitConfig = {
     "https://wahapedia.ru/wh40k10ed/factions/orks/Zodgrod-Wortsnagga",
 };
 
+export const ArchtormentorCrucibleUnit: UnitConfig = {
+  id: unitId("archtormentor_crucible"),
+  unit_name: "Archtormentor [Crucible]",
+  unit_slug: "archtormentor_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const AugmentedBoneEadCrucibleUnit: UnitConfig = {
+  id: unitId("augmented_bone_ead_crucible"),
+  unit_name: "Augmented Bone 'Ead [Crucible]",
+  unit_slug: "augmented_bone_ead_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const BattlesuitVeteranCrucibleUnit: UnitConfig = {
+  id: unitId("battlesuit_veteran_crucible"),
+  unit_name: "Battlesuit Veteran [Crucible]",
+  unit_slug: "battlesuit_veteran_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const BloodcultChampionCrucibleUnit: UnitConfig = {
+  id: unitId("bloodcult_champion_crucible"),
+  unit_name: "Bloodcult Champion [Crucible]",
+  unit_slug: "bloodcult_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const BrayherdChieftainCrucibleUnit: UnitConfig = {
+  id: unitId("brayherd_chieftain_crucible"),
+  unit_name: "Brayherd Chieftain [Crucible]",
+  unit_slug: "brayherd_chieftain_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const BrayherdShamanCrucibleUnit: UnitConfig = {
+  id: unitId("brayherd_shaman_crucible"),
+  unit_name: "Brayherd Shaman [Crucible]",
+  unit_slug: "brayherd_shaman_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const BurnaBoyUnit: UnitConfig = {
+  id: unitId("burna_boy"),
+  unit_name: "Burna Boy",
+  unit_slug: "burna_boy",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ButcherlordCrucibleUnit: UnitConfig = {
+  id: unitId("butcherlord_crucible"),
+  unit_name: "Butcherlord [Crucible]",
+  unit_slug: "butcherlord_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CaptainSicariusUnit: UnitConfig = {
+  id: unitId("captain_sicarius"),
+  unit_name: "Captain Sicarius",
+  unit_slug: "captain_sicarius",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CelestianSacresantAnointedHalberdUnit: UnitConfig = {
+  id: unitId("celestian_sacresant_anointed_halberd"),
+  unit_name: "Celestian Sacresant (Anointed Halberd)",
+  unit_slug: "celestian_sacresant_anointed_halberd",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CelestianSacresantHallowedMaceUnit: UnitConfig = {
+  id: unitId("celestian_sacresant_hallowed_mace"),
+  unit_name: "Celestian Sacresant (Hallowed Mace)",
+  unit_slug: "celestian_sacresant_hallowed_mace",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ChampionOfExcessCrucibleUnit: UnitConfig = {
+  id: unitId("champion_of_excess_crucible"),
+  unit_name: "Champion of Excess [Crucible]",
+  unit_slug: "champion_of_excess_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ChampionOfTheChapterCrucibleUnit: UnitConfig = {
+  id: unitId("champion_of_the_chapter_crucible"),
+  unit_name: "Champion of the Chapter [Crucible]",
+  unit_slug: "champion_of_the_chapter_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ChampionOfTitanCrucibleUnit: UnitConfig = {
+  id: unitId("champion_of_titan_crucible"),
+  unit_name: "Champion of Titan [Crucible]",
+  unit_slug: "champion_of_titan_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ChaosSpawnFleshChangeUnit: UnitConfig = {
+  id: unitId("chaos_spawn_flesh_change"),
+  unit_name: "Chaos Spawn (Flesh Change)",
+  unit_slug: "chaos_spawn_flesh_change",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CohortCommanderCrucibleUnit: UnitConfig = {
+  id: unitId("cohort_commander_crucible"),
+  unit_name: "Cohort Commander [Crucible]",
+  unit_slug: "cohort_commander_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CraftworldWarleaderCrucibleUnit: UnitConfig = {
+  id: unitId("craftworld_warleader_crucible"),
+  unit_name: "Craftworld Warleader [Crucible]",
+  unit_slug: "craftworld_warleader_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CultGuerrillaCrucibleUnit: UnitConfig = {
+  id: unitId("cult_guerrilla_crucible"),
+  unit_name: "Cult Guerrilla [Crucible]",
+  unit_slug: "cult_guerrilla_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CultInsurrectionistCrucibleUnit: UnitConfig = {
+  id: unitId("cult_insurrectionist_crucible"),
+  unit_name: "Cult Insurrectionist [Crucible]",
+  unit_slug: "cult_insurrectionist_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const CyberMastiffUnit: UnitConfig = {
+  id: unitId("cyber_mastiff"),
+  unit_name: "Cyber-mastiff",
+  unit_slug: "cyber_mastiff",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DaRedGobbosABombInableSnowmanLegendsUnit: UnitConfig = {
+  id: unitId("da_red_gobbos_a_bomb_inable_snowman_legends"),
+  unit_name: "Da Red Gobbo's A-bomb-inable Snowman (Legends)",
+  unit_slug: "da_red_gobbos_a_bomb_inable_snowman_legends",
+  is_legends: true,
+  wahapedia_url: null,
+};
+
+
+export const DaemonicCharioteerCrucibleUnit: UnitConfig = {
+  id: unitId("daemonic_charioteer_crucible"),
+  unit_name: "Daemonic Charioteer [Crucible]",
+  unit_slug: "daemonic_charioteer_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DaemonicHeraldCrucibleUnit: UnitConfig = {
+  id: unitId("daemonic_herald_crucible"),
+  unit_name: "Daemonic Herald [Crucible]",
+  unit_slug: "daemonic_herald_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DeathCompanyIntercessorsUnit: UnitConfig = {
+  id: unitId("death_company_intercessors"),
+  unit_name: "Death Company Intercessors",
+  unit_slug: "death_company_intercessors",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DeathwatchAgentCrucibleUnit: UnitConfig = {
+  id: unitId("deathwatch_agent_crucible"),
+  unit_name: "Deathwatch Agent [Crucible]",
+  unit_slug: "deathwatch_agent_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DeathwatchVeteranWCarbineUnit: UnitConfig = {
+  id: unitId("deathwatch_veteran_w_carbine"),
+  unit_name: "Deathwatch Veteran w/ carbine",
+  unit_slug: "deathwatch_veteran_w_carbine",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DeathwatchVeteranWHeavyThunderHammerUnit: UnitConfig = {
+  id: unitId("deathwatch_veteran_w_heavy_thunder_hammer"),
+  unit_name: "Deathwatch Veteran w/ heavy thunder hammer",
+  unit_slug: "deathwatch_veteran_w_heavy_thunder_hammer",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DeathwatchVeteranWStalkerBoltRifleUnit: UnitConfig = {
+  id: unitId("deathwatch_veteran_w_stalker_bolt_rifle"),
+  unit_name: "Deathwatch Veteran w/ stalker bolt rifle",
+  unit_slug: "deathwatch_veteran_w_stalker_bolt_rifle",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DreadknightChampionCrucibleUnit: UnitConfig = {
+  id: unitId("dreadknight_champion_crucible"),
+  unit_name: "Dreadknight Champion [Crucible]",
+  unit_slug: "dreadknight_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const DynasticConquerorCrucibleUnit: UnitConfig = {
+  id: unitId("dynastic_conqueror_crucible"),
+  unit_name: "Dynastic Conqueror [Crucible]",
+  unit_slug: "dynastic_conqueror_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const EightBlessedLordCrucibleUnit: UnitConfig = {
+  id: unitId("eight_blessed_lord_crucible"),
+  unit_name: "Eight-blessed Lord [Crucible]",
+  unit_slug: "eight_blessed_lord_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const EmperorsChampionAnointedUnit: UnitConfig = {
+  id: unitId("emperors_champion_anointed"),
+  unit_name: "Emperor's Champion (Anointed)",
+  unit_slug: "emperors_champion_anointed",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const EnthronedAgentCrucibleUnit: UnitConfig = {
+  id: unitId("enthroned_agent_crucible"),
+  unit_name: "Enthroned Agent [Crucible]",
+  unit_slug: "enthroned_agent_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ExaltedChampionCrucibleUnit: UnitConfig = {
+  id: unitId("exalted_champion_crucible"),
+  unit_name: "Exalted Champion [Crucible]",
+  unit_slug: "exalted_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ExcruciatorCrucibleUnit: UnitConfig = {
+  id: unitId("excruciator_crucible"),
+  unit_name: "Excruciator [Crucible]",
+  unit_slug: "excruciator_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const FlawlessChampionCrucibleUnit: UnitConfig = {
+  id: unitId("flawless_champion_crucible"),
+  unit_name: "Flawless Champion [Crucible]",
+  unit_slug: "flawless_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const FleshCrafterCrucibleUnit: UnitConfig = {
+  id: unitId("flesh_crafter_crucible"),
+  unit_name: "Flesh Crafter [Crucible]",
+  unit_slug: "flesh_crafter_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const FrontLineCommanderCrucibleUnit: UnitConfig = {
+  id: unitId("front_line_commander_crucible"),
+  unit_name: "Front-line Commander [Crucible]",
+  unit_slug: "front_line_commander_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const GeminaeSuperiaUnit: UnitConfig = {
+  id: unitId("geminae_superia"),
+  unit_name: "Geminae Superia",
+  unit_slug: "geminae_superia",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const GhostWarriorCrucibleUnit: UnitConfig = {
+  id: unitId("ghost_warrior_crucible"),
+  unit_name: "Ghost Warrior [Crucible]",
+  unit_slug: "ghost_warrior_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const GravisVeteranWInfernusHeavyBolterUnit: UnitConfig = {
+  id: unitId("gravis_veteran_w_infernus_heavy_bolter"),
+  unit_name: "Gravis Veteran w/ infernus heavy bolter",
+  unit_slug: "gravis_veteran_w_infernus_heavy_bolter",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const GrotmasGitzLegendsUnit: UnitConfig = {
+  id: unitId("grotmas_gitz_legends"),
+  unit_name: "Grotmas Gitz (Legends)",
+  unit_slug: "grotmas_gitz_legends",
+  is_legends: true,
+  wahapedia_url: null,
+};
+
+
+export const GuardianOfTheThroneCrucibleUnit: UnitConfig = {
+  id: unitId("guardian_of_the_throne_crucible"),
+  unit_name: "Guardian of the Throne [Crucible]",
+  unit_slug: "guardian_of_the_throne_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const HordebossCrucibleUnit: UnitConfig = {
+  id: unitId("hordeboss_crucible"),
+  unit_name: "Hordeboss [Crucible]",
+  unit_slug: "hordeboss_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const HuntingWolvesUnit: UnitConfig = {
+  id: unitId("hunting_wolves"),
+  unit_name: "Hunting Wolves",
+  unit_slug: "hunting_wolves",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const HyperscientistCrucibleUnit: UnitConfig = {
+  id: unitId("hyperscientist_crucible"),
+  unit_name: "Hyperscientist [Crucible]",
+  unit_slug: "hyperscientist_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ImmortalChampionCrucibleUnit: UnitConfig = {
+  id: unitId("immortal_champion_crucible"),
+  unit_name: "Immortal Champion [Crucible]",
+  unit_slug: "immortal_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const InspiringDevoteeCrucibleUnit: UnitConfig = {
+  id: unitId("inspiring_devotee_crucible"),
+  unit_name: "Inspiring Devotee [Crucible]",
+  unit_slug: "inspiring_devotee_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const IronstriderAlphaCrucibleUnit: UnitConfig = {
+  id: unitId("ironstrider_alpha_crucible"),
+  unit_name: "Ironstrider Alpha [Crucible]",
+  unit_slug: "ironstrider_alpha_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const KataphraktoiExemplarCrucibleUnit: UnitConfig = {
+  id: unitId("kataphraktoi_exemplar_crucible"),
+  unit_name: "Kataphraktoi Exemplar [Crucible]",
+  unit_slug: "kataphraktoi_exemplar_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const KhorneSoulGrinderUnit: UnitConfig = {
+  id: unitId("khorne_soul_grinder"),
+  unit_name: "Khorne Soul Grinder",
+  unit_slug: "khorne_soul_grinder",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const KillTeamSergeantUnit: UnitConfig = {
+  id: unitId("kill_team_sergeant"),
+  unit_name: "Kill Team Sergeant",
+  unit_slug: "kill_team_sergeant",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const KinbandChampionCrucibleUnit: UnitConfig = {
+  id: unitId("kinband_champion_crucible"),
+  unit_name: "Kinband Champion [Crucible]",
+  unit_slug: "kinband_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const KinhostCommanderCrucibleUnit: UnitConfig = {
+  id: unitId("kinhost_commander_crucible"),
+  unit_name: "Kinhost Commander [Crucible]",
+  unit_slug: "kinhost_commander_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const LandRaiderBanisherUnit: UnitConfig = {
+  id: unitId("land_raider_banisher"),
+  unit_name: "Land Raider Banisher",
+  unit_slug: "land_raider_banisher",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const LibrariusAdeptCrucibleUnit: UnitConfig = {
+  id: unitId("librarius_adept_crucible"),
+  unit_name: "Librarius Adept [Crucible]",
+  unit_slug: "librarius_adept_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const LieutenantTitusUnit: UnitConfig = {
+  id: unitId("lieutenant_titus"),
+  unit_name: "Lieutenant Titus",
+  unit_slug: "lieutenant_titus",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const LivingAncestorCrucibleUnit: UnitConfig = {
+  id: unitId("living_ancestor_crucible"),
+  unit_name: "Living Ancestor [Crucible]",
+  unit_slug: "living_ancestor_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const LootaUnit: UnitConfig = {
+  id: unitId("loota"),
+  unit_name: "Loota",
+  unit_slug: "loota",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MacroOrganismCrucibleUnit: UnitConfig = {
+  id: unitId("macro_organism_crucible"),
+  unit_name: "Macro Organism [Crucible]",
+  unit_slug: "macro_organism_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MagisterCrucibleUnit: UnitConfig = {
+  id: unitId("magister_crucible"),
+  unit_name: "Magister [Crucible]",
+  unit_slug: "magister_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MagosCrucibleUnit: UnitConfig = {
+  id: unitId("magos_crucible"),
+  unit_name: "Magos [Crucible]",
+  unit_slug: "magos_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MarneusCalgarUnit: UnitConfig = {
+  id: unitId("marneus_calgar"),
+  unit_name: "Marneus Calgar",
+  unit_slug: "marneus_calgar",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MartialAgentCrucibleUnit: UnitConfig = {
+  id: unitId("martial_agent_crucible"),
+  unit_name: "Martial Agent [Crucible]",
+  unit_slug: "martial_agent_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MilitantCommanderCrucibleUnit: UnitConfig = {
+  id: unitId("militant_commander_crucible"),
+  unit_name: "Militant Commander [Crucible]",
+  unit_slug: "militant_commander_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const MucolidSporesSporocystUnit: UnitConfig = {
+  id: unitId("mucolid_spores_sporocyst"),
+  unit_name: "Mucolid Spores (Sporocyst)",
+  unit_slug: "mucolid_spores_sporocyst",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const NobOnSmashaSquigUnit: UnitConfig = {
+  id: unitId("nob_on_smasha_squig"),
+  unit_name: "Nob on Smasha Squig",
+  unit_slug: "nob_on_smasha_squig",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const NodeOrganismCrucibleUnit: UnitConfig = {
+  id: unitId("node_organism_crucible"),
+  unit_name: "Node Organism [Crucible]",
+  unit_slug: "node_organism_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const NullMaidenCrucibleUnit: UnitConfig = {
+  id: unitId("null_maiden_crucible"),
+  unit_name: "Null Maiden [Crucible]",
+  unit_slug: "null_maiden_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const NurgleSoulGrinderUnit: UnitConfig = {
+  id: unitId("nurgle_soul_grinder"),
+  unit_name: "Nurgle Soul Grinder",
+  unit_slug: "nurgle_soul_grinder",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const PlagueLordCrucibleUnit: UnitConfig = {
+  id: unitId("plague_lord_crucible"),
+  unit_name: "Plague Lord [Crucible]",
+  unit_slug: "plague_lord_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const PlagueSorcererCrucibleUnit: UnitConfig = {
+  id: unitId("plague_sorcerer_crucible"),
+  unit_name: "Plague Sorcerer [Crucible]",
+  unit_slug: "plague_sorcerer_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const PrimeOrganismCrucibleUnit: UnitConfig = {
+  id: unitId("prime_organism_crucible"),
+  unit_name: "Prime Organism [Crucible]",
+  unit_slug: "prime_organism_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ReliquantKnightCrucibleUnit: UnitConfig = {
+  id: unitId("reliquant_knight_crucible"),
+  unit_name: "Reliquant Knight [Crucible]",
+  unit_slug: "reliquant_knight_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const RipperSwarmsParasiteOfMortrexUnit: UnitConfig = {
+  id: unitId("ripper_swarms_parasite_of_mortrex"),
+  unit_name: "Ripper Swarms (Parasite of Mortrex)",
+  unit_slug: "ripper_swarms_parasite_of_mortrex",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const RuntherdUnit: UnitConfig = {
+  id: unitId("runtherd"),
+  unit_name: "Runtherd",
+  unit_slug: "runtherd",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SentinelCommanderCrucibleUnit: UnitConfig = {
+  id: unitId("sentinel_commander_crucible"),
+  unit_name: "Sentinel Commander [Crucible]",
+  unit_slug: "sentinel_commander_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const ShasnelCrucibleUnit: UnitConfig = {
+  id: unitId("shasnel_crucible"),
+  unit_name: "Shas'nel [Crucible]",
+  unit_slug: "shasnel_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SisterNovitiateAutogunUnit: UnitConfig = {
+  id: unitId("sister_novitiate_autogun"),
+  unit_name: "Sister Novitiate (Autogun)",
+  unit_slug: "sister_novitiate_autogun",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SisterNovitiateMeleeWeaponUnit: UnitConfig = {
+  id: unitId("sister_novitiate_melee_weapon"),
+  unit_name: "Sister Novitiate (Melee Weapon)",
+  unit_slug: "sister_novitiate_melee_weapon",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SkyrunnerCrucibleUnit: UnitConfig = {
+  id: unitId("skyrunner_crucible"),
+  unit_name: "Skyrunner [Crucible]",
+  unit_slug: "skyrunner_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SlaaneshSoulGrinderUnit: UnitConfig = {
+  id: unitId("slaanesh_soul_grinder"),
+  unit_name: "Slaanesh Soul Grinder",
+  unit_slug: "slaanesh_soul_grinder",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SorcerousChampionCrucibleUnit: UnitConfig = {
+  id: unitId("sorcerous_champion_crucible"),
+  unit_name: "Sorcerous Champion [Crucible]",
+  unit_slug: "sorcerous_champion_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SoulForgeTyrantCrucibleUnit: UnitConfig = {
+  id: unitId("soul_forge_tyrant_crucible"),
+  unit_name: "Soul Forge Tyrant [Crucible]",
+  unit_slug: "soul_forge_tyrant_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SpannerUnit: UnitConfig = {
+  id: unitId("spanner"),
+  unit_name: "Spanner",
+  unit_slug: "spanner",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SporeMinesBiovoreUnit: UnitConfig = {
+  id: unitId("spore_mines_biovore"),
+  unit_name: "Spore Mines (Biovore)",
+  unit_slug: "spore_mines_biovore",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SquighogBoyUnit: UnitConfig = {
+  id: unitId("squighog_boy"),
+  unit_name: "Squighog Boy",
+  unit_slug: "squighog_boy",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const SteeljackElderCrucibleUnit: UnitConfig = {
+  id: unitId("steeljack_elder_crucible"),
+  unit_name: "Steeljack Elder [Crucible]",
+  unit_slug: "steeljack_elder_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const TriLobeVectorsCrucibleUnit: UnitConfig = {
+  id: unitId("tri_lobe_vectors_crucible"),
+  unit_name: "Tri-lobe Vectors [Crucible]",
+  unit_slug: "tri_lobe_vectors_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const TriarchalOverseerCrucibleUnit: UnitConfig = {
+  id: unitId("triarchal_overseer_crucible"),
+  unit_name: "Triarchal Overseer [Crucible]",
+  unit_slug: "triarchal_overseer_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const TzeentchSoulGrinderUnit: UnitConfig = {
+  id: unitId("tzeentch_soul_grinder"),
+  unit_name: "Tzeentch Soul Grinder",
+  unit_slug: "tzeentch_soul_grinder",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const UpstartGretchinCrucibleUnit: UnitConfig = {
+  id: unitId("upstart_gretchin_crucible"),
+  unit_name: "Upstart Gretchin [Crucible]",
+  unit_slug: "upstart_gretchin_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const VenerableBattleBrotherCrucibleUnit: UnitConfig = {
+  id: unitId("venerable_battle_brother_crucible"),
+  unit_name: "Venerable Battle-Brother [Crucible]",
+  unit_slug: "venerable_battle_brother_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const VenerableDaemonSlayerCrucibleUnit: UnitConfig = {
+  id: unitId("venerable_daemon_slayer_crucible"),
+  unit_name: "Venerable Daemon Slayer [Crucible]",
+  unit_slug: "venerable_daemon_slayer_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const VoiceOfThePatriarchCrucibleUnit: UnitConfig = {
+  id: unitId("voice_of_the_patriarch_crucible"),
+  unit_name: "Voice of the Patriarch [Crucible]",
+  unit_slug: "voice_of_the_patriarch_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
+
+export const WarpheadCrucibleUnit: UnitConfig = {
+  id: unitId("warphead_crucible"),
+  unit_name: "Warphead [Crucible]",
+  unit_slug: "warphead_crucible",
+  is_legends: false,
+  wahapedia_url: null,
+};
+
 export const unitsDataset: SeedDataset<"units"> = {
   table: "units",
   records: [
@@ -11762,16 +12625,16 @@ export const unitsDataset: SeedDataset<"units"> = {
     AmallynShadowguideUnit,
     AmbullUnit,
     AnathemaPsykanaRhinoUnit,
-    AncientUnit,
     AncientInTerminatorArmourUnit,
     AncientOnBikeUnit,
+    AncientUnit,
     AnggrathTheUnboundUnit,
     AngronUnit,
     AnnihilationBargeUnit,
     AnrakyrTheTravellerUnit,
-    ApothecaryUnit,
     ApothecaryBiologisUnit,
     ApothecaryOnBikeUnit,
+    ApothecaryUnit,
     AquilaKillTeamUnit,
     AquilaLanderUnit,
     AquilonCustodiansUnit,
@@ -11779,6 +12642,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     ArchaeopterStratoraptorUnit,
     ArchaeopterTransvectorUnit,
     ArchonUnit,
+    ArchtormentorCrucibleUnit,
     ArcoFlagellantsUnit,
     AresGunshipUnit,
     ArjacRockfistUnit,
@@ -11805,10 +12669,11 @@ export const unitsDataset: SeedDataset<"units"> = {
     AttackBikeSquadUnit,
     AttackFightaUnit,
     AttilanRoughRidersUnit,
+    AugmentedBoneEadCrucibleUnit,
     AunshiUnit,
     AunvaUnit,
-    AutarchUnit,
     AutarchSkyrunnerUnit,
+    AutarchUnit,
     AutarchWayleaperUnit,
     AvatarOfKhaineUnit,
     AvengerStrikeFighterUnit,
@@ -11827,10 +12692,11 @@ export const unitsDataset: SeedDataset<"units"> = {
     BastionUnit,
     BattleSanctumUnit,
     BattleSistersSquadUnit,
+    BattlesuitVeteranCrucibleUnit,
     BattlewagonUnit,
     BeastSnaggaBoyzUnit,
-    BeastbossUnit,
     BeastbossOnSquigosaurUnit,
+    BeastbossUnit,
     BeastmasterUnit,
     BeastsOfNurgleUnit,
     BelakorUnit,
@@ -11839,9 +12705,9 @@ export const unitsDataset: SeedDataset<"units"> = {
     BenefictusUnit,
     BerehkStornbrWUnit,
     BigGunzUnit,
-    BigMekUnit,
     BigMekInMegaArmourUnit,
     BigMekOnWarbikeUnit,
+    BigMekUnit,
     BigMekWithKustomForceFieldUnit,
     BigMekWithShokkAttackGunUnit,
     BigTrakkUnit,
@@ -11857,11 +12723,12 @@ export const unitsDataset: SeedDataset<"units"> = {
     BladeguardVeteranSquadUnit,
     BlightlordTerminatorsUnit,
     BlitzaBommerUnit,
-    BloodAngelsUnit,
     BloodAngelsCaptainUnit,
+    BloodAngelsUnit,
     BloodClawsUnit,
     BloodSlaughtererUnit,
     BloodcrushersUnit,
+    BloodcultChampionCrucibleUnit,
     BloodlettersUnit,
     BloodmasterUnit,
     BloodthirsterUnit,
@@ -11873,12 +12740,14 @@ export const unitsDataset: SeedDataset<"units"> = {
     BoyzUnit,
     BrKhyrIronMasterUnit,
     BrKhyrThunderkynUnit,
+    BrayherdChieftainCrucibleUnit,
+    BrayherdShamanCrucibleUnit,
     BreacherTeamUnit,
     BreakaBoyzUnit,
     BroadsideBattlesuitsUnit,
     BroodlordUnit,
-    BrotherCaptainUnit,
     BrotherCaptainSternUnit,
+    BrotherCaptainUnit,
     BrotherCorbuloUnit,
     BrotherhoodChampionUnit,
     BrotherhoodChaplainUnit,
@@ -11889,8 +12758,10 @@ export const unitsDataset: SeedDataset<"units"> = {
     BullgrynSquadUnit,
     BuriAegnirssenUnit,
     BurnaBommerUnit,
+    BurnaBoyUnit,
     BurnaBoyzUnit,
     BurningChariotUnit,
+    ButcherlordCrucibleUnit,
     CaanokVarUnit,
     CadianCastellanUnit,
     CadianCommandSquadUnit,
@@ -11915,19 +12786,20 @@ export const unitsDataset: SeedDataset<"units"> = {
     CanoptekTombSentinelUnit,
     CanoptekTombStalkerUnit,
     CanoptekWraithsUnit,
-    CaptainUnit,
     CaptainInGravisArmourUnit,
     CaptainInPhobosArmourUnit,
     CaptainInTerminatorArmourUnit,
     CaptainOnBikeUnit,
+    CaptainSicariusUnit,
     CaptainTitusUnit,
     CaptainTychoUnit,
+    CaptainUnit,
     CaptainWithJumpPackUnit,
     CarabCullnTheRisenUnit,
     CarnifexesUnit,
     CarnodonUnit,
-    CastellanUnit,
     CastellanCroweUnit,
+    CastellanUnit,
     CastellumStrongholdUnit,
     CastigatorUnit,
     CatachanCommandSquadUnit,
@@ -11936,7 +12808,9 @@ export const unitsDataset: SeedDataset<"units"> = {
     CatacombCommandBargeUnit,
     CatoSicariusUnit,
     CelestianInsidiantsUnit,
+    CelestianSacresantAnointedHalberdUnit,
     CelestianSacresantAvelineUnit,
+    CelestianSacresantHallowedMaceUnit,
     CelestianSacresantsUnit,
     CentaurLightCarrierUnit,
     CentaurRsvUnit,
@@ -11947,6 +12821,9 @@ export const unitsDataset: SeedDataset<"units"> = {
     CerastusKnightCastigatorUnit,
     CerastusKnightLancerUnit,
     CerberusUnit,
+    ChampionOfExcessCrucibleUnit,
+    ChampionOfTheChapterCrucibleUnit,
+    ChampionOfTitanCrucibleUnit,
     ChangecasterUnit,
     ChaosAcastusKnightAsteriusUnit,
     ChaosAcastusKnightPorphyrionUnit,
@@ -11957,30 +12834,31 @@ export const unitsDataset: SeedDataset<"units"> = {
     ChaosCerastusKnightLancerUnit,
     ChaosDeimosPredatorUnit,
     ChaosLandRaiderUnit,
-    ChaosLordUnit,
     ChaosLordInTerminatorArmourUnit,
     ChaosLordOnBikeUnit,
     ChaosLordOnDiscOfTzeentchUnit,
     ChaosLordOnJuggernautUnit,
     ChaosLordOnPalanquinOfNurgleUnit,
     ChaosLordOnSteedOfSlaaneshUnit,
+    ChaosLordUnit,
     ChaosLordWithJumpPackUnit,
     ChaosPredatorAnnihilatorUnit,
     ChaosPredatorDestructorUnit,
     ChaosQuestorisKnightMagaeraUnit,
     ChaosQuestorisKnightStyrixUnit,
     ChaosRhinoUnit,
+    ChaosSpawnFleshChangeUnit,
     ChaosSpawnUnit,
     ChaosTerminatorSquadUnit,
     ChaosTerminatorsUnit,
     ChaosThunderhawkUnit,
     ChaosVindicatorUnit,
-    ChaplainUnit,
     ChaplainCassiusUnit,
     ChaplainGrimaldusUnit,
     ChaplainInTerminatorArmourUnit,
     ChaplainKastielUnit,
     ChaplainOnBikeUnit,
+    ChaplainUnit,
     ChaplainVenerableDreadnoughtUnit,
     ChaplainWithJumpPackUnit,
     ChiefLibrarianMephistonUnit,
@@ -11991,6 +12869,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     ChronomancerUnit,
     ClamavusUnit,
     CobraUnit,
+    CohortCommanderCrucibleUnit,
     ColossusUnit,
     CommandSquadUnit,
     CommanderDanteUnit,
@@ -11999,9 +12878,9 @@ export const unitsDataset: SeedDataset<"units"> = {
     CommanderInCrisisBattlesuitUnit,
     CommanderInEnforcerBattlesuitUnit,
     CommanderShadowsunUnit,
-    CommissarUnit,
-    CommissarGravesUnit,
     CommissarGravesOnFootUnit,
+    CommissarGravesUnit,
+    CommissarUnit,
     CommissarYarrickUnit,
     CompanyChampionOnBikeUnit,
     CompanyHeroesUnit,
@@ -12020,6 +12899,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     CorsairVoidscarredUnit,
     CorvusBlackstarUnit,
     CourtOfTheArchonUnit,
+    CraftworldWarleaderCrucibleUnit,
     CrassusUnit,
     CrimsonHunterUnit,
     CrisisBattlesuitsUnit,
@@ -12028,8 +12908,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     CrisisSunforgeBattlesuitsUnit,
     CronosUnit,
     CrusadeAncientUnit,
-    CrusaderSquadUnit,
     CrusaderSquadLegendaryUnit,
+    CrusaderSquadUnit,
     CrusadersUnit,
     CryptothrallsUnit,
     CtanShardOfTheDeceiverUnit,
@@ -12038,18 +12918,22 @@ export const unitsDataset: SeedDataset<"units"> = {
     CthonianBeserksUnit,
     CthonianEarthshakersUnit,
     CulexusAssassinUnit,
+    CultGuerrillaCrucibleUnit,
+    CultInsurrectionistCrucibleUnit,
     CultistFirebrandUnit,
     CultistMobUnit,
     CultistMobWithFirearmsUnit,
     CustodianGuardUnit,
     CustodianGuardWithAdrasiteAndPyrithiteSpearsUnit,
     CustodianWardensUnit,
+    CyberMastiffUnit,
     CyberneticaDatasmithUnit,
     CyberwolfUnit,
     CyclopsDemolitionVehicleUnit,
     CypherUnit,
     DCannonPlatformUnit,
     DaRedGobboUnit,
+    DaRedGobbosABombInableSnowmanLegendsUnit,
     DaRedGobbosTinboyUnit,
     DaemonPrinceOfChaosUnit,
     DaemonPrinceOfChaosWithWingsUnit,
@@ -12063,6 +12947,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     DaemonPrinceOfTzeentchWithWingsUnit,
     DaemonettesUnit,
     DaemonhostUnit,
+    DaemonicCharioteerCrucibleUnit,
+    DaemonicHeraldCrucibleUnit,
     DaemonifugeUnit,
     DakkajetUnit,
     DamnedLegionnairesUnit,
@@ -12076,14 +12962,15 @@ export const unitsDataset: SeedDataset<"units"> = {
     DeathCompanyCaptainWithJumpPackUnit,
     DeathCompanyDreadnoughtUnit,
     DeathCompanyDreadnoughtWithMagnaGrappleUnit,
+    DeathCompanyIntercessorsUnit,
     DeathCompanyMarinesUnit,
     DeathCompanyMarinesWithBoltRiflesUnit,
-    DeathCompanyMarinesWithBoltgunsUnit,
     DeathCompanyMarinesWithBoltgunsAndJumpPacksUnit,
+    DeathCompanyMarinesWithBoltgunsUnit,
     DeathCompanyMarinesWithJumpPacksUnit,
     DeathCultAssassinsUnit,
-    DeathGuardChaosLordUnit,
     DeathGuardChaosLordInTerminatorArmourUnit,
+    DeathGuardChaosLordUnit,
     DeathGuardCultistsUnit,
     DeathGuardPossessedUnit,
     DeathGuardSorcererInTerminatorArmourUnit,
@@ -12097,9 +12984,13 @@ export const unitsDataset: SeedDataset<"units"> = {
     DeathshroudTerminatorsUnit,
     DeathstormDropPodUnit,
     DeathstrikeUnit,
-    DeathwatchUnit,
+    DeathwatchAgentCrucibleUnit,
     DeathwatchKillTeamUnit,
     DeathwatchTerminatorSquadUnit,
+    DeathwatchUnit,
+    DeathwatchVeteranWCarbineUnit,
+    DeathwatchVeteranWHeavyThunderHammerUnit,
+    DeathwatchVeteranWStalkerBoltRifleUnit,
     DeathwatchVeteransUnit,
     DeathwingCommandSquadUnit,
     DeathwingKnightsUnit,
@@ -12129,12 +13020,15 @@ export const unitsDataset: SeedDataset<"units"> = {
     DoomsdayArkUnit,
     DrazharUnit,
     DreadclawDropPodUnit,
-    DreadnoughtUnit,
+    DreadknightChampionCrucibleUnit,
     DreadnoughtDropPodUnit,
+    DreadnoughtUnit,
     DroneSentryTurretUnit,
     DropPodUnit,
+    DynasticConquerorCrucibleUnit,
     EarthshakerCarriageBatteryUnit,
     EarthshakerPlatformUnit,
+    EightBlessedLordCrucibleUnit,
     EightboundUnit,
     EinhyrChampionUnit,
     EinhyrHearthguardUnit,
@@ -12142,18 +13036,22 @@ export const unitsDataset: SeedDataset<"units"> = {
     EliminatorSquadUnit,
     ElysianDropSentinelUnit,
     ElysianSniperSquadUnit,
+    EmperorsChampionAnointedUnit,
     EmperorsChampionUnit,
+    EnthronedAgentCrucibleUnit,
     EpidemiusUnit,
     EradicatorSquadUnit,
     EtherealUnit,
     EversorAssassinUnit,
     ExactionSquadUnit,
+    ExaltedChampionCrucibleUnit,
     ExaltedChampionUnit,
     ExaltedEightboundUnit,
     ExaltedFlamerUnit,
     ExaltedSeekerChariotUnit,
-    ExaltedSorcererUnit,
     ExaltedSorcererOnDiscOfTzeentchUnit,
+    ExaltedSorcererUnit,
+    ExcruciatorCrucibleUnit,
     ExecratorUnit,
     ExocrineUnit,
     ExorcistUnit,
@@ -12161,8 +13059,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     FabiusBileUnit,
     FalchionUnit,
     FalconUnit,
-    FarseerUnit,
     FarseerSkyrunnerUnit,
+    FarseerUnit,
     FateskimmerUnit,
     FeculentGnarlmawUnit,
     FellbladeUnit,
@@ -12176,13 +13074,15 @@ export const unitsDataset: SeedDataset<"units"> = {
     FirePrismUnit,
     FireRaptorGunshipUnit,
     FiresightTeamUnit,
-    FirestormUnit,
     FirestormRedoubtUnit,
+    FirestormUnit,
     FirestrikeServoTurretsUnit,
     FlamersUnit,
     FlashGitzUnit,
     FlawlessBladesUnit,
+    FlawlessChampionCrucibleUnit,
     FlayedOnesUnit,
+    FleshCrafterCrucibleUnit,
     FleshHoundsUnit,
     FluxmasterUnit,
     FoetidBloatDroneUnit,
@@ -12191,6 +13091,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     FortisKillTeamUnit,
     FortressOfRedemptionUnit,
     FoulBlightspawnUnit,
+    FrontLineCommanderCrucibleUnit,
     FueganUnit,
     FulgrimUnit,
     FulguriteElectroPriestsUnit,
@@ -12202,10 +13103,12 @@ export const unitsDataset: SeedDataset<"units"> = {
     GauntsGhostsUnit,
     GaussPylonUnit,
     GellerpoxInfectedUnit,
+    GeminaeSuperiaUnit,
     GenestealersUnit,
     GeomancerUnit,
     GhazghkullThrakaUnit,
     GhostArkUnit,
+    GhostWarriorCrucibleUnit,
     GhostkeelBattlesuitUnit,
     GiantChaosSpawnUnit,
     GladiatorLancerUnit,
@@ -12216,9 +13119,10 @@ export const unitsDataset: SeedDataset<"units"> = {
     GoremongersUnit,
     GorgonHeavyTransportUnit,
     GorkanautUnit,
-    GrandMasterUnit,
     GrandMasterInNemesisDreadknightUnit,
+    GrandMasterUnit,
     GrandMasterVoldusUnit,
+    GravisVeteranWInfernusHeavyBolterUnit,
     GreatKnarlocUnit,
     GreatUncleanOneUnit,
     GreaterBlightDroneUnit,
@@ -12235,8 +13139,10 @@ export const unitsDataset: SeedDataset<"units"> = {
     GrotMegaTankUnit,
     GrotTanksUnit,
     GrotesquesUnit,
+    GrotmasGitzLegendsUnit,
     GuardianDefendersUnit,
     GuardianDroneUnit,
+    GuardianOfTheThroneCrucibleUnit,
     HaarkenWorldclaimerUnit,
     HadesBreachingDrillUnit,
     HaemonculusUnit,
@@ -12280,6 +13186,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     HiveCroneUnit,
     HiveGuardUnit,
     HiveTyrantUnit,
+    HordebossCrucibleUnit,
     HormagauntsUnit,
     HornetUnit,
     HorticulousSlimuxUnit,
@@ -12288,16 +13195,19 @@ export const unitsDataset: SeedDataset<"units"> = {
     HowlingBansheesUnit,
     HuntaRigUnit,
     HunterUnit,
+    HuntingWolvesUnit,
     HuronBlackheartUnit,
     HybridMetamorphsUnit,
-    HydraUnit,
     HydraPlatformUnit,
+    HydraUnit,
     HyperadaptedRavenersUnit,
+    HyperscientistCrucibleUnit,
     IconBearerUnit,
     IllicNightspearUnit,
     IlluminorSzerasUnit,
     ImagifierUnit,
     ImmolatorUnit,
+    ImmortalChampionCrucibleUnit,
     ImmortalsUnit,
     ImotekhTheStormlordUnit,
     ImperialFistsUnit,
@@ -12316,7 +13226,6 @@ export const unitsDataset: SeedDataset<"units"> = {
     InfiltratorSquadUnit,
     InfractorsUnit,
     InnerCircleCompanionsUnit,
-    InquisitorUnit,
     InquisitorCoteazUnit,
     InquisitorDraxusUnit,
     InquisitorEisenhornUnit,
@@ -12325,8 +13234,10 @@ export const unitsDataset: SeedDataset<"units"> = {
     InquisitorKaramazovUnit,
     InquisitorKroyleUnit,
     InquisitorOstromandeusUnit,
+    InquisitorUnit,
     InquisitorialAgentsUnit,
     InquisitorialChimeraUnit,
+    InspiringDevoteeCrucibleUnit,
     InterceptorSquadUnit,
     IntercessorSquadUnit,
     IntranziaFrayeUnit,
@@ -12336,11 +13247,12 @@ export const unitsDataset: SeedDataset<"units"> = {
     IronFatherFeirrosUnit,
     IronHandStrakenUnit,
     IronHandsUnit,
-    IronPriestUnit,
     IronPriestOnThunderwolfUnit,
+    IronPriestUnit,
     IroncladDreadnoughtUnit,
     IronkinSteeljacksWithHeavyVolkaniteDisintegratorsUnit,
     IronkinSteeljacksWithMeleeWeaponsUnit,
+    IronstriderAlphaCrucibleUnit,
     IronstriderBallistariiUnit,
     JackalAlphusUnit,
     JainZarUnit,
@@ -12363,6 +13275,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     KarandrasUnit,
     KasrkinUnit,
     KastelanRobotsUnit,
+    KataphraktoiExemplarCrucibleUnit,
     KataphronBreachersUnit,
     KataphronDestroyersUnit,
     KayvaanShrikeUnit,
@@ -12373,11 +13286,15 @@ export const unitsDataset: SeedDataset<"units"> = {
     KharybdisAssaultClawUnit,
     KhorneBerzerkersUnit,
     KhorneLordOfSkullsUnit,
+    KhorneSoulGrinderUnit,
     KillKrushaUnit,
     KillRigUnit,
     KillTankUnit,
     KillTeamCassiusUnit,
+    KillTeamSergeantUnit,
     KillaKansUnit,
+    KinbandChampionCrucibleUnit,
+    KinhostCommanderCrucibleUnit,
     KnarlocRidersUnit,
     KnightAbominantUnit,
     KnightCastellanUnit,
@@ -12416,19 +13333,20 @@ export const unitsDataset: SeedDataset<"units"> = {
     KustomBoostaBlastaUnit,
     KytanRavagerUnit,
     LadyMalysUnit,
-    LandRaiderUnit,
     LandRaiderAchillesUnit,
+    LandRaiderBanisherUnit,
     LandRaiderCrusaderUnit,
     LandRaiderExcelsiorUnit,
     LandRaiderHeliosUnit,
     LandRaiderPrometheusUnit,
     LandRaiderProteusUnit,
     LandRaiderRedeemerUnit,
-    LandSpeederUnit,
+    LandRaiderUnit,
     LandSpeederStormUnit,
     LandSpeederTempestUnit,
     LandSpeederTornadoUnit,
     LandSpeederTyphoonUnit,
+    LandSpeederUnit,
     LandSpeederVengeanceUnit,
     LazarusUnit,
     LegionariesUnit,
@@ -12444,29 +13362,32 @@ export const unitsDataset: SeedDataset<"units"> = {
     LemartesUnit,
     LeviathanDreadnoughtUnit,
     LhykhisUnit,
-    LibrarianUnit,
     LibrarianDreadnoughtUnit,
     LibrarianInPhobosArmourUnit,
     LibrarianInTerminatorArmourUnit,
     LibrarianOnBikeUnit,
+    LibrarianUnit,
     LibrarianWithJumpPackUnit,
+    LibrariusAdeptCrucibleUnit,
     LictorUnit,
-    LieutenantUnit,
     LieutenantInPhobosArmourUnit,
     LieutenantInReiverArmourUnit,
+    LieutenantTitusUnit,
+    LieutenantUnit,
     LieutenantWithCombiWeaponUnit,
     LiftaWagonUnit,
     LionEljonsonUnit,
+    LivingAncestorCrucibleUnit,
     LocusUnit,
-    LoganGrimnarUnit,
     LoganGrimnarOnStormriderUnit,
+    LoganGrimnarUnit,
     LokhustDestroyersUnit,
     LokhustHeavyDestroyersUnit,
     LokhustLordUnit,
     LongFangsUnit,
     LongstrikeUnit,
+    LootaUnit,
     LootasUnit,
-    LordUnit,
     LordDiscordantOnHelstalkerUnit,
     LordExultantUnit,
     LordInvocatusUnit,
@@ -12478,33 +13399,39 @@ export const unitsDataset: SeedDataset<"units"> = {
     LordOfVirulenceUnit,
     LordOnJuggernautUnit,
     LordSolarLeontusUnit,
+    LordUnit,
     LuciusTheEternalUnit,
     LukasTheTricksterUnit,
     LychguardUnit,
     LynxUnit,
-    MachariusUnit,
     MachariusOmegaUnit,
+    MachariusUnit,
     MachariusVanquisherUnit,
     MachariusVulcanUnit,
     MacroCannonAquilaStrongpointUnit,
+    MacroOrganismCrucibleUnit,
     MadDokGrotsnikUnit,
+    MagisterCrucibleUnit,
     MagnusTheRedUnit,
+    MagosCrucibleUnit,
     MagusUnit,
     MalanthropeUnit,
-    MalcadorUnit,
     MalcadorAnnihilatorUnit,
     MalcadorDefenderUnit,
     MalcadorInfernusUnit,
+    MalcadorUnit,
     MaleceptorUnit,
     MalignantPlaguecasterUnit,
     MandrakesUnit,
     MantaUnit,
-    ManticoreUnit,
     ManticorePlatformUnit,
+    ManticoreUnit,
     MarauderBomberUnit,
     MarauderDestroyerUnit,
     MarneusCalgarInArmourOfAntilochusUnit,
+    MarneusCalgarUnit,
     MarshalUnit,
+    MartialAgentCrucibleUnit,
     MasterOfExecutionsUnit,
     MasterOfPossessionUnit,
     MastersOfTheMaelstromUnit,
@@ -12516,12 +13443,13 @@ export const unitsDataset: SeedDataset<"units"> = {
     MegaDreadUnit,
     MeganobzUnit,
     MegatrakkScrapjetUnit,
-    MekUnit,
     MekGunzUnit,
+    MekUnit,
     MekaDreadUnit,
     MekboyWorkshopUnit,
     MemnyrStrategistUnit,
     MiasmicMalignifierUnit,
+    MilitantCommanderCrucibleUnit,
     MilitarumTempestusCommandSquadUnit,
     MinistorumPriestUnit,
     MinotaurUnit,
@@ -12532,13 +13460,14 @@ export const unitsDataset: SeedDataset<"units"> = {
     MortisDreadnoughtUnit,
     MorvennVahlUnit,
     MozrogSkragbadUnit,
+    MucolidSporesSporocystUnit,
     MucolidSporesUnit,
     MukaaliRidersUnit,
     MunitorumServitorsUnit,
     MurderfangUnit,
     MutalithVortexBeastUnit,
-    MutilatorsUnit,
     MutilatorsLegendaryUnit,
+    MutilatorsUnit,
     MutoidVerminUnit,
     MyphiticBlightHaulerUnit,
     NavigatorUnit,
@@ -12560,15 +13489,19 @@ export const unitsDataset: SeedDataset<"units"> = {
     NightSpinnerUnit,
     NightwingUnit,
     NjalStormcallerUnit,
+    NobOnSmashaSquigUnit,
     NobWithWaaaghBannerUnit,
-    NobzUnit,
     NobzOnWarbikesUnit,
+    NobzUnit,
     NoctilithCrownUnit,
+    NodeOrganismCrucibleUnit,
     NoiseMarinesUnit,
     NorkDeddogUnit,
     NornAssimilatorUnit,
     NornEmissaryUnit,
     NoxiousBlightbringerUnit,
+    NullMaidenCrucibleUnit,
+    NurgleSoulGrinderUnit,
     NurglingsUnit,
     ObeliskUnit,
     ObliteratorsUnit,
@@ -12584,8 +13517,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     OverlordUnit,
     OverlordWithTranslocationShroudUnit,
     PainbossUnit,
-    PainboyUnit,
     PainboyOnWarbikeUnit,
+    PainboyUnit,
     PaladinSquadUnit,
     PalatineUnit,
     PallasGravAttackUnit,
@@ -12600,7 +13533,9 @@ export const unitsDataset: SeedDataset<"units"> = {
     PinkHorrorsUnit,
     PiranhasUnit,
     PlagueDronesUnit,
+    PlagueLordCrucibleUnit,
     PlagueMarinesUnit,
+    PlagueSorcererCrucibleUnit,
     PlagueSurgeonUnit,
     PlagueToadsUnit,
     PlaguebearersUnit,
@@ -12617,9 +13552,10 @@ export const unitsDataset: SeedDataset<"units"> = {
     PrimarisCompanyChampionUnit,
     PrimarisPsykerUnit,
     PrimarisRedoubtUnit,
+    PrimeOrganismCrucibleUnit,
     PrimusUnit,
-    PrinceYrielUnit,
     PrinceYrielLegendaryUnit,
+    PrinceYrielUnit,
     ProsecutorsUnit,
     ProteusKillTeamUnit,
     ProvisionallyPreparedUnit,
@@ -12666,6 +13602,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     RelicContemptorDreadnoughtUnit,
     RelicRazorbackUnit,
     RelicTerminatorSquadUnit,
+    ReliquantKnightCrucibleUnit,
     RemoraStealthDronesUnit,
     RemoteSensorTowerUnit,
     RendmasterOnBloodThroneUnit,
@@ -12676,12 +13613,13 @@ export const unitsDataset: SeedDataset<"units"> = {
     RenegadePlagueOgrynsUnit,
     RepentiaSquadUnit,
     RepressorUnit,
-    RepulsorUnit,
     RepulsorExecutionerUnit,
+    RepulsorUnit,
     RetributorSquadUnit,
     RevenantTitanUnit,
-    RhinoUnit,
     RhinoPrimarisUnit,
+    RhinoUnit,
+    RipperSwarmsParasiteOfMortrexUnit,
     RipperSwarmsUnit,
     RiptideBattlesuitUnit,
     RobouteGuillimanUnit,
@@ -12693,6 +13631,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     RoyalWardenUnit,
     RubricMarinesUnit,
     RukkatrukkSquigbuggyUnit,
+    RuntherdUnit,
     RvarnaBattlesuitUnit,
     SabreWeaponsBatteryUnit,
     SagitaurUnit,
@@ -12705,8 +13644,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     SanctifiersUnit,
     SanctusUnit,
     SanguinaryGuardUnit,
-    SanguinaryPriestUnit,
     SanguinaryPriestOnBikeUnit,
+    SanguinaryPriestUnit,
     SanguinaryPriestWithJumpPackUnit,
     ScabeiathraxTheBloatedUnit,
     ScarabOccultTerminatorsUnit,
@@ -12725,6 +13664,7 @@ export const unitsDataset: SeedDataset<"units"> = {
     SeekerChariotUnit,
     SeekersUnit,
     SekhetarRobotsUnit,
+    SentinelCommanderCrucibleUnit,
     SentinelPowerlifterUnit,
     SentryPylonUnit,
     SeraphimSquadUnit,
@@ -12741,10 +13681,11 @@ export const unitsDataset: SeedDataset<"units"> = {
     ShadowseerUnit,
     ShadowswordUnit,
     ShalaxiHelbaneUnit,
+    ShasnelCrucibleUnit,
     ShasoRalaiUnit,
-    ShieldCaptainUnit,
     ShieldCaptainInAllarusTerminatorArmourUnit,
     ShieldCaptainOnDawneagleJetbikeUnit,
+    ShieldCaptainUnit,
     ShiningSpearsUnit,
     ShokkjumpDragstaUnit,
     ShroudRunnersUnit,
@@ -12756,6 +13697,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     SicarianInfiltratorsUnit,
     SicarianRuststalkersUnit,
     SirHekhturUnit,
+    SisterNovitiateAutogunUnit,
+    SisterNovitiateMeleeWeaponUnit,
     SistersNovitiateSquadUnit,
     SistersOfBattleImmolatorUnit,
     SistersOfBattleSquadUnit,
@@ -12776,36 +13719,44 @@ export const unitsDataset: SeedDataset<"units"> = {
     SkyRayGunshipUnit,
     SkySlasherSwarmsUnit,
     SkyclawsUnit,
+    SkyrunnerCrucibleUnit,
     SkyshieldLandingPadUnit,
     SkyweaversUnit,
+    SlaaneshSoulGrinderUnit,
     SlaughterboundUnit,
     SloppityBilepiperUnit,
     SlyMarboUnit,
     SokarPatternStormbirdUnit,
     SolitaireUnit,
-    SorcererUnit,
     SorcererInTerminatorArmourUnit,
     SorcererOnBikeUnit,
     SorcererOnDiscOfTzeentchUnit,
     SorcererOnPalanquinOfNurgleUnit,
     SorcererOnSteedOfSlaaneshUnit,
+    SorcererUnit,
+    SorcerousChampionCrucibleUnit,
     SororitasRhinoUnit,
+    SoulForgeTyrantCrucibleUnit,
     SoulGrinderUnit,
     SpaceWolvesUnit,
+    SpannerUnit,
     SpartanUnit,
     SpectrusKillTeamUnit,
     SpindleDronesUnit,
     SpinedChaosBeastUnit,
     SpiritseerUnit,
     SpoilpoxScrivenerUnit,
+    SporeMinesBiovoreUnit,
     SporeMinesUnit,
     SporocystUnit,
     SquiggothUnit,
+    SquighogBoyUnit,
     SquighogBoyzUnit,
     StalkerUnit,
     StarfangsUnit,
     StarweaverUnit,
     StealthBattlesuitsUnit,
+    SteeljackElderCrucibleUnit,
     SternguardVeteranSquadUnit,
     StompaUnit,
     StormChimeraUnit,
@@ -12852,13 +13803,13 @@ export const unitsDataset: SeedDataset<"units"> = {
     TaunarSupremacyArmourUnit,
     TaurosAssaultVehicleUnit,
     TaurosVenatorUnit,
-    TauroxUnit,
     TauroxPrimeUnit,
+    TauroxUnit,
     TechPriestDominusUnit,
     TechPriestEnginseerUnit,
     TechPriestManipulusUnit,
-    TechmarineUnit,
     TechmarineOnBikeUnit,
+    TechmarineUnit,
     TechnoarcheologistUnit,
     TechnomancerUnit,
     TectonicFragdrillUnit,
@@ -12898,8 +13849,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     TombBladesUnit,
     TombCitadelWallsUnit,
     TorGaradonUnit,
-    TormentbringerUnit,
     TormentbringerOnExaltedSeekerChariotUnit,
+    TormentbringerUnit,
     TormentorsUnit,
     ToxicreneUnit,
     TraitorEnforcerUnit,
@@ -12908,12 +13859,14 @@ export const unitsDataset: SeedDataset<"units"> = {
     TranceweaverUnit,
     TranscendentCtanUnit,
     TrazynTheInfiniteUnit,
+    TriLobeVectorsCrucibleUnit,
     TriarchPraetoriansUnit,
     TriarchStalkerUnit,
+    TriarchalOverseerCrucibleUnit,
     TriumphOfSaintKatherineUnit,
     TrojanSupportVehicleUnit,
-    TroupeUnit,
     TroupeMasterUnit,
+    TroupeUnit,
     TrukkUnit,
     TrygonUnit,
     Tx42PiranhaUnit,
@@ -12931,18 +13884,20 @@ export const unitsDataset: SeedDataset<"units"> = {
     TzaangorEnlightenedWithFatecasterGreatbowsUnit,
     TzaangorShamanUnit,
     TzaangorsUnit,
+    TzeentchSoulGrinderUnit,
     UfthakBlackhawkUnit,
     UlrikTheSlayerUnit,
-    UltramarinesUnit,
     UltramarinesHonourGuardUnit,
+    UltramarinesUnit,
+    UpstartGretchinCrucibleUnit,
     Ur025Unit,
     UrielVentrisUnit,
     UrienRakarthUnit,
     UrsulaCreedUnit,
     ValdorUnit,
     ValerianUnit,
-    ValkyrieUnit,
     ValkyrieSkyTalonUnit,
+    ValkyrieUnit,
     VampireHunterUnit,
     VampireRaiderUnit,
     VanguardVeteranSquadUnit,
@@ -12951,9 +13906,11 @@ export const unitsDataset: SeedDataset<"units"> = {
     VashtorrTheArkifaneUnit,
     VenatariCustodiansUnit,
     VendettaGunshipUnit,
+    VenerableBattleBrotherCrucibleUnit,
     VenerableContemptorDreadnoughtUnit,
-    VenerableDreadnoughtUnit,
+    VenerableDaemonSlayerCrucibleUnit,
     VenerableDreadnoughtLegendaryUnit,
+    VenerableDreadnoughtUnit,
     VenerableLandRaiderUnit,
     VengeanceWeaponBatteryUnit,
     VenomUnit,
@@ -12967,8 +13924,9 @@ export const unitsDataset: SeedDataset<"units"> = {
     VigilantSquadUnit,
     VigilatorsUnit,
     VindicareAssassinUnit,
-    VindicatorUnit,
     VindicatorLaserDestroyerUnit,
+    VindicatorUnit,
+    VoiceOfThePatriarchCrucibleUnit,
     VoidShieldGeneratorUnit,
     VoidravenBomberUnit,
     VoidsmenAtArmsUnit,
@@ -12990,20 +13948,21 @@ export const unitsDataset: SeedDataset<"units"> = {
     WarDogStalkerUnit,
     WarWalkersUnit,
     WarbikersUnit,
-    WarbossUnit,
     WarbossInMegaArmourUnit,
     WarbossOnWarbikeUnit,
+    WarbossUnit,
     WarbringerNemesisTitanUnit,
     WarbuggiesUnit,
     WardensOfUltramarUnit,
     WarhoundTitanUnit,
-    WarlockUnit,
     WarlockConclaveUnit,
     WarlockSkyrunnersUnit,
+    WarlockUnit,
     WarlordTitanUnit,
     WarpHunterUnit,
     WarpSpidersUnit,
     WarpTalonsUnit,
+    WarpheadCrucibleUnit,
     WarpsmithUnit,
     WartrakksUnit,
     WaspAssaultWalkerUnit,
@@ -13014,26 +13973,26 @@ export const unitsDataset: SeedDataset<"units"> = {
     WazdakkaGutsmekUnit,
     WebwayGateUnit,
     WeirdboyUnit,
-    WhirlwindUnit,
     WhirlwindScorpiusUnit,
+    WhirlwindUnit,
     WhiteScarsUnit,
     WindridersUnit,
     WingedHiveTyrantUnit,
     WingedTyranidPrimeUnit,
     WitchseekersUnit,
-    WolfGuardUnit,
-    WolfGuardBattleLeaderUnit,
     WolfGuardBattleLeaderInTerminatorArmourUnit,
     WolfGuardBattleLeaderOnThunderwolfUnit,
+    WolfGuardBattleLeaderUnit,
     WolfGuardHeadtakersUnit,
-    WolfGuardPackLeaderUnit,
     WolfGuardPackLeaderInTerminatorArmourUnit,
+    WolfGuardPackLeaderUnit,
     WolfGuardPackLeaderWithJumpPackUnit,
     WolfGuardTerminatorsUnit,
+    WolfGuardUnit,
     WolfLordOnThunderwolfUnit,
     WolfPriestUnit,
-    WolfScoutsUnit,
     WolfScoutsLegendaryUnit,
+    WolfScoutsUnit,
     WracksUnit,
     WraithbladesUnit,
     WraithguardUnit,
@@ -13041,8 +14000,8 @@ export const unitsDataset: SeedDataset<"units"> = {
     WraithknightWithGhostglaiveUnit,
     WraithlordUnit,
     WraithseerUnit,
-    WulfenUnit,
     WulfenDreadnoughtUnit,
+    WulfenUnit,
     WulfenWithStormShieldsUnit,
     WurrboyUnit,
     WychesUnit,

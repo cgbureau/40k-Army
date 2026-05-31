@@ -5,11 +5,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from collections import OrderedDict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
 from xml.etree import ElementTree as ET
+
+from wahapedia_importer.common import normalize_slug
 
 BS_NS = {"bs": "http://www.battlescribe.net/schema/catalogueSchema"}
 POINTS_FIELD_ID = "51b2-306e-1021-d207"
@@ -21,6 +24,8 @@ WEAPON_PROFILE_TYPES = {"Melee Weapons", "Ranged Weapons"}
 class UnitEntry:
     name: str
     element: ET.Element
+    source_file: str
+    source_mode: str
 
 
 @dataclass(frozen=True)
@@ -34,6 +39,13 @@ class UnitMetrics:
 
 
 SPACE_MARINE_BASE_SOURCE = [("shared", "Imperium - Space Marines.cat")]
+
+UNIT_SLUG_ALIASES = {
+    "hellblade": "hell_blade",
+    "hellblade_legends": "hell_blade",
+    "jakhal": "jakhals",
+    "piranha": "piranhas",
+}
 
 CATALOG_SOURCES: dict[str, list[tuple[str, str]]] = {
     "adepta_sororitas": [("shared", "Imperium - Adepta Sororitas.cat")],
@@ -100,11 +112,27 @@ class BsDataIndex:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--bsdata-root", required=True)
+    parser.add_argument(
+        "--emit-rules-faction-units",
+        action="store_true",
+        help="Emit expected rules_faction_units memberships instead of counts.",
+    )
+    parser.add_argument(
+        "--repo-root",
+        default=str(Path(__file__).resolve().parents[1]),
+        help="Repository root used to load current seed unit slugs for slug aliases.",
+    )
     args = parser.parse_args()
 
     index = BsDataIndex(Path(args.bsdata_root))
+    if args.emit_rules_faction_units:
+        records = expected_rules_faction_units(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+
+    seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
-        slug: expected_counts_for_sources(index, sources)
+        slug: expected_counts_for_sources(index, sources, seed_unit_slugs)
         for slug, sources in CATALOG_SOURCES.items()
     }
     print(json.dumps(result, sort_keys=True))
@@ -113,12 +141,18 @@ def main() -> None:
 def expected_counts_for_sources(
     index: BsDataIndex,
     sources: list[tuple[str, str]],
+    seed_unit_slugs: set[str] | None = None,
 ) -> dict[str, int]:
     unit_entries: "OrderedDict[str, UnitEntry]" = OrderedDict()
 
     for mode, filename in sources:
         for entry in source_unit_entries(index, mode, filename):
-            unit_entries[normalize_name(entry.name)] = entry
+            key = (
+                seed_unit_slug(entry.name, seed_unit_slugs)
+                if seed_unit_slugs
+                else normalize_name(entry.name)
+            )
+            unit_entries[key] = entry
 
     unit_metrics = [metrics_for_unit(entry.element, entry.name) for entry in unit_entries.values()]
     model_names = set[str]()
@@ -149,7 +183,12 @@ def source_unit_entries(
             return []
 
         return [
-            UnitEntry(name=entry.attrib["name"], element=entry)
+            UnitEntry(
+                name=entry.attrib["name"],
+                element=entry,
+                source_file=filename,
+                source_mode=mode,
+            )
             for entry in shared_entries.findall("bs:selectionEntry", BS_NS)
             if entry.attrib.get("type") in UNIT_SELECTION_TYPES
         ]
@@ -165,7 +204,12 @@ def source_unit_entries(
                 continue
 
             linked_units.append(
-                UnitEntry(name=link.attrib.get("name", entry.attrib["name"]), element=entry),
+                UnitEntry(
+                    name=link.attrib.get("name", entry.attrib["name"]),
+                    element=entry,
+                    source_file=filename,
+                    source_mode=mode,
+                ),
             )
 
         return linked_units
@@ -232,6 +276,95 @@ def count_characteristics(profile: ET.Element) -> int:
 
 def normalize_name(name: str) -> str:
     return " ".join(name.split())
+
+
+def expected_rules_faction_units(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    seed_unit_slugs = load_seed_unit_slugs(repo_root)
+    records: list[dict[str, str]] = []
+
+    for faction_slug, sources in CATALOG_SOURCES.items():
+        unit_entries: "OrderedDict[str, UnitEntry]" = OrderedDict()
+
+        for mode, filename in sources:
+            for entry in source_unit_entries(index, mode, filename):
+                unit_slug = seed_unit_slug(entry.name, seed_unit_slugs)
+                unit_entries[unit_slug] = entry
+
+        for unit_slug, entry in unit_entries.items():
+            access_type = (
+                "shared"
+                if entry.source_file == "Imperium - Space Marines.cat"
+                and faction_slug != "space_marines"
+                else "exclusive"
+            )
+            records.append(
+                {
+                    "rules_faction_slug": faction_slug,
+                    "unit_slug": unit_slug,
+                    "unit_name": display_unit_name(entry.name),
+                    "bsdata_unit_name": entry.name,
+                    "unit_access_type": access_type,
+                    "source_file": entry.source_file,
+                    "source_mode": entry.source_mode,
+                },
+            )
+
+    return sorted(
+        records,
+        key=lambda record: (record["rules_faction_slug"], record["unit_slug"]),
+    )
+
+
+def load_seed_unit_slugs(repo_root: Path) -> set[str]:
+    units_path = repo_root / "db/seed_config/seed/data/units.data.ts"
+    if not units_path.exists():
+        return set()
+
+    return set(re.findall(r'unit_slug: "([^"]+)"', units_path.read_text()))
+
+
+def seed_unit_slug(name: str, seed_unit_slugs: set[str]) -> str:
+    is_legends = "[Legends]" in name
+    base_name = re.sub(r"\s*\[Legends\]\s*$", "", name).strip()
+    raw_slug = normalize_slug(base_name)
+    candidates: list[str] = []
+
+    if is_legends:
+        candidates.extend([f"{raw_slug}_legends", f"{raw_slug}_legendary"])
+
+    candidates.append(raw_slug)
+
+    for candidate in unit_slug_variants(candidates):
+        if candidate in seed_unit_slugs:
+            return candidate
+
+    return unit_slug_variants(candidates)[0]
+
+
+def unit_slug_variants(candidates: list[str]) -> list[str]:
+    variants: list[str] = []
+
+    for candidate in candidates:
+        for variant in spelling_variants(candidate):
+            variants.append(UNIT_SLUG_ALIASES.get(variant, variant))
+
+    return list(OrderedDict.fromkeys(variants))
+
+
+def spelling_variants(slug: str) -> list[str]:
+    variants = [slug]
+    if "armor" in slug:
+        variants.append(slug.replace("armor", "armour"))
+    if "defense" in slug:
+        variants.append(slug.replace("defense", "defence"))
+    return variants
+
+
+def display_unit_name(name: str) -> str:
+    return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
 
 
 if __name__ == "__main__":

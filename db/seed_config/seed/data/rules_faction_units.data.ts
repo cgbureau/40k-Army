@@ -1191,16 +1191,6 @@ export const AdeptusMechanicusThuliaGhuldRulesFactionUnit: RulesFactionUnitConfi
   superseded_date: null,
 };
 
-export const AdeptusMechanicusX101RulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("adeptus_mechanicus__x_101"),
-  rules_faction_unit_slug: "adeptus_mechanicus__x_101",
-  rules_faction_id: rulesFactionId("adeptus_mechanicus"),
-  unit_id: unitId("x_101"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const AeldariAmallynShadowguideRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("aeldari__amallyn_shadowguide"),
@@ -5195,16 +5185,6 @@ export const BlackTemplarsVanguardVeteranSquadWithJumpPacksRulesFactionUnit: Rul
   superseded_date: null,
 };
 
-export const BlackTemplarsVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("black_templars__venerable_dreadnought"),
-  rules_faction_unit_slug: "black_templars__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("black_templars"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const BlackTemplarsVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("black_templars__vindicator"),
@@ -6867,16 +6847,6 @@ export const BloodAngelsVanguardVeteranSquadWithJumpPacksRulesFactionUnit: Rules
   superseded_date: null,
 };
 
-export const BloodAngelsVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("blood_angels__venerable_dreadnought"),
-  rules_faction_unit_slug: "blood_angels__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("blood_angels"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const BloodAngelsVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("blood_angels__vindicator"),
@@ -7197,16 +7167,6 @@ export const ChaosDaemonsGreatUncleanOneRulesFactionUnit: RulesFactionUnitConfig
   superseded_date: null,
 };
 
-export const ChaosDaemonsHellflayerRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_daemons__hellflayer"),
-  rules_faction_unit_slug: "chaos_daemons__hellflayer",
-  rules_faction_id: rulesFactionId("chaos_daemons"),
-  unit_id: unitId("hellflayer"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosDaemonsHellflayersRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_daemons__hellflayers"),
@@ -7516,16 +7476,6 @@ export const ChaosDaemonsSloppityBilepiperRulesFactionUnit: RulesFactionUnitConf
   superseded_date: null,
 };
 
-export const ChaosDaemonsSoulGrinderRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_daemons__soul_grinder"),
-  rules_faction_unit_slug: "chaos_daemons__soul_grinder",
-  rules_faction_id: rulesFactionId("chaos_daemons"),
-  unit_id: unitId("soul_grinder"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosDaemonsSpinedChaosBeastRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_daemons__spined_chaos_beast"),
@@ -7604,16 +7554,6 @@ export const ChaosDaemonsTormentbringerRulesFactionUnit: RulesFactionUnitConfig 
   superseded_date: null,
 };
 
-export const ChaosDaemonsTormentbringerOnExaltedSeekerChariotRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_daemons__tormentbringer_on_exalted_seeker_chariot"),
-  rules_faction_unit_slug: "chaos_daemons__tormentbringer_on_exalted_seeker_chariot",
-  rules_faction_id: rulesFactionId("chaos_daemons"),
-  unit_id: unitId("tormentbringer_on_exalted_seeker_chariot"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosDaemonsTranceweaverRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_daemons__tranceweaver"),
@@ -7879,16 +7819,6 @@ export const ChaosSpaceMarinesAccursedCultistsRulesFactionUnit: RulesFactionUnit
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesBloodSlaughtererRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__blood_slaughterer"),
-  rules_faction_unit_slug: "chaos_space_marines__blood_slaughterer",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("blood_slaughterer"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesChaosBikersRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__chaos_bikers"),
@@ -8066,16 +7996,6 @@ export const ChaosSpaceMarinesChaosTerminatorSquadRulesFactionUnit: RulesFaction
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesChaosThunderhawkRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__chaos_thunderhawk"),
-  rules_faction_unit_slug: "chaos_space_marines__chaos_thunderhawk",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("chaos_thunderhawk"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesChaosVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__chaos_vindicator"),
@@ -8165,16 +8085,6 @@ export const ChaosSpaceMarinesDarkCommuneRulesFactionUnit: RulesFactionUnitConfi
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesDecimatorRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__decimator"),
-  rules_faction_unit_slug: "chaos_space_marines__decimator",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("decimator"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesDefilerRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__defiler"),
@@ -8187,16 +8097,6 @@ export const ChaosSpaceMarinesDefilerRulesFactionUnit: RulesFactionUnitConfig = 
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesDreadclawDropPodRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__dreadclaw_drop_pod"),
-  rules_faction_unit_slug: "chaos_space_marines__dreadclaw_drop_pod",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("dreadclaw_drop_pod"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesExaltedChampionRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__exalted_champion"),
@@ -8253,27 +8153,7 @@ export const ChaosSpaceMarinesGellerpoxInfectedRulesFactionUnit: RulesFactionUni
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesGreaterBlightDroneRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__greater_blight_drone"),
-  rules_faction_unit_slug: "chaos_space_marines__greater_blight_drone",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("greater_blight_drone"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
-export const ChaosSpaceMarinesGreaterBrassScorpionRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__greater_brass_scorpion"),
-  rules_faction_unit_slug: "chaos_space_marines__greater_brass_scorpion",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("greater_brass_scorpion"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesHaarkenWorldclaimerRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__haarken_worldclaimer"),
@@ -8374,16 +8254,6 @@ export const ChaosSpaceMarinesHuronBlackheartRulesFactionUnit: RulesFactionUnitC
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesKharybdisAssaultClawRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__kharybdis_assault_claw"),
-  rules_faction_unit_slug: "chaos_space_marines__kharybdis_assault_claw",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("kharybdis_assault_claw"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesKhorneLordOfSkullsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__khorne_lord_of_skulls"),
@@ -8407,16 +8277,6 @@ export const ChaosSpaceMarinesKravekMorneRulesFactionUnit: RulesFactionUnitConfi
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesKytanRavagerRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__kytan_ravager"),
-  rules_faction_unit_slug: "chaos_space_marines__kytan_ravager",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("kytan_ravager"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesLegionariesRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__legionaries"),
@@ -8495,16 +8355,6 @@ export const ChaosSpaceMarinesMutilatorsRulesFactionUnit: RulesFactionUnitConfig
   superseded_date: null,
 };
 
-export const ChaosSpaceMarinesMutilatorsLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("chaos_space_marines__mutilators_legendary"),
-  rules_faction_unit_slug: "chaos_space_marines__mutilators_legendary",
-  rules_faction_id: rulesFactionId("chaos_space_marines"),
-  unit_id: unitId("mutilators_legendary"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ChaosSpaceMarinesMutoidVerminRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("chaos_space_marines__mutoid_vermin"),
@@ -10365,16 +10215,6 @@ export const DarkAngelsVanguardVeteranSquadWithJumpPacksRulesFactionUnit: RulesF
   superseded_date: null,
 };
 
-export const DarkAngelsVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("dark_angels__venerable_dreadnought"),
-  rules_faction_unit_slug: "dark_angels__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("dark_angels"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const DarkAngelsVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("dark_angels__vindicator"),
@@ -12290,16 +12130,6 @@ export const DeathwatchVanguardVeteranSquadWithJumpPacksRulesFactionUnit: RulesF
   superseded_date: null,
 };
 
-export const DeathwatchVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("deathwatch__venerable_dreadnought"),
-  rules_faction_unit_slug: "deathwatch__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("deathwatch"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const DeathwatchVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("deathwatch__vindicator"),
@@ -12422,16 +12252,6 @@ export const DrukhariHaemonculusRulesFactionUnit: RulesFactionUnitConfig = {
   superseded_date: null,
 };
 
-export const DrukhariHandOfTheArchonRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("drukhari__hand_of_the_archon"),
-  rules_faction_unit_slug: "drukhari__hand_of_the_archon",
-  rules_faction_id: rulesFactionId("drukhari"),
-  unit_id: unitId("hand_of_the_archon"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const DrukhariHellionsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("drukhari__hellions"),
@@ -15436,16 +15256,6 @@ export const ImperialFistsVanguardVeteranSquadWithJumpPacksRulesFactionUnit: Rul
   superseded_date: null,
 };
 
-export const ImperialFistsVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("imperial_fists__venerable_dreadnought"),
-  rules_faction_unit_slug: "imperial_fists__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("imperial_fists"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ImperialFistsVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("imperial_fists__vindicator"),
@@ -15711,16 +15521,6 @@ export const ImperialKnightsQuestorisKnightStyrixRulesFactionUnit: RulesFactionU
   superseded_date: null,
 };
 
-export const ImperialKnightsSirHekhturRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("imperial_knights__sir_hekhtur"),
-  rules_faction_unit_slug: "imperial_knights__sir_hekhtur",
-  rules_faction_id: rulesFactionId("imperial_knights"),
-  unit_id: unitId("sir_hekhtur"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_imperial_knights_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const IronHandsAggressorSquadRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("iron_hands__aggressor_squad"),
@@ -17097,16 +16897,6 @@ export const IronHandsVanguardVeteranSquadWithJumpPacksRulesFactionUnit: RulesFa
   superseded_date: null,
 };
 
-export const IronHandsVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("iron_hands__venerable_dreadnought"),
-  rules_faction_unit_slug: "iron_hands__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("iron_hands"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const IronHandsVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("iron_hands__vindicator"),
@@ -18010,16 +17800,6 @@ export const NecronsTombBladesRulesFactionUnit: RulesFactionUnitConfig = {
   superseded_date: null,
 };
 
-export const NecronsTombCitadelWallsRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("necrons__tomb_citadel_walls"),
-  rules_faction_unit_slug: "necrons__tomb_citadel_walls",
-  rules_faction_id: rulesFactionId("necrons"),
-  unit_id: unitId("tomb_citadel_walls"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_necrons_10e_v1_3"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const NecronsTranscendentCtanRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("necrons__transcendent_ctan"),
@@ -20408,16 +20188,6 @@ export const RavenGuardVanguardVeteranSquadWithJumpPacksRulesFactionUnit: RulesF
   superseded_date: null,
 };
 
-export const RavenGuardVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("raven_guard__venerable_dreadnought"),
-  rules_faction_unit_slug: "raven_guard__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("raven_guard"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const RavenGuardVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("raven_guard__vindicator"),
@@ -21805,16 +21575,6 @@ export const SalamandersVanguardVeteranSquadWithJumpPacksRulesFactionUnit: Rules
   superseded_date: null,
 };
 
-export const SalamandersVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("salamanders__venerable_dreadnought"),
-  rules_faction_unit_slug: "salamanders__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("salamanders"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const SalamandersVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("salamanders__vindicator"),
@@ -23202,16 +22962,6 @@ export const SpaceMarinesVanguardVeteranSquadWithJumpPacksRulesFactionUnit: Rule
   superseded_date: null,
 };
 
-export const SpaceMarinesVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("space_marines__venerable_dreadnought"),
-  rules_faction_unit_slug: "space_marines__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("space_marines"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const SpaceMarinesVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("space_marines__vindicator"),
@@ -28207,16 +27957,6 @@ export const UltramarinesVanguardVeteranSquadWithJumpPacksRulesFactionUnit: Rule
   superseded_date: null,
 };
 
-export const UltramarinesVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("ultramarines__venerable_dreadnought"),
-  rules_faction_unit_slug: "ultramarines__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("ultramarines"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const UltramarinesVictrixHonourGuardRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("ultramarines__victrix_honour_guard"),
@@ -29637,16 +29377,6 @@ export const WhiteScarsVanguardVeteranSquadWithJumpPacksRulesFactionUnit: RulesF
   superseded_date: null,
 };
 
-export const WhiteScarsVenerableDreadnoughtRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("white_scars__venerable_dreadnought"),
-  rules_faction_unit_slug: "white_scars__venerable_dreadnought",
-  rules_faction_id: rulesFactionId("white_scars"),
-  unit_id: unitId("venerable_dreadnought"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_wolves_10e_v1_2"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const WhiteScarsVindicatorRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("white_scars__vindicator"),
@@ -30000,6 +29730,2201 @@ export const WorldEatersSlaughterboundRulesFactionUnit: RulesFactionUnitConfig =
   superseded_date: null,
 };
 
+export const AdeptaSororitasCelestianSacresantAnointedHalberdRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__celestian_sacresant_anointed_halberd"),
+  rules_faction_unit_slug: "adepta_sororitas__celestian_sacresant_anointed_halberd",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("celestian_sacresant_anointed_halberd"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasCelestianSacresantHallowedMaceRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__celestian_sacresant_hallowed_mace"),
+  rules_faction_unit_slug: "adepta_sororitas__celestian_sacresant_hallowed_mace",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("celestian_sacresant_hallowed_mace"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasGeminaeSuperiaRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__geminae_superia"),
+  rules_faction_unit_slug: "adepta_sororitas__geminae_superia",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("geminae_superia"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasInspiringDevoteeCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__inspiring_devotee_crucible"),
+  rules_faction_unit_slug: "adepta_sororitas__inspiring_devotee_crucible",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("inspiring_devotee_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasMilitantCommanderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__militant_commander_crucible"),
+  rules_faction_unit_slug: "adepta_sororitas__militant_commander_crucible",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("militant_commander_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasReliquantKnightCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__reliquant_knight_crucible"),
+  rules_faction_unit_slug: "adepta_sororitas__reliquant_knight_crucible",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("reliquant_knight_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasSisterNovitiateAutogunRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__sister_novitiate_autogun"),
+  rules_faction_unit_slug: "adepta_sororitas__sister_novitiate_autogun",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("sister_novitiate_autogun"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptaSororitasSisterNovitiateMeleeWeaponRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adepta_sororitas__sister_novitiate_melee_weapon"),
+  rules_faction_unit_slug: "adepta_sororitas__sister_novitiate_melee_weapon",
+  rules_faction_id: rulesFactionId("adepta_sororitas"),
+  unit_id: unitId("sister_novitiate_melee_weapon"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adepta_sororitas_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptusCustodesGuardianOfTheThroneCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adeptus_custodes__guardian_of_the_throne_crucible"),
+  rules_faction_unit_slug: "adeptus_custodes__guardian_of_the_throne_crucible",
+  rules_faction_id: rulesFactionId("adeptus_custodes"),
+  unit_id: unitId("guardian_of_the_throne_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adeptus_custodes_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptusCustodesKataphraktoiExemplarCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adeptus_custodes__kataphraktoi_exemplar_crucible"),
+  rules_faction_unit_slug: "adeptus_custodes__kataphraktoi_exemplar_crucible",
+  rules_faction_id: rulesFactionId("adeptus_custodes"),
+  unit_id: unitId("kataphraktoi_exemplar_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adeptus_custodes_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptusCustodesNullMaidenCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adeptus_custodes__null_maiden_crucible"),
+  rules_faction_unit_slug: "adeptus_custodes__null_maiden_crucible",
+  rules_faction_id: rulesFactionId("adeptus_custodes"),
+  unit_id: unitId("null_maiden_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adeptus_custodes_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptusMechanicusCohortCommanderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adeptus_mechanicus__cohort_commander_crucible"),
+  rules_faction_unit_slug: "adeptus_mechanicus__cohort_commander_crucible",
+  rules_faction_id: rulesFactionId("adeptus_mechanicus"),
+  unit_id: unitId("cohort_commander_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptusMechanicusIronstriderAlphaCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adeptus_mechanicus__ironstrider_alpha_crucible"),
+  rules_faction_unit_slug: "adeptus_mechanicus__ironstrider_alpha_crucible",
+  rules_faction_id: rulesFactionId("adeptus_mechanicus"),
+  unit_id: unitId("ironstrider_alpha_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AdeptusMechanicusMagosCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("adeptus_mechanicus__magos_crucible"),
+  rules_faction_unit_slug: "adeptus_mechanicus__magos_crucible",
+  rules_faction_id: rulesFactionId("adeptus_mechanicus"),
+  unit_id: unitId("magos_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_adeptus_mechanicus_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AeldariCraftworldWarleaderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("aeldari__craftworld_warleader_crucible"),
+  rules_faction_unit_slug: "aeldari__craftworld_warleader_crucible",
+  rules_faction_id: rulesFactionId("aeldari"),
+  unit_id: unitId("craftworld_warleader_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AeldariGhostWarriorCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("aeldari__ghost_warrior_crucible"),
+  rules_faction_unit_slug: "aeldari__ghost_warrior_crucible",
+  rules_faction_id: rulesFactionId("aeldari"),
+  unit_id: unitId("ghost_warrior_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AeldariSkyrunnerCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("aeldari__skyrunner_crucible"),
+  rules_faction_unit_slug: "aeldari__skyrunner_crucible",
+  rules_faction_id: rulesFactionId("aeldari"),
+  unit_id: unitId("skyrunner_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_aeldari_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AstraMilitarumAugmentedBoneEadCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("astra_militarum__augmented_bone_ead_crucible"),
+  rules_faction_unit_slug: "astra_militarum__augmented_bone_ead_crucible",
+  rules_faction_id: rulesFactionId("astra_militarum"),
+  unit_id: unitId("augmented_bone_ead_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AstraMilitarumFrontLineCommanderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("astra_militarum__front_line_commander_crucible"),
+  rules_faction_unit_slug: "astra_militarum__front_line_commander_crucible",
+  rules_faction_id: rulesFactionId("astra_militarum"),
+  unit_id: unitId("front_line_commander_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const AstraMilitarumSentinelCommanderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("astra_militarum__sentinel_commander_crucible"),
+  rules_faction_unit_slug: "astra_militarum__sentinel_commander_crucible",
+  rules_faction_id: rulesFactionId("astra_militarum"),
+  unit_id: unitId("sentinel_commander_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_astra_militarum_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BlackTemplarsChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("black_templars__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "black_templars__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("black_templars"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BlackTemplarsCrusaderSquadLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("black_templars__crusader_squad_legendary"),
+  rules_faction_unit_slug: "black_templars__crusader_squad_legendary",
+  rules_faction_id: rulesFactionId("black_templars"),
+  unit_id: unitId("crusader_squad_legendary"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BlackTemplarsEmperorsChampionAnointedRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("black_templars__emperors_champion_anointed"),
+  rules_faction_unit_slug: "black_templars__emperors_champion_anointed",
+  rules_faction_id: rulesFactionId("black_templars"),
+  unit_id: unitId("emperors_champion_anointed"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BlackTemplarsLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("black_templars__librarius_adept_crucible"),
+  rules_faction_unit_slug: "black_templars__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("black_templars"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BlackTemplarsVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("black_templars__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "black_templars__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("black_templars"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BlackTemplarsVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("black_templars__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "black_templars__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("black_templars"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BloodAngelsChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("blood_angels__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "blood_angels__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("blood_angels"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BloodAngelsDeathCompanyIntercessorsRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("blood_angels__death_company_intercessors"),
+  rules_faction_unit_slug: "blood_angels__death_company_intercessors",
+  rules_faction_id: rulesFactionId("blood_angels"),
+  unit_id: unitId("death_company_intercessors"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BloodAngelsLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("blood_angels__librarius_adept_crucible"),
+  rules_faction_unit_slug: "blood_angels__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("blood_angels"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BloodAngelsVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("blood_angels__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "blood_angels__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("blood_angels"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const BloodAngelsVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("blood_angels__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "blood_angels__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("blood_angels"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsDaemonicCharioteerCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__daemonic_charioteer_crucible"),
+  rules_faction_unit_slug: "chaos_daemons__daemonic_charioteer_crucible",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("daemonic_charioteer_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsDaemonicHeraldCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__daemonic_herald_crucible"),
+  rules_faction_unit_slug: "chaos_daemons__daemonic_herald_crucible",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("daemonic_herald_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsImmortalChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__immortal_champion_crucible"),
+  rules_faction_unit_slug: "chaos_daemons__immortal_champion_crucible",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("immortal_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsKhorneSoulGrinderRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__khorne_soul_grinder"),
+  rules_faction_unit_slug: "chaos_daemons__khorne_soul_grinder",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("khorne_soul_grinder"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsNurgleSoulGrinderRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__nurgle_soul_grinder"),
+  rules_faction_unit_slug: "chaos_daemons__nurgle_soul_grinder",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("nurgle_soul_grinder"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsSlaaneshSoulGrinderRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__slaanesh_soul_grinder"),
+  rules_faction_unit_slug: "chaos_daemons__slaanesh_soul_grinder",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("slaanesh_soul_grinder"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosDaemonsTzeentchSoulGrinderRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_daemons__tzeentch_soul_grinder"),
+  rules_faction_unit_slug: "chaos_daemons__tzeentch_soul_grinder",
+  rules_faction_id: rulesFactionId("chaos_daemons"),
+  unit_id: unitId("tzeentch_soul_grinder"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesExaltedChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__exalted_champion_crucible"),
+  rules_faction_unit_slug: "chaos_space_marines__exalted_champion_crucible",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("exalted_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesKhorneBerzerkersRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__khorne_berzerkers"),
+  rules_faction_unit_slug: "chaos_space_marines__khorne_berzerkers",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("khorne_berzerkers"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesNoiseMarinesRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__noise_marines"),
+  rules_faction_unit_slug: "chaos_space_marines__noise_marines",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("noise_marines"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesPlagueMarinesRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__plague_marines"),
+  rules_faction_unit_slug: "chaos_space_marines__plague_marines",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("plague_marines"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesRubricMarinesRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__rubric_marines"),
+  rules_faction_unit_slug: "chaos_space_marines__rubric_marines",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("rubric_marines"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesSorcerousChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__sorcerous_champion_crucible"),
+  rules_faction_unit_slug: "chaos_space_marines__sorcerous_champion_crucible",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("sorcerous_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosSpaceMarinesSoulForgeTyrantCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("chaos_space_marines__soul_forge_tyrant_crucible"),
+  rules_faction_unit_slug: "chaos_space_marines__soul_forge_tyrant_crucible",
+  rules_faction_id: rulesFactionId("chaos_space_marines"),
+  unit_id: unitId("soul_forge_tyrant_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_chaos_space_marines_10e_v1_6"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DarkAngelsChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("dark_angels__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "dark_angels__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("dark_angels"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DarkAngelsLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("dark_angels__librarius_adept_crucible"),
+  rules_faction_unit_slug: "dark_angels__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("dark_angels"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DarkAngelsVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("dark_angels__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "dark_angels__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("dark_angels"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DarkAngelsVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("dark_angels__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "dark_angels__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("dark_angels"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardChaosLordOnPalanquinOfNurgleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__chaos_lord_on_palanquin_of_nurgle"),
+  rules_faction_unit_slug: "death_guard__chaos_lord_on_palanquin_of_nurgle",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardGellerpoxInfectedRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__gellerpox_infected"),
+  rules_faction_unit_slug: "death_guard__gellerpox_infected",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("gellerpox_infected"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardHellBladeRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__hell_blade"),
+  rules_faction_unit_slug: "death_guard__hell_blade",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("hell_blade"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardHellTalonRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__hell_talon"),
+  rules_faction_unit_slug: "death_guard__hell_talon",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("hell_talon"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardMutoidVerminRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__mutoid_vermin"),
+  rules_faction_unit_slug: "death_guard__mutoid_vermin",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("mutoid_vermin"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardPlagueLordCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__plague_lord_crucible"),
+  rules_faction_unit_slug: "death_guard__plague_lord_crucible",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("plague_lord_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardPlagueSorcererCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__plague_sorcerer_crucible"),
+  rules_faction_unit_slug: "death_guard__plague_sorcerer_crucible",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("plague_sorcerer_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardSorcererOnPalanquinOfNurgleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__sorcerer_on_palanquin_of_nurgle"),
+  rules_faction_unit_slug: "death_guard__sorcerer_on_palanquin_of_nurgle",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathGuardTriLobeVectorsCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("death_guard__tri_lobe_vectors_crucible"),
+  rules_faction_unit_slug: "death_guard__tri_lobe_vectors_crucible",
+  rules_faction_id: rulesFactionId("death_guard"),
+  unit_id: unitId("tri_lobe_vectors_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "deathwatch__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchDeathwatchVeteranWCarbineRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__deathwatch_veteran_w_carbine"),
+  rules_faction_unit_slug: "deathwatch__deathwatch_veteran_w_carbine",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("deathwatch_veteran_w_carbine"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchDeathwatchVeteranWHeavyThunderHammerRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__deathwatch_veteran_w_heavy_thunder_hammer"),
+  rules_faction_unit_slug: "deathwatch__deathwatch_veteran_w_heavy_thunder_hammer",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("deathwatch_veteran_w_heavy_thunder_hammer"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchDeathwatchVeteranWStalkerBoltRifleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__deathwatch_veteran_w_stalker_bolt_rifle"),
+  rules_faction_unit_slug: "deathwatch__deathwatch_veteran_w_stalker_bolt_rifle",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("deathwatch_veteran_w_stalker_bolt_rifle"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchGravisVeteranWInfernusHeavyBolterRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__gravis_veteran_w_infernus_heavy_bolter"),
+  rules_faction_unit_slug: "deathwatch__gravis_veteran_w_infernus_heavy_bolter",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("gravis_veteran_w_infernus_heavy_bolter"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchKillTeamCassiusRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__kill_team_cassius"),
+  rules_faction_unit_slug: "deathwatch__kill_team_cassius",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("kill_team_cassius"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchKillTeamSergeantRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__kill_team_sergeant"),
+  rules_faction_unit_slug: "deathwatch__kill_team_sergeant",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("kill_team_sergeant"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__librarius_adept_crucible"),
+  rules_faction_unit_slug: "deathwatch__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "deathwatch__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DeathwatchVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("deathwatch__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "deathwatch__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("deathwatch"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariArchtormentorCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__archtormentor_crucible"),
+  rules_faction_unit_slug: "drukhari__archtormentor_crucible",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("archtormentor_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariCorsairCloudDancerBandRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__corsair_cloud_dancer_band"),
+  rules_faction_unit_slug: "drukhari__corsair_cloud_dancer_band",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("corsair_cloud_dancer_band"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariCorsairReaverBandRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__corsair_reaver_band"),
+  rules_faction_unit_slug: "drukhari__corsair_reaver_band",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("corsair_reaver_band"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariCorsairSkyreaverBandRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__corsair_skyreaver_band"),
+  rules_faction_unit_slug: "drukhari__corsair_skyreaver_band",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("corsair_skyreaver_band"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariCorsairSkyreaversRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__corsair_skyreavers"),
+  rules_faction_unit_slug: "drukhari__corsair_skyreavers",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("corsair_skyreavers"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariCorsairVoidreaversRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__corsair_voidreavers"),
+  rules_faction_unit_slug: "drukhari__corsair_voidreavers",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("corsair_voidreavers"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariCorsairVoidscarredRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__corsair_voidscarred"),
+  rules_faction_unit_slug: "drukhari__corsair_voidscarred",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("corsair_voidscarred"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariDeathJesterRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__death_jester"),
+  rules_faction_unit_slug: "drukhari__death_jester",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("death_jester"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariFleshCrafterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__flesh_crafter_crucible"),
+  rules_faction_unit_slug: "drukhari__flesh_crafter_crucible",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("flesh_crafter_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariKharsethRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__kharseth"),
+  rules_faction_unit_slug: "drukhari__kharseth",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("kharseth"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariPrinceYrielRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__prince_yriel"),
+  rules_faction_unit_slug: "drukhari__prince_yriel",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("prince_yriel"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariShadowseerRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__shadowseer"),
+  rules_faction_unit_slug: "drukhari__shadowseer",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("shadowseer"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariSkyweaversRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__skyweavers"),
+  rules_faction_unit_slug: "drukhari__skyweavers",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("skyweavers"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariSolitaireRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__solitaire"),
+  rules_faction_unit_slug: "drukhari__solitaire",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("solitaire"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariStarfangsRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__starfangs"),
+  rules_faction_unit_slug: "drukhari__starfangs",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("starfangs"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariStarweaverRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__starweaver"),
+  rules_faction_unit_slug: "drukhari__starweaver",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("starweaver"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariTroupeRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__troupe"),
+  rules_faction_unit_slug: "drukhari__troupe",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("troupe"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariTroupeMasterRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__troupe_master"),
+  rules_faction_unit_slug: "drukhari__troupe_master",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("troupe_master"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DrukhariVoidweaverRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__voidweaver"),
+  rules_faction_unit_slug: "drukhari__voidweaver",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("voidweaver"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const EmperorsChildrenChampionOfExcessCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("emperors_children__champion_of_excess_crucible"),
+  rules_faction_unit_slug: "emperors_children__champion_of_excess_crucible",
+  rules_faction_id: rulesFactionId("emperors_children"),
+  unit_id: unitId("champion_of_excess_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_emperors_children_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const EmperorsChildrenExcruciatorCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("emperors_children__excruciator_crucible"),
+  rules_faction_unit_slug: "emperors_children__excruciator_crucible",
+  rules_faction_id: rulesFactionId("emperors_children"),
+  unit_id: unitId("excruciator_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_emperors_children_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const EmperorsChildrenFlawlessChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("emperors_children__flawless_champion_crucible"),
+  rules_faction_unit_slug: "emperors_children__flawless_champion_crucible",
+  rules_faction_id: rulesFactionId("emperors_children"),
+  unit_id: unitId("flawless_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_emperors_children_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GenestealerCultsCultGuerrillaCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("genestealer_cults__cult_guerrilla_crucible"),
+  rules_faction_unit_slug: "genestealer_cults__cult_guerrilla_crucible",
+  rules_faction_id: rulesFactionId("genestealer_cults"),
+  unit_id: unitId("cult_guerrilla_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_genestealer_cults_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GenestealerCultsCultInsurrectionistCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("genestealer_cults__cult_insurrectionist_crucible"),
+  rules_faction_unit_slug: "genestealer_cults__cult_insurrectionist_crucible",
+  rules_faction_id: rulesFactionId("genestealer_cults"),
+  unit_id: unitId("cult_insurrectionist_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_genestealer_cults_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GenestealerCultsVoiceOfThePatriarchCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("genestealer_cults__voice_of_the_patriarch_crucible"),
+  rules_faction_unit_slug: "genestealer_cults__voice_of_the_patriarch_crucible",
+  rules_faction_id: rulesFactionId("genestealer_cults"),
+  unit_id: unitId("voice_of_the_patriarch_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_genestealer_cults_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GreyKnightsChampionOfTitanCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("grey_knights__champion_of_titan_crucible"),
+  rules_faction_unit_slug: "grey_knights__champion_of_titan_crucible",
+  rules_faction_id: rulesFactionId("grey_knights"),
+  unit_id: unitId("champion_of_titan_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_grey_knights_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GreyKnightsDreadknightChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("grey_knights__dreadknight_champion_crucible"),
+  rules_faction_unit_slug: "grey_knights__dreadknight_champion_crucible",
+  rules_faction_id: rulesFactionId("grey_knights"),
+  unit_id: unitId("dreadknight_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_grey_knights_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GreyKnightsLandRaiderBanisherRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("grey_knights__land_raider_banisher"),
+  rules_faction_unit_slug: "grey_knights__land_raider_banisher",
+  rules_faction_id: rulesFactionId("grey_knights"),
+  unit_id: unitId("land_raider_banisher"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_grey_knights_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GreyKnightsVenerableDaemonSlayerCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("grey_knights__venerable_daemon_slayer_crucible"),
+  rules_faction_unit_slug: "grey_knights__venerable_daemon_slayer_crucible",
+  rules_faction_id: rulesFactionId("grey_knights"),
+  unit_id: unitId("venerable_daemon_slayer_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_grey_knights_10e_v1_0"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsCyberMastiffRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__cyber_mastiff"),
+  rules_faction_unit_slug: "imperial_agents__cyber_mastiff",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("cyber_mastiff"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsDeathwatchAgentCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__deathwatch_agent_crucible"),
+  rules_faction_unit_slug: "imperial_agents__deathwatch_agent_crucible",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("deathwatch_agent_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsDeathwatchVeteranWCarbineRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__deathwatch_veteran_w_carbine"),
+  rules_faction_unit_slug: "imperial_agents__deathwatch_veteran_w_carbine",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("deathwatch_veteran_w_carbine"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsDeathwatchVeteranWHeavyThunderHammerRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__deathwatch_veteran_w_heavy_thunder_hammer"),
+  rules_faction_unit_slug: "imperial_agents__deathwatch_veteran_w_heavy_thunder_hammer",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("deathwatch_veteran_w_heavy_thunder_hammer"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsDeathwatchVeteranWStalkerBoltRifleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__deathwatch_veteran_w_stalker_bolt_rifle"),
+  rules_faction_unit_slug: "imperial_agents__deathwatch_veteran_w_stalker_bolt_rifle",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("deathwatch_veteran_w_stalker_bolt_rifle"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsEnthronedAgentCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__enthroned_agent_crucible"),
+  rules_faction_unit_slug: "imperial_agents__enthroned_agent_crucible",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("enthroned_agent_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsGravisVeteranWInfernusHeavyBolterRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__gravis_veteran_w_infernus_heavy_bolter"),
+  rules_faction_unit_slug: "imperial_agents__gravis_veteran_w_infernus_heavy_bolter",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("gravis_veteran_w_infernus_heavy_bolter"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsKillTeamSergeantRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__kill_team_sergeant"),
+  rules_faction_unit_slug: "imperial_agents__kill_team_sergeant",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("kill_team_sergeant"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialAgentsMartialAgentCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_agents__martial_agent_crucible"),
+  rules_faction_unit_slug: "imperial_agents__martial_agent_crucible",
+  rules_faction_id: rulesFactionId("imperial_agents"),
+  unit_id: unitId("martial_agent_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_imperial_agents_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialFistsChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_fists__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "imperial_fists__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("imperial_fists"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialFistsLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_fists__librarius_adept_crucible"),
+  rules_faction_unit_slug: "imperial_fists__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("imperial_fists"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialFistsVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_fists__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "imperial_fists__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("imperial_fists"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ImperialFistsVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("imperial_fists__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "imperial_fists__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("imperial_fists"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const IronHandsChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("iron_hands__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "iron_hands__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("iron_hands"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const IronHandsLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("iron_hands__librarius_adept_crucible"),
+  rules_faction_unit_slug: "iron_hands__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("iron_hands"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const IronHandsVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("iron_hands__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "iron_hands__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("iron_hands"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const IronHandsVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("iron_hands__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "iron_hands__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("iron_hands"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const LeaguesOfVotannKinhostCommanderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("leagues_of_votann__kinhost_commander_crucible"),
+  rules_faction_unit_slug: "leagues_of_votann__kinhost_commander_crucible",
+  rules_faction_id: rulesFactionId("leagues_of_votann"),
+  unit_id: unitId("kinhost_commander_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_leagues_of_votann_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const LeaguesOfVotannLivingAncestorCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("leagues_of_votann__living_ancestor_crucible"),
+  rules_faction_unit_slug: "leagues_of_votann__living_ancestor_crucible",
+  rules_faction_id: rulesFactionId("leagues_of_votann"),
+  unit_id: unitId("living_ancestor_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_leagues_of_votann_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const LeaguesOfVotannSteeljackElderCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("leagues_of_votann__steeljack_elder_crucible"),
+  rules_faction_unit_slug: "leagues_of_votann__steeljack_elder_crucible",
+  rules_faction_id: rulesFactionId("leagues_of_votann"),
+  unit_id: unitId("steeljack_elder_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_leagues_of_votann_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const NecronsDynasticConquerorCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("necrons__dynastic_conqueror_crucible"),
+  rules_faction_unit_slug: "necrons__dynastic_conqueror_crucible",
+  rules_faction_id: rulesFactionId("necrons"),
+  unit_id: unitId("dynastic_conqueror_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_necrons_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const NecronsHyperscientistCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("necrons__hyperscientist_crucible"),
+  rules_faction_unit_slug: "necrons__hyperscientist_crucible",
+  rules_faction_id: rulesFactionId("necrons"),
+  unit_id: unitId("hyperscientist_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_necrons_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const NecronsTriarchalOverseerCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("necrons__triarchal_overseer_crucible"),
+  rules_faction_unit_slug: "necrons__triarchal_overseer_crucible",
+  rules_faction_id: rulesFactionId("necrons"),
+  unit_id: unitId("triarchal_overseer_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_necrons_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksBurnaBoyRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__burna_boy"),
+  rules_faction_unit_slug: "orks__burna_boy",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("burna_boy"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksDaRedGobbosABombInableSnowmanLegendsRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__da_red_gobbos_a_bomb_inable_snowman_legends"),
+  rules_faction_unit_slug: "orks__da_red_gobbos_a_bomb_inable_snowman_legends",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("da_red_gobbos_a_bomb_inable_snowman_legends"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksGrotmasGitzLegendsRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__grotmas_gitz_legends"),
+  rules_faction_unit_slug: "orks__grotmas_gitz_legends",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("grotmas_gitz_legends"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksHordebossCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__hordeboss_crucible"),
+  rules_faction_unit_slug: "orks__hordeboss_crucible",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("hordeboss_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksLootaRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__loota"),
+  rules_faction_unit_slug: "orks__loota",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("loota"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksNobOnSmashaSquigRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__nob_on_smasha_squig"),
+  rules_faction_unit_slug: "orks__nob_on_smasha_squig",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("nob_on_smasha_squig"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksRuntherdRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__runtherd"),
+  rules_faction_unit_slug: "orks__runtherd",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("runtherd"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksSpannerRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__spanner"),
+  rules_faction_unit_slug: "orks__spanner",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("spanner"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksSquighogBoyRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__squighog_boy"),
+  rules_faction_unit_slug: "orks__squighog_boy",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("squighog_boy"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksUpstartGretchinCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__upstart_gretchin_crucible"),
+  rules_faction_unit_slug: "orks__upstart_gretchin_crucible",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("upstart_gretchin_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const OrksWarpheadCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("orks__warphead_crucible"),
+  rules_faction_unit_slug: "orks__warphead_crucible",
+  rules_faction_id: rulesFactionId("orks"),
+  unit_id: unitId("warphead_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_orks_10e_v1_3"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RavenGuardChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("raven_guard__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "raven_guard__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("raven_guard"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RavenGuardLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("raven_guard__librarius_adept_crucible"),
+  rules_faction_unit_slug: "raven_guard__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("raven_guard"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RavenGuardVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("raven_guard__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "raven_guard__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("raven_guard"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RavenGuardVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("raven_guard__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "raven_guard__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("raven_guard"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SalamandersChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("salamanders__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "salamanders__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("salamanders"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SalamandersLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("salamanders__librarius_adept_crucible"),
+  rules_faction_unit_slug: "salamanders__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("salamanders"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SalamandersVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("salamanders__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "salamanders__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("salamanders"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SalamandersVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("salamanders__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "salamanders__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("salamanders"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceMarinesChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_marines__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "space_marines__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("space_marines"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceMarinesLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_marines__librarius_adept_crucible"),
+  rules_faction_unit_slug: "space_marines__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("space_marines"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceMarinesVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_marines__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "space_marines__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("space_marines"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceMarinesVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_marines__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "space_marines__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("space_marines"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceWolvesChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_wolves__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "space_wolves__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("space_wolves"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceWolvesHuntingWolvesRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_wolves__hunting_wolves"),
+  rules_faction_unit_slug: "space_wolves__hunting_wolves",
+  rules_faction_id: rulesFactionId("space_wolves"),
+  unit_id: unitId("hunting_wolves"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceWolvesLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_wolves__librarius_adept_crucible"),
+  rules_faction_unit_slug: "space_wolves__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("space_wolves"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceWolvesVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_wolves__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "space_wolves__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("space_wolves"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceWolvesVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_wolves__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "space_wolves__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("space_wolves"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SpaceWolvesWolfScoutsLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("space_wolves__wolf_scouts_legendary"),
+  rules_faction_unit_slug: "space_wolves__wolf_scouts_legendary",
+  rules_faction_id: rulesFactionId("space_wolves"),
+  unit_id: unitId("wolf_scouts_legendary"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TauEmpireBattlesuitVeteranCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tau_empire__battlesuit_veteran_crucible"),
+  rules_faction_unit_slug: "tau_empire__battlesuit_veteran_crucible",
+  rules_faction_id: rulesFactionId("tau_empire"),
+  unit_id: unitId("battlesuit_veteran_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TauEmpireKinbandChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tau_empire__kinband_champion_crucible"),
+  rules_faction_unit_slug: "tau_empire__kinband_champion_crucible",
+  rules_faction_id: rulesFactionId("tau_empire"),
+  unit_id: unitId("kinband_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TauEmpireShasnelCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tau_empire__shasnel_crucible"),
+  rules_faction_unit_slug: "tau_empire__shasnel_crucible",
+  rules_faction_id: rulesFactionId("tau_empire"),
+  unit_id: unitId("shasnel_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tau_empire_10e_v1_2"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsBrayherdChieftainCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__brayherd_chieftain_crucible"),
+  rules_faction_unit_slug: "thousand_sons__brayherd_chieftain_crucible",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("brayherd_chieftain_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsBrayherdShamanCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__brayherd_shaman_crucible"),
+  rules_faction_unit_slug: "thousand_sons__brayherd_shaman_crucible",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("brayherd_shaman_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsChaosLordOnDiscOfTzeentchRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__chaos_lord_on_disc_of_tzeentch"),
+  rules_faction_unit_slug: "thousand_sons__chaos_lord_on_disc_of_tzeentch",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsChaosSpawnFleshChangeRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__chaos_spawn_flesh_change"),
+  rules_faction_unit_slug: "thousand_sons__chaos_spawn_flesh_change",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("chaos_spawn_flesh_change"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsHellBladeRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__hell_blade"),
+  rules_faction_unit_slug: "thousand_sons__hell_blade",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("hell_blade"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsHellTalonRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__hell_talon"),
+  rules_faction_unit_slug: "thousand_sons__hell_talon",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("hell_talon"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsMagisterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__magister_crucible"),
+  rules_faction_unit_slug: "thousand_sons__magister_crucible",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("magister_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ThousandSonsSorcererOnDiscOfTzeentchRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("thousand_sons__sorcerer_on_disc_of_tzeentch"),
+  rules_faction_unit_slug: "thousand_sons__sorcerer_on_disc_of_tzeentch",
+  rules_faction_id: rulesFactionId("thousand_sons"),
+  unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_thousand_sons_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TyranidsMacroOrganismCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tyranids__macro_organism_crucible"),
+  rules_faction_unit_slug: "tyranids__macro_organism_crucible",
+  rules_faction_id: rulesFactionId("tyranids"),
+  unit_id: unitId("macro_organism_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tyranids_10e_v1_4"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TyranidsMucolidSporesSporocystRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tyranids__mucolid_spores_sporocyst"),
+  rules_faction_unit_slug: "tyranids__mucolid_spores_sporocyst",
+  rules_faction_id: rulesFactionId("tyranids"),
+  unit_id: unitId("mucolid_spores_sporocyst"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tyranids_10e_v1_4"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TyranidsNodeOrganismCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tyranids__node_organism_crucible"),
+  rules_faction_unit_slug: "tyranids__node_organism_crucible",
+  rules_faction_id: rulesFactionId("tyranids"),
+  unit_id: unitId("node_organism_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tyranids_10e_v1_4"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TyranidsPrimeOrganismCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tyranids__prime_organism_crucible"),
+  rules_faction_unit_slug: "tyranids__prime_organism_crucible",
+  rules_faction_id: rulesFactionId("tyranids"),
+  unit_id: unitId("prime_organism_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tyranids_10e_v1_4"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TyranidsRipperSwarmsParasiteOfMortrexRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tyranids__ripper_swarms_parasite_of_mortrex"),
+  rules_faction_unit_slug: "tyranids__ripper_swarms_parasite_of_mortrex",
+  rules_faction_id: rulesFactionId("tyranids"),
+  unit_id: unitId("ripper_swarms_parasite_of_mortrex"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tyranids_10e_v1_4"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TyranidsSporeMinesBiovoreRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("tyranids__spore_mines_biovore"),
+  rules_faction_unit_slug: "tyranids__spore_mines_biovore",
+  rules_faction_id: rulesFactionId("tyranids"),
+  unit_id: unitId("spore_mines_biovore"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_tyranids_10e_v1_4"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesCaptainSicariusRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__captain_sicarius"),
+  rules_faction_unit_slug: "ultramarines__captain_sicarius",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("captain_sicarius"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "ultramarines__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__librarius_adept_crucible"),
+  rules_faction_unit_slug: "ultramarines__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesLieutenantTitusRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__lieutenant_titus"),
+  rules_faction_unit_slug: "ultramarines__lieutenant_titus",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("lieutenant_titus"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesMarneusCalgarRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__marneus_calgar"),
+  rules_faction_unit_slug: "ultramarines__marneus_calgar",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("marneus_calgar"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesUltramarinesHonourGuardRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__ultramarines_honour_guard"),
+  rules_faction_unit_slug: "ultramarines__ultramarines_honour_guard",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("ultramarines_honour_guard"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "ultramarines__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const UltramarinesVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("ultramarines__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "ultramarines__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("ultramarines"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WhiteScarsChampionOfTheChapterCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("white_scars__champion_of_the_chapter_crucible"),
+  rules_faction_unit_slug: "white_scars__champion_of_the_chapter_crucible",
+  rules_faction_id: rulesFactionId("white_scars"),
+  unit_id: unitId("champion_of_the_chapter_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WhiteScarsLibrariusAdeptCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("white_scars__librarius_adept_crucible"),
+  rules_faction_unit_slug: "white_scars__librarius_adept_crucible",
+  rules_faction_id: rulesFactionId("white_scars"),
+  unit_id: unitId("librarius_adept_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WhiteScarsVenerableBattleBrotherCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("white_scars__venerable_battle_brother_crucible"),
+  rules_faction_unit_slug: "white_scars__venerable_battle_brother_crucible",
+  rules_faction_id: rulesFactionId("white_scars"),
+  unit_id: unitId("venerable_battle_brother_crucible"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WhiteScarsVenerableDreadnoughtLegendaryRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("white_scars__venerable_dreadnought_legendary"),
+  rules_faction_unit_slug: "white_scars__venerable_dreadnought_legendary",
+  rules_faction_id: rulesFactionId("white_scars"),
+  unit_id: unitId("venerable_dreadnought_legendary"),
+  unit_access_type: "shared",
+  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WorldEatersBloodcultChampionCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("world_eaters__bloodcult_champion_crucible"),
+  rules_faction_unit_slug: "world_eaters__bloodcult_champion_crucible",
+  rules_faction_id: rulesFactionId("world_eaters"),
+  unit_id: unitId("bloodcult_champion_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WorldEatersButcherlordCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("world_eaters__butcherlord_crucible"),
+  rules_faction_unit_slug: "world_eaters__butcherlord_crucible",
+  rules_faction_id: rulesFactionId("world_eaters"),
+  unit_id: unitId("butcherlord_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WorldEatersEightBlessedLordCrucibleRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("world_eaters__eight_blessed_lord_crucible"),
+  rules_faction_unit_slug: "world_eaters__eight_blessed_lord_crucible",
+  rules_faction_id: rulesFactionId("world_eaters"),
+  unit_id: unitId("eight_blessed_lord_crucible"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WorldEatersHellBladeRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("world_eaters__hell_blade"),
+  rules_faction_unit_slug: "world_eaters__hell_blade",
+  rules_faction_id: rulesFactionId("world_eaters"),
+  unit_id: unitId("hell_blade"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const WorldEatersHellTalonRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("world_eaters__hell_talon"),
+  rules_faction_unit_slug: "world_eaters__hell_talon",
+  rules_faction_id: rulesFactionId("world_eaters"),
+  unit_id: unitId("hell_talon"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
   table: "rules_faction_units",
   records: [
@@ -30011,7 +31936,9 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AdeptaSororitasCanonessWithJumpPackRulesFactionUnit,
     AdeptaSororitasCastigatorRulesFactionUnit,
     AdeptaSororitasCelestianInsidiantsRulesFactionUnit,
+    AdeptaSororitasCelestianSacresantAnointedHalberdRulesFactionUnit,
     AdeptaSororitasCelestianSacresantAvelineRulesFactionUnit,
+    AdeptaSororitasCelestianSacresantHallowedMaceRulesFactionUnit,
     AdeptaSororitasCelestianSacresantsRulesFactionUnit,
     AdeptaSororitasCrusadersRulesFactionUnit,
     AdeptaSororitasDaemonifugeRulesFactionUnit,
@@ -30020,23 +31947,29 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AdeptaSororitasDogmataRulesFactionUnit,
     AdeptaSororitasDominionSquadRulesFactionUnit,
     AdeptaSororitasExorcistRulesFactionUnit,
+    AdeptaSororitasGeminaeSuperiaRulesFactionUnit,
     AdeptaSororitasHospitallerRulesFactionUnit,
     AdeptaSororitasImagifierRulesFactionUnit,
     AdeptaSororitasImmolatorRulesFactionUnit,
+    AdeptaSororitasInspiringDevoteeCrucibleRulesFactionUnit,
     AdeptaSororitasIntranziaFrayeRulesFactionUnit,
     AdeptaSororitasJunithEruitaRulesFactionUnit,
+    AdeptaSororitasMilitantCommanderCrucibleRulesFactionUnit,
     AdeptaSororitasMinistorumPriestRulesFactionUnit,
     AdeptaSororitasMortifiersRulesFactionUnit,
     AdeptaSororitasMorvennVahlRulesFactionUnit,
     AdeptaSororitasPalatineRulesFactionUnit,
     AdeptaSororitasParagonWarsuitsRulesFactionUnit,
     AdeptaSororitasPenitentEnginesRulesFactionUnit,
+    AdeptaSororitasReliquantKnightCrucibleRulesFactionUnit,
     AdeptaSororitasRepentiaSquadRulesFactionUnit,
     AdeptaSororitasRepressorRulesFactionUnit,
     AdeptaSororitasRetributorSquadRulesFactionUnit,
     AdeptaSororitasSaintCelestineRulesFactionUnit,
     AdeptaSororitasSanctifiersRulesFactionUnit,
     AdeptaSororitasSeraphimSquadRulesFactionUnit,
+    AdeptaSororitasSisterNovitiateAutogunRulesFactionUnit,
+    AdeptaSororitasSisterNovitiateMeleeWeaponRulesFactionUnit,
     AdeptaSororitasSistersNovitiateSquadRulesFactionUnit,
     AdeptaSororitasSororitasRhinoRulesFactionUnit,
     AdeptaSororitasTriumphOfSaintKatherineRulesFactionUnit,
@@ -30055,14 +31988,17 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AdeptusCustodesCustodianGuardRulesFactionUnit,
     AdeptusCustodesCustodianGuardWithAdrasiteAndPyrithiteSpearsRulesFactionUnit,
     AdeptusCustodesCustodianWardensRulesFactionUnit,
+    AdeptusCustodesGuardianOfTheThroneCrucibleRulesFactionUnit,
+    AdeptusCustodesKataphraktoiExemplarCrucibleRulesFactionUnit,
     AdeptusCustodesKnightCenturaRulesFactionUnit,
+    AdeptusCustodesNullMaidenCrucibleRulesFactionUnit,
     AdeptusCustodesOrionAssaultDropshipRulesFactionUnit,
     AdeptusCustodesPallasGravAttackRulesFactionUnit,
     AdeptusCustodesProsecutorsRulesFactionUnit,
     AdeptusCustodesSagittarumCustodiansRulesFactionUnit,
-    AdeptusCustodesShieldCaptainRulesFactionUnit,
     AdeptusCustodesShieldCaptainInAllarusTerminatorArmourRulesFactionUnit,
     AdeptusCustodesShieldCaptainOnDawneagleJetbikeRulesFactionUnit,
+    AdeptusCustodesShieldCaptainRulesFactionUnit,
     AdeptusCustodesTelemonHeavyDreadnoughtRulesFactionUnit,
     AdeptusCustodesTrajannValorisRulesFactionUnit,
     AdeptusCustodesValerianRulesFactionUnit,
@@ -30076,15 +32012,18 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AdeptusMechanicusArchaeopterStratoraptorRulesFactionUnit,
     AdeptusMechanicusArchaeopterTransvectorRulesFactionUnit,
     AdeptusMechanicusBelisariusCawlRulesFactionUnit,
+    AdeptusMechanicusCohortCommanderCrucibleRulesFactionUnit,
     AdeptusMechanicusCorpuscariiElectroPriestsRulesFactionUnit,
     AdeptusMechanicusCyberneticaDatasmithRulesFactionUnit,
     AdeptusMechanicusFulguriteElectroPriestsRulesFactionUnit,
     AdeptusMechanicusHastariiExterminatorsRulesFactionUnit,
     AdeptusMechanicusHastariiFusiliersRulesFactionUnit,
+    AdeptusMechanicusIronstriderAlphaCrucibleRulesFactionUnit,
     AdeptusMechanicusIronstriderBallistariiRulesFactionUnit,
     AdeptusMechanicusKastelanRobotsRulesFactionUnit,
     AdeptusMechanicusKataphronBreachersRulesFactionUnit,
     AdeptusMechanicusKataphronDestroyersRulesFactionUnit,
+    AdeptusMechanicusMagosCrucibleRulesFactionUnit,
     AdeptusMechanicusOnagerDunecrawlerRulesFactionUnit,
     AdeptusMechanicusPteraxiiSkystalkersRulesFactionUnit,
     AdeptusMechanicusPteraxiiSterylizorsRulesFactionUnit,
@@ -30110,7 +32049,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AdeptusMechanicusTechnoarcheologistRulesFactionUnit,
     AdeptusMechanicusTerraxPatternTermiteRulesFactionUnit,
     AdeptusMechanicusThuliaGhuldRulesFactionUnit,
-    AdeptusMechanicusX101RulesFactionUnit,
     AeldariAmallynShadowguideRulesFactionUnit,
     AeldariAsurmenRulesFactionUnit,
     AeldariAutarchRulesFactionUnit,
@@ -30126,6 +32064,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AeldariCorsairSkyreaversRulesFactionUnit,
     AeldariCorsairVoidreaversRulesFactionUnit,
     AeldariCorsairVoidscarredRulesFactionUnit,
+    AeldariCraftworldWarleaderCrucibleRulesFactionUnit,
     AeldariCrimsonHunterRulesFactionUnit,
     AeldariDCannonPlatformRulesFactionUnit,
     AeldariDarkReapersRulesFactionUnit,
@@ -30139,6 +32078,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AeldariFirePrismRulesFactionUnit,
     AeldariFirestormRulesFactionUnit,
     AeldariFueganRulesFactionUnit,
+    AeldariGhostWarriorCrucibleRulesFactionUnit,
     AeldariGuardianDefendersRulesFactionUnit,
     AeldariHemlockWraithfighterRulesFactionUnit,
     AeldariHornetRulesFactionUnit,
@@ -30155,8 +32095,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AeldariNightwingRulesFactionUnit,
     AeldariPhantomTitanRulesFactionUnit,
     AeldariPhoenixRulesFactionUnit,
-    AeldariPrinceYrielRulesFactionUnit,
     AeldariPrinceYrielLegendaryRulesFactionUnit,
+    AeldariPrinceYrielRulesFactionUnit,
     AeldariRangersRulesFactionUnit,
     AeldariRevenantTitanRulesFactionUnit,
     AeldariScorpionRulesFactionUnit,
@@ -30166,6 +32106,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AeldariShiningSpearsRulesFactionUnit,
     AeldariShroudRunnersRulesFactionUnit,
     AeldariSkathachWraithknightRulesFactionUnit,
+    AeldariSkyrunnerCrucibleRulesFactionUnit,
     AeldariSkyweaversRulesFactionUnit,
     AeldariSolitaireRulesFactionUnit,
     AeldariSpiritseerRulesFactionUnit,
@@ -30176,16 +32117,16 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AeldariSwoopingHawksRulesFactionUnit,
     AeldariTheVisarchRulesFactionUnit,
     AeldariTheYncarneRulesFactionUnit,
-    AeldariTroupeRulesFactionUnit,
     AeldariTroupeMasterRulesFactionUnit,
+    AeldariTroupeRulesFactionUnit,
     AeldariVampireHunterRulesFactionUnit,
     AeldariVampireRaiderRulesFactionUnit,
     AeldariVibroCannonPlatformRulesFactionUnit,
     AeldariVoidweaverRulesFactionUnit,
     AeldariVypersRulesFactionUnit,
     AeldariWarWalkersRulesFactionUnit,
-    AeldariWarlockRulesFactionUnit,
     AeldariWarlockConclaveRulesFactionUnit,
+    AeldariWarlockRulesFactionUnit,
     AeldariWarlockSkyrunnersRulesFactionUnit,
     AeldariWarpHunterRulesFactionUnit,
     AeldariWarpSpidersRulesFactionUnit,
@@ -30217,6 +32158,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumArvusLighterRulesFactionUnit,
     AstraMilitarumAtlasRecoveryVehicleRulesFactionUnit,
     AstraMilitarumAttilanRoughRidersRulesFactionUnit,
+    AstraMilitarumAugmentedBoneEadCrucibleRulesFactionUnit,
     AstraMilitarumAvengerStrikeFighterRulesFactionUnit,
     AstraMilitarumBanebladeRulesFactionUnit,
     AstraMilitarumBanehammerRulesFactionUnit,
@@ -30236,9 +32178,9 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumCentaurRsvRulesFactionUnit,
     AstraMilitarumChimeraRulesFactionUnit,
     AstraMilitarumColossusRulesFactionUnit,
-    AstraMilitarumCommissarRulesFactionUnit,
-    AstraMilitarumCommissarGravesRulesFactionUnit,
     AstraMilitarumCommissarGravesOnFootRulesFactionUnit,
+    AstraMilitarumCommissarGravesRulesFactionUnit,
+    AstraMilitarumCommissarRulesFactionUnit,
     AstraMilitarumCommissarYarrickRulesFactionUnit,
     AstraMilitarumCrassusRulesFactionUnit,
     AstraMilitarumCyclopsDemolitionVehicleRulesFactionUnit,
@@ -30254,6 +32196,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumElysianDropSentinelRulesFactionUnit,
     AstraMilitarumElysianSniperSquadRulesFactionUnit,
     AstraMilitarumFieldOrdnanceBatteryRulesFactionUnit,
+    AstraMilitarumFrontLineCommanderCrucibleRulesFactionUnit,
     AstraMilitarumGauntsGhostsRulesFactionUnit,
     AstraMilitarumGorgonHeavyTransportRulesFactionUnit,
     AstraMilitarumGriffonMortarCarrierRulesFactionUnit,
@@ -30264,8 +32207,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumHellhoundRulesFactionUnit,
     AstraMilitarumHellsLastRulesFactionUnit,
     AstraMilitarumHippogriffAfvRulesFactionUnit,
-    AstraMilitarumHydraRulesFactionUnit,
     AstraMilitarumHydraPlatformRulesFactionUnit,
+    AstraMilitarumHydraRulesFactionUnit,
     AstraMilitarumIronHandStrakenRulesFactionUnit,
     AstraMilitarumKasrkinRulesFactionUnit,
     AstraMilitarumKriegCombatEngineersRulesFactionUnit,
@@ -30281,16 +32224,16 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumLemanRussVanquisherRulesFactionUnit,
     AstraMilitarumLordMarshalDreirRulesFactionUnit,
     AstraMilitarumLordSolarLeontusRulesFactionUnit,
-    AstraMilitarumMachariusRulesFactionUnit,
     AstraMilitarumMachariusOmegaRulesFactionUnit,
+    AstraMilitarumMachariusRulesFactionUnit,
     AstraMilitarumMachariusVanquisherRulesFactionUnit,
     AstraMilitarumMachariusVulcanRulesFactionUnit,
-    AstraMilitarumMalcadorRulesFactionUnit,
     AstraMilitarumMalcadorAnnihilatorRulesFactionUnit,
     AstraMilitarumMalcadorDefenderRulesFactionUnit,
     AstraMilitarumMalcadorInfernusRulesFactionUnit,
-    AstraMilitarumManticoreRulesFactionUnit,
+    AstraMilitarumMalcadorRulesFactionUnit,
     AstraMilitarumManticorePlatformRulesFactionUnit,
+    AstraMilitarumManticoreRulesFactionUnit,
     AstraMilitarumMarauderBomberRulesFactionUnit,
     AstraMilitarumMarauderDestroyerRulesFactionUnit,
     AstraMilitarumMedusaCarriageBatteryRulesFactionUnit,
@@ -30316,6 +32259,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumSalamanderCommandVehicleRulesFactionUnit,
     AstraMilitarumSalamanderScoutVehicleRulesFactionUnit,
     AstraMilitarumScoutSentinelsRulesFactionUnit,
+    AstraMilitarumSentinelCommanderCrucibleRulesFactionUnit,
     AstraMilitarumSentinelPowerlifterRulesFactionUnit,
     AstraMilitarumSergeantHarkerRulesFactionUnit,
     AstraMilitarumShadowswordRulesFactionUnit,
@@ -30328,8 +32272,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumTarantulaBatteryRulesFactionUnit,
     AstraMilitarumTaurosAssaultVehicleRulesFactionUnit,
     AstraMilitarumTaurosVenatorRulesFactionUnit,
-    AstraMilitarumTauroxRulesFactionUnit,
     AstraMilitarumTauroxPrimeRulesFactionUnit,
+    AstraMilitarumTauroxRulesFactionUnit,
     AstraMilitarumTechPriestEnginseerRulesFactionUnit,
     AstraMilitarumTempestusAquilonsRulesFactionUnit,
     AstraMilitarumTempestusScionsRulesFactionUnit,
@@ -30343,12 +32287,12 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     AstraMilitarumVultureGunshipRulesFactionUnit,
     AstraMilitarumWyvernRulesFactionUnit,
     BlackTemplarsAggressorSquadRulesFactionUnit,
-    BlackTemplarsAncientRulesFactionUnit,
     BlackTemplarsAncientInTerminatorArmourRulesFactionUnit,
     BlackTemplarsAncientOnBikeRulesFactionUnit,
-    BlackTemplarsApothecaryRulesFactionUnit,
+    BlackTemplarsAncientRulesFactionUnit,
     BlackTemplarsApothecaryBiologisRulesFactionUnit,
     BlackTemplarsApothecaryOnBikeRulesFactionUnit,
+    BlackTemplarsApothecaryRulesFactionUnit,
     BlackTemplarsAssaultIntercessorSquadRulesFactionUnit,
     BlackTemplarsAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     BlackTemplarsAssaultSquadRulesFactionUnit,
@@ -30362,20 +32306,21 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsBladeguardVeteranSquadRulesFactionUnit,
     BlackTemplarsBrutalisDreadnoughtRulesFactionUnit,
     BlackTemplarsCaestusAssaultRamRulesFactionUnit,
-    BlackTemplarsCaptainRulesFactionUnit,
     BlackTemplarsCaptainInGravisArmourRulesFactionUnit,
     BlackTemplarsCaptainInPhobosArmourRulesFactionUnit,
     BlackTemplarsCaptainInTerminatorArmourRulesFactionUnit,
     BlackTemplarsCaptainOnBikeRulesFactionUnit,
+    BlackTemplarsCaptainRulesFactionUnit,
     BlackTemplarsCaptainWithJumpPackRulesFactionUnit,
     BlackTemplarsCarabCullnTheRisenRulesFactionUnit,
     BlackTemplarsCastellanRulesFactionUnit,
     BlackTemplarsCenturionAssaultSquadRulesFactionUnit,
     BlackTemplarsCenturionDevastatorSquadRulesFactionUnit,
-    BlackTemplarsChaplainRulesFactionUnit,
+    BlackTemplarsChampionOfTheChapterCrucibleRulesFactionUnit,
     BlackTemplarsChaplainGrimaldusRulesFactionUnit,
     BlackTemplarsChaplainInTerminatorArmourRulesFactionUnit,
     BlackTemplarsChaplainOnBikeRulesFactionUnit,
+    BlackTemplarsChaplainRulesFactionUnit,
     BlackTemplarsChaplainVenerableDreadnoughtRulesFactionUnit,
     BlackTemplarsChaplainWithJumpPackRulesFactionUnit,
     BlackTemplarsCommandSquadRulesFactionUnit,
@@ -30383,6 +32328,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsCompanyHeroesRulesFactionUnit,
     BlackTemplarsCompanyVeteransOnBikesRulesFactionUnit,
     BlackTemplarsCrusadeAncientRulesFactionUnit,
+    BlackTemplarsCrusaderSquadLegendaryRulesFactionUnit,
     BlackTemplarsCrusaderSquadRulesFactionUnit,
     BlackTemplarsDeimosPredatorRulesFactionUnit,
     BlackTemplarsDesolationSquadRulesFactionUnit,
@@ -30390,6 +32336,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsDreadnoughtRulesFactionUnit,
     BlackTemplarsDropPodRulesFactionUnit,
     BlackTemplarsEliminatorSquadRulesFactionUnit,
+    BlackTemplarsEmperorsChampionAnointedRulesFactionUnit,
     BlackTemplarsEmperorsChampionRulesFactionUnit,
     BlackTemplarsEradicatorSquadRulesFactionUnit,
     BlackTemplarsExecratorRulesFactionUnit,
@@ -30414,25 +32361,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsInvictorTacticalWarsuitRulesFactionUnit,
     BlackTemplarsIroncladDreadnoughtRulesFactionUnit,
     BlackTemplarsJudiciarRulesFactionUnit,
-    BlackTemplarsLandRaiderRulesFactionUnit,
     BlackTemplarsLandRaiderCrusaderRulesFactionUnit,
     BlackTemplarsLandRaiderExcelsiorRulesFactionUnit,
     BlackTemplarsLandRaiderHeliosRulesFactionUnit,
     BlackTemplarsLandRaiderPrometheusRulesFactionUnit,
     BlackTemplarsLandRaiderRedeemerRulesFactionUnit,
+    BlackTemplarsLandRaiderRulesFactionUnit,
     BlackTemplarsLandSpeederRulesFactionUnit,
     BlackTemplarsLandSpeederStormRulesFactionUnit,
     BlackTemplarsLandSpeederTempestRulesFactionUnit,
     BlackTemplarsLandSpeederTornadoRulesFactionUnit,
     BlackTemplarsLandSpeederTyphoonRulesFactionUnit,
-    BlackTemplarsLibrarianRulesFactionUnit,
     BlackTemplarsLibrarianInPhobosArmourRulesFactionUnit,
     BlackTemplarsLibrarianInTerminatorArmourRulesFactionUnit,
     BlackTemplarsLibrarianOnBikeRulesFactionUnit,
+    BlackTemplarsLibrarianRulesFactionUnit,
     BlackTemplarsLibrarianWithJumpPackRulesFactionUnit,
-    BlackTemplarsLieutenantRulesFactionUnit,
+    BlackTemplarsLibrariusAdeptCrucibleRulesFactionUnit,
     BlackTemplarsLieutenantInPhobosArmourRulesFactionUnit,
     BlackTemplarsLieutenantInReiverArmourRulesFactionUnit,
+    BlackTemplarsLieutenantRulesFactionUnit,
     BlackTemplarsLieutenantWithCombiWeaponRulesFactionUnit,
     BlackTemplarsMarshalRulesFactionUnit,
     BlackTemplarsMortisDreadnoughtRulesFactionUnit,
@@ -30445,10 +32393,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsReiverSquadRulesFactionUnit,
     BlackTemplarsRelicRazorbackRulesFactionUnit,
     BlackTemplarsRelicTerminatorSquadRulesFactionUnit,
-    BlackTemplarsRepulsorRulesFactionUnit,
     BlackTemplarsRepulsorExecutionerRulesFactionUnit,
-    BlackTemplarsRhinoRulesFactionUnit,
+    BlackTemplarsRepulsorRulesFactionUnit,
     BlackTemplarsRhinoPrimarisRulesFactionUnit,
+    BlackTemplarsRhinoRulesFactionUnit,
     BlackTemplarsScoutBikeSquadRulesFactionUnit,
     BlackTemplarsScoutSniperSquadRulesFactionUnit,
     BlackTemplarsScoutSquadRulesFactionUnit,
@@ -30464,8 +32412,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsSwordBrethrenSquadRulesFactionUnit,
     BlackTemplarsTacticalSquadRulesFactionUnit,
     BlackTemplarsTarantulaAirDefenceBatteryRulesFactionUnit,
-    BlackTemplarsTechmarineRulesFactionUnit,
     BlackTemplarsTechmarineOnBikeRulesFactionUnit,
+    BlackTemplarsTechmarineRulesFactionUnit,
     BlackTemplarsTerminatorAssaultSquadRulesFactionUnit,
     BlackTemplarsTerminatorSquadRulesFactionUnit,
     BlackTemplarsTerminusUltraRulesFactionUnit,
@@ -30474,16 +32422,17 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsThunderhawkTransporterRulesFactionUnit,
     BlackTemplarsVanguardVeteranSquadRulesFactionUnit,
     BlackTemplarsVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    BlackTemplarsVenerableDreadnoughtRulesFactionUnit,
+    BlackTemplarsVenerableBattleBrotherCrucibleRulesFactionUnit,
+    BlackTemplarsVenerableDreadnoughtLegendaryRulesFactionUnit,
     BlackTemplarsVindicatorRulesFactionUnit,
     BlackTemplarsWhirlwindRulesFactionUnit,
     BloodAngelsAggressorSquadRulesFactionUnit,
-    BloodAngelsAncientRulesFactionUnit,
     BloodAngelsAncientInTerminatorArmourRulesFactionUnit,
     BloodAngelsAncientOnBikeRulesFactionUnit,
-    BloodAngelsApothecaryRulesFactionUnit,
+    BloodAngelsAncientRulesFactionUnit,
     BloodAngelsApothecaryBiologisRulesFactionUnit,
     BloodAngelsApothecaryOnBikeRulesFactionUnit,
+    BloodAngelsApothecaryRulesFactionUnit,
     BloodAngelsAssaultIntercessorSquadRulesFactionUnit,
     BloodAngelsAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     BloodAngelsAssaultSquadRulesFactionUnit,
@@ -30501,19 +32450,20 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsBrotherCorbuloRulesFactionUnit,
     BloodAngelsBrutalisDreadnoughtRulesFactionUnit,
     BloodAngelsCaestusAssaultRamRulesFactionUnit,
-    BloodAngelsCaptainRulesFactionUnit,
     BloodAngelsCaptainInGravisArmourRulesFactionUnit,
     BloodAngelsCaptainInPhobosArmourRulesFactionUnit,
     BloodAngelsCaptainInTerminatorArmourRulesFactionUnit,
     BloodAngelsCaptainOnBikeRulesFactionUnit,
+    BloodAngelsCaptainRulesFactionUnit,
     BloodAngelsCaptainTychoRulesFactionUnit,
     BloodAngelsCaptainWithJumpPackRulesFactionUnit,
     BloodAngelsCarabCullnTheRisenRulesFactionUnit,
     BloodAngelsCenturionAssaultSquadRulesFactionUnit,
     BloodAngelsCenturionDevastatorSquadRulesFactionUnit,
-    BloodAngelsChaplainRulesFactionUnit,
+    BloodAngelsChampionOfTheChapterCrucibleRulesFactionUnit,
     BloodAngelsChaplainInTerminatorArmourRulesFactionUnit,
     BloodAngelsChaplainOnBikeRulesFactionUnit,
+    BloodAngelsChaplainRulesFactionUnit,
     BloodAngelsChaplainVenerableDreadnoughtRulesFactionUnit,
     BloodAngelsChaplainWithJumpPackRulesFactionUnit,
     BloodAngelsChiefLibrarianMephistonRulesFactionUnit,
@@ -30526,10 +32476,11 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsDeathCompanyCaptainWithJumpPackRulesFactionUnit,
     BloodAngelsDeathCompanyDreadnoughtRulesFactionUnit,
     BloodAngelsDeathCompanyDreadnoughtWithMagnaGrappleRulesFactionUnit,
+    BloodAngelsDeathCompanyIntercessorsRulesFactionUnit,
     BloodAngelsDeathCompanyMarinesRulesFactionUnit,
     BloodAngelsDeathCompanyMarinesWithBoltRiflesRulesFactionUnit,
-    BloodAngelsDeathCompanyMarinesWithBoltgunsRulesFactionUnit,
     BloodAngelsDeathCompanyMarinesWithBoltgunsAndJumpPacksRulesFactionUnit,
+    BloodAngelsDeathCompanyMarinesWithBoltgunsRulesFactionUnit,
     BloodAngelsDeathCompanyMarinesWithJumpPacksRulesFactionUnit,
     BloodAngelsDeimosPredatorRulesFactionUnit,
     BloodAngelsDesolationSquadRulesFactionUnit,
@@ -30560,27 +32511,28 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsInvictorTacticalWarsuitRulesFactionUnit,
     BloodAngelsIroncladDreadnoughtRulesFactionUnit,
     BloodAngelsJudiciarRulesFactionUnit,
-    BloodAngelsLandRaiderRulesFactionUnit,
     BloodAngelsLandRaiderCrusaderRulesFactionUnit,
     BloodAngelsLandRaiderExcelsiorRulesFactionUnit,
     BloodAngelsLandRaiderHeliosRulesFactionUnit,
     BloodAngelsLandRaiderPrometheusRulesFactionUnit,
     BloodAngelsLandRaiderRedeemerRulesFactionUnit,
+    BloodAngelsLandRaiderRulesFactionUnit,
     BloodAngelsLandSpeederRulesFactionUnit,
     BloodAngelsLandSpeederStormRulesFactionUnit,
     BloodAngelsLandSpeederTempestRulesFactionUnit,
     BloodAngelsLandSpeederTornadoRulesFactionUnit,
     BloodAngelsLandSpeederTyphoonRulesFactionUnit,
     BloodAngelsLemartesRulesFactionUnit,
-    BloodAngelsLibrarianRulesFactionUnit,
     BloodAngelsLibrarianDreadnoughtRulesFactionUnit,
     BloodAngelsLibrarianInPhobosArmourRulesFactionUnit,
     BloodAngelsLibrarianInTerminatorArmourRulesFactionUnit,
     BloodAngelsLibrarianOnBikeRulesFactionUnit,
+    BloodAngelsLibrarianRulesFactionUnit,
     BloodAngelsLibrarianWithJumpPackRulesFactionUnit,
-    BloodAngelsLieutenantRulesFactionUnit,
+    BloodAngelsLibrariusAdeptCrucibleRulesFactionUnit,
     BloodAngelsLieutenantInPhobosArmourRulesFactionUnit,
     BloodAngelsLieutenantInReiverArmourRulesFactionUnit,
+    BloodAngelsLieutenantRulesFactionUnit,
     BloodAngelsLieutenantWithCombiWeaponRulesFactionUnit,
     BloodAngelsMortisDreadnoughtRulesFactionUnit,
     BloodAngelsOutriderSquadRulesFactionUnit,
@@ -30592,13 +32544,13 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsReiverSquadRulesFactionUnit,
     BloodAngelsRelicRazorbackRulesFactionUnit,
     BloodAngelsRelicTerminatorSquadRulesFactionUnit,
-    BloodAngelsRepulsorRulesFactionUnit,
     BloodAngelsRepulsorExecutionerRulesFactionUnit,
-    BloodAngelsRhinoRulesFactionUnit,
+    BloodAngelsRepulsorRulesFactionUnit,
     BloodAngelsRhinoPrimarisRulesFactionUnit,
+    BloodAngelsRhinoRulesFactionUnit,
     BloodAngelsSanguinaryGuardRulesFactionUnit,
-    BloodAngelsSanguinaryPriestRulesFactionUnit,
     BloodAngelsSanguinaryPriestOnBikeRulesFactionUnit,
+    BloodAngelsSanguinaryPriestRulesFactionUnit,
     BloodAngelsSanguinaryPriestWithJumpPackRulesFactionUnit,
     BloodAngelsScoutBikeSquadRulesFactionUnit,
     BloodAngelsScoutSniperSquadRulesFactionUnit,
@@ -30614,8 +32566,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsSuppressorSquadRulesFactionUnit,
     BloodAngelsTacticalSquadRulesFactionUnit,
     BloodAngelsTarantulaAirDefenceBatteryRulesFactionUnit,
-    BloodAngelsTechmarineRulesFactionUnit,
     BloodAngelsTechmarineOnBikeRulesFactionUnit,
+    BloodAngelsTechmarineRulesFactionUnit,
     BloodAngelsTerminatorAssaultSquadRulesFactionUnit,
     BloodAngelsTerminatorSquadRulesFactionUnit,
     BloodAngelsTerminusUltraRulesFactionUnit,
@@ -30626,7 +32578,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsTychoTheLostRulesFactionUnit,
     BloodAngelsVanguardVeteranSquadRulesFactionUnit,
     BloodAngelsVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    BloodAngelsVenerableDreadnoughtRulesFactionUnit,
+    BloodAngelsVenerableBattleBrotherCrucibleRulesFactionUnit,
+    BloodAngelsVenerableDreadnoughtLegendaryRulesFactionUnit,
     BloodAngelsVindicatorRulesFactionUnit,
     BloodAngelsWhirlwindRulesFactionUnit,
     ChaosDaemonsAetaosraukeresRulesFactionUnit,
@@ -30644,6 +32597,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosDaemonsDaemonPrinceOfChaosRulesFactionUnit,
     ChaosDaemonsDaemonPrinceOfChaosWithWingsRulesFactionUnit,
     ChaosDaemonsDaemonettesRulesFactionUnit,
+    ChaosDaemonsDaemonicCharioteerCrucibleRulesFactionUnit,
+    ChaosDaemonsDaemonicHeraldCrucibleRulesFactionUnit,
     ChaosDaemonsEpidemiusRulesFactionUnit,
     ChaosDaemonsExaltedFlamerRulesFactionUnit,
     ChaosDaemonsExaltedSeekerChariotRulesFactionUnit,
@@ -30656,15 +32611,17 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosDaemonsFuriesRulesFactionUnit,
     ChaosDaemonsGiantChaosSpawnRulesFactionUnit,
     ChaosDaemonsGreatUncleanOneRulesFactionUnit,
-    ChaosDaemonsHellflayerRulesFactionUnit,
     ChaosDaemonsHellflayersRulesFactionUnit,
     ChaosDaemonsHeraldOfSlaaneshOnSteedOfSlaaneshRulesFactionUnit,
     ChaosDaemonsHorticulousSlimuxRulesFactionUnit,
+    ChaosDaemonsImmortalChampionCrucibleRulesFactionUnit,
     ChaosDaemonsInfernalEnrapturessRulesFactionUnit,
     ChaosDaemonsKairosFateweaverRulesFactionUnit,
     ChaosDaemonsKaranakRulesFactionUnit,
     ChaosDaemonsKeeperOfSecretsRulesFactionUnit,
+    ChaosDaemonsKhorneSoulGrinderRulesFactionUnit,
     ChaosDaemonsLordOfChangeRulesFactionUnit,
+    ChaosDaemonsNurgleSoulGrinderRulesFactionUnit,
     ChaosDaemonsNurglingsRulesFactionUnit,
     ChaosDaemonsPinkHorrorsRulesFactionUnit,
     ChaosDaemonsPlagueDronesRulesFactionUnit,
@@ -30684,8 +32641,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosDaemonsSkullCannonRulesFactionUnit,
     ChaosDaemonsSkullmasterRulesFactionUnit,
     ChaosDaemonsSkulltakerRulesFactionUnit,
+    ChaosDaemonsSlaaneshSoulGrinderRulesFactionUnit,
     ChaosDaemonsSloppityBilepiperRulesFactionUnit,
-    ChaosDaemonsSoulGrinderRulesFactionUnit,
     ChaosDaemonsSpinedChaosBeastRulesFactionUnit,
     ChaosDaemonsSpoilpoxScrivenerRulesFactionUnit,
     ChaosDaemonsSyllesskeRulesFactionUnit,
@@ -30693,8 +32650,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosDaemonsTheChangelingRulesFactionUnit,
     ChaosDaemonsTheMasqueOfSlaaneshRulesFactionUnit,
     ChaosDaemonsTormentbringerRulesFactionUnit,
-    ChaosDaemonsTormentbringerOnExaltedSeekerChariotRulesFactionUnit,
     ChaosDaemonsTranceweaverRulesFactionUnit,
+    ChaosDaemonsTzeentchSoulGrinderRulesFactionUnit,
     ChaosDaemonsZarakynelRulesFactionUnit,
     ChaosKnightsChaosAcastusKnightAsteriusRulesFactionUnit,
     ChaosKnightsChaosAcastusKnightPorphyrionRulesFactionUnit,
@@ -30718,24 +32675,22 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosKnightsWarDogStalkerRulesFactionUnit,
     ChaosSpaceMarinesAbaddonTheDespoilerRulesFactionUnit,
     ChaosSpaceMarinesAccursedCultistsRulesFactionUnit,
-    ChaosSpaceMarinesBloodSlaughtererRulesFactionUnit,
     ChaosSpaceMarinesChaosBikersRulesFactionUnit,
     ChaosSpaceMarinesChaosDeimosPredatorRulesFactionUnit,
     ChaosSpaceMarinesChaosLandRaiderRulesFactionUnit,
-    ChaosSpaceMarinesChaosLordRulesFactionUnit,
     ChaosSpaceMarinesChaosLordInTerminatorArmourRulesFactionUnit,
     ChaosSpaceMarinesChaosLordOnBikeRulesFactionUnit,
     ChaosSpaceMarinesChaosLordOnDiscOfTzeentchRulesFactionUnit,
     ChaosSpaceMarinesChaosLordOnJuggernautRulesFactionUnit,
     ChaosSpaceMarinesChaosLordOnPalanquinOfNurgleRulesFactionUnit,
     ChaosSpaceMarinesChaosLordOnSteedOfSlaaneshRulesFactionUnit,
+    ChaosSpaceMarinesChaosLordRulesFactionUnit,
     ChaosSpaceMarinesChaosLordWithJumpPackRulesFactionUnit,
     ChaosSpaceMarinesChaosPredatorAnnihilatorRulesFactionUnit,
     ChaosSpaceMarinesChaosPredatorDestructorRulesFactionUnit,
     ChaosSpaceMarinesChaosRhinoRulesFactionUnit,
     ChaosSpaceMarinesChaosSpawnRulesFactionUnit,
     ChaosSpaceMarinesChaosTerminatorSquadRulesFactionUnit,
-    ChaosSpaceMarinesChaosThunderhawkRulesFactionUnit,
     ChaosSpaceMarinesChaosVindicatorRulesFactionUnit,
     ChaosSpaceMarinesChosenRulesFactionUnit,
     ChaosSpaceMarinesCultistFirebrandRulesFactionUnit,
@@ -30744,16 +32699,13 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosSpaceMarinesCypherRulesFactionUnit,
     ChaosSpaceMarinesDarkApostleRulesFactionUnit,
     ChaosSpaceMarinesDarkCommuneRulesFactionUnit,
-    ChaosSpaceMarinesDecimatorRulesFactionUnit,
     ChaosSpaceMarinesDefilerRulesFactionUnit,
-    ChaosSpaceMarinesDreadclawDropPodRulesFactionUnit,
+    ChaosSpaceMarinesExaltedChampionCrucibleRulesFactionUnit,
     ChaosSpaceMarinesExaltedChampionRulesFactionUnit,
     ChaosSpaceMarinesFabiusBileRulesFactionUnit,
     ChaosSpaceMarinesFellgorBeastmenRulesFactionUnit,
     ChaosSpaceMarinesForgefiendRulesFactionUnit,
     ChaosSpaceMarinesGellerpoxInfectedRulesFactionUnit,
-    ChaosSpaceMarinesGreaterBlightDroneRulesFactionUnit,
-    ChaosSpaceMarinesGreaterBrassScorpionRulesFactionUnit,
     ChaosSpaceMarinesHaarkenWorldclaimerRulesFactionUnit,
     ChaosSpaceMarinesHavocsRulesFactionUnit,
     ChaosSpaceMarinesHelbruteRulesFactionUnit,
@@ -30763,10 +32715,9 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosSpaceMarinesHereticAstartesDaemonPrinceRulesFactionUnit,
     ChaosSpaceMarinesHereticAstartesDaemonPrinceWithWingsRulesFactionUnit,
     ChaosSpaceMarinesHuronBlackheartRulesFactionUnit,
-    ChaosSpaceMarinesKharybdisAssaultClawRulesFactionUnit,
+    ChaosSpaceMarinesKhorneBerzerkersRulesFactionUnit,
     ChaosSpaceMarinesKhorneLordOfSkullsRulesFactionUnit,
     ChaosSpaceMarinesKravekMorneRulesFactionUnit,
-    ChaosSpaceMarinesKytanRavagerRulesFactionUnit,
     ChaosSpaceMarinesLegionariesRulesFactionUnit,
     ChaosSpaceMarinesLordDiscordantOnHelstalkerRulesFactionUnit,
     ChaosSpaceMarinesMasterOfExecutionsRulesFactionUnit,
@@ -30774,12 +32725,13 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosSpaceMarinesMastersOfTheMaelstromRulesFactionUnit,
     ChaosSpaceMarinesMaulerfiendRulesFactionUnit,
     ChaosSpaceMarinesMutilatorsRulesFactionUnit,
-    ChaosSpaceMarinesMutilatorsLegendaryRulesFactionUnit,
     ChaosSpaceMarinesMutoidVerminRulesFactionUnit,
     ChaosSpaceMarinesNegavoltCultistsRulesFactionUnit,
     ChaosSpaceMarinesNemesisClawRulesFactionUnit,
     ChaosSpaceMarinesNoctilithCrownRulesFactionUnit,
+    ChaosSpaceMarinesNoiseMarinesRulesFactionUnit,
     ChaosSpaceMarinesObliteratorsRulesFactionUnit,
+    ChaosSpaceMarinesPlagueMarinesRulesFactionUnit,
     ChaosSpaceMarinesPossessedRulesFactionUnit,
     ChaosSpaceMarinesRaptorsRulesFactionUnit,
     ChaosSpaceMarinesRedCorsairsRaidersRulesFactionUnit,
@@ -30790,12 +32742,15 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosSpaceMarinesRenegadeOgrynBrutesRulesFactionUnit,
     ChaosSpaceMarinesRenegadePlagueOgrynsRulesFactionUnit,
     ChaosSpaceMarinesRoguePsykerRulesFactionUnit,
-    ChaosSpaceMarinesSorcererRulesFactionUnit,
+    ChaosSpaceMarinesRubricMarinesRulesFactionUnit,
     ChaosSpaceMarinesSorcererInTerminatorArmourRulesFactionUnit,
     ChaosSpaceMarinesSorcererOnBikeRulesFactionUnit,
     ChaosSpaceMarinesSorcererOnDiscOfTzeentchRulesFactionUnit,
     ChaosSpaceMarinesSorcererOnPalanquinOfNurgleRulesFactionUnit,
     ChaosSpaceMarinesSorcererOnSteedOfSlaaneshRulesFactionUnit,
+    ChaosSpaceMarinesSorcererRulesFactionUnit,
+    ChaosSpaceMarinesSorcerousChampionCrucibleRulesFactionUnit,
+    ChaosSpaceMarinesSoulForgeTyrantCrucibleRulesFactionUnit,
     ChaosSpaceMarinesTraitorEnforcerRulesFactionUnit,
     ChaosSpaceMarinesTraitorGuardsmenSquadRulesFactionUnit,
     ChaosSpaceMarinesVashtorrTheArkifaneRulesFactionUnit,
@@ -30803,12 +32758,12 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ChaosSpaceMarinesWarpTalonsRulesFactionUnit,
     ChaosSpaceMarinesWarpsmithRulesFactionUnit,
     DarkAngelsAggressorSquadRulesFactionUnit,
-    DarkAngelsAncientRulesFactionUnit,
     DarkAngelsAncientInTerminatorArmourRulesFactionUnit,
     DarkAngelsAncientOnBikeRulesFactionUnit,
-    DarkAngelsApothecaryRulesFactionUnit,
+    DarkAngelsAncientRulesFactionUnit,
     DarkAngelsApothecaryBiologisRulesFactionUnit,
     DarkAngelsApothecaryOnBikeRulesFactionUnit,
+    DarkAngelsApothecaryRulesFactionUnit,
     DarkAngelsAsmodaiRulesFactionUnit,
     DarkAngelsAssaultIntercessorSquadRulesFactionUnit,
     DarkAngelsAssaultIntercessorsWithJumpPacksRulesFactionUnit,
@@ -30825,18 +32780,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsBladeguardVeteranSquadRulesFactionUnit,
     DarkAngelsBrutalisDreadnoughtRulesFactionUnit,
     DarkAngelsCaestusAssaultRamRulesFactionUnit,
-    DarkAngelsCaptainRulesFactionUnit,
     DarkAngelsCaptainInGravisArmourRulesFactionUnit,
     DarkAngelsCaptainInPhobosArmourRulesFactionUnit,
     DarkAngelsCaptainInTerminatorArmourRulesFactionUnit,
     DarkAngelsCaptainOnBikeRulesFactionUnit,
+    DarkAngelsCaptainRulesFactionUnit,
     DarkAngelsCaptainWithJumpPackRulesFactionUnit,
     DarkAngelsCarabCullnTheRisenRulesFactionUnit,
     DarkAngelsCenturionAssaultSquadRulesFactionUnit,
     DarkAngelsCenturionDevastatorSquadRulesFactionUnit,
-    DarkAngelsChaplainRulesFactionUnit,
+    DarkAngelsChampionOfTheChapterCrucibleRulesFactionUnit,
     DarkAngelsChaplainInTerminatorArmourRulesFactionUnit,
     DarkAngelsChaplainOnBikeRulesFactionUnit,
+    DarkAngelsChaplainRulesFactionUnit,
     DarkAngelsChaplainVenerableDreadnoughtRulesFactionUnit,
     DarkAngelsChaplainWithJumpPackRulesFactionUnit,
     DarkAngelsCommandSquadRulesFactionUnit,
@@ -30876,12 +32832,12 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsInvictorTacticalWarsuitRulesFactionUnit,
     DarkAngelsIroncladDreadnoughtRulesFactionUnit,
     DarkAngelsJudiciarRulesFactionUnit,
-    DarkAngelsLandRaiderRulesFactionUnit,
     DarkAngelsLandRaiderCrusaderRulesFactionUnit,
     DarkAngelsLandRaiderExcelsiorRulesFactionUnit,
     DarkAngelsLandRaiderHeliosRulesFactionUnit,
     DarkAngelsLandRaiderPrometheusRulesFactionUnit,
     DarkAngelsLandRaiderRedeemerRulesFactionUnit,
+    DarkAngelsLandRaiderRulesFactionUnit,
     DarkAngelsLandSpeederRulesFactionUnit,
     DarkAngelsLandSpeederStormRulesFactionUnit,
     DarkAngelsLandSpeederTempestRulesFactionUnit,
@@ -30889,14 +32845,15 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsLandSpeederTyphoonRulesFactionUnit,
     DarkAngelsLandSpeederVengeanceRulesFactionUnit,
     DarkAngelsLazarusRulesFactionUnit,
-    DarkAngelsLibrarianRulesFactionUnit,
     DarkAngelsLibrarianInPhobosArmourRulesFactionUnit,
     DarkAngelsLibrarianInTerminatorArmourRulesFactionUnit,
     DarkAngelsLibrarianOnBikeRulesFactionUnit,
+    DarkAngelsLibrarianRulesFactionUnit,
     DarkAngelsLibrarianWithJumpPackRulesFactionUnit,
-    DarkAngelsLieutenantRulesFactionUnit,
+    DarkAngelsLibrariusAdeptCrucibleRulesFactionUnit,
     DarkAngelsLieutenantInPhobosArmourRulesFactionUnit,
     DarkAngelsLieutenantInReiverArmourRulesFactionUnit,
+    DarkAngelsLieutenantRulesFactionUnit,
     DarkAngelsLieutenantWithCombiWeaponRulesFactionUnit,
     DarkAngelsLionEljonsonRulesFactionUnit,
     DarkAngelsMortisDreadnoughtRulesFactionUnit,
@@ -30915,10 +32872,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsReiverSquadRulesFactionUnit,
     DarkAngelsRelicRazorbackRulesFactionUnit,
     DarkAngelsRelicTerminatorSquadRulesFactionUnit,
-    DarkAngelsRepulsorRulesFactionUnit,
     DarkAngelsRepulsorExecutionerRulesFactionUnit,
-    DarkAngelsRhinoRulesFactionUnit,
+    DarkAngelsRepulsorRulesFactionUnit,
     DarkAngelsRhinoPrimarisRulesFactionUnit,
+    DarkAngelsRhinoRulesFactionUnit,
     DarkAngelsSammaelRulesFactionUnit,
     DarkAngelsScoutBikeSquadRulesFactionUnit,
     DarkAngelsScoutSniperSquadRulesFactionUnit,
@@ -30934,8 +32891,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsSuppressorSquadRulesFactionUnit,
     DarkAngelsTacticalSquadRulesFactionUnit,
     DarkAngelsTarantulaAirDefenceBatteryRulesFactionUnit,
-    DarkAngelsTechmarineRulesFactionUnit,
     DarkAngelsTechmarineOnBikeRulesFactionUnit,
+    DarkAngelsTechmarineRulesFactionUnit,
     DarkAngelsTerminatorAssaultSquadRulesFactionUnit,
     DarkAngelsTerminatorSquadRulesFactionUnit,
     DarkAngelsTerminusUltraRulesFactionUnit,
@@ -30944,21 +32901,23 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsThunderhawkTransporterRulesFactionUnit,
     DarkAngelsVanguardVeteranSquadRulesFactionUnit,
     DarkAngelsVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    DarkAngelsVenerableDreadnoughtRulesFactionUnit,
+    DarkAngelsVenerableBattleBrotherCrucibleRulesFactionUnit,
+    DarkAngelsVenerableDreadnoughtLegendaryRulesFactionUnit,
     DarkAngelsVindicatorRulesFactionUnit,
     DarkAngelsWhirlwindRulesFactionUnit,
     DeathGuardBeastsOfNurgleRulesFactionUnit,
     DeathGuardBiologusPutrifierRulesFactionUnit,
     DeathGuardBlightlordTerminatorsRulesFactionUnit,
     DeathGuardChaosLandRaiderRulesFactionUnit,
+    DeathGuardChaosLordOnPalanquinOfNurgleRulesFactionUnit,
     DeathGuardChaosPredatorAnnihilatorRulesFactionUnit,
     DeathGuardChaosPredatorDestructorRulesFactionUnit,
     DeathGuardChaosRhinoRulesFactionUnit,
     DeathGuardChaosSpawnRulesFactionUnit,
     DeathGuardDaemonPrinceOfNurgleRulesFactionUnit,
     DeathGuardDaemonPrinceOfNurgleWithWingsRulesFactionUnit,
-    DeathGuardDeathGuardChaosLordRulesFactionUnit,
     DeathGuardDeathGuardChaosLordInTerminatorArmourRulesFactionUnit,
+    DeathGuardDeathGuardChaosLordRulesFactionUnit,
     DeathGuardDeathGuardCultistsRulesFactionUnit,
     DeathGuardDeathGuardPossessedRulesFactionUnit,
     DeathGuardDeathGuardSorcererInTerminatorArmourRulesFactionUnit,
@@ -30967,8 +32926,11 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathGuardFoetidBloatDroneRulesFactionUnit,
     DeathGuardFoetidBloatDroneWithHeavyBlightLauncherRulesFactionUnit,
     DeathGuardFoulBlightspawnRulesFactionUnit,
+    DeathGuardGellerpoxInfectedRulesFactionUnit,
     DeathGuardGreatUncleanOneRulesFactionUnit,
     DeathGuardHelbruteRulesFactionUnit,
+    DeathGuardHellBladeRulesFactionUnit,
+    DeathGuardHellTalonRulesFactionUnit,
     DeathGuardIconBearerRulesFactionUnit,
     DeathGuardLordOfContagionRulesFactionUnit,
     DeathGuardLordOfPoxesRulesFactionUnit,
@@ -30976,25 +32938,30 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathGuardMalignantPlaguecasterRulesFactionUnit,
     DeathGuardMiasmicMalignifierRulesFactionUnit,
     DeathGuardMortarionRulesFactionUnit,
+    DeathGuardMutoidVerminRulesFactionUnit,
     DeathGuardMyphiticBlightHaulerRulesFactionUnit,
     DeathGuardNoxiousBlightbringerRulesFactionUnit,
     DeathGuardNurglingsRulesFactionUnit,
     DeathGuardPlagueDronesRulesFactionUnit,
+    DeathGuardPlagueLordCrucibleRulesFactionUnit,
     DeathGuardPlagueMarinesRulesFactionUnit,
+    DeathGuardPlagueSorcererCrucibleRulesFactionUnit,
     DeathGuardPlagueSurgeonRulesFactionUnit,
     DeathGuardPlaguebearersRulesFactionUnit,
     DeathGuardPlagueburstCrawlerRulesFactionUnit,
     DeathGuardPoxwalkersRulesFactionUnit,
     DeathGuardRotigusRulesFactionUnit,
+    DeathGuardSorcererOnPalanquinOfNurgleRulesFactionUnit,
     DeathGuardTallymanRulesFactionUnit,
+    DeathGuardTriLobeVectorsCrucibleRulesFactionUnit,
     DeathGuardTyphusRulesFactionUnit,
     DeathwatchAggressorSquadRulesFactionUnit,
-    DeathwatchAncientRulesFactionUnit,
     DeathwatchAncientInTerminatorArmourRulesFactionUnit,
     DeathwatchAncientOnBikeRulesFactionUnit,
-    DeathwatchApothecaryRulesFactionUnit,
+    DeathwatchAncientRulesFactionUnit,
     DeathwatchApothecaryBiologisRulesFactionUnit,
     DeathwatchApothecaryOnBikeRulesFactionUnit,
+    DeathwatchApothecaryRulesFactionUnit,
     DeathwatchAssaultIntercessorSquadRulesFactionUnit,
     DeathwatchAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     DeathwatchAssaultSquadRulesFactionUnit,
@@ -31008,18 +32975,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchBladeguardVeteranSquadRulesFactionUnit,
     DeathwatchBrutalisDreadnoughtRulesFactionUnit,
     DeathwatchCaestusAssaultRamRulesFactionUnit,
-    DeathwatchCaptainRulesFactionUnit,
     DeathwatchCaptainInGravisArmourRulesFactionUnit,
     DeathwatchCaptainInPhobosArmourRulesFactionUnit,
     DeathwatchCaptainInTerminatorArmourRulesFactionUnit,
     DeathwatchCaptainOnBikeRulesFactionUnit,
+    DeathwatchCaptainRulesFactionUnit,
     DeathwatchCaptainWithJumpPackRulesFactionUnit,
     DeathwatchCarabCullnTheRisenRulesFactionUnit,
     DeathwatchCenturionAssaultSquadRulesFactionUnit,
     DeathwatchCenturionDevastatorSquadRulesFactionUnit,
-    DeathwatchChaplainRulesFactionUnit,
+    DeathwatchChampionOfTheChapterCrucibleRulesFactionUnit,
     DeathwatchChaplainInTerminatorArmourRulesFactionUnit,
     DeathwatchChaplainOnBikeRulesFactionUnit,
+    DeathwatchChaplainRulesFactionUnit,
     DeathwatchChaplainVenerableDreadnoughtRulesFactionUnit,
     DeathwatchChaplainWithJumpPackRulesFactionUnit,
     DeathwatchCommandSquadRulesFactionUnit,
@@ -31028,6 +32996,9 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchCompanyVeteransOnBikesRulesFactionUnit,
     DeathwatchCorvusBlackstarRulesFactionUnit,
     DeathwatchDeathwatchTerminatorSquadRulesFactionUnit,
+    DeathwatchDeathwatchVeteranWCarbineRulesFactionUnit,
+    DeathwatchDeathwatchVeteranWHeavyThunderHammerRulesFactionUnit,
+    DeathwatchDeathwatchVeteranWStalkerBoltRifleRulesFactionUnit,
     DeathwatchDeathwatchVeteransRulesFactionUnit,
     DeathwatchDecimusKillTeamRulesFactionUnit,
     DeathwatchDeimosPredatorRulesFactionUnit,
@@ -31043,6 +33014,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchGladiatorLancerRulesFactionUnit,
     DeathwatchGladiatorReaperRulesFactionUnit,
     DeathwatchGladiatorValiantRulesFactionUnit,
+    DeathwatchGravisVeteranWInfernusHeavyBolterRulesFactionUnit,
     DeathwatchHammerfallBunkerRulesFactionUnit,
     DeathwatchHeavyIntercessorSquadRulesFactionUnit,
     DeathwatchHellblasterSquadRulesFactionUnit,
@@ -31059,25 +33031,28 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchInvictorTacticalWarsuitRulesFactionUnit,
     DeathwatchIroncladDreadnoughtRulesFactionUnit,
     DeathwatchJudiciarRulesFactionUnit,
-    DeathwatchLandRaiderRulesFactionUnit,
+    DeathwatchKillTeamCassiusRulesFactionUnit,
+    DeathwatchKillTeamSergeantRulesFactionUnit,
     DeathwatchLandRaiderCrusaderRulesFactionUnit,
     DeathwatchLandRaiderExcelsiorRulesFactionUnit,
     DeathwatchLandRaiderHeliosRulesFactionUnit,
     DeathwatchLandRaiderPrometheusRulesFactionUnit,
     DeathwatchLandRaiderRedeemerRulesFactionUnit,
+    DeathwatchLandRaiderRulesFactionUnit,
     DeathwatchLandSpeederRulesFactionUnit,
     DeathwatchLandSpeederStormRulesFactionUnit,
     DeathwatchLandSpeederTempestRulesFactionUnit,
     DeathwatchLandSpeederTornadoRulesFactionUnit,
     DeathwatchLandSpeederTyphoonRulesFactionUnit,
-    DeathwatchLibrarianRulesFactionUnit,
     DeathwatchLibrarianInPhobosArmourRulesFactionUnit,
     DeathwatchLibrarianInTerminatorArmourRulesFactionUnit,
     DeathwatchLibrarianOnBikeRulesFactionUnit,
+    DeathwatchLibrarianRulesFactionUnit,
     DeathwatchLibrarianWithJumpPackRulesFactionUnit,
-    DeathwatchLieutenantRulesFactionUnit,
+    DeathwatchLibrariusAdeptCrucibleRulesFactionUnit,
     DeathwatchLieutenantInPhobosArmourRulesFactionUnit,
     DeathwatchLieutenantInReiverArmourRulesFactionUnit,
+    DeathwatchLieutenantRulesFactionUnit,
     DeathwatchLieutenantWithCombiWeaponRulesFactionUnit,
     DeathwatchMortisDreadnoughtRulesFactionUnit,
     DeathwatchOutriderSquadRulesFactionUnit,
@@ -31089,10 +33064,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchReiverSquadRulesFactionUnit,
     DeathwatchRelicRazorbackRulesFactionUnit,
     DeathwatchRelicTerminatorSquadRulesFactionUnit,
-    DeathwatchRepulsorRulesFactionUnit,
     DeathwatchRepulsorExecutionerRulesFactionUnit,
-    DeathwatchRhinoRulesFactionUnit,
+    DeathwatchRepulsorRulesFactionUnit,
     DeathwatchRhinoPrimarisRulesFactionUnit,
+    DeathwatchRhinoRulesFactionUnit,
     DeathwatchScoutBikeSquadRulesFactionUnit,
     DeathwatchScoutSniperSquadRulesFactionUnit,
     DeathwatchScoutSquadRulesFactionUnit,
@@ -31109,8 +33084,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchTacticalSquadRulesFactionUnit,
     DeathwatchTalonstrikeKillTeamRulesFactionUnit,
     DeathwatchTarantulaAirDefenceBatteryRulesFactionUnit,
-    DeathwatchTechmarineRulesFactionUnit,
     DeathwatchTechmarineOnBikeRulesFactionUnit,
+    DeathwatchTechmarineRulesFactionUnit,
     DeathwatchTerminatorAssaultSquadRulesFactionUnit,
     DeathwatchTerminatorSquadRulesFactionUnit,
     DeathwatchTerminusUltraRulesFactionUnit,
@@ -31119,25 +33094,36 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchThunderhawkTransporterRulesFactionUnit,
     DeathwatchVanguardVeteranSquadRulesFactionUnit,
     DeathwatchVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    DeathwatchVenerableDreadnoughtRulesFactionUnit,
+    DeathwatchVenerableBattleBrotherCrucibleRulesFactionUnit,
+    DeathwatchVenerableDreadnoughtLegendaryRulesFactionUnit,
     DeathwatchVindicatorRulesFactionUnit,
     DeathwatchWatchCaptainArtemisRulesFactionUnit,
     DeathwatchWatchMasterRulesFactionUnit,
     DeathwatchWhirlwindRulesFactionUnit,
     DrukhariArchonRulesFactionUnit,
+    DrukhariArchtormentorCrucibleRulesFactionUnit,
     DrukhariBeastmasterRulesFactionUnit,
+    DrukhariCorsairCloudDancerBandRulesFactionUnit,
+    DrukhariCorsairReaverBandRulesFactionUnit,
+    DrukhariCorsairSkyreaverBandRulesFactionUnit,
+    DrukhariCorsairSkyreaversRulesFactionUnit,
+    DrukhariCorsairVoidreaversRulesFactionUnit,
+    DrukhariCorsairVoidscarredRulesFactionUnit,
     DrukhariCourtOfTheArchonRulesFactionUnit,
     DrukhariCronosRulesFactionUnit,
+    DrukhariDeathJesterRulesFactionUnit,
     DrukhariDrazharRulesFactionUnit,
+    DrukhariFleshCrafterCrucibleRulesFactionUnit,
     DrukhariGrotesquesRulesFactionUnit,
     DrukhariHaemonculusRulesFactionUnit,
-    DrukhariHandOfTheArchonRulesFactionUnit,
     DrukhariHellionsRulesFactionUnit,
     DrukhariIncubiRulesFactionUnit,
     DrukhariKabaliteWarriorsRulesFactionUnit,
+    DrukhariKharsethRulesFactionUnit,
     DrukhariLadyMalysRulesFactionUnit,
     DrukhariLelithHesperaxRulesFactionUnit,
     DrukhariMandrakesRulesFactionUnit,
+    DrukhariPrinceYrielRulesFactionUnit,
     DrukhariRaiderRulesFactionUnit,
     DrukhariRavagerRulesFactionUnit,
     DrukhariRavenStrikeFighterRulesFactionUnit,
@@ -31146,14 +33132,23 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DrukhariReaversRulesFactionUnit,
     DrukhariScourgesWithHeavyWeaponsRulesFactionUnit,
     DrukhariScourgesWithShardcarbinesRulesFactionUnit,
+    DrukhariShadowseerRulesFactionUnit,
+    DrukhariSkyweaversRulesFactionUnit,
+    DrukhariSolitaireRulesFactionUnit,
+    DrukhariStarfangsRulesFactionUnit,
+    DrukhariStarweaverRulesFactionUnit,
     DrukhariSuccubusRulesFactionUnit,
     DrukhariTalosRulesFactionUnit,
     DrukhariTantalusRulesFactionUnit,
+    DrukhariTroupeMasterRulesFactionUnit,
+    DrukhariTroupeRulesFactionUnit,
     DrukhariUrienRakarthRulesFactionUnit,
     DrukhariVenomRulesFactionUnit,
     DrukhariVoidravenBomberRulesFactionUnit,
+    DrukhariVoidweaverRulesFactionUnit,
     DrukhariWracksRulesFactionUnit,
     DrukhariWychesRulesFactionUnit,
+    EmperorsChildrenChampionOfExcessCrucibleRulesFactionUnit,
     EmperorsChildrenChaosLandRaiderRulesFactionUnit,
     EmperorsChildrenChaosRhinoRulesFactionUnit,
     EmperorsChildrenChaosSpawnRulesFactionUnit,
@@ -31162,8 +33157,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     EmperorsChildrenDaemonPrinceOfSlaaneshWithWingsRulesFactionUnit,
     EmperorsChildrenDaemonettesRulesFactionUnit,
     EmperorsChildrenDefilerRulesFactionUnit,
+    EmperorsChildrenExcruciatorCrucibleRulesFactionUnit,
     EmperorsChildrenFiendsRulesFactionUnit,
     EmperorsChildrenFlawlessBladesRulesFactionUnit,
+    EmperorsChildrenFlawlessChampionCrucibleRulesFactionUnit,
     EmperorsChildrenFulgrimRulesFactionUnit,
     EmperorsChildrenHeldrakeRulesFactionUnit,
     EmperorsChildrenInfractorsRulesFactionUnit,
@@ -31187,6 +33184,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     GenestealerCultsBenefictusRulesFactionUnit,
     GenestealerCultsBiophagusRulesFactionUnit,
     GenestealerCultsClamavusRulesFactionUnit,
+    GenestealerCultsCultGuerrillaCrucibleRulesFactionUnit,
+    GenestealerCultsCultInsurrectionistCrucibleRulesFactionUnit,
     GenestealerCultsGoliathRockgrinderRulesFactionUnit,
     GenestealerCultsGoliathTruckRulesFactionUnit,
     GenestealerCultsHybridMetamorphsRulesFactionUnit,
@@ -31202,6 +33201,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     GenestealerCultsReductusSaboteurRulesFactionUnit,
     GenestealerCultsSanctusRulesFactionUnit,
     GenestealerCultsTectonicFragdrillRulesFactionUnit,
+    GenestealerCultsVoiceOfThePatriarchCrucibleRulesFactionUnit,
     GreyKnightsBrotherCaptainRulesFactionUnit,
     GreyKnightsBrotherCaptainSternRulesFactionUnit,
     GreyKnightsBrotherhoodChampionRulesFactionUnit,
@@ -31210,17 +33210,20 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     GreyKnightsBrotherhoodTechmarineRulesFactionUnit,
     GreyKnightsBrotherhoodTerminatorSquadRulesFactionUnit,
     GreyKnightsCastellanCroweRulesFactionUnit,
-    GreyKnightsGrandMasterRulesFactionUnit,
+    GreyKnightsChampionOfTitanCrucibleRulesFactionUnit,
+    GreyKnightsDreadknightChampionCrucibleRulesFactionUnit,
     GreyKnightsGrandMasterInNemesisDreadknightRulesFactionUnit,
+    GreyKnightsGrandMasterRulesFactionUnit,
     GreyKnightsGrandMasterVoldusRulesFactionUnit,
     GreyKnightsGreyKnightsDreadnoughtRulesFactionUnit,
     GreyKnightsGreyKnightsRelicRazorbackRulesFactionUnit,
     GreyKnightsGreyKnightsThunderhawkGunshipRulesFactionUnit,
     GreyKnightsInterceptorSquadRulesFactionUnit,
     GreyKnightsKaldorDraigoRulesFactionUnit,
-    GreyKnightsLandRaiderRulesFactionUnit,
+    GreyKnightsLandRaiderBanisherRulesFactionUnit,
     GreyKnightsLandRaiderCrusaderRulesFactionUnit,
     GreyKnightsLandRaiderRedeemerRulesFactionUnit,
+    GreyKnightsLandRaiderRulesFactionUnit,
     GreyKnightsNemesisDreadknightRulesFactionUnit,
     GreyKnightsPaladinSquadRulesFactionUnit,
     GreyKnightsPurgationSquadRulesFactionUnit,
@@ -31232,23 +33235,30 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     GreyKnightsStormravenGunshipRulesFactionUnit,
     GreyKnightsStormtalonGunshipRulesFactionUnit,
     GreyKnightsStrikeSquadRulesFactionUnit,
+    GreyKnightsVenerableDaemonSlayerCrucibleRulesFactionUnit,
     GreyKnightsVenerableDreadnoughtRulesFactionUnit,
     ImperialAgentsAquilaKillTeamRulesFactionUnit,
     ImperialAgentsCallidusAssassinRulesFactionUnit,
     ImperialAgentsCorvusBlackstarRulesFactionUnit,
     ImperialAgentsCulexusAssassinRulesFactionUnit,
+    ImperialAgentsCyberMastiffRulesFactionUnit,
     ImperialAgentsDaemonhostRulesFactionUnit,
     ImperialAgentsDamnedLegionnairesRulesFactionUnit,
+    ImperialAgentsDeathwatchAgentCrucibleRulesFactionUnit,
     ImperialAgentsDeathwatchKillTeamRulesFactionUnit,
     ImperialAgentsDeathwatchTerminatorSquadRulesFactionUnit,
+    ImperialAgentsDeathwatchVeteranWCarbineRulesFactionUnit,
+    ImperialAgentsDeathwatchVeteranWHeavyThunderHammerRulesFactionUnit,
+    ImperialAgentsDeathwatchVeteranWStalkerBoltRifleRulesFactionUnit,
+    ImperialAgentsEnthronedAgentCrucibleRulesFactionUnit,
     ImperialAgentsEversorAssassinRulesFactionUnit,
     ImperialAgentsExactionSquadRulesFactionUnit,
     ImperialAgentsFortisKillTeamRulesFactionUnit,
+    ImperialAgentsGravisVeteranWInfernusHeavyBolterRulesFactionUnit,
     ImperialAgentsGreyKnightsTerminatorSquadRulesFactionUnit,
     ImperialAgentsImperialNavyBreachersRulesFactionUnit,
     ImperialAgentsImperialRhinoRulesFactionUnit,
     ImperialAgentsIndomitorKillTeamRulesFactionUnit,
-    ImperialAgentsInquisitorRulesFactionUnit,
     ImperialAgentsInquisitorCoteazRulesFactionUnit,
     ImperialAgentsInquisitorDraxusRulesFactionUnit,
     ImperialAgentsInquisitorEisenhornRulesFactionUnit,
@@ -31257,11 +33267,14 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialAgentsInquisitorKaramazovRulesFactionUnit,
     ImperialAgentsInquisitorKroyleRulesFactionUnit,
     ImperialAgentsInquisitorOstromandeusRulesFactionUnit,
+    ImperialAgentsInquisitorRulesFactionUnit,
     ImperialAgentsInquisitorialAgentsRulesFactionUnit,
     ImperialAgentsInquisitorialChimeraRulesFactionUnit,
     ImperialAgentsJanusDraikRulesFactionUnit,
     ImperialAgentsJokaeroWeaponsmithRulesFactionUnit,
     ImperialAgentsKillTeamCassiusRulesFactionUnit,
+    ImperialAgentsKillTeamSergeantRulesFactionUnit,
+    ImperialAgentsMartialAgentCrucibleRulesFactionUnit,
     ImperialAgentsMinistorumPriestRulesFactionUnit,
     ImperialAgentsNavigatorRulesFactionUnit,
     ImperialAgentsNeyamShaiMuradRulesFactionUnit,
@@ -31280,12 +33293,12 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialAgentsWatchCaptainArtemisRulesFactionUnit,
     ImperialAgentsWatchMasterRulesFactionUnit,
     ImperialFistsAggressorSquadRulesFactionUnit,
-    ImperialFistsAncientRulesFactionUnit,
     ImperialFistsAncientInTerminatorArmourRulesFactionUnit,
     ImperialFistsAncientOnBikeRulesFactionUnit,
-    ImperialFistsApothecaryRulesFactionUnit,
+    ImperialFistsAncientRulesFactionUnit,
     ImperialFistsApothecaryBiologisRulesFactionUnit,
     ImperialFistsApothecaryOnBikeRulesFactionUnit,
+    ImperialFistsApothecaryRulesFactionUnit,
     ImperialFistsAssaultIntercessorSquadRulesFactionUnit,
     ImperialFistsAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     ImperialFistsAssaultSquadRulesFactionUnit,
@@ -31299,18 +33312,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialFistsBladeguardVeteranSquadRulesFactionUnit,
     ImperialFistsBrutalisDreadnoughtRulesFactionUnit,
     ImperialFistsCaestusAssaultRamRulesFactionUnit,
-    ImperialFistsCaptainRulesFactionUnit,
     ImperialFistsCaptainInGravisArmourRulesFactionUnit,
     ImperialFistsCaptainInPhobosArmourRulesFactionUnit,
     ImperialFistsCaptainInTerminatorArmourRulesFactionUnit,
     ImperialFistsCaptainOnBikeRulesFactionUnit,
+    ImperialFistsCaptainRulesFactionUnit,
     ImperialFistsCaptainWithJumpPackRulesFactionUnit,
     ImperialFistsCarabCullnTheRisenRulesFactionUnit,
     ImperialFistsCenturionAssaultSquadRulesFactionUnit,
     ImperialFistsCenturionDevastatorSquadRulesFactionUnit,
-    ImperialFistsChaplainRulesFactionUnit,
+    ImperialFistsChampionOfTheChapterCrucibleRulesFactionUnit,
     ImperialFistsChaplainInTerminatorArmourRulesFactionUnit,
     ImperialFistsChaplainOnBikeRulesFactionUnit,
+    ImperialFistsChaplainRulesFactionUnit,
     ImperialFistsChaplainVenerableDreadnoughtRulesFactionUnit,
     ImperialFistsChaplainWithJumpPackRulesFactionUnit,
     ImperialFistsCommandSquadRulesFactionUnit,
@@ -31345,25 +33359,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialFistsInvictorTacticalWarsuitRulesFactionUnit,
     ImperialFistsIroncladDreadnoughtRulesFactionUnit,
     ImperialFistsJudiciarRulesFactionUnit,
-    ImperialFistsLandRaiderRulesFactionUnit,
     ImperialFistsLandRaiderCrusaderRulesFactionUnit,
     ImperialFistsLandRaiderExcelsiorRulesFactionUnit,
     ImperialFistsLandRaiderHeliosRulesFactionUnit,
     ImperialFistsLandRaiderPrometheusRulesFactionUnit,
     ImperialFistsLandRaiderRedeemerRulesFactionUnit,
+    ImperialFistsLandRaiderRulesFactionUnit,
     ImperialFistsLandSpeederRulesFactionUnit,
     ImperialFistsLandSpeederStormRulesFactionUnit,
     ImperialFistsLandSpeederTempestRulesFactionUnit,
     ImperialFistsLandSpeederTornadoRulesFactionUnit,
     ImperialFistsLandSpeederTyphoonRulesFactionUnit,
-    ImperialFistsLibrarianRulesFactionUnit,
     ImperialFistsLibrarianInPhobosArmourRulesFactionUnit,
     ImperialFistsLibrarianInTerminatorArmourRulesFactionUnit,
     ImperialFistsLibrarianOnBikeRulesFactionUnit,
+    ImperialFistsLibrarianRulesFactionUnit,
     ImperialFistsLibrarianWithJumpPackRulesFactionUnit,
-    ImperialFistsLieutenantRulesFactionUnit,
+    ImperialFistsLibrariusAdeptCrucibleRulesFactionUnit,
     ImperialFistsLieutenantInPhobosArmourRulesFactionUnit,
     ImperialFistsLieutenantInReiverArmourRulesFactionUnit,
+    ImperialFistsLieutenantRulesFactionUnit,
     ImperialFistsLieutenantWithCombiWeaponRulesFactionUnit,
     ImperialFistsMortisDreadnoughtRulesFactionUnit,
     ImperialFistsOutriderSquadRulesFactionUnit,
@@ -31376,10 +33391,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialFistsReiverSquadRulesFactionUnit,
     ImperialFistsRelicRazorbackRulesFactionUnit,
     ImperialFistsRelicTerminatorSquadRulesFactionUnit,
-    ImperialFistsRepulsorRulesFactionUnit,
     ImperialFistsRepulsorExecutionerRulesFactionUnit,
-    ImperialFistsRhinoRulesFactionUnit,
+    ImperialFistsRepulsorRulesFactionUnit,
     ImperialFistsRhinoPrimarisRulesFactionUnit,
+    ImperialFistsRhinoRulesFactionUnit,
     ImperialFistsScoutBikeSquadRulesFactionUnit,
     ImperialFistsScoutSniperSquadRulesFactionUnit,
     ImperialFistsScoutSquadRulesFactionUnit,
@@ -31394,8 +33409,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialFistsSuppressorSquadRulesFactionUnit,
     ImperialFistsTacticalSquadRulesFactionUnit,
     ImperialFistsTarantulaAirDefenceBatteryRulesFactionUnit,
-    ImperialFistsTechmarineRulesFactionUnit,
     ImperialFistsTechmarineOnBikeRulesFactionUnit,
+    ImperialFistsTechmarineRulesFactionUnit,
     ImperialFistsTerminatorAssaultSquadRulesFactionUnit,
     ImperialFistsTerminatorSquadRulesFactionUnit,
     ImperialFistsTerminusUltraRulesFactionUnit,
@@ -31405,7 +33420,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialFistsTorGaradonRulesFactionUnit,
     ImperialFistsVanguardVeteranSquadRulesFactionUnit,
     ImperialFistsVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    ImperialFistsVenerableDreadnoughtRulesFactionUnit,
+    ImperialFistsVenerableBattleBrotherCrucibleRulesFactionUnit,
+    ImperialFistsVenerableDreadnoughtLegendaryRulesFactionUnit,
     ImperialFistsVindicatorRulesFactionUnit,
     ImperialFistsWhirlwindRulesFactionUnit,
     ImperialKnightsAcastusKnightAsteriusRulesFactionUnit,
@@ -31430,14 +33446,13 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialKnightsKnightWardenRulesFactionUnit,
     ImperialKnightsQuestorisKnightMagaeraRulesFactionUnit,
     ImperialKnightsQuestorisKnightStyrixRulesFactionUnit,
-    ImperialKnightsSirHekhturRulesFactionUnit,
     IronHandsAggressorSquadRulesFactionUnit,
-    IronHandsAncientRulesFactionUnit,
     IronHandsAncientInTerminatorArmourRulesFactionUnit,
     IronHandsAncientOnBikeRulesFactionUnit,
-    IronHandsApothecaryRulesFactionUnit,
+    IronHandsAncientRulesFactionUnit,
     IronHandsApothecaryBiologisRulesFactionUnit,
     IronHandsApothecaryOnBikeRulesFactionUnit,
+    IronHandsApothecaryRulesFactionUnit,
     IronHandsAssaultIntercessorSquadRulesFactionUnit,
     IronHandsAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     IronHandsAssaultSquadRulesFactionUnit,
@@ -31452,18 +33467,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     IronHandsBrutalisDreadnoughtRulesFactionUnit,
     IronHandsCaanokVarRulesFactionUnit,
     IronHandsCaestusAssaultRamRulesFactionUnit,
-    IronHandsCaptainRulesFactionUnit,
     IronHandsCaptainInGravisArmourRulesFactionUnit,
     IronHandsCaptainInPhobosArmourRulesFactionUnit,
     IronHandsCaptainInTerminatorArmourRulesFactionUnit,
     IronHandsCaptainOnBikeRulesFactionUnit,
+    IronHandsCaptainRulesFactionUnit,
     IronHandsCaptainWithJumpPackRulesFactionUnit,
     IronHandsCarabCullnTheRisenRulesFactionUnit,
     IronHandsCenturionAssaultSquadRulesFactionUnit,
     IronHandsCenturionDevastatorSquadRulesFactionUnit,
-    IronHandsChaplainRulesFactionUnit,
+    IronHandsChampionOfTheChapterCrucibleRulesFactionUnit,
     IronHandsChaplainInTerminatorArmourRulesFactionUnit,
     IronHandsChaplainOnBikeRulesFactionUnit,
+    IronHandsChaplainRulesFactionUnit,
     IronHandsChaplainVenerableDreadnoughtRulesFactionUnit,
     IronHandsChaplainWithJumpPackRulesFactionUnit,
     IronHandsCommandSquadRulesFactionUnit,
@@ -31498,25 +33514,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     IronHandsIronFatherFeirrosRulesFactionUnit,
     IronHandsIroncladDreadnoughtRulesFactionUnit,
     IronHandsJudiciarRulesFactionUnit,
-    IronHandsLandRaiderRulesFactionUnit,
     IronHandsLandRaiderCrusaderRulesFactionUnit,
     IronHandsLandRaiderExcelsiorRulesFactionUnit,
     IronHandsLandRaiderHeliosRulesFactionUnit,
     IronHandsLandRaiderPrometheusRulesFactionUnit,
     IronHandsLandRaiderRedeemerRulesFactionUnit,
+    IronHandsLandRaiderRulesFactionUnit,
     IronHandsLandSpeederRulesFactionUnit,
     IronHandsLandSpeederStormRulesFactionUnit,
     IronHandsLandSpeederTempestRulesFactionUnit,
     IronHandsLandSpeederTornadoRulesFactionUnit,
     IronHandsLandSpeederTyphoonRulesFactionUnit,
-    IronHandsLibrarianRulesFactionUnit,
     IronHandsLibrarianInPhobosArmourRulesFactionUnit,
     IronHandsLibrarianInTerminatorArmourRulesFactionUnit,
     IronHandsLibrarianOnBikeRulesFactionUnit,
+    IronHandsLibrarianRulesFactionUnit,
     IronHandsLibrarianWithJumpPackRulesFactionUnit,
-    IronHandsLieutenantRulesFactionUnit,
+    IronHandsLibrariusAdeptCrucibleRulesFactionUnit,
     IronHandsLieutenantInPhobosArmourRulesFactionUnit,
     IronHandsLieutenantInReiverArmourRulesFactionUnit,
+    IronHandsLieutenantRulesFactionUnit,
     IronHandsLieutenantWithCombiWeaponRulesFactionUnit,
     IronHandsMortisDreadnoughtRulesFactionUnit,
     IronHandsOutriderSquadRulesFactionUnit,
@@ -31528,10 +33545,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     IronHandsReiverSquadRulesFactionUnit,
     IronHandsRelicRazorbackRulesFactionUnit,
     IronHandsRelicTerminatorSquadRulesFactionUnit,
-    IronHandsRepulsorRulesFactionUnit,
     IronHandsRepulsorExecutionerRulesFactionUnit,
-    IronHandsRhinoRulesFactionUnit,
+    IronHandsRepulsorRulesFactionUnit,
     IronHandsRhinoPrimarisRulesFactionUnit,
+    IronHandsRhinoRulesFactionUnit,
     IronHandsScoutBikeSquadRulesFactionUnit,
     IronHandsScoutSniperSquadRulesFactionUnit,
     IronHandsScoutSquadRulesFactionUnit,
@@ -31546,8 +33563,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     IronHandsSuppressorSquadRulesFactionUnit,
     IronHandsTacticalSquadRulesFactionUnit,
     IronHandsTarantulaAirDefenceBatteryRulesFactionUnit,
-    IronHandsTechmarineRulesFactionUnit,
     IronHandsTechmarineOnBikeRulesFactionUnit,
+    IronHandsTechmarineRulesFactionUnit,
     IronHandsTerminatorAssaultSquadRulesFactionUnit,
     IronHandsTerminatorSquadRulesFactionUnit,
     IronHandsTerminusUltraRulesFactionUnit,
@@ -31556,7 +33573,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     IronHandsThunderhawkTransporterRulesFactionUnit,
     IronHandsVanguardVeteranSquadRulesFactionUnit,
     IronHandsVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    IronHandsVenerableDreadnoughtRulesFactionUnit,
+    IronHandsVenerableBattleBrotherCrucibleRulesFactionUnit,
+    IronHandsVenerableDreadnoughtLegendaryRulesFactionUnit,
     IronHandsVindicatorRulesFactionUnit,
     IronHandsWhirlwindRulesFactionUnit,
     LeaguesOfVotannArkanystEvaluatorRulesFactionUnit,
@@ -31578,8 +33596,11 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     LeaguesOfVotannKHlRulesFactionUnit,
     LeaguesOfVotannKapricusCarrierRulesFactionUnit,
     LeaguesOfVotannKapricusDefendersRulesFactionUnit,
+    LeaguesOfVotannKinhostCommanderCrucibleRulesFactionUnit,
+    LeaguesOfVotannLivingAncestorCrucibleRulesFactionUnit,
     LeaguesOfVotannMemnyrStrategistRulesFactionUnit,
     LeaguesOfVotannSagitaurRulesFactionUnit,
+    LeaguesOfVotannSteeljackElderCrucibleRulesFactionUnit,
     LeaguesOfVotannTharTheDestinedRulesFactionUnit,
     NecronsAnnihilationBargeRulesFactionUnit,
     NecronsAnrakyrTheTravellerRulesFactionUnit,
@@ -31603,11 +33624,13 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     NecronsDeathmarksRulesFactionUnit,
     NecronsDoomScytheRulesFactionUnit,
     NecronsDoomsdayArkRulesFactionUnit,
+    NecronsDynasticConquerorCrucibleRulesFactionUnit,
     NecronsFlayedOnesRulesFactionUnit,
     NecronsGaussPylonRulesFactionUnit,
     NecronsGeomancerRulesFactionUnit,
     NecronsGhostArkRulesFactionUnit,
     NecronsHexmarkDestroyerRulesFactionUnit,
+    NecronsHyperscientistCrucibleRulesFactionUnit,
     NecronsIlluminorSzerasRulesFactionUnit,
     NecronsImmortalsRulesFactionUnit,
     NecronsImotekhTheStormlordRulesFactionUnit,
@@ -31639,21 +33662,21 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     NecronsTesseractVaultRulesFactionUnit,
     NecronsTheSilentKingRulesFactionUnit,
     NecronsTombBladesRulesFactionUnit,
-    NecronsTombCitadelWallsRulesFactionUnit,
     NecronsTranscendentCtanRulesFactionUnit,
     NecronsTrazynTheInfiniteRulesFactionUnit,
     NecronsTriarchPraetoriansRulesFactionUnit,
     NecronsTriarchStalkerRulesFactionUnit,
+    NecronsTriarchalOverseerCrucibleRulesFactionUnit,
     NecronsVargardObyronRulesFactionUnit,
     OrksAttackFightaRulesFactionUnit,
     OrksBattlewagonRulesFactionUnit,
     OrksBeastSnaggaBoyzRulesFactionUnit,
-    OrksBeastbossRulesFactionUnit,
     OrksBeastbossOnSquigosaurRulesFactionUnit,
+    OrksBeastbossRulesFactionUnit,
     OrksBigGunzRulesFactionUnit,
-    OrksBigMekRulesFactionUnit,
     OrksBigMekInMegaArmourRulesFactionUnit,
     OrksBigMekOnWarbikeRulesFactionUnit,
+    OrksBigMekRulesFactionUnit,
     OrksBigMekWithKustomForceFieldRulesFactionUnit,
     OrksBigMekWithShokkAttackGunRulesFactionUnit,
     OrksBigTrakkRulesFactionUnit,
@@ -31665,9 +33688,11 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     OrksBoyzRulesFactionUnit,
     OrksBreakaBoyzRulesFactionUnit,
     OrksBurnaBommerRulesFactionUnit,
+    OrksBurnaBoyRulesFactionUnit,
     OrksBurnaBoyzRulesFactionUnit,
     OrksChinorkWarkoptaRulesFactionUnit,
     OrksDaRedGobboRulesFactionUnit,
+    OrksDaRedGobbosABombInableSnowmanLegendsRulesFactionUnit,
     OrksDaRedGobbosTinboyRulesFactionUnit,
     OrksDakkajetRulesFactionUnit,
     OrksDeffDreadRulesFactionUnit,
@@ -31684,6 +33709,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     OrksGrotBommLaunchaRulesFactionUnit,
     OrksGrotMegaTankRulesFactionUnit,
     OrksGrotTanksRulesFactionUnit,
+    OrksGrotmasGitzLegendsRulesFactionUnit,
+    OrksHordebossCrucibleRulesFactionUnit,
     OrksHuntaRigRulesFactionUnit,
     OrksKannonwagonRulesFactionUnit,
     OrksKaptinBadrukkRulesFactionUnit,
@@ -31694,38 +33721,45 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     OrksKommandosRulesFactionUnit,
     OrksKustomBoostaBlastaRulesFactionUnit,
     OrksLiftaWagonRulesFactionUnit,
+    OrksLootaRulesFactionUnit,
     OrksLootasRulesFactionUnit,
     OrksMadDokGrotsnikRulesFactionUnit,
     OrksMegaDreadRulesFactionUnit,
     OrksMeganobzRulesFactionUnit,
     OrksMegatrakkScrapjetRulesFactionUnit,
-    OrksMekRulesFactionUnit,
     OrksMekGunzRulesFactionUnit,
+    OrksMekRulesFactionUnit,
     OrksMekaDreadRulesFactionUnit,
     OrksMekboyWorkshopRulesFactionUnit,
     OrksMorkanautRulesFactionUnit,
     OrksMozrogSkragbadRulesFactionUnit,
+    OrksNobOnSmashaSquigRulesFactionUnit,
     OrksNobWithWaaaghBannerRulesFactionUnit,
-    OrksNobzRulesFactionUnit,
     OrksNobzOnWarbikesRulesFactionUnit,
+    OrksNobzRulesFactionUnit,
     OrksPainbossRulesFactionUnit,
-    OrksPainboyRulesFactionUnit,
     OrksPainboyOnWarbikeRulesFactionUnit,
+    OrksPainboyRulesFactionUnit,
     OrksRukkatrukkSquigbuggyRulesFactionUnit,
+    OrksRuntherdRulesFactionUnit,
     OrksShokkjumpDragstaRulesFactionUnit,
     OrksSkorchasRulesFactionUnit,
+    OrksSpannerRulesFactionUnit,
     OrksSquiggothRulesFactionUnit,
+    OrksSquighogBoyRulesFactionUnit,
     OrksSquighogBoyzRulesFactionUnit,
     OrksStompaRulesFactionUnit,
     OrksStormboyzRulesFactionUnit,
     OrksTankbustasRulesFactionUnit,
     OrksTrukkRulesFactionUnit,
     OrksUfthakBlackhawkRulesFactionUnit,
+    OrksUpstartGretchinCrucibleRulesFactionUnit,
     OrksWarbikersRulesFactionUnit,
-    OrksWarbossRulesFactionUnit,
     OrksWarbossInMegaArmourRulesFactionUnit,
     OrksWarbossOnWarbikeRulesFactionUnit,
+    OrksWarbossRulesFactionUnit,
     OrksWarbuggiesRulesFactionUnit,
+    OrksWarpheadCrucibleRulesFactionUnit,
     OrksWartrakksRulesFactionUnit,
     OrksWazbomBlastajetRulesFactionUnit,
     OrksWazdakkaGutsmekRulesFactionUnit,
@@ -31734,12 +33768,12 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     OrksZodgrodWortsnaggaRulesFactionUnit,
     RavenGuardAethonShaanRulesFactionUnit,
     RavenGuardAggressorSquadRulesFactionUnit,
-    RavenGuardAncientRulesFactionUnit,
     RavenGuardAncientInTerminatorArmourRulesFactionUnit,
     RavenGuardAncientOnBikeRulesFactionUnit,
-    RavenGuardApothecaryRulesFactionUnit,
+    RavenGuardAncientRulesFactionUnit,
     RavenGuardApothecaryBiologisRulesFactionUnit,
     RavenGuardApothecaryOnBikeRulesFactionUnit,
+    RavenGuardApothecaryRulesFactionUnit,
     RavenGuardAssaultIntercessorSquadRulesFactionUnit,
     RavenGuardAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     RavenGuardAssaultSquadRulesFactionUnit,
@@ -31753,18 +33787,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     RavenGuardBladeguardVeteranSquadRulesFactionUnit,
     RavenGuardBrutalisDreadnoughtRulesFactionUnit,
     RavenGuardCaestusAssaultRamRulesFactionUnit,
-    RavenGuardCaptainRulesFactionUnit,
     RavenGuardCaptainInGravisArmourRulesFactionUnit,
     RavenGuardCaptainInPhobosArmourRulesFactionUnit,
     RavenGuardCaptainInTerminatorArmourRulesFactionUnit,
     RavenGuardCaptainOnBikeRulesFactionUnit,
+    RavenGuardCaptainRulesFactionUnit,
     RavenGuardCaptainWithJumpPackRulesFactionUnit,
     RavenGuardCarabCullnTheRisenRulesFactionUnit,
     RavenGuardCenturionAssaultSquadRulesFactionUnit,
     RavenGuardCenturionDevastatorSquadRulesFactionUnit,
-    RavenGuardChaplainRulesFactionUnit,
+    RavenGuardChampionOfTheChapterCrucibleRulesFactionUnit,
     RavenGuardChaplainInTerminatorArmourRulesFactionUnit,
     RavenGuardChaplainOnBikeRulesFactionUnit,
+    RavenGuardChaplainRulesFactionUnit,
     RavenGuardChaplainVenerableDreadnoughtRulesFactionUnit,
     RavenGuardChaplainWithJumpPackRulesFactionUnit,
     RavenGuardCommandSquadRulesFactionUnit,
@@ -31799,25 +33834,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     RavenGuardIroncladDreadnoughtRulesFactionUnit,
     RavenGuardJudiciarRulesFactionUnit,
     RavenGuardKayvaanShrikeRulesFactionUnit,
-    RavenGuardLandRaiderRulesFactionUnit,
     RavenGuardLandRaiderCrusaderRulesFactionUnit,
     RavenGuardLandRaiderExcelsiorRulesFactionUnit,
     RavenGuardLandRaiderHeliosRulesFactionUnit,
     RavenGuardLandRaiderPrometheusRulesFactionUnit,
     RavenGuardLandRaiderRedeemerRulesFactionUnit,
+    RavenGuardLandRaiderRulesFactionUnit,
     RavenGuardLandSpeederRulesFactionUnit,
     RavenGuardLandSpeederStormRulesFactionUnit,
     RavenGuardLandSpeederTempestRulesFactionUnit,
     RavenGuardLandSpeederTornadoRulesFactionUnit,
     RavenGuardLandSpeederTyphoonRulesFactionUnit,
-    RavenGuardLibrarianRulesFactionUnit,
     RavenGuardLibrarianInPhobosArmourRulesFactionUnit,
     RavenGuardLibrarianInTerminatorArmourRulesFactionUnit,
     RavenGuardLibrarianOnBikeRulesFactionUnit,
+    RavenGuardLibrarianRulesFactionUnit,
     RavenGuardLibrarianWithJumpPackRulesFactionUnit,
-    RavenGuardLieutenantRulesFactionUnit,
+    RavenGuardLibrariusAdeptCrucibleRulesFactionUnit,
     RavenGuardLieutenantInPhobosArmourRulesFactionUnit,
     RavenGuardLieutenantInReiverArmourRulesFactionUnit,
+    RavenGuardLieutenantRulesFactionUnit,
     RavenGuardLieutenantWithCombiWeaponRulesFactionUnit,
     RavenGuardMortisDreadnoughtRulesFactionUnit,
     RavenGuardOutriderSquadRulesFactionUnit,
@@ -31829,10 +33865,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     RavenGuardReiverSquadRulesFactionUnit,
     RavenGuardRelicRazorbackRulesFactionUnit,
     RavenGuardRelicTerminatorSquadRulesFactionUnit,
-    RavenGuardRepulsorRulesFactionUnit,
     RavenGuardRepulsorExecutionerRulesFactionUnit,
-    RavenGuardRhinoRulesFactionUnit,
+    RavenGuardRepulsorRulesFactionUnit,
     RavenGuardRhinoPrimarisRulesFactionUnit,
+    RavenGuardRhinoRulesFactionUnit,
     RavenGuardScoutBikeSquadRulesFactionUnit,
     RavenGuardScoutSniperSquadRulesFactionUnit,
     RavenGuardScoutSquadRulesFactionUnit,
@@ -31847,8 +33883,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     RavenGuardSuppressorSquadRulesFactionUnit,
     RavenGuardTacticalSquadRulesFactionUnit,
     RavenGuardTarantulaAirDefenceBatteryRulesFactionUnit,
-    RavenGuardTechmarineRulesFactionUnit,
     RavenGuardTechmarineOnBikeRulesFactionUnit,
+    RavenGuardTechmarineRulesFactionUnit,
     RavenGuardTerminatorAssaultSquadRulesFactionUnit,
     RavenGuardTerminatorSquadRulesFactionUnit,
     RavenGuardTerminusUltraRulesFactionUnit,
@@ -31857,17 +33893,18 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     RavenGuardThunderhawkTransporterRulesFactionUnit,
     RavenGuardVanguardVeteranSquadRulesFactionUnit,
     RavenGuardVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    RavenGuardVenerableDreadnoughtRulesFactionUnit,
+    RavenGuardVenerableBattleBrotherCrucibleRulesFactionUnit,
+    RavenGuardVenerableDreadnoughtLegendaryRulesFactionUnit,
     RavenGuardVindicatorRulesFactionUnit,
     RavenGuardWhirlwindRulesFactionUnit,
     SalamandersAdraxAgatoneRulesFactionUnit,
     SalamandersAggressorSquadRulesFactionUnit,
-    SalamandersAncientRulesFactionUnit,
     SalamandersAncientInTerminatorArmourRulesFactionUnit,
     SalamandersAncientOnBikeRulesFactionUnit,
-    SalamandersApothecaryRulesFactionUnit,
+    SalamandersAncientRulesFactionUnit,
     SalamandersApothecaryBiologisRulesFactionUnit,
     SalamandersApothecaryOnBikeRulesFactionUnit,
+    SalamandersApothecaryRulesFactionUnit,
     SalamandersAssaultIntercessorSquadRulesFactionUnit,
     SalamandersAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     SalamandersAssaultSquadRulesFactionUnit,
@@ -31881,18 +33918,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SalamandersBladeguardVeteranSquadRulesFactionUnit,
     SalamandersBrutalisDreadnoughtRulesFactionUnit,
     SalamandersCaestusAssaultRamRulesFactionUnit,
-    SalamandersCaptainRulesFactionUnit,
     SalamandersCaptainInGravisArmourRulesFactionUnit,
     SalamandersCaptainInPhobosArmourRulesFactionUnit,
     SalamandersCaptainInTerminatorArmourRulesFactionUnit,
     SalamandersCaptainOnBikeRulesFactionUnit,
+    SalamandersCaptainRulesFactionUnit,
     SalamandersCaptainWithJumpPackRulesFactionUnit,
     SalamandersCarabCullnTheRisenRulesFactionUnit,
     SalamandersCenturionAssaultSquadRulesFactionUnit,
     SalamandersCenturionDevastatorSquadRulesFactionUnit,
-    SalamandersChaplainRulesFactionUnit,
+    SalamandersChampionOfTheChapterCrucibleRulesFactionUnit,
     SalamandersChaplainInTerminatorArmourRulesFactionUnit,
     SalamandersChaplainOnBikeRulesFactionUnit,
+    SalamandersChaplainRulesFactionUnit,
     SalamandersChaplainVenerableDreadnoughtRulesFactionUnit,
     SalamandersChaplainWithJumpPackRulesFactionUnit,
     SalamandersCommandSquadRulesFactionUnit,
@@ -31926,25 +33964,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SalamandersInvictorTacticalWarsuitRulesFactionUnit,
     SalamandersIroncladDreadnoughtRulesFactionUnit,
     SalamandersJudiciarRulesFactionUnit,
-    SalamandersLandRaiderRulesFactionUnit,
     SalamandersLandRaiderCrusaderRulesFactionUnit,
     SalamandersLandRaiderExcelsiorRulesFactionUnit,
     SalamandersLandRaiderHeliosRulesFactionUnit,
     SalamandersLandRaiderPrometheusRulesFactionUnit,
     SalamandersLandRaiderRedeemerRulesFactionUnit,
+    SalamandersLandRaiderRulesFactionUnit,
     SalamandersLandSpeederRulesFactionUnit,
     SalamandersLandSpeederStormRulesFactionUnit,
     SalamandersLandSpeederTempestRulesFactionUnit,
     SalamandersLandSpeederTornadoRulesFactionUnit,
     SalamandersLandSpeederTyphoonRulesFactionUnit,
-    SalamandersLibrarianRulesFactionUnit,
     SalamandersLibrarianInPhobosArmourRulesFactionUnit,
     SalamandersLibrarianInTerminatorArmourRulesFactionUnit,
     SalamandersLibrarianOnBikeRulesFactionUnit,
+    SalamandersLibrarianRulesFactionUnit,
     SalamandersLibrarianWithJumpPackRulesFactionUnit,
-    SalamandersLieutenantRulesFactionUnit,
+    SalamandersLibrariusAdeptCrucibleRulesFactionUnit,
     SalamandersLieutenantInPhobosArmourRulesFactionUnit,
     SalamandersLieutenantInReiverArmourRulesFactionUnit,
+    SalamandersLieutenantRulesFactionUnit,
     SalamandersLieutenantWithCombiWeaponRulesFactionUnit,
     SalamandersMortisDreadnoughtRulesFactionUnit,
     SalamandersOutriderSquadRulesFactionUnit,
@@ -31956,10 +33995,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SalamandersReiverSquadRulesFactionUnit,
     SalamandersRelicRazorbackRulesFactionUnit,
     SalamandersRelicTerminatorSquadRulesFactionUnit,
-    SalamandersRepulsorRulesFactionUnit,
     SalamandersRepulsorExecutionerRulesFactionUnit,
-    SalamandersRhinoRulesFactionUnit,
+    SalamandersRepulsorRulesFactionUnit,
     SalamandersRhinoPrimarisRulesFactionUnit,
+    SalamandersRhinoRulesFactionUnit,
     SalamandersScoutBikeSquadRulesFactionUnit,
     SalamandersScoutSniperSquadRulesFactionUnit,
     SalamandersScoutSquadRulesFactionUnit,
@@ -31974,8 +34013,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SalamandersSuppressorSquadRulesFactionUnit,
     SalamandersTacticalSquadRulesFactionUnit,
     SalamandersTarantulaAirDefenceBatteryRulesFactionUnit,
-    SalamandersTechmarineRulesFactionUnit,
     SalamandersTechmarineOnBikeRulesFactionUnit,
+    SalamandersTechmarineRulesFactionUnit,
     SalamandersTerminatorAssaultSquadRulesFactionUnit,
     SalamandersTerminatorSquadRulesFactionUnit,
     SalamandersTerminusUltraRulesFactionUnit,
@@ -31984,17 +34023,18 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SalamandersThunderhawkTransporterRulesFactionUnit,
     SalamandersVanguardVeteranSquadRulesFactionUnit,
     SalamandersVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    SalamandersVenerableDreadnoughtRulesFactionUnit,
+    SalamandersVenerableBattleBrotherCrucibleRulesFactionUnit,
+    SalamandersVenerableDreadnoughtLegendaryRulesFactionUnit,
     SalamandersVindicatorRulesFactionUnit,
     SalamandersVulkanHestanRulesFactionUnit,
     SalamandersWhirlwindRulesFactionUnit,
     SpaceMarinesAggressorSquadRulesFactionUnit,
-    SpaceMarinesAncientRulesFactionUnit,
     SpaceMarinesAncientInTerminatorArmourRulesFactionUnit,
     SpaceMarinesAncientOnBikeRulesFactionUnit,
-    SpaceMarinesApothecaryRulesFactionUnit,
+    SpaceMarinesAncientRulesFactionUnit,
     SpaceMarinesApothecaryBiologisRulesFactionUnit,
     SpaceMarinesApothecaryOnBikeRulesFactionUnit,
+    SpaceMarinesApothecaryRulesFactionUnit,
     SpaceMarinesAssaultIntercessorSquadRulesFactionUnit,
     SpaceMarinesAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     SpaceMarinesAssaultSquadRulesFactionUnit,
@@ -32008,18 +34048,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceMarinesBladeguardVeteranSquadRulesFactionUnit,
     SpaceMarinesBrutalisDreadnoughtRulesFactionUnit,
     SpaceMarinesCaestusAssaultRamRulesFactionUnit,
-    SpaceMarinesCaptainRulesFactionUnit,
     SpaceMarinesCaptainInGravisArmourRulesFactionUnit,
     SpaceMarinesCaptainInPhobosArmourRulesFactionUnit,
     SpaceMarinesCaptainInTerminatorArmourRulesFactionUnit,
     SpaceMarinesCaptainOnBikeRulesFactionUnit,
+    SpaceMarinesCaptainRulesFactionUnit,
     SpaceMarinesCaptainWithJumpPackRulesFactionUnit,
     SpaceMarinesCarabCullnTheRisenRulesFactionUnit,
     SpaceMarinesCenturionAssaultSquadRulesFactionUnit,
     SpaceMarinesCenturionDevastatorSquadRulesFactionUnit,
-    SpaceMarinesChaplainRulesFactionUnit,
+    SpaceMarinesChampionOfTheChapterCrucibleRulesFactionUnit,
     SpaceMarinesChaplainInTerminatorArmourRulesFactionUnit,
     SpaceMarinesChaplainOnBikeRulesFactionUnit,
+    SpaceMarinesChaplainRulesFactionUnit,
     SpaceMarinesChaplainVenerableDreadnoughtRulesFactionUnit,
     SpaceMarinesChaplainWithJumpPackRulesFactionUnit,
     SpaceMarinesCommandSquadRulesFactionUnit,
@@ -32053,25 +34094,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceMarinesInvictorTacticalWarsuitRulesFactionUnit,
     SpaceMarinesIroncladDreadnoughtRulesFactionUnit,
     SpaceMarinesJudiciarRulesFactionUnit,
-    SpaceMarinesLandRaiderRulesFactionUnit,
     SpaceMarinesLandRaiderCrusaderRulesFactionUnit,
     SpaceMarinesLandRaiderExcelsiorRulesFactionUnit,
     SpaceMarinesLandRaiderHeliosRulesFactionUnit,
     SpaceMarinesLandRaiderPrometheusRulesFactionUnit,
     SpaceMarinesLandRaiderRedeemerRulesFactionUnit,
+    SpaceMarinesLandRaiderRulesFactionUnit,
     SpaceMarinesLandSpeederRulesFactionUnit,
     SpaceMarinesLandSpeederStormRulesFactionUnit,
     SpaceMarinesLandSpeederTempestRulesFactionUnit,
     SpaceMarinesLandSpeederTornadoRulesFactionUnit,
     SpaceMarinesLandSpeederTyphoonRulesFactionUnit,
-    SpaceMarinesLibrarianRulesFactionUnit,
     SpaceMarinesLibrarianInPhobosArmourRulesFactionUnit,
     SpaceMarinesLibrarianInTerminatorArmourRulesFactionUnit,
     SpaceMarinesLibrarianOnBikeRulesFactionUnit,
+    SpaceMarinesLibrarianRulesFactionUnit,
     SpaceMarinesLibrarianWithJumpPackRulesFactionUnit,
-    SpaceMarinesLieutenantRulesFactionUnit,
+    SpaceMarinesLibrariusAdeptCrucibleRulesFactionUnit,
     SpaceMarinesLieutenantInPhobosArmourRulesFactionUnit,
     SpaceMarinesLieutenantInReiverArmourRulesFactionUnit,
+    SpaceMarinesLieutenantRulesFactionUnit,
     SpaceMarinesLieutenantWithCombiWeaponRulesFactionUnit,
     SpaceMarinesMortisDreadnoughtRulesFactionUnit,
     SpaceMarinesOutriderSquadRulesFactionUnit,
@@ -32083,10 +34125,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceMarinesReiverSquadRulesFactionUnit,
     SpaceMarinesRelicRazorbackRulesFactionUnit,
     SpaceMarinesRelicTerminatorSquadRulesFactionUnit,
-    SpaceMarinesRepulsorRulesFactionUnit,
     SpaceMarinesRepulsorExecutionerRulesFactionUnit,
-    SpaceMarinesRhinoRulesFactionUnit,
+    SpaceMarinesRepulsorRulesFactionUnit,
     SpaceMarinesRhinoPrimarisRulesFactionUnit,
+    SpaceMarinesRhinoRulesFactionUnit,
     SpaceMarinesScoutBikeSquadRulesFactionUnit,
     SpaceMarinesScoutSniperSquadRulesFactionUnit,
     SpaceMarinesScoutSquadRulesFactionUnit,
@@ -32101,8 +34143,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceMarinesSuppressorSquadRulesFactionUnit,
     SpaceMarinesTacticalSquadRulesFactionUnit,
     SpaceMarinesTarantulaAirDefenceBatteryRulesFactionUnit,
-    SpaceMarinesTechmarineRulesFactionUnit,
     SpaceMarinesTechmarineOnBikeRulesFactionUnit,
+    SpaceMarinesTechmarineRulesFactionUnit,
     SpaceMarinesTerminatorAssaultSquadRulesFactionUnit,
     SpaceMarinesTerminatorSquadRulesFactionUnit,
     SpaceMarinesTerminusUltraRulesFactionUnit,
@@ -32111,16 +34153,17 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceMarinesThunderhawkTransporterRulesFactionUnit,
     SpaceMarinesVanguardVeteranSquadRulesFactionUnit,
     SpaceMarinesVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    SpaceMarinesVenerableDreadnoughtRulesFactionUnit,
+    SpaceMarinesVenerableBattleBrotherCrucibleRulesFactionUnit,
+    SpaceMarinesVenerableDreadnoughtLegendaryRulesFactionUnit,
     SpaceMarinesVindicatorRulesFactionUnit,
     SpaceMarinesWhirlwindRulesFactionUnit,
     SpaceWolvesAggressorSquadRulesFactionUnit,
-    SpaceWolvesAncientRulesFactionUnit,
     SpaceWolvesAncientInTerminatorArmourRulesFactionUnit,
     SpaceWolvesAncientOnBikeRulesFactionUnit,
-    SpaceWolvesApothecaryRulesFactionUnit,
+    SpaceWolvesAncientRulesFactionUnit,
     SpaceWolvesApothecaryBiologisRulesFactionUnit,
     SpaceWolvesApothecaryOnBikeRulesFactionUnit,
+    SpaceWolvesApothecaryRulesFactionUnit,
     SpaceWolvesArjacRockfistRulesFactionUnit,
     SpaceWolvesAssaultIntercessorSquadRulesFactionUnit,
     SpaceWolvesAssaultIntercessorsWithJumpPacksRulesFactionUnit,
@@ -32138,18 +34181,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesBrutalisDreadnoughtRulesFactionUnit,
     SpaceWolvesCaestusAssaultRamRulesFactionUnit,
     SpaceWolvesCanisWolfbornRulesFactionUnit,
-    SpaceWolvesCaptainRulesFactionUnit,
     SpaceWolvesCaptainInGravisArmourRulesFactionUnit,
     SpaceWolvesCaptainInPhobosArmourRulesFactionUnit,
     SpaceWolvesCaptainInTerminatorArmourRulesFactionUnit,
     SpaceWolvesCaptainOnBikeRulesFactionUnit,
+    SpaceWolvesCaptainRulesFactionUnit,
     SpaceWolvesCaptainWithJumpPackRulesFactionUnit,
     SpaceWolvesCarabCullnTheRisenRulesFactionUnit,
     SpaceWolvesCenturionAssaultSquadRulesFactionUnit,
     SpaceWolvesCenturionDevastatorSquadRulesFactionUnit,
-    SpaceWolvesChaplainRulesFactionUnit,
+    SpaceWolvesChampionOfTheChapterCrucibleRulesFactionUnit,
     SpaceWolvesChaplainInTerminatorArmourRulesFactionUnit,
     SpaceWolvesChaplainOnBikeRulesFactionUnit,
+    SpaceWolvesChaplainRulesFactionUnit,
     SpaceWolvesChaplainVenerableDreadnoughtRulesFactionUnit,
     SpaceWolvesChaplainWithJumpPackRulesFactionUnit,
     SpaceWolvesCommandSquadRulesFactionUnit,
@@ -32177,6 +34221,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesHellblasterSquadRulesFactionUnit,
     SpaceWolvesHoundsOfMorkaiRulesFactionUnit,
     SpaceWolvesHunterRulesFactionUnit,
+    SpaceWolvesHuntingWolvesRulesFactionUnit,
     SpaceWolvesImperialSpaceMarineRulesFactionUnit,
     SpaceWolvesImpulsorRulesFactionUnit,
     SpaceWolvesInceptorSquadRulesFactionUnit,
@@ -32186,33 +34231,34 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesIntercessorSquadRulesFactionUnit,
     SpaceWolvesInvaderAtvRulesFactionUnit,
     SpaceWolvesInvictorTacticalWarsuitRulesFactionUnit,
-    SpaceWolvesIronPriestRulesFactionUnit,
     SpaceWolvesIronPriestOnThunderwolfRulesFactionUnit,
+    SpaceWolvesIronPriestRulesFactionUnit,
     SpaceWolvesIroncladDreadnoughtRulesFactionUnit,
     SpaceWolvesJudiciarRulesFactionUnit,
     SpaceWolvesKromDragongazeRulesFactionUnit,
-    SpaceWolvesLandRaiderRulesFactionUnit,
     SpaceWolvesLandRaiderCrusaderRulesFactionUnit,
     SpaceWolvesLandRaiderExcelsiorRulesFactionUnit,
     SpaceWolvesLandRaiderHeliosRulesFactionUnit,
     SpaceWolvesLandRaiderPrometheusRulesFactionUnit,
     SpaceWolvesLandRaiderRedeemerRulesFactionUnit,
+    SpaceWolvesLandRaiderRulesFactionUnit,
     SpaceWolvesLandSpeederRulesFactionUnit,
     SpaceWolvesLandSpeederStormRulesFactionUnit,
     SpaceWolvesLandSpeederTempestRulesFactionUnit,
     SpaceWolvesLandSpeederTornadoRulesFactionUnit,
     SpaceWolvesLandSpeederTyphoonRulesFactionUnit,
-    SpaceWolvesLibrarianRulesFactionUnit,
     SpaceWolvesLibrarianInPhobosArmourRulesFactionUnit,
     SpaceWolvesLibrarianInTerminatorArmourRulesFactionUnit,
     SpaceWolvesLibrarianOnBikeRulesFactionUnit,
+    SpaceWolvesLibrarianRulesFactionUnit,
     SpaceWolvesLibrarianWithJumpPackRulesFactionUnit,
-    SpaceWolvesLieutenantRulesFactionUnit,
+    SpaceWolvesLibrariusAdeptCrucibleRulesFactionUnit,
     SpaceWolvesLieutenantInPhobosArmourRulesFactionUnit,
     SpaceWolvesLieutenantInReiverArmourRulesFactionUnit,
+    SpaceWolvesLieutenantRulesFactionUnit,
     SpaceWolvesLieutenantWithCombiWeaponRulesFactionUnit,
-    SpaceWolvesLoganGrimnarRulesFactionUnit,
     SpaceWolvesLoganGrimnarOnStormriderRulesFactionUnit,
+    SpaceWolvesLoganGrimnarRulesFactionUnit,
     SpaceWolvesLongFangsRulesFactionUnit,
     SpaceWolvesLukasTheTricksterRulesFactionUnit,
     SpaceWolvesMortisDreadnoughtRulesFactionUnit,
@@ -32228,10 +34274,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesReiverSquadRulesFactionUnit,
     SpaceWolvesRelicRazorbackRulesFactionUnit,
     SpaceWolvesRelicTerminatorSquadRulesFactionUnit,
-    SpaceWolvesRepulsorRulesFactionUnit,
     SpaceWolvesRepulsorExecutionerRulesFactionUnit,
-    SpaceWolvesRhinoRulesFactionUnit,
+    SpaceWolvesRepulsorRulesFactionUnit,
     SpaceWolvesRhinoPrimarisRulesFactionUnit,
+    SpaceWolvesRhinoRulesFactionUnit,
     SpaceWolvesScoutBikeSquadRulesFactionUnit,
     SpaceWolvesScoutSniperSquadRulesFactionUnit,
     SpaceWolvesScoutSquadRulesFactionUnit,
@@ -32249,8 +34295,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesSuppressorSquadRulesFactionUnit,
     SpaceWolvesTacticalSquadRulesFactionUnit,
     SpaceWolvesTarantulaAirDefenceBatteryRulesFactionUnit,
-    SpaceWolvesTechmarineRulesFactionUnit,
     SpaceWolvesTechmarineOnBikeRulesFactionUnit,
+    SpaceWolvesTechmarineRulesFactionUnit,
     SpaceWolvesTerminatorAssaultSquadRulesFactionUnit,
     SpaceWolvesTerminatorSquadRulesFactionUnit,
     SpaceWolvesTerminusUltraRulesFactionUnit,
@@ -32261,28 +34307,32 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesUlrikTheSlayerRulesFactionUnit,
     SpaceWolvesVanguardVeteranSquadRulesFactionUnit,
     SpaceWolvesVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
+    SpaceWolvesVenerableBattleBrotherCrucibleRulesFactionUnit,
+    SpaceWolvesVenerableDreadnoughtLegendaryRulesFactionUnit,
     SpaceWolvesVenerableDreadnoughtRulesFactionUnit,
     SpaceWolvesVindicatorRulesFactionUnit,
     SpaceWolvesWhirlwindRulesFactionUnit,
-    SpaceWolvesWolfGuardRulesFactionUnit,
-    SpaceWolvesWolfGuardBattleLeaderRulesFactionUnit,
     SpaceWolvesWolfGuardBattleLeaderInTerminatorArmourRulesFactionUnit,
     SpaceWolvesWolfGuardBattleLeaderOnThunderwolfRulesFactionUnit,
+    SpaceWolvesWolfGuardBattleLeaderRulesFactionUnit,
     SpaceWolvesWolfGuardHeadtakersRulesFactionUnit,
-    SpaceWolvesWolfGuardPackLeaderRulesFactionUnit,
     SpaceWolvesWolfGuardPackLeaderInTerminatorArmourRulesFactionUnit,
+    SpaceWolvesWolfGuardPackLeaderRulesFactionUnit,
     SpaceWolvesWolfGuardPackLeaderWithJumpPackRulesFactionUnit,
+    SpaceWolvesWolfGuardRulesFactionUnit,
     SpaceWolvesWolfGuardTerminatorsRulesFactionUnit,
     SpaceWolvesWolfLordOnThunderwolfRulesFactionUnit,
     SpaceWolvesWolfPriestRulesFactionUnit,
+    SpaceWolvesWolfScoutsLegendaryRulesFactionUnit,
     SpaceWolvesWolfScoutsRulesFactionUnit,
-    SpaceWolvesWulfenRulesFactionUnit,
     SpaceWolvesWulfenDreadnoughtRulesFactionUnit,
+    SpaceWolvesWulfenRulesFactionUnit,
     SpaceWolvesWulfenWithStormShieldsRulesFactionUnit,
     TauEmpireAunshiRulesFactionUnit,
     TauEmpireAunvaRulesFactionUnit,
     TauEmpireAx10TigerSharkRulesFactionUnit,
     TauEmpireBarracudaRulesFactionUnit,
+    TauEmpireBattlesuitVeteranCrucibleRulesFactionUnit,
     TauEmpireBreacherTeamRulesFactionUnit,
     TauEmpireBroadsideBattlesuitsRulesFactionUnit,
     TauEmpireCadreFirebladeRulesFactionUnit,
@@ -32304,6 +34354,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     TauEmpireGreatKnarlocRulesFactionUnit,
     TauEmpireHammerheadGunshipRulesFactionUnit,
     TauEmpireHeavyGunDronesRulesFactionUnit,
+    TauEmpireKinbandChampionCrucibleRulesFactionUnit,
     TauEmpireKnarlocRidersRulesFactionUnit,
     TauEmpireKrootCarnivoresRulesFactionUnit,
     TauEmpireKrootFarstalkersRulesFactionUnit,
@@ -32324,6 +34375,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     TauEmpireRemoteSensorTowerRulesFactionUnit,
     TauEmpireRiptideBattlesuitRulesFactionUnit,
     TauEmpireRvarnaBattlesuitRulesFactionUnit,
+    TauEmpireShasnelCrucibleRulesFactionUnit,
     TauEmpireShasoRalaiRulesFactionUnit,
     TauEmpireSkyRayGunshipRulesFactionUnit,
     TauEmpireStealthBattlesuitsRulesFactionUnit,
@@ -32344,24 +34396,31 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     TauEmpireYvahraBattlesuitRulesFactionUnit,
     ThousandSonsAhrimanRulesFactionUnit,
     ThousandSonsBlueHorrorsRulesFactionUnit,
+    ThousandSonsBrayherdChieftainCrucibleRulesFactionUnit,
+    ThousandSonsBrayherdShamanCrucibleRulesFactionUnit,
     ThousandSonsChaosLandRaiderRulesFactionUnit,
+    ThousandSonsChaosLordOnDiscOfTzeentchRulesFactionUnit,
     ThousandSonsChaosPredatorAnnihilatorRulesFactionUnit,
     ThousandSonsChaosPredatorDestructorRulesFactionUnit,
     ThousandSonsChaosRhinoRulesFactionUnit,
+    ThousandSonsChaosSpawnFleshChangeRulesFactionUnit,
     ThousandSonsChaosSpawnRulesFactionUnit,
     ThousandSonsChaosVindicatorRulesFactionUnit,
     ThousandSonsDaemonPrinceOfTzeentchRulesFactionUnit,
     ThousandSonsDaemonPrinceOfTzeentchWithWingsRulesFactionUnit,
     ThousandSonsDefilerRulesFactionUnit,
-    ThousandSonsExaltedSorcererRulesFactionUnit,
     ThousandSonsExaltedSorcererOnDiscOfTzeentchRulesFactionUnit,
+    ThousandSonsExaltedSorcererRulesFactionUnit,
     ThousandSonsFlamersRulesFactionUnit,
     ThousandSonsForgefiendRulesFactionUnit,
     ThousandSonsHelbruteRulesFactionUnit,
     ThousandSonsHeldrakeRulesFactionUnit,
+    ThousandSonsHellBladeRulesFactionUnit,
+    ThousandSonsHellTalonRulesFactionUnit,
     ThousandSonsInfernalMasterRulesFactionUnit,
     ThousandSonsKairosFateweaverRulesFactionUnit,
     ThousandSonsLordOfChangeRulesFactionUnit,
+    ThousandSonsMagisterCrucibleRulesFactionUnit,
     ThousandSonsMagnusTheRedRulesFactionUnit,
     ThousandSonsMaulerfiendRulesFactionUnit,
     ThousandSonsMutalithVortexBeastRulesFactionUnit,
@@ -32370,8 +34429,9 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ThousandSonsScarabOccultTerminatorsRulesFactionUnit,
     ThousandSonsScreamersRulesFactionUnit,
     ThousandSonsSekhetarRobotsRulesFactionUnit,
-    ThousandSonsSorcererRulesFactionUnit,
     ThousandSonsSorcererInTerminatorArmourRulesFactionUnit,
+    ThousandSonsSorcererOnDiscOfTzeentchRulesFactionUnit,
+    ThousandSonsSorcererRulesFactionUnit,
     ThousandSonsTzaangorEnlightenedRulesFactionUnit,
     ThousandSonsTzaangorEnlightenedWithFatecasterGreatbowsRulesFactionUnit,
     ThousandSonsTzaangorShamanRulesFactionUnit,
@@ -32396,24 +34456,30 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     TyranidsHormagauntsRulesFactionUnit,
     TyranidsHyperadaptedRavenersRulesFactionUnit,
     TyranidsLictorRulesFactionUnit,
+    TyranidsMacroOrganismCrucibleRulesFactionUnit,
     TyranidsMalanthropeRulesFactionUnit,
     TyranidsMaleceptorRulesFactionUnit,
     TyranidsMawlocRulesFactionUnit,
     TyranidsMucolidSporesRulesFactionUnit,
+    TyranidsMucolidSporesSporocystRulesFactionUnit,
     TyranidsNeurogauntsRulesFactionUnit,
     TyranidsNeurolictorRulesFactionUnit,
     TyranidsNeurotyrantRulesFactionUnit,
+    TyranidsNodeOrganismCrucibleRulesFactionUnit,
     TyranidsNornAssimilatorRulesFactionUnit,
     TyranidsNornEmissaryRulesFactionUnit,
     TyranidsOldOneEyeRulesFactionUnit,
     TyranidsParasiteOfMortrexRulesFactionUnit,
+    TyranidsPrimeOrganismCrucibleRulesFactionUnit,
     TyranidsPsychophageRulesFactionUnit,
     TyranidsPyrovoresRulesFactionUnit,
     TyranidsRavenersRulesFactionUnit,
+    TyranidsRipperSwarmsParasiteOfMortrexRulesFactionUnit,
     TyranidsRipperSwarmsRulesFactionUnit,
     TyranidsScreamerKillerRulesFactionUnit,
     TyranidsScythedHieroduleRulesFactionUnit,
     TyranidsSkySlasherSwarmsRulesFactionUnit,
+    TyranidsSporeMinesBiovoreRulesFactionUnit,
     TyranidsSporeMinesRulesFactionUnit,
     TyranidsSporocystRulesFactionUnit,
     TyranidsTermagantsRulesFactionUnit,
@@ -32434,12 +34500,12 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     TyranidsWingedTyranidPrimeRulesFactionUnit,
     TyranidsZoanthropesRulesFactionUnit,
     UltramarinesAggressorSquadRulesFactionUnit,
-    UltramarinesAncientRulesFactionUnit,
     UltramarinesAncientInTerminatorArmourRulesFactionUnit,
     UltramarinesAncientOnBikeRulesFactionUnit,
-    UltramarinesApothecaryRulesFactionUnit,
+    UltramarinesAncientRulesFactionUnit,
     UltramarinesApothecaryBiologisRulesFactionUnit,
     UltramarinesApothecaryOnBikeRulesFactionUnit,
+    UltramarinesApothecaryRulesFactionUnit,
     UltramarinesAssaultIntercessorSquadRulesFactionUnit,
     UltramarinesAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     UltramarinesAssaultSquadRulesFactionUnit,
@@ -32453,21 +34519,23 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     UltramarinesBladeguardVeteranSquadRulesFactionUnit,
     UltramarinesBrutalisDreadnoughtRulesFactionUnit,
     UltramarinesCaestusAssaultRamRulesFactionUnit,
-    UltramarinesCaptainRulesFactionUnit,
     UltramarinesCaptainInGravisArmourRulesFactionUnit,
     UltramarinesCaptainInPhobosArmourRulesFactionUnit,
     UltramarinesCaptainInTerminatorArmourRulesFactionUnit,
     UltramarinesCaptainOnBikeRulesFactionUnit,
+    UltramarinesCaptainRulesFactionUnit,
+    UltramarinesCaptainSicariusRulesFactionUnit,
     UltramarinesCaptainTitusRulesFactionUnit,
     UltramarinesCaptainWithJumpPackRulesFactionUnit,
     UltramarinesCarabCullnTheRisenRulesFactionUnit,
     UltramarinesCatoSicariusRulesFactionUnit,
     UltramarinesCenturionAssaultSquadRulesFactionUnit,
     UltramarinesCenturionDevastatorSquadRulesFactionUnit,
-    UltramarinesChaplainRulesFactionUnit,
+    UltramarinesChampionOfTheChapterCrucibleRulesFactionUnit,
     UltramarinesChaplainCassiusRulesFactionUnit,
     UltramarinesChaplainInTerminatorArmourRulesFactionUnit,
     UltramarinesChaplainOnBikeRulesFactionUnit,
+    UltramarinesChaplainRulesFactionUnit,
     UltramarinesChaplainVenerableDreadnoughtRulesFactionUnit,
     UltramarinesChaplainWithJumpPackRulesFactionUnit,
     UltramarinesChiefLibrarianTiguriusRulesFactionUnit,
@@ -32502,27 +34570,30 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     UltramarinesInvictorTacticalWarsuitRulesFactionUnit,
     UltramarinesIroncladDreadnoughtRulesFactionUnit,
     UltramarinesJudiciarRulesFactionUnit,
-    UltramarinesLandRaiderRulesFactionUnit,
     UltramarinesLandRaiderCrusaderRulesFactionUnit,
     UltramarinesLandRaiderExcelsiorRulesFactionUnit,
     UltramarinesLandRaiderHeliosRulesFactionUnit,
     UltramarinesLandRaiderPrometheusRulesFactionUnit,
     UltramarinesLandRaiderRedeemerRulesFactionUnit,
+    UltramarinesLandRaiderRulesFactionUnit,
     UltramarinesLandSpeederRulesFactionUnit,
     UltramarinesLandSpeederStormRulesFactionUnit,
     UltramarinesLandSpeederTempestRulesFactionUnit,
     UltramarinesLandSpeederTornadoRulesFactionUnit,
     UltramarinesLandSpeederTyphoonRulesFactionUnit,
-    UltramarinesLibrarianRulesFactionUnit,
     UltramarinesLibrarianInPhobosArmourRulesFactionUnit,
     UltramarinesLibrarianInTerminatorArmourRulesFactionUnit,
     UltramarinesLibrarianOnBikeRulesFactionUnit,
+    UltramarinesLibrarianRulesFactionUnit,
     UltramarinesLibrarianWithJumpPackRulesFactionUnit,
-    UltramarinesLieutenantRulesFactionUnit,
+    UltramarinesLibrariusAdeptCrucibleRulesFactionUnit,
     UltramarinesLieutenantInPhobosArmourRulesFactionUnit,
     UltramarinesLieutenantInReiverArmourRulesFactionUnit,
+    UltramarinesLieutenantRulesFactionUnit,
+    UltramarinesLieutenantTitusRulesFactionUnit,
     UltramarinesLieutenantWithCombiWeaponRulesFactionUnit,
     UltramarinesMarneusCalgarInArmourOfAntilochusRulesFactionUnit,
+    UltramarinesMarneusCalgarRulesFactionUnit,
     UltramarinesMortisDreadnoughtRulesFactionUnit,
     UltramarinesOutriderSquadRulesFactionUnit,
     UltramarinesPredatorAnnihilatorRulesFactionUnit,
@@ -32533,10 +34604,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     UltramarinesReiverSquadRulesFactionUnit,
     UltramarinesRelicRazorbackRulesFactionUnit,
     UltramarinesRelicTerminatorSquadRulesFactionUnit,
-    UltramarinesRepulsorRulesFactionUnit,
     UltramarinesRepulsorExecutionerRulesFactionUnit,
-    UltramarinesRhinoRulesFactionUnit,
+    UltramarinesRepulsorRulesFactionUnit,
     UltramarinesRhinoPrimarisRulesFactionUnit,
+    UltramarinesRhinoRulesFactionUnit,
     UltramarinesRobouteGuillimanRulesFactionUnit,
     UltramarinesScoutBikeSquadRulesFactionUnit,
     UltramarinesScoutSniperSquadRulesFactionUnit,
@@ -32554,8 +34625,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     UltramarinesSuppressorSquadRulesFactionUnit,
     UltramarinesTacticalSquadRulesFactionUnit,
     UltramarinesTarantulaAirDefenceBatteryRulesFactionUnit,
-    UltramarinesTechmarineRulesFactionUnit,
     UltramarinesTechmarineOnBikeRulesFactionUnit,
+    UltramarinesTechmarineRulesFactionUnit,
     UltramarinesTerminatorAssaultSquadRulesFactionUnit,
     UltramarinesTerminatorSquadRulesFactionUnit,
     UltramarinesTerminusUltraRulesFactionUnit,
@@ -32563,21 +34634,23 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     UltramarinesThunderhawkGunshipRulesFactionUnit,
     UltramarinesThunderhawkTransporterRulesFactionUnit,
     UltramarinesTyrannicWarVeteransRulesFactionUnit,
+    UltramarinesUltramarinesHonourGuardRulesFactionUnit,
     UltramarinesUrielVentrisRulesFactionUnit,
     UltramarinesVanguardVeteranSquadRulesFactionUnit,
     UltramarinesVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    UltramarinesVenerableDreadnoughtRulesFactionUnit,
+    UltramarinesVenerableBattleBrotherCrucibleRulesFactionUnit,
+    UltramarinesVenerableDreadnoughtLegendaryRulesFactionUnit,
     UltramarinesVictrixHonourGuardRulesFactionUnit,
     UltramarinesVindicatorRulesFactionUnit,
     UltramarinesWardensOfUltramarRulesFactionUnit,
     UltramarinesWhirlwindRulesFactionUnit,
     WhiteScarsAggressorSquadRulesFactionUnit,
-    WhiteScarsAncientRulesFactionUnit,
     WhiteScarsAncientInTerminatorArmourRulesFactionUnit,
     WhiteScarsAncientOnBikeRulesFactionUnit,
-    WhiteScarsApothecaryRulesFactionUnit,
+    WhiteScarsAncientRulesFactionUnit,
     WhiteScarsApothecaryBiologisRulesFactionUnit,
     WhiteScarsApothecaryOnBikeRulesFactionUnit,
+    WhiteScarsApothecaryRulesFactionUnit,
     WhiteScarsAssaultIntercessorSquadRulesFactionUnit,
     WhiteScarsAssaultIntercessorsWithJumpPacksRulesFactionUnit,
     WhiteScarsAssaultSquadRulesFactionUnit,
@@ -32591,18 +34664,19 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WhiteScarsBladeguardVeteranSquadRulesFactionUnit,
     WhiteScarsBrutalisDreadnoughtRulesFactionUnit,
     WhiteScarsCaestusAssaultRamRulesFactionUnit,
-    WhiteScarsCaptainRulesFactionUnit,
     WhiteScarsCaptainInGravisArmourRulesFactionUnit,
     WhiteScarsCaptainInPhobosArmourRulesFactionUnit,
     WhiteScarsCaptainInTerminatorArmourRulesFactionUnit,
     WhiteScarsCaptainOnBikeRulesFactionUnit,
+    WhiteScarsCaptainRulesFactionUnit,
     WhiteScarsCaptainWithJumpPackRulesFactionUnit,
     WhiteScarsCarabCullnTheRisenRulesFactionUnit,
     WhiteScarsCenturionAssaultSquadRulesFactionUnit,
     WhiteScarsCenturionDevastatorSquadRulesFactionUnit,
-    WhiteScarsChaplainRulesFactionUnit,
+    WhiteScarsChampionOfTheChapterCrucibleRulesFactionUnit,
     WhiteScarsChaplainInTerminatorArmourRulesFactionUnit,
     WhiteScarsChaplainOnBikeRulesFactionUnit,
+    WhiteScarsChaplainRulesFactionUnit,
     WhiteScarsChaplainVenerableDreadnoughtRulesFactionUnit,
     WhiteScarsChaplainWithJumpPackRulesFactionUnit,
     WhiteScarsCommandSquadRulesFactionUnit,
@@ -32637,25 +34711,26 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WhiteScarsIroncladDreadnoughtRulesFactionUnit,
     WhiteScarsJudiciarRulesFactionUnit,
     WhiteScarsKorsarroKhanRulesFactionUnit,
-    WhiteScarsLandRaiderRulesFactionUnit,
     WhiteScarsLandRaiderCrusaderRulesFactionUnit,
     WhiteScarsLandRaiderExcelsiorRulesFactionUnit,
     WhiteScarsLandRaiderHeliosRulesFactionUnit,
     WhiteScarsLandRaiderPrometheusRulesFactionUnit,
     WhiteScarsLandRaiderRedeemerRulesFactionUnit,
+    WhiteScarsLandRaiderRulesFactionUnit,
     WhiteScarsLandSpeederRulesFactionUnit,
     WhiteScarsLandSpeederStormRulesFactionUnit,
     WhiteScarsLandSpeederTempestRulesFactionUnit,
     WhiteScarsLandSpeederTornadoRulesFactionUnit,
     WhiteScarsLandSpeederTyphoonRulesFactionUnit,
-    WhiteScarsLibrarianRulesFactionUnit,
     WhiteScarsLibrarianInPhobosArmourRulesFactionUnit,
     WhiteScarsLibrarianInTerminatorArmourRulesFactionUnit,
     WhiteScarsLibrarianOnBikeRulesFactionUnit,
+    WhiteScarsLibrarianRulesFactionUnit,
     WhiteScarsLibrarianWithJumpPackRulesFactionUnit,
-    WhiteScarsLieutenantRulesFactionUnit,
+    WhiteScarsLibrariusAdeptCrucibleRulesFactionUnit,
     WhiteScarsLieutenantInPhobosArmourRulesFactionUnit,
     WhiteScarsLieutenantInReiverArmourRulesFactionUnit,
+    WhiteScarsLieutenantRulesFactionUnit,
     WhiteScarsLieutenantWithCombiWeaponRulesFactionUnit,
     WhiteScarsMortisDreadnoughtRulesFactionUnit,
     WhiteScarsOutriderSquadRulesFactionUnit,
@@ -32667,10 +34742,10 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WhiteScarsReiverSquadRulesFactionUnit,
     WhiteScarsRelicRazorbackRulesFactionUnit,
     WhiteScarsRelicTerminatorSquadRulesFactionUnit,
-    WhiteScarsRepulsorRulesFactionUnit,
     WhiteScarsRepulsorExecutionerRulesFactionUnit,
-    WhiteScarsRhinoRulesFactionUnit,
+    WhiteScarsRepulsorRulesFactionUnit,
     WhiteScarsRhinoPrimarisRulesFactionUnit,
+    WhiteScarsRhinoRulesFactionUnit,
     WhiteScarsScoutBikeSquadRulesFactionUnit,
     WhiteScarsScoutSniperSquadRulesFactionUnit,
     WhiteScarsScoutSquadRulesFactionUnit,
@@ -32686,8 +34761,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WhiteScarsSuppressorSquadRulesFactionUnit,
     WhiteScarsTacticalSquadRulesFactionUnit,
     WhiteScarsTarantulaAirDefenceBatteryRulesFactionUnit,
-    WhiteScarsTechmarineRulesFactionUnit,
     WhiteScarsTechmarineOnBikeRulesFactionUnit,
+    WhiteScarsTechmarineRulesFactionUnit,
     WhiteScarsTerminatorAssaultSquadRulesFactionUnit,
     WhiteScarsTerminatorSquadRulesFactionUnit,
     WhiteScarsTerminusUltraRulesFactionUnit,
@@ -32696,13 +34771,16 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WhiteScarsThunderhawkTransporterRulesFactionUnit,
     WhiteScarsVanguardVeteranSquadRulesFactionUnit,
     WhiteScarsVanguardVeteranSquadWithJumpPacksRulesFactionUnit,
-    WhiteScarsVenerableDreadnoughtRulesFactionUnit,
+    WhiteScarsVenerableBattleBrotherCrucibleRulesFactionUnit,
+    WhiteScarsVenerableDreadnoughtLegendaryRulesFactionUnit,
     WhiteScarsVindicatorRulesFactionUnit,
     WhiteScarsWhirlwindRulesFactionUnit,
     WorldEatersAngronRulesFactionUnit,
     WorldEatersBloodcrushersRulesFactionUnit,
+    WorldEatersBloodcultChampionCrucibleRulesFactionUnit,
     WorldEatersBloodlettersRulesFactionUnit,
     WorldEatersBloodthirsterRulesFactionUnit,
+    WorldEatersButcherlordCrucibleRulesFactionUnit,
     WorldEatersChaosLandRaiderRulesFactionUnit,
     WorldEatersChaosPredatorAnnihilatorRulesFactionUnit,
     WorldEatersChaosPredatorDestructorRulesFactionUnit,
@@ -32712,6 +34790,7 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WorldEatersDaemonPrinceOfKhorneRulesFactionUnit,
     WorldEatersDaemonPrinceOfKhorneWithWingsRulesFactionUnit,
     WorldEatersDefilerRulesFactionUnit,
+    WorldEatersEightBlessedLordCrucibleRulesFactionUnit,
     WorldEatersEightboundRulesFactionUnit,
     WorldEatersExaltedEightboundRulesFactionUnit,
     WorldEatersFleshHoundsRulesFactionUnit,
@@ -32719,6 +34798,8 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WorldEatersGoremongersRulesFactionUnit,
     WorldEatersHelbruteRulesFactionUnit,
     WorldEatersHeldrakeRulesFactionUnit,
+    WorldEatersHellBladeRulesFactionUnit,
+    WorldEatersHellTalonRulesFactionUnit,
     WorldEatersJakhalsRulesFactionUnit,
     WorldEatersKhRnTheBetrayerRulesFactionUnit,
     WorldEatersKhorneBerzerkersRulesFactionUnit,
