@@ -178,6 +178,9 @@ export function buildDatasetInventory(
       unitCountsByFaction.get(faction.slug) ?? 0;
     cells.rules_faction_sources.actual =
       sourceCountsByFaction.get(faction.slug) ?? 0;
+    cells.rules_faction_sources.expected = String(
+      sourceCountsByFaction.get(faction.slug) ?? 0,
+    );
     cells.rules_faction_detachments.actual =
       detachmentCountsByFaction.get(faction.slug) ?? 0;
 
@@ -222,7 +225,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "Cell format: `actual / expected`.",
     "",
     "- `actual` is the current seed row count in this repository.",
-    "- `expected` is the BSData-derived target count when the generator has a defensible extractor for that table. Cells marked `?` still need a table-specific BSData mapping.",
+    "- `expected` is either the BSData-derived target count or, for curated tables, the policy-backed seed target. Cells marked `?` still need table-specific mapping rules before expected counts are comparable.",
     "- Faction-scoped datasheet columns count physical files under `db/seed_config/seed/data/unit_datasheets/<faction>/`, not inherited or effective access through `rules_faction_units`.",
     "- `models` counts distinct `model_id` references in the faction's `unit_models` file. The global `models` table itself does not carry a direct `rules_faction_id`.",
     `- BSData root: \`${inventory.bsDataRoot}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
@@ -243,14 +246,15 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "",
     renderTotalsTable(inventory.columnTotals),
     "",
-    "## BSData Extraction Rules",
+    "## Expected Count Rules",
     "",
     "- `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.",
+    "- `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.",
     "- `unit_models` and `models` expected counts come from BSData model selection entries within each expected unit. Single-model unit entries count as one model when they do not contain nested model selections.",
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
     "- `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.",
-    "- `rules_faction_sources`, `rules_faction_detachments`, `leader_eligibilities`, and `leader_eligibility_keywords` remain `?` because their BSData structures need table-specific mapping rules before the counts are comparable.",
+    "- `rules_faction_detachments`, `leader_eligibilities`, and `leader_eligibility_keywords` remain `?` because their BSData structures need table-specific mapping rules before the counts are comparable.",
     "",
     "## Table Completion Workflow",
     "",
@@ -481,6 +485,10 @@ function extractionStatusForColumn(
 ): string {
   if (columnKey === "rules_factions") {
     return "Target-list expectation is `1` per faction.";
+  }
+
+  if (columnKey === "rules_faction_sources") {
+    return "Filled from curated GW PDF, Warhammer Community download, and Wahapedia source-applicability seed rows; guarded by the `rules_faction_sources` contract test.";
   }
 
   if (BSDATA_EXPECTED_COLUMNS.has(columnKey)) {

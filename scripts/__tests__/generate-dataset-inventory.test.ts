@@ -37,6 +37,8 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.hasDatasheetFolder).toBe(false);
     expect(bloodAngels?.cells.rules_factions.actual).toBe(1);
     expect(bloodAngels?.cells.rules_factions.expected).toBe("1");
+    expect(bloodAngels?.cells.rules_faction_sources.actual).toBe(3);
+    expect(bloodAngels?.cells.rules_faction_sources.expected).toBe("3");
     expect(bloodAngels?.cells.unit_models.actual).toBe(0);
     expect(bloodAngels?.cells.unit_models.expected).toBe("234");
   });
@@ -47,6 +49,7 @@ describe("dataset inventory generator", () => {
 
     expect(markdown).toContain("# Dataset Inventory");
     expect(markdown).toContain("Cell format: `actual / expected`.");
+    expect(markdown).toContain("## Expected Count Rules");
     expect(markdown).toContain("| Blood Angels | 1 / 1 |");
     expect(markdown).toContain("- Blood Angels (`blood_angels`)");
   });
@@ -64,6 +67,7 @@ describe("dataset inventory generator", () => {
     );
 
     expect(spaceMarines?.cells.rules_faction_units.expected).toBe("129");
+    expect(inventory.columnTotals.rules_faction_sources.expected).toBe("212");
     expect(spaceMarines?.cells.unit_profiles.expected).toBe("200");
     expect(spaceMarines?.cells.unit_profile_stats.expected).toBe("1200");
     expect(bloodAngels?.cells.rules_faction_units.expected).toBe("156");
