@@ -41,8 +41,10 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.rules_faction_sources.expected).toBe("3");
     expect(bloodAngels?.cells.rules_faction_detachments.actual).toBe(18);
     expect(bloodAngels?.cells.leader_eligibilities.actual).toBe(173);
-    expect(bloodAngels?.cells.unit_models.actual).toBe(0);
+    expect(bloodAngels?.cells.unit_models.actual).toBe(233);
     expect(bloodAngels?.cells.unit_models.expected).toBe("233");
+    expect(bloodAngels?.cells.models.actual).toBe(223);
+    expect(bloodAngels?.cells.models.expected).toBe("223");
   });
 
   it("renders a Markdown inventory with actual-over-expected cells", () => {
@@ -73,6 +75,10 @@ describe("dataset inventory generator", () => {
     expect(inventory.columnTotals.rules_faction_detachments.expected).toBe("343");
     expect(inventory.columnTotals.leader_eligibilities.expected).toBe("2499");
     expect(inventory.columnTotals.leader_eligibility_keywords.expected).toBe("82");
+    expect(inventory.columnTotals.unit_models.actual).toBe(4681);
+    expect(inventory.columnTotals.unit_models.expected).toBe("4681");
+    expect(inventory.columnTotals.models.actual).toBe(4548);
+    expect(inventory.columnTotals.models.expected).toBe("4548");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
     expect(spaceMarines?.cells.leader_eligibilities.expected).toBe("122");
     expect(spaceMarines?.cells.leader_eligibility_keywords.expected).toBe("2");

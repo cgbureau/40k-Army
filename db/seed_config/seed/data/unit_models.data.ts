@@ -1,12 +1,10 @@
-import type {
-  SeedDataset,
-  UnitModelConfig,
-} from "../../types/_index.types";
+import type { SeedDataset } from "../../types/_index.types";
+import { unitModels10e } from "./unit_models/10e/_index.unit_models.data";
 
 /**
  * Typed seed dataset for the `unit_models` table.
  */
 export const unitModelsDataset: SeedDataset<"unit_models"> = {
   table: "unit_models",
-  records: [] satisfies UnitModelConfig[],
+  records: [...unitModels10e],
 };

@@ -294,6 +294,16 @@ def main() -> None:
         help="Emit expected leader_eligibility_keywords memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-unit-models",
+        action="store_true",
+        help="Emit expected unit_models memberships instead of counts.",
+    )
+    parser.add_argument(
+        "--emit-models",
+        action="store_true",
+        help="Emit expected global models derived from BSData unit model selections.",
+    )
+    parser.add_argument(
         "--repo-root",
         default=str(Path(__file__).resolve().parents[1]),
         help="Repository root used to load current seed unit slugs for slug aliases.",
@@ -317,6 +327,14 @@ def main() -> None:
         records = expected_leader_eligibility_keywords(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_unit_models:
+        records = expected_unit_models(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_models:
+        records = expected_models(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
 
     seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
@@ -338,6 +356,12 @@ def main() -> None:
     )
     for slug, count in leader_eligibility_keyword_counts.items():
         result[slug]["leader_eligibility_keywords"] = count
+    unit_model_counts = expected_unit_model_counts(index, Path(args.repo_root))
+    for slug, count in unit_model_counts.items():
+        result[slug]["unit_models"] = count
+    model_counts = expected_model_counts(index, Path(args.repo_root))
+    for slug, count in model_counts.items():
+        result[slug]["models"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -374,6 +398,176 @@ def expected_counts_for_sources(
         "unit_weapons": sum(metrics.unit_weapons for metrics in unit_metrics),
         "models": len(model_names),
     }
+
+
+def expected_unit_model_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_unit_models(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_model_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    model_slugs_by_faction: dict[str, set[str]] = {
+        slug: set() for slug in CATALOG_SOURCES
+    }
+
+    for record in expected_unit_models(index, repo_root):
+        model_slugs_by_faction[record["rules_faction_slug"]].add(
+            record["model_slug"],
+        )
+
+    return {
+        faction_slug: len(model_slugs)
+        for faction_slug, model_slugs in model_slugs_by_faction.items()
+    }
+
+
+def expected_unit_models(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str | int]]:
+    seed_unit_slugs = load_seed_unit_slugs(repo_root)
+    records: list[dict[str, str | int]] = []
+
+    for faction_slug, sources in CATALOG_SOURCES.items():
+        unit_entries: "OrderedDict[str, UnitEntry]" = OrderedDict()
+
+        for mode, filename in sources:
+            for entry in source_unit_entries(index, mode, filename):
+                unit_slug = seed_unit_slug(entry.name, seed_unit_slugs)
+                if not include_unit_for_faction(unit_slug, faction_slug):
+                    continue
+                unit_entries[unit_slug] = entry
+
+        for unit_slug, entry in unit_entries.items():
+            model_records = model_records_for_unit(entry.element, entry.name)
+            for model_record in with_unit_model_slugs(unit_slug, model_records):
+                records.append(
+                    {
+                        "rules_faction_slug": faction_slug,
+                        "unit_slug": unit_slug,
+                        "unit_model_slug": model_record["unit_model_slug"],
+                        "model_slug": model_record["model_slug"],
+                        "model_name": model_record["model_name"],
+                        "minimum_model_count": model_record["minimum_model_count"],
+                        "maximum_model_count": model_record["maximum_model_count"],
+                        "source_owner_slug": unit_source_owner_slug(
+                            unit_slug,
+                            entry.source_file,
+                            faction_slug,
+                        ),
+                        "source_file": entry.source_file,
+                        "source_mode": entry.source_mode,
+                        "bsdata_unit_name": entry.name,
+                        "bsdata_model_name": model_record["bsdata_model_name"],
+                        "bsdata_model_id": model_record["bsdata_model_id"],
+                    },
+                )
+
+    return sorted(
+        records,
+        key=lambda record: (
+            str(record["rules_faction_slug"]),
+            str(record["unit_model_slug"]),
+        ),
+    )
+
+
+def expected_models(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    records_by_slug: "OrderedDict[str, dict[str, str]]" = OrderedDict()
+
+    for record in expected_unit_models(index, repo_root):
+        model_slug = str(record["model_slug"])
+        records_by_slug.setdefault(
+            model_slug,
+            {
+                "model_slug": model_slug,
+                "model_name": str(record["model_name"]),
+                "source_owner_slug": str(record["source_owner_slug"]),
+            },
+        )
+
+    return sorted(
+        records_by_slug.values(),
+        key=lambda record: (record["source_owner_slug"], record["model_slug"]),
+    )
+
+
+def model_records_for_unit(
+    entry: ET.Element,
+    fallback_model_name: str,
+) -> list[dict[str, str | int]]:
+    if entry.attrib.get("type") == "model":
+        return [model_record_from_selection(entry, fallback_model_name)]
+
+    records = [
+        model_record_from_selection(model, model.attrib["name"])
+        for model in entry.findall(".//bs:selectionEntry", BS_NS)
+        if model.attrib.get("type") == "model" and model.attrib.get("name")
+    ]
+
+    return records or [model_record_from_selection(entry, fallback_model_name)]
+
+
+def model_record_from_selection(
+    selection: ET.Element,
+    model_name: str,
+) -> dict[str, str | int]:
+    return {
+        "model_slug": normalize_slug(model_name),
+        "model_name": display_model_name(model_name),
+        "minimum_model_count": selection_count(selection, "min"),
+        "maximum_model_count": selection_count(selection, "max"),
+        "bsdata_model_name": model_name,
+        "bsdata_model_id": selection.attrib.get("id", ""),
+    }
+
+
+def with_unit_model_slugs(
+    unit_slug: str,
+    model_records: list[dict[str, str | int]],
+) -> list[dict[str, str | int]]:
+    duplicate_counts: dict[str, int] = {}
+    for record in model_records:
+        model_slug = str(record["model_slug"])
+        duplicate_counts[model_slug] = duplicate_counts.get(model_slug, 0) + 1
+
+    results: list[dict[str, str | int]] = []
+    for index, record in enumerate(model_records, start=1):
+        model_slug = str(record["model_slug"])
+        unit_model_slug = f"{unit_slug}__{model_slug}"
+        if duplicate_counts[model_slug] > 1:
+            bsdata_model_id = str(record["bsdata_model_id"])
+            suffix = normalize_slug(bsdata_model_id) or str(index)
+            unit_model_slug = f"{unit_model_slug}__{suffix}"
+
+        results.append({**record, "unit_model_slug": unit_model_slug})
+
+    return results
+
+
+def selection_count(selection: ET.Element, count_type: str) -> int:
+    for constraint in selection.findall("./bs:constraints/bs:constraint", BS_NS):
+        if (
+            constraint.attrib.get("type") == count_type
+            and constraint.attrib.get("field") == "selections"
+            and constraint.attrib.get("value") is not None
+        ):
+            return int(float(constraint.attrib["value"]))
+
+    return 1
 
 
 def source_unit_entries(
@@ -1182,6 +1376,10 @@ def spelling_variants(slug: str) -> list[str]:
 
 
 def display_unit_name(name: str) -> str:
+    return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
+
+
+def display_model_name(name: str) -> str:
     return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
 
 

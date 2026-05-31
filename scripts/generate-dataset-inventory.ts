@@ -12,13 +12,19 @@ import {
   leaderEligibilitiesDataset,
   leaderEligibilityKeywordsDataset,
   keywordsDataset,
+  modelsDataset,
   rulesFactionDetachmentsDataset,
   rulesFactionsDataset,
   rulesFactionSourcesDataset,
   rulesFactionUnitsDataset,
+  unitModelsDataset,
   unitsDataset,
 } from "../db/seed_config/seed/data/_index.data";
-import { leaderEligibilityId } from "../db/seed_config/seed/ids";
+import {
+  leaderEligibilityId,
+  modelId,
+  unitModelId,
+} from "../db/seed_config/seed/ids";
 
 export const DATASET_INVENTORY_COLUMNS = [
   { key: "rules_factions", label: "rules_factions" },
@@ -86,6 +92,12 @@ type BsDataLeaderEligibilityKeywordRecord = {
   keyword_slug: string;
 };
 
+type BsDataUnitModelRecord = {
+  rules_faction_slug: string;
+  unit_model_slug: string;
+  model_slug: string;
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -146,7 +158,6 @@ const TARGET_FACTIONS: TargetFaction[] = [
 const FACTION_DATASET_SUFFIXES: Partial<
   Record<DatasetInventoryColumnKey, string>
 > = {
-  unit_models: "unit_models",
   unit_point_costs: "unit_point_costs",
   unit_profile_stats: "unit_profile_stats",
   unit_profiles: "unit_profiles",
@@ -192,6 +203,11 @@ export function buildDatasetInventory(
   );
   const leaderEligibilityKeywordCountsByFaction =
     countLeaderEligibilityKeywordCoverageByFaction(repoRoot, bsDataRoot);
+  const unitModelCountsByFaction = countUnitModelCoverageByFaction(
+    repoRoot,
+    bsDataRoot,
+  );
+  const modelCountsByFaction = countModelCoverageByFaction(repoRoot, bsDataRoot);
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -217,6 +233,7 @@ export function buildDatasetInventory(
       leaderEligibilityCountsByFaction.get(faction.slug) ?? 0;
     cells.leader_eligibility_keywords.actual =
       leaderEligibilityKeywordCountsByFaction.get(faction.slug) ?? 0;
+    cells.unit_models.actual = unitModelCountsByFaction.get(faction.slug) ?? 0;
 
     for (const [columnKey, suffix] of Object.entries(FACTION_DATASET_SUFFIXES)) {
       const key = columnKey as DatasetInventoryColumnKey;
@@ -227,7 +244,7 @@ export function buildDatasetInventory(
       );
     }
 
-    cells.models.actual = countFactionModels(repoRoot, faction.datasheetFolder);
+    cells.models.actual = modelCountsByFaction.get(faction.slug) ?? 0;
     applyBsDataExpectedCounts(cells, bsDataExpectedCounts.get(faction.slug));
 
     return {
@@ -260,8 +277,9 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "",
     "- `actual` is the current seed row count or faction coverage count in this repository. For global unit-linked tables such as `leader_eligibilities`, it is the count of BSData faction memberships covered by checked-in global seed rows.",
     "- `expected` is either the BSData-derived target count or, for curated tables, the policy-backed seed target. Cells marked `?` still need table-specific mapping rules before expected counts are comparable.",
-    "- Faction-scoped datasheet columns count physical files under `db/seed_config/seed/data/unit_datasheets/<faction>/`, not inherited or effective access through `rules_faction_units`.",
-    "- `models` counts distinct `model_id` references in the faction's `unit_models` file. The global `models` table itself does not carry a direct `rules_faction_id`.",
+    "- Faction-scoped datasheet columns count physical files under `db/seed_config/seed/data/unit_datasheets/<faction>/`, not inherited or effective access through `rules_faction_units`, unless noted below.",
+    "- `unit_models` counts BSData faction memberships covered by checked-in global `unit_models` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
+    "- `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.",
     `- BSData root: \`${inventory.bsDataRoot}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
     "",
     "Regenerate with:",
@@ -541,9 +559,98 @@ function leaderEligibilityKeywordCoverageKey(
   return `${leaderEligibilityId(record.leader_eligibility_slug)}__${record.keyword_slug}`;
 }
 
-function countLeaderEligibilitiesByFaction(
-  factionSlugById: Map<string, string>,
+function countUnitModelCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
 ): Map<string, number> {
+  const result = spawnSync(
+    "python3",
+    [
+      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
+      "--bsdata-root",
+      bsDataRoot,
+      "--repo-root",
+      repoRoot,
+      "--emit-unit-models",
+    ],
+    {
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+    },
+  );
+
+  if (result.status !== 0) {
+    return new Map();
+  }
+
+  const expectedRecords = JSON.parse(result.stdout) as BsDataUnitModelRecord[];
+  const coveredKeys = new Set(unitModelsDataset.records.map((record) => record.id));
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(unitModelId(record.unit_model_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countModelCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const result = spawnSync(
+    "python3",
+    [
+      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
+      "--bsdata-root",
+      bsDataRoot,
+      "--repo-root",
+      repoRoot,
+      "--emit-unit-models",
+    ],
+    {
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+    },
+  );
+
+  if (result.status !== 0) {
+    return new Map();
+  }
+
+  const expectedRecords = JSON.parse(result.stdout) as BsDataUnitModelRecord[];
+  const coveredModelIds = new Set(modelsDataset.records.map((record) => record.id));
+  const modelSlugsByFaction = new Map<string, Set<string>>();
+
+  for (const record of expectedRecords) {
+    if (!coveredModelIds.has(modelId(record.model_slug))) {
+      continue;
+    }
+
+    const modelSlugs =
+      modelSlugsByFaction.get(record.rules_faction_slug) ?? new Set<string>();
+    modelSlugs.add(record.model_slug);
+    modelSlugsByFaction.set(record.rules_faction_slug, modelSlugs);
+  }
+
+  return new Map(
+    [...modelSlugsByFaction.entries()].map(([factionSlug, modelSlugs]) => [
+      factionSlug,
+      modelSlugs.size,
+    ]),
+  );
+}
+
+function unitFactionSlugsByUnitId(
+  factionSlugById: Map<string, string>,
+): Map<string, Set<string>> {
   const unitFactionSlugsById = new Map<string, Set<string>>();
 
   for (const record of rulesFactionUnitsDataset.records) {
@@ -557,6 +664,14 @@ function countLeaderEligibilitiesByFaction(
     factionSlugs.add(factionSlug);
     unitFactionSlugsById.set(record.unit_id, factionSlugs);
   }
+
+  return unitFactionSlugsById;
+}
+
+function countLeaderEligibilitiesByFaction(
+  factionSlugById: Map<string, string>,
+): Map<string, number> {
+  const unitFactionSlugsById = unitFactionSlugsByUnitId(factionSlugById);
 
   const counts = new Map<string, number>();
 
@@ -593,23 +708,6 @@ function countFactionDatasetRecords(
   }
 
   return countDatasetRecordsInSource(source);
-}
-
-function countFactionModels(repoRoot: string, datasheetFolder: string): number {
-  const source = readFactionDatasetSource(
-    repoRoot,
-    datasheetFolder,
-    "unit_models",
-  );
-  if (!source) {
-    return 0;
-  }
-
-  return new Set(
-    Array.from(source.matchAll(/model_id:\s*modelId\("([^"]+)"\)/g)).map(
-      (match) => match[1],
-    ),
-  ).size;
 }
 
 function readFactionDatasetSource(
