@@ -18,6 +18,8 @@ import {
   rulesFactionSourcesDataset,
   rulesFactionUnitsDataset,
   unitPointCostsDataset,
+  unitProfileStatsDataset,
+  unitProfilesDataset,
   unitModelsDataset,
   unitsDataset,
 } from "../db/seed_config/seed/data/_index.data";
@@ -25,6 +27,8 @@ import {
   leaderEligibilityId,
   modelId,
   unitPointCostId,
+  unitProfileId,
+  unitProfileStatId,
   unitModelId,
 } from "../db/seed_config/seed/ids";
 
@@ -105,6 +109,16 @@ type BsDataUnitPointCostRecord = {
   unit_point_cost_slug: string;
 };
 
+type BsDataUnitProfileRecord = {
+  rules_faction_slug: string;
+  unit_profile_slug: string;
+};
+
+type BsDataUnitProfileStatRecord = {
+  rules_faction_slug: string;
+  unit_profile_stat_slug: string;
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -124,6 +138,8 @@ const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "unit_weapons",
   "models",
 ]);
+const bsDataRecordCache = new Map<string, unknown[] | null>();
+const bsDataExpectedCountsCache = new Map<string, Map<string, BsDataExpectedCounts>>();
 
 const TARGET_FACTIONS: TargetFaction[] = [
   { name: "Adepta Sororitas", slug: "adepta_sororitas", datasheetFolder: "adepta-sororitas" },
@@ -165,8 +181,6 @@ const TARGET_FACTIONS: TargetFaction[] = [
 const FACTION_DATASET_SUFFIXES: Partial<
   Record<DatasetInventoryColumnKey, string>
 > = {
-  unit_profile_stats: "unit_profile_stats",
-  unit_profiles: "unit_profiles",
   unit_weapons: "unit_weapons",
 };
 
@@ -218,6 +232,14 @@ export function buildDatasetInventory(
     repoRoot,
     bsDataRoot,
   );
+  const unitProfileCountsByFaction = countUnitProfileCoverageByFaction(
+    repoRoot,
+    bsDataRoot,
+  );
+  const unitProfileStatCountsByFaction = countUnitProfileStatCoverageByFaction(
+    repoRoot,
+    bsDataRoot,
+  );
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -246,6 +268,10 @@ export function buildDatasetInventory(
     cells.unit_models.actual = unitModelCountsByFaction.get(faction.slug) ?? 0;
     cells.unit_point_costs.actual =
       unitPointCostCountsByFaction.get(faction.slug) ?? 0;
+    cells.unit_profiles.actual =
+      unitProfileCountsByFaction.get(faction.slug) ?? 0;
+    cells.unit_profile_stats.actual =
+      unitProfileStatCountsByFaction.get(faction.slug) ?? 0;
 
     for (const [columnKey, suffix] of Object.entries(FACTION_DATASET_SUFFIXES)) {
       const key = columnKey as DatasetInventoryColumnKey;
@@ -292,6 +318,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- Faction-scoped datasheet columns count physical files under `db/seed_config/seed/data/unit_datasheets/<faction>/`, not inherited or effective access through `rules_faction_units`, unless noted below.",
     "- `unit_models` counts BSData faction memberships covered by checked-in global `unit_models` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_point_costs` counts BSData faction memberships covered by checked-in global `unit_point_costs` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
+    "- `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.",
     `- BSData root: \`${inventory.bsDataRoot}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
     "",
@@ -419,29 +446,16 @@ function countLeaderEligibilityCoverageByFaction(
   repoRoot: string,
   bsDataRoot: string,
 ): Map<string, number> | null {
-  const result = spawnSync(
-    "python3",
-    [
-      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
-      "--bsdata-root",
-      bsDataRoot,
-      "--repo-root",
-      repoRoot,
-      "--emit-leader-eligibilities",
-    ],
-    {
-      encoding: "utf8",
-      maxBuffer: 20 * 1024 * 1024,
-    },
+  const expectedRecords = loadBsDataRecords<BsDataLeaderEligibilityRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-leader-eligibilities",
   );
 
-  if (result.status !== 0) {
+  if (!expectedRecords) {
     return null;
   }
 
-  const expectedRecords = JSON.parse(
-    result.stdout,
-  ) as BsDataLeaderEligibilityRecord[];
   const coveredKeys = currentLeaderEligibilityCoverageKeys();
   const counts = new Map<string, number>();
 
@@ -501,29 +515,16 @@ function countLeaderEligibilityKeywordCoverageByFaction(
   repoRoot: string,
   bsDataRoot: string,
 ): Map<string, number> {
-  const result = spawnSync(
-    "python3",
-    [
-      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
-      "--bsdata-root",
-      bsDataRoot,
-      "--repo-root",
-      repoRoot,
-      "--emit-leader-eligibility-keywords",
-    ],
-    {
-      encoding: "utf8",
-      maxBuffer: 20 * 1024 * 1024,
-    },
+  const expectedRecords = loadBsDataRecords<BsDataLeaderEligibilityKeywordRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-leader-eligibility-keywords",
   );
 
-  if (result.status !== 0) {
+  if (!expectedRecords) {
     return new Map();
   }
 
-  const expectedRecords = JSON.parse(
-    result.stdout,
-  ) as BsDataLeaderEligibilityKeywordRecord[];
   const coveredKeys = currentLeaderEligibilityKeywordCoverageKeys();
   const counts = new Map<string, number>();
 
@@ -576,27 +577,16 @@ function countUnitModelCoverageByFaction(
   repoRoot: string,
   bsDataRoot: string,
 ): Map<string, number> {
-  const result = spawnSync(
-    "python3",
-    [
-      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
-      "--bsdata-root",
-      bsDataRoot,
-      "--repo-root",
-      repoRoot,
-      "--emit-unit-models",
-    ],
-    {
-      encoding: "utf8",
-      maxBuffer: 20 * 1024 * 1024,
-    },
+  const expectedRecords = loadBsDataRecords<BsDataUnitModelRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-models",
   );
 
-  if (result.status !== 0) {
+  if (!expectedRecords) {
     return new Map();
   }
 
-  const expectedRecords = JSON.parse(result.stdout) as BsDataUnitModelRecord[];
   const coveredKeys = new Set(unitModelsDataset.records.map((record) => record.id));
   const counts = new Map<string, number>();
 
@@ -618,27 +608,16 @@ function countModelCoverageByFaction(
   repoRoot: string,
   bsDataRoot: string,
 ): Map<string, number> {
-  const result = spawnSync(
-    "python3",
-    [
-      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
-      "--bsdata-root",
-      bsDataRoot,
-      "--repo-root",
-      repoRoot,
-      "--emit-unit-models",
-    ],
-    {
-      encoding: "utf8",
-      maxBuffer: 20 * 1024 * 1024,
-    },
+  const expectedRecords = loadBsDataRecords<BsDataUnitModelRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-models",
   );
 
-  if (result.status !== 0) {
+  if (!expectedRecords) {
     return new Map();
   }
 
-  const expectedRecords = JSON.parse(result.stdout) as BsDataUnitModelRecord[];
   const coveredModelIds = new Set(modelsDataset.records.map((record) => record.id));
   const modelSlugsByFaction = new Map<string, Set<string>>();
 
@@ -665,27 +644,16 @@ function countUnitPointCostCoverageByFaction(
   repoRoot: string,
   bsDataRoot: string,
 ): Map<string, number> {
-  const result = spawnSync(
-    "python3",
-    [
-      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
-      "--bsdata-root",
-      bsDataRoot,
-      "--repo-root",
-      repoRoot,
-      "--emit-unit-point-costs",
-    ],
-    {
-      encoding: "utf8",
-      maxBuffer: 20 * 1024 * 1024,
-    },
+  const expectedRecords = loadBsDataRecords<BsDataUnitPointCostRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-point-costs",
   );
 
-  if (result.status !== 0) {
+  if (!expectedRecords) {
     return new Map();
   }
 
-  const expectedRecords = JSON.parse(result.stdout) as BsDataUnitPointCostRecord[];
   const coveredKeys = new Set(
     unitPointCostsDataset.records.map((record) => record.id),
   );
@@ -693,6 +661,72 @@ function countUnitPointCostCoverageByFaction(
 
   for (const record of expectedRecords) {
     if (!coveredKeys.has(unitPointCostId(record.unit_point_cost_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countUnitProfileCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const expectedRecords = loadBsDataRecords<BsDataUnitProfileRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-profiles",
+  );
+
+  if (!expectedRecords) {
+    return new Map();
+  }
+
+  const coveredKeys = new Set(
+    unitProfilesDataset.records.map((record) => record.id),
+  );
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(unitProfileId(record.unit_profile_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countUnitProfileStatCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const expectedRecords = loadBsDataRecords<BsDataUnitProfileStatRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-profile-stats",
+  );
+
+  if (!expectedRecords) {
+    return new Map();
+  }
+
+  const coveredKeys = new Set(
+    unitProfileStatsDataset.records.map((record) => record.id),
+  );
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(unitProfileStatId(record.unit_profile_stat_slug))) {
       continue;
     }
 
@@ -890,6 +924,47 @@ function extractionStatusForColumn(
   return "BSData expected-count extractor is pending; cells show `?`.";
 }
 
+function loadBsDataRecords<T>(
+  repoRoot: string,
+  bsDataRoot: string,
+  emitFlag: string,
+): T[] | null {
+  if (!existsSync(bsDataRoot)) {
+    return null;
+  }
+
+  const cacheKey = `${repoRoot}\0${bsDataRoot}\0${emitFlag}`;
+  if (bsDataRecordCache.has(cacheKey)) {
+    return bsDataRecordCache.get(cacheKey) as T[] | null;
+  }
+
+  const result = spawnSync(
+    "python3",
+    [
+      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
+      "--bsdata-root",
+      bsDataRoot,
+      "--repo-root",
+      repoRoot,
+      emitFlag,
+    ],
+    {
+      encoding: "utf8",
+      maxBuffer: 50 * 1024 * 1024,
+    },
+  );
+
+  if (result.status !== 0) {
+    bsDataRecordCache.set(cacheKey, null);
+    return null;
+  }
+
+  const records = JSON.parse(result.stdout) as T[];
+  bsDataRecordCache.set(cacheKey, records);
+
+  return records;
+}
+
 function loadBsDataExpectedCounts(
   repoRoot: string,
   bsDataRoot: string,
@@ -898,10 +973,16 @@ function loadBsDataExpectedCounts(
     return new Map();
   }
 
+  const cacheKey = `${repoRoot}\0${bsDataRoot}`;
+  const cachedCounts = bsDataExpectedCountsCache.get(cacheKey);
+  if (cachedCounts) {
+    return cachedCounts;
+  }
+
   const helperPath = resolve(repoRoot, "scripts/bsdata_expected_counts.py");
   const result = spawnSync(
     "python3",
-    [helperPath, "--bsdata-root", bsDataRoot],
+    [helperPath, "--bsdata-root", bsDataRoot, "--repo-root", repoRoot],
     {
       encoding: "utf8",
     },
@@ -934,6 +1015,8 @@ function loadBsDataExpectedCounts(
 
     countsByFaction.set(factionSlug, counts);
   }
+
+  bsDataExpectedCountsCache.set(cacheKey, countsByFaction);
 
   return countsByFaction;
 }

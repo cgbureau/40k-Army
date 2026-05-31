@@ -6,6 +6,8 @@ import {
   renderDatasetInventoryMarkdown,
 } from "../generate-dataset-inventory";
 
+const INVENTORY_TEST_TIMEOUT_MS = 30000;
+
 describe("dataset inventory generator", () => {
   it("builds the requested matrix columns for the 34 target factions", () => {
     const inventory = buildDatasetInventory({ repoRoot: process.cwd() });
@@ -25,7 +27,7 @@ describe("dataset inventory generator", () => {
       "unit_weapons",
       "models",
     ]);
-  });
+  }, INVENTORY_TEST_TIMEOUT_MS);
 
   it("distinguishes current faction-scoped file inventory from target faction presence", () => {
     const inventory = buildDatasetInventory({ repoRoot: process.cwd() });
@@ -47,7 +49,7 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.unit_point_costs.expected).toBe("200");
     expect(bloodAngels?.cells.models.actual).toBe(223);
     expect(bloodAngels?.cells.models.expected).toBe("223");
-  });
+  }, INVENTORY_TEST_TIMEOUT_MS);
 
   it("renders a Markdown inventory with actual-over-expected cells", () => {
     const inventory = buildDatasetInventory({ repoRoot: process.cwd() });
@@ -58,7 +60,7 @@ describe("dataset inventory generator", () => {
     expect(markdown).toContain("## Expected Count Rules");
     expect(markdown).toContain("| Blood Angels | 1 / 1 |");
     expect(markdown).toContain("- Blood Angels (`blood_angels`)");
-  });
+  }, INVENTORY_TEST_TIMEOUT_MS);
 
   it("fills second-pass expected counts from the local BSData checkout", () => {
     const inventory = buildDatasetInventory({
@@ -81,6 +83,10 @@ describe("dataset inventory generator", () => {
     expect(inventory.columnTotals.unit_models.expected).toBe("4681");
     expect(inventory.columnTotals.unit_point_costs.actual).toBe(3988);
     expect(inventory.columnTotals.unit_point_costs.expected).toBe("3988");
+    expect(inventory.columnTotals.unit_profiles.actual).toBe(3984);
+    expect(inventory.columnTotals.unit_profiles.expected).toBe("3984");
+    expect(inventory.columnTotals.unit_profile_stats.actual).toBe(23904);
+    expect(inventory.columnTotals.unit_profile_stats.expected).toBe("23904");
     expect(inventory.columnTotals.models.actual).toBe(4548);
     expect(inventory.columnTotals.models.expected).toBe("4548");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
@@ -92,5 +98,5 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.rules_faction_detachments.expected).toBe("18");
     expect(bloodAngels?.cells.leader_eligibilities.expected).toBe("173");
     expect(bloodAngels?.cells.unit_models.expected).not.toBe("?");
-  });
+  }, INVENTORY_TEST_TIMEOUT_MS);
 });

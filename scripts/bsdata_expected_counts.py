@@ -309,6 +309,16 @@ def main() -> None:
         help="Emit expected unit_point_costs memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-unit-profiles",
+        action="store_true",
+        help="Emit expected unit_profiles memberships instead of counts.",
+    )
+    parser.add_argument(
+        "--emit-unit-profile-stats",
+        action="store_true",
+        help="Emit expected unit_profile_stats memberships instead of counts.",
+    )
+    parser.add_argument(
         "--repo-root",
         default=str(Path(__file__).resolve().parents[1]),
         help="Repository root used to load current seed unit slugs for slug aliases.",
@@ -344,6 +354,14 @@ def main() -> None:
         records = expected_unit_point_costs(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_unit_profiles:
+        records = expected_unit_profiles(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_unit_profile_stats:
+        records = expected_unit_profile_stats(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
 
     seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
@@ -374,6 +392,15 @@ def main() -> None:
     unit_point_cost_counts = expected_unit_point_cost_counts(index, Path(args.repo_root))
     for slug, count in unit_point_cost_counts.items():
         result[slug]["unit_point_costs"] = count
+    unit_profile_counts = expected_unit_profile_counts(index, Path(args.repo_root))
+    for slug, count in unit_profile_counts.items():
+        result[slug]["unit_profiles"] = count
+    unit_profile_stat_counts = expected_unit_profile_stat_counts(
+        index,
+        Path(args.repo_root),
+    )
+    for slug, count in unit_profile_stat_counts.items():
+        result[slug]["unit_profile_stats"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -582,6 +609,219 @@ def expected_unit_point_costs(
             str(record["unit_point_cost_slug"]),
         ),
     )
+
+
+def expected_unit_profile_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_unit_profiles(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_unit_profiles(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str | int | None]]:
+    return [
+        {
+            key: value
+            for key, value in record.items()
+            if key != "stat_records"
+        }
+        for record in expected_unit_profiles_with_stats(index, repo_root)
+    ]
+
+
+def expected_unit_profiles_with_stats(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, object]]:
+    records: list[dict[str, object]] = []
+
+    for faction_slug, unit_slug, entry in expected_unit_entry_records(index, repo_root):
+        for profile_record in unit_profile_records_for_unit(unit_slug, entry):
+            records.append(
+                {
+                    **profile_record,
+                    "rules_faction_slug": faction_slug,
+                    "unit_slug": unit_slug,
+                    "rules_source_slug": unit_rules_source_slug(
+                        unit_slug,
+                        entry.source_file,
+                        faction_slug,
+                    ),
+                    "source_owner_slug": unit_source_owner_slug(
+                        unit_slug,
+                        entry.source_file,
+                        faction_slug,
+                    ),
+                    "source_file": entry.source_file,
+                    "source_mode": entry.source_mode,
+                    "bsdata_unit_name": entry.name,
+                },
+            )
+
+    return sorted(
+        records,
+        key=lambda record: (
+            str(record["rules_faction_slug"]),
+            str(record["unit_profile_slug"]),
+        ),
+    )
+
+
+def expected_unit_profile_stat_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_unit_profile_stats(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_unit_profile_stats(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    records: list[dict[str, str]] = []
+
+    for profile_record in expected_unit_profiles_with_stats(index, repo_root):
+        for stat_record in profile_record["stat_records"]:
+            records.append(
+                {
+                    **stat_record,
+                    "rules_faction_slug": str(profile_record["rules_faction_slug"]),
+                    "unit_profile_slug": str(profile_record["unit_profile_slug"]),
+                    "unit_slug": str(profile_record["unit_slug"]),
+                    "source_owner_slug": str(profile_record["source_owner_slug"]),
+                    "source_file": str(profile_record["source_file"]),
+                    "source_mode": str(profile_record["source_mode"]),
+                    "bsdata_unit_name": str(profile_record["bsdata_unit_name"]),
+                    "bsdata_profile_name": str(profile_record["bsdata_profile_name"]),
+                },
+            )
+
+    return sorted(
+        records,
+        key=lambda record: (
+            record["rules_faction_slug"],
+            record["unit_profile_stat_slug"],
+        ),
+    )
+
+
+def expected_unit_entry_records(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> Iterable[tuple[str, str, UnitEntry]]:
+    seed_unit_slugs = load_seed_unit_slugs(repo_root)
+
+    for faction_slug, sources in CATALOG_SOURCES.items():
+        unit_entries: "OrderedDict[str, UnitEntry]" = OrderedDict()
+
+        for mode, filename in sources:
+            for entry in source_unit_entries(index, mode, filename):
+                unit_slug = seed_unit_slug(entry.name, seed_unit_slugs)
+                if not include_unit_for_faction(unit_slug, faction_slug):
+                    continue
+                unit_entries[unit_slug] = entry
+
+        for unit_slug, entry in unit_entries.items():
+            yield faction_slug, unit_slug, entry
+
+
+def unit_profile_records_for_unit(
+    unit_slug: str,
+    entry: UnitEntry,
+) -> list[dict[str, str | list[dict[str, str]] | None]]:
+    profiles = [
+        profile
+        for profile in entry.element.findall(".//bs:profile", BS_NS)
+        if profile.attrib.get("typeName") == "Unit"
+    ]
+    duplicate_counts: dict[str, int] = {}
+
+    for profile in profiles:
+        profile_slug = normalize_slug(profile.attrib.get("name", entry.name))
+        duplicate_counts[profile_slug] = duplicate_counts.get(profile_slug, 0) + 1
+
+    records: list[dict[str, str | list[dict[str, str]] | None]] = []
+    for index, profile in enumerate(profiles, start=1):
+        bsdata_profile_name = profile.attrib.get("name", entry.name)
+        profile_slug = normalize_slug(bsdata_profile_name)
+        unit_profile_slug = f"{unit_slug}__10e__{profile_slug}"
+
+        if duplicate_counts[profile_slug] > 1:
+            suffix = normalize_slug(profile.attrib.get("id", "")) or str(index)
+            unit_profile_slug = f"{unit_profile_slug}__{suffix}"
+
+        records.append(
+            {
+                "unit_profile_slug": unit_profile_slug,
+                "unit_profile_name": (
+                    f"{display_unit_name(entry.name)} - "
+                    f"{display_model_name(bsdata_profile_name)}"
+                ),
+                "model_slug": None,
+                "bsdata_profile_name": bsdata_profile_name,
+                "bsdata_profile_id": profile.attrib.get("id", ""),
+                "stat_records": characteristic_records_for_profile(
+                    profile,
+                    unit_profile_slug,
+                ),
+            },
+        )
+
+    return records
+
+
+def characteristic_records_for_profile(
+    profile: ET.Element,
+    unit_profile_slug: str,
+) -> list[dict[str, str]]:
+    characteristics = profile.findall(".//bs:characteristic", BS_NS)
+    duplicate_counts: dict[str, int] = {}
+
+    for characteristic in characteristics:
+        stat_slug = normalize_slug(characteristic.attrib.get("name", "stat"))
+        duplicate_counts[stat_slug] = duplicate_counts.get(stat_slug, 0) + 1
+
+    records: list[dict[str, str]] = []
+    for index, characteristic in enumerate(characteristics, start=1):
+        raw_stat_key = characteristic.attrib.get("name", "Stat")
+        stat_slug = normalize_slug(raw_stat_key)
+        unit_profile_stat_slug = f"{unit_profile_slug}__{stat_slug}"
+
+        if duplicate_counts[stat_slug] > 1:
+            suffix = normalize_slug(characteristic.attrib.get("typeId", "")) or str(index)
+            unit_profile_stat_slug = f"{unit_profile_stat_slug}__{suffix}"
+
+        records.append(
+            {
+                "unit_profile_stat_slug": unit_profile_stat_slug,
+                "stat_key": display_stat_key(raw_stat_key),
+                "stat_value": clean_bsdata_text(characteristic.text or ""),
+                "bsdata_characteristic_name": raw_stat_key,
+                "bsdata_characteristic_type_id": characteristic.attrib.get("typeId", ""),
+            },
+        )
+
+    return records
+
+
+def display_stat_key(stat_key: str) -> str:
+    return {
+        "LD": "Ld",
+        "SV": "Sv",
+    }.get(stat_key, stat_key)
 
 
 def point_cost_records_for_unit(entry: ET.Element) -> list[dict[str, str | int]]:
