@@ -21,65 +21,73 @@ type RulesFactionSeedSlug =
   | "adepta_sororitas"
   | "adeptus_custodes"
   | "adeptus_mechanicus"
-  | "adeptus_titanicus"
-  | "aeldari"
   | "astra_militarum"
-  | "black_templars"
-  | "blood_angels"
-  | "chaos_daemons"
-  | "chaos_knights"
-  | "chaos_space_marines"
-  | "dark_angels"
-  | "death_guard"
-  | "deathwatch"
-  | "drukhari"
-  | "emperors_children"
-  | "genestealer_cults"
   | "grey_knights"
   | "imperial_agents"
   | "imperial_knights"
+  | "space_marines"
+  | "black_templars"
+  | "blood_angels"
+  | "dark_angels"
+  | "deathwatch"
+  | "imperial_fists"
+  | "iron_hands"
+  | "raven_guard"
+  | "salamanders"
+  | "space_wolves"
+  | "ultramarines"
+  | "white_scars"
+  | "chaos_daemons"
+  | "chaos_knights"
+  | "chaos_space_marines"
+  | "death_guard"
+  | "emperors_children"
+  | "thousand_sons"
+  | "world_eaters"
+  | "aeldari"
+  | "drukhari"
+  | "genestealer_cults"
   | "leagues_of_votann"
   | "necrons"
   | "orks"
-  | "space_marines"
-  | "space_wolves"
   | "tau_empire"
-  | "thousand_sons"
-  | "tyranids"
-  | "unaligned_forces"
-  | "world_eaters";
+  | "tyranids";
 
 const rulesFactionSeedIds: Record<RulesFactionSeedSlug, string> = {
   adepta_sororitas: "01KA39VYW0GHY45V21BCA1HACN",
   adeptus_custodes: "01K8ZZ0WY5834SAV2A8DK160YQ",
   adeptus_mechanicus: "01K9XEBNWPSF2GH0FQPFAH9APR",
-  adeptus_titanicus: "01K3FDS0S60A09MXG87E3WDPFM",
-  aeldari: "01KAKD17DXH3FPGJATWP79877Y",
   astra_militarum: "01K54G8D4ECCFQW6EETRBE4T1A",
-  black_templars: "01KAQ5A7B0ZV783T49KYX7Y1G5",
-  blood_angels: "01KEER7ZGKWJN71ZHR9TVTR0RT",
-  chaos_daemons: "01KB3FAC0DZYK8PG5G44N7DC3V",
-  chaos_knights: "01K1RA56DT79K1KGG05M9GNFMA",
-  chaos_space_marines: "01K72168ZET9R8KERTFA1SNPQN",
-  dark_angels: "01KC3D1QNF4DDQDHRX4PS3MKSP",
-  death_guard: "01K14W7819DZWB0BZMYKFEK80E",
-  deathwatch: "01K9VPA0QP75TR10SCM9Z77E06",
-  drukhari: "01KV1WHNPEV4TVVBHMGATYJSNZ",
-  emperors_children: "01KAZVJD75HDS7KCD1HRN2Y999",
-  genestealer_cults: "01KC1GM5J11EJYBDA714SYJT5Y",
   grey_knights: "01K358DZP5Q9536WK7M85ZNYRV",
   imperial_agents: "01KPP71FFB2ZY9RG4CFGHSXZRH",
   imperial_knights: "01K90KT8V8CQ71Q72M1D7A6RQZ",
+  space_marines: "01KBNY9118455676VGTFPCBHJ9",
+  black_templars: "01KAQ5A7B0ZV783T49KYX7Y1G5",
+  blood_angels: "01KEER7ZGKWJN71ZHR9TVTR0RT",
+  dark_angels: "01KC3D1QNF4DDQDHRX4PS3MKSP",
+  deathwatch: "01K9VPA0QP75TR10SCM9Z77E06",
+  imperial_fists: "01K80KRCV51ZGGNESJCY51F4GC",
+  iron_hands: "01K42PNT20DN7E4Z5BNM97HAFR",
+  raven_guard: "01K51T7WZG4MMHJJQ7BVJ9BCM1",
+  salamanders: "01KR13MHY8RHEV4NBS0J2B93WS",
+  space_wolves: "01K5RZQKB2X3J9S2FKP04X6X2M",
+  ultramarines: "01KSXKSA6X6QTQ4TY439TRMYZ0",
+  white_scars: "01KKMFM2KVHMRMNQADSEKXHYHN",
+  chaos_daemons: "01KB3FAC0DZYK8PG5G44N7DC3V",
+  chaos_knights: "01K1RA56DT79K1KGG05M9GNFMA",
+  chaos_space_marines: "01K72168ZET9R8KERTFA1SNPQN",
+  death_guard: "01K14W7819DZWB0BZMYKFEK80E",
+  emperors_children: "01KAZVJD75HDS7KCD1HRN2Y999",
+  thousand_sons: "01KDHK3GNTVBAFFX1M06RVHHN1",
+  world_eaters: "01K1TQPJK2X8FTQRCQ7VATNZJV",
+  aeldari: "01KAKD17DXH3FPGJATWP79877Y",
+  drukhari: "01KV1WHNPEV4TVVBHMGATYJSNZ",
+  genestealer_cults: "01KC1GM5J11EJYBDA714SYJT5Y",
   leagues_of_votann: "01KQCZZKSEDRRQDTM2TZ241WJ3",
   necrons: "01K2Y7PN4N7X0PSD65CE3T534T",
   orks: "01KV68F7J3C6XGDZXYGXFMKZ5M",
-  space_marines: "01KBNY9118455676VGTFPCBHJ9",
-  space_wolves: "01K5RZQKB2X3J9S2FKP04X6X2M",
   tau_empire: "01KP1PYW9KZG2VW52CS4W5W955",
-  thousand_sons: "01KDHK3GNTVBAFFX1M06RVHHN1",
   tyranids: "01KMTDCXZS66T4CB5NKN7FJWRV",
-  unaligned_forces: "01KBKAKHFRJ1EMHR1Z4BTYVMNT",
-  world_eaters: "01K1TQPJK2X8FTQRCQ7VATNZJV",
 };
 
 export const rulesFactionId = (slug: RulesFactionSeedSlug): string => {
@@ -109,10 +117,6 @@ type RulesFactionSourceSeedSlug =
   | "adeptus_mechanicus__munitorum_field_manual_10e_v4_1"
   | "adeptus_mechanicus__munitorum_field_manual_10e_v4_2"
   | "adeptus_mechanicus__munitorum_field_manual_10e_v4_3"
-  | "adeptus_titanicus__faction_pack_adeptus_titanicus_forge_world_10e_v1_0"
-  | "adeptus_titanicus__munitorum_field_manual_10e_v4_1"
-  | "adeptus_titanicus__munitorum_field_manual_10e_v4_2"
-  | "adeptus_titanicus__munitorum_field_manual_10e_v4_3"
   | "aeldari__balance_dataslate_10e_v3_4"
   | "aeldari__codex_aeldari_10e"
   | "aeldari__expansion_boarding_actions_10e_v1_1"
@@ -216,6 +220,8 @@ type RulesFactionSourceSeedSlug =
   | "imperial_agents__munitorum_field_manual_10e_v4_1"
   | "imperial_agents__munitorum_field_manual_10e_v4_2"
   | "imperial_agents__munitorum_field_manual_10e_v4_3"
+  | "imperial_fists__codex_space_marines_10e"
+  | "imperial_fists__faction_pack_space_marines_10e_v1_8"
   | "imperial_knights__balance_dataslate_10e_v3_4"
   | "imperial_knights__codex_imperial_knights_10e"
   | "imperial_knights__faction_pack_adeptus_mechanicus_10e_v1_1"
@@ -223,6 +229,8 @@ type RulesFactionSourceSeedSlug =
   | "imperial_knights__munitorum_field_manual_10e_v4_1"
   | "imperial_knights__munitorum_field_manual_10e_v4_2"
   | "imperial_knights__munitorum_field_manual_10e_v4_3"
+  | "iron_hands__codex_space_marines_10e"
+  | "iron_hands__faction_pack_space_marines_10e_v1_8"
   | "leagues_of_votann__balance_dataslate_10e_v3_4"
   | "leagues_of_votann__codex_leagues_of_votann_10e"
   | "leagues_of_votann__expansion_boarding_actions_10e_v1_1"
@@ -247,6 +255,10 @@ type RulesFactionSourceSeedSlug =
   | "orks__munitorum_field_manual_10e_v4_1"
   | "orks__munitorum_field_manual_10e_v4_2"
   | "orks__munitorum_field_manual_10e_v4_3"
+  | "raven_guard__codex_space_marines_10e"
+  | "raven_guard__faction_pack_space_marines_10e_v1_8"
+  | "salamanders__codex_space_marines_10e"
+  | "salamanders__faction_pack_space_marines_10e_v1_8"
   | "space_marines__balance_dataslate_10e_v3_4"
   | "space_marines__boxset_warhammer_40_000_dawn_of_war_onslaught_10e"
   | "space_marines__codex_space_marines_10e"
@@ -255,7 +267,6 @@ type RulesFactionSourceSeedSlug =
   | "space_marines__faction_pack_space_marines_10e_v1_5"
   | "space_marines__faction_pack_space_marines_10e_v1_7"
   | "space_marines__faction_pack_space_marines_10e_v1_8"
-  | "space_marines__legends_ultramarines_10e"
   | "space_marines__munitorum_field_manual_10e_v4_1"
   | "space_marines__munitorum_field_manual_10e_v4_2"
   | "space_marines__munitorum_field_manual_10e_v4_3"
@@ -285,8 +296,11 @@ type RulesFactionSourceSeedSlug =
   | "tyranids__munitorum_field_manual_10e_v4_1"
   | "tyranids__munitorum_field_manual_10e_v4_2"
   | "tyranids__munitorum_field_manual_10e_v4_3"
-  | "unaligned_forces__legends_field_manual_10e_v2_1"
-  | "unaligned_forces__legends_unaligned_forces_10e"
+  | "ultramarines__codex_space_marines_10e"
+  | "ultramarines__faction_pack_space_marines_10e_v1_8"
+  | "ultramarines__legends_ultramarines_10e"
+  | "white_scars__codex_space_marines_10e"
+  | "white_scars__faction_pack_space_marines_10e_v1_8"
   | "world_eaters__balance_dataslate_10e_v3_4"
   | "world_eaters__expansion_boarding_actions_10e_v1_1"
   | "world_eaters__faction_pack_world_eaters_10e_v1_1"
@@ -295,313 +309,220 @@ type RulesFactionSourceSeedSlug =
   | "world_eaters__munitorum_field_manual_10e_v4_3";
 
 const rulesFactionSourceSeedIds: Record<RulesFactionSourceSeedSlug, string> = {
-  adepta_sororitas__balance_dataslate_10e_v3_4: "01K35Q4QR6SP9T783YNJE87RKM",
-  adepta_sororitas__codex_adepta_sororitas_10e: "01K90EX75YHV7YAYKHCH144EP6",
-  adepta_sororitas__expansion_boarding_actions_10e_v1_1:
-    "01KDDKCASBGV3FREEPM220XE8H",
-  adepta_sororitas__faction_pack_adepta_sororitas_10e_v1_2:
-    "01KY5X0SFG52E765DED8KHX0HY",
-  adepta_sororitas__faction_pack_adepta_sororitas_10e_v1_3:
-    "01KG4F56ND4KD1J6ZYM2875435",
-  adepta_sororitas__munitorum_field_manual_10e_v4_1:
-    "01K5FHABTPQTBQBCP6ETCYTV5Y",
-  adepta_sororitas__munitorum_field_manual_10e_v4_2:
-    "01KS9YRD31M958HNPCJHBG6EMH",
-  adepta_sororitas__munitorum_field_manual_10e_v4_3:
-    "01KHEYR285EMXE1WSXR20AEH8S",
-  adeptus_custodes__balance_dataslate_10e_v3_4: "01KFFJEHZ4EJ4S70QNSQ7MMKM3",
-  adeptus_custodes__codex_adeptus_custodes_10e: "01KB0J1N4GNK20CGX769JGVGYC",
-  adeptus_custodes__expansion_boarding_actions_10e_v1_1:
-    "01K0KES31DFXB6RDWX1H86B041",
-  adeptus_custodes__faction_pack_adeptus_custodes_10e_v1_0:
-    "01KQCBWGM5DM1DCXM9J9Z737XW",
-  adeptus_custodes__munitorum_field_manual_10e_v4_1:
-    "01KM8P46WX9D6K8WFGCAT07Q2J",
-  adeptus_custodes__munitorum_field_manual_10e_v4_2:
-    "01KW9XEPWPDH4K5YQJWMC8V99R",
-  adeptus_custodes__munitorum_field_manual_10e_v4_3:
-    "01KVT13FF9KDS15YG1A96RC6NX",
-  adeptus_mechanicus__balance_dataslate_10e_v3_4: "01KGY7WE6D71JPKKSCWE3SV7WR",
-  adeptus_mechanicus__codex_adeptus_mechanicus_10e:
-    "01KWGP29KA47QJHMMXN04H9XJV",
-  adeptus_mechanicus__expansion_boarding_actions_10e_v1_1:
-    "01KDQWVTGEK6W1WWRQZV3AV6JE",
-  adeptus_mechanicus__faction_pack_adeptus_mechanicus_10e_v1_1:
-    "01KN30WWD1XRYVVEBG6KNP7EBA",
-  adeptus_mechanicus__munitorum_field_manual_10e_v4_1:
-    "01KR1CDR77KMA5B90H6QB5H5EX",
-  adeptus_mechanicus__munitorum_field_manual_10e_v4_2:
-    "01KBBFX266G3H77CSJ873PKV7W",
-  adeptus_mechanicus__munitorum_field_manual_10e_v4_3:
-    "01KE0Z866ZCVZYNSCJ5MH8X4EK",
-  adeptus_titanicus__faction_pack_adeptus_titanicus_forge_world_10e_v1_0:
-    "01K434EGH119ZM2BJHAA4TTSRZ",
-  adeptus_titanicus__munitorum_field_manual_10e_v4_1:
-    "01KDWRNRNBF2HGMCVDJMYZZGZ8",
-  adeptus_titanicus__munitorum_field_manual_10e_v4_2:
-    "01K3EPYMVBWX47C6XR59VFVR99",
-  adeptus_titanicus__munitorum_field_manual_10e_v4_3:
-    "01KFWFH2J8ZSY5H50A5M709VSF",
-  aeldari__balance_dataslate_10e_v3_4: "01K91Q9NBA0TA2QKTAT2HEW861",
-  aeldari__codex_aeldari_10e: "01KR8WXCZYESQZ9NR0NDQKQCMK",
-  aeldari__expansion_boarding_actions_10e_v1_1: "01K92VW1N6PH5PBSVNNNNP6R5A",
-  aeldari__faction_pack_aeldari_10e_v1_2: "01KP5HZJ4Z9RMG5HV2C2T7XW1Y",
-  aeldari__munitorum_field_manual_10e_v4_1: "01K98Y0J7TY79448CHGSNCJ8CX",
-  aeldari__munitorum_field_manual_10e_v4_2: "01KTNV1EWBYWYFME7E2KA5146M",
-  aeldari__munitorum_field_manual_10e_v4_3: "01KAYZY06BEY7XS7D1VWFTFR5X",
-  astra_militarum__balance_dataslate_10e_v3_4: "01K918Y1JW06ZQ43ARHZK9PFGR",
-  astra_militarum__codex_astra_militarum_10e: "01KYNMZB8NG514KYZB6ES0CTAG",
-  astra_militarum__expansion_boarding_actions_10e_v1_1:
-    "01KQY6RJ0WV3Y4MBNTJRVW6PAS",
-  astra_militarum__expansion_death_korps_of_krieg_10e:
-    "01KGXV1K96GN9JP6TH7FBEGSHR",
-  astra_militarum__faction_pack_astra_militarum_10e_v1_4:
-    "01K52ZMFCPKQQKNK5FQEKCBTAZ",
-  astra_militarum__faction_pack_astra_militarum_10e_v1_5:
-    "01KHSJ7NK56E0K2RZYXYQRK8B6",
-  astra_militarum__faction_pack_astra_militarum_10e_v1_6:
-    "01KQNCGVS4JW44YQMY54MRRMYC",
-  astra_militarum__munitorum_field_manual_10e_v4_1:
-    "01KYDVQSPWSZV7T893JCR6TR8W",
-  astra_militarum__munitorum_field_manual_10e_v4_2:
-    "01KSSP884EJ5WBKA8BSK0HJCHV",
-  astra_militarum__munitorum_field_manual_10e_v4_3:
-    "01KK7H2V1KEBH9DJJZN8AE4JGQ",
-  black_templars__codex_space_marines_10e: "01KDF8V5ES4N6YBS1DNGNKWD13",
-  black_templars__codex_supplement_black_templars_10e:
-    "01KNQHHQ1QDY9N1YMVSGPVGE3B",
-  black_templars__faction_pack_black_templars_10e_v1_1:
-    "01KKRGDED77400PW63JB6DZ3DN",
-  blood_angels__codex_space_marines_10e: "01KWYDZSRKHPKJDQHMG74N2BSY",
-  blood_angels__codex_supplement_blood_angels_10e: "01KSTTRJXSPH3KJBZT0PKV6KYF",
-  blood_angels__faction_pack_blood_angels_10e_v1_1:
-    "01KCJ99KVBAERK804KMP0BX3VR",
-  chaos_daemons__balance_dataslate_10e_v3_4: "01KNWEXMNHD6C8D5JY7CZP3R7Q",
-  chaos_daemons__expansion_boarding_actions_10e_v1_1:
-    "01KT87C61AHNZ0CEEAKYFYKVDX",
-  chaos_daemons__faction_pack_chaos_daemons_10e_v1_2:
-    "01KHWJ9VDGXDH056W2RE9B6EE5",
-  chaos_daemons__faction_pack_chaos_space_marines_10e_v1_5:
-    "01KRN4RZJRJD32JPG1MKCXQFS9",
-  chaos_daemons__faction_pack_chaos_space_marines_10e_v1_6:
-    "01KZQ3K5CQAD7651EBC54YM1VB",
-  chaos_daemons__munitorum_field_manual_10e_v4_1: "01KFZTRY1989G7RFM49HAYFF1Q",
-  chaos_daemons__munitorum_field_manual_10e_v4_2: "01KZ51VHS4QYYFCB15HVS1VGK4",
-  chaos_daemons__munitorum_field_manual_10e_v4_3: "01KXJ8SAW0B84H8J9TW744NJQ4",
-  chaos_knights__balance_dataslate_10e_v3_4: "01KX3XTE7EP6XQ2PEJHXYBE9Z3",
-  chaos_knights__codex_chaos_knights_10e: "01KTRBN4QAGDDF5ZKW55PPC488",
-  chaos_knights__faction_pack_chaos_knights_10e_v1_1:
-    "01KQG4JK5M2A5F40P69BVEWM0K",
-  chaos_knights__faction_pack_chaos_space_marines_10e_v1_5:
-    "01KFRVC55A4RVYKBT6KKENAAME",
-  chaos_knights__faction_pack_chaos_space_marines_10e_v1_6:
-    "01KZ7X27N91A6D8T3H0M47CP6C",
-  chaos_knights__munitorum_field_manual_10e_v4_1: "01KS77ZCBFHGNP7TRWZ976G9QJ",
-  chaos_knights__munitorum_field_manual_10e_v4_2: "01KZ54RCH14D2FHV7HAWQH13M8",
-  chaos_knights__munitorum_field_manual_10e_v4_3: "01KKHDQ40739TSEDKF7SKMVXQC",
-  chaos_space_marines__balance_dataslate_10e_v3_4: "01KWN1PF77Y1SZRP580YKYK30J",
-  chaos_space_marines__codex_chaos_space_marines_10e:
-    "01KNNK8880QM3S5Q63T4FVXE2Z",
-  chaos_space_marines__expansion_boarding_actions_10e_v1_1:
-    "01KZSTYBG5V3W13QPMDWPVTHF5",
-  chaos_space_marines__faction_pack_chaos_space_marines_10e_v1_5:
-    "01K73JKWDE0T1FTXBZVMJZTANW",
-  chaos_space_marines__faction_pack_chaos_space_marines_10e_v1_6:
-    "01K4X7TWXMTJY6SG28NX0RYKWG",
-  chaos_space_marines__faction_pack_death_guard_10e_v1_1:
-    "01KTRTEWRHZ650R8C49VRKS32S",
-  chaos_space_marines__faction_pack_emperors_children_10e_v1_3:
-    "01KHSS2PR9YV9AHKYA5GE0SVTK",
-  chaos_space_marines__faction_pack_thousand_sons_10e_v1_1:
-    "01K4SMZBQQF10J6M293N3HNKTX",
-  chaos_space_marines__faction_pack_world_eaters_10e_v1_1:
-    "01K78P9XWCXJ95ZVPB63ZFQM91",
-  chaos_space_marines__munitorum_field_manual_10e_v4_1:
-    "01KTDJR0Q3RX1XXYZPJB34BJE8",
-  chaos_space_marines__munitorum_field_manual_10e_v4_2:
-    "01KR7AQZBMA92MVVNC5H5JP5W5",
-  chaos_space_marines__munitorum_field_manual_10e_v4_3:
-    "01KB5Y99N2JV9JVYECD1J6RBX0",
-  dark_angels__codex_space_marines_10e: "01KRS2XVFZYTKD1KG815FP08M0",
-  dark_angels__codex_supplement_dark_angels_10e: "01KDP7KMSXNWPWH0RQCMFJYB0E",
-  dark_angels__faction_pack_dark_angels_10e_v1_0: "01K40CYD8ZZC50757JPP3V5H0T",
-  death_guard__balance_dataslate_10e_v3_4: "01KTHK4PT2XP4DAZ3XC76SCSS0",
-  death_guard__expansion_boarding_actions_10e_v1_1:
-    "01KNVVWEXT197WMVBTW5PTT4C4",
-  death_guard__faction_pack_death_guard_10e_v1_1: "01K55ZF7E1GRY9KY1DK9BXWK77",
-  death_guard__munitorum_field_manual_10e_v4_1: "01K4YB51CPCDRPRBZ9TAPABDDS",
-  death_guard__munitorum_field_manual_10e_v4_2: "01KM8H0AFQPMG85E6KX4TEZB2D",
-  death_guard__munitorum_field_manual_10e_v4_3: "01KYXYSGYVPP3TNZJBB30EARTE",
-  deathwatch__faction_pack_deathwatch_10e_v1_2: "01KH7VP73VRNCT6G9GGYV7PJ92",
-  drukhari__balance_dataslate_10e_v3_4: "01KSZFJ59VKYPC592RQJGTVC3F",
-  drukhari__codex_drukhari_10e: "01K4NERRPFJ5J7VQS4TF5THAFP",
-  drukhari__expansion_boarding_actions_10e_v1_1: "01KC76Z4KM7MNPKDD1G7GNWCV6",
-  drukhari__faction_pack_aeldari_10e_v1_2: "01KG23H0Q83ZDRBEW82M53JDQQ",
-  drukhari__faction_pack_drukhari_10e_v1_1: "01KT0PFK2VG9NJ1S7SG58W17SR",
-  drukhari__munitorum_field_manual_10e_v4_1: "01K4RKZHKTZ82DYP4GXA9E7FSB",
-  drukhari__munitorum_field_manual_10e_v4_2: "01KXNCCKGTQ0M7RWEMFDZ22BRS",
-  drukhari__munitorum_field_manual_10e_v4_3: "01KSZPZPZNF2HGAFQZCM9QDGRE",
-  emperors_children__balance_dataslate_10e_v3_4: "01KJGKDEBJ8TK7QRV9Q3PZ7KC5",
-  emperors_children__codex_emperors_children_10e: "01K31C6QQK4DRJCGRP7BJP8NN4",
-  emperors_children__faction_pack_emperors_children_10e_v1_3:
-    "01KXVEM1NE853K6BQF46HDW8B1",
-  emperors_children__munitorum_field_manual_10e_v4_1:
-    "01K91S3BD59D02F6SYWZZWBK51",
-  emperors_children__munitorum_field_manual_10e_v4_2:
-    "01KG7VMYTBX1PKD6M3QWN887W1",
-  emperors_children__munitorum_field_manual_10e_v4_3:
-    "01KBFC18K3M8DFNR9N7RCNCCPN",
-  emperors_children__white_dwarf_boarding_actions_sublime_strike_10e:
-    "01K60YMQBDCSQ0Y3KFCAEY1HB1",
-  genestealer_cults__balance_dataslate_10e_v3_4: "01KNGX7569MKMTDQMKM2VARCSW",
-  genestealer_cults__codex_genestealer_cults_10e: "01KE6D7BVW0YM6GA4GAJPY0TFJ",
-  genestealer_cults__expansion_boarding_actions_10e_v1_1:
-    "01K4NQHQFBSYA0K4SVV6Z9MTR3",
-  genestealer_cults__faction_pack_astra_militarum_10e_v1_4:
-    "01KP1MASF3TFX8SM7VBTMEY535",
-  genestealer_cults__faction_pack_astra_militarum_10e_v1_5:
-    "01KZGZ29NEGJS9V2RF419FTVZH",
-  genestealer_cults__faction_pack_astra_militarum_10e_v1_6:
-    "01KFDZCEHKDKFT79GP5PSAGRJA",
-  genestealer_cults__faction_pack_genestealer_cults_10e_v1_0:
-    "01KWW358BXSY0JC8B0F5ZPGRTY",
-  genestealer_cults__faction_pack_tyranids_10e_v1_3:
-    "01K07DJH1BQXFNPZCPZJVCGT4T",
-  genestealer_cults__faction_pack_tyranids_10e_v1_4:
-    "01KDDZERNXM0KXET6Q3NRNRS6T",
-  genestealer_cults__munitorum_field_manual_10e_v4_1:
-    "01KSGDGBZG22P1JKRKP9WTG1MH",
-  genestealer_cults__munitorum_field_manual_10e_v4_2:
-    "01KV5N7V0VZZ94TB25101TGNC1",
-  genestealer_cults__munitorum_field_manual_10e_v4_3:
-    "01KRCYNMDKW2SGY2QGQJ2W1V2G",
-  grey_knights__balance_dataslate_10e_v3_4: "01K4G3NM6WF3C1DTT3FAPDHEWE",
-  grey_knights__codex_grey_knights_10e: "01KSXJ683JSNZ7EXVJ51X8H6S5",
-  grey_knights__expansion_boarding_actions_10e_v1_1:
-    "01KJE8NKHFQW23HWHC7DZWFGJH",
-  grey_knights__faction_pack_grey_knights_10e_v1_0:
-    "01KVMBHJ8ZPKWB2QBNZJT5KFV8",
-  grey_knights__munitorum_field_manual_10e_v4_1: "01KVGQ9JJ4YVTWX22BMD87QP8G",
-  grey_knights__munitorum_field_manual_10e_v4_2: "01KDXGZV7RCV88K5V3AJBZP70W",
-  grey_knights__munitorum_field_manual_10e_v4_3: "01KERZ24PXAM0BFK61BPNJDRQW",
-  imperial_agents__balance_dataslate_10e_v3_4: "01K4NW7HD7FSW6E5R7QD7XJGN6",
-  imperial_agents__codex_imperial_agents_10e: "01KS3V4BA0YY2VR15KYQXMH6RH",
-  imperial_agents__expansion_boarding_actions_10e_v1_1:
-    "01K28CJPSJTBPNZPDPBJTF1ZXY",
-  imperial_agents__faction_pack_imperial_agents_10e_v1_2:
-    "01K687JTNH6T9HHD157D4B244Q",
-  imperial_agents__faction_pack_imperial_agents_10e_v1_3:
-    "01K9WPVEPCNPY0ZC95KA53HH10",
-  imperial_agents__munitorum_field_manual_10e_v4_1:
-    "01KAKDATJ2B8SCMHVDPPRZ4ZFS",
-  imperial_agents__munitorum_field_manual_10e_v4_2:
-    "01K8DCBPCSHAWWE8FM81PMFMVY",
-  imperial_agents__munitorum_field_manual_10e_v4_3:
-    "01KYBGPCQYPSP3NHZCQXMERZH6",
-  imperial_knights__balance_dataslate_10e_v3_4: "01KFJDG44G2CMA99H758Y8ANT4",
-  imperial_knights__codex_imperial_knights_10e: "01KPC922A36X1AEVQ1Y64DFFJY",
-  imperial_knights__faction_pack_adeptus_mechanicus_10e_v1_1:
-    "01K9SKH0Q7WPV009QC4XFPA088",
-  imperial_knights__faction_pack_imperial_knights_10e_v1_2:
-    "01KWVZ2YFCEY349F09V4SXCEKD",
-  imperial_knights__munitorum_field_manual_10e_v4_1:
-    "01KRT9148BP20VW3F1JMZWVK06",
-  imperial_knights__munitorum_field_manual_10e_v4_2:
-    "01KYBEVZ0ADFHRNJD9ZP0H3MWH",
-  imperial_knights__munitorum_field_manual_10e_v4_3:
-    "01K95PC61330BA6QCJ7YS531WE",
-  leagues_of_votann__balance_dataslate_10e_v3_4: "01KW3WQF7ZH4PPHEPDRK0PE62C",
-  leagues_of_votann__codex_leagues_of_votann_10e: "01KH5BV8NC6SFVXHZ3N6AZEK84",
-  leagues_of_votann__expansion_boarding_actions_10e_v1_1:
-    "01K203Y7C8B1AWJAN2PCGNDJFZ",
-  leagues_of_votann__faction_pack_leagues_of_votann_10e_v1_3:
-    "01K694QQFKF8X7SFX04RMY0P8S",
-  leagues_of_votann__munitorum_field_manual_10e_v4_1:
-    "01KD6JY615WDYBTYBMSB7AXSVM",
-  leagues_of_votann__munitorum_field_manual_10e_v4_2:
-    "01KM6YKGVMXNJG5R1EMSHJGE7Z",
-  leagues_of_votann__munitorum_field_manual_10e_v4_3:
-    "01KHKGKBY4N18SGF0C49V8ZE44",
-  necrons__balance_dataslate_10e_v3_4: "01K57000DWMJKTVDX4K1N8WDRE",
-  necrons__codex_necrons_10e: "01KFE7K0N0XH219EGGC8X2B3Y2",
-  necrons__expansion_500_worlds_dread_incursions_10e:
-    "01KDV135ZR3B15DVDMPMH9PBQK",
-  necrons__expansion_boarding_actions_10e_v1_1: "01KYM6BD6R4FH2GSFNKYAYEA89",
-  necrons__faction_pack_necrons_10e_v1_3: "01KQR0DWX8Y5CXRQHGYM1JR1C9",
-  necrons__munitorum_field_manual_10e_v4_1: "01KQYN2R7MRSHATW9934Y8CD9B",
-  necrons__munitorum_field_manual_10e_v4_2: "01KWWHKQGE4CMHQ6M2X9TRE7A9",
-  necrons__munitorum_field_manual_10e_v4_3: "01KCDBVT4QAMM557V73XXYE9A5",
-  orks__balance_dataslate_10e_v3_4: "01K82X2PTHJP1KAA75TMPGF0P2",
-  orks__codex_orks_10e: "01KW5M9CG55A4PD070PHGWH3S0",
-  orks__expansion_boarding_actions_10e_v1_1: "01KB9J7HQFT4RQ6J0BPWX0YPVT",
-  orks__faction_pack_orks_10e_v1_2: "01KP53FKRFY20SAZBK3PQF02AN",
-  orks__faction_pack_orks_10e_v1_3: "01K4D2HZ2AZZ18DVXBCTG63R2M",
-  orks__legends_da_red_gobbos_tinboy_warhammer_legends_10e:
-    "01KZXN5CYM2AY8EMVHV78XDPHY",
-  orks__munitorum_field_manual_10e_v4_1: "01K0304D0KHNE3AAAN9Q1YZV4E",
-  orks__munitorum_field_manual_10e_v4_2: "01K4QQEV3E642GFW0GD7K6X03Q",
-  orks__munitorum_field_manual_10e_v4_3: "01KBMRWH2YTJMSJ1KRH49FNZAR",
-  space_marines__balance_dataslate_10e_v3_4: "01KDA74Y65BNCDSE982DDN07KA",
-  space_marines__boxset_warhammer_40_000_dawn_of_war_onslaught_10e:
-    "01KKV1ZG05EA99DM8Z1FNFVGW0",
-  space_marines__codex_space_marines_10e: "01KQZVJRJF46TFBMAET7BDHCY4",
-  space_marines__expansion_500_worlds_dread_incursions_10e:
-    "01KTM74R0K31HJMQ2MVEX34J2S",
-  space_marines__expansion_boarding_actions_10e_v1_1:
-    "01KBN0H4FP32CET49NVDCM4Z68",
-  space_marines__faction_pack_space_marines_10e_v1_5:
-    "01KG7SWYY6Z49XJF535S48BXNR",
-  space_marines__faction_pack_space_marines_10e_v1_7:
-    "01KQFR8PHNYHTV8MHJR2S87C0S",
-  space_marines__faction_pack_space_marines_10e_v1_8:
-    "01KPATE71VH6BN9EYY3NTFY33D",
-  space_marines__legends_ultramarines_10e: "01KWDB5TNR23TSBS5WA931QPQ8",
-  space_marines__munitorum_field_manual_10e_v4_1: "01KR466J138PZ3H5YDGD69JV1Q",
-  space_marines__munitorum_field_manual_10e_v4_2: "01KMJP0XX3MY39S3WYS51PGXDN",
-  space_marines__munitorum_field_manual_10e_v4_3: "01KBS887Z6PQGC1PV9JH4W7P3J",
-  space_wolves__codex_space_marines_10e: "01KFVN45J1KKZ6R5CE2MPFK9JW",
-  space_wolves__codex_supplement_space_wolves_10e: "01KC0DVMXWJSRJ1QXTVHRRMQGF",
-  space_wolves__faction_pack_space_wolves_10e_v1_2:
-    "01KN31N39ED61WJ7FJ01A55Q54",
-  tau_empire__balance_dataslate_10e_v3_4: "01KE7Y53DRSKJXKR790KX15MER",
-  tau_empire__codex_tau_empire_10e: "01K2GQNB1Z094G962C10MHKW00",
-  tau_empire__expansion_boarding_actions_10e_v1_1: "01KCD43XGJBYZXVAWNBZN05FJ2",
-  tau_empire__faction_pack_tau_empire_10e_v1_2: "01KW5TGY2TQD9Q4WC5K62HDB4E",
-  tau_empire__munitorum_field_manual_10e_v4_1: "01KYYX8035K290Y41B3HYKECRC",
-  tau_empire__munitorum_field_manual_10e_v4_2: "01K78R55X72HACM0ATXS2DYH4X",
-  tau_empire__munitorum_field_manual_10e_v4_3: "01K8WRP6Y8DH3R5DNBRF7BGXS9",
-  thousand_sons__balance_dataslate_10e_v3_4: "01KA7WEVZEYCYG5JCA0T4MYEEM",
-  thousand_sons__codex_thousand_sons_10e: "01KV41QYCTDXBMTHWT4Q1ZDNYG",
-  thousand_sons__expansion_boarding_actions_10e_v1_1:
-    "01K562F4K3JSK79A9V56B659GY",
-  thousand_sons__faction_pack_thousand_sons_10e_v1_1:
-    "01KF3VXAWES5FN4EP209X6Q5WJ",
-  thousand_sons__munitorum_field_manual_10e_v4_1: "01KG1SQCJVZ2087A5NF052KR5A",
-  thousand_sons__munitorum_field_manual_10e_v4_2: "01K0769J0EGTNZG41DZQ1KD24B",
-  thousand_sons__munitorum_field_manual_10e_v4_3: "01KE4621NJNWJ7W2STRJRBPPXQ",
-  tyranids__balance_dataslate_10e_v3_4: "01K3XRNP9WV8EKZ0ATXQ1AXAY6",
-  tyranids__codex_tyranids_10e: "01KY4Q0KC022RW4MG85MH4ADR5",
-  tyranids__expansion_boarding_actions_10e_v1_1: "01KM45JJ2F5NRQGEXKSZ3P2EMF",
-  tyranids__faction_pack_tyranids_10e_v1_3: "01K2FEXR2S0N6JZW55FRRD4CYQ",
-  tyranids__faction_pack_tyranids_10e_v1_4: "01K99FM9JWYA2J4BV8XSNFK7XS",
-  tyranids__legends_tyranids_10e: "01KM4BMPQ3K42BN02AGTFYQPXG",
-  tyranids__munitorum_field_manual_10e_v4_1: "01KKKH88F84T2REDN1AQKX7DPW",
-  tyranids__munitorum_field_manual_10e_v4_2: "01KKN3ECSJGZ28JQ8DNMP79ECZ",
-  tyranids__munitorum_field_manual_10e_v4_3: "01KH1X8DQ5PEP85T1G7YC3G7SZ",
-  unaligned_forces__legends_field_manual_10e_v2_1: "01KTNCE4RKY5HPAZT1R0MK33YH",
-  unaligned_forces__legends_unaligned_forces_10e: "01K22KA62JWERCA6X5ZMNEWZ50",
-  world_eaters__balance_dataslate_10e_v3_4: "01KY2YG7VNNKV38TJ32MTGP6YK",
-  world_eaters__expansion_boarding_actions_10e_v1_1:
-    "01KKPTVYX0W1RD2SPNFQWT6CE8",
-  world_eaters__faction_pack_world_eaters_10e_v1_1:
-    "01KAVJWWDRHQRJTE23Q8EEC3JG",
-  world_eaters__munitorum_field_manual_10e_v4_1: "01KRPACEXW8F2E7XA4PBZHVD77",
-  world_eaters__munitorum_field_manual_10e_v4_2: "01K0QG1HYB30N7S8JGMMB8VT2Y",
-  world_eaters__munitorum_field_manual_10e_v4_3: "01K6GBMB5M83ZNNG1GBFW8HQJ2",
+  "adepta_sororitas__balance_dataslate_10e_v3_4": "01K35Q4QR6SP9T783YNJE87RKM",
+  "adepta_sororitas__codex_adepta_sororitas_10e": "01K90EX75YHV7YAYKHCH144EP6",
+  "adepta_sororitas__expansion_boarding_actions_10e_v1_1": "01KDDKCASBGV3FREEPM220XE8H",
+  "adepta_sororitas__faction_pack_adepta_sororitas_10e_v1_2": "01KY5X0SFG52E765DED8KHX0HY",
+  "adepta_sororitas__faction_pack_adepta_sororitas_10e_v1_3": "01KG4F56ND4KD1J6ZYM2875435",
+  "adepta_sororitas__munitorum_field_manual_10e_v4_1": "01K5FHABTPQTBQBCP6ETCYTV5Y",
+  "adepta_sororitas__munitorum_field_manual_10e_v4_2": "01KS9YRD31M958HNPCJHBG6EMH",
+  "adepta_sororitas__munitorum_field_manual_10e_v4_3": "01KHEYR285EMXE1WSXR20AEH8S",
+  "adeptus_custodes__balance_dataslate_10e_v3_4": "01KFFJEHZ4EJ4S70QNSQ7MMKM3",
+  "adeptus_custodes__codex_adeptus_custodes_10e": "01KB0J1N4GNK20CGX769JGVGYC",
+  "adeptus_custodes__expansion_boarding_actions_10e_v1_1": "01K0KES31DFXB6RDWX1H86B041",
+  "adeptus_custodes__faction_pack_adeptus_custodes_10e_v1_0": "01KQCBWGM5DM1DCXM9J9Z737XW",
+  "adeptus_custodes__munitorum_field_manual_10e_v4_1": "01KM8P46WX9D6K8WFGCAT07Q2J",
+  "adeptus_custodes__munitorum_field_manual_10e_v4_2": "01KW9XEPWPDH4K5YQJWMC8V99R",
+  "adeptus_custodes__munitorum_field_manual_10e_v4_3": "01KVT13FF9KDS15YG1A96RC6NX",
+  "adeptus_mechanicus__balance_dataslate_10e_v3_4": "01KGY7WE6D71JPKKSCWE3SV7WR",
+  "adeptus_mechanicus__codex_adeptus_mechanicus_10e": "01KWGP29KA47QJHMMXN04H9XJV",
+  "adeptus_mechanicus__expansion_boarding_actions_10e_v1_1": "01KDQWVTGEK6W1WWRQZV3AV6JE",
+  "adeptus_mechanicus__faction_pack_adeptus_mechanicus_10e_v1_1": "01KN30WWD1XRYVVEBG6KNP7EBA",
+  "adeptus_mechanicus__munitorum_field_manual_10e_v4_1": "01KR1CDR77KMA5B90H6QB5H5EX",
+  "adeptus_mechanicus__munitorum_field_manual_10e_v4_2": "01KBBFX266G3H77CSJ873PKV7W",
+  "adeptus_mechanicus__munitorum_field_manual_10e_v4_3": "01KE0Z866ZCVZYNSCJ5MH8X4EK",
+  "aeldari__balance_dataslate_10e_v3_4": "01K91Q9NBA0TA2QKTAT2HEW861",
+  "aeldari__codex_aeldari_10e": "01KR8WXCZYESQZ9NR0NDQKQCMK",
+  "aeldari__expansion_boarding_actions_10e_v1_1": "01K92VW1N6PH5PBSVNNNNP6R5A",
+  "aeldari__faction_pack_aeldari_10e_v1_2": "01KP5HZJ4Z9RMG5HV2C2T7XW1Y",
+  "aeldari__munitorum_field_manual_10e_v4_1": "01K98Y0J7TY79448CHGSNCJ8CX",
+  "aeldari__munitorum_field_manual_10e_v4_2": "01KTNV1EWBYWYFME7E2KA5146M",
+  "aeldari__munitorum_field_manual_10e_v4_3": "01KAYZY06BEY7XS7D1VWFTFR5X",
+  "astra_militarum__balance_dataslate_10e_v3_4": "01K918Y1JW06ZQ43ARHZK9PFGR",
+  "astra_militarum__codex_astra_militarum_10e": "01KYNMZB8NG514KYZB6ES0CTAG",
+  "astra_militarum__expansion_boarding_actions_10e_v1_1": "01KQY6RJ0WV3Y4MBNTJRVW6PAS",
+  "astra_militarum__expansion_death_korps_of_krieg_10e": "01KGXV1K96GN9JP6TH7FBEGSHR",
+  "astra_militarum__faction_pack_astra_militarum_10e_v1_4": "01K52ZMFCPKQQKNK5FQEKCBTAZ",
+  "astra_militarum__faction_pack_astra_militarum_10e_v1_5": "01KHSJ7NK56E0K2RZYXYQRK8B6",
+  "astra_militarum__faction_pack_astra_militarum_10e_v1_6": "01KQNCGVS4JW44YQMY54MRRMYC",
+  "astra_militarum__munitorum_field_manual_10e_v4_1": "01KYDVQSPWSZV7T893JCR6TR8W",
+  "astra_militarum__munitorum_field_manual_10e_v4_2": "01KSSP884EJ5WBKA8BSK0HJCHV",
+  "astra_militarum__munitorum_field_manual_10e_v4_3": "01KK7H2V1KEBH9DJJZN8AE4JGQ",
+  "black_templars__codex_space_marines_10e": "01KDF8V5ES4N6YBS1DNGNKWD13",
+  "black_templars__codex_supplement_black_templars_10e": "01KNQHHQ1QDY9N1YMVSGPVGE3B",
+  "black_templars__faction_pack_black_templars_10e_v1_1": "01KKRGDED77400PW63JB6DZ3DN",
+  "blood_angels__codex_space_marines_10e": "01KWYDZSRKHPKJDQHMG74N2BSY",
+  "blood_angels__codex_supplement_blood_angels_10e": "01KSTTRJXSPH3KJBZT0PKV6KYF",
+  "blood_angels__faction_pack_blood_angels_10e_v1_1": "01KCJ99KVBAERK804KMP0BX3VR",
+  "chaos_daemons__balance_dataslate_10e_v3_4": "01KNWEXMNHD6C8D5JY7CZP3R7Q",
+  "chaos_daemons__expansion_boarding_actions_10e_v1_1": "01KT87C61AHNZ0CEEAKYFYKVDX",
+  "chaos_daemons__faction_pack_chaos_daemons_10e_v1_2": "01KHWJ9VDGXDH056W2RE9B6EE5",
+  "chaos_daemons__faction_pack_chaos_space_marines_10e_v1_5": "01KRN4RZJRJD32JPG1MKCXQFS9",
+  "chaos_daemons__faction_pack_chaos_space_marines_10e_v1_6": "01KZQ3K5CQAD7651EBC54YM1VB",
+  "chaos_daemons__munitorum_field_manual_10e_v4_1": "01KFZTRY1989G7RFM49HAYFF1Q",
+  "chaos_daemons__munitorum_field_manual_10e_v4_2": "01KZ51VHS4QYYFCB15HVS1VGK4",
+  "chaos_daemons__munitorum_field_manual_10e_v4_3": "01KXJ8SAW0B84H8J9TW744NJQ4",
+  "chaos_knights__balance_dataslate_10e_v3_4": "01KX3XTE7EP6XQ2PEJHXYBE9Z3",
+  "chaos_knights__codex_chaos_knights_10e": "01KTRBN4QAGDDF5ZKW55PPC488",
+  "chaos_knights__faction_pack_chaos_knights_10e_v1_1": "01KQG4JK5M2A5F40P69BVEWM0K",
+  "chaos_knights__faction_pack_chaos_space_marines_10e_v1_5": "01KFRVC55A4RVYKBT6KKENAAME",
+  "chaos_knights__faction_pack_chaos_space_marines_10e_v1_6": "01KZ7X27N91A6D8T3H0M47CP6C",
+  "chaos_knights__munitorum_field_manual_10e_v4_1": "01KS77ZCBFHGNP7TRWZ976G9QJ",
+  "chaos_knights__munitorum_field_manual_10e_v4_2": "01KZ54RCH14D2FHV7HAWQH13M8",
+  "chaos_knights__munitorum_field_manual_10e_v4_3": "01KKHDQ40739TSEDKF7SKMVXQC",
+  "chaos_space_marines__balance_dataslate_10e_v3_4": "01KWN1PF77Y1SZRP580YKYK30J",
+  "chaos_space_marines__codex_chaos_space_marines_10e": "01KNNK8880QM3S5Q63T4FVXE2Z",
+  "chaos_space_marines__expansion_boarding_actions_10e_v1_1": "01KZSTYBG5V3W13QPMDWPVTHF5",
+  "chaos_space_marines__faction_pack_chaos_space_marines_10e_v1_5": "01K73JKWDE0T1FTXBZVMJZTANW",
+  "chaos_space_marines__faction_pack_chaos_space_marines_10e_v1_6": "01K4X7TWXMTJY6SG28NX0RYKWG",
+  "chaos_space_marines__faction_pack_death_guard_10e_v1_1": "01KTRTEWRHZ650R8C49VRKS32S",
+  "chaos_space_marines__faction_pack_emperors_children_10e_v1_3": "01KHSS2PR9YV9AHKYA5GE0SVTK",
+  "chaos_space_marines__faction_pack_thousand_sons_10e_v1_1": "01K4SMZBQQF10J6M293N3HNKTX",
+  "chaos_space_marines__faction_pack_world_eaters_10e_v1_1": "01K78P9XWCXJ95ZVPB63ZFQM91",
+  "chaos_space_marines__munitorum_field_manual_10e_v4_1": "01KTDJR0Q3RX1XXYZPJB34BJE8",
+  "chaos_space_marines__munitorum_field_manual_10e_v4_2": "01KR7AQZBMA92MVVNC5H5JP5W5",
+  "chaos_space_marines__munitorum_field_manual_10e_v4_3": "01KB5Y99N2JV9JVYECD1J6RBX0",
+  "dark_angels__codex_space_marines_10e": "01KRS2XVFZYTKD1KG815FP08M0",
+  "dark_angels__codex_supplement_dark_angels_10e": "01KDP7KMSXNWPWH0RQCMFJYB0E",
+  "dark_angels__faction_pack_dark_angels_10e_v1_0": "01K40CYD8ZZC50757JPP3V5H0T",
+  "death_guard__balance_dataslate_10e_v3_4": "01KTHK4PT2XP4DAZ3XC76SCSS0",
+  "death_guard__expansion_boarding_actions_10e_v1_1": "01KNVVWEXT197WMVBTW5PTT4C4",
+  "death_guard__faction_pack_death_guard_10e_v1_1": "01K55ZF7E1GRY9KY1DK9BXWK77",
+  "death_guard__munitorum_field_manual_10e_v4_1": "01K4YB51CPCDRPRBZ9TAPABDDS",
+  "death_guard__munitorum_field_manual_10e_v4_2": "01KM8H0AFQPMG85E6KX4TEZB2D",
+  "death_guard__munitorum_field_manual_10e_v4_3": "01KYXYSGYVPP3TNZJBB30EARTE",
+  "deathwatch__faction_pack_deathwatch_10e_v1_2": "01KH7VP73VRNCT6G9GGYV7PJ92",
+  "drukhari__balance_dataslate_10e_v3_4": "01KSZFJ59VKYPC592RQJGTVC3F",
+  "drukhari__codex_drukhari_10e": "01K4NERRPFJ5J7VQS4TF5THAFP",
+  "drukhari__expansion_boarding_actions_10e_v1_1": "01KC76Z4KM7MNPKDD1G7GNWCV6",
+  "drukhari__faction_pack_aeldari_10e_v1_2": "01KG23H0Q83ZDRBEW82M53JDQQ",
+  "drukhari__faction_pack_drukhari_10e_v1_1": "01KT0PFK2VG9NJ1S7SG58W17SR",
+  "drukhari__munitorum_field_manual_10e_v4_1": "01K4RKZHKTZ82DYP4GXA9E7FSB",
+  "drukhari__munitorum_field_manual_10e_v4_2": "01KXNCCKGTQ0M7RWEMFDZ22BRS",
+  "drukhari__munitorum_field_manual_10e_v4_3": "01KSZPZPZNF2HGAFQZCM9QDGRE",
+  "emperors_children__balance_dataslate_10e_v3_4": "01KJGKDEBJ8TK7QRV9Q3PZ7KC5",
+  "emperors_children__codex_emperors_children_10e": "01K31C6QQK4DRJCGRP7BJP8NN4",
+  "emperors_children__faction_pack_emperors_children_10e_v1_3": "01KXVEM1NE853K6BQF46HDW8B1",
+  "emperors_children__munitorum_field_manual_10e_v4_1": "01K91S3BD59D02F6SYWZZWBK51",
+  "emperors_children__munitorum_field_manual_10e_v4_2": "01KG7VMYTBX1PKD6M3QWN887W1",
+  "emperors_children__munitorum_field_manual_10e_v4_3": "01KBFC18K3M8DFNR9N7RCNCCPN",
+  "emperors_children__white_dwarf_boarding_actions_sublime_strike_10e": "01K60YMQBDCSQ0Y3KFCAEY1HB1",
+  "genestealer_cults__balance_dataslate_10e_v3_4": "01KNGX7569MKMTDQMKM2VARCSW",
+  "genestealer_cults__codex_genestealer_cults_10e": "01KE6D7BVW0YM6GA4GAJPY0TFJ",
+  "genestealer_cults__expansion_boarding_actions_10e_v1_1": "01K4NQHQFBSYA0K4SVV6Z9MTR3",
+  "genestealer_cults__faction_pack_astra_militarum_10e_v1_4": "01KP1MASF3TFX8SM7VBTMEY535",
+  "genestealer_cults__faction_pack_astra_militarum_10e_v1_5": "01KZGZ29NEGJS9V2RF419FTVZH",
+  "genestealer_cults__faction_pack_astra_militarum_10e_v1_6": "01KFDZCEHKDKFT79GP5PSAGRJA",
+  "genestealer_cults__faction_pack_genestealer_cults_10e_v1_0": "01KWW358BXSY0JC8B0F5ZPGRTY",
+  "genestealer_cults__faction_pack_tyranids_10e_v1_3": "01K07DJH1BQXFNPZCPZJVCGT4T",
+  "genestealer_cults__faction_pack_tyranids_10e_v1_4": "01KDDZERNXM0KXET6Q3NRNRS6T",
+  "genestealer_cults__munitorum_field_manual_10e_v4_1": "01KSGDGBZG22P1JKRKP9WTG1MH",
+  "genestealer_cults__munitorum_field_manual_10e_v4_2": "01KV5N7V0VZZ94TB25101TGNC1",
+  "genestealer_cults__munitorum_field_manual_10e_v4_3": "01KRCYNMDKW2SGY2QGQJ2W1V2G",
+  "grey_knights__balance_dataslate_10e_v3_4": "01K4G3NM6WF3C1DTT3FAPDHEWE",
+  "grey_knights__codex_grey_knights_10e": "01KSXJ683JSNZ7EXVJ51X8H6S5",
+  "grey_knights__expansion_boarding_actions_10e_v1_1": "01KJE8NKHFQW23HWHC7DZWFGJH",
+  "grey_knights__faction_pack_grey_knights_10e_v1_0": "01KVMBHJ8ZPKWB2QBNZJT5KFV8",
+  "grey_knights__munitorum_field_manual_10e_v4_1": "01KVGQ9JJ4YVTWX22BMD87QP8G",
+  "grey_knights__munitorum_field_manual_10e_v4_2": "01KDXGZV7RCV88K5V3AJBZP70W",
+  "grey_knights__munitorum_field_manual_10e_v4_3": "01KERZ24PXAM0BFK61BPNJDRQW",
+  "imperial_agents__balance_dataslate_10e_v3_4": "01K4NW7HD7FSW6E5R7QD7XJGN6",
+  "imperial_agents__codex_imperial_agents_10e": "01KS3V4BA0YY2VR15KYQXMH6RH",
+  "imperial_agents__expansion_boarding_actions_10e_v1_1": "01K28CJPSJTBPNZPDPBJTF1ZXY",
+  "imperial_agents__faction_pack_imperial_agents_10e_v1_2": "01K687JTNH6T9HHD157D4B244Q",
+  "imperial_agents__faction_pack_imperial_agents_10e_v1_3": "01K9WPVEPCNPY0ZC95KA53HH10",
+  "imperial_agents__munitorum_field_manual_10e_v4_1": "01KAKDATJ2B8SCMHVDPPRZ4ZFS",
+  "imperial_agents__munitorum_field_manual_10e_v4_2": "01K8DCBPCSHAWWE8FM81PMFMVY",
+  "imperial_agents__munitorum_field_manual_10e_v4_3": "01KYBGPCQYPSP3NHZCQXMERZH6",
+  "imperial_fists__codex_space_marines_10e": "01K8ACVY59V5537AKSR289JYC5",
+  "imperial_fists__faction_pack_space_marines_10e_v1_8": "01K7H3ZRCN4Q7H6BA51TSCRAVD",
+  "imperial_knights__balance_dataslate_10e_v3_4": "01KFJDG44G2CMA99H758Y8ANT4",
+  "imperial_knights__codex_imperial_knights_10e": "01KPC922A36X1AEVQ1Y64DFFJY",
+  "imperial_knights__faction_pack_adeptus_mechanicus_10e_v1_1": "01K9SKH0Q7WPV009QC4XFPA088",
+  "imperial_knights__faction_pack_imperial_knights_10e_v1_2": "01KWVZ2YFCEY349F09V4SXCEKD",
+  "imperial_knights__munitorum_field_manual_10e_v4_1": "01KRT9148BP20VW3F1JMZWVK06",
+  "imperial_knights__munitorum_field_manual_10e_v4_2": "01KYBEVZ0ADFHRNJD9ZP0H3MWH",
+  "imperial_knights__munitorum_field_manual_10e_v4_3": "01K95PC61330BA6QCJ7YS531WE",
+  "iron_hands__codex_space_marines_10e": "01KG47H5D1Y16D0NDVPWBNXGVV",
+  "iron_hands__faction_pack_space_marines_10e_v1_8": "01KSJ280H94KMSF1AHQXDSG2Q1",
+  "leagues_of_votann__balance_dataslate_10e_v3_4": "01KW3WQF7ZH4PPHEPDRK0PE62C",
+  "leagues_of_votann__codex_leagues_of_votann_10e": "01KH5BV8NC6SFVXHZ3N6AZEK84",
+  "leagues_of_votann__expansion_boarding_actions_10e_v1_1": "01K203Y7C8B1AWJAN2PCGNDJFZ",
+  "leagues_of_votann__faction_pack_leagues_of_votann_10e_v1_3": "01K694QQFKF8X7SFX04RMY0P8S",
+  "leagues_of_votann__munitorum_field_manual_10e_v4_1": "01KD6JY615WDYBTYBMSB7AXSVM",
+  "leagues_of_votann__munitorum_field_manual_10e_v4_2": "01KM6YKGVMXNJG5R1EMSHJGE7Z",
+  "leagues_of_votann__munitorum_field_manual_10e_v4_3": "01KHKGKBY4N18SGF0C49V8ZE44",
+  "necrons__balance_dataslate_10e_v3_4": "01K57000DWMJKTVDX4K1N8WDRE",
+  "necrons__codex_necrons_10e": "01KFE7K0N0XH219EGGC8X2B3Y2",
+  "necrons__expansion_500_worlds_dread_incursions_10e": "01KDV135ZR3B15DVDMPMH9PBQK",
+  "necrons__expansion_boarding_actions_10e_v1_1": "01KYM6BD6R4FH2GSFNKYAYEA89",
+  "necrons__faction_pack_necrons_10e_v1_3": "01KQR0DWX8Y5CXRQHGYM1JR1C9",
+  "necrons__munitorum_field_manual_10e_v4_1": "01KQYN2R7MRSHATW9934Y8CD9B",
+  "necrons__munitorum_field_manual_10e_v4_2": "01KWWHKQGE4CMHQ6M2X9TRE7A9",
+  "necrons__munitorum_field_manual_10e_v4_3": "01KCDBVT4QAMM557V73XXYE9A5",
+  "orks__balance_dataslate_10e_v3_4": "01K82X2PTHJP1KAA75TMPGF0P2",
+  "orks__codex_orks_10e": "01KW5M9CG55A4PD070PHGWH3S0",
+  "orks__expansion_boarding_actions_10e_v1_1": "01KB9J7HQFT4RQ6J0BPWX0YPVT",
+  "orks__faction_pack_orks_10e_v1_2": "01KP53FKRFY20SAZBK3PQF02AN",
+  "orks__faction_pack_orks_10e_v1_3": "01K4D2HZ2AZZ18DVXBCTG63R2M",
+  "orks__legends_da_red_gobbos_tinboy_warhammer_legends_10e": "01KZXN5CYM2AY8EMVHV78XDPHY",
+  "orks__munitorum_field_manual_10e_v4_1": "01K0304D0KHNE3AAAN9Q1YZV4E",
+  "orks__munitorum_field_manual_10e_v4_2": "01K4QQEV3E642GFW0GD7K6X03Q",
+  "orks__munitorum_field_manual_10e_v4_3": "01KBMRWH2YTJMSJ1KRH49FNZAR",
+  "raven_guard__codex_space_marines_10e": "01K0PF6E49VVVRXGVHGX8P6Z9D",
+  "raven_guard__faction_pack_space_marines_10e_v1_8": "01K87HRRREDX2RFBZJ42ADTS7H",
+  "salamanders__codex_space_marines_10e": "01KJE32FKZMKT21Y6ZXFBFMPCX",
+  "salamanders__faction_pack_space_marines_10e_v1_8": "01K027D7CSASDB94S69N9KGVBP",
+  "space_marines__balance_dataslate_10e_v3_4": "01KDA74Y65BNCDSE982DDN07KA",
+  "space_marines__boxset_warhammer_40_000_dawn_of_war_onslaught_10e": "01KKV1ZG05EA99DM8Z1FNFVGW0",
+  "space_marines__codex_space_marines_10e": "01KQZVJRJF46TFBMAET7BDHCY4",
+  "space_marines__expansion_500_worlds_dread_incursions_10e": "01KTM74R0K31HJMQ2MVEX34J2S",
+  "space_marines__expansion_boarding_actions_10e_v1_1": "01KBN0H4FP32CET49NVDCM4Z68",
+  "space_marines__faction_pack_space_marines_10e_v1_5": "01KG7SWYY6Z49XJF535S48BXNR",
+  "space_marines__faction_pack_space_marines_10e_v1_7": "01KQFR8PHNYHTV8MHJR2S87C0S",
+  "space_marines__faction_pack_space_marines_10e_v1_8": "01KPATE71VH6BN9EYY3NTFY33D",
+  "space_marines__munitorum_field_manual_10e_v4_1": "01KR466J138PZ3H5YDGD69JV1Q",
+  "space_marines__munitorum_field_manual_10e_v4_2": "01KMJP0XX3MY39S3WYS51PGXDN",
+  "space_marines__munitorum_field_manual_10e_v4_3": "01KBS887Z6PQGC1PV9JH4W7P3J",
+  "space_wolves__codex_space_marines_10e": "01KFVN45J1KKZ6R5CE2MPFK9JW",
+  "space_wolves__codex_supplement_space_wolves_10e": "01KC0DVMXWJSRJ1QXTVHRRMQGF",
+  "space_wolves__faction_pack_space_wolves_10e_v1_2": "01KN31N39ED61WJ7FJ01A55Q54",
+  "tau_empire__balance_dataslate_10e_v3_4": "01KE7Y53DRSKJXKR790KX15MER",
+  "tau_empire__codex_tau_empire_10e": "01K2GQNB1Z094G962C10MHKW00",
+  "tau_empire__expansion_boarding_actions_10e_v1_1": "01KCD43XGJBYZXVAWNBZN05FJ2",
+  "tau_empire__faction_pack_tau_empire_10e_v1_2": "01KW5TGY2TQD9Q4WC5K62HDB4E",
+  "tau_empire__munitorum_field_manual_10e_v4_1": "01KYYX8035K290Y41B3HYKECRC",
+  "tau_empire__munitorum_field_manual_10e_v4_2": "01K78R55X72HACM0ATXS2DYH4X",
+  "tau_empire__munitorum_field_manual_10e_v4_3": "01K8WRP6Y8DH3R5DNBRF7BGXS9",
+  "thousand_sons__balance_dataslate_10e_v3_4": "01KA7WEVZEYCYG5JCA0T4MYEEM",
+  "thousand_sons__codex_thousand_sons_10e": "01KV41QYCTDXBMTHWT4Q1ZDNYG",
+  "thousand_sons__expansion_boarding_actions_10e_v1_1": "01K562F4K3JSK79A9V56B659GY",
+  "thousand_sons__faction_pack_thousand_sons_10e_v1_1": "01KF3VXAWES5FN4EP209X6Q5WJ",
+  "thousand_sons__munitorum_field_manual_10e_v4_1": "01KG1SQCJVZ2087A5NF052KR5A",
+  "thousand_sons__munitorum_field_manual_10e_v4_2": "01K0769J0EGTNZG41DZQ1KD24B",
+  "thousand_sons__munitorum_field_manual_10e_v4_3": "01KE4621NJNWJ7W2STRJRBPPXQ",
+  "tyranids__balance_dataslate_10e_v3_4": "01K3XRNP9WV8EKZ0ATXQ1AXAY6",
+  "tyranids__codex_tyranids_10e": "01KY4Q0KC022RW4MG85MH4ADR5",
+  "tyranids__expansion_boarding_actions_10e_v1_1": "01KM45JJ2F5NRQGEXKSZ3P2EMF",
+  "tyranids__faction_pack_tyranids_10e_v1_3": "01K2FEXR2S0N6JZW55FRRD4CYQ",
+  "tyranids__faction_pack_tyranids_10e_v1_4": "01K99FM9JWYA2J4BV8XSNFK7XS",
+  "tyranids__legends_tyranids_10e": "01KM4BMPQ3K42BN02AGTFYQPXG",
+  "tyranids__munitorum_field_manual_10e_v4_1": "01KKKH88F84T2REDN1AQKX7DPW",
+  "tyranids__munitorum_field_manual_10e_v4_2": "01KKN3ECSJGZ28JQ8DNMP79ECZ",
+  "tyranids__munitorum_field_manual_10e_v4_3": "01KH1X8DQ5PEP85T1G7YC3G7SZ",
+  "ultramarines__codex_space_marines_10e": "01KWNAV7ARMD16E7JR8EV6H3S2",
+  "ultramarines__faction_pack_space_marines_10e_v1_8": "01K1AK1E6ZWX3ADW4P1VD1Y96S",
+  "ultramarines__legends_ultramarines_10e": "01KXM901B8T4D2XQ804SKPWB74",
+  "white_scars__codex_space_marines_10e": "01K6AMPQ9MYXS3XR33MYAFC27A",
+  "white_scars__faction_pack_space_marines_10e_v1_8": "01KM82PY2DRGK6WS9PE6WWSSZS",
+  "world_eaters__balance_dataslate_10e_v3_4": "01KY2YG7VNNKV38TJ32MTGP6YK",
+  "world_eaters__expansion_boarding_actions_10e_v1_1": "01KKPTVYX0W1RD2SPNFQWT6CE8",
+  "world_eaters__faction_pack_world_eaters_10e_v1_1": "01KAVJWWDRHQRJTE23Q8EEC3JG",
+  "world_eaters__munitorum_field_manual_10e_v4_1": "01KRPACEXW8F2E7XA4PBZHVD77",
+  "world_eaters__munitorum_field_manual_10e_v4_2": "01K0QG1HYB30N7S8JGMMB8VT2Y",
+  "world_eaters__munitorum_field_manual_10e_v4_3": "01K6GBMB5M83ZNNG1GBFW8HQJ2",
 };
 
-export const rulesFactionSourceId = (
-  slug: RulesFactionSourceSeedSlug,
-): string => {
+export const rulesFactionSourceId = (slug: RulesFactionSourceSeedSlug): string => {
   return rulesFactionSourceSeedIds[slug];
 };

@@ -33,7 +33,13 @@ space_marine_chapter_source_names:
   blood_angels: "Blood Angels"
   dark_angels: "Dark Angels"
   deathwatch: "Deathwatch"
+  imperial_fists: "Imperial Fists"
+  iron_hands: "Iron Hands"
+  raven_guard: "Raven Guard"
+  salamanders: "Salamanders"
   space_wolves: "Space Wolves"
+  ultramarines: "Ultramarines"
+  white_scars: "White Scars"
 
 canonical_rules_faction_slugs:
   emperor_s_children: emperors_children

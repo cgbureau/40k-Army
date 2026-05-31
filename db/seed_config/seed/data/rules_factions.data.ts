@@ -22,13 +22,6 @@ export const AdeptusMechanicusRulesFaction: RulesFactionConfig = {
   rules_faction_name: "Adeptus Mechanicus",
 };
 
-export const AdeptusTitanicusRulesFaction: RulesFactionConfig = {
-  id: rulesFactionId("adeptus_titanicus"),
-  super_faction_id: superFactionId("imperium"),
-  rules_faction_slug: "adeptus_titanicus",
-  rules_faction_name: "Adeptus Titanicus",
-};
-
 export const AeldariRulesFaction: RulesFactionConfig = {
   id: rulesFactionId("aeldari"),
   super_faction_id: superFactionId("xenos"),
@@ -141,6 +134,20 @@ export const ImperialKnightsRulesFaction: RulesFactionConfig = {
   rules_faction_name: "Imperial Knights",
 };
 
+export const ImperialFistsRulesFaction: RulesFactionConfig = {
+  id: rulesFactionId("imperial_fists"),
+  super_faction_id: superFactionId("space_marines"),
+  rules_faction_slug: "imperial_fists",
+  rules_faction_name: "Imperial Fists",
+};
+
+export const IronHandsRulesFaction: RulesFactionConfig = {
+  id: rulesFactionId("iron_hands"),
+  super_faction_id: superFactionId("space_marines"),
+  rules_faction_slug: "iron_hands",
+  rules_faction_name: "Iron Hands",
+};
+
 export const LeaguesOfVotannRulesFaction: RulesFactionConfig = {
   id: rulesFactionId("leagues_of_votann"),
   super_faction_id: superFactionId("xenos"),
@@ -160,6 +167,20 @@ export const OrksRulesFaction: RulesFactionConfig = {
   super_faction_id: superFactionId("xenos"),
   rules_faction_slug: "orks",
   rules_faction_name: "Orks",
+};
+
+export const RavenGuardRulesFaction: RulesFactionConfig = {
+  id: rulesFactionId("raven_guard"),
+  super_faction_id: superFactionId("space_marines"),
+  rules_faction_slug: "raven_guard",
+  rules_faction_name: "Raven Guard",
+};
+
+export const SalamandersRulesFaction: RulesFactionConfig = {
+  id: rulesFactionId("salamanders"),
+  super_faction_id: superFactionId("space_marines"),
+  rules_faction_slug: "salamanders",
+  rules_faction_name: "Salamanders",
 };
 
 export const SpaceMarinesRulesFaction: RulesFactionConfig = {
@@ -190,6 +211,13 @@ export const ThousandSonsRulesFaction: RulesFactionConfig = {
   rules_faction_name: "Thousand Sons",
 };
 
+export const UltramarinesRulesFaction: RulesFactionConfig = {
+  id: rulesFactionId("ultramarines"),
+  super_faction_id: superFactionId("space_marines"),
+  rules_faction_slug: "ultramarines",
+  rules_faction_name: "Ultramarines",
+};
+
 export const TyranidsRulesFaction: RulesFactionConfig = {
   id: rulesFactionId("tyranids"),
   super_faction_id: superFactionId("xenos"),
@@ -197,11 +225,11 @@ export const TyranidsRulesFaction: RulesFactionConfig = {
   rules_faction_name: "Tyranids",
 };
 
-export const UnalignedForcesRulesFaction: RulesFactionConfig = {
-  id: rulesFactionId("unaligned_forces"),
-  super_faction_id: superFactionId("unaligned_forces"),
-  rules_faction_slug: "unaligned_forces",
-  rules_faction_name: "Unaligned Forces",
+export const WhiteScarsRulesFaction: RulesFactionConfig = {
+  id: rulesFactionId("white_scars"),
+  super_faction_id: superFactionId("space_marines"),
+  rules_faction_slug: "white_scars",
+  rules_faction_name: "White Scars",
 };
 
 export const WorldEatersRulesFaction: RulesFactionConfig = {
@@ -220,11 +248,9 @@ export const rulesFactionsDataset: SeedDataset<"rules_factions"> = {
     AdeptaSororitasRulesFaction,
     AdeptusCustodesRulesFaction,
     AdeptusMechanicusRulesFaction,
-    AdeptusTitanicusRulesFaction,
     AeldariRulesFaction,
     AstraMilitarumRulesFaction,
     BlackTemplarsRulesFaction,
-    SpaceMarinesRulesFaction,
     BloodAngelsRulesFaction,
     ChaosDaemonsRulesFaction,
     ChaosKnightsRulesFaction,
@@ -238,14 +264,20 @@ export const rulesFactionsDataset: SeedDataset<"rules_factions"> = {
     GreyKnightsRulesFaction,
     ImperialAgentsRulesFaction,
     ImperialKnightsRulesFaction,
+    ImperialFistsRulesFaction,
+    IronHandsRulesFaction,
     LeaguesOfVotannRulesFaction,
     NecronsRulesFaction,
     OrksRulesFaction,
+    RavenGuardRulesFaction,
+    SalamandersRulesFaction,
+    SpaceMarinesRulesFaction,
     SpaceWolvesRulesFaction,
     TauEmpireRulesFaction,
     ThousandSonsRulesFaction,
+    UltramarinesRulesFaction,
     TyranidsRulesFaction,
-    UnalignedForcesRulesFaction,
+    WhiteScarsRulesFaction,
     WorldEatersRulesFaction,
   ] satisfies RulesFactionConfig[],
 };
