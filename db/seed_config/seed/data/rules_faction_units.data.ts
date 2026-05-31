@@ -4294,16 +4294,6 @@ export const BlackTemplarsExecratorRulesFactionUnit: RulesFactionUnitConfig = {
   superseded_date: null,
 };
 
-export const BlackTemplarsFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("black_templars__ferren_areios"),
-  rules_faction_unit_slug: "black_templars__ferren_areios",
-  rules_faction_id: rulesFactionId("black_templars"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const BlackTemplarsFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("black_templars__firestrike_servo_turrets"),
@@ -5879,16 +5869,6 @@ export const BloodAngelsEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig 
   superseded_date: null,
 };
 
-export const BloodAngelsFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("blood_angels__ferren_areios"),
-  rules_faction_unit_slug: "blood_angels__ferren_areios",
-  rules_faction_id: rulesFactionId("blood_angels"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const BloodAngelsFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("blood_angels__firestrike_servo_turrets"),
@@ -9236,16 +9216,6 @@ export const DarkAngelsEzekielRulesFactionUnit: RulesFactionUnitConfig = {
   superseded_date: null,
 };
 
-export const DarkAngelsFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("dark_angels__ferren_areios"),
-  rules_faction_unit_slug: "dark_angels__ferren_areios",
-  rules_faction_id: rulesFactionId("dark_angels"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const DarkAngelsFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("dark_angels__firestrike_servo_turrets"),
@@ -11228,16 +11198,6 @@ export const DeathwatchEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig =
   superseded_date: null,
 };
 
-export const DeathwatchFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("deathwatch__ferren_areios"),
-  rules_faction_unit_slug: "deathwatch__ferren_areios",
-  rules_faction_id: rulesFactionId("deathwatch"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const DeathwatchFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("deathwatch__firestrike_servo_turrets"),
@@ -14376,16 +14336,6 @@ export const ImperialFistsEradicatorSquadRulesFactionUnit: RulesFactionUnitConfi
   superseded_date: null,
 };
 
-export const ImperialFistsFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("imperial_fists__ferren_areios"),
-  rules_faction_unit_slug: "imperial_fists__ferren_areios",
-  rules_faction_id: rulesFactionId("imperial_fists"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const ImperialFistsFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("imperial_fists__firestrike_servo_turrets"),
@@ -16028,16 +15978,6 @@ export const IronHandsEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig = 
   superseded_date: null,
 };
 
-export const IronHandsFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("iron_hands__ferren_areios"),
-  rules_faction_unit_slug: "iron_hands__ferren_areios",
-  rules_faction_id: rulesFactionId("iron_hands"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const IronHandsFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("iron_hands__firestrike_servo_turrets"),
@@ -19319,16 +19259,6 @@ export const RavenGuardEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig =
   superseded_date: null,
 };
 
-export const RavenGuardFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("raven_guard__ferren_areios"),
-  rules_faction_unit_slug: "raven_guard__ferren_areios",
-  rules_faction_id: rulesFactionId("raven_guard"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const RavenGuardFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("raven_guard__firestrike_servo_turrets"),
@@ -20717,16 +20647,6 @@ export const SalamandersEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig 
   superseded_date: null,
 };
 
-export const SalamandersFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("salamanders__ferren_areios"),
-  rules_faction_unit_slug: "salamanders__ferren_areios",
-  rules_faction_id: rulesFactionId("salamanders"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const SalamandersFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("salamanders__firestrike_servo_turrets"),
@@ -22104,16 +22024,6 @@ export const SpaceMarinesEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig
   superseded_date: null,
 };
 
-export const SpaceMarinesFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("space_marines__ferren_areios"),
-  rules_faction_unit_slug: "space_marines__ferren_areios",
-  rules_faction_id: rulesFactionId("space_marines"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "exclusive",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const SpaceMarinesFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("space_marines__firestrike_servo_turrets"),
@@ -23546,16 +23456,6 @@ export const SpaceWolvesFenrisianWolvesRulesFactionUnit: RulesFactionUnitConfig 
   superseded_date: null,
 };
 
-export const SpaceWolvesFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("space_wolves__ferren_areios"),
-  rules_faction_unit_slug: "space_wolves__ferren_areios",
-  rules_faction_id: rulesFactionId("space_wolves"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const SpaceWolvesFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("space_wolves__firestrike_servo_turrets"),
@@ -27038,8 +26938,8 @@ export const UltramarinesFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = 
   rules_faction_unit_slug: "ultramarines__ferren_areios",
   rules_faction_id: rulesFactionId("ultramarines"),
   unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
   effective_date: null,
   superseded_date: null,
 };
@@ -28497,16 +28397,6 @@ export const WhiteScarsEradicatorSquadRulesFactionUnit: RulesFactionUnitConfig =
   superseded_date: null,
 };
 
-export const WhiteScarsFerrenAreiosRulesFactionUnit: RulesFactionUnitConfig = {
-  id: rulesFactionUnitId("white_scars__ferren_areios"),
-  rules_faction_unit_slug: "white_scars__ferren_areios",
-  rules_faction_id: rulesFactionId("white_scars"),
-  unit_id: unitId("ferren_areios"),
-  unit_access_type: "shared",
-  rules_source_id: rulesSourceId("faction_pack_space_marines_10e_v1_8"),
-  effective_date: null,
-  superseded_date: null,
-};
 
 export const WhiteScarsFirestrikeServoTurretsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("white_scars__firestrike_servo_turrets"),
@@ -32340,7 +32230,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BlackTemplarsEmperorsChampionRulesFactionUnit,
     BlackTemplarsEradicatorSquadRulesFactionUnit,
     BlackTemplarsExecratorRulesFactionUnit,
-    BlackTemplarsFerrenAreiosRulesFactionUnit,
     BlackTemplarsFirestrikeServoTurretsRulesFactionUnit,
     BlackTemplarsGladiatorLancerRulesFactionUnit,
     BlackTemplarsGladiatorReaperRulesFactionUnit,
@@ -32489,7 +32378,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     BloodAngelsDropPodRulesFactionUnit,
     BloodAngelsEliminatorSquadRulesFactionUnit,
     BloodAngelsEradicatorSquadRulesFactionUnit,
-    BloodAngelsFerrenAreiosRulesFactionUnit,
     BloodAngelsFirestrikeServoTurretsRulesFactionUnit,
     BloodAngelsFuriosoDreadnoughtRulesFactionUnit,
     BloodAngelsGabrielSethRulesFactionUnit,
@@ -32811,7 +32699,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DarkAngelsEliminatorSquadRulesFactionUnit,
     DarkAngelsEradicatorSquadRulesFactionUnit,
     DarkAngelsEzekielRulesFactionUnit,
-    DarkAngelsFerrenAreiosRulesFactionUnit,
     DarkAngelsFirestrikeServoTurretsRulesFactionUnit,
     DarkAngelsGladiatorLancerRulesFactionUnit,
     DarkAngelsGladiatorReaperRulesFactionUnit,
@@ -33008,7 +32895,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     DeathwatchDropPodRulesFactionUnit,
     DeathwatchEliminatorSquadRulesFactionUnit,
     DeathwatchEradicatorSquadRulesFactionUnit,
-    DeathwatchFerrenAreiosRulesFactionUnit,
     DeathwatchFirestrikeServoTurretsRulesFactionUnit,
     DeathwatchFortisKillTeamRulesFactionUnit,
     DeathwatchGladiatorLancerRulesFactionUnit,
@@ -33339,7 +33225,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     ImperialFistsDropPodRulesFactionUnit,
     ImperialFistsEliminatorSquadRulesFactionUnit,
     ImperialFistsEradicatorSquadRulesFactionUnit,
-    ImperialFistsFerrenAreiosRulesFactionUnit,
     ImperialFistsFirestrikeServoTurretsRulesFactionUnit,
     ImperialFistsGladiatorLancerRulesFactionUnit,
     ImperialFistsGladiatorReaperRulesFactionUnit,
@@ -33493,7 +33378,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     IronHandsDropPodRulesFactionUnit,
     IronHandsEliminatorSquadRulesFactionUnit,
     IronHandsEradicatorSquadRulesFactionUnit,
-    IronHandsFerrenAreiosRulesFactionUnit,
     IronHandsFirestrikeServoTurretsRulesFactionUnit,
     IronHandsGladiatorLancerRulesFactionUnit,
     IronHandsGladiatorReaperRulesFactionUnit,
@@ -33813,7 +33697,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     RavenGuardDropPodRulesFactionUnit,
     RavenGuardEliminatorSquadRulesFactionUnit,
     RavenGuardEradicatorSquadRulesFactionUnit,
-    RavenGuardFerrenAreiosRulesFactionUnit,
     RavenGuardFirestrikeServoTurretsRulesFactionUnit,
     RavenGuardGladiatorLancerRulesFactionUnit,
     RavenGuardGladiatorReaperRulesFactionUnit,
@@ -33944,7 +33827,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SalamandersDropPodRulesFactionUnit,
     SalamandersEliminatorSquadRulesFactionUnit,
     SalamandersEradicatorSquadRulesFactionUnit,
-    SalamandersFerrenAreiosRulesFactionUnit,
     SalamandersFirestrikeServoTurretsRulesFactionUnit,
     SalamandersGladiatorLancerRulesFactionUnit,
     SalamandersGladiatorReaperRulesFactionUnit,
@@ -34074,7 +33956,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceMarinesDropPodRulesFactionUnit,
     SpaceMarinesEliminatorSquadRulesFactionUnit,
     SpaceMarinesEradicatorSquadRulesFactionUnit,
-    SpaceMarinesFerrenAreiosRulesFactionUnit,
     SpaceMarinesFirestrikeServoTurretsRulesFactionUnit,
     SpaceMarinesGladiatorLancerRulesFactionUnit,
     SpaceMarinesGladiatorReaperRulesFactionUnit,
@@ -34209,7 +34090,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     SpaceWolvesEliminatorSquadRulesFactionUnit,
     SpaceWolvesEradicatorSquadRulesFactionUnit,
     SpaceWolvesFenrisianWolvesRulesFactionUnit,
-    SpaceWolvesFerrenAreiosRulesFactionUnit,
     SpaceWolvesFirestrikeServoTurretsRulesFactionUnit,
     SpaceWolvesGladiatorLancerRulesFactionUnit,
     SpaceWolvesGladiatorReaperRulesFactionUnit,
@@ -34690,7 +34570,6 @@ export const rulesFactionUnitsDataset: SeedDataset<"rules_faction_units"> = {
     WhiteScarsDropPodRulesFactionUnit,
     WhiteScarsEliminatorSquadRulesFactionUnit,
     WhiteScarsEradicatorSquadRulesFactionUnit,
-    WhiteScarsFerrenAreiosRulesFactionUnit,
     WhiteScarsFirestrikeServoTurretsRulesFactionUnit,
     WhiteScarsGladiatorLancerRulesFactionUnit,
     WhiteScarsGladiatorReaperRulesFactionUnit,

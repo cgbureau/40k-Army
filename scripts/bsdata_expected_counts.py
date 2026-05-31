@@ -203,6 +203,18 @@ LEADER_TARGET_SLUG_ALIASES = {
     "traitor_guardsman_squad": "traitor_guardsmen_squad",
 }
 
+UNIT_MEMBERSHIP_OVERRIDES = {
+    # BSData currently exposes Ferren Areios from the base Space Marines catalog,
+    # but the character is an Ultramarines Legends datasheet rather than a
+    # generic Adeptus Astartes unit shared by every Space Marine chapter.
+    "ferren_areios": {
+        "faction_slugs": {"ultramarines"},
+        "rules_source_slug": "legends_ultramarines_10e",
+        "source_owner_slug": "ultramarines",
+        "unit_access_type": "exclusive",
+    },
+}
+
 
 class BsDataIndex:
     def __init__(self, root: Path) -> None:
@@ -285,7 +297,7 @@ def main() -> None:
 
     seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
-        slug: expected_counts_for_sources(index, sources, seed_unit_slugs)
+        slug: expected_counts_for_sources(index, slug, sources, seed_unit_slugs)
         for slug, sources in CATALOG_SOURCES.items()
     }
     detachment_counts = expected_rules_faction_detachment_counts(index)
@@ -302,6 +314,7 @@ def main() -> None:
 
 def expected_counts_for_sources(
     index: BsDataIndex,
+    faction_slug: str,
     sources: list[tuple[str, str]],
     seed_unit_slugs: set[str] | None = None,
 ) -> dict[str, int]:
@@ -314,6 +327,8 @@ def expected_counts_for_sources(
                 if seed_unit_slugs
                 else normalize_name(entry.name)
             )
+            if not include_unit_for_faction(key, faction_slug):
+                continue
             unit_entries[key] = entry
 
     unit_metrics = [metrics_for_unit(entry.element, entry.name) for entry in unit_entries.values()]
@@ -456,22 +471,28 @@ def expected_rules_faction_units(
                 unit_entries[unit_slug] = entry
 
         for unit_slug, entry in unit_entries.items():
-            access_type = (
-                "shared"
-                if entry.source_file == "Imperium - Space Marines.cat"
-                and faction_slug != "space_marines"
-                else "exclusive"
-            )
+            if not include_unit_for_faction(unit_slug, faction_slug):
+                continue
+
+            record = {
+                "rules_faction_slug": faction_slug,
+                "unit_slug": unit_slug,
+                "unit_name": display_unit_name(entry.name),
+                "bsdata_unit_name": entry.name,
+                "unit_access_type": unit_access_type(
+                    unit_slug,
+                    faction_slug,
+                    entry.source_file,
+                ),
+                "source_file": entry.source_file,
+                "source_mode": entry.source_mode,
+            }
+            rules_source_override = unit_rules_source_override(unit_slug)
+            if rules_source_override is not None:
+                record["rules_source_slug"] = rules_source_override
+
             records.append(
-                {
-                    "rules_faction_slug": faction_slug,
-                    "unit_slug": unit_slug,
-                    "unit_name": display_unit_name(entry.name),
-                    "bsdata_unit_name": entry.name,
-                    "unit_access_type": access_type,
-                    "source_file": entry.source_file,
-                    "source_mode": entry.source_mode,
-                },
+                record,
             )
 
     return sorted(
@@ -558,6 +579,8 @@ def expected_leader_eligibilities(
         for mode, filename in sources:
             for entry in source_unit_entries(index, mode, filename):
                 leader_unit_slug = seed_unit_slug(entry.name, seed_unit_slugs)
+                if not include_unit_for_faction(leader_unit_slug, faction_slug):
+                    continue
 
                 for profile in entry.element.findall(".//bs:profile", BS_NS):
                     if (
@@ -592,11 +615,13 @@ def expected_leader_eligibilities(
                             "target_unit_slug": target_unit_slug,
                             "target_kind": target_kind,
                             "target_text": display_leader_target_name(target_name),
-                            "rules_source_slug": rules_source_slug_for_catalog_file(
+                            "rules_source_slug": unit_rules_source_slug(
+                                leader_unit_slug,
                                 filename,
                                 faction_slug,
                             ),
-                            "source_owner_slug": source_owner_slug_for_catalog_file(
+                            "source_owner_slug": unit_source_owner_slug(
+                                leader_unit_slug,
                                 filename,
                                 faction_slug,
                             ),
@@ -626,6 +651,49 @@ def rules_source_slug_for_catalog_file(filename: str, faction_slug: str) -> str:
 
 def source_owner_slug_for_catalog_file(filename: str, faction_slug: str) -> str:
     return OWNER_SLUG_BY_CATALOG_FILE.get(filename, faction_slug)
+
+
+def include_unit_for_faction(unit_slug: str, faction_slug: str) -> bool:
+    override = UNIT_MEMBERSHIP_OVERRIDES.get(unit_slug)
+    if not override:
+        return True
+
+    return faction_slug in override["faction_slugs"]
+
+
+def unit_access_type(unit_slug: str, faction_slug: str, filename: str) -> str:
+    override = UNIT_MEMBERSHIP_OVERRIDES.get(unit_slug)
+    if override and "unit_access_type" in override:
+        return str(override["unit_access_type"])
+
+    if filename == "Imperium - Space Marines.cat" and faction_slug != "space_marines":
+        return "shared"
+
+    return "exclusive"
+
+
+def unit_rules_source_slug(unit_slug: str, filename: str, faction_slug: str) -> str:
+    override = unit_rules_source_override(unit_slug)
+    if override is not None:
+        return override
+
+    return rules_source_slug_for_catalog_file(filename, faction_slug)
+
+
+def unit_rules_source_override(unit_slug: str) -> str | None:
+    override = UNIT_MEMBERSHIP_OVERRIDES.get(unit_slug)
+    if override and "rules_source_slug" in override:
+        return str(override["rules_source_slug"])
+
+    return None
+
+
+def unit_source_owner_slug(unit_slug: str, filename: str, faction_slug: str) -> str:
+    override = UNIT_MEMBERSHIP_OVERRIDES.get(unit_slug)
+    if override and "source_owner_slug" in override:
+        return str(override["source_owner_slug"])
+
+    return source_owner_slug_for_catalog_file(filename, faction_slug)
 
 
 def leader_target_names(profile: ET.Element) -> list[str]:

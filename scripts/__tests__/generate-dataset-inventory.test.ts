@@ -40,9 +40,9 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.rules_faction_sources.actual).toBe(3);
     expect(bloodAngels?.cells.rules_faction_sources.expected).toBe("3");
     expect(bloodAngels?.cells.rules_faction_detachments.actual).toBe(18);
-    expect(bloodAngels?.cells.leader_eligibilities.actual).toBe(181);
+    expect(bloodAngels?.cells.leader_eligibilities.actual).toBe(173);
     expect(bloodAngels?.cells.unit_models.actual).toBe(0);
-    expect(bloodAngels?.cells.unit_models.expected).toBe("234");
+    expect(bloodAngels?.cells.unit_models.expected).toBe("233");
   });
 
   it("renders a Markdown inventory with actual-over-expected cells", () => {
@@ -68,17 +68,17 @@ describe("dataset inventory generator", () => {
       (row) => row.factionSlug === "blood_angels",
     );
 
-    expect(spaceMarines?.cells.rules_faction_units.expected).toBe("129");
+    expect(spaceMarines?.cells.rules_faction_units.expected).toBe("128");
     expect(inventory.columnTotals.rules_faction_sources.expected).toBe("212");
     expect(inventory.columnTotals.rules_faction_detachments.expected).toBe("343");
-    expect(inventory.columnTotals.leader_eligibilities.expected).toBe("2589");
+    expect(inventory.columnTotals.leader_eligibilities.expected).toBe("2501");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
-    expect(spaceMarines?.cells.leader_eligibilities.expected).toBe("130");
-    expect(spaceMarines?.cells.unit_profiles.expected).toBe("200");
-    expect(spaceMarines?.cells.unit_profile_stats.expected).toBe("1200");
-    expect(bloodAngels?.cells.rules_faction_units.expected).toBe("156");
+    expect(spaceMarines?.cells.leader_eligibilities.expected).toBe("122");
+    expect(spaceMarines?.cells.unit_profiles.expected).toBe("199");
+    expect(spaceMarines?.cells.unit_profile_stats.expected).toBe("1194");
+    expect(bloodAngels?.cells.rules_faction_units.expected).toBe("155");
     expect(bloodAngels?.cells.rules_faction_detachments.expected).toBe("18");
-    expect(bloodAngels?.cells.leader_eligibilities.expected).toBe("181");
+    expect(bloodAngels?.cells.leader_eligibilities.expected).toBe("173");
     expect(bloodAngels?.cells.unit_models.expected).not.toBe("?");
   });
 });

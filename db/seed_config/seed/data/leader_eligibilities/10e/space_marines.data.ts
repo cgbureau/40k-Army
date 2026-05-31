@@ -603,78 +603,6 @@ export const CompanyChampionOnBikeOutriderSquadLeaderEligibility: LeaderEligibil
 };
 
 
-export const FerrenAreiosAssaultIntercessorSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__assault_intercessor_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("assault_intercessor_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosBladeguardVeteranSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__bladeguard_veteran_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("bladeguard_veteran_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosCompanyHeroesLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__company_heroes"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("company_heroes"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosHellblasterSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__hellblaster_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("hellblaster_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosInfernusSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__infernus_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("infernus_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosIntercessorSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__intercessor_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("intercessor_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosSternguardVeteranSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__sternguard_veteran_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("sternguard_veteran_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
-export const FerrenAreiosTacticalSquadLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("ferren_areios__tactical_squad"),
-  leader_unit_id: unitId("ferren_areios"),
-  target_unit_id: unitId("tactical_squad"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_space_marines_10e"),
-};
-
-
 export const ImperialSpaceMarineAssaultSquadLeaderEligibility: LeaderEligibilityConfig = {
   id: leaderEligibilityId("imperial_space_marine__assault_squad"),
   leader_unit_id: unitId("imperial_space_marine"),
@@ -1248,14 +1176,6 @@ export const spaceMarinesLeaderEligibilities10e: SeedDataset<"leader_eligibiliti
     ChaplainWithJumpPackVanguardVeteranSquadWithJumpPacksLeaderEligibility,
     CompanyChampionOnBikeBikeSquadLeaderEligibility,
     CompanyChampionOnBikeOutriderSquadLeaderEligibility,
-    FerrenAreiosAssaultIntercessorSquadLeaderEligibility,
-    FerrenAreiosBladeguardVeteranSquadLeaderEligibility,
-    FerrenAreiosCompanyHeroesLeaderEligibility,
-    FerrenAreiosHellblasterSquadLeaderEligibility,
-    FerrenAreiosInfernusSquadLeaderEligibility,
-    FerrenAreiosIntercessorSquadLeaderEligibility,
-    FerrenAreiosSternguardVeteranSquadLeaderEligibility,
-    FerrenAreiosTacticalSquadLeaderEligibility,
     ImperialSpaceMarineAssaultSquadLeaderEligibility,
     ImperialSpaceMarineCommandSquadLeaderEligibility,
     ImperialSpaceMarineDevastatorSquadLeaderEligibility,

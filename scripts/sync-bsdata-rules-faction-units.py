@@ -61,6 +61,7 @@ def main() -> None:
 
     sync_units_file(missing_units, unit_const_names)
     sync_rules_faction_units_file(
+        expected_pairs,
         missing_pairs,
         extra_pairs,
         rules_faction_unit_const_names,
@@ -164,6 +165,7 @@ def sync_units_file(
 
 
 def sync_rules_faction_units_file(
+    expected_pairs: dict[str, dict[str, str]],
     missing_pairs: dict[str, dict[str, str]],
     extra_pairs: set[str],
     const_names: dict[str, str],
@@ -198,12 +200,47 @@ def sync_rules_faction_units_file(
             + "\nexport const rulesFactionUnitsDataset: SeedDataset<\"rules_faction_units\"> = {",
         )
 
+    text = sync_rules_faction_unit_metadata(
+        text,
+        expected_pairs,
+        const_names,
+        rules_source_by_faction,
+    )
     text = replace_dataset_records(
         text,
         "rulesFactionUnits",
         sorted(const_names.values()),
     )
     RULES_FACTION_UNITS_PATH.write_text(text)
+
+
+def sync_rules_faction_unit_metadata(
+    text: str,
+    expected_pairs: dict[str, dict[str, str]],
+    const_names: dict[str, str],
+    rules_source_by_faction: dict[str, str],
+) -> str:
+    for slug, record in sorted(expected_pairs.items()):
+        if "rules_source_slug" not in record:
+            continue
+
+        const_name = const_names[slug]
+        rules_source_slug = rules_source_for_record(record, rules_source_by_faction)
+        replacement = render_rules_faction_unit_block(
+            const_name,
+            slug,
+            record["rules_faction_slug"],
+            record["unit_slug"],
+            record["unit_access_type"],
+            rules_source_slug,
+        )
+        pattern = re.compile(
+            rf"\nexport const {const_name}: RulesFactionUnitConfig =\s*\{{.*?\n\s*\}};\n",
+            flags=re.S,
+        )
+        text = pattern.sub(replacement, text, count=1)
+
+    return text
 
 
 def sync_generated_ids(
@@ -323,6 +360,9 @@ def rules_source_for_record(
     record: dict[str, str],
     rules_source_by_faction: dict[str, str],
 ) -> str:
+    if "rules_source_slug" in record:
+        return record["rules_source_slug"]
+
     if (
         record["source_file"] == "Imperium - Space Marines.cat"
         or record["rules_faction_slug"] in {"imperial_fists", "iron_hands", "raven_guard", "salamanders", "ultramarines", "white_scars"}

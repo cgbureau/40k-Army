@@ -52,6 +52,9 @@ describe("BSData leader_eligibilities coverage", () => {
     expect(actualSources.get("logan_grimnar__wolf_guard_terminators")).toBe(
       "codex_supplement_space_wolves_10e",
     );
+    expect(actualSources.get("ferren_areios__intercessor_squad")).toBe(
+      "legends_ultramarines_10e",
+    );
   });
 
   it("resolves all leader eligibility seed references", () => {

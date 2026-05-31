@@ -6,6 +6,7 @@ import { describe, expect, it } from "vitest";
 import {
   rulesFactionsDataset,
   rulesFactionUnitsDataset,
+  rulesSourcesDataset,
   unitsDataset,
 } from "../data/_index.data";
 
@@ -27,6 +28,18 @@ describe("BSData rules_faction_units coverage", () => {
 
     expect(missingPairs).toEqual([]);
     expect(extraPairs).toEqual([]);
+  });
+
+  it("keeps Ferren Areios scoped to Ultramarines Legends", () => {
+    const rows = currentRulesFactionUnitRowsByPair();
+
+    expect(rows.has("space_marines__ferren_areios")).toBe(false);
+    expect(rows.has("black_templars__ferren_areios")).toBe(false);
+    expect(rows.has("raven_guard__ferren_areios")).toBe(false);
+    expect(rows.get("ultramarines__ferren_areios")).toEqual({
+      accessType: "exclusive",
+      rulesSourceSlug: "legends_ultramarines_10e",
+    });
   });
 });
 
@@ -53,6 +66,13 @@ function loadBsDataRulesFactionUnits(): Set<string> {
 }
 
 function currentRulesFactionUnitPairs(): Set<string> {
+  return new Set(currentRulesFactionUnitRowsByPair().keys());
+}
+
+function currentRulesFactionUnitRowsByPair(): Map<
+  string,
+  { accessType: string; rulesSourceSlug: string }
+> {
   const factionSlugById = new Map(
     rulesFactionsDataset.records.map((record) => [
       record.id,
@@ -62,22 +82,32 @@ function currentRulesFactionUnitPairs(): Set<string> {
   const unitSlugById = new Map(
     unitsDataset.records.map((record) => [record.id, record.unit_slug]),
   );
+  const rulesSourceSlugById = new Map(
+    rulesSourcesDataset.records.map((record) => [
+      record.id,
+      record.rules_source_slug,
+    ]),
+  );
 
   const unresolvedRecords: string[] = [];
-  const pairs = new Set<string>();
+  const rows = new Map<string, { accessType: string; rulesSourceSlug: string }>();
 
   for (const record of rulesFactionUnitsDataset.records) {
     const factionSlug = factionSlugById.get(record.rules_faction_id);
     const unitSlug = unitSlugById.get(record.unit_id);
+    const rulesSourceSlug = rulesSourceSlugById.get(record.rules_source_id);
 
-    if (!factionSlug || !unitSlug) {
+    if (!factionSlug || !unitSlug || !rulesSourceSlug || !record.unit_access_type) {
       unresolvedRecords.push(record.rules_faction_unit_slug);
       continue;
     }
 
-    pairs.add(`${factionSlug}__${unitSlug}`);
+    rows.set(`${factionSlug}__${unitSlug}`, {
+      accessType: record.unit_access_type,
+      rulesSourceSlug,
+    });
   }
 
   expect(unresolvedRecords).toEqual([]);
-  return pairs;
+  return rows;
 }

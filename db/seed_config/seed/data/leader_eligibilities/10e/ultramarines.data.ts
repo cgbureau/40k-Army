@@ -252,6 +252,78 @@ export const ChiefLibrarianTiguriusTacticalSquadLeaderEligibility: LeaderEligibi
 };
 
 
+export const FerrenAreiosAssaultIntercessorSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__assault_intercessor_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("assault_intercessor_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosBladeguardVeteranSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__bladeguard_veteran_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("bladeguard_veteran_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosCompanyHeroesLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__company_heroes"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("company_heroes"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosHellblasterSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__hellblaster_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("hellblaster_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosInfernusSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__infernus_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("infernus_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosIntercessorSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__intercessor_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("intercessor_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosSternguardVeteranSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__sternguard_veteran_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("sternguard_veteran_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
+export const FerrenAreiosTacticalSquadLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("ferren_areios__tactical_squad"),
+  leader_unit_id: unitId("ferren_areios"),
+  target_unit_id: unitId("tactical_squad"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("legends_ultramarines_10e"),
+};
+
+
 export const LieutenantTitusAssaultIntercessorSquadLeaderEligibility: LeaderEligibilityConfig = {
   id: leaderEligibilityId("lieutenant_titus__assault_intercessor_squad"),
   leader_unit_id: unitId("lieutenant_titus"),
@@ -615,6 +687,14 @@ export const ultramarinesLeaderEligibilities10e: SeedDataset<"leader_eligibiliti
     ChiefLibrarianTiguriusIntercessorSquadLeaderEligibility,
     ChiefLibrarianTiguriusSternguardVeteranSquadLeaderEligibility,
     ChiefLibrarianTiguriusTacticalSquadLeaderEligibility,
+    FerrenAreiosAssaultIntercessorSquadLeaderEligibility,
+    FerrenAreiosBladeguardVeteranSquadLeaderEligibility,
+    FerrenAreiosCompanyHeroesLeaderEligibility,
+    FerrenAreiosHellblasterSquadLeaderEligibility,
+    FerrenAreiosInfernusSquadLeaderEligibility,
+    FerrenAreiosIntercessorSquadLeaderEligibility,
+    FerrenAreiosSternguardVeteranSquadLeaderEligibility,
+    FerrenAreiosTacticalSquadLeaderEligibility,
     LieutenantTitusAssaultIntercessorSquadLeaderEligibility,
     LieutenantTitusBladeguardVeteranSquadLeaderEligibility,
     LieutenantTitusHellblasterSquadLeaderEligibility,

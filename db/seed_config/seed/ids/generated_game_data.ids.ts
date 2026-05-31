@@ -4374,7 +4374,6 @@ type RulesFactionUnitSeedSlug =
   | "black_templars__emperors_champion_anointed"
   | "black_templars__eradicator_squad"
   | "black_templars__execrator"
-  | "black_templars__ferren_areios"
   | "black_templars__firestrike_servo_turrets"
   | "black_templars__gladiator_lancer"
   | "black_templars__gladiator_reaper"
@@ -4523,7 +4522,6 @@ type RulesFactionUnitSeedSlug =
   | "blood_angels__drop_pod"
   | "blood_angels__eliminator_squad"
   | "blood_angels__eradicator_squad"
-  | "blood_angels__ferren_areios"
   | "blood_angels__firestrike_servo_turrets"
   | "blood_angels__furioso_dreadnought"
   | "blood_angels__gabriel_seth"
@@ -4845,7 +4843,6 @@ type RulesFactionUnitSeedSlug =
   | "dark_angels__eliminator_squad"
   | "dark_angels__eradicator_squad"
   | "dark_angels__ezekiel"
-  | "dark_angels__ferren_areios"
   | "dark_angels__firestrike_servo_turrets"
   | "dark_angels__gladiator_lancer"
   | "dark_angels__gladiator_reaper"
@@ -5042,7 +5039,6 @@ type RulesFactionUnitSeedSlug =
   | "deathwatch__drop_pod"
   | "deathwatch__eliminator_squad"
   | "deathwatch__eradicator_squad"
-  | "deathwatch__ferren_areios"
   | "deathwatch__firestrike_servo_turrets"
   | "deathwatch__fortis_kill_team"
   | "deathwatch__gladiator_lancer"
@@ -5373,7 +5369,6 @@ type RulesFactionUnitSeedSlug =
   | "imperial_fists__drop_pod"
   | "imperial_fists__eliminator_squad"
   | "imperial_fists__eradicator_squad"
-  | "imperial_fists__ferren_areios"
   | "imperial_fists__firestrike_servo_turrets"
   | "imperial_fists__gladiator_lancer"
   | "imperial_fists__gladiator_reaper"
@@ -5527,7 +5522,6 @@ type RulesFactionUnitSeedSlug =
   | "iron_hands__drop_pod"
   | "iron_hands__eliminator_squad"
   | "iron_hands__eradicator_squad"
-  | "iron_hands__ferren_areios"
   | "iron_hands__firestrike_servo_turrets"
   | "iron_hands__gladiator_lancer"
   | "iron_hands__gladiator_reaper"
@@ -5847,7 +5841,6 @@ type RulesFactionUnitSeedSlug =
   | "raven_guard__drop_pod"
   | "raven_guard__eliminator_squad"
   | "raven_guard__eradicator_squad"
-  | "raven_guard__ferren_areios"
   | "raven_guard__firestrike_servo_turrets"
   | "raven_guard__gladiator_lancer"
   | "raven_guard__gladiator_reaper"
@@ -5978,7 +5971,6 @@ type RulesFactionUnitSeedSlug =
   | "salamanders__drop_pod"
   | "salamanders__eliminator_squad"
   | "salamanders__eradicator_squad"
-  | "salamanders__ferren_areios"
   | "salamanders__firestrike_servo_turrets"
   | "salamanders__gladiator_lancer"
   | "salamanders__gladiator_reaper"
@@ -6108,7 +6100,6 @@ type RulesFactionUnitSeedSlug =
   | "space_marines__drop_pod"
   | "space_marines__eliminator_squad"
   | "space_marines__eradicator_squad"
-  | "space_marines__ferren_areios"
   | "space_marines__firestrike_servo_turrets"
   | "space_marines__gladiator_lancer"
   | "space_marines__gladiator_reaper"
@@ -6243,7 +6234,6 @@ type RulesFactionUnitSeedSlug =
   | "space_wolves__eliminator_squad"
   | "space_wolves__eradicator_squad"
   | "space_wolves__fenrisian_wolves"
-  | "space_wolves__ferren_areios"
   | "space_wolves__firestrike_servo_turrets"
   | "space_wolves__gladiator_lancer"
   | "space_wolves__gladiator_reaper"
@@ -6724,7 +6714,6 @@ type RulesFactionUnitSeedSlug =
   | "white_scars__drop_pod"
   | "white_scars__eliminator_squad"
   | "white_scars__eradicator_squad"
-  | "white_scars__ferren_areios"
   | "white_scars__firestrike_servo_turrets"
   | "white_scars__gladiator_lancer"
   | "white_scars__gladiator_reaper"
@@ -7258,7 +7247,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "black_templars__emperors_champion_anointed": "01KAHY8DXCEKY9FWXX1ET493WR",
   "black_templars__eradicator_squad": "01KHA0WPAGNDY6M1KZ6BJPDEFW",
   "black_templars__execrator": "01KQ6PBRHJTEV8SG9YFJ697YY9",
-  "black_templars__ferren_areios": "01K85SVKCGZ5Z021KYWFTBHS0D",
   "black_templars__firestrike_servo_turrets": "01K3ZVBB2R1WWKQ72X6W3X608R",
   "black_templars__gladiator_lancer": "01KZQS1807M61716X4SYY6XJKN",
   "black_templars__gladiator_reaper": "01KT4RZNQFWP8D68KJJTS0NRYZ",
@@ -7407,7 +7395,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "blood_angels__drop_pod": "01KSD87CJT1WZE89C81R603PD7",
   "blood_angels__eliminator_squad": "01KKXB1T8SCQRMWSGM8NV1PJPH",
   "blood_angels__eradicator_squad": "01KFS08W60MHC63ZW9G0BRZY3R",
-  "blood_angels__ferren_areios": "01KEJR19RJK7DC0EX92TPNZTSV",
   "blood_angels__firestrike_servo_turrets": "01KY6V2XN8YWDNR7MXF2AHWCAW",
   "blood_angels__furioso_dreadnought": "01KAQHZED0MNCQH7N6N5MKKHMW",
   "blood_angels__gabriel_seth": "01KTVV7SPP6DHAS8SBKCX2WQ4A",
@@ -7729,7 +7716,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "dark_angels__eliminator_squad": "01KSY5GMN42ZAFWNY9DE04TZCC",
   "dark_angels__eradicator_squad": "01KWABJZH6C8QHDMW4XQCFV4VT",
   "dark_angels__ezekiel": "01KW1SNT2B1145RKTRN071M29X",
-  "dark_angels__ferren_areios": "01KGG6ZJV3ZGMJ7YFYD7HJRKT4",
   "dark_angels__firestrike_servo_turrets": "01KAQQ7X9HRPXB1SKY0HAXYZWY",
   "dark_angels__gladiator_lancer": "01K2GCHNXDTCVB8D4E2RDYM68Q",
   "dark_angels__gladiator_reaper": "01K53JB40X9PB3AKA7KY831NR9",
@@ -7926,7 +7912,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "deathwatch__drop_pod": "01KBS565G5BDVZ5EPEC5VES6ZH",
   "deathwatch__eliminator_squad": "01K1CA95DA99ADG6CFSY0ZPD4P",
   "deathwatch__eradicator_squad": "01K587RJMCKA3NKJ5SDBYV8BQE",
-  "deathwatch__ferren_areios": "01KMZC370NHJYQV8MF5FDGRGCY",
   "deathwatch__firestrike_servo_turrets": "01K042NB22HQC1YZ9DGDN80FD4",
   "deathwatch__fortis_kill_team": "01KZW0VABXP4QVQ6YXYV5G7340",
   "deathwatch__gladiator_lancer": "01KK692PK391SEZ39WXRM4D600",
@@ -8257,7 +8242,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "imperial_fists__drop_pod": "01K615F5J9RW2Z9WDRK8S1CMAB",
   "imperial_fists__eliminator_squad": "01KK1JFXA6SSQC1JVEWDK3YHE5",
   "imperial_fists__eradicator_squad": "01K1BAXZZ0YYBV462A7X7E0TB9",
-  "imperial_fists__ferren_areios": "01K9ZXHEWXHB67GVZPCBB98TD6",
   "imperial_fists__firestrike_servo_turrets": "01KYDB0RXGQVEXNP4EFJSNMR4Q",
   "imperial_fists__gladiator_lancer": "01KR7BQR5JJ6Z6BDRJRX9V2KGR",
   "imperial_fists__gladiator_reaper": "01KBBB21HZ5KTBR9PV21ZSBGBT",
@@ -8411,7 +8395,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "iron_hands__drop_pod": "01K6XKY8VDTGWJKS136ZEGM2M5",
   "iron_hands__eliminator_squad": "01K7VQABRZE4R8XN9S84CAY7G0",
   "iron_hands__eradicator_squad": "01KRS1H32PJRG4TR7SMWJYM4T3",
-  "iron_hands__ferren_areios": "01KWS9MMT1GBMMDB0X882B577R",
   "iron_hands__firestrike_servo_turrets": "01KRP81K9AT601D1RCDMDD5X72",
   "iron_hands__gladiator_lancer": "01KJ1M5HW5TPFE1BM0Q73NYWPT",
   "iron_hands__gladiator_reaper": "01KRAX021A7FC3ENYRPGN3CX3E",
@@ -8731,7 +8714,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "raven_guard__drop_pod": "01KHFJ32XVYF6Q4VQ3TYG498DH",
   "raven_guard__eliminator_squad": "01K1JBDKBG5TKHGZ7CP2X7JH8R",
   "raven_guard__eradicator_squad": "01K42Y47TA8F9RK34BN7AK81W1",
-  "raven_guard__ferren_areios": "01K1E6FYAVZWKZZWQKTDAFHBTX",
   "raven_guard__firestrike_servo_turrets": "01KQ4V5YC1YM9F3HQBC0YZ7W3E",
   "raven_guard__gladiator_lancer": "01KR7N2V6ZRSHMXCTYA1VAE5PK",
   "raven_guard__gladiator_reaper": "01KCCHD8C3NC4BST1BC1Q42Y48",
@@ -8862,7 +8844,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "salamanders__drop_pod": "01KZ8QYH24AXT2920VZGSHVYCH",
   "salamanders__eliminator_squad": "01KX46VQFHAHW0VQT37CD7WFJA",
   "salamanders__eradicator_squad": "01KHVVZAMRYT59K04P3V41M9J3",
-  "salamanders__ferren_areios": "01KCSMXBNHPFXM3TKNBH6HEP0F",
   "salamanders__firestrike_servo_turrets": "01KZHP90JF4NZE6N673HXY2E46",
   "salamanders__gladiator_lancer": "01KPRCJETXTNW4EW6AHZXD777X",
   "salamanders__gladiator_reaper": "01KADY1RDJ2PRFGTA3TYS0XAKQ",
@@ -8992,7 +8973,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "space_marines__drop_pod": "01K1KAN5DF3AT48AET1EFQDSE2",
   "space_marines__eliminator_squad": "01KM639N9900MVCFFZ5900DRWN",
   "space_marines__eradicator_squad": "01KPCB61FQDB3RRJSGB8PTEHNA",
-  "space_marines__ferren_areios": "01KNHP1WMW1J3A2XH37PM4892Z",
   "space_marines__firestrike_servo_turrets": "01KY0FGEMBKN659BTTKVM7QX2G",
   "space_marines__gladiator_lancer": "01KZ7GAQC59B087V6Q3XHDZ5N0",
   "space_marines__gladiator_reaper": "01K3D5KMNCFHA3GC7E35141PJS",
@@ -9127,7 +9107,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "space_wolves__eliminator_squad": "01KK08Y0R15SZKTC72ZDVPY88F",
   "space_wolves__eradicator_squad": "01KEGB3E18539XPHNF55MJVJ6Y",
   "space_wolves__fenrisian_wolves": "01K7001MCVQZ58C8K9S6FBW2SF",
-  "space_wolves__ferren_areios": "01KE9YATKCQVNM3G4WWJ3SWA1Z",
   "space_wolves__firestrike_servo_turrets": "01KTP3CADPZR1S2SZZSAGVKK8B",
   "space_wolves__gladiator_lancer": "01K6BMSXZJK0Z40GFKCVRER79M",
   "space_wolves__gladiator_reaper": "01KMKMYPWP3CY446Y5TATV6JD4",
@@ -9608,7 +9587,6 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "white_scars__drop_pod": "01K7TEQ79GR2DC40J1T503KK8V",
   "white_scars__eliminator_squad": "01KJZWRTSFYZ8RE8A0XJASEQA8",
   "white_scars__eradicator_squad": "01K4ZHPM6QX53VE2G3CZRFT4NV",
-  "white_scars__ferren_areios": "01KBQE0NBMHKQPZEBH05VBH1TQ",
   "white_scars__firestrike_servo_turrets": "01KA0NA1HSBDH53TREKAWT5EX0",
   "white_scars__gladiator_lancer": "01KDWW7FCT315BSQZXFNTBEAVD",
   "white_scars__gladiator_reaper": "01KGE8BNXNR3YBJAZFQM3GNEK6",
