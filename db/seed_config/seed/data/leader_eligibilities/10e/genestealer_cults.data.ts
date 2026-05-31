@@ -90,19 +90,19 @@ export const BiophagusAcolyteHybridsWithAutopistolsLeaderEligibility: LeaderElig
 };
 
 
-export const BiophagusHybridMetamorphsLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("biophagus__hybrid_metamorphs"),
+export const BiophagusAcolyteHybridsWithHandFlamersLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("biophagus__acolyte_hybrids_with_hand_flamers"),
   leader_unit_id: unitId("biophagus"),
-  target_unit_id: unitId("hybrid_metamorphs"),
+  target_unit_id: unitId("acolyte_hybrids_with_hand_flamers"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_genestealer_cults_10e"),
 };
 
 
-export const BiophagusKeywordAcolyteHybridsWithHandflamersLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("biophagus__keyword_acolyte_hybrids_with_handflamers"),
+export const BiophagusHybridMetamorphsLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("biophagus__hybrid_metamorphs"),
   leader_unit_id: unitId("biophagus"),
-  target_unit_id: null,
+  target_unit_id: unitId("hybrid_metamorphs"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_genestealer_cults_10e"),
 };
@@ -390,8 +390,8 @@ export const genestealerCultsLeaderEligibilities10e: SeedDataset<"leader_eligibi
     BenefictusNeophyteHybridsLeaderEligibility,
     BiophagusAberrantsLeaderEligibility,
     BiophagusAcolyteHybridsWithAutopistolsLeaderEligibility,
+    BiophagusAcolyteHybridsWithHandFlamersLeaderEligibility,
     BiophagusHybridMetamorphsLeaderEligibility,
-    BiophagusKeywordAcolyteHybridsWithHandflamersLeaderEligibility,
     BiophagusNeophyteHybridsLeaderEligibility,
     ClamavusHybridMetamorphsLeaderEligibility,
     ClamavusKeywordAcolyteHybridsLeaderEligibility,

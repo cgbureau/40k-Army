@@ -10,6 +10,8 @@ import { fileURLToPath } from "node:url";
 
 import {
   leaderEligibilitiesDataset,
+  leaderEligibilityKeywordsDataset,
+  keywordsDataset,
   rulesFactionDetachmentsDataset,
   rulesFactionsDataset,
   rulesFactionSourcesDataset,
@@ -77,6 +79,13 @@ type BsDataLeaderEligibilityRecord = {
   target_kind: "unit" | "keyword_predicate";
 };
 
+type BsDataLeaderEligibilityKeywordRecord = {
+  rules_faction_slug: string;
+  leader_eligibility_slug: string;
+  leader_eligibility_keyword_slug: string;
+  keyword_slug: string;
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -88,6 +97,7 @@ const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "rules_faction_units",
   "rules_faction_detachments",
   "leader_eligibilities",
+  "leader_eligibility_keywords",
   "unit_models",
   "unit_point_costs",
   "unit_profile_stats",
@@ -136,7 +146,6 @@ const TARGET_FACTIONS: TargetFaction[] = [
 const FACTION_DATASET_SUFFIXES: Partial<
   Record<DatasetInventoryColumnKey, string>
 > = {
-  leader_eligibility_keywords: "leader_eligibility_keywords",
   unit_models: "unit_models",
   unit_point_costs: "unit_point_costs",
   unit_profile_stats: "unit_profile_stats",
@@ -181,6 +190,8 @@ export function buildDatasetInventory(
   ) ?? countLeaderEligibilitiesByFaction(
     factionSlugById,
   );
+  const leaderEligibilityKeywordCountsByFaction =
+    countLeaderEligibilityKeywordCoverageByFaction(repoRoot, bsDataRoot);
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -204,6 +215,8 @@ export function buildDatasetInventory(
       detachmentCountsByFaction.get(faction.slug) ?? 0;
     cells.leader_eligibilities.actual =
       leaderEligibilityCountsByFaction.get(faction.slug) ?? 0;
+    cells.leader_eligibility_keywords.actual =
+      leaderEligibilityKeywordCountsByFaction.get(faction.slug) ?? 0;
 
     for (const [columnKey, suffix] of Object.entries(FACTION_DATASET_SUFFIXES)) {
       const key = columnKey as DatasetInventoryColumnKey;
@@ -272,12 +285,12 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.",
     "- `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.",
     "- `rules_faction_detachments` expected counts come from BSData Detachment choices visible to each mapped faction catalog. Space Marine chapter factions include shared Codex Space Marines detachments plus chapter-visible exclusive detachments.",
-    "- `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null` and will receive child keyword rows in the `leader_eligibility_keywords` slice.",
+    "- `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null`.",
+    "- `leader_eligibility_keywords` expected counts come from the keyword requirements extracted from BSData keyword-predicate Leader targets. Unsupported prose-only predicates remain out of this column until the schema can express them safely.",
     "- `unit_models` and `models` expected counts come from BSData model selection entries within each expected unit. Single-model unit entries count as one model when they do not contain nested model selections.",
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
     "- `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.",
-    "- `leader_eligibility_keywords` remains `?` because its BSData structures need table-specific mapping rules before the counts are comparable.",
     "",
     "## Table Completion Workflow",
     "",
@@ -451,6 +464,81 @@ function leaderEligibilityCoverageKey(
   }
 
   return leaderEligibilityId(record.leader_eligibility_slug);
+}
+
+function countLeaderEligibilityKeywordCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const result = spawnSync(
+    "python3",
+    [
+      resolve(repoRoot, "scripts/bsdata_expected_counts.py"),
+      "--bsdata-root",
+      bsDataRoot,
+      "--repo-root",
+      repoRoot,
+      "--emit-leader-eligibility-keywords",
+    ],
+    {
+      encoding: "utf8",
+      maxBuffer: 20 * 1024 * 1024,
+    },
+  );
+
+  if (result.status !== 0) {
+    return new Map();
+  }
+
+  const expectedRecords = JSON.parse(
+    result.stdout,
+  ) as BsDataLeaderEligibilityKeywordRecord[];
+  const coveredKeys = currentLeaderEligibilityKeywordCoverageKeys();
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(leaderEligibilityKeywordCoverageKey(record))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function currentLeaderEligibilityKeywordCoverageKeys(): Set<string> {
+  const leaderEligibilitySlugById = new Map(
+    leaderEligibilitiesDataset.records.map((record) => [record.id, record.id]),
+  );
+  const keywordSlugById = new Map(
+    keywordsDataset.records.map((record) => [record.id, record.keyword_slug]),
+  );
+  const keys = new Set<string>();
+
+  for (const record of leaderEligibilityKeywordsDataset.records) {
+    const leaderEligibilitySlug = leaderEligibilitySlugById.get(
+      record.leader_eligibility_id,
+    );
+    const keywordSlug = keywordSlugById.get(record.keyword_id);
+
+    if (!leaderEligibilitySlug || !keywordSlug) {
+      continue;
+    }
+
+    keys.add(`${leaderEligibilitySlug}__${keywordSlug}`);
+  }
+
+  return keys;
+}
+
+function leaderEligibilityKeywordCoverageKey(
+  record: BsDataLeaderEligibilityKeywordRecord,
+): string {
+  return `${leaderEligibilityId(record.leader_eligibility_slug)}__${record.keyword_slug}`;
 }
 
 function countLeaderEligibilitiesByFaction(

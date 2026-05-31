@@ -22,40 +22,40 @@ npm run docs:dataset-inventory
 
 | Faction | `rules_factions` | `rules_faction_units` | `rules_faction_sources` | `rules_faction_detachments` | `leader_eligibilities` | `leader_eligibility_keywords` | `unit_models` | `unit_point_costs` | `unit_profile_stats` | `unit_profiles` | `unit_weapons` | `models` |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Adepta Sororitas | 1 / 1 | 46 / 46 | 8 / 8 | 5 / 5 | 59 / 59 | 0 / ? | 36 / 77 | 47 / 53 | 258 / 258 | 43 / 43 | 195 / 113 | 36 / 76 |
-| Adeptus Custodes | 1 / 1 | 34 / 34 | 7 / 7 | 6 / 6 | 22 / 22 | 0 / ? | 21 / 53 | 49 / 76 | 186 / 246 | 31 / 41 | 93 / 114 | 21 / 53 |
-| Adeptus Mechanicus | 1 / 1 | 41 / 41 | 7 / 7 | 7 / 7 | 37 / 37 | 0 / ? | 34 / 88 | 55 / 83 | 222 / 282 | 37 / 47 | 145 / 148 | 34 / 88 |
-| Astra Militarum | 1 / 1 | 137 / 137 | 10 / 10 | 9 / 9 | 69 / 69 | 0 / ? | 133 / 258 | 152 / 153 | 858 / 900 | 143 / 150 | 853 / 194 | 130 / 235 |
-| Grey Knights | 1 / 1 | 35 / 35 | 7 / 7 | 6 / 6 | 22 / 22 | 0 / ? | 27 / 60 | 41 / 52 | 186 / 210 | 31 / 35 | 179 / 33 | 26 / 57 |
-| Imperial Agents | 1 / 1 | 55 / 55 | 8 / 8 | 5 / 5 | 71 / 71 | 0 / ? | 51 / 150 | 40 / 82 | 330 / 564 | 55 / 94 | 306 / 202 | 45 / 149 |
-| Imperial Knights | 1 / 1 | 22 / 22 | 7 / 7 | 6 / 6 | 0 / 0 | 0 / ? | 21 / 23 | 21 / 22 | 132 / 138 | 22 / 23 | 142 / 69 | 20 / 23 |
-| Space Marines | 1 / 1 | 128 / 128 | 11 / 11 | 13 / 13 | 122 / 122 | 0 / ? | 247 / 199 | 349 / 166 | 1782 / 1194 | 297 / 199 | 1878 / 186 | 232 / 195 |
-| Black Templars | 1 / 1 | 139 / 139 | 3 / 3 | 15 / 15 | 157 / 157 | 0 / ? | 0 / 225 | 0 / 185 | 0 / 1350 | 0 / 225 | 0 / 218 | 0 / 219 |
-| Blood Angels | 1 / 1 | 155 / 155 | 3 / 3 | 18 / 18 | 173 / 173 | 0 / ? | 0 / 233 | 0 / 200 | 0 / 1356 | 0 / 226 | 0 / 234 | 0 / 223 |
-| Dark Angels | 1 / 1 | 147 / 147 | 3 / 3 | 18 / 18 | 166 / 166 | 0 / ? | 0 / 234 | 0 / 189 | 0 / 1404 | 0 / 234 | 0 / 284 | 0 / 228 |
-| Deathwatch | 1 / 1 | 144 / 144 | 1 / 1 | 14 / 14 | 126 / 126 | 0 / ? | 0 / 264 | 0 / 181 | 0 / 1440 | 0 / 240 | 0 / 251 | 0 / 259 |
-| Imperial Fists | 1 / 1 | 131 / 131 | 2 / 2 | 14 / 14 | 131 / 131 | 0 / ? | 0 / 202 | 0 / 169 | 0 / 1212 | 0 / 202 | 0 / 191 | 0 / 198 |
-| Iron Hands | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 127 / 127 | 0 / ? | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 191 | 0 / 197 |
-| Raven Guard | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 124 / 124 | 0 / ? | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 189 | 0 / 197 |
-| Salamanders | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 133 / 133 | 0 / ? | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 190 | 0 / 197 |
-| Space Wolves | 1 / 1 | 170 / 170 | 3 / 3 | 18 / 18 | 164 / 164 | 0 / ? | 0 / 281 | 0 / 219 | 0 / 1614 | 0 / 269 | 0 / 274 | 0 / 271 |
-| Ultramarines | 1 / 1 | 145 / 145 | 3 / 3 | 15 / 15 | 194 / 194 | 0 / ? | 0 / 227 | 0 / 184 | 0 / 1326 | 0 / 221 | 0 / 226 | 0 / 220 |
-| White Scars | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 129 / 129 | 0 / ? | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 190 | 0 / 197 |
-| Chaos Daemons | 1 / 1 | 71 / 71 | 8 / 8 | 6 / 6 | 29 / 29 | 0 / ? | 46 / 79 | 80 / 138 | 408 / 414 | 68 / 69 | 177 / 155 | 46 / 79 |
-| Chaos Knights | 1 / 1 | 20 / 20 | 8 / 8 | 6 / 6 | 0 / 0 | 0 / ? | 20 / 20 | 20 / 37 | 120 / 120 | 20 / 20 | 112 / 64 | 20 / 20 |
-| Chaos Space Marines | 1 / 1 | 84 / 84 | 12 / 12 | 15 / 15 | 73 / 73 | 0 / ? | 88 / 184 | 99 / 158 | 564 / 750 | 94 / 125 | 504 / 320 | 85 / 180 |
-| Death Guard | 1 / 1 | 50 / 50 | 6 / 6 | 7 / 7 | 29 / 29 | 0 / ? | 35 / 75 | 52 / 70 | 240 / 306 | 40 / 51 | 165 / 143 | 34 / 75 |
-| Emperor's Children | 1 / 1 | 26 / 26 | 7 / 7 | 7 / 7 | 15 / 15 | 0 / ? | 22 / 43 | 28 / 49 | 138 / 174 | 23 / 29 | 104 / 65 | 21 / 42 |
-| Thousand Sons | 1 / 1 | 42 / 42 | 7 / 7 | 6 / 6 | 17 / 17 | 0 / ? | 29 / 55 | 42 / 71 | 222 / 276 | 37 / 46 | 157 / 137 | 27 / 53 |
-| World Eaters | 1 / 1 | 35 / 35 | 6 / 6 | 6 / 6 | 13 / 13 | 0 / ? | 30 / 55 | 37 / 70 | 180 / 204 | 30 / 34 | 127 / 70 | 30 / 55 |
-| Aeldari | 1 / 1 | 100 / 100 | 7 / 7 | 12 / 12 | 63 / 63 | 0 / ? | 70 / 177 | 130 / 162 | 654 / 654 | 109 / 109 | 479 / 485 | 70 / 172 |
-| Drukhari | 1 / 1 | 48 / 48 | 8 / 8 | 6 / 6 | 19 / 19 | 0 / ? | 34 / 123 | 39 / 82 | 204 / 282 | 34 / 47 | 140 / 280 | 32 / 117 |
-| Genestealer Cults | 1 / 1 | 28 / 28 | 12 / 12 | 6 / 6 | 41 / 41 | 0 / ? | 22 / 46 | 33 / 42 | 156 / 210 | 26 / 35 | 84 / 30 | 21 / 44 |
-| Leagues of Votann | 1 / 1 | 25 / 25 | 7 / 7 | 7 / 7 | 16 / 16 | 0 / ? | 20 / 53 | 29 / 47 | 150 / 186 | 25 / 31 | 105 / 99 | 19 / 50 |
-| Necrons | 1 / 1 | 66 / 66 | 8 / 8 | 9 / 9 | 46 / 46 | 0 / ? | 37 / 78 | 84 / 88 | 390 / 402 | 65 / 67 | 160 / 150 | 37 / 77 |
-| Orks | 1 / 1 | 98 / 98 | 9 / 9 | 11 / 11 | 61 / 61 | 0 / ? | 69 / 145 | 105 / 112 | 570 / 726 | 95 / 121 | 381 / 134 | 64 / 140 |
-| T'au | 1 / 1 | 66 / 66 | 7 / 7 | 6 / 6 | 33 / 33 | 0 / ? | 58 / 96 | 78 / 83 | 390 / 504 | 65 / 84 | 294 / 128 | 58 / 94 |
-| Tyranids | 1 / 1 | 63 / 63 | 9 / 9 | 8 / 8 | 20 / 20 | 0 / ? | 38 / 74 | 79 / 93 | 348 / 378 | 58 / 63 | 139 / 97 | 36 / 68 |
+| Adepta Sororitas | 1 / 1 | 46 / 46 | 8 / 8 | 5 / 5 | 59 / 59 | 0 / 0 | 36 / 77 | 47 / 53 | 258 / 258 | 43 / 43 | 195 / 113 | 36 / 76 |
+| Adeptus Custodes | 1 / 1 | 34 / 34 | 7 / 7 | 6 / 6 | 22 / 22 | 0 / 0 | 21 / 53 | 49 / 76 | 186 / 246 | 31 / 41 | 93 / 114 | 21 / 53 |
+| Adeptus Mechanicus | 1 / 1 | 41 / 41 | 7 / 7 | 7 / 7 | 37 / 37 | 2 / 2 | 34 / 88 | 55 / 83 | 222 / 282 | 37 / 47 | 145 / 148 | 34 / 88 |
+| Astra Militarum | 1 / 1 | 137 / 137 | 10 / 10 | 9 / 9 | 69 / 69 | 2 / 2 | 133 / 258 | 152 / 153 | 858 / 900 | 143 / 150 | 853 / 194 | 130 / 235 |
+| Grey Knights | 1 / 1 | 35 / 35 | 7 / 7 | 6 / 6 | 22 / 22 | 0 / 0 | 27 / 60 | 41 / 52 | 186 / 210 | 31 / 35 | 179 / 33 | 26 / 57 |
+| Imperial Agents | 1 / 1 | 55 / 55 | 8 / 8 | 5 / 5 | 71 / 71 | 21 / 21 | 51 / 150 | 40 / 82 | 330 / 564 | 55 / 94 | 306 / 202 | 45 / 149 |
+| Imperial Knights | 1 / 1 | 22 / 22 | 7 / 7 | 6 / 6 | 0 / 0 | 0 / 0 | 21 / 23 | 21 / 22 | 132 / 138 | 22 / 23 | 142 / 69 | 20 / 23 |
+| Space Marines | 1 / 1 | 128 / 128 | 11 / 11 | 13 / 13 | 122 / 122 | 2 / 2 | 247 / 199 | 349 / 166 | 1782 / 1194 | 297 / 199 | 1878 / 186 | 232 / 195 |
+| Black Templars | 1 / 1 | 139 / 139 | 3 / 3 | 15 / 15 | 157 / 157 | 2 / 2 | 0 / 225 | 0 / 185 | 0 / 1350 | 0 / 225 | 0 / 218 | 0 / 219 |
+| Blood Angels | 1 / 1 | 155 / 155 | 3 / 3 | 18 / 18 | 173 / 173 | 2 / 2 | 0 / 233 | 0 / 200 | 0 / 1356 | 0 / 226 | 0 / 234 | 0 / 223 |
+| Dark Angels | 1 / 1 | 147 / 147 | 3 / 3 | 18 / 18 | 166 / 166 | 2 / 2 | 0 / 234 | 0 / 189 | 0 / 1404 | 0 / 234 | 0 / 284 | 0 / 228 |
+| Deathwatch | 1 / 1 | 144 / 144 | 1 / 1 | 14 / 14 | 126 / 126 | 2 / 2 | 0 / 264 | 0 / 181 | 0 / 1440 | 0 / 240 | 0 / 251 | 0 / 259 |
+| Imperial Fists | 1 / 1 | 131 / 131 | 2 / 2 | 14 / 14 | 131 / 131 | 2 / 2 | 0 / 202 | 0 / 169 | 0 / 1212 | 0 / 202 | 0 / 191 | 0 / 198 |
+| Iron Hands | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 127 / 127 | 2 / 2 | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 191 | 0 / 197 |
+| Raven Guard | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 124 / 124 | 2 / 2 | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 189 | 0 / 197 |
+| Salamanders | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 133 / 133 | 2 / 2 | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 190 | 0 / 197 |
+| Space Wolves | 1 / 1 | 170 / 170 | 3 / 3 | 18 / 18 | 164 / 164 | 2 / 2 | 0 / 281 | 0 / 219 | 0 / 1614 | 0 / 269 | 0 / 274 | 0 / 271 |
+| Ultramarines | 1 / 1 | 145 / 145 | 3 / 3 | 15 / 15 | 194 / 194 | 2 / 2 | 0 / 227 | 0 / 184 | 0 / 1326 | 0 / 221 | 0 / 226 | 0 / 220 |
+| White Scars | 1 / 1 | 130 / 130 | 2 / 2 | 14 / 14 | 129 / 129 | 2 / 2 | 0 / 201 | 0 / 168 | 0 / 1206 | 0 / 201 | 0 / 190 | 0 / 197 |
+| Chaos Daemons | 1 / 1 | 71 / 71 | 8 / 8 | 6 / 6 | 29 / 29 | 24 / 24 | 46 / 79 | 80 / 138 | 408 / 414 | 68 / 69 | 177 / 155 | 46 / 79 |
+| Chaos Knights | 1 / 1 | 20 / 20 | 8 / 8 | 6 / 6 | 0 / 0 | 0 / 0 | 20 / 20 | 20 / 37 | 120 / 120 | 20 / 20 | 112 / 64 | 20 / 20 |
+| Chaos Space Marines | 1 / 1 | 84 / 84 | 12 / 12 | 15 / 15 | 73 / 73 | 0 / 0 | 88 / 184 | 99 / 158 | 564 / 750 | 94 / 125 | 504 / 320 | 85 / 180 |
+| Death Guard | 1 / 1 | 50 / 50 | 6 / 6 | 7 / 7 | 27 / 27 | 0 / 0 | 35 / 75 | 52 / 70 | 240 / 306 | 40 / 51 | 165 / 143 | 34 / 75 |
+| Emperor's Children | 1 / 1 | 26 / 26 | 7 / 7 | 7 / 7 | 15 / 15 | 2 / 2 | 22 / 43 | 28 / 49 | 138 / 174 | 23 / 29 | 104 / 65 | 21 / 42 |
+| Thousand Sons | 1 / 1 | 42 / 42 | 7 / 7 | 6 / 6 | 17 / 17 | 0 / 0 | 29 / 55 | 42 / 71 | 222 / 276 | 37 / 46 | 157 / 137 | 27 / 53 |
+| World Eaters | 1 / 1 | 35 / 35 | 6 / 6 | 6 / 6 | 13 / 13 | 0 / 0 | 30 / 55 | 37 / 70 | 180 / 204 | 30 / 34 | 127 / 70 | 30 / 55 |
+| Aeldari | 1 / 1 | 100 / 100 | 7 / 7 | 12 / 12 | 63 / 63 | 0 / 0 | 70 / 177 | 130 / 162 | 654 / 654 | 109 / 109 | 479 / 485 | 70 / 172 |
+| Drukhari | 1 / 1 | 48 / 48 | 8 / 8 | 6 / 6 | 19 / 19 | 0 / 0 | 34 / 123 | 39 / 82 | 204 / 282 | 34 / 47 | 140 / 280 | 32 / 117 |
+| Genestealer Cults | 1 / 1 | 28 / 28 | 12 / 12 | 6 / 6 | 41 / 41 | 7 / 7 | 22 / 46 | 33 / 42 | 156 / 210 | 26 / 35 | 84 / 30 | 21 / 44 |
+| Leagues of Votann | 1 / 1 | 25 / 25 | 7 / 7 | 7 / 7 | 16 / 16 | 0 / 0 | 20 / 53 | 29 / 47 | 150 / 186 | 25 / 31 | 105 / 99 | 19 / 50 |
+| Necrons | 1 / 1 | 66 / 66 | 8 / 8 | 9 / 9 | 46 / 46 | 0 / 0 | 37 / 78 | 84 / 88 | 390 / 402 | 65 / 67 | 160 / 150 | 37 / 77 |
+| Orks | 1 / 1 | 98 / 98 | 9 / 9 | 11 / 11 | 61 / 61 | 0 / 0 | 69 / 145 | 105 / 112 | 570 / 726 | 95 / 121 | 381 / 134 | 64 / 140 |
+| T'au | 1 / 1 | 66 / 66 | 7 / 7 | 6 / 6 | 33 / 33 | 0 / 0 | 58 / 96 | 78 / 83 | 390 / 504 | 65 / 84 | 294 / 128 | 58 / 94 |
+| Tyranids | 1 / 1 | 63 / 63 | 9 / 9 | 8 / 8 | 20 / 20 | 0 / 0 | 38 / 74 | 79 / 93 | 348 / 378 | 58 / 63 | 139 / 97 | 36 / 68 |
 
 ## Column Totals
 
@@ -67,8 +67,8 @@ These totals are row sums from the matrix above. They are useful for coverage tr
 | `rules_faction_units` | 2871 / 2871 |
 | `rules_faction_sources` | 212 / 212 |
 | `rules_faction_detachments` | 343 / 343 |
-| `leader_eligibilities` | 2501 / 2501 |
-| `leader_eligibility_keywords` | 0 / ? |
+| `leader_eligibilities` | 2499 / 2499 |
+| `leader_eligibility_keywords` | 82 / 82 |
 | `unit_models` | 1188 / 4681 |
 | `unit_point_costs` | 1689 / 3988 |
 | `unit_profile_stats` | 8688 / 23904 |
@@ -81,12 +81,12 @@ These totals are row sums from the matrix above. They are useful for coverage tr
 - `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.
 - `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.
 - `rules_faction_detachments` expected counts come from BSData Detachment choices visible to each mapped faction catalog. Space Marine chapter factions include shared Codex Space Marines detachments plus chapter-visible exclusive detachments.
-- `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null` and will receive child keyword rows in the `leader_eligibility_keywords` slice.
+- `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null`.
+- `leader_eligibility_keywords` expected counts come from the keyword requirements extracted from BSData keyword-predicate Leader targets. Unsupported prose-only predicates remain out of this column until the schema can express them safely.
 - `unit_models` and `models` expected counts come from BSData model selection entries within each expected unit. Single-model unit entries count as one model when they do not contain nested model selections.
 - `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.
 - `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.
 - `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.
-- `leader_eligibility_keywords` remains `?` because its BSData structures need table-specific mapping rules before the counts are comparable.
 
 ## Table Completion Workflow
 
@@ -123,7 +123,7 @@ Use this loop for each dataset/table family before moving on to the next one:
 | `rules_faction_sources` | Filled from curated GW PDF, Warhammer Community download, and Wahapedia source-applicability seed rows; guarded by the `rules_faction_sources` contract test. |
 | `rules_faction_detachments` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
 | `leader_eligibilities` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
-| `leader_eligibility_keywords` | BSData expected-count extractor is pending; cells show `?`. |
+| `leader_eligibility_keywords` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
 | `unit_models` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
 | `unit_point_costs` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
 | `unit_profile_stats` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |

@@ -117,24 +117,6 @@ export const MalignantPlaguecasterPoxwalkersLeaderEligibility: LeaderEligibility
 };
 
 
-export const NoxiousBlightbringerKeywordEvenIfOneOtherLeaderUnitHasAlreadyBeenAttachedToItLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("noxious_blightbringer__keyword_even_if_one_other_leader_unit_has_already_been_attached_to_it"),
-  leader_unit_id: unitId("noxious_blightbringer"),
-  target_unit_id: null,
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
-};
-
-
-export const NoxiousBlightbringerKeywordYouCanAttachThisModelToAPlagueMarinesOrPoxwalkersUnitLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("noxious_blightbringer__keyword_you_can_attach_this_model_to_a_plague_marines_or_poxwalkers_unit"),
-  leader_unit_id: unitId("noxious_blightbringer"),
-  target_unit_id: null,
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
-};
-
-
 export const NoxiousBlightbringerPlagueMarinesLeaderEligibility: LeaderEligibilityConfig = {
   id: leaderEligibilityId("noxious_blightbringer__plague_marines"),
   leader_unit_id: unitId("noxious_blightbringer"),
@@ -249,8 +231,6 @@ export const deathGuardLeaderEligibilities10e: SeedDataset<"leader_eligibilities
     LordOfVirulenceDeathshroudTerminatorsLeaderEligibility,
     MalignantPlaguecasterPlagueMarinesLeaderEligibility,
     MalignantPlaguecasterPoxwalkersLeaderEligibility,
-    NoxiousBlightbringerKeywordEvenIfOneOtherLeaderUnitHasAlreadyBeenAttachedToItLeaderEligibility,
-    NoxiousBlightbringerKeywordYouCanAttachThisModelToAPlagueMarinesOrPoxwalkersUnitLeaderEligibility,
     NoxiousBlightbringerPlagueMarinesLeaderEligibility,
     NoxiousBlightbringerPoxwalkersLeaderEligibility,
     PlagueLordCruciblePlagueMarinesLeaderEligibility,

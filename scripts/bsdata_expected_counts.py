@@ -197,10 +197,12 @@ LEADER_TARGET_SLUG_ALIASES = {
     "legionaires": "legionaries",
     "plague_bearers": "plaguebearers",
     "raiders": "red_corsairs_raiders",
+    "acolyte_hybrids_with_handflamers": "acolyte_hybrids_with_hand_flamers",
     "storm_guardian": "storm_guardians",
     "sternguard_veterans_squad": "sternguard_veteran_squad",
     "sword_brethren": "sword_brethren_squad",
     "traitor_guardsman_squad": "traitor_guardsmen_squad",
+    "wolfguard_headtakers": "wolf_guard_headtakers",
 }
 
 UNIT_MEMBERSHIP_OVERRIDES = {
@@ -214,6 +216,18 @@ UNIT_MEMBERSHIP_OVERRIDES = {
         "unit_access_type": "exclusive",
     },
 }
+
+LEADER_TARGET_KEYWORD_ALIASES = {
+    "acolyte_hybrids": ["acolyte_hybrids"],
+    "astra_militarum_battleline": ["astra_militarum", "battleline"],
+    "electro_priests": ["electro_priests"],
+    "emperors_children_terminator_squad": ["emperors_children", "terminator_squad"],
+    "imperium_battleline_infantry": ["imperium", "battleline", "infantry"],
+    "kataphrons": ["kataphron"],
+    "tacticus": ["tacticus"],
+}
+
+CHAOS_DAEMON_GOD_KEYWORDS = {"khorne", "nurgle", "slaanesh", "tzeentch"}
 
 
 class BsDataIndex:
@@ -275,6 +289,11 @@ def main() -> None:
         help="Emit expected leader_eligibilities memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-leader-eligibility-keywords",
+        action="store_true",
+        help="Emit expected leader_eligibility_keywords memberships instead of counts.",
+    )
+    parser.add_argument(
         "--repo-root",
         default=str(Path(__file__).resolve().parents[1]),
         help="Repository root used to load current seed unit slugs for slug aliases.",
@@ -294,6 +313,10 @@ def main() -> None:
         records = expected_leader_eligibilities(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_leader_eligibility_keywords:
+        records = expected_leader_eligibility_keywords(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
 
     seed_unit_slugs = load_seed_unit_slugs(Path(args.repo_root))
     result = {
@@ -309,6 +332,12 @@ def main() -> None:
     )
     for slug, count in leader_eligibility_counts.items():
         result[slug]["leader_eligibilities"] = count
+    leader_eligibility_keyword_counts = expected_leader_eligibility_keyword_counts(
+        index,
+        Path(args.repo_root),
+    )
+    for slug, count in leader_eligibility_keyword_counts.items():
+        result[slug]["leader_eligibility_keywords"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -642,6 +671,93 @@ def expected_leader_eligibilities(
     )
 
 
+def expected_leader_eligibility_keyword_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_leader_eligibility_keywords(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_leader_eligibility_keywords(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    seed_keyword_slugs = load_seed_keyword_slugs(repo_root)
+    records: list[dict[str, str]] = []
+
+    for record in expected_leader_eligibilities(index, repo_root):
+        if record["target_kind"] != "keyword_predicate":
+            continue
+
+        keyword_slugs = leader_target_keyword_slugs(record, seed_keyword_slugs)
+        for keyword_slug in keyword_slugs:
+            leader_eligibility_slug = str(record["leader_eligibility_slug"])
+            records.append(
+                {
+                    "rules_faction_slug": str(record["rules_faction_slug"]),
+                    "leader_eligibility_slug": leader_eligibility_slug,
+                    "leader_eligibility_keyword_slug": (
+                        f"{leader_eligibility_slug}__{keyword_slug}"
+                    ),
+                    "keyword_slug": keyword_slug,
+                    "source_owner_slug": str(record["source_owner_slug"]),
+                    "target_text": str(record["target_text"]),
+                },
+            )
+
+    return sorted(
+        records,
+        key=lambda record: (
+            record["rules_faction_slug"],
+            record["leader_eligibility_keyword_slug"],
+        ),
+    )
+
+
+def leader_target_keyword_slugs(
+    record: dict[str, str | None],
+    seed_keyword_slugs: set[str],
+) -> list[str]:
+    leader_unit_slug = str(record["leader_unit_slug"])
+    target_slug = str(record["leader_eligibility_slug"]).split("__keyword_", 1)[1]
+
+    if leader_unit_slug == "daemonic_charioteer_crucible":
+        god_keyword = daemon_god_keyword(target_slug)
+        if god_keyword:
+            return ["mounted", "daemon", god_keyword]
+
+    if leader_unit_slug == "daemonic_herald_crucible":
+        god_keyword = daemon_god_keyword(target_slug)
+        if god_keyword:
+            return ["infantry", "daemon", god_keyword]
+
+    keyword_slugs = LEADER_TARGET_KEYWORD_ALIASES.get(target_slug)
+    if keyword_slugs is None and target_slug in seed_keyword_slugs:
+        keyword_slugs = [target_slug]
+
+    if keyword_slugs is None:
+        return []
+
+    return [
+        keyword_slug
+        for keyword_slug in keyword_slugs
+        if keyword_slug in seed_keyword_slugs
+    ]
+
+
+def daemon_god_keyword(target_slug: str) -> str | None:
+    for god_keyword in CHAOS_DAEMON_GOD_KEYWORDS:
+        if target_slug == god_keyword or target_slug.endswith(f"_{god_keyword}"):
+            return god_keyword
+
+    return None
+
+
 def rules_source_slug_for_catalog_file(filename: str, faction_slug: str) -> str:
     return RULES_SOURCE_BY_CATALOG_FILE.get(
         filename,
@@ -745,7 +861,7 @@ def leader_bullet_items(raw_list: str) -> list[str]:
 
 def leader_inline_items(raw_list: str) -> list[str]:
     text = re.split(
-        r"\s+(?:This model|This unit|You can|If you|If a|While this model|In addition)\b",
+        r"\s+\*?(?:This model|This unit|You can|If you|If a|While this model|In addition)\b",
         raw_list,
         maxsplit=1,
     )[0]
@@ -1016,6 +1132,16 @@ def load_seed_unit_slugs(repo_root: Path) -> set[str]:
         return set()
 
     return set(re.findall(r'unit_slug: "([^"]+)"', units_path.read_text()))
+
+
+def load_seed_keyword_slugs(repo_root: Path) -> set[str]:
+    keywords_path = repo_root / "db/seed_config/seed/data/keywords.data.ts"
+    if not keywords_path.exists():
+        return set()
+
+    return set(
+        re.findall(r'keyword_slug: "([^"]+)"', keywords_path.read_text()),
+    )
 
 
 def seed_unit_slug(name: str, seed_unit_slugs: set[str]) -> str:

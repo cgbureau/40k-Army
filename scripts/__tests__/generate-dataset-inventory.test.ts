@@ -71,9 +71,11 @@ describe("dataset inventory generator", () => {
     expect(spaceMarines?.cells.rules_faction_units.expected).toBe("128");
     expect(inventory.columnTotals.rules_faction_sources.expected).toBe("212");
     expect(inventory.columnTotals.rules_faction_detachments.expected).toBe("343");
-    expect(inventory.columnTotals.leader_eligibilities.expected).toBe("2501");
+    expect(inventory.columnTotals.leader_eligibilities.expected).toBe("2499");
+    expect(inventory.columnTotals.leader_eligibility_keywords.expected).toBe("82");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
     expect(spaceMarines?.cells.leader_eligibilities.expected).toBe("122");
+    expect(spaceMarines?.cells.leader_eligibility_keywords.expected).toBe("2");
     expect(spaceMarines?.cells.unit_profiles.expected).toBe("199");
     expect(spaceMarines?.cells.unit_profile_stats.expected).toBe("1194");
     expect(bloodAngels?.cells.rules_faction_units.expected).toBe("155");

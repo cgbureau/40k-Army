@@ -72,10 +72,10 @@ export const IronPriestGreyHuntersLeaderEligibility: LeaderEligibilityConfig = {
 };
 
 
-export const IronPriestKeywordWolfguardHeadtakersLeaderEligibility: LeaderEligibilityConfig = {
-  id: leaderEligibilityId("iron_priest__keyword_wolfguard_headtakers"),
+export const IronPriestWolfGuardHeadtakersLeaderEligibility: LeaderEligibilityConfig = {
+  id: leaderEligibilityId("iron_priest__wolf_guard_headtakers"),
   leader_unit_id: unitId("iron_priest"),
-  target_unit_id: null,
+  target_unit_id: unitId("wolf_guard_headtakers"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_supplement_space_wolves_10e"),
 };
@@ -397,7 +397,7 @@ export const spaceWolvesLeaderEligibilities10e: SeedDataset<"leader_eligibilitie
     HaraldDeathwolfThunderwolfCavalryLeaderEligibility,
     IronPriestBloodClawsLeaderEligibility,
     IronPriestGreyHuntersLeaderEligibility,
-    IronPriestKeywordWolfguardHeadtakersLeaderEligibility,
+    IronPriestWolfGuardHeadtakersLeaderEligibility,
     IronPriestOnThunderwolfThunderwolfCavalryLeaderEligibility,
     KromDragongazeBloodClawsLeaderEligibility,
     KromDragongazeGreyHuntersLeaderEligibility,
