@@ -177,7 +177,7 @@ For application/import purposes, 40karmy currently targets 34 factions.
 
 ### 40karmy Target List
 
-#### Imperium - 7 Factions
+#### Imperium Target List - 7 Factions
 
 - Adepta Sororitas
 - Adeptus Custodes
@@ -187,7 +187,7 @@ For application/import purposes, 40karmy currently targets 34 factions.
 - Imperial Agents
 - Imperial Knights
 
-#### Space Marines - 12 Factions
+#### Space Marines Target List - 12 Factions
 
 - Space Marines
 - Black Templars
@@ -202,7 +202,7 @@ For application/import purposes, 40karmy currently targets 34 factions.
 - Ultramarines
 - White Scars
 
-#### Chaos - 7 Factions
+#### Chaos Target List - 7 Factions
 
 - Chaos Daemons
 - Chaos Knights
@@ -212,7 +212,7 @@ For application/import purposes, 40karmy currently targets 34 factions.
 - Thousand Sons
 - World Eaters
 
-#### Xenos - 8 Factions
+#### Xenos Target List - 8 Factions
 
 - Aeldari
 - Drukhari
@@ -236,18 +236,18 @@ source being compared:
 Those are two different 38-count inputs that converge on the same 36-count app
 list.
 
-### Imperium - 8 Factions
+### Imperium Count- 8 Factions
 
 The Imperium mirrors the above list, except they move Grey Knights from Space Marines to Imperium.
 
-### Space Marines - 12 Factions
+### Space Marines Count - 12 Factions
 
 The Space Marines list on New Recruit is the same as above, except they lose Grey Knights to the Imperium list.
 
-### Chaos - 8 Factions
+### Chaos Count - 8 Factions
 
 Chaos sees the biggest change, as they lose Iron Warriors and Red Corsairs as separate factions, which is understandable--they are, essentially, Chaos Space Marines detachment factions. One could argue that they are identical to White Scars, Salamanders, Raven Guard, etc.--but whatever.
 
-### Xenos - 8 Factions
+### Xenos Count - 8 Factions
 
 The list is identical
