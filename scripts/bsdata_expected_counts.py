@@ -1322,10 +1322,19 @@ def display_detachment_name(name: str) -> str:
 
 def load_seed_unit_slugs(repo_root: Path) -> set[str]:
     units_path = repo_root / "db/seed_config/seed/data/units.data.ts"
-    if not units_path.exists():
-        return set()
+    units_root = repo_root / "db/seed_config/seed/data/units"
+    sources: list[str] = []
 
-    return set(re.findall(r'unit_slug: "([^"]+)"', units_path.read_text()))
+    if units_path.exists():
+        sources.append(units_path.read_text())
+
+    if units_root.exists():
+        for path in sorted(units_root.rglob("*.data.ts")):
+            if path.name.startswith("_index."):
+                continue
+            sources.append(path.read_text())
+
+    return set(re.findall(r'unit_slug: "([^"]+)"', "\n".join(sources)))
 
 
 def load_seed_keyword_slugs(repo_root: Path) -> set[str]:
