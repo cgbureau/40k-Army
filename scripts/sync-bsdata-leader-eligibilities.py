@@ -7,6 +7,7 @@ import argparse
 import re
 from collections import OrderedDict
 from pathlib import Path
+from typing import Iterable
 
 from bsdata_expected_counts import (
     BsDataIndex,
@@ -15,7 +16,9 @@ from bsdata_expected_counts import (
 
 DEFAULT_BSDATA_ROOT = Path("/Users/mikeearley/code/wh40k-10e")
 REPO_ROOT = Path(__file__).resolve().parents[1]
-OUTPUT_PATH = REPO_ROOT / "db/seed_config/seed/data/leader_eligibilities.data.ts"
+DATA_ROOT = REPO_ROOT / "db/seed_config/seed/data"
+OUTPUT_PATH = DATA_ROOT / "leader_eligibilities.data.ts"
+SHARD_ROOT = DATA_ROOT / "leader_eligibilities/10e"
 
 
 def main() -> None:
@@ -30,40 +33,103 @@ def main() -> None:
     for record in expected_records:
         records_by_slug.setdefault(record["leader_eligibility_slug"], record)
 
-    previous_count = count_seed_records(OUTPUT_PATH)
-    OUTPUT_PATH.write_text(render_file(list(records_by_slug.values())))
+    previous_count = count_seed_records(OUTPUT_PATH) + count_seed_records(
+        SHARD_ROOT,
+    )
+    groups = group_records_by_owner(records_by_slug.values())
+    write_sharded_files(groups)
+    OUTPUT_PATH.write_text(render_root_file())
 
     print(
         {
-            "leader_eligibilities": len(records_by_slug),
+            "leader_eligibilities": sum(len(records) for records in groups.values()),
             "previous_leader_eligibilities": previous_count,
             "faction_memberships": len(expected_records),
+            "shards": len(groups),
         },
     )
+
+
+def group_records_by_owner(
+    records: Iterable[dict[str, str | None]],
+) -> "OrderedDict[str, list[dict[str, str | None]]]":
+    groups: "OrderedDict[str, list[dict[str, str | None]]]" = OrderedDict()
+
+    for record in records:
+        owner_slug = str(record["source_owner_slug"])
+        groups.setdefault(owner_slug, []).append(record)
+
+    return OrderedDict(sorted(groups.items()))
 
 
 def count_seed_records(path: Path) -> int:
     if not path.exists():
         return 0
 
-    return len(re.findall(r"LeaderEligibilityConfig = \{", path.read_text()))
+    if path.is_file():
+        return len(re.findall(r"LeaderEligibilityConfig = \{", path.read_text()))
+
+    return sum(count_seed_records(file_path) for file_path in path.glob("*.data.ts"))
 
 
-def render_file(records: list[dict[str, str | None]]) -> str:
+def write_sharded_files(
+    groups: "OrderedDict[str, list[dict[str, str | None]]]",
+) -> None:
+    SHARD_ROOT.mkdir(parents=True, exist_ok=True)
+
+    for existing_path in SHARD_ROOT.glob("*.data.ts"):
+        existing_path.unlink()
+
+    for owner_slug, records in groups.items():
+        (SHARD_ROOT / f"{owner_slug}.data.ts").write_text(
+            render_shard_file(owner_slug, records),
+        )
+
+    (SHARD_ROOT / "_index.leader_eligibilities.data.ts").write_text(
+        render_edition_index(groups),
+    )
+    (SHARD_ROOT.parent / "_index.leader_eligibilities.data.ts").write_text(
+        'export * from "./10e/_index.leader_eligibilities.data";\n',
+    )
+
+
+def render_root_file() -> str:
+    return "\n".join(
+        [
+            'import type { SeedDataset } from "../../types/_index.types";',
+            'import { leaderEligibilities10e } from "./leader_eligibilities/10e/_index.leader_eligibilities.data";',
+            "",
+            "/**",
+            " * Typed seed dataset for the `leader_eligibilities` table.",
+            " */",
+            'export const leaderEligibilitiesDataset: SeedDataset<"leader_eligibilities"> = {',
+            '  table: "leader_eligibilities",',
+            "  records: [...leaderEligibilities10e],",
+            "};",
+            "",
+        ],
+    )
+
+
+def render_shard_file(
+    owner_slug: str,
+    records: list[dict[str, str | None]],
+) -> str:
     const_names = [
         f"{identifier_pascal_case(str(record['leader_eligibility_slug']))}LeaderEligibility"
         for record in records
     ]
+    dataset_name = f"{identifier_camel_case(owner_slug)}LeaderEligibilities10e"
 
     lines = [
         "import type {",
         "  LeaderEligibilityConfig,",
         "  SeedDataset,",
-        '} from "../../types/_index.types";',
-        'import { gameEditionId, leaderEligibilityId, rulesSourceId, unitId } from "../ids";',
+        '} from "../../../../types/_index.types";',
+        'import { gameEditionId, leaderEligibilityId, rulesSourceId, unitId } from "../../../ids";',
         "",
         "/**",
-        " * Typed seed dataset for the `leader_eligibilities` table.",
+        f" * 10th edition leader eligibility rows owned by `{owner_slug}`.",
         " * Generated from BSData Leader ability profiles.",
         " */",
         "",
@@ -92,7 +158,7 @@ def render_file(records: list[dict[str, str | None]]) -> str:
 
     lines.extend(
         [
-            'export const leaderEligibilitiesDataset: SeedDataset<"leader_eligibilities"> = {',
+            f'export const {dataset_name}: SeedDataset<"leader_eligibilities"> = {{',
             '  table: "leader_eligibilities",',
             "  records: [",
         ],
@@ -109,6 +175,35 @@ def render_file(records: list[dict[str, str | None]]) -> str:
     return "\n".join(lines)
 
 
+def render_edition_index(
+    groups: "OrderedDict[str, list[dict[str, str | None]]]",
+) -> str:
+    imports = [
+        'import type { LeaderEligibilityConfig } from "../../../../types/_index.types";',
+    ]
+    dataset_names = []
+
+    for owner_slug in groups:
+        dataset_name = f"{identifier_camel_case(owner_slug)}LeaderEligibilities10e"
+        dataset_names.append(dataset_name)
+        imports.append(f'import {{ {dataset_name} }} from "./{owner_slug}.data";')
+
+    lines = [
+        *imports,
+        "",
+        "export const leaderEligibilities10e = [",
+    ]
+    lines.extend(f"  ...{dataset_name}.records," for dataset_name in dataset_names)
+    lines.extend(
+        [
+            "] satisfies LeaderEligibilityConfig[];",
+            "",
+        ],
+    )
+
+    return "\n".join(lines)
+
+
 def identifier_pascal_case(slug: str) -> str:
     parts = re.findall(r"[a-zA-Z0-9]+", slug)
     identifier = "".join(part[:1].upper() + part[1:] for part in parts)
@@ -117,6 +212,11 @@ def identifier_pascal_case(slug: str) -> str:
         return f"Seed{identifier}"
 
     return identifier
+
+
+def identifier_camel_case(slug: str) -> str:
+    identifier = identifier_pascal_case(slug)
+    return identifier[:1].lower() + identifier[1:]
 
 
 if __name__ == "__main__":

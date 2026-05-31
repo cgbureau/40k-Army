@@ -14,6 +14,7 @@ type BsDataLeaderEligibility = {
   rules_faction_slug: string;
   leader_eligibility_slug: string;
   leader_unit_slug: string;
+  rules_source_slug: string;
   target_unit_slug: string | null;
   target_kind: "unit" | "keyword_predicate";
 };
@@ -23,14 +24,34 @@ const BSDATA_ROOT =
 
 describe("BSData leader_eligibilities coverage", () => {
   it("covers BSData leader eligibility memberships with global seed rows", () => {
-    const expectedKeys = loadBsDataLeaderEligibilityKeys();
-    const actualKeys = currentLeaderEligibilityKeys();
+    const expectedKeys = new Set(loadBsDataLeaderEligibilitySources().keys());
+    const actualKeys = new Set(currentLeaderEligibilitySources().keys());
 
     const missingKeys = [...expectedKeys].filter((key) => !actualKeys.has(key));
     const extraKeys = [...actualKeys].filter((key) => !expectedKeys.has(key));
 
     expect(missingKeys).toEqual([]);
     expect(extraKeys).toEqual([]);
+  });
+
+  it("uses chapter-owned rules sources for chapter-specific leader rows", () => {
+    const actualSources = currentLeaderEligibilitySources();
+
+    expect(actualSources.get("asmodai__inner_circle_companions")).toBe(
+      "codex_supplement_dark_angels_10e",
+    );
+    expect(actualSources.get("azrael__hellblaster_squad")).toBe(
+      "codex_supplement_dark_angels_10e",
+    );
+    expect(
+      actualSources.get("astorath__death_company_marines_with_jump_packs"),
+    ).toBe("codex_supplement_blood_angels_10e");
+    expect(actualSources.get("chaplain_grimaldus__sword_brethren_squad")).toBe(
+      "codex_supplement_black_templars_10e",
+    );
+    expect(actualSources.get("logan_grimnar__wolf_guard_terminators")).toBe(
+      "codex_supplement_space_wolves_10e",
+    );
   });
 
   it("resolves all leader eligibility seed references", () => {
@@ -60,7 +81,7 @@ describe("BSData leader_eligibilities coverage", () => {
   });
 });
 
-function loadBsDataLeaderEligibilityKeys(): Set<string> {
+function loadBsDataLeaderEligibilitySources(): Map<string, string> {
   const result = spawnSync(
     "python3",
     [
@@ -78,34 +99,47 @@ function loadBsDataLeaderEligibilityKeys(): Set<string> {
   expect(result.status, result.stderr || result.stdout).toBe(0);
 
   const records = JSON.parse(result.stdout) as BsDataLeaderEligibility[];
-  return new Set(records.map(leaderEligibilityKey));
+  const sources = new Map<string, string>();
+
+  for (const record of records) {
+    sources.set(leaderEligibilityKey(record), record.rules_source_slug);
+  }
+
+  return sources;
 }
 
-function currentLeaderEligibilityKeys(): Set<string> {
+function currentLeaderEligibilitySources(): Map<string, string> {
   const unitSlugById = new Map(
     unitsDataset.records.map((record) => [record.id, record.unit_slug]),
   );
-  const keys = new Set<string>();
+  const rulesSourceSlugById = new Map(
+    rulesSourcesDataset.records.map((record) => [
+      record.id,
+      record.rules_source_slug,
+    ]),
+  );
+  const sources = new Map<string, string>();
 
   for (const record of leaderEligibilitiesDataset.records) {
     const leaderSlug = unitSlugById.get(record.leader_unit_id);
+    const rulesSourceSlug = rulesSourceSlugById.get(record.rules_source_id);
 
-    if (!leaderSlug) {
+    if (!leaderSlug || !rulesSourceSlug) {
       continue;
     }
 
     if (!record.target_unit_id) {
-      keys.add(record.id);
+      sources.set(record.id, rulesSourceSlug);
       continue;
     }
 
     const targetSlug = unitSlugById.get(record.target_unit_id);
     if (targetSlug) {
-      keys.add(`${leaderSlug}__${targetSlug}`);
+      sources.set(`${leaderSlug}__${targetSlug}`, rulesSourceSlug);
     }
   }
 
-  return keys;
+  return sources;
 }
 
 function leaderEligibilityKey(record: BsDataLeaderEligibility): string {

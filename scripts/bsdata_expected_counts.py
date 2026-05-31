@@ -143,6 +143,50 @@ DEFAULT_RULES_SOURCE_BY_FACTION = {
     "tyranids": "codex_tyranids_10e",
 }
 
+RULES_SOURCE_BY_CATALOG_FILE = {
+    "Imperium - Space Marines.cat": "codex_space_marines_10e",
+    "Imperium - Black Templars.cat": "codex_supplement_black_templars_10e",
+    "Imperium - Blood Angels.cat": "codex_supplement_blood_angels_10e",
+    "Imperium - Dark Angels.cat": "codex_supplement_dark_angels_10e",
+    "Imperium - Deathwatch.cat": "faction_pack_deathwatch_10e_v1_2",
+    "Imperium - Space Wolves.cat": "codex_supplement_space_wolves_10e",
+}
+
+OWNER_SLUG_BY_CATALOG_FILE = {
+    "Aeldari - Craftworlds.cat": "aeldari",
+    "Aeldari - Drukhari.cat": "drukhari",
+    "Chaos - Chaos Daemons Library.cat": "chaos_daemons",
+    "Chaos - Chaos Space Marines.cat": "chaos_space_marines",
+    "Chaos - Death Guard.cat": "death_guard",
+    "Chaos - Emperor's Children.cat": "emperors_children",
+    "Chaos - Thousand Sons.cat": "thousand_sons",
+    "Chaos - World Eaters.cat": "world_eaters",
+    "Genestealer Cults.cat": "genestealer_cults",
+    "Imperium - Adepta Sororitas.cat": "adepta_sororitas",
+    "Imperium - Adeptus Custodes.cat": "adeptus_custodes",
+    "Imperium - Adeptus Mechanicus.cat": "adeptus_mechanicus",
+    "Imperium - Agents of the Imperium.cat": "imperial_agents",
+    "Imperium - Astra Militarum.cat": "astra_militarum",
+    "Imperium - Black Templars.cat": "black_templars",
+    "Imperium - Blood Angels.cat": "blood_angels",
+    "Imperium - Dark Angels.cat": "dark_angels",
+    "Imperium - Deathwatch.cat": "deathwatch",
+    "Imperium - Grey Knights.cat": "grey_knights",
+    "Imperium - Imperial Fists.cat": "imperial_fists",
+    "Imperium - Iron Hands.cat": "iron_hands",
+    "Imperium - Raven Guard.cat": "raven_guard",
+    "Imperium - Salamanders.cat": "salamanders",
+    "Imperium - Space Marines.cat": "space_marines",
+    "Imperium - Space Wolves.cat": "space_wolves",
+    "Imperium - Ultramarines.cat": "ultramarines",
+    "Imperium - White Scars.cat": "white_scars",
+    "Leagues of Votann.cat": "leagues_of_votann",
+    "Necrons.cat": "necrons",
+    "Orks.cat": "orks",
+    "T'au Empire.cat": "tau_empire",
+    "Tyranids.cat": "tyranids",
+}
+
 DETACHMENT_SLUG_ALIASES = {
     "haloscreed_battleclade_detachment": "haloscreed_battle_clade_detachment",
     "needga_rd_oathband_detachment": "needgard_oathband_detachment",
@@ -548,9 +592,14 @@ def expected_leader_eligibilities(
                             "target_unit_slug": target_unit_slug,
                             "target_kind": target_kind,
                             "target_text": display_leader_target_name(target_name),
-                            "rules_source_slug": DEFAULT_RULES_SOURCE_BY_FACTION[
-                                faction_slug
-                            ],
+                            "rules_source_slug": rules_source_slug_for_catalog_file(
+                                filename,
+                                faction_slug,
+                            ),
+                            "source_owner_slug": source_owner_slug_for_catalog_file(
+                                filename,
+                                faction_slug,
+                            ),
                             "source_file": filename,
                             "source_mode": mode,
                             "bsdata_leader_name": entry.name,
@@ -566,6 +615,17 @@ def expected_leader_eligibilities(
             str(record["leader_eligibility_slug"]),
         ),
     )
+
+
+def rules_source_slug_for_catalog_file(filename: str, faction_slug: str) -> str:
+    return RULES_SOURCE_BY_CATALOG_FILE.get(
+        filename,
+        DEFAULT_RULES_SOURCE_BY_FACTION[faction_slug],
+    )
+
+
+def source_owner_slug_for_catalog_file(filename: str, faction_slug: str) -> str:
+    return OWNER_SLUG_BY_CATALOG_FILE.get(filename, faction_slug)
 
 
 def leader_target_names(profile: ET.Element) -> list[str]:
