@@ -342,7 +342,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "",
     "- `actual` is the current seed row count or faction coverage count in this repository. For global unit-linked tables such as `leader_eligibilities`, it is the count of BSData faction memberships covered by checked-in global seed rows.",
     "- `expected` is either the BSData-derived target count or, for curated tables, the policy-backed seed target. Cells marked `?` still need table-specific mapping rules before expected counts are comparable.",
-    "- Faction-scoped datasheet columns count physical files under `db/seed_config/seed/data/unit_datasheets/<faction>/`, not inherited or effective access through `rules_faction_units`, unless noted below.",
+    "- Legacy Wahapedia-era files under `db/seed_config/seed/data/unit_datasheets/<faction>/` are no longer used as the coverage source for this matrix. Faction access is tracked through `rules_faction_units`; normalized global tables report BSData faction memberships.",
     "- `unit_models` counts BSData faction memberships covered by checked-in global `unit_models` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_point_costs` counts BSData faction memberships covered by checked-in global `unit_point_costs` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
@@ -378,7 +378,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
     "- `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.",
-    "- `unit_abilities` expected counts come from BSData profiles attached to expected units, excluding Unit and weapon profile rows.",
+    "- `unit_abilities` expected counts come from BSData profiles attached to expected units, excluding `Unit`, `Melee Weapons`, and `Ranged Weapons` profile rows.",
     "",
     "## Table Completion Workflow",
     "",
@@ -392,9 +392,9 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "6. Commit the completed table slice.",
     "7. Move to the next table.",
     "",
-    "## Missing Faction-Scoped Datasheet Folders",
+    "## Legacy Faction-Scoped Datasheet Folder Note",
     "",
-    renderMissingDatasheetFolders(inventory.missingDatasheetRows),
+    renderLegacyDatasheetFolderNote(inventory.missingDatasheetRows),
     "",
     "## BSData Expected Extraction Status",
     "",
@@ -973,17 +973,21 @@ function renderTotalsTable(
   ]);
 }
 
-function renderMissingDatasheetFolders(rows: DatasetInventoryRow[]): string {
+function renderLegacyDatasheetFolderNote(rows: DatasetInventoryRow[]): string {
   if (rows.length === 0) {
-    return "None.";
+    return "All target factions have a legacy `unit_datasheets/<faction>/` folder. This is informational only; the matrix is no longer measured from those folders.";
   }
 
-  return rows
-    .map(
+  const lines = [
+    "This is informational only. These folders are missing from the legacy `unit_datasheets/<faction>/` Wahapedia shard layout, but they are not active coverage gaps because current coverage is measured through BSData-backed `rules_faction_units` memberships and normalized global dataset rows.",
+    "",
+    ...rows.map(
       (row) =>
         `- ${row.factionName} (\`${row.factionSlug}\`) - missing \`${row.datasheetFolder}\``,
-    )
-    .join("\n");
+    ),
+  ];
+
+  return lines.join("\n");
 }
 
 function renderExtractionStatusTable(inventory: DatasetInventory): string {
