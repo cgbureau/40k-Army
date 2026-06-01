@@ -6,76 +6,7 @@
  */
 
 type AbilitySeedType =
-  | "deadly_demise_1"
-  | "deadly_demise_2d6"
-  | "deadly_demise_2d6_6"
-  | "deadly_demise_3d6"
-  | "deadly_demise_d3"
-  | "deadly_demise_d6"
-  | "deadly_demise_d6_2"
-  | "deadly_demise_d6_3"
-  | "deadly_demise_d6_6"
-  | "deep_strike"
-  | "feel_no_pain_4"
-  | "feel_no_pain_5"
-  | "feel_no_pain_6"
-  | "fights_first"
-  | "firing_deck_10"
-  | "firing_deck_11"
-  | "firing_deck_12"
-  | "firing_deck_15"
-  | "firing_deck_16"
-  | "firing_deck_2"
-  | "firing_deck_20"
-  | "firing_deck_22"
-  | "firing_deck_30"
-  | "firing_deck_45"
-  | "firing_deck_5"
-  | "firing_deck_6"
-  | "hover"
-  | "infiltrators"
-  | "leader"
-  | "lone_operative"
-  | "scouts_6"
-  | "scouts_7"
-  | "scouts_8"
-  | "scouts_9"
-  | "stealth"
-  | "acts_of_faith"
-  | "assigned_agents"
-  | "battle_focus"
-  | "blessings_of_khorne"
-  | "cabal_of_sorcerers"
-  | "code_chivalric"
-  | "cult_ambush"
-  | "curse_of_the_wulfen"
-  | "dark_pacts"
-  | "disparate_paths"
-  | "doctrina_imperatives"
-  | "for_the_greater_good"
-  | "gate_of_infinity"
-  | "harbingers_of_dread"
-  | "martial_katah"
-  | "mission_tactics"
-  | "nurgles_gift"
-  | "oath_of_moment"
-  | "pact_of_blood"
-  | "pact_of_decay"
-  | "pact_of_excess"
-  | "pact_of_sorcery"
-  | "power_from_pain"
-  | "prioritised_efficiency"
-  | "reanimation_protocols"
-  | "shadow_in_the_warp"
-  | "super_heavy_walker"
-  | "synapse"
-  | "templar_vows"
-  | "the_shadow_of_chaos"
-  | "thrill_seekers"
-  | "unaligned_forces"
-  | "voice_of_command"
-  | "waaagh"
-  | "waagh"
+  | "a_bomb_inable_snowman"
   | "a_challenge_worthy_of_skill"
   | "a_gory_path"
   | "a_hearty_pick_me_up"
@@ -85,22 +16,22 @@ type AbilitySeedType =
   | "abbess_sanctorum"
   | "ablative_plating"
   | "abomination"
-  | "accursed_horde"
+  | "accelerator_mandible"
   | "acherons_duty_bondsman"
   | "achillan_eye"
   | "acrobatic"
   | "acrobatic_escape"
   | "acrobatic_gladiators_pain"
   | "acrobatic_grace"
+  | "adamant_wrath"
   | "adaptable_predators"
   | "adaptive_instincts"
   | "adaptive_strategy"
-  | "adjust_target"
   | "advanced_armour"
   | "advanced_firepower"
+  | "advanced_guardian_drone"
   | "advanced_quantum_shielding"
   | "advanced_scouting"
-  | "aegis_protocol"
   | "aerial_assault"
   | "aerial_deployment"
   | "aerial_disengagement"
@@ -111,7 +42,6 @@ type AbilitySeedType =
   | "aethersense_psychic"
   | "aetherstride_psychic"
   | "agent_of_discord_aura"
-  | "aggression_imperative"
   | "aggressive_advance"
   | "aggressive_assault"
   | "aggressive_deployment"
@@ -127,6 +57,8 @@ type AbilitySeedType =
   | "airborne_evasion"
   | "airborne_insertion"
   | "airborne_predator"
+  | "alchemicus_familiar"
+  | "alchemyk_counteragents"
   | "alpha_hunter"
   | "alpha_invader"
   | "alpha_leader"
@@ -134,63 +66,79 @@ type AbilitySeedType =
   | "alpha_warrior"
   | "altered_reality_psychic"
   | "ambushing_hunters"
+  | "ammo_runt"
   | "an_honourable_death_in_combat"
   | "ancestral_fortune"
+  | "anchorite_sarcophagus"
+  | "ancient_banner"
   | "ancient_collector"
   | "ancient_conquest"
   | "ancient_cover"
   | "ancient_tactician"
+  | "ancients_banner"
   | "angelic_ascent"
   | "angelic_visage"
   | "angels_wrath"
   | "anguish_of_the_unredeemed"
+  | "animus_damper"
   | "annihilator"
   | "annihilator_protocols"
   | "anti_armour_gunship"
+  | "antimatter_meteor"
   | "anvil_of_endurance"
   | "apex_beast"
+  | "apothecarys_narthecium"
+  | "aquiline_prow"
   | "aquilon_optics"
+  | "aqullon_optics"
+  | "arbites_medi_kit"
   | "arcane_cover"
   | "arcane_shield_psychic"
   | "arch_sorcerer_of_tzeentch_psychic"
   | "architect_of_ruin"
   | "archon_of_the_poisoned_tongue_pain"
-  | "archons_will"
+  | "ard_case"
   | "armorium_cherub"
   | "armour_hunter"
   | "armour_obliteration"
   | "armour_of_faith"
   | "armour_of_fate"
-  | "armoured_aggressor"
   | "armoured_defender"
   | "armoured_frontis"
   | "armoured_resilience"
   | "armoured_spearhead"
   | "artillery_commander"
   | "ascended_daemon"
+  | "aspect_training"
   | "aspire_to_glory"
   | "assassin"
-  | "assassins_poisons_pain"
   | "assault_dropship"
   | "assault_ramp"
   | "assault_vehicle"
   | "assured_destruction"
   | "astartes_banner"
+  | "astartes_shield"
   | "atavistic_instigation"
-  | "atomantic_arc_reactor"
   | "atomic_energy_manipulator"
   | "atrapos_duty_bondsman"
+  | "attach_s"
+  | "attached_leader"
+  | "attached_unit"
   | "attuned_onslaught_psychic"
+  | "aura_of_dark_glory"
   | "aura_of_fervour_aura"
-  | "auramite_and_adamantine"
+  | "auramite_and_adamantite"
+  | "auspex_array"
   | "auspex_surveyor"
   | "author_of_the_codex"
-  | "authority_of_the_inquisition"
   | "auto_tapestry_of_the_emperors_judgement"
-  | "automated_defences"
+  | "avatar_of_the_whispering_god"
+  | "awakened_spirit"
   | "backroom_deals"
+  | "baggage_harness_aura"
   | "ballistus_strike"
   | "bane_of_cowards"
+  | "banner_of_macragge"
   | "barrage_of_filth"
   | "bastion_of_corruption"
   | "bastion_of_firepower"
@@ -200,40 +148,47 @@ type AbilitySeedType =
   | "battlefield_butchery_pain"
   | "battlefield_control"
   | "battlefield_dominance"
-  | "battlements"
+  | "battlesuit_support_system"
+  | "battlewagon"
   | "beacons_of_rage_aura"
   | "beast_handler"
   | "beastboss"
-  | "beastly_rage"
+  | "beastial_fury"
   | "beastmaster"
   | "been_there_seen_it_killed_it"
+  | "beguiling_form"
   | "berserk_charge"
-  | "berserk_fury"
-  | "berzerker_frenzy"
-  | "bestial_fury"
+  | "berserker_frenzy"
+  | "beserk_fury"
   | "bestial_prophet"
   | "bestial_rage"
   | "bestial_raiders"
   | "big_an_shooty"
   | "big_an_stompy"
+  | "big_bomms"
   | "big_booms"
+  | "big_gunz"
+  | "big_trakk"
+  | "biged_bossbunka"
+  | "billowing_fumes_aura"
   | "binding_tendrils_psychic"
   | "bio_horror_disruption_psychic"
-  | "bio_minefield"
   | "bio_stimulus"
+  | "biohorror_disruption_psychic"
   | "biological_warfare"
-  | "bioregeneration"
   | "bizarrely_resilient"
-  | "black_rage"
+  | "blacklight_marker_drones"
   | "blackstar_cluster_launcher"
   | "blackwing_mantle"
   | "bladeguard"
   | "bladestorm"
   | "blastajet_attack_run"
-  | "blazing_salvoes"
+  | "blastajet_force_field"
+  | "blazing_salvos"
   | "blazing_warpfire_psychic"
   | "blessed_by_the_plague_god"
   | "blessed_icon_of_disease"
+  | "blessed_wardings"
   | "blessing_of_the_omnissiah"
   | "blight_bombardment"
   | "blind_barrage"
@@ -250,25 +205,32 @@ type AbilitySeedType =
   | "bloodied_terror"
   | "bloodlust"
   | "bloodmaster"
+  | "bloodthirst"
   | "bloody_fury"
   | "bloody_spectacle"
   | "bloody_stampede"
+  | "bludgeoning_cheer"
   | "blur_of_blades"
   | "blur_of_movement"
   | "bodyguard"
   | "bomb_drop"
   | "bomb_rack"
   | "bonesinger"
+  | "book_of_salvation"
   | "boom_bomb"
+  | "boon_of_death"
   | "born_of_wolves"
   | "bound_creation"
+  | "bound_daemon"
   | "bounding_assault"
   | "bounding_leap"
   | "bounding_leaps"
   | "bounty_hunters"
   | "br_khyr_guild_support"
   | "branching_fates_psychic"
+  | "brass_collar_of_bloody_vengeance"
   | "brass_stampede"
+  | "brayhorn"
   | "braziers_of_judgement"
   | "breach_and_clear"
   | "breaching_command"
@@ -294,6 +256,7 @@ type AbilitySeedType =
   | "buzzer_squigs"
   | "cadia_stands"
   | "called_shots"
+  | "canoptek_retinue"
   | "canoptek_swarm"
   | "canticles_of_the_omnissiah"
   | "captain_general"
@@ -303,7 +266,11 @@ type AbilitySeedType =
   | "catechism_of_death"
   | "catechism_of_fire"
   | "cegorachs_favour"
+  | "centurion_assault_launchers"
   | "ceramite_cover"
+  | "cerastus_knight_acheron"
+  | "cerebrex_logic_engine"
+  | "chaff_launcher"
   | "chainbreaker"
   | "chainsword_doctrines"
   | "champion_of_the_kingsguard"
@@ -311,16 +278,23 @@ type AbilitySeedType =
   | "champion_slayer"
   | "chance_for_glory"
   | "changecaster"
-  | "chaos_lord"
+  | "channeler_stones"
+  | "channellin_da_waaagh"
+  | "chaos_familiar"
+  | "chaos_land_raider"
+  | "chaos_rhino"
+  | "chapter_master_of_the_raven_guard"
   | "cherub"
+  | "cherubs"
+  | "chinork_warkopta_legends"
   | "chirurgeon"
   | "chitinous_horrors"
-  | "chitinous_horrors_aura"
   | "chittering_swarm"
   | "choice_samples"
   | "choreographer_of_war"
   | "chosen_companions"
   | "chosen_marauders"
+  | "chosen_of_the_emperor"
   | "chronometron"
   | "chronus"
   | "claimed_for_the_cult"
@@ -342,12 +316,17 @@ type AbilitySeedType =
   | "combat_disembarkation"
   | "combat_squads"
   | "combat_support"
+  | "command_link_drone_aura"
+  | "command_rod"
   | "command_squad"
+  | "command_uplink"
+  | "comms_array"
+  | "compact"
+  | "company_heroes"
   | "computational_mastermind"
   | "concealed_positions"
   | "concussive_wave"
   | "condemnatory_annihilation"
-  | "conqueror_protocol"
   | "consecrated_ground"
   | "consumed_with_hunger_aura"
   | "control_edict"
@@ -355,30 +334,42 @@ type AbilitySeedType =
   | "coordinated_leadership"
   | "coordinated_strike"
   | "corner_the_quarry"
+  | "coronus_grav_carrier"
   | "corrupt_machine_spirits"
+  | "corsairs"
+  | "cosmic_fire"
   | "cosmic_horror_psychic"
+  | "counter_tactics"
+  | "counterstrategist"
   | "court_of_the_archon"
+  | "court_of_the_archon_legends"
   | "cover"
   | "covering_fire"
   | "covert_stealth_team"
   | "crack_shot"
+  | "crassus"
   | "creeping_shadow"
   | "crewed_artillery"
   | "crewed_platform"
   | "crimson_harvest"
+  | "crisis_bodyguard"
   | "crisis_commander"
   | "crossfire"
   | "cruel_amusement"
   | "cruel_enforcers"
+  | "cruel_example"
   | "cruel_hunter"
   | "crusade_of_wrath"
   | "crusaders_duty_bondsman"
   | "crush_all_who_stand_before_us"
   | "crushing_charge"
   | "cry_of_the_wind"
+  | "cryptek_retinue"
   | "crystal_matrix"
   | "crystalline_targeting"
+  | "ctan_shard"
   | "cult_demagogue"
+  | "cult_icon"
   | "cult_infiltration"
   | "cunning_hunters"
   | "curse_of_the_walking_pox"
@@ -401,16 +392,29 @@ type AbilitySeedType =
   | "daemon_lord_of_nurgle_aura"
   | "daemon_lord_of_slaanesh_aura"
   | "daemon_lord_of_tzeentch_aura"
-  | "daemon_primarch_of_slaanesh"
+  | "daemon_prince_of_slaanesh"
   | "daemonbreaker"
   | "daemonforge"
   | "daemonic_destruction"
+  | "daemonic_icon"
+  | "daemonic_locus"
   | "daemonic_lord"
   | "daemonic_ordnance"
   | "daemonic_patrons"
   | "daemonic_poisons"
+  | "daemonic_speed"
   | "daemonkin_psychic"
   | "dakkastorm"
+  | "damaged_1_10_wounds_remaining"
+  | "damaged_1_16_wounds_remaining"
+  | "damaged_1_20_wounds_remaining"
+  | "damaged_1_3_wounds_remaining"
+  | "damaged_1_4_wounds_remaining"
+  | "damaged_1_5_wounds_remaining"
+  | "damaged_1_6_wounds_remaining"
+  | "damaged_1_7_wounds_remaining"
+  | "damaged_1_8_wounds_remaining"
+  | "damaged_1_9_wounds_remaining"
   | "damaged_armour"
   | "dance_of_death"
   | "daring_recon"
@@ -426,19 +430,18 @@ type AbilitySeedType =
   | "data_spike"
   | "dats_our_loot"
   | "daughter_of_the_abyss"
-  | "daughters_of_the_abyss"
   | "dazzling_acrobatics"
   | "dead_brutal"
   | "dead_rippy"
+  | "dead_shot"
+  | "deadly_demise"
   | "deadly_retinue_pain"
   | "deadly_stalkers"
   | "deadly_terror"
-  | "deadshot"
   | "death_approaches"
   | "death_befitting_an_officer"
   | "death_blow"
   | "death_cult"
-  | "death_frenzy"
   | "death_from_below"
   | "death_guard_defenders"
   | "death_hex_psychic"
@@ -448,37 +451,41 @@ type AbilitySeedType =
   | "death_scream"
   | "death_sphere_bombardment"
   | "death_to_the_alien"
+  | "death_totem"
   | "death_vision_of_sanguinius"
+  | "death_visions_of_sanguinius"
   | "deaths_heads"
-  | "deathstorm_assault"
   | "deathstrike_missile"
   | "deathwing"
   | "decapitating_strikes_pain"
   | "decimator_protocols"
+  | "decisive_command"
   | "decisive_destruction"
+  | "decoy_targets"
   | "decoys_and_misdirection"
   | "ded_glowy_ammo_aura"
   | "dedication_to_duty"
   | "deeds_of_heroism"
   | "defence_line"
+  | "defence_searchlight"
   | "defend_the_divine_work"
-  | "defenders_duty_bondsman"
   | "defenders_of_the_faith"
   | "defensive_array"
   | "defensive_stance"
   | "deff_from_above"
+  | "deff_rolla_battle_fortress_legends"
   | "deft_parry"
   | "delightful_agonies"
   | "deluge_of_nurgle_aura"
   | "demagogue"
   | "demolition_charges"
+  | "demolition_gear"
   | "demolition_run"
+  | "denuncia_oratory"
+  | "deployment"
   | "deployment_complete"
   | "deranged_snotling_assault"
-  | "deredeo_strike"
   | "desert_riders"
-  | "desiccation_conduit_aura"
-  | "designate_target"
   | "despoilers"
   | "destabilising_quakes"
   | "destroyer_cult"
@@ -487,22 +494,25 @@ type AbilitySeedType =
   | "devastating_assault"
   | "devastating_charge"
   | "devastating_refrain"
+  | "devilfish"
   | "devious_mastermind"
   | "devoted_to_destruction"
   | "devoted_to_pain"
   | "digestion_spine"
-  | "direct_grace"
   | "direct_the_slaughter"
   | "discordant_disruption_aura"
   | "disease_of_mirth_aura"
   | "diseased_cover"
+  | "diseased_icon"
+  | "diseased_influence"
   | "diseased_malice"
   | "disintegration_beams"
+  | "dispersion_shield"
   | "disruption_bombardment"
-  | "disruptive_influence_aura"
+  | "distraction_grot"
   | "divination_psychic"
   | "divine_deliverance"
-  | "diviner_of_futures"
+  | "diviner_of_the_futures"
   | "doks_toolz"
   | "dominate_will_psychic"
   | "domination_of_the_hive_mind_aura"
@@ -512,22 +522,19 @@ type AbilitySeedType =
   | "dread_dominion_aura"
   | "dread_foe"
   | "dread_snipers"
-  | "dreadclaw_assault"
   | "drill_boss"
   | "drill_through"
   | "drive_by_dakka"
   | "drive_by_krumpin"
   | "driven_by_fury"
   | "driven_by_hatred"
-  | "drone_commander_aura"
+  | "driven_by_ultimate_rage_aura"
   | "drone_escort"
-  | "drone_harassment_tactics"
   | "droneport"
   | "drop_pod_assault"
   | "ds8_support_turret"
   | "duality_shield"
   | "duellists_hubris"
-  | "dust_trails_aura"
   | "duty_eternal"
   | "dynamic_efficiency"
   | "earthshaker_rounds"
@@ -538,23 +545,26 @@ type AbilitySeedType =
   | "eldritch_flames_psychic"
   | "electro_infusion"
   | "electro_shock"
-  | "electromagentic_cascade_pain"
+  | "electromagnetic_cascade_pain"
   | "elevated_strider"
-  | "emanatus_force_field_aura"
+  | "emanatus_forcefield_aura"
+  | "embarking"
+  | "embarking_within_transports"
   | "embittered"
   | "embodied_prophecy"
   | "emergency_combat_embarkation"
-  | "emergency_plasma_vents"
   | "emissary_of_the_blood_god_aura"
   | "emissary_of_the_great_mutator_aura"
   | "emissary_of_the_plague_god_aura"
   | "emissary_of_the_prince_of_excess_aura"
+  | "emnity_for_the_unworthy"
   | "emplacement_platform"
   | "empowered_by_death"
   | "empyric_ambush"
-  | "empyric_guidance_psychic"
   | "encephalic_diffusion_aura_psychic"
+  | "endless_hatred"
   | "endless_suffering"
+  | "endurant_shield"
   | "enfeebling_miasma_aura"
   | "enforcer"
   | "enforcer_commander"
@@ -562,21 +572,22 @@ type AbilitySeedType =
   | "enginseer"
   | "engrammatic_logic"
   | "engulfing_fear_psychic"
+  | "enhanced_data_tether"
   | "enhanced_toxic_miasma"
   | "enhanced_warriors"
-  | "enmity_for_the_unworthy"
   | "enrage_machine_spirits"
   | "ensorcelled_annihilation"
   | "ensorcelled_destruction"
+  | "enthralling_hypnosis_aura"
   | "eradicate_the_foe"
   | "errants_duty_bondsman"
+  | "esoteric_explosives"
   | "eternity_gate"
   | "ethereal_form"
   | "etheric_emergence"
   | "euphoric_strikes"
   | "evade_and_survive"
   | "evasion_engrams"
-  | "even_in_death_i_serve"
   | "eviscerating_fly_by"
   | "excessive_assault"
   | "excessive_vigour_aura"
@@ -586,6 +597,7 @@ type AbilitySeedType =
   | "exemplar_of_the_code"
   | "exemplar_of_the_einhyr"
   | "exemplar_of_the_silvered_host"
+  | "exemplar_warrior"
   | "exemplars_of_montka"
   | "exhortation_of_rage"
   | "experimental_enhancements_pain"
@@ -593,15 +605,19 @@ type AbilitySeedType =
   | "exploit_their_cowardice"
   | "explosive_blight"
   | "explosive_death"
+  | "explosive_snowballs"
   | "extraction_of_fresh_disease"
   | "extreme_mobility"
   | "extremis_trigger_word"
   | "eye_of_judgement_psychic"
+  | "fabricator_claw_array_aura"
   | "face_of_death"
   | "fade_away_pain"
   | "failure_is_not_an_option"
   | "faithful_flock"
+  | "faolch"
   | "fated_hero"
+  | "fates_guide"
   | "fateskimmer"
   | "father_of_pain"
   | "fear_incarnate_aura"
@@ -612,15 +628,18 @@ type AbilitySeedType =
   | "feculent_despair_aura_psychic"
   | "feeder_tendrils"
   | "feeding_frenzy"
+  | "feel_no_pain"
+  | "feel_no_pain_5"
   | "ferocious_assault"
+  | "ferocious_rage"
   | "fervour_of_the_ancients_aura"
   | "fevered_strategist"
   | "fieldcraft"
+  | "fiend_slayer"
   | "fiery_conviction"
   | "fiery_faith"
   | "fiery_vengeance"
   | "final_duty"
-  | "finest_hour"
   | "fire_and_fade"
   | "fire_and_redeploy"
   | "fire_discipline"
@@ -633,7 +652,7 @@ type AbilitySeedType =
   | "flak_battery"
   | "flame_wreathed"
   | "flames_of_change_psychic"
-  | "flank_speed"
+  | "flare_launcher"
   | "flashiest_gitz"
   | "flawless_poise"
   | "fleet_command"
@@ -641,27 +660,28 @@ type AbilitySeedType =
   | "flesh_hunger"
   | "fleshcraft_pain"
   | "flickerjump"
-  | "floating_death"
   | "flush_them_out"
   | "fluxmaster"
   | "flying_horror"
   | "focused_hunters"
+  | "foesight_psychic"
   | "fog_of_dreams_psychic"
+  | "font_of_unreality"
   | "for_the_chapter"
   | "for_the_dark_gods"
   | "for_the_khan"
   | "force_edge_psychic"
-  | "forceful_strike"
-  | "foresight_psychic"
+  | "force_of_untamed_destruction"
+  | "forceshield"
   | "forgefather"
   | "forgewrought_expertise"
+  | "forgewrought_skill"
   | "forlorn_hero"
   | "formidably_resilient"
   | "formless_horror"
   | "fortification"
   | "fortify_psychic"
   | "fortis_doctrines"
-  | "fortress"
   | "forward_observers"
   | "forwards_for_blood"
   | "foul_infusion"
@@ -687,7 +707,7 @@ type AbilitySeedType =
   | "galvanic_field"
   | "gargantsmasha"
   | "gargantuan"
-  | "gates"
+  | "gargantuan_squiggoth"
   | "gaze_into_the_empyrean_psychic"
   | "gene_seed_recovery"
   | "geomantic_hunters"
@@ -695,6 +715,7 @@ type AbilitySeedType =
   | "get_da_good_bitz"
   | "ghazghkulls_waaagh_banner_aura"
   | "gheistskull"
+  | "ghost_ark"
   | "ghostwalk_mantle"
   | "gift_of_chaos_psychic"
   | "gift_of_contagion_psychic"
@@ -702,34 +723,42 @@ type AbilitySeedType =
   | "gift_of_poxes_psychic"
   | "gift_of_the_iron_wolf"
   | "gifted_commander"
+  | "gifts_for_all_aura"
   | "glamour_of_tzeentch_aura_psychic"
   | "glimpse_of_eternity_psychic"
   | "glory_of_ultramar"
+  | "glovodan_psyber_eagle"
   | "glutton_for_punishment"
   | "goaded_savagery_pain"
-  | "god_machine"
   | "golden_laurels"
+  | "gorkanaut"
   | "grand_illusion"
   | "grand_master_of_the_deathwing"
   | "grand_master_of_the_ravenwing"
   | "grand_strategist"
+  | "grandfathers_blessing"
+  | "grapnel_launchers"
   | "grasping_tendrils"
+  | "grav_inhibitor_drone"
   | "grav_pinned"
   | "gravitational_field"
   | "gravitic_pulse"
-  | "greater_daemon_of_khorne_aura"
-  | "greater_daemon_of_nurgle_aura"
-  | "greater_daemon_of_slaanesh_aura"
-  | "greater_daemon_of_tzeentch_aura"
+  | "grenade_harness"
   | "grenade_pack_flyover"
+  | "grenadier_squad"
   | "grenadiers"
+  | "grey_knights_thunderhawk_gunship"
   | "grim_demeanour"
   | "grim_determination"
   | "grim_efficiency"
   | "grim_spectres"
   | "grimnyrs_regard"
-  | "grinding_clearance"
+  | "grinding_line_breaker"
   | "grisly_spectacle"
+  | "grot_assistant"
+  | "grot_helper"
+  | "grot_oiler"
+  | "grot_orderly"
   | "grot_riggers"
   | "grotesque_regeneration"
   | "ground_attack_craft"
@@ -741,8 +770,10 @@ type AbilitySeedType =
   | "guardian_protocols"
   | "guardians_of_the_machine"
   | "guerrilla_tactics"
+  | "guidance_of_the_ancients"
   | "guidance_of_the_ancients_psychic"
   | "guide_psychic"
+  | "guided_by_fate"
   | "guiding_hand"
   | "guile_of_the_wolf_aura"
   | "gun_crazy_show_offs"
@@ -770,27 +801,36 @@ type AbilitySeedType =
   | "harkers_hellraisers"
   | "harmonic_alignment"
   | "harpoon_barbs"
+  | "harridan"
   | "harvester_of_souls"
+  | "has_yoo_been_a_good_little_grot_this_year"
   | "hatred_eternal_pain"
+  | "haywire_mine"
   | "head_taker"
-  | "headhunters"
   | "headlong_destruction"
   | "headstrong"
   | "healing_balms"
+  | "healing_serum"
   | "healing_tears"
   | "heavy_assault_infantry"
+  | "heavy_bombs"
   | "heavy_walker"
   | "heirs_of_azkaellon"
+  | "hekaton_land_fortress"
+  | "helix_gauntlet"
   | "herald_of_the_apocalypse_aura"
   | "herald_of_ynnead"
+  | "herd_banner"
   | "hero_of_hades_hive"
   | "hero_of_iyanden"
   | "hero_of_lions_gate"
   | "hero_of_the_empire_aura"
+  | "heroes_of_ultramar"
   | "heroic_example"
   | "heroic_fusillade"
   | "heroic_last_stand"
-  | "heros_prowess"
+  | "hierophant"
+  | "high_handed_authority"
   | "high_intensity_markerlights"
   | "high_king_of_fenris"
   | "high_marshal"
@@ -801,8 +841,12 @@ type AbilitySeedType =
   | "holy_cover"
   | "holy_hatred"
   | "holy_judgement"
+  | "holy_mission"
   | "holy_piety"
+  | "holy_vanguard"
   | "honour_guard"
+  | "honour_guard_of_macragge"
+  | "honour_of_the_chapter"
   | "honour_of_ultramar"
   | "honour_or_death"
   | "hood_of_hellfire"
@@ -811,16 +855,20 @@ type AbilitySeedType =
   | "horrify_psychic"
   | "horrifying_beauty"
   | "horrifying_visage"
+  | "horrors_are_pink_horrors_are_blue_where_once_there_was_one_now_there_are_two"
   | "horsemasters"
   | "host_of_plagues"
+  | "hover_drone"
   | "hovering_death"
+  | "howling_horde"
   | "hulking_bodyguards"
+  | "hunta_rig"
   | "hunter_missile_targeting"
   | "hunter_of_souls"
+  | "hunter_organism"
   | "hunter_unseen"
   | "hunters_from_the_warp"
   | "hunting_hounds"
-  | "huntmaster_aura"
   | "huntsman"
   | "huskarl_to_the_jarl"
   | "hypersensory_abilities"
@@ -828,26 +876,31 @@ type AbilitySeedType =
   | "hyperspace_hunters"
   | "hypertoxic_miasma_aura"
   | "hypnotic_gaze_psychic"
-  | "hysterical_frenzy_psychic"
+  | "hysterical_frenzy"
+  | "icon_of_despair"
   | "icon_of_discipline"
+  | "icon_of_excess"
+  | "icon_of_flame"
   | "icon_of_obstinacy"
   | "icon_of_old_caliban_aura"
+  | "icon_of_war"
   | "idol_of_blessed_blood"
   | "illuminor"
-  | "illusions_of_tzeentch_psychic"
   | "immaterial_flare_aura"
   | "imperial_law"
+  | "imperial_rhino"
   | "impetuous_fervour"
   | "impetuous_glory"
   | "implacable_eradication"
   | "implacable_resilience"
+  | "implacable_resistance"
   | "implacable_vanguard"
-  | "incendiary_terror"
+  | "impossible_form_psychic"
   | "incensor_cherub"
   | "inconceivable_augmentation"
+  | "incubi_shrine_token"
   | "indentured_daemon_engines"
   | "independent_operatives"
-  | "indomitable_assault"
   | "indomitable_spirit_psychic"
   | "indomitable_strength_of_will"
   | "indomitor_doctrines"
@@ -859,28 +912,81 @@ type AbilitySeedType =
   | "infectious_bloodshed"
   | "infectious_murder_madness_aura"
   | "infernal_aegis_aura"
+  | "infernal_attendants"
   | "infernal_engines_of_torment"
-  | "infernal_regeneration"
   | "infernal_speed"
-  | "infernus_firebombs"
+  | "inferno_bombs"
+  | "infernum_halo_launcher"
+  | "infernus_firebomb"
+  | "infiltrator_comms_array"
   | "inflamed_infections"
+  | "inflamed_reprisal"
   | "infused_with_the_blessings_of_nurgle"
   | "inner_circle"
+  | "inquisitorial_agent"
+  | "inquisitorial_chimera"
+  | "inquisitorial_henchmen"
+  | "inquisitorial_retinue"
   | "inspirational_defiance"
   | "inspirational_exemplar"
   | "inspired_retribution"
+  | "inspiring_commander"
   | "inspiring_exemplar"
+  | "inspiring_hero_aura"
   | "inspiring_leader"
+  | "instigator_bolt_carbine"
+  | "instrument_of_chaos"
   | "instrument_of_the_emperors_wrath"
   | "interception_strike"
   | "interceptor"
   | "into_the_foe"
+  | "intra_neural_biotech"
   | "intractable_will"
-  | "inviolable_bastion"
-  | "inviolable_transport"
-  | "ion_aegis_aura"
+  | "invasion_beams"
+  | "invulnerable_save"
+  | "invulnerable_save_2_makari"
+  | "invulnerable_save_4"
+  | "invulnerable_save_5"
+  | "invulnerable_save_6"
+  | "invulnerable_save_archtormentor"
+  | "invulnerable_save_asurmen"
+  | "invulnerable_save_autarch"
+  | "invulnerable_save_avatar"
+  | "invulnerable_save_baharroth"
+  | "invulnerable_save_bloodmaster"
+  | "invulnerable_save_bonesinger"
+  | "invulnerable_save_changecaster"
+  | "invulnerable_save_contorted_epitome"
+  | "invulnerable_save_craftworld_warleader"
+  | "invulnerable_save_eldrad"
+  | "invulnerable_save_epidemius"
+  | "invulnerable_save_farseer"
+  | "invulnerable_save_fateskimmer"
+  | "invulnerable_save_flesh_crafter"
+  | "invulnerable_save_fluxmaster"
+  | "invulnerable_save_fuegan"
+  | "invulnerable_save_illic_nightspear"
+  | "invulnerable_save_infernal_enrapturess"
+  | "invulnerable_save_jain_zar"
+  | "invulnerable_save_kharseth"
+  | "invulnerable_save_lhykhis"
+  | "invulnerable_save_maugan_ra"
+  | "invulnerable_save_phoenix_lord"
+  | "invulnerable_save_prince_yriel"
+  | "invulnerable_save_shadow_field"
+  | "invulnerable_save_skullmaster"
+  | "invulnerable_save_skulltaker"
+  | "invulnerable_save_skyrunner"
+  | "invulnerable_save_sloppity_bilepiper"
+  | "invulnerable_save_spiritseer"
+  | "invulnerable_save_syllesske"
+  | "invulnerable_save_the_visarch"
+  | "invulnerable_save_tranceweaver"
+  | "invulnerable_save_warlock"
+  | "invulnerable_save_yvraine"
   | "iron_father"
   | "iron_priest"
+  | "ironclad_assault_launchers"
   | "irresistible_force"
   | "isolate_and_destroy"
   | "it_itches"
@@ -890,31 +996,44 @@ type AbilitySeedType =
   | "judged_for_execution"
   | "judgement_of_the_omnissiah"
   | "judgement_of_the_weak"
+  | "jump_pack"
   | "jungle_fighters"
+  | "kabalite_icon"
+  | "kannonwagon"
+  | "kapricus_carrier"
   | "karnivore"
+  | "katah_master"
   | "keep_counting"
   | "keep_the_banner_high"
-  | "kharybdis_assault"
-  | "kill_team"
+  | "kill_krusha_legends"
+  | "kill_rig"
+  | "kill_tank"
   | "kindred_hero"
   | "knight_champion_of_macragge"
   | "knights_of_caliban"
+  | "know_wotz"
   | "kroot_ambush"
   | "kroot_linebreakers"
   | "kroot_packmates"
   | "krumpin_time"
   | "kunnin_infiltrator"
+  | "kustom_force_field"
   | "lanced_obliteration"
   | "lancers_duty_bondsman"
+  | "land_raider"
+  | "land_raider_banisher"
+  | "land_raider_crusader"
+  | "land_raider_redeemer"
   | "last_laugh"
   | "laud_hailer"
+  | "lead_from_the_front"
+  | "leader"
   | "leading_the_charge"
   | "legacy_of_jerulas"
   | "legendary_freeblade"
   | "legendary_killer"
   | "legendary_tenacity"
   | "lesks_heroes"
-  | "let_loose_the_wolves"
   | "lethal_caress"
   | "lethal_ichor"
   | "lethal_obsession"
@@ -924,14 +1043,14 @@ type AbilitySeedType =
   | "like_fighting_a_shadow"
   | "line_breaker"
   | "line_breakers"
-  | "litanies_of_sanctity"
   | "litanies_of_the_devout"
   | "litany_of_deeds"
-  | "litany_of_hate"
   | "lithe_agility_pain"
   | "lithe_embarkation"
   | "living_fortress"
   | "living_lightning"
+  | "logan_grimnar"
+  | "lone_survivor"
   | "loping_pounce"
   | "loping_speed"
   | "loping_stride"
@@ -945,14 +1064,19 @@ type AbilitySeedType =
   | "lord_of_murder"
   | "lord_of_slaughter"
   | "lord_of_the_death_guard"
+  | "lord_of_the_eightbound"
+  | "lord_of_the_host"
   | "lord_of_the_machine_cult"
   | "lord_of_the_planet_of_the_sorcerers_psychic"
   | "lord_of_the_pyroclasts"
   | "lord_of_the_pyrrhian_eternals"
   | "lord_of_the_storm"
+  | "lord_of_the_traitor_legions_aura"
   | "lord_of_the_wolfkin"
+  | "lord_regent_of_the_imperium_nihilus"
   | "lost_to_fury"
   | "loyal_henchmen"
+  | "loyal_protector"
   | "luck_has_need_keeps_toil_earns"
   | "macro_extinction_protocols"
   | "macro_steroids_pain"
@@ -960,6 +1084,7 @@ type AbilitySeedType =
   | "magaeras_duty_bondsman"
   | "magna_grapple"
   | "malefic_destruction"
+  | "malefic_impact"
   | "malefic_maelstrom_psychic"
   | "malefic_warding"
   | "malefic_wardings_psychic"
@@ -974,10 +1099,15 @@ type AbilitySeedType =
   | "malign_wardings_psychic"
   | "malus_codicium"
   | "mandiblasters"
+  | "manifestation_of_destruction"
+  | "manta"
   | "mantle_of_the_troll_king"
   | "manufactorum_cover"
+  | "mark_of_chaos_ascendant_aura"
   | "mark_the_target"
   | "marked_by_fate_psychic"
+  | "marked_by_the_dark_gods"
+  | "martial_exemplar_aura"
   | "martial_honour"
   | "martial_inspiration"
   | "martial_pride"
@@ -988,9 +1118,11 @@ type AbilitySeedType =
   | "master_chronomancer"
   | "master_of_blades_pain"
   | "master_of_deceit"
+  | "master_of_magicks_aura"
   | "master_of_magicks_psychic"
   | "master_of_manoeuvre"
   | "master_of_mechanisms"
+  | "master_of_mischief"
   | "master_of_prescience_psychic"
   | "master_of_rites"
   | "master_of_shadows"
@@ -1001,18 +1133,22 @@ type AbilitySeedType =
   | "master_tactician"
   | "masterful_tactician"
   | "masters_of_close_confines"
+  | "masters_of_the_maelstrom"
+  | "masters_of_the_shadowed_sky"
   | "matchless_swiftness_pain"
   | "matter_absorption"
   | "mechanical_augmentation_aura"
   | "mechanicus_bodyguard"
   | "mechanised_spearhead"
+  | "medi_pack"
   | "medicae_medi_packs"
   | "medicus_ministorum"
   | "meet_any_challenge"
   | "meet_your_quota"
   | "mega_carnage"
   | "mekaniak"
-  | "mekboy"
+  | "melta_mine"
+  | "mental_fortress"
   | "mental_fortress_psychic"
   | "mentor_bondsman"
   | "merciless_eradication"
@@ -1023,9 +1159,11 @@ type AbilitySeedType =
   | "meteoric_descent"
   | "methodical_destruction"
   | "miasma_of_pestilence_aura"
+  | "micromelta_round"
   | "might_from_beyond"
   | "might_is_right"
-  | "might_of_heroes_psychic"
+  | "might_of_heroes_pyschic"
+  | "might_of_titan"
   | "might_of_titan_psychic"
   | "mind_breaking_mutations_aura"
   | "mind_control_psychic"
@@ -1036,50 +1174,61 @@ type AbilitySeedType =
   | "mindshock_pod_aura_psychic"
   | "ministorum_sermon"
   | "miraculous_intervention"
-  | "miraculous_saviour"
+  | "miraculous_savior"
   | "mischief_and_confusion"
-  | "mischief_makers"
   | "mischief_makers_aura"
   | "misfortune_psychic"
+  | "mist_wreathed_shadow_realms"
+  | "mistshield"
   | "mobile_command_vehicle"
+  | "mobile_firebase"
   | "mobile_hunter_killer"
   | "mobile_hunter_killers"
   | "molten_form"
+  | "moment_of_glory"
   | "moment_shackle"
   | "monarch_of_the_hunt"
   | "monocular_targeting_helms"
   | "monofilament_snare"
   | "monofilament_web"
   | "monster_hunters"
+  | "monstrous_barrage"
   | "monstrous_charge"
+  | "monstrous_hulks"
   | "more_dakka"
+  | "more_lads_more_swagger"
   | "morkais_howl"
+  | "morkanaut"
   | "mortis_strike"
   | "mount_up"
   | "mow_down_the_enemy"
+  | "multi_spectral_visor"
   | "multi_spectrum_array"
   | "multi_threat_eliminator"
   | "multicog_targeting"
-  | "multispectral_visor"
   | "murder_maker_aura"
   | "murderlust"
   | "murderous_crossfire"
   | "mutated_bodyguard"
   | "mutating_vortex_aura"
-  | "my_will_be_done"
   | "mysterious_saviours"
+  | "nanoscarab_amulet"
+  | "nanoscarab_projector"
   | "nanoscarab_reanimation_beam_aura"
-  | "necrodermis"
+  | "narthecium"
+  | "navy_bodyguards"
+  | "nebuloscope"
   | "neocapacitor_shields"
   | "network_override"
   | "neural_disruption"
   | "neurocytes"
-  | "neuroloids"
   | "neurostatic_interference_aura"
   | "nexus_of_devotion"
+  | "night_scythe"
   | "nightmare_shroud_aura"
   | "no_escape"
   | "no_foe_shall_stand"
+  | "no_hiding_from_the_watchers_aura"
   | "no_mercy"
   | "no_prey_can_evade"
   | "node_lash_psychic"
@@ -1089,31 +1238,41 @@ type AbilitySeedType =
   | "nowhere_to_hide"
   | "nowhere_to_hide_pain"
   | "nowhere_to_run_pain"
+  | "null_rod"
+  | "nullstone_field_generator_aura"
   | "nurgles_rot_psychic"
   | "oath_of_rynn"
   | "oathbound"
   | "obelisk_node_control"
   | "objective_defiled"
-  | "objective_ravaged"
   | "objective_scouted"
   | "objective_secured"
   | "obsessive_annunciation"
+  | "obsessive_huntsman"
   | "obsessive_ruthlessness"
   | "offerings_for_the_dark_gods_aura"
-  | "ogryn_bodyguard"
   | "ogryn_combat_stimms"
   | "omni_scramblers"
+  | "omnispex"
   | "omnissiahs_blessing"
   | "on_da_hunt"
   | "on_my_signal_fire"
+  | "one_head_looks_back_aura"
+  | "one_head_looks_forward"
+  | "one_last_kill"
+  | "one_man_army"
+  | "one_scalpel_short_of_a_medpack"
+  | "one_with_the_warp_psychic"
   | "onslaught"
   | "onslaught_aura_psychic"
   | "opportunistic_manoeuvre"
   | "optimised_for_slaughter"
   | "optimised_gait"
+  | "orbital_comms_array_aura"
+  | "orca_dropship_legends"
+  | "orders"
   | "outflank"
   | "outflanking_mag_riders"
-  | "outmanoeuvre"
   | "outrider_escort"
   | "outrider_gangs"
   | "overcharged_engines"
@@ -1121,32 +1280,42 @@ type AbilitySeedType =
   | "overkill"
   | "overlord"
   | "overseer_of_redemption"
+  | "oversight_drone"
   | "overwhelming_obliteration"
   | "overwhelming_short_range_firepower"
+  | "overwhelming_wrath_aura"
   | "pack_leader"
   | "pain_adept"
   | "pain_engine_aura"
   | "pain_parasite_pain"
   | "paladins_duty_bondsman"
-  | "panspectral_scanning"
+  | "pall_of_despair_aura_psychic"
+  | "pan_spectral_scanner"
+  | "pan_spectral_scanning"
   | "paradox_of_duality"
+  | "paragon_of_hatred_aura"
   | "parasitic_infection"
   | "paroxysm_psychic"
   | "path_of_command"
   | "path_of_the_outcast"
+  | "patrol_squad"
   | "payback_time"
-  | "pelt_of_the_doppegangrel"
+  | "pechra"
+  | "pelt_of_the_doppelgangrel"
   | "perfectionists"
   | "personal_teleporters"
   | "pestilent_fallout_psychic"
   | "pestilent_familiar_psychic"
+  | "phaeron_of_the_blades_aura"
+  | "phaeron_of_the_stars_aura"
+  | "phantasm_grenade_launcher"
   | "phase_shift_generator_aura"
   | "phase_shifted_cover"
-  | "phased_cover"
   | "pheromone_trail"
   | "photon_casters"
   | "pinning_bombardment"
   | "pious_fervour"
+  | "piranha"
   | "piratical_hero"
   | "piratical_raiders"
   | "piston_driven_brutality"
@@ -1158,10 +1327,9 @@ type AbilitySeedType =
   | "point_blank_barrage"
   | "point_blank_devastation"
   | "political_overwatch"
-  | "polychromatic_camouflage"
+  | "polychromatic_camoflage"
   | "possessed_lord"
   | "pouncing_leap"
-  | "power_of_the_rosette"
   | "power_overload"
   | "powerful_volley"
   | "powerlifter_charge"
@@ -1184,11 +1352,10 @@ type AbilitySeedType =
   | "prince_of_corsairs"
   | "prince_of_darkness_aura"
   | "prince_of_slaanesh"
+  | "prioritisation_protocol"
   | "prioritised_eradication"
   | "priority_objective_identified"
   | "priority_target"
-  | "priority_target_acquisition"
-  | "projected_void_shields_aura"
   | "prophesied_doom"
   | "prophet_of_da_great_waaagh"
   | "prophet_of_destruction"
@@ -1196,13 +1363,14 @@ type AbilitySeedType =
   | "protect_psychic"
   | "protection_protocols"
   | "protective_disciples"
-  | "protector_protocol"
   | "proteus_doctrines"
   | "psionic_shield_psychic"
   | "psychic_barrier_psychic"
   | "psychic_communion_psychic"
   | "psychic_familiar"
+  | "psychic_gifts"
   | "psychic_guidance"
+  | "psychic_hood"
   | "psychic_spoor"
   | "psychic_terror_psychic"
   | "psychic_veil_psychic"
@@ -1210,65 +1378,91 @@ type AbilitySeedType =
   | "psyoculum"
   | "psytronome_shaper"
   | "ptarixs_sorcerous_syphon_aura"
+  | "pulsa_rokkit"
+  | "pulse_accelerator_drone"
   | "pulse_bombs"
+  | "pulse_jet"
   | "punishing_salvoes"
   | "punishing_suppression"
   | "puretides_teachings"
   | "purge_and_cleanse"
   | "purge_response"
+  | "purge_the_foe"
   | "purity_of_execution"
   | "putrefying_stink"
   | "putrescent_fog_aura"
   | "putrescent_vitality_psychic"
   | "pyromaniaks"
+  | "quantum_goad"
   | "quantum_invader"
   | "quicksilver_execution"
   | "rad_saturation_aura"
   | "rage_embodied_aura"
   | "rage_eternal"
   | "raid_and_run"
+  | "raider"
   | "raiders_due"
   | "ram_jets"
   | "rampart"
   | "ramshackle_but_rugged"
   | "ramshackle_cover"
+  | "rapid_assault"
   | "rapid_deployment"
   | "rapid_deployment_pain"
   | "rapid_embarkation"
   | "rapid_strike_vehicle"
   | "rapturous_blows"
+  | "ratling_battlemutt"
+  | "razorback"
   | "reanimation_nodes_aura"
   | "reaper_of_souls"
-  | "reaping_tally"
   | "rearm_reload_fire"
   | "reaver_band"
   | "reavers_of_the_void"
   | "rebind_rubricae_psychic"
+  | "rebinding_psychic"
   | "reborn_in_blood"
   | "reborn_mastermind"
   | "recitation_of_faith"
   | "reckless_abandon"
+  | "recon_drone"
   | "recount_the_deeds_of_the_saints"
   | "recovery_vehicle"
   | "red_skull_kommandos"
   | "redeemer_of_the_lost"
   | "redistributin_da_gifts"
+  | "refractor_field"
   | "refuse_to_accept_defeat"
   | "refuse_to_yield"
   | "regenerating_gene_mass"
   | "regenerating_monstrosities"
   | "regenerating_monstrosity"
+  | "regimental_banner"
+  | "reign_of_confusion"
   | "reinforced_cover"
+  | "reiver_grav_chute"
+  | "relatavistic_tether"
   | "relentless_avalanche"
   | "relentless_carnage"
   | "relentless_combatants"
   | "relentless_march"
+  | "relentless_march_aura"
+  | "relic_of_the_matriarch_censer_of_the_sacred_rose_aura"
+  | "relic_of_the_matriarch_icon_of_the_valorous_heart_aura"
+  | "relic_of_the_matriarch_petals_of_the_bloody_rose_aura"
+  | "relic_of_the_matriarch_simulacrum_of_the_argent_shroud_aura"
+  | "relic_of_the_matriarch_simulacrum_of_the_ebon_chalice_aura"
+  | "relic_of_the_matriarch_the_fiery_heart_aura"
+  | "relic_shield"
   | "relics_of_the_matriarchs"
   | "remorseless_barrage"
   | "remorseless_persecution"
+  | "remote_mine"
   | "rend_and_tear"
+  | "renegade_heavy_weapons_squad"
+  | "renegade_ogryn_brutes"
+  | "renegade_plague_ogryns"
   | "reorder_reality"
-  | "repair_aircraft"
   | "repair_auto_simulacra"
   | "repair_barge"
   | "reposition_under_covering_fire"
@@ -1276,11 +1470,13 @@ type AbilitySeedType =
   | "resilient_organism"
   | "resolute_will"
   | "resource_transmutation"
+  | "resurrection_orb"
   | "retinue"
   | "retro_thrusters"
   | "revel_in_desecration"
   | "revenant_jet_pack"
   | "revolting_regeneration"
+  | "rhino"
   | "ride_the_thermals"
   | "ride_the_wind"
   | "rider_of_the_immaterial_winds"
@@ -1296,34 +1492,39 @@ type AbilitySeedType =
   | "rites_of_coalescence"
   | "rites_of_feasting"
   | "rites_of_reanimation"
+  | "rites_of_teleportation"
   | "rites_of_tempering"
   | "ritual_butchery"
   | "rituale_nullificatus"
   | "rivetin_dakka"
   | "roar_of_mork_psychic"
   | "robotic_bodyguard"
+  | "rod_of_office"
   | "rod_of_the_war_forge"
+  | "rollbar_searchlight"
   | "rolling_fortress"
-  | "roof_access"
   | "root_of_honour"
   | "rotating_death"
   | "rugged_reliability"
   | "rugged_resilience"
   | "runes_of_battle_psychic"
   | "runes_of_fortune_psychic"
-  | "runes_of_the_blood_god"
-  | "runtherd"
+  | "sacred_banner"
   | "sacred_command"
+  | "sacred_devotions"
   | "sacred_healing"
   | "sacrificial_blessing"
   | "sacrificial_dagger"
   | "sadistic_raiders"
   | "sadistic_raiders_pain"
+  | "sagitaur"
+  | "salvationist_medikit"
   | "sanctic_hood"
   | "sanctified_flames"
   | "sanctifying_ritual_psychic"
   | "sanctity_of_purpose"
   | "sanctuary_psychic"
+  | "sanguinary_banner"
   | "sanguinary_priest"
   | "saturation_fire"
   | "saturation_volleys"
@@ -1333,20 +1534,21 @@ type AbilitySeedType =
   | "sawbonez"
   | "scanner_uplinks"
   | "scatter"
+  | "scattershield"
   | "science_guild_support"
   | "scrambler_array"
   | "screening_line"
   | "scryer_of_fates_psychic"
   | "sculptor_of_torments_pain"
-  | "scuttling_gait"
   | "scuttling_horrors"
   | "scuttling_walker"
   | "scythed_impact"
   | "scything_charge"
-  | "searing_conflagration"
+  | "searing_conflagaration"
   | "searing_flames"
   | "seasoned_noble"
   | "second_company_banner"
+  | "secutarii"
   | "secutor_of_olympus"
   | "seed_mucolids"
   | "seed_spore_mines"
@@ -1362,29 +1564,41 @@ type AbilitySeedType =
   | "selfless_protector"
   | "senior_officer"
   | "sentinel_construct"
+  | "sentinel_directive"
   | "sentinel_directives"
   | "sentinel_protocols"
   | "sentinel_storm"
   | "sentry_programming"
+  | "serpent_shield"
   | "serpentine"
   | "serpentine_fiend"
+  | "servant_of_the_whispering_god"
+  | "servants_of_the_abyss"
   | "servile_pawns"
+  | "servitor_retinue"
+  | "servo_scribes"
   | "servo_sentry"
   | "servo_skull_uplink"
-  | "sevenfold_chant"
+  | "seven_fold_chant"
   | "shade_of_twilight"
   | "shade_weavers"
   | "shadow_form"
   | "shadow_hunter"
+  | "shadow_lord_aura_psychic"
   | "shadow_of_death_aura"
   | "shadow_of_khorne_aura"
-  | "shadowmaster"
+  | "shadowfield"
+  | "shadowloom"
+  | "shield_dome"
   | "shield_of_sanguinius_aura_psychic"
   | "shieldbreaker"
-  | "shields_of_the_chapter"
+  | "shieldvanes"
+  | "shimmershield"
+  | "shining_aegis"
   | "shock_assault"
   | "shock_charge"
   | "shock_troops"
+  | "shokk_attack_engine"
   | "shokk_boosta"
   | "shokk_tunnel"
   | "shoot_sharp_and_scarper"
@@ -1406,10 +1620,13 @@ type AbilitySeedType =
   | "silent_bodyguard"
   | "silent_executioner"
   | "silent_fury"
+  | "simulacrum_imperialis"
   | "single_minded_predator"
-  | "singular_purpose"
   | "skilled_riders"
+  | "skorpius_dunerider"
+  | "skulkin_grot"
   | "skulking_horrors"
+  | "skulking_nightmare"
   | "skullmasters_fury"
   | "skulls_for_khorne"
   | "skulls_of_the_fallen"
@@ -1418,25 +1635,31 @@ type AbilitySeedType =
   | "skyfire_protocols"
   | "skyhunter"
   | "skyleap"
-  | "skyshield"
+  | "slabshield"
   | "slashing_dive"
   | "slayers_oath"
   | "slayers_of_tyrants"
+  | "small_bomms"
+  | "smoke_launcher"
   | "snaking_ambush"
   | "snarling_protector"
   | "sneaky_surprise"
+  | "sniper_teams"
   | "solemn_procession"
   | "sonic_destruction"
   | "soporific_musk"
   | "sorcerous_support"
   | "soul_eater"
+  | "soul_trap"
+  | "soulguilt_scanner"
   | "soulless_horror"
   | "spawn_termagants"
   | "spear_of_chogoris"
   | "special_dose"
-  | "specialised_weapon_system"
   | "spectrus_doctrines"
+  | "speed_freeks_mob"
   | "speed_of_the_hunter"
+  | "speed_of_the_kill"
   | "speed_of_vaul"
   | "speedboss"
   | "spiked_ram"
@@ -1453,8 +1676,10 @@ type AbilitySeedType =
   | "split"
   | "spore_laced_shock_waves"
   | "spore_mine_cysts"
+  | "spotter"
   | "spy_network"
   | "squig_mine"
+  | "squiggoth"
   | "stabilisation_talons"
   | "stabilised_disembarkation"
   | "stalker"
@@ -1462,11 +1687,13 @@ type AbilitySeedType =
   | "stanchion_of_holy_martyrs"
   | "stand_vigil"
   | "starscythe"
+  | "starweaver"
   | "stasis_bomb"
   | "stealth_drones"
   | "sternguard_focus"
   | "stimulated_by_pain"
   | "stirring_rhetoric"
+  | "stompa"
   | "stompin_forward"
   | "storm_assault"
   | "storm_of_blades"
@@ -1475,19 +1702,21 @@ type AbilitySeedType =
   | "storm_of_retribution"
   | "storm_of_silence"
   | "storm_of_vengeance"
+  | "storm_shield"
   | "storm_troopers"
   | "stormblades"
+  | "stormfang_gunship"
+  | "stormraven_gunship"
+  | "stormwolf"
   | "strafing_enfilade"
   | "strafing_run"
   | "strands_of_fate_psychic"
   | "strategic_dispersal"
   | "strategic_knowledge"
-  | "strategic_mastery"
+  | "strategic_redeployment"
   | "strategium_command"
-  | "striding_colossus"
   | "strike_from_the_skies"
   | "strikes_of_retribution"
-  | "stronghold"
   | "structural_analyser"
   | "structural_collapse"
   | "styrixs_duty_bondsman"
@@ -1501,22 +1730,24 @@ type AbilitySeedType =
   | "summon_the_cult"
   | "sunderer_of_fortresses"
   | "sunforge"
-  | "super_heavy_war_engine"
+  | "super_heavy_walker"
   | "super_runts"
   | "superlative_strategist"
   | "support_system"
   | "support_vehicle"
-  | "support_weapon"
   | "suppression_bombardment"
   | "suppression_fire"
   | "suppression_protocols"
   | "suppression_volley"
+  | "supreme_commander"
   | "supreme_grand_master"
   | "supreme_loyalty_aura"
+  | "surge_of_wrath"
   | "surge_of_wrath_psychic"
   | "surgeon_acolyte"
   | "surgical_precision"
   | "surrogate_hosts"
+  | "survey_augur"
   | "sustained_assault"
   | "swallow_energy_psychic"
   | "swallow_whole"
@@ -1528,10 +1759,11 @@ type AbilitySeedType =
   | "swooping_descent_pain"
   | "swooping_dive"
   | "swooping_predator"
-  | "swords_of_the_chapter"
   | "sworn_protectors"
+  | "sydonian_sentinel"
   | "symbiotic_targeting"
   | "symphony_of_pain_psychic"
+  | "synaptic_relays"
   | "systematic_vigour"
   | "tactica_obliqua"
   | "tactical_acumen"
@@ -1548,21 +1780,23 @@ type AbilitySeedType =
   | "tank_hunter"
   | "tank_hunters"
   | "tank_killer"
+  | "tantalus"
   | "target_acquisition"
   | "target_elimination"
-  | "target_priority"
   | "target_sighted"
   | "target_uploaded"
   | "targeter_optics"
-  | "targeting_array"
   | "targeting_coordinates"
   | "targeting_relay"
+  | "tarsis_buckler"
   | "taskmaster_aura"
   | "tears_of_isha_psychic"
   | "techmarine"
+  | "technoarcane_zealotry"
   | "technomancer"
   | "tectonic_fragdrill"
   | "tectonic_reverberations"
+  | "teleport_crest"
   | "teleport_homer"
   | "teleportation_matrix"
   | "tellyporta_tech"
@@ -1572,15 +1806,19 @@ type AbilitySeedType =
   | "temple_relics"
   | "tempormortis"
   | "tenacious_spirit"
+  | "terminator_storm_shield"
   | "terminatus_assault"
   | "termite_assault"
+  | "terrax_pattern_termite"
   | "terrifying_assault"
   | "terrifying_crescendo"
   | "terrifying_monstrosity"
   | "terror_from_the_deep"
-  | "terror_troops_aura"
+  | "terror_troops"
   | "the_betrayer"
+  | "the_blood_gods_favour"
   | "the_bloody_handed_aura"
+  | "the_chosen_one"
   | "the_collegiate_astrolex"
   | "the_dark_master_aura"
   | "the_destroyer_hive"
@@ -1588,8 +1826,7 @@ type AbilitySeedType =
   | "the_emperors_shield"
   | "the_eternal_dance"
   | "the_fierce_eye"
-  | "the_great_wolf"
-  | "the_imperiums_sword"
+  | "the_lion_helm"
   | "the_lord_solar"
   | "the_lords_will"
   | "the_path_least_travelled"
@@ -1598,20 +1835,21 @@ type AbilitySeedType =
   | "the_ratling_twins"
   | "the_red_grail"
   | "the_scent_of_blood"
-  | "the_silent_king"
+  | "the_scorpions_bite"
+  | "the_silent_king_aura"
   | "the_spiritshield_helm"
   | "the_stars_are_right"
   | "the_vargards_duty"
   | "the_warmaster"
   | "their_number_is_legion"
-  | "thievin_scavengers"
   | "thin_their_ranks"
   | "third_eye_psychic"
-  | "threat_level_rising"
   | "thrilling_spectacle"
   | "throne_of_judgement_aura"
   | "throttlerokkit_shokka_engine"
   | "thundercharge"
+  | "thunderhawk_cluster_bombs"
+  | "thunderhawk_gunship"
   | "thundering_stampede"
   | "thunderous_charge"
   | "thunderous_head_butt"
@@ -1619,26 +1857,30 @@ type AbilitySeedType =
   | "thunderous_pounce"
   | "thundershock"
   | "thunderstrike"
-  | "tidewall_cover"
   | "tidewall_defence_platform"
+  | "tidewall_droneport"
+  | "tidewall_gunrig"
+  | "tidewall_shieldline"
+  | "time_flux_aura_psychic"
+  | "times_arrow"
   | "timesplinter_mantle"
   | "titan_guard"
   | "titan_hunter"
   | "titan_killer"
   | "titanic_advance"
   | "titanic_agility"
-  | "titanic_fire_support"
   | "titanic_strides"
-  | "titanic_walker"
   | "to_slake_its_rage"
   | "to_the_last"
   | "tocsin_of_misery_aura"
+  | "tome_skull"
   | "tormentbringer_aura"
   | "tormentors"
   | "torture_device"
   | "torturers_craft"
   | "total_obliteration"
   | "tough_to_kill"
+  | "towering_reputation_aura"
   | "towering_wraith_construct"
   | "tox_cycler"
   | "tracking_target"
@@ -1648,25 +1890,31 @@ type AbilitySeedType =
   | "transdimensional_displacement"
   | "transfixing_gaze_aura_psychic"
   | "transient_madness"
-  | "translocation_beams"
   | "translocation_shroud"
+  | "transport"
+  | "transport_bay"
   | "transport_support"
   | "treacherous_illusion_psychic"
+  | "treason_of_tzeentch_psychic"
   | "tremor_quake"
   | "tremor_shells"
-  | "trench_line"
-  | "tricksters_grace"
+  | "triarchal_menhirs"
+  | "trifold_path_of_shadow"
   | "trophy_hunters"
   | "trophy_taker"
   | "trophy_takers"
-  | "truesilver_aegis_aura"
+  | "truesilver_aegis_psychic"
+  | "trukk"
   | "tunnelling_horrors"
   | "turbo_boost"
+  | "turbo_engine"
   | "turbo_jets"
   | "twisted_defence_force"
   | "twisted_science"
   | "twisted_sorceries_psychic"
+  | "tycho"
   | "tyrannic_war_veterans"
+  | "tyrannocyte"
   | "ultramarines_bodyguard"
   | "ultramarines_honour_guard"
   | "unbreakable_duty"
@@ -1682,9 +1930,10 @@ type AbilitySeedType =
   | "unholy_resilience"
   | "unholy_speed"
   | "unholy_vigour"
+  | "unit_composition"
   | "united_in_destruction"
   | "unleash_wrath"
-  | "unnatural_resilience"
+  | "unnatural_resistance"
   | "unorthodox_strategist_aura"
   | "unquenchable_resolve"
   | "unrelenting_and_uncompromising"
@@ -1693,57 +1942,63 @@ type AbilitySeedType =
   | "unstable_payload"
   | "unstoppable_champion"
   | "unstoppable_monster"
+  | "unstoppable_monstrosity"
+  | "unstoppable_valour"
   | "unsubtle_crusader"
   | "unto_the_anvil"
   | "untouchable_purity"
   | "unyielding_ancient"
   | "unyielding_in_the_face_of_the_foe"
   | "urban_warfare"
+  | "using_commissar_graves"
+  | "using_sir_hekhtur"
   | "vanguard_assault"
   | "vanguard_of_the_dark_city"
   | "vanguard_predator"
   | "vanquish_the_foe"
-  | "vantage_point"
   | "vector_of_disease"
+  | "vector_of_the_omnissiahs_wrath"
   | "vehement_aggression"
   | "veil_of_time_psychic"
   | "velocity_tracker"
   | "vengeance_for_the_omnissiah"
   | "vengeance_of_the_omnissiah"
   | "vengeful_exhortation"
+  | "venom"
   | "veterans_of_the_long_war"
+  | "vexilla"
   | "vicious_insight"
-  | "villains_doom"
   | "violent_fury"
   | "virtue_of_intolerance"
-  | "virtuous_onslaught"
   | "virulent_aura"
   | "virulent_blessing_psychic"
-  | "visions_of_heresy"
+  | "visions_of_butchery"
   | "visions_of_suffering_psychic"
+  | "vitruous_onslaught"
   | "vivispectrum"
+  | "voice_eater"
   | "voice_of_experience"
   | "voice_of_new_truths"
   | "voice_of_the_triarch"
-  | "voices_in_the_code"
   | "void_mine"
   | "volley_fire"
   | "voltagheist_field"
-  | "vortex"
   | "vortex_terrors_psychic"
   | "vox_cast_proclamations_aura"
+  | "vox_caster"
   | "vox_net"
+  | "vox_relay_beacon"
+  | "vox_skull"
   | "waaagh_effigy_aura"
   | "waaagh_energy"
+  | "waaagh_wazdakka"
   | "walking_bastion"
   | "wall_of_dakka"
   | "wall_of_muscle"
   | "war_construct"
   | "war_howl"
   | "war_hymns"
-  | "war_leader"
   | "ward_against_the_malefic_arts"
-  | "warden_of_the_imperium_nihilus"
   | "wardens_duty_bondsman"
   | "warp_field_aura_psychic"
   | "warp_rift_firepower"
@@ -1752,292 +2007,56 @@ type AbilitySeedType =
   | "warp_storms_psychic"
   | "warp_strike"
   | "warped_interference_psychic"
+  | "warped_invigoration_psychic"
   | "warpsmith"
   | "warptime_psychic"
   | "warrant_of_trade"
   | "warrior_elite"
-  | "warrior_strategist"
   | "watch_master"
+  | "watcher_in_the_dark"
+  | "wave_serpent"
   | "wave_serpent_shield"
   | "way_of_the_blade"
   | "way_of_the_shaper_psychic"
   | "way_of_the_short_blade"
   | "weapon_sentinels"
+  | "weapon_support_system"
+  | "weavefield_crest"
   | "webway_shunt_generator"
   | "webway_strike"
   | "well_stocked_supplies"
   | "whirling_death"
   | "whirling_onslaught"
-  | "whirling_stance"
-  | "whirlwind_of_gore"
+  | "whirlwind_of_rage"
   | "whispering_web"
   | "wild_ride"
   | "will_of_iron"
-  | "will_of_the_hive_mind"
   | "wind_walker_psychic"
+  | "winds_of_war"
   | "winged_strike_pain"
   | "winged_swarm"
   | "wings_of_sanguinius_psychic"
   | "wisdom_of_the_ancients_aura"
   | "withering_hail"
+  | "wolfkin"
   | "word_of_the_phoenix_psychic"
   | "workshop"
   | "wracking_agonies_psychic"
   | "wraith_form"
-  | "wrath_of_the_omnissiah"
   | "wrathful_presence"
   | "wrathful_rampage"
+  | "wreathed_in_shadows_aura_psychic"
   | "xenos_hunter"
   | "xiratps_sorcerous_barrages_psychic"
   | "xv02_pilot_battlesuit"
+  | "you_eard_em"
+  | "your_vigil_is_not_yet_ended"
   | "yvraines_champion"
   | "zealot"
-  | "zealots_fervour"
-  | "zealous_path"
-  | "ziggurat_dock"
-  | "accelerator_mandible"
-  | "advanced_guardian_drone"
-  | "alchemicus_familiar"
-  | "alchemyk_counteragents"
-  | "ammo_runt"
-  | "anchorite_sarcophagus"
-  | "ancients_banner"
-  | "apothecarys_narthecium"
-  | "aquiline_prow"
-  | "arbites_medi_kit"
-  | "ard_case"
-  | "aspect_shrine_token"
-  | "astartes_shield"
-  | "auspex_array"
-  | "baggage_harness_aura"
-  | "banner_of_macragge"
-  | "battlesuit_support_system"
-  | "big_bomms"
-  | "blacklight_marker_drones"
-  | "blastajet_force_field"
-  | "blessed_wardings"
-  | "blizzard_shield"
-  | "bomb_squigs"
-  | "book_of_salvation"
-  | "borewyrm_infestation"
-  | "bound_daemon"
-  | "brass_collar_of_bloody_vengeance"
-  | "brayhorn"
-  | "brute_shield"
-  | "centurion_assault_launcher"
-  | "chaff_launcher"
-  | "channeller_stones"
-  | "chaos_familiar"
-  | "chaos_icon"
-  | "cluster_caltrops"
-  | "collar_of_khorne"
-  | "command_link_drone_aura"
-  | "command_rod"
-  | "command_uplink"
-  | "comms_antenna"
-  | "cult_icon"
-  | "daemonic_icon"
-  | "death_korps_medi_pack"
-  | "death_totem"
-  | "defence_searchlight"
-  | "demolition_gear"
-  | "denuncia_oratory"
-  | "diseased_icon"
-  | "dispersion_shield"
-  | "distraction_grot"
-  | "endurant_shield"
-  | "enhanced_data_tether"
-  | "explorator_augury_web"
-  | "fabricator_claw_array_aura"
-  | "faolch"
-  | "flare_launcher"
-  | "flip_belt"
-  | "forceshield"
-  | "gloom_prism_aura"
-  | "glovodan_psyber_eagle"
-  | "grapnel_launcher"
-  | "grav_inhibitor_drone"
-  | "grav_talon"
-  | "grenade_harness"
-  | "grot_assistant"
-  | "grot_helper"
-  | "grot_oiler"
-  | "grot_orderly"
-  | "haywire_mine"
-  | "healing_serum"
-  | "heavy_bombs"
-  | "helix_gauntlet"
-  | "herd_banner"
-  | "homing_beacon"
-  | "hover_drone"
-  | "icon_of_despair_aura"
-  | "icon_of_excess"
-  | "icon_of_flame"
-  | "icon_of_khorne"
-  | "incubi_shrine_token"
-  | "inferno_bombs"
-  | "infernum_halo_launcher"
-  | "infiltrator_comms_array"
-  | "instigator_bolt_carbine"
-  | "instrument_of_chaos"
-  | "ironclad_assault_launchers"
-  | "jump_pack"
-  | "kabalite_icon"
-  | "kustom_force_field"
-  | "markerlight"
-  | "master_vox"
-  | "medi_pack"
-  | "melta_mine"
-  | "mistshield"
-  | "multiwave_comms_array"
-  | "mv15_gun_drone"
-  | "nanoscarab_amulet"
-  | "nanoscarab_projector"
-  | "narthecium"
-  | "nebuloscope"
-  | "null_rod"
-  | "nullstone_field_generator_aura"
-  | "nuncio_aquila"
-  | "nuncio_aquila_aura"
-  | "omnispex"
-  | "orbital_comms_array_aura"
-  | "oversight_drone"
-  | "panspectral_scanner"
-  | "pechra"
-  | "phantasm_grenade_launcher"
-  | "plasmacyte"
-  | "praesidium_shield"
-  | "preymark_crest"
-  | "psychic_gifts"
-  | "psychic_hood"
-  | "pulsa_rokkit"
-  | "pulse_accelerator_drone"
-  | "rampart_crest"
-  | "ratling_battlemutt"
-  | "recon_drone"
-  | "refractor_field"
-  | "regimental_banner"
-  | "regimental_standard"
-  | "reiver_grav_chute"
-  | "relic_shield"
-  | "remote_mine"
-  | "resurrection_orb"
-  | "rod_of_office"
-  | "rollbar_searchlight"
-  | "sacred_banner"
-  | "salvationist_medikit"
-  | "sanguinary_banner"
-  | "scattershield"
-  | "serpent_shield"
-  | "servo_scribes"
-  | "shadow_field"
-  | "shadowfield"
-  | "shadowloom"
-  | "shield_dome"
-  | "shield_generator"
-  | "shieldvanes"
-  | "shimmershield"
-  | "shining_aegis"
-  | "simulacrum_imperialis"
-  | "simulacrum_imperials"
-  | "slabshield"
-  | "small_bomms"
-  | "smoke_launcher"
-  | "smoke_launchers"
-  | "soul_trap"
-  | "soulguilt_scanner"
-  | "spotter"
-  | "stimm_needler"
-  | "storm_shield"
-  | "survey_augur"
-  | "tarsis_buckler"
-  | "teleport_crest"
-  | "terminator_storm_shield"
-  | "the_lion_helm"
-  | "the_scorpions_bite"
-  | "thunderhawk_cluster_bombs"
-  | "tome_skull"
-  | "transport_bay"
-  | "vexilla"
-  | "voice_eater"
-  | "vox_caster"
-  | "vox_relay_beacon"
-  | "vox_skull"
-  | "watcher_in_the_dark"
-  | "weapon_support_system"
-  | "weavefield_crest";
+  | "zealous_path";
 
 const abilitySeedIds: Record<AbilitySeedType, string> = {
-  deadly_demise_1: "01KCKE8QAYAANKWRB5K34FMENK",
-  deadly_demise_2d6: "01KW0MR2N0BDYCDTE9TZH2DD5V",
-  deadly_demise_2d6_6: "01KVEFSZJTQVQX8JZQZX1JJSVJ",
-  deadly_demise_3d6: "01K14FZ6KQ0BT2WGTAJQHB04GX",
-  deadly_demise_d3: "01KF8MZHYM3X0AX270X9N4VQ6S",
-  deadly_demise_d6: "01K7HVZPNEQ1888KDW0F8B6DH2",
-  deadly_demise_d6_2: "01KS72T4EGTPPEV03TCX93DJTS",
-  deadly_demise_d6_3: "01KRP9F1D8TZ84WYB899TH0WDE",
-  deadly_demise_d6_6: "01KX152KKDTAQHDD6YFR9WFX1J",
-  deep_strike: "01KQZTSBVHY3BV4T71G630NW0Q",
-  feel_no_pain_4: "01K5CN6CJ94ZMEXQFXGGKZCA5T",
-  feel_no_pain_5: "01KTEP0P46XJ1HPY49Y1WX9F11",
-  feel_no_pain_6: "01KP4YRRZBR333VRNRR8WMNNFQ",
-  fights_first: "01KPD92TAT5ZC0PZ23AD6N813N",
-  firing_deck_10: "01KQBG4QYE2B7SQ0GV9E4SD1X4",
-  firing_deck_11: "01KT6F73AATCKB2Q0JZKHWQ4AW",
-  firing_deck_12: "01KXTXN37P8HE29SVB2S0FAS4T",
-  firing_deck_15: "01KVSQMM4YDYN1GYT5WBJ3NKQ8",
-  firing_deck_16: "01K3D3JVJNBX8GZ3YQY385YJT3",
-  firing_deck_2: "01KNY2T4QXS83SZBTSFQXYS66Q",
-  firing_deck_20: "01KRFQ6M3FNEJ71G2ADPQY79BA",
-  firing_deck_22: "01KKP8C5ZYTJMK8HZ5GSXYQ7A8",
-  firing_deck_30: "01K73JHWJW4V5Y72ZCWPSAT1XV",
-  firing_deck_45: "01KH92J3ZCRPZ8M3E4GDXC2433",
-  firing_deck_5: "01KNHVJC2YWH76KZQYKFXJJF65",
-  firing_deck_6: "01KDM2NMYMPCKQ429P6C67SA7C",
-  hover: "01KGJ1TNZC7YG19GP8Q63NH9YM",
-  infiltrators: "01KQZTSBVN39YRT5GVB9QQ64HF",
-  leader: "01KQZTSBVNGWT7Y8XAQTVFV02X",
-  lone_operative: "01KX9AQNKC2W77RH8A2BBBCTC1",
-  scouts_6: "01KQZTSBVNXHYKMJWFXV03MWM2",
-  scouts_7: "01K9MY3AAGXAXJRRTMCSQ4WSMG",
-  scouts_8: "01KEWVX0PRJ0JCN2N34AJ456X1",
-  scouts_9: "01KFM4AP0VBRZE5EH068PDGYHT",
-  stealth: "01KQZTSBVN1P7E8HZF381JHY33",
-  acts_of_faith: "01KD9YSMG1YV015QAB9WQ8H938",
-  assigned_agents: "01KQC9R2E0GRFK28S15BH2GCS0",
-  battle_focus: "01KCTDWWCZT15Y7568QKRQHPT4",
-  blessings_of_khorne: "01K0NWDJ5YGPX1AA8XJDBWPH55",
-  cabal_of_sorcerers: "01KW29ADFQGS9RHRJJ2P14JK5E",
-  code_chivalric: "01KP2D35YA5H4C90B45BJ570VF",
-  cult_ambush: "01KCWHFEY6VKM0RY9TG71BQVGQ",
-  curse_of_the_wulfen: "01K7WNGTN1YGCZYXAM3GA6E2XW",
-  dark_pacts: "01K8VPS2PKDQJ5Z4NEN3QE3A5M",
-  disparate_paths: "01KJCTW2SG4PE34R8QYR5JP3FA",
-  doctrina_imperatives: "01KZSDRFNVN0GFC5X57DN79FM1",
-  for_the_greater_good: "01K93SN4JYNYAV9J6285KS0T8Q",
-  gate_of_infinity: "01KWSWQSP5Y1QTD60W535ZZCWC",
-  harbingers_of_dread: "01K835AYVT4H3BZG1SPBK11TG5",
-  martial_katah: "01KNKE1AEY51NX6DCTPR8G0E7H",
-  mission_tactics: "01K00GEZ30QSEGEQKD88MWQY63",
-  nurgles_gift: "01KV97WEJ74YXDZ4ZFS7894XAZ",
-  oath_of_moment: "01KSW8SWMN5X3BR715Z2D90FT9",
-  pact_of_blood: "01KV2V56YWVZHXGE28XMS43DHF",
-  pact_of_decay: "01K0D2VNR5850YJX58Q4WEYCZR",
-  pact_of_excess: "01KWBEEWAPKH8123450H11S1XP",
-  pact_of_sorcery: "01K1DASJ9FKK3WTAYFD7S5XPB1",
-  power_from_pain: "01KZ18AMD7GBG86AQ6WQP1WMGS",
-  prioritised_efficiency: "01KCWA69H3PVZRN5ZGEC32A67G",
-  reanimation_protocols: "01K76E40TFCYTDR2105ZAMH88N",
-  shadow_in_the_warp: "01KYV5DZQKA9BW3YJTWDV69DH3",
-  super_heavy_walker: "01KZMMEMCV9K4N2XX3QN33XYJQ",
-  synapse: "01KFJ34YHXRH4VGDNERD0Z9QBV",
-  templar_vows: "01K5MSB7Q4MK7F95VBG8ZAJ0TJ",
-  the_shadow_of_chaos: "01KT9K106JG9FCAQJAXAD8PATN",
-  thrill_seekers: "01KJMMJCD5JN2C5R14KQSCJBZC",
-  unaligned_forces: "01KBS65ZG675WMC9PK8K61XT1M",
-  voice_of_command: "01K6543523EENQSTEF8K0QCRJX",
-  waaagh: "01K7WT9253HPVA017KX1RQZ118",
-  waagh: "01KQZTSBVN754VS4CN5CVKHWR9",
+  a_bomb_inable_snowman: "01K9VSA1R3YK9R2MY8GV21WWNG",
   a_challenge_worthy_of_skill: "01KNS1BZGB0JARVB1GW16BCEHX",
   a_gory_path: "01KY80CAERFHENAXRKNHDC5GRT",
   a_hearty_pick_me_up: "01KJSXTYQ85Y2NW9DYYBTN7T2X",
@@ -2047,22 +2066,22 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   abbess_sanctorum: "01KH0P1GZWZFRPJ50TB5KRFCJN",
   ablative_plating: "01K2DJ6B78EDTAH7GZS67FNQ9K",
   abomination: "01KBRHXVNM6BAN3GE7Y8NYWSQE",
-  accursed_horde: "01KSRNXX9R6M60YGAC9R9TJ0SK",
+  accelerator_mandible: "01KMATPX7BM91RKQH26KTWG3SS",
   acherons_duty_bondsman: "01KTV0NH5PSZ013DZCQ9NY7R8S",
   achillan_eye: "01KK19G9A7KMF8CJSKEVBB2F8P",
   acrobatic: "01KSE6CVS5RSN3JKGKC1EW5PB2",
   acrobatic_escape: "01KBR4CF7AW5SAJVV5BS1R9JMH",
   acrobatic_gladiators_pain: "01KPE17NJXGGZ8ZCN7E6Q84FZ4",
   acrobatic_grace: "01KGAVYZX9GPJ9QTKQ2TJ0SJQT",
+  adamant_wrath: "01K8EJ3RCP9P8V6Q4YGXR1X21B",
   adaptable_predators: "01KA3TA872XG1ZDDABE13RQYHW",
   adaptive_instincts: "01KDP3FVVS6K2XFG1BEXS41XT5",
   adaptive_strategy: "01K05HK1GQZWKM7Y3JD6KJ8AW9",
-  adjust_target: "01KEBEHXPDCQ8B9HK98R6VKWTG",
   advanced_armour: "01KD0PZF60AFYHQYV47ZGYS49C",
   advanced_firepower: "01KHCV865QZ3BDGJ6YS0QPCH4Y",
+  advanced_guardian_drone: "01K3M8PF8WQHMYNNHAVVKXVBJX",
   advanced_quantum_shielding: "01KF2YWWBD4F4VPTN1JTMHGYQP",
   advanced_scouting: "01KK1VVSBXJ1WSP82PZ315D004",
-  aegis_protocol: "01K55QPPYF290VWX66K3K75EQ7",
   aerial_assault: "01KHW7XJRRTN20G8808VGKNY24",
   aerial_deployment: "01KETPX1B37VYT9ZJAQ9BEH6JG",
   aerial_disengagement: "01K2TA56P8ZXCJD5W3TG9EGZDG",
@@ -2073,7 +2092,6 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   aethersense_psychic: "01K7M89KBDW6JMXVMNBB9QQVBY",
   aetherstride_psychic: "01KN0CBMD6VHXDZCW4YXZBFTSZ",
   agent_of_discord_aura: "01K9GGGD233878CW2MJ563TV9Z",
-  aggression_imperative: "01KMEWZQH32EFC4PFRCZZ0PX4C",
   aggressive_advance: "01KT3G2PH5TDZ0RHH5404PSRJZ",
   aggressive_assault: "01KYY5KQPTW5XDACWECVAVJN4N",
   aggressive_deployment: "01KGWCPDQRCK97CDRSPW0EP912",
@@ -2089,6 +2107,8 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   airborne_evasion: "01KJ087EWC87TDWMP0PWT0A45J",
   airborne_insertion: "01K3NWJQGB760NRB00056J69GS",
   airborne_predator: "01K88XCVG00Z0J3F19DKKN7ZM4",
+  alchemicus_familiar: "01KX420DX993PRBHJ7JB450EB6",
+  alchemyk_counteragents: "01K251NZ0G8PZBM4JNK4F9JQ9K",
   alpha_hunter: "01KE4CHH4Z2ZTM09J6F53T5BQ6",
   alpha_invader: "01KM4S2687SCBKJZ5RATVQB3RY",
   alpha_leader: "01KAJSVHSQGD43YR5E9ZWR9XDK",
@@ -2096,63 +2116,79 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   alpha_warrior: "01K479XVTB5WYVWS0DHNPDN2GM",
   altered_reality_psychic: "01KHH0SEKYYYB483XQ97ZM1XAV",
   ambushing_hunters: "01K54N48HBSCMKZY85AB6GPDFV",
+  ammo_runt: "01KB35TG0ES8AEYZHG2VJT5VGJ",
   an_honourable_death_in_combat: "01KJ55H9XZ3FG4CXK6RSSE03KM",
   ancestral_fortune: "01KZPWYGCPJ0PNXKPZX8WCVB25",
+  anchorite_sarcophagus: "01K8PY1QXQVBBHN3B8HARETGW4",
+  ancient_banner: "01KFGDBT9QKANMEVY09WYZAAM5",
   ancient_collector: "01K4172NWEB8VF4VZVH50R5DS9",
   ancient_conquest: "01KSZQT3FQGQTME0R7RA6ZWMKQ",
   ancient_cover: "01KX7BBVMJCMDACPKB6WV9S52S",
   ancient_tactician: "01KMF58TCF3X9JKC5XDF6Q3SZH",
+  ancients_banner: "01K8RZVPQ3SWAZ3QY0MSC4NZFC",
   angelic_ascent: "01KG7EHPCT41PAYY8Q27YYSWRB",
   angelic_visage: "01K5950HDCRA3PNMRJMTBMGHWY",
   angels_wrath: "01KSR761M2TE3YZJB0CHK2X0HR",
   anguish_of_the_unredeemed: "01KP8Q1KWYF09ZYD0VQZVH92C8",
+  animus_damper: "01K82VBM1GC727ZRWA8P77BD2J",
   annihilator: "01KY1FD3MJQGMTXE803V70JQ4R",
   annihilator_protocols: "01K4PXZGDK9C87YRX1JDFQ0JA5",
   anti_armour_gunship: "01KD506D40QXN8FXNP7ZSGP87F",
+  antimatter_meteor: "01KG1KZ6EE3K38K6XFPWN9JGMG",
   anvil_of_endurance: "01KZ5C056DCZ1GP8S9AZ25D1DB",
   apex_beast: "01K3DNJ2Q1J1821QFNS3K94QNB",
+  apothecarys_narthecium: "01KG66VSA5Z23HZHZMWBZH1AN4",
+  aquiline_prow: "01K4BJD5QGM5HGXSS74H38JD4Y",
   aquilon_optics: "01K8CAGVQ7ZYA3E1F1SN25KKR8",
+  aqullon_optics: "01KTMN0Z41P4CR9T90NXR423SW",
+  arbites_medi_kit: "01K9T5VWM786GNPKQB144DTYNX",
   arcane_cover: "01K8M9XM7VY1Y22PTPCQM7GXM2",
   arcane_shield_psychic: "01K5QMCBH8W9RMN0BA2XVR9NMZ",
   arch_sorcerer_of_tzeentch_psychic: "01KKD72XZQQ1C4CZGGW9EEBKD9",
   architect_of_ruin: "01K29HGWF60HCQDYVRYTJ87MSA",
   archon_of_the_poisoned_tongue_pain: "01KASFAM9G2DN2WQM5X6F9TVN1",
-  archons_will: "01K7BBMVMJCAGNP4FQAJ80AQBA",
+  ard_case: "01KDRPJYJTR5W9PTN8BMMDGDQX",
   armorium_cherub: "01KMC3PEXKQJM6HDFX24MTJZTM",
   armour_hunter: "01K5CHYMDDDJ86JHBDJDTAYZ9Y",
   armour_obliteration: "01KXQHC8JMHA9P40BZMJ45QRB5",
   armour_of_faith: "01KTGCZWMGX7E7F8Z9QKRHCQ0T",
   armour_of_fate: "01KMFP481046JVXHQEAXW6RC9T",
-  armoured_aggressor: "01KP2D5467Y755KN2GWT240FZH",
   armoured_defender: "01K5YDYTEZ48R1N6HKQ9KD6ACE",
   armoured_frontis: "01K4NYM5BR3MDMT9W16SKM4463",
   armoured_resilience: "01KYJZD416KS3XC3SPVCD882V7",
   armoured_spearhead: "01KJQWC4T2YK1WNK99XM09YEK3",
   artillery_commander: "01KG5N12EE42S3EX87Y3V0TEQP",
   ascended_daemon: "01K6N4JCVX3KATJEQ474C6066S",
+  aspect_training: "01KTMKTC53876D6Y9GTBN008A5",
   aspire_to_glory: "01KQQ27HET2A6430AF8DYEMV0T",
   assassin: "01KB53N2S2RDHGVRF2TREEBCMX",
-  assassins_poisons_pain: "01KFGRAF57J61KAK14ZE845JNB",
   assault_dropship: "01KAKH950ZMEDPTS7B8FN8ANT9",
   assault_ramp: "01K2Z9VZAGSPTRPDSJK3TD0NNR",
   assault_vehicle: "01K4N7WYQPE52BYNNRKR1HHCQP",
   assured_destruction: "01K6191E2QMTBH9AMXSWZ6KM37",
   astartes_banner: "01KP1QAS6NG14RSA7GS10TYSPX",
+  astartes_shield: "01KF9006CG8HH6RBY2KKFPVNYC",
   atavistic_instigation: "01KP52APPSGEC14QQFAN5SE6GQ",
-  atomantic_arc_reactor: "01KRPFCD0P2MHY3VFDW214TJPN",
   atomic_energy_manipulator: "01KHRPWYKYG5N7GZ291KVKAEFK",
   atrapos_duty_bondsman: "01KPGNJ408M3GM7899D1A7QPJB",
+  attach_s: "01KTBPKSTNQJJZ9DRB7D1KX00R",
+  attached_leader: "01KFSW2P5DRG3FVN87Z9H5TWFT",
+  attached_unit: "01K96SABD00Z1S8M0235S4WTT8",
   attuned_onslaught_psychic: "01KB7VZ7RM53AE7NHN5545V015",
+  aura_of_dark_glory: "01K1NC8S2KHV9NG780DDG0CZ3C",
   aura_of_fervour_aura: "01K1HAYV0PRQRFPKHHQV4N27N0",
-  auramite_and_adamantine: "01KGQFFVYQM8VKEE20CS5F953W",
+  auramite_and_adamantite: "01KTM4S7N3XWWFM9ZSCG8VRPHG",
+  auspex_array: "01KZ233B79NVTPF44Z1GQV6MMZ",
   auspex_surveyor: "01KWRJRQ2EX33J28R8QP818GTV",
   author_of_the_codex: "01KSYK1KRQ9DVG2Z7SFQCBG4ZW",
-  authority_of_the_inquisition: "01KZKBBHQEYBRPKBF3CNH939YJ",
   auto_tapestry_of_the_emperors_judgement: "01KEH84BSF6YETSTAXNVVTB6Q9",
-  automated_defences: "01K64FJW5P8JMA1GY2871JWCEF",
+  avatar_of_the_whispering_god: "01KJB8RWQ7HVYMDEDJ0BPNX6HT",
+  awakened_spirit: "01KDXWXSR16WZQHGP4QQDQ0SCV",
   backroom_deals: "01KPA5F3CG2FEFXGQRWQ3M6ENK",
+  baggage_harness_aura: "01K79Q14G5DXPJ2H3G4C59SC6X",
   ballistus_strike: "01K9K7MQKZ7AD8EFPXVPVWE0FZ",
   bane_of_cowards: "01KRHEZ12R5DWWKDF1D64P5B9H",
+  banner_of_macragge: "01KDGEF756BM33PDA21771P77W",
   barrage_of_filth: "01K6Z6J8BAGX0HS9EVRRDXHJXJ",
   bastion_of_corruption: "01KM2KTRW9H3MM5HQFNSPZX9CH",
   bastion_of_firepower: "01KB5E21CPS4CS1JZ0GK02K3VF",
@@ -2162,40 +2198,47 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   battlefield_butchery_pain: "01KM521QC2AAQ4PJ78XFQXD6T8",
   battlefield_control: "01K4X3AEGG5VAM79EDJXF0TTWX",
   battlefield_dominance: "01K5PTHKE326AWKQQRJYT1WSQH",
-  battlements: "01K7FREW4V49YCHBGAB5TPT63F",
+  battlesuit_support_system: "01K33T211J0CSQ69QG3XGD5A84",
+  battlewagon: "01KMEVA3E29C5ZWFM3SJ9S464V",
   beacons_of_rage_aura: "01KH3PSM8KCEBAKZ32396THESB",
   beast_handler: "01KC9MC7XDPQ2K71KESF3XCH42",
   beastboss: "01KQGJ94N34HBN13SF8JKRAY3V",
-  beastly_rage: "01K2FNDA8EJV9V0TWQFVBC5W9Z",
+  beastial_fury: "01KFYVXB8EF4XB81GS5GREKKXS",
   beastmaster: "01KMNS9DZWNP93392XH65QFD73",
   been_there_seen_it_killed_it: "01KZVZTH4C23CWXD68EK8CFH1Z",
+  beguiling_form: "01KZNV8R7ZMF058Y1T1T95AJM7",
   berserk_charge: "01KSMCPQPJTXZ53A8JFXT1D7ZR",
-  berserk_fury: "01K1QE8Q81ATPWX9JMHY5Y71S0",
-  berzerker_frenzy: "01KC7F1HDMKEK6KE4H4SMXRBCF",
-  bestial_fury: "01K42F6B7PA59JJERN8SJC9ECR",
+  berserker_frenzy: "01KM9KAVSZD7CCZ1YNFVN3JTEV",
+  beserk_fury: "01KJBJXY2YMBRSQ07SYY5HBSM9",
   bestial_prophet: "01KGPPHQMCX4N7ST5H5Y31APZM",
   bestial_rage: "01K6M2M7FNGRN1E0CWED4RQNGX",
   bestial_raiders: "01K3CAPZHCG2RC79ZQN7MQJA5W",
   big_an_shooty: "01K2CQSYE346GTDM5YX60K60AY",
   big_an_stompy: "01K50QYZBPSH2FJPM3H6TT32Q2",
+  big_bomms: "01KDM55TSD86CSM0SSTXSDFDHM",
   big_booms: "01KBXTZDZ3Q2NZ42FZB2TFWJNV",
+  big_gunz: "01KNTKTHFB85P4M1C59GWS3NKS",
+  big_trakk: "01KQKNATZVYEVXXK5ZGM6F5NT9",
+  biged_bossbunka: "01KC6H2RJ63AZ9XEPGRAWD44J3",
+  billowing_fumes_aura: "01KSFTK7N6ZWTA3T33YQGVKAXZ",
   binding_tendrils_psychic: "01KYN3P9DH5YWVE8SHHB4RJR3K",
   bio_horror_disruption_psychic: "01KXN0BA1ST1QP3J6W0PVRM1T2",
-  bio_minefield: "01K4DRZG9HXGFW64BWJQYH336J",
   bio_stimulus: "01KRHMBNNF3E6XRXAT8RCCDQ02",
+  biohorror_disruption_psychic: "01KZP49JV9AABTYGSHP0BCVV84",
   biological_warfare: "01KEF5GHPQQMAMSR8FA7TCQF3K",
-  bioregeneration: "01KQCEDWHR2GD0C7GSQBT4JT98",
   bizarrely_resilient: "01KKQYY55KXPEASCXF9Q1H7ZAZ",
-  black_rage: "01KF5VCPSFRZ1WHRBDNFGR1H78",
+  blacklight_marker_drones: "01KHKY0ND3H23NT1M5TAE1T2FA",
   blackstar_cluster_launcher: "01KGEJ7G6F20A5J8RFZA8DJRCW",
   blackwing_mantle: "01KARC2BVAA032M9K53V052ZWK",
   bladeguard: "01KZ90BZ6P3E6MT6NVTMW9W3ZX",
   bladestorm: "01K9PTVRM15Y7WB7V65PT844E9",
   blastajet_attack_run: "01K7FATWR2M6CXVMAJHCZDYNJ8",
-  blazing_salvoes: "01K1VN5AZT12J8MCFFXDG424TP",
+  blastajet_force_field: "01K3STVVD4MKZ4TXDQ10GMK5N3",
+  blazing_salvos: "01KW63CFMQZ4VGVW28KR6272W4",
   blazing_warpfire_psychic: "01K1TS5QW67073618JXVD0F7Z2",
   blessed_by_the_plague_god: "01KSTKECPDVK115K4QRHSG2B41",
   blessed_icon_of_disease: "01KQM6K5N4FB9B1Z8R0JNYXJZQ",
+  blessed_wardings: "01KNYEKD6SGF2T0BPTG1KV36Y6",
   blessing_of_the_omnissiah: "01K07RDWXS9SQ0DQG8YMDZAW5Q",
   blight_bombardment: "01K4VVKCZD2T328543EJ9PY3CG",
   blind_barrage: "01KBBARX1AJPF4NSGXPNXXMYZC",
@@ -2212,25 +2255,32 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   bloodied_terror: "01KC9T2WX1DFN44ACA5PFWCH2V",
   bloodlust: "01K21DD99KGMVFXG23E2V70N9E",
   bloodmaster: "01K2QCE3AWTM2NYK4CDZXZSMRT",
+  bloodthirst: "01K0T5GFXWAP3QVBTCEBARBW31",
   bloody_fury: "01KPPTJA141RD6870NQQK752QN",
   bloody_spectacle: "01K351W8FCKTPV9PEM3EZ62ZRN",
   bloody_stampede: "01K1Y5DMXTJKYQZ8DXBEHGAY3R",
+  bludgeoning_cheer: "01K0NPDSKF4289A6FDHVD8QMVK",
   blur_of_blades: "01KSEQQZ7YDZ384WHTRWCM6H2P",
   blur_of_movement: "01KAFD2YBXEH1HZZ1PMKGSXD5Y",
   bodyguard: "01K2JYQ3046VA9D5CG6D9MMM8H",
   bomb_drop: "01KG6VEGA56XRE3M083KNH5C96",
   bomb_rack: "01KQ1JGW776MCQFW2JD09S93B3",
   bonesinger: "01K9K5F5R6C40WGGDZRPQN4ABX",
+  book_of_salvation: "01K39V3BN9C260C9TC3WX8K10X",
   boom_bomb: "01KA062C1G2NG6ZD9PEWDMRRZD",
+  boon_of_death: "01KVX930X1S76RWXCWES1RRTF0",
   born_of_wolves: "01K4EPWMWHNQT6498T5XP6FDSS",
   bound_creation: "01KF7V1XK0XJCQ9NA6TBP3Q0D5",
+  bound_daemon: "01K7YNFHXR7W0M0HK67JT6QDWX",
   bounding_assault: "01K9HVEF4QBBPFP463VNDKWS8V",
   bounding_leap: "01KKH514TVC7FZCFECF174QJ3T",
   bounding_leaps: "01KNQ3CXEJSW43C7745QST0G3G",
   bounty_hunters: "01K3TMB9VTZ7JFSNA8ZJZSB6HZ",
   br_khyr_guild_support: "01KKFPF40WK1Y431X2GV0484C8",
   branching_fates_psychic: "01KKYVM9ES4M0H41B83G0YDJ5V",
+  brass_collar_of_bloody_vengeance: "01K34CXQVXSCJR8EJKCFK6CKFW",
   brass_stampede: "01K40T0TWPXZAMS34MX85QSR2J",
+  brayhorn: "01KP54TCK77KDG20NECEW7Y8V7",
   braziers_of_judgement: "01K8N35R4592SN8ZQ1R8PHGA92",
   breach_and_clear: "01KW0M2WJ7FN8NQG966RETYHHF",
   breaching_command: "01KNXMK1Y8S7M5QVESK25Y2J74",
@@ -2256,6 +2306,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   buzzer_squigs: "01KAF5HJ0NMRKM4AT6JGEX09MG",
   cadia_stands: "01KKNX19235B6YN2N08662VP25",
   called_shots: "01K7HX6YAWR9DHWRJEK3VV4P9R",
+  canoptek_retinue: "01KBPPMKSHYP48S0MG7T74YXNZ",
   canoptek_swarm: "01K4S1FD1WKC72ZYESRHGKDD43",
   canticles_of_the_omnissiah: "01KQJTFAAF40RBCPAJVR44HA80",
   captain_general: "01K1VRCE8CKV0SNCFXK26EXK8K",
@@ -2265,7 +2316,11 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   catechism_of_death: "01KV3EXC0N28QWMTHD3NEDDFD8",
   catechism_of_fire: "01KG0SMAEPPTZ15VRDJJQYJS9S",
   cegorachs_favour: "01K9VWRDNBW09FYNGA1GZGZ307",
+  centurion_assault_launchers: "01KYWDDY4MGP26NKJ22ZMSP47R",
   ceramite_cover: "01KD5T5P07Y7XAE5HVYF6BACJ7",
+  cerastus_knight_acheron: "01K3PS0FE75VFW2KVTWD20TNV4",
+  cerebrex_logic_engine: "01K4CDPXXYNB81EJ95KSVJ54YQ",
+  chaff_launcher: "01K8BEXWZ5DGJ4YJQH0YY102K6",
   chainbreaker: "01K4WA0Q48XNAE6Q0RXAXR02GW",
   chainsword_doctrines: "01KDT7AYZB5W71ZB38JKFBRK3N",
   champion_of_the_kingsguard: "01KRMPPD52DK7R3V6PRT25HNHD",
@@ -2273,16 +2328,23 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   champion_slayer: "01KH1V968MA6XN6YJ64ASAT2ND",
   chance_for_glory: "01KFWK6TFAVNY8CY1QKVWY129G",
   changecaster: "01K5ND83V2XEH2THMV6A6XJJEX",
-  chaos_lord: "01KK71QJB8PRMBB3G4DB3JY316",
+  channeler_stones: "01K7QVB9TSM1JPEKKB3QRXQP3M",
+  channellin_da_waaagh: "01KPP51D8Q90KY65PCYQZBEX5K",
+  chaos_familiar: "01K6BARNRV3X5EZEPH7K6SVAP0",
+  chaos_land_raider: "01KYB11F574JPDQMPE1FGXZC5Y",
+  chaos_rhino: "01KK94QB36KGT7B13S20J2EBAG",
+  chapter_master_of_the_raven_guard: "01K0QQ9122QZMX49PT7NJTGNEY",
   cherub: "01KY0E4T71QCM24YBM2ZADH55W",
+  cherubs: "01KD0XQ5Y16WGHWS08504E8JDF",
+  chinork_warkopta_legends: "01KKWA7C9YZ304DMFM5RCFGETY",
   chirurgeon: "01KW8DC5AVR9Y8RHAB01V10ZHR",
   chitinous_horrors: "01KQCM74PAMK0TZPMCYSEHK224",
-  chitinous_horrors_aura: "01KE9CJ4GQ4K8T899NWWT926TD",
   chittering_swarm: "01KE4MSCJ3GG56HFCRET5VZKVM",
   choice_samples: "01KCX7XWAV1E450DZ134FNM93N",
   choreographer_of_war: "01KQ9D3DHHQ4P3NB3Y3EAFWR81",
   chosen_companions: "01K3BTM7SBVJ199F85VCJ5X0VA",
   chosen_marauders: "01K8RWWKHYZ4Y6FE0TR271CS98",
+  chosen_of_the_emperor: "01KJ5RCTN2T9NKJMNGCWMKNKQA",
   chronometron: "01KP2R2CDZ8R02XCSKEJ6PDRCD",
   chronus: "01K44J51ABV1Z22JN2RC92BZYH",
   claimed_for_the_cult: "01KN79Y26HT69B67NGMWTGRACK",
@@ -2304,12 +2366,17 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   combat_disembarkation: "01K9WK3VBV7NBJSHSR3DKY8VQR",
   combat_squads: "01K0RED989A4GTC9BDMYCRS1J0",
   combat_support: "01KR3H8ER0HYMPFRNZMG05E4KG",
+  command_link_drone_aura: "01KNXWPMD1P281KQ5ETC9FG6W5",
+  command_rod: "01KCX1PP0Y4FWFEMEETPAXXGH8",
   command_squad: "01KXKQ27R0Y9TPPSBMP09TVTGQ",
+  command_uplink: "01K5PN9EMQPH7CGR7TS1YM8BGX",
+  comms_array: "01KTBYJPTC9DM6TZA6J2ZFFKZ1",
+  compact: "01KS9B1JMB37C2ZPXMB4BQ8XCH",
+  company_heroes: "01KJ3TVFPEJYXADHH4NCWSPEPQ",
   computational_mastermind: "01K938B99KBSN0VX4DS9MJS61W",
   concealed_positions: "01KSMXX6G2C96W302SHZQQ9G3S",
   concussive_wave: "01KPRGYTEJXMA6PMCZQPG5KD76",
   condemnatory_annihilation: "01KWC02MZDZWHKZ8MNSJ28J2JN",
-  conqueror_protocol: "01K44DG8V6TEW6FATTTBME9N61",
   consecrated_ground: "01K3WVDKYSGDMP8G9A6RNHEP2Y",
   consumed_with_hunger_aura: "01KH1SY3HPYD8F93QQK0M7QRW6",
   control_edict: "01K27GKDSTARW80589FSYG2GE1",
@@ -2317,30 +2384,42 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   coordinated_leadership: "01KJ8C88F99Z0FFNSWZ4MNBAED",
   coordinated_strike: "01KF4B75JBXK33DBHP05TP6VH0",
   corner_the_quarry: "01KHSR1E3HMW0NFKBE2JAN8J50",
+  coronus_grav_carrier: "01K3ZJBF021S1J1NZPWFMZX8ND",
   corrupt_machine_spirits: "01K4QB6G98NDWSJCGA32CCCB3B",
+  corsairs: "01KA45P6AV5PX51F3HQAYWAHA0",
+  cosmic_fire: "01KEJ65SHV1J1AAEQV1S99JK3Z",
   cosmic_horror_psychic: "01KE633T1KEWAPAX8QCY0NZB76",
+  counter_tactics: "01KSRG4A29N7JXTZQ5K0GEF2AW",
+  counterstrategist: "01KQ73WT3K2VBN020AKJG7XTNJ",
   court_of_the_archon: "01KB00ACH54691MNTHMZC71R9A",
+  court_of_the_archon_legends: "01K52AE3YPNR0WGQ10MEPB25HW",
   cover: "01KEWV4FEC2JK2YTDVKFQXZGYC",
   covering_fire: "01KE4MSJV160W559N70RWM1P2N",
   covert_stealth_team: "01K7MT09T3YFAYZCCMQA1ZE3BE",
   crack_shot: "01KGAPR69C2N0WFDC0W62VKKV6",
+  crassus: "01KQBW37JT9QSSXM4A5KBR9N11",
   creeping_shadow: "01K7KCGNYMQC71N54ARQHQ1BHK",
   crewed_artillery: "01KQ0E0HVKTGXSVHKPTBFE2HDX",
   crewed_platform: "01KHBER29AFNHKVQQ7S2J904W7",
   crimson_harvest: "01KK61127R6PSFQC7YXDYZ4P3Q",
+  crisis_bodyguard: "01KMZ31XFAHNCP89TAN5Z5K49M",
   crisis_commander: "01K3C39TH41X0Y8SJ9DBZDSQ0E",
   crossfire: "01KZJ5X6YAA2BWESYTXAKFFHVJ",
   cruel_amusement: "01K5QT1VJJ90M93ENGFH40ESJV",
   cruel_enforcers: "01KS450ZHRR3H6V7F6YTK1Q8PN",
+  cruel_example: "01KACFKPQ7PJMZQARWBAT0QM9Z",
   cruel_hunter: "01KPNKVHS47G7T9FNTG6NFSEX1",
   crusade_of_wrath: "01KXH6R3QKN7DTQ8N80DNW5HDD",
   crusaders_duty_bondsman: "01KPBVCSB025TH4HFBEE7TV38B",
   crush_all_who_stand_before_us: "01K9DWTYKM3N5FAP8H5KRNCMXN",
   crushing_charge: "01KPSHSJPSGDM78B6Q3G0NVPHH",
   cry_of_the_wind: "01KH9A4PJC293SCMTZ8BRM410F",
+  cryptek_retinue: "01KVY61FXK4HZN185ESPTJDN8C",
   crystal_matrix: "01KHKGYW0RR18NVFJVZWBY4PY7",
   crystalline_targeting: "01KD3X8BN5BFBQT4QWDN17N283",
+  ctan_shard: "01K3Q1FXWWDKB1X6ZCZ6BYN6BF",
   cult_demagogue: "01KXERNESWJ02JZ6WY2GTSCANN",
+  cult_icon: "01K77J5AEZW6YHA64MXQKYETP2",
   cult_infiltration: "01K3J0THA9EQSB7ADT6BXQ369P",
   cunning_hunters: "01K8VTEKCEFWQVWCVDMDJSMFDF",
   curse_of_the_walking_pox: "01K2AT85EBEG6J9YSMGWF651R8",
@@ -2363,16 +2442,29 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   daemon_lord_of_nurgle_aura: "01KN51SEQDKV4HCRXAHV3VR5NR",
   daemon_lord_of_slaanesh_aura: "01KQFAM3WS50SBMWESKG1SC3E8",
   daemon_lord_of_tzeentch_aura: "01K2M22W2H68BK1E7VWSBQN58V",
-  daemon_primarch_of_slaanesh: "01K90J2QQEPXH6RPT108HSP7R8",
+  daemon_prince_of_slaanesh: "01KV9G3FVRD1KZ4M8CJEC869HF",
   daemonbreaker: "01K4B2RRRH109ND8HWC0CBSHAK",
   daemonforge: "01K8Q8XM6W6K6SBS070RA53QE0",
   daemonic_destruction: "01K64X3ECECN7ZY4P81F27V91X",
+  daemonic_icon: "01KBF9YW0863AXH8ESX3W0GK8V",
+  daemonic_locus: "01KB4S63RT4HQ14XQPRT51TM3W",
   daemonic_lord: "01KKVK4C6KDFCEM1SVSCB4RCNQ",
   daemonic_ordnance: "01K4RS1GJF7RT5GEZ894GJR0ST",
   daemonic_patrons: "01KPW6PKDATC6FHKCG2X5A890G",
   daemonic_poisons: "01KFQFH76HG665XR1BSWNJ5R8G",
+  daemonic_speed: "01K0R64353MY0RP7JFJPCMPN25",
   daemonkin_psychic: "01K49PBX08AFXD26RSNK4PB8PG",
   dakkastorm: "01K7TH7JQFPAQCVSD718N233FA",
+  damaged_1_10_wounds_remaining: "01KN8BYQYCVG9QEFFFF6EAVDFY",
+  damaged_1_16_wounds_remaining: "01KP25HB2YG91PYE4ZYYRAESVZ",
+  damaged_1_20_wounds_remaining: "01K1EKWWCM78K2ZBR8QM7X3PTM",
+  damaged_1_3_wounds_remaining: "01KJBR9R9QD83DHSEFMQ9VQHMN",
+  damaged_1_4_wounds_remaining: "01KVX33WP2JSS35703V78WYHQ8",
+  damaged_1_5_wounds_remaining: "01KXVSKH8EMW7FSQTRE6XR0QXB",
+  damaged_1_6_wounds_remaining: "01K1X8V3A1HPNP8D9S37RNAZ21",
+  damaged_1_7_wounds_remaining: "01KFBYSZ6DXJGC01KETPBNZRP1",
+  damaged_1_8_wounds_remaining: "01KGB76HBGSAZ8C1KQC62G1MJZ",
+  damaged_1_9_wounds_remaining: "01KYMVPZKD15C0KDZZGNHFTVDM",
   damaged_armour: "01KK621V72Z82VMC3B6ABG2BG0",
   dance_of_death: "01KNCMN92MSDYSBKZTDCVP74CK",
   daring_recon: "01K8NY3ZD7XNRW0FDT4P241YXN",
@@ -2388,19 +2480,18 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   data_spike: "01KDH0S21M91KAQ013PC6CH9XH",
   dats_our_loot: "01K3CMAH5RGD4E7XZQJ6CNAAC7",
   daughter_of_the_abyss: "01KF0NHA9W4PM2N7ABF7S014J0",
-  daughters_of_the_abyss: "01KMHZFA33THWHD2TREG9PJE5M",
   dazzling_acrobatics: "01KM78CQ2JKK45E5YW3R4E0G2Q",
   dead_brutal: "01K47W2D3RZ7M2AD5M6RSXQ4A8",
   dead_rippy: "01K472DB9F4JT3EJKTB1975P0S",
+  dead_shot: "01KZEN4328FZKP8PN308W9E8SQ",
+  deadly_demise: "01KJJJ3RGCK5G93P6GBVETS3GY",
   deadly_retinue_pain: "01K3A537Q0YCQB6WAH4R7X37BQ",
   deadly_stalkers: "01KFK162TQ3ZY0DTJYQBWRAZWD",
   deadly_terror: "01K64MSEKSYZACZFVQED5XCB2D",
-  deadshot: "01KHHZB1CGRW33Z5S73VNS55GA",
   death_approaches: "01KDRZTXS9FQE9QWDSS46K2YXC",
   death_befitting_an_officer: "01KXW1TNW7JWFZ8TVSH28ZENWQ",
   death_blow: "01KKMK6Y83WR885S2EAPM0RG9G",
   death_cult: "01K171B1H4WZH7ZQA33CNP864G",
-  death_frenzy: "01K40ZEHWH9J6R54KXXQY4TYZD",
   death_from_below: "01KB5KHK8K77W9R323FJMJQDKR",
   death_guard_defenders: "01KXXP4FSYDKQXN5F7H4DWD8EQ",
   death_hex_psychic: "01KJ2XN4ER589Z0Y5KNS0PP3YP",
@@ -2410,37 +2501,41 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   death_scream: "01KFAXE80F6ZGTFD1FZFMSGR4N",
   death_sphere_bombardment: "01KSWSGBYJ1T2PJNR82XJN5JZG",
   death_to_the_alien: "01KDCE697M3WCFWY8BZ8NGE5G2",
+  death_totem: "01K89QSEWHSAZQG2WGPMWQR5ZJ",
   death_vision_of_sanguinius: "01KA5JPPCDZAMVGH1DFDZQJ30F",
+  death_visions_of_sanguinius: "01KXEFBHA71HJF28H2883H75N6",
   deaths_heads: "01K0G71QXG4HHZWV8HE1QTVK45",
-  deathstorm_assault: "01KK2MN0Q86FGCGS7GPR0F7EZC",
   deathstrike_missile: "01KK0DJ7FK3329SWFBPAJTDSY2",
   deathwing: "01KVCZBHCVE0P85MJN1WRFWKV4",
   decapitating_strikes_pain: "01KV5QJXN5G6JDWPW6KM6HK3WR",
   decimator_protocols: "01KZPYTHWZTW4KQ860SGRH2948",
+  decisive_command: "01K5XM344DHSXQ4N1JDB1JEX18",
   decisive_destruction: "01K6E79P5WHMZHEZDRHYK3N9QW",
+  decoy_targets: "01KCWG9R5X2XCVKTCH8KR7JAJG",
   decoys_and_misdirection: "01KYZ4Q8TFK0WVGNGG60GTXF9Z",
   ded_glowy_ammo_aura: "01K5T9WHJNZPRN60S3420E7Q9D",
   dedication_to_duty: "01KWRJQJVGZETYTWJQ6505PKC1",
   deeds_of_heroism: "01K1FBW09Q0QXSA15DJT9TEJ40",
   defence_line: "01K9WBWF0BTQXWBXJ7K0K27M76",
+  defence_searchlight: "01K7B0B7P9866M0X6BGP2GHDVH",
   defend_the_divine_work: "01KPAVCGA3BP0AS1DEFPX2DJHP",
-  defenders_duty_bondsman: "01KXEMR182DZVZG56RSNAPJ5KN",
   defenders_of_the_faith: "01KBEDCPXJ3Q7VTQPYTTJK4X0K",
   defensive_array: "01KMBSMNECP7Z1A3BCNZWHW65G",
   defensive_stance: "01KRC611SD5HKWXGFC5PWMSM98",
   deff_from_above: "01K77QQNWXCVC1RTY8V8QA8YXW",
+  deff_rolla_battle_fortress_legends: "01KSZMQ1G6RWREF0CH1CH01N0C",
   deft_parry: "01K59M9JBBKMHN2WSW06M44A6N",
   delightful_agonies: "01KY1Z1NKNS5B6CV4VTP1KPB8M",
   deluge_of_nurgle_aura: "01KPGEBQGDQ914BDWAKKDE3EBZ",
   demagogue: "01KRJEARKXQEYSNE7PTY0S5380",
   demolition_charges: "01KV80EPS3TWRY9Z0Y4HY9M6EB",
+  demolition_gear: "01KK7QD1X1FQBTV2PXNYPTPZNJ",
   demolition_run: "01KQX4Q0QN5H2BNJAPCNJ0AV1H",
+  denuncia_oratory: "01KA7BYG6HVTVDYYMQJA4AZ0KC",
+  deployment: "01KM8RRAJQJV1VMKSB0P6RNGKD",
   deployment_complete: "01KMPKAX25JWFQR5DE13GPSCQK",
   deranged_snotling_assault: "01KZS9XTCEWHTSJ3ZS6ACK9Q05",
-  deredeo_strike: "01KCQEZDFPYNB2X1DT7SJXDV66",
   desert_riders: "01K9JSZEQS1PVWYWPPVBSC9GT5",
-  desiccation_conduit_aura: "01K4KAWN9572XMJ5NRNFZ324XG",
-  designate_target: "01KG34GXPWK72JMNEBC5AM9FWR",
   despoilers: "01K0BD5P93VMGJ86EH6Y8GZ1TH",
   destabilising_quakes: "01K8DVV95KYDTZWHHCSMW27QRA",
   destroyer_cult: "01K5F11E6483XC0A4A6X6BE2YM",
@@ -2449,22 +2544,25 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   devastating_assault: "01KFDZYAJYV7GNDB88Y3C0P4GH",
   devastating_charge: "01KBYC18CQBY2HQB6Q93C8G7R4",
   devastating_refrain: "01KRTFRW6B3C21QBWSZHSC42G1",
+  devilfish: "01KP6K13Q9QK201PFHZ2YY6NKM",
   devious_mastermind: "01KN2N87PVFNDFVVB3YX9MN32F",
   devoted_to_destruction: "01KGY2P8Q910BKMZX1VXJMD8QA",
   devoted_to_pain: "01KFNZDC8FZEVYNNVHJR6EHHPA",
   digestion_spine: "01KQWSPKZ81B5Q1B9JW7GFGTAF",
-  direct_grace: "01KATNH7YJSXWA7EXX4A93XK3J",
   direct_the_slaughter: "01KWJ74PZ0FTXXR5AGMH8351CE",
   discordant_disruption_aura: "01K34717CV1Y4K85186JX3EKBH",
   disease_of_mirth_aura: "01KM0WXVX46C01419DJA0Q2QH3",
   diseased_cover: "01KJMHKYS416AC59350H5CCZCV",
+  diseased_icon: "01K5XZ5CYG80W9MSRK6ZHEXJJX",
+  diseased_influence: "01KKB7QJH3WYEPC3KF1XPEE3D5",
   diseased_malice: "01KNR2EFH9D4T0P1VRFWR0FBM4",
   disintegration_beams: "01KFVJ7J793PF0PS18K1K00SAX",
+  dispersion_shield: "01KEFVE18JDDNKRPF7P4WVE5Q9",
   disruption_bombardment: "01K53KMYCTAX3RZSVZKTYAK3QT",
-  disruptive_influence_aura: "01K3Q79XHEPMA4RTQNAR8Q7NMR",
+  distraction_grot: "01KQZTSBVNKZ5VBS5A1WQX475Q",
   divination_psychic: "01KZ6T1AETSQBPMCKY0034F227",
   divine_deliverance: "01KR5RB9JBPTV8M1ZZGZA7C0F6",
-  diviner_of_futures: "01KY3BTWSPF9YN9NDNCW1J8W8V",
+  diviner_of_the_futures: "01KY7NE4Y5VNBGBEQZ0Z0Q5FPN",
   doks_toolz: "01KTK29B7RDNS74GJRVF75DCC8",
   dominate_will_psychic: "01KDFHHA2YJ8ABTENJEV43JWT8",
   domination_of_the_hive_mind_aura: "01K6ZRDRVJ3G2AFYRXCSTG199H",
@@ -2474,22 +2572,19 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   dread_dominion_aura: "01K14SS5N2C8X7HY8GE90V5ZG3",
   dread_foe: "01K4KB3S7QHGFJXEBGA9CWNPJ0",
   dread_snipers: "01KJ82P1ER2PSKXXVC4WKFTEZP",
-  dreadclaw_assault: "01K00TZ85ZKWG61V2WJ9ACFFC9",
   drill_boss: "01KGYGHFWYRDJQ6NBERNPDPKCZ",
   drill_through: "01KHBRR7SSVZ2H2BX54SV3CFGN",
   drive_by_dakka: "01KMT4JAEP46VEP2ZQGQHXYCV4",
   drive_by_krumpin: "01KR1CNZJ4ZMWA0R56SAWWNWW1",
   driven_by_fury: "01KJHBNCBVGV381JN09RAX0R7B",
   driven_by_hatred: "01KYBKNJYED4BH8CBPTVZN9SRB",
-  drone_commander_aura: "01KCQKAK4E68N4BZZCH8W953QR",
+  driven_by_ultimate_rage_aura: "01KDAR9B9KGF524EQD02RZ278Q",
   drone_escort: "01K70TE0CYFCKF8SC6EDSS85YZ",
-  drone_harassment_tactics: "01KRF76E9KSPJDABDBCSD0NW14",
   droneport: "01KMCG93GHQWVDTT5WRDW1SP8W",
   drop_pod_assault: "01KEGSRH4Y5TRB8VHCQKBKSXQ9",
   ds8_support_turret: "01K0NAMG9Q3JGS9ATB9T9RP2AQ",
   duality_shield: "01KNAC1WRNY1HYEBEFJ0C1AH9N",
   duellists_hubris: "01KRJ6D9GMXJ6V6Q4HDCGYN2B9",
-  dust_trails_aura: "01KBF500XZWWAPYNPGD1HS7K5K",
   duty_eternal: "01KSE2CKWZHT91FWQF4224PFM0",
   dynamic_efficiency: "01KYJ4ZTZDVNS8BR0ADG9SD192",
   earthshaker_rounds: "01K9SSPH2Z1FKNXAPSZHX7FW57",
@@ -2500,23 +2595,26 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   eldritch_flames_psychic: "01KV8GSKJS0A2H3RSPJFBTAFE9",
   electro_infusion: "01KJ5001A9FNWDCZSR8BVTNFJ8",
   electro_shock: "01KFXZTXFDAPVQAG51X3ZRFD1N",
-  electromagentic_cascade_pain: "01K8SMF3MAS260SMDJ9WAMQ2YG",
+  electromagnetic_cascade_pain: "01KSNWTQKWKVJNVQZQ585RK779",
   elevated_strider: "01KEABQZFNN8PD0PDHE8BC23KT",
-  emanatus_force_field_aura: "01K71WBSDP27JY0BZWFNC10NZ5",
+  emanatus_forcefield_aura: "01KC9AKG30FAF0D0FEXBRS1NRN",
+  embarking: "01K7EDSPM03C89EMSCQBT96T1X",
+  embarking_within_transports: "01K2T3S3RDQP6S6F5YYTM5BYB2",
   embittered: "01K2161WE0XMP9JGEY026JEVZY",
   embodied_prophecy: "01KT9H9016YQ0XV9ZMZE5FYD9Z",
   emergency_combat_embarkation: "01K4BJYZEPGT3BXH3E434B9W1B",
-  emergency_plasma_vents: "01KA4972CK73PYC6X8N80XSDC9",
   emissary_of_the_blood_god_aura: "01KWEBP4E2XPR170G40517HH1V",
   emissary_of_the_great_mutator_aura: "01K00EME06822PGNC9XYTSFJ9H",
   emissary_of_the_plague_god_aura: "01KQR8JT39DHPG85950Y4ZHC24",
   emissary_of_the_prince_of_excess_aura: "01KMFRWEC55ZH40B4BNZKE16HN",
+  emnity_for_the_unworthy: "01KADS70S74M8WK55MXRPHW0QW",
   emplacement_platform: "01KQYWJB1TW56H84JQPYHVPJV0",
   empowered_by_death: "01KQEZGB0PNE1SB6JM372WM74J",
   empyric_ambush: "01KJWZZ224XXNH5E1VTZA03TXP",
-  empyric_guidance_psychic: "01KDB9TTMW1NTBPKAJFM6EQHTJ",
   encephalic_diffusion_aura_psychic: "01KGM6G6773NZ9X8G0N903AP3M",
+  endless_hatred: "01KVCXY8PA25J7AJHQBNNG1ZXB",
   endless_suffering: "01KC05MMVFXBRQGXHQ7WYX70QM",
+  endurant_shield: "01KRVN3S4A5W5J5GXPEBVGWJZY",
   enfeebling_miasma_aura: "01KKRZDBTHS8GCRBZ2XH234ZP9",
   enforcer: "01KHHG912VV0W96AFR150AG5G8",
   enforcer_commander: "01K28D5KF4PHED2TD8G4A69CFP",
@@ -2524,21 +2622,22 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   enginseer: "01K6PYF68TP71144H8TT45221Q",
   engrammatic_logic: "01K1E56M3ZWP1BA40GEK5N0XM8",
   engulfing_fear_psychic: "01KQNNDWXFK7FZS3PK7WB0BAHE",
+  enhanced_data_tether: "01KE8A7Q4TRF8MZBCD1D7SJ4WX",
   enhanced_toxic_miasma: "01K8RN6PMGQT2519QRNNTEASED",
   enhanced_warriors: "01KX1V33N5KC1X542JGNA6QM6F",
-  enmity_for_the_unworthy: "01K76F5WGT9FJ1QF7G1407T2TH",
   enrage_machine_spirits: "01KES1WHNXVX7ZH7YPM6T0JKRZ",
   ensorcelled_annihilation: "01KQ8T1TAM5WKTKFESQHGHWRMJ",
   ensorcelled_destruction: "01KEGDYADA1Q634XRFM943YFE4",
+  enthralling_hypnosis_aura: "01K3Z7JB0K8J6GZPTABAXATG08",
   eradicate_the_foe: "01KP3PETJ14TD821DTT22R4S0N",
   errants_duty_bondsman: "01K244VPDFW2HRB149KMSS3ERC",
+  esoteric_explosives: "01KV1R9T2VQZJP8D12BKAVXPYX",
   eternity_gate: "01K0Q9XZ1KSQJPRQZ0T7BVR095",
   ethereal_form: "01KC2P4KD2JS62Q3QQSZ1TTP43",
   etheric_emergence: "01KDEK5VBP82WGDX9BWFPRZ3QA",
   euphoric_strikes: "01K34NWX1RK3Z2R9BG90XM14JP",
   evade_and_survive: "01KKWNJQZTC36KMQ2Q1CVRP7T8",
   evasion_engrams: "01K69E41HYAA2GSYXD33D1RG2X",
-  even_in_death_i_serve: "01KV4W7HJGRDXYKYFXXQ86FG53",
   eviscerating_fly_by: "01K2Z9WM7MMXTZVS4YSJJ40YP4",
   excessive_assault: "01KPMMZ2G5XW2TQBB6FBW695KM",
   excessive_vigour_aura: "01K3TV97G19M6J1K9M3C3AHEAK",
@@ -2548,6 +2647,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   exemplar_of_the_code: "01KP8A3QKWZA0K97F89K8ZQ2CY",
   exemplar_of_the_einhyr: "01KHSHW2GR1J6T75MQB274V9HD",
   exemplar_of_the_silvered_host: "01KYEXFZ32RHNH9KXB80ED3TPT",
+  exemplar_warrior: "01KR9AXKE88YZG7EC3SBP7ZV42",
   exemplars_of_montka: "01KNNXT6GA8B203CV484ED943M",
   exhortation_of_rage: "01K7X35FEZ10FJDFQ70SDKN0T0",
   experimental_enhancements_pain: "01KZ55R77KVXKAQFXZWWHVB0H9",
@@ -2555,15 +2655,19 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   exploit_their_cowardice: "01K6DT28SAPV94YABCJEZ7MVDG",
   explosive_blight: "01KHJ929KBZCG5H7GWPYCYBSV5",
   explosive_death: "01KPJWBD1YX2Y6H2ZV22XT3TDK",
+  explosive_snowballs: "01KR9ZAR7ZM40K3ERXG0ZVTBW1",
   extraction_of_fresh_disease: "01KX3FAZWAQN8H7RXNPVMQNMEC",
   extreme_mobility: "01K5H53SC3KXSM4EMH8637S7M1",
   extremis_trigger_word: "01K1M2AY3DVMZJXG1S0DHCAXRT",
   eye_of_judgement_psychic: "01KWN7ZSF6BQ120Q64TAFQXJ1K",
+  fabricator_claw_array_aura: "01KSNCQNTB532F76NEPD501YQV",
   face_of_death: "01KMQJ7G3ZQ6FFE8TVZS1AKSBV",
   fade_away_pain: "01K06FK346ZM52PY2PSDJJ1PQV",
   failure_is_not_an_option: "01KH679P249Y5VM3ZJG117Y0CA",
   faithful_flock: "01KMYQMGV9V6DSV1VNP6081M5N",
+  faolch: "01KKCXV7ZE33NW031G0A2WTMKP",
   fated_hero: "01KEC5WKSMYP39HMGNF3226C1P",
+  fates_guide: "01K0JSPGN3M2PD5MCZXEZ2VKVF",
   fateskimmer: "01KN02DDQP07Z5NWZTTARHBRBX",
   father_of_pain: "01K4BRJ402PECFFW5JQFAS1K5W",
   fear_incarnate_aura: "01KBR75V9XRYPKZVRTB1TPX4FQ",
@@ -2574,15 +2678,18 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   feculent_despair_aura_psychic: "01KE7PJBK41GW3WJ0EPPMZE2MS",
   feeder_tendrils: "01K4J4J580ATYNPT9MQWS2QEAT",
   feeding_frenzy: "01K34E30RD5YCKDMG6HQ2KQ42Y",
+  feel_no_pain: "01KD7356TPB1N5291TS56HFD0Y",
+  feel_no_pain_5: "01KTEP0P46XJ1HPY49Y1WX9F11",
   ferocious_assault: "01K4QHP2JDGW9VSBRPVKE7K2SX",
+  ferocious_rage: "01KBYDM93BC7BT33N2QAE7343B",
   fervour_of_the_ancients_aura: "01KQ2ZFMCX847QY2QCZWW9F22M",
   fevered_strategist: "01KT1SQCCACS8WVTFFV3XWQF2D",
   fieldcraft: "01KXFAF00P16C9SE148G5YNG70",
+  fiend_slayer: "01KGVC7Y0WPXP4HSM3C426E7QN",
   fiery_conviction: "01KVD7STVT55SP7JV6VD8292G5",
   fiery_faith: "01KCWDH272W2B4XQ0C5QTJFMHB",
   fiery_vengeance: "01K4SFR8VVYHYVA4502BARJRM7",
   final_duty: "01KYM4X38SMD7CEV7TYX8SJXSA",
-  finest_hour: "01KZF641FJ1PHXFSYYC05ARJXA",
   fire_and_fade: "01KBGJH52JTN8T3B7N5Q7D7QTQ",
   fire_and_redeploy: "01KZXKVC7AKWHKP0ZE4W52420H",
   fire_discipline: "01KV5C9C8N1J9ZR1DHAC4G5X7Y",
@@ -2595,7 +2702,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   flak_battery: "01K3FWEZRCBJV14SXPG1JQ0MVJ",
   flame_wreathed: "01KVFPJFH3EVRN6PEPE86D3QB8",
   flames_of_change_psychic: "01KG52RMA7CQ4BJZEW19G2QFJP",
-  flank_speed: "01K0WD3A7TN7XYC8XYWNYY09AD",
+  flare_launcher: "01K9R3J0GQ3171WYX0FF0TZ6N2",
   flashiest_gitz: "01K1QE7RWC06JBPNB0B9C9P5ZP",
   flawless_poise: "01KDFRNSQ3K88KXGV8EVDKPG4S",
   fleet_command: "01KX2GZEPK97SWPF9DETYWBM1T",
@@ -2603,27 +2710,28 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   flesh_hunger: "01KC7BDAQRYB8QMSY8H9E42DQ9",
   fleshcraft_pain: "01KYN286P8RQQPX38ATM7PERQT",
   flickerjump: "01K4Q78PTT6W1FTC1ATCSK1C37",
-  floating_death: "01KVDE40YM92JXWZ8NX0VFNJ60",
   flush_them_out: "01KBAMMW2DTJFXB0ZP6EQPWHR9",
   fluxmaster: "01KD5CKD4CJZ9ZE45T4VPPAKXY",
   flying_horror: "01KH5N4PPR14SFX77QGG37E7CM",
   focused_hunters: "01KJPBVZRPQA34HTNM9HX6WMC6",
+  foesight_psychic: "01K1NB32VPQT30TGVNJZ742NM3",
   fog_of_dreams_psychic: "01KADX40A4QM5KD0V0TN5A1VW0",
+  font_of_unreality: "01K7QQJMAZ8MQ8Q8BS0BXSAASD",
   for_the_chapter: "01KNHS1VR7A9NEXJQ847YB1JD6",
   for_the_dark_gods: "01KTS4R1HNN6N0RF8BX5SD2JZK",
   for_the_khan: "01K4CCYJ0CYRJ7AHZ6B00Z0BBH",
   force_edge_psychic: "01KQ8QA6WVSYBAY67ZP31HNT18",
-  forceful_strike: "01KHD4T6098SQ09Y9EH81SHXM8",
-  foresight_psychic: "01K5CMTA9MFNMMC9AVTKBPWWAG",
+  force_of_untamed_destruction: "01KPP74XR22YKG2N3AGQ8484RV",
+  forceshield: "01K6B3T7X346RBH6YKCM99RMK1",
   forgefather: "01KA999VXEKKZ9RQG2B68BK0FC",
   forgewrought_expertise: "01KA427W971VS97EN608BX90Y3",
+  forgewrought_skill: "01KNSJR7F70QJETS8J224WS8S6",
   forlorn_hero: "01K10A4EQTS5KHMK965JJGW23W",
   formidably_resilient: "01KC3Q6G99SJEZT86SW8NQWZJG",
   formless_horror: "01KPDEG55X9NGZCF5TFHF1EVFN",
   fortification: "01KXSM1MR9PEWG82DAMJ9TKZS2",
   fortify_psychic: "01KX7D1WDAHM1Y2GMNKNWEQX9B",
   fortis_doctrines: "01K44MJ5BQWHWR1M1G71GP43A3",
-  fortress: "01KDQ74H247J797MF661MW2ABZ",
   forward_observers: "01KBSM4C3CXVJJXYRB0N7HQNQP",
   forwards_for_blood: "01KNXCRBWFAMYFNBV4D2ZQYJ85",
   foul_infusion: "01KYTKFEJXPC44EJVTC5TK3YN5",
@@ -2649,7 +2757,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   galvanic_field: "01KJFHQDM1WBTPTBE0RB9BMFZR",
   gargantsmasha: "01KYRE8YAE56CYQWHYDYTMMT4D",
   gargantuan: "01KZE7YQDSKWVVQFEMSEXT0VKB",
-  gates: "01K6NFGGHKSDR9CTPSYP552A4W",
+  gargantuan_squiggoth: "01KZB8Y0MQE0P78AJ8J6SDPQWP",
   gaze_into_the_empyrean_psychic: "01K0ZZEYEHV13YWHGZC2BGJS0R",
   gene_seed_recovery: "01KZ6XFK3E1F3Q3NYZZWZAZ7D7",
   geomantic_hunters: "01K1204QQSVWK2J795CTFNAET1",
@@ -2657,6 +2765,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   get_da_good_bitz: "01KD803MTT3YY2KMY0CDDWMHD9",
   ghazghkulls_waaagh_banner_aura: "01K0H0GYHC3QCJE82QGHKCMWJ1",
   gheistskull: "01K5NRRQNASF6ABVV5NQGQBA27",
+  ghost_ark: "01KJGTA9KXGCH2Y8RD6QWP5JVY",
   ghostwalk_mantle: "01K1F1VSV723RW2H5CVS3GEV49",
   gift_of_chaos_psychic: "01KD60W3YHG9G8A2DPF35MKM6Q",
   gift_of_contagion_psychic: "01KGZAVKRN29YSTPMPJQ9YWXQK",
@@ -2664,34 +2773,42 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   gift_of_poxes_psychic: "01K7Y6R0GFZVVP5HB6JB44HZJY",
   gift_of_the_iron_wolf: "01KNE3KEC630XS2ZM095ZS195C",
   gifted_commander: "01KAFMB9YE85J0C6GN1SH139XQ",
+  gifts_for_all_aura: "01KT4Z27NYT2C4VQGHN0V2CRWE",
   glamour_of_tzeentch_aura_psychic: "01KHPC50908DMB1NWWTFCA439J",
   glimpse_of_eternity_psychic: "01K17DXWK0XJJ9R7W5WTRNJYC3",
   glory_of_ultramar: "01KNR90CQ135TVZJ8A8YTJZFHE",
+  glovodan_psyber_eagle: "01KJ0146TPNDQB5D87KHRCGFQS",
   glutton_for_punishment: "01KY1CSVTJ3Y66TM08WBNQGNZ3",
   goaded_savagery_pain: "01KWA3N7HDMNN1Z8KJEB3NGM6S",
-  god_machine: "01KA8F2RYS8GD36GZEV19TV6X1",
   golden_laurels: "01K20Q83EBATNBP7XXAG8PYV4J",
+  gorkanaut: "01KR4BEHXB01FG5PH736Y0WSQX",
   grand_illusion: "01KHZP7R30AAPDVPBYZEEA9S40",
   grand_master_of_the_deathwing: "01KZYGGPWTJGDFSXFH5JAA1J93",
   grand_master_of_the_ravenwing: "01KCPYAEA9NEX69M8016B2G51F",
   grand_strategist: "01K44SC0HA93GTJDGMYN36X01A",
+  grandfathers_blessing: "01K2WQ2C6S7HVE5M720CB1KY6W",
+  grapnel_launchers: "01KZS3H16J78GF0SF79FB7X8M5",
   grasping_tendrils: "01KN3WHDPRGQEFSWFSMM70E4VQ",
+  grav_inhibitor_drone: "01KY7GJWT57Y8YMRGPQC5QMF2X",
   grav_pinned: "01K96WRX03W5GZ0KXM3Q6RTVH7",
   gravitational_field: "01KQR7573V77RQP5AJ2E3HCJ96",
   gravitic_pulse: "01KR5T7FCHHFG8BGNT1SFA6N45",
-  greater_daemon_of_khorne_aura: "01KQWYNPX6C3Y8WPSFXP439JAD",
-  greater_daemon_of_nurgle_aura: "01KN9BNHNYPJF64ESW00WB66S5",
-  greater_daemon_of_slaanesh_aura: "01KP79A507Y4DTC5THG0MBFHAW",
-  greater_daemon_of_tzeentch_aura: "01KSAENFTEW9ECV6ND7ZY64PMD",
+  grenade_harness: "01K9FRPH4EAP65KCCSDNEDY7FQ",
   grenade_pack_flyover: "01K35AAR0E7NYMB80J59BKC86K",
+  grenadier_squad: "01KDWMHN8S40CKQBTJN95WYD9M",
   grenadiers: "01KFSA1BCDRF2H8ZM50EXHXFVY",
+  grey_knights_thunderhawk_gunship: "01KR26YC4R316789S4KTNS5HTX",
   grim_demeanour: "01KQBQD2ZKCQNH4JTFE8QRH6Q7",
   grim_determination: "01K1N53C7A259GRKAFY532RMQD",
   grim_efficiency: "01K0XFDNJVKX945GWY5NPG4PVG",
   grim_spectres: "01KKC8FZAZEZ7G1X217E6HMHC0",
   grimnyrs_regard: "01K7T9T12D8MQ2ZDS7XYCZ0EH4",
-  grinding_clearance: "01KWMJYDQ9TH1DT6XVFEE00TW6",
+  grinding_line_breaker: "01KNHFQNY6PR8YC4GW1P2WTHTE",
   grisly_spectacle: "01KP8J2RZNTY2SNVP9VQHQFXMN",
+  grot_assistant: "01KFMS026PDKA6F1HZ961SRG10",
+  grot_helper: "01KPAHCS7BS7HKZ5X4M965D54Z",
+  grot_oiler: "01KHGQW8E3QXMQVAB65SP8ZWD8",
+  grot_orderly: "01K8NZPGTP9BX9HVR4FWD4219K",
   grot_riggers: "01KFHP7CK9FMB5Y2771RX9NVSF",
   grotesque_regeneration: "01KQR63K0X0RKFME3ETQKSWPZ7",
   ground_attack_craft: "01KZWVJ91CEA2PC9G78F9D6PGM",
@@ -2703,8 +2820,10 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   guardian_protocols: "01K1Y5EM775KGJJ7AS8HK2C7PS",
   guardians_of_the_machine: "01KKD7DZSQ3X8KVVKC03NKYQ71",
   guerrilla_tactics: "01KJWR2VNANGQW3XRADWPN9X23",
+  guidance_of_the_ancients: "01K2JC010WD10KQG4M0JRJTQZV",
   guidance_of_the_ancients_psychic: "01KAED9FCFJC29DTJB784GD3FS",
   guide_psychic: "01KMMG0ND0TR78VQHNRPNET8J7",
+  guided_by_fate: "01KEN0NVBGNN3HREWT7XV5MFXP",
   guiding_hand: "01K71WYQJKSVG8WMAT8ZJCJZZ9",
   guile_of_the_wolf_aura: "01KBTWB5SK6MG1SXMY6RMNW9DD",
   gun_crazy_show_offs: "01KSSH8JJJ17RPP4JCYXZPCG2N",
@@ -2732,27 +2851,36 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   harkers_hellraisers: "01K425WQTRTCJAWGGBMAAGQQ3D",
   harmonic_alignment: "01KEDY4Y88PNAA2TH16XHMEM84",
   harpoon_barbs: "01KQTR3Z6P9EGVDTV3V0ZDVWVA",
+  harridan: "01KHDF0JF86RAP4TDV14DVHYHK",
   harvester_of_souls: "01K4V28AJA77F2EWNTACEK0HEY",
+  has_yoo_been_a_good_little_grot_this_year: "01K45VAM4HM57B1KSJ8KQMX0PW",
   hatred_eternal_pain: "01KRARSF31Q42B8P5N7TBGQFXN",
+  haywire_mine: "01KBMWB66N5YZYF4GN7VMN438W",
   head_taker: "01K3DBGD8SF30J7X2Y6XR4W0XV",
-  headhunters: "01KD2YVG62QQX4Z2GPF9PGM3WX",
   headlong_destruction: "01KZQE3NHP1BB9AZ8PFHF000Z4",
   headstrong: "01KZV05G45PN1GBYNF3QSSB6HW",
   healing_balms: "01K5HCGFWFE51DMZE92ATZ6W83",
+  healing_serum: "01KDDFEBZN9SJAHG129WF5NX2P",
   healing_tears: "01K56MZ1K3N15PQWWC83ET5EXE",
   heavy_assault_infantry: "01KS64FFXMB3Z3YH35AYEQ78K5",
+  heavy_bombs: "01K3CHJKBTGY298NH8S5C4B59T",
   heavy_walker: "01K6NN4DXBXN28FDH6KY7ZK87P",
   heirs_of_azkaellon: "01KQB9AF1PSH6NE6HQG19BZHHK",
+  hekaton_land_fortress: "01KKF54XH39PPE8137FRBTN72B",
+  helix_gauntlet: "01KP0NB3DJ14F69G445ASYQ8XE",
   herald_of_the_apocalypse_aura: "01K73Z897D3ZNMDAWA663W2G6E",
   herald_of_ynnead: "01KBJZE7VN8BA3A4484BBZ8Z9R",
+  herd_banner: "01K12NQ4R9N0CTEBP38XPWGWJC",
   hero_of_hades_hive: "01K201W3RJEYF4YFC724JN01XB",
   hero_of_iyanden: "01KH6W5ZJ7AGE1HV99TAGTBTDX",
   hero_of_lions_gate: "01KZEQH3R3F6HGZMD6P8H9JECK",
   hero_of_the_empire_aura: "01K13SJYC961QF2KVF3TB088G7",
+  heroes_of_ultramar: "01KA3G10SNY5YJYMEZPX3DQ4NK",
   heroic_example: "01KVSX2PZ4XAM8ECN61M3A710C",
   heroic_fusillade: "01KR1HR5QV5533SZ2B55ZWX3GY",
   heroic_last_stand: "01K3QZEY313FJF33D83WCGMCXT",
-  heros_prowess: "01KACWK1BQ9M14P8JJ4PCSQ48H",
+  hierophant: "01KJHR089WY38657A3NPXJFC8N",
+  high_handed_authority: "01KPGJG51235Z5WVF250RDKE2G",
   high_intensity_markerlights: "01KPT7FGJ6Q6QK630HNBD88T64",
   high_king_of_fenris: "01K7Y6G1X5BWDJJ5R3Y2WK0JEG",
   high_marshal: "01K12Y5FZYJEKYSNDJ04QZ8DB8",
@@ -2763,8 +2891,12 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   holy_cover: "01KY702CCXEYYV0TH6GNNF0DRH",
   holy_hatred: "01KQQ81F1NCTK6F7VHWGV94GX5",
   holy_judgement: "01KTAY1ENVDH43EDNDWH6GB432",
+  holy_mission: "01KCYVX0YRSP59TTMCJ6912GJ1",
   holy_piety: "01K1GPFS8PA93EX2V5N64B86JW",
+  holy_vanguard: "01KKPJB6M7JDW1KC09E85YYAJF",
   honour_guard: "01K89J8MPBW9H2EYZ1PXRHZKKF",
+  honour_guard_of_macragge: "01KD32CVCEDXCA7BPGTKHDT30D",
+  honour_of_the_chapter: "01K6QAPMDRDAEPNEFAN6ZBHQCA",
   honour_of_ultramar: "01K3GQCFVFBCNE73W98W7DA314",
   honour_or_death: "01K5C4Z6TQBXX0NH20560E2N33",
   hood_of_hellfire: "01K23WD98VE97Q6T70W7FWWBJP",
@@ -2773,16 +2905,20 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   horrify_psychic: "01KRP8JYK4K36EZY3YRN4W2274",
   horrifying_beauty: "01KRJDPB3A3NJ40FC1966JZC4W",
   horrifying_visage: "01KSWVVNX8GCAH8830XV45JQM4",
+  horrors_are_pink_horrors_are_blue_where_once_there_was_one_now_there_are_two: "01KSF9E9E33DA9RRX060S0JCGK",
   horsemasters: "01K97HRJ8E08NHCHHAFE0DDN58",
   host_of_plagues: "01K8X1MT89TQ6X293SBX1HZM7X",
+  hover_drone: "01K3YZGES6JX1Z2MAH1BX3631Y",
   hovering_death: "01KZGAHHXF7ZXK6DWV6P3J68QP",
+  howling_horde: "01KM224MM4AE0NN8GNMDS20WHR",
   hulking_bodyguards: "01KM5W341Y93RVCPEYQPYCTDQV",
+  hunta_rig: "01KRVTADEYTP0VVDYS0HT38RW2",
   hunter_missile_targeting: "01KA2GMKPSPN594YVMK5AM152H",
   hunter_of_souls: "01KRASTKNCQD78RBR13NFM25K2",
+  hunter_organism: "01K1F3MZ46GA76DDZ60CQ25JPJ",
   hunter_unseen: "01KRCT672R4X4S0WZY4Z07ZRME",
   hunters_from_the_warp: "01KXASPD2SF1DWQR6KZ2RTNDT8",
   hunting_hounds: "01K6BC3R861A1XSJWPBECBPYT1",
-  huntmaster_aura: "01KHWHJYEHPV9DZ2S81KMBS905",
   huntsman: "01KVW2ANK9BD64K43CRAZ9CF88",
   huskarl_to_the_jarl: "01KBA8FT0G290EBCPB2Q2NTB1G",
   hypersensory_abilities: "01KN28SMTWEDDHJQBY8JKNS84Q",
@@ -2790,26 +2926,31 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   hyperspace_hunters: "01KY0JWSFBA8KXE0YT3BH4FYRK",
   hypertoxic_miasma_aura: "01K3BR4D3EK1DTPG0229B3TS2M",
   hypnotic_gaze_psychic: "01K6WBRYTD2SD14QBK62MKH3TK",
-  hysterical_frenzy_psychic: "01K8TJEFG17H3CFG0VZCFXTFBY",
+  hysterical_frenzy: "01KKPVRH3KTMTQRN5KEQRGCM9G",
+  icon_of_despair: "01KV898DW1S1CNBN9RANJ5G1QB",
   icon_of_discipline: "01KD4PZZMYWJY1D3A928A89PA7",
+  icon_of_excess: "01KETY24Z7EAQ00R5SFFF54XS8",
+  icon_of_flame: "01KFXKG2ZN0BS8J75QPQ0EVBZS",
   icon_of_obstinacy: "01KJKXMAZY87CVV8C5WXZA6F75",
   icon_of_old_caliban_aura: "01KRGP2V1HAYM51K176QCJHQVG",
+  icon_of_war: "01KRRZRHG4EQCN8SPDXQNMM3S5",
   idol_of_blessed_blood: "01KV696CWAQHK7EF872N7XEZPY",
   illuminor: "01KAKQWZX0ADWJVVBX7V51DJYE",
-  illusions_of_tzeentch_psychic: "01KNZ1FKP30BBTBHJ4N6ZKRN2M",
   immaterial_flare_aura: "01KY6799V2FFRG7Z8TPPDKTD4F",
   imperial_law: "01K7E6B7T8XQGCX0RX72D7A3HA",
+  imperial_rhino: "01KMRC32WCD64770RFNY6RHGMD",
   impetuous_fervour: "01KRHZVFNCH0BESFS9GFJ3KSFG",
   impetuous_glory: "01KN56DNG909HXRP6CSNR6VD62",
   implacable_eradication: "01K5ZM744R87GRQQ6GS09B58GZ",
   implacable_resilience: "01KCDV5QQ5S4209DP5YEHBS6QV",
+  implacable_resistance: "01KAWTBMHK54GYB1Z5AHGMA4BM",
   implacable_vanguard: "01KMGPTWRGG1JG86WXFV2QA15R",
-  incendiary_terror: "01KX4X4JJRKGQ95QE1N8RFE02B",
+  impossible_form_psychic: "01K3TH04X00CTETHW6R4SCSQ89",
   incensor_cherub: "01KNCVK4ZVARVEY5VQKMP38TQR",
   inconceivable_augmentation: "01KCHXGTFKD6N8BTY2M23Q9JC5",
+  incubi_shrine_token: "01KMKAPANT1D89X1HRR4QNETJN",
   indentured_daemon_engines: "01KQAD5Y0WDJ0AT7ZW3W72XGC4",
   independent_operatives: "01KDH8F0BCTCACMR253FQS38YY",
-  indomitable_assault: "01KFKYWD13QPPXRX2N2XVA57CM",
   indomitable_spirit_psychic: "01KS2YB91M2MY3YJDDW79FNYPC",
   indomitable_strength_of_will: "01KTAC34MKWGBJ07P79SDSTJYG",
   indomitor_doctrines: "01KRF5MH5MX3DGBTZHJ8CN9KP0",
@@ -2821,28 +2962,81 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   infectious_bloodshed: "01KFR1DBGSP82RPE15DGMYS4SD",
   infectious_murder_madness_aura: "01KEWM36N9XG6DSDSS82V12PJZ",
   infernal_aegis_aura: "01KXKHJXVXY37N2MVSG8YBKQEM",
+  infernal_attendants: "01KX4QFVHNC7C9WD773993JGC8",
   infernal_engines_of_torment: "01K54DEPS870FQT31QSST8BZMK",
-  infernal_regeneration: "01KA3HRS3ZD4N72WB35P1N5RKS",
   infernal_speed: "01KSYVYWRDPE68RZPS4SQ6WNK4",
-  infernus_firebombs: "01KX2JZW0NEC5WNPJAZEF4RJJM",
+  inferno_bombs: "01K3F7QPVX743K579CPDW9TT72",
+  infernum_halo_launcher: "01KBS39WRFT4K305V6QZV6R7FN",
+  infernus_firebomb: "01K75JS4PGX6536MSTJ2J8X8S6",
+  infiltrator_comms_array: "01K77SGWH5E764B392KKT9EV9J",
   inflamed_infections: "01K81RWG6SHZX19MHKS3Z2JG08",
+  inflamed_reprisal: "01KJ55BQT0KEVB8F4F7WAJZJN1",
   infused_with_the_blessings_of_nurgle: "01KVMZ63QQD219D7HJZNC1WBEP",
   inner_circle: "01KPHEZE3JMD3DHEJ211TVF64A",
+  inquisitorial_agent: "01K44DAFKWS34EZXV6FNMCMSSD",
+  inquisitorial_chimera: "01K7FQCVD8V6S77DZ8WC8NN166",
+  inquisitorial_henchmen: "01K1M6AHMGDD4QSM2PT5W8DKKR",
+  inquisitorial_retinue: "01KABYM2QD1W92G399KF56ACG3",
   inspirational_defiance: "01KZDEDC7KNAX51YQ39SG9M369",
   inspirational_exemplar: "01KP7Q2JVSSM74Y8V3GJYPEP94",
   inspired_retribution: "01KDJF43E3AD2QTQEZP9TBX22K",
+  inspiring_commander: "01K3XNCDM2HCZM97SFZ3MD4M7K",
   inspiring_exemplar: "01KDDBXVP7T3WCRB5A9G1859BJ",
+  inspiring_hero_aura: "01K8MB3BXRPE20HH9ECYTDN88Q",
   inspiring_leader: "01K4ZB8S4MNSHT1Y1K5YH6HGA5",
+  instigator_bolt_carbine: "01K892BGWXMC3S4F5JC5DSS7EX",
+  instrument_of_chaos: "01KFGXWYKA7HBXPC04RS20PTG7",
   instrument_of_the_emperors_wrath: "01KE18RG7Q2TSB0G7GPWG9P0AE",
   interception_strike: "01KGPFC973PK58S7RQRCFKJCFR",
   interceptor: "01K7DSC44767DQBHMCGTQ7DPC7",
   into_the_foe: "01K1GXKZJEZD4WCG31PKEQMAGX",
+  intra_neural_biotech: "01KWV49WPSFESJPTY15C19SG39",
   intractable_will: "01KJ6QAXYDRCW2KP5SSMCVDR8A",
-  inviolable_bastion: "01KCKN5XP51QZGAB3HZ6RMN3WX",
-  inviolable_transport: "01KBDJ6CHC3K9ZF7ZVTFTXGV1H",
-  ion_aegis_aura: "01K0XTQXG1WHBETK3V6SNQ4FJ2",
+  invasion_beams: "01K7EBWCF8BYRKDTW7APWABKHZ",
+  invulnerable_save: "01KK9VZ0JKCAP6ARJZ4AYZH0FT",
+  invulnerable_save_2_makari: "01K48J3GG0C6826YE2HF7N2321",
+  invulnerable_save_4: "01K2RN29FPB24DC583164DCTEA",
+  invulnerable_save_5: "01KZBH3JKEVHXXKA8VKQ7NXHSW",
+  invulnerable_save_6: "01KW9J0ZFH7FHK8Z28BJ7ZMN5C",
+  invulnerable_save_archtormentor: "01KPMFQ44XQ85F6R8DZJ828CA8",
+  invulnerable_save_asurmen: "01KN4EG2ZRF6ZY2ND3KQS99BRM",
+  invulnerable_save_autarch: "01KDRYQN8C8Q7RS437HRDFE00E",
+  invulnerable_save_avatar: "01KNEG8H6N2G8813MZ0MPGXS21",
+  invulnerable_save_baharroth: "01KZ6ZVNGGYVAS1KDZMQJW688X",
+  invulnerable_save_bloodmaster: "01K15QS0N8XGR480BFKNCB8T94",
+  invulnerable_save_bonesinger: "01K5F2EKC7Q43BF36HS8KKEY0N",
+  invulnerable_save_changecaster: "01KJSZQ91THEZSKX2XRZE0ZKT5",
+  invulnerable_save_contorted_epitome: "01KW5GJ5CG0XJQPTYK15N5Z3J9",
+  invulnerable_save_craftworld_warleader: "01KTPP1YYMV494C8VDYGJGCS44",
+  invulnerable_save_eldrad: "01KC9Q6FG2E501WHZ4T0F87DG4",
+  invulnerable_save_epidemius: "01K9MF907ZFDAAYNPNC4J1VV2C",
+  invulnerable_save_farseer: "01KJKS7418C8KXB38S9JBSPBZH",
+  invulnerable_save_fateskimmer: "01K7KT3HTSZJ893K25RQ7AJFZB",
+  invulnerable_save_flesh_crafter: "01KRFVXW6H42E6JP2DX4YNXWTP",
+  invulnerable_save_fluxmaster: "01KT463F8EPJ5YVR4KT2ANJEY6",
+  invulnerable_save_fuegan: "01KR6A50T3P2TZ9RHRTJXVH13J",
+  invulnerable_save_illic_nightspear: "01K38P5S67CT89MVY9CJW027GB",
+  invulnerable_save_infernal_enrapturess: "01KG31TC2A9JNE8TBH2VQTCYA3",
+  invulnerable_save_jain_zar: "01KFVF4GWEXV3Y9T0NNVWPMCH4",
+  invulnerable_save_kharseth: "01KHN2XPMNAVQ1X2ZZ0EW0YQQS",
+  invulnerable_save_lhykhis: "01KEYVANR6XGD4X58SSS01HK89",
+  invulnerable_save_maugan_ra: "01KN0W7PAYBK4X29G4J6MNJRAR",
+  invulnerable_save_phoenix_lord: "01K7C4G1SN1TQP2G06DE3PC229",
+  invulnerable_save_prince_yriel: "01KETA6D727NETC56G2K4352ZQ",
+  invulnerable_save_shadow_field: "01KNEEBFSBGTWV8DFE49DSEKHG",
+  invulnerable_save_skullmaster: "01KBBS6AGGFXBEHQ9SMDN41D9Q",
+  invulnerable_save_skulltaker: "01KTXVA7RDNGE5553D1S9FCNVD",
+  invulnerable_save_skyrunner: "01K2CKA041J085JGA9WAXSTZSY",
+  invulnerable_save_sloppity_bilepiper: "01KDSAY59XKJWD1K7ES25TDEN4",
+  invulnerable_save_spiritseer: "01KTQBHCZ151X92ZMG9H1JMBQN",
+  invulnerable_save_syllesske: "01KVB30J1Y19PQREHH5V3M1DJ3",
+  invulnerable_save_the_visarch: "01KG9RTJFP4FMF1Z5AVXP2YE8H",
+  invulnerable_save_tranceweaver: "01KC0YAWTDN4WAMN55462PRYTY",
+  invulnerable_save_warlock: "01K06NF66M8TS2PJX8PC27EKW7",
+  invulnerable_save_yvraine: "01K8JB5WHR834QKZF4KHAPWA97",
   iron_father: "01KFXWK9HAHBQ6G5DZ07MWSR2J",
   iron_priest: "01KQJF1EEGD5XHFHJ0N0SH7AAW",
+  ironclad_assault_launchers: "01KN7Z8848JGKK0SFBXTNCR7S9",
   irresistible_force: "01KKEBHYWCHFNJENM74GFRVCE4",
   isolate_and_destroy: "01KVXWWJ5G8SBQ7NQEWQMX5YR7",
   it_itches: "01KXJE67JK0097C5BXQK54R910",
@@ -2852,31 +3046,44 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   judged_for_execution: "01KJ92PAMAA0361R4YGM0H3ZHE",
   judgement_of_the_omnissiah: "01K73WR4E86MXQTDV9XAQ5Z2Q5",
   judgement_of_the_weak: "01KYHWB6SDMPF6EGKN0EYBSQFE",
+  jump_pack: "01K27PA1P5RWGDTA9WVXMWFXQW",
   jungle_fighters: "01K7Q9K0XP6J21Y1G8WJ419N11",
+  kabalite_icon: "01K7CPX2SZHHDJKDQYR48BVRQM",
+  kannonwagon: "01K6ER61698G3E9MWJY4Q5Z8S4",
+  kapricus_carrier: "01K9FCBZ7P1K4F08YHPDMA6XZK",
   karnivore: "01KCK2JZ9F17WM8XZATY84KP0S",
+  katah_master: "01KPNRM7NRZ3RYB8TSXPAKBJW0",
   keep_counting: "01K6HYGCF2BCEVEB6AFKVB6T5W",
   keep_the_banner_high: "01K8853CF7Y9JHGDHV7CKZQV77",
-  kharybdis_assault: "01K079P2HVKAJA0NN4JJDQ2A2S",
-  kill_team: "01KYGR44N8SCT6452WZRH1ZRBZ",
+  kill_krusha_legends: "01KP94XTRBWHG2JG8C0V4SY2BM",
+  kill_rig: "01KVP1QJVFJS1553JC74B4WVG5",
+  kill_tank: "01KPZCXQBA6199BB3YRQ8TEPM1",
   kindred_hero: "01K7628CBMJY8501Z25MWXA1NK",
   knight_champion_of_macragge: "01KWPSH9TZ2S48K9XEESX4YJCZ",
   knights_of_caliban: "01KTJQ0NZD29J4NDZNMP0W3HYJ",
+  know_wotz: "01KNAZGD1P13F6P42SWXW76Q6E",
   kroot_ambush: "01K7T9G77KD9SM6539P2NVH2AC",
   kroot_linebreakers: "01KPEB9TSB8HKDQFKTND61234M",
   kroot_packmates: "01KDAY821VPMWQ5ZH094S43BMD",
   krumpin_time: "01KQZTSBVNDFJZ0NN5WCC2Z026",
   kunnin_infiltrator: "01KWDEMJ45HB9RGWFNCCA3X77T",
+  kustom_force_field: "01KR2NKXBCCA93KSMYQHTHDAK6",
   lanced_obliteration: "01KW9KXDV340ZQKT3CETEPBDXW",
   lancers_duty_bondsman: "01KHRP9T0Z8QPZAZRXR0150TVF",
+  land_raider: "01K3BNRM78T92GZ50S0SBPA63W",
+  land_raider_banisher: "01K3V7H9VYXD3VNGXYF0Y2N46X",
+  land_raider_crusader: "01KWF4AE9T7QBQV12B3BS5BWJ3",
+  land_raider_redeemer: "01KB8Z5RTA767M01PDF38G7G1A",
   last_laugh: "01KTBM0RPBZ1TDWFS3P9C2J4ZM",
   laud_hailer: "01K9M16Y0WDVG0NE7ZTC67YE73",
+  lead_from_the_front: "01K35W86Z2YEZ2VTD4ZEVZTV4S",
+  leader: "01KQZTSBVNGWT7Y8XAQTVFV02X",
   leading_the_charge: "01KBD44PGTQ0GD6A8018FZ8PVZ",
   legacy_of_jerulas: "01KHDF3KB77CM1A9KWSCEVWAVY",
   legendary_freeblade: "01KNH328S07SSWQ0Y268TEGJZE",
   legendary_killer: "01KN3JDXFV19KD3GVDZ8F4SGMP",
   legendary_tenacity: "01KK7TTF7N3SBW3C0H8G4X6R4V",
   lesks_heroes: "01KHY3TYWE9STXBH5TDXYXWSP1",
-  let_loose_the_wolves: "01KNHHZ0FBZAYXRR7Y0A6V8KZX",
   lethal_caress: "01KZYNDM1H97A1K1J6SRQ79E6Z",
   lethal_ichor: "01KC9HK331ZAT1BX7YYDRK4G68",
   lethal_obsession: "01KSPZRWBQ70DWRK584EZ6X4GH",
@@ -2886,14 +3093,14 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   like_fighting_a_shadow: "01KVEB1A0GPZN339WZZAN39WV5",
   line_breaker: "01K7NF9TSXKVQG56GKM4NMQZK9",
   line_breakers: "01KHW38EW1ZYEV9NR3GSASV35C",
-  litanies_of_sanctity: "01KA2EY1YY53XQDY18Z5F35ASY",
   litanies_of_the_devout: "01K0NHKYE2AS8P102AS5VTKQKF",
   litany_of_deeds: "01KMMGMARWT7A29JXPJMEA8VYP",
-  litany_of_hate: "01K091NJV63WS1VT9PGB7YHZEP",
   lithe_agility_pain: "01KGW93AXHSK13931GQB4ESQGF",
   lithe_embarkation: "01KJ5DGG68WNGFBT39D5HWMVDY",
   living_fortress: "01KY1RN9G1SHGYBM79ER8SF7V1",
   living_lightning: "01KRSHQ61254DKANX3K61K4D60",
+  logan_grimnar: "01KM7QR420HPRBW3VB8C8K5JG9",
+  lone_survivor: "01K18D66JPH26KQW5QZA05NN24",
   loping_pounce: "01KDFG8BPE7T6S0EBD184BQT7H",
   loping_speed: "01KJ9PBNRJ4ZDRP0D7MH1PYT6F",
   loping_stride: "01KY2K4FTQCJV3SQ5312YNKDS1",
@@ -2907,14 +3114,19 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   lord_of_murder: "01KPVTW6X1S8V7ECSAX5REJST2",
   lord_of_slaughter: "01KFWAHBWZJVDRM3DQ5DY9HXE1",
   lord_of_the_death_guard: "01KBYGFBBMFENE40WK6R5HCSCP",
+  lord_of_the_eightbound: "01K6H1EVT5QPHACJXM0KDAWB45",
+  lord_of_the_host: "01KPHK9DWBVBSG29G7PYW37BJB",
   lord_of_the_machine_cult: "01KW273W3J8X0G8SDYZ3KRV5HR",
   lord_of_the_planet_of_the_sorcerers_psychic: "01K78NANX8M2NNPP3XY8W9XBK8",
   lord_of_the_pyroclasts: "01KTEN5REHZ3E4KK7W4PGFG3MS",
   lord_of_the_pyrrhian_eternals: "01K4A5BRQ8626M45GHXS0YEPFM",
   lord_of_the_storm: "01KYQSVGRKASMGW5NRVGSD6SWA",
+  lord_of_the_traitor_legions_aura: "01KFQ2G55P8KSYHNXAEXZNQRND",
   lord_of_the_wolfkin: "01KR8F9D7Z62MV2HAE5Y8HKHM9",
+  lord_regent_of_the_imperium_nihilus: "01KB4Z92JJBP59N9E4BKAWFFAF",
   lost_to_fury: "01KX4PQWNMFJST5TNQTXV7NYVK",
   loyal_henchmen: "01KXTZ571N4T33RYW1MC17NB15",
+  loyal_protector: "01KTXP1Y2H0SWB0T700F0GHAF1",
   luck_has_need_keeps_toil_earns: "01KWSN2WRQ2P9KZMFA7ZEDJ4A6",
   macro_extinction_protocols: "01KY9VFMP74HFPKRZFJXC8C6EY",
   macro_steroids_pain: "01KTQ4DPNY1BDW09MNT0V23K50",
@@ -2922,6 +3134,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   magaeras_duty_bondsman: "01K1HN1F8Q4E12ABA5DEZ7ZXD1",
   magna_grapple: "01K66VHZ0NXEC48JGNF2FK16JF",
   malefic_destruction: "01K2DW2T43RCG8RMNN6BYFQWPV",
+  malefic_impact: "01KV3KMP0MG4STX4DW3CSHW322",
   malefic_maelstrom_psychic: "01KJ70NVTN23FAWSCMGSD4H0MJ",
   malefic_warding: "01KFWS3KF0N03AHMZWWNPD7T9X",
   malefic_wardings_psychic: "01KXZYYV8DEYTRX7FYMPB02YHB",
@@ -2936,10 +3149,15 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   malign_wardings_psychic: "01KV7TPFC61E9Y4SSFVERVHKSX",
   malus_codicium: "01KE7HFXWJHNP2RDD94WFZA3RP",
   mandiblasters: "01K3CJNADY0SK8A8HQ60FZEEQM",
+  manifestation_of_destruction: "01KJ0BS2ATW2AHCA1S1WJZJ28V",
+  manta: "01K4VK1RE4BMWNYXQP9ETZYRJW",
   mantle_of_the_troll_king: "01KS12BW5P3S9DQRF64PES7732",
   manufactorum_cover: "01KYZW6CQGJHSQKSV5CGZB8H07",
+  mark_of_chaos_ascendant_aura: "01KE56SCVGQ6KJB6DCKCMG8PC6",
   mark_the_target: "01KBFCRNNK0WPB2ND73CK27W8Z",
   marked_by_fate_psychic: "01K127H89EVBTTP1S9A7NSAJTA",
+  marked_by_the_dark_gods: "01KZX5EHRBS7K5BEKHTRR7DTC8",
+  martial_exemplar_aura: "01KH6Z65V4WBZFQJ8D4MPYKYXZ",
   martial_honour: "01K20P9F3XGFPJQ56W4J91EJFQ",
   martial_inspiration: "01KJH1ZT1HC60ANBFSBH101SY2",
   martial_pride: "01KM6D751ZVDZPSMARSXX65XA7",
@@ -2950,9 +3168,11 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   master_chronomancer: "01KA2JJDK1JWZNBA8XRRP456V8",
   master_of_blades_pain: "01KZ6ZVH65XMPH9XR3JFYAFN40",
   master_of_deceit: "01KSTCQDP3H20GQT9Y26W16MC2",
+  master_of_magicks_aura: "01KANYDAZ0G49D6NTW9E06T5VZ",
   master_of_magicks_psychic: "01KQ6T3EWWHWP3793KRBYX0MAE",
   master_of_manoeuvre: "01KYPH2MEPD7NWS4ZAC1FPKS1P",
   master_of_mechanisms: "01K0DM458EYA10CP58BQ8K44RC",
+  master_of_mischief: "01KNHFANNG9TYXTYF7T7PGGRG8",
   master_of_prescience_psychic: "01KPRSQCYE6644ZRBC9D23QFEJ",
   master_of_rites: "01KQ7XM0NJBYRF0C5JKY1212G3",
   master_of_shadows: "01KTS6H10KZ6VM8F82B0TP5WRG",
@@ -2963,18 +3183,22 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   master_tactician: "01KW4VZ2RN29HJP5JKNAM3RPY6",
   masterful_tactician: "01K6Q38YQ3SJY8A8FKGH0YJGC8",
   masters_of_close_confines: "01KFQ5T28K157ABE0QQBBJQHYJ",
+  masters_of_the_maelstrom: "01K9SS0MBB3H1QMTQ6GTY4DXW8",
+  masters_of_the_shadowed_sky: "01KK5VHKFY15QJ4GVEZN668WRZ",
   matchless_swiftness_pain: "01KMZ518X452VSG514715N80W4",
   matter_absorption: "01KSNPCP838AJ7C1PNE1CD1JY5",
   mechanical_augmentation_aura: "01KGCRSATN6VJQFFPQDMVP7ZES",
   mechanicus_bodyguard: "01K1BMH3HD059XVEQSZ2SA2YFP",
   mechanised_spearhead: "01K94DDKDKGGCZ61Z06C3T7HAS",
+  medi_pack: "01KHHJ8S6XKGTWGAQBCH7VPQS8",
   medicae_medi_packs: "01K581BGH8H2K5T1KA6D6GQ0KV",
   medicus_ministorum: "01KGC67QMQFS0VAA0GFP94TCGY",
   meet_any_challenge: "01KVQRMYXZ21P2772W13P2K0NV",
   meet_your_quota: "01KXJ0MGGSQM2CB016XSY7G9PJ",
   mega_carnage: "01K3QDTYQ90Y58B2SZQ46A8MM1",
   mekaniak: "01KDZPJK82ZVZDCEYCEG9C72NH",
-  mekboy: "01KQ1JTW4CB19NJWMG15ESK9M0",
+  melta_mine: "01KKA6V0NBVMKK1BAAJXYD41Q0",
+  mental_fortress: "01K77BZWBV72VKYY9BQN8X5BPF",
   mental_fortress_psychic: "01K0ECBV0KXDTR4AT1B6P67HQN",
   mentor_bondsman: "01KYDZNFAZN1JCCQDRZ3B6KF3Z",
   merciless_eradication: "01KX629SEGWD39CBP424RNXYD8",
@@ -2985,9 +3209,11 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   meteoric_descent: "01KDHSW9BXX22J3JCV6PVA3KPJ",
   methodical_destruction: "01KJ4A86TQD0CWZ2EQ381PC6NA",
   miasma_of_pestilence_aura: "01K8VTMDZXZKZ8CX208NF6MD1Q",
+  micromelta_round: "01K2N20CKR4TGWST0KNYA5XTCG",
   might_from_beyond: "01K74H8MCWEDKVV5PWK1QBA0ZT",
   might_is_right: "01K6JJGAYQKHTZSBPCRMS8ZD1X",
-  might_of_heroes_psychic: "01K09Y8PSS5BW9GZ6T9MEZPV73",
+  might_of_heroes_pyschic: "01KV5V0B80CWMT08DCNWR8HYRX",
+  might_of_titan: "01KSAYPWACJZT4W5C8MVPBEF5S",
   might_of_titan_psychic: "01K5R40DJNMAK62RDYWR8TC2DN",
   mind_breaking_mutations_aura: "01KC1ZVPTATG7025SGFN2C4S3K",
   mind_control_psychic: "01K0RCWHQRD97693N4AMCSEEH0",
@@ -2998,50 +3224,61 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   mindshock_pod_aura_psychic: "01KV5FSMFE6P9X9A5MWR9PRG7H",
   ministorum_sermon: "01K4Y8NJ4AX973XX6N5PH11Y12",
   miraculous_intervention: "01K7X1671RNGMMETV9H7E60FT8",
-  miraculous_saviour: "01KGGT7S3WBV2S0N0V2XM2EQGD",
+  miraculous_savior: "01K8XW2K05TRT95X869ZWPZWH5",
   mischief_and_confusion: "01K0WJ7JQQWGZNHM70A5WX0H8J",
-  mischief_makers: "01K76TSF3M2WN37T916SNBR81D",
   mischief_makers_aura: "01K6VRFX60YP1XXNYHDMJ8RPDJ",
   misfortune_psychic: "01KFRG3A2AT7Y35DAX567BR6RF",
+  mist_wreathed_shadow_realms: "01KTMEZDZP990R7HRAJMH8P4ZD",
+  mistshield: "01KYHE52H9K28HX8N6EDVVT5XJ",
   mobile_command_vehicle: "01KAYH98CSKN08779Q9GCWRFB3",
+  mobile_firebase: "01KTKM6E050KG4NMJZR1DYNK2C",
   mobile_hunter_killer: "01KQQPN8AD7FATG8HDHZN9DS11",
   mobile_hunter_killers: "01KFHMGZC78HMAT12DYFHZRS7Z",
   molten_form: "01KKT3N7NBZ1BHFQNJ2JZMMYCG",
+  moment_of_glory: "01KY4VHMZAN83B5140D2SA87Y8",
   moment_shackle: "01KTQDJ3DR4ZB9R56RD3R8KHDK",
   monarch_of_the_hunt: "01KH0QTHTAYC53A0DYW27P4R7H",
   monocular_targeting_helms: "01K9NA9FNAB2NRJC3MTTYCSQ32",
   monofilament_snare: "01K2J233Y8628ZZ54Z4MBKR2BW",
   monofilament_web: "01KJPTY39R6W1ZM006W8E0GQQ2",
   monster_hunters: "01K5FRT550EMTMASAHZ57RG18C",
+  monstrous_barrage: "01K565V3RTCMA8JEM5ZVTSMBN6",
   monstrous_charge: "01K7NHH833C1QQ831Z64RZ581Q",
+  monstrous_hulks: "01K40FQMV5QZK48J5CKT1G9J3M",
   more_dakka: "01K60MCTM1DK0HWC8P91BYD7WY",
+  more_lads_more_swagger: "01K8H1DSNH80XAH9KCG5ZVGT4J",
   morkais_howl: "01K53HTJTYWFR16RTTRZ20WTMS",
+  morkanaut: "01K0RA7NQCY8KFTR8TRBRZZ1ND",
   mortis_strike: "01K098MGZPEG7X0ZE7T02W3CVH",
   mount_up: "01KTF3P0BP2TVP0Q6P3F2SWXYC",
   mow_down_the_enemy: "01K3KYQ97JYY71SX02SK8Y1XDT",
+  multi_spectral_visor: "01K0J367C6MQ86VTHCV129PSKA",
   multi_spectrum_array: "01KZCM3MHVC0B3D0TSY92C40WZ",
   multi_threat_eliminator: "01KG8S82ETDT0JGFP00EPXBR6H",
   multicog_targeting: "01KF685NTWZQDPM5FNTF224415",
-  multispectral_visor: "01KF7A7CNR9RPECEX6X0DVQ4XK",
   murder_maker_aura: "01KKY8J4KQDX5VQDNNYYN876FY",
   murderlust: "01K6PRSCPB538GBHTJX1VX866P",
   murderous_crossfire: "01KBYVGAE8YGG4PFCXXDNDCF9Y",
   mutated_bodyguard: "01KT6FBCGQVTVFMDM18H0VA62N",
   mutating_vortex_aura: "01K8EGMRCWWW397BFD1XQJK7NM",
-  my_will_be_done: "01KEYREXF8SZMTP25CTZBTHZ5K",
   mysterious_saviours: "01KZE4ZWCH2DKHWSHEZ83HMRMX",
+  nanoscarab_amulet: "01K89647QDXHRJ48ZEA08DGHQN",
+  nanoscarab_projector: "01K3QJ056D5847QVN5CY8GHYHR",
   nanoscarab_reanimation_beam_aura: "01KWTYZM3704H6VET6694MZ1GJ",
-  necrodermis: "01K6DYAAS5TAMG117PG339589R",
+  narthecium: "01K2NYE3YGEQWBY5J68ND8AR28",
+  navy_bodyguards: "01KPG2APPQBJ687TXEZA5W45BK",
+  nebuloscope: "01K5KYZB937J77GKCDVKXAV1E4",
   neocapacitor_shields: "01KXSQ4VZFQXA4138VQE5ZRG3G",
   network_override: "01KXY9RAM5XDK2SX2NZMEAK9NR",
   neural_disruption: "01KQG6E07JSC557VA6NS6BW212",
   neurocytes: "01KTWM4E38A79GFNR1780Z86XD",
-  neuroloids: "01KRG5EC61J92NZ72WYF9MX8SE",
   neurostatic_interference_aura: "01KZ858J5SWXXJ8XBETB7SWW0C",
   nexus_of_devotion: "01KAVVEEFY1A962CFD8MJRQAXZ",
+  night_scythe: "01K0MZ5D26EGSBE9EVH1YHDW4T",
   nightmare_shroud_aura: "01KN3Z3C76JZ1JHEBDG2FA0HHP",
   no_escape: "01KNQ87R5WRTMB1MNSZRNWT9H0",
   no_foe_shall_stand: "01KP7NRF7JDF7V993Z9F1V7ZKY",
+  no_hiding_from_the_watchers_aura: "01KMPSZC0WGTJTYA2ERRS9SQ4Y",
   no_mercy: "01KX9EFDA4SQ8F83F3TXSMVG33",
   no_prey_can_evade: "01KC97CW2362FPMQ6W8GED2NYE",
   node_lash_psychic: "01KRC7BN1F5CXMSJ2EH3NP5EYW",
@@ -3051,31 +3288,41 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   nowhere_to_hide: "01K264E54F14J3D69A1E1YV9SM",
   nowhere_to_hide_pain: "01KZP1VFTD82FVHZH659T9Y1VF",
   nowhere_to_run_pain: "01KAEX0MNNQ9QQ80TAZRDRZ5XF",
+  null_rod: "01KKTPSZTHWG9W38BK2ZX93TDG",
+  nullstone_field_generator_aura: "01KW5EYFNWHGGXZ6ES4KTEMVP8",
   nurgles_rot_psychic: "01K9XPTVE5EJVTB058486GMA4Q",
   oath_of_rynn: "01KW2VJ18BXRJAKG61SG6DQ28N",
   oathbound: "01K02VEBABNN1JGHF2KPWDQQ0H",
   obelisk_node_control: "01KJTS5KH0NDXJGR7ZRWS1834A",
   objective_defiled: "01KK779CZ718Y8YK43VZPY0C0E",
-  objective_ravaged: "01KZ3JWTT2HY6C6KPJ7GAZ40ZZ",
   objective_scouted: "01KPMMJEE972R2AH0XJV6Q7PZB",
   objective_secured: "01KPVD1BKTE93AGX4XJ7CAVVSD",
   obsessive_annunciation: "01KBCKZJ3S76EACM6G38TQ7PCQ",
+  obsessive_huntsman: "01K7QR08K2JR5ZBPPD64QZCH4Z",
   obsessive_ruthlessness: "01KFJQM8MN8THTY7WX7SXPNB70",
   offerings_for_the_dark_gods_aura: "01KJQJ2WVJYTQM7BJ9MFNY58Y7",
-  ogryn_bodyguard: "01K0HABKY2YFS8G0EFN29JDYWT",
   ogryn_combat_stimms: "01KRS5APPS3P0QCBKWK3S7MDZ8",
   omni_scramblers: "01KF39FJ7DRRCWXNET5738GVTW",
+  omnispex: "01KFRVX9NFTD8BRE9Q0Z2VXZWT",
   omnissiahs_blessing: "01KAZKCP3SHNQRJKG0MTP5RB0Z",
   on_da_hunt: "01K8EZ3EX8CDZEWYZC8VSNVSQS",
   on_my_signal_fire: "01K4QBS6ERRWX7Z904AMBT2WN6",
+  one_head_looks_back_aura: "01KT1GM109PD09PEE3QADR3GC7",
+  one_head_looks_forward: "01KPX5DGFZKBSJ8D8CEDKVFG21",
+  one_last_kill: "01KETBASDM380Q0BTVNV49MN59",
+  one_man_army: "01KNB2WKAXQ09TW4DSCAZ7D4AT",
+  one_scalpel_short_of_a_medpack: "01K5MQ53E26P7GN0GPXDVAJJW4",
+  one_with_the_warp_psychic: "01K4PC23QW61PV8M3FGYXJY63M",
   onslaught: "01K86FHTWFFQ2YR1MPXZFX6AGR",
   onslaught_aura_psychic: "01K7EJV0ZWW5336TJWEQXV489X",
   opportunistic_manoeuvre: "01K9WQAQZ61BCBC1EQJE67N34R",
   optimised_for_slaughter: "01K9T0HGDGJH0C1H9JKPYJWWCT",
   optimised_gait: "01KCEW3J8HKEQZ4T2Z5YNWKSH5",
+  orbital_comms_array_aura: "01K0BTWFAX6CTH1XXW3RFJY3EF",
+  orca_dropship_legends: "01KCYE1V7YYYHDMPFCPAMZYDEB",
+  orders: "01KYMN3PYZW71NZNKGFYEX640E",
   outflank: "01K212MGVFW0JWXHF9PYK4A1TP",
   outflanking_mag_riders: "01K42SDWFCTW5DZGMATNNN9MER",
-  outmanoeuvre: "01KYCH4R41AHVR69GMDM4YWJNY",
   outrider_escort: "01KE61JDXSENCX7YA4X062F2JP",
   outrider_gangs: "01KKGR8ZPGNA1P5P4Z2WSFEX8Y",
   overcharged_engines: "01KBRZ865P04VRY0DSVNZT23Q6",
@@ -3083,32 +3330,42 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   overkill: "01KRQPVQYDX3PPSEV70YHMKMQB",
   overlord: "01KZ49DMY080K9H9P2X5099H74",
   overseer_of_redemption: "01KE72MR65V5JQA2KEJE4W0SE8",
+  oversight_drone: "01KF20T7Z1H4ZAT5QAP3GW0XVD",
   overwhelming_obliteration: "01KPR1HAS83CYZKZ70M1G9KAZR",
   overwhelming_short_range_firepower: "01K4SDSHZKP2MARSJYQ7FNP5X0",
+  overwhelming_wrath_aura: "01KTYMP2DERGY5R6A01MGF6N4G",
   pack_leader: "01KQAF22GZVDXTQZSNJ5VAJQ8G",
   pain_adept: "01KA9SWH6MPQK9QBRJ5NKX8KGZ",
   pain_engine_aura: "01KFJQBGHFS479PG39BYR7QV9B",
   pain_parasite_pain: "01KZD94W7DA55Q75S7WSWMZ45H",
   paladins_duty_bondsman: "01KDF6Y2PWPNSGZAMVED7BR54C",
-  panspectral_scanning: "01KJ00P9YM6BQMMJPPYXVAFAZR",
+  pall_of_despair_aura_psychic: "01KXF9BN3MCESPX4MDCD5FM4AX",
+  pan_spectral_scanner: "01KHW70XR5CP1Z4F95686HFKTP",
+  pan_spectral_scanning: "01KMJ2FYNZMSCZ1HY687K7REZ9",
   paradox_of_duality: "01KSRC057GY7V7TSGPQDRT8NV9",
+  paragon_of_hatred_aura: "01KVT2QX32C68Q8BF1JQ77B44W",
   parasitic_infection: "01KAPGF1HTWQ44PW6EHZ2QSKDJ",
   paroxysm_psychic: "01KF3RZ92HXCAZS73H54X0WZ5F",
   path_of_command: "01K6N32VJJAABRQJHX3A8W6CWY",
   path_of_the_outcast: "01KJHPHDJYFX2T2BESAGVBZXJX",
+  patrol_squad: "01KKJW5C0FGVKR28RKB6EQG59V",
   payback_time: "01KNXQ1XTSWMV55D69PFNKHQAF",
-  pelt_of_the_doppegangrel: "01KYQA08F8901GFHXQZQ1GNECY",
+  pechra: "01K4KD1Y0QCHJCSEJDJZZGV591",
+  pelt_of_the_doppelgangrel: "01KDWNGVGBPESYHV5JWC7VEGGW",
   perfectionists: "01KHE0FK3NHH93DF3FDCMXPGCW",
   personal_teleporters: "01KEMF99FWAAAXN0WJE978CWX5",
   pestilent_fallout_psychic: "01K868A7X8ZZ1KB97VWXA4GP9T",
   pestilent_familiar_psychic: "01KM15XM312FQVF89BSNRVVNZX",
+  phaeron_of_the_blades_aura: "01KCEHEPVSM5VMSCD5XCQB95ND",
+  phaeron_of_the_stars_aura: "01KX8GAST4T9B5PHJPEWS7KMFE",
+  phantasm_grenade_launcher: "01KEQV19RQ7T9EGNH0TQD37YM3",
   phase_shift_generator_aura: "01KPBHXD9DX7HBJP6YW2MVSDGS",
   phase_shifted_cover: "01KGSNYRZ2NA7Y2JHED9VP50K0",
-  phased_cover: "01KVYQ99WVQ8QAPYMCTB2G4NGQ",
   pheromone_trail: "01KQTF5KBTK8QHNAWG19HY1EYQ",
   photon_casters: "01K9Z07APBPSRJJNVC8RB57C45",
   pinning_bombardment: "01KZG1HVPV2CAKED9QZ7YBTP01",
   pious_fervour: "01K2SRJNS730HEE1WRR0SRH5CK",
+  piranha: "01KZ128SN4GQCFDMY25J5V7FJ2",
   piratical_hero: "01K37F4BNBD57C1Y3Q2CM4JC0Z",
   piratical_raiders: "01KTJYXYVNYZ9JYXYAQ05H7ARH",
   piston_driven_brutality: "01K52DHSPS9C0XRCJSMS8TK45T",
@@ -3120,10 +3377,9 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   point_blank_barrage: "01KXPS94845CZJ9GY9Q568TM5M",
   point_blank_devastation: "01KRP3V85HFGZDSEEDMRKSWGEY",
   political_overwatch: "01KTCWK584VZF7E8RQZDZ88YND",
-  polychromatic_camouflage: "01KDWQM1NWKJ9KE42XB4PN9ES1",
+  polychromatic_camoflage: "01KFVDB0E45958WTZF7Q178SSS",
   possessed_lord: "01KQDEYKG7HDZNJJRJ2C1RC8HR",
   pouncing_leap: "01KZF2J2X1A5W7F5S8SXZJCZXF",
-  power_of_the_rosette: "01KT8550X1F7S6CV4CD8SYPGJK",
   power_overload: "01KJYG8HNE4GT4YDKBN6QMTKM1",
   powerful_volley: "01KPYZJ11B88M06X4JBVSY6EHV",
   powerlifter_charge: "01K0ZR4Q2C15N6J8Y7DFSMV9XM",
@@ -3146,11 +3402,10 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   prince_of_corsairs: "01KEMDJ865QYGQ7HWM9K096Z7Z",
   prince_of_darkness_aura: "01KM8TQAHZXAHC20K2BHGZNWCT",
   prince_of_slaanesh: "01KYQ0MGQM76FNN4ZAARPC3EEA",
+  prioritisation_protocol: "01KH2CFJF1KB8BVV2P12G2V73P",
   prioritised_eradication: "01K7NRB48E8S9YMCNHAW269JVM",
   priority_objective_identified: "01K9ZWG71PA5YXKP4Q5GHQJV7B",
   priority_target: "01K7W8YP9CGX9XC6WS74XKKGJ9",
-  priority_target_acquisition: "01K5G12GGKNMEX4JEYDN3A2500",
-  projected_void_shields_aura: "01KAFEHBENB30JD9TJT3Q15HH7",
   prophesied_doom: "01KQ5ZD3Z8D1WA8GKSVMAKBE9N",
   prophet_of_da_great_waaagh: "01KTSDEXP1JE3GD86FT6JCBXDP",
   prophet_of_destruction: "01K3VE4B20MD03GGCE5Y7PA7RJ",
@@ -3158,13 +3413,14 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   protect_psychic: "01K646GYPJTJPV0W9Q5SYW9YDW",
   protection_protocols: "01KWYDZBYPAQ22FKK1M1FZA3N7",
   protective_disciples: "01K5V3J4RY6X2QYVM4KDG784R8",
-  protector_protocol: "01K38KGWDKSFRT5JYDHV5KHPS1",
   proteus_doctrines: "01KT4MD4XH8E980K9CNKVBX4AS",
   psionic_shield_psychic: "01KFN8YQV4A88GFB8FPBATPR6B",
   psychic_barrier_psychic: "01KFM3FYFC77B9YBEZ2ABXB8K6",
   psychic_communion_psychic: "01KRDX7GK46BHK6WT7RWMM5T8Z",
   psychic_familiar: "01KTDSZFBBT84H0R8MG0PGVJPK",
+  psychic_gifts: "01KWFTV7DF3JNPRVEBFWFN8E8K",
   psychic_guidance: "01KXAZDWWJCWNK8KQFAJ4CDDCH",
+  psychic_hood: "01KGESJJ916BTPD9ZRH329RA9E",
   psychic_spoor: "01K170GVMVT6M5AVYS0A5ZJ2DE",
   psychic_terror_psychic: "01K3PMSV68GM3NJMDH29FFNB6H",
   psychic_veil_psychic: "01KP25HKBWB59AN49NRC9Y2YPB",
@@ -3172,65 +3428,91 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   psyoculum: "01KDG1M44BEN5RYTDFBK2ZE5E1",
   psytronome_shaper: "01KRV1HXF74S7V78GPNJEMQMMZ",
   ptarixs_sorcerous_syphon_aura: "01KN240DFKV8DTDV92HV6ZJKGD",
+  pulsa_rokkit: "01K8EZTA6W7ZW9YF0NDV848NYS",
+  pulse_accelerator_drone: "01K94A4TQGWQ147SGAMTX8JX0G",
   pulse_bombs: "01K9FWCN7ATS44XTWETHS1026Z",
+  pulse_jet: "01K35MN45VD4AXZ9XFY3WV7ZNC",
   punishing_salvoes: "01K3X374DR9P27PBGZDBWFC0YG",
   punishing_suppression: "01KZ6GEX1NWT0BZFAC5T4590MC",
   puretides_teachings: "01K7J9C1PFEZ4TFQQXKC34TDMJ",
   purge_and_cleanse: "01KGB65Q81C2PXWY64BFFXG8BD",
   purge_response: "01KF39H1Y242KMRC4YW409MQVA",
+  purge_the_foe: "01K8AKN3QWWHPKV57YHE2QDH2J",
   purity_of_execution: "01KDDSQ84NQTJDP1PWSXQXSASW",
   putrefying_stink: "01K8PS2YCB2PP9BMZ8ZTTKHZEX",
   putrescent_fog_aura: "01K2T818KTW51KQNV9HSJGWAPE",
   putrescent_vitality_psychic: "01KP8HABJNBMN6HQKT4G99YRYT",
   pyromaniaks: "01KJ9MX7AHTQB3G8B5Z28JCPGK",
+  quantum_goad: "01K3XVHYTEKS777CNFADH8CBBB",
   quantum_invader: "01K7SHH8T4VG4FFTBFATN1HA8R",
   quicksilver_execution: "01KS027MKTYRJYTM7EFD2GSVFA",
   rad_saturation_aura: "01KPK32ZNA0XPCBWE436QTNRY0",
   rage_embodied_aura: "01KW030BSM5342XT483XFWNJSE",
   rage_eternal: "01K459TBWFXA3TTNXAGAT541XG",
   raid_and_run: "01KGQR6M58VE108D6XXRR49MEE",
+  raider: "01KC91VHX3JKJZ1Q8MJGGSS9HM",
   raiders_due: "01K54E7H1TZG54Z16P5YEGATCE",
   ram_jets: "01KP65JYQW5RHXJFJRWTN55Y6X",
   rampart: "01KNBRY7TJKGHTTEZ3K96ZT6PQ",
   ramshackle_but_rugged: "01KJJG1GGEZ4PSYPS3GWYHF9SC",
   ramshackle_cover: "01KR2W6FARNVHTDB44QZW85GPE",
+  rapid_assault: "01KTN59PDKQFESPNYCARBWXKF1",
   rapid_deployment: "01KQK56Z1DH6MB3KPKVCBBSFPH",
   rapid_deployment_pain: "01KH9A0QHMS6HSCJ2W3S824V37",
   rapid_embarkation: "01KYNAV7KRQK2AAM4NH6FJ5QWB",
   rapid_strike_vehicle: "01KVBWWZWYEY2JW9PS62JA63TJ",
   rapturous_blows: "01K8MCSTSMYF91H2TYH42KDWP4",
+  ratling_battlemutt: "01KJ2KAYG16Q4ABK1VAKFAS7DJ",
+  razorback: "01KA58DZ9XN8HPJ9Q23F1YF3KQ",
   reanimation_nodes_aura: "01K0FPHAHY4XEMJ084BPT42N8B",
   reaper_of_souls: "01KJF3ME75A9KEY1J1KY44QQ5J",
-  reaping_tally: "01KAQJ2787DG37JPN5H22RFMT1",
   rearm_reload_fire: "01K36E3108VT17FPXCBJ8VCXJ2",
   reaver_band: "01K42K27F8N4QFYAW58N4MXSQ0",
   reavers_of_the_void: "01KJWD4D8P88Y62Q5Y1D7CH2W7",
   rebind_rubricae_psychic: "01KC0VFEJHFR821XEQJFZBZXV0",
+  rebinding_psychic: "01KGM4S7FEA0G8BBW6ZEHRXEJ9",
   reborn_in_blood: "01K19TDKYYW0XW1MWHZHWRKBEC",
   reborn_mastermind: "01KHEXSQD0EEWKBZ6ZQEK8A7TD",
   recitation_of_faith: "01KTAWMCY81TQ81972NQ4PBDDT",
   reckless_abandon: "01KH16JF94Y8EMCFA2X71TDBET",
+  recon_drone: "01KHJ4GDGKP717T1TR8A8409BQ",
   recount_the_deeds_of_the_saints: "01K9A0Y2MF3CNXN3GK7GVX2NXC",
   recovery_vehicle: "01KH2Z7AV0PX46DB6RM0Z4C44V",
   red_skull_kommandos: "01KHQV9X9STCKTZNWWJ3Z2C1BF",
   redeemer_of_the_lost: "01KYQ2S0WBPZ2Z30GYBPKSFVWW",
   redistributin_da_gifts: "01KBCJHQD7D5HJ8NS9AZ2P7T54",
+  refractor_field: "01K7N57H69HW5P0WRE3VWX4048",
   refuse_to_accept_defeat: "01KR7N7NQ14ZSRHBJEJYVQ5PFD",
   refuse_to_yield: "01KT10TBVBAXKMAT5QXCQ99P1J",
   regenerating_gene_mass: "01KF1EBB7GGDESTEEA7HWS1DSM",
   regenerating_monstrosities: "01KA36W8ND5YR5PYZP0S8DP5W4",
   regenerating_monstrosity: "01KPN7HPM9R2RRSF2K0WA9T9PD",
+  regimental_banner: "01KCFM1GC5QCVEG0VFSV2EHJ0Z",
+  reign_of_confusion: "01KQGF629QANXMV5RG1PMBD8H5",
   reinforced_cover: "01KNGD1ZD05EMZTS3AZKXVSTZ1",
+  reiver_grav_chute: "01KMWJQ9H13BWEBDR8DDN84V9W",
+  relatavistic_tether: "01KK6FYF33H0VCM9QWXEMKS9RE",
   relentless_avalanche: "01KCXQJH8YBEN63AR4K653DC7F",
   relentless_carnage: "01KZQZS95N56PCMX601XY7BDEN",
   relentless_combatants: "01K9V7ZGTPPV1XVPVB5F8PHHZJ",
   relentless_march: "01KJ4PZZ5BM2F30Q1DXDKDB0N7",
+  relentless_march_aura: "01K69ETE88BB2S83HX94RZZNTZ",
+  relic_of_the_matriarch_censer_of_the_sacred_rose_aura: "01KMFFN5FA3G1MQKG6NHQRNF72",
+  relic_of_the_matriarch_icon_of_the_valorous_heart_aura: "01KJDYT0EARCQ5P2NZR75PJMZX",
+  relic_of_the_matriarch_petals_of_the_bloody_rose_aura: "01KEAED6D2WEJRFWNP8AC8GTCP",
+  relic_of_the_matriarch_simulacrum_of_the_argent_shroud_aura: "01KHF64D7STV9NH9P491ZHAPHV",
+  relic_of_the_matriarch_simulacrum_of_the_ebon_chalice_aura: "01KVCDVJ1JN56NWJEDVVBK99TJ",
+  relic_of_the_matriarch_the_fiery_heart_aura: "01K5A0SEE7N5D3V8NB81TXFXM6",
+  relic_shield: "01KZ5RZ63AECZND5DV2BT8G4ET",
   relics_of_the_matriarchs: "01K7W8BZ1FZGP93Y0GP9SGRPYX",
   remorseless_barrage: "01K3WE0K3EGNM36K3D7TYA6PQF",
   remorseless_persecution: "01K41EWY04QA06AWASPDZ85HGH",
+  remote_mine: "01KK4HWTXHTQ21Y1AJY46T34YA",
   rend_and_tear: "01KFN36YPYD3T5TW5CSMCB5DPB",
+  renegade_heavy_weapons_squad: "01KQSQZTKCZ94E704QW81T91H6",
+  renegade_ogryn_brutes: "01KSHNXPD7CE83QA7PQ7HW2RM9",
+  renegade_plague_ogryns: "01K5EZT376A1HNDR16T118KJXK",
   reorder_reality: "01K1WEG9QDFBY4NC4RC13T49CF",
-  repair_aircraft: "01K8EPTV0JQAPX1Y8WWJ2FNHXB",
   repair_auto_simulacra: "01KYY69B6BXFA2RDB61WZZJWXN",
   repair_barge: "01K7HK9MSD6M143XVWJGMMRVE2",
   reposition_under_covering_fire: "01K5Q6JXS45R09DP35CXAT4D8A",
@@ -3238,11 +3520,13 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   resilient_organism: "01K8M9H7ZS7BQP1KNECHVXVEYS",
   resolute_will: "01KBEEY77NK6GT1GWT4EJ7VT0W",
   resource_transmutation: "01KSV1118Q4VH2KNRSRJRMX388",
+  resurrection_orb: "01K9Y5S73H4WP57K9YZ5GC2SFJ",
   retinue: "01K0A3EASAT5JM9A41996SZS09",
   retro_thrusters: "01KVGEGKF8E4KTG849SZXRPEQN",
   revel_in_desecration: "01K1HZDWFGK7AB0C6R1EHVKWMH",
   revenant_jet_pack: "01K6VP964WBZ98VDP5YKF7VK56",
   revolting_regeneration: "01K4BNWJFHPQCSK4JMBZ470GBB",
+  rhino: "01KQE373GFMJ54KAEY9YN0FT9M",
   ride_the_thermals: "01KKY8Q2F3VW6YQ02JHDNNS7A9",
   ride_the_wind: "01K7F62662GVE1ZFW8J92D08E3",
   rider_of_the_immaterial_winds: "01K4A70A5ME1R66A0AES992FR2",
@@ -3258,34 +3542,39 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   rites_of_coalescence: "01KWYGPMHCB48P8QZ0FWERP871",
   rites_of_feasting: "01KHPWN07W6DX81PM9GKHT0ZAX",
   rites_of_reanimation: "01KE87AZYS0BB2QEKQMW5R4EB1",
+  rites_of_teleportation: "01KJ36S88YAR0C8TSC6K65WF6V",
   rites_of_tempering: "01KD260GHCKVKJBE3E185S98TR",
   ritual_butchery: "01KQ8WYD61ZNEYMKWWY0W0PZTJ",
   rituale_nullificatus: "01KN5EPK9NK1S21DS6WDB6PS50",
   rivetin_dakka: "01KRGW08FJ2NK2NW71NMZS50HZ",
   roar_of_mork_psychic: "01KZN4S5YT172S6RYGBHYMPWNE",
   robotic_bodyguard: "01KBB1HD7KC0KVSKHGC6Q1F5BW",
+  rod_of_office: "01K66W49DK7R50EAYSF5EXGX7Q",
   rod_of_the_war_forge: "01K1T9FP38VBCZGGSXZE32AYRC",
+  rollbar_searchlight: "01KRR64B7R9QGM6KMT30VPFMFK",
   rolling_fortress: "01KQG92RYS9YJ2XK4PRD6NGNFQ",
-  roof_access: "01K13MDH7NGA9JHPJ236YN49CW",
   root_of_honour: "01KT492F4TENBW0BVZ7D0GJTMF",
   rotating_death: "01K47QFMENFW1CSYMC2QCF7QBX",
   rugged_reliability: "01KJVSQHNS5N81XK0T2WES11S4",
   rugged_resilience: "01K8DPPG7FPRDSWEP7NCFRWVK9",
   runes_of_battle_psychic: "01K0SH38AG0XN4SKJ2NT08B27F",
   runes_of_fortune_psychic: "01KXCTGM4C7V5A6KTSTBY4MZGX",
-  runes_of_the_blood_god: "01KNKQ2TWZKP08HRKDPQG1QA0H",
-  runtherd: "01K9AVC54CFD5DJ7MXN4Q9WHJ3",
+  sacred_banner: "01K1C5V55G31EBATHB8F7PPJ1B",
   sacred_command: "01K8RBKSQAQF3X8Q7T1RCFQTPG",
+  sacred_devotions: "01KBX84YYE4A86YYD5RP8BYCDX",
   sacred_healing: "01KJ8R6BP3868SPY5T2ZYT81F9",
   sacrificial_blessing: "01KRC6YFZJ4YPF0MGGKQGBPGFF",
   sacrificial_dagger: "01KNYXA62FGEZV3S7VTD0G6F7B",
   sadistic_raiders: "01K4PT83G5E8TNR85KQN6098WM",
   sadistic_raiders_pain: "01K8PCP4RSW6MMGDJMEGDG0P64",
+  sagitaur: "01KZEEMKHN7Y49HNV0VNT1RJ7P",
+  salvationist_medikit: "01K1BB0AA1C1E75A2A957HMRTA",
   sanctic_hood: "01K2AKWWHV179EAN8EQSHPMBHE",
   sanctified_flames: "01KG3CTYEFWMS9PPG6A4H5R9XQ",
   sanctifying_ritual_psychic: "01KN69VF6HNFMC0HBT910F14A2",
   sanctity_of_purpose: "01KX04VB1A2F8GBVF0ZDWNF6K1",
   sanctuary_psychic: "01KHSG4QDT6Q16TZYK98XMJGR5",
+  sanguinary_banner: "01KYJ0SG7R1KQRR4J5VQGGEA5R",
   sanguinary_priest: "01K2NKNM2C9Z0EC9W6YWCBW6PV",
   saturation_fire: "01KZ758ZYFDEBHCQ5DGE6R3WPV",
   saturation_volleys: "01K9C44JS5ANS85NG952TQS26D",
@@ -3295,20 +3584,21 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   sawbonez: "01KHQEFKWXG814QAWW6GEK09QG",
   scanner_uplinks: "01KDYY53P1SFR4R2J07FEEXBC5",
   scatter: "01KD99659MBN37KW2BZ11V2F8K",
+  scattershield: "01KBPXYJJSXXCXMJ8SBBK1WVV8",
   science_guild_support: "01KY6J8E83X9EJC5B5C54DSJHA",
   scrambler_array: "01KCMYMG8C363ZNZDCP4SZJ70N",
   screening_line: "01K1CPNRZHTGGWGSK4M1A20M8G",
   scryer_of_fates_psychic: "01K9GF4X0SAQAZ2Y3R3RMKNJK2",
   sculptor_of_torments_pain: "01KS28T359APJMX99SMERKSFE5",
-  scuttling_gait: "01KXXNJZ1E0Y4B40A5KM31PN7X",
   scuttling_horrors: "01KZHNQ3GEMAMYYS3P0FTSFCGD",
   scuttling_walker: "01KPBZMWA0V325NMYNFT7HAV2Q",
   scythed_impact: "01KE43H76N4F2CNMRTNKEKT6Q7",
   scything_charge: "01KND1V9AV9RC5TSZAYGQZ5WC8",
-  searing_conflagration: "01KFAZZ7SYER9YSA3QJ7WQRRF4",
+  searing_conflagaration: "01K50MCK18F3VHF83KPDBGSV43",
   searing_flames: "01KB9KFKBZ5266VC2K2YFG029T",
   seasoned_noble: "01KF7QB0K8AZTQ1WFFM5B3VWM4",
   second_company_banner: "01K5SWTABCA8DZJVJWXC7BKABM",
+  secutarii: "01K6MNAVJ9JDG8YMK6DFKWZXWQ",
   secutor_of_olympus: "01KA0CAHFH055VM7RVPVMX4FZ5",
   seed_mucolids: "01KGPBJ5D6TG42T606SDMD4HQT",
   seed_spore_mines: "01KWE0Q3RAMZQFY37MCXQ640A7",
@@ -3324,29 +3614,41 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   selfless_protector: "01KWK68C80NY6MFT8BD6QRDCKV",
   senior_officer: "01KSFABHNM0Y2MWD190EBS4B8K",
   sentinel_construct: "01K70WHRFQ2S38M4WKT51YF85Z",
+  sentinel_directive: "01KCNSGYSEYCRETGEXNV5WVXNT",
   sentinel_directives: "01KRRD2H9YDG00PJKCQ1P2VG4J",
   sentinel_protocols: "01KMYN1EN8GVR4R068MT1ZB9X7",
   sentinel_storm: "01KM814HE0NEXC9HYFN10YRDF1",
   sentry_programming: "01KTCHH02RDAFKQRQGYP37J7DF",
+  serpent_shield: "01K702TFA1GGNV6PD3BCCBMCT7",
   serpentine: "01KMRZS473Q7T3CBREY3DP8V5B",
   serpentine_fiend: "01KMFCHZ669AVT5GED49JZ9N2C",
+  servant_of_the_whispering_god: "01KJQP9TYDX0RTPEP86VSH9PY9",
+  servants_of_the_abyss: "01K543TFMN541BCHRXCMQBWHKK",
   servile_pawns: "01K94Q6BWEQD3G1WACSH7MS54B",
+  servitor_retinue: "01KMKM0YTZWAYVRFS4F6B0295B",
+  servo_scribes: "01KX76XGM2VYC93673JEAAVV60",
   servo_sentry: "01KYVZWEMRYJCXA12NMBTFRNBZ",
   servo_skull_uplink: "01KRD9C2NW2PGHEVN4B6C3VWA0",
-  sevenfold_chant: "01KK21V74A8TVWX4D6TX63FG75",
+  seven_fold_chant: "01K56G0NCX8NP3HQ8YPASGNDM4",
   shade_of_twilight: "01KSZF5NFMJKKZQRQHTCVPBJQV",
   shade_weavers: "01KZMVBGMSY1B5NDZ316H2DG6N",
   shadow_form: "01K0BND6G95GG5Y3KSYYBHX0RC",
   shadow_hunter: "01KD9G488QGAXWCA7MS79KC7J9",
+  shadow_lord_aura_psychic: "01KZA3ZTSFRSPBRFXZGJFD6EG2",
   shadow_of_death_aura: "01KN3FKRRPAXGWY22WBSX00CEP",
   shadow_of_khorne_aura: "01KV9WYKET4HWS7N7F7CR183AN",
-  shadowmaster: "01KD6NYR3E664VVWTV3SWTS6ZW",
+  shadowfield: "01KT3NQDY64FVJTW32C19QTQJS",
+  shadowloom: "01KSWC9W7E843GBDC6KM5XQ9WE",
+  shield_dome: "01KJGSZT0CG5WNXJSQK5YFYVV9",
   shield_of_sanguinius_aura_psychic: "01KN3W2XDTA5KQTV3QA12DY56A",
   shieldbreaker: "01KJPVZP8WES5EW3DRH3P5DXCC",
-  shields_of_the_chapter: "01KHBVRPT43N6NDEV6ATVEH788",
+  shieldvanes: "01K1P0R29C7D62TQCHW6T2K2RW",
+  shimmershield: "01K0PSW8D9519V6CDBZXS1XZ11",
+  shining_aegis: "01K2WKGK9C471GP3WVBE1NKDEM",
   shock_assault: "01KJZKH11KB1JDD5A7SWBYZFF9",
   shock_charge: "01KJS2WM5SSKPDXV30W2STSE55",
   shock_troops: "01KM8WG2XGX4X770M7JEK6KK8C",
+  shokk_attack_engine: "01KVKVS8RA35CVD5MA53DN2NQ9",
   shokk_boosta: "01K4V3ZEVSF8XRWY3HSHMSZN91",
   shokk_tunnel: "01KWR1842RG69X3DHJ3VE89J9D",
   shoot_sharp_and_scarper: "01K5CGQ9FHP0TVJ9FVKJ986E9D",
@@ -3368,10 +3670,13 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   silent_bodyguard: "01KDCV3ZXKJWYCTW0BJPC8B6GB",
   silent_executioner: "01KDR5EK0D5G2Y2ZNMC4ZF0F71",
   silent_fury: "01KQ27E6QF4B53HH1P13SBP7T7",
+  simulacrum_imperialis: "01KRMWN4SVPMVBAPDDEVAX20NT",
   single_minded_predator: "01K42JT4NQWKE807KGWYVSR4X7",
-  singular_purpose: "01KG24WBZKZ3Y7B50V0XJ45FZR",
   skilled_riders: "01KS2TJ2V6ZSPWQ9PGWDCP18XB",
+  skorpius_dunerider: "01KZ4AW1GAZAHVVXMQMRMCH0FE",
+  skulkin_grot: "01KV9Z16QS5MQVS32PXSF2ZYQN",
   skulking_horrors: "01KSH9V15QT7RBX5GBRGDFMRVW",
+  skulking_nightmare: "01KQBJFWYX6813E50N9MA3NCRB",
   skullmasters_fury: "01KF3ZNSW8A6T9E3S28T7Y9T81",
   skulls_for_khorne: "01KZXS0ARGSD1AWGR0734DWRCN",
   skulls_of_the_fallen: "01KCN259KM6B8VT9X7B7RDQV0F",
@@ -3380,25 +3685,31 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   skyfire_protocols: "01KK761677HZNJHY64X6FD5JK0",
   skyhunter: "01K88241XN66399VQ08AEK47Y2",
   skyleap: "01KFE9YGRG7RTCDWK8RRS6QGQY",
-  skyshield: "01KBT884YRTEQ89EEJN9QJWYNH",
+  slabshield: "01KAFVKEE7VK3PEMK2QR8VTQT4",
   slashing_dive: "01KRW9RWS5J7BHW3NRZWFNK3QX",
   slayers_oath: "01KW9B089TDZS64R0Z613CY7BH",
   slayers_of_tyrants: "01KNE9Y3KATZ37JCHGYFYY6CST",
+  small_bomms: "01KY7DYTV1P45BJ7CQ61J619YH",
+  smoke_launcher: "01K41KFDQH9Q94GMQ0T94QFG7J",
   snaking_ambush: "01KM53YZMS0C006RH4G22DXGEY",
   snarling_protector: "01KE3NFZNN89T79A6Y40XK6GZ1",
   sneaky_surprise: "01KQZTSBVNQHVW8JYCTJ4QY46B",
+  sniper_teams: "01KSKWGKW0XKCR9YFFJ521AXZ5",
   solemn_procession: "01K8J1FEB5B68AV3WGQ8M9P6NW",
   sonic_destruction: "01KN3TJP07ZSJDY8JBKV70KYKF",
   soporific_musk: "01KFDNMRECGK62B3NFRA0GSZ4G",
   sorcerous_support: "01KD6J16S45CED5EQFFMQJG4P0",
   soul_eater: "01K788QXNE6977EYHKMXERYXY2",
+  soul_trap: "01KTMF7A0NES4A773H3FVGX998",
+  soulguilt_scanner: "01KYM5VHRH22EC31NGBR062NPT",
   soulless_horror: "01K1A1JSGA645JD2ATW0N0S2CS",
   spawn_termagants: "01KDGGBE6XCH8XV8R0N9CK3KRB",
   spear_of_chogoris: "01KS9BGF4R3C9BXTX5DAQ1TVWC",
   special_dose: "01K92YHCGXHFS6XQDX6AM61W4P",
-  specialised_weapon_system: "01KFE6RD1E1353KK5S5394JPNX",
   spectrus_doctrines: "01K14HV267X5KN539VWAKJ3DS7",
+  speed_freeks_mob: "01K69FW0PSFCPGVZ038WTAD54Q",
   speed_of_the_hunter: "01KG17MT71V62NHJAFCCFTK6QM",
+  speed_of_the_kill: "01KPV7GB99S61P97FEB0M77752",
   speed_of_vaul: "01KBW4FTVJZJJQYMS07D9REJ8V",
   speedboss: "01K0048X2WV6N25QPZWSY4MF55",
   spiked_ram: "01KDMAVGH2PHR33D9G6AS77PAB",
@@ -3415,8 +3726,10 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   split: "01KXANW8MBG6NGHYSBWC845J0N",
   spore_laced_shock_waves: "01KVJ9EA7VFEA9GEJGVVJFC55P",
   spore_mine_cysts: "01KP8W8CB8JZ7KMDGGT619EBG6",
+  spotter: "01KFP6FQGAMDTZ428F2HVHH7YS",
   spy_network: "01KARVY38M0SQZWAY0H29XC73P",
   squig_mine: "01KC2GDWDNQK3R5KEECZH24VPS",
+  squiggoth: "01KV6QX4H19D28H52VBG8YBHK1",
   stabilisation_talons: "01KZQFVGQM1F7808VSXTB3SB10",
   stabilised_disembarkation: "01K22W6V1VSRJQS6KEY4FD3T3Z",
   stalker: "01KTQET2YNBZV1K2MHDD6S35JC",
@@ -3424,11 +3737,13 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   stanchion_of_holy_martyrs: "01KJ64696R15A8JT8MVGBVRWWS",
   stand_vigil: "01K7RZVSRSRFYTHQM5A82J7096",
   starscythe: "01KHKFPYZY8ZMNSJGC9VQWMN3H",
+  starweaver: "01KKPRQ0R5PWMGFTJPSBHQV3CH",
   stasis_bomb: "01KY6PE90BCW0ZRE09BYYDD0SM",
   stealth_drones: "01KM00RCK7DF219NM9TDM32Z8N",
   sternguard_focus: "01KV3N6MG46Y3N43HDWMYE24N0",
   stimulated_by_pain: "01KMMJP0XNJ9AZG1Q049FAYYBB",
   stirring_rhetoric: "01K00FS34DF31BY3PH5QVZ4YWT",
+  stompa: "01KZCR1NQXTP5HGPAG5NMHYH99",
   stompin_forward: "01KZEQBE2ETDG3SM8X2X6PJS0X",
   storm_assault: "01KEE9AACJMN0FV868Y81GYWWS",
   storm_of_blades: "01K5GA8B2EBHAJTFGC19FN6707",
@@ -3437,19 +3752,21 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   storm_of_retribution: "01KVDHHFCCKAGZ4S0AGQMPCF18",
   storm_of_silence: "01K2J3S21ZHF4J52EEB3FCDT2M",
   storm_of_vengeance: "01KVZ1DK6M3XHRC39M9QXPX9MQ",
+  storm_shield: "01K3DV32BRHJY7WSAW57B7EFYX",
   storm_troopers: "01KNBG0YXQFJQQEJZX4KQEH6XF",
   stormblades: "01KS8NFRS7K4FT89SPK2A00WWY",
+  stormfang_gunship: "01KKVF36PM2HVAXYEBVR5M5CTN",
+  stormraven_gunship: "01KVZVW06XPSCKHBZAXE8Q56GC",
+  stormwolf: "01KHKD8E12YQ1GH2GNE6KXPRFB",
   strafing_enfilade: "01KGRX80MQE1JRT0432T4705H8",
   strafing_run: "01KSWQNQQSWKP80FA83WS78Z7V",
   strands_of_fate_psychic: "01KB699A85Q35J3Y16Q1NY4N5R",
   strategic_dispersal: "01KJDN4XEBE44K8GFNG64M5SR4",
   strategic_knowledge: "01KS3YDGMH32E31XWDZ0R1J20R",
-  strategic_mastery: "01KKY5Y3AHGPKG8353KJNEQCVR",
+  strategic_redeployment: "01KJAFEC2W746YHG32AY54XGFT",
   strategium_command: "01K3502DDYCB5RNMDFXMY65PHR",
-  striding_colossus: "01KQ4DD75NM1AJS3BM8R5Z2Z0N",
   strike_from_the_skies: "01KX944A5RDPJ61PPMSPJ5FJ97",
   strikes_of_retribution: "01K4DKC5SQHAV76S1VS7FHMWC6",
-  stronghold: "01K7DY05YGYEWFBNQZHDSRTRW0",
   structural_analyser: "01KD3XHGA8BRZAY14V58DCPS2J",
   structural_collapse: "01KNA78473Y2MBMPF553PT8CCK",
   styrixs_duty_bondsman: "01KPG28DB02H432N6B26S0CJRW",
@@ -3463,22 +3780,24 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   summon_the_cult: "01K499PD5TBYJS53QGKRBNQAMK",
   sunderer_of_fortresses: "01KTSTG80BSGP08VNQ7SJMHGNK",
   sunforge: "01K4MVW6TRASQ478RGFQYYZEH7",
-  super_heavy_war_engine: "01KT0W8PN5T5SG6E9H1Y71G2FG",
+  super_heavy_walker: "01KZMMEMCV9K4N2XX3QN33XYJQ",
   super_runts: "01KDAY18Q6T2FGT7GF1TAGM331",
   superlative_strategist: "01K7WPNYG1G3RR0A8J9WWSF4E0",
   support_system: "01KBBNQ1HC08XH2W887DQZN79G",
   support_vehicle: "01KCFEDY29ZW47WNRTVBZP77KD",
-  support_weapon: "01KXM7MRJ448GC66J5GJEATWKX",
   suppression_bombardment: "01KH4EWGTG7AWZH0BWS4Y5BF7K",
   suppression_fire: "01K2THY839MVSF27AFNAYJBEA3",
   suppression_protocols: "01KDWYTBSFK4PS0JP1VQGD0EAE",
   suppression_volley: "01K0D081EVDVF91J69F1YQ5R1S",
+  supreme_commander: "01KYHMWVBQQQVZYZYR3AT1KHVT",
   supreme_grand_master: "01KNJZYGF1MBB1DZPQGWQFTGWX",
   supreme_loyalty_aura: "01KEC7ABVEN1AHG17S2P4NY8NB",
+  surge_of_wrath: "01KCBQQMGN311V8Q7MDF7F7Z70",
   surge_of_wrath_psychic: "01KYVVBBHKQHDR5GT2WW0J0BTP",
   surgeon_acolyte: "01KRVERVG9SQ8KVNTE488PGTKS",
   surgical_precision: "01KWT11XSV9C3JV4SXVH184KNX",
   surrogate_hosts: "01KN3MPR4NYSVSCWJ83XVRQDKQ",
+  survey_augur: "01KB123NVXKS1KQXHA4J5FXDWK",
   sustained_assault: "01KFPPAZVF5ANRZZX16DNVX9CV",
   swallow_energy_psychic: "01KM1K9151CVVB32FJPPQP85GD",
   swallow_whole: "01K8741CWD7J9WG7TCN59EB1YG",
@@ -3490,10 +3809,11 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   swooping_descent_pain: "01KWQ0J8NPVM2DMN3JS65XT3ZH",
   swooping_dive: "01KBA844RHFTFGKZ1XD1QZWGS6",
   swooping_predator: "01K1PEVK8SQMGR4QXQPEWBNPJV",
-  swords_of_the_chapter: "01KMBB819JDDW1YATGXES35FC1",
   sworn_protectors: "01K64STYQVMCXCESE90QPM5A21",
+  sydonian_sentinel: "01K846PZ6KEPPFRC1750AENG27",
   symbiotic_targeting: "01KGKCM06HECB7NGWVPVSHD2C5",
   symphony_of_pain_psychic: "01KGCP3G81GFZA8VZY6S217Q77",
+  synaptic_relays: "01KVS3F8EAJ3J6KDP2EGDRQ6QR",
   systematic_vigour: "01KEB75VZN9QAJJ269324VPJ7Z",
   tactica_obliqua: "01KYQ0EAQ1GA7TE8TE4RBC71DB",
   tactical_acumen: "01KB8BJGYXSGNFT9P9MHPWKZX9",
@@ -3510,21 +3830,23 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   tank_hunter: "01KS3DSF2GKP1F0D8EZXZERZNZ",
   tank_hunters: "01KKHW4DVSM10NC86RASD9EZK0",
   tank_killer: "01KA527QDT052Y7BR9T0R89F88",
+  tantalus: "01K9V8MYMPM8D4S9EMQ3ZFAAYG",
   target_acquisition: "01KTEVKREQMAD4EX0Z3CR8RPR9",
   target_elimination: "01KNBEW5HM0R1G029Q7ZVCK803",
-  target_priority: "01KK151T2HZHSF3REPJMMDQB6J",
   target_sighted: "01K8EZNGK8VD5GY4BD8V9S6W39",
   target_uploaded: "01KZSD33ME3CKR2X9CP8X78SW0",
   targeter_optics: "01KPPXMTKRJZHD6JW9YJBB009C",
-  targeting_array: "01K4TPMP6Z5VTGK59PTNF17RG7",
   targeting_coordinates: "01KVXPRRY0CY9FY1AYE4349PGJ",
   targeting_relay: "01KCM2C8Z854F70FPT9YF3T9SF",
+  tarsis_buckler: "01KWYHMD6F9BPA1N66A0TZ89DV",
   taskmaster_aura: "01KBYZ99XZJBNMA7GTAD4T3NM1",
   tears_of_isha_psychic: "01K05P802E49MK10452SG6K655",
   techmarine: "01KKBFWZ22PS0B4A80NR8AFKM0",
+  technoarcane_zealotry: "01KNAMNFPNTSRVB8WASAP0XWHX",
   technomancer: "01KZ815BP2YYXRDEHGS1651GYR",
   tectonic_fragdrill: "01KFP8RNTBMYWNPJBFDSA40CW1",
   tectonic_reverberations: "01KMD7JDT4MT8N6X5HDRVAWPJR",
+  teleport_crest: "01KZZ89Q3CGH1M04FYQADZ34MD",
   teleport_homer: "01K3BPTTNS9V72820Z83JH1SAY",
   teleportation_matrix: "01KXBVF2YW14H1CDPS4W80AHCK",
   tellyporta_tech: "01KF5NQ52BM2ST3BGK009HBRQJ",
@@ -3534,15 +3856,19 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   temple_relics: "01K4ZNHW6BH1GWV0VRY809GEFH",
   tempormortis: "01KWV9WRE85XNJW2YJZ9RD3TQ6",
   tenacious_spirit: "01KX09AJVC6AJG486CX4J7765E",
+  terminator_storm_shield: "01K8Y73AY41C125F472ACVDTVK",
   terminatus_assault: "01KXCZBFQGYYG71CS6HJXQK1DQ",
   termite_assault: "01KM1J064HSWTE75D3PCVP2MAT",
+  terrax_pattern_termite: "01KWMNST9Z60YXAH56E8TWWEG8",
   terrifying_assault: "01KFT9DRQJV88TZ8DT26QR1BQJ",
   terrifying_crescendo: "01KX2GYN8QQEY6JF6KBEKPFFGX",
   terrifying_monstrosity: "01KB74TYPCAFB0PVVKJFGH16Y8",
   terror_from_the_deep: "01KY5ET2MCFFSZ0VVXA1XR47W6",
-  terror_troops_aura: "01KV5C46REP8MJRV6F3B1QSF7P",
+  terror_troops: "01KKEVN03A7Q2QQRTRBFQJD0XG",
   the_betrayer: "01K0XH72KN3TKSB72S5NJJQX15",
+  the_blood_gods_favour: "01KWRM7CA03DRAN2RHCYFZP5MW",
   the_bloody_handed_aura: "01KRQW4NZMB112J8AC56GHPT2X",
+  the_chosen_one: "01KFY2RTYSNC3X0V3Y66VAFVX0",
   the_collegiate_astrolex: "01KG4G7GSPKJCY5F54D4E8V1MZ",
   the_dark_master_aura: "01K41DJG2THNVRG9ACJQV2B5CT",
   the_destroyer_hive: "01KCK1D3J32J3SSHZVWQD5DTBQ",
@@ -3550,8 +3876,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   the_emperors_shield: "01K0B51S35HPQJ28V38JCQ30PS",
   the_eternal_dance: "01K4R9JFY0EFNSSC1PVKGZ0MCZ",
   the_fierce_eye: "01KZAN1X56B5V8F5PQ5K8ZM5X1",
-  the_great_wolf: "01K3EXE4KEETZ9YX5ZT8W929JD",
-  the_imperiums_sword: "01KRS8JAAQ15K19JK0KBH0043A",
+  the_lion_helm: "01KWRCSVRN62Z9GB2RKW5YF1AZ",
   the_lord_solar: "01KC63MSG0PNTERA2W11KR9VRK",
   the_lords_will: "01K0TBJSZWZHNYHKSEPZJ75C39",
   the_path_least_travelled: "01KDCS6SR1GMNMT3TF75WMBZBH",
@@ -3560,20 +3885,21 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   the_ratling_twins: "01K1BEPYD9Z8EB5K183XREVAXF",
   the_red_grail: "01K2C1SNHJANM2C88153G5ZTER",
   the_scent_of_blood: "01KMDYSAG437ATAHXWWKJ28GAB",
-  the_silent_king: "01KRH2ZND0287JT834GSMCA2ZJ",
+  the_scorpions_bite: "01KWRK7EGZ87XF84T2GS4BBFEX",
+  the_silent_king_aura: "01KVT0TGAAG5SNKGENFBHEZMNE",
   the_spiritshield_helm: "01KYW2EQ39WVYCXM4GF8Z1XW9G",
   the_stars_are_right: "01KNSDWER00Z94MAJEH2GK85TA",
   the_vargards_duty: "01KG4VHBQEF0C1WZP9X7NEMVHQ",
   the_warmaster: "01K8JKFN5Z2T6R389NFAFEH941",
   their_number_is_legion: "01KQNF1P9G0XX7MDXWBB6KQ333",
-  thievin_scavengers: "01K95K7D8V5VWVXC7HDM5GCWHR",
   thin_their_ranks: "01KDZ2CS2JKPF99QJ6SKT2QQZ5",
   third_eye_psychic: "01KHF37G39JAMP2MKJMDCTZ896",
-  threat_level_rising: "01K9F04A2CC6FAY600CKSJ1X14",
   thrilling_spectacle: "01KV4M5TXWW0YK62DG810626V8",
   throne_of_judgement_aura: "01KJREMEF8QSBA36E4Y86MW4KY",
   throttlerokkit_shokka_engine: "01K7VA048PVDRDFTNMDPN9X6FB",
   thundercharge: "01KDGRB0JWG7WRZGZM1HP3RFMP",
+  thunderhawk_cluster_bombs: "01KQP13TTXW8F8QK8S6ZYC6DAD",
+  thunderhawk_gunship: "01K7CAQ2R0B6EDKZKQKTRZD8YE",
   thundering_stampede: "01K2V591N3EDR6M4PBNC81C86V",
   thunderous_charge: "01K56V36N631B11JDWWYW3SMKQ",
   thunderous_head_butt: "01KKFPENEJ93F6132F2NAASMJK",
@@ -3581,26 +3907,30 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   thunderous_pounce: "01KGH0QJ6NAMAST1A01ZZMRCDC",
   thundershock: "01K9H30JAJYCVMQK2NTB4AD959",
   thunderstrike: "01KJ2GDVF6VZ0ARNM6K58JZYDP",
-  tidewall_cover: "01KP1PAEXXA5D3SVW7R1VXXBEE",
   tidewall_defence_platform: "01K41Y40VCEMWCN17HHGFTZG3A",
+  tidewall_droneport: "01K8GG8MZJPCE81056QC2S06HP",
+  tidewall_gunrig: "01KYEAMZRWW2YBADAXXV8X5KN8",
+  tidewall_shieldline: "01KB4KYMMRX545NW6XA9WYPZ1C",
+  time_flux_aura_psychic: "01K1YJ6DQ3TE065MB7BQEB715C",
+  times_arrow: "01KEMAESHZX7YB87A454VQ3TJE",
   timesplinter_mantle: "01KN0XSA2G6E3TDFXQAJXHAMF2",
   titan_guard: "01KEZ4Y9H2TMV01J6TV169MS90",
   titan_hunter: "01KSJT8MP52ZD7G4KBA5N8HRBA",
   titan_killer: "01KA13BHHQ2H3G8ZK8QZKMN0JT",
   titanic_advance: "01K5D2X5GEXVV241MT6DV2HX03",
   titanic_agility: "01KR7YX4T4DGEYPGRJKD0YSRF9",
-  titanic_fire_support: "01KXMAZ2DBN3Q84MP60H5WYD56",
   titanic_strides: "01KST1RC9GH0Z0G1X7223GDBKC",
-  titanic_walker: "01KVJNDJ15BHZPV1XJAPCYE01V",
   to_slake_its_rage: "01KB94Y2JKF7DS1KJN890BK5WG",
   to_the_last: "01KTGX9DEFV7DVVBDX16GVWMR7",
   tocsin_of_misery_aura: "01KMXQ6NT628Z2FP518XF0B1T7",
+  tome_skull: "01K4DS98M2C2N2W4A36JYBS1NQ",
   tormentbringer_aura: "01KY4JCMZBX6VC8VDJX1EJ371Q",
   tormentors: "01K3SCACXVC11AVD8JM8JKFKC2",
   torture_device: "01K22Y46E1C3VR76CDR9EYJAZQ",
   torturers_craft: "01KMG07A9KN6T83C37D6REEKE4",
   total_obliteration: "01KGWYPRCVN4AA9ER6NH2E9WZF",
   tough_to_kill: "01KNSX6APG8PAVF3HA9SYK4P0X",
+  towering_reputation_aura: "01KDR1A5T5D23QKKPANG4MR8D0",
   towering_wraith_construct: "01KEFHKW2HJQM1BCP3AYGBXN9B",
   tox_cycler: "01K7VRGX5734S9QNQRHWMAEXZC",
   tracking_target: "01K5MHEGX410E2P6VE4G9GCJTA",
@@ -3610,25 +3940,31 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   transdimensional_displacement: "01KETMT5W6AMZ59DYMV3TB90S0",
   transfixing_gaze_aura_psychic: "01KWJWGFCKPX181Z1SS0AG1DJ2",
   transient_madness: "01K3WCSH4EKWK5DE8KJ6CKHXT9",
-  translocation_beams: "01K5VMY9A9PYX4F172GBCD720F",
   translocation_shroud: "01KC2MSWNAJRT3WR9D0SH951SK",
+  transport: "01KE6XPV59ES2BVE3KAN99E6W3",
+  transport_bay: "01KNTYX8RYFBTGDDYZPXWG0RM4",
   transport_support: "01KMAYG73GKHKTBJ905XN7GFDK",
   treacherous_illusion_psychic: "01KCDPFNNGAK4B82Z0SQPDKKXE",
+  treason_of_tzeentch_psychic: "01K561W1Q2R31F0PZF3B6MT6TW",
   tremor_quake: "01KMK88AAV34YK85ACNAFZEBF5",
   tremor_shells: "01K35K9Q0AS4648C7NZXJV2N3V",
-  trench_line: "01KRDWYADEWN9G85DE1137RHVR",
-  tricksters_grace: "01KAHE0M4JEJK73BCSGCHQZZE1",
+  triarchal_menhirs: "01K58C22KF0N27VP01MV5WY2GR",
+  trifold_path_of_shadow: "01KQKBY7ENASAXRJA5ATSXB6HG",
   trophy_hunters: "01KVPMN7DCQPMSTJ7Q0XA3A5CS",
   trophy_taker: "01KM4CMPCBTG3FXQXD2RA07MZV",
   trophy_takers: "01KRK0HKRXJ15X3GAE08MN0VKY",
-  truesilver_aegis_aura: "01KF5B3ZGEBYKKG705XGDVDDYY",
+  truesilver_aegis_psychic: "01K7YFESHGNXZ0Y8T1XNPEWHKC",
+  trukk: "01KH8K1ZJDY9Y37QB796W9FAR1",
   tunnelling_horrors: "01KYW8QS6EQNWGHAB4H2G37TVF",
   turbo_boost: "01KRMTKTXNMXCF7PQHXQRMVSTQ",
+  turbo_engine: "01K0SBKS92YXQSYM9BHVANSQRN",
   turbo_jets: "01KWDA6G0Y86KFF9DX6DTAM0BZ",
   twisted_defence_force: "01K6NTF9WARZFX96XR9AXDB3Z9",
   twisted_science: "01KE43311087J1TR7C5FZQ81RN",
   twisted_sorceries_psychic: "01KSDGTRT35NDFT1EHRWPBYKE6",
+  tycho: "01K2ACBC9PRFN2NS226Q7JJNTH",
   tyrannic_war_veterans: "01KF5E3TGQRQDNK0DHDRAHJYQQ",
+  tyrannocyte: "01KNNXCM68FHTPB8JWWZJ5SVEA",
   ultramarines_bodyguard: "01KHSFB2M2A8RHH9G54KK0CTCC",
   ultramarines_honour_guard: "01KT8PPNW1X4RS1M9JTHHPDKH4",
   unbreakable_duty: "01KH1D58TYJ3V7SV2GT2CJZ0BW",
@@ -3644,9 +3980,10 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   unholy_resilience: "01KDWRA4BB19KQTRWRWK56QFT6",
   unholy_speed: "01KZ30W3M0ZWQE25AC9EVK00CW",
   unholy_vigour: "01KBBAGWCJV901A5SXJ1NPKX1Y",
+  unit_composition: "01K1W1NCJDXSNE5J34RSPA35QT",
   united_in_destruction: "01KN02EVZ8GS7NKKWD02BBY99B",
   unleash_wrath: "01KJVK63M3DNF34NTP95YSFA56",
-  unnatural_resilience: "01K69WQJAJP80YED179PX0EN9B",
+  unnatural_resistance: "01K8ZR0HR1SGNRN3W4SY1A3AD3",
   unorthodox_strategist_aura: "01KV3W0RSPEETYKJM88HTJSD4T",
   unquenchable_resolve: "01K8AMBCFCFYQ5E9ECECH7QNPW",
   unrelenting_and_uncompromising: "01KE44270J7HEGTP5GH1MFEDB5",
@@ -3655,57 +3992,63 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   unstable_payload: "01KR72YPWH6VACMM1YHX6BA5MX",
   unstoppable_champion: "01KYBNF4PB2GWW7EMPFVD5XW4J",
   unstoppable_monster: "01K82TJZ91AX5RT1WYF3V8MTQ4",
+  unstoppable_monstrosity: "01KNA278V21BM7VWP6WH7GCSS1",
+  unstoppable_valour: "01KDV3DER726DXD91QTSA0R913",
   unsubtle_crusader: "01K9QARGW937QYW4TZMQ48C615",
   unto_the_anvil: "01K8ED6PTHB61EP43R4TR31GQQ",
   untouchable_purity: "01K7WB5VQBC7Z4XN9H00DS24T3",
   unyielding_ancient: "01K43T9D71T17HMM5BAEKHFX4P",
   unyielding_in_the_face_of_the_foe: "01K0BXBXMSN7G6KEA6QYNPZV6M",
   urban_warfare: "01KXD36KEH9VZ5TAK8MPCPB81H",
+  using_commissar_graves: "01K5EH83NW91HZ2A7GVVZ3V89Q",
+  using_sir_hekhtur: "01KH9PBEX9FXQB3YZS5ZJFY0FQ",
   vanguard_assault: "01KDWH53K5VHTFST5M4WG1V09Q",
   vanguard_of_the_dark_city: "01KMCC3B0W9CH5SN1PKVA8AA5Q",
   vanguard_predator: "01KNBTNZEQKC6WZREB7M5V5GW4",
   vanquish_the_foe: "01K8F8ADA04600C0MG7NT4E7J0",
-  vantage_point: "01KDTW64B2SXRB2YSEH1YQ521C",
   vector_of_disease: "01K21BF7QRPJG3S4BYGN6NWZ34",
+  vector_of_the_omnissiahs_wrath: "01KW00DVJ9P0QPDHG4RBE31FV8",
   vehement_aggression: "01KCHBJT8HB9JYRXK9BBPR474N",
   veil_of_time_psychic: "01KKH8469MHY67JNQCSEFPCZ49",
   velocity_tracker: "01KZ01HKJPAJW1SBHZ9JN3S852",
   vengeance_for_the_omnissiah: "01KYSNMESE14Y459QGGD9SVBSG",
   vengeance_of_the_omnissiah: "01K8WMSEBWXE0R5RSZ9W315021",
   vengeful_exhortation: "01K25P9FT6XRH6KY1R75EZR85D",
+  venom: "01KRHF3B10DE5GBQWSDPBYRCJH",
   veterans_of_the_long_war: "01KEH0G74291ZVYZ1X9ABWXR9V",
+  vexilla: "01K61GS9DWW1BZXY12TG9W7HPG",
   vicious_insight: "01KHN44AVGB1AYXZ58XQX45GH9",
-  villains_doom: "01KM1X3ZXADEGMJ2Y2GXPQ4EB0",
   violent_fury: "01KAA9HSVBZ9Y3JZ2VTSN5SRA3",
   virtue_of_intolerance: "01K9E3EQS3Z2878GFXDNZGGCDA",
-  virtuous_onslaught: "01KCVAC4X5ENGCAN8FK68YSKMB",
   virulent_aura: "01K3TA5BMDMGFMQ1XBMYK15B7Q",
   virulent_blessing_psychic: "01K7EF2R8VFYVR6ZZ1YMYK135B",
-  visions_of_heresy: "01K567YZHVV3WQNYM00ZHTCC87",
+  visions_of_butchery: "01KT7EQN2EEN7XBHKRQ9QYPC7W",
   visions_of_suffering_psychic: "01KRGK98BGH3GQDPESB8H88B5A",
+  vitruous_onslaught: "01K90GHRJP8D4WFWZ0EJNRWYHA",
   vivispectrum: "01KCYBXDTP0MDQ47SQE2BMRHFB",
+  voice_eater: "01KDBVC70GY8SYFT8M6NN608GC",
   voice_of_experience: "01K5RHJ279A7BA1YHJMNV02KQW",
   voice_of_new_truths: "01KBGTY456KH2P3AJ873Z8Z0NR",
   voice_of_the_triarch: "01KS0C3NBWH4J3NKPA7XN56KA2",
-  voices_in_the_code: "01KEENCNNPHVJJV8DHQ3QGY6PG",
   void_mine: "01KEV85ARPN7E7ARNDTBF5MV1E",
   volley_fire: "01K74KSV6QF79XSB0HSW5V842D",
   voltagheist_field: "01KCT1KJN0MW5TAK66T61EBYZV",
-  vortex: "01KF9CS6C1MGFZNTAYV711BV75",
   vortex_terrors_psychic: "01KDY0Q2FP069MHJE7AJ2JBEBC",
   vox_cast_proclamations_aura: "01KX12C2REQ69QE49NG456DQ88",
+  vox_caster: "01K8KKH2R732F02YM87XFWFJJ7",
   vox_net: "01KTQRFK86HNG5244HB3PAD2X1",
+  vox_relay_beacon: "01K8BFNP8JYVMKDEC5VQ45E0BG",
+  vox_skull: "01K1ZS5N475Q4PMRR6SYMTZCVC",
   waaagh_effigy_aura: "01KYYQ5J5TZMMWGXPJWDVGCP6G",
   waaagh_energy: "01KGG9QP0KTGPWFXB9ZGPBPYBB",
+  waaagh_wazdakka: "01KB0GJ7NPEEZE2W5FG5TFSMB1",
   walking_bastion: "01KNMAW21AYVXNHT0C7F3JE7S2",
   wall_of_dakka: "01KTN5F07CXVZGBPJ5B6VFE3G6",
   wall_of_muscle: "01KQSD1X1EWAJGQ9RCDX14G8YZ",
   war_construct: "01KEKNCGXXMFHN5JN0DHCYFH5C",
   war_howl: "01KNSEK8RHFFEBJDAYF0MXGR4P",
   war_hymns: "01KRYKCNKH9CR2V4GST2DZXT1G",
-  war_leader: "01K4PN4V29RRRZBC4FPBNN09FA",
   ward_against_the_malefic_arts: "01KFDW0KDM6W7JYC3PPCHF5RGZ",
-  warden_of_the_imperium_nihilus: "01KZHDZW2NSPKNXSZG7Y0KY7YG",
   wardens_duty_bondsman: "01K6ED38BN88MGJFJT6SBBENBY",
   warp_field_aura_psychic: "01KN5922N93901RM6NAG0S24HX",
   warp_rift_firepower: "01KXKHQKAVBCH05P346QKS90XT",
@@ -3714,220 +4057,53 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   warp_storms_psychic: "01KZAVDR4A2MX39Q2CW60G1ZSX",
   warp_strike: "01KCSXZK4W7DHTCAY6KWXBTTY4",
   warped_interference_psychic: "01KR2MNSPRA7SPP5P1ANFX6PHB",
+  warped_invigoration_psychic: "01KP4ABNRYZXG91DPY8GSQG9MN",
   warpsmith: "01K1EW3K0ND6C8S4N09G4YHG1M",
   warptime_psychic: "01K58EXZQNKNPR79T7QHNF2BVB",
   warrant_of_trade: "01K9A9A8C2Q932E37GTZNFHTJQ",
   warrior_elite: "01K87510CB35Q76RJF7N6YBYG4",
-  warrior_strategist: "01K6XXQJSNBAFE8C78VMD7XEDJ",
   watch_master: "01KV2RRXVM7YYMVDPNZAN1AK5K",
+  watcher_in_the_dark: "01KHKEFR5A9SKYE0GP4QA5YGMT",
+  wave_serpent: "01KXRXN8KSM3KSE4FTZJJYFZ3C",
   wave_serpent_shield: "01K6MZTFEBYES2Q6MG8K262PCP",
   way_of_the_blade: "01KXKNSPDTYMB1BN7Z2G9YBXQZ",
   way_of_the_shaper_psychic: "01K4ACX3PA2Z7PR9AW87BHZ24V",
   way_of_the_short_blade: "01K3PRSER63TX3FATVVSMNMQYP",
   weapon_sentinels: "01K1XPZ4E6A27AK5VZ50RZFHGG",
+  weapon_support_system: "01KAVP2A61QW3614E4734VEC65",
+  weavefield_crest: "01KBZQFD2FRPMW6QK7WPT5Y48N",
   webway_shunt_generator: "01KB754ZAG2CNQCQ6XVGCCAT27",
   webway_strike: "01KJ688QYYF7FYRWRCVQ8PT79G",
   well_stocked_supplies: "01K0ZM5AQ8FSKVTCPJ5MRJH9Z1",
   whirling_death: "01KSB73J83Q8EXJB2X4V64BGN5",
   whirling_onslaught: "01K5VTZSHVX7E8W54JEE01349S",
-  whirling_stance: "01K71K249RX1ZYWBSYX2RNTM4D",
-  whirlwind_of_gore: "01KZ1B2380A2SVYXVDBCR484H3",
+  whirlwind_of_rage: "01KMZ8YBY3QRDWH3JVJS4TY93R",
   whispering_web: "01K5625K1EEWXQ3PKVG594187C",
   wild_ride: "01K7XJMAC38VYG4J6PZMYHMTHC",
   will_of_iron: "01K19P1VJVCQDFFA33NBFH86AY",
-  will_of_the_hive_mind: "01KVCZZD400QFFK36KJJP4WQZQ",
   wind_walker_psychic: "01K6EM57EAEQQ2QYWQV5EK647S",
+  winds_of_war: "01KVRG6TR19WACAVDBCFYH5159",
   winged_strike_pain: "01KKGJE6ZPRQFTX0T6HSEX156K",
   winged_swarm: "01K3036X7V1KVVX7CNV9S6EJWP",
   wings_of_sanguinius_psychic: "01KHM9BGRS64TFXA27235MCCJT",
   wisdom_of_the_ancients_aura: "01KBGBVWWZC3HR3PSNKNBCW9CC",
   withering_hail: "01KSNGCX32GNH49W1SS61F848B",
+  wolfkin: "01KZ9X26TRE0VY4WCYJSXHBP6Z",
   word_of_the_phoenix_psychic: "01KXM0P7J85G8A04CBBY7AG33R",
   workshop: "01KAQTWV8TR588RXVQ9GXF3488",
   wracking_agonies_psychic: "01K5QPWGNW868CGNFNSA20R2BK",
   wraith_form: "01KHZKQ22FC727TKN8QD8RW24W",
-  wrath_of_the_omnissiah: "01K7TQ4VXJZSSNKDD34EGY1735",
   wrathful_presence: "01KJ4PVF5E5CFRJQCNJ8Z8SZDW",
   wrathful_rampage: "01KVZFAHG6GH83P8MWJABAH0BK",
+  wreathed_in_shadows_aura_psychic: "01KJTH4C9TPPXAYX5R4S9CWGFA",
   xenos_hunter: "01K28AJ41002DNA1VGFDCP1SB1",
   xiratps_sorcerous_barrages_psychic: "01KW4SSGMHRC8HKP4434SDV6QA",
   xv02_pilot_battlesuit: "01KQNKZ1XND1PQKY450DDWBY9F",
+  you_eard_em: "01KZHTCXGMT8RVCSDY37RJWV79",
+  your_vigil_is_not_yet_ended: "01K8ZY5FHNJE6P9HB05FREPGCX",
   yvraines_champion: "01KCKJ275147HKSWH0JH79X301",
   zealot: "01KDHB2ND5ZH5Y741G2P7DP4YR",
-  zealots_fervour: "01KFGGMSYGH40HKVJ9H99GJW97",
   zealous_path: "01KQM4E93F85YS9X7NH0BFWYNG",
-  ziggurat_dock: "01KHNPYHZB3G7B76R0634JR8N9",
-  accelerator_mandible: "01KMATPX7BM91RKQH26KTWG3SS",
-  advanced_guardian_drone: "01K3M8PF8WQHMYNNHAVVKXVBJX",
-  alchemicus_familiar: "01KX420DX993PRBHJ7JB450EB6",
-  alchemyk_counteragents: "01K251NZ0G8PZBM4JNK4F9JQ9K",
-  ammo_runt: "01KB35TG0ES8AEYZHG2VJT5VGJ",
-  anchorite_sarcophagus: "01K8PY1QXQVBBHN3B8HARETGW4",
-  ancients_banner: "01K8RZVPQ3SWAZ3QY0MSC4NZFC",
-  apothecarys_narthecium: "01KG66VSA5Z23HZHZMWBZH1AN4",
-  aquiline_prow: "01K4BJD5QGM5HGXSS74H38JD4Y",
-  arbites_medi_kit: "01K9T5VWM786GNPKQB144DTYNX",
-  ard_case: "01KDRPJYJTR5W9PTN8BMMDGDQX",
-  aspect_shrine_token: "01K8E7PQ3X5BPG0AZZ5GYV34AQ",
-  astartes_shield: "01KF9006CG8HH6RBY2KKFPVNYC",
-  auspex_array: "01KZ233B79NVTPF44Z1GQV6MMZ",
-  baggage_harness_aura: "01K79Q14G5DXPJ2H3G4C59SC6X",
-  banner_of_macragge: "01KDGEF756BM33PDA21771P77W",
-  battlesuit_support_system: "01K33T211J0CSQ69QG3XGD5A84",
-  big_bomms: "01KDM55TSD86CSM0SSTXSDFDHM",
-  blacklight_marker_drones: "01KHKY0ND3H23NT1M5TAE1T2FA",
-  blastajet_force_field: "01K3STVVD4MKZ4TXDQ10GMK5N3",
-  blessed_wardings: "01KNYEKD6SGF2T0BPTG1KV36Y6",
-  blizzard_shield: "01KXQWHVXFJCF9HARK9X6QBNG8",
-  bomb_squigs: "01KQZTSBVN0A66ZRZ7GBD3MK3S",
-  book_of_salvation: "01K39V3BN9C260C9TC3WX8K10X",
-  borewyrm_infestation: "01KRJFXW3ETYA5HDB8SXX3AJKW",
-  bound_daemon: "01K7YNFHXR7W0M0HK67JT6QDWX",
-  brass_collar_of_bloody_vengeance: "01K34CXQVXSCJR8EJKCFK6CKFW",
-  brayhorn: "01KP54TCK77KDG20NECEW7Y8V7",
-  brute_shield: "01K405N68EKNXFB1SCKG8ETRRK",
-  centurion_assault_launcher: "01K3PY4YTV3GH6YN34V3SAM752",
-  chaff_launcher: "01K8BEXWZ5DGJ4YJQH0YY102K6",
-  channeller_stones: "01K71DM4C9Q603J6MKHC8X2WB0",
-  chaos_familiar: "01K6BARNRV3X5EZEPH7K6SVAP0",
-  chaos_icon: "01KC2ZBM731RSY2MC6KH51E742",
-  cluster_caltrops: "01K0Z91J7TVFWPZFQMKY9CEXTE",
-  collar_of_khorne: "01K7HWFH1K2P01BX0YTR2F83GY",
-  command_link_drone_aura: "01KNXWPMD1P281KQ5ETC9FG6W5",
-  command_rod: "01KCX1PP0Y4FWFEMEETPAXXGH8",
-  command_uplink: "01K5PN9EMQPH7CGR7TS1YM8BGX",
-  comms_antenna: "01KH70MHDMPPHG1FV9JHYS53AM",
-  cult_icon: "01K77J5AEZW6YHA64MXQKYETP2",
-  daemonic_icon: "01KBF9YW0863AXH8ESX3W0GK8V",
-  death_korps_medi_pack: "01K56GJ1KT7Y8N1RXBEDH61RRW",
-  death_totem: "01K89QSEWHSAZQG2WGPMWQR5ZJ",
-  defence_searchlight: "01K7B0B7P9866M0X6BGP2GHDVH",
-  demolition_gear: "01KK7QD1X1FQBTV2PXNYPTPZNJ",
-  denuncia_oratory: "01KA7BYG6HVTVDYYMQJA4AZ0KC",
-  diseased_icon: "01K5XZ5CYG80W9MSRK6ZHEXJJX",
-  dispersion_shield: "01KEFVE18JDDNKRPF7P4WVE5Q9",
-  distraction_grot: "01KQZTSBVNKZ5VBS5A1WQX475Q",
-  endurant_shield: "01KRVN3S4A5W5J5GXPEBVGWJZY",
-  enhanced_data_tether: "01KE8A7Q4TRF8MZBCD1D7SJ4WX",
-  explorator_augury_web: "01K7SH8Q4FWGZ5NK8JDP67MDXE",
-  fabricator_claw_array_aura: "01KSNCQNTB532F76NEPD501YQV",
-  faolch: "01KKCXV7ZE33NW031G0A2WTMKP",
-  flare_launcher: "01K9R3J0GQ3171WYX0FF0TZ6N2",
-  flip_belt: "01K9VEMZY6K6M2KW1JXZ7M4HZK",
-  forceshield: "01K6B3T7X346RBH6YKCM99RMK1",
-  gloom_prism_aura: "01KWRXYZTRGQMMFW4JP9YTG0QN",
-  glovodan_psyber_eagle: "01KJ0146TPNDQB5D87KHRCGFQS",
-  grapnel_launcher: "01K092CTW7P46PQFAT04ERCVQ4",
-  grav_inhibitor_drone: "01KY7GJWT57Y8YMRGPQC5QMF2X",
-  grav_talon: "01KQ7TDZGAGNCKKTHG3E6F4PD9",
-  grenade_harness: "01K9FRPH4EAP65KCCSDNEDY7FQ",
-  grot_assistant: "01KFMS026PDKA6F1HZ961SRG10",
-  grot_helper: "01KPAHCS7BS7HKZ5X4M965D54Z",
-  grot_oiler: "01KHGQW8E3QXMQVAB65SP8ZWD8",
-  grot_orderly: "01K8NZPGTP9BX9HVR4FWD4219K",
-  haywire_mine: "01KBMWB66N5YZYF4GN7VMN438W",
-  healing_serum: "01KDDFEBZN9SJAHG129WF5NX2P",
-  heavy_bombs: "01K3CHJKBTGY298NH8S5C4B59T",
-  helix_gauntlet: "01KP0NB3DJ14F69G445ASYQ8XE",
-  herd_banner: "01K12NQ4R9N0CTEBP38XPWGWJC",
-  homing_beacon: "01KK6JXTVWX5RDFWDQ9CPRKWX5",
-  hover_drone: "01K3YZGES6JX1Z2MAH1BX3631Y",
-  icon_of_despair_aura: "01KBJ2ZZ5SR6NV24B0EC3860GE",
-  icon_of_excess: "01KETY24Z7EAQ00R5SFFF54XS8",
-  icon_of_flame: "01KFXKG2ZN0BS8J75QPQ0EVBZS",
-  icon_of_khorne: "01KMK4GCHFZ7516E4R2P703N6A",
-  incubi_shrine_token: "01KMKAPANT1D89X1HRR4QNETJN",
-  inferno_bombs: "01K3F7QPVX743K579CPDW9TT72",
-  infernum_halo_launcher: "01KBS39WRFT4K305V6QZV6R7FN",
-  infiltrator_comms_array: "01K77SGWH5E764B392KKT9EV9J",
-  instigator_bolt_carbine: "01K892BGWXMC3S4F5JC5DSS7EX",
-  instrument_of_chaos: "01KFGXWYKA7HBXPC04RS20PTG7",
-  ironclad_assault_launchers: "01KN7Z8848JGKK0SFBXTNCR7S9",
-  jump_pack: "01K27PA1P5RWGDTA9WVXMWFXQW",
-  kabalite_icon: "01K7CPX2SZHHDJKDQYR48BVRQM",
-  kustom_force_field: "01KR2NKXBCCA93KSMYQHTHDAK6",
-  markerlight: "01KY8PA50G97H0VEEQR6D9JY5E",
-  master_vox: "01KDZRB7W273R4ZYNQH26N66N1",
-  medi_pack: "01KHHJ8S6XKGTWGAQBCH7VPQS8",
-  melta_mine: "01KKA6V0NBVMKK1BAAJXYD41Q0",
-  mistshield: "01KYHE52H9K28HX8N6EDVVT5XJ",
-  multiwave_comms_array: "01KAFYT23CJD2XB5KD51WR1EG9",
-  mv15_gun_drone: "01KH9WV521FBPGPBKDWAMJHPJ7",
-  nanoscarab_amulet: "01K89647QDXHRJ48ZEA08DGHQN",
-  nanoscarab_projector: "01K3QJ056D5847QVN5CY8GHYHR",
-  narthecium: "01K2NYE3YGEQWBY5J68ND8AR28",
-  nebuloscope: "01K5KYZB937J77GKCDVKXAV1E4",
-  null_rod: "01KKTPSZTHWG9W38BK2ZX93TDG",
-  nullstone_field_generator_aura: "01KW5EYFNWHGGXZ6ES4KTEMVP8",
-  nuncio_aquila: "01KC4NX9TJ7WVMJVM3DS44GEBX",
-  nuncio_aquila_aura: "01KGTJT4T4GWJA15CN47NVPVPT",
-  omnispex: "01KFRVX9NFTD8BRE9Q0Z2VXZWT",
-  orbital_comms_array_aura: "01K0BTWFAX6CTH1XXW3RFJY3EF",
-  oversight_drone: "01KF20T7Z1H4ZAT5QAP3GW0XVD",
-  panspectral_scanner: "01KVZWYHRF92F28NMVM7VPE9FV",
-  pechra: "01K4KD1Y0QCHJCSEJDJZZGV591",
-  phantasm_grenade_launcher: "01KEQV19RQ7T9EGNH0TQD37YM3",
-  plasmacyte: "01KDWDRRBTX8H05F4K238M9KTK",
-  praesidium_shield: "01KZJK9R743ZZSCSGZPH96EBS6",
-  preymark_crest: "01KCE7087V9FG9HPV80BN2ZDKX",
-  psychic_gifts: "01KWFTV7DF3JNPRVEBFWFN8E8K",
-  psychic_hood: "01KGESJJ916BTPD9ZRH329RA9E",
-  pulsa_rokkit: "01K8EZTA6W7ZW9YF0NDV848NYS",
-  pulse_accelerator_drone: "01K94A4TQGWQ147SGAMTX8JX0G",
-  rampart_crest: "01K3VHDD6XB5V032QAHY9WF0VB",
-  ratling_battlemutt: "01KJ2KAYG16Q4ABK1VAKFAS7DJ",
-  recon_drone: "01KHJ4GDGKP717T1TR8A8409BQ",
-  refractor_field: "01K7N57H69HW5P0WRE3VWX4048",
-  regimental_banner: "01KCFM1GC5QCVEG0VFSV2EHJ0Z",
-  regimental_standard: "01KG8NAC7DJ2P4KTX7XB1XZDNS",
-  reiver_grav_chute: "01KMWJQ9H13BWEBDR8DDN84V9W",
-  relic_shield: "01KZ5RZ63AECZND5DV2BT8G4ET",
-  remote_mine: "01KK4HWTXHTQ21Y1AJY46T34YA",
-  resurrection_orb: "01K9Y5S73H4WP57K9YZ5GC2SFJ",
-  rod_of_office: "01K66W49DK7R50EAYSF5EXGX7Q",
-  rollbar_searchlight: "01KRR64B7R9QGM6KMT30VPFMFK",
-  sacred_banner: "01K1C5V55G31EBATHB8F7PPJ1B",
-  salvationist_medikit: "01K1BB0AA1C1E75A2A957HMRTA",
-  sanguinary_banner: "01KYJ0SG7R1KQRR4J5VQGGEA5R",
-  scattershield: "01KBPXYJJSXXCXMJ8SBBK1WVV8",
-  serpent_shield: "01K702TFA1GGNV6PD3BCCBMCT7",
-  servo_scribes: "01KX76XGM2VYC93673JEAAVV60",
-  shadow_field: "01KMSRZ9V3JJCTQ7TB7SM1QJ6M",
-  shadowfield: "01KT3NQDY64FVJTW32C19QTQJS",
-  shadowloom: "01KSWC9W7E843GBDC6KM5XQ9WE",
-  shield_dome: "01KJGSZT0CG5WNXJSQK5YFYVV9",
-  shield_generator: "01K1WZQSK8X34F99EVEZY1KSA2",
-  shieldvanes: "01K1P0R29C7D62TQCHW6T2K2RW",
-  shimmershield: "01K0PSW8D9519V6CDBZXS1XZ11",
-  shining_aegis: "01K2WKGK9C471GP3WVBE1NKDEM",
-  simulacrum_imperialis: "01KRMWN4SVPMVBAPDDEVAX20NT",
-  simulacrum_imperials: "01K1Y92KBS7HJCHTCMRH5GG6ZN",
-  slabshield: "01KAFVKEE7VK3PEMK2QR8VTQT4",
-  small_bomms: "01KY7DYTV1P45BJ7CQ61J619YH",
-  smoke_launcher: "01K41KFDQH9Q94GMQ0T94QFG7J",
-  smoke_launchers: "01KA59P881E5G4ZTN15R3QC8NA",
-  soul_trap: "01KTMF7A0NES4A773H3FVGX998",
-  soulguilt_scanner: "01KYM5VHRH22EC31NGBR062NPT",
-  spotter: "01KFP6FQGAMDTZ428F2HVHH7YS",
-  stimm_needler: "01KPAA4E7VJMBX5VNRD0S6H7KA",
-  storm_shield: "01K3DV32BRHJY7WSAW57B7EFYX",
-  survey_augur: "01KB123NVXKS1KQXHA4J5FXDWK",
-  tarsis_buckler: "01KWYHMD6F9BPA1N66A0TZ89DV",
-  teleport_crest: "01KZZ89Q3CGH1M04FYQADZ34MD",
-  terminator_storm_shield: "01K8Y73AY41C125F472ACVDTVK",
-  the_lion_helm: "01KWRCSVRN62Z9GB2RKW5YF1AZ",
-  the_scorpions_bite: "01KWRK7EGZ87XF84T2GS4BBFEX",
-  thunderhawk_cluster_bombs: "01KQP13TTXW8F8QK8S6ZYC6DAD",
-  tome_skull: "01K4DS98M2C2N2W4A36JYBS1NQ",
-  transport_bay: "01KNTYX8RYFBTGDDYZPXWG0RM4",
-  vexilla: "01K61GS9DWW1BZXY12TG9W7HPG",
-  voice_eater: "01KDBVC70GY8SYFT8M6NN608GC",
-  vox_caster: "01K8KKH2R732F02YM87XFWFJJ7",
-  vox_relay_beacon: "01K8BFNP8JYVMKDEC5VQ45E0BG",
-  vox_skull: "01K1ZS5N475Q4PMRR6SYMTZCVC",
-  watcher_in_the_dark: "01KHKEFR5A9SKYE0GP4QA5YGMT",
-  weapon_support_system: "01KAVP2A61QW3614E4734VEC65",
-  weavefield_crest: "01KBZQFD2FRPMW6QK7WPT5Y48N",
 };
 
 export const abilityId = (type: AbilitySeedType): string => {

@@ -58,6 +58,9 @@ export const unitSelectionLimitId = (slug: string): string =>
 export const unitWeaponId = (slug: string): string =>
 	deterministicUlid("unit_weapon", slug);
 
+export const unitAbilityId = (slug: string): string =>
+	deterministicUlid("unit_ability", slug);
+
 export const leaderEligibilityId = (slug: string): string =>
 	deterministicUlid("leader_eligibility", slug);
 

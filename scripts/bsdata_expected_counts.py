@@ -324,6 +324,16 @@ def main() -> None:
         help="Emit expected unit_weapons memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-abilities",
+        action="store_true",
+        help="Emit expected global abilities derived from BSData ability profiles.",
+    )
+    parser.add_argument(
+        "--emit-unit-abilities",
+        action="store_true",
+        help="Emit expected unit_abilities memberships instead of counts.",
+    )
+    parser.add_argument(
         "--emit-weapons",
         action="store_true",
         help="Emit expected global weapons derived from BSData weapon profiles.",
@@ -386,6 +396,14 @@ def main() -> None:
         records = expected_unit_weapons(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_abilities:
+        records = expected_abilities(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_unit_abilities:
+        records = expected_unit_abilities(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
     if args.emit_weapons:
         records = expected_weapons(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
@@ -440,6 +458,9 @@ def main() -> None:
     unit_weapon_counts = expected_unit_weapon_counts(index, Path(args.repo_root))
     for slug, count in unit_weapon_counts.items():
         result[slug]["unit_weapons"] = count
+    unit_ability_counts = expected_unit_ability_counts(index, Path(args.repo_root))
+    for slug, count in unit_ability_counts.items():
+        result[slug]["unit_abilities"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -767,6 +788,230 @@ def expected_unit_weapon_counts(
         counts[record["rules_faction_slug"]] += 1
 
     return counts
+
+
+def expected_unit_ability_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_unit_abilities(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_abilities(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    records_by_slug: "OrderedDict[str, dict[str, str]]" = OrderedDict()
+
+    for record in expected_unit_abilities(index, repo_root):
+        ability_slug = str(record["ability_slug"])
+        records_by_slug.setdefault(
+            ability_slug,
+            {
+                "ability_slug": ability_slug,
+                "ability_name": str(record["ability_name"]),
+                "ability_type": str(record["ability_type"]),
+                "source_owner_slug": str(record["source_owner_slug"]),
+            },
+        )
+
+    return sorted(
+        records_by_slug.values(),
+        key=lambda record: (record["source_owner_slug"], record["ability_slug"]),
+    )
+
+
+def expected_unit_abilities(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    records_by_faction_key: "OrderedDict[tuple[str, str, str, str], dict[str, str]]" = (
+        OrderedDict()
+    )
+    text_by_global_key: dict[tuple[str, str, str], list[str]] = {}
+
+    for faction_slug, unit_slug, entry in expected_unit_entry_records(index, repo_root):
+        rules_source_slug = unit_rules_source_slug(
+            unit_slug,
+            entry.source_file,
+            faction_slug,
+        )
+        source_owner_slug = unit_source_owner_slug(
+            unit_slug,
+            entry.source_file,
+            faction_slug,
+        )
+
+        for profile in unit_ability_profiles(entry.element):
+            ability_slug = normalize_slug(profile.attrib.get("name", ""))
+            if not ability_slug:
+                continue
+
+            rules_text = ability_rules_text(profile)
+            if not rules_text:
+                continue
+
+            global_key = (unit_slug, ability_slug, rules_source_slug)
+            text_values = text_by_global_key.setdefault(global_key, [])
+            if rules_text not in text_values:
+                text_values.append(rules_text)
+
+            unit_ability_slug = unit_ability_slug_for(
+                unit_slug,
+                ability_slug,
+                rules_source_slug,
+            )
+            records_by_faction_key.setdefault(
+                (faction_slug, unit_slug, ability_slug, rules_source_slug),
+                {
+                    "unit_ability_slug": unit_ability_slug,
+                    "rules_faction_slug": faction_slug,
+                    "unit_slug": unit_slug,
+                    "ability_slug": ability_slug,
+                    "ability_name": display_ability_name(
+                        profile.attrib.get("name", ""),
+                    ),
+                    "ability_type": ability_type_for_profile(profile),
+                    "rules_source_slug": rules_source_slug,
+                    "source_owner_slug": source_owner_slug,
+                    "source_file": entry.source_file,
+                    "source_mode": entry.source_mode,
+                    "bsdata_unit_name": entry.name,
+                    "bsdata_profile_name": profile.attrib.get("name", ""),
+                    "bsdata_profile_type": profile.attrib.get("typeName", ""),
+                    "bsdata_profile_id": profile.attrib.get("id", ""),
+                },
+            )
+
+    records: list[dict[str, str]] = []
+    for key, record in records_by_faction_key.items():
+        _, unit_slug, ability_slug, rules_source_slug = key
+        records.append(
+            {
+                **record,
+                "rules_text": "\n\n".join(
+                    text_by_global_key[(unit_slug, ability_slug, rules_source_slug)],
+                ),
+            },
+        )
+
+    return sorted(
+        records,
+        key=lambda record: (
+            record["rules_faction_slug"],
+            record["unit_ability_slug"],
+        ),
+    )
+
+
+def unit_ability_profiles(entry: ET.Element) -> list[ET.Element]:
+    return [
+        profile
+        for profile in entry.findall(".//bs:profile", BS_NS)
+        if profile.attrib.get("typeName") not in {
+            "",
+            "Unit",
+            *WEAPON_PROFILE_TYPES,
+        }
+    ]
+
+
+def unit_ability_slug_for(
+    unit_slug: str,
+    ability_slug: str,
+    rules_source_slug: str,
+) -> str:
+    return f"{unit_slug}__{ability_slug}__10e__{rules_source_slug}"
+
+
+def ability_rules_text(profile: ET.Element) -> str:
+    characteristics = []
+
+    for characteristic in profile.findall(".//bs:characteristic", BS_NS):
+        value = clean_bsdata_text(characteristic.text or "")
+        if not value:
+            continue
+
+        name = clean_bsdata_text(characteristic.attrib.get("name", ""))
+        if not name or name == "Description":
+            characteristics.append(value)
+        else:
+            characteristics.append(f"{name}: {value}")
+
+    return "\n".join(characteristics)
+
+
+def ability_type_for_profile(profile: ET.Element) -> str:
+    name_slug = normalize_slug(profile.attrib.get("name", ""))
+    type_slug = normalize_slug(profile.attrib.get("typeName", ""))
+
+    if core_ability_slug(name_slug):
+        return "core"
+    if faction_ability_slug(name_slug):
+        return "faction"
+    if type_slug in {"abilities", "transport"}:
+        return "datasheet"
+
+    return "other"
+
+
+def core_ability_slug(slug: str) -> bool:
+    return (
+        slug in {
+            "attached_unit",
+            "deep_strike",
+            "fights_first",
+            "hover",
+            "infiltrators",
+            "invulnerable_save",
+            "leader",
+            "lone_operative",
+            "scouts",
+            "stealth",
+            "supreme_commander",
+        }
+        or slug.startswith("deadly_demise")
+        or slug.startswith("feel_no_pain")
+        or slug.startswith("firing_deck")
+        or slug.startswith("scouts_")
+    )
+
+
+def faction_ability_slug(slug: str) -> bool:
+    return slug in {
+        "acts_of_faith",
+        "assigned_agents",
+        "battle_focus",
+        "blessings_of_khorne",
+        "cabal_of_sorcerers",
+        "code_chivalric",
+        "cult_ambush",
+        "curse_of_the_wulfen",
+        "dark_pacts",
+        "doctrina_imperatives",
+        "for_the_greater_good",
+        "gate_of_infinity",
+        "harbingers_of_dread",
+        "martial_katah",
+        "mission_tactics",
+        "nurgles_gift",
+        "oath_of_moment",
+        "power_from_pain",
+        "reanimation_protocols",
+        "shadow_in_the_warp",
+        "synapse",
+        "templar_vows",
+        "the_shadow_of_chaos",
+        "thrill_seekers",
+        "voice_of_command",
+        "waaagh",
+        "waagh",
+    }
 
 
 def expected_unit_weapons(
@@ -2322,6 +2567,10 @@ def display_model_name(name: str) -> str:
 
 
 def display_weapon_name(name: str) -> str:
+    return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
+
+
+def display_ability_name(name: str) -> str:
     return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
 
 

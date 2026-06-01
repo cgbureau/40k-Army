@@ -20,6 +20,7 @@ import {
   unitPointCostsDataset,
   unitProfileStatsDataset,
   unitProfilesDataset,
+  unitAbilitiesDataset,
   unitWeaponsDataset,
   unitModelsDataset,
   unitsDataset,
@@ -30,6 +31,7 @@ import {
   unitPointCostId,
   unitProfileId,
   unitProfileStatId,
+  unitAbilityId,
   unitWeaponId,
   unitModelId,
 } from "../db/seed_config/seed/ids";
@@ -46,6 +48,7 @@ export const DATASET_INVENTORY_COLUMNS = [
   { key: "unit_profile_stats", label: "unit_profile_stats" },
   { key: "unit_profiles", label: "unit_profiles" },
   { key: "unit_weapons", label: "unit_weapons" },
+  { key: "unit_abilities", label: "unit_abilities" },
   { key: "models", label: "models" },
 ] as const;
 
@@ -126,6 +129,11 @@ type BsDataUnitWeaponRecord = {
   unit_weapon_slug: string;
 };
 
+type BsDataUnitAbilityRecord = {
+  rules_faction_slug: string;
+  unit_ability_slug: string;
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -143,6 +151,7 @@ const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "unit_profile_stats",
   "unit_profiles",
   "unit_weapons",
+  "unit_abilities",
   "models",
 ]);
 const bsDataRecordCache = new Map<string, unknown[] | null>();
@@ -250,6 +259,10 @@ export function buildDatasetInventory(
     repoRoot,
     bsDataRoot,
   );
+  const unitAbilityCountsByFaction = countUnitAbilityCoverageByFaction(
+    repoRoot,
+    bsDataRoot,
+  );
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -284,6 +297,8 @@ export function buildDatasetInventory(
       unitProfileStatCountsByFaction.get(faction.slug) ?? 0;
     cells.unit_weapons.actual =
       unitWeaponCountsByFaction.get(faction.slug) ?? 0;
+    cells.unit_abilities.actual =
+      unitAbilityCountsByFaction.get(faction.slug) ?? 0;
 
     for (const [columnKey, suffix] of Object.entries(FACTION_DATASET_SUFFIXES)) {
       const key = columnKey as DatasetInventoryColumnKey;
@@ -332,6 +347,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `unit_point_costs` counts BSData faction memberships covered by checked-in global `unit_point_costs` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_weapons` counts BSData faction memberships covered by checked-in global unit-weapon rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
+    "- `unit_abilities` counts BSData faction memberships covered by checked-in global unit-ability rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.",
     `- BSData root: \`${renderBsDataRoot(inventory.bsDataRoot)}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
     "",
@@ -362,6 +378,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
     "- `unit_weapons` expected counts come from BSData profiles whose `typeName` is `Melee Weapons` or `Ranged Weapons`; this is a profile-count proxy, not a fully normalized loadout-row count.",
+    "- `unit_abilities` expected counts come from BSData profiles attached to expected units, excluding Unit and weapon profile rows.",
     "",
     "## Table Completion Workflow",
     "",
@@ -773,6 +790,39 @@ function countUnitWeaponCoverageByFaction(
 
   for (const record of expectedRecords) {
     if (!coveredKeys.has(unitWeaponId(record.unit_weapon_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countUnitAbilityCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const expectedRecords = loadBsDataRecords<BsDataUnitAbilityRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-abilities",
+  );
+
+  if (!expectedRecords) {
+    return new Map();
+  }
+
+  const coveredKeys = new Set(
+    unitAbilitiesDataset.records.map((record) => record.id),
+  );
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(unitAbilityId(record.unit_ability_slug))) {
       continue;
     }
 
