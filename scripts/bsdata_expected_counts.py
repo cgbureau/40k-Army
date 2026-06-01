@@ -334,6 +334,16 @@ def main() -> None:
         help="Emit expected unit_abilities memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-unit-keywords",
+        action="store_true",
+        help="Emit expected unit_keywords memberships instead of counts.",
+    )
+    parser.add_argument(
+        "--emit-detachment-unit-keywords",
+        action="store_true",
+        help="Emit expected detachment_unit_keywords memberships instead of counts.",
+    )
+    parser.add_argument(
         "--emit-weapons",
         action="store_true",
         help="Emit expected global weapons derived from BSData weapon profiles.",
@@ -404,6 +414,14 @@ def main() -> None:
         records = expected_unit_abilities(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
+    if args.emit_unit_keywords:
+        records = expected_unit_keywords(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_detachment_unit_keywords:
+        records = expected_detachment_unit_keywords(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
     if args.emit_weapons:
         records = expected_weapons(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
@@ -461,6 +479,15 @@ def main() -> None:
     unit_ability_counts = expected_unit_ability_counts(index, Path(args.repo_root))
     for slug, count in unit_ability_counts.items():
         result[slug]["unit_abilities"] = count
+    unit_keyword_counts = expected_unit_keyword_counts(index, Path(args.repo_root))
+    for slug, count in unit_keyword_counts.items():
+        result[slug]["unit_keywords"] = count
+    detachment_unit_keyword_counts = expected_detachment_unit_keyword_counts(
+        index,
+        Path(args.repo_root),
+    )
+    for slug, count in detachment_unit_keyword_counts.items():
+        result[slug]["detachment_unit_keywords"] = count
     print(json.dumps(result, sort_keys=True))
 
 
@@ -800,6 +827,229 @@ def expected_unit_ability_counts(
         counts[record["rules_faction_slug"]] += 1
 
     return counts
+
+
+def expected_unit_keyword_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_unit_keywords(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_detachment_unit_keyword_counts(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> dict[str, int]:
+    counts = {slug: 0 for slug in CATALOG_SOURCES}
+
+    for record in expected_detachment_unit_keywords(index, repo_root):
+        counts[record["rules_faction_slug"]] += 1
+
+    return counts
+
+
+def expected_unit_keywords(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str | None]]:
+    records_by_faction_key: (
+        "OrderedDict[tuple[str, str, str, str | None, str], dict[str, str | None]]"
+    ) = OrderedDict()
+
+    for faction_slug, unit_slug, entry in expected_unit_entry_records(index, repo_root):
+        rules_source_slug = unit_rules_source_slug(
+            unit_slug,
+            entry.source_file,
+            faction_slug,
+        )
+        source_owner_slug = unit_source_owner_slug(
+            unit_slug,
+            entry.source_file,
+            faction_slug,
+        )
+
+        for keyword_record in unit_keyword_records_for_unit(unit_slug, entry.element):
+            keyword_slug = str(keyword_record["keyword_slug"])
+            model_slug = keyword_record["model_slug"]
+            unit_keyword_slug = unit_keyword_slug_for(
+                unit_slug,
+                keyword_slug,
+                model_slug,
+                rules_source_slug,
+            )
+            records_by_faction_key.setdefault(
+                (
+                    faction_slug,
+                    unit_slug,
+                    keyword_slug,
+                    model_slug,
+                    rules_source_slug,
+                ),
+                {
+                    "unit_keyword_slug": unit_keyword_slug,
+                    "rules_faction_slug": faction_slug,
+                    "unit_slug": unit_slug,
+                    "keyword_slug": keyword_slug,
+                    "keyword_name": str(keyword_record["keyword_name"]),
+                    "keyword_type": str(keyword_record["keyword_type"]),
+                    "model_slug": model_slug,
+                    "rules_source_slug": rules_source_slug,
+                    "source_owner_slug": source_owner_slug,
+                    "source_file": entry.source_file,
+                    "source_mode": entry.source_mode,
+                    "bsdata_unit_name": entry.name,
+                    "bsdata_keyword_name": str(keyword_record["bsdata_keyword_name"]),
+                    "bsdata_category_link_id": str(
+                        keyword_record["bsdata_category_link_id"],
+                    ),
+                },
+            )
+
+    return sorted(
+        records_by_faction_key.values(),
+        key=lambda record: (
+            str(record["rules_faction_slug"]),
+            str(record["unit_keyword_slug"]),
+        ),
+    )
+
+
+def unit_keyword_records_for_unit(
+    unit_slug: str,
+    entry: ET.Element,
+) -> list[dict[str, str | None]]:
+    records: list[dict[str, str | None]] = []
+    seen_keys: set[tuple[str, str | None]] = set()
+
+    for category_link in entry.findall("./bs:categoryLinks/bs:categoryLink", BS_NS):
+        record = keyword_record_from_category_link(category_link, model_slug=None)
+        if record is None:
+            continue
+        key = (str(record["keyword_slug"]), record["model_slug"])
+        if key not in seen_keys:
+            seen_keys.add(key)
+            records.append(record)
+
+    if entry.attrib.get("type") != "model":
+        for model in entry.findall(".//bs:selectionEntry", BS_NS):
+            if model.attrib.get("type") != "model":
+                continue
+            model_slug = normalize_slug(model.attrib.get("name", ""))
+            if not model_slug:
+                continue
+            for category_link in model.findall("./bs:categoryLinks/bs:categoryLink", BS_NS):
+                record = keyword_record_from_category_link(
+                    category_link,
+                    model_slug=model_slug,
+                )
+                if record is None:
+                    continue
+                key = (str(record["keyword_slug"]), record["model_slug"])
+                if key not in seen_keys:
+                    seen_keys.add(key)
+                    records.append(record)
+
+    return sorted(
+        records,
+        key=lambda record: (
+            str(record["model_slug"] or ""),
+            str(record["keyword_slug"]),
+        ),
+    )
+
+
+def keyword_record_from_category_link(
+    category_link: ET.Element,
+    *,
+    model_slug: str | None,
+) -> dict[str, str | None] | None:
+    if category_link.attrib.get("hidden") == "true":
+        return None
+
+    raw_name = category_link.attrib.get("name", "")
+    keyword_name, keyword_type = keyword_name_and_type(raw_name)
+    keyword_slug = keyword_slug_for_name(keyword_name)
+
+    if not keyword_slug:
+        return None
+
+    return {
+        "keyword_slug": keyword_slug,
+        "keyword_name": keyword_name,
+        "keyword_type": keyword_type,
+        "model_slug": model_slug,
+        "bsdata_keyword_name": raw_name,
+        "bsdata_category_link_id": category_link.attrib.get("id", ""),
+    }
+
+
+def keyword_name_and_type(raw_name: str) -> tuple[str, str]:
+    keyword_name = clean_bsdata_text(raw_name)
+    keyword_type = "unit"
+
+    if keyword_name.startswith("Faction: "):
+        keyword_name = keyword_name.removeprefix("Faction: ").strip()
+        keyword_type = "faction"
+
+    if keyword_slug_for_name(keyword_name) in {
+        "battleline",
+        "dedicated_transport",
+        "epic_hero",
+    }:
+        keyword_type = "rules"
+
+    return keyword_name, keyword_type
+
+
+def keyword_slug_for_name(name: str) -> str:
+    slug = normalize_slug(clean_bsdata_text(name))
+    return UNIT_SLUG_ALIASES.get(slug, slug)
+
+
+def unit_keyword_slug_for(
+    unit_slug: str,
+    keyword_slug: str,
+    model_slug: str | None,
+    rules_source_slug: str,
+) -> str:
+    model_part = f"{model_slug}__" if model_slug else ""
+    return f"{unit_slug}__{model_part}{keyword_slug}__10e__{rules_source_slug}"
+
+
+def expected_keyword_records_for_unit_keyword_tables(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    records_by_slug: "OrderedDict[str, dict[str, str]]" = OrderedDict()
+
+    for record in expected_unit_keywords(index, repo_root):
+        keyword_slug = str(record["keyword_slug"])
+        records_by_slug.setdefault(
+            keyword_slug,
+            {
+                "keyword_slug": keyword_slug,
+                "keyword_name": str(record["keyword_name"]),
+                "keyword_type": str(record["keyword_type"]),
+            },
+        )
+
+    for record in expected_detachment_unit_keywords(index, repo_root):
+        keyword_slug = str(record["keyword_slug"])
+        records_by_slug.setdefault(
+            keyword_slug,
+            {
+                "keyword_slug": keyword_slug,
+                "keyword_name": str(record["keyword_name"]),
+                "keyword_type": str(record["keyword_type"]),
+            },
+        )
+
+    return sorted(records_by_slug.values(), key=lambda record: record["keyword_slug"])
 
 
 def expected_abilities(
@@ -1934,6 +2184,464 @@ def expected_rules_faction_detachments(index: BsDataIndex) -> list[dict[str, str
             record["detachment_slug"],
         ),
     )
+
+
+def expected_detachment_unit_keywords(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    seed_unit_slugs = load_seed_unit_slugs(repo_root)
+    unit_keywords = expected_unit_keywords(index, repo_root)
+    keyword_slugs = {
+        str(record["keyword_slug"])
+        for record in unit_keywords
+    } | load_seed_keyword_slugs(repo_root)
+
+    keywords_by_faction_unit: dict[tuple[str, str], set[str]] = {}
+    source_owner_by_unit_key: dict[tuple[str, str], str] = {}
+    for record in unit_keywords:
+        key = (str(record["rules_faction_slug"]), str(record["unit_slug"]))
+        keywords_by_faction_unit.setdefault(key, set()).add(
+            str(record["keyword_slug"]),
+        )
+        source_owner_by_unit_key.setdefault(key, str(record["source_owner_slug"]))
+
+    records_by_faction_key: (
+        "OrderedDict[tuple[str, str, str, str], dict[str, str]]"
+    ) = OrderedDict()
+
+    for faction_slug, sources in CATALOG_SOURCES.items():
+        primary_filename = primary_catalog_filename(faction_slug, sources)
+        detachment_entries: "OrderedDict[str, tuple[dict[str, str], ET.Element]]" = (
+            OrderedDict()
+        )
+
+        for mode, filename in sources:
+            for entry_record, element in source_detachment_entries_with_elements(
+                index,
+                filename=filename,
+                primary_filename=primary_filename,
+            ):
+                detachment_slug = seed_detachment_slug(entry_record["detachment_name"])
+                detachment_entries[detachment_slug] = (entry_record, element)
+
+        for detachment_slug, (entry_record, element) in detachment_entries.items():
+            for grant in detachment_keyword_grants(
+                element,
+                keyword_slugs=keyword_slugs,
+                seed_unit_slugs=seed_unit_slugs,
+            ):
+                target_unit_slugs = detachment_keyword_grant_unit_slugs(
+                    grant,
+                    faction_slug=faction_slug,
+                    keywords_by_faction_unit=keywords_by_faction_unit,
+                )
+                for unit_slug in target_unit_slugs:
+                    for keyword_slug, keyword_name in grant["granted_keywords"]:
+                        source_owner_slug = source_owner_by_unit_key.get(
+                            (faction_slug, unit_slug),
+                            OWNER_SLUG_BY_CATALOG_FILE.get(
+                                entry_record["source_file"],
+                                faction_slug,
+                            ),
+                        )
+                        detachment_unit_keyword_slug = (
+                            f"{detachment_slug}__{unit_slug}__{keyword_slug}"
+                        )
+                        records_by_faction_key.setdefault(
+                            (
+                                faction_slug,
+                                detachment_slug,
+                                unit_slug,
+                                keyword_slug,
+                            ),
+                            {
+                                "detachment_unit_keyword_slug": (
+                                    detachment_unit_keyword_slug
+                                ),
+                                "rules_faction_slug": faction_slug,
+                                "detachment_slug": detachment_slug,
+                                "unit_slug": unit_slug,
+                                "keyword_slug": keyword_slug,
+                                "keyword_name": keyword_name,
+                                "keyword_type": keyword_type_for_detachment_keyword(
+                                    keyword_slug,
+                                ),
+                                "source_owner_slug": source_owner_slug,
+                                "source_file": entry_record["source_file"],
+                                "bsdata_detachment_name": entry_record[
+                                    "detachment_name"
+                                ],
+                                "bsdata_rule_name": grant["rule_name"],
+                                "bsdata_rule_text": grant["rule_text"],
+                            },
+                        )
+
+    return sorted(
+        records_by_faction_key.values(),
+        key=lambda record: (
+            record["rules_faction_slug"],
+            record["detachment_unit_keyword_slug"],
+        ),
+    )
+
+
+def source_detachment_entries_with_elements(
+    index: BsDataIndex,
+    *,
+    filename: str,
+    primary_filename: str,
+) -> list[tuple[dict[str, str], ET.Element]]:
+    catalogue = index.catalogue(filename)
+    primary_catalogue_id = index.catalogue_id(primary_filename)
+    entries: list[tuple[dict[str, str], ET.Element]] = []
+
+    for group in catalogue.findall(".//bs:selectionEntryGroup", BS_NS):
+        if group.attrib.get("name") in {"Detachment", "Detachments"}:
+            entries.extend(
+                detachment_entry_elements_from_group(
+                    group,
+                    filename,
+                    primary_catalogue_id,
+                ),
+            )
+
+    for link in catalogue.findall("./bs:entryLinks/bs:entryLink", BS_NS):
+        if "Detach" not in link.attrib.get("name", ""):
+            continue
+
+        if link.attrib.get("type") == "selectionEntry":
+            entry = index.resolve_selection_entry(link.attrib.get("targetId"))
+            if entry is not None:
+                entries.extend(
+                    detachment_entry_elements_from_entry(
+                        index,
+                        entry,
+                        filename,
+                        primary_catalogue_id,
+                    ),
+                )
+        elif link.attrib.get("type") == "selectionEntryGroup":
+            group = index.resolve_selection_entry_group(link.attrib.get("targetId"))
+            if group is not None:
+                entries.extend(
+                    detachment_entry_elements_from_group(
+                        group,
+                        filename,
+                        primary_catalogue_id,
+                    ),
+                )
+
+    unique_entries: "OrderedDict[str, tuple[dict[str, str], ET.Element]]" = (
+        OrderedDict()
+    )
+    for entry_record, element in entries:
+        unique_entries[seed_detachment_slug(entry_record["detachment_name"])] = (
+            entry_record,
+            element,
+        )
+
+    return list(unique_entries.values())
+
+
+def detachment_entry_elements_from_entry(
+    index: BsDataIndex,
+    entry: ET.Element,
+    source_file: str,
+    primary_catalogue_id: str,
+) -> list[tuple[dict[str, str], ET.Element]]:
+    entries: list[tuple[dict[str, str], ET.Element]] = []
+
+    for link in entry.findall(".//bs:entryLink", BS_NS):
+        if link.attrib.get("type") != "selectionEntryGroup":
+            continue
+
+        group = index.resolve_selection_entry_group(link.attrib.get("targetId"))
+        if group is not None:
+            entries.extend(
+                detachment_entry_elements_from_group(
+                    group,
+                    source_file,
+                    primary_catalogue_id,
+                ),
+            )
+
+    for group in entry.findall(".//bs:selectionEntryGroup", BS_NS):
+        if group.attrib.get("name") in {"Detachment", "Detachments"}:
+            entries.extend(
+                detachment_entry_elements_from_group(
+                    group,
+                    source_file,
+                    primary_catalogue_id,
+                ),
+            )
+
+    return entries
+
+
+def detachment_entry_elements_from_group(
+    group: ET.Element,
+    source_file: str,
+    primary_catalogue_id: str,
+) -> list[tuple[dict[str, str], ET.Element]]:
+    entries: list[tuple[dict[str, str], ET.Element]] = []
+
+    for entry in group.findall("./bs:selectionEntries/bs:selectionEntry", BS_NS):
+        if entry.attrib.get("type") != "upgrade":
+            continue
+        if is_hidden_for_primary_catalogue(entry, primary_catalogue_id):
+            continue
+
+        entries.append(
+            (
+                {
+                    "detachment_name": entry.attrib["name"],
+                    "source_file": source_file,
+                    "visibility": detachment_visibility(
+                        entry,
+                        primary_catalogue_id,
+                    ),
+                },
+                entry,
+            ),
+        )
+
+    return entries
+
+
+def detachment_keyword_grants(
+    entry: ET.Element,
+    *,
+    keyword_slugs: set[str],
+    seed_unit_slugs: set[str],
+) -> list[dict[str, object]]:
+    grants: list[dict[str, object]] = []
+
+    for rule in entry.findall(".//bs:rule", BS_NS):
+        rule_name = rule.attrib.get("name", "")
+        description = rule.findtext("bs:description", default="", namespaces=BS_NS)
+        text = clean_bsdata_text(description or "", collapse_whitespace=False)
+
+        for sentence in detachment_rule_sentences(text):
+            grant = detachment_keyword_grant_from_sentence(
+                sentence,
+                keyword_slugs=keyword_slugs,
+                seed_unit_slugs=seed_unit_slugs,
+            )
+            if grant is None:
+                continue
+
+            grants.append(
+                {
+                    **grant,
+                    "rule_name": rule_name,
+                    "rule_text": clean_bsdata_text(sentence),
+                },
+            )
+
+    return grants
+
+
+def detachment_rule_sentences(text: str) -> list[str]:
+    text = text.replace("\u2011", "-")
+    text = re.sub(r"\s+", " ", text)
+    return [
+        sentence.strip(" .")
+        for sentence in re.split(r"(?<=[.!?])\s+", text)
+        if sentence.strip(" .")
+    ]
+
+
+def detachment_keyword_grant_from_sentence(
+    sentence: str,
+    *,
+    keyword_slugs: set[str],
+    seed_unit_slugs: set[str],
+) -> dict[str, object] | None:
+    lower = sentence.lower()
+    if any(
+        marker in lower
+        for marker in {
+            " as if ",
+            " can select ",
+            " must select ",
+            " selected units ",
+            " select up to ",
+            " select one ",
+            " until ",
+            " while all ",
+        }
+    ):
+        return None
+    if lower.startswith("if "):
+        return None
+
+    match = re.search(
+        r"(?P<targets>.+?)\s+(?:units?|models?)\s+from your army\s+"
+        r"(?P<verb>gain|gains|have)\s+(?:the\s+)?"
+        r"(?P<keywords>.+?)\s+keywords?\b",
+        sentence,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+
+    target_text = match.group("targets").strip(" ,")
+    keyword_text = match.group("keywords").strip(" ,")
+    excluded_keyword_slugs = excluded_keyword_slugs_from_target(target_text)
+    target_text = re.sub(r"\([^)]*\)", "", target_text).strip(" ,")
+    target_groups = detachment_target_groups(
+        target_text,
+        keyword_slugs=keyword_slugs,
+        seed_unit_slugs=seed_unit_slugs,
+    )
+    granted_keywords = detachment_granted_keywords(keyword_text)
+
+    if not target_groups or not granted_keywords:
+        return None
+
+    return {
+        "target_groups": target_groups,
+        "excluded_keyword_slugs": excluded_keyword_slugs,
+        "granted_keywords": granted_keywords,
+    }
+
+
+def excluded_keyword_slugs_from_target(target_text: str) -> set[str]:
+    excluded: set[str] = set()
+
+    for match in re.finditer(r"excluding\s+([^)]+)", target_text, flags=re.IGNORECASE):
+        for keyword_name in split_keyword_list(match.group(1)):
+            keyword_slug = keyword_slug_for_name(keyword_name)
+            if keyword_slug:
+                excluded.add(keyword_slug)
+
+    return excluded
+
+
+def detachment_target_groups(
+    target_text: str,
+    *,
+    keyword_slugs: set[str],
+    seed_unit_slugs: set[str],
+) -> list[dict[str, object]]:
+    groups: list[dict[str, object]] = []
+
+    for target_name in split_keyword_list(target_text):
+        target_slug = seed_unit_slug(target_name, seed_unit_slugs)
+        target_slug = LEADER_TARGET_SLUG_ALIASES.get(target_slug, target_slug)
+        if target_slug in seed_unit_slugs:
+            groups.append({"unit_slug": target_slug, "keyword_slugs": set()})
+            continue
+
+        keyword_group = keyword_group_for_detachment_target(
+            target_name,
+            keyword_slugs,
+        )
+        if keyword_group:
+            groups.append({"unit_slug": None, "keyword_slugs": set(keyword_group)})
+
+    return groups
+
+
+def keyword_group_for_detachment_target(
+    target_name: str,
+    keyword_slugs: set[str],
+) -> list[str]:
+    target_slug = keyword_slug_for_name(target_name)
+    target_slug = DETACHMENT_TARGET_KEYWORD_ALIASES.get(target_slug, target_slug)
+
+    if isinstance(target_slug, list):
+        return [slug for slug in target_slug if slug in keyword_slugs]
+    if target_slug in keyword_slugs:
+        return [target_slug]
+
+    return []
+
+
+DETACHMENT_TARGET_KEYWORD_ALIASES: dict[str, list[str] | str] = {
+    "heretic_astartes_vehicle": ["heretic_astartes", "vehicle"],
+    "astra_militarum_titanic": ["astra_militarum", "titanic"],
+}
+
+
+def split_keyword_list(text: str) -> list[str]:
+    text = clean_bsdata_text(text)
+    text = text.replace(" and ", ",")
+    text = re.sub(r"\bthe\b", "", text, flags=re.IGNORECASE)
+    text = text.strip(" .,:;")
+
+    return [
+        part.strip(" .,:;")
+        for part in text.split(",")
+        if part.strip(" .,:;")
+    ]
+
+
+def detachment_granted_keywords(keyword_text: str) -> list[tuple[str, str]]:
+    records: list[tuple[str, str]] = []
+
+    for keyword_name in split_keyword_list(keyword_text):
+        keyword_slug = keyword_slug_for_name(keyword_name)
+        if not keyword_slug:
+            continue
+        records.append((keyword_slug, display_keyword_name(keyword_name)))
+
+    return records
+
+
+def detachment_keyword_grant_unit_slugs(
+    grant: dict[str, object],
+    *,
+    faction_slug: str,
+    keywords_by_faction_unit: dict[tuple[str, str], set[str]],
+) -> list[str]:
+    unit_slugs: set[str] = set()
+    target_groups = grant["target_groups"]
+    excluded_keyword_slugs = grant["excluded_keyword_slugs"]
+
+    for group in target_groups:
+        unit_slug = group["unit_slug"]
+        keyword_slugs = group["keyword_slugs"]
+        if isinstance(unit_slug, str):
+            unit_slugs.add(unit_slug)
+            continue
+
+        if not isinstance(keyword_slugs, set):
+            continue
+
+        for (candidate_faction_slug, candidate_unit_slug), unit_keywords in (
+            keywords_by_faction_unit.items()
+        ):
+            if candidate_faction_slug != faction_slug:
+                continue
+            if keyword_slugs.issubset(unit_keywords) and not unit_keywords.intersection(
+                excluded_keyword_slugs,
+            ):
+                unit_slugs.add(candidate_unit_slug)
+
+    return sorted(unit_slugs)
+
+
+def keyword_type_for_detachment_keyword(keyword_slug: str) -> str:
+    if keyword_slug in {"battleline", "dedicated_transport", "epic_hero"}:
+        return "rules"
+    if keyword_slug in {
+        "adepta_sororitas",
+        "adeptus_astartes",
+        "aeldari",
+        "asuryani",
+        "ynnari",
+    }:
+        return "faction"
+    return "unit"
+
+
+def display_keyword_name(keyword_name: str) -> str:
+    keyword_name = clean_bsdata_text(keyword_name)
+    if keyword_name.isupper():
+        return keyword_name.title()
+    return keyword_name
 
 
 def expected_leader_eligibility_counts(

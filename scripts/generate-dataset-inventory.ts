@@ -13,10 +13,12 @@ import {
   leaderEligibilityKeywordsDataset,
   keywordsDataset,
   modelsDataset,
+  detachmentUnitKeywordsDataset,
   rulesFactionDetachmentsDataset,
   rulesFactionsDataset,
   rulesFactionSourcesDataset,
   rulesFactionUnitsDataset,
+  unitKeywordsDataset,
   unitPointCostsDataset,
   unitProfileStatsDataset,
   unitProfilesDataset,
@@ -28,6 +30,8 @@ import {
 import {
   leaderEligibilityId,
   modelId,
+  detachmentUnitKeywordId,
+  unitKeywordId,
   unitPointCostId,
   unitProfileId,
   unitProfileStatId,
@@ -41,8 +45,10 @@ export const DATASET_INVENTORY_COLUMNS = [
   { key: "rules_faction_units", label: "rules_faction_units" },
   { key: "rules_faction_sources", label: "rules_faction_sources" },
   { key: "rules_faction_detachments", label: "rules_faction_detachments" },
+  { key: "detachment_unit_keywords", label: "detachment_unit_keywords" },
   { key: "leader_eligibilities", label: "leader_eligibilities" },
   { key: "leader_eligibility_keywords", label: "leader_eligibility_keywords" },
+  { key: "unit_keywords", label: "unit_keywords" },
   { key: "unit_models", label: "unit_models" },
   { key: "unit_point_costs", label: "unit_point_costs" },
   { key: "unit_profile_stats", label: "unit_profile_stats" },
@@ -134,6 +140,16 @@ type BsDataUnitAbilityRecord = {
   unit_ability_slug: string;
 };
 
+type BsDataUnitKeywordRecord = {
+  rules_faction_slug: string;
+  unit_keyword_slug: string;
+};
+
+type BsDataDetachmentUnitKeywordRecord = {
+  rules_faction_slug: string;
+  detachment_unit_keyword_slug: string;
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -144,8 +160,10 @@ const DEFAULT_BSDATA_ROOT =
 const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "rules_faction_units",
   "rules_faction_detachments",
+  "detachment_unit_keywords",
   "leader_eligibilities",
   "leader_eligibility_keywords",
+  "unit_keywords",
   "unit_models",
   "unit_point_costs",
   "unit_profile_stats",
@@ -263,6 +281,12 @@ export function buildDatasetInventory(
     repoRoot,
     bsDataRoot,
   );
+  const unitKeywordCountsByFaction = countUnitKeywordCoverageByFaction(
+    repoRoot,
+    bsDataRoot,
+  );
+  const detachmentUnitKeywordCountsByFaction =
+    countDetachmentUnitKeywordCoverageByFaction(repoRoot, bsDataRoot);
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -284,10 +308,14 @@ export function buildDatasetInventory(
     );
     cells.rules_faction_detachments.actual =
       detachmentCountsByFaction.get(faction.slug) ?? 0;
+    cells.detachment_unit_keywords.actual =
+      detachmentUnitKeywordCountsByFaction.get(faction.slug) ?? 0;
     cells.leader_eligibilities.actual =
       leaderEligibilityCountsByFaction.get(faction.slug) ?? 0;
     cells.leader_eligibility_keywords.actual =
       leaderEligibilityKeywordCountsByFaction.get(faction.slug) ?? 0;
+    cells.unit_keywords.actual =
+      unitKeywordCountsByFaction.get(faction.slug) ?? 0;
     cells.unit_models.actual = unitModelCountsByFaction.get(faction.slug) ?? 0;
     cells.unit_point_costs.actual =
       unitPointCostCountsByFaction.get(faction.slug) ?? 0;
@@ -348,6 +376,8 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_weapons` counts BSData faction memberships covered by checked-in global unit-weapon rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_abilities` counts BSData faction memberships covered by checked-in global unit-ability rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
+    "- `unit_keywords` counts BSData faction memberships covered by checked-in global unit-keyword rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
+    "- `detachment_unit_keywords` counts BSData faction memberships covered by checked-in global detachment-granted unit-keyword rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.",
     `- BSData root: \`${renderBsDataRoot(inventory.bsDataRoot)}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
     "",
@@ -372,8 +402,10 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.",
     "- `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.",
     "- `rules_faction_detachments` expected counts come from BSData Detachment choices visible to each mapped faction catalog. Space Marine chapter factions include shared Codex Space Marines detachments plus chapter-visible exclusive detachments.",
+    "- `detachment_unit_keywords` expected counts come from conservative BSData detachment rule text parsing for always-on keyword grants that can be mapped to concrete units.",
     "- `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null`.",
     "- `leader_eligibility_keywords` expected counts come from the keyword requirements extracted from BSData keyword-predicate Leader targets. Unsupported prose-only predicates remain out of this column until the schema can express them safely.",
+    "- `unit_keywords` expected counts come from BSData category links attached to expected unit entries, plus model-scoped category links where BSData assigns a keyword to a named model inside a unit.",
     "- `unit_models` and `models` expected counts come from BSData model selection entries within each expected unit. Single-model unit entries count as one model when they do not contain nested model selections.",
     "- `unit_point_costs` expected counts come from unique BSData `pts` cost values and points-setting modifiers under each expected unit.",
     "- `unit_profiles` and `unit_profile_stats` expected counts come from BSData profiles whose `typeName` is `Unit` and their profile characteristics.",
@@ -823,6 +855,76 @@ function countUnitAbilityCoverageByFaction(
 
   for (const record of expectedRecords) {
     if (!coveredKeys.has(unitAbilityId(record.unit_ability_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countUnitKeywordCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const expectedRecords = loadBsDataRecords<BsDataUnitKeywordRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-keywords",
+  );
+
+  if (!expectedRecords) {
+    return new Map();
+  }
+
+  const coveredKeys = new Set(
+    unitKeywordsDataset.records.map((record) => record.id),
+  );
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(unitKeywordId(record.unit_keyword_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countDetachmentUnitKeywordCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const expectedRecords = loadBsDataRecords<BsDataDetachmentUnitKeywordRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-detachment-unit-keywords",
+  );
+
+  if (!expectedRecords) {
+    return new Map();
+  }
+
+  const coveredKeys = new Set(
+    detachmentUnitKeywordsDataset.records.map((record) => record.id),
+  );
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (
+      !coveredKeys.has(
+        detachmentUnitKeywordId(record.detachment_unit_keyword_slug),
+      )
+    ) {
       continue;
     }
 

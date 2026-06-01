@@ -9929,6 +9929,1074 @@ export const TwinLinkedWeaponKeyword: KeywordConfig = {
 
 // END BSData weapon keyword records
 
+// BEGIN BSData unit keyword records
+
+export const AcWalkerUnitKeyword: KeywordConfig = {
+  id: keywordId("ac_walker"),
+  keyword_slug: "ac_walker",
+  keyword_name: "AC Walker",
+  keyword_type: "unit",
+};
+
+export const AestredThurgaAndAgathaeDolanUnitKeyword: KeywordConfig = {
+  id: keywordId("aestred_thurga_and_agathae_dolan"),
+  keyword_slug: "aestred_thurga_and_agathae_dolan",
+  keyword_name: "Aestred Thurga and Agathae Dolan",
+  keyword_type: "unit",
+};
+
+export const AquilaKillTeamUnitKeyword: KeywordConfig = {
+  id: keywordId("aquila_kill_team"),
+  keyword_slug: "aquila_kill_team",
+  keyword_name: "Aquila Kill Team",
+  keyword_type: "unit",
+};
+
+export const ArchtormentorUnitKeyword: KeywordConfig = {
+  id: keywordId("archtormentor"),
+  keyword_slug: "archtormentor",
+  keyword_name: "Archtormentor",
+  keyword_type: "unit",
+};
+
+export const AugmentedBoneEadUnitKeyword: KeywordConfig = {
+  id: keywordId("augmented_bone_ead"),
+  keyword_slug: "augmented_bone_ead",
+  keyword_name: "Augmented Bone 'Ead",
+  keyword_type: "unit",
+};
+
+export const AunvaUnitKeyword: KeywordConfig = {
+  id: keywordId("aunva"),
+  keyword_slug: "aunva",
+  keyword_name: "Aun'va",
+  keyword_type: "unit",
+};
+
+export const BattlesuitVeteranUnitKeyword: KeywordConfig = {
+  id: keywordId("battlesuit_veteran"),
+  keyword_slug: "battlesuit_veteran",
+  keyword_name: "Battlesuit Veteran",
+  keyword_type: "unit",
+};
+
+export const BeastmasterUnitKeyword: KeywordConfig = {
+  id: keywordId("beastmaster"),
+  keyword_slug: "beastmaster",
+  keyword_name: "Beastmaster",
+  keyword_type: "unit",
+};
+
+export const BiovoreUnitKeyword: KeywordConfig = {
+  id: keywordId("biovore"),
+  keyword_slug: "biovore",
+  keyword_name: "Biovore",
+  keyword_type: "unit",
+};
+
+export const BlightlordHeavyWeaponUnitKeyword: KeywordConfig = {
+  id: keywordId("blightlord_heavy_weapon"),
+  keyword_slug: "blightlord_heavy_weapon",
+  keyword_name: "Blightlord heavy weapon",
+  keyword_type: "unit",
+};
+
+export const BloodcultChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("bloodcult_champion"),
+  keyword_slug: "bloodcult_champion",
+  keyword_name: "Bloodcult Champion",
+  keyword_type: "unit",
+};
+
+export const BlueUnitKeyword: KeywordConfig = {
+  id: keywordId("blue"),
+  keyword_slug: "blue",
+  keyword_name: "Blue",
+  keyword_type: "unit",
+};
+
+export const BrayherdChieftainUnitKeyword: KeywordConfig = {
+  id: keywordId("brayherd_chieftain"),
+  keyword_slug: "brayherd_chieftain",
+  keyword_name: "Brayherd Chieftain",
+  keyword_type: "unit",
+};
+
+export const BrayherdShamanUnitKeyword: KeywordConfig = {
+  id: keywordId("brayherd_shaman"),
+  keyword_slug: "brayherd_shaman",
+  keyword_name: "Brayherd Shaman",
+  keyword_type: "unit",
+};
+
+export const ButcherlordUnitKeyword: KeywordConfig = {
+  id: keywordId("butcherlord"),
+  keyword_slug: "butcherlord",
+  keyword_name: "Butcherlord",
+  keyword_type: "unit",
+};
+
+export const CatachanUnitKeyword: KeywordConfig = {
+  id: keywordId("catachan"),
+  keyword_slug: "catachan",
+  keyword_name: "Catachan",
+  keyword_type: "unit",
+};
+
+export const ChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("champion"),
+  keyword_slug: "champion",
+  keyword_name: "Champion",
+  keyword_type: "unit",
+};
+
+export const ChampionOfExcessUnitKeyword: KeywordConfig = {
+  id: keywordId("champion_of_excess"),
+  keyword_slug: "champion_of_excess",
+  keyword_name: "Champion of Excess",
+  keyword_type: "unit",
+};
+
+export const ChampionOfTheChapterUnitKeyword: KeywordConfig = {
+  id: keywordId("champion_of_the_chapter"),
+  keyword_slug: "champion_of_the_chapter",
+  keyword_name: "Champion of the Chapter",
+  keyword_type: "unit",
+};
+
+export const ChampionOfTitanUnitKeyword: KeywordConfig = {
+  id: keywordId("champion_of_titan"),
+  keyword_slug: "champion_of_titan",
+  keyword_name: "Champion of Titan",
+  keyword_type: "unit",
+};
+
+export const ChaplainGrimaldusUnitKeyword: KeywordConfig = {
+  id: keywordId("chaplain_grimaldus"),
+  keyword_slug: "chaplain_grimaldus",
+  keyword_name: "Chaplain Grimaldus",
+  keyword_type: "unit",
+};
+
+export const CohortCommanderUnitKeyword: KeywordConfig = {
+  id: keywordId("cohort_commander"),
+  keyword_slug: "cohort_commander",
+  keyword_name: "Cohort Commander",
+  keyword_type: "unit",
+};
+
+export const CompanyHeroesUnitKeyword: KeywordConfig = {
+  id: keywordId("company_heroes"),
+  keyword_slug: "company_heroes",
+  keyword_name: "Company Heroes",
+  keyword_type: "unit",
+};
+
+export const CorsairVoidscarredUnitKeyword: KeywordConfig = {
+  id: keywordId("corsair_voidscarred"),
+  keyword_slug: "corsair_voidscarred",
+  keyword_name: "Corsair Voidscarred",
+  keyword_type: "unit",
+};
+
+export const CorsairsAndTravellingPlayersUnitKeyword: KeywordConfig = {
+  id: keywordId("corsairs_and_travelling_players"),
+  keyword_slug: "corsairs_and_travelling_players",
+  keyword_name: "Corsairs and Travelling Players",
+  keyword_type: "unit",
+};
+
+export const CraftworldWarleaderUnitKeyword: KeywordConfig = {
+  id: keywordId("craftworld_warleader"),
+  keyword_slug: "craftworld_warleader",
+  keyword_name: "Craftworld Warleader",
+  keyword_type: "unit",
+};
+
+export const CrucibleUnitKeyword: KeywordConfig = {
+  id: keywordId("crucible"),
+  keyword_slug: "crucible",
+  keyword_name: "Crucible",
+  keyword_type: "unit",
+};
+
+export const CultDemagogueUnitKeyword: KeywordConfig = {
+  id: keywordId("cult_demagogue"),
+  keyword_slug: "cult_demagogue",
+  keyword_name: "Cult Demagogue",
+  keyword_type: "unit",
+};
+
+export const CultGuerrillaUnitKeyword: KeywordConfig = {
+  id: keywordId("cult_guerrilla"),
+  keyword_slug: "cult_guerrilla",
+  keyword_name: "Cult Guerrilla",
+  keyword_type: "unit",
+};
+
+export const CultInsurrectionistUnitKeyword: KeywordConfig = {
+  id: keywordId("cult_insurrectionist"),
+  keyword_slug: "cult_insurrectionist",
+  keyword_name: "Cult Insurrectionist",
+  keyword_type: "unit",
+};
+
+export const CultsOfTheDarkGodsUnitKeyword: KeywordConfig = {
+  id: keywordId("cults_of_the_dark_gods"),
+  keyword_slug: "cults_of_the_dark_gods",
+  keyword_name: "Cults of the Dark Gods",
+  keyword_type: "unit",
+};
+
+export const DaRedGobboABombInableSnowmanUnitKeyword: KeywordConfig = {
+  id: keywordId("da_red_gobbo_a_bomb_inable_snowman"),
+  keyword_slug: "da_red_gobbo_a_bomb_inable_snowman",
+  keyword_name: "Da Red Gobbo A-bomb-inable Snowman",
+  keyword_type: "unit",
+};
+
+export const DaemonicCharioteerUnitKeyword: KeywordConfig = {
+  id: keywordId("daemonic_charioteer"),
+  keyword_slug: "daemonic_charioteer",
+  keyword_name: "Daemonic Charioteer",
+  keyword_type: "unit",
+};
+
+export const DaemonicHeraldUnitKeyword: KeywordConfig = {
+  id: keywordId("daemonic_herald"),
+  keyword_slug: "daemonic_herald",
+  keyword_name: "Daemonic Herald",
+  keyword_type: "unit",
+};
+
+export const DamnedLegionairesUnitKeyword: KeywordConfig = {
+  id: keywordId("damned_legionaires"),
+  keyword_slug: "damned_legionaires",
+  keyword_name: "Damned Legionaires",
+  keyword_type: "unit",
+};
+
+export const DarkApostleUnitKeyword: KeywordConfig = {
+  id: keywordId("dark_apostle"),
+  keyword_slug: "dark_apostle",
+  keyword_name: "Dark Apostle",
+  keyword_type: "unit",
+};
+
+export const DarkCommuneUnitKeyword: KeywordConfig = {
+  id: keywordId("dark_commune"),
+  keyword_slug: "dark_commune",
+  keyword_name: "Dark Commune",
+  keyword_type: "unit",
+};
+
+export const DarkshroudUnitKeyword: KeywordConfig = {
+  id: keywordId("darkshroud"),
+  keyword_slug: "darkshroud",
+  keyword_name: "Darkshroud",
+  keyword_type: "unit",
+};
+
+export const DeathCompanyIntercessorsUnitKeyword: KeywordConfig = {
+  id: keywordId("death_company_intercessors"),
+  keyword_slug: "death_company_intercessors",
+  keyword_name: "Death Company Intercessors",
+  keyword_type: "unit",
+};
+
+export const DeathGuardIconBearerUnitKeyword: KeywordConfig = {
+  id: keywordId("death_guard_icon_bearer"),
+  keyword_slug: "death_guard_icon_bearer",
+  keyword_name: "Death Guard Icon Bearer",
+  keyword_type: "unit",
+};
+
+export const DeathwatchAgentUnitKeyword: KeywordConfig = {
+  id: keywordId("deathwatch_agent"),
+  keyword_slug: "deathwatch_agent",
+  keyword_name: "Deathwatch Agent",
+  keyword_type: "unit",
+};
+
+export const DeathwatchKillTeamUnitKeyword: KeywordConfig = {
+  id: keywordId("deathwatch_kill_team"),
+  keyword_slug: "deathwatch_kill_team",
+  keyword_name: "Deathwatch Kill Team",
+  keyword_type: "unit",
+};
+
+export const DecimusKillTeamUnitKeyword: KeywordConfig = {
+  id: keywordId("decimus_kill_team"),
+  keyword_slug: "decimus_kill_team",
+  keyword_name: "Decimus Kill Team",
+  keyword_type: "unit",
+};
+
+export const DreadknightChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("dreadknight_champion"),
+  keyword_slug: "dreadknight_champion",
+  keyword_name: "Dreadknight Champion",
+  keyword_type: "unit",
+};
+
+export const DynasticConquerorUnitKeyword: KeywordConfig = {
+  id: keywordId("dynastic_conqueror"),
+  keyword_slug: "dynastic_conqueror",
+  keyword_name: "Dynastic Conqueror",
+  keyword_type: "unit",
+};
+
+export const EightBlessedLordUnitKeyword: KeywordConfig = {
+  id: keywordId("eight_blessed_lord"),
+  keyword_slug: "eight_blessed_lord",
+  keyword_name: "Eight-blessed Lord",
+  keyword_type: "unit",
+};
+
+export const EldradUltranUnitKeyword: KeywordConfig = {
+  id: keywordId("eldrad_ultran"),
+  keyword_slug: "eldrad_ultran",
+  keyword_name: "Eldrad Ultran",
+  keyword_type: "unit",
+};
+
+export const EnthronedAgentUnitKeyword: KeywordConfig = {
+  id: keywordId("enthroned_agent"),
+  keyword_slug: "enthroned_agent",
+  keyword_name: "Enthroned Agent",
+  keyword_type: "unit",
+};
+
+export const ExcruciatorUnitKeyword: KeywordConfig = {
+  id: keywordId("excruciator"),
+  keyword_slug: "excruciator",
+  keyword_name: "Excruciator",
+  keyword_type: "unit",
+};
+
+export const FabiusBileUnitKeyword: KeywordConfig = {
+  id: keywordId("fabius_bile"),
+  keyword_slug: "fabius_bile",
+  keyword_name: "Fabius Bile",
+  keyword_type: "unit",
+};
+
+export const FlawlessChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("flawless_champion"),
+  keyword_slug: "flawless_champion",
+  keyword_name: "Flawless Champion",
+  keyword_type: "unit",
+};
+
+export const FleshCrafterUnitKeyword: KeywordConfig = {
+  id: keywordId("flesh_crafter"),
+  keyword_slug: "flesh_crafter",
+  keyword_name: "Flesh Crafter",
+  keyword_type: "unit",
+};
+
+export const FrontLineCommanderUnitKeyword: KeywordConfig = {
+  id: keywordId("front_line_commander"),
+  keyword_slug: "front_line_commander",
+  keyword_name: "Front-line Commander",
+  keyword_type: "unit",
+};
+
+export const GauntsGhostsUnitKeyword: KeywordConfig = {
+  id: keywordId("gaunts_ghosts"),
+  keyword_slug: "gaunts_ghosts",
+  keyword_name: "Gaunt\u2019s Ghosts",
+  keyword_type: "unit",
+};
+
+export const GhazghkullThrakaUnitKeyword: KeywordConfig = {
+  id: keywordId("ghazghkull_thraka"),
+  keyword_slug: "ghazghkull_thraka",
+  keyword_name: "Ghazghkull Thraka",
+  keyword_type: "unit",
+};
+
+export const GhostWarriorUnitKeyword: KeywordConfig = {
+  id: keywordId("ghost_warrior"),
+  keyword_slug: "ghost_warrior",
+  keyword_name: "Ghost Warrior",
+  keyword_type: "unit",
+};
+
+export const GrimnyrUnitKeyword: KeywordConfig = {
+  id: keywordId("grimnyr"),
+  keyword_slug: "grimnyr",
+  keyword_name: "Grimnyr",
+  keyword_type: "unit",
+};
+
+export const GrotmasGitzUnitKeyword: KeywordConfig = {
+  id: keywordId("grotmas_gitz"),
+  keyword_slug: "grotmas_gitz",
+  keyword_name: "Grotmas Gitz",
+  keyword_type: "unit",
+};
+
+export const GuardianOfTheThroneUnitKeyword: KeywordConfig = {
+  id: keywordId("guardian_of_the_throne"),
+  keyword_slug: "guardian_of_the_throne",
+  keyword_name: "Guardian of the Throne",
+  keyword_type: "unit",
+};
+
+export const HarlequinAlliesUnitKeyword: KeywordConfig = {
+  id: keywordId("harlequin_allies"),
+  keyword_slug: "harlequin_allies",
+  keyword_name: "Harlequin Allies",
+  keyword_type: "unit",
+};
+
+export const HeadtakersUnitKeyword: KeywordConfig = {
+  id: keywordId("headtakers"),
+  keyword_slug: "headtakers",
+  keyword_name: "Headtakers",
+  keyword_type: "unit",
+};
+
+export const HellsLastUnitKeyword: KeywordConfig = {
+  id: keywordId("hells_last"),
+  keyword_slug: "hells_last",
+  keyword_name: "Hell's Last",
+  keyword_type: "unit",
+};
+
+export const HelstalkerUnitKeyword: KeywordConfig = {
+  id: keywordId("helstalker"),
+  keyword_slug: "helstalker",
+  keyword_name: "Helstalker",
+  keyword_type: "unit",
+};
+
+export const HernkynPioneersUnitKeyword: KeywordConfig = {
+  id: keywordId("hernkyn_pioneers"),
+  keyword_slug: "hernkyn_pioneers",
+  keyword_name: "Hernkyn Pioneers",
+  keyword_type: "unit",
+};
+
+export const HernkynYaegirsUnitKeyword: KeywordConfig = {
+  id: keywordId("hernkyn_yaegirs"),
+  keyword_slug: "hernkyn_yaegirs",
+  keyword_name: "Hernkyn Yaegirs",
+  keyword_type: "unit",
+};
+
+export const HonorGuardUnitKeyword: KeywordConfig = {
+  id: keywordId("honor_guard"),
+  keyword_slug: "honor_guard",
+  keyword_name: "Honor Guard",
+  keyword_type: "unit",
+};
+
+export const HordebossUnitKeyword: KeywordConfig = {
+  id: keywordId("hordeboss"),
+  keyword_slug: "hordeboss",
+  keyword_name: "Hordeboss",
+  keyword_type: "unit",
+};
+
+export const HorrorsUnitKeyword: KeywordConfig = {
+  id: keywordId("horrors"),
+  keyword_slug: "horrors",
+  keyword_name: "Horrors",
+  keyword_type: "unit",
+};
+
+export const HuntingWolvesUnitKeyword: KeywordConfig = {
+  id: keywordId("hunting_wolves"),
+  keyword_slug: "hunting_wolves",
+  keyword_name: "Hunting Wolves",
+  keyword_type: "unit",
+};
+
+export const HyperadaptedRavenersUnitKeyword: KeywordConfig = {
+  id: keywordId("hyperadapted_raveners"),
+  keyword_slug: "hyperadapted_raveners",
+  keyword_name: "Hyperadapted Raveners",
+  keyword_type: "unit",
+};
+
+export const HyperscientistUnitKeyword: KeywordConfig = {
+  id: keywordId("hyperscientist"),
+  keyword_slug: "hyperscientist",
+  keyword_name: "Hyperscientist",
+  keyword_type: "unit",
+};
+
+export const ImmortalChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("immortal_champion"),
+  keyword_slug: "immortal_champion",
+  keyword_name: "Immortal Champion",
+  keyword_type: "unit",
+};
+
+export const IndomJpIntUnitKeyword: KeywordConfig = {
+  id: keywordId("indom_jp_int"),
+  keyword_slug: "indom_jp_int",
+  keyword_name: "Indom JP Int",
+  keyword_type: "unit",
+};
+
+export const IndomPfIntUnitKeyword: KeywordConfig = {
+  id: keywordId("indom_pf_int"),
+  keyword_slug: "indom_pf_int",
+  keyword_name: "Indom PF int",
+  keyword_type: "unit",
+};
+
+export const InspiringDevoteeUnitKeyword: KeywordConfig = {
+  id: keywordId("inspiring_devotee"),
+  keyword_slug: "inspiring_devotee",
+  keyword_name: "Inspiring Devotee",
+  keyword_type: "unit",
+};
+
+export const IronFatherFerriosUnitKeyword: KeywordConfig = {
+  id: keywordId("iron_father_ferrios"),
+  keyword_slug: "iron_father_ferrios",
+  keyword_name: "Iron Father Ferrios",
+  keyword_type: "unit",
+};
+
+export const IronMasterUnitKeyword: KeywordConfig = {
+  id: keywordId("iron_master"),
+  keyword_slug: "iron_master",
+  keyword_name: "Iron-master",
+  keyword_type: "unit",
+};
+
+export const IronstriderAlphaUnitKeyword: KeywordConfig = {
+  id: keywordId("ironstrider_alpha"),
+  keyword_slug: "ironstrider_alpha",
+  keyword_name: "Ironstrider Alpha",
+  keyword_type: "unit",
+};
+
+export const KataphraktoiExemplarUnitKeyword: KeywordConfig = {
+  id: keywordId("kataphraktoi_exemplar"),
+  keyword_slug: "kataphraktoi_exemplar",
+  keyword_name: "Kataphraktoi Exemplar",
+  keyword_type: "unit",
+};
+
+export const KhorneBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("khorne_battleline"),
+  keyword_slug: "khorne_battleline",
+  keyword_name: "Khorne Battleline",
+  keyword_type: "unit",
+};
+
+export const KhorneNonBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("khorne_non_battleline"),
+  keyword_slug: "khorne_non_battleline",
+  keyword_name: "Khorne non-Battleline",
+  keyword_type: "unit",
+};
+
+export const KillTeamCassiusUnitKeyword: KeywordConfig = {
+  id: keywordId("kill_team_cassius"),
+  keyword_slug: "kill_team_cassius",
+  keyword_name: "Kill Team Cassius",
+  keyword_type: "unit",
+};
+
+export const KinbandChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("kinband_champion"),
+  keyword_slug: "kinband_champion",
+  keyword_name: "Kinband Champion",
+  keyword_type: "unit",
+};
+
+export const KinhostCommanderUnitKeyword: KeywordConfig = {
+  id: keywordId("kinhost_commander"),
+  keyword_slug: "kinhost_commander",
+  keyword_name: "Kinhost Commander",
+  keyword_type: "unit",
+};
+
+export const KnightCharacterUnitKeyword: KeywordConfig = {
+  id: keywordId("knight_character"),
+  keyword_slug: "knight_character",
+  keyword_name: "Knight Character",
+  keyword_type: "unit",
+};
+
+export const KriegUnitKeyword: KeywordConfig = {
+  id: keywordId("krieg"),
+  keyword_slug: "krieg",
+  keyword_name: "Krieg",
+  keyword_type: "unit",
+};
+
+export const LandRaiderBanisherUnitKeyword: KeywordConfig = {
+  id: keywordId("land_raider_banisher"),
+  keyword_slug: "land_raider_banisher",
+  keyword_name: "Land Raider Banisher",
+  keyword_type: "unit",
+};
+
+export const LibrariusAdeptUnitKeyword: KeywordConfig = {
+  id: keywordId("librarius_adept"),
+  keyword_slug: "librarius_adept",
+  keyword_name: "Librarius Adept",
+  keyword_type: "unit",
+};
+
+export const LivingAncestorUnitKeyword: KeywordConfig = {
+  id: keywordId("living_ancestor"),
+  keyword_slug: "living_ancestor",
+  keyword_name: "Living Ancestor",
+  keyword_type: "unit",
+};
+
+export const MacroOrganismUnitKeyword: KeywordConfig = {
+  id: keywordId("macro_organism"),
+  keyword_slug: "macro_organism",
+  keyword_name: "Macro Organism",
+  keyword_type: "unit",
+};
+
+export const MagisterUnitKeyword: KeywordConfig = {
+  id: keywordId("magister"),
+  keyword_slug: "magister",
+  keyword_name: "Magister",
+  keyword_type: "unit",
+};
+
+export const MagosUnitKeyword: KeywordConfig = {
+  id: keywordId("magos"),
+  keyword_slug: "magos",
+  keyword_name: "Magos",
+  keyword_type: "unit",
+};
+
+export const MalceptorUnitKeyword: KeywordConfig = {
+  id: keywordId("malceptor"),
+  keyword_slug: "malceptor",
+  keyword_name: "Malceptor",
+  keyword_type: "unit",
+};
+
+export const MartialAgentUnitKeyword: KeywordConfig = {
+  id: keywordId("martial_agent"),
+  keyword_slug: "martial_agent",
+  keyword_name: "Martial Agent",
+  keyword_type: "unit",
+};
+
+export const MastersOfTheMaelstromUnitKeyword: KeywordConfig = {
+  id: keywordId("masters_of_the_maelstrom"),
+  keyword_slug: "masters_of_the_maelstrom",
+  keyword_name: "Masters of the Maelstrom",
+  keyword_type: "unit",
+};
+
+export const MilitantCommanderUnitKeyword: KeywordConfig = {
+  id: keywordId("militant_commander"),
+  keyword_slug: "militant_commander",
+  keyword_name: "Militant Commander",
+  keyword_type: "unit",
+};
+
+export const NodeOrganismUnitKeyword: KeywordConfig = {
+  id: keywordId("node_organism"),
+  keyword_slug: "node_organism",
+  keyword_name: "Node Organism",
+  keyword_type: "unit",
+};
+
+export const NonKrootUnitKeyword: KeywordConfig = {
+  id: keywordId("non_kroot"),
+  keyword_slug: "non_kroot",
+  keyword_name: "Non-Kroot",
+  keyword_type: "unit",
+};
+
+export const NullMaidenUnitKeyword: KeywordConfig = {
+  id: keywordId("null_maiden"),
+  keyword_slug: "null_maiden",
+  keyword_name: "Null Maiden",
+  keyword_type: "unit",
+};
+
+export const NurgleBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("nurgle_battleline"),
+  keyword_slug: "nurgle_battleline",
+  keyword_name: "Nurgle Battleline",
+  keyword_type: "unit",
+};
+
+export const NurgleNonBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("nurgle_non_battleline"),
+  keyword_slug: "nurgle_non_battleline",
+  keyword_name: "Nurgle non-Battleline",
+  keyword_type: "unit",
+};
+
+export const OstromandeusUnitKeyword: KeywordConfig = {
+  id: keywordId("ostromandeus"),
+  keyword_slug: "ostromandeus",
+  keyword_name: "Ostromandeus",
+  keyword_type: "unit",
+};
+
+export const PinkUnitKeyword: KeywordConfig = {
+  id: keywordId("pink"),
+  keyword_slug: "pink",
+  keyword_name: "Pink",
+  keyword_type: "unit",
+};
+
+export const PlagueLordUnitKeyword: KeywordConfig = {
+  id: keywordId("plague_lord"),
+  keyword_slug: "plague_lord",
+  keyword_name: "Plague Lord",
+  keyword_type: "unit",
+};
+
+export const PlagueSorcererUnitKeyword: KeywordConfig = {
+  id: keywordId("plague_sorcerer"),
+  keyword_slug: "plague_sorcerer",
+  keyword_name: "Plague Sorcerer",
+  keyword_type: "unit",
+};
+
+export const PrimarisSwordBrethrenUnitKeyword: KeywordConfig = {
+  id: keywordId("primaris_sword_brethren"),
+  keyword_slug: "primaris_sword_brethren",
+  keyword_name: "Primaris Sword Brethren",
+  keyword_type: "unit",
+};
+
+export const PrimeOrganismUnitKeyword: KeywordConfig = {
+  id: keywordId("prime_organism"),
+  keyword_slug: "prime_organism",
+  keyword_name: "Prime Organism",
+  keyword_type: "unit",
+};
+
+export const QuartermasterCadreSquadUnitKeyword: KeywordConfig = {
+  id: keywordId("quartermaster_cadre_squad"),
+  keyword_slug: "quartermaster_cadre_squad",
+  keyword_name: "Quartermaster Cadre Squad",
+  keyword_type: "unit",
+};
+
+export const RavenwingCommandSquadUnitKeyword: KeywordConfig = {
+  id: keywordId("ravenwing_command_squad"),
+  keyword_slug: "ravenwing_command_squad",
+  keyword_name: "Ravenwing Command Squad",
+  keyword_type: "unit",
+};
+
+export const ReferenceUnitKeyword: KeywordConfig = {
+  id: keywordId("reference"),
+  keyword_slug: "reference",
+  keyword_name: "Reference",
+  keyword_type: "unit",
+};
+
+export const RegimentalAttachSUnitKeyword: KeywordConfig = {
+  id: keywordId("regimental_attach_s"),
+  keyword_slug: "regimental_attach_s",
+  keyword_name: "Regimental Attach\u00e9s",
+  keyword_type: "unit",
+};
+
+export const ReliquantKnightUnitKeyword: KeywordConfig = {
+  id: keywordId("reliquant_knight"),
+  keyword_slug: "reliquant_knight",
+  keyword_name: "Reliquant Knight",
+  keyword_type: "unit",
+};
+
+export const RipperSwarmUnitKeyword: KeywordConfig = {
+  id: keywordId("ripper_swarm"),
+  keyword_slug: "ripper_swarm",
+  keyword_name: "Ripper Swarm",
+  keyword_type: "unit",
+};
+
+export const RogueTraderEntourageUnitKeyword: KeywordConfig = {
+  id: keywordId("rogue_trader_entourage"),
+  keyword_slug: "rogue_trader_entourage",
+  keyword_name: "Rogue Trader Entourage",
+  keyword_type: "unit",
+};
+
+export const RubricUnitKeyword: KeywordConfig = {
+  id: keywordId("rubric"),
+  keyword_slug: "rubric",
+  keyword_name: "Rubric",
+  keyword_type: "unit",
+};
+
+export const RubricMarinesUnitKeyword: KeywordConfig = {
+  id: keywordId("rubric_marines"),
+  keyword_slug: "rubric_marines",
+  keyword_name: "Rubric Marines",
+  keyword_type: "unit",
+};
+
+export const RubricaeUnitKeyword: KeywordConfig = {
+  id: keywordId("rubricae"),
+  keyword_slug: "rubricae",
+  keyword_name: "Rubricae",
+  keyword_type: "unit",
+};
+
+export const SaintCelestineUnitKeyword: KeywordConfig = {
+  id: keywordId("saint_celestine"),
+  keyword_slug: "saint_celestine",
+  keyword_name: "Saint Celestine",
+  keyword_type: "unit",
+};
+
+export const ScarabOccultUnitKeyword: KeywordConfig = {
+  id: keywordId("scarab_occult"),
+  keyword_slug: "scarab_occult",
+  keyword_name: "Scarab Occult",
+  keyword_type: "unit",
+};
+
+export const SentinelCommanderUnitKeyword: KeywordConfig = {
+  id: keywordId("sentinel_commander"),
+  keyword_slug: "sentinel_commander",
+  keyword_name: "Sentinel Commander",
+  keyword_type: "unit",
+};
+
+export const ServitorBattlecladeUnitKeyword: KeywordConfig = {
+  id: keywordId("servitor_battleclade"),
+  keyword_slug: "servitor_battleclade",
+  keyword_name: "Servitor Battleclade",
+  keyword_type: "unit",
+};
+
+export const ShasnelUnitKeyword: KeywordConfig = {
+  id: keywordId("shasnel"),
+  keyword_slug: "shasnel",
+  keyword_name: "Shas'nel",
+  keyword_type: "unit",
+};
+
+export const SistersOfBattleImmolatorUnitKeyword: KeywordConfig = {
+  id: keywordId("sisters_of_battle_immolator"),
+  keyword_slug: "sisters_of_battle_immolator",
+  keyword_name: "Sisters of Battle Immolator",
+  keyword_type: "unit",
+};
+
+export const SkyrunnerUnitKeyword: KeywordConfig = {
+  id: keywordId("skyrunner"),
+  keyword_slug: "skyrunner",
+  keyword_name: "Skyrunner",
+  keyword_type: "unit",
+};
+
+export const SlaaneshBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("slaanesh_battleline"),
+  keyword_slug: "slaanesh_battleline",
+  keyword_name: "Slaanesh Battleline",
+  keyword_type: "unit",
+};
+
+export const SlaaneshNonBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("slaanesh_non_battleline"),
+  keyword_slug: "slaanesh_non_battleline",
+  keyword_name: "Slaanesh non-Battleline",
+  keyword_type: "unit",
+};
+
+export const SorcerousChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("sorcerous_champion"),
+  keyword_slug: "sorcerous_champion",
+  keyword_name: "Sorcerous Champion",
+  keyword_type: "unit",
+};
+
+export const SoulForgeUnitKeyword: KeywordConfig = {
+  id: keywordId("soul_forge"),
+  keyword_slug: "soul_forge",
+  keyword_name: "Soul Forge",
+  keyword_type: "unit",
+};
+
+export const SoulForgeTyrantUnitKeyword: KeywordConfig = {
+  id: keywordId("soul_forge_tyrant"),
+  keyword_slug: "soul_forge_tyrant",
+  keyword_name: "Soul Forge Tyrant",
+  keyword_type: "unit",
+};
+
+export const StarWeaverUnitKeyword: KeywordConfig = {
+  id: keywordId("star_weaver"),
+  keyword_slug: "star_weaver",
+  keyword_name: "Star Weaver",
+  keyword_type: "unit",
+};
+
+export const SteeljackElderUnitKeyword: KeywordConfig = {
+  id: keywordId("steeljack_elder"),
+  keyword_slug: "steeljack_elder",
+  keyword_name: "Steeljack Elder",
+  keyword_type: "unit",
+};
+
+export const TheSilentKingUnitKeyword: KeywordConfig = {
+  id: keywordId("the_silent_king"),
+  keyword_slug: "the_silent_king",
+  keyword_name: "The Silent King",
+  keyword_type: "unit",
+};
+
+export const TraitorEnforcerUnitKeyword: KeywordConfig = {
+  id: keywordId("traitor_enforcer"),
+  keyword_slug: "traitor_enforcer",
+  keyword_name: "Traitor Enforcer",
+  keyword_type: "unit",
+};
+
+export const TriLobeVectorsUnitKeyword: KeywordConfig = {
+  id: keywordId("tri_lobe_vectors"),
+  keyword_slug: "tri_lobe_vectors",
+  keyword_name: "Tri-lobe Vectors",
+  keyword_type: "unit",
+};
+
+export const TriarchPraetoriansUnitKeyword: KeywordConfig = {
+  id: keywordId("triarch_praetorians"),
+  keyword_slug: "triarch_praetorians",
+  keyword_name: "Triarch Praetorians",
+  keyword_type: "unit",
+};
+
+export const TriarchStalkerUnitKeyword: KeywordConfig = {
+  id: keywordId("triarch_stalker"),
+  keyword_slug: "triarch_stalker",
+  keyword_name: "Triarch Stalker",
+  keyword_type: "unit",
+};
+
+export const TriarchalOverseerUnitKeyword: KeywordConfig = {
+  id: keywordId("triarchal_overseer"),
+  keyword_slug: "triarchal_overseer",
+  keyword_name: "Triarchal Overseer",
+  keyword_type: "unit",
+};
+
+export const TyranidWarriorsUnitKeyword: KeywordConfig = {
+  id: keywordId("tyranid_warriors"),
+  keyword_slug: "tyranid_warriors",
+  keyword_name: "Tyranid Warriors",
+  keyword_type: "unit",
+};
+
+export const TzeentchBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("tzeentch_battleline"),
+  keyword_slug: "tzeentch_battleline",
+  keyword_name: "Tzeentch Battleline",
+  keyword_type: "unit",
+};
+
+export const TzeentchNonBattlelineUnitKeyword: KeywordConfig = {
+  id: keywordId("tzeentch_non_battleline"),
+  keyword_slug: "tzeentch_non_battleline",
+  keyword_name: "Tzeentch non-Battleline",
+  keyword_type: "unit",
+};
+
+export const UndividedUnitKeyword: KeywordConfig = {
+  id: keywordId("undivided"),
+  keyword_slug: "undivided",
+  keyword_name: "Undivided",
+  keyword_type: "unit",
+};
+
+export const UnitChampionUnitKeyword: KeywordConfig = {
+  id: keywordId("unit_champion"),
+  keyword_slug: "unit_champion",
+  keyword_name: "Unit Champion",
+  keyword_type: "unit",
+};
+
+export const UpstartGretchinUnitKeyword: KeywordConfig = {
+  id: keywordId("upstart_gretchin"),
+  keyword_slug: "upstart_gretchin",
+  keyword_name: "Upstart Gretchin",
+  keyword_type: "unit",
+};
+
+export const VenerableBattleBrotherUnitKeyword: KeywordConfig = {
+  id: keywordId("venerable_battle_brother"),
+  keyword_slug: "venerable_battle_brother",
+  keyword_name: "Venerable Battle-Brother",
+  keyword_type: "unit",
+};
+
+export const VenerableDaemonSlayerUnitKeyword: KeywordConfig = {
+  id: keywordId("venerable_daemon_slayer"),
+  keyword_slug: "venerable_daemon_slayer",
+  keyword_name: "Venerable Daemon Slayer",
+  keyword_type: "unit",
+};
+
+export const VictrixUnitKeyword: KeywordConfig = {
+  id: keywordId("victrix"),
+  keyword_slug: "victrix",
+  keyword_name: "Victrix",
+  keyword_type: "unit",
+};
+
+export const VoiceOfThePatriarchUnitKeyword: KeywordConfig = {
+  id: keywordId("voice_of_the_patriarch"),
+  keyword_slug: "voice_of_the_patriarch",
+  keyword_name: "Voice of the Patriarch",
+  keyword_type: "unit",
+};
+
+export const VoidfarerCharacterUnitKeyword: KeywordConfig = {
+  id: keywordId("voidfarer_character"),
+  keyword_slug: "voidfarer_character",
+  keyword_name: "Voidfarer Character",
+  keyword_type: "unit",
+};
+
+export const VoidravenUnitKeyword: KeywordConfig = {
+  id: keywordId("voidraven"),
+  keyword_slug: "voidraven",
+  keyword_name: "Voidraven",
+  keyword_type: "unit",
+};
+
+export const WardensOfUltramarUnitKeyword: KeywordConfig = {
+  id: keywordId("wardens_of_ultramar"),
+  keyword_slug: "wardens_of_ultramar",
+  keyword_name: "Wardens of Ultramar",
+  keyword_type: "unit",
+};
+
+export const WarpheadUnitKeyword: KeywordConfig = {
+  id: keywordId("warphead"),
+  keyword_slug: "warphead",
+  keyword_name: "Warphead",
+  keyword_type: "unit",
+};
+
+export const WatchSergeantLoadoutUnitKeyword: KeywordConfig = {
+  id: keywordId("watch_sergeant_loadout"),
+  keyword_slug: "watch_sergeant_loadout",
+  keyword_name: "Watch Sergeant loadout",
+  keyword_type: "unit",
+};
+
+// END BSData unit keyword records
+
 export const keywordsDataset: SeedDataset<"keywords"> = {
   table: "keywords",
   records: [
@@ -11350,5 +12418,159 @@ export const keywordsDataset: SeedDataset<"keywords"> = {
     TorrentWeaponKeyword,
     TwinLinkedWeaponKeyword,
     // END BSData weapon keyword dataset records
+    // BEGIN BSData unit keyword dataset records
+    AcWalkerUnitKeyword,
+    AestredThurgaAndAgathaeDolanUnitKeyword,
+    AquilaKillTeamUnitKeyword,
+    ArchtormentorUnitKeyword,
+    AugmentedBoneEadUnitKeyword,
+    AunvaUnitKeyword,
+    BattlesuitVeteranUnitKeyword,
+    BeastmasterUnitKeyword,
+    BiovoreUnitKeyword,
+    BlightlordHeavyWeaponUnitKeyword,
+    BloodcultChampionUnitKeyword,
+    BlueUnitKeyword,
+    BrayherdChieftainUnitKeyword,
+    BrayherdShamanUnitKeyword,
+    ButcherlordUnitKeyword,
+    CatachanUnitKeyword,
+    ChampionUnitKeyword,
+    ChampionOfExcessUnitKeyword,
+    ChampionOfTheChapterUnitKeyword,
+    ChampionOfTitanUnitKeyword,
+    ChaplainGrimaldusUnitKeyword,
+    CohortCommanderUnitKeyword,
+    CompanyHeroesUnitKeyword,
+    CorsairVoidscarredUnitKeyword,
+    CorsairsAndTravellingPlayersUnitKeyword,
+    CraftworldWarleaderUnitKeyword,
+    CrucibleUnitKeyword,
+    CultDemagogueUnitKeyword,
+    CultGuerrillaUnitKeyword,
+    CultInsurrectionistUnitKeyword,
+    CultsOfTheDarkGodsUnitKeyword,
+    DaRedGobboABombInableSnowmanUnitKeyword,
+    DaemonicCharioteerUnitKeyword,
+    DaemonicHeraldUnitKeyword,
+    DamnedLegionairesUnitKeyword,
+    DarkApostleUnitKeyword,
+    DarkCommuneUnitKeyword,
+    DarkshroudUnitKeyword,
+    DeathCompanyIntercessorsUnitKeyword,
+    DeathGuardIconBearerUnitKeyword,
+    DeathwatchAgentUnitKeyword,
+    DeathwatchKillTeamUnitKeyword,
+    DecimusKillTeamUnitKeyword,
+    DreadknightChampionUnitKeyword,
+    DynasticConquerorUnitKeyword,
+    EightBlessedLordUnitKeyword,
+    EldradUltranUnitKeyword,
+    EnthronedAgentUnitKeyword,
+    ExcruciatorUnitKeyword,
+    FabiusBileUnitKeyword,
+    FlawlessChampionUnitKeyword,
+    FleshCrafterUnitKeyword,
+    FrontLineCommanderUnitKeyword,
+    GauntsGhostsUnitKeyword,
+    GhazghkullThrakaUnitKeyword,
+    GhostWarriorUnitKeyword,
+    GrimnyrUnitKeyword,
+    GrotmasGitzUnitKeyword,
+    GuardianOfTheThroneUnitKeyword,
+    HarlequinAlliesUnitKeyword,
+    HeadtakersUnitKeyword,
+    HellsLastUnitKeyword,
+    HelstalkerUnitKeyword,
+    HernkynPioneersUnitKeyword,
+    HernkynYaegirsUnitKeyword,
+    HonorGuardUnitKeyword,
+    HordebossUnitKeyword,
+    HorrorsUnitKeyword,
+    HuntingWolvesUnitKeyword,
+    HyperadaptedRavenersUnitKeyword,
+    HyperscientistUnitKeyword,
+    ImmortalChampionUnitKeyword,
+    IndomJpIntUnitKeyword,
+    IndomPfIntUnitKeyword,
+    InspiringDevoteeUnitKeyword,
+    IronFatherFerriosUnitKeyword,
+    IronMasterUnitKeyword,
+    IronstriderAlphaUnitKeyword,
+    KataphraktoiExemplarUnitKeyword,
+    KhorneBattlelineUnitKeyword,
+    KhorneNonBattlelineUnitKeyword,
+    KillTeamCassiusUnitKeyword,
+    KinbandChampionUnitKeyword,
+    KinhostCommanderUnitKeyword,
+    KnightCharacterUnitKeyword,
+    KriegUnitKeyword,
+    LandRaiderBanisherUnitKeyword,
+    LibrariusAdeptUnitKeyword,
+    LivingAncestorUnitKeyword,
+    MacroOrganismUnitKeyword,
+    MagisterUnitKeyword,
+    MagosUnitKeyword,
+    MalceptorUnitKeyword,
+    MartialAgentUnitKeyword,
+    MastersOfTheMaelstromUnitKeyword,
+    MilitantCommanderUnitKeyword,
+    NodeOrganismUnitKeyword,
+    NonKrootUnitKeyword,
+    NullMaidenUnitKeyword,
+    NurgleBattlelineUnitKeyword,
+    NurgleNonBattlelineUnitKeyword,
+    OstromandeusUnitKeyword,
+    PinkUnitKeyword,
+    PlagueLordUnitKeyword,
+    PlagueSorcererUnitKeyword,
+    PrimarisSwordBrethrenUnitKeyword,
+    PrimeOrganismUnitKeyword,
+    QuartermasterCadreSquadUnitKeyword,
+    RavenwingCommandSquadUnitKeyword,
+    ReferenceUnitKeyword,
+    RegimentalAttachSUnitKeyword,
+    ReliquantKnightUnitKeyword,
+    RipperSwarmUnitKeyword,
+    RogueTraderEntourageUnitKeyword,
+    RubricUnitKeyword,
+    RubricMarinesUnitKeyword,
+    RubricaeUnitKeyword,
+    SaintCelestineUnitKeyword,
+    ScarabOccultUnitKeyword,
+    SentinelCommanderUnitKeyword,
+    ServitorBattlecladeUnitKeyword,
+    ShasnelUnitKeyword,
+    SistersOfBattleImmolatorUnitKeyword,
+    SkyrunnerUnitKeyword,
+    SlaaneshBattlelineUnitKeyword,
+    SlaaneshNonBattlelineUnitKeyword,
+    SorcerousChampionUnitKeyword,
+    SoulForgeUnitKeyword,
+    SoulForgeTyrantUnitKeyword,
+    StarWeaverUnitKeyword,
+    SteeljackElderUnitKeyword,
+    TheSilentKingUnitKeyword,
+    TraitorEnforcerUnitKeyword,
+    TriLobeVectorsUnitKeyword,
+    TriarchPraetoriansUnitKeyword,
+    TriarchStalkerUnitKeyword,
+    TriarchalOverseerUnitKeyword,
+    TyranidWarriorsUnitKeyword,
+    TzeentchBattlelineUnitKeyword,
+    TzeentchNonBattlelineUnitKeyword,
+    UndividedUnitKeyword,
+    UnitChampionUnitKeyword,
+    UpstartGretchinUnitKeyword,
+    VenerableBattleBrotherUnitKeyword,
+    VenerableDaemonSlayerUnitKeyword,
+    VictrixUnitKeyword,
+    VoiceOfThePatriarchUnitKeyword,
+    VoidfarerCharacterUnitKeyword,
+    VoidravenUnitKeyword,
+    WardensOfUltramarUnitKeyword,
+    WarpheadUnitKeyword,
+    WatchSergeantLoadoutUnitKeyword,
+    // END BSData unit keyword dataset records
   ] satisfies KeywordConfig[],
 };
