@@ -20,6 +20,7 @@ import {
   unitPointCostsDataset,
   unitProfileStatsDataset,
   unitProfilesDataset,
+  unitWeaponsDataset,
   unitModelsDataset,
   unitsDataset,
 } from "../db/seed_config/seed/data/_index.data";
@@ -29,6 +30,7 @@ import {
   unitPointCostId,
   unitProfileId,
   unitProfileStatId,
+  unitWeaponId,
   unitModelId,
 } from "../db/seed_config/seed/ids";
 
@@ -119,6 +121,11 @@ type BsDataUnitProfileStatRecord = {
   unit_profile_stat_slug: string;
 };
 
+type BsDataUnitWeaponRecord = {
+  rules_faction_slug: string;
+  unit_weapon_slug: string;
+};
+
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
   "..",
@@ -181,7 +188,6 @@ const TARGET_FACTIONS: TargetFaction[] = [
 const FACTION_DATASET_SUFFIXES: Partial<
   Record<DatasetInventoryColumnKey, string>
 > = {
-  unit_weapons: "unit_weapons",
 };
 
 export function buildDatasetInventory(
@@ -240,6 +246,10 @@ export function buildDatasetInventory(
     repoRoot,
     bsDataRoot,
   );
+  const unitWeaponCountsByFaction = countUnitWeaponCoverageByFaction(
+    repoRoot,
+    bsDataRoot,
+  );
 
   const rows = TARGET_FACTIONS.map((faction): DatasetInventoryRow => {
     const cells = createDefaultCells();
@@ -272,6 +282,8 @@ export function buildDatasetInventory(
       unitProfileCountsByFaction.get(faction.slug) ?? 0;
     cells.unit_profile_stats.actual =
       unitProfileStatCountsByFaction.get(faction.slug) ?? 0;
+    cells.unit_weapons.actual =
+      unitWeaponCountsByFaction.get(faction.slug) ?? 0;
 
     for (const [columnKey, suffix] of Object.entries(FACTION_DATASET_SUFFIXES)) {
       const key = columnKey as DatasetInventoryColumnKey;
@@ -319,6 +331,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `unit_models` counts BSData faction memberships covered by checked-in global `unit_models` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_point_costs` counts BSData faction memberships covered by checked-in global `unit_point_costs` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
+    "- `unit_weapons` counts BSData faction memberships covered by checked-in global unit-weapon rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.",
     `- BSData root: \`${inventory.bsDataRoot}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
     "",
@@ -727,6 +740,39 @@ function countUnitProfileStatCoverageByFaction(
 
   for (const record of expectedRecords) {
     if (!coveredKeys.has(unitProfileStatId(record.unit_profile_stat_slug))) {
+      continue;
+    }
+
+    counts.set(
+      record.rules_faction_slug,
+      (counts.get(record.rules_faction_slug) ?? 0) + 1,
+    );
+  }
+
+  return counts;
+}
+
+function countUnitWeaponCoverageByFaction(
+  repoRoot: string,
+  bsDataRoot: string,
+): Map<string, number> {
+  const expectedRecords = loadBsDataRecords<BsDataUnitWeaponRecord>(
+    repoRoot,
+    bsDataRoot,
+    "--emit-unit-weapons",
+  );
+
+  if (!expectedRecords) {
+    return new Map();
+  }
+
+  const coveredKeys = new Set(
+    unitWeaponsDataset.records.map((record) => record.id),
+  );
+  const counts = new Map<string, number>();
+
+  for (const record of expectedRecords) {
+    if (!coveredKeys.has(unitWeaponId(record.unit_weapon_slug))) {
       continue;
     }
 

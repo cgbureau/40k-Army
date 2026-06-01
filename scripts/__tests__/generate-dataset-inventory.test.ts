@@ -47,6 +47,8 @@ describe("dataset inventory generator", () => {
     expect(bloodAngels?.cells.unit_models.expected).toBe("233");
     expect(bloodAngels?.cells.unit_point_costs.actual).toBe(200);
     expect(bloodAngels?.cells.unit_point_costs.expected).toBe("200");
+    expect(bloodAngels?.cells.unit_weapons.actual).toBe(234);
+    expect(bloodAngels?.cells.unit_weapons.expected).toBe("234");
     expect(bloodAngels?.cells.models.actual).toBe(223);
     expect(bloodAngels?.cells.models.expected).toBe("223");
   }, INVENTORY_TEST_TIMEOUT_MS);
@@ -87,6 +89,8 @@ describe("dataset inventory generator", () => {
     expect(inventory.columnTotals.unit_profiles.expected).toBe("3984");
     expect(inventory.columnTotals.unit_profile_stats.actual).toBe(23904);
     expect(inventory.columnTotals.unit_profile_stats.expected).toBe("23904");
+    expect(inventory.columnTotals.unit_weapons.actual).toBe(5854);
+    expect(inventory.columnTotals.unit_weapons.expected).toBe("5854");
     expect(inventory.columnTotals.models.actual).toBe(4548);
     expect(inventory.columnTotals.models.expected).toBe("4548");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
