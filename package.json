@@ -19,6 +19,7 @@
     "diagnose:faction": "tsx scripts/list-unmapped-for-faction.ts",
     "merge:mappings": "tsx scripts/merge-duplicate-kit-mappings.ts",
     "docs:dataset-inventory": "tsx scripts/generate-dataset-inventory.ts",
+    "docs:kit-dataset-inventory": "tsx scripts/generate-kit-dataset-inventory.ts",
     "db:validate": "prisma validate",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
