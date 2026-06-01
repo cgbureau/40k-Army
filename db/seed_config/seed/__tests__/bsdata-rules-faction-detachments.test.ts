@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { BSDATA_ROOT } from "./helpers/bsdata-root";
+
 import {
   detachmentsDataset,
   rulesFactionDetachmentsDataset,
@@ -14,9 +16,6 @@ type BsDataRulesFactionDetachment = {
   detachment_slug: string;
   detachment_access_type: string;
 };
-
-const BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 
 describe("BSData rules_faction_detachments coverage", () => {
   it("matches BSData faction-detachment memberships and access types exactly", () => {

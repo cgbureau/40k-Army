@@ -16,7 +16,7 @@ from bsdata_expected_counts import (
     expected_unit_profiles,
 )
 
-DEFAULT_BSDATA_ROOT = Path("/Users/mikeearley/code/wh40k-10e")
+DEFAULT_BSDATA_ROOT = Path(__file__).resolve().parents[1].parent / "wh40k-10e"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = REPO_ROOT / "db/seed_config/seed/data"
 UNIT_PROFILES_OUTPUT_PATH = DATA_ROOT / "unit_profiles.data.ts"

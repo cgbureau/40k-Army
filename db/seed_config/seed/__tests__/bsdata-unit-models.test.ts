@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { BSDATA_ROOT } from "./helpers/bsdata-root";
+
 import {
   modelsDataset,
   unitModelsDataset,
@@ -18,9 +20,6 @@ type BsDataUnitModel = {
 type BsDataModel = {
   model_slug: string;
 };
-
-const BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 
 describe("BSData unit_models and models coverage", () => {
   it("covers BSData unit model selections with global seed rows", () => {

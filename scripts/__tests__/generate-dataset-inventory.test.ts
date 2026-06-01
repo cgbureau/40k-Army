@@ -7,6 +7,7 @@ import {
 } from "../generate-dataset-inventory";
 
 const INVENTORY_TEST_TIMEOUT_MS = 30000;
+const BSDATA_TEST_ROOT = "../wh40k-10e";
 
 describe("dataset inventory generator", () => {
   it("builds the requested matrix columns for the 34 target factions", () => {
@@ -67,7 +68,7 @@ describe("dataset inventory generator", () => {
   it("fills second-pass expected counts from the local BSData checkout", () => {
     const inventory = buildDatasetInventory({
       repoRoot: process.cwd(),
-      bsDataRoot: "/Users/mikeearley/code/wh40k-10e",
+      bsDataRoot: BSDATA_TEST_ROOT,
     });
     const spaceMarines = inventory.rows.find(
       (row) => row.factionSlug === "space_marines",

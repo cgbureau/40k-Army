@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { BSDATA_ROOT } from "./helpers/bsdata-root";
+
 import {
   keywordsDataset,
   leaderEligibilitiesDataset,
@@ -14,9 +16,6 @@ type BsDataLeaderEligibilityKeyword = {
   leader_eligibility_slug: string;
   keyword_slug: string;
 };
-
-const BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 
 describe("BSData leader_eligibility_keywords coverage", () => {
   it("covers BSData keyword-predicate leader targets with global seed rows", () => {

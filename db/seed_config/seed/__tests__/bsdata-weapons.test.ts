@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { BSDATA_ROOT } from "./helpers/bsdata-root";
+
 import {
   keywordsDataset,
   rulesSourcesDataset,
@@ -23,9 +25,6 @@ type BsDataWeaponProfile = {
 type BsDataWeaponProfileKeyword = {
   weapon_profile_keyword_slug: string;
 };
-
-const BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 
 describe("BSData weapon coverage", () => {
   it("covers BSData weapon rows", () => {

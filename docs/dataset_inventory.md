@@ -14,7 +14,7 @@ Cell format: `actual / expected`.
 - `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.
 - `unit_weapons` counts BSData faction memberships covered by checked-in global unit-weapon rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.
 - `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.
-- BSData root: `/Users/mikeearley/code/wh40k-10e`.
+- BSData root: `../wh40k-10e`.
 
 Regenerate with:
 
@@ -100,7 +100,7 @@ Use this loop for each dataset/table family before moving on to the next one:
 2. Regenerate or reconcile the seed data for that table across target factions.
 3. Run focused validation for the table plus the seed/faction contract tests.
 4. Update this matrix with `npm run docs:dataset-inventory`.
-5. Update project memory under `/Users/mikeearley/code/ai-team-projects/40karmy/memory`.
+5. Update project memory under the active 40karmy project-memory workspace.
 6. Commit the completed table slice.
 7. Move to the next table.
 

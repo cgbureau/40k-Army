@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { BSDATA_ROOT } from "./helpers/bsdata-root";
+
 import {
   rulesSourcesDataset,
   unitPointCostsDataset,
@@ -13,9 +15,6 @@ import { unitId, unitPointCostId } from "../ids";
 type BsDataUnitPointCost = {
   unit_point_cost_slug: string;
 };
-
-const BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 
 describe("BSData unit_point_costs coverage", () => {
   it("covers BSData point cost values with global seed rows", () => {

@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 
 import { describe, expect, it } from "vitest";
 
+import { BSDATA_ROOT } from "./helpers/bsdata-root";
+
 import {
   rulesSourcesDataset,
   unitProfilesDataset,
@@ -18,9 +20,6 @@ type BsDataUnitProfile = {
 type BsDataUnitProfileStat = {
   unit_profile_stat_slug: string;
 };
-
-const BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
 
 describe("BSData unit_profiles and unit_profile_stats coverage", () => {
   it("covers BSData Unit profiles with global seed rows", () => {

@@ -18,7 +18,7 @@ from bsdata_expected_counts import (
     expected_weapons,
 )
 
-DEFAULT_BSDATA_ROOT = Path("/Users/mikeearley/code/wh40k-10e")
+DEFAULT_BSDATA_ROOT = Path(__file__).resolve().parents[1].parent / "wh40k-10e"
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = REPO_ROOT / "db/seed_config/seed/data"
 KEYWORD_IDS_PATH = DATA_ROOT.parent / "ids/reference_data/keywords.ids.ts"

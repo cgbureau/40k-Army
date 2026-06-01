@@ -11,7 +11,7 @@ single table without naming the lens being used.
 | Lens                            | Count | Meaning                                                                                      |
 | ------------------------------- | ----: | -------------------------------------------------------------------------------------------- |
 | GW Online Store taxonomy        |    38 | Store navigation factions/categories exactly as GW presents them                             |
-| BSData raw `.cat` files         |    46 | All catalog files in `/Users/mikeearley/code/wh40k-10e`, including libraries/helper catalogs |
+| BSData raw `.cat` files         |    46 | All catalog files in the local BSData checkout, including libraries/helper catalogs           |
 | BSData non-library `.cat` files |    38 | Top-level playable-ish catalogs, but includes Ynnari and Unaligned Forces                    |
 | New Recruit-style faction list  |    36 | BSData-derived list excluding Ynnari and Unaligned Forces as app factions                    |
 | 40karmy target faction list     |    34 | New Recruit-style 36 minus Adeptus Titanicus and Titanicus Traitoris                         |

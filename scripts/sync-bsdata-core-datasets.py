@@ -22,7 +22,7 @@ from bsdata_expected_counts import (
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = REPO_ROOT / "db/seed_config/seed/data"
 GENERATED_IDS_PATH = REPO_ROOT / "db/seed_config/seed/ids/generated_game_data.ids.ts"
-DEFAULT_BSDATA_ROOT = Path("/Users/mikeearley/code/wh40k-10e")
+DEFAULT_BSDATA_ROOT = Path(__file__).resolve().parents[1].parent / "wh40k-10e"
 CROCKFORD_ALPHABET = "0123456789ABCDEFGHJKMNPQRSTVWXYZ"
 
 SM_CODEX_ONLY_FACTIONS = {

@@ -132,7 +132,7 @@ const DEFAULT_REPO_ROOT = resolve(
 );
 const DEFAULT_OUTPUT_PATH = "docs/dataset_inventory.md";
 const DEFAULT_BSDATA_ROOT =
-  process.env.BSDATA_40K_ROOT ?? "/Users/mikeearley/code/wh40k-10e";
+  process.env.BSDATA_40K_ROOT ?? resolve(DEFAULT_REPO_ROOT, "..", "wh40k-10e");
 const BSDATA_EXPECTED_COLUMNS = new Set<DatasetInventoryColumnKey>([
   "rules_faction_units",
   "rules_faction_detachments",
@@ -333,7 +333,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "- `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `unit_weapons` counts BSData faction memberships covered by checked-in global unit-weapon rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.",
     "- `models` counts distinct BSData model identities covered for each faction through expected unit-model memberships. The global `models` table itself does not carry a direct `rules_faction_id`.",
-    `- BSData root: \`${inventory.bsDataRoot}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
+    `- BSData root: \`${renderBsDataRoot(inventory.bsDataRoot)}\`${inventory.hasBsDataExpectedCounts ? "" : " (not found or unavailable; expected-count cells remain `?`)"}.`,
     "",
     "Regenerate with:",
     "",
@@ -371,7 +371,7 @@ export function renderDatasetInventoryMarkdown(inventory: DatasetInventory): str
     "2. Regenerate or reconcile the seed data for that table across target factions.",
     "3. Run focused validation for the table plus the seed/faction contract tests.",
     "4. Update this matrix with `npm run docs:dataset-inventory`.",
-    "5. Update project memory under `/Users/mikeearley/code/ai-team-projects/40karmy/memory`.",
+    "5. Update project memory under the active 40karmy project-memory workspace.",
     "6. Commit the completed table slice.",
     "7. Move to the next table.",
     "",
@@ -1081,6 +1081,15 @@ function formatCell(cell: CountCell): string {
 
 function escapeMarkdownTableCell(value: string): string {
   return value.replaceAll("|", "\\|");
+}
+
+function renderBsDataRoot(bsDataRoot: string): string {
+  if (process.env.BSDATA_40K_ROOT) {
+    return "$BSDATA_40K_ROOT";
+  }
+
+  const relativeRoot = relative(DEFAULT_REPO_ROOT, bsDataRoot);
+  return relativeRoot || ".";
 }
 
 function main(): void {
