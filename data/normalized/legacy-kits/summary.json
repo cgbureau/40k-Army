@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "generated_by": "scripts/normalize-legacy-kit-data.ts",
+  "source_roots": {
+    "catalog": "data/kits",
+    "mappings": "data/kit-mappings"
+  },
+  "output_files": {
+    "products": "data/normalized/legacy-kits/products.json",
+    "price_observations": "data/normalized/legacy-kits/price_observations.json",
+    "unit_mapping_candidates": "data/normalized/legacy-kits/unit_mapping_candidates.json",
+    "summary": "data/normalized/legacy-kits/summary.json"
+  },
+  "counts": {
+    "legacy_catalog_files": 35,
+    "legacy_catalog_rows": 1031,
+    "normalized_products": 853,
+    "products_with_duplicate_source_rows": 148,
+    "products_with_missing_model_count": 60,
+    "products_with_conflicting_model_counts": 15,
+    "products_with_conflicting_display_names": 0,
+    "products_with_conflicting_images": 0,
+    "products_with_conflicting_years": 0,
+    "price_observations": 7104,
+    "legacy_mapping_files": 24,
+    "legacy_mapping_entries": 941,
+    "unit_mapping_candidates": 943,
+    "resolved_unit_mapping_candidates": 929,
+    "unresolved_unit_mapping_candidates": 5,
+    "invalid_unit_mapping_candidates": 9
+  }
+}

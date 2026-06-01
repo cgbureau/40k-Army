@@ -23,6 +23,8 @@ describe("kit dataset inventory generator", () => {
       kitUnitPriceAllocations: 2,
       kitPrices: 0,
     });
+    expect(inventory.normalizedLegacy?.counts.normalized_products).toBe(853);
+    expect(inventory.normalizedLegacy?.counts.price_observations).toBe(7104);
   });
 
   it("tracks Space Marine chapter catalog files separately from unit mappings", () => {
@@ -47,8 +49,10 @@ describe("kit dataset inventory generator", () => {
 
     expect(markdown).toContain("# Kit Dataset Inventory");
     expect(markdown).toContain("## Source Roles");
+    expect(markdown).toContain("## Normalized Legacy Staging");
     expect(markdown).toContain("## Faction Legacy Coverage");
     expect(markdown).toContain("## Migration Recommendation");
     expect(markdown).toContain("| `kit_models` | 0 |");
+    expect(markdown).toContain("| Normalized products | 853 |");
   });
 });

@@ -40,6 +40,29 @@ npm run docs:kit-dataset-inventory
 | Legacy referenced kit slugs | 752 |
 | Broken mapping references | 17 |
 
+## Normalized Legacy Staging
+
+The legacy catalog and unit-mapping files have been normalized into generated staging JSON. The detailed products, prices, and mapping-candidate outputs are local generated artifacts ignored by git; `summary.json` is tracked as the compact status artifact. These files are not canonical seed data yet; they are the review layer between legacy source snapshots and future typed `kits`, `kit_prices`, and `kit_units` seed rows.
+
+| Artifact | Path |
+| --- | --- |
+| Products | `data/normalized/legacy-kits/products.json` |
+| Price observations | `data/normalized/legacy-kits/price_observations.json` |
+| Unit mapping candidates | `data/normalized/legacy-kits/unit_mapping_candidates.json` |
+| Summary | `data/normalized/legacy-kits/summary.json` |
+
+| Metric | Count |
+| --- | ---: |
+| Normalized products | 853 |
+| Products with duplicate source rows | 148 |
+| Products missing model count | 60 |
+| Products with conflicting model counts | 15 |
+| Price observations | 7104 |
+| Unit mapping candidates | 943 |
+| Resolved mapping candidates | 929 |
+| Unresolved mapping candidates | 5 |
+| Invalid mapping candidates | 9 |
+
 ## Faction Legacy Coverage
 
 These counts are from the legacy `data/kits` and `data/kit-mappings` JSON files. They are candidate source data only; they are not yet authoritative typed seed rows.

@@ -107,6 +107,7 @@ type KitInventory = {
   brokenMappingReferences: BrokenMappingReference[];
   unmappedCatalogFiles: string[];
   unmappedMappingFiles: string[];
+  normalizedLegacy: NormalizedLegacySummary | null;
 };
 
 type DuplicateCatalogSlug = {
@@ -118,6 +119,26 @@ type BrokenMappingReference = {
   mappingFile: string;
   unitSlug: string;
   kitSlug: string;
+};
+
+type NormalizedLegacySummary = {
+  output_files: {
+    products: string;
+    price_observations: string;
+    unit_mapping_candidates: string;
+    summary: string;
+  };
+  counts: {
+    normalized_products: number;
+    products_with_duplicate_source_rows: number;
+    products_with_missing_model_count: number;
+    products_with_conflicting_model_counts: number;
+    price_observations: number;
+    unit_mapping_candidates: number;
+    resolved_unit_mapping_candidates: number;
+    unresolved_unit_mapping_candidates: number;
+    invalid_unit_mapping_candidates: number;
+  };
 };
 
 const TARGET_FACTION_KIT_SOURCES: TargetFactionKitSource[] = [
@@ -415,6 +436,7 @@ export function buildKitDatasetInventory(
       .map((file) => toRelativePath(repoRoot, file))
       .filter((file) => !mappedMappingRelativePaths.has(file))
       .sort(),
+    normalizedLegacy: readNormalizedLegacySummary(repoRoot),
   };
 }
 
@@ -442,6 +464,10 @@ export function renderKitDatasetInventoryMarkdown(
     "",
     renderLegacyCatalogSummary(inventory),
     "",
+    "## Normalized Legacy Staging",
+    "",
+    renderNormalizedLegacySummary(inventory),
+    "",
     "## Faction Legacy Coverage",
     "",
     "These counts are from the legacy `data/kits` and `data/kit-mappings` JSON files. They are candidate source data only; they are not yet authoritative typed seed rows.",
@@ -463,6 +489,62 @@ export function renderKitDatasetInventoryMarkdown(
   ];
 
   return `${lines.join("\n")}`;
+}
+
+function renderNormalizedLegacySummary(inventory: KitInventory): string {
+  const summary = inventory.normalizedLegacy;
+
+  if (!summary) {
+    return "No normalized legacy kit staging files have been generated yet. Run `npm run data:normalize-legacy-kits` before migrating legacy catalog data into typed seed rows.";
+  }
+
+  return [
+    "The legacy catalog and unit-mapping files have been normalized into generated staging JSON. The detailed products, prices, and mapping-candidate outputs are local generated artifacts ignored by git; `summary.json` is tracked as the compact status artifact. These files are not canonical seed data yet; they are the review layer between legacy source snapshots and future typed `kits`, `kit_prices`, and `kit_units` seed rows.",
+    "",
+    renderTable([
+      ["Artifact", "Path"],
+      ["---", "---"],
+      ["Products", `\`${summary.output_files.products}\``],
+      ["Price observations", `\`${summary.output_files.price_observations}\``],
+      [
+        "Unit mapping candidates",
+        `\`${summary.output_files.unit_mapping_candidates}\``,
+      ],
+      ["Summary", `\`${summary.output_files.summary}\``],
+    ]),
+    "",
+    renderTable([
+      ["Metric", "Count"],
+      ["---", "---:"],
+      ["Normalized products", String(summary.counts.normalized_products)],
+      [
+        "Products with duplicate source rows",
+        String(summary.counts.products_with_duplicate_source_rows),
+      ],
+      [
+        "Products missing model count",
+        String(summary.counts.products_with_missing_model_count),
+      ],
+      [
+        "Products with conflicting model counts",
+        String(summary.counts.products_with_conflicting_model_counts),
+      ],
+      ["Price observations", String(summary.counts.price_observations)],
+      ["Unit mapping candidates", String(summary.counts.unit_mapping_candidates)],
+      [
+        "Resolved mapping candidates",
+        String(summary.counts.resolved_unit_mapping_candidates),
+      ],
+      [
+        "Unresolved mapping candidates",
+        String(summary.counts.unresolved_unit_mapping_candidates),
+      ],
+      [
+        "Invalid mapping candidates",
+        String(summary.counts.invalid_unit_mapping_candidates),
+      ],
+    ]),
+  ].join("\n");
 }
 
 function renderSourceRolesTable(inventory: KitInventory): string {
@@ -913,6 +995,21 @@ function extractKitReferences(value: unknown): string[] {
 
 function readJsonRecord<T>(filePath: string): Record<string, T> {
   return JSON.parse(readFileSync(filePath, "utf8")) as Record<string, T>;
+}
+
+function readNormalizedLegacySummary(
+  repoRoot: string,
+): NormalizedLegacySummary | null {
+  const summaryPath = resolve(
+    repoRoot,
+    "data/normalized/legacy-kits/summary.json",
+  );
+
+  if (!existsSync(summaryPath)) {
+    return null;
+  }
+
+  return JSON.parse(readFileSync(summaryPath, "utf8")) as NormalizedLegacySummary;
 }
 
 function collectJsonFiles(root: string): string[] {
