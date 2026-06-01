@@ -9,6 +9,7 @@ export type SeedMode = "dry_run" | "live";
 export type SeedDataCollection =
   | "reference_data"
   | "factions"
+  | "weapons"
   | "units"
   | "models"
   | "kits"

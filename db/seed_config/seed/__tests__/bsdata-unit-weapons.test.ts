@@ -43,19 +43,19 @@ describe("BSData unit_weapons coverage", () => {
     expect(
       rowsById.get(
         unitWeaponId(
-          "aggressor_squad__auto_boltstorm_gauntlets__10e__faction_pack_space_marines_10e_v1_8__250d_7b42_6542_8539",
+          "aggressor_squad__auto_boltstorm_gauntlets__10e__codex_space_marines_10e__250d_7b42_6542_8539",
         ),
       ),
     ).toMatchObject({
       unit_id: unitId("aggressor_squad"),
       weapon_profile_id: weaponProfileId(
-        "auto_boltstorm_gauntlets__10e__faction_pack_space_marines_10e_v1_8",
+        "auto_boltstorm_gauntlets__10e__codex_space_marines_10e",
       ),
     });
     expect(
       rowsById.get(
         unitWeaponId(
-          "aggressor_squad__auto_boltstorm_gauntlets__10e__faction_pack_space_marines_10e_v1_8__5752_af90_874a_4fb1",
+          "aggressor_squad__auto_boltstorm_gauntlets__10e__codex_space_marines_10e__5752_af90_874a_4fb1",
         ),
       ),
     ).toBeDefined();

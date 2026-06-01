@@ -9631,6 +9631,304 @@ export const ZodgrodWortsnaggaKeyword: KeywordConfig = {
   keyword_type: "unit",
 };
 
+// BEGIN BSData weapon keyword records
+
+export const AntiChaosWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_chaos"),
+  keyword_slug: "anti_chaos",
+  keyword_name: "Anti-Chaos",
+  keyword_type: "weapon",
+};
+
+export const AntiCharacterWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_character"),
+  keyword_slug: "anti_character",
+  keyword_name: "Anti-Character",
+  keyword_type: "weapon",
+};
+
+export const AntiDaemonWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_daemon"),
+  keyword_slug: "anti_daemon",
+  keyword_name: "Anti-Daemon",
+  keyword_type: "weapon",
+};
+
+export const AntiEpicHeroWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_epic_hero"),
+  keyword_slug: "anti_epic_hero",
+  keyword_name: "Anti-Epic Hero",
+  keyword_type: "weapon",
+};
+
+export const AntiFlyWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_fly"),
+  keyword_slug: "anti_fly",
+  keyword_name: "Anti-Fly",
+  keyword_type: "weapon",
+};
+
+export const AntiInfantryWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_infantry"),
+  keyword_slug: "anti_infantry",
+  keyword_name: "Anti-Infantry",
+  keyword_type: "weapon",
+};
+
+export const AntiMonsterWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_monster"),
+  keyword_slug: "anti_monster",
+  keyword_name: "Anti-Monster",
+  keyword_type: "weapon",
+};
+
+export const AntiPsykerWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_psyker"),
+  keyword_slug: "anti_psyker",
+  keyword_name: "Anti-Psyker",
+  keyword_type: "weapon",
+};
+
+export const AntiTyranidsWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_tyranids"),
+  keyword_slug: "anti_tyranids",
+  keyword_name: "Anti-Tyranids",
+  keyword_type: "weapon",
+};
+
+export const AntiVehicleWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_vehicle"),
+  keyword_slug: "anti_vehicle",
+  keyword_name: "Anti-Vehicle",
+  keyword_type: "weapon",
+};
+
+export const AntiWalkerWeaponKeyword: KeywordConfig = {
+  id: keywordId("anti_walker"),
+  keyword_slug: "anti_walker",
+  keyword_name: "Anti-Walker",
+  keyword_type: "weapon",
+};
+
+export const AssaultWeaponKeyword: KeywordConfig = {
+  id: keywordId("assault"),
+  keyword_slug: "assault",
+  keyword_name: "Assault",
+  keyword_type: "weapon",
+};
+
+export const BlastWeaponKeyword: KeywordConfig = {
+  id: keywordId("blast"),
+  keyword_slug: "blast",
+  keyword_name: "Blast",
+  keyword_type: "weapon",
+};
+
+export const BubblechukkaWeaponKeyword: KeywordConfig = {
+  id: keywordId("bubblechukka"),
+  keyword_slug: "bubblechukka",
+  keyword_name: "Bubblechukka",
+  keyword_type: "weapon",
+};
+
+export const ConversionWeaponKeyword: KeywordConfig = {
+  id: keywordId("conversion"),
+  keyword_slug: "conversion",
+  keyword_name: "Conversion",
+  keyword_type: "weapon",
+};
+
+export const DeadChoppyWeaponKeyword: KeywordConfig = {
+  id: keywordId("dead_choppy"),
+  keyword_slug: "dead_choppy",
+  keyword_name: "Dead Choppy",
+  keyword_type: "weapon",
+};
+
+export const DefensiveArrayWeaponKeyword: KeywordConfig = {
+  id: keywordId("defensive_array"),
+  keyword_slug: "defensive_array",
+  keyword_name: "Defensive Array",
+  keyword_type: "weapon",
+};
+
+export const DevastatingWoundsWeaponKeyword: KeywordConfig = {
+  id: keywordId("devastating_wounds"),
+  keyword_slug: "devastating_wounds",
+  keyword_name: "Devastating Wounds",
+  keyword_type: "weapon",
+};
+
+export const ExtraAttacksWeaponKeyword: KeywordConfig = {
+  id: keywordId("extra_attacks"),
+  keyword_slug: "extra_attacks",
+  keyword_name: "Extra Attacks",
+  keyword_type: "weapon",
+};
+
+export const HarpoonedWeaponKeyword: KeywordConfig = {
+  id: keywordId("harpooned"),
+  keyword_slug: "harpooned",
+  keyword_name: "Harpooned",
+  keyword_type: "weapon",
+};
+
+export const HazardousWeaponKeyword: KeywordConfig = {
+  id: keywordId("hazardous"),
+  keyword_slug: "hazardous",
+  keyword_name: "Hazardous",
+  keyword_type: "weapon",
+};
+
+export const HeavyWeaponKeyword: KeywordConfig = {
+  id: keywordId("heavy"),
+  keyword_slug: "heavy",
+  keyword_name: "Heavy",
+  keyword_type: "weapon",
+};
+
+export const HiveDefencesWeaponKeyword: KeywordConfig = {
+  id: keywordId("hive_defences"),
+  keyword_slug: "hive_defences",
+  keyword_name: "Hive Defences",
+  keyword_type: "weapon",
+};
+
+export const HookedWeaponKeyword: KeywordConfig = {
+  id: keywordId("hooked"),
+  keyword_slug: "hooked",
+  keyword_name: "Hooked",
+  keyword_type: "weapon",
+};
+
+export const IgnoresCoverWeaponKeyword: KeywordConfig = {
+  id: keywordId("ignores_cover"),
+  keyword_slug: "ignores_cover",
+  keyword_name: "Ignores Cover",
+  keyword_type: "weapon",
+};
+
+export const IndirectFireWeaponKeyword: KeywordConfig = {
+  id: keywordId("indirect_fire"),
+  keyword_slug: "indirect_fire",
+  keyword_name: "Indirect Fire",
+  keyword_type: "weapon",
+};
+
+export const LanceWeaponKeyword: KeywordConfig = {
+  id: keywordId("lance"),
+  keyword_slug: "lance",
+  keyword_name: "Lance",
+  keyword_type: "weapon",
+};
+
+export const LethalHitsWeaponKeyword: KeywordConfig = {
+  id: keywordId("lethal_hits"),
+  keyword_slug: "lethal_hits",
+  keyword_name: "Lethal Hits",
+  keyword_type: "weapon",
+};
+
+export const LinkedFireWeaponKeyword: KeywordConfig = {
+  id: keywordId("linked_fire"),
+  keyword_slug: "linked_fire",
+  keyword_name: "Linked Fire",
+  keyword_type: "weapon",
+};
+
+export const MeltaWeaponKeyword: KeywordConfig = {
+  id: keywordId("melta"),
+  keyword_slug: "melta",
+  keyword_name: "Melta",
+  keyword_type: "weapon",
+};
+
+export const OneShotWeaponKeyword: KeywordConfig = {
+  id: keywordId("one_shot"),
+  keyword_slug: "one_shot",
+  keyword_name: "One Shot",
+  keyword_type: "weapon",
+};
+
+export const OverchargeWeaponKeyword: KeywordConfig = {
+  id: keywordId("overcharge"),
+  keyword_slug: "overcharge",
+  keyword_name: "Overcharge",
+  keyword_type: "weapon",
+};
+
+export const PistolWeaponKeyword: KeywordConfig = {
+  id: keywordId("pistol"),
+  keyword_slug: "pistol",
+  keyword_name: "Pistol",
+  keyword_type: "weapon",
+};
+
+export const PlasmaWarheadWeaponKeyword: KeywordConfig = {
+  id: keywordId("plasma_warhead"),
+  keyword_slug: "plasma_warhead",
+  keyword_name: "Plasma Warhead",
+  keyword_type: "weapon",
+};
+
+export const PrecisionWeaponKeyword: KeywordConfig = {
+  id: keywordId("precision"),
+  keyword_slug: "precision",
+  keyword_name: "Precision",
+  keyword_type: "weapon",
+};
+
+export const PsychicWeaponKeyword: KeywordConfig = {
+  id: keywordId("psychic"),
+  keyword_slug: "psychic",
+  keyword_name: "Psychic",
+  keyword_type: "weapon",
+};
+
+export const PsychicAssassinWeaponKeyword: KeywordConfig = {
+  id: keywordId("psychic_assassin"),
+  keyword_slug: "psychic_assassin",
+  keyword_name: "Psychic Assassin",
+  keyword_type: "weapon",
+};
+
+export const RapidFireWeaponKeyword: KeywordConfig = {
+  id: keywordId("rapid_fire"),
+  keyword_slug: "rapid_fire",
+  keyword_name: "Rapid Fire",
+  keyword_type: "weapon",
+};
+
+export const ReverberatingSummonsWeaponKeyword: KeywordConfig = {
+  id: keywordId("reverberating_summons"),
+  keyword_slug: "reverberating_summons",
+  keyword_name: "Reverberating Summons",
+  keyword_type: "weapon",
+};
+
+export const SustainedHitsWeaponKeyword: KeywordConfig = {
+  id: keywordId("sustained_hits"),
+  keyword_slug: "sustained_hits",
+  keyword_name: "Sustained Hits",
+  keyword_type: "weapon",
+};
+
+export const TorrentWeaponKeyword: KeywordConfig = {
+  id: keywordId("torrent"),
+  keyword_slug: "torrent",
+  keyword_name: "Torrent",
+  keyword_type: "weapon",
+};
+
+export const TwinLinkedWeaponKeyword: KeywordConfig = {
+  id: keywordId("twin_linked"),
+  keyword_slug: "twin_linked",
+  keyword_name: "Twin-Linked",
+  keyword_type: "weapon",
+};
+
+// END BSData weapon keyword records
+
 export const keywordsDataset: SeedDataset<"keywords"> = {
   table: "keywords",
   records: [
@@ -11008,6 +11306,49 @@ export const keywordsDataset: SeedDataset<"keywords"> = {
     ZarakynelKeyword,
     ZephyrimSquadKeyword,
     ZoanthropesKeyword,
-    ZodgrodWortsnaggaKeyword,
+    ZodgrodWortsnaggaKeyword,    // BEGIN BSData weapon keyword dataset records
+    AntiChaosWeaponKeyword,
+    AntiCharacterWeaponKeyword,
+    AntiDaemonWeaponKeyword,
+    AntiEpicHeroWeaponKeyword,
+    AntiFlyWeaponKeyword,
+    AntiInfantryWeaponKeyword,
+    AntiMonsterWeaponKeyword,
+    AntiPsykerWeaponKeyword,
+    AntiTyranidsWeaponKeyword,
+    AntiVehicleWeaponKeyword,
+    AntiWalkerWeaponKeyword,
+    AssaultWeaponKeyword,
+    BlastWeaponKeyword,
+    BubblechukkaWeaponKeyword,
+    ConversionWeaponKeyword,
+    DeadChoppyWeaponKeyword,
+    DefensiveArrayWeaponKeyword,
+    DevastatingWoundsWeaponKeyword,
+    ExtraAttacksWeaponKeyword,
+    HarpoonedWeaponKeyword,
+    HazardousWeaponKeyword,
+    HeavyWeaponKeyword,
+    HiveDefencesWeaponKeyword,
+    HookedWeaponKeyword,
+    IgnoresCoverWeaponKeyword,
+    IndirectFireWeaponKeyword,
+    LanceWeaponKeyword,
+    LethalHitsWeaponKeyword,
+    LinkedFireWeaponKeyword,
+    MeltaWeaponKeyword,
+    OneShotWeaponKeyword,
+    OverchargeWeaponKeyword,
+    PistolWeaponKeyword,
+    PlasmaWarheadWeaponKeyword,
+    PrecisionWeaponKeyword,
+    PsychicWeaponKeyword,
+    PsychicAssassinWeaponKeyword,
+    RapidFireWeaponKeyword,
+    ReverberatingSummonsWeaponKeyword,
+    SustainedHitsWeaponKeyword,
+    TorrentWeaponKeyword,
+    TwinLinkedWeaponKeyword,
+    // END BSData weapon keyword dataset records
   ] satisfies KeywordConfig[],
 };

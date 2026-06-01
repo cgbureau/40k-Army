@@ -282,11 +282,11 @@ export const BlueHorrorsYellowClawsRefOnly10eFactionPackChaosDaemons10eV12UnitWe
 };
 
 
-export const BurningChariotFlamerMouths10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("burning_chariot__flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const BurningChariotFlamerMouths10eFactionPackChaosDaemons10eV1217e497cc21a5445dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("burning_chariot__flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2__17e4_97cc_21a5_445d"),
   unit_id: unitId("burning_chariot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2__17e4_97cc_21a5_445d"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -321,11 +321,11 @@ export const ContortedEpitomeCoiledTentacles10eFactionPackChaosDaemons10eV12Unit
 };
 
 
-export const ContortedEpitomeRavagingClaws10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("contorted_epitome__ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const ContortedEpitomeRavagingClaws10eFactionPackChaosDaemons10eV12Cbf389fD07e2d1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("contorted_epitome__ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2__cbf_389f_d07e_2d1"),
   unit_id: unitId("contorted_epitome"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2__cbf_389f_d07e_2d1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -412,11 +412,11 @@ export const DaemonPrinceOfChaosWithWingsInfernalCannon10eFactionPackChaosDaemon
 };
 
 
-export const DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemonettes__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8"),
+export const DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8810b975e2ae99eb8UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemonettes__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8__810b_975e_2ae9_9eb8"),
   unit_id: unitId("daemonettes"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -425,11 +425,11 @@ export const DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae
 };
 
 
-export const DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12A8df2f1f18c49d1eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemonettes__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__a8df_2f1f_18c4_9d1e"),
+export const DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8A8df2f1f18c49d1eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemonettes__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8__a8df_2f1f_18c4_9d1e"),
   unit_id: unitId("daemonettes"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -451,11 +451,11 @@ export const EpidemiusBaleswordAndNurglingAttendants10eFactionPackChaosDaemons10
 };
 
 
-export const ExaltedFlamerFlamerMouths10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_flamer__flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const ExaltedFlamerFlamerMouths10eFactionPackChaosDaemons10eV127f6E07f13f0C2eeUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_flamer__flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2__7f6_e07f_13f0_c2ee"),
   unit_id: unitId("exalted_flamer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("flamer_mouths__10e__faction_pack_chaos_daemons_10e_v1_2__7f6_e07f_13f0_c2ee"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -464,11 +464,11 @@ export const ExaltedFlamerFlamerMouths10eFactionPackChaosDaemons10eV12UnitWeapon
 };
 
 
-export const ExaltedSeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_seeker_chariot__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const ExaltedSeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV1250c0D80fE7be91e1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_seeker_chariot__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__50c0_d80f_e7be_91e1"),
   unit_id: unitId("exalted_seeker_chariot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__50c0_d80f_e7be_91e1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -477,11 +477,11 @@ export const ExaltedSeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV12
 };
 
 
-export const ExaltedSeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_seeker_chariot__seeker_tongues__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const ExaltedSeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12495f64d374e5406bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_seeker_chariot__seeker_tongues__10e__faction_pack_chaos_daemons_10e_v1_2__495f_64d3_74e5_406b"),
   unit_id: unitId("exalted_seeker_chariot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("seeker_tongues__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("seeker_tongues__10e__faction_pack_chaos_daemons_10e_v1_2__495f_64d3_74e5_406b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -490,11 +490,11 @@ export const ExaltedSeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12Un
 };
 
 
-export const ExaltedSeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_seeker_chariot__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const ExaltedSeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV121daaF80c65b791f1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_seeker_chariot__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__1daa_f80c_65b7_91f1"),
   unit_id: unitId("exalted_seeker_chariot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__1daa_f80c_65b7_91f1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -702,7 +702,7 @@ export const HellflayersLashesOfTorment10eFactionPackChaosDaemons10eV120a8f36f3E
   id: unitWeaponId("hellflayers__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__0a8f_36f3_e90e_cf37"),
   unit_id: unitId("hellflayers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__0a8f_36f3_e90e_cf37"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -715,7 +715,7 @@ export const HellflayersLashesOfTorment10eFactionPackChaosDaemons10eV12B5d486e1A
   id: unitWeaponId("hellflayers__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__b5d4_86e1_aef9_68dd"),
   unit_id: unitId("hellflayers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__b5d4_86e1_aef9_68dd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -763,11 +763,11 @@ export const HeraldOfSlaaneshOnSteedOfSlaaneshLashingTongue10eFactionPackChaosDa
 };
 
 
-export const HeraldOfSlaaneshOnSteedOfSlaaneshRavagingClaws10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("herald_of_slaanesh_on_steed_of_slaanesh__ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const HeraldOfSlaaneshOnSteedOfSlaaneshRavagingClaws10eFactionPackChaosDaemons10eV125312Fec31ebe4d14UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("herald_of_slaanesh_on_steed_of_slaanesh__ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2__5312_fec3_1ebe_4d14"),
   unit_id: unitId("herald_of_slaanesh_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2__5312_fec3_1ebe_4d14"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1426,11 +1426,11 @@ export const ScabeiathraxTheBloatedBladeOfDecaySweep10eFactionPackChaosDaemons10
 };
 
 
-export const ScabeiathraxTheBloatedPutridVomit10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scabeiathrax_the_bloated__putrid_vomit__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const ScabeiathraxTheBloatedPutridVomit10eFactionPackChaosDaemons10eV12Ed28Ca98D85eBb35UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scabeiathrax_the_bloated__putrid_vomit__10e__faction_pack_chaos_daemons_10e_v1_2__ed28_ca98_d85e_bb35"),
   unit_id: unitId("scabeiathrax_the_bloated"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("putrid_vomit__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("putrid_vomit__10e__faction_pack_chaos_daemons_10e_v1_2__ed28_ca98_d85e_bb35"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1452,11 +1452,11 @@ export const ScreamersLampreyBite10eFactionPackChaosDaemons10eV12UnitWeapon: Uni
 };
 
 
-export const SeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("seeker_chariot__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const SeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV1250c0D80fE7be91e1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("seeker_chariot__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__50c0_d80f_e7be_91e1"),
   unit_id: unitId("seeker_chariot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__50c0_d80f_e7be_91e1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1478,11 +1478,11 @@ export const SeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12UnitWeapo
 };
 
 
-export const SeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("seeker_chariot__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const SeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV123eb34e49979fA98aUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("seeker_chariot__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__3eb3_4e49_979f_a98a"),
   unit_id: unitId("seeker_chariot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__3eb3_4e49_979f_a98a"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1517,11 +1517,11 @@ export const SeekersLashingTongues10eFactionPackChaosDaemons10eV123f44E2fA843676
 };
 
 
-export const SeekersSlashingClaws10eFactionPackChaosDaemons10eV12687fE6001e4b461fUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("seekers__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__687f_e600_1e4b_461f"),
+export const SeekersSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8687fE6001e4b461fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("seekers__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8__687f_e600_1e4b_461f"),
   unit_id: unitId("seekers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1530,11 +1530,11 @@ export const SeekersSlashingClaws10eFactionPackChaosDaemons10eV12687fE6001e4b461
 };
 
 
-export const SeekersSlashingClaws10eFactionPackChaosDaemons10eV12Cee2Dd97D3d21ca1UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("seekers__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__cee2_dd97_d3d2_1ca1"),
+export const SeekersSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8Cee2Dd97D3d21ca1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("seekers__slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8__cee2_dd97_d3d2_1ca1"),
   unit_id: unitId("seekers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("slashing_claws__10e__faction_pack_chaos_daemons_10e_v1_2__810b_975e_2ae9_9eb8"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1803,8 +1803,8 @@ export const SyllesskeCacophonicChoirWitchfire10eFactionPackChaosDaemons10eV12Un
 };
 
 
-export const SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12F237678Af88C21bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("syllesske__scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2__f23_7678_af88_c21b"),
+export const SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("syllesske__scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2"),
   unit_id: unitId("syllesske"),
   model_id: null,
   weapon_profile_id: weaponProfileId("scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2"),
@@ -1816,11 +1816,11 @@ export const SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12F237678Af88C2
 };
 
 
-export const SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12F8535e027aaaFe55UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("syllesske__scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2__f853_5e02_7aaa_fe55"),
+export const SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12F237678Af88C21bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("syllesske__scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2__f23_7678_af88_c21b"),
   unit_id: unitId("syllesske"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("scourging_whip__10e__faction_pack_chaos_daemons_10e_v1_2__f23_7678_af88_c21b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1894,8 +1894,8 @@ export const TheMasqueOfSlaaneshSerratedClaws10eFactionPackChaosDaemons10eV12Uni
 };
 
 
-export const TormentbringerLashesOfTorment10eFactionPackChaosDaemons10eV1260ae8126Dd79982bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tormentbringer__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__60ae_8126_dd79_982b"),
+export const TormentbringerLashesOfTorment10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tormentbringer__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
   unit_id: unitId("tormentbringer"),
   model_id: null,
   weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
@@ -1911,7 +1911,7 @@ export const TormentbringerLashesOfTorment10eFactionPackChaosDaemons10eV12Dbff9b
   id: unitWeaponId("tormentbringer__lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__dbff_9b30_a51b_0be1"),
   unit_id: unitId("tormentbringer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("lashes_of_torment__10e__faction_pack_chaos_daemons_10e_v1_2__dbff_9b30_a51b_0be1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -1946,11 +1946,11 @@ export const TormentbringerSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeap
 };
 
 
-export const TranceweaverRavagingClaws10eFactionPackChaosDaemons10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tranceweaver__ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+export const TranceweaverRavagingClaws10eFactionPackChaosDaemons10eV125312Fec31ebe4d14UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tranceweaver__ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2__5312_fec3_1ebe_4d14"),
   unit_id: unitId("tranceweaver"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("ravaging_claws__10e__faction_pack_chaos_daemons_10e_v1_2__5312_fec3_1ebe_4d14"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_chaos_daemons_10e_v1_2"),
   is_default: true,
@@ -2048,23 +2048,23 @@ export const chaosDaemonsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     BlueHorrorsCoruscatingBlueFlames10eFactionPackChaosDaemons10eV12UnitWeapon,
     BlueHorrorsCoruscatingYellowFlamesRefOnly10eFactionPackChaosDaemons10eV12UnitWeapon,
     BlueHorrorsYellowClawsRefOnly10eFactionPackChaosDaemons10eV12UnitWeapon,
-    BurningChariotFlamerMouths10eFactionPackChaosDaemons10eV12UnitWeapon,
+    BurningChariotFlamerMouths10eFactionPackChaosDaemons10eV1217e497cc21a5445dUnitWeapon,
     BurningChariotScreamerBites10eFactionPackChaosDaemons10eV12UnitWeapon,
     ContortedEpitomeCoiledTentacles10eFactionPackChaosDaemons10eV12UnitWeapon,
-    ContortedEpitomeRavagingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
+    ContortedEpitomeRavagingClaws10eFactionPackChaosDaemons10eV12Cbf389fD07e2d1UnitWeapon,
     DaemonPrinceOfChaosHellforgedWeaponsStrike10eFactionPackChaosDaemons10eV12UnitWeapon,
     DaemonPrinceOfChaosHellforgedWeaponsSweep10eFactionPackChaosDaemons10eV12UnitWeapon,
     DaemonPrinceOfChaosInfernalCannon10eFactionPackChaosDaemons10eV12UnitWeapon,
     DaemonPrinceOfChaosWithWingsHellforgedWeaponsStrike10eFactionPackChaosDaemons10eV12UnitWeapon,
     DaemonPrinceOfChaosWithWingsHellforgedWeaponsSweep10eFactionPackChaosDaemons10eV12UnitWeapon,
     DaemonPrinceOfChaosWithWingsInfernalCannon10eFactionPackChaosDaemons10eV12UnitWeapon,
-    DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8UnitWeapon,
-    DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12A8df2f1f18c49d1eUnitWeapon,
+    DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8810b975e2ae99eb8UnitWeapon,
+    DaemonettesSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8A8df2f1f18c49d1eUnitWeapon,
     EpidemiusBaleswordAndNurglingAttendants10eFactionPackChaosDaemons10eV12UnitWeapon,
-    ExaltedFlamerFlamerMouths10eFactionPackChaosDaemons10eV12UnitWeapon,
-    ExaltedSeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV12UnitWeapon,
-    ExaltedSeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12UnitWeapon,
-    ExaltedSeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
+    ExaltedFlamerFlamerMouths10eFactionPackChaosDaemons10eV127f6E07f13f0C2eeUnitWeapon,
+    ExaltedSeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV1250c0D80fE7be91e1UnitWeapon,
+    ExaltedSeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12495f64d374e5406bUnitWeapon,
+    ExaltedSeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV121daaF80c65b791f1UnitWeapon,
     FateskimmerScreamerBites10eFactionPackChaosDaemons10eV12UnitWeapon,
     FiendsBarbedTailAndDissectingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
     FlamersFlamerMouths10eFactionPackChaosDaemons10eV12851095d8D43d59f4UnitWeapon,
@@ -2085,7 +2085,7 @@ export const chaosDaemonsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     HellflayersSeekerTongues10eFactionPackChaosDaemons10eV12UnitWeapon,
     HellflayersSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
     HeraldOfSlaaneshOnSteedOfSlaaneshLashingTongue10eFactionPackChaosDaemons10eV12UnitWeapon,
-    HeraldOfSlaaneshOnSteedOfSlaaneshRavagingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
+    HeraldOfSlaaneshOnSteedOfSlaaneshRavagingClaws10eFactionPackChaosDaemons10eV125312Fec31ebe4d14UnitWeapon,
     HorticulousSlimuxAcidicMaw10eFactionPackChaosDaemons10eV12UnitWeapon,
     HorticulousSlimuxLoppingShears10eFactionPackChaosDaemons10eV12UnitWeapon,
     InfernalEnrapturessHeartstringLyreCacophonousMelody10eFactionPackChaosDaemons10eV12UnitWeapon,
@@ -2136,15 +2136,15 @@ export const chaosDaemonsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     RotigusStreamsOfBrackishFilth10eFactionPackChaosDaemons10eV12UnitWeapon,
     ScabeiathraxTheBloatedBladeOfDecayStrike10eFactionPackChaosDaemons10eV12UnitWeapon,
     ScabeiathraxTheBloatedBladeOfDecaySweep10eFactionPackChaosDaemons10eV12UnitWeapon,
-    ScabeiathraxTheBloatedPutridVomit10eFactionPackChaosDaemons10eV12UnitWeapon,
+    ScabeiathraxTheBloatedPutridVomit10eFactionPackChaosDaemons10eV12Ed28Ca98D85eBb35UnitWeapon,
     ScreamersLampreyBite10eFactionPackChaosDaemons10eV12UnitWeapon,
-    SeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV12UnitWeapon,
+    SeekerChariotLashesOfTorment10eFactionPackChaosDaemons10eV1250c0D80fE7be91e1UnitWeapon,
     SeekerChariotSeekerTongues10eFactionPackChaosDaemons10eV12UnitWeapon,
-    SeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
+    SeekerChariotSlashingClaws10eFactionPackChaosDaemons10eV123eb34e49979fA98aUnitWeapon,
     SeekersLashingTongues10eFactionPackChaosDaemons10eV120d2fEa57E348B5cbUnitWeapon,
     SeekersLashingTongues10eFactionPackChaosDaemons10eV123f44E2fA8436768UnitWeapon,
-    SeekersSlashingClaws10eFactionPackChaosDaemons10eV12687fE6001e4b461fUnitWeapon,
-    SeekersSlashingClaws10eFactionPackChaosDaemons10eV12Cee2Dd97D3d21ca1UnitWeapon,
+    SeekersSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8687fE6001e4b461fUnitWeapon,
+    SeekersSlashingClaws10eFactionPackChaosDaemons10eV12810b975e2ae99eb8Cee2Dd97D3d21ca1UnitWeapon,
     ShalaxiHelbaneLashOfSlaanesh10eFactionPackChaosDaemons10eV12UnitWeapon,
     ShalaxiHelbanePavaneOfSlaaneshFocusedWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
     ShalaxiHelbanePavaneOfSlaaneshWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
@@ -2165,18 +2165,18 @@ export const chaosDaemonsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     SyllesskeAxeOfDominion10eFactionPackChaosDaemons10eV12UnitWeapon,
     SyllesskeCacophonicChoirFocusedWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
     SyllesskeCacophonicChoirWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
+    SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12UnitWeapon,
     SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12F237678Af88C21bUnitWeapon,
-    SyllesskeScourgingWhip10eFactionPackChaosDaemons10eV12F8535e027aaaFe55UnitWeapon,
     TheBlueScribesSharpQuills10eFactionPackChaosDaemons10eV12UnitWeapon,
     TheChangelingInfernalFlamesFocusedWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
     TheChangelingInfernalFlamesWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
     TheChangelingTheTrickstersStaff10eFactionPackChaosDaemons10eV12UnitWeapon,
     TheMasqueOfSlaaneshSerratedClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
-    TormentbringerLashesOfTorment10eFactionPackChaosDaemons10eV1260ae8126Dd79982bUnitWeapon,
+    TormentbringerLashesOfTorment10eFactionPackChaosDaemons10eV12UnitWeapon,
     TormentbringerLashesOfTorment10eFactionPackChaosDaemons10eV12Dbff9b30A51b0be1UnitWeapon,
     TormentbringerSeekerTongues10eFactionPackChaosDaemons10eV12UnitWeapon,
     TormentbringerSlashingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
-    TranceweaverRavagingClaws10eFactionPackChaosDaemons10eV12UnitWeapon,
+    TranceweaverRavagingClaws10eFactionPackChaosDaemons10eV125312Fec31ebe4d14UnitWeapon,
     TzeentchSoulGrinderWarpGaze10eFactionPackChaosDaemons10eV12UnitWeapon,
     ZarakynelPhantasmagoriaFocusedWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,
     ZarakynelPhantasmagoriaWitchfire10eFactionPackChaosDaemons10eV12UnitWeapon,

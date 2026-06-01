@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const AdraxAgatoneDrakkis10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("adrax_agatone__drakkis__10e__faction_pack_space_marines_10e_v1_8"),
+export const AdraxAgatoneDrakkis10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("adrax_agatone__drakkis__10e__codex_space_marines_10e"),
   unit_id: unitId("adrax_agatone"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("drakkis__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("drakkis__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -22,11 +22,11 @@ export const AdraxAgatoneDrakkis10eFactionPackSpaceMarines10eV18UnitWeapon: Unit
 };
 
 
-export const AdraxAgatoneMalleusNoctum10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("adrax_agatone__malleus_noctum__10e__faction_pack_space_marines_10e_v1_8"),
+export const AdraxAgatoneMalleusNoctum10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("adrax_agatone__malleus_noctum__10e__codex_space_marines_10e"),
   unit_id: unitId("adrax_agatone"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("malleus_noctum__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("malleus_noctum__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const AdraxAgatoneMalleusNoctum10eFactionPackSpaceMarines10eV18UnitWeapon
 };
 
 
-export const VulkanHestanGauntletOfTheForge10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("vulkan_hestan__gauntlet_of_the_forge__10e__faction_pack_space_marines_10e_v1_8"),
+export const VulkanHestanGauntletOfTheForge10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("vulkan_hestan__gauntlet_of_the_forge__10e__codex_space_marines_10e"),
   unit_id: unitId("vulkan_hestan"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gauntlet_of_the_forge__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("gauntlet_of_the_forge__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const VulkanHestanGauntletOfTheForge10eFactionPackSpaceMarines10eV18UnitW
 };
 
 
-export const VulkanHestanSpearOfVulkan10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("vulkan_hestan__spear_of_vulkan__10e__faction_pack_space_marines_10e_v1_8"),
+export const VulkanHestanSpearOfVulkan10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("vulkan_hestan__spear_of_vulkan__10e__codex_space_marines_10e"),
   unit_id: unitId("vulkan_hestan"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("spear_of_vulkan__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("spear_of_vulkan__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -64,9 +64,9 @@ export const VulkanHestanSpearOfVulkan10eFactionPackSpaceMarines10eV18UnitWeapon
 export const salamandersUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    AdraxAgatoneDrakkis10eFactionPackSpaceMarines10eV18UnitWeapon,
-    AdraxAgatoneMalleusNoctum10eFactionPackSpaceMarines10eV18UnitWeapon,
-    VulkanHestanGauntletOfTheForge10eFactionPackSpaceMarines10eV18UnitWeapon,
-    VulkanHestanSpearOfVulkan10eFactionPackSpaceMarines10eV18UnitWeapon,
+    AdraxAgatoneDrakkis10eCodexSpaceMarines10eUnitWeapon,
+    AdraxAgatoneMalleusNoctum10eCodexSpaceMarines10eUnitWeapon,
+    VulkanHestanGauntletOfTheForge10eCodexSpaceMarines10eUnitWeapon,
+    VulkanHestanSpearOfVulkan10eCodexSpaceMarines10eUnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

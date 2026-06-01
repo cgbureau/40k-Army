@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const CaanokVarAxiomStrike10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("caanok_var__axiom_strike__10e__faction_pack_space_marines_10e_v1_8"),
+export const CaanokVarAxiomStrike10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("caanok_var__axiom_strike__10e__codex_space_marines_10e"),
   unit_id: unitId("caanok_var"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("axiom_strike__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("axiom_strike__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -22,11 +22,11 @@ export const CaanokVarAxiomStrike10eFactionPackSpaceMarines10eV18UnitWeapon: Uni
 };
 
 
-export const CaanokVarAxiomSweep10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("caanok_var__axiom_sweep__10e__faction_pack_space_marines_10e_v1_8"),
+export const CaanokVarAxiomSweep10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("caanok_var__axiom_sweep__10e__codex_space_marines_10e"),
   unit_id: unitId("caanok_var"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("axiom_sweep__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("axiom_sweep__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const CaanokVarAxiomSweep10eFactionPackSpaceMarines10eV18UnitWeapon: Unit
 };
 
 
-export const IronFatherFeirrosGorgonsWrath10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("iron_father_feirros__gorgons_wrath__10e__faction_pack_space_marines_10e_v1_8"),
+export const IronFatherFeirrosGorgonsWrath10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("iron_father_feirros__gorgons_wrath__10e__codex_space_marines_10e"),
   unit_id: unitId("iron_father_feirros"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gorgons_wrath__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("gorgons_wrath__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const IronFatherFeirrosGorgonsWrath10eFactionPackSpaceMarines10eV18UnitWe
 };
 
 
-export const IronFatherFeirrosHarrowhand10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("iron_father_feirros__harrowhand__10e__faction_pack_space_marines_10e_v1_8"),
+export const IronFatherFeirrosHarrowhand10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("iron_father_feirros__harrowhand__10e__codex_space_marines_10e"),
   unit_id: unitId("iron_father_feirros"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("harrowhand__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("harrowhand__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -61,11 +61,11 @@ export const IronFatherFeirrosHarrowhand10eFactionPackSpaceMarines10eV18UnitWeap
 };
 
 
-export const IronFatherFeirrosMedusanManipuli10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("iron_father_feirros__medusan_manipuli__10e__faction_pack_space_marines_10e_v1_8"),
+export const IronFatherFeirrosMedusanManipuli10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("iron_father_feirros__medusan_manipuli__10e__codex_space_marines_10e"),
   unit_id: unitId("iron_father_feirros"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("medusan_manipuli__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("medusan_manipuli__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -77,10 +77,10 @@ export const IronFatherFeirrosMedusanManipuli10eFactionPackSpaceMarines10eV18Uni
 export const ironHandsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    CaanokVarAxiomStrike10eFactionPackSpaceMarines10eV18UnitWeapon,
-    CaanokVarAxiomSweep10eFactionPackSpaceMarines10eV18UnitWeapon,
-    IronFatherFeirrosGorgonsWrath10eFactionPackSpaceMarines10eV18UnitWeapon,
-    IronFatherFeirrosHarrowhand10eFactionPackSpaceMarines10eV18UnitWeapon,
-    IronFatherFeirrosMedusanManipuli10eFactionPackSpaceMarines10eV18UnitWeapon,
+    CaanokVarAxiomStrike10eCodexSpaceMarines10eUnitWeapon,
+    CaanokVarAxiomSweep10eCodexSpaceMarines10eUnitWeapon,
+    IronFatherFeirrosGorgonsWrath10eCodexSpaceMarines10eUnitWeapon,
+    IronFatherFeirrosHarrowhand10eCodexSpaceMarines10eUnitWeapon,
+    IronFatherFeirrosMedusanManipuli10eCodexSpaceMarines10eUnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

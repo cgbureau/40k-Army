@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const AhrimanBlackStaffOfAhriman10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ahriman__black_staff_of_ahriman__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const AhrimanBlackStaffOfAhriman10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ahriman__black_staff_of_ahriman__10e__codex_thousand_sons_10e"),
   unit_id: unitId("ahriman"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("black_staff_of_ahriman__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("black_staff_of_ahriman__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -22,11 +22,11 @@ export const AhrimanBlackStaffOfAhriman10eFactionPackThousandSons10eV11UnitWeapo
 };
 
 
-export const AhrimanTransmogrifyingBlast10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ahriman__transmogrifying_blast__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const AhrimanTransmogrifyingBlast10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ahriman__transmogrifying_blast__10e__codex_thousand_sons_10e"),
   unit_id: unitId("ahriman"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("transmogrifying_blast__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("transmogrifying_blast__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const AhrimanTransmogrifyingBlast10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const BlueHorrorsBlueClaws10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("blue_horrors__blue_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const BlueHorrorsBlueClaws10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("blue_horrors__blue_claws__10e__codex_thousand_sons_10e"),
   unit_id: unitId("blue_horrors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blue_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("blue_claws__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const BlueHorrorsBlueClaws10eFactionPackThousandSons10eV11UnitWeapon: Uni
 };
 
 
-export const BlueHorrorsCoruscatingBlueFlames10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("blue_horrors__coruscating_blue_flames__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const BlueHorrorsCoruscatingBlueFlames10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("blue_horrors__coruscating_blue_flames__10e__codex_thousand_sons_10e"),
   unit_id: unitId("blue_horrors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("coruscating_blue_flames__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("coruscating_blue_flames__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -87,11 +87,11 @@ export const BlueHorrorsYellowClawsRefOnly10eCodexThousandSons10eUnitWeapon: Uni
 };
 
 
-export const ChaosLandRaiderArmouredTracks10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_land_raider__armoured_tracks__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosLandRaiderArmouredTracks10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_land_raider__armoured_tracks__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_land_raider"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_tracks__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("armoured_tracks__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -100,11 +100,11 @@ export const ChaosLandRaiderArmouredTracks10eFactionPackThousandSons10eV11UnitWe
 };
 
 
-export const ChaosLandRaiderSoulshatterLascannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_land_raider__soulshatter_lascannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosLandRaiderSoulshatterLascannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_land_raider__soulshatter_lascannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_land_raider"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("soulshatter_lascannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("soulshatter_lascannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -113,11 +113,11 @@ export const ChaosLandRaiderSoulshatterLascannon10eFactionPackThousandSons10eV11
 };
 
 
-export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV166c0f3a7b40ea2761UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__6c0f_3a7b_40ea_2761"),
+export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexThousandSons10e6c0f3a7b40ea2761UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__codex_thousand_sons_10e__6c0f_3a7b_40ea_2761"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -126,11 +126,11 @@ export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16E397896e40e12dbcUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__e397_896e_40e1_2dbc"),
+export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexThousandSons10eE397896e40e12dbcUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__codex_thousand_sons_10e__e397_896e_40e1_2dbc"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -139,11 +139,11 @@ export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnDiscOfTzeentchAstartesChainsword10eFactionPackBlackTemplars10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__astartes_chainsword__10e__faction_pack_black_templars_10e_v1_1"),
+export const ChaosLordOnDiscOfTzeentchAstartesChainsword10eCodexThousandSons10e509fBd37F67781beUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__astartes_chainsword__10e__codex_thousand_sons_10e__509f_bd37_f677_81be"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_black_templars_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_thousand_sons_10e__509f_bd37_f677_81be"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -152,11 +152,11 @@ export const ChaosLordOnDiscOfTzeentchAstartesChainsword10eFactionPackBlackTempl
 };
 
 
-export const ChaosLordOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10e3c01D4f627fB17dUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__bolt_pistol__10e__codex_astra_militarum_10e__3c01_d4f6_27f_b17d"),
+export const ChaosLordOnDiscOfTzeentchBoltPistol10eCodexThousandSons10e3c01D4f627fB17dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__bolt_pistol__10e__codex_thousand_sons_10e__3c01_d4f6_27f_b17d"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -165,11 +165,11 @@ export const ChaosLordOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10e3c01D4f
 };
 
 
-export const ChaosLordOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10e46418ffa5c477cfcUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__bolt_pistol__10e__codex_astra_militarum_10e__4641_8ffa_5c47_7cfc"),
+export const ChaosLordOnDiscOfTzeentchBoltPistol10eCodexThousandSons10e46418ffa5c477cfcUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__bolt_pistol__10e__codex_thousand_sons_10e__4641_8ffa_5c47_7cfc"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -178,11 +178,11 @@ export const ChaosLordOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10e46418ff
 };
 
 
-export const ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eCodexThousandSons10e9559653dCc46E894UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__close_combat_weapon__10e__codex_thousand_sons_10e__9559_653d_cc46_e894"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_thousand_sons_10e__9559_653d_cc46_e894"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -191,11 +191,11 @@ export const ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eFactionPackThousandSon
 };
 
 
-export const ChaosLordOnDiscOfTzeentchCombiBolter10eFactionPackAdeptusCustodes10eV10UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__combi_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+export const ChaosLordOnDiscOfTzeentchCombiBolter10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__combi_bolter__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -204,11 +204,11 @@ export const ChaosLordOnDiscOfTzeentchCombiBolter10eFactionPackAdeptusCustodes10
 };
 
 
-export const ChaosLordOnDiscOfTzeentchCombiWeapon10eFactionPackAdeptaSororitas10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__combi_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+export const ChaosLordOnDiscOfTzeentchCombiWeapon10eCodexThousandSons10e234Ec77A9427d1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__combi_weapon__10e__codex_thousand_sons_10e__234_ec77_a942_7d1"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_thousand_sons_10e__234_ec77_a942_7d1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -217,11 +217,11 @@ export const ChaosLordOnDiscOfTzeentchCombiWeapon10eFactionPackAdeptaSororitas10
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum10e84a37d2d9179475cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_standard__10e__codex_astra_militarum_10e__84a3_7d2d_9179_475c"),
+export const ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__paired_accursed_weapons__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -230,11 +230,11 @@ export const ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum10eA0233f5f7b307147UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_standard__10e__codex_astra_militarum_10e__a023_3f5f_7b30_7147"),
+export const ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexThousandSons10e84a37d2d9179475cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_standard__10e__codex_thousand_sons_10e__84a3_7d2d_9179_475c"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -243,11 +243,11 @@ export const ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitarum10eC119B815158a3758UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_supercharge__10e__codex_astra_militarum_10e__c119_b815_158a_3758"),
+export const ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexThousandSons10eA0233f5f7b307147UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_standard__10e__codex_thousand_sons_10e__a023_3f5f_7b30_7147"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -256,11 +256,11 @@ export const ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilita
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitarum10eE21d62a16920A0UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_supercharge__10e__codex_astra_militarum_10e__e21d_62a1_6920_a0"),
+export const ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexThousandSons10eC119B815158a3758UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_supercharge__10e__codex_thousand_sons_10e__c119_b815_158a_3758"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -269,11 +269,11 @@ export const ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilita
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10eV1137387e7590D97dUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__faction_pack_adeptus_mechanicus_10e_v1_1__3738_7e75_90_d97d"),
+export const ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexThousandSons10eE21d62a16920A0UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__plasma_pistol_supercharge__10e__codex_thousand_sons_10e__e21d_62a1_6920_a0"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -282,11 +282,11 @@ export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10eV11C326B10aB4c8A3e6UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__faction_pack_adeptus_mechanicus_10e_v1_1__c326_b10a_b4c8_a3e6"),
+export const ChaosLordOnDiscOfTzeentchPowerFist10eCodexThousandSons10e37387e7590D97dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__codex_thousand_sons_10e__3738_7e75_90_d97d"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -295,11 +295,24 @@ export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10
 };
 
 
-export const ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_predator_annihilator__predator_twin_lascannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosLordOnDiscOfTzeentchPowerFist10eCodexThousandSons10eC326B10aB4c8A3e6UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__codex_thousand_sons_10e__c326_b10a_b4c8_a3e6"),
+  unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosPredatorAnnihilatorPredatorTwinLascannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_predator_annihilator__predator_twin_lascannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_predator_annihilator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("predator_twin_lascannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("predator_twin_lascannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -308,11 +321,11 @@ export const ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackThousand
 };
 
 
-export const ChaosPredatorDestructorPredatorAutocannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_predator_destructor__predator_autocannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosPredatorDestructorPredatorAutocannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_predator_destructor__predator_autocannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_predator_destructor"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("predator_autocannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("predator_autocannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -321,11 +334,11 @@ export const ChaosPredatorDestructorPredatorAutocannon10eFactionPackThousandSons
 };
 
 
-export const ChaosSpawnHideousMutations10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_spawn__hideous_mutations__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosSpawnHideousMutations10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_spawn__hideous_mutations__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_spawn"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -334,11 +347,11 @@ export const ChaosSpawnHideousMutations10eFactionPackThousandSons10eV11UnitWeapo
 };
 
 
-export const ChaosSpawnFleshChangeHideousMutations10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_spawn_flesh_change__hideous_mutations__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosSpawnFleshChangeHideousMutations10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_spawn_flesh_change__hideous_mutations__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_spawn_flesh_change"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -347,11 +360,11 @@ export const ChaosSpawnFleshChangeHideousMutations10eFactionPackThousandSons10eV
 };
 
 
-export const ChaosVindicatorDemolisherCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_vindicator__demolisher_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ChaosVindicatorDemolisherCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_vindicator__demolisher_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("chaos_vindicator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("demolisher_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("demolisher_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -360,11 +373,11 @@ export const ChaosVindicatorDemolisherCannon10eFactionPackThousandSons10eV11Unit
 };
 
 
-export const DaemonPrinceOfTzeentchDarkBlessing10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch__dark_blessing__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchDarkBlessing10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch__dark_blessing__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("dark_blessing__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("dark_blessing__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -373,11 +386,11 @@ export const DaemonPrinceOfTzeentchDarkBlessing10eFactionPackThousandSons10eV11U
 };
 
 
-export const DaemonPrinceOfTzeentchHellforgedWeaponsStrike10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch__hellforged_weapons_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchHellforgedWeaponsStrike10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch__hellforged_weapons_strike__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -386,11 +399,11 @@ export const DaemonPrinceOfTzeentchHellforgedWeaponsStrike10eFactionPackThousand
 };
 
 
-export const DaemonPrinceOfTzeentchHellforgedWeaponsSweep10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch__hellforged_weapons_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchHellforgedWeaponsSweep10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch__hellforged_weapons_sweep__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -399,11 +412,11 @@ export const DaemonPrinceOfTzeentchHellforgedWeaponsSweep10eFactionPackThousandS
 };
 
 
-export const DaemonPrinceOfTzeentchInfernalCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch__infernal_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchInfernalCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch__infernal_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("infernal_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -412,11 +425,11 @@ export const DaemonPrinceOfTzeentchInfernalCannon10eFactionPackThousandSons10eV1
 };
 
 
-export const DaemonPrinceOfTzeentchWithWingsDarkBlessing10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__dark_blessing__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchWithWingsDarkBlessing10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__dark_blessing__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("dark_blessing__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("dark_blessing__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -425,11 +438,11 @@ export const DaemonPrinceOfTzeentchWithWingsDarkBlessing10eFactionPackThousandSo
 };
 
 
-export const DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsStrike10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__hellforged_weapons_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsStrike10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__hellforged_weapons_strike__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -438,11 +451,11 @@ export const DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsStrike10eFactionPac
 };
 
 
-export const DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsSweep10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__hellforged_weapons_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsSweep10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__hellforged_weapons_sweep__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -451,11 +464,11 @@ export const DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsSweep10eFactionPack
 };
 
 
-export const DaemonPrinceOfTzeentchWithWingsInfernalCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__infernal_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DaemonPrinceOfTzeentchWithWingsInfernalCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("daemon_prince_of_tzeentch_with_wings__infernal_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("daemon_prince_of_tzeentch_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("infernal_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -464,11 +477,11 @@ export const DaemonPrinceOfTzeentchWithWingsInfernalCannon10eFactionPackThousand
 };
 
 
-export const DefilerEctoplasmaDestructor10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__ectoplasma_destructor__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerEctoplasmaDestructor10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__ectoplasma_destructor__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ectoplasma_destructor__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("ectoplasma_destructor__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -477,11 +490,11 @@ export const DefilerEctoplasmaDestructor10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const DefilerExcruciatorCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__excruciator_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerExcruciatorCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__excruciator_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -490,11 +503,11 @@ export const DefilerExcruciatorCannon10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const DefilerHadesBattleCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__hades_battle_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerHadesBattleCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__hades_battle_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hades_battle_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hades_battle_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -503,11 +516,11 @@ export const DefilerHadesBattleCannon10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const DefilerHeavyBaleflamer10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__heavy_baleflamer__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerHeavyBaleflamer10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_baleflamer__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_baleflamer__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("heavy_baleflamer__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -516,11 +529,11 @@ export const DefilerHeavyBaleflamer10eFactionPackThousandSons10eV11UnitWeapon: U
 };
 
 
-export const DefilerHeavyMissileLauncherFrag10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__heavy_missile_launcher_frag__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerHeavyMissileLauncherFrag10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_missile_launcher_frag__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_missile_launcher_frag__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("heavy_missile_launcher_frag__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -529,11 +542,11 @@ export const DefilerHeavyMissileLauncherFrag10eFactionPackThousandSons10eV11Unit
 };
 
 
-export const DefilerHeavyMissileLauncherKrak10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__heavy_missile_launcher_krak__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerHeavyMissileLauncherKrak10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_missile_launcher_krak__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_missile_launcher_krak__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("heavy_missile_launcher_krak__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -555,11 +568,11 @@ export const DefilerPyrafluxMagmaCutter10eCodexThousandSons10eUnitWeapon: UnitWe
 };
 
 
-export const DefilerShearingClawsStrike10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__shearing_claws_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerShearingClawsStrike10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__shearing_claws_strike__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shearing_claws_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("shearing_claws_strike__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -568,11 +581,11 @@ export const DefilerShearingClawsStrike10eFactionPackThousandSons10eV11UnitWeapo
 };
 
 
-export const DefilerShearingClawsSweep10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__shearing_claws_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const DefilerShearingClawsSweep10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__shearing_claws_sweep__10e__codex_thousand_sons_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shearing_claws_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("shearing_claws_sweep__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -581,11 +594,11 @@ export const DefilerShearingClawsSweep10eFactionPackThousandSons10eV11UnitWeapon
 };
 
 
-export const ExaltedSorcererAstralBlast10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_sorcerer__astral_blast__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ExaltedSorcererAstralBlast10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_sorcerer__astral_blast__10e__codex_thousand_sons_10e"),
   unit_id: unitId("exalted_sorcerer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astral_blast__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("astral_blast__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -594,11 +607,11 @@ export const ExaltedSorcererAstralBlast10eFactionPackThousandSons10eV11UnitWeapo
 };
 
 
-export const ExaltedSorcererProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_sorcerer__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ExaltedSorcererProsperineKhopesh10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_sorcerer__prosperine_khopesh__10e__codex_thousand_sons_10e"),
   unit_id: unitId("exalted_sorcerer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -607,11 +620,11 @@ export const ExaltedSorcererProsperineKhopesh10eFactionPackThousandSons10eV11Uni
 };
 
 
-export const ExaltedSorcererOnDiscOfTzeentchArcaneFire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_sorcerer_on_disc_of_tzeentch__arcane_fire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ExaltedSorcererOnDiscOfTzeentchArcaneFire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_sorcerer_on_disc_of_tzeentch__arcane_fire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("exalted_sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("arcane_fire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("arcane_fire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -620,11 +633,11 @@ export const ExaltedSorcererOnDiscOfTzeentchArcaneFire10eFactionPackThousandSons
 };
 
 
-export const ExaltedSorcererOnDiscOfTzeentchProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_sorcerer_on_disc_of_tzeentch__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ExaltedSorcererOnDiscOfTzeentchProsperineKhopesh10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_sorcerer_on_disc_of_tzeentch__prosperine_khopesh__10e__codex_thousand_sons_10e"),
   unit_id: unitId("exalted_sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -633,11 +646,11 @@ export const ExaltedSorcererOnDiscOfTzeentchProsperineKhopesh10eFactionPackThous
 };
 
 
-export const FlamersFlamerMouths10eFactionPackThousandSons10eV111af8Fa5eF46908a8UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("flamers__flamer_mouths__10e__faction_pack_thousand_sons_10e_v1_1__1af8_fa5e_f469_08a8"),
+export const FlamersFlamerMouths10eCodexThousandSons10e1af8Fa5eF46908a8UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("flamers__flamer_mouths__10e__codex_thousand_sons_10e__1af8_fa5e_f469_08a8"),
   unit_id: unitId("flamers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer_mouths__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("flamer_mouths__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -646,11 +659,11 @@ export const FlamersFlamerMouths10eFactionPackThousandSons10eV111af8Fa5eF46908a8
 };
 
 
-export const FlamersFlamerMouths10eFactionPackThousandSons10eV11Fd036f8cAae2Dd8eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("flamers__flamer_mouths__10e__faction_pack_thousand_sons_10e_v1_1__fd03_6f8c_aae2_dd8e"),
+export const FlamersFlamerMouths10eCodexThousandSons10eFd036f8cAae2Dd8eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("flamers__flamer_mouths__10e__codex_thousand_sons_10e__fd03_6f8c_aae2_dd8e"),
   unit_id: unitId("flamers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer_mouths__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("flamer_mouths__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -659,11 +672,11 @@ export const FlamersFlamerMouths10eFactionPackThousandSons10eV11Fd036f8cAae2Dd8e
 };
 
 
-export const FlamersFlickeringFlames10eFactionPackThousandSons10eV1184c06502D0e90d86UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("flamers__flickering_flames__10e__faction_pack_thousand_sons_10e_v1_1__84c0_6502_d0e9_0d86"),
+export const FlamersFlickeringFlames10eCodexThousandSons10e84c06502D0e90d86UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("flamers__flickering_flames__10e__codex_thousand_sons_10e__84c0_6502_d0e9_0d86"),
   unit_id: unitId("flamers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flickering_flames__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("flickering_flames__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -672,11 +685,11 @@ export const FlamersFlickeringFlames10eFactionPackThousandSons10eV1184c06502D0e9
 };
 
 
-export const FlamersFlickeringFlames10eFactionPackThousandSons10eV11950a9947Bee0Cd3eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("flamers__flickering_flames__10e__faction_pack_thousand_sons_10e_v1_1__950a_9947_bee0_cd3e"),
+export const FlamersFlickeringFlames10eCodexThousandSons10e950a9947Bee0Cd3eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("flamers__flickering_flames__10e__codex_thousand_sons_10e__950a_9947_bee0_cd3e"),
   unit_id: unitId("flamers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flickering_flames__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("flickering_flames__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -685,11 +698,11 @@ export const FlamersFlickeringFlames10eFactionPackThousandSons10eV11950a9947Bee0
 };
 
 
-export const ForgefiendForgefiendClaws10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("forgefiend__forgefiend_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ForgefiendForgefiendClaws10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("forgefiend__forgefiend_claws__10e__codex_thousand_sons_10e"),
   unit_id: unitId("forgefiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("forgefiend_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("forgefiend_claws__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -698,11 +711,11 @@ export const ForgefiendForgefiendClaws10eFactionPackThousandSons10eV11UnitWeapon
 };
 
 
-export const ForgefiendForgefiendJaws10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("forgefiend__forgefiend_jaws__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ForgefiendForgefiendJaws10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("forgefiend__forgefiend_jaws__10e__codex_thousand_sons_10e"),
   unit_id: unitId("forgefiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("forgefiend_jaws__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("forgefiend_jaws__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -711,11 +724,11 @@ export const ForgefiendForgefiendJaws10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const HelbruteCloseCombatWeapon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteCloseCombatWeapon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__close_combat_weapon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -724,11 +737,11 @@ export const HelbruteCloseCombatWeapon10eFactionPackThousandSons10eV11UnitWeapon
 };
 
 
-export const HelbruteHelbruteHammer10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__helbrute_hammer__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteHelbruteHammer10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__helbrute_hammer__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("helbrute_hammer__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("helbrute_hammer__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -737,11 +750,11 @@ export const HelbruteHelbruteHammer10eFactionPackThousandSons10eV11UnitWeapon: U
 };
 
 
-export const HelbruteHelbrutePlasmaCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__helbrute_plasma_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteHelbrutePlasmaCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__helbrute_plasma_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("helbrute_plasma_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("helbrute_plasma_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -750,11 +763,11 @@ export const HelbruteHelbrutePlasmaCannon10eFactionPackThousandSons10eV11UnitWea
 };
 
 
-export const HelbruteMissileLauncherFrag10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__missile_launcher_frag__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteMissileLauncherFrag10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__missile_launcher_frag__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -763,11 +776,11 @@ export const HelbruteMissileLauncherFrag10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const HelbruteMissileLauncherKrak10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__missile_launcher_krak__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteMissileLauncherKrak10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__missile_launcher_krak__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -776,11 +789,11 @@ export const HelbruteMissileLauncherKrak10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const HelbruteMultiMelta10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__multi_melta__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteMultiMelta10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__multi_melta__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("multi_melta__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("multi_melta__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -789,11 +802,11 @@ export const HelbruteMultiMelta10eFactionPackThousandSons10eV11UnitWeapon: UnitW
 };
 
 
-export const HelbrutePowerScourge10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__power_scourge__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbrutePowerScourge10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__power_scourge__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_scourge__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("power_scourge__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -802,11 +815,11 @@ export const HelbrutePowerScourge10eFactionPackThousandSons10eV11UnitWeapon: Uni
 };
 
 
-export const HelbruteTwinAutocannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__twin_autocannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HelbruteTwinAutocannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__twin_autocannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_autocannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("twin_autocannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -815,11 +828,11 @@ export const HelbruteTwinAutocannon10eFactionPackThousandSons10eV11UnitWeapon: U
 };
 
 
-export const HeldrakeBaleflamer10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heldrake__baleflamer__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HeldrakeBaleflamer10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heldrake__baleflamer__10e__codex_thousand_sons_10e"),
   unit_id: unitId("heldrake"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("baleflamer__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("baleflamer__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -828,11 +841,11 @@ export const HeldrakeBaleflamer10eFactionPackThousandSons10eV11UnitWeapon: UnitW
 };
 
 
-export const HeldrakeHeldrakeClaws10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heldrake__heldrake_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HeldrakeHeldrakeClaws10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heldrake__heldrake_claws__10e__codex_thousand_sons_10e"),
   unit_id: unitId("heldrake"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heldrake_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("heldrake_claws__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -841,11 +854,50 @@ export const HeldrakeHeldrakeClaws10eFactionPackThousandSons10eV11UnitWeapon: Un
 };
 
 
-export const InfernalMasterFiresOfTheAbyssFocusedWitchfire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("infernal_master__fires_of_the_abyss_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const HellBladeArmouredHull10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_blade__armoured_hull__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("hell_blade"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HellTalonArmouredHull10eCodexThousandSons10e864d74bdD985Ef9fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__armoured_hull__10e__codex_thousand_sons_10e__864d_74bd_d985_ef9f"),
+  unit_id: unitId("hell_talon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__codex_thousand_sons_10e__864d_74bd_d985_ef9f"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HellTalonAutocannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__autocannon__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("hell_talon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("autocannon__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const InfernalMasterFiresOfTheAbyssFocusedWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("infernal_master__fires_of_the_abyss_focused_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("infernal_master"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fires_of_the_abyss_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("fires_of_the_abyss_focused_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -854,11 +906,11 @@ export const InfernalMasterFiresOfTheAbyssFocusedWitchfire10eFactionPackThousand
 };
 
 
-export const InfernalMasterFiresOfTheAbyssWitchfire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("infernal_master__fires_of_the_abyss_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const InfernalMasterFiresOfTheAbyssWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("infernal_master__fires_of_the_abyss_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("infernal_master"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fires_of_the_abyss_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("fires_of_the_abyss_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -867,11 +919,11 @@ export const InfernalMasterFiresOfTheAbyssWitchfire10eFactionPackThousandSons10e
 };
 
 
-export const KairosFateweaverInfernalGatewayFocusedWitchfire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kairos_fateweaver__infernal_gateway_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const KairosFateweaverInfernalGatewayFocusedWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kairos_fateweaver__infernal_gateway_focused_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("kairos_fateweaver"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_gateway_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("infernal_gateway_focused_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -880,11 +932,11 @@ export const KairosFateweaverInfernalGatewayFocusedWitchfire10eFactionPackThousa
 };
 
 
-export const KairosFateweaverInfernalGatewayWitchfire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kairos_fateweaver__infernal_gateway_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const KairosFateweaverInfernalGatewayWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kairos_fateweaver__infernal_gateway_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("kairos_fateweaver"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_gateway_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("infernal_gateway_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -893,11 +945,11 @@ export const KairosFateweaverInfernalGatewayWitchfire10eFactionPackThousandSons1
 };
 
 
-export const KairosFateweaverStaffOfTomorrow10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kairos_fateweaver__staff_of_tomorrow__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const KairosFateweaverStaffOfTomorrow10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kairos_fateweaver__staff_of_tomorrow__10e__codex_thousand_sons_10e"),
   unit_id: unitId("kairos_fateweaver"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("staff_of_tomorrow__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("staff_of_tomorrow__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -906,11 +958,11 @@ export const KairosFateweaverStaffOfTomorrow10eFactionPackThousandSons10eV11Unit
 };
 
 
-export const LordOfChangeBalefulSword10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_of_change__baleful_sword__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const LordOfChangeBalefulSword10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_of_change__baleful_sword__10e__codex_thousand_sons_10e"),
   unit_id: unitId("lord_of_change"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("baleful_sword__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("baleful_sword__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -919,11 +971,11 @@ export const LordOfChangeBalefulSword10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const LordOfChangeBoltOfChangeFocusedWitchfire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_of_change__bolt_of_change_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const LordOfChangeBoltOfChangeFocusedWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_of_change__bolt_of_change_focused_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("lord_of_change"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_of_change_focused_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("bolt_of_change_focused_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -932,11 +984,11 @@ export const LordOfChangeBoltOfChangeFocusedWitchfire10eFactionPackThousandSons1
 };
 
 
-export const LordOfChangeBoltOfChangeWitchfire10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_of_change__bolt_of_change_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const LordOfChangeBoltOfChangeWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_of_change__bolt_of_change_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("lord_of_change"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_of_change_witchfire__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("bolt_of_change_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -945,11 +997,11 @@ export const LordOfChangeBoltOfChangeWitchfire10eFactionPackThousandSons10eV11Un
 };
 
 
-export const LordOfChangeRodOfSorcery10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_of_change__rod_of_sorcery__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const LordOfChangeRodOfSorcery10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_of_change__rod_of_sorcery__10e__codex_thousand_sons_10e"),
   unit_id: unitId("lord_of_change"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rod_of_sorcery__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("rod_of_sorcery__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -958,11 +1010,11 @@ export const LordOfChangeRodOfSorcery10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const LordOfChangeStaffOfTzeentch10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_of_change__staff_of_tzeentch__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const LordOfChangeStaffOfTzeentch10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_of_change__staff_of_tzeentch__10e__codex_thousand_sons_10e"),
   unit_id: unitId("lord_of_change"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("staff_of_tzeentch__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("staff_of_tzeentch__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -971,11 +1023,11 @@ export const LordOfChangeStaffOfTzeentch10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const MagnusTheRedBladeOfMagnusStrike10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("magnus_the_red__blade_of_magnus_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MagnusTheRedBladeOfMagnusStrike10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("magnus_the_red__blade_of_magnus_strike__10e__codex_thousand_sons_10e"),
   unit_id: unitId("magnus_the_red"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blade_of_magnus_strike__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("blade_of_magnus_strike__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -984,11 +1036,11 @@ export const MagnusTheRedBladeOfMagnusStrike10eFactionPackThousandSons10eV11Unit
 };
 
 
-export const MagnusTheRedBladeOfMagnusSweep10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("magnus_the_red__blade_of_magnus_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MagnusTheRedBladeOfMagnusSweep10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("magnus_the_red__blade_of_magnus_sweep__10e__codex_thousand_sons_10e"),
   unit_id: unitId("magnus_the_red"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blade_of_magnus_sweep__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("blade_of_magnus_sweep__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -997,11 +1049,11 @@ export const MagnusTheRedBladeOfMagnusSweep10eFactionPackThousandSons10eV11UnitW
 };
 
 
-export const MagnusTheRedGazeOfMagnus10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("magnus_the_red__gaze_of_magnus__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MagnusTheRedGazeOfMagnus10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("magnus_the_red__gaze_of_magnus__10e__codex_thousand_sons_10e"),
   unit_id: unitId("magnus_the_red"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gaze_of_magnus__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("gaze_of_magnus__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1010,11 +1062,11 @@ export const MagnusTheRedGazeOfMagnus10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const MagnusTheRedTzeentchsFirestorm10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("magnus_the_red__tzeentchs_firestorm__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MagnusTheRedTzeentchsFirestorm10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("magnus_the_red__tzeentchs_firestorm__10e__codex_thousand_sons_10e"),
   unit_id: unitId("magnus_the_red"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("tzeentchs_firestorm__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("tzeentchs_firestorm__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1023,11 +1075,11 @@ export const MagnusTheRedTzeentchsFirestorm10eFactionPackThousandSons10eV11UnitW
 };
 
 
-export const MaulerfiendLasherTendrils10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__lasher_tendrils__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MaulerfiendLasherTendrils10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__lasher_tendrils__10e__codex_thousand_sons_10e"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lasher_tendrils__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("lasher_tendrils__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1036,11 +1088,11 @@ export const MaulerfiendLasherTendrils10eFactionPackThousandSons10eV11UnitWeapon
 };
 
 
-export const MaulerfiendMagmaCutter10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__magma_cutter__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MaulerfiendMagmaCutter10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__magma_cutter__10e__codex_thousand_sons_10e"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("magma_cutter__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1049,11 +1101,11 @@ export const MaulerfiendMagmaCutter10eFactionPackThousandSons10eV11UnitWeapon: U
 };
 
 
-export const MaulerfiendMaulerfiendFists10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__maulerfiend_fists__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MaulerfiendMaulerfiendFists10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__maulerfiend_fists__10e__codex_thousand_sons_10e"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("maulerfiend_fists__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("maulerfiend_fists__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1062,11 +1114,11 @@ export const MaulerfiendMaulerfiendFists10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const MutalithVortexBeastBetentacledMaw10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutalith_vortex_beast__betentacled_maw__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MutalithVortexBeastBetentacledMaw10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutalith_vortex_beast__betentacled_maw__10e__codex_thousand_sons_10e"),
   unit_id: unitId("mutalith_vortex_beast"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("betentacled_maw__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("betentacled_maw__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1075,11 +1127,11 @@ export const MutalithVortexBeastBetentacledMaw10eFactionPackThousandSons10eV11Un
 };
 
 
-export const MutalithVortexBeastMutalithClaws10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutalith_vortex_beast__mutalith_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MutalithVortexBeastMutalithClaws10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutalith_vortex_beast__mutalith_claws__10e__codex_thousand_sons_10e"),
   unit_id: unitId("mutalith_vortex_beast"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mutalith_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("mutalith_claws__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1088,11 +1140,11 @@ export const MutalithVortexBeastMutalithClaws10eFactionPackThousandSons10eV11Uni
 };
 
 
-export const MutalithVortexBeastWarpVortexBeam10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutalith_vortex_beast__warp_vortex_beam__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MutalithVortexBeastWarpVortexBeam10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutalith_vortex_beast__warp_vortex_beam__10e__codex_thousand_sons_10e"),
   unit_id: unitId("mutalith_vortex_beast"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_vortex_beam__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("warp_vortex_beam__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1101,11 +1153,11 @@ export const MutalithVortexBeastWarpVortexBeam10eFactionPackThousandSons10eV11Un
 };
 
 
-export const MutalithVortexBeastWarpVortexBlast10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutalith_vortex_beast__warp_vortex_blast__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MutalithVortexBeastWarpVortexBlast10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutalith_vortex_beast__warp_vortex_blast__10e__codex_thousand_sons_10e"),
   unit_id: unitId("mutalith_vortex_beast"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_vortex_blast__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("warp_vortex_blast__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1114,11 +1166,11 @@ export const MutalithVortexBeastWarpVortexBlast10eFactionPackThousandSons10eV11U
 };
 
 
-export const MutalithVortexBeastWarpVortexTorrent10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutalith_vortex_beast__warp_vortex_torrent__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const MutalithVortexBeastWarpVortexTorrent10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutalith_vortex_beast__warp_vortex_torrent__10e__codex_thousand_sons_10e"),
   unit_id: unitId("mutalith_vortex_beast"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_vortex_torrent__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("warp_vortex_torrent__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1153,11 +1205,11 @@ export const PinkHorrorsCoruscatingBlueFlamesRefOnly10eCodexThousandSons10eUnitW
 };
 
 
-export const PinkHorrorsCoruscatingPinkFlames10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("pink_horrors__coruscating_pink_flames__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const PinkHorrorsCoruscatingPinkFlames10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("pink_horrors__coruscating_pink_flames__10e__codex_thousand_sons_10e"),
   unit_id: unitId("pink_horrors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("coruscating_pink_flames__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("coruscating_pink_flames__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1179,11 +1231,11 @@ export const PinkHorrorsCoruscatingYellowFlamesRefOnly10eCodexThousandSons10eUni
 };
 
 
-export const PinkHorrorsPinkClaws10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("pink_horrors__pink_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const PinkHorrorsPinkClaws10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("pink_horrors__pink_claws__10e__codex_thousand_sons_10e"),
   unit_id: unitId("pink_horrors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("pink_claws__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("pink_claws__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1205,11 +1257,11 @@ export const PinkHorrorsYellowClawsRefOnly10eCodexThousandSons10eUnitWeapon: Uni
 };
 
 
-export const RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV1197f69c3f2c1698eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1__97f6_9c3f_2c1_698e"),
+export const RubricMarinesCloseCombatWeapon10eCodexThousandSons10eA222Ffc4Cc58895b97f69c3f2c1698eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__codex_thousand_sons_10e__a222_ffc4_cc58_895b__97f6_9c3f_2c1_698e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_thousand_sons_10e__a222_ffc4_cc58_895b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1218,11 +1270,11 @@ export const RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV1197f69
 };
 
 
-export const RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV11A222Ffc4Cc58895bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1__a222_ffc4_cc58_895b"),
+export const RubricMarinesCloseCombatWeapon10eCodexThousandSons10eA222Ffc4Cc58895bA222Ffc4Cc58895bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__codex_thousand_sons_10e__a222_ffc4_cc58_895b__a222_ffc4_cc58_895b"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_thousand_sons_10e__a222_ffc4_cc58_895b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1231,11 +1283,11 @@ export const RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV11A222F
 };
 
 
-export const RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV11E5f0F460C67cE266UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1__e5f0_f460_c67c_e266"),
+export const RubricMarinesCloseCombatWeapon10eCodexThousandSons10eA222Ffc4Cc58895bE5f0F460C67cE266UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__codex_thousand_sons_10e__a222_ffc4_cc58_895b__e5f0_f460_c67c_e266"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_thousand_sons_10e__a222_ffc4_cc58_895b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1244,11 +1296,11 @@ export const RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV11E5f0F
 };
 
 
-export const RubricMarinesForceWeapon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__force_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesForceWeapon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__force_weapon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("force_weapon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1257,11 +1309,89 @@ export const RubricMarinesForceWeapon10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const ScarabOccultTerminatorsForceWeapon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__force_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesInfernoBoltPistol10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__inferno_bolt_pistol__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("rubric_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("inferno_bolt_pistol__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RubricMarinesInfernoBoltgun10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__inferno_boltgun__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("rubric_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("inferno_boltgun__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RubricMarinesMaleficCurse10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__malefic_curse__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("rubric_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("malefic_curse__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RubricMarinesSoulreaperCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__soulreaper_cannon__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("rubric_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("soulreaper_cannon__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RubricMarinesWarpflamePistol10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__warpflame_pistol__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("rubric_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("warpflame_pistol__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const RubricMarinesWarpflamer10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__warpflamer__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("rubric_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("warpflamer__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ScarabOccultTerminatorsForceWeapon10eCodexThousandSons10eF079D876F21572deUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__force_weapon__10e__codex_thousand_sons_10e__f079_d876_f215_72de"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("force_weapon__10e__codex_thousand_sons_10e__f079_d876_f215_72de"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1270,11 +1400,11 @@ export const ScarabOccultTerminatorsForceWeapon10eFactionPackThousandSons10eV11U
 };
 
 
-export const ScarabOccultTerminatorsHellfyreMissileRack10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__hellfyre_missile_rack__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ScarabOccultTerminatorsHellfyreMissileRack10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__hellfyre_missile_rack__10e__codex_thousand_sons_10e"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellfyre_missile_rack__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hellfyre_missile_rack__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1283,11 +1413,11 @@ export const ScarabOccultTerminatorsHellfyreMissileRack10eFactionPackThousandSon
 };
 
 
-export const ScarabOccultTerminatorsInfernoCombiBolter10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__inferno_combi_bolter__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ScarabOccultTerminatorsInfernoCombiBolter10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__inferno_combi_bolter__10e__codex_thousand_sons_10e"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("inferno_combi_bolter__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("inferno_combi_bolter__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1296,11 +1426,11 @@ export const ScarabOccultTerminatorsInfernoCombiBolter10eFactionPackThousandSons
 };
 
 
-export const ScarabOccultTerminatorsMaleficCurse10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__malefic_curse__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ScarabOccultTerminatorsMaleficCurse10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__malefic_curse__10e__codex_thousand_sons_10e"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("malefic_curse__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("malefic_curse__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1309,11 +1439,11 @@ export const ScarabOccultTerminatorsMaleficCurse10eFactionPackThousandSons10eV11
 };
 
 
-export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV111284A39aBd7541fdUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1__1284_a39a_bd75_41fd"),
+export const ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd1284A39aBd7541fdUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd__1284_a39a_bd75_41fd"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1322,11 +1452,11 @@ export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons1
 };
 
 
-export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV11382c409b9bd1b7fUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1__382c_409b_9bd_1b7f"),
+export const ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd382c409b9bd1b7fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd__382c_409b_9bd_1b7f"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1335,11 +1465,11 @@ export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons1
 };
 
 
-export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV114161Dd4cE5ff4504UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1__4161_dd4c_e5ff_4504"),
+export const ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd4161Dd4cE5ff4504UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd__4161_dd4c_e5ff_4504"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1348,11 +1478,11 @@ export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons1
 };
 
 
-export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV1182518e1106aa9c3fUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1__8251_8e11_06aa_9c3f"),
+export const ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd82518e1106aa9c3fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd__8251_8e11_06aa_9c3f"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1361,11 +1491,11 @@ export const ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons1
 };
 
 
-export const ScarabOccultTerminatorsSoulreaperCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("scarab_occult_terminators__soulreaper_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ScarabOccultTerminatorsSoulreaperCannon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("scarab_occult_terminators__soulreaper_cannon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("scarab_occult_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("soulreaper_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("soulreaper_cannon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1374,11 +1504,11 @@ export const ScarabOccultTerminatorsSoulreaperCannon10eFactionPackThousandSons10
 };
 
 
-export const ScreamersLampreyBite10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("screamers__lamprey_bite__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const ScreamersLampreyBite10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("screamers__lamprey_bite__10e__codex_thousand_sons_10e"),
   unit_id: unitId("screamers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lamprey_bite__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("lamprey_bite__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1387,11 +1517,11 @@ export const ScreamersLampreyBite10eFactionPackThousandSons10eV11UnitWeapon: Uni
 };
 
 
-export const SekhetarRobotsPowerClaw10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sekhetar_robots__power_claw__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SekhetarRobotsPowerClaw10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sekhetar_robots__power_claw__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sekhetar_robots"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_claw__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("power_claw__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1400,11 +1530,11 @@ export const SekhetarRobotsPowerClaw10eFactionPackThousandSons10eV11UnitWeapon: 
 };
 
 
-export const SekhetarRobotsPyrefluxMeltagun10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sekhetar_robots__pyreflux_meltagun__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SekhetarRobotsPyrefluxMeltagun10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sekhetar_robots__pyreflux_meltagun__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sekhetar_robots"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("pyreflux_meltagun__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("pyreflux_meltagun__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1413,11 +1543,11 @@ export const SekhetarRobotsPyrefluxMeltagun10eFactionPackThousandSons10eV11UnitW
 };
 
 
-export const SekhetarRobotsWarpflameProjector10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sekhetar_robots__warpflame_projector__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SekhetarRobotsWarpflameProjector10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sekhetar_robots__warpflame_projector__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sekhetar_robots"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warpflame_projector__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("warpflame_projector__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1426,11 +1556,11 @@ export const SekhetarRobotsWarpflameProjector10eFactionPackThousandSons10eV11Uni
 };
 
 
-export const SorcererPandaemonicDelusion10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer__pandaemonic_delusion__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SorcererPandaemonicDelusion10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer__pandaemonic_delusion__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("pandaemonic_delusion__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("pandaemonic_delusion__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1439,11 +1569,11 @@ export const SorcererPandaemonicDelusion10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const SorcererProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer__prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SorcererProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fdUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer__prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd"),
   unit_id: unitId("sorcerer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("prosperine_khopesh__10e__codex_thousand_sons_10e__1284_a39a_bd75_41fd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1452,11 +1582,11 @@ export const SorcererProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon
 };
 
 
-export const SorcererInTerminatorArmourGazeOfHate10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_in_terminator_armour__gaze_of_hate__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SorcererInTerminatorArmourGazeOfHate10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_in_terminator_armour__gaze_of_hate__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gaze_of_hate__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("gaze_of_hate__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1465,11 +1595,11 @@ export const SorcererInTerminatorArmourGazeOfHate10eFactionPackThousandSons10eV1
 };
 
 
-export const SorcererOnDiscOfTzeentchAstartesChainsword10eFactionPackBlackTemplars10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__astartes_chainsword__10e__faction_pack_black_templars_10e_v1_1"),
+export const SorcererOnDiscOfTzeentchAccursedWeapon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__accursed_weapon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_black_templars_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1478,11 +1608,11 @@ export const SorcererOnDiscOfTzeentchAstartesChainsword10eFactionPackBlackTempla
 };
 
 
-export const SorcererOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__bolt_pistol__10e__codex_astra_militarum_10e"),
+export const SorcererOnDiscOfTzeentchAstartesChainsword10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__astartes_chainsword__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1491,11 +1621,11 @@ export const SorcererOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10eUnitWeap
 };
 
 
-export const SorcererOnDiscOfTzeentchCombiBolter10eFactionPackAdeptusCustodes10eV10UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+export const SorcererOnDiscOfTzeentchBoltPistol10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__bolt_pistol__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1504,11 +1634,11 @@ export const SorcererOnDiscOfTzeentchCombiBolter10eFactionPackAdeptusCustodes10e
 };
 
 
-export const SorcererOnDiscOfTzeentchCombiWeapon10eFactionPackAdeptaSororitas10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+export const SorcererOnDiscOfTzeentchCombiBolter10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_bolter__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_adepta_sororitas_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1517,11 +1647,11 @@ export const SorcererOnDiscOfTzeentchCombiWeapon10eFactionPackAdeptaSororitas10e
 };
 
 
-export const SorcererOnDiscOfTzeentchForceWeapon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__force_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SorcererOnDiscOfTzeentchCombiWeapon10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_weapon__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_weapon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1530,11 +1660,11 @@ export const SorcererOnDiscOfTzeentchForceWeapon10eFactionPackThousandSons10eV11
 };
 
 
-export const SorcererOnDiscOfTzeentchInfernalGazeFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__infernal_gaze_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchForceWeapon10eCodexThousandSons10eF079D876F21572deUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__force_weapon__10e__codex_thousand_sons_10e__f079_d876_f215_72de"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_gaze_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("force_weapon__10e__codex_thousand_sons_10e__f079_d876_f215_72de"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1543,11 +1673,11 @@ export const SorcererOnDiscOfTzeentchInfernalGazeFocusedWitchfire10eFactionPackC
 };
 
 
-export const SorcererOnDiscOfTzeentchInfernalGazeWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__infernal_gaze_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchInfernalGazeFocusedWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__infernal_gaze_focused_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_gaze_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("infernal_gaze_focused_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1556,11 +1686,11 @@ export const SorcererOnDiscOfTzeentchInfernalGazeWitchfire10eFactionPackChaosSpa
 };
 
 
-export const SorcererOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum10eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__plasma_pistol_standard__10e__codex_astra_militarum_10e"),
+export const SorcererOnDiscOfTzeentchInfernalGazeWitchfire10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__infernal_gaze_witchfire__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("infernal_gaze_witchfire__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1569,11 +1699,11 @@ export const SorcererOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum1
 };
 
 
-export const SorcererOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitarum10eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__plasma_pistol_supercharge__10e__codex_astra_militarum_10e"),
+export const SorcererOnDiscOfTzeentchPlasmaPistolStandard10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__plasma_pistol_standard__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1582,11 +1712,11 @@ export const SorcererOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitar
 };
 
 
-export const SorcererOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__power_fist__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
+export const SorcererOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__plasma_pistol_supercharge__10e__codex_thousand_sons_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_adeptus_mechanicus_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1595,11 +1725,24 @@ export const SorcererOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10e
 };
 
 
-export const TzaangorShamanBalefulDevolution10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tzaangor_shaman__baleful_devolution__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const SorcererOnDiscOfTzeentchPowerFist10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__power_fist__10e__codex_thousand_sons_10e"),
+  unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_thousand_sons_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const TzaangorShamanBalefulDevolution10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tzaangor_shaman__baleful_devolution__10e__codex_thousand_sons_10e"),
   unit_id: unitId("tzaangor_shaman"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("baleful_devolution__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("baleful_devolution__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1608,11 +1751,11 @@ export const TzaangorShamanBalefulDevolution10eFactionPackThousandSons10eV11Unit
 };
 
 
-export const TzaangorShamanForceStave10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tzaangor_shaman__force_stave__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const TzaangorShamanForceStave10eCodexThousandSons10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tzaangor_shaman__force_stave__10e__codex_thousand_sons_10e"),
   unit_id: unitId("tzaangor_shaman"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_stave__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("force_stave__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1621,11 +1764,11 @@ export const TzaangorShamanForceStave10eFactionPackThousandSons10eV11UnitWeapon:
 };
 
 
-export const TzaangorsChainsword10eFactionPackThousandSons10eV1137df506aB9556033UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tzaangors__chainsword__10e__faction_pack_thousand_sons_10e_v1_1__37df_506a_b955_6033"),
+export const TzaangorsChainsword10eCodexThousandSons10e37df506aB9556033UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tzaangors__chainsword__10e__codex_thousand_sons_10e__37df_506a_b955_6033"),
   unit_id: unitId("tzaangors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chainsword__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("chainsword__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1634,11 +1777,11 @@ export const TzaangorsChainsword10eFactionPackThousandSons10eV1137df506aB9556033
 };
 
 
-export const TzaangorsChainsword10eFactionPackThousandSons10eV11958c692399afC5a8UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tzaangors__chainsword__10e__faction_pack_thousand_sons_10e_v1_1__958c_6923_99af_c5a8"),
+export const TzaangorsChainsword10eCodexThousandSons10e958c692399afC5a8UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tzaangors__chainsword__10e__codex_thousand_sons_10e__958c_6923_99af_c5a8"),
   unit_id: unitId("tzaangors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chainsword__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("chainsword__10e__codex_thousand_sons_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_thousand_sons_10e"),
   is_default: true,
@@ -1650,131 +1793,142 @@ export const TzaangorsChainsword10eFactionPackThousandSons10eV11958c692399afC5a8
 export const thousandSonsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    AhrimanBlackStaffOfAhriman10eFactionPackThousandSons10eV11UnitWeapon,
-    AhrimanTransmogrifyingBlast10eFactionPackThousandSons10eV11UnitWeapon,
-    BlueHorrorsBlueClaws10eFactionPackThousandSons10eV11UnitWeapon,
-    BlueHorrorsCoruscatingBlueFlames10eFactionPackThousandSons10eV11UnitWeapon,
+    AhrimanBlackStaffOfAhriman10eCodexThousandSons10eUnitWeapon,
+    AhrimanTransmogrifyingBlast10eCodexThousandSons10eUnitWeapon,
+    BlueHorrorsBlueClaws10eCodexThousandSons10eUnitWeapon,
+    BlueHorrorsCoruscatingBlueFlames10eCodexThousandSons10eUnitWeapon,
     BlueHorrorsCoruscatingYellowFlamesRefOnly10eCodexThousandSons10eUnitWeapon,
     BlueHorrorsYellowClawsRefOnly10eCodexThousandSons10eUnitWeapon,
-    ChaosLandRaiderArmouredTracks10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosLandRaiderSoulshatterLascannon10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV166c0f3a7b40ea2761UnitWeapon,
-    ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16E397896e40e12dbcUnitWeapon,
-    ChaosLordOnDiscOfTzeentchAstartesChainsword10eFactionPackBlackTemplars10eV11UnitWeapon,
-    ChaosLordOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10e3c01D4f627fB17dUnitWeapon,
-    ChaosLordOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10e46418ffa5c477cfcUnitWeapon,
-    ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosLordOnDiscOfTzeentchCombiBolter10eFactionPackAdeptusCustodes10eV10UnitWeapon,
-    ChaosLordOnDiscOfTzeentchCombiWeapon10eFactionPackAdeptaSororitas10eV13UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum10e84a37d2d9179475cUnitWeapon,
-    ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum10eA0233f5f7b307147UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitarum10eC119B815158a3758UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitarum10eE21d62a16920A0UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10eV1137387e7590D97dUnitWeapon,
-    ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10eV11C326B10aB4c8A3e6UnitWeapon,
-    ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosPredatorDestructorPredatorAutocannon10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosSpawnHideousMutations10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosSpawnFleshChangeHideousMutations10eFactionPackThousandSons10eV11UnitWeapon,
-    ChaosVindicatorDemolisherCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchDarkBlessing10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchHellforgedWeaponsStrike10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchHellforgedWeaponsSweep10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchInfernalCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchWithWingsDarkBlessing10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsStrike10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsSweep10eFactionPackThousandSons10eV11UnitWeapon,
-    DaemonPrinceOfTzeentchWithWingsInfernalCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerEctoplasmaDestructor10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerExcruciatorCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerHadesBattleCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerHeavyBaleflamer10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerHeavyMissileLauncherFrag10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerHeavyMissileLauncherKrak10eFactionPackThousandSons10eV11UnitWeapon,
+    ChaosLandRaiderArmouredTracks10eCodexThousandSons10eUnitWeapon,
+    ChaosLandRaiderSoulshatterLascannon10eCodexThousandSons10eUnitWeapon,
+    ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexThousandSons10e6c0f3a7b40ea2761UnitWeapon,
+    ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexThousandSons10eE397896e40e12dbcUnitWeapon,
+    ChaosLordOnDiscOfTzeentchAstartesChainsword10eCodexThousandSons10e509fBd37F67781beUnitWeapon,
+    ChaosLordOnDiscOfTzeentchBoltPistol10eCodexThousandSons10e3c01D4f627fB17dUnitWeapon,
+    ChaosLordOnDiscOfTzeentchBoltPistol10eCodexThousandSons10e46418ffa5c477cfcUnitWeapon,
+    ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eCodexThousandSons10e9559653dCc46E894UnitWeapon,
+    ChaosLordOnDiscOfTzeentchCombiBolter10eCodexThousandSons10eUnitWeapon,
+    ChaosLordOnDiscOfTzeentchCombiWeapon10eCodexThousandSons10e234Ec77A9427d1UnitWeapon,
+    ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eCodexThousandSons10eUnitWeapon,
+    ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexThousandSons10e84a37d2d9179475cUnitWeapon,
+    ChaosLordOnDiscOfTzeentchPlasmaPistolStandard10eCodexThousandSons10eA0233f5f7b307147UnitWeapon,
+    ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexThousandSons10eC119B815158a3758UnitWeapon,
+    ChaosLordOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexThousandSons10eE21d62a16920A0UnitWeapon,
+    ChaosLordOnDiscOfTzeentchPowerFist10eCodexThousandSons10e37387e7590D97dUnitWeapon,
+    ChaosLordOnDiscOfTzeentchPowerFist10eCodexThousandSons10eC326B10aB4c8A3e6UnitWeapon,
+    ChaosPredatorAnnihilatorPredatorTwinLascannon10eCodexThousandSons10eUnitWeapon,
+    ChaosPredatorDestructorPredatorAutocannon10eCodexThousandSons10eUnitWeapon,
+    ChaosSpawnHideousMutations10eCodexThousandSons10eUnitWeapon,
+    ChaosSpawnFleshChangeHideousMutations10eCodexThousandSons10eUnitWeapon,
+    ChaosVindicatorDemolisherCannon10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchDarkBlessing10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchHellforgedWeaponsStrike10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchHellforgedWeaponsSweep10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchInfernalCannon10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchWithWingsDarkBlessing10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsStrike10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchWithWingsHellforgedWeaponsSweep10eCodexThousandSons10eUnitWeapon,
+    DaemonPrinceOfTzeentchWithWingsInfernalCannon10eCodexThousandSons10eUnitWeapon,
+    DefilerEctoplasmaDestructor10eCodexThousandSons10eUnitWeapon,
+    DefilerExcruciatorCannon10eCodexThousandSons10eUnitWeapon,
+    DefilerHadesBattleCannon10eCodexThousandSons10eUnitWeapon,
+    DefilerHeavyBaleflamer10eCodexThousandSons10eUnitWeapon,
+    DefilerHeavyMissileLauncherFrag10eCodexThousandSons10eUnitWeapon,
+    DefilerHeavyMissileLauncherKrak10eCodexThousandSons10eUnitWeapon,
     DefilerPyrafluxMagmaCutter10eCodexThousandSons10eUnitWeapon,
-    DefilerShearingClawsStrike10eFactionPackThousandSons10eV11UnitWeapon,
-    DefilerShearingClawsSweep10eFactionPackThousandSons10eV11UnitWeapon,
-    ExaltedSorcererAstralBlast10eFactionPackThousandSons10eV11UnitWeapon,
-    ExaltedSorcererProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon,
-    ExaltedSorcererOnDiscOfTzeentchArcaneFire10eFactionPackThousandSons10eV11UnitWeapon,
-    ExaltedSorcererOnDiscOfTzeentchProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon,
-    FlamersFlamerMouths10eFactionPackThousandSons10eV111af8Fa5eF46908a8UnitWeapon,
-    FlamersFlamerMouths10eFactionPackThousandSons10eV11Fd036f8cAae2Dd8eUnitWeapon,
-    FlamersFlickeringFlames10eFactionPackThousandSons10eV1184c06502D0e90d86UnitWeapon,
-    FlamersFlickeringFlames10eFactionPackThousandSons10eV11950a9947Bee0Cd3eUnitWeapon,
-    ForgefiendForgefiendClaws10eFactionPackThousandSons10eV11UnitWeapon,
-    ForgefiendForgefiendJaws10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteCloseCombatWeapon10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteHelbruteHammer10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteHelbrutePlasmaCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteMissileLauncherFrag10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteMissileLauncherKrak10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteMultiMelta10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbrutePowerScourge10eFactionPackThousandSons10eV11UnitWeapon,
-    HelbruteTwinAutocannon10eFactionPackThousandSons10eV11UnitWeapon,
-    HeldrakeBaleflamer10eFactionPackThousandSons10eV11UnitWeapon,
-    HeldrakeHeldrakeClaws10eFactionPackThousandSons10eV11UnitWeapon,
-    InfernalMasterFiresOfTheAbyssFocusedWitchfire10eFactionPackThousandSons10eV11UnitWeapon,
-    InfernalMasterFiresOfTheAbyssWitchfire10eFactionPackThousandSons10eV11UnitWeapon,
-    KairosFateweaverInfernalGatewayFocusedWitchfire10eFactionPackThousandSons10eV11UnitWeapon,
-    KairosFateweaverInfernalGatewayWitchfire10eFactionPackThousandSons10eV11UnitWeapon,
-    KairosFateweaverStaffOfTomorrow10eFactionPackThousandSons10eV11UnitWeapon,
-    LordOfChangeBalefulSword10eFactionPackThousandSons10eV11UnitWeapon,
-    LordOfChangeBoltOfChangeFocusedWitchfire10eFactionPackThousandSons10eV11UnitWeapon,
-    LordOfChangeBoltOfChangeWitchfire10eFactionPackThousandSons10eV11UnitWeapon,
-    LordOfChangeRodOfSorcery10eFactionPackThousandSons10eV11UnitWeapon,
-    LordOfChangeStaffOfTzeentch10eFactionPackThousandSons10eV11UnitWeapon,
-    MagnusTheRedBladeOfMagnusStrike10eFactionPackThousandSons10eV11UnitWeapon,
-    MagnusTheRedBladeOfMagnusSweep10eFactionPackThousandSons10eV11UnitWeapon,
-    MagnusTheRedGazeOfMagnus10eFactionPackThousandSons10eV11UnitWeapon,
-    MagnusTheRedTzeentchsFirestorm10eFactionPackThousandSons10eV11UnitWeapon,
-    MaulerfiendLasherTendrils10eFactionPackThousandSons10eV11UnitWeapon,
-    MaulerfiendMagmaCutter10eFactionPackThousandSons10eV11UnitWeapon,
-    MaulerfiendMaulerfiendFists10eFactionPackThousandSons10eV11UnitWeapon,
-    MutalithVortexBeastBetentacledMaw10eFactionPackThousandSons10eV11UnitWeapon,
-    MutalithVortexBeastMutalithClaws10eFactionPackThousandSons10eV11UnitWeapon,
-    MutalithVortexBeastWarpVortexBeam10eFactionPackThousandSons10eV11UnitWeapon,
-    MutalithVortexBeastWarpVortexBlast10eFactionPackThousandSons10eV11UnitWeapon,
-    MutalithVortexBeastWarpVortexTorrent10eFactionPackThousandSons10eV11UnitWeapon,
+    DefilerShearingClawsStrike10eCodexThousandSons10eUnitWeapon,
+    DefilerShearingClawsSweep10eCodexThousandSons10eUnitWeapon,
+    ExaltedSorcererAstralBlast10eCodexThousandSons10eUnitWeapon,
+    ExaltedSorcererProsperineKhopesh10eCodexThousandSons10eUnitWeapon,
+    ExaltedSorcererOnDiscOfTzeentchArcaneFire10eCodexThousandSons10eUnitWeapon,
+    ExaltedSorcererOnDiscOfTzeentchProsperineKhopesh10eCodexThousandSons10eUnitWeapon,
+    FlamersFlamerMouths10eCodexThousandSons10e1af8Fa5eF46908a8UnitWeapon,
+    FlamersFlamerMouths10eCodexThousandSons10eFd036f8cAae2Dd8eUnitWeapon,
+    FlamersFlickeringFlames10eCodexThousandSons10e84c06502D0e90d86UnitWeapon,
+    FlamersFlickeringFlames10eCodexThousandSons10e950a9947Bee0Cd3eUnitWeapon,
+    ForgefiendForgefiendClaws10eCodexThousandSons10eUnitWeapon,
+    ForgefiendForgefiendJaws10eCodexThousandSons10eUnitWeapon,
+    HelbruteCloseCombatWeapon10eCodexThousandSons10eUnitWeapon,
+    HelbruteHelbruteHammer10eCodexThousandSons10eUnitWeapon,
+    HelbruteHelbrutePlasmaCannon10eCodexThousandSons10eUnitWeapon,
+    HelbruteMissileLauncherFrag10eCodexThousandSons10eUnitWeapon,
+    HelbruteMissileLauncherKrak10eCodexThousandSons10eUnitWeapon,
+    HelbruteMultiMelta10eCodexThousandSons10eUnitWeapon,
+    HelbrutePowerScourge10eCodexThousandSons10eUnitWeapon,
+    HelbruteTwinAutocannon10eCodexThousandSons10eUnitWeapon,
+    HeldrakeBaleflamer10eCodexThousandSons10eUnitWeapon,
+    HeldrakeHeldrakeClaws10eCodexThousandSons10eUnitWeapon,
+    HellBladeArmouredHull10eCodexThousandSons10eUnitWeapon,
+    HellTalonArmouredHull10eCodexThousandSons10e864d74bdD985Ef9fUnitWeapon,
+    HellTalonAutocannon10eCodexThousandSons10eUnitWeapon,
+    InfernalMasterFiresOfTheAbyssFocusedWitchfire10eCodexThousandSons10eUnitWeapon,
+    InfernalMasterFiresOfTheAbyssWitchfire10eCodexThousandSons10eUnitWeapon,
+    KairosFateweaverInfernalGatewayFocusedWitchfire10eCodexThousandSons10eUnitWeapon,
+    KairosFateweaverInfernalGatewayWitchfire10eCodexThousandSons10eUnitWeapon,
+    KairosFateweaverStaffOfTomorrow10eCodexThousandSons10eUnitWeapon,
+    LordOfChangeBalefulSword10eCodexThousandSons10eUnitWeapon,
+    LordOfChangeBoltOfChangeFocusedWitchfire10eCodexThousandSons10eUnitWeapon,
+    LordOfChangeBoltOfChangeWitchfire10eCodexThousandSons10eUnitWeapon,
+    LordOfChangeRodOfSorcery10eCodexThousandSons10eUnitWeapon,
+    LordOfChangeStaffOfTzeentch10eCodexThousandSons10eUnitWeapon,
+    MagnusTheRedBladeOfMagnusStrike10eCodexThousandSons10eUnitWeapon,
+    MagnusTheRedBladeOfMagnusSweep10eCodexThousandSons10eUnitWeapon,
+    MagnusTheRedGazeOfMagnus10eCodexThousandSons10eUnitWeapon,
+    MagnusTheRedTzeentchsFirestorm10eCodexThousandSons10eUnitWeapon,
+    MaulerfiendLasherTendrils10eCodexThousandSons10eUnitWeapon,
+    MaulerfiendMagmaCutter10eCodexThousandSons10eUnitWeapon,
+    MaulerfiendMaulerfiendFists10eCodexThousandSons10eUnitWeapon,
+    MutalithVortexBeastBetentacledMaw10eCodexThousandSons10eUnitWeapon,
+    MutalithVortexBeastMutalithClaws10eCodexThousandSons10eUnitWeapon,
+    MutalithVortexBeastWarpVortexBeam10eCodexThousandSons10eUnitWeapon,
+    MutalithVortexBeastWarpVortexBlast10eCodexThousandSons10eUnitWeapon,
+    MutalithVortexBeastWarpVortexTorrent10eCodexThousandSons10eUnitWeapon,
     PinkHorrorsBlueClawsRefOnly10eCodexThousandSons10eUnitWeapon,
     PinkHorrorsCoruscatingBlueFlamesRefOnly10eCodexThousandSons10eUnitWeapon,
-    PinkHorrorsCoruscatingPinkFlames10eFactionPackThousandSons10eV11UnitWeapon,
+    PinkHorrorsCoruscatingPinkFlames10eCodexThousandSons10eUnitWeapon,
     PinkHorrorsCoruscatingYellowFlamesRefOnly10eCodexThousandSons10eUnitWeapon,
-    PinkHorrorsPinkClaws10eFactionPackThousandSons10eV11UnitWeapon,
+    PinkHorrorsPinkClaws10eCodexThousandSons10eUnitWeapon,
     PinkHorrorsYellowClawsRefOnly10eCodexThousandSons10eUnitWeapon,
-    RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV1197f69c3f2c1698eUnitWeapon,
-    RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV11A222Ffc4Cc58895bUnitWeapon,
-    RubricMarinesCloseCombatWeapon10eFactionPackThousandSons10eV11E5f0F460C67cE266UnitWeapon,
-    RubricMarinesForceWeapon10eFactionPackThousandSons10eV11UnitWeapon,
-    ScarabOccultTerminatorsForceWeapon10eFactionPackThousandSons10eV11UnitWeapon,
-    ScarabOccultTerminatorsHellfyreMissileRack10eFactionPackThousandSons10eV11UnitWeapon,
-    ScarabOccultTerminatorsInfernoCombiBolter10eFactionPackThousandSons10eV11UnitWeapon,
-    ScarabOccultTerminatorsMaleficCurse10eFactionPackThousandSons10eV11UnitWeapon,
-    ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV111284A39aBd7541fdUnitWeapon,
-    ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV11382c409b9bd1b7fUnitWeapon,
-    ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV114161Dd4cE5ff4504UnitWeapon,
-    ScarabOccultTerminatorsProsperineKhopesh10eFactionPackThousandSons10eV1182518e1106aa9c3fUnitWeapon,
-    ScarabOccultTerminatorsSoulreaperCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    ScreamersLampreyBite10eFactionPackThousandSons10eV11UnitWeapon,
-    SekhetarRobotsPowerClaw10eFactionPackThousandSons10eV11UnitWeapon,
-    SekhetarRobotsPyrefluxMeltagun10eFactionPackThousandSons10eV11UnitWeapon,
-    SekhetarRobotsWarpflameProjector10eFactionPackThousandSons10eV11UnitWeapon,
-    SorcererPandaemonicDelusion10eFactionPackThousandSons10eV11UnitWeapon,
-    SorcererProsperineKhopesh10eFactionPackThousandSons10eV11UnitWeapon,
-    SorcererInTerminatorArmourGazeOfHate10eFactionPackThousandSons10eV11UnitWeapon,
-    SorcererOnDiscOfTzeentchAstartesChainsword10eFactionPackBlackTemplars10eV11UnitWeapon,
-    SorcererOnDiscOfTzeentchBoltPistol10eCodexAstraMilitarum10eUnitWeapon,
-    SorcererOnDiscOfTzeentchCombiBolter10eFactionPackAdeptusCustodes10eV10UnitWeapon,
-    SorcererOnDiscOfTzeentchCombiWeapon10eFactionPackAdeptaSororitas10eV13UnitWeapon,
-    SorcererOnDiscOfTzeentchForceWeapon10eFactionPackThousandSons10eV11UnitWeapon,
-    SorcererOnDiscOfTzeentchInfernalGazeFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchInfernalGazeWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchPlasmaPistolStandard10eCodexAstraMilitarum10eUnitWeapon,
-    SorcererOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexAstraMilitarum10eUnitWeapon,
-    SorcererOnDiscOfTzeentchPowerFist10eFactionPackAdeptusMechanicus10eV11UnitWeapon,
-    TzaangorShamanBalefulDevolution10eFactionPackThousandSons10eV11UnitWeapon,
-    TzaangorShamanForceStave10eFactionPackThousandSons10eV11UnitWeapon,
-    TzaangorsChainsword10eFactionPackThousandSons10eV1137df506aB9556033UnitWeapon,
-    TzaangorsChainsword10eFactionPackThousandSons10eV11958c692399afC5a8UnitWeapon,
+    RubricMarinesCloseCombatWeapon10eCodexThousandSons10eA222Ffc4Cc58895b97f69c3f2c1698eUnitWeapon,
+    RubricMarinesCloseCombatWeapon10eCodexThousandSons10eA222Ffc4Cc58895bA222Ffc4Cc58895bUnitWeapon,
+    RubricMarinesCloseCombatWeapon10eCodexThousandSons10eA222Ffc4Cc58895bE5f0F460C67cE266UnitWeapon,
+    RubricMarinesForceWeapon10eCodexThousandSons10eUnitWeapon,
+    RubricMarinesInfernoBoltPistol10eCodexThousandSons10eUnitWeapon,
+    RubricMarinesInfernoBoltgun10eCodexThousandSons10eUnitWeapon,
+    RubricMarinesMaleficCurse10eCodexThousandSons10eUnitWeapon,
+    RubricMarinesSoulreaperCannon10eCodexThousandSons10eUnitWeapon,
+    RubricMarinesWarpflamePistol10eCodexThousandSons10eUnitWeapon,
+    RubricMarinesWarpflamer10eCodexThousandSons10eUnitWeapon,
+    ScarabOccultTerminatorsForceWeapon10eCodexThousandSons10eF079D876F21572deUnitWeapon,
+    ScarabOccultTerminatorsHellfyreMissileRack10eCodexThousandSons10eUnitWeapon,
+    ScarabOccultTerminatorsInfernoCombiBolter10eCodexThousandSons10eUnitWeapon,
+    ScarabOccultTerminatorsMaleficCurse10eCodexThousandSons10eUnitWeapon,
+    ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd1284A39aBd7541fdUnitWeapon,
+    ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd382c409b9bd1b7fUnitWeapon,
+    ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd4161Dd4cE5ff4504UnitWeapon,
+    ScarabOccultTerminatorsProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fd82518e1106aa9c3fUnitWeapon,
+    ScarabOccultTerminatorsSoulreaperCannon10eCodexThousandSons10eUnitWeapon,
+    ScreamersLampreyBite10eCodexThousandSons10eUnitWeapon,
+    SekhetarRobotsPowerClaw10eCodexThousandSons10eUnitWeapon,
+    SekhetarRobotsPyrefluxMeltagun10eCodexThousandSons10eUnitWeapon,
+    SekhetarRobotsWarpflameProjector10eCodexThousandSons10eUnitWeapon,
+    SorcererPandaemonicDelusion10eCodexThousandSons10eUnitWeapon,
+    SorcererProsperineKhopesh10eCodexThousandSons10e1284A39aBd7541fdUnitWeapon,
+    SorcererInTerminatorArmourGazeOfHate10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchAccursedWeapon10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchAstartesChainsword10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchBoltPistol10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchCombiBolter10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchCombiWeapon10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchForceWeapon10eCodexThousandSons10eF079D876F21572deUnitWeapon,
+    SorcererOnDiscOfTzeentchInfernalGazeFocusedWitchfire10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchInfernalGazeWitchfire10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchPlasmaPistolStandard10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchPlasmaPistolSupercharge10eCodexThousandSons10eUnitWeapon,
+    SorcererOnDiscOfTzeentchPowerFist10eCodexThousandSons10eUnitWeapon,
+    TzaangorShamanBalefulDevolution10eCodexThousandSons10eUnitWeapon,
+    TzaangorShamanForceStave10eCodexThousandSons10eUnitWeapon,
+    TzaangorsChainsword10eCodexThousandSons10e37df506aB9556033UnitWeapon,
+    TzaangorsChainsword10eCodexThousandSons10e958c692399afC5a8UnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

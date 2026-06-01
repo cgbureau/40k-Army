@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const KorsarroKhanMoonfang10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("korsarro_khan__moonfang__10e__faction_pack_space_marines_10e_v1_8"),
+export const KorsarroKhanMoonfang10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("korsarro_khan__moonfang__10e__codex_space_marines_10e"),
   unit_id: unitId("korsarro_khan"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("moonfang__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("moonfang__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -22,11 +22,11 @@ export const KorsarroKhanMoonfang10eFactionPackSpaceMarines10eV18UnitWeapon: Uni
 };
 
 
-export const SubodenKhanOnslaughtGatlingCannon10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("suboden_khan__onslaught_gatling_cannon__10e__faction_pack_space_marines_10e_v1_8"),
+export const SubodenKhanOnslaughtGatlingCannon10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("suboden_khan__onslaught_gatling_cannon__10e__codex_space_marines_10e"),
   unit_id: unitId("suboden_khan"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("onslaught_gatling_cannon__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("onslaught_gatling_cannon__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const SubodenKhanOnslaughtGatlingCannon10eFactionPackSpaceMarines10eV18Un
 };
 
 
-export const SubodenKhanPowerSword10eFactionPackAeldari10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("suboden_khan__power_sword__10e__faction_pack_aeldari_10e_v1_2"),
+export const SubodenKhanPowerSword10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("suboden_khan__power_sword__10e__codex_space_marines_10e"),
   unit_id: unitId("suboden_khan"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_sword__10e__faction_pack_aeldari_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("power_sword__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const SubodenKhanPowerSword10eFactionPackAeldari10eV12UnitWeapon: UnitWea
 };
 
 
-export const SubodenKhanStormtooth10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("suboden_khan__stormtooth__10e__faction_pack_space_marines_10e_v1_8"),
+export const SubodenKhanStormtooth10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("suboden_khan__stormtooth__10e__codex_space_marines_10e"),
   unit_id: unitId("suboden_khan"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("stormtooth__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("stormtooth__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -64,9 +64,9 @@ export const SubodenKhanStormtooth10eFactionPackSpaceMarines10eV18UnitWeapon: Un
 export const whiteScarsUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    KorsarroKhanMoonfang10eFactionPackSpaceMarines10eV18UnitWeapon,
-    SubodenKhanOnslaughtGatlingCannon10eFactionPackSpaceMarines10eV18UnitWeapon,
-    SubodenKhanPowerSword10eFactionPackAeldari10eV12UnitWeapon,
-    SubodenKhanStormtooth10eFactionPackSpaceMarines10eV18UnitWeapon,
+    KorsarroKhanMoonfang10eCodexSpaceMarines10eUnitWeapon,
+    SubodenKhanOnslaughtGatlingCannon10eCodexSpaceMarines10eUnitWeapon,
+    SubodenKhanPowerSword10eCodexSpaceMarines10eUnitWeapon,
+    SubodenKhanStormtooth10eCodexSpaceMarines10eUnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

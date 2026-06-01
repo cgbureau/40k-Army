@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const BattlewagonKannonFrag10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("battlewagon__kannon_frag__10e__faction_pack_orks_10e_v1_3"),
+export const BattlewagonKannonFrag10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("battlewagon__kannon_frag__10e__codex_orks_10e"),
   unit_id: unitId("battlewagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kannon_frag__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kannon_frag__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -22,11 +22,11 @@ export const BattlewagonKannonFrag10eFactionPackOrks10eV13UnitWeapon: UnitWeapon
 };
 
 
-export const BattlewagonKannonShell10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("battlewagon__kannon_shell__10e__faction_pack_orks_10e_v1_3"),
+export const BattlewagonKannonShell10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("battlewagon__kannon_shell__10e__codex_orks_10e"),
   unit_id: unitId("battlewagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kannon_shell__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kannon_shell__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const BattlewagonKannonShell10eFactionPackOrks10eV13UnitWeapon: UnitWeapo
 };
 
 
-export const BattlewagonKillkannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("battlewagon__killkannon__10e__faction_pack_orks_10e_v1_3"),
+export const BattlewagonKillkannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("battlewagon__killkannon__10e__codex_orks_10e"),
   unit_id: unitId("battlewagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("killkannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("killkannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const BattlewagonKillkannon10eFactionPackOrks10eV13UnitWeapon: UnitWeapon
 };
 
 
-export const BattlewagonZzapGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("battlewagon__zzap_gun__10e__faction_pack_orks_10e_v1_3"),
+export const BattlewagonZzapGun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("battlewagon__zzap_gun__10e__codex_orks_10e"),
   unit_id: unitId("battlewagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("zzap_gun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("zzap_gun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -61,11 +61,11 @@ export const BattlewagonZzapGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCon
 };
 
 
-export const BeastSnaggaBoyzCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("beast_snagga_boyz__close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+export const BeastSnaggaBoyzCloseCombatWeapon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("beast_snagga_boyz__close_combat_weapon__10e__codex_orks_10e"),
   unit_id: unitId("beast_snagga_boyz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -74,11 +74,11 @@ export const BeastSnaggaBoyzCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon:
 };
 
 
-export const BeastSnaggaBoyzPowerSnappa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("beast_snagga_boyz__power_snappa__10e__faction_pack_orks_10e_v1_3"),
+export const BeastSnaggaBoyzPowerSnappa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("beast_snagga_boyz__power_snappa__10e__codex_orks_10e"),
   unit_id: unitId("beast_snagga_boyz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_snappa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("power_snappa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -87,11 +87,11 @@ export const BeastSnaggaBoyzPowerSnappa10eFactionPackOrks10eV13UnitWeapon: UnitW
 };
 
 
-export const BeastSnaggaBoyzThumpGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("beast_snagga_boyz__thump_gun__10e__faction_pack_orks_10e_v1_3"),
+export const BeastSnaggaBoyzThumpGun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("beast_snagga_boyz__thump_gun__10e__codex_orks_10e"),
   unit_id: unitId("beast_snagga_boyz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("thump_gun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("thump_gun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -100,11 +100,11 @@ export const BeastSnaggaBoyzThumpGun10eFactionPackOrks10eV13UnitWeapon: UnitWeap
 };
 
 
-export const BeastbossBeastSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("beastboss__beast_snagga_klaw__10e__faction_pack_orks_10e_v1_3"),
+export const BeastbossBeastSnaggaKlaw10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("beastboss__beast_snagga_klaw__10e__codex_orks_10e"),
   unit_id: unitId("beastboss"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("beast_snagga_klaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("beast_snagga_klaw__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -113,11 +113,11 @@ export const BeastbossBeastSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const BeastbossShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("beastboss__shoota__10e__faction_pack_orks_10e_v1_3"),
+export const BeastbossShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("beastboss__shoota__10e__codex_orks_10e"),
   unit_id: unitId("beastboss"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -126,11 +126,11 @@ export const BeastbossShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig
 };
 
 
-export const BeastbossOnSquigosaurSquigosaursJaws10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("beastboss_on_squigosaur__squigosaurs_jaws__10e__faction_pack_orks_10e_v1_3"),
+export const BeastbossOnSquigosaurSquigosaursJaws10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("beastboss_on_squigosaur__squigosaurs_jaws__10e__codex_orks_10e"),
   unit_id: unitId("beastboss_on_squigosaur"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("squigosaurs_jaws__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("squigosaurs_jaws__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -139,11 +139,11 @@ export const BeastbossOnSquigosaurSquigosaursJaws10eFactionPackOrks10eV13UnitWea
 };
 
 
-export const BigGunzKannonFrag10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("big_gunz__kannon_frag__10e__faction_pack_orks_10e_v1_3"),
+export const BigGunzKannonFrag10eCodexOrks10e791d6ad8Dc07F99UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("big_gunz__kannon_frag__10e__codex_orks_10e__791d_6ad8_dc07_f99"),
   unit_id: unitId("big_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kannon_frag__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kannon_frag__10e__codex_orks_10e__791d_6ad8_dc07_f99"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -152,11 +152,11 @@ export const BigGunzKannonFrag10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConf
 };
 
 
-export const BigGunzKannonShell10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("big_gunz__kannon_shell__10e__faction_pack_orks_10e_v1_3"),
+export const BigGunzKannonShell10eCodexOrks10eD00aDbd093baF6ebUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("big_gunz__kannon_shell__10e__codex_orks_10e__d00a_dbd0_93ba_f6eb"),
   unit_id: unitId("big_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kannon_shell__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kannon_shell__10e__codex_orks_10e__d00a_dbd0_93ba_f6eb"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -165,11 +165,11 @@ export const BigGunzKannonShell10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCon
 };
 
 
-export const BigGunzLobba10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("big_gunz__lobba__10e__faction_pack_orks_10e_v1_3"),
+export const BigGunzLobba10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("big_gunz__lobba__10e__codex_orks_10e"),
   unit_id: unitId("big_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lobba__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("lobba__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -178,11 +178,11 @@ export const BigGunzLobba10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = 
 };
 
 
-export const BigGunzZzapGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("big_gunz__zzap_gun__10e__faction_pack_orks_10e_v1_3"),
+export const BigGunzZzapGun10eCodexOrks10eBdb37a52Dd623f72UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("big_gunz__zzap_gun__10e__codex_orks_10e__bdb3_7a52_dd62_3f72"),
   unit_id: unitId("big_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("zzap_gun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("zzap_gun__10e__codex_orks_10e__bdb3_7a52_dd62_3f72"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -191,11 +191,11 @@ export const BigGunzZzapGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig 
 };
 
 
-export const BigMekInMegaArmourTellyportBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("big_mek_in_mega_armour__tellyport_blasta__10e__faction_pack_orks_10e_v1_3"),
+export const BigMekInMegaArmourTellyportBlasta10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("big_mek_in_mega_armour__tellyport_blasta__10e__codex_orks_10e"),
   unit_id: unitId("big_mek_in_mega_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("tellyport_blasta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("tellyport_blasta__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -204,11 +204,11 @@ export const BigMekInMegaArmourTellyportBlasta10eFactionPackOrks10eV13UnitWeapon
 };
 
 
-export const BigedBossbunkaGazeOfGorkGlare10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("biged_bossbunka__gaze_of_gork_glare__10e__faction_pack_orks_10e_v1_3"),
+export const BigedBossbunkaGazeOfGorkGlare10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("biged_bossbunka__gaze_of_gork_glare__10e__codex_orks_10e"),
   unit_id: unitId("biged_bossbunka"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gaze_of_gork_glare__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gaze_of_gork_glare__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -217,11 +217,11 @@ export const BigedBossbunkaGazeOfGorkGlare10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const BigedBossbunkaGazeOfGorkSquint10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("biged_bossbunka__gaze_of_gork_squint__10e__faction_pack_orks_10e_v1_3"),
+export const BigedBossbunkaGazeOfGorkSquint10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("biged_bossbunka__gaze_of_gork_squint__10e__codex_orks_10e"),
   unit_id: unitId("biged_bossbunka"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gaze_of_gork_squint__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gaze_of_gork_squint__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -230,11 +230,11 @@ export const BigedBossbunkaGazeOfGorkSquint10eFactionPackOrks10eV13UnitWeapon: U
 };
 
 
-export const BoomdakkaSnazzwagonMekSpeshul10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("boomdakka_snazzwagon__mek_speshul__10e__faction_pack_orks_10e_v1_3"),
+export const BoomdakkaSnazzwagonMekSpeshul10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("boomdakka_snazzwagon__mek_speshul__10e__codex_orks_10e"),
   unit_id: unitId("boomdakka_snazzwagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mek_speshul__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("mek_speshul__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -243,11 +243,11 @@ export const BoomdakkaSnazzwagonMekSpeshul10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const BossSnikrotMorksTeeth10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("boss_snikrot__morks_teeth__10e__faction_pack_orks_10e_v1_3"),
+export const BossSnikrotMorksTeeth10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("boss_snikrot__morks_teeth__10e__codex_orks_10e"),
   unit_id: unitId("boss_snikrot"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("morks_teeth__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("morks_teeth__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -256,11 +256,11 @@ export const BossSnikrotMorksTeeth10eFactionPackOrks10eV13UnitWeapon: UnitWeapon
 };
 
 
-export const BossZagstrukDaVulchasKlawsAndChoppa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("boss_zagstruk__da_vulchas_klaws_and_choppa__10e__faction_pack_orks_10e_v1_3"),
+export const BossZagstrukDaVulchasKlawsAndChoppa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("boss_zagstruk__da_vulchas_klaws_and_choppa__10e__codex_orks_10e"),
   unit_id: unitId("boss_zagstruk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("da_vulchas_klaws_and_choppa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("da_vulchas_klaws_and_choppa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -269,11 +269,11 @@ export const BossZagstrukDaVulchasKlawsAndChoppa10eFactionPackOrks10eV13UnitWeap
 };
 
 
-export const BreakaBoyzKnucklebustas10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("breaka_boyz__knucklebustas__10e__faction_pack_orks_10e_v1_3"),
+export const BreakaBoyzKnucklebustas10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("breaka_boyz__knucklebustas__10e__codex_orks_10e"),
   unit_id: unitId("breaka_boyz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("knucklebustas__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("knucklebustas__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -282,11 +282,11 @@ export const BreakaBoyzKnucklebustas10eFactionPackOrks10eV13UnitWeapon: UnitWeap
 };
 
 
-export const BreakaBoyzTankhammer10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("breaka_boyz__tankhammer__10e__faction_pack_orks_10e_v1_3"),
+export const BreakaBoyzTankhammer10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("breaka_boyz__tankhammer__10e__codex_orks_10e"),
   unit_id: unitId("breaka_boyz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("tankhammer__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("tankhammer__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -295,11 +295,11 @@ export const BreakaBoyzTankhammer10eFactionPackOrks10eV13UnitWeapon: UnitWeaponC
 };
 
 
-export const BurnaBommerSkorchaMissileRack10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("burna_bommer__skorcha_missile_rack__10e__faction_pack_orks_10e_v1_3"),
+export const BurnaBommerSkorchaMissileRack10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("burna_bommer__skorcha_missile_rack__10e__codex_orks_10e"),
   unit_id: unitId("burna_bommer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("skorcha_missile_rack__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("skorcha_missile_rack__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -308,11 +308,11 @@ export const BurnaBommerSkorchaMissileRack10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const BurnaBoyCuttinFlames10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("burna_boy__cuttin_flames__10e__faction_pack_orks_10e_v1_3"),
+export const BurnaBoyCuttinFlames10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("burna_boy__cuttin_flames__10e__codex_orks_10e"),
   unit_id: unitId("burna_boy"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cuttin_flames__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("cuttin_flames__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -321,11 +321,11 @@ export const BurnaBoyCuttinFlames10eFactionPackOrks10eV13UnitWeapon: UnitWeaponC
 };
 
 
-export const ChinorkWarkoptaDeffgun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chinork_warkopta__deffgun__10e__faction_pack_orks_10e_v1_3"),
+export const ChinorkWarkoptaDeffgun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chinork_warkopta__deffgun__10e__codex_orks_10e"),
   unit_id: unitId("chinork_warkopta"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("deffgun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("deffgun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -334,11 +334,11 @@ export const ChinorkWarkoptaDeffgun10eFactionPackOrks10eV13UnitWeapon: UnitWeapo
 };
 
 
-export const ChinorkWarkoptaRattlerKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chinork_warkopta__rattler_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const ChinorkWarkoptaRattlerKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chinork_warkopta__rattler_kannon__10e__codex_orks_10e"),
   unit_id: unitId("chinork_warkopta"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rattler_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("rattler_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -347,11 +347,11 @@ export const ChinorkWarkoptaRattlerKannon10eFactionPackOrks10eV13UnitWeapon: Uni
 };
 
 
-export const DaRedGobboIconOfDaRevolushun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("da_red_gobbo__icon_of_da_revolushun__10e__faction_pack_orks_10e_v1_3"),
+export const DaRedGobboIconOfDaRevolushun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("da_red_gobbo__icon_of_da_revolushun__10e__codex_orks_10e"),
   unit_id: unitId("da_red_gobbo"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("icon_of_da_revolushun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("icon_of_da_revolushun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -360,11 +360,11 @@ export const DaRedGobboIconOfDaRevolushun10eFactionPackOrks10eV13UnitWeapon: Uni
 };
 
 
-export const DaRedGobboKustomGrotBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("da_red_gobbo__kustom_grot_blasta__10e__faction_pack_orks_10e_v1_3"),
+export const DaRedGobboKustomGrotBlasta10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("da_red_gobbo__kustom_grot_blasta__10e__codex_orks_10e"),
   unit_id: unitId("da_red_gobbo"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kustom_grot_blasta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kustom_grot_blasta__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -373,11 +373,11 @@ export const DaRedGobboKustomGrotBlasta10eFactionPackOrks10eV13UnitWeapon: UnitW
 };
 
 
-export const DaRedGobbosABombInableSnowmanLegendsCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("da_red_gobbos_a_bomb_inable_snowman_legends__close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+export const DaRedGobbosABombInableSnowmanLegendsCloseCombatWeapon10eCodexOrks10e5d4d2225Fcb7367fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("da_red_gobbos_a_bomb_inable_snowman_legends__close_combat_weapon__10e__codex_orks_10e__5d4d_2225_fcb7_367f"),
   unit_id: unitId("da_red_gobbos_a_bomb_inable_snowman_legends"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_orks_10e__5d4d_2225_fcb7_367f"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -386,11 +386,11 @@ export const DaRedGobbosABombInableSnowmanLegendsCloseCombatWeapon10eFactionPack
 };
 
 
-export const DaRedGobbosABombInableSnowmanLegendsKustomGrotBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("da_red_gobbos_a_bomb_inable_snowman_legends__kustom_grot_blasta__10e__faction_pack_orks_10e_v1_3"),
+export const DaRedGobbosABombInableSnowmanLegendsKustomGrotBlasta10eCodexOrks10e67bfB512550a8d61UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("da_red_gobbos_a_bomb_inable_snowman_legends__kustom_grot_blasta__10e__codex_orks_10e__67bf_b512_550a_8d61"),
   unit_id: unitId("da_red_gobbos_a_bomb_inable_snowman_legends"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kustom_grot_blasta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kustom_grot_blasta__10e__codex_orks_10e__67bf_b512_550a_8d61"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -425,11 +425,11 @@ export const DaRedGobbosTinboyTinboysKustomShoota10eCodexOrks10eUnitWeapon: Unit
 };
 
 
-export const DeffDreadDreadKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("deff_dread__dread_klaw__10e__faction_pack_orks_10e_v1_3"),
+export const DeffDreadDreadKlaw10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("deff_dread__dread_klaw__10e__codex_orks_10e"),
   unit_id: unitId("deff_dread"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("dread_klaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("dread_klaw__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -438,11 +438,11 @@ export const DeffDreadDreadKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCon
 };
 
 
-export const DeffDreadStompyFeet10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("deff_dread__stompy_feet__10e__faction_pack_orks_10e_v1_3"),
+export const DeffDreadStompyFeet10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("deff_dread__stompy_feet__10e__codex_orks_10e"),
   unit_id: unitId("deff_dread"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("stompy_feet__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("stompy_feet__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -451,11 +451,11 @@ export const DeffDreadStompyFeet10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCo
 };
 
 
-export const DeffRollaBattleFortressZzapGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("deff_rolla_battle_fortress__zzap_gun__10e__faction_pack_orks_10e_v1_3"),
+export const DeffRollaBattleFortressZzapGun10eCodexOrks10e57008d1599d51ec1UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("deff_rolla_battle_fortress__zzap_gun__10e__codex_orks_10e__5700_8d15_99d5_1ec1"),
   unit_id: unitId("deff_rolla_battle_fortress"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("zzap_gun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("zzap_gun__10e__codex_orks_10e__5700_8d15_99d5_1ec1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -477,11 +477,11 @@ export const DeffkillaWartrikeDeffkillaBoomstikks10eCodexOrks10eUnitWeapon: Unit
 };
 
 
-export const DeffkillaWartrikeKillaJetBurna10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("deffkilla_wartrike__killa_jet_burna__10e__faction_pack_orks_10e_v1_3"),
+export const DeffkillaWartrikeKillaJetBurna10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("deffkilla_wartrike__killa_jet_burna__10e__codex_orks_10e"),
   unit_id: unitId("deffkilla_wartrike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("killa_jet_burna__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("killa_jet_burna__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -490,11 +490,11 @@ export const DeffkillaWartrikeKillaJetBurna10eFactionPackOrks10eV13UnitWeapon: U
 };
 
 
-export const DeffkillaWartrikeKillaJetCutta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("deffkilla_wartrike__killa_jet_cutta__10e__faction_pack_orks_10e_v1_3"),
+export const DeffkillaWartrikeKillaJetCutta10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("deffkilla_wartrike__killa_jet_cutta__10e__codex_orks_10e"),
   unit_id: unitId("deffkilla_wartrike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("killa_jet_cutta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("killa_jet_cutta__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -503,11 +503,11 @@ export const DeffkillaWartrikeKillaJetCutta10eFactionPackOrks10eV13UnitWeapon: U
 };
 
 
-export const DeffkillaWartrikeSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("deffkilla_wartrike__snagga_klaw__10e__faction_pack_orks_10e_v1_3"),
+export const DeffkillaWartrikeSnaggaKlaw10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("deffkilla_wartrike__snagga_klaw__10e__codex_orks_10e"),
   unit_id: unitId("deffkilla_wartrike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("snagga_klaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("snagga_klaw__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -516,11 +516,11 @@ export const DeffkillaWartrikeSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon: Unit
 };
 
 
-export const FightaBommerGrotGuidedBomm10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fighta_bommer__grot_guided_bomm__10e__faction_pack_orks_10e_v1_3"),
+export const FightaBommerGrotGuidedBomm10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fighta_bommer__grot_guided_bomm__10e__codex_orks_10e"),
   unit_id: unitId("fighta_bommer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("grot_guided_bomm__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("grot_guided_bomm__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -529,11 +529,11 @@ export const FightaBommerGrotGuidedBomm10eFactionPackOrks10eV13UnitWeapon: UnitW
 };
 
 
-export const GargantuanSquiggothHugeTusksStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gargantuan_squiggoth__huge_tusks_strike__10e__faction_pack_orks_10e_v1_3"),
+export const GargantuanSquiggothHugeTusksStrike10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gargantuan_squiggoth__huge_tusks_strike__10e__codex_orks_10e"),
   unit_id: unitId("gargantuan_squiggoth"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("huge_tusks_strike__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("huge_tusks_strike__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -542,11 +542,11 @@ export const GargantuanSquiggothHugeTusksStrike10eFactionPackOrks10eV13UnitWeapo
 };
 
 
-export const GargantuanSquiggothHugeTusksSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gargantuan_squiggoth__huge_tusks_sweep__10e__faction_pack_orks_10e_v1_3"),
+export const GargantuanSquiggothHugeTusksSweep10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gargantuan_squiggoth__huge_tusks_sweep__10e__codex_orks_10e"),
   unit_id: unitId("gargantuan_squiggoth"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("huge_tusks_sweep__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("huge_tusks_sweep__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -555,11 +555,11 @@ export const GargantuanSquiggothHugeTusksSweep10eFactionPackOrks10eV13UnitWeapon
 };
 
 
-export const GargantuanSquiggothSupaKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gargantuan_squiggoth__supa_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const GargantuanSquiggothSupaKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gargantuan_squiggoth__supa_kannon__10e__codex_orks_10e"),
   unit_id: unitId("gargantuan_squiggoth"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("supa_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("supa_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -568,11 +568,11 @@ export const GargantuanSquiggothSupaKannon10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const GhazghkullThrakaGorksKlawStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ghazghkull_thraka__gorks_klaw_strike__10e__faction_pack_orks_10e_v1_3"),
+export const GhazghkullThrakaGorksKlawStrike10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ghazghkull_thraka__gorks_klaw_strike__10e__codex_orks_10e"),
   unit_id: unitId("ghazghkull_thraka"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gorks_klaw_strike__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gorks_klaw_strike__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -581,11 +581,11 @@ export const GhazghkullThrakaGorksKlawStrike10eFactionPackOrks10eV13UnitWeapon: 
 };
 
 
-export const GhazghkullThrakaGorksKlawSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ghazghkull_thraka__gorks_klaw_sweep__10e__faction_pack_orks_10e_v1_3"),
+export const GhazghkullThrakaGorksKlawSweep10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ghazghkull_thraka__gorks_klaw_sweep__10e__codex_orks_10e"),
   unit_id: unitId("ghazghkull_thraka"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gorks_klaw_sweep__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gorks_klaw_sweep__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -594,11 +594,11 @@ export const GhazghkullThrakaGorksKlawSweep10eFactionPackOrks10eV13UnitWeapon: U
 };
 
 
-export const GhazghkullThrakaMakarisStabba10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ghazghkull_thraka__makaris_stabba__10e__faction_pack_orks_10e_v1_3"),
+export const GhazghkullThrakaMakarisStabba10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ghazghkull_thraka__makaris_stabba__10e__codex_orks_10e"),
   unit_id: unitId("ghazghkull_thraka"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("makaris_stabba__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("makaris_stabba__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -607,11 +607,11 @@ export const GhazghkullThrakaMakarisStabba10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const GhazghkullThrakaMorksRoar10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ghazghkull_thraka__morks_roar__10e__faction_pack_orks_10e_v1_3"),
+export const GhazghkullThrakaMorksRoar10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ghazghkull_thraka__morks_roar__10e__codex_orks_10e"),
   unit_id: unitId("ghazghkull_thraka"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("morks_roar__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("morks_roar__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -620,11 +620,11 @@ export const GhazghkullThrakaMorksRoar10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const GorkanautDeffstormMegaShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gorkanaut__deffstorm_mega_shoota__10e__faction_pack_orks_10e_v1_3"),
+export const GorkanautDeffstormMegaShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gorkanaut__deffstorm_mega_shoota__10e__codex_orks_10e"),
   unit_id: unitId("gorkanaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("deffstorm_mega_shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("deffstorm_mega_shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -633,11 +633,11 @@ export const GorkanautDeffstormMegaShoota10eFactionPackOrks10eV13UnitWeapon: Uni
 };
 
 
-export const GorkanautKlawOfGorkStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gorkanaut__klaw_of_gork_strike__10e__faction_pack_orks_10e_v1_3"),
+export const GorkanautKlawOfGorkStrike10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gorkanaut__klaw_of_gork_strike__10e__codex_orks_10e"),
   unit_id: unitId("gorkanaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("klaw_of_gork_strike__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("klaw_of_gork_strike__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -646,11 +646,11 @@ export const GorkanautKlawOfGorkStrike10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const GorkanautKlawOfGorkSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gorkanaut__klaw_of_gork_sweep__10e__faction_pack_orks_10e_v1_3"),
+export const GorkanautKlawOfGorkSweep10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gorkanaut__klaw_of_gork_sweep__10e__codex_orks_10e"),
   unit_id: unitId("gorkanaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("klaw_of_gork_sweep__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("klaw_of_gork_sweep__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -659,11 +659,11 @@ export const GorkanautKlawOfGorkSweep10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const GretchinCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gretchin__close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+export const GretchinCloseCombatWeapon10eCodexOrks10eC145D515835bA8b0UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gretchin__close_combat_weapon__10e__codex_orks_10e__c145_d515_835b_a8b0"),
   unit_id: unitId("gretchin"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_orks_10e__c145_d515_835b_a8b0"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -672,11 +672,11 @@ export const GretchinCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const GretchinGrotBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gretchin__grot_blasta__10e__faction_pack_orks_10e_v1_3"),
+export const GretchinGrotBlasta10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gretchin__grot_blasta__10e__codex_orks_10e"),
   unit_id: unitId("gretchin"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("grot_blasta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("grot_blasta__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -685,11 +685,11 @@ export const GretchinGrotBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCon
 };
 
 
-export const GrotBommLaunchaGrotGuidedBomms10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_bomm_launcha__grot_guided_bomms__10e__faction_pack_orks_10e_v1_3"),
+export const GrotBommLaunchaGrotGuidedBomms10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_bomm_launcha__grot_guided_bomms__10e__codex_orks_10e"),
   unit_id: unitId("grot_bomm_launcha"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("grot_guided_bomms__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("grot_guided_bomms__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -698,11 +698,11 @@ export const GrotBommLaunchaGrotGuidedBomms10eFactionPackOrks10eV13UnitWeapon: U
 };
 
 
-export const GrotMegaTankArmouredHull10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__armoured_hull__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankArmouredHull10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__armoured_hull__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -711,11 +711,11 @@ export const GrotMegaTankArmouredHull10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const GrotMegaTankMegaTankWeapons10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__mega_tank_weapons__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankMegaTankWeapons10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__mega_tank_weapons__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mega_tank_weapons__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("mega_tank_weapons__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -724,11 +724,11 @@ export const GrotMegaTankMegaTankWeapons10eFactionPackOrks10eV13UnitWeapon: Unit
 };
 
 
-export const GrotMegaTankTwinBigShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__twin_big_shoota__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankTwinBigShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__twin_big_shoota__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_big_shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_big_shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -737,11 +737,11 @@ export const GrotMegaTankTwinBigShoota10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const GrotMegaTankTwinGrotzooka10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__twin_grotzooka__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankTwinGrotzooka10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__twin_grotzooka__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_grotzooka__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_grotzooka__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -750,11 +750,11 @@ export const GrotMegaTankTwinGrotzooka10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const GrotMegaTankTwinKustomMegaBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__twin_kustom_mega_blasta__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankTwinKustomMegaBlasta10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__twin_kustom_mega_blasta__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_kustom_mega_blasta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_kustom_mega_blasta__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -763,11 +763,11 @@ export const GrotMegaTankTwinKustomMegaBlasta10eFactionPackOrks10eV13UnitWeapon:
 };
 
 
-export const GrotMegaTankTwinRokkitLauncha10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__twin_rokkit_launcha__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankTwinRokkitLauncha10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__twin_rokkit_launcha__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_rokkit_launcha__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_rokkit_launcha__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -776,11 +776,11 @@ export const GrotMegaTankTwinRokkitLauncha10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const GrotMegaTankTwinSkorcha10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("grot_mega_tank__twin_skorcha__10e__faction_pack_orks_10e_v1_3"),
+export const GrotMegaTankTwinSkorcha10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("grot_mega_tank__twin_skorcha__10e__codex_orks_10e"),
   unit_id: unitId("grot_mega_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_skorcha__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_skorcha__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -815,11 +815,11 @@ export const GrotmasGitzLegendsMassiveGiftFilledGob10eCodexOrks10eUnitWeapon: Un
 };
 
 
-export const KannonwagonSpikedRam10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kannonwagon__spiked_ram__10e__faction_pack_orks_10e_v1_3"),
+export const KannonwagonSpikedRam10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kannonwagon__spiked_ram__10e__codex_orks_10e"),
   unit_id: unitId("kannonwagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("spiked_ram__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("spiked_ram__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -828,11 +828,11 @@ export const KannonwagonSpikedRam10eFactionPackOrks10eV13UnitWeapon: UnitWeaponC
 };
 
 
-export const KaptinBadrukkChoppa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kaptin_badrukk__choppa__10e__faction_pack_orks_10e_v1_3"),
+export const KaptinBadrukkChoppa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kaptin_badrukk__choppa__10e__codex_orks_10e"),
   unit_id: unitId("kaptin_badrukk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("choppa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("choppa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -841,11 +841,11 @@ export const KaptinBadrukkChoppa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCo
 };
 
 
-export const KaptinBadrukkDaRippaStandard10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kaptin_badrukk__da_rippa_standard__10e__faction_pack_orks_10e_v1_3"),
+export const KaptinBadrukkDaRippaStandard10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kaptin_badrukk__da_rippa_standard__10e__codex_orks_10e"),
   unit_id: unitId("kaptin_badrukk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("da_rippa_standard__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("da_rippa_standard__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -854,11 +854,11 @@ export const KaptinBadrukkDaRippaStandard10eFactionPackOrks10eV13UnitWeapon: Uni
 };
 
 
-export const KaptinBadrukkDaRippaSupercharge10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kaptin_badrukk__da_rippa_supercharge__10e__faction_pack_orks_10e_v1_3"),
+export const KaptinBadrukkDaRippaSupercharge10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kaptin_badrukk__da_rippa_supercharge__10e__codex_orks_10e"),
   unit_id: unitId("kaptin_badrukk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("da_rippa_supercharge__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("da_rippa_supercharge__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -867,11 +867,11 @@ export const KaptinBadrukkDaRippaSupercharge10eFactionPackOrks10eV13UnitWeapon: 
 };
 
 
-export const KillKrushaKrushaKannonBlastBurna10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_krusha__krusha_kannon_blast_burna__10e__faction_pack_orks_10e_v1_3"),
+export const KillKrushaKrushaKannonBlastBurna10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_krusha__krusha_kannon_blast_burna__10e__codex_orks_10e"),
   unit_id: unitId("kill_krusha"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("krusha_kannon_blast_burna__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("krusha_kannon_blast_burna__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -880,11 +880,11 @@ export const KillKrushaKrushaKannonBlastBurna10eFactionPackOrks10eV13UnitWeapon:
 };
 
 
-export const KillKrushaKrushaKannonTankhammaShell10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_krusha__krusha_kannon_tankhamma_shell__10e__faction_pack_orks_10e_v1_3"),
+export const KillKrushaKrushaKannonTankhammaShell10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_krusha__krusha_kannon_tankhamma_shell__10e__codex_orks_10e"),
   unit_id: unitId("kill_krusha"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("krusha_kannon_tankhamma_shell__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("krusha_kannon_tankhamma_shell__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -893,11 +893,11 @@ export const KillKrushaKrushaKannonTankhammaShell10eFactionPackOrks10eV13UnitWea
 };
 
 
-export const KillKrushaTracksAndWheels10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_krusha__tracks_and_wheels__10e__faction_pack_orks_10e_v1_3"),
+export const KillKrushaTracksAndWheels10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_krusha__tracks_and_wheels__10e__codex_orks_10e"),
   unit_id: unitId("kill_krusha"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("tracks_and_wheels__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("tracks_and_wheels__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -906,11 +906,11 @@ export const KillKrushaTracksAndWheels10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const KillRigWurrtower10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_rig__wurrtower__10e__faction_pack_orks_10e_v1_3"),
+export const KillRigWurrtower10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_rig__wurrtower__10e__codex_orks_10e"),
   unit_id: unitId("kill_rig"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("wurrtower__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("wurrtower__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -919,11 +919,11 @@ export const KillRigWurrtower10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfi
 };
 
 
-export const KillTankBurstaKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_tank__bursta_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const KillTankBurstaKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_tank__bursta_kannon__10e__codex_orks_10e"),
   unit_id: unitId("kill_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bursta_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("bursta_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -932,11 +932,11 @@ export const KillTankBurstaKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponC
 };
 
 
-export const KillTankGigaShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_tank__giga_shoota__10e__faction_pack_orks_10e_v1_3"),
+export const KillTankGigaShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_tank__giga_shoota__10e__codex_orks_10e"),
   unit_id: unitId("kill_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("giga_shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("giga_shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -945,11 +945,11 @@ export const KillTankGigaShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCon
 };
 
 
-export const KillTankReinforcedRam10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_tank__reinforced_ram__10e__faction_pack_orks_10e_v1_3"),
+export const KillTankReinforcedRam10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_tank__reinforced_ram__10e__codex_orks_10e"),
   unit_id: unitId("kill_tank"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("reinforced_ram__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("reinforced_ram__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -958,11 +958,11 @@ export const KillTankReinforcedRam10eFactionPackOrks10eV13UnitWeapon: UnitWeapon
 };
 
 
-export const KillaKansKanShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("killa_kans__kan_shoota__10e__faction_pack_orks_10e_v1_3"),
+export const KillaKansKanShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("killa_kans__kan_shoota__10e__codex_orks_10e"),
   unit_id: unitId("killa_kans"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kan_shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kan_shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -971,11 +971,11 @@ export const KillaKansKanShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCon
 };
 
 
-export const KommandosBreachaRam10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kommandos__breacha_ram__10e__faction_pack_orks_10e_v1_3"),
+export const KommandosBreachaRam10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kommandos__breacha_ram__10e__codex_orks_10e"),
   unit_id: unitId("kommandos"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("breacha_ram__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("breacha_ram__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -984,11 +984,11 @@ export const KommandosBreachaRam10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCo
 };
 
 
-export const KustomBoostaBlastaBurnaExhausts10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kustom_boosta_blasta__burna_exhausts__10e__faction_pack_orks_10e_v1_3"),
+export const KustomBoostaBlastaBurnaExhausts10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kustom_boosta_blasta__burna_exhausts__10e__codex_orks_10e"),
   unit_id: unitId("kustom_boosta_blasta"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("burna_exhausts__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("burna_exhausts__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -997,11 +997,11 @@ export const KustomBoostaBlastaBurnaExhausts10eFactionPackOrks10eV13UnitWeapon: 
 };
 
 
-export const KustomBoostaBlastaRivetKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kustom_boosta_blasta__rivet_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const KustomBoostaBlastaRivetKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kustom_boosta_blasta__rivet_kannon__10e__codex_orks_10e"),
   unit_id: unitId("kustom_boosta_blasta"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rivet_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("rivet_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1010,11 +1010,11 @@ export const KustomBoostaBlastaRivetKannon10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const LiftaWagonLiftaDroppa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lifta_wagon__lifta_droppa__10e__faction_pack_orks_10e_v1_3"),
+export const LiftaWagonLiftaDroppa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lifta_wagon__lifta_droppa__10e__codex_orks_10e"),
   unit_id: unitId("lifta_wagon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lifta_droppa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("lifta_droppa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1023,11 +1023,11 @@ export const LiftaWagonLiftaDroppa10eFactionPackOrks10eV13UnitWeapon: UnitWeapon
 };
 
 
-export const LootaDeffgun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("loota__deffgun__10e__faction_pack_orks_10e_v1_3"),
+export const LootaDeffgun10eCodexOrks10e8f5eBdd6Fbb51851UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("loota__deffgun__10e__codex_orks_10e__8f5e_bdd6_fbb5_1851"),
   unit_id: unitId("loota"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("deffgun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("deffgun__10e__codex_orks_10e__8f5e_bdd6_fbb5_1851"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1036,11 +1036,11 @@ export const LootaDeffgun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = 
 };
 
 
-export const MadDokGrotsnikPowerKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mad_dok_grotsnik__power_klaw__10e__faction_pack_orks_10e_v1_3"),
+export const MadDokGrotsnikPowerKlaw10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mad_dok_grotsnik__power_klaw__10e__codex_orks_10e"),
   unit_id: unitId("mad_dok_grotsnik"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_klaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("power_klaw__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1049,11 +1049,11 @@ export const MadDokGrotsnikPowerKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeap
 };
 
 
-export const MegaDreadBoombits10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mega_dread__boombits__10e__faction_pack_orks_10e_v1_3"),
+export const MegaDreadBoombits10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mega_dread__boombits__10e__codex_orks_10e"),
   unit_id: unitId("mega_dread"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("boombits__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("boombits__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1062,11 +1062,11 @@ export const MegaDreadBoombits10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConf
 };
 
 
-export const MeganobzTwinKillsaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("meganobz__twin_killsaw__10e__faction_pack_orks_10e_v1_3"),
+export const MeganobzTwinKillsaw10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("meganobz__twin_killsaw__10e__codex_orks_10e"),
   unit_id: unitId("meganobz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_killsaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_killsaw__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1075,11 +1075,11 @@ export const MeganobzTwinKillsaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponCo
 };
 
 
-export const MegatrakkScrapjetNoseDrill10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("megatrakk_scrapjet__nose_drill__10e__faction_pack_orks_10e_v1_3"),
+export const MegatrakkScrapjetNoseDrill10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("megatrakk_scrapjet__nose_drill__10e__codex_orks_10e"),
   unit_id: unitId("megatrakk_scrapjet"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("nose_drill__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("nose_drill__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1101,11 +1101,11 @@ export const MegatrakkScrapjetRokkitCannon10eCodexOrks10eUnitWeapon: UnitWeaponC
 };
 
 
-export const MegatrakkScrapjetWingMissiles10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("megatrakk_scrapjet__wing_missiles__10e__faction_pack_orks_10e_v1_3"),
+export const MegatrakkScrapjetWingMissiles10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("megatrakk_scrapjet__wing_missiles__10e__codex_orks_10e"),
   unit_id: unitId("megatrakk_scrapjet"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("wing_missiles__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("wing_missiles__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1114,11 +1114,11 @@ export const MegatrakkScrapjetWingMissiles10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const MekKillsaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mek__killsaw__10e__faction_pack_orks_10e_v1_3"),
+export const MekKillsaw10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mek__killsaw__10e__codex_orks_10e"),
   unit_id: unitId("mek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("killsaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("killsaw__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1127,11 +1127,11 @@ export const MekKillsaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
 };
 
 
-export const MekWrench10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mek__wrench__10e__faction_pack_orks_10e_v1_3"),
+export const MekWrench10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mek__wrench__10e__codex_orks_10e"),
   unit_id: unitId("mek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("wrench__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("wrench__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1179,11 +1179,11 @@ export const MekGunz56BubblechukkaDenseBubble10eCodexOrks10eUnitWeapon: UnitWeap
 };
 
 
-export const MekGunzKustomMegaKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mek_gunz__kustom_mega_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const MekGunzKustomMegaKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mek_gunz__kustom_mega_kannon__10e__codex_orks_10e"),
   unit_id: unitId("mek_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kustom_mega_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kustom_mega_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1192,11 +1192,11 @@ export const MekGunzKustomMegaKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeap
 };
 
 
-export const MekGunzSmashaGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mek_gunz__smasha_gun__10e__faction_pack_orks_10e_v1_3"),
+export const MekGunzSmashaGun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mek_gunz__smasha_gun__10e__codex_orks_10e"),
   unit_id: unitId("mek_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("smasha_gun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("smasha_gun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1205,11 +1205,11 @@ export const MekGunzSmashaGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfi
 };
 
 
-export const MekGunzTraktorKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mek_gunz__traktor_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const MekGunzTraktorKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mek_gunz__traktor_kannon__10e__codex_orks_10e"),
   unit_id: unitId("mek_gunz"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("traktor_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("traktor_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1218,11 +1218,11 @@ export const MekGunzTraktorKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponC
 };
 
 
-export const MorkanautKlawOfMorkStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("morkanaut__klaw_of_mork_strike__10e__faction_pack_orks_10e_v1_3"),
+export const MorkanautKlawOfMorkStrike10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("morkanaut__klaw_of_mork_strike__10e__codex_orks_10e"),
   unit_id: unitId("morkanaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("klaw_of_mork_strike__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("klaw_of_mork_strike__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1231,11 +1231,11 @@ export const MorkanautKlawOfMorkStrike10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const MorkanautKlawOfMorkSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("morkanaut__klaw_of_mork_sweep__10e__faction_pack_orks_10e_v1_3"),
+export const MorkanautKlawOfMorkSweep10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("morkanaut__klaw_of_mork_sweep__10e__codex_orks_10e"),
   unit_id: unitId("morkanaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("klaw_of_mork_sweep__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("klaw_of_mork_sweep__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1244,11 +1244,11 @@ export const MorkanautKlawOfMorkSweep10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const MorkanautKustomMegaZappa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("morkanaut__kustom_mega_zappa__10e__faction_pack_orks_10e_v1_3"),
+export const MorkanautKustomMegaZappa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("morkanaut__kustom_mega_zappa__10e__codex_orks_10e"),
   unit_id: unitId("morkanaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kustom_mega_zappa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kustom_mega_zappa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1257,11 +1257,11 @@ export const MorkanautKustomMegaZappa10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const MozrogSkragbadBigChompasJaws10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mozrog_skragbad__big_chompas_jaws__10e__faction_pack_orks_10e_v1_3"),
+export const MozrogSkragbadBigChompasJaws10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mozrog_skragbad__big_chompas_jaws__10e__codex_orks_10e"),
   unit_id: unitId("mozrog_skragbad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("big_chompas_jaws__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("big_chompas_jaws__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1270,11 +1270,11 @@ export const MozrogSkragbadBigChompasJaws10eFactionPackOrks10eV13UnitWeapon: Uni
 };
 
 
-export const MozrogSkragbadGutrippa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mozrog_skragbad__gutrippa__10e__faction_pack_orks_10e_v1_3"),
+export const MozrogSkragbadGutrippa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mozrog_skragbad__gutrippa__10e__codex_orks_10e"),
   unit_id: unitId("mozrog_skragbad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gutrippa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gutrippa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1283,11 +1283,11 @@ export const MozrogSkragbadGutrippa10eFactionPackOrks10eV13UnitWeapon: UnitWeapo
 };
 
 
-export const NobOnSmashaSquigBigChoppa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nob_on_smasha_squig__big_choppa__10e__faction_pack_orks_10e_v1_3"),
+export const NobOnSmashaSquigBigChoppa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nob_on_smasha_squig__big_choppa__10e__codex_orks_10e"),
   unit_id: unitId("nob_on_smasha_squig"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("big_choppa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("big_choppa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1296,11 +1296,11 @@ export const NobOnSmashaSquigBigChoppa10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const NobWithWaaaghBannerWaaaghBanner10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nob_with_waaagh_banner__waaagh_banner__10e__faction_pack_orks_10e_v1_3"),
+export const NobWithWaaaghBannerWaaaghBanner10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nob_with_waaagh_banner__waaagh_banner__10e__codex_orks_10e"),
   unit_id: unitId("nob_with_waaagh_banner"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("waaagh_banner__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("waaagh_banner__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1309,11 +1309,11 @@ export const NobWithWaaaghBannerWaaaghBanner10eFactionPackOrks10eV13UnitWeapon: 
 };
 
 
-export const NobzOnWarbikesPowerStabba10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nobz_on_warbikes__power_stabba__10e__faction_pack_orks_10e_v1_3"),
+export const NobzOnWarbikesPowerStabba10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nobz_on_warbikes__power_stabba__10e__codex_orks_10e"),
   unit_id: unitId("nobz_on_warbikes"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_stabba__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("power_stabba__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1322,11 +1322,11 @@ export const NobzOnWarbikesPowerStabba10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const NobzOnWarbikesTwinDakkagun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nobz_on_warbikes__twin_dakkagun__10e__faction_pack_orks_10e_v1_3"),
+export const NobzOnWarbikesTwinDakkagun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nobz_on_warbikes__twin_dakkagun__10e__codex_orks_10e"),
   unit_id: unitId("nobz_on_warbikes"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_dakkagun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_dakkagun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1335,11 +1335,11 @@ export const NobzOnWarbikesTwinDakkagun10eFactionPackOrks10eV13UnitWeapon: UnitW
 };
 
 
-export const PainbossBeastSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("painboss__beast_snagga_klaw__10e__faction_pack_orks_10e_v1_3"),
+export const PainbossBeastSnaggaKlaw10eCodexOrks10eF02b3f98414c38e5UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("painboss__beast_snagga_klaw__10e__codex_orks_10e__f02b_3f98_414c_38e5"),
   unit_id: unitId("painboss"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("beast_snagga_klaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("beast_snagga_klaw__10e__codex_orks_10e__f02b_3f98_414c_38e5"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1348,11 +1348,11 @@ export const PainbossBeastSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon: UnitWeap
 };
 
 
-export const RukkatrukkSquigbuggySawnOffShotgun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rukkatrukk_squigbuggy__sawn_off_shotgun__10e__faction_pack_orks_10e_v1_3"),
+export const RukkatrukkSquigbuggySawnOffShotgun10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rukkatrukk_squigbuggy__sawn_off_shotgun__10e__codex_orks_10e"),
   unit_id: unitId("rukkatrukk_squigbuggy"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("sawn_off_shotgun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("sawn_off_shotgun__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1361,11 +1361,11 @@ export const RukkatrukkSquigbuggySawnOffShotgun10eFactionPackOrks10eV13UnitWeapo
 };
 
 
-export const RukkatrukkSquigbuggySquigLaunchas10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rukkatrukk_squigbuggy__squig_launchas__10e__faction_pack_orks_10e_v1_3"),
+export const RukkatrukkSquigbuggySquigLaunchas10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rukkatrukk_squigbuggy__squig_launchas__10e__codex_orks_10e"),
   unit_id: unitId("rukkatrukk_squigbuggy"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("squig_launchas__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("squig_launchas__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1387,11 +1387,11 @@ export const RuntherdGrotSmacka10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
 };
 
 
-export const ShokkjumpDragstaKustomShokkRifle10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("shokkjump_dragsta__kustom_shokk_rifle__10e__faction_pack_orks_10e_v1_3"),
+export const ShokkjumpDragstaKustomShokkRifle10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("shokkjump_dragsta__kustom_shokk_rifle__10e__codex_orks_10e"),
   unit_id: unitId("shokkjump_dragsta"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("kustom_shokk_rifle__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("kustom_shokk_rifle__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1400,11 +1400,11 @@ export const ShokkjumpDragstaKustomShokkRifle10eFactionPackOrks10eV13UnitWeapon:
 };
 
 
-export const SpannerCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("spanner__close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+export const SpannerCloseCombatWeapon10eCodexOrks10e7aa427ac33c4F0fdUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("spanner__close_combat_weapon__10e__codex_orks_10e__7aa4_27ac_33c4_f0fd"),
   unit_id: unitId("spanner"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_orks_10e__7aa4_27ac_33c4_f0fd"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1413,11 +1413,11 @@ export const SpannerCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const SquiggothGorinHornsStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("squiggoth__gorin_horns_strike__10e__faction_pack_orks_10e_v1_3"),
+export const SquiggothGorinHornsStrike10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("squiggoth__gorin_horns_strike__10e__codex_orks_10e"),
   unit_id: unitId("squiggoth"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gorin_horns_strike__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gorin_horns_strike__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1426,11 +1426,11 @@ export const SquiggothGorinHornsStrike10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const SquiggothGorinHornsSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("squiggoth__gorin_horns_sweep__10e__faction_pack_orks_10e_v1_3"),
+export const SquiggothGorinHornsSweep10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("squiggoth__gorin_horns_sweep__10e__codex_orks_10e"),
   unit_id: unitId("squiggoth"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gorin_horns_sweep__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("gorin_horns_sweep__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1465,11 +1465,11 @@ export const SquighogBoyStikkaRanged10eCodexOrks10eUnitWeapon: UnitWeaponConfig 
 };
 
 
-export const StompaDeffkannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("stompa__deffkannon__10e__faction_pack_orks_10e_v1_3"),
+export const StompaDeffkannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("stompa__deffkannon__10e__codex_orks_10e"),
   unit_id: unitId("stompa"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("deffkannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("deffkannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1478,11 +1478,11 @@ export const StompaDeffkannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfi
 };
 
 
-export const StompaMegaChoppaStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("stompa__mega_choppa_strike__10e__faction_pack_orks_10e_v1_3"),
+export const StompaMegaChoppaStrike10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("stompa__mega_choppa_strike__10e__codex_orks_10e"),
   unit_id: unitId("stompa"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mega_choppa_strike__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("mega_choppa_strike__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1491,11 +1491,11 @@ export const StompaMegaChoppaStrike10eFactionPackOrks10eV13UnitWeapon: UnitWeapo
 };
 
 
-export const StompaMegaChoppaSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("stompa__mega_choppa_sweep__10e__faction_pack_orks_10e_v1_3"),
+export const StompaMegaChoppaSweep10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("stompa__mega_choppa_sweep__10e__codex_orks_10e"),
   unit_id: unitId("stompa"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mega_choppa_sweep__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("mega_choppa_sweep__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1504,11 +1504,11 @@ export const StompaMegaChoppaSweep10eFactionPackOrks10eV13UnitWeapon: UnitWeapon
 };
 
 
-export const StompaSupaGatler10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("stompa__supa_gatler__10e__faction_pack_orks_10e_v1_3"),
+export const StompaSupaGatler10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("stompa__supa_gatler__10e__codex_orks_10e"),
   unit_id: unitId("stompa"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("supa_gatler__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("supa_gatler__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1517,11 +1517,11 @@ export const StompaSupaGatler10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfi
 };
 
 
-export const StompaSupaRokkits10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("stompa__supa_rokkits__10e__faction_pack_orks_10e_v1_3"),
+export const StompaSupaRokkits10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("stompa__supa_rokkits__10e__codex_orks_10e"),
   unit_id: unitId("stompa"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("supa_rokkits__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("supa_rokkits__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1530,11 +1530,11 @@ export const StompaSupaRokkits10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConf
 };
 
 
-export const UfthakBlackhawkPrincessJaws10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ufthak_blackhawk__princess_jaws__10e__faction_pack_orks_10e_v1_3"),
+export const UfthakBlackhawkPrincessJaws10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ufthak_blackhawk__princess_jaws__10e__codex_orks_10e"),
   unit_id: unitId("ufthak_blackhawk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("princess_jaws__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("princess_jaws__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1543,11 +1543,11 @@ export const UfthakBlackhawkPrincessJaws10eFactionPackOrks10eV13UnitWeapon: Unit
 };
 
 
-export const UfthakBlackhawkShokkRifle10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ufthak_blackhawk__shokk_rifle__10e__faction_pack_orks_10e_v1_3"),
+export const UfthakBlackhawkShokkRifle10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ufthak_blackhawk__shokk_rifle__10e__codex_orks_10e"),
   unit_id: unitId("ufthak_blackhawk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shokk_rifle__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("shokk_rifle__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1556,11 +1556,11 @@ export const UfthakBlackhawkShokkRifle10eFactionPackOrks10eV13UnitWeapon: UnitWe
 };
 
 
-export const UfthakBlackhawkSnazzhammer10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ufthak_blackhawk__snazzhammer__10e__faction_pack_orks_10e_v1_3"),
+export const UfthakBlackhawkSnazzhammer10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ufthak_blackhawk__snazzhammer__10e__codex_orks_10e"),
   unit_id: unitId("ufthak_blackhawk"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("snazzhammer__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("snazzhammer__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1569,11 +1569,11 @@ export const UfthakBlackhawkSnazzhammer10eFactionPackOrks10eV13UnitWeapon: UnitW
 };
 
 
-export const WarbossTwinSlugga10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warboss__twin_slugga__10e__faction_pack_orks_10e_v1_3"),
+export const WarbossTwinSlugga10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warboss__twin_slugga__10e__codex_orks_10e"),
   unit_id: unitId("warboss"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_slugga__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_slugga__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1582,11 +1582,11 @@ export const WarbossTwinSlugga10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConf
 };
 
 
-export const WarbossInMegaArmourBigShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warboss_in_mega_armour__big_shoota__10e__faction_pack_orks_10e_v1_3"),
+export const WarbossInMegaArmourBigShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warboss_in_mega_armour__big_shoota__10e__codex_orks_10e"),
   unit_id: unitId("warboss_in_mega_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("big_shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("big_shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1595,11 +1595,11 @@ export const WarbossInMegaArmourBigShoota10eFactionPackOrks10eV13UnitWeapon: Uni
 };
 
 
-export const WarbossOnWarbikeKillsaw10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warboss_on_warbike__killsaw__10e__faction_pack_orks_10e_v1_3"),
+export const WarbossOnWarbikeKillsaw10eCodexOrks10e3900Ca6c3b11E10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warboss_on_warbike__killsaw__10e__codex_orks_10e__3900_ca6c_3b11_e10e"),
   unit_id: unitId("warboss_on_warbike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("killsaw__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("killsaw__10e__codex_orks_10e__3900_ca6c_3b11_e10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1608,11 +1608,11 @@ export const WarbossOnWarbikeKillsaw10eFactionPackOrks10eV13UnitWeapon: UnitWeap
 };
 
 
-export const WazbomBlastajetSmashaGun10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazbom_blastajet__smasha_gun__10e__faction_pack_orks_10e_v1_3"),
+export const WazbomBlastajetSmashaGun10eCodexOrks10eE0c3C64118347011UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazbom_blastajet__smasha_gun__10e__codex_orks_10e__e0c3_c641_1834_7011"),
   unit_id: unitId("wazbom_blastajet"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("smasha_gun__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("smasha_gun__10e__codex_orks_10e__e0c3_c641_1834_7011"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1621,11 +1621,11 @@ export const WazbomBlastajetSmashaGun10eFactionPackOrks10eV13UnitWeapon: UnitWea
 };
 
 
-export const WazbomBlastajetTwinSupaShoota10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazbom_blastajet__twin_supa_shoota__10e__faction_pack_orks_10e_v1_3"),
+export const WazbomBlastajetTwinSupaShoota10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazbom_blastajet__twin_supa_shoota__10e__codex_orks_10e"),
   unit_id: unitId("wazbom_blastajet"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_supa_shoota__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_supa_shoota__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1634,11 +1634,11 @@ export const WazbomBlastajetTwinSupaShoota10eFactionPackOrks10eV13UnitWeapon: Un
 };
 
 
-export const WazbomBlastajetTwinTellyportMegaBlasta10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazbom_blastajet__twin_tellyport_mega_blasta__10e__faction_pack_orks_10e_v1_3"),
+export const WazbomBlastajetTwinTellyportMegaBlasta10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazbom_blastajet__twin_tellyport_mega_blasta__10e__codex_orks_10e"),
   unit_id: unitId("wazbom_blastajet"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_tellyport_mega_blasta__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_tellyport_mega_blasta__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1647,11 +1647,11 @@ export const WazbomBlastajetTwinTellyportMegaBlasta10eFactionPackOrks10eV13UnitW
 };
 
 
-export const WazbomBlastajetTwinWazbomMegaKannon10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazbom_blastajet__twin_wazbom_mega_kannon__10e__faction_pack_orks_10e_v1_3"),
+export const WazbomBlastajetTwinWazbomMegaKannon10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazbom_blastajet__twin_wazbom_mega_kannon__10e__codex_orks_10e"),
   unit_id: unitId("wazbom_blastajet"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_wazbom_mega_kannon__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("twin_wazbom_mega_kannon__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1660,11 +1660,11 @@ export const WazbomBlastajetTwinWazbomMegaKannon10eFactionPackOrks10eV13UnitWeap
 };
 
 
-export const WazdakkaGutsmekFixitsWrench10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazdakka_gutsmek__fixits_wrench__10e__faction_pack_orks_10e_v1_3"),
+export const WazdakkaGutsmekFixitsWrench10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazdakka_gutsmek__fixits_wrench__10e__codex_orks_10e"),
   unit_id: unitId("wazdakka_gutsmek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fixits_wrench__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("fixits_wrench__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1673,11 +1673,11 @@ export const WazdakkaGutsmekFixitsWrench10eFactionPackOrks10eV13UnitWeapon: Unit
 };
 
 
-export const WazdakkaGutsmekGrabbaDragga10eFactionPackOrks10eV133d118b36767d4f9fUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazdakka_gutsmek__grabba_dragga__10e__faction_pack_orks_10e_v1_3__3d11_8b36_767d_4f9f"),
+export const WazdakkaGutsmekGrabbaDragga10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazdakka_gutsmek__grabba_dragga__10e__codex_orks_10e"),
   unit_id: unitId("wazdakka_gutsmek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("grabba_dragga__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("grabba_dragga__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1686,11 +1686,11 @@ export const WazdakkaGutsmekGrabbaDragga10eFactionPackOrks10eV133d118b36767d4f9f
 };
 
 
-export const WazdakkaGutsmekGrabbaDragga10eFactionPackOrks10eV13662cA8d3703fDf9bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazdakka_gutsmek__grabba_dragga__10e__faction_pack_orks_10e_v1_3__662c_a8d3_703f_df9b"),
+export const WazdakkaGutsmekGrabbaDragga10eCodexOrks10e662cA8d3703fDf9bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazdakka_gutsmek__grabba_dragga__10e__codex_orks_10e__662c_a8d3_703f_df9b"),
   unit_id: unitId("wazdakka_gutsmek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("grabba_dragga__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("grabba_dragga__10e__codex_orks_10e__662c_a8d3_703f_df9b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1699,11 +1699,11 @@ export const WazdakkaGutsmekGrabbaDragga10eFactionPackOrks10eV13662cA8d3703fDf9b
 };
 
 
-export const WazdakkaGutsmekPsykoGatler10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazdakka_gutsmek__psyko_gatler__10e__faction_pack_orks_10e_v1_3"),
+export const WazdakkaGutsmekPsykoGatler10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazdakka_gutsmek__psyko_gatler__10e__codex_orks_10e"),
   unit_id: unitId("wazdakka_gutsmek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("psyko_gatler__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("psyko_gatler__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1712,11 +1712,11 @@ export const WazdakkaGutsmekPsykoGatler10eFactionPackOrks10eV13UnitWeapon: UnitW
 };
 
 
-export const WazdakkaGutsmekSpeedingBulkAndFlamingExhaust10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wazdakka_gutsmek__speeding_bulk_and_flaming_exhaust__10e__faction_pack_orks_10e_v1_3"),
+export const WazdakkaGutsmekSpeedingBulkAndFlamingExhaust10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wazdakka_gutsmek__speeding_bulk_and_flaming_exhaust__10e__codex_orks_10e"),
   unit_id: unitId("wazdakka_gutsmek"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("speeding_bulk_and_flaming_exhaust__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("speeding_bulk_and_flaming_exhaust__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1725,11 +1725,11 @@ export const WazdakkaGutsmekSpeedingBulkAndFlamingExhaust10eFactionPackOrks10eV1
 };
 
 
-export const ZodgrodWortsnaggaDaGrabzappa10eFactionPackOrks10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("zodgrod_wortsnagga__da_grabzappa__10e__faction_pack_orks_10e_v1_3"),
+export const ZodgrodWortsnaggaDaGrabzappa10eCodexOrks10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("zodgrod_wortsnagga__da_grabzappa__10e__codex_orks_10e"),
   unit_id: unitId("zodgrod_wortsnagga"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("da_grabzappa__10e__faction_pack_orks_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("da_grabzappa__10e__codex_orks_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_orks_10e"),
   is_default: true,
@@ -1754,139 +1754,139 @@ export const ZodgrodWortsnaggaSquigstoppa10eCodexOrks10eUnitWeapon: UnitWeaponCo
 export const orksUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    BattlewagonKannonFrag10eFactionPackOrks10eV13UnitWeapon,
-    BattlewagonKannonShell10eFactionPackOrks10eV13UnitWeapon,
-    BattlewagonKillkannon10eFactionPackOrks10eV13UnitWeapon,
-    BattlewagonZzapGun10eFactionPackOrks10eV13UnitWeapon,
-    BeastSnaggaBoyzCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon,
-    BeastSnaggaBoyzPowerSnappa10eFactionPackOrks10eV13UnitWeapon,
-    BeastSnaggaBoyzThumpGun10eFactionPackOrks10eV13UnitWeapon,
-    BeastbossBeastSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon,
-    BeastbossShoota10eFactionPackOrks10eV13UnitWeapon,
-    BeastbossOnSquigosaurSquigosaursJaws10eFactionPackOrks10eV13UnitWeapon,
-    BigGunzKannonFrag10eFactionPackOrks10eV13UnitWeapon,
-    BigGunzKannonShell10eFactionPackOrks10eV13UnitWeapon,
-    BigGunzLobba10eFactionPackOrks10eV13UnitWeapon,
-    BigGunzZzapGun10eFactionPackOrks10eV13UnitWeapon,
-    BigMekInMegaArmourTellyportBlasta10eFactionPackOrks10eV13UnitWeapon,
-    BigedBossbunkaGazeOfGorkGlare10eFactionPackOrks10eV13UnitWeapon,
-    BigedBossbunkaGazeOfGorkSquint10eFactionPackOrks10eV13UnitWeapon,
-    BoomdakkaSnazzwagonMekSpeshul10eFactionPackOrks10eV13UnitWeapon,
-    BossSnikrotMorksTeeth10eFactionPackOrks10eV13UnitWeapon,
-    BossZagstrukDaVulchasKlawsAndChoppa10eFactionPackOrks10eV13UnitWeapon,
-    BreakaBoyzKnucklebustas10eFactionPackOrks10eV13UnitWeapon,
-    BreakaBoyzTankhammer10eFactionPackOrks10eV13UnitWeapon,
-    BurnaBommerSkorchaMissileRack10eFactionPackOrks10eV13UnitWeapon,
-    BurnaBoyCuttinFlames10eFactionPackOrks10eV13UnitWeapon,
-    ChinorkWarkoptaDeffgun10eFactionPackOrks10eV13UnitWeapon,
-    ChinorkWarkoptaRattlerKannon10eFactionPackOrks10eV13UnitWeapon,
-    DaRedGobboIconOfDaRevolushun10eFactionPackOrks10eV13UnitWeapon,
-    DaRedGobboKustomGrotBlasta10eFactionPackOrks10eV13UnitWeapon,
-    DaRedGobbosABombInableSnowmanLegendsCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon,
-    DaRedGobbosABombInableSnowmanLegendsKustomGrotBlasta10eFactionPackOrks10eV13UnitWeapon,
+    BattlewagonKannonFrag10eCodexOrks10eUnitWeapon,
+    BattlewagonKannonShell10eCodexOrks10eUnitWeapon,
+    BattlewagonKillkannon10eCodexOrks10eUnitWeapon,
+    BattlewagonZzapGun10eCodexOrks10eUnitWeapon,
+    BeastSnaggaBoyzCloseCombatWeapon10eCodexOrks10eUnitWeapon,
+    BeastSnaggaBoyzPowerSnappa10eCodexOrks10eUnitWeapon,
+    BeastSnaggaBoyzThumpGun10eCodexOrks10eUnitWeapon,
+    BeastbossBeastSnaggaKlaw10eCodexOrks10eUnitWeapon,
+    BeastbossShoota10eCodexOrks10eUnitWeapon,
+    BeastbossOnSquigosaurSquigosaursJaws10eCodexOrks10eUnitWeapon,
+    BigGunzKannonFrag10eCodexOrks10e791d6ad8Dc07F99UnitWeapon,
+    BigGunzKannonShell10eCodexOrks10eD00aDbd093baF6ebUnitWeapon,
+    BigGunzLobba10eCodexOrks10eUnitWeapon,
+    BigGunzZzapGun10eCodexOrks10eBdb37a52Dd623f72UnitWeapon,
+    BigMekInMegaArmourTellyportBlasta10eCodexOrks10eUnitWeapon,
+    BigedBossbunkaGazeOfGorkGlare10eCodexOrks10eUnitWeapon,
+    BigedBossbunkaGazeOfGorkSquint10eCodexOrks10eUnitWeapon,
+    BoomdakkaSnazzwagonMekSpeshul10eCodexOrks10eUnitWeapon,
+    BossSnikrotMorksTeeth10eCodexOrks10eUnitWeapon,
+    BossZagstrukDaVulchasKlawsAndChoppa10eCodexOrks10eUnitWeapon,
+    BreakaBoyzKnucklebustas10eCodexOrks10eUnitWeapon,
+    BreakaBoyzTankhammer10eCodexOrks10eUnitWeapon,
+    BurnaBommerSkorchaMissileRack10eCodexOrks10eUnitWeapon,
+    BurnaBoyCuttinFlames10eCodexOrks10eUnitWeapon,
+    ChinorkWarkoptaDeffgun10eCodexOrks10eUnitWeapon,
+    ChinorkWarkoptaRattlerKannon10eCodexOrks10eUnitWeapon,
+    DaRedGobboIconOfDaRevolushun10eCodexOrks10eUnitWeapon,
+    DaRedGobboKustomGrotBlasta10eCodexOrks10eUnitWeapon,
+    DaRedGobbosABombInableSnowmanLegendsCloseCombatWeapon10eCodexOrks10e5d4d2225Fcb7367fUnitWeapon,
+    DaRedGobbosABombInableSnowmanLegendsKustomGrotBlasta10eCodexOrks10e67bfB512550a8d61UnitWeapon,
     DaRedGobbosTinboyTinboysKlaw10eCodexOrks10eUnitWeapon,
     DaRedGobbosTinboyTinboysKustomShoota10eCodexOrks10eUnitWeapon,
-    DeffDreadDreadKlaw10eFactionPackOrks10eV13UnitWeapon,
-    DeffDreadStompyFeet10eFactionPackOrks10eV13UnitWeapon,
-    DeffRollaBattleFortressZzapGun10eFactionPackOrks10eV13UnitWeapon,
+    DeffDreadDreadKlaw10eCodexOrks10eUnitWeapon,
+    DeffDreadStompyFeet10eCodexOrks10eUnitWeapon,
+    DeffRollaBattleFortressZzapGun10eCodexOrks10e57008d1599d51ec1UnitWeapon,
     DeffkillaWartrikeDeffkillaBoomstikks10eCodexOrks10eUnitWeapon,
-    DeffkillaWartrikeKillaJetBurna10eFactionPackOrks10eV13UnitWeapon,
-    DeffkillaWartrikeKillaJetCutta10eFactionPackOrks10eV13UnitWeapon,
-    DeffkillaWartrikeSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon,
-    FightaBommerGrotGuidedBomm10eFactionPackOrks10eV13UnitWeapon,
-    GargantuanSquiggothHugeTusksStrike10eFactionPackOrks10eV13UnitWeapon,
-    GargantuanSquiggothHugeTusksSweep10eFactionPackOrks10eV13UnitWeapon,
-    GargantuanSquiggothSupaKannon10eFactionPackOrks10eV13UnitWeapon,
-    GhazghkullThrakaGorksKlawStrike10eFactionPackOrks10eV13UnitWeapon,
-    GhazghkullThrakaGorksKlawSweep10eFactionPackOrks10eV13UnitWeapon,
-    GhazghkullThrakaMakarisStabba10eFactionPackOrks10eV13UnitWeapon,
-    GhazghkullThrakaMorksRoar10eFactionPackOrks10eV13UnitWeapon,
-    GorkanautDeffstormMegaShoota10eFactionPackOrks10eV13UnitWeapon,
-    GorkanautKlawOfGorkStrike10eFactionPackOrks10eV13UnitWeapon,
-    GorkanautKlawOfGorkSweep10eFactionPackOrks10eV13UnitWeapon,
-    GretchinCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon,
-    GretchinGrotBlasta10eFactionPackOrks10eV13UnitWeapon,
-    GrotBommLaunchaGrotGuidedBomms10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankArmouredHull10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankMegaTankWeapons10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankTwinBigShoota10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankTwinGrotzooka10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankTwinKustomMegaBlasta10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankTwinRokkitLauncha10eFactionPackOrks10eV13UnitWeapon,
-    GrotMegaTankTwinSkorcha10eFactionPackOrks10eV13UnitWeapon,
+    DeffkillaWartrikeKillaJetBurna10eCodexOrks10eUnitWeapon,
+    DeffkillaWartrikeKillaJetCutta10eCodexOrks10eUnitWeapon,
+    DeffkillaWartrikeSnaggaKlaw10eCodexOrks10eUnitWeapon,
+    FightaBommerGrotGuidedBomm10eCodexOrks10eUnitWeapon,
+    GargantuanSquiggothHugeTusksStrike10eCodexOrks10eUnitWeapon,
+    GargantuanSquiggothHugeTusksSweep10eCodexOrks10eUnitWeapon,
+    GargantuanSquiggothSupaKannon10eCodexOrks10eUnitWeapon,
+    GhazghkullThrakaGorksKlawStrike10eCodexOrks10eUnitWeapon,
+    GhazghkullThrakaGorksKlawSweep10eCodexOrks10eUnitWeapon,
+    GhazghkullThrakaMakarisStabba10eCodexOrks10eUnitWeapon,
+    GhazghkullThrakaMorksRoar10eCodexOrks10eUnitWeapon,
+    GorkanautDeffstormMegaShoota10eCodexOrks10eUnitWeapon,
+    GorkanautKlawOfGorkStrike10eCodexOrks10eUnitWeapon,
+    GorkanautKlawOfGorkSweep10eCodexOrks10eUnitWeapon,
+    GretchinCloseCombatWeapon10eCodexOrks10eC145D515835bA8b0UnitWeapon,
+    GretchinGrotBlasta10eCodexOrks10eUnitWeapon,
+    GrotBommLaunchaGrotGuidedBomms10eCodexOrks10eUnitWeapon,
+    GrotMegaTankArmouredHull10eCodexOrks10eUnitWeapon,
+    GrotMegaTankMegaTankWeapons10eCodexOrks10eUnitWeapon,
+    GrotMegaTankTwinBigShoota10eCodexOrks10eUnitWeapon,
+    GrotMegaTankTwinGrotzooka10eCodexOrks10eUnitWeapon,
+    GrotMegaTankTwinKustomMegaBlasta10eCodexOrks10eUnitWeapon,
+    GrotMegaTankTwinRokkitLauncha10eCodexOrks10eUnitWeapon,
+    GrotMegaTankTwinSkorcha10eCodexOrks10eUnitWeapon,
     GrotmasGitzLegendsBludgeoningBagOfGifts10eCodexOrks10eUnitWeapon,
     GrotmasGitzLegendsMassiveGiftFilledGob10eCodexOrks10eUnitWeapon,
-    KannonwagonSpikedRam10eFactionPackOrks10eV13UnitWeapon,
-    KaptinBadrukkChoppa10eFactionPackOrks10eV13UnitWeapon,
-    KaptinBadrukkDaRippaStandard10eFactionPackOrks10eV13UnitWeapon,
-    KaptinBadrukkDaRippaSupercharge10eFactionPackOrks10eV13UnitWeapon,
-    KillKrushaKrushaKannonBlastBurna10eFactionPackOrks10eV13UnitWeapon,
-    KillKrushaKrushaKannonTankhammaShell10eFactionPackOrks10eV13UnitWeapon,
-    KillKrushaTracksAndWheels10eFactionPackOrks10eV13UnitWeapon,
-    KillRigWurrtower10eFactionPackOrks10eV13UnitWeapon,
-    KillTankBurstaKannon10eFactionPackOrks10eV13UnitWeapon,
-    KillTankGigaShoota10eFactionPackOrks10eV13UnitWeapon,
-    KillTankReinforcedRam10eFactionPackOrks10eV13UnitWeapon,
-    KillaKansKanShoota10eFactionPackOrks10eV13UnitWeapon,
-    KommandosBreachaRam10eFactionPackOrks10eV13UnitWeapon,
-    KustomBoostaBlastaBurnaExhausts10eFactionPackOrks10eV13UnitWeapon,
-    KustomBoostaBlastaRivetKannon10eFactionPackOrks10eV13UnitWeapon,
-    LiftaWagonLiftaDroppa10eFactionPackOrks10eV13UnitWeapon,
-    LootaDeffgun10eFactionPackOrks10eV13UnitWeapon,
-    MadDokGrotsnikPowerKlaw10eFactionPackOrks10eV13UnitWeapon,
-    MegaDreadBoombits10eFactionPackOrks10eV13UnitWeapon,
-    MeganobzTwinKillsaw10eFactionPackOrks10eV13UnitWeapon,
-    MegatrakkScrapjetNoseDrill10eFactionPackOrks10eV13UnitWeapon,
+    KannonwagonSpikedRam10eCodexOrks10eUnitWeapon,
+    KaptinBadrukkChoppa10eCodexOrks10eUnitWeapon,
+    KaptinBadrukkDaRippaStandard10eCodexOrks10eUnitWeapon,
+    KaptinBadrukkDaRippaSupercharge10eCodexOrks10eUnitWeapon,
+    KillKrushaKrushaKannonBlastBurna10eCodexOrks10eUnitWeapon,
+    KillKrushaKrushaKannonTankhammaShell10eCodexOrks10eUnitWeapon,
+    KillKrushaTracksAndWheels10eCodexOrks10eUnitWeapon,
+    KillRigWurrtower10eCodexOrks10eUnitWeapon,
+    KillTankBurstaKannon10eCodexOrks10eUnitWeapon,
+    KillTankGigaShoota10eCodexOrks10eUnitWeapon,
+    KillTankReinforcedRam10eCodexOrks10eUnitWeapon,
+    KillaKansKanShoota10eCodexOrks10eUnitWeapon,
+    KommandosBreachaRam10eCodexOrks10eUnitWeapon,
+    KustomBoostaBlastaBurnaExhausts10eCodexOrks10eUnitWeapon,
+    KustomBoostaBlastaRivetKannon10eCodexOrks10eUnitWeapon,
+    LiftaWagonLiftaDroppa10eCodexOrks10eUnitWeapon,
+    LootaDeffgun10eCodexOrks10e8f5eBdd6Fbb51851UnitWeapon,
+    MadDokGrotsnikPowerKlaw10eCodexOrks10eUnitWeapon,
+    MegaDreadBoombits10eCodexOrks10eUnitWeapon,
+    MeganobzTwinKillsaw10eCodexOrks10eUnitWeapon,
+    MegatrakkScrapjetNoseDrill10eCodexOrks10eUnitWeapon,
     MegatrakkScrapjetRokkitCannon10eCodexOrks10eUnitWeapon,
-    MegatrakkScrapjetWingMissiles10eFactionPackOrks10eV13UnitWeapon,
-    MekKillsaw10eFactionPackOrks10eV13UnitWeapon,
-    MekWrench10eFactionPackOrks10eV13UnitWeapon,
+    MegatrakkScrapjetWingMissiles10eCodexOrks10eUnitWeapon,
+    MekKillsaw10eCodexOrks10eUnitWeapon,
+    MekWrench10eCodexOrks10eUnitWeapon,
     MekGunz12BubblechukkaBigBubble10eCodexOrks10eUnitWeapon,
     MekGunz34BubblechukkaWobblyBubble10eCodexOrks10eUnitWeapon,
     MekGunz56BubblechukkaDenseBubble10eCodexOrks10eUnitWeapon,
-    MekGunzKustomMegaKannon10eFactionPackOrks10eV13UnitWeapon,
-    MekGunzSmashaGun10eFactionPackOrks10eV13UnitWeapon,
-    MekGunzTraktorKannon10eFactionPackOrks10eV13UnitWeapon,
-    MorkanautKlawOfMorkStrike10eFactionPackOrks10eV13UnitWeapon,
-    MorkanautKlawOfMorkSweep10eFactionPackOrks10eV13UnitWeapon,
-    MorkanautKustomMegaZappa10eFactionPackOrks10eV13UnitWeapon,
-    MozrogSkragbadBigChompasJaws10eFactionPackOrks10eV13UnitWeapon,
-    MozrogSkragbadGutrippa10eFactionPackOrks10eV13UnitWeapon,
-    NobOnSmashaSquigBigChoppa10eFactionPackOrks10eV13UnitWeapon,
-    NobWithWaaaghBannerWaaaghBanner10eFactionPackOrks10eV13UnitWeapon,
-    NobzOnWarbikesPowerStabba10eFactionPackOrks10eV13UnitWeapon,
-    NobzOnWarbikesTwinDakkagun10eFactionPackOrks10eV13UnitWeapon,
-    PainbossBeastSnaggaKlaw10eFactionPackOrks10eV13UnitWeapon,
-    RukkatrukkSquigbuggySawnOffShotgun10eFactionPackOrks10eV13UnitWeapon,
-    RukkatrukkSquigbuggySquigLaunchas10eFactionPackOrks10eV13UnitWeapon,
+    MekGunzKustomMegaKannon10eCodexOrks10eUnitWeapon,
+    MekGunzSmashaGun10eCodexOrks10eUnitWeapon,
+    MekGunzTraktorKannon10eCodexOrks10eUnitWeapon,
+    MorkanautKlawOfMorkStrike10eCodexOrks10eUnitWeapon,
+    MorkanautKlawOfMorkSweep10eCodexOrks10eUnitWeapon,
+    MorkanautKustomMegaZappa10eCodexOrks10eUnitWeapon,
+    MozrogSkragbadBigChompasJaws10eCodexOrks10eUnitWeapon,
+    MozrogSkragbadGutrippa10eCodexOrks10eUnitWeapon,
+    NobOnSmashaSquigBigChoppa10eCodexOrks10eUnitWeapon,
+    NobWithWaaaghBannerWaaaghBanner10eCodexOrks10eUnitWeapon,
+    NobzOnWarbikesPowerStabba10eCodexOrks10eUnitWeapon,
+    NobzOnWarbikesTwinDakkagun10eCodexOrks10eUnitWeapon,
+    PainbossBeastSnaggaKlaw10eCodexOrks10eF02b3f98414c38e5UnitWeapon,
+    RukkatrukkSquigbuggySawnOffShotgun10eCodexOrks10eUnitWeapon,
+    RukkatrukkSquigbuggySquigLaunchas10eCodexOrks10eUnitWeapon,
     RuntherdGrotSmacka10eCodexOrks10eUnitWeapon,
-    ShokkjumpDragstaKustomShokkRifle10eFactionPackOrks10eV13UnitWeapon,
-    SpannerCloseCombatWeapon10eFactionPackOrks10eV13UnitWeapon,
-    SquiggothGorinHornsStrike10eFactionPackOrks10eV13UnitWeapon,
-    SquiggothGorinHornsSweep10eFactionPackOrks10eV13UnitWeapon,
+    ShokkjumpDragstaKustomShokkRifle10eCodexOrks10eUnitWeapon,
+    SpannerCloseCombatWeapon10eCodexOrks10e7aa427ac33c4F0fdUnitWeapon,
+    SquiggothGorinHornsStrike10eCodexOrks10eUnitWeapon,
+    SquiggothGorinHornsSweep10eCodexOrks10eUnitWeapon,
     SquighogBoyStikkaMelee10eCodexOrks10eUnitWeapon,
     SquighogBoyStikkaRanged10eCodexOrks10eUnitWeapon,
-    StompaDeffkannon10eFactionPackOrks10eV13UnitWeapon,
-    StompaMegaChoppaStrike10eFactionPackOrks10eV13UnitWeapon,
-    StompaMegaChoppaSweep10eFactionPackOrks10eV13UnitWeapon,
-    StompaSupaGatler10eFactionPackOrks10eV13UnitWeapon,
-    StompaSupaRokkits10eFactionPackOrks10eV13UnitWeapon,
-    UfthakBlackhawkPrincessJaws10eFactionPackOrks10eV13UnitWeapon,
-    UfthakBlackhawkShokkRifle10eFactionPackOrks10eV13UnitWeapon,
-    UfthakBlackhawkSnazzhammer10eFactionPackOrks10eV13UnitWeapon,
-    WarbossTwinSlugga10eFactionPackOrks10eV13UnitWeapon,
-    WarbossInMegaArmourBigShoota10eFactionPackOrks10eV13UnitWeapon,
-    WarbossOnWarbikeKillsaw10eFactionPackOrks10eV13UnitWeapon,
-    WazbomBlastajetSmashaGun10eFactionPackOrks10eV13UnitWeapon,
-    WazbomBlastajetTwinSupaShoota10eFactionPackOrks10eV13UnitWeapon,
-    WazbomBlastajetTwinTellyportMegaBlasta10eFactionPackOrks10eV13UnitWeapon,
-    WazbomBlastajetTwinWazbomMegaKannon10eFactionPackOrks10eV13UnitWeapon,
-    WazdakkaGutsmekFixitsWrench10eFactionPackOrks10eV13UnitWeapon,
-    WazdakkaGutsmekGrabbaDragga10eFactionPackOrks10eV133d118b36767d4f9fUnitWeapon,
-    WazdakkaGutsmekGrabbaDragga10eFactionPackOrks10eV13662cA8d3703fDf9bUnitWeapon,
-    WazdakkaGutsmekPsykoGatler10eFactionPackOrks10eV13UnitWeapon,
-    WazdakkaGutsmekSpeedingBulkAndFlamingExhaust10eFactionPackOrks10eV13UnitWeapon,
-    ZodgrodWortsnaggaDaGrabzappa10eFactionPackOrks10eV13UnitWeapon,
+    StompaDeffkannon10eCodexOrks10eUnitWeapon,
+    StompaMegaChoppaStrike10eCodexOrks10eUnitWeapon,
+    StompaMegaChoppaSweep10eCodexOrks10eUnitWeapon,
+    StompaSupaGatler10eCodexOrks10eUnitWeapon,
+    StompaSupaRokkits10eCodexOrks10eUnitWeapon,
+    UfthakBlackhawkPrincessJaws10eCodexOrks10eUnitWeapon,
+    UfthakBlackhawkShokkRifle10eCodexOrks10eUnitWeapon,
+    UfthakBlackhawkSnazzhammer10eCodexOrks10eUnitWeapon,
+    WarbossTwinSlugga10eCodexOrks10eUnitWeapon,
+    WarbossInMegaArmourBigShoota10eCodexOrks10eUnitWeapon,
+    WarbossOnWarbikeKillsaw10eCodexOrks10e3900Ca6c3b11E10eUnitWeapon,
+    WazbomBlastajetSmashaGun10eCodexOrks10eE0c3C64118347011UnitWeapon,
+    WazbomBlastajetTwinSupaShoota10eCodexOrks10eUnitWeapon,
+    WazbomBlastajetTwinTellyportMegaBlasta10eCodexOrks10eUnitWeapon,
+    WazbomBlastajetTwinWazbomMegaKannon10eCodexOrks10eUnitWeapon,
+    WazdakkaGutsmekFixitsWrench10eCodexOrks10eUnitWeapon,
+    WazdakkaGutsmekGrabbaDragga10eCodexOrks10eUnitWeapon,
+    WazdakkaGutsmekGrabbaDragga10eCodexOrks10e662cA8d3703fDf9bUnitWeapon,
+    WazdakkaGutsmekPsykoGatler10eCodexOrks10eUnitWeapon,
+    WazdakkaGutsmekSpeedingBulkAndFlamingExhaust10eCodexOrks10eUnitWeapon,
+    ZodgrodWortsnaggaDaGrabzappa10eCodexOrks10eUnitWeapon,
     ZodgrodWortsnaggaSquigstoppa10eCodexOrks10eUnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

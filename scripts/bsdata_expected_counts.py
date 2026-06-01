@@ -324,6 +324,21 @@ def main() -> None:
         help="Emit expected unit_weapons memberships instead of counts.",
     )
     parser.add_argument(
+        "--emit-weapons",
+        action="store_true",
+        help="Emit expected global weapons derived from BSData weapon profiles.",
+    )
+    parser.add_argument(
+        "--emit-weapon-profiles",
+        action="store_true",
+        help="Emit expected global weapon_profiles derived from BSData weapon profiles.",
+    )
+    parser.add_argument(
+        "--emit-weapon-profile-keywords",
+        action="store_true",
+        help="Emit expected global weapon_profile_keywords derived from BSData weapon profile keywords.",
+    )
+    parser.add_argument(
         "--repo-root",
         default=str(Path(__file__).resolve().parents[1]),
         help="Repository root used to load current seed unit slugs for slug aliases.",
@@ -369,6 +384,18 @@ def main() -> None:
         return
     if args.emit_unit_weapons:
         records = expected_unit_weapons(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_weapons:
+        records = expected_weapons(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_weapon_profiles:
+        records = expected_weapon_profiles(index, Path(args.repo_root))
+        print(json.dumps(records, sort_keys=True))
+        return
+    if args.emit_weapon_profile_keywords:
+        records = expected_weapon_profile_keywords(index, Path(args.repo_root))
         print(json.dumps(records, sort_keys=True))
         return
 
@@ -746,11 +773,180 @@ def expected_unit_weapons(
     index: BsDataIndex,
     repo_root: Path,
 ) -> list[dict[str, str]]:
-    seed_weapon_profile_slugs = load_seed_weapon_profile_slugs(repo_root)
-    weapon_profile_slugs_by_weapon = weapon_profile_slugs_by_weapon_slug(
-        seed_weapon_profile_slugs,
+    records = [
+        {
+            key: value
+            for key, value in record.items()
+            if key != "profile_record"
+        }
+        for record in expected_unit_weapons_with_profiles(index, repo_root)
+    ]
+
+    return sorted(
+        records,
+        key=lambda record: (
+            record["rules_faction_slug"],
+            record["unit_weapon_slug"],
+        ),
     )
-    records: list[dict[str, str]] = []
+
+
+def expected_unit_weapons_with_profiles(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, object]]:
+    raw_records = raw_unit_weapon_records(index, repo_root)
+    weapon_profile_slugs = assigned_weapon_profile_slugs(raw_records)
+    duplicate_counts: dict[str, int] = {}
+    resolved_records: list[dict[str, object]] = []
+
+    for record in raw_records:
+        weapon_profile_slug = weapon_profile_slugs[weapon_profile_signature_key(record)]
+        duplicate_counts[unit_weapon_base_slug(record, weapon_profile_slug)] = (
+            duplicate_counts.get(unit_weapon_base_slug(record, weapon_profile_slug), 0)
+            + 1
+        )
+
+    duplicate_indices: dict[str, int] = {}
+    for record in raw_records:
+        weapon_profile_slug = weapon_profile_slugs[weapon_profile_signature_key(record)]
+        base_unit_weapon_slug = unit_weapon_base_slug(record, weapon_profile_slug)
+        unit_weapon_slug = base_unit_weapon_slug
+
+        if duplicate_counts[base_unit_weapon_slug] > 1:
+            duplicate_indices[base_unit_weapon_slug] = (
+                duplicate_indices.get(base_unit_weapon_slug, 0) + 1
+            )
+            suffix = (
+                normalize_slug(str(record["bsdata_weapon_profile_id"]))
+                or str(duplicate_indices[base_unit_weapon_slug])
+            )
+            unit_weapon_slug = f"{base_unit_weapon_slug}__{suffix}"
+
+        profile_record = {
+            "weapon_slug": str(record["weapon_slug"]),
+            "weapon_name": str(record["weapon_name"]),
+            "weapon_type": str(record["weapon_type"]),
+            "weapon_profile_slug": weapon_profile_slug,
+            "rules_source_slug": str(record["rules_source_slug"]),
+            "source_owner_slug": str(record["source_owner_slug"]),
+            "range": str(record["range"]),
+            "attacks": str(record["attacks"]),
+            "skill": str(record["skill"]),
+            "strength": str(record["strength"]),
+            "armor_penetration": int(record["armor_penetration"]),
+            "damage": str(record["damage"]),
+            "keyword_records": record["keyword_records"],
+            "bsdata_weapon_profile_id": str(record["bsdata_weapon_profile_id"]),
+            "bsdata_weapon_name": str(record["bsdata_weapon_name"]),
+        }
+
+        resolved_records.append(
+            {
+                "weapon_slug": str(record["weapon_slug"]),
+                "weapon_profile_slug": weapon_profile_slug,
+                "weapon_type": str(record["weapon_type"]),
+                "bsdata_weapon_name": str(record["bsdata_weapon_name"]),
+                "bsdata_weapon_profile_id": str(record["bsdata_weapon_profile_id"]),
+                "unit_weapon_slug": unit_weapon_slug,
+                "rules_faction_slug": str(record["rules_faction_slug"]),
+                "unit_slug": str(record["unit_slug"]),
+                "rules_source_slug": str(record["rules_source_slug"]),
+                "source_owner_slug": str(record["source_owner_slug"]),
+                "source_file": str(record["source_file"]),
+                "source_mode": str(record["source_mode"]),
+                "bsdata_unit_name": str(record["bsdata_unit_name"]),
+                "profile_record": profile_record,
+            },
+        )
+
+    return resolved_records
+
+
+def expected_weapons(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str]]:
+    records_by_slug: "OrderedDict[str, dict[str, str]]" = OrderedDict()
+
+    for profile_record in expected_weapon_profiles(index, repo_root):
+        weapon_slug = str(profile_record["weapon_slug"])
+        records_by_slug.setdefault(
+            weapon_slug,
+            {
+                "weapon_slug": weapon_slug,
+                "weapon_name": str(profile_record["weapon_name"]),
+                "weapon_type": str(profile_record["weapon_type"]),
+                "source_owner_slug": str(profile_record["source_owner_slug"]),
+            },
+        )
+
+    return sorted(
+        records_by_slug.values(),
+        key=lambda record: (record["source_owner_slug"], record["weapon_slug"]),
+    )
+
+
+def expected_weapon_profiles(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, object]]:
+    records_by_slug: "OrderedDict[str, dict[str, object]]" = OrderedDict()
+
+    for record in expected_unit_weapons_with_profiles(index, repo_root):
+        profile_record = dict(record["profile_record"])
+        weapon_profile_slug = str(profile_record["weapon_profile_slug"])
+        profile_record.pop("keyword_records", None)
+        records_by_slug.setdefault(weapon_profile_slug, profile_record)
+
+    return sorted(
+        records_by_slug.values(),
+        key=lambda record: (
+            str(record["source_owner_slug"]),
+            str(record["weapon_profile_slug"]),
+        ),
+    )
+
+
+def expected_weapon_profile_keywords(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, str | None]]:
+    records_by_slug: "OrderedDict[str, dict[str, str | None]]" = OrderedDict()
+
+    for record in expected_unit_weapons_with_profiles(index, repo_root):
+        profile_record = record["profile_record"]
+        weapon_profile_slug = str(profile_record["weapon_profile_slug"])
+        source_owner_slug = str(profile_record["source_owner_slug"])
+        for keyword_record in profile_record["keyword_records"]:
+            keyword_slug = str(keyword_record["keyword_slug"])
+            weapon_profile_keyword_slug = f"{weapon_profile_slug}__{keyword_slug}"
+            records_by_slug.setdefault(
+                weapon_profile_keyword_slug,
+                {
+                    "weapon_profile_keyword_slug": weapon_profile_keyword_slug,
+                    "weapon_profile_slug": weapon_profile_slug,
+                    "keyword_slug": keyword_slug,
+                    "keyword_name": str(keyword_record["keyword_name"]),
+                    "keyword_parameter": keyword_record["keyword_parameter"],
+                    "source_owner_slug": source_owner_slug,
+                },
+            )
+
+    return sorted(
+        records_by_slug.values(),
+        key=lambda record: (
+            str(record["source_owner_slug"]),
+            str(record["weapon_profile_keyword_slug"]),
+        ),
+    )
+
+
+def raw_unit_weapon_records(
+    index: BsDataIndex,
+    repo_root: Path,
+) -> list[dict[str, object]]:
+    records: list[dict[str, object]] = []
 
     for faction_slug, unit_slug, entry in expected_unit_entry_records(index, repo_root):
         rules_source_slug = unit_rules_source_slug(
@@ -763,138 +959,200 @@ def expected_unit_weapons(
             entry.source_file,
             faction_slug,
         )
-        for weapon_record in unit_weapon_records_for_unit(
-            unit_slug,
-            entry,
-            rules_source_slug,
-            source_owner_slug,
-            seed_weapon_profile_slugs,
-            weapon_profile_slugs_by_weapon,
-        ):
+        for profile in entry.element.findall(".//bs:profile", BS_NS):
+            if profile.attrib.get("typeName") not in WEAPON_PROFILE_TYPES:
+                continue
+
             records.append(
                 {
-                    **weapon_record,
+                    **weapon_profile_record_from_bsdata(
+                        profile,
+                        rules_source_slug,
+                        source_owner_slug,
+                    ),
                     "rules_faction_slug": faction_slug,
                     "unit_slug": unit_slug,
-                    "rules_source_slug": rules_source_slug,
-                    "source_owner_slug": source_owner_slug,
                     "source_file": entry.source_file,
                     "source_mode": entry.source_mode,
                     "bsdata_unit_name": entry.name,
                 },
             )
 
-    return sorted(
-        records,
-        key=lambda record: (
-            record["rules_faction_slug"],
-            record["unit_weapon_slug"],
-        ),
-    )
-
-
-def unit_weapon_records_for_unit(
-    unit_slug: str,
-    entry: UnitEntry,
-    rules_source_slug: str,
-    source_owner_slug: str,
-    seed_weapon_profile_slugs: set[str],
-    weapon_profile_slugs_by_weapon: dict[str, list[str]],
-) -> list[dict[str, str]]:
-    profiles = [
-        profile
-        for profile in entry.element.findall(".//bs:profile", BS_NS)
-        if profile.attrib.get("typeName") in WEAPON_PROFILE_TYPES
-    ]
-    duplicate_counts: dict[str, int] = {}
-    resolved_profiles: list[dict[str, str]] = []
-
-    for profile in profiles:
-        weapon_name = profile.attrib.get("name", "")
-        weapon_slug = normalize_slug(weapon_name)
-        weapon_profile_slug = seed_weapon_profile_slug(
-            weapon_slug,
-            rules_source_slug,
-            source_owner_slug,
-            seed_weapon_profile_slugs,
-            weapon_profile_slugs_by_weapon,
-        )
-        duplicate_counts[weapon_profile_slug] = (
-            duplicate_counts.get(weapon_profile_slug, 0) + 1
-        )
-        resolved_profiles.append(
-            {
-                "weapon_slug": weapon_slug,
-                "weapon_profile_slug": weapon_profile_slug,
-                "weapon_type": weapon_type_for_profile(profile),
-                "bsdata_weapon_name": weapon_name,
-                "bsdata_weapon_profile_id": profile.attrib.get("id", ""),
-            },
-        )
-
-    records: list[dict[str, str]] = []
-    duplicate_indices: dict[str, int] = {}
-    for profile_record in resolved_profiles:
-        weapon_profile_slug = profile_record["weapon_profile_slug"]
-        unit_weapon_slug = f"{unit_slug}__{weapon_profile_slug}"
-
-        if duplicate_counts[weapon_profile_slug] > 1:
-            duplicate_indices[weapon_profile_slug] = (
-                duplicate_indices.get(weapon_profile_slug, 0) + 1
-            )
-            suffix = (
-                normalize_slug(profile_record["bsdata_weapon_profile_id"])
-                or str(duplicate_indices[weapon_profile_slug])
-            )
-            unit_weapon_slug = f"{unit_weapon_slug}__{suffix}"
-
-        records.append(
-            {
-                **profile_record,
-                "unit_weapon_slug": unit_weapon_slug,
-            },
-        )
-
     return records
 
 
-def seed_weapon_profile_slug(
-    weapon_slug: str,
+def weapon_profile_record_from_bsdata(
+    profile: ET.Element,
     rules_source_slug: str,
     source_owner_slug: str,
-    seed_weapon_profile_slugs: set[str],
-    weapon_profile_slugs_by_weapon: dict[str, list[str]],
+) -> dict[str, object]:
+    characteristics = {
+        characteristic.attrib.get("name", ""): clean_bsdata_text(
+            characteristic.text or "",
+        )
+        for characteristic in profile.findall(".//bs:characteristic", BS_NS)
+    }
+    weapon_name = profile.attrib.get("name", "")
+    weapon_slug = normalize_slug(weapon_name)
+
+    return {
+        "weapon_slug": weapon_slug,
+        "weapon_name": display_weapon_name(weapon_name),
+        "weapon_type": weapon_type_for_profile(profile),
+        "rules_source_slug": rules_source_slug,
+        "source_owner_slug": source_owner_slug,
+        "range": weapon_range(profile, characteristics),
+        "attacks": characteristics.get("A", "-") or "-",
+        "skill": weapon_skill(profile, characteristics),
+        "strength": characteristics.get("S", "-") or "-",
+        "armor_penetration": parse_armor_penetration(characteristics.get("AP", "0")),
+        "damage": characteristics.get("D", "-") or "-",
+        "keyword_records": weapon_keyword_records(characteristics.get("Keywords", "")),
+        "bsdata_weapon_name": weapon_name,
+        "bsdata_weapon_profile_id": profile.attrib.get("id", ""),
+    }
+
+
+def assigned_weapon_profile_slugs(
+    records: list[dict[str, object]],
+) -> dict[tuple[str, str, tuple[object, ...]], str]:
+    signatures_by_base_slug: dict[str, OrderedDict[tuple[object, ...], str]] = {}
+    ids_by_signature: dict[tuple[str, str, tuple[object, ...]], str] = {}
+
+    for record in records:
+        base_slug = weapon_profile_base_slug(record)
+        signature = weapon_profile_stat_signature(record)
+        key = weapon_profile_signature_key(record)
+
+        signatures = signatures_by_base_slug.setdefault(base_slug, OrderedDict())
+        if signature not in signatures:
+            if not signatures:
+                signatures[signature] = base_slug
+            else:
+                suffix = normalize_slug(str(record["bsdata_weapon_profile_id"]))
+                signatures[signature] = f"{base_slug}__{suffix}"
+
+        ids_by_signature[key] = signatures[signature]
+
+    return ids_by_signature
+
+
+def weapon_profile_signature_key(record: dict[str, object]) -> tuple[str, str, tuple[object, ...]]:
+    return (
+        str(record["weapon_slug"]),
+        str(record["rules_source_slug"]),
+        weapon_profile_stat_signature(record),
+    )
+
+
+def weapon_profile_base_slug(record: dict[str, object]) -> str:
+    return f"{record['weapon_slug']}__10e__{record['rules_source_slug']}"
+
+
+def weapon_profile_stat_signature(record: dict[str, object]) -> tuple[object, ...]:
+    keyword_records = tuple(
+        (
+            str(keyword_record["keyword_slug"]),
+            keyword_record["keyword_parameter"],
+        )
+        for keyword_record in record["keyword_records"]
+    )
+    return (
+        str(record["range"]),
+        str(record["attacks"]),
+        str(record["skill"]),
+        str(record["strength"]),
+        int(record["armor_penetration"]),
+        str(record["damage"]),
+        keyword_records,
+    )
+
+
+def unit_weapon_base_slug(
+    record: dict[str, object],
+    weapon_profile_slug: str,
 ) -> str:
-    exact_slug = f"{weapon_slug}__10e__{rules_source_slug}"
-    if exact_slug in seed_weapon_profile_slugs:
-        return exact_slug
+    return f"{record['unit_slug']}__{weapon_profile_slug}"
 
-    candidates = weapon_profile_slugs_by_weapon.get(weapon_slug, [])
-    if not candidates:
-        return exact_slug
 
-    owner_phrase = source_owner_slug
-    owner_matches = [
-        candidate
-        for candidate in candidates
-        if owner_phrase in candidate.split("__10e__", 1)[1]
+def weapon_range(
+    profile: ET.Element,
+    characteristics: dict[str, str],
+) -> str:
+    if profile.attrib.get("typeName") == "Melee Weapons":
+        return "Melee"
+
+    return characteristics.get("Range", "-") or "-"
+
+
+def weapon_skill(
+    profile: ET.Element,
+    characteristics: dict[str, str],
+) -> str:
+    if profile.attrib.get("typeName") == "Melee Weapons":
+        return characteristics.get("WS", "-") or "-"
+
+    return characteristics.get("BS", "-") or "-"
+
+
+def parse_armor_penetration(value: str) -> int:
+    value = value.strip()
+    if not value or value in {"-", "N/A"}:
+        return 0
+
+    return int(value)
+
+
+def weapon_keyword_records(raw_keywords: str) -> list[dict[str, str | None]]:
+    if not raw_keywords or raw_keywords.strip() == "-":
+        return []
+
+    return [
+        weapon_keyword_record(raw_keyword)
+        for raw_keyword in re.split(r",|;", raw_keywords)
+        if raw_keyword.strip() and raw_keyword.strip() != "-"
     ]
-    if owner_matches:
-        return owner_matches[0]
-
-    return candidates[0]
 
 
-def weapon_profile_slugs_by_weapon_slug(
-    seed_weapon_profile_slugs: set[str],
-) -> dict[str, list[str]]:
-    by_weapon_slug: dict[str, list[str]] = {}
+def weapon_keyword_record(raw_keyword: str) -> dict[str, str | None]:
+    keyword = clean_bsdata_text(raw_keyword)
+    match = re.match(r"^(.*?)(?:\s+([A-Za-z0-9+D]+\+?))?$", keyword)
+    keyword_name = keyword
+    keyword_parameter = None
 
-    for weapon_profile_slug in sorted(seed_weapon_profile_slugs):
-        weapon_slug = weapon_profile_slug.split("__10e__", 1)[0]
-        by_weapon_slug.setdefault(weapon_slug, []).append(weapon_profile_slug)
+    if match and match.group(2) and parameterized_weapon_keyword(match.group(1)):
+        keyword_name = match.group(1)
+        keyword_parameter = match.group(2)
 
-    return by_weapon_slug
+    return {
+        "keyword_slug": normalize_slug(keyword_name),
+        "keyword_name": display_weapon_keyword_name(keyword_name),
+        "keyword_parameter": keyword_parameter,
+    }
+
+
+def parameterized_weapon_keyword(keyword_name: str) -> bool:
+    return normalize_slug(keyword_name) in {
+        "anti_character",
+        "anti_chaos",
+        "anti_daemon",
+        "anti_epic_hero",
+        "anti_fly",
+        "anti_infantry",
+        "anti_monster",
+        "anti_psyker",
+        "anti_titanic",
+        "anti_tyranids",
+        "anti_vehicle",
+        "anti_walker",
+        "melta",
+        "rapid_fire",
+        "sustained_hits",
+    }
+
+
+def display_weapon_keyword_name(keyword_name: str) -> str:
+    return re.sub(r"\s+", " ", keyword_name.strip()).title()
 
 
 def weapon_type_for_profile(profile: ET.Element) -> str:
@@ -2060,6 +2318,10 @@ def display_unit_name(name: str) -> str:
 
 
 def display_model_name(name: str) -> str:
+    return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
+
+
+def display_weapon_name(name: str) -> str:
     return re.sub(r"\s*\[Legends\]\s*$", " (Legends)", name).strip()
 
 

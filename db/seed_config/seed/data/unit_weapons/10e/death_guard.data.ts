@@ -61,11 +61,11 @@ export const BiologusPutrifierPlagueKnives10eFactionPackDeathGuard10eV11UnitWeap
 };
 
 
-export const BlightlordTerminatorsCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("blightlord_terminators__close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+export const BlightlordTerminatorsCloseCombatWeapon10eFactionPackDeathGuard10eV11C9a72ead7eaa8233UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("blightlord_terminators__close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1__c9a7_2ead_7eaa_8233"),
   unit_id: unitId("blightlord_terminators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1__c9a7_2ead_7eaa_8233"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -152,11 +152,11 @@ export const ChaosLandRaiderSoulshatterLascannon10eFactionPackDeathGuard10eV11Un
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV1680e17f63975e5a9UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__80e1_7f63_975e_5a9"),
+export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackDeathGuard10eV1180e17f63975e5a9UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_death_guard_10e_v1_1__80e1_7f63_975e_5a9"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -165,11 +165,11 @@ export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceM
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV1685dc19e9Ea9e1ebcUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__85dc_19e9_ea9e_1ebc"),
+export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackDeathGuard10eV1185dc19e9Ea9e1ebcUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_death_guard_10e_v1_1__85dc_19e9_ea9e_1ebc"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -217,11 +217,11 @@ export const ChaosLordOnPalanquinOfNurgleBoltPistol10eFactionPackDeathGuard10eV1
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+export const ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackDeathGuard10eV115047Ddb4988946feUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1__5047_ddb4_9889_46fe"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1__5047_ddb4_9889_46fe"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -230,11 +230,37 @@ export const ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackDeathGua
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__combi_bolter__10e__faction_pack_death_guard_10e_v1_1"),
+export const ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11A69e5988C831C9abUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__combi_bolter__10e__faction_pack_death_guard_10e_v1_1__a69e_5988_c831_c9ab"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_death_guard_10e_v1_1__a69e_5988_c831_c9ab"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__nurglings_claws_and_teeth__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("nurglings_claws_and_teeth__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__paired_accursed_weapons__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -295,11 +321,11 @@ export const ChaosLordOnPalanquinOfNurglePlasmaPistolSupercharge10eFactionPackDe
 };
 
 
-export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c"),
+export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02c13c2F23b8fb5C02cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c__13c2_f23b_8fb5_c02c"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -308,11 +334,11 @@ export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV11
 };
 
 
-export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV11C2a2fcdC61745c4UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__faction_pack_death_guard_10e_v1_1__c2a_2fcd_c617_45c4"),
+export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02cC2a2fcdC61745c4UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c__c2a_2fcd_c617_45c4"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -438,11 +464,11 @@ export const DeathGuardChaosLordPlasmaPistolSupercharge10eFactionPackDeathGuard1
 };
 
 
-export const DeathGuardChaosLordInTerminatorArmourCombiWeapon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("death_guard_chaos_lord_in_terminator_armour__combi_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+export const DeathGuardChaosLordInTerminatorArmourCombiWeapon10eFactionPackDeathGuard10eV1136d064e715368ea0UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("death_guard_chaos_lord_in_terminator_armour__combi_weapon__10e__faction_pack_death_guard_10e_v1_1__36d0_64e7_1536_8ea0"),
   unit_id: unitId("death_guard_chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_death_guard_10e_v1_1__36d0_64e7_1536_8ea0"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -516,11 +542,11 @@ export const DeathGuardCultistsHeavyStubber10eFactionPackDeathGuard10eV11UnitWea
 };
 
 
-export const DeathGuardPossessedHideousMutations10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("death_guard_possessed__hideous_mutations__10e__faction_pack_death_guard_10e_v1_1"),
+export const DeathGuardPossessedHideousMutations10eFactionPackDeathGuard10eV1122ff987164f5e91UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("death_guard_possessed__hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__22ff_987_164f_5e91"),
   unit_id: unitId("death_guard_possessed"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__22ff_987_164f_5e91"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -581,11 +607,11 @@ export const DeathGuardSorcererInTerminatorArmourForceWeapon10eFactionPackDeathG
 };
 
 
-export const DeathGuardSorcererInTerminatorArmourPlagueFist10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("death_guard_sorcerer_in_terminator_armour__plague_fist__10e__faction_pack_death_guard_10e_v1_1"),
+export const DeathGuardSorcererInTerminatorArmourPlagueFist10eFactionPackDeathGuard10eV1122ec4e821cef20f3UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("death_guard_sorcerer_in_terminator_armour__plague_fist__10e__faction_pack_death_guard_10e_v1_1__22ec_4e82_1cef_20f3"),
   unit_id: unitId("death_guard_sorcerer_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plague_fist__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plague_fist__10e__faction_pack_death_guard_10e_v1_1__22ec_4e82_1cef_20f3"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -599,6 +625,123 @@ export const DeathGuardSorcererInTerminatorArmourTwinLightningClaws10eFactionPac
   unit_id: unitId("death_guard_sorcerer_in_terminator_armour"),
   model_id: null,
   weapon_profile_id: weaponProfileId("twin_lightning_claws__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerEctoplasmaDestructor10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__ectoplasma_destructor__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("ectoplasma_destructor__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerExcruciatorCannon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__excruciator_cannon__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerHadesBattleCannon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__hades_battle_cannon__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("hades_battle_cannon__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerHeavyBaleflamer10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_baleflamer__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("heavy_baleflamer__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerHeavyMissileLauncherFrag10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_missile_launcher_frag__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("heavy_missile_launcher_frag__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerHeavyMissileLauncherKrak10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_missile_launcher_krak__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("heavy_missile_launcher_krak__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerMagmaCutter10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__magma_cutter__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerShearingClawsStrike10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__shearing_claws_strike__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("shearing_claws_strike__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const DefilerShearingClawsSweep10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__shearing_claws_sweep__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("defiler"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("shearing_claws_sweep__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -698,11 +841,11 @@ export const FoulBlightspawnPlagueSprayer10eFactionPackDeathGuard10eV11UnitWeapo
 };
 
 
-export const GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV1162e6D02f61c926acUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__62e6_d02f_61c9_26ac"),
+export const GellerpoxInfectedBellyFlamer10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__belly_flamer__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("gellerpox_infected"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("belly_flamer__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -711,11 +854,37 @@ export const GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV1162e6
 };
 
 
-export const GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV11D4caC8148fb6AdabUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__d4ca_c814_8fb6_adab"),
+export const GellerpoxInfectedBrutalWeapons10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__brutal_weapons__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("gellerpox_infected"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("brutal_weapons__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV11D4caC8148fb6Adab62e6D02f61c926acUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__d4ca_c814_8fb6_adab__62e6_d02f_61c9_26ac"),
+  unit_id: unitId("gellerpox_infected"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__d4ca_c814_8fb6_adab"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV11D4caC8148fb6AdabD4caC8148fb6AdabUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__d4ca_c814_8fb6_adab__d4ca_c814_8fb6_adab"),
+  unit_id: unitId("gellerpox_infected"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_death_guard_10e_v1_1__d4ca_c814_8fb6_adab"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -802,11 +971,11 @@ export const GreatUncleanOnePutridVomit10eFactionPackDeathGuard10eV11UnitWeapon:
 };
 
 
-export const HelbruteCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+export const HelbruteCloseCombatWeapon10eFactionPackDeathGuard10eV11E1b787fa15446c3UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1__e1b7_87fa_1544_6c3"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_death_guard_10e_v1_1__e1b7_87fa_1544_6c3"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -906,11 +1075,11 @@ export const HelbruteTwinAutocannon10eFactionPackDeathGuard10eV11UnitWeapon: Uni
 };
 
 
-export const HellBladeArmouredHull10eFactionPackAdeptusCustodes10eV10UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("hell_blade__armoured_hull__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+export const HellBladeArmouredHull10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_blade__armoured_hull__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("hell_blade"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -919,11 +1088,11 @@ export const HellBladeArmouredHull10eFactionPackAdeptusCustodes10eV10UnitWeapon:
 };
 
 
-export const HellTalonArmouredHull10eFactionPackAdeptusCustodes10eV10UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("hell_talon__armoured_hull__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+export const HellTalonArmouredHull10eFactionPackDeathGuard10eV118e355ed610fb2792UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__armoured_hull__10e__faction_pack_death_guard_10e_v1_1__8e35_5ed6_10fb_2792"),
   unit_id: unitId("hell_talon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_adeptus_custodes_10e_v1_0"),
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_death_guard_10e_v1_1__8e35_5ed6_10fb_2792"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -932,11 +1101,11 @@ export const HellTalonArmouredHull10eFactionPackAdeptusCustodes10eV10UnitWeapon:
 };
 
 
-export const HellTalonAutocannon10eFactionPackAstraMilitarum10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("hell_talon__autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+export const HellTalonAutocannon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__autocannon__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("hell_talon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autocannon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autocannon__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1119,6 +1288,19 @@ export const MortarionSilenceSweep10eFactionPackDeathGuard10eV11UnitWeapon: Unit
   unit_id: unitId("mortarion"),
   model_id: null,
   weapon_profile_id: weaponProfileId("silence_sweep__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const MutoidVerminDiseasedClawsAndFangs10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutoid_vermin__diseased_claws_and_fangs__10e__faction_pack_death_guard_10e_v1_1"),
+  unit_id: unitId("mutoid_vermin"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("diseased_claws_and_fangs__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1322,11 +1504,24 @@ export const PlagueMarinesMeltagun10eFactionPackDeathGuard10eV11UnitWeapon: Unit
 };
 
 
-export const PlagueMarinesPowerFist10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("plague_marines__power_fist__10e__faction_pack_death_guard_10e_v1_1"),
+export const PlagueMarinesPlagueBelcher10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__plague_belcher__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("plague_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plague_belcher__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const PlagueMarinesPowerFist10eFactionPackDeathGuard10eV111058B313D5377599UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__power_fist__10e__faction_pack_death_guard_10e_v1_1__1058_b313_d537_7599"),
+  unit_id: unitId("plague_marines"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1__1058_b313_d537_7599"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1491,11 +1686,24 @@ export const RotigusStreamsOfBrackishFilth10eFactionPackDeathGuard10eV11UnitWeap
 };
 
 
-export const SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__astartes_chainsword__10e__faction_pack_death_guard_10e_v1_1"),
+export const SorcererOnPalanquinOfNurgleAccursedWeapon10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackDeathGuard10eV114baaE10a1e177c61UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__astartes_chainsword__10e__faction_pack_death_guard_10e_v1_1__4baa_e10a_1e17_7c61"),
+  unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_death_guard_10e_v1_1__4baa_e10a_1e17_7c61"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1517,11 +1725,11 @@ export const SorcererOnPalanquinOfNurgleBoltPistol10eFactionPackDeathGuard10eV11
 };
 
 
-export const SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__combi_bolter__10e__faction_pack_death_guard_10e_v1_1"),
+export const SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11A69e5988C831C9abUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__combi_bolter__10e__faction_pack_death_guard_10e_v1_1__a69e_5988_c831_c9ab"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_death_guard_10e_v1_1__a69e_5988_c831_c9ab"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1543,11 +1751,11 @@ export const SorcererOnPalanquinOfNurgleForceWeapon10eFactionPackDeathGuard10eV1
 };
 
 
-export const SorcererOnPalanquinOfNurgleInfernalGazeFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__infernal_gaze_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurgleInfernalGazeFocusedWitchfire10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__infernal_gaze_focused_witchfire__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_gaze_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("infernal_gaze_focused_witchfire__10e__faction_pack_death_guard_10e_v1_1"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1556,11 +1764,24 @@ export const SorcererOnPalanquinOfNurgleInfernalGazeFocusedWitchfire10eFactionPa
 };
 
 
-export const SorcererOnPalanquinOfNurgleInfernalGazeWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__infernal_gaze_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurgleInfernalGazeWitchfire10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__infernal_gaze_witchfire__10e__faction_pack_death_guard_10e_v1_1"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_gaze_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("infernal_gaze_witchfire__10e__faction_pack_death_guard_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackDeathGuard10eV11Df11C233C45d47d4UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__nurglings_claws_and_teeth__10e__faction_pack_death_guard_10e_v1_1__df11_c233_c45d_47d4"),
+  unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("nurglings_claws_and_teeth__10e__faction_pack_death_guard_10e_v1_1__df11_c233_c45d_47d4"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1595,11 +1816,11 @@ export const SorcererOnPalanquinOfNurglePlasmaPistolSupercharge10eFactionPackDea
 };
 
 
-export const SorcererOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__power_fist__10e__faction_pack_death_guard_10e_v1_1"),
+export const SorcererOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_death_guard_10e_v1_1__13c2_f23b_8fb5_c02c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_death_guard_10e_v1_1"),
   is_default: true,
@@ -1654,26 +1875,28 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     BiologusPutrifierHyperBlightGrenades10eFactionPackDeathGuard10eV11UnitWeapon,
     BiologusPutrifierInjectorPistol10eFactionPackDeathGuard10eV11UnitWeapon,
     BiologusPutrifierPlagueKnives10eFactionPackDeathGuard10eV11UnitWeapon,
-    BlightlordTerminatorsCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
+    BlightlordTerminatorsCloseCombatWeapon10eFactionPackDeathGuard10eV11C9a72ead7eaa8233UnitWeapon,
     BlightlordTerminatorsCombiBolter10eFactionPackDeathGuard10eV111780B60025668c51UnitWeapon,
     BlightlordTerminatorsCombiBolter10eFactionPackDeathGuard10eV113b37B33c18843df1UnitWeapon,
     BlightlordTerminatorsFlailOfCorruption10eFactionPackDeathGuard10eV11UnitWeapon,
     BlightlordTerminatorsReaperAutocannon10eFactionPackDeathGuard10eV11UnitWeapon,
     ChaosLandRaiderArmouredTracks10eFactionPackDeathGuard10eV11UnitWeapon,
     ChaosLandRaiderSoulshatterLascannon10eFactionPackDeathGuard10eV11UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV1680e17f63975e5a9UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV1685dc19e9Ea9e1ebcUnitWeapon,
+    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackDeathGuard10eV1180e17f63975e5a9UnitWeapon,
+    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackDeathGuard10eV1185dc19e9Ea9e1ebcUnitWeapon,
     ChaosLordOnPalanquinOfNurgleAstartesChainsword10eFactionPackDeathGuard10eV11UnitWeapon,
     ChaosLordOnPalanquinOfNurgleBoltPistol10eFactionPackDeathGuard10eV1128f73effF289C4f0UnitWeapon,
     ChaosLordOnPalanquinOfNurgleBoltPistol10eFactionPackDeathGuard10eV11C9d1Ef1aB64D779UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11UnitWeapon,
+    ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackDeathGuard10eV115047Ddb4988946feUnitWeapon,
+    ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11A69e5988C831C9abUnitWeapon,
+    ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackDeathGuard10eV11UnitWeapon,
+    ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eFactionPackDeathGuard10eV11UnitWeapon,
     ChaosLordOnPalanquinOfNurglePlasmaPistolStandard10eFactionPackDeathGuard10eV11A2c7Ebce2baa4a32UnitWeapon,
     ChaosLordOnPalanquinOfNurglePlasmaPistolStandard10eFactionPackDeathGuard10eV11E6378a61e4a2062UnitWeapon,
     ChaosLordOnPalanquinOfNurglePlasmaPistolSupercharge10eFactionPackDeathGuard10eV1150efCefe499d4f8aUnitWeapon,
     ChaosLordOnPalanquinOfNurglePlasmaPistolSupercharge10eFactionPackDeathGuard10eV11688bF8331923254aUnitWeapon,
-    ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02cUnitWeapon,
-    ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV11C2a2fcdC61745c4UnitWeapon,
+    ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02c13c2F23b8fb5C02cUnitWeapon,
+    ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02cC2a2fcdC61745c4UnitWeapon,
     ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackDeathGuard10eV11UnitWeapon,
     ChaosPredatorDestructorPredatorAutocannon10eFactionPackDeathGuard10eV11UnitWeapon,
     ChaosSpawnHideousMutations10eFactionPackDeathGuard10eV11UnitWeapon,
@@ -1683,19 +1906,28 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     DeathGuardChaosLordPlagueBoltPistol10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardChaosLordPlasmaPistolStandard10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardChaosLordPlasmaPistolSupercharge10eFactionPackDeathGuard10eV11UnitWeapon,
-    DeathGuardChaosLordInTerminatorArmourCombiWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
+    DeathGuardChaosLordInTerminatorArmourCombiWeapon10eFactionPackDeathGuard10eV1136d064e715368ea0UnitWeapon,
     DeathGuardChaosLordInTerminatorArmourPlagueFist10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardCultistsFlamer10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardCultistsGrenadeLauncherFrag10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardCultistsGrenadeLauncherKrak10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardCultistsHeavyStubber10eFactionPackDeathGuard10eV11UnitWeapon,
-    DeathGuardPossessedHideousMutations10eFactionPackDeathGuard10eV11UnitWeapon,
+    DeathGuardPossessedHideousMutations10eFactionPackDeathGuard10eV1122ff987164f5e91UnitWeapon,
     DeathGuardSorcererInTerminatorArmourChainfist10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardSorcererInTerminatorArmourCurseOfTheLeperFocusedWitchfire10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardSorcererInTerminatorArmourCurseOfTheLeperWitchfire10eFactionPackDeathGuard10eV11UnitWeapon,
     DeathGuardSorcererInTerminatorArmourForceWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
-    DeathGuardSorcererInTerminatorArmourPlagueFist10eFactionPackDeathGuard10eV11UnitWeapon,
+    DeathGuardSorcererInTerminatorArmourPlagueFist10eFactionPackDeathGuard10eV1122ec4e821cef20f3UnitWeapon,
     DeathGuardSorcererInTerminatorArmourTwinLightningClaws10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerEctoplasmaDestructor10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerExcruciatorCannon10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerHadesBattleCannon10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerHeavyBaleflamer10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerHeavyMissileLauncherFrag10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerHeavyMissileLauncherKrak10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerMagmaCutter10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerShearingClawsStrike10eFactionPackDeathGuard10eV11UnitWeapon,
+    DefilerShearingClawsSweep10eFactionPackDeathGuard10eV11UnitWeapon,
     FoetidBloatDroneFleshmower10eFactionPackDeathGuard10eV11UnitWeapon,
     FoetidBloatDronePlagueProbe10eFactionPackDeathGuard10eV11UnitWeapon,
     FoetidBloatDronePlaguespitter10eFactionPackDeathGuard10eV11UnitWeapon,
@@ -1703,15 +1935,17 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     FoetidBloatDroneWithHeavyBlightLauncherPlagueProbe10eFactionPackDeathGuard10eV11UnitWeapon,
     FoulBlightspawnCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
     FoulBlightspawnPlagueSprayer10eFactionPackDeathGuard10eV11UnitWeapon,
-    GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV1162e6D02f61c926acUnitWeapon,
-    GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV11D4caC8148fb6AdabUnitWeapon,
+    GellerpoxInfectedBellyFlamer10eFactionPackDeathGuard10eV11UnitWeapon,
+    GellerpoxInfectedBrutalWeapons10eFactionPackDeathGuard10eV11UnitWeapon,
+    GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV11D4caC8148fb6Adab62e6D02f61c926acUnitWeapon,
+    GellerpoxInfectedHideousMutations10eFactionPackDeathGuard10eV11D4caC8148fb6AdabD4caC8148fb6AdabUnitWeapon,
     GreatUncleanOneBileblade10eFactionPackDeathGuard10eV11UnitWeapon,
     GreatUncleanOneBileswordStrike10eFactionPackDeathGuard10eV11UnitWeapon,
     GreatUncleanOneBileswordSweep10eFactionPackDeathGuard10eV11UnitWeapon,
     GreatUncleanOneDoomsdayBell10eFactionPackDeathGuard10eV11UnitWeapon,
     GreatUncleanOnePlagueFlail10eFactionPackDeathGuard10eV11UnitWeapon,
     GreatUncleanOnePutridVomit10eFactionPackDeathGuard10eV11UnitWeapon,
-    HelbruteCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
+    HelbruteCloseCombatWeapon10eFactionPackDeathGuard10eV11E1b787fa15446c3UnitWeapon,
     HelbruteHelbruteFist10eFactionPackDeathGuard10eV1100d3E9237aa41deaUnitWeapon,
     HelbruteHelbruteFist10eFactionPackDeathGuard10eV111935B3d12562A9d0UnitWeapon,
     HelbruteHelbruteFist10eFactionPackDeathGuard10eV111b46AacaA48e4f6fUnitWeapon,
@@ -1719,9 +1953,9 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     HelbruteMultiMelta10eFactionPackDeathGuard10eV11UnitWeapon,
     HelbrutePlasmaCannon10eFactionPackDeathGuard10eV11UnitWeapon,
     HelbruteTwinAutocannon10eFactionPackDeathGuard10eV11UnitWeapon,
-    HellBladeArmouredHull10eFactionPackAdeptusCustodes10eV10UnitWeapon,
-    HellTalonArmouredHull10eFactionPackAdeptusCustodes10eV10UnitWeapon,
-    HellTalonAutocannon10eFactionPackAstraMilitarum10eV16UnitWeapon,
+    HellBladeArmouredHull10eFactionPackDeathGuard10eV11UnitWeapon,
+    HellTalonArmouredHull10eFactionPackDeathGuard10eV118e355ed610fb2792UnitWeapon,
+    HellTalonAutocannon10eFactionPackDeathGuard10eV11UnitWeapon,
     IconBearerPlagueKnife10eFactionPackDeathGuard10eV11UnitWeapon,
     LordOfContagionManreaperStrike10eFactionPackDeathGuard10eV11UnitWeapon,
     LordOfContagionManreaperSweep10eFactionPackDeathGuard10eV11UnitWeapon,
@@ -1736,6 +1970,7 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     MortarionRotwind10eFactionPackDeathGuard10eV11UnitWeapon,
     MortarionSilenceStrike10eFactionPackDeathGuard10eV11UnitWeapon,
     MortarionSilenceSweep10eFactionPackDeathGuard10eV11UnitWeapon,
+    MutoidVerminDiseasedClawsAndFangs10eFactionPackDeathGuard10eV11UnitWeapon,
     MyphiticBlightHaulerBileSpurt10eFactionPackDeathGuard10eV11UnitWeapon,
     MyphiticBlightHaulerGnashingMaw10eFactionPackDeathGuard10eV11UnitWeapon,
     MyphiticBlightHaulerMissileLauncherFrag10eFactionPackDeathGuard10eV11UnitWeapon,
@@ -1751,7 +1986,8 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     PlagueDronesPlaguesword10eFactionPackDeathGuard10eV11B61eAa2301160b7cUnitWeapon,
     PlagueMarinesHeavyPlagueWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
     PlagueMarinesMeltagun10eFactionPackDeathGuard10eV11UnitWeapon,
-    PlagueMarinesPowerFist10eFactionPackDeathGuard10eV11UnitWeapon,
+    PlagueMarinesPlagueBelcher10eFactionPackDeathGuard10eV11UnitWeapon,
+    PlagueMarinesPowerFist10eFactionPackDeathGuard10eV111058B313D5377599UnitWeapon,
     PlagueSurgeonBalesword10eFactionPackDeathGuard10eV11UnitWeapon,
     PlaguebearersPlaguesword10eFactionPackDeathGuard10eV1130b3048a087b2b0eUnitWeapon,
     PlaguebearersPlaguesword10eFactionPackDeathGuard10eV11542aCb873411Eb9eUnitWeapon,
@@ -1764,15 +2000,17 @@ export const deathGuardUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     RotigusGnarlrodStrike10eFactionPackDeathGuard10eV11UnitWeapon,
     RotigusGnarlrodSweep10eFactionPackDeathGuard10eV11UnitWeapon,
     RotigusStreamsOfBrackishFilth10eFactionPackDeathGuard10eV11UnitWeapon,
-    SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackDeathGuard10eV11UnitWeapon,
+    SorcererOnPalanquinOfNurgleAccursedWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
+    SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackDeathGuard10eV114baaE10a1e177c61UnitWeapon,
     SorcererOnPalanquinOfNurgleBoltPistol10eFactionPackDeathGuard10eV11UnitWeapon,
-    SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11UnitWeapon,
+    SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackDeathGuard10eV11A69e5988C831C9abUnitWeapon,
     SorcererOnPalanquinOfNurgleForceWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
-    SorcererOnPalanquinOfNurgleInfernalGazeFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnPalanquinOfNurgleInfernalGazeWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
+    SorcererOnPalanquinOfNurgleInfernalGazeFocusedWitchfire10eFactionPackDeathGuard10eV11UnitWeapon,
+    SorcererOnPalanquinOfNurgleInfernalGazeWitchfire10eFactionPackDeathGuard10eV11UnitWeapon,
+    SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackDeathGuard10eV11Df11C233C45d47d4UnitWeapon,
     SorcererOnPalanquinOfNurglePlasmaPistolStandard10eFactionPackDeathGuard10eV11UnitWeapon,
     SorcererOnPalanquinOfNurglePlasmaPistolSupercharge10eFactionPackDeathGuard10eV11UnitWeapon,
-    SorcererOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV11UnitWeapon,
+    SorcererOnPalanquinOfNurglePowerFist10eFactionPackDeathGuard10eV1113c2F23b8fb5C02cUnitWeapon,
     TallymanCloseCombatWeapon10eFactionPackDeathGuard10eV11UnitWeapon,
     TyphusLakrimaeStrike10eFactionPackDeathGuard10eV11UnitWeapon,
     TyphusLakrimaeSweep10eFactionPackDeathGuard10eV11UnitWeapon,

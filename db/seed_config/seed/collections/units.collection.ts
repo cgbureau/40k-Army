@@ -9,6 +9,7 @@ import {
   leaderEligibilityKeywordsDataset,
   unitAbilitiesDataset,
   unitSelectionLimitsDataset,
+  unitWeaponsDataset,
   rulesFactionUnitsDataset,
 } from "../data/_index.data";
 import { createStaticSeedCollection } from "./utils.collection";
@@ -27,6 +28,7 @@ const unitDataDatasets = [
   leaderEligibilityKeywordsDataset,
   unitAbilitiesDataset,
   unitSelectionLimitsDataset,
+  unitWeaponsDataset,
   rulesFactionUnitsDataset,
 ];
 
@@ -44,6 +46,6 @@ const unitDataDatasets = [
  */
 export const unitDataCollection = createStaticSeedCollection({
   collection: "units",
-  dependencies: ["reference_data", "factions"],
+  dependencies: ["reference_data", "factions", "weapons"],
   datasets: unitDataDatasets,
 });

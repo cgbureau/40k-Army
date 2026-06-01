@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const CaptainSicariusArtisanPlasmaPistol10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("captain_sicarius__artisan_plasma_pistol__10e__faction_pack_space_marines_10e_v1_8"),
+export const CaptainSicariusArtisanPlasmaPistol10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("captain_sicarius__artisan_plasma_pistol__10e__codex_space_marines_10e"),
   unit_id: unitId("captain_sicarius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("artisan_plasma_pistol__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("artisan_plasma_pistol__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const CaptainSicariusTalassarianTempestBlade10eCodexSpaceMarines10eUnitWe
 };
 
 
-export const CaptainTitusMasterCraftedBolter10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("captain_titus__master_crafted_bolter__10e__faction_pack_space_marines_10e_v1_8"),
+export const CaptainTitusMasterCraftedBolter10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("captain_titus__master_crafted_bolter__10e__codex_space_marines_10e"),
   unit_id: unitId("captain_titus"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("master_crafted_bolter__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("master_crafted_bolter__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const CaptainTitusMasterCraftedBolter10eFactionPackSpaceMarines10eV18Unit
 };
 
 
-export const CaptainTitusMasterCraftedChainsword10eFactionPackBloodAngels10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("captain_titus__master_crafted_chainsword__10e__faction_pack_blood_angels_10e_v1_1"),
+export const CaptainTitusMasterCraftedChainsword10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("captain_titus__master_crafted_chainsword__10e__codex_space_marines_10e"),
   unit_id: unitId("captain_titus"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("master_crafted_chainsword__10e__faction_pack_blood_angels_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("master_crafted_chainsword__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -61,11 +61,11 @@ export const CaptainTitusMasterCraftedChainsword10eFactionPackBloodAngels10eV11U
 };
 
 
-export const CatoSicariusArtisanPlasmaPistol10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cato_sicarius__artisan_plasma_pistol__10e__faction_pack_space_marines_10e_v1_8"),
+export const CatoSicariusArtisanPlasmaPistol10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cato_sicarius__artisan_plasma_pistol__10e__codex_space_marines_10e"),
   unit_id: unitId("cato_sicarius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("artisan_plasma_pistol__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("artisan_plasma_pistol__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -74,11 +74,11 @@ export const CatoSicariusArtisanPlasmaPistol10eFactionPackSpaceMarines10eV18Unit
 };
 
 
-export const CatoSicariusTalassarianTempestBladeCoupDeGrace10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cato_sicarius__talassarian_tempest_blade_coup_de_grace__10e__faction_pack_space_marines_10e_v1_8"),
+export const CatoSicariusTalassarianTempestBladeCoupDeGrace10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cato_sicarius__talassarian_tempest_blade_coup_de_grace__10e__codex_space_marines_10e"),
   unit_id: unitId("cato_sicarius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("talassarian_tempest_blade_coup_de_grace__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("talassarian_tempest_blade_coup_de_grace__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -87,11 +87,11 @@ export const CatoSicariusTalassarianTempestBladeCoupDeGrace10eFactionPackSpaceMa
 };
 
 
-export const CatoSicariusTalassarianTempestBladeStrike10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cato_sicarius__talassarian_tempest_blade_strike__10e__faction_pack_space_marines_10e_v1_8"),
+export const CatoSicariusTalassarianTempestBladeStrike10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cato_sicarius__talassarian_tempest_blade_strike__10e__codex_space_marines_10e"),
   unit_id: unitId("cato_sicarius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("talassarian_tempest_blade_strike__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("talassarian_tempest_blade_strike__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -100,11 +100,11 @@ export const CatoSicariusTalassarianTempestBladeStrike10eFactionPackSpaceMarines
 };
 
 
-export const CatoSicariusTalassarianTempestBladeSweep10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cato_sicarius__talassarian_tempest_blade_sweep__10e__faction_pack_space_marines_10e_v1_8"),
+export const CatoSicariusTalassarianTempestBladeSweep10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cato_sicarius__talassarian_tempest_blade_sweep__10e__codex_space_marines_10e"),
   unit_id: unitId("cato_sicarius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("talassarian_tempest_blade_sweep__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("talassarian_tempest_blade_sweep__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -113,11 +113,11 @@ export const CatoSicariusTalassarianTempestBladeSweep10eFactionPackSpaceMarines1
 };
 
 
-export const ChaplainCassiusArtificerCrozius10eFactionPackBlackTemplars10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaplain_cassius__artificer_crozius__10e__faction_pack_black_templars_10e_v1_1"),
+export const ChaplainCassiusArtificerCrozius10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaplain_cassius__artificer_crozius__10e__codex_space_marines_10e"),
   unit_id: unitId("chaplain_cassius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("artificer_crozius__10e__faction_pack_black_templars_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("artificer_crozius__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -126,11 +126,11 @@ export const ChaplainCassiusArtificerCrozius10eFactionPackBlackTemplars10eV11Uni
 };
 
 
-export const ChaplainCassiusInfernus10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaplain_cassius__infernus__10e__faction_pack_space_marines_10e_v1_8"),
+export const ChaplainCassiusInfernus10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaplain_cassius__infernus__10e__codex_space_marines_10e"),
   unit_id: unitId("chaplain_cassius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernus__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("infernus__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -139,11 +139,11 @@ export const ChaplainCassiusInfernus10eFactionPackSpaceMarines10eV18UnitWeapon: 
 };
 
 
-export const ChiefLibrarianTiguriusRodOfTigurius10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chief_librarian_tigurius__rod_of_tigurius__10e__faction_pack_space_marines_10e_v1_8"),
+export const ChiefLibrarianTiguriusRodOfTigurius10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chief_librarian_tigurius__rod_of_tigurius__10e__codex_space_marines_10e"),
   unit_id: unitId("chief_librarian_tigurius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rod_of_tigurius__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("rod_of_tigurius__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -152,11 +152,11 @@ export const ChiefLibrarianTiguriusRodOfTigurius10eFactionPackSpaceMarines10eV18
 };
 
 
-export const ChiefLibrarianTiguriusStormOfTheEmperorsWrathFocusedWitchfire10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chief_librarian_tigurius__storm_of_the_emperors_wrath_focused_witchfire__10e__faction_pack_space_marines_10e_v1_8"),
+export const ChiefLibrarianTiguriusStormOfTheEmperorsWrathFocusedWitchfire10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chief_librarian_tigurius__storm_of_the_emperors_wrath_focused_witchfire__10e__codex_space_marines_10e"),
   unit_id: unitId("chief_librarian_tigurius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("storm_of_the_emperors_wrath_focused_witchfire__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("storm_of_the_emperors_wrath_focused_witchfire__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -165,11 +165,11 @@ export const ChiefLibrarianTiguriusStormOfTheEmperorsWrathFocusedWitchfire10eFac
 };
 
 
-export const ChiefLibrarianTiguriusStormOfTheEmperorsWrathWitchfire10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chief_librarian_tigurius__storm_of_the_emperors_wrath_witchfire__10e__faction_pack_space_marines_10e_v1_8"),
+export const ChiefLibrarianTiguriusStormOfTheEmperorsWrathWitchfire10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chief_librarian_tigurius__storm_of_the_emperors_wrath_witchfire__10e__codex_space_marines_10e"),
   unit_id: unitId("chief_librarian_tigurius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("storm_of_the_emperors_wrath_witchfire__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("storm_of_the_emperors_wrath_witchfire__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -178,11 +178,11 @@ export const ChiefLibrarianTiguriusStormOfTheEmperorsWrathWitchfire10eFactionPac
 };
 
 
-export const FerrenAreiosRelicThunderHammer10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("ferren_areios__relic_thunder_hammer__10e__faction_pack_space_marines_10e_v1_8"),
+export const FerrenAreiosRelicThunderHammer10eLegendsUltramarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("ferren_areios__relic_thunder_hammer__10e__legends_ultramarines_10e"),
   unit_id: unitId("ferren_areios"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("relic_thunder_hammer__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("relic_thunder_hammer__10e__legends_ultramarines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("legends_ultramarines_10e"),
   is_default: true,
@@ -191,11 +191,11 @@ export const FerrenAreiosRelicThunderHammer10eFactionPackSpaceMarines10eV18UnitW
 };
 
 
-export const LieutenantTitusAstartesChainsword10eFactionPackBlackTemplars10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lieutenant_titus__astartes_chainsword__10e__faction_pack_black_templars_10e_v1_1"),
+export const LieutenantTitusAstartesChainsword10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lieutenant_titus__astartes_chainsword__10e__codex_space_marines_10e"),
   unit_id: unitId("lieutenant_titus"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_black_templars_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -204,11 +204,11 @@ export const LieutenantTitusAstartesChainsword10eFactionPackBlackTemplars10eV11U
 };
 
 
-export const MarneusCalgarGauntletsOfUltramar10eFactionPackSpaceMarines10eV18118c765fF6a9C983UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("marneus_calgar__gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8__118c_765f_f6a9_c983"),
+export const MarneusCalgarGauntletsOfUltramar10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("marneus_calgar__gauntlets_of_ultramar__10e__codex_space_marines_10e"),
   unit_id: unitId("marneus_calgar"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -217,11 +217,11 @@ export const MarneusCalgarGauntletsOfUltramar10eFactionPackSpaceMarines10eV18118
 };
 
 
-export const MarneusCalgarGauntletsOfUltramar10eFactionPackSpaceMarines10eV18D12671feA7b1B32eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("marneus_calgar__gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8__d126_71fe_a7b1_b32e"),
+export const MarneusCalgarGauntletsOfUltramar10eCodexSpaceMarines10eD12671feA7b1B32eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("marneus_calgar__gauntlets_of_ultramar__10e__codex_space_marines_10e__d126_71fe_a7b1_b32e"),
   unit_id: unitId("marneus_calgar"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__codex_space_marines_10e__d126_71fe_a7b1_b32e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -243,11 +243,11 @@ export const MarneusCalgarVictrixPowerSword10eCodexSpaceMarines10eUnitWeapon: Un
 };
 
 
-export const MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eFactionPackSpaceMarines10eV183a4fE9f67e4f70ecUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("marneus_calgar_in_armour_of_antilochus__gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8__3a4f_e9f6_7e4f_70ec"),
+export const MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("marneus_calgar_in_armour_of_antilochus__gauntlets_of_ultramar__10e__codex_space_marines_10e"),
   unit_id: unitId("marneus_calgar_in_armour_of_antilochus"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -256,11 +256,11 @@ export const MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eFactionPackS
 };
 
 
-export const MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eFactionPackSpaceMarines10eV18E4295ee86d5f8277UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("marneus_calgar_in_armour_of_antilochus__gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8__e429_5ee8_6d5f_8277"),
+export const MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eCodexSpaceMarines10eD12671feA7b1B32eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("marneus_calgar_in_armour_of_antilochus__gauntlets_of_ultramar__10e__codex_space_marines_10e__d126_71fe_a7b1_b32e"),
   unit_id: unitId("marneus_calgar_in_armour_of_antilochus"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("gauntlets_of_ultramar__10e__codex_space_marines_10e__d126_71fe_a7b1_b32e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -269,11 +269,11 @@ export const MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eFactionPackS
 };
 
 
-export const RobouteGuillimanHandOfDominion10eFactionPackSpaceMarines10eV1843b1aed6bc4104bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("roboute_guilliman__hand_of_dominion__10e__faction_pack_space_marines_10e_v1_8__43b_1aed_6bc4_104b"),
+export const RobouteGuillimanHandOfDominion10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("roboute_guilliman__hand_of_dominion__10e__codex_space_marines_10e"),
   unit_id: unitId("roboute_guilliman"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hand_of_dominion__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("hand_of_dominion__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -282,11 +282,11 @@ export const RobouteGuillimanHandOfDominion10eFactionPackSpaceMarines10eV1843b1a
 };
 
 
-export const RobouteGuillimanHandOfDominion10eFactionPackSpaceMarines10eV18F92b17235e5cC3e7UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("roboute_guilliman__hand_of_dominion__10e__faction_pack_space_marines_10e_v1_8__f92b_1723_5e5c_c3e7"),
+export const RobouteGuillimanHandOfDominion10eCodexSpaceMarines10eF92b17235e5cC3e7UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("roboute_guilliman__hand_of_dominion__10e__codex_space_marines_10e__f92b_1723_5e5c_c3e7"),
   unit_id: unitId("roboute_guilliman"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hand_of_dominion__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("hand_of_dominion__10e__codex_space_marines_10e__f92b_1723_5e5c_c3e7"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -308,11 +308,11 @@ export const RobouteGuillimanTheEmperorsSword10eCodexSpaceMarines10eUnitWeapon: 
 };
 
 
-export const SergeantChronusChronusServoArm10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sergeant_chronus__chronus_servo_arm__10e__faction_pack_space_marines_10e_v1_8"),
+export const SergeantChronusChronusServoArm10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sergeant_chronus__chronus_servo_arm__10e__codex_space_marines_10e"),
   unit_id: unitId("sergeant_chronus"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chronus_servo_arm__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("chronus_servo_arm__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -321,11 +321,11 @@ export const SergeantChronusChronusServoArm10eFactionPackSpaceMarines10eV18UnitW
 };
 
 
-export const SergeantTelionCombatKnife10eFactionPackBlackTemplars10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sergeant_telion__combat_knife__10e__faction_pack_black_templars_10e_v1_1"),
+export const SergeantTelionCombatKnife10eCodexSpaceMarines10e32cdF021Acbe3ca7UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sergeant_telion__combat_knife__10e__codex_space_marines_10e__32cd_f021_acbe_3ca7"),
   unit_id: unitId("sergeant_telion"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combat_knife__10e__faction_pack_black_templars_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("combat_knife__10e__codex_space_marines_10e__32cd_f021_acbe_3ca7"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -334,11 +334,11 @@ export const SergeantTelionCombatKnife10eFactionPackBlackTemplars10eV11UnitWeapo
 };
 
 
-export const SergeantTelionQuietus10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sergeant_telion__quietus__10e__faction_pack_space_marines_10e_v1_8"),
+export const SergeantTelionQuietus10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sergeant_telion__quietus__10e__codex_space_marines_10e"),
   unit_id: unitId("sergeant_telion"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("quietus__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("quietus__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -373,11 +373,11 @@ export const TyrannicWarVeteransBoltPistol10eCodexSpaceMarines10eCedaB6fc6006Bb0
 };
 
 
-export const TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e48e4791Dd878b36UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tyrannic_war_veterans__boltgun__10e__codex_space_marines_10e__48e_4791_dd87_8b36"),
+export const TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3e48e4791Dd878b36UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tyrannic_war_veterans__boltgun__10e__codex_space_marines_10e__6bb4_5f4d_df41_9d3e__48e_4791_dd87_8b36"),
   unit_id: unitId("tyrannic_war_veterans"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("boltgun__10e__codex_space_marines_10e"),
+  weapon_profile_id: weaponProfileId("boltgun__10e__codex_space_marines_10e__6bb4_5f4d_df41_9d3e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -386,11 +386,11 @@ export const TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e48e4791Dd878b36Uni
 };
 
 
-export const TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tyrannic_war_veterans__boltgun__10e__codex_space_marines_10e__6bb4_5f4d_df41_9d3e"),
+export const TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3e6bb45f4dDf419d3eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tyrannic_war_veterans__boltgun__10e__codex_space_marines_10e__6bb4_5f4d_df41_9d3e__6bb4_5f4d_df41_9d3e"),
   unit_id: unitId("tyrannic_war_veterans"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("boltgun__10e__codex_space_marines_10e"),
+  weapon_profile_id: weaponProfileId("boltgun__10e__codex_space_marines_10e__6bb4_5f4d_df41_9d3e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -399,11 +399,11 @@ export const TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3eUn
 };
 
 
-export const TyrannicWarVeteransCloseCombatWeapon10eCodexAstraMilitarum10e84a63de5b043d70UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tyrannic_war_veterans__close_combat_weapon__10e__codex_astra_militarum_10e__84a_63de_5b04_3d70"),
+export const TyrannicWarVeteransCloseCombatWeapon10eCodexSpaceMarines10e84a63de5b043d7084a63de5b043d70UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tyrannic_war_veterans__close_combat_weapon__10e__codex_space_marines_10e__84a_63de_5b04_3d70__84a_63de_5b04_3d70"),
   unit_id: unitId("tyrannic_war_veterans"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_space_marines_10e__84a_63de_5b04_3d70"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -412,11 +412,11 @@ export const TyrannicWarVeteransCloseCombatWeapon10eCodexAstraMilitarum10e84a63d
 };
 
 
-export const TyrannicWarVeteransCloseCombatWeapon10eCodexAstraMilitarum10e9fc0Cac2Db1999a2UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("tyrannic_war_veterans__close_combat_weapon__10e__codex_astra_militarum_10e__9fc0_cac2_db19_99a2"),
+export const TyrannicWarVeteransCloseCombatWeapon10eCodexSpaceMarines10e84a63de5b043d709fc0Cac2Db1999a2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("tyrannic_war_veterans__close_combat_weapon__10e__codex_space_marines_10e__84a_63de_5b04_3d70__9fc0_cac2_db19_99a2"),
   unit_id: unitId("tyrannic_war_veterans"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_space_marines_10e__84a_63de_5b04_3d70"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -425,11 +425,11 @@ export const TyrannicWarVeteransCloseCombatWeapon10eCodexAstraMilitarum10e9fc0Ca
 };
 
 
-export const UrielVentrisInvictus10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("uriel_ventris__invictus__10e__faction_pack_space_marines_10e_v1_8"),
+export const UrielVentrisInvictus10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("uriel_ventris__invictus__10e__codex_space_marines_10e"),
   unit_id: unitId("uriel_ventris"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("invictus__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("invictus__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -438,11 +438,11 @@ export const UrielVentrisInvictus10eFactionPackSpaceMarines10eV18UnitWeapon: Uni
 };
 
 
-export const UrielVentrisSwordOfIdaeus10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("uriel_ventris__sword_of_idaeus__10e__faction_pack_space_marines_10e_v1_8"),
+export const UrielVentrisSwordOfIdaeus10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("uriel_ventris__sword_of_idaeus__10e__codex_space_marines_10e"),
   unit_id: unitId("uriel_ventris"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("sword_of_idaeus__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("sword_of_idaeus__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -451,11 +451,11 @@ export const UrielVentrisSwordOfIdaeus10eFactionPackSpaceMarines10eV18UnitWeapon
 };
 
 
-export const VictrixHonourGuardBladesOfHonour10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("victrix_honour_guard__blades_of_honour__10e__faction_pack_space_marines_10e_v1_8"),
+export const VictrixHonourGuardBladesOfHonour10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("victrix_honour_guard__blades_of_honour__10e__codex_space_marines_10e"),
   unit_id: unitId("victrix_honour_guard"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blades_of_honour__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("blades_of_honour__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -464,11 +464,11 @@ export const VictrixHonourGuardBladesOfHonour10eFactionPackSpaceMarines10eV18Uni
 };
 
 
-export const VictrixHonourGuardMasterCraftedBoltCarbine10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("victrix_honour_guard__master_crafted_bolt_carbine__10e__faction_pack_space_marines_10e_v1_8"),
+export const VictrixHonourGuardMasterCraftedBoltCarbine10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("victrix_honour_guard__master_crafted_bolt_carbine__10e__codex_space_marines_10e"),
   unit_id: unitId("victrix_honour_guard"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("master_crafted_bolt_carbine__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("master_crafted_bolt_carbine__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -477,11 +477,11 @@ export const VictrixHonourGuardMasterCraftedBoltCarbine10eFactionPackSpaceMarine
 };
 
 
-export const WardensOfUltramarAstropathicBlast10eFactionPackSpaceMarines10eV18UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wardens_of_ultramar__astropathic_blast__10e__faction_pack_space_marines_10e_v1_8"),
+export const WardensOfUltramarAstropathicBlast10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wardens_of_ultramar__astropathic_blast__10e__codex_space_marines_10e"),
   unit_id: unitId("wardens_of_ultramar"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astropathic_blast__10e__faction_pack_space_marines_10e_v1_8"),
+  weapon_profile_id: weaponProfileId("astropathic_blast__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -490,11 +490,11 @@ export const WardensOfUltramarAstropathicBlast10eFactionPackSpaceMarines10eV18Un
 };
 
 
-export const WardensOfUltramarCloseCombatWeapon10eCodexAstraMilitarum10e89adF849452cF116UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wardens_of_ultramar__close_combat_weapon__10e__codex_astra_militarum_10e__89ad_f849_452c_f116"),
+export const WardensOfUltramarCloseCombatWeapon10eCodexSpaceMarines10e89adF849452cF11689adF849452cF116UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wardens_of_ultramar__close_combat_weapon__10e__codex_space_marines_10e__89ad_f849_452c_f116__89ad_f849_452c_f116"),
   unit_id: unitId("wardens_of_ultramar"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_space_marines_10e__89ad_f849_452c_f116"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -503,11 +503,11 @@ export const WardensOfUltramarCloseCombatWeapon10eCodexAstraMilitarum10e89adF849
 };
 
 
-export const WardensOfUltramarCloseCombatWeapon10eCodexAstraMilitarum10eA1e079ef218b8f89UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wardens_of_ultramar__close_combat_weapon__10e__codex_astra_militarum_10e__a1e0_79ef_218b_8f89"),
+export const WardensOfUltramarCloseCombatWeapon10eCodexSpaceMarines10e89adF849452cF116A1e079ef218b8f89UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wardens_of_ultramar__close_combat_weapon__10e__codex_space_marines_10e__89ad_f849_452c_f116__a1e0_79ef_218b_8f89"),
   unit_id: unitId("wardens_of_ultramar"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_astra_militarum_10e"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_space_marines_10e__89ad_f849_452c_f116"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -516,11 +516,11 @@ export const WardensOfUltramarCloseCombatWeapon10eCodexAstraMilitarum10eA1e079ef
 };
 
 
-export const WardensOfUltramarForceStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("wardens_of_ultramar__force_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const WardensOfUltramarForceStave10eCodexSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("wardens_of_ultramar__force_stave__10e__codex_space_marines_10e"),
   unit_id: unitId("wardens_of_ultramar"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("force_stave__10e__codex_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_space_marines_10e"),
   is_default: true,
@@ -532,45 +532,45 @@ export const WardensOfUltramarForceStave10eFactionPackChaosSpaceMarines10eV16Uni
 export const ultramarinesUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    CaptainSicariusArtisanPlasmaPistol10eFactionPackSpaceMarines10eV18UnitWeapon,
+    CaptainSicariusArtisanPlasmaPistol10eCodexSpaceMarines10eUnitWeapon,
     CaptainSicariusTalassarianTempestBlade10eCodexSpaceMarines10eUnitWeapon,
-    CaptainTitusMasterCraftedBolter10eFactionPackSpaceMarines10eV18UnitWeapon,
-    CaptainTitusMasterCraftedChainsword10eFactionPackBloodAngels10eV11UnitWeapon,
-    CatoSicariusArtisanPlasmaPistol10eFactionPackSpaceMarines10eV18UnitWeapon,
-    CatoSicariusTalassarianTempestBladeCoupDeGrace10eFactionPackSpaceMarines10eV18UnitWeapon,
-    CatoSicariusTalassarianTempestBladeStrike10eFactionPackSpaceMarines10eV18UnitWeapon,
-    CatoSicariusTalassarianTempestBladeSweep10eFactionPackSpaceMarines10eV18UnitWeapon,
-    ChaplainCassiusArtificerCrozius10eFactionPackBlackTemplars10eV11UnitWeapon,
-    ChaplainCassiusInfernus10eFactionPackSpaceMarines10eV18UnitWeapon,
-    ChiefLibrarianTiguriusRodOfTigurius10eFactionPackSpaceMarines10eV18UnitWeapon,
-    ChiefLibrarianTiguriusStormOfTheEmperorsWrathFocusedWitchfire10eFactionPackSpaceMarines10eV18UnitWeapon,
-    ChiefLibrarianTiguriusStormOfTheEmperorsWrathWitchfire10eFactionPackSpaceMarines10eV18UnitWeapon,
-    FerrenAreiosRelicThunderHammer10eFactionPackSpaceMarines10eV18UnitWeapon,
-    LieutenantTitusAstartesChainsword10eFactionPackBlackTemplars10eV11UnitWeapon,
-    MarneusCalgarGauntletsOfUltramar10eFactionPackSpaceMarines10eV18118c765fF6a9C983UnitWeapon,
-    MarneusCalgarGauntletsOfUltramar10eFactionPackSpaceMarines10eV18D12671feA7b1B32eUnitWeapon,
+    CaptainTitusMasterCraftedBolter10eCodexSpaceMarines10eUnitWeapon,
+    CaptainTitusMasterCraftedChainsword10eCodexSpaceMarines10eUnitWeapon,
+    CatoSicariusArtisanPlasmaPistol10eCodexSpaceMarines10eUnitWeapon,
+    CatoSicariusTalassarianTempestBladeCoupDeGrace10eCodexSpaceMarines10eUnitWeapon,
+    CatoSicariusTalassarianTempestBladeStrike10eCodexSpaceMarines10eUnitWeapon,
+    CatoSicariusTalassarianTempestBladeSweep10eCodexSpaceMarines10eUnitWeapon,
+    ChaplainCassiusArtificerCrozius10eCodexSpaceMarines10eUnitWeapon,
+    ChaplainCassiusInfernus10eCodexSpaceMarines10eUnitWeapon,
+    ChiefLibrarianTiguriusRodOfTigurius10eCodexSpaceMarines10eUnitWeapon,
+    ChiefLibrarianTiguriusStormOfTheEmperorsWrathFocusedWitchfire10eCodexSpaceMarines10eUnitWeapon,
+    ChiefLibrarianTiguriusStormOfTheEmperorsWrathWitchfire10eCodexSpaceMarines10eUnitWeapon,
+    FerrenAreiosRelicThunderHammer10eLegendsUltramarines10eUnitWeapon,
+    LieutenantTitusAstartesChainsword10eCodexSpaceMarines10eUnitWeapon,
+    MarneusCalgarGauntletsOfUltramar10eCodexSpaceMarines10eUnitWeapon,
+    MarneusCalgarGauntletsOfUltramar10eCodexSpaceMarines10eD12671feA7b1B32eUnitWeapon,
     MarneusCalgarVictrixPowerSword10eCodexSpaceMarines10eUnitWeapon,
-    MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eFactionPackSpaceMarines10eV183a4fE9f67e4f70ecUnitWeapon,
-    MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eFactionPackSpaceMarines10eV18E4295ee86d5f8277UnitWeapon,
-    RobouteGuillimanHandOfDominion10eFactionPackSpaceMarines10eV1843b1aed6bc4104bUnitWeapon,
-    RobouteGuillimanHandOfDominion10eFactionPackSpaceMarines10eV18F92b17235e5cC3e7UnitWeapon,
+    MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eCodexSpaceMarines10eUnitWeapon,
+    MarneusCalgarInArmourOfAntilochusGauntletsOfUltramar10eCodexSpaceMarines10eD12671feA7b1B32eUnitWeapon,
+    RobouteGuillimanHandOfDominion10eCodexSpaceMarines10eUnitWeapon,
+    RobouteGuillimanHandOfDominion10eCodexSpaceMarines10eF92b17235e5cC3e7UnitWeapon,
     RobouteGuillimanTheEmperorsSword10eCodexSpaceMarines10eUnitWeapon,
-    SergeantChronusChronusServoArm10eFactionPackSpaceMarines10eV18UnitWeapon,
-    SergeantTelionCombatKnife10eFactionPackBlackTemplars10eV11UnitWeapon,
-    SergeantTelionQuietus10eFactionPackSpaceMarines10eV18UnitWeapon,
+    SergeantChronusChronusServoArm10eCodexSpaceMarines10eUnitWeapon,
+    SergeantTelionCombatKnife10eCodexSpaceMarines10e32cdF021Acbe3ca7UnitWeapon,
+    SergeantTelionQuietus10eCodexSpaceMarines10eUnitWeapon,
     TyrannicWarVeteransBoltPistol10eCodexSpaceMarines10e7bc660c67a77508UnitWeapon,
     TyrannicWarVeteransBoltPistol10eCodexSpaceMarines10eCedaB6fc6006Bb01UnitWeapon,
-    TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e48e4791Dd878b36UnitWeapon,
-    TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3eUnitWeapon,
-    TyrannicWarVeteransCloseCombatWeapon10eCodexAstraMilitarum10e84a63de5b043d70UnitWeapon,
-    TyrannicWarVeteransCloseCombatWeapon10eCodexAstraMilitarum10e9fc0Cac2Db1999a2UnitWeapon,
-    UrielVentrisInvictus10eFactionPackSpaceMarines10eV18UnitWeapon,
-    UrielVentrisSwordOfIdaeus10eFactionPackSpaceMarines10eV18UnitWeapon,
-    VictrixHonourGuardBladesOfHonour10eFactionPackSpaceMarines10eV18UnitWeapon,
-    VictrixHonourGuardMasterCraftedBoltCarbine10eFactionPackSpaceMarines10eV18UnitWeapon,
-    WardensOfUltramarAstropathicBlast10eFactionPackSpaceMarines10eV18UnitWeapon,
-    WardensOfUltramarCloseCombatWeapon10eCodexAstraMilitarum10e89adF849452cF116UnitWeapon,
-    WardensOfUltramarCloseCombatWeapon10eCodexAstraMilitarum10eA1e079ef218b8f89UnitWeapon,
-    WardensOfUltramarForceStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
+    TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3e48e4791Dd878b36UnitWeapon,
+    TyrannicWarVeteransBoltgun10eCodexSpaceMarines10e6bb45f4dDf419d3e6bb45f4dDf419d3eUnitWeapon,
+    TyrannicWarVeteransCloseCombatWeapon10eCodexSpaceMarines10e84a63de5b043d7084a63de5b043d70UnitWeapon,
+    TyrannicWarVeteransCloseCombatWeapon10eCodexSpaceMarines10e84a63de5b043d709fc0Cac2Db1999a2UnitWeapon,
+    UrielVentrisInvictus10eCodexSpaceMarines10eUnitWeapon,
+    UrielVentrisSwordOfIdaeus10eCodexSpaceMarines10eUnitWeapon,
+    VictrixHonourGuardBladesOfHonour10eCodexSpaceMarines10eUnitWeapon,
+    VictrixHonourGuardMasterCraftedBoltCarbine10eCodexSpaceMarines10eUnitWeapon,
+    WardensOfUltramarAstropathicBlast10eCodexSpaceMarines10eUnitWeapon,
+    WardensOfUltramarCloseCombatWeapon10eCodexSpaceMarines10e89adF849452cF11689adF849452cF116UnitWeapon,
+    WardensOfUltramarCloseCombatWeapon10eCodexSpaceMarines10e89adF849452cF116A1e079ef218b8f89UnitWeapon,
+    WardensOfUltramarForceStave10eCodexSpaceMarines10eUnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

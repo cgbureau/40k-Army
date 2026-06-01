@@ -360,11 +360,11 @@ export const GravisVeteranWInfernusHeavyBolterAstartesGrenadeLauncherKrak10eFact
 };
 
 
-export const GravisVeteranWInfernusHeavyBolterFragCannon10eFactionPackDeathwatch10eV12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gravis_veteran_w_infernus_heavy_bolter__frag_cannon__10e__faction_pack_deathwatch_10e_v1_2"),
+export const GravisVeteranWInfernusHeavyBolterFragCannon10eFactionPackDeathwatch10eV1267b765e76a7aD4d8UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gravis_veteran_w_infernus_heavy_bolter__frag_cannon__10e__faction_pack_deathwatch_10e_v1_2__67b7_65e7_6a7a_d4d8"),
   unit_id: unitId("gravis_veteran_w_infernus_heavy_bolter"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("frag_cannon__10e__faction_pack_deathwatch_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("frag_cannon__10e__faction_pack_deathwatch_10e_v1_2__67b7_65e7_6a7a_d4d8"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_deathwatch_10e_v1_2"),
   is_default: true,
@@ -490,11 +490,11 @@ export const IndomitorKillTeamTwinPowerFists10eFactionPackDeathwatch10eV129589A0
 };
 
 
-export const KillTeamCassiusArtificerCrozius10eFactionPackBlackTemplars10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_team_cassius__artificer_crozius__10e__faction_pack_black_templars_10e_v1_1"),
+export const KillTeamCassiusArtificerCrozius10eFactionPackDeathwatch10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_team_cassius__artificer_crozius__10e__faction_pack_deathwatch_10e_v1_2"),
   unit_id: unitId("kill_team_cassius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("artificer_crozius__10e__faction_pack_black_templars_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("artificer_crozius__10e__faction_pack_deathwatch_10e_v1_2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_deathwatch_10e_v1_2"),
   is_default: true,
@@ -542,11 +542,11 @@ export const KillTeamCassiusCloseCombatWeapon10eFactionPackDeathwatch10eV12Cea2C
 };
 
 
-export const KillTeamCassiusDeathwatchTwinBoltgun10eFactionPackImperialAgents10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_team_cassius__deathwatch_twin_boltgun__10e__faction_pack_imperial_agents_10e_v1_3"),
+export const KillTeamCassiusDeathwatchTwinBoltgun10eFactionPackDeathwatch10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_team_cassius__deathwatch_twin_boltgun__10e__faction_pack_deathwatch_10e_v1_2"),
   unit_id: unitId("kill_team_cassius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("deathwatch_twin_boltgun__10e__faction_pack_imperial_agents_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("deathwatch_twin_boltgun__10e__faction_pack_deathwatch_10e_v1_2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_deathwatch_10e_v1_2"),
   is_default: true,
@@ -555,11 +555,11 @@ export const KillTeamCassiusDeathwatchTwinBoltgun10eFactionPackImperialAgents10e
 };
 
 
-export const KillTeamCassiusForceWeapon10eFactionPackAstraMilitarum10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_team_cassius__force_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+export const KillTeamCassiusForceWeapon10eFactionPackDeathwatch10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_team_cassius__force_weapon__10e__faction_pack_deathwatch_10e_v1_2"),
   unit_id: unitId("kill_team_cassius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_weapon__10e__faction_pack_astra_militarum_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("force_weapon__10e__faction_pack_deathwatch_10e_v1_2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_deathwatch_10e_v1_2"),
   is_default: true,
@@ -607,11 +607,11 @@ export const KillTeamCassiusPowerFist10eFactionPackDeathwatch10eV12UnitWeapon: U
 };
 
 
-export const KillTeamCassiusPsychicCleanse10eFactionPackImperialAgents10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kill_team_cassius__psychic_cleanse__10e__faction_pack_imperial_agents_10e_v1_3"),
+export const KillTeamCassiusPsychicCleanse10eFactionPackDeathwatch10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kill_team_cassius__psychic_cleanse__10e__faction_pack_deathwatch_10e_v1_2"),
   unit_id: unitId("kill_team_cassius"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("psychic_cleanse__10e__faction_pack_imperial_agents_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("psychic_cleanse__10e__faction_pack_deathwatch_10e_v1_2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_deathwatch_10e_v1_2"),
   is_default: true,
@@ -828,8 +828,8 @@ export const WatchCaptainArtemisMasterCraftedPowerWeapon10eFactionPackDeathwatch
 };
 
 
-export const WatchMasterVigilSpear10eFactionPackDeathwatch10eV12Af245cc36b6aB66bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("watch_master__vigil_spear__10e__faction_pack_deathwatch_10e_v1_2__af24_5cc3_6b6a_b66b"),
+export const WatchMasterVigilSpear10eFactionPackDeathwatch10eV12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("watch_master__vigil_spear__10e__faction_pack_deathwatch_10e_v1_2"),
   unit_id: unitId("watch_master"),
   model_id: null,
   weapon_profile_id: weaponProfileId("vigil_spear__10e__faction_pack_deathwatch_10e_v1_2"),
@@ -841,11 +841,11 @@ export const WatchMasterVigilSpear10eFactionPackDeathwatch10eV12Af245cc36b6aB66b
 };
 
 
-export const WatchMasterVigilSpear10eFactionPackDeathwatch10eV12D1f399a9D3b920d1UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("watch_master__vigil_spear__10e__faction_pack_deathwatch_10e_v1_2__d1f3_99a9_d3b9_20d1"),
+export const WatchMasterVigilSpear10eFactionPackDeathwatch10eV12Af245cc36b6aB66bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("watch_master__vigil_spear__10e__faction_pack_deathwatch_10e_v1_2__af24_5cc3_6b6a_b66b"),
   unit_id: unitId("watch_master"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("vigil_spear__10e__faction_pack_deathwatch_10e_v1_2"),
+  weapon_profile_id: weaponProfileId("vigil_spear__10e__faction_pack_deathwatch_10e_v1_2__af24_5cc3_6b6a_b66b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_deathwatch_10e_v1_2"),
   is_default: true,
@@ -884,7 +884,7 @@ export const deathwatchUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     FortisKillTeamSuperkrakMissileLauncher10eFactionPackDeathwatch10eV12UnitWeapon,
     GravisVeteranWInfernusHeavyBolterAstartesGrenadeLauncherFrag10eFactionPackDeathwatch10eV12UnitWeapon,
     GravisVeteranWInfernusHeavyBolterAstartesGrenadeLauncherKrak10eFactionPackDeathwatch10eV12UnitWeapon,
-    GravisVeteranWInfernusHeavyBolterFragCannon10eFactionPackDeathwatch10eV12UnitWeapon,
+    GravisVeteranWInfernusHeavyBolterFragCannon10eFactionPackDeathwatch10eV1267b765e76a7aD4d8UnitWeapon,
     GravisVeteranWInfernusHeavyBolterHellstormBoltRifle10eFactionPackDeathwatch10eV12UnitWeapon,
     GravisVeteranWInfernusHeavyBolterInfernusHeavyBolterHeavyBolter10eFactionPackDeathwatch10eV12UnitWeapon,
     GravisVeteranWInfernusHeavyBolterInfernusHeavyBolterHeavyFlamer10eFactionPackDeathwatch10eV12UnitWeapon,
@@ -894,16 +894,16 @@ export const deathwatchUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     IndomitorKillTeamFlamestormGauntlets10eFactionPackDeathwatch10eV12UnitWeapon,
     IndomitorKillTeamTwinPowerFists10eFactionPackDeathwatch10eV1209a683582593150bUnitWeapon,
     IndomitorKillTeamTwinPowerFists10eFactionPackDeathwatch10eV129589A0c01e08519eUnitWeapon,
-    KillTeamCassiusArtificerCrozius10eFactionPackBlackTemplars10eV11UnitWeapon,
+    KillTeamCassiusArtificerCrozius10eFactionPackDeathwatch10eV12UnitWeapon,
     KillTeamCassiusCloseCombatWeapon10eFactionPackDeathwatch10eV123c4a9c7f777b5b24UnitWeapon,
     KillTeamCassiusCloseCombatWeapon10eFactionPackDeathwatch10eV12A0a1Bc454ea85de7UnitWeapon,
     KillTeamCassiusCloseCombatWeapon10eFactionPackDeathwatch10eV12Cea2C4c5A7fbEc5bUnitWeapon,
-    KillTeamCassiusDeathwatchTwinBoltgun10eFactionPackImperialAgents10eV13UnitWeapon,
-    KillTeamCassiusForceWeapon10eFactionPackAstraMilitarum10eV16UnitWeapon,
+    KillTeamCassiusDeathwatchTwinBoltgun10eFactionPackDeathwatch10eV12UnitWeapon,
+    KillTeamCassiusForceWeapon10eFactionPackDeathwatch10eV12UnitWeapon,
     KillTeamCassiusFragCannon10eFactionPackDeathwatch10eV12UnitWeapon,
     KillTeamCassiusHeavyFlamer10eFactionPackDeathwatch10eV12UnitWeapon,
     KillTeamCassiusPowerFist10eFactionPackDeathwatch10eV12UnitWeapon,
-    KillTeamCassiusPsychicCleanse10eFactionPackImperialAgents10eV13UnitWeapon,
+    KillTeamCassiusPsychicCleanse10eFactionPackDeathwatch10eV12UnitWeapon,
     KillTeamCassiusTwinLightningClaws10eFactionPackDeathwatch10eV12UnitWeapon,
     SpectrusKillTeamBoltSniperRifle10eFactionPackDeathwatch10eV12UnitWeapon,
     SpectrusKillTeamCombatKnife10eFactionPackDeathwatch10eV12UnitWeapon,
@@ -920,7 +920,7 @@ export const deathwatchUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     TalonstrikeKillTeamPlasmaExterminatorsSupercharge10eFactionPackDeathwatch10eV12UnitWeapon,
     WatchCaptainArtemisHellfireExtremis10eFactionPackDeathwatch10eV12UnitWeapon,
     WatchCaptainArtemisMasterCraftedPowerWeapon10eFactionPackDeathwatch10eV12UnitWeapon,
+    WatchMasterVigilSpear10eFactionPackDeathwatch10eV12UnitWeapon,
     WatchMasterVigilSpear10eFactionPackDeathwatch10eV12Af245cc36b6aB66bUnitWeapon,
-    WatchMasterVigilSpear10eFactionPackDeathwatch10eV12D1f399a9D3b920d1UnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };

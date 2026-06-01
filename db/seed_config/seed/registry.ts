@@ -8,11 +8,13 @@ import {
   playerDataCollection,
   referenceDataCollection,
   unitDataCollection,
+  weaponDataCollection,
 } from "./collections/_index.collection";
 
 export const seedCollections = [
   referenceDataCollection,
   factionDataCollection,
+  weaponDataCollection,
   unitDataCollection,
   modelDataCollection,
   kitDataCollection,

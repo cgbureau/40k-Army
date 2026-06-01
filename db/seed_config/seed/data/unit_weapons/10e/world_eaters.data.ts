@@ -594,6 +594,45 @@ export const HeldrakeHeldrakeClaws10eFactionPackWorldEaters10eV11UnitWeapon: Uni
 };
 
 
+export const HellBladeArmouredHull10eFactionPackWorldEaters10eV11136827f7Bc8aE50fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_blade__armoured_hull__10e__faction_pack_world_eaters_10e_v1_1__1368_27f7_bc8a_e50f"),
+  unit_id: unitId("hell_blade"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_world_eaters_10e_v1_1__1368_27f7_bc8a_e50f"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HellTalonArmouredHull10eFactionPackWorldEaters10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__armoured_hull__10e__faction_pack_world_eaters_10e_v1_1"),
+  unit_id: unitId("hell_talon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_world_eaters_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HellTalonAutocannon10eFactionPackWorldEaters10eV11UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__autocannon__10e__faction_pack_world_eaters_10e_v1_1"),
+  unit_id: unitId("hell_talon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("autocannon__10e__faction_pack_world_eaters_10e_v1_1"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const KhRnTheBetrayerGorechild10eFactionPackWorldEaters10eV11UnitWeapon: UnitWeaponConfig = {
   id: unitWeaponId("kh_rn_the_betrayer__gorechild__10e__faction_pack_world_eaters_10e_v1_1"),
   unit_id: unitId("kh_rn_the_betrayer"),
@@ -776,11 +815,11 @@ export const MasterOfExecutionsAxeOfDismemberment10eFactionPackWorldEaters10eV11
 };
 
 
-export const MasterOfExecutionsBoltPistol10eFactionPackWorldEaters10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("master_of_executions__bolt_pistol__10e__faction_pack_world_eaters_10e_v1_1"),
+export const MasterOfExecutionsBoltPistol10eFactionPackWorldEaters10eV11268233c5C4f54bf9UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("master_of_executions__bolt_pistol__10e__faction_pack_world_eaters_10e_v1_1__2682_33c5_c4f5_4bf9"),
   unit_id: unitId("master_of_executions"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__faction_pack_world_eaters_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__faction_pack_world_eaters_10e_v1_1__2682_33c5_c4f5_4bf9"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
   is_default: true,
@@ -802,11 +841,11 @@ export const MaulerfiendLasherTendrils10eFactionPackWorldEaters10eV11UnitWeapon:
 };
 
 
-export const MaulerfiendMagmaCutter10eFactionPackWorldEaters10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__magma_cutter__10e__faction_pack_world_eaters_10e_v1_1"),
+export const MaulerfiendMagmaCutter10eFactionPackWorldEaters10eV114dabF90807a48d2dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__magma_cutter__10e__faction_pack_world_eaters_10e_v1_1__4dab_f908_07a4_8d2d"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_world_eaters_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_world_eaters_10e_v1_1__4dab_f908_07a4_8d2d"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("faction_pack_world_eaters_10e_v1_1"),
   is_default: true,
@@ -928,6 +967,9 @@ export const worldEatersUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     HelbruteTwinAutocannon10eFactionPackWorldEaters10eV11UnitWeapon,
     HeldrakeBaleflamer10eFactionPackWorldEaters10eV11UnitWeapon,
     HeldrakeHeldrakeClaws10eFactionPackWorldEaters10eV11UnitWeapon,
+    HellBladeArmouredHull10eFactionPackWorldEaters10eV11136827f7Bc8aE50fUnitWeapon,
+    HellTalonArmouredHull10eFactionPackWorldEaters10eV11UnitWeapon,
+    HellTalonAutocannon10eFactionPackWorldEaters10eV11UnitWeapon,
     KhRnTheBetrayerGorechild10eFactionPackWorldEaters10eV11UnitWeapon,
     KhorneLordOfSkullsDaemongoreCannon10eFactionPackWorldEaters10eV11UnitWeapon,
     KhorneLordOfSkullsGorestormCannon10eFactionPackWorldEaters10eV11UnitWeapon,
@@ -942,9 +984,9 @@ export const worldEatersUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     LordOnJuggernautBladedHorn10eFactionPackWorldEaters10eV11UnitWeapon,
     LordOnJuggernautExaltedChainblade10eFactionPackWorldEaters10eV11UnitWeapon,
     MasterOfExecutionsAxeOfDismemberment10eFactionPackWorldEaters10eV11UnitWeapon,
-    MasterOfExecutionsBoltPistol10eFactionPackWorldEaters10eV11UnitWeapon,
+    MasterOfExecutionsBoltPistol10eFactionPackWorldEaters10eV11268233c5C4f54bf9UnitWeapon,
     MaulerfiendLasherTendrils10eFactionPackWorldEaters10eV11UnitWeapon,
-    MaulerfiendMagmaCutter10eFactionPackWorldEaters10eV11UnitWeapon,
+    MaulerfiendMagmaCutter10eFactionPackWorldEaters10eV114dabF90807a48d2dUnitWeapon,
     MaulerfiendMaulerfiendFists10eFactionPackWorldEaters10eV11UnitWeapon,
     SkarbrandBellowOfEndlessFury10eFactionPackWorldEaters10eV11UnitWeapon,
     SkarbrandSlaughterAndCarnageStrike10eFactionPackWorldEaters10eV11UnitWeapon,

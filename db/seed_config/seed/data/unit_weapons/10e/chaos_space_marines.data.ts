@@ -9,11 +9,11 @@ import { gameEditionId, rulesSourceId, unitId, unitWeaponId, weaponProfileId } f
  * Generated from BSData weapon profiles.
  */
 
-export const AbaddonTheDespoilerDrachnyen10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("abaddon_the_despoiler__drachnyen__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const AbaddonTheDespoilerDrachnyen10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("abaddon_the_despoiler__drachnyen__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("abaddon_the_despoiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("drachnyen__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("drachnyen__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -22,11 +22,11 @@ export const AbaddonTheDespoilerDrachnyen10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const AbaddonTheDespoilerTalonOfHorus10eFactionPackChaosSpaceMarines10eV165d440e6B003921dUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("abaddon_the_despoiler__talon_of_horus__10e__faction_pack_chaos_space_marines_10e_v1_6__5d4_40e6_b003_921d"),
+export const AbaddonTheDespoilerTalonOfHorus10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("abaddon_the_despoiler__talon_of_horus__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("abaddon_the_despoiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("talon_of_horus__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("talon_of_horus__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -35,11 +35,11 @@ export const AbaddonTheDespoilerTalonOfHorus10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const AbaddonTheDespoilerTalonOfHorus10eFactionPackChaosSpaceMarines10eV16F7e11185D5e1ed0UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("abaddon_the_despoiler__talon_of_horus__10e__faction_pack_chaos_space_marines_10e_v1_6__f7e1_1185_d5e_1ed0"),
+export const AbaddonTheDespoilerTalonOfHorus10eCodexChaosSpaceMarines10eF7e11185D5e1ed0UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("abaddon_the_despoiler__talon_of_horus__10e__codex_chaos_space_marines_10e__f7e1_1185_d5e_1ed0"),
   unit_id: unitId("abaddon_the_despoiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("talon_of_horus__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("talon_of_horus__10e__codex_chaos_space_marines_10e__f7e1_1185_d5e_1ed0"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -48,11 +48,11 @@ export const AbaddonTheDespoilerTalonOfHorus10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const AccursedCultistsBlasphemousAppendages10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("accursed_cultists__blasphemous_appendages__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const AccursedCultistsBlasphemousAppendages10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("accursed_cultists__blasphemous_appendages__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("accursed_cultists"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blasphemous_appendages__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("blasphemous_appendages__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -61,11 +61,11 @@ export const AccursedCultistsBlasphemousAppendages10eFactionPackChaosSpaceMarine
 };
 
 
-export const AccursedCultistsHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("accursed_cultists__hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const AccursedCultistsHideousMutations10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("accursed_cultists__hideous_mutations__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("accursed_cultists"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -74,11 +74,11 @@ export const AccursedCultistsHideousMutations10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const ChaosBikersFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_bikers__flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosBikersFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_bikers__flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_bikers"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -87,11 +87,11 @@ export const ChaosBikersFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: U
 };
 
 
-export const ChaosDeimosPredatorConversionBeamCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_deimos_predator__conversion_beam_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosDeimosPredatorConversionBeamCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_deimos_predator__conversion_beam_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_deimos_predator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("conversion_beam_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("conversion_beam_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -100,11 +100,11 @@ export const ChaosDeimosPredatorConversionBeamCannon10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosDeimosPredatorInfernusCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_deimos_predator__infernus_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosDeimosPredatorInfernusCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_deimos_predator__infernus_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_deimos_predator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernus_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("infernus_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -113,11 +113,11 @@ export const ChaosDeimosPredatorInfernusCannon10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const ChaosDeimosPredatorMagnaMeltaCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_deimos_predator__magna_melta_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosDeimosPredatorMagnaMeltaCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_deimos_predator__magna_melta_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_deimos_predator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("magna_melta_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("magna_melta_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -126,11 +126,11 @@ export const ChaosDeimosPredatorMagnaMeltaCannon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosDeimosPredatorPlasmaDestroyerStandard10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_deimos_predator__plasma_destroyer_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosDeimosPredatorPlasmaDestroyerStandard10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_deimos_predator__plasma_destroyer_standard__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_deimos_predator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_destroyer_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("plasma_destroyer_standard__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -139,11 +139,11 @@ export const ChaosDeimosPredatorPlasmaDestroyerStandard10eFactionPackChaosSpaceM
 };
 
 
-export const ChaosDeimosPredatorPlasmaDestroyerSupercharge10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_deimos_predator__plasma_destroyer_supercharge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosDeimosPredatorPlasmaDestroyerSupercharge10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_deimos_predator__plasma_destroyer_supercharge__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_deimos_predator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_destroyer_supercharge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("plasma_destroyer_supercharge__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -152,11 +152,11 @@ export const ChaosDeimosPredatorPlasmaDestroyerSupercharge10eFactionPackChaosSpa
 };
 
 
-export const ChaosLandRaiderArmouredTracks10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_land_raider__armoured_tracks__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLandRaiderArmouredTracks10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_land_raider__armoured_tracks__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_land_raider"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_tracks__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("armoured_tracks__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -165,11 +165,11 @@ export const ChaosLandRaiderArmouredTracks10eFactionPackChaosSpaceMarines10eV16U
 };
 
 
-export const ChaosLandRaiderSoulshatterLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_land_raider__soulshatter_lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLandRaiderSoulshatterLascannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_land_raider__soulshatter_lascannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_land_raider"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("soulshatter_lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("soulshatter_lascannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -178,11 +178,11 @@ export const ChaosLandRaiderSoulshatterLascannon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosLordAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord__accursed_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -191,11 +191,11 @@ export const ChaosLordAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const ChaosLordAstartesChainblade10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord__astartes_chainblade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordAstartesChainblade10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord__astartes_chainblade__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainblade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainblade__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -204,11 +204,11 @@ export const ChaosLordAstartesChainblade10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const ChaosLordDaemonHammer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord__daemon_hammer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordDaemonHammer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord__daemon_hammer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("daemon_hammer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("daemon_hammer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -217,11 +217,11 @@ export const ChaosLordDaemonHammer10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const ChaosLordPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordPowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -230,11 +230,11 @@ export const ChaosLordPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: 
 };
 
 
-export const ChaosLordInTerminatorArmourChainfist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_in_terminator_armour__chainfist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordInTerminatorArmourChainfist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_in_terminator_armour__chainfist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chainfist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("chainfist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -243,11 +243,11 @@ export const ChaosLordInTerminatorArmourChainfist10eFactionPackChaosSpaceMarines
 };
 
 
-export const ChaosLordInTerminatorArmourCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_in_terminator_armour__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordInTerminatorArmourCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_in_terminator_armour__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -256,11 +256,11 @@ export const ChaosLordInTerminatorArmourCombiBolter10eFactionPackChaosSpaceMarin
 };
 
 
-export const ChaosLordInTerminatorArmourCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_in_terminator_armour__combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordInTerminatorArmourCombiWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_in_terminator_armour__combi_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -269,11 +269,11 @@ export const ChaosLordInTerminatorArmourCombiWeapon10eFactionPackChaosSpaceMarin
 };
 
 
-export const ChaosLordInTerminatorArmourExaltedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_in_terminator_armour__exalted_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordInTerminatorArmourExaltedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_in_terminator_armour__exalted_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("exalted_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("exalted_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -282,11 +282,11 @@ export const ChaosLordInTerminatorArmourExaltedWeapon10eFactionPackChaosSpaceMar
 };
 
 
-export const ChaosLordInTerminatorArmourPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_in_terminator_armour__paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordInTerminatorArmourPairedAccursedWeapons10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_in_terminator_armour__paired_accursed_weapons__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -295,11 +295,11 @@ export const ChaosLordInTerminatorArmourPairedAccursedWeapons10eFactionPackChaos
 };
 
 
-export const ChaosLordInTerminatorArmourPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_in_terminator_armour__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordInTerminatorArmourPowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_in_terminator_armour__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -308,11 +308,11 @@ export const ChaosLordInTerminatorArmourPowerFist10eFactionPackChaosSpaceMarines
 };
 
 
-export const ChaosLordOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV1621d46816B322682bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__21d4_6816_b322_682b"),
+export const ChaosLordOnBikeAccursedWeapon10eCodexChaosSpaceMarines10e21d46816B322682bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__accursed_weapon__10e__codex_chaos_space_marines_10e__21d4_6816_b322_682b"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -321,11 +321,11 @@ export const ChaosLordOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV162
 };
 
 
-export const ChaosLordOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Aefe324c8096B2b8UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__aefe_324c_8096_b2b8"),
+export const ChaosLordOnBikeAccursedWeapon10eCodexChaosSpaceMarines10eAefe324c8096B2b8UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__accursed_weapon__10e__codex_chaos_space_marines_10e__aefe_324c_8096_b2b8"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -334,11 +334,11 @@ export const ChaosLordOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV16A
 };
 
 
-export const ChaosLordOnBikeAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnBikeAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -347,11 +347,11 @@ export const ChaosLordOnBikeAstartesChainsword10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const ChaosLordOnBikeCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnBikeCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -360,11 +360,11 @@ export const ChaosLordOnBikeCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const ChaosLordOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV163f019e1f2531131aUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6__3f01_9e1f_2531_131a"),
+export const ChaosLordOnBikeCombiBolter10eCodexChaosSpaceMarines10e3f019e1f2531131aUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__combi_bolter__10e__codex_chaos_space_marines_10e__3f01_9e1f_2531_131a"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -373,11 +373,11 @@ export const ChaosLordOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV163f01
 };
 
 
-export const ChaosLordOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV16AcbdCc99488aCb9aUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6__acbd_cc99_488a_cb9a"),
+export const ChaosLordOnBikeCombiBolter10eCodexChaosSpaceMarines10eAcbdCc99488aCb9aUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__combi_bolter__10e__codex_chaos_space_marines_10e__acbd_cc99_488a_cb9a"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -386,11 +386,11 @@ export const ChaosLordOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV16Acbd
 };
 
 
-export const ChaosLordOnBikePairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnBikePairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -399,11 +399,11 @@ export const ChaosLordOnBikePairedAccursedWeapons10eFactionPackChaosSpaceMarines
 };
 
 
-export const ChaosLordOnBikePowerFist10eFactionPackChaosSpaceMarines10eV1659a12e2041b35e60UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__59a1_2e20_41b3_5e60"),
+export const ChaosLordOnBikePowerFist10eCodexChaosSpaceMarines10e59a12e2041b35e60UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__power_fist__10e__codex_chaos_space_marines_10e__59a1_2e20_41b3_5e60"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -412,11 +412,11 @@ export const ChaosLordOnBikePowerFist10eFactionPackChaosSpaceMarines10eV1659a12e
 };
 
 
-export const ChaosLordOnBikePowerFist10eFactionPackChaosSpaceMarines10eV16E54a71759d54C1e2UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_bike__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__e54a_7175_9d54_c1e2"),
+export const ChaosLordOnBikePowerFist10eCodexChaosSpaceMarines10eE54a71759d54C1e2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_bike__power_fist__10e__codex_chaos_space_marines_10e__e54a_7175_9d54_c1e2"),
   unit_id: unitId("chaos_lord_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -425,11 +425,11 @@ export const ChaosLordOnBikePowerFist10eFactionPackChaosSpaceMarines10eV16E54a71
 };
 
 
-export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16753d2ade50c93a3dUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__753d_2ade_50c9_3a3d"),
+export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexChaosSpaceMarines10e753d2ade50c93a3dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__codex_chaos_space_marines_10e__753d_2ade_50c9_3a3d"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -438,11 +438,11 @@ export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Eb2b45bf9f2e7c4UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__eb2b_45bf_9f2e_7c4"),
+export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexChaosSpaceMarines10eEb2b45bf9f2e7c4UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__accursed_weapon__10e__codex_chaos_space_marines_10e__eb2b_45bf_9f2e_7c4"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -451,11 +451,11 @@ export const ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnDiscOfTzeentchAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnDiscOfTzeentchAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -464,11 +464,11 @@ export const ChaosLordOnDiscOfTzeentchAstartesChainsword10eFactionPackChaosSpace
 };
 
 
-export const ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -477,11 +477,11 @@ export const ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eFactionPackChaosSpaceM
 };
 
 
-export const ChaosLordOnDiscOfTzeentchCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnDiscOfTzeentchCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -490,11 +490,11 @@ export const ChaosLordOnDiscOfTzeentchCombiBolter10eFactionPackChaosSpaceMarines
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -503,11 +503,11 @@ export const ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eFactionPackChaosSp
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10eV16Ac9bC9d1C1d9Dd63UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__ac9b_c9d1_c1d9_dd63"),
+export const ChaosLordOnDiscOfTzeentchPowerFist10eCodexChaosSpaceMarines10eAc9bC9d1C1d9Dd63UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__codex_chaos_space_marines_10e__ac9b_c9d1_c1d9_dd63"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -516,11 +516,11 @@ export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10
 };
 
 
-export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10eV16B0143c3c7ed14fdfUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__b014_3c3c_7ed1_4fdf"),
+export const ChaosLordOnDiscOfTzeentchPowerFist10eCodexChaosSpaceMarines10eB0143c3c7ed14fdfUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_disc_of_tzeentch__power_fist__10e__codex_chaos_space_marines_10e__b014_3c3c_7ed1_4fdf"),
   unit_id: unitId("chaos_lord_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -529,11 +529,11 @@ export const ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10
 };
 
 
-export const ChaosLordOnJuggernautAccursedWeapon10eFactionPackChaosSpaceMarines10eV16527091d23bdE102UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__5270_91d2_3bd_e102"),
+export const ChaosLordOnJuggernautAccursedWeapon10eCodexChaosSpaceMarines10e527091d23bdE102UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__accursed_weapon__10e__codex_chaos_space_marines_10e__5270_91d2_3bd_e102"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -542,11 +542,11 @@ export const ChaosLordOnJuggernautAccursedWeapon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosLordOnJuggernautAccursedWeapon10eFactionPackChaosSpaceMarines10eV167c308e0949e1Fe94UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__7c30_8e09_49e1_fe94"),
+export const ChaosLordOnJuggernautAccursedWeapon10eCodexChaosSpaceMarines10e7c308e0949e1Fe94UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__accursed_weapon__10e__codex_chaos_space_marines_10e__7c30_8e09_49e1_fe94"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -555,11 +555,11 @@ export const ChaosLordOnJuggernautAccursedWeapon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosLordOnJuggernautAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnJuggernautAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -568,11 +568,11 @@ export const ChaosLordOnJuggernautAstartesChainsword10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnJuggernautBladedHorn10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__bladed_horn__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnJuggernautBladedHorn10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__bladed_horn__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bladed_horn__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bladed_horn__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -581,11 +581,11 @@ export const ChaosLordOnJuggernautBladedHorn10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const ChaosLordOnJuggernautCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnJuggernautCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -594,11 +594,11 @@ export const ChaosLordOnJuggernautCloseCombatWeapon10eFactionPackChaosSpaceMarin
 };
 
 
-export const ChaosLordOnJuggernautCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnJuggernautCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -607,11 +607,11 @@ export const ChaosLordOnJuggernautCombiBolter10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const ChaosLordOnJuggernautPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnJuggernautPairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -620,11 +620,11 @@ export const ChaosLordOnJuggernautPairedAccursedWeapons10eFactionPackChaosSpaceM
 };
 
 
-export const ChaosLordOnJuggernautPowerFist10eFactionPackChaosSpaceMarines10eV16588213756a3a95b9UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__5882_1375_6a3a_95b9"),
+export const ChaosLordOnJuggernautPowerFist10eCodexChaosSpaceMarines10e588213756a3a95b9UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__power_fist__10e__codex_chaos_space_marines_10e__5882_1375_6a3a_95b9"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -633,11 +633,11 @@ export const ChaosLordOnJuggernautPowerFist10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const ChaosLordOnJuggernautPowerFist10eFactionPackChaosSpaceMarines10eV16A403Cc29661cA819UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_juggernaut__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__a403_cc29_661c_a819"),
+export const ChaosLordOnJuggernautPowerFist10eCodexChaosSpaceMarines10eA403Cc29661cA819UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_juggernaut__power_fist__10e__codex_chaos_space_marines_10e__a403_cc29_661c_a819"),
   unit_id: unitId("chaos_lord_on_juggernaut"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -646,11 +646,11 @@ export const ChaosLordOnJuggernautPowerFist10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Fdec22752d113e12UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__fdec_2275_2d11_3e12"),
+export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eCodexChaosSpaceMarines10eFdec22752d113e12UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__codex_chaos_space_marines_10e__fdec_2275_2d11_3e12"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -659,11 +659,11 @@ export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceM
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Ff192444E74e29b0UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__ff19_2444_e74e_29b0"),
+export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eCodexChaosSpaceMarines10eFf192444E74e29b0UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__accursed_weapon__10e__codex_chaos_space_marines_10e__ff19_2444_e74e_29b0"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -672,11 +672,11 @@ export const ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceM
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnPalanquinOfNurgleAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -685,11 +685,11 @@ export const ChaosLordOnPalanquinOfNurgleAstartesChainsword10eFactionPackChaosSp
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -698,11 +698,11 @@ export const ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackChaosSpa
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnPalanquinOfNurgleCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -711,11 +711,11 @@ export const ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__nurglings_claws_and_teeth__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eCodexChaosSpaceMarines10eD502B74b7e82D25fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__nurglings_claws_and_teeth__10e__codex_chaos_space_marines_10e__d502_b74b_7e82_d25f"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("nurglings_claws_and_teeth__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("nurglings_claws_and_teeth__10e__codex_chaos_space_marines_10e__d502_b74b_7e82_d25f"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -724,11 +724,11 @@ export const ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackCha
 };
 
 
-export const ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -737,11 +737,11 @@ export const ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eFactionPackChao
 };
 
 
-export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines10eV16880eC47eC40d7a01UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__880e_c47e_c40d_7a01"),
+export const ChaosLordOnPalanquinOfNurglePowerFist10eCodexChaosSpaceMarines10e880eC47eC40d7a01UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__codex_chaos_space_marines_10e__880e_c47e_c40d_7a01"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -750,11 +750,11 @@ export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarine
 };
 
 
-export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines10eV16C8dcF20c911F23bUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__c8dc_f20c_911_f23b"),
+export const ChaosLordOnPalanquinOfNurglePowerFist10eCodexChaosSpaceMarines10eC8dcF20c911F23bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_palanquin_of_nurgle__power_fist__10e__codex_chaos_space_marines_10e__c8dc_f20c_911_f23b"),
   unit_id: unitId("chaos_lord_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -763,11 +763,11 @@ export const ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarine
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMarines10eV1696f45d597aaA229UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__96f4_5d59_7aa_a229"),
+export const ChaosLordOnSteedOfSlaaneshAccursedWeapon10eCodexChaosSpaceMarines10e96f45d597aaA229UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__accursed_weapon__10e__codex_chaos_space_marines_10e__96f4_5d59_7aa_a229"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -776,11 +776,11 @@ export const ChaosLordOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMar
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Cc8377f878b41092UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__cc83_77f8_78b4_1092"),
+export const ChaosLordOnSteedOfSlaaneshAccursedWeapon10eCodexChaosSpaceMarines10eCc8377f878b41092UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__accursed_weapon__10e__codex_chaos_space_marines_10e__cc83_77f8_78b4_1092"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -789,11 +789,11 @@ export const ChaosLordOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMar
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnSteedOfSlaaneshAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e__82aa_7eac_99e7_16ff"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -802,11 +802,11 @@ export const ChaosLordOnSteedOfSlaaneshAstartesChainsword10eFactionPackChaosSpac
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnSteedOfSlaaneshCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__8ac1_2511_70f3_76c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -815,11 +815,11 @@ export const ChaosLordOnSteedOfSlaaneshCloseCombatWeapon10eFactionPackChaosSpace
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnSteedOfSlaaneshCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -828,11 +828,11 @@ export const ChaosLordOnSteedOfSlaaneshCombiBolter10eFactionPackChaosSpaceMarine
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshLashingTongue10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__lashing_tongue__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnSteedOfSlaaneshLashingTongue10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__lashing_tongue__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashing_tongue__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lashing_tongue__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -841,11 +841,11 @@ export const ChaosLordOnSteedOfSlaaneshLashingTongue10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordOnSteedOfSlaaneshPairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("paired_accursed_weapons__10e__codex_chaos_space_marines_10e__ca63_e9de_b82a_9fcb"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -854,11 +854,11 @@ export const ChaosLordOnSteedOfSlaaneshPairedAccursedWeapons10eFactionPackChaosS
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10eV16A21f2be9893d4df5UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__a21f_2be9_893d_4df5"),
+export const ChaosLordOnSteedOfSlaaneshPowerFist10eCodexChaosSpaceMarines10eA21f2be9893d4df5UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__power_fist__10e__codex_chaos_space_marines_10e__a21f_2be9_893d_4df5"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -867,11 +867,11 @@ export const ChaosLordOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosLordOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10eV16E328867aDa17Fa22UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6__e328_867a_da17_fa22"),
+export const ChaosLordOnSteedOfSlaaneshPowerFist10eCodexChaosSpaceMarines10eE328867aDa17Fa22UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_on_steed_of_slaanesh__power_fist__10e__codex_chaos_space_marines_10e__e328_867a_da17_fa22"),
   unit_id: unitId("chaos_lord_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -880,11 +880,11 @@ export const ChaosLordOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosLordWithJumpPackAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_with_jump_pack__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordWithJumpPackAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_with_jump_pack__accursed_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_with_jump_pack"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -893,11 +893,11 @@ export const ChaosLordWithJumpPackAccursedWeapon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const ChaosLordWithJumpPackPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_with_jump_pack__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordWithJumpPackPowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_with_jump_pack__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_with_jump_pack"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -906,11 +906,11 @@ export const ChaosLordWithJumpPackPowerFist10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const ChaosLordWithJumpPackTwinLightningClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_lord_with_jump_pack__twin_lightning_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosLordWithJumpPackTwinLightningClaws10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_lord_with_jump_pack__twin_lightning_claws__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_lord_with_jump_pack"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_lightning_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("twin_lightning_claws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -919,11 +919,11 @@ export const ChaosLordWithJumpPackTwinLightningClaws10eFactionPackChaosSpaceMari
 };
 
 
-export const ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_predator_annihilator__predator_twin_lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosPredatorAnnihilatorPredatorTwinLascannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_predator_annihilator__predator_twin_lascannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_predator_annihilator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("predator_twin_lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("predator_twin_lascannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -932,11 +932,11 @@ export const ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackChaosSpa
 };
 
 
-export const ChaosPredatorDestructorPredatorAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_predator_destructor__predator_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosPredatorDestructorPredatorAutocannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_predator_destructor__predator_autocannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_predator_destructor"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("predator_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("predator_autocannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -945,11 +945,11 @@ export const ChaosPredatorDestructorPredatorAutocannon10eFactionPackChaosSpaceMa
 };
 
 
-export const ChaosSpawnHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_spawn__hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosSpawnHideousMutations10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_spawn__hideous_mutations__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_spawn"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -958,11 +958,11 @@ export const ChaosSpawnHideousMutations10eFactionPackChaosSpaceMarines10eV16Unit
 };
 
 
-export const ChaosTerminatorSquadHeavyFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_terminator_squad__heavy_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosTerminatorSquadHeavyFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_terminator_squad__heavy_flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_terminator_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -971,11 +971,11 @@ export const ChaosTerminatorSquadHeavyFlamer10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const ChaosTerminatorSquadReaperAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_terminator_squad__reaper_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosTerminatorSquadReaperAutocannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_terminator_squad__reaper_autocannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_terminator_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("reaper_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("reaper_autocannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -984,11 +984,11 @@ export const ChaosTerminatorSquadReaperAutocannon10eFactionPackChaosSpaceMarines
 };
 
 
-export const ChaosVindicatorDemolisherCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("chaos_vindicator__demolisher_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ChaosVindicatorDemolisherCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("chaos_vindicator__demolisher_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("chaos_vindicator"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("demolisher_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("demolisher_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -997,11 +997,11 @@ export const ChaosVindicatorDemolisherCannon10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const CultistFirebrandBalefirePike10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_firebrand__balefire_pike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistFirebrandBalefirePike10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_firebrand__balefire_pike__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_firebrand"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("balefire_pike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("balefire_pike__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1010,11 +1010,11 @@ export const CultistFirebrandBalefirePike10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const CultistFirebrandCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_firebrand__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistFirebrandCloseCombatWeapon10eCodexChaosSpaceMarines10e62f64fbb9b80F76UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_firebrand__close_combat_weapon__10e__codex_chaos_space_marines_10e__62f6_4fbb_9b80_f76"),
   unit_id: unitId("cultist_firebrand"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__62f6_4fbb_9b80_f76"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1023,11 +1023,11 @@ export const CultistFirebrandCloseCombatWeapon10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const CultistMobAutopistol10eFactionPackChaosSpaceMarines10eV16D4fa21023242B228UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__d4fa_2102_3242_b228"),
+export const CultistMobAutopistol10eCodexChaosSpaceMarines10eD4fa21023242B228UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob__autopistol__10e__codex_chaos_space_marines_10e__d4fa_2102_3242_b228"),
   unit_id: unitId("cultist_mob"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1036,11 +1036,11 @@ export const CultistMobAutopistol10eFactionPackChaosSpaceMarines10eV16D4fa210232
 };
 
 
-export const CultistMobAutopistol10eFactionPackChaosSpaceMarines10eV16E9f09527Ac4dBda4UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__e9f0_9527_ac4d_bda4"),
+export const CultistMobAutopistol10eCodexChaosSpaceMarines10eE9f09527Ac4dBda4UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob__autopistol__10e__codex_chaos_space_marines_10e__e9f0_9527_ac4d_bda4"),
   unit_id: unitId("cultist_mob"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1049,11 +1049,11 @@ export const CultistMobAutopistol10eFactionPackChaosSpaceMarines10eV16E9f09527Ac
 };
 
 
-export const CultistMobBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob__bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistMobBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob__bolt_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_mob"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1062,11 +1062,11 @@ export const CultistMobBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon
 };
 
 
-export const CultistMobWithFirearmsAutopistol10eFactionPackChaosSpaceMarines10eV1679ad1c686fb7796aUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__79ad_1c68_6fb7_796a"),
+export const CultistMobWithFirearmsAutopistol10eCodexChaosSpaceMarines10e79ad1c686fb7796aUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__autopistol__10e__codex_chaos_space_marines_10e__79ad_1c68_6fb7_796a"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1075,11 +1075,11 @@ export const CultistMobWithFirearmsAutopistol10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const CultistMobWithFirearmsAutopistol10eFactionPackChaosSpaceMarines10eV169d2d88074fb91fd5UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__9d2d_8807_4fb9_1fd5"),
+export const CultistMobWithFirearmsAutopistol10eCodexChaosSpaceMarines10e9d2d88074fb91fd5UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__autopistol__10e__codex_chaos_space_marines_10e__9d2d_8807_4fb9_1fd5"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1088,11 +1088,11 @@ export const CultistMobWithFirearmsAutopistol10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const CultistMobWithFirearmsBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistMobWithFirearmsBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__bolt_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1101,11 +1101,11 @@ export const CultistMobWithFirearmsBoltPistol10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const CultistMobWithFirearmsCultistGrenadeLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__cultist_grenade_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistMobWithFirearmsCultistGrenadeLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__cultist_grenade_launcher_frag__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_frag__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1114,11 +1114,11 @@ export const CultistMobWithFirearmsCultistGrenadeLauncherFrag10eFactionPackChaos
 };
 
 
-export const CultistMobWithFirearmsCultistGrenadeLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__cultist_grenade_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistMobWithFirearmsCultistGrenadeLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__cultist_grenade_launcher_krak__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_krak__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1127,11 +1127,11 @@ export const CultistMobWithFirearmsCultistGrenadeLauncherKrak10eFactionPackChaos
 };
 
 
-export const CultistMobWithFirearmsFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistMobWithFirearmsFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1140,11 +1140,11 @@ export const CultistMobWithFirearmsFlamer10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const CultistMobWithFirearmsHeavyStubber10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cultist_mob_with_firearms__heavy_stubber__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const CultistMobWithFirearmsHeavyStubber10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cultist_mob_with_firearms__heavy_stubber__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cultist_mob_with_firearms"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_stubber__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_stubber__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1153,11 +1153,11 @@ export const CultistMobWithFirearmsHeavyStubber10eFactionPackChaosSpaceMarines10
 };
 
 
-export const CypherCyphersBoltPistol10eFactionPackChaosSpaceMarines10eV16161aE3197ad39a2eUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cypher__cyphers_bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6__161a_e319_7ad3_9a2e"),
+export const CypherCyphersBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cypher__cyphers_bolt_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cypher"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cyphers_bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cyphers_bolt_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1166,11 +1166,11 @@ export const CypherCyphersBoltPistol10eFactionPackChaosSpaceMarines10eV16161aE31
 };
 
 
-export const CypherCyphersBoltPistol10eFactionPackChaosSpaceMarines10eV1654b7Ae91Fab190b9UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cypher__cyphers_bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6__54b7_ae91_fab1_90b9"),
+export const CypherCyphersBoltPistol10eCodexChaosSpaceMarines10e54b7Ae91Fab190b9UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cypher__cyphers_bolt_pistol__10e__codex_chaos_space_marines_10e__54b7_ae91_fab1_90b9"),
   unit_id: unitId("cypher"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cyphers_bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cyphers_bolt_pistol__10e__codex_chaos_space_marines_10e__54b7_ae91_fab1_90b9"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1179,11 +1179,11 @@ export const CypherCyphersBoltPistol10eFactionPackChaosSpaceMarines10eV1654b7Ae9
 };
 
 
-export const CypherCyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16849aB99cB9919bd4UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cypher__cyphers_plasma_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6__849a_b99c_b991_9bd4"),
+export const CypherCyphersPlasmaPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cypher__cyphers_plasma_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("cypher"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cyphers_plasma_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cyphers_plasma_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1192,11 +1192,11 @@ export const CypherCyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16849aB
 };
 
 
-export const CypherCyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16B4c744bdD9041f43UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("cypher__cyphers_plasma_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6__b4c7_44bd_d904_1f43"),
+export const CypherCyphersPlasmaPistol10eCodexChaosSpaceMarines10eB4c744bdD9041f43UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("cypher__cyphers_plasma_pistol__10e__codex_chaos_space_marines_10e__b4c7_44bd_d904_1f43"),
   unit_id: unitId("cypher"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cyphers_plasma_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cyphers_plasma_pistol__10e__codex_chaos_space_marines_10e__b4c7_44bd_d904_1f43"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1205,11 +1205,11 @@ export const CypherCyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16B4c74
 };
 
 
-export const DarkApostleAccursedCrozius10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_apostle__accursed_crozius__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DarkApostleAccursedCrozius10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_apostle__accursed_crozius__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("dark_apostle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_crozius__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_crozius__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1218,11 +1218,11 @@ export const DarkApostleAccursedCrozius10eFactionPackChaosSpaceMarines10eV16Unit
 };
 
 
-export const DarkApostleCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_apostle__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DarkApostleCloseCombatWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_apostle__close_combat_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("dark_apostle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1231,11 +1231,11 @@ export const DarkApostleCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const DarkCommuneAutopistol10eFactionPackChaosSpaceMarines10eV164076A67171a8Ce9cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__4076_a671_71a8_ce9c"),
+export const DarkCommuneAutopistol10eCodexChaosSpaceMarines10e4076A67171a8Ce9cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__autopistol__10e__codex_chaos_space_marines_10e__4076_a671_71a8_ce9c"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1244,11 +1244,11 @@ export const DarkCommuneAutopistol10eFactionPackChaosSpaceMarines10eV164076A6717
 };
 
 
-export const DarkCommuneAutopistol10eFactionPackChaosSpaceMarines10eV16Cc5eFce1E9a8Eef4UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__cc5e_fce1_e9a8_eef4"),
+export const DarkCommuneAutopistol10eCodexChaosSpaceMarines10eCc5eFce1E9a8Eef4UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__autopistol__10e__codex_chaos_space_marines_10e__cc5e_fce1_e9a8_eef4"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1257,11 +1257,11 @@ export const DarkCommuneAutopistol10eFactionPackChaosSpaceMarines10eV16Cc5eFce1E
 };
 
 
-export const DarkCommuneCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV163150D0c67c6fD5b8UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__3150_d0c6_7c6f_d5b8"),
+export const DarkCommuneCloseCombatWeapon10eCodexChaosSpaceMarines10e3150D0c67c6fD5b8UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__close_combat_weapon__10e__codex_chaos_space_marines_10e__3150_d0c6_7c6f_d5b8"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1270,11 +1270,11 @@ export const DarkCommuneCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV1631
 };
 
 
-export const DarkCommuneCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV1666a4154a3e0dE34dUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__66a4_154a_3e0d_e34d"),
+export const DarkCommuneCloseCombatWeapon10eCodexChaosSpaceMarines10e66a4154a3e0dE34dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__close_combat_weapon__10e__codex_chaos_space_marines_10e__66a4_154a_3e0d_e34d"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1283,11 +1283,11 @@ export const DarkCommuneCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV1666
 };
 
 
-export const DarkCommuneCommuneBlade10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__commune_blade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DarkCommuneCommuneBlade10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__commune_blade__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("commune_blade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("commune_blade__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1296,11 +1296,11 @@ export const DarkCommuneCommuneBlade10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const DarkCommuneCommuneStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__commune_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DarkCommuneCommuneStave10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__commune_stave__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("commune_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("commune_stave__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1309,11 +1309,11 @@ export const DarkCommuneCommuneStave10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const DarkCommuneWarpCurseFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__warp_curse_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DarkCommuneWarpCurseFocusedWitchfire10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__warp_curse_focused_witchfire__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_curse_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("warp_curse_focused_witchfire__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1322,11 +1322,11 @@ export const DarkCommuneWarpCurseFocusedWitchfire10eFactionPackChaosSpaceMarines
 };
 
 
-export const DarkCommuneWarpCurseWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("dark_commune__warp_curse_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DarkCommuneWarpCurseWitchfire10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("dark_commune__warp_curse_witchfire__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("dark_commune"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_curse_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("warp_curse_witchfire__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1335,11 +1335,11 @@ export const DarkCommuneWarpCurseWitchfire10eFactionPackChaosSpaceMarines10eV16U
 };
 
 
-export const DefilerEctoplasmaDestructor10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__ectoplasma_destructor__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerEctoplasmaDestructor10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__ectoplasma_destructor__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ectoplasma_destructor__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("ectoplasma_destructor__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1348,11 +1348,11 @@ export const DefilerEctoplasmaDestructor10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const DefilerExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__excruciator_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerExcruciatorCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__excruciator_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1361,11 +1361,11 @@ export const DefilerExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16UnitWe
 };
 
 
-export const DefilerHadesBattleCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__hades_battle_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerHadesBattleCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__hades_battle_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hades_battle_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hades_battle_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1374,11 +1374,11 @@ export const DefilerHadesBattleCannon10eFactionPackChaosSpaceMarines10eV16UnitWe
 };
 
 
-export const DefilerHeavyBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__heavy_baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerHeavyBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_baleflamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_baleflamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1387,11 +1387,11 @@ export const DefilerHeavyBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const DefilerHeavyMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__heavy_missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerHeavyMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1400,11 +1400,11 @@ export const DefilerHeavyMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const DefilerHeavyMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__heavy_missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerHeavyMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__heavy_missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1413,11 +1413,11 @@ export const DefilerHeavyMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const DefilerMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__magma_cutter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerMagmaCutter10eCodexChaosSpaceMarines10e3a26De09C0516346UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__magma_cutter__10e__codex_chaos_space_marines_10e__3a26_de09_c051_6346"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("magma_cutter__10e__codex_chaos_space_marines_10e__3a26_de09_c051_6346"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1426,11 +1426,11 @@ export const DefilerMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: 
 };
 
 
-export const DefilerShearingClawsStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__shearing_claws_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerShearingClawsStrike10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__shearing_claws_strike__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shearing_claws_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("shearing_claws_strike__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1439,11 +1439,11 @@ export const DefilerShearingClawsStrike10eFactionPackChaosSpaceMarines10eV16Unit
 };
 
 
-export const DefilerShearingClawsSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("defiler__shearing_claws_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const DefilerShearingClawsSweep10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("defiler__shearing_claws_sweep__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("defiler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shearing_claws_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("shearing_claws_sweep__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1452,11 +1452,11 @@ export const DefilerShearingClawsSweep10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const ExaltedChampionExaltedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("exalted_champion__exalted_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ExaltedChampionExaltedWeapon10eCodexChaosSpaceMarines10eC15a7135Feb5A373UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("exalted_champion__exalted_weapon__10e__codex_chaos_space_marines_10e__c15a_7135_feb5_a373"),
   unit_id: unitId("exalted_champion"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("exalted_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("exalted_weapon__10e__codex_chaos_space_marines_10e__c15a_7135_feb5_a373"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1465,11 +1465,11 @@ export const ExaltedChampionExaltedWeapon10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const FabiusBileRodOfTorment10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fabius_bile__rod_of_torment__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FabiusBileRodOfTorment10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fabius_bile__rod_of_torment__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fabius_bile"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rod_of_torment__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("rod_of_torment__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1478,11 +1478,11 @@ export const FabiusBileRodOfTorment10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const FabiusBileSurgeonAcolytesTools10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fabius_bile__surgeon_acolytes_tools__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FabiusBileSurgeonAcolytesTools10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fabius_bile__surgeon_acolytes_tools__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fabius_bile"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("surgeon_acolytes_tools__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("surgeon_acolytes_tools__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1504,11 +1504,11 @@ export const FabiusBileTheChirurgeon10eCodexChaosSpaceMarines10eUnitWeapon: Unit
 };
 
 
-export const FabiusBileXyclosNeedler10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fabius_bile__xyclos_needler__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FabiusBileXyclosNeedler10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fabius_bile__xyclos_needler__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fabius_bile"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("xyclos_needler__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("xyclos_needler__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1517,11 +1517,11 @@ export const FabiusBileXyclosNeedler10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV161f3e8d7f2553F666UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__1f3e_8d7f_2553_f666"),
+export const FellgorBeastmenAutopistol10eCodexChaosSpaceMarines10e1f3e8d7f2553F666UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__autopistol__10e__codex_chaos_space_marines_10e__1f3e_8d7f_2553_f666"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1530,11 +1530,11 @@ export const FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV161f3e8
 };
 
 
-export const FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV1657aa1bb5B85aD43cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__57aa_1bb5_b85a_d43c"),
+export const FellgorBeastmenAutopistol10eCodexChaosSpaceMarines10e57aa1bb5B85aD43cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__autopistol__10e__codex_chaos_space_marines_10e__57aa_1bb5_b85a_d43c"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1543,11 +1543,11 @@ export const FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV1657aa1
 };
 
 
-export const FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV16Cfc24debB99a90d2UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6__cfc2_4deb_b99a_90d2"),
+export const FellgorBeastmenAutopistol10eCodexChaosSpaceMarines10eCfc24debB99a90d2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__autopistol__10e__codex_chaos_space_marines_10e__cfc2_4deb_b99a_90d2"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autopistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autopistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1556,11 +1556,11 @@ export const FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV16Cfc24
 };
 
 
-export const FellgorBeastmenBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FellgorBeastmenBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__bolt_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1569,11 +1569,11 @@ export const FellgorBeastmenBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const FellgorBeastmenChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FellgorBeastmenChainsword10eCodexChaosSpaceMarines10e8d3d98c5Bf51B189UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__chainsword__10e__codex_chaos_space_marines_10e__8d3d_98c5_bf51_b189"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("chainsword__10e__codex_chaos_space_marines_10e__8d3d_98c5_bf51_b189"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1582,11 +1582,11 @@ export const FellgorBeastmenChainsword10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const FellgorBeastmenCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FellgorBeastmenCloseCombatWeapon10eCodexChaosSpaceMarines10e2bca98918b6fF6cfUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__close_combat_weapon__10e__codex_chaos_space_marines_10e__2bca_9891_8b6f_f6cf"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__2bca_9891_8b6f_f6cf"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1595,11 +1595,11 @@ export const FellgorBeastmenCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const FellgorBeastmenCorruptedStave10eFactionPackChaosSpaceMarines10eV163628Ae9559cfBf8cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__corrupted_stave__10e__faction_pack_chaos_space_marines_10e_v1_6__3628_ae95_59cf_bf8c"),
+export const FellgorBeastmenCorruptedStave10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__corrupted_stave__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("corrupted_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("corrupted_stave__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1608,11 +1608,11 @@ export const FellgorBeastmenCorruptedStave10eFactionPackChaosSpaceMarines10eV163
 };
 
 
-export const FellgorBeastmenCorruptedStave10eFactionPackChaosSpaceMarines10eV16Bd22A96a79cf78e6UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__corrupted_stave__10e__faction_pack_chaos_space_marines_10e_v1_6__bd22_a96a_79cf_78e6"),
+export const FellgorBeastmenCorruptedStave10eCodexChaosSpaceMarines10eBd22A96a79cf78e6UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__corrupted_stave__10e__codex_chaos_space_marines_10e__bd22_a96a_79cf_78e6"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("corrupted_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("corrupted_stave__10e__codex_chaos_space_marines_10e__bd22_a96a_79cf_78e6"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1621,11 +1621,11 @@ export const FellgorBeastmenCorruptedStave10eFactionPackChaosSpaceMarines10eV16B
 };
 
 
-export const FellgorBeastmenGreatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__great_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FellgorBeastmenGreatWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__great_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("great_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("great_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1634,11 +1634,11 @@ export const FellgorBeastmenGreatWeapon10eFactionPackChaosSpaceMarines10eV16Unit
 };
 
 
-export const FellgorBeastmenPlasmaPistolStandard10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__plasma_pistol_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FellgorBeastmenPlasmaPistolStandard10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__plasma_pistol_standard__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_standard__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1647,11 +1647,11 @@ export const FellgorBeastmenPlasmaPistolStandard10eFactionPackChaosSpaceMarines1
 };
 
 
-export const FellgorBeastmenPlasmaPistolSupercharge10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("fellgor_beastmen__plasma_pistol_supercharge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const FellgorBeastmenPlasmaPistolSupercharge10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("fellgor_beastmen__plasma_pistol_supercharge__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("fellgor_beastmen"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("plasma_pistol_supercharge__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1660,11 +1660,11 @@ export const FellgorBeastmenPlasmaPistolSupercharge10eFactionPackChaosSpaceMarin
 };
 
 
-export const ForgefiendArmouredLimbs10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("forgefiend__armoured_limbs__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ForgefiendArmouredLimbs10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("forgefiend__armoured_limbs__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("forgefiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_limbs__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("armoured_limbs__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1673,11 +1673,11 @@ export const ForgefiendArmouredLimbs10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const ForgefiendForgefiendJaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("forgefiend__forgefiend_jaws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ForgefiendForgefiendJaws10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("forgefiend__forgefiend_jaws__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("forgefiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("forgefiend_jaws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("forgefiend_jaws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1686,11 +1686,11 @@ export const ForgefiendForgefiendJaws10eFactionPackChaosSpaceMarines10eV16UnitWe
 };
 
 
-export const GellerpoxInfectedBellyFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gellerpox_infected__belly_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const GellerpoxInfectedBellyFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__belly_flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("gellerpox_infected"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("belly_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("belly_flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1699,11 +1699,11 @@ export const GellerpoxInfectedBellyFlamer10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const GellerpoxInfectedBrutalWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gellerpox_infected__brutal_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const GellerpoxInfectedBrutalWeapons10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__brutal_weapons__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("gellerpox_infected"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("brutal_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("brutal_weapons__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1712,11 +1712,11 @@ export const GellerpoxInfectedBrutalWeapons10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const GellerpoxInfectedHideousMutations10eFactionPackChaosSpaceMarines10eV167ab8177f2dbb6e9cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6__7ab8_177f_2dbb_6e9c"),
+export const GellerpoxInfectedHideousMutations10eCodexChaosSpaceMarines10e7ab8177f2dbb6e9c7ab8177f2dbb6e9cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__codex_chaos_space_marines_10e__7ab8_177f_2dbb_6e9c__7ab8_177f_2dbb_6e9c"),
   unit_id: unitId("gellerpox_infected"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_chaos_space_marines_10e__7ab8_177f_2dbb_6e9c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1725,11 +1725,24 @@ export const GellerpoxInfectedHideousMutations10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const GellerpoxInfectedHideousMutations10eFactionPackChaosSpaceMarines10eV16A31E4924345Ff72UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6__a31_e492_4345_ff72"),
+export const GellerpoxInfectedHideousMutations10eCodexChaosSpaceMarines10e7ab8177f2dbb6e9cA31E4924345Ff72UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("gellerpox_infected__hideous_mutations__10e__codex_chaos_space_marines_10e__7ab8_177f_2dbb_6e9c__a31_e492_4345_ff72"),
   unit_id: unitId("gellerpox_infected"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_chaos_space_marines_10e__7ab8_177f_2dbb_6e9c"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("haarken_worldclaimer__hellspear__10e__codex_chaos_space_marines_10e"),
+  unit_id: unitId("haarken_worldclaimer"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("hellspear__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1742,7 +1755,7 @@ export const HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10e362bD3b5Cc2
   id: unitWeaponId("haarken_worldclaimer__hellspear__10e__codex_chaos_space_marines_10e__362b_d3b5_cc21_5ae7"),
   unit_id: unitId("haarken_worldclaimer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellspear__10e__codex_chaos_space_marines_10e"),
+  weapon_profile_id: weaponProfileId("hellspear__10e__codex_chaos_space_marines_10e__362b_d3b5_cc21_5ae7"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1751,11 +1764,11 @@ export const HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10e362bD3b5Cc2
 };
 
 
-export const HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10e6f2aCacc3e03062UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("haarken_worldclaimer__hellspear__10e__codex_chaos_space_marines_10e__6f2a_cacc_3e0_3062"),
+export const HaarkenWorldclaimerHeraldsTalon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("haarken_worldclaimer__heralds_talon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("haarken_worldclaimer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellspear__10e__codex_chaos_space_marines_10e"),
+  weapon_profile_id: weaponProfileId("heralds_talon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1764,24 +1777,11 @@ export const HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10e6f2aCacc3e0
 };
 
 
-export const HaarkenWorldclaimerHeraldsTalon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("haarken_worldclaimer__heralds_talon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
-  unit_id: unitId("haarken_worldclaimer"),
-  model_id: null,
-  weapon_profile_id: weaponProfileId("heralds_talon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
-  game_edition_id: gameEditionId("10e"),
-  rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
-  is_default: true,
-  effective_date: null,
-  superseded_date: null,
-};
-
-
-export const HavocsHavocAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("havocs__havoc_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HavocsHavocAutocannon10eCodexChaosSpaceMarines10e3a7579e445eDa32UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("havocs__havoc_autocannon__10e__codex_chaos_space_marines_10e__3a7_579e_445e_da32"),
   unit_id: unitId("havocs"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_autocannon__10e__codex_chaos_space_marines_10e__3a7_579e_445e_da32"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1790,11 +1790,11 @@ export const HavocsHavocAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const HavocsHavocHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("havocs__havoc_heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HavocsHavocHeavyBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("havocs__havoc_heavy_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("havocs"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_heavy_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1803,11 +1803,11 @@ export const HavocsHavocHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const HavocsHavocLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("havocs__havoc_lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HavocsHavocLascannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("havocs__havoc_lascannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("havocs"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_lascannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1816,11 +1816,11 @@ export const HavocsHavocLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon
 };
 
 
-export const HavocsHavocMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("havocs__havoc_missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HavocsHavocMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("havocs__havoc_missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("havocs"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1829,11 +1829,11 @@ export const HavocsHavocMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const HavocsHavocMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("havocs__havoc_missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HavocsHavocMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("havocs__havoc_missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("havocs"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1842,11 +1842,11 @@ export const HavocsHavocMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const HavocsHavocReaperChaincannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("havocs__havoc_reaper_chaincannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HavocsHavocReaperChaincannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("havocs__havoc_reaper_chaincannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("havocs"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_reaper_chaincannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_reaper_chaincannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1855,11 +1855,11 @@ export const HavocsHavocReaperChaincannon10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const HelbruteCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteCloseCombatWeapon10eCodexChaosSpaceMarines10e5fbcEacd4312Ca64UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__close_combat_weapon__10e__codex_chaos_space_marines_10e__5fbc_eacd_4312_ca64"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__5fbc_eacd_4312_ca64"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1868,11 +1868,11 @@ export const HelbruteCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const HelbruteHelbruteHammer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__helbrute_hammer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteHelbruteHammer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__helbrute_hammer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("helbrute_hammer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("helbrute_hammer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1881,11 +1881,11 @@ export const HelbruteHelbruteHammer10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const HelbruteHelbrutePlasmaCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__helbrute_plasma_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteHelbrutePlasmaCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__helbrute_plasma_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("helbrute_plasma_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("helbrute_plasma_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1894,11 +1894,11 @@ export const HelbruteHelbrutePlasmaCannon10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const HelbruteMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteMissileLauncherFrag10eCodexChaosSpaceMarines10eC742f27B386A09bUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__missile_launcher_frag__10e__codex_chaos_space_marines_10e__c74_2f27_b386_a09b"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__codex_chaos_space_marines_10e__c74_2f27_b386_a09b"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1907,11 +1907,11 @@ export const HelbruteMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const HelbruteMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteMissileLauncherKrak10eCodexChaosSpaceMarines10eD1378f127931Ae52UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__missile_launcher_krak__10e__codex_chaos_space_marines_10e__d137_8f12_7931_ae52"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__codex_chaos_space_marines_10e__d137_8f12_7931_ae52"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1920,11 +1920,11 @@ export const HelbruteMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const HelbruteMultiMelta10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__multi_melta__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteMultiMelta10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__multi_melta__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("multi_melta__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("multi_melta__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1933,11 +1933,11 @@ export const HelbruteMultiMelta10eFactionPackChaosSpaceMarines10eV16UnitWeapon: 
 };
 
 
-export const HelbrutePowerScourge10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__power_scourge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbrutePowerScourge10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__power_scourge__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_scourge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_scourge__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1946,11 +1946,11 @@ export const HelbrutePowerScourge10eFactionPackChaosSpaceMarines10eV16UnitWeapon
 };
 
 
-export const HelbruteTwinAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("helbrute__twin_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HelbruteTwinAutocannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("helbrute__twin_autocannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("helbrute"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("twin_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("twin_autocannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1959,11 +1959,11 @@ export const HelbruteTwinAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const HeldrakeBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heldrake__baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HeldrakeBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heldrake__baleflamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heldrake"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("baleflamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1972,11 +1972,11 @@ export const HeldrakeBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: 
 };
 
 
-export const HeldrakeHeldrakeClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heldrake__heldrake_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HeldrakeHeldrakeClaws10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heldrake__heldrake_claws__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heldrake"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heldrake_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heldrake_claws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1985,11 +1985,11 @@ export const HeldrakeHeldrakeClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const HellBladeArmouredHull10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("hell_blade__armoured_hull__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HellBladeArmouredHull10eCodexChaosSpaceMarines10eB8229c28C09bEebeUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_blade__armoured_hull__10e__codex_chaos_space_marines_10e__b822_9c28_c09b_eebe"),
   unit_id: unitId("hell_blade"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__codex_chaos_space_marines_10e__b822_9c28_c09b_eebe"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -1998,11 +1998,11 @@ export const HellBladeArmouredHull10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const HellTalonArmouredHull10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("hell_talon__armoured_hull__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HellTalonArmouredHull10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__armoured_hull__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("hell_talon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("armoured_hull__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("armoured_hull__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2011,11 +2011,11 @@ export const HellTalonArmouredHull10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const HellTalonAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("hell_talon__autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HellTalonAutocannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hell_talon__autocannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("hell_talon"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autocannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2024,11 +2024,11 @@ export const HellTalonAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon:
 };
 
 
-export const HereticAstartesDaemonPrinceHellforgedWeaponsStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heretic_astartes_daemon_prince__hellforged_weapons_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HereticAstartesDaemonPrinceHellforgedWeaponsStrike10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heretic_astartes_daemon_prince__hellforged_weapons_strike__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heretic_astartes_daemon_prince"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2037,11 +2037,11 @@ export const HereticAstartesDaemonPrinceHellforgedWeaponsStrike10eFactionPackCha
 };
 
 
-export const HereticAstartesDaemonPrinceHellforgedWeaponsSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heretic_astartes_daemon_prince__hellforged_weapons_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HereticAstartesDaemonPrinceHellforgedWeaponsSweep10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heretic_astartes_daemon_prince__hellforged_weapons_sweep__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heretic_astartes_daemon_prince"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2050,11 +2050,11 @@ export const HereticAstartesDaemonPrinceHellforgedWeaponsSweep10eFactionPackChao
 };
 
 
-export const HereticAstartesDaemonPrinceInfernalCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heretic_astartes_daemon_prince__infernal_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HereticAstartesDaemonPrinceInfernalCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heretic_astartes_daemon_prince__infernal_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heretic_astartes_daemon_prince"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("infernal_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2063,11 +2063,11 @@ export const HereticAstartesDaemonPrinceInfernalCannon10eFactionPackChaosSpaceMa
 };
 
 
-export const HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heretic_astartes_daemon_prince_with_wings__hellforged_weapons_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsStrike10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heretic_astartes_daemon_prince_with_wings__hellforged_weapons_strike__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heretic_astartes_daemon_prince_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_strike__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2076,11 +2076,11 @@ export const HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsStrike10eFacti
 };
 
 
-export const HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heretic_astartes_daemon_prince_with_wings__hellforged_weapons_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsSweep10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heretic_astartes_daemon_prince_with_wings__hellforged_weapons_sweep__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heretic_astartes_daemon_prince_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hellforged_weapons_sweep__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2089,11 +2089,11 @@ export const HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsSweep10eFactio
 };
 
 
-export const HereticAstartesDaemonPrinceWithWingsInfernalCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("heretic_astartes_daemon_prince_with_wings__infernal_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HereticAstartesDaemonPrinceWithWingsInfernalCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("heretic_astartes_daemon_prince_with_wings__infernal_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("heretic_astartes_daemon_prince_with_wings"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("infernal_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("infernal_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2102,11 +2102,11 @@ export const HereticAstartesDaemonPrinceWithWingsInfernalCannon10eFactionPackCha
 };
 
 
-export const HuronBlackheartTyrantsClawAndExaltedPowerWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("huron_blackheart__tyrants_claw_and_exalted_power_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HuronBlackheartTyrantsClawAndExaltedPowerWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("huron_blackheart__tyrants_claw_and_exalted_power_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("huron_blackheart"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("tyrants_claw_and_exalted_power_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("tyrants_claw_and_exalted_power_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2115,11 +2115,11 @@ export const HuronBlackheartTyrantsClawAndExaltedPowerWeapon10eFactionPackChaosS
 };
 
 
-export const HuronBlackheartTyrantsClawHeavyFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("huron_blackheart__tyrants_claw_heavy_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const HuronBlackheartTyrantsClawHeavyFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("huron_blackheart__tyrants_claw_heavy_flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("huron_blackheart"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("tyrants_claw_heavy_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("tyrants_claw_heavy_flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2128,11 +2128,11 @@ export const HuronBlackheartTyrantsClawHeavyFlamer10eFactionPackChaosSpaceMarine
 };
 
 
-export const KhorneLordOfSkullsDaemongoreCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__daemongore_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsDaemongoreCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__daemongore_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("daemongore_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("daemongore_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2141,11 +2141,11 @@ export const KhorneLordOfSkullsDaemongoreCannon10eFactionPackChaosSpaceMarines10
 };
 
 
-export const KhorneLordOfSkullsGorestormCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__gorestorm_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsGorestormCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__gorestorm_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("gorestorm_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("gorestorm_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2154,11 +2154,11 @@ export const KhorneLordOfSkullsGorestormCannon10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const KhorneLordOfSkullsGreatCleaverOfKhorneStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__great_cleaver_of_khorne_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsGreatCleaverOfKhorneStrike10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__great_cleaver_of_khorne_strike__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("great_cleaver_of_khorne_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("great_cleaver_of_khorne_strike__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2167,11 +2167,11 @@ export const KhorneLordOfSkullsGreatCleaverOfKhorneStrike10eFactionPackChaosSpac
 };
 
 
-export const KhorneLordOfSkullsGreatCleaverOfKhorneSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__great_cleaver_of_khorne_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsGreatCleaverOfKhorneSweep10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__great_cleaver_of_khorne_sweep__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("great_cleaver_of_khorne_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("great_cleaver_of_khorne_sweep__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2180,11 +2180,11 @@ export const KhorneLordOfSkullsGreatCleaverOfKhorneSweep10eFactionPackChaosSpace
 };
 
 
-export const KhorneLordOfSkullsHadesGatlingCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__hades_gatling_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsHadesGatlingCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__hades_gatling_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hades_gatling_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hades_gatling_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2193,11 +2193,11 @@ export const KhorneLordOfSkullsHadesGatlingCannon10eFactionPackChaosSpaceMarines
 };
 
 
-export const KhorneLordOfSkullsIchorCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__ichor_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsIchorCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__ichor_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ichor_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("ichor_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2206,11 +2206,11 @@ export const KhorneLordOfSkullsIchorCannon10eFactionPackChaosSpaceMarines10eV16U
 };
 
 
-export const KhorneLordOfSkullsSkullhurler10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("khorne_lord_of_skulls__skullhurler__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KhorneLordOfSkullsSkullhurler10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("khorne_lord_of_skulls__skullhurler__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("khorne_lord_of_skulls"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("skullhurler__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("skullhurler__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2219,11 +2219,11 @@ export const KhorneLordOfSkullsSkullhurler10eFactionPackChaosSpaceMarines10eV16U
 };
 
 
-export const KravekMorneBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kravek_morne__baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KravekMorneBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kravek_morne__baleflamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("kravek_morne"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("baleflamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2232,11 +2232,11 @@ export const KravekMorneBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const KravekMorneCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kravek_morne__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KravekMorneCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kravek_morne__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("kravek_morne"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2245,11 +2245,11 @@ export const KravekMorneCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const KravekMorneLastArgumentAndPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kravek_morne__last_argument_and_power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KravekMorneLastArgumentAndPowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kravek_morne__last_argument_and_power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("kravek_morne"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("last_argument_and_power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("last_argument_and_power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2258,11 +2258,11 @@ export const KravekMorneLastArgumentAndPowerFist10eFactionPackChaosSpaceMarines1
 };
 
 
-export const KravekMorneServoHarness10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("kravek_morne__servo_harness__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const KravekMorneServoHarness10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("kravek_morne__servo_harness__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("kravek_morne"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("servo_harness__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("servo_harness__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2271,11 +2271,11 @@ export const KravekMorneServoHarness10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const LegionariesAccursedWeapon10eFactionPackChaosSpaceMarines10eV167c1fE02Fe0692fbUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__7c1f_e02_fe06_92fb"),
+export const LegionariesAccursedWeapon10eCodexChaosSpaceMarines10eEf75C544624112817c1fE02Fe0692fbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__accursed_weapon__10e__codex_chaos_space_marines_10e__ef75_c544_6241_1281__7c1f_e02_fe06_92fb"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e__ef75_c544_6241_1281"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2284,11 +2284,11 @@ export const LegionariesAccursedWeapon10eFactionPackChaosSpaceMarines10eV167c1fE
 };
 
 
-export const LegionariesAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Ef75C54462411281UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__ef75_c544_6241_1281"),
+export const LegionariesAccursedWeapon10eCodexChaosSpaceMarines10eEf75C54462411281Ef75C54462411281UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__accursed_weapon__10e__codex_chaos_space_marines_10e__ef75_c544_6241_1281__ef75_c544_6241_1281"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e__ef75_c544_6241_1281"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2297,11 +2297,11 @@ export const LegionariesAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Ef75C
 };
 
 
-export const LegionariesBalefireTome10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__balefire_tome__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesBalefireTome10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__balefire_tome__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("balefire_tome__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("balefire_tome__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2310,11 +2310,11 @@ export const LegionariesBalefireTome10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const LegionariesFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2323,11 +2323,11 @@ export const LegionariesFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: U
 };
 
 
-export const LegionariesHavocAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__havoc_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesHavocAutocannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__havoc_autocannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("havoc_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("havoc_autocannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2336,11 +2336,11 @@ export const LegionariesHavocAutocannon10eFactionPackChaosSpaceMarines10eV16Unit
 };
 
 
-export const LegionariesHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesHeavyBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__heavy_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2349,11 +2349,11 @@ export const LegionariesHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const LegionariesLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesLascannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__lascannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lascannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2362,11 +2362,11 @@ export const LegionariesLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon
 };
 
 
-export const LegionariesMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2375,11 +2375,11 @@ export const LegionariesMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const LegionariesMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2388,11 +2388,11 @@ export const LegionariesMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const LegionariesReaperChaincannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("legionaries__reaper_chaincannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LegionariesReaperChaincannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("legionaries__reaper_chaincannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("legionaries"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("reaper_chaincannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("reaper_chaincannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2401,11 +2401,11 @@ export const LegionariesReaperChaincannon10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const LordDiscordantOnHelstalkerBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_discordant_on_helstalker__baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LordDiscordantOnHelstalkerBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_discordant_on_helstalker__baleflamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("lord_discordant_on_helstalker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("baleflamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("baleflamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2414,11 +2414,11 @@ export const LordDiscordantOnHelstalkerBaleflamer10eFactionPackChaosSpaceMarines
 };
 
 
-export const LordDiscordantOnHelstalkerBladedLimbs10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_discordant_on_helstalker__bladed_limbs__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LordDiscordantOnHelstalkerBladedLimbs10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_discordant_on_helstalker__bladed_limbs__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("lord_discordant_on_helstalker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bladed_limbs__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bladed_limbs__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2427,11 +2427,11 @@ export const LordDiscordantOnHelstalkerBladedLimbs10eFactionPackChaosSpaceMarine
 };
 
 
-export const LordDiscordantOnHelstalkerHelstalkerAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_discordant_on_helstalker__helstalker_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LordDiscordantOnHelstalkerHelstalkerAutocannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_discordant_on_helstalker__helstalker_autocannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("lord_discordant_on_helstalker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("helstalker_autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("helstalker_autocannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2440,11 +2440,11 @@ export const LordDiscordantOnHelstalkerHelstalkerAutocannon10eFactionPackChaosSp
 };
 
 
-export const LordDiscordantOnHelstalkerImpalerChainglaive10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_discordant_on_helstalker__impaler_chainglaive__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LordDiscordantOnHelstalkerImpalerChainglaive10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_discordant_on_helstalker__impaler_chainglaive__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("lord_discordant_on_helstalker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("impaler_chainglaive__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("impaler_chainglaive__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2453,11 +2453,11 @@ export const LordDiscordantOnHelstalkerImpalerChainglaive10eFactionPackChaosSpac
 };
 
 
-export const LordDiscordantOnHelstalkerMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_discordant_on_helstalker__magma_cutter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LordDiscordantOnHelstalkerMagmaCutter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_discordant_on_helstalker__magma_cutter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("lord_discordant_on_helstalker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("magma_cutter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2466,11 +2466,11 @@ export const LordDiscordantOnHelstalkerMagmaCutter10eFactionPackChaosSpaceMarine
 };
 
 
-export const LordDiscordantOnHelstalkerTechnoVirusInjector10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("lord_discordant_on_helstalker__techno_virus_injector__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const LordDiscordantOnHelstalkerTechnoVirusInjector10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("lord_discordant_on_helstalker__techno_virus_injector__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("lord_discordant_on_helstalker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("techno_virus_injector__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("techno_virus_injector__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2479,11 +2479,11 @@ export const LordDiscordantOnHelstalkerTechnoVirusInjector10eFactionPackChaosSpa
 };
 
 
-export const MasterOfExecutionsAxeOfDismemberment10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("master_of_executions__axe_of_dismemberment__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MasterOfExecutionsAxeOfDismemberment10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("master_of_executions__axe_of_dismemberment__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("master_of_executions"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("axe_of_dismemberment__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("axe_of_dismemberment__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2492,11 +2492,11 @@ export const MasterOfExecutionsAxeOfDismemberment10eFactionPackChaosSpaceMarines
 };
 
 
-export const MasterOfPossessionRiteOfPossessionFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("master_of_possession__rite_of_possession_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MasterOfPossessionRiteOfPossessionFocusedWitchfire10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("master_of_possession__rite_of_possession_focused_witchfire__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("master_of_possession"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rite_of_possession_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("rite_of_possession_focused_witchfire__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2505,11 +2505,11 @@ export const MasterOfPossessionRiteOfPossessionFocusedWitchfire10eFactionPackCha
 };
 
 
-export const MasterOfPossessionRiteOfPossessionWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("master_of_possession__rite_of_possession_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MasterOfPossessionRiteOfPossessionWitchfire10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("master_of_possession__rite_of_possession_witchfire__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("master_of_possession"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("rite_of_possession_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("rite_of_possession_witchfire__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2518,11 +2518,11 @@ export const MasterOfPossessionRiteOfPossessionWitchfire10eFactionPackChaosSpace
 };
 
 
-export const MasterOfPossessionStaffOfPossession10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("master_of_possession__staff_of_possession__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MasterOfPossessionStaffOfPossession10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("master_of_possession__staff_of_possession__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("master_of_possession"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("staff_of_possession__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("staff_of_possession__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2544,11 +2544,11 @@ export const MastersOfTheMaelstromAbsolverBoltPistol10eCodexChaosSpaceMarines10e
 };
 
 
-export const MastersOfTheMaelstromAxeOfEnding10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__axe_of_ending__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromAxeOfEnding10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__axe_of_ending__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("axe_of_ending__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("axe_of_ending__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2557,11 +2557,11 @@ export const MastersOfTheMaelstromAxeOfEnding10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const MastersOfTheMaelstromBionicGauntlet10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__bionic_gauntlet__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromBionicGauntlet10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__bionic_gauntlet__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bionic_gauntlet__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bionic_gauntlet__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2570,11 +2570,11 @@ export const MastersOfTheMaelstromBionicGauntlet10eFactionPackChaosSpaceMarines1
 };
 
 
-export const MastersOfTheMaelstromBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromBoltPistol10eCodexChaosSpaceMarines10eF71099f9Bdbe93b2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__bolt_pistol__10e__codex_chaos_space_marines_10e__f710_99f9_bdbe_93b2"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("bolt_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("bolt_pistol__10e__codex_chaos_space_marines_10e__f710_99f9_bdbe_93b2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2583,11 +2583,11 @@ export const MastersOfTheMaelstromBoltPistol10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const MastersOfTheMaelstromForceStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__force_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromForceStave10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__force_stave__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("force_stave__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2596,11 +2596,11 @@ export const MastersOfTheMaelstromForceStave10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const MastersOfTheMaelstromLaspistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__laspistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromLaspistol10eCodexChaosSpaceMarines10e45bb3408F1240e3cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__laspistol__10e__codex_chaos_space_marines_10e__45bb_3408_f124_0e3c"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("laspistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("laspistol__10e__codex_chaos_space_marines_10e__45bb_3408_f124_0e3c"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2609,11 +2609,11 @@ export const MastersOfTheMaelstromLaspistol10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const MastersOfTheMaelstromLondaxiMaimer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__londaxi_maimer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromLondaxiMaimer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__londaxi_maimer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("londaxi_maimer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("londaxi_maimer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2622,11 +2622,11 @@ export const MastersOfTheMaelstromLondaxiMaimer10eFactionPackChaosSpaceMarines10
 };
 
 
-export const MastersOfTheMaelstromMindWrench10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__mind_wrench__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromMindWrench10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__mind_wrench__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mind_wrench__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("mind_wrench__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2635,11 +2635,11 @@ export const MastersOfTheMaelstromMindWrench10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const MastersOfTheMaelstromPowerSabre10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__power_sabre__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromPowerSabre10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__power_sabre__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_sabre__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_sabre__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2648,11 +2648,11 @@ export const MastersOfTheMaelstromPowerSabre10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const MastersOfTheMaelstromReductorArray10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("masters_of_the_maelstrom__reductor_array__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MastersOfTheMaelstromReductorArray10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("masters_of_the_maelstrom__reductor_array__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("masters_of_the_maelstrom"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("reductor_array__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("reductor_array__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2661,11 +2661,11 @@ export const MastersOfTheMaelstromReductorArray10eFactionPackChaosSpaceMarines10
 };
 
 
-export const MaulerfiendLasherTendrils10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__lasher_tendrils__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MaulerfiendLasherTendrils10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__lasher_tendrils__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lasher_tendrils__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lasher_tendrils__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2674,11 +2674,11 @@ export const MaulerfiendLasherTendrils10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const MaulerfiendMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__magma_cutter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MaulerfiendMagmaCutter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__magma_cutter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("magma_cutter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("magma_cutter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2687,11 +2687,11 @@ export const MaulerfiendMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const MaulerfiendMaulerfiendFists10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("maulerfiend__maulerfiend_fists__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MaulerfiendMaulerfiendFists10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("maulerfiend__maulerfiend_fists__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("maulerfiend"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("maulerfiend_fists__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("maulerfiend_fists__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2700,11 +2700,11 @@ export const MaulerfiendMaulerfiendFists10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const MutilatorsFleshmetalWeaponsClawedSweeps10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutilators__fleshmetal_weapons_clawed_sweeps__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MutilatorsFleshmetalWeaponsClawedSweeps10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutilators__fleshmetal_weapons_clawed_sweeps__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("mutilators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fleshmetal_weapons_clawed_sweeps__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("fleshmetal_weapons_clawed_sweeps__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2713,11 +2713,11 @@ export const MutilatorsFleshmetalWeaponsClawedSweeps10eFactionPackChaosSpaceMari
 };
 
 
-export const MutilatorsFleshmetalWeaponsRendingStrikes10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutilators__fleshmetal_weapons_rending_strikes__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MutilatorsFleshmetalWeaponsRendingStrikes10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutilators__fleshmetal_weapons_rending_strikes__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("mutilators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fleshmetal_weapons_rending_strikes__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("fleshmetal_weapons_rending_strikes__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2726,11 +2726,11 @@ export const MutilatorsFleshmetalWeaponsRendingStrikes10eFactionPackChaosSpaceMa
 };
 
 
-export const MutilatorsFleshmetalWeaponsThunderousBlows10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutilators__fleshmetal_weapons_thunderous_blows__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MutilatorsFleshmetalWeaponsThunderousBlows10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutilators__fleshmetal_weapons_thunderous_blows__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("mutilators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fleshmetal_weapons_thunderous_blows__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("fleshmetal_weapons_thunderous_blows__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2739,11 +2739,11 @@ export const MutilatorsFleshmetalWeaponsThunderousBlows10eFactionPackChaosSpaceM
 };
 
 
-export const MutoidVerminDiseasedClawsAndFangs10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("mutoid_vermin__diseased_claws_and_fangs__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const MutoidVerminDiseasedClawsAndFangs10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("mutoid_vermin__diseased_claws_and_fangs__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("mutoid_vermin"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("diseased_claws_and_fangs__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("diseased_claws_and_fangs__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2752,11 +2752,11 @@ export const MutoidVerminDiseasedClawsAndFangs10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const NegavoltCultistsElectroGoads10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("negavolt_cultists__electro_goads__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NegavoltCultistsElectroGoads10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("negavolt_cultists__electro_goads__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("negavolt_cultists"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("electro_goads__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("electro_goads__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2765,11 +2765,11 @@ export const NegavoltCultistsElectroGoads10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const NemesisClawFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nemesis_claw__flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NemesisClawFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nemesis_claw__flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("nemesis_claw"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2778,11 +2778,11 @@ export const NemesisClawFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: U
 };
 
 
-export const NemesisClawHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nemesis_claw__heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NemesisClawHeavyBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nemesis_claw__heavy_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("nemesis_claw"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2791,11 +2791,11 @@ export const NemesisClawHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const NemesisClawMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nemesis_claw__missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NemesisClawMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nemesis_claw__missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("nemesis_claw"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2804,11 +2804,11 @@ export const NemesisClawMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const NemesisClawMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nemesis_claw__missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NemesisClawMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nemesis_claw__missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("nemesis_claw"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2817,11 +2817,11 @@ export const NemesisClawMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const NemesisClawNostramanChainblade10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nemesis_claw__nostraman_chainblade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NemesisClawNostramanChainblade10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nemesis_claw__nostraman_chainblade__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("nemesis_claw"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("nostraman_chainblade__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("nostraman_chainblade__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2830,11 +2830,11 @@ export const NemesisClawNostramanChainblade10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const NemesisClawNostramanChainglaive10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("nemesis_claw__nostraman_chainglaive__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NemesisClawNostramanChainglaive10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("nemesis_claw__nostraman_chainglaive__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("nemesis_claw"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("nostraman_chainglaive__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("nostraman_chainglaive__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2843,11 +2843,11 @@ export const NemesisClawNostramanChainglaive10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const NoctilithCrownLashingWarpEnergies10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("noctilith_crown__lashing_warp_energies__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NoctilithCrownLashingWarpEnergies10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("noctilith_crown__lashing_warp_energies__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("noctilith_crown"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashing_warp_energies__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lashing_warp_energies__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2856,11 +2856,11 @@ export const NoctilithCrownLashingWarpEnergies10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const NoiseMarinesBlastmasterSingleFrequency10eFactionPackEmperorsChildren10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("noise_marines__blastmaster_single_frequency__10e__faction_pack_emperors_children_10e_v1_3"),
+export const NoiseMarinesBlastmasterSingleFrequency10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("noise_marines__blastmaster_single_frequency__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("noise_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blastmaster_single_frequency__10e__faction_pack_emperors_children_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("blastmaster_single_frequency__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2869,11 +2869,11 @@ export const NoiseMarinesBlastmasterSingleFrequency10eFactionPackEmperorsChildre
 };
 
 
-export const NoiseMarinesBlastmasterVariedFrequency10eFactionPackEmperorsChildren10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("noise_marines__blastmaster_varied_frequency__10e__faction_pack_emperors_children_10e_v1_3"),
+export const NoiseMarinesBlastmasterVariedFrequency10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("noise_marines__blastmaster_varied_frequency__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("noise_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blastmaster_varied_frequency__10e__faction_pack_emperors_children_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("blastmaster_varied_frequency__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2882,11 +2882,11 @@ export const NoiseMarinesBlastmasterVariedFrequency10eFactionPackEmperorsChildre
 };
 
 
-export const NoiseMarinesPowerSword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("noise_marines__power_sword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const NoiseMarinesPowerSword10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("noise_marines__power_sword__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("noise_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_sword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_sword__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2895,11 +2895,11 @@ export const NoiseMarinesPowerSword10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const NoiseMarinesScreamerPistol10eFactionPackEmperorsChildren10eV13UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("noise_marines__screamer_pistol__10e__faction_pack_emperors_children_10e_v1_3"),
+export const NoiseMarinesScreamerPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("noise_marines__screamer_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("noise_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("screamer_pistol__10e__faction_pack_emperors_children_10e_v1_3"),
+  weapon_profile_id: weaponProfileId("screamer_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2908,11 +2908,11 @@ export const NoiseMarinesScreamerPistol10eFactionPackEmperorsChildren10eV13UnitW
 };
 
 
-export const ObliteratorsCrushingFists10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("obliterators__crushing_fists__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ObliteratorsCrushingFists10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("obliterators__crushing_fists__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("obliterators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("crushing_fists__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("crushing_fists__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2921,11 +2921,11 @@ export const ObliteratorsCrushingFists10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const ObliteratorsFleshmetalGunsFocusedMalice10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("obliterators__fleshmetal_guns_focused_malice__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ObliteratorsFleshmetalGunsFocusedMalice10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("obliterators__fleshmetal_guns_focused_malice__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("obliterators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fleshmetal_guns_focused_malice__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("fleshmetal_guns_focused_malice__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2934,11 +2934,11 @@ export const ObliteratorsFleshmetalGunsFocusedMalice10eFactionPackChaosSpaceMari
 };
 
 
-export const ObliteratorsFleshmetalGunsRuinousSalvo10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("obliterators__fleshmetal_guns_ruinous_salvo__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ObliteratorsFleshmetalGunsRuinousSalvo10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("obliterators__fleshmetal_guns_ruinous_salvo__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("obliterators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fleshmetal_guns_ruinous_salvo__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("fleshmetal_guns_ruinous_salvo__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2947,11 +2947,11 @@ export const ObliteratorsFleshmetalGunsRuinousSalvo10eFactionPackChaosSpaceMarin
 };
 
 
-export const ObliteratorsFleshmetalGunsWarpHail10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("obliterators__fleshmetal_guns_warp_hail__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const ObliteratorsFleshmetalGunsWarpHail10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("obliterators__fleshmetal_guns_warp_hail__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("obliterators"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("fleshmetal_guns_warp_hail__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("fleshmetal_guns_warp_hail__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2960,11 +2960,11 @@ export const ObliteratorsFleshmetalGunsWarpHail10eFactionPackChaosSpaceMarines10
 };
 
 
-export const PlagueMarinesBlightLauncher10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("plague_marines__blight_launcher__10e__faction_pack_death_guard_10e_v1_1"),
+export const PlagueMarinesBlightLauncher10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__blight_launcher__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("plague_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("blight_launcher__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("blight_launcher__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2973,11 +2973,11 @@ export const PlagueMarinesBlightLauncher10eFactionPackDeathGuard10eV11UnitWeapon
 };
 
 
-export const PlagueMarinesPlagueBelcher10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("plague_marines__plague_belcher__10e__faction_pack_death_guard_10e_v1_1"),
+export const PlagueMarinesPlagueBelcher10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__plague_belcher__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("plague_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plague_belcher__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plague_belcher__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2986,11 +2986,11 @@ export const PlagueMarinesPlagueBelcher10eFactionPackDeathGuard10eV11UnitWeapon:
 };
 
 
-export const PlagueMarinesPlagueBoltPistol10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("plague_marines__plague_bolt_pistol__10e__faction_pack_death_guard_10e_v1_1"),
+export const PlagueMarinesPlagueBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__plague_bolt_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("plague_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plague_bolt_pistol__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plague_bolt_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -2999,11 +2999,11 @@ export const PlagueMarinesPlagueBoltPistol10eFactionPackDeathGuard10eV11UnitWeap
 };
 
 
-export const PlagueMarinesPlagueSpewer10eFactionPackDeathGuard10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("plague_marines__plague_spewer__10e__faction_pack_death_guard_10e_v1_1"),
+export const PlagueMarinesPlagueSpewer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__plague_spewer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("plague_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plague_spewer__10e__faction_pack_death_guard_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("plague_spewer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3012,11 +3012,11 @@ export const PlagueMarinesPlagueSpewer10eFactionPackDeathGuard10eV11UnitWeapon: 
 };
 
 
-export const PlagueMarinesPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("plague_marines__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const PlagueMarinesPowerFist10eCodexChaosSpaceMarines10eAce334deC91c7c17UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("plague_marines__power_fist__10e__codex_chaos_space_marines_10e__ace3_34de_c91c_7c17"),
   unit_id: unitId("plague_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e__ace3_34de_c91c_7c17"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3025,11 +3025,11 @@ export const PlagueMarinesPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const PossessedHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("possessed__hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const PossessedHideousMutations10eCodexChaosSpaceMarines10eCb887ee68273E819UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("possessed__hideous_mutations__10e__codex_chaos_space_marines_10e__cb88_7ee6_8273_e819"),
   unit_id: unitId("possessed"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hideous_mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hideous_mutations__10e__codex_chaos_space_marines_10e__cb88_7ee6_8273_e819"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3038,11 +3038,11 @@ export const PossessedHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const RaptorsMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("raptors__mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RaptorsMutations10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("raptors__mutations__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("raptors"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mutations__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("mutations__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3051,11 +3051,11 @@ export const RaptorsMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon: Un
 };
 
 
-export const RedCorsairsRaidersHandFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("red_corsairs_raiders__hand_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RedCorsairsRaidersHandFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("red_corsairs_raiders__hand_flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("red_corsairs_raiders"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("hand_flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("hand_flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3064,11 +3064,11 @@ export const RedCorsairsRaidersHandFlamer10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const RedCorsairsReaveCaptainPowerMaul10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("red_corsairs_reave_captain__power_maul__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RedCorsairsReaveCaptainPowerMaul10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("red_corsairs_reave_captain__power_maul__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("red_corsairs_reave_captain"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_maul__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_maul__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3077,11 +3077,11 @@ export const RedCorsairsReaveCaptainPowerMaul10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const RedCorsairsReaveCaptainPowerSword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("red_corsairs_reave_captain__power_sword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RedCorsairsReaveCaptainPowerSword10eCodexChaosSpaceMarines10e0773723fEdb72a56UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("red_corsairs_reave_captain__power_sword__10e__codex_chaos_space_marines_10e__0773_723f_edb7_2a56"),
   unit_id: unitId("red_corsairs_reave_captain"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_sword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_sword__10e__codex_chaos_space_marines_10e__0773_723f_edb7_2a56"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3090,11 +3090,11 @@ export const RedCorsairsReaveCaptainPowerSword10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const RenegadeEnforcerAutogun10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__autogun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerAutogun10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__autogun__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autogun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autogun__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3103,11 +3103,11 @@ export const RenegadeEnforcerAutogun10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const RenegadeEnforcerEnforcerMeleeWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__enforcer_melee_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerEnforcerMeleeWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__enforcer_melee_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("enforcer_melee_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("enforcer_melee_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3116,11 +3116,11 @@ export const RenegadeEnforcerEnforcerMeleeWeapon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const RenegadeEnforcerEnforcerPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__enforcer_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerEnforcerPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__enforcer_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("enforcer_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("enforcer_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3129,11 +3129,11 @@ export const RenegadeEnforcerEnforcerPistol10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const RenegadeEnforcerLasgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__lasgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerLasgun10eCodexChaosSpaceMarines10e9ad3ec244851e23UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__lasgun__10e__codex_chaos_space_marines_10e__9ad_3ec2_4485_1e23"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lasgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lasgun__10e__codex_chaos_space_marines_10e__9ad_3ec2_4485_1e23"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3142,11 +3142,11 @@ export const RenegadeEnforcerLasgun10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const RenegadeEnforcerPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerPowerFist10eCodexChaosSpaceMarines10e5d8cBfcf2cb8Fa70UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__power_fist__10e__codex_chaos_space_marines_10e__5d8c_bfcf_2cb8_fa70"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e__5d8c_bfcf_2cb8_fa70"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3155,11 +3155,11 @@ export const RenegadeEnforcerPowerFist10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const RenegadeEnforcerPowerWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__power_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerPowerWeapon10eCodexChaosSpaceMarines10e97b93221Ac8eD48eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__power_weapon__10e__codex_chaos_space_marines_10e__97b9_3221_ac8e_d48e"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_weapon__10e__codex_chaos_space_marines_10e__97b9_3221_ac8e_d48e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3168,11 +3168,11 @@ export const RenegadeEnforcerPowerWeapon10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const RenegadeEnforcerShotgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_enforcer__shotgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeEnforcerShotgun10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_enforcer__shotgun__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("shotgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("shotgun__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3181,11 +3181,11 @@ export const RenegadeEnforcerShotgun10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const RenegadeHeavyWeaponsSquadAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadAutocannon10eCodexChaosSpaceMarines10eA89e413524a780f2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__autocannon__10e__codex_chaos_space_marines_10e__a89e_4135_24a7_80f2"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("autocannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("autocannon__10e__codex_chaos_space_marines_10e__a89e_4135_24a7_80f2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3194,11 +3194,11 @@ export const RenegadeHeavyWeaponsSquadAutocannon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const RenegadeHeavyWeaponsSquadCloseCombatWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__close_combat_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadCloseCombatWeapons10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__close_combat_weapons__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapons__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3207,11 +3207,11 @@ export const RenegadeHeavyWeaponsSquadCloseCombatWeapons10eFactionPackChaosSpace
 };
 
 
-export const RenegadeHeavyWeaponsSquadHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadHeavyBolter10eCodexChaosSpaceMarines10e440e3d299a09A1a2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__heavy_bolter__10e__codex_chaos_space_marines_10e__440e_3d29_9a09_a1a2"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_bolter__10e__codex_chaos_space_marines_10e__440e_3d29_9a09_a1a2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3220,11 +3220,11 @@ export const RenegadeHeavyWeaponsSquadHeavyBolter10eFactionPackChaosSpaceMarines
 };
 
 
-export const RenegadeHeavyWeaponsSquadHeavyStubber10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__heavy_stubber__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadHeavyStubber10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__heavy_stubber__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("heavy_stubber__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("heavy_stubber__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3233,11 +3233,11 @@ export const RenegadeHeavyWeaponsSquadHeavyStubber10eFactionPackChaosSpaceMarine
 };
 
 
-export const RenegadeHeavyWeaponsSquadLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadLascannon10eCodexChaosSpaceMarines10e1e5dEb0e4138A760UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__lascannon__10e__codex_chaos_space_marines_10e__1e5d_eb0e_4138_a760"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lascannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lascannon__10e__codex_chaos_space_marines_10e__1e5d_eb0e_4138_a760"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3246,11 +3246,11 @@ export const RenegadeHeavyWeaponsSquadLascannon10eFactionPackChaosSpaceMarines10
 };
 
 
-export const RenegadeHeavyWeaponsSquadMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadMissileLauncherFrag10eCodexChaosSpaceMarines10e3fa9B5ebBc0cE9c2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__missile_launcher_frag__10e__codex_chaos_space_marines_10e__3fa9_b5eb_bc0c_e9c2"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_frag__10e__codex_chaos_space_marines_10e__3fa9_b5eb_bc0c_e9c2"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3259,11 +3259,11 @@ export const RenegadeHeavyWeaponsSquadMissileLauncherFrag10eFactionPackChaosSpac
 };
 
 
-export const RenegadeHeavyWeaponsSquadMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadMissileLauncherKrak10eCodexChaosSpaceMarines10eB50a1090FfcEbb5UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__missile_launcher_krak__10e__codex_chaos_space_marines_10e__b50a_1090_ffc_ebb5"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("missile_launcher_krak__10e__codex_chaos_space_marines_10e__b50a_1090_ffc_ebb5"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3272,11 +3272,11 @@ export const RenegadeHeavyWeaponsSquadMissileLauncherKrak10eFactionPackChaosSpac
 };
 
 
-export const RenegadeHeavyWeaponsSquadMortar10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__mortar__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadMortar10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__mortar__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mortar__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("mortar__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3285,11 +3285,11 @@ export const RenegadeHeavyWeaponsSquadMortar10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const RenegadeHeavyWeaponsSquadRenegadeFirearm10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_heavy_weapons_squad__renegade_firearm__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeHeavyWeaponsSquadRenegadeFirearm10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_heavy_weapons_squad__renegade_firearm__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_heavy_weapons_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("renegade_firearm__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("renegade_firearm__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3311,11 +3311,11 @@ export const RenegadeOgrynBeastHandlerBefouledFangsAndClaws10eCodexChaosSpaceMar
 };
 
 
-export const RenegadeOgrynBeastHandlerMaulerGoadAndRipperClaw10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_ogryn_beast_handler__mauler_goad_and_ripper_claw__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeOgrynBeastHandlerMaulerGoadAndRipperClaw10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_ogryn_beast_handler__mauler_goad_and_ripper_claw__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_ogryn_beast_handler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("mauler_goad_and_ripper_claw__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("mauler_goad_and_ripper_claw__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3324,11 +3324,11 @@ export const RenegadeOgrynBeastHandlerMaulerGoadAndRipperClaw10eFactionPackChaos
 };
 
 
-export const RenegadeOgrynBrutesOgrynPowerDrill10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_ogryn_brutes__ogryn_power_drill__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeOgrynBrutesOgrynPowerDrill10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_ogryn_brutes__ogryn_power_drill__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_ogryn_brutes"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ogryn_power_drill__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("ogryn_power_drill__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3337,11 +3337,11 @@ export const RenegadeOgrynBrutesOgrynPowerDrill10eFactionPackChaosSpaceMarines10
 };
 
 
-export const RenegadeOgrynBrutesOgrynWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_ogryn_brutes__ogryn_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadeOgrynBrutesOgrynWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_ogryn_brutes__ogryn_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_ogryn_brutes"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ogryn_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("ogryn_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3350,11 +3350,11 @@ export const RenegadeOgrynBrutesOgrynWeapon10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const RenegadePlagueOgrynsOgrynPlagueClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("renegade_plague_ogryns__ogryn_plague_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RenegadePlagueOgrynsOgrynPlagueClaws10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("renegade_plague_ogryns__ogryn_plague_claws__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("renegade_plague_ogryns"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ogryn_plague_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("ogryn_plague_claws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3363,11 +3363,11 @@ export const RenegadePlagueOgrynsOgrynPlagueClaws10eFactionPackChaosSpaceMarines
 };
 
 
-export const RoguePsykerChaosStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rogue_psyker__chaos_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RoguePsykerChaosStave10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rogue_psyker__chaos_stave__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rogue_psyker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chaos_stave__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("chaos_stave__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3376,11 +3376,11 @@ export const RoguePsykerChaosStave10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 };
 
 
-export const RoguePsykerLaspistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rogue_psyker__laspistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RoguePsykerLaspistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rogue_psyker__laspistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rogue_psyker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("laspistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("laspistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3389,11 +3389,11 @@ export const RoguePsykerLaspistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon
 };
 
 
-export const RoguePsykerPsychicStrikeFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rogue_psyker__psychic_strike_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RoguePsykerPsychicStrikeFocusedWitchfire10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rogue_psyker__psychic_strike_focused_witchfire__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rogue_psyker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("psychic_strike_focused_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("psychic_strike_focused_witchfire__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3402,11 +3402,11 @@ export const RoguePsykerPsychicStrikeFocusedWitchfire10eFactionPackChaosSpaceMar
 };
 
 
-export const RoguePsykerPsychicStrikeWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rogue_psyker__psychic_strike_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RoguePsykerPsychicStrikeWitchfire10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rogue_psyker__psychic_strike_witchfire__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rogue_psyker"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("psychic_strike_witchfire__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("psychic_strike_witchfire__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3415,11 +3415,11 @@ export const RoguePsykerPsychicStrikeWitchfire10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV1631e6309cF8dc9636UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__31e6_309c_f8dc_9636"),
+export const RubricMarinesCloseCombatWeapon10eCodexChaosSpaceMarines10eA16263b8887180af31e6309cF8dc9636UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__codex_chaos_space_marines_10e__a162_63b8_8871_80af__31e6_309c_f8dc_9636"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__a162_63b8_8871_80af"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3428,11 +3428,11 @@ export const RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV167250EeacAd4c1068UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__7250_eeac_ad4c_1068"),
+export const RubricMarinesCloseCombatWeapon10eCodexChaosSpaceMarines10eA16263b8887180af7250EeacAd4c1068UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__codex_chaos_space_marines_10e__a162_63b8_8871_80af__7250_eeac_ad4c_1068"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__a162_63b8_8871_80af"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3441,11 +3441,11 @@ export const RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16A16263b8887180afUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6__a162_63b8_8871_80af"),
+export const RubricMarinesCloseCombatWeapon10eCodexChaosSpaceMarines10eA16263b8887180afA16263b8887180afUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__close_combat_weapon__10e__codex_chaos_space_marines_10e__a162_63b8_8871_80af__a162_63b8_8871_80af"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_chaos_space_marines_10e__a162_63b8_8871_80af"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3454,11 +3454,11 @@ export const RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16
 };
 
 
-export const RubricMarinesForceWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__force_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const RubricMarinesForceWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__force_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("force_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("force_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3467,11 +3467,11 @@ export const RubricMarinesForceWeapon10eFactionPackChaosSpaceMarines10eV16UnitWe
 };
 
 
-export const RubricMarinesInfernoBoltPistol10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__inferno_bolt_pistol__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesInfernoBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__inferno_bolt_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("inferno_bolt_pistol__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("inferno_bolt_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3480,11 +3480,11 @@ export const RubricMarinesInfernoBoltPistol10eFactionPackThousandSons10eV11UnitW
 };
 
 
-export const RubricMarinesInfernoBoltgun10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__inferno_boltgun__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesInfernoBoltgun10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__inferno_boltgun__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("inferno_boltgun__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("inferno_boltgun__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3493,11 +3493,11 @@ export const RubricMarinesInfernoBoltgun10eFactionPackThousandSons10eV11UnitWeap
 };
 
 
-export const RubricMarinesMaleficCurse10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__malefic_curse__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesMaleficCurse10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__malefic_curse__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("malefic_curse__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("malefic_curse__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3506,11 +3506,11 @@ export const RubricMarinesMaleficCurse10eFactionPackThousandSons10eV11UnitWeapon
 };
 
 
-export const RubricMarinesSoulreaperCannon10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__soulreaper_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesSoulreaperCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__soulreaper_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("soulreaper_cannon__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("soulreaper_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3519,11 +3519,11 @@ export const RubricMarinesSoulreaperCannon10eFactionPackThousandSons10eV11UnitWe
 };
 
 
-export const RubricMarinesWarpflamePistol10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__warpflame_pistol__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesWarpflamePistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__warpflame_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warpflame_pistol__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("warpflame_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3532,11 +3532,11 @@ export const RubricMarinesWarpflamePistol10eFactionPackThousandSons10eV11UnitWea
 };
 
 
-export const RubricMarinesWarpflamer10eFactionPackThousandSons10eV11UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("rubric_marines__warpflamer__10e__faction_pack_thousand_sons_10e_v1_1"),
+export const RubricMarinesWarpflamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("rubric_marines__warpflamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("rubric_marines"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warpflamer__10e__faction_pack_thousand_sons_10e_v1_1"),
+  weapon_profile_id: weaponProfileId("warpflamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3545,11 +3545,11 @@ export const RubricMarinesWarpflamer10eFactionPackThousandSons10eV11UnitWeapon: 
 };
 
 
-export const SorcererInTerminatorArmourCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_in_terminator_armour__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererInTerminatorArmourCombiBolter10eCodexChaosSpaceMarines10eB805Bb52D8d55e82UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_in_terminator_armour__combi_bolter__10e__codex_chaos_space_marines_10e__b805_bb52_d8d5_5e82"),
   unit_id: unitId("sorcerer_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e__b805_bb52_d8d5_5e82"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3558,11 +3558,11 @@ export const SorcererInTerminatorArmourCombiBolter10eFactionPackChaosSpaceMarine
 };
 
 
-export const SorcererInTerminatorArmourCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_in_terminator_armour__combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererInTerminatorArmourCombiWeapon10eCodexChaosSpaceMarines10e62303b5f63312629UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_in_terminator_armour__combi_weapon__10e__codex_chaos_space_marines_10e__6230_3b5f_6331_2629"),
   unit_id: unitId("sorcerer_in_terminator_armour"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_chaos_space_marines_10e__6230_3b5f_6331_2629"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3571,11 +3571,11 @@ export const SorcererInTerminatorArmourCombiWeapon10eFactionPackChaosSpaceMarine
 };
 
 
-export const SorcererOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_bike__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnBikeAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_bike__accursed_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3584,11 +3584,11 @@ export const SorcererOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const SorcererOnBikeAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_bike__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnBikeAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_bike__astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3597,11 +3597,11 @@ export const SorcererOnBikeAstartesChainsword10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const SorcererOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV167c3bFc3520d25b2UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_bike__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6__7c3b_fc35_20d2_5b2"),
+export const SorcererOnBikeCombiBolter10eCodexChaosSpaceMarines10e7c3bFc3520d25b2UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_bike__combi_bolter__10e__codex_chaos_space_marines_10e__7c3b_fc35_20d2_5b2"),
   unit_id: unitId("sorcerer_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3610,11 +3610,11 @@ export const SorcererOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV167c3bF
 };
 
 
-export const SorcererOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV1687a7Ac81A8e0987cUnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_bike__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6__87a7_ac81_a8e0_987c"),
+export const SorcererOnBikeCombiBolter10eCodexChaosSpaceMarines10e87a7Ac81A8e0987cUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_bike__combi_bolter__10e__codex_chaos_space_marines_10e__87a7_ac81_a8e0_987c"),
   unit_id: unitId("sorcerer_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3623,11 +3623,11 @@ export const SorcererOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV1687a7A
 };
 
 
-export const SorcererOnBikeCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_bike__combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnBikeCombiWeapon10eCodexChaosSpaceMarines10e2c355f18702b7e7fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_bike__combi_weapon__10e__codex_chaos_space_marines_10e__2c35_5f18_702b_7e7f"),
   unit_id: unitId("sorcerer_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_chaos_space_marines_10e__2c35_5f18_702b_7e7f"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3636,11 +3636,11 @@ export const SorcererOnBikeCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitW
 };
 
 
-export const SorcererOnBikePowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_bike__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnBikePowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_bike__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_bike"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3649,11 +3649,11 @@ export const SorcererOnBikePowerFist10eFactionPackChaosSpaceMarines10eV16UnitWea
 };
 
 
-export const SorcererOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__accursed_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3662,11 +3662,11 @@ export const SorcererOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarin
 };
 
 
-export const SorcererOnDiscOfTzeentchAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3675,11 +3675,11 @@ export const SorcererOnDiscOfTzeentchAstartesChainsword10eFactionPackChaosSpaceM
 };
 
 
-export const SorcererOnDiscOfTzeentchCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3688,11 +3688,11 @@ export const SorcererOnDiscOfTzeentchCombiBolter10eFactionPackChaosSpaceMarines1
 };
 
 
-export const SorcererOnDiscOfTzeentchCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchCombiWeapon10eCodexChaosSpaceMarines10e2c355f18702b7e7fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__combi_weapon__10e__codex_chaos_space_marines_10e__2c35_5f18_702b_7e7f"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_chaos_space_marines_10e__2c35_5f18_702b_7e7f"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3701,11 +3701,11 @@ export const SorcererOnDiscOfTzeentchCombiWeapon10eFactionPackChaosSpaceMarines1
 };
 
 
-export const SorcererOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnDiscOfTzeentchPowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_disc_of_tzeentch__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_disc_of_tzeentch"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3714,11 +3714,11 @@ export const SorcererOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10e
 };
 
 
-export const SorcererOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurgleAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__accursed_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3727,11 +3727,11 @@ export const SorcererOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMa
 };
 
 
-export const SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurgleAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3740,11 +3740,11 @@ export const SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackChaosSpa
 };
 
 
-export const SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurgleCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3753,11 +3753,11 @@ export const SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackChaosSpaceMarin
 };
 
 
-export const SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__nurglings_claws_and_teeth__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__nurglings_claws_and_teeth__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("nurglings_claws_and_teeth__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("nurglings_claws_and_teeth__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3766,11 +3766,11 @@ export const SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackChao
 };
 
 
-export const SorcererOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnPalanquinOfNurglePowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_palanquin_of_nurgle__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_palanquin_of_nurgle"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3779,11 +3779,11 @@ export const SorcererOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines
 };
 
 
-export const SorcererOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnSteedOfSlaaneshAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__accursed_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("accursed_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("accursed_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3792,11 +3792,11 @@ export const SorcererOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMari
 };
 
 
-export const SorcererOnSteedOfSlaaneshAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnSteedOfSlaaneshAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("astartes_chainsword__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3805,11 +3805,11 @@ export const SorcererOnSteedOfSlaaneshAstartesChainsword10eFactionPackChaosSpace
 };
 
 
-export const SorcererOnSteedOfSlaaneshCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnSteedOfSlaaneshCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__combi_bolter__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_bolter__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_bolter__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3818,11 +3818,11 @@ export const SorcererOnSteedOfSlaaneshCombiBolter10eFactionPackChaosSpaceMarines
 };
 
 
-export const SorcererOnSteedOfSlaaneshCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnSteedOfSlaaneshCombiWeapon10eCodexChaosSpaceMarines10e2c355f18702b7e7fUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__combi_weapon__10e__codex_chaos_space_marines_10e__2c35_5f18_702b_7e7f"),
   unit_id: unitId("sorcerer_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("combi_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("combi_weapon__10e__codex_chaos_space_marines_10e__2c35_5f18_702b_7e7f"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3831,11 +3831,11 @@ export const SorcererOnSteedOfSlaaneshCombiWeapon10eFactionPackChaosSpaceMarines
 };
 
 
-export const SorcererOnSteedOfSlaaneshLashingTongue10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__lashing_tongue__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnSteedOfSlaaneshLashingTongue10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__lashing_tongue__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lashing_tongue__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lashing_tongue__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3844,11 +3844,11 @@ export const SorcererOnSteedOfSlaaneshLashingTongue10eFactionPackChaosSpaceMarin
 };
 
 
-export const SorcererOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const SorcererOnSteedOfSlaaneshPowerFist10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("sorcerer_on_steed_of_slaanesh__power_fist__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("sorcerer_on_steed_of_slaanesh"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3857,11 +3857,11 @@ export const SorcererOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10
 };
 
 
-export const TraitorEnforcerOgrynWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_enforcer__ogryn_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorEnforcerOgrynWeapons10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_enforcer__ogryn_weapons__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("ogryn_weapons__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("ogryn_weapons__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3870,11 +3870,11 @@ export const TraitorEnforcerOgrynWeapons10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const TraitorEnforcerPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_enforcer__power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorEnforcerPowerFist10eCodexChaosSpaceMarines10e5d8cBfcf2cb8Fa70UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_enforcer__power_fist__10e__codex_chaos_space_marines_10e__5d8c_bfcf_2cb8_fa70"),
   unit_id: unitId("traitor_enforcer"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_fist__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_fist__10e__codex_chaos_space_marines_10e__5d8c_bfcf_2cb8_fa70"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3883,11 +3883,11 @@ export const TraitorEnforcerPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWe
 };
 
 
-export const TraitorGuardsmenSquadBoltgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__boltgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadBoltgun10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__boltgun__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("boltgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("boltgun__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3896,11 +3896,11 @@ export const TraitorGuardsmenSquadBoltgun10eFactionPackChaosSpaceMarines10eV16Un
 };
 
 
-export const TraitorGuardsmenSquadChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadChainsword10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__chainsword__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("chainsword__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("chainsword__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3909,11 +3909,11 @@ export const TraitorGuardsmenSquadChainsword10eFactionPackChaosSpaceMarines10eV1
 };
 
 
-export const TraitorGuardsmenSquadCorruptedPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__corrupted_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadCorruptedPistol10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__corrupted_pistol__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("corrupted_pistol__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("corrupted_pistol__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3922,11 +3922,11 @@ export const TraitorGuardsmenSquadCorruptedPistol10eFactionPackChaosSpaceMarines
 };
 
 
-export const TraitorGuardsmenSquadCultistGrenadeLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__cultist_grenade_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadCultistGrenadeLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__cultist_grenade_launcher_frag__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_frag__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_frag__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3935,11 +3935,11 @@ export const TraitorGuardsmenSquadCultistGrenadeLauncherFrag10eFactionPackChaosS
 };
 
 
-export const TraitorGuardsmenSquadCultistGrenadeLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__cultist_grenade_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadCultistGrenadeLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__cultist_grenade_launcher_krak__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_krak__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cultist_grenade_launcher_krak__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3948,11 +3948,11 @@ export const TraitorGuardsmenSquadCultistGrenadeLauncherKrak10eFactionPackChaosS
 };
 
 
-export const TraitorGuardsmenSquadCultistSniperRifle10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__cultist_sniper_rifle__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadCultistSniperRifle10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__cultist_sniper_rifle__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("cultist_sniper_rifle__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("cultist_sniper_rifle__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3961,11 +3961,11 @@ export const TraitorGuardsmenSquadCultistSniperRifle10eFactionPackChaosSpaceMari
 };
 
 
-export const TraitorGuardsmenSquadFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadFlamer10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__flamer__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("flamer__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3974,11 +3974,11 @@ export const TraitorGuardsmenSquadFlamer10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const TraitorGuardsmenSquadLasgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__lasgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadLasgun10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__lasgun__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("lasgun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("lasgun__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -3987,11 +3987,11 @@ export const TraitorGuardsmenSquadLasgun10eFactionPackChaosSpaceMarines10eV16Uni
 };
 
 
-export const TraitorGuardsmenSquadMeltagun10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__meltagun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadMeltagun10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__meltagun__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("meltagun__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("meltagun__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4000,11 +4000,11 @@ export const TraitorGuardsmenSquadMeltagun10eFactionPackChaosSpaceMarines10eV16U
 };
 
 
-export const TraitorGuardsmenSquadPlasmaGunStandard10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__plasma_gun_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadPlasmaGunStandard10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__plasma_gun_standard__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_gun_standard__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("plasma_gun_standard__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4013,11 +4013,11 @@ export const TraitorGuardsmenSquadPlasmaGunStandard10eFactionPackChaosSpaceMarin
 };
 
 
-export const TraitorGuardsmenSquadPlasmaGunSupercharge10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__plasma_gun_supercharge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadPlasmaGunSupercharge10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__plasma_gun_supercharge__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("plasma_gun_supercharge__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("plasma_gun_supercharge__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4026,11 +4026,11 @@ export const TraitorGuardsmenSquadPlasmaGunSupercharge10eFactionPackChaosSpaceMa
 };
 
 
-export const TraitorGuardsmenSquadPowerWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("traitor_guardsmen_squad__power_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const TraitorGuardsmenSquadPowerWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("traitor_guardsmen_squad__power_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("traitor_guardsmen_squad"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("power_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("power_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4039,11 +4039,11 @@ export const TraitorGuardsmenSquadPowerWeapon10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const VashtorrTheArkifaneVashtorrsClaw10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("vashtorr_the_arkifane__vashtorrs_claw__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const VashtorrTheArkifaneVashtorrsClaw10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("vashtorr_the_arkifane__vashtorrs_claw__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("vashtorr_the_arkifane"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("vashtorrs_claw__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("vashtorrs_claw__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4052,11 +4052,11 @@ export const VashtorrTheArkifaneVashtorrsClaw10eFactionPackChaosSpaceMarines10eV
 };
 
 
-export const VashtorrTheArkifaneVashtorrsHammerStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("vashtorr_the_arkifane__vashtorrs_hammer_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const VashtorrTheArkifaneVashtorrsHammerStrike10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("vashtorr_the_arkifane__vashtorrs_hammer_strike__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("vashtorr_the_arkifane"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("vashtorrs_hammer_strike__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("vashtorrs_hammer_strike__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4065,11 +4065,11 @@ export const VashtorrTheArkifaneVashtorrsHammerStrike10eFactionPackChaosSpaceMar
 };
 
 
-export const VashtorrTheArkifaneVashtorrsHammerSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("vashtorr_the_arkifane__vashtorrs_hammer_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const VashtorrTheArkifaneVashtorrsHammerSweep10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("vashtorr_the_arkifane__vashtorrs_hammer_sweep__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("vashtorr_the_arkifane"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("vashtorrs_hammer_sweep__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("vashtorrs_hammer_sweep__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4078,11 +4078,11 @@ export const VashtorrTheArkifaneVashtorrsHammerSweep10eFactionPackChaosSpaceMari
 };
 
 
-export const VenomcrawlerExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("venomcrawler__excruciator_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const VenomcrawlerExcruciatorCannon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("venomcrawler__excruciator_cannon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("venomcrawler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("excruciator_cannon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4091,11 +4091,11 @@ export const VenomcrawlerExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16U
 };
 
 
-export const VenomcrawlerSoulflayerTendrilsAndClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("venomcrawler__soulflayer_tendrils_and_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const VenomcrawlerSoulflayerTendrilsAndClaws10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("venomcrawler__soulflayer_tendrils_and_claws__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("venomcrawler"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("soulflayer_tendrils_and_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("soulflayer_tendrils_and_claws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4104,11 +4104,11 @@ export const VenomcrawlerSoulflayerTendrilsAndClaws10eFactionPackChaosSpaceMarin
 };
 
 
-export const WarpTalonsWarpClaws10eFactionPackChaosSpaceMarines10eV1610b9B1a67aa58fe9UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warp_talons__warp_claws__10e__faction_pack_chaos_space_marines_10e_v1_6__10b9_b1a6_7aa5_8fe9"),
+export const WarpTalonsWarpClaws10eCodexChaosSpaceMarines10e10b9B1a67aa58fe9UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warp_talons__warp_claws__10e__codex_chaos_space_marines_10e__10b9_b1a6_7aa5_8fe9"),
   unit_id: unitId("warp_talons"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("warp_claws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4117,11 +4117,11 @@ export const WarpTalonsWarpClaws10eFactionPackChaosSpaceMarines10eV1610b9B1a67aa
 };
 
 
-export const WarpTalonsWarpClaws10eFactionPackChaosSpaceMarines10eV16Ba055efd4be74038UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warp_talons__warp_claws__10e__faction_pack_chaos_space_marines_10e_v1_6__ba05_5efd_4be7_4038"),
+export const WarpTalonsWarpClaws10eCodexChaosSpaceMarines10eBa055efd4be74038UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warp_talons__warp_claws__10e__codex_chaos_space_marines_10e__ba05_5efd_4be7_4038"),
   unit_id: unitId("warp_talons"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("warp_claws__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("warp_claws__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4130,11 +4130,11 @@ export const WarpTalonsWarpClaws10eFactionPackChaosSpaceMarines10eV16Ba055efd4be
 };
 
 
-export const WarpsmithFlamerTendril10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warpsmith__flamer_tendril__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const WarpsmithFlamerTendril10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warpsmith__flamer_tendril__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("warpsmith"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("flamer_tendril__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("flamer_tendril__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4143,11 +4143,11 @@ export const WarpsmithFlamerTendril10eFactionPackChaosSpaceMarines10eV16UnitWeap
 };
 
 
-export const WarpsmithForgeWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warpsmith__forge_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const WarpsmithForgeWeapon10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warpsmith__forge_weapon__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("warpsmith"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("forge_weapon__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("forge_weapon__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4156,11 +4156,11 @@ export const WarpsmithForgeWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon
 };
 
 
-export const WarpsmithMeltaTendril10eFactionPackChaosSpaceMarines10eV16UnitWeapon: UnitWeaponConfig = {
-  id: unitWeaponId("warpsmith__melta_tendril__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+export const WarpsmithMeltaTendril10eCodexChaosSpaceMarines10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("warpsmith__melta_tendril__10e__codex_chaos_space_marines_10e"),
   unit_id: unitId("warpsmith"),
   model_id: null,
-  weapon_profile_id: weaponProfileId("melta_tendril__10e__faction_pack_chaos_space_marines_10e_v1_6"),
+  weapon_profile_id: weaponProfileId("melta_tendril__10e__codex_chaos_space_marines_10e"),
   game_edition_id: gameEditionId("10e"),
   rules_source_id: rulesSourceId("codex_chaos_space_marines_10e"),
   is_default: true,
@@ -4172,325 +4172,325 @@ export const WarpsmithMeltaTendril10eFactionPackChaosSpaceMarines10eV16UnitWeapo
 export const chaosSpaceMarinesUnitWeapons10e: SeedDataset<"unit_weapons"> = {
   table: "unit_weapons",
   records: [
-    AbaddonTheDespoilerDrachnyen10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    AbaddonTheDespoilerTalonOfHorus10eFactionPackChaosSpaceMarines10eV165d440e6B003921dUnitWeapon,
-    AbaddonTheDespoilerTalonOfHorus10eFactionPackChaosSpaceMarines10eV16F7e11185D5e1ed0UnitWeapon,
-    AccursedCultistsBlasphemousAppendages10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    AccursedCultistsHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosBikersFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosDeimosPredatorConversionBeamCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosDeimosPredatorInfernusCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosDeimosPredatorMagnaMeltaCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosDeimosPredatorPlasmaDestroyerStandard10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosDeimosPredatorPlasmaDestroyerSupercharge10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLandRaiderArmouredTracks10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLandRaiderSoulshatterLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordAstartesChainblade10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordDaemonHammer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordInTerminatorArmourChainfist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordInTerminatorArmourCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordInTerminatorArmourCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordInTerminatorArmourExaltedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordInTerminatorArmourPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordInTerminatorArmourPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV1621d46816B322682bUnitWeapon,
-    ChaosLordOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Aefe324c8096B2b8UnitWeapon,
-    ChaosLordOnBikeAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnBikeCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV163f019e1f2531131aUnitWeapon,
-    ChaosLordOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV16AcbdCc99488aCb9aUnitWeapon,
-    ChaosLordOnBikePairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnBikePowerFist10eFactionPackChaosSpaceMarines10eV1659a12e2041b35e60UnitWeapon,
-    ChaosLordOnBikePowerFist10eFactionPackChaosSpaceMarines10eV16E54a71759d54C1e2UnitWeapon,
-    ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16753d2ade50c93a3dUnitWeapon,
-    ChaosLordOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Eb2b45bf9f2e7c4UnitWeapon,
-    ChaosLordOnDiscOfTzeentchAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnDiscOfTzeentchCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10eV16Ac9bC9d1C1d9Dd63UnitWeapon,
-    ChaosLordOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10eV16B0143c3c7ed14fdfUnitWeapon,
-    ChaosLordOnJuggernautAccursedWeapon10eFactionPackChaosSpaceMarines10eV16527091d23bdE102UnitWeapon,
-    ChaosLordOnJuggernautAccursedWeapon10eFactionPackChaosSpaceMarines10eV167c308e0949e1Fe94UnitWeapon,
-    ChaosLordOnJuggernautAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnJuggernautBladedHorn10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnJuggernautCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnJuggernautCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnJuggernautPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnJuggernautPowerFist10eFactionPackChaosSpaceMarines10eV16588213756a3a95b9UnitWeapon,
-    ChaosLordOnJuggernautPowerFist10eFactionPackChaosSpaceMarines10eV16A403Cc29661cA819UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Fdec22752d113e12UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Ff192444E74e29b0UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines10eV16880eC47eC40d7a01UnitWeapon,
-    ChaosLordOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines10eV16C8dcF20c911F23bUnitWeapon,
-    ChaosLordOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMarines10eV1696f45d597aaA229UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Cc8377f878b41092UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshLashingTongue10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshPairedAccursedWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10eV16A21f2be9893d4df5UnitWeapon,
-    ChaosLordOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10eV16E328867aDa17Fa22UnitWeapon,
-    ChaosLordWithJumpPackAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordWithJumpPackPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosLordWithJumpPackTwinLightningClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosPredatorAnnihilatorPredatorTwinLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosPredatorDestructorPredatorAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosSpawnHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosTerminatorSquadHeavyFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosTerminatorSquadReaperAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ChaosVindicatorDemolisherCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistFirebrandBalefirePike10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistFirebrandCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistMobAutopistol10eFactionPackChaosSpaceMarines10eV16D4fa21023242B228UnitWeapon,
-    CultistMobAutopistol10eFactionPackChaosSpaceMarines10eV16E9f09527Ac4dBda4UnitWeapon,
-    CultistMobBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistMobWithFirearmsAutopistol10eFactionPackChaosSpaceMarines10eV1679ad1c686fb7796aUnitWeapon,
-    CultistMobWithFirearmsAutopistol10eFactionPackChaosSpaceMarines10eV169d2d88074fb91fd5UnitWeapon,
-    CultistMobWithFirearmsBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistMobWithFirearmsCultistGrenadeLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistMobWithFirearmsCultistGrenadeLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistMobWithFirearmsFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CultistMobWithFirearmsHeavyStubber10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    CypherCyphersBoltPistol10eFactionPackChaosSpaceMarines10eV16161aE3197ad39a2eUnitWeapon,
-    CypherCyphersBoltPistol10eFactionPackChaosSpaceMarines10eV1654b7Ae91Fab190b9UnitWeapon,
-    CypherCyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16849aB99cB9919bd4UnitWeapon,
-    CypherCyphersPlasmaPistol10eFactionPackChaosSpaceMarines10eV16B4c744bdD9041f43UnitWeapon,
-    DarkApostleAccursedCrozius10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DarkApostleCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DarkCommuneAutopistol10eFactionPackChaosSpaceMarines10eV164076A67171a8Ce9cUnitWeapon,
-    DarkCommuneAutopistol10eFactionPackChaosSpaceMarines10eV16Cc5eFce1E9a8Eef4UnitWeapon,
-    DarkCommuneCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV163150D0c67c6fD5b8UnitWeapon,
-    DarkCommuneCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV1666a4154a3e0dE34dUnitWeapon,
-    DarkCommuneCommuneBlade10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DarkCommuneCommuneStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DarkCommuneWarpCurseFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DarkCommuneWarpCurseWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerEctoplasmaDestructor10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerHadesBattleCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerHeavyBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerHeavyMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerHeavyMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerShearingClawsStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    DefilerShearingClawsSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ExaltedChampionExaltedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FabiusBileRodOfTorment10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FabiusBileSurgeonAcolytesTools10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
+    AbaddonTheDespoilerDrachnyen10eCodexChaosSpaceMarines10eUnitWeapon,
+    AbaddonTheDespoilerTalonOfHorus10eCodexChaosSpaceMarines10eUnitWeapon,
+    AbaddonTheDespoilerTalonOfHorus10eCodexChaosSpaceMarines10eF7e11185D5e1ed0UnitWeapon,
+    AccursedCultistsBlasphemousAppendages10eCodexChaosSpaceMarines10eUnitWeapon,
+    AccursedCultistsHideousMutations10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosBikersFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosDeimosPredatorConversionBeamCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosDeimosPredatorInfernusCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosDeimosPredatorMagnaMeltaCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosDeimosPredatorPlasmaDestroyerStandard10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosDeimosPredatorPlasmaDestroyerSupercharge10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLandRaiderArmouredTracks10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLandRaiderSoulshatterLascannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordAstartesChainblade10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordDaemonHammer10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordPowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordInTerminatorArmourChainfist10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordInTerminatorArmourCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordInTerminatorArmourCombiWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordInTerminatorArmourExaltedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordInTerminatorArmourPairedAccursedWeapons10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordInTerminatorArmourPowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnBikeAccursedWeapon10eCodexChaosSpaceMarines10e21d46816B322682bUnitWeapon,
+    ChaosLordOnBikeAccursedWeapon10eCodexChaosSpaceMarines10eAefe324c8096B2b8UnitWeapon,
+    ChaosLordOnBikeAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon,
+    ChaosLordOnBikeCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon,
+    ChaosLordOnBikeCombiBolter10eCodexChaosSpaceMarines10e3f019e1f2531131aUnitWeapon,
+    ChaosLordOnBikeCombiBolter10eCodexChaosSpaceMarines10eAcbdCc99488aCb9aUnitWeapon,
+    ChaosLordOnBikePairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon,
+    ChaosLordOnBikePowerFist10eCodexChaosSpaceMarines10e59a12e2041b35e60UnitWeapon,
+    ChaosLordOnBikePowerFist10eCodexChaosSpaceMarines10eE54a71759d54C1e2UnitWeapon,
+    ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexChaosSpaceMarines10e753d2ade50c93a3dUnitWeapon,
+    ChaosLordOnDiscOfTzeentchAccursedWeapon10eCodexChaosSpaceMarines10eEb2b45bf9f2e7c4UnitWeapon,
+    ChaosLordOnDiscOfTzeentchAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon,
+    ChaosLordOnDiscOfTzeentchCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon,
+    ChaosLordOnDiscOfTzeentchCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnDiscOfTzeentchPairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon,
+    ChaosLordOnDiscOfTzeentchPowerFist10eCodexChaosSpaceMarines10eAc9bC9d1C1d9Dd63UnitWeapon,
+    ChaosLordOnDiscOfTzeentchPowerFist10eCodexChaosSpaceMarines10eB0143c3c7ed14fdfUnitWeapon,
+    ChaosLordOnJuggernautAccursedWeapon10eCodexChaosSpaceMarines10e527091d23bdE102UnitWeapon,
+    ChaosLordOnJuggernautAccursedWeapon10eCodexChaosSpaceMarines10e7c308e0949e1Fe94UnitWeapon,
+    ChaosLordOnJuggernautAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon,
+    ChaosLordOnJuggernautBladedHorn10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnJuggernautCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon,
+    ChaosLordOnJuggernautCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnJuggernautPairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon,
+    ChaosLordOnJuggernautPowerFist10eCodexChaosSpaceMarines10e588213756a3a95b9UnitWeapon,
+    ChaosLordOnJuggernautPowerFist10eCodexChaosSpaceMarines10eA403Cc29661cA819UnitWeapon,
+    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eCodexChaosSpaceMarines10eFdec22752d113e12UnitWeapon,
+    ChaosLordOnPalanquinOfNurgleAccursedWeapon10eCodexChaosSpaceMarines10eFf192444E74e29b0UnitWeapon,
+    ChaosLordOnPalanquinOfNurgleAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon,
+    ChaosLordOnPalanquinOfNurgleCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon,
+    ChaosLordOnPalanquinOfNurgleCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnPalanquinOfNurgleNurglingsClawsAndTeeth10eCodexChaosSpaceMarines10eD502B74b7e82D25fUnitWeapon,
+    ChaosLordOnPalanquinOfNurglePairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon,
+    ChaosLordOnPalanquinOfNurglePowerFist10eCodexChaosSpaceMarines10e880eC47eC40d7a01UnitWeapon,
+    ChaosLordOnPalanquinOfNurglePowerFist10eCodexChaosSpaceMarines10eC8dcF20c911F23bUnitWeapon,
+    ChaosLordOnSteedOfSlaaneshAccursedWeapon10eCodexChaosSpaceMarines10e96f45d597aaA229UnitWeapon,
+    ChaosLordOnSteedOfSlaaneshAccursedWeapon10eCodexChaosSpaceMarines10eCc8377f878b41092UnitWeapon,
+    ChaosLordOnSteedOfSlaaneshAstartesChainsword10eCodexChaosSpaceMarines10e82aa7eac99e716ffUnitWeapon,
+    ChaosLordOnSteedOfSlaaneshCloseCombatWeapon10eCodexChaosSpaceMarines10e8ac1251170f376cUnitWeapon,
+    ChaosLordOnSteedOfSlaaneshCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnSteedOfSlaaneshLashingTongue10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordOnSteedOfSlaaneshPairedAccursedWeapons10eCodexChaosSpaceMarines10eCa63E9deB82a9fcbUnitWeapon,
+    ChaosLordOnSteedOfSlaaneshPowerFist10eCodexChaosSpaceMarines10eA21f2be9893d4df5UnitWeapon,
+    ChaosLordOnSteedOfSlaaneshPowerFist10eCodexChaosSpaceMarines10eE328867aDa17Fa22UnitWeapon,
+    ChaosLordWithJumpPackAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordWithJumpPackPowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosLordWithJumpPackTwinLightningClaws10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosPredatorAnnihilatorPredatorTwinLascannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosPredatorDestructorPredatorAutocannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosSpawnHideousMutations10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosTerminatorSquadHeavyFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosTerminatorSquadReaperAutocannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    ChaosVindicatorDemolisherCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistFirebrandBalefirePike10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistFirebrandCloseCombatWeapon10eCodexChaosSpaceMarines10e62f64fbb9b80F76UnitWeapon,
+    CultistMobAutopistol10eCodexChaosSpaceMarines10eD4fa21023242B228UnitWeapon,
+    CultistMobAutopistol10eCodexChaosSpaceMarines10eE9f09527Ac4dBda4UnitWeapon,
+    CultistMobBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistMobWithFirearmsAutopistol10eCodexChaosSpaceMarines10e79ad1c686fb7796aUnitWeapon,
+    CultistMobWithFirearmsAutopistol10eCodexChaosSpaceMarines10e9d2d88074fb91fd5UnitWeapon,
+    CultistMobWithFirearmsBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistMobWithFirearmsCultistGrenadeLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistMobWithFirearmsCultistGrenadeLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistMobWithFirearmsFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    CultistMobWithFirearmsHeavyStubber10eCodexChaosSpaceMarines10eUnitWeapon,
+    CypherCyphersBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    CypherCyphersBoltPistol10eCodexChaosSpaceMarines10e54b7Ae91Fab190b9UnitWeapon,
+    CypherCyphersPlasmaPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    CypherCyphersPlasmaPistol10eCodexChaosSpaceMarines10eB4c744bdD9041f43UnitWeapon,
+    DarkApostleAccursedCrozius10eCodexChaosSpaceMarines10eUnitWeapon,
+    DarkApostleCloseCombatWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    DarkCommuneAutopistol10eCodexChaosSpaceMarines10e4076A67171a8Ce9cUnitWeapon,
+    DarkCommuneAutopistol10eCodexChaosSpaceMarines10eCc5eFce1E9a8Eef4UnitWeapon,
+    DarkCommuneCloseCombatWeapon10eCodexChaosSpaceMarines10e3150D0c67c6fD5b8UnitWeapon,
+    DarkCommuneCloseCombatWeapon10eCodexChaosSpaceMarines10e66a4154a3e0dE34dUnitWeapon,
+    DarkCommuneCommuneBlade10eCodexChaosSpaceMarines10eUnitWeapon,
+    DarkCommuneCommuneStave10eCodexChaosSpaceMarines10eUnitWeapon,
+    DarkCommuneWarpCurseFocusedWitchfire10eCodexChaosSpaceMarines10eUnitWeapon,
+    DarkCommuneWarpCurseWitchfire10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerEctoplasmaDestructor10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerExcruciatorCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerHadesBattleCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerHeavyBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerHeavyMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerHeavyMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerMagmaCutter10eCodexChaosSpaceMarines10e3a26De09C0516346UnitWeapon,
+    DefilerShearingClawsStrike10eCodexChaosSpaceMarines10eUnitWeapon,
+    DefilerShearingClawsSweep10eCodexChaosSpaceMarines10eUnitWeapon,
+    ExaltedChampionExaltedWeapon10eCodexChaosSpaceMarines10eC15a7135Feb5A373UnitWeapon,
+    FabiusBileRodOfTorment10eCodexChaosSpaceMarines10eUnitWeapon,
+    FabiusBileSurgeonAcolytesTools10eCodexChaosSpaceMarines10eUnitWeapon,
     FabiusBileTheChirurgeon10eCodexChaosSpaceMarines10eUnitWeapon,
-    FabiusBileXyclosNeedler10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV161f3e8d7f2553F666UnitWeapon,
-    FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV1657aa1bb5B85aD43cUnitWeapon,
-    FellgorBeastmenAutopistol10eFactionPackChaosSpaceMarines10eV16Cfc24debB99a90d2UnitWeapon,
-    FellgorBeastmenBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FellgorBeastmenChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FellgorBeastmenCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FellgorBeastmenCorruptedStave10eFactionPackChaosSpaceMarines10eV163628Ae9559cfBf8cUnitWeapon,
-    FellgorBeastmenCorruptedStave10eFactionPackChaosSpaceMarines10eV16Bd22A96a79cf78e6UnitWeapon,
-    FellgorBeastmenGreatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FellgorBeastmenPlasmaPistolStandard10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    FellgorBeastmenPlasmaPistolSupercharge10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ForgefiendArmouredLimbs10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ForgefiendForgefiendJaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    GellerpoxInfectedBellyFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    GellerpoxInfectedBrutalWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    GellerpoxInfectedHideousMutations10eFactionPackChaosSpaceMarines10eV167ab8177f2dbb6e9cUnitWeapon,
-    GellerpoxInfectedHideousMutations10eFactionPackChaosSpaceMarines10eV16A31E4924345Ff72UnitWeapon,
+    FabiusBileXyclosNeedler10eCodexChaosSpaceMarines10eUnitWeapon,
+    FellgorBeastmenAutopistol10eCodexChaosSpaceMarines10e1f3e8d7f2553F666UnitWeapon,
+    FellgorBeastmenAutopistol10eCodexChaosSpaceMarines10e57aa1bb5B85aD43cUnitWeapon,
+    FellgorBeastmenAutopistol10eCodexChaosSpaceMarines10eCfc24debB99a90d2UnitWeapon,
+    FellgorBeastmenBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    FellgorBeastmenChainsword10eCodexChaosSpaceMarines10e8d3d98c5Bf51B189UnitWeapon,
+    FellgorBeastmenCloseCombatWeapon10eCodexChaosSpaceMarines10e2bca98918b6fF6cfUnitWeapon,
+    FellgorBeastmenCorruptedStave10eCodexChaosSpaceMarines10eUnitWeapon,
+    FellgorBeastmenCorruptedStave10eCodexChaosSpaceMarines10eBd22A96a79cf78e6UnitWeapon,
+    FellgorBeastmenGreatWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    FellgorBeastmenPlasmaPistolStandard10eCodexChaosSpaceMarines10eUnitWeapon,
+    FellgorBeastmenPlasmaPistolSupercharge10eCodexChaosSpaceMarines10eUnitWeapon,
+    ForgefiendArmouredLimbs10eCodexChaosSpaceMarines10eUnitWeapon,
+    ForgefiendForgefiendJaws10eCodexChaosSpaceMarines10eUnitWeapon,
+    GellerpoxInfectedBellyFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    GellerpoxInfectedBrutalWeapons10eCodexChaosSpaceMarines10eUnitWeapon,
+    GellerpoxInfectedHideousMutations10eCodexChaosSpaceMarines10e7ab8177f2dbb6e9c7ab8177f2dbb6e9cUnitWeapon,
+    GellerpoxInfectedHideousMutations10eCodexChaosSpaceMarines10e7ab8177f2dbb6e9cA31E4924345Ff72UnitWeapon,
+    HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10eUnitWeapon,
     HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10e362bD3b5Cc215ae7UnitWeapon,
-    HaarkenWorldclaimerHellspear10eCodexChaosSpaceMarines10e6f2aCacc3e03062UnitWeapon,
-    HaarkenWorldclaimerHeraldsTalon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HavocsHavocAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HavocsHavocHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HavocsHavocLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HavocsHavocMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HavocsHavocMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HavocsHavocReaperChaincannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteHelbruteHammer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteHelbrutePlasmaCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteMultiMelta10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbrutePowerScourge10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HelbruteTwinAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HeldrakeBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HeldrakeHeldrakeClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HellBladeArmouredHull10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HellTalonArmouredHull10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HellTalonAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HereticAstartesDaemonPrinceHellforgedWeaponsStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HereticAstartesDaemonPrinceHellforgedWeaponsSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HereticAstartesDaemonPrinceInfernalCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HereticAstartesDaemonPrinceWithWingsInfernalCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HuronBlackheartTyrantsClawAndExaltedPowerWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    HuronBlackheartTyrantsClawHeavyFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsDaemongoreCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsGorestormCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsGreatCleaverOfKhorneStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsGreatCleaverOfKhorneSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsHadesGatlingCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsIchorCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KhorneLordOfSkullsSkullhurler10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KravekMorneBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KravekMorneCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KravekMorneLastArgumentAndPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    KravekMorneServoHarness10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesAccursedWeapon10eFactionPackChaosSpaceMarines10eV167c1fE02Fe0692fbUnitWeapon,
-    LegionariesAccursedWeapon10eFactionPackChaosSpaceMarines10eV16Ef75C54462411281UnitWeapon,
-    LegionariesBalefireTome10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesHavocAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LegionariesReaperChaincannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LordDiscordantOnHelstalkerBaleflamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LordDiscordantOnHelstalkerBladedLimbs10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LordDiscordantOnHelstalkerHelstalkerAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LordDiscordantOnHelstalkerImpalerChainglaive10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LordDiscordantOnHelstalkerMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    LordDiscordantOnHelstalkerTechnoVirusInjector10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MasterOfExecutionsAxeOfDismemberment10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MasterOfPossessionRiteOfPossessionFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MasterOfPossessionRiteOfPossessionWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MasterOfPossessionStaffOfPossession10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
+    HaarkenWorldclaimerHeraldsTalon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HavocsHavocAutocannon10eCodexChaosSpaceMarines10e3a7579e445eDa32UnitWeapon,
+    HavocsHavocHeavyBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    HavocsHavocLascannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HavocsHavocMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon,
+    HavocsHavocMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon,
+    HavocsHavocReaperChaincannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HelbruteCloseCombatWeapon10eCodexChaosSpaceMarines10e5fbcEacd4312Ca64UnitWeapon,
+    HelbruteHelbruteHammer10eCodexChaosSpaceMarines10eUnitWeapon,
+    HelbruteHelbrutePlasmaCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HelbruteMissileLauncherFrag10eCodexChaosSpaceMarines10eC742f27B386A09bUnitWeapon,
+    HelbruteMissileLauncherKrak10eCodexChaosSpaceMarines10eD1378f127931Ae52UnitWeapon,
+    HelbruteMultiMelta10eCodexChaosSpaceMarines10eUnitWeapon,
+    HelbrutePowerScourge10eCodexChaosSpaceMarines10eUnitWeapon,
+    HelbruteTwinAutocannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HeldrakeBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    HeldrakeHeldrakeClaws10eCodexChaosSpaceMarines10eUnitWeapon,
+    HellBladeArmouredHull10eCodexChaosSpaceMarines10eB8229c28C09bEebeUnitWeapon,
+    HellTalonArmouredHull10eCodexChaosSpaceMarines10eUnitWeapon,
+    HellTalonAutocannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HereticAstartesDaemonPrinceHellforgedWeaponsStrike10eCodexChaosSpaceMarines10eUnitWeapon,
+    HereticAstartesDaemonPrinceHellforgedWeaponsSweep10eCodexChaosSpaceMarines10eUnitWeapon,
+    HereticAstartesDaemonPrinceInfernalCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsStrike10eCodexChaosSpaceMarines10eUnitWeapon,
+    HereticAstartesDaemonPrinceWithWingsHellforgedWeaponsSweep10eCodexChaosSpaceMarines10eUnitWeapon,
+    HereticAstartesDaemonPrinceWithWingsInfernalCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HuronBlackheartTyrantsClawAndExaltedPowerWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    HuronBlackheartTyrantsClawHeavyFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsDaemongoreCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsGorestormCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsGreatCleaverOfKhorneStrike10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsGreatCleaverOfKhorneSweep10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsHadesGatlingCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsIchorCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    KhorneLordOfSkullsSkullhurler10eCodexChaosSpaceMarines10eUnitWeapon,
+    KravekMorneBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    KravekMorneCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    KravekMorneLastArgumentAndPowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    KravekMorneServoHarness10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesAccursedWeapon10eCodexChaosSpaceMarines10eEf75C544624112817c1fE02Fe0692fbUnitWeapon,
+    LegionariesAccursedWeapon10eCodexChaosSpaceMarines10eEf75C54462411281Ef75C54462411281UnitWeapon,
+    LegionariesBalefireTome10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesHavocAutocannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesHeavyBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesLascannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon,
+    LegionariesReaperChaincannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    LordDiscordantOnHelstalkerBaleflamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    LordDiscordantOnHelstalkerBladedLimbs10eCodexChaosSpaceMarines10eUnitWeapon,
+    LordDiscordantOnHelstalkerHelstalkerAutocannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    LordDiscordantOnHelstalkerImpalerChainglaive10eCodexChaosSpaceMarines10eUnitWeapon,
+    LordDiscordantOnHelstalkerMagmaCutter10eCodexChaosSpaceMarines10eUnitWeapon,
+    LordDiscordantOnHelstalkerTechnoVirusInjector10eCodexChaosSpaceMarines10eUnitWeapon,
+    MasterOfExecutionsAxeOfDismemberment10eCodexChaosSpaceMarines10eUnitWeapon,
+    MasterOfPossessionRiteOfPossessionFocusedWitchfire10eCodexChaosSpaceMarines10eUnitWeapon,
+    MasterOfPossessionRiteOfPossessionWitchfire10eCodexChaosSpaceMarines10eUnitWeapon,
+    MasterOfPossessionStaffOfPossession10eCodexChaosSpaceMarines10eUnitWeapon,
     MastersOfTheMaelstromAbsolverBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
-    MastersOfTheMaelstromAxeOfEnding10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromBionicGauntlet10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromBoltPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromForceStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromLaspistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromLondaxiMaimer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromMindWrench10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromPowerSabre10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MastersOfTheMaelstromReductorArray10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MaulerfiendLasherTendrils10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MaulerfiendMagmaCutter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MaulerfiendMaulerfiendFists10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MutilatorsFleshmetalWeaponsClawedSweeps10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MutilatorsFleshmetalWeaponsRendingStrikes10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MutilatorsFleshmetalWeaponsThunderousBlows10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    MutoidVerminDiseasedClawsAndFangs10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NegavoltCultistsElectroGoads10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NemesisClawFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NemesisClawHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NemesisClawMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NemesisClawMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NemesisClawNostramanChainblade10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NemesisClawNostramanChainglaive10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NoctilithCrownLashingWarpEnergies10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NoiseMarinesBlastmasterSingleFrequency10eFactionPackEmperorsChildren10eV13UnitWeapon,
-    NoiseMarinesBlastmasterVariedFrequency10eFactionPackEmperorsChildren10eV13UnitWeapon,
-    NoiseMarinesPowerSword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    NoiseMarinesScreamerPistol10eFactionPackEmperorsChildren10eV13UnitWeapon,
-    ObliteratorsCrushingFists10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ObliteratorsFleshmetalGunsFocusedMalice10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ObliteratorsFleshmetalGunsRuinousSalvo10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    ObliteratorsFleshmetalGunsWarpHail10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    PlagueMarinesBlightLauncher10eFactionPackDeathGuard10eV11UnitWeapon,
-    PlagueMarinesPlagueBelcher10eFactionPackDeathGuard10eV11UnitWeapon,
-    PlagueMarinesPlagueBoltPistol10eFactionPackDeathGuard10eV11UnitWeapon,
-    PlagueMarinesPlagueSpewer10eFactionPackDeathGuard10eV11UnitWeapon,
-    PlagueMarinesPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    PossessedHideousMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RaptorsMutations10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RedCorsairsRaidersHandFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RedCorsairsReaveCaptainPowerMaul10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RedCorsairsReaveCaptainPowerSword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerAutogun10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerEnforcerMeleeWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerEnforcerPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerLasgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerPowerWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeEnforcerShotgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadAutocannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadCloseCombatWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadHeavyBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadHeavyStubber10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadLascannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadMissileLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadMissileLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadMortar10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeHeavyWeaponsSquadRenegadeFirearm10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
+    MastersOfTheMaelstromAxeOfEnding10eCodexChaosSpaceMarines10eUnitWeapon,
+    MastersOfTheMaelstromBionicGauntlet10eCodexChaosSpaceMarines10eUnitWeapon,
+    MastersOfTheMaelstromBoltPistol10eCodexChaosSpaceMarines10eF71099f9Bdbe93b2UnitWeapon,
+    MastersOfTheMaelstromForceStave10eCodexChaosSpaceMarines10eUnitWeapon,
+    MastersOfTheMaelstromLaspistol10eCodexChaosSpaceMarines10e45bb3408F1240e3cUnitWeapon,
+    MastersOfTheMaelstromLondaxiMaimer10eCodexChaosSpaceMarines10eUnitWeapon,
+    MastersOfTheMaelstromMindWrench10eCodexChaosSpaceMarines10eUnitWeapon,
+    MastersOfTheMaelstromPowerSabre10eCodexChaosSpaceMarines10eUnitWeapon,
+    MastersOfTheMaelstromReductorArray10eCodexChaosSpaceMarines10eUnitWeapon,
+    MaulerfiendLasherTendrils10eCodexChaosSpaceMarines10eUnitWeapon,
+    MaulerfiendMagmaCutter10eCodexChaosSpaceMarines10eUnitWeapon,
+    MaulerfiendMaulerfiendFists10eCodexChaosSpaceMarines10eUnitWeapon,
+    MutilatorsFleshmetalWeaponsClawedSweeps10eCodexChaosSpaceMarines10eUnitWeapon,
+    MutilatorsFleshmetalWeaponsRendingStrikes10eCodexChaosSpaceMarines10eUnitWeapon,
+    MutilatorsFleshmetalWeaponsThunderousBlows10eCodexChaosSpaceMarines10eUnitWeapon,
+    MutoidVerminDiseasedClawsAndFangs10eCodexChaosSpaceMarines10eUnitWeapon,
+    NegavoltCultistsElectroGoads10eCodexChaosSpaceMarines10eUnitWeapon,
+    NemesisClawFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    NemesisClawHeavyBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    NemesisClawMissileLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon,
+    NemesisClawMissileLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon,
+    NemesisClawNostramanChainblade10eCodexChaosSpaceMarines10eUnitWeapon,
+    NemesisClawNostramanChainglaive10eCodexChaosSpaceMarines10eUnitWeapon,
+    NoctilithCrownLashingWarpEnergies10eCodexChaosSpaceMarines10eUnitWeapon,
+    NoiseMarinesBlastmasterSingleFrequency10eCodexChaosSpaceMarines10eUnitWeapon,
+    NoiseMarinesBlastmasterVariedFrequency10eCodexChaosSpaceMarines10eUnitWeapon,
+    NoiseMarinesPowerSword10eCodexChaosSpaceMarines10eUnitWeapon,
+    NoiseMarinesScreamerPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    ObliteratorsCrushingFists10eCodexChaosSpaceMarines10eUnitWeapon,
+    ObliteratorsFleshmetalGunsFocusedMalice10eCodexChaosSpaceMarines10eUnitWeapon,
+    ObliteratorsFleshmetalGunsRuinousSalvo10eCodexChaosSpaceMarines10eUnitWeapon,
+    ObliteratorsFleshmetalGunsWarpHail10eCodexChaosSpaceMarines10eUnitWeapon,
+    PlagueMarinesBlightLauncher10eCodexChaosSpaceMarines10eUnitWeapon,
+    PlagueMarinesPlagueBelcher10eCodexChaosSpaceMarines10eUnitWeapon,
+    PlagueMarinesPlagueBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    PlagueMarinesPlagueSpewer10eCodexChaosSpaceMarines10eUnitWeapon,
+    PlagueMarinesPowerFist10eCodexChaosSpaceMarines10eAce334deC91c7c17UnitWeapon,
+    PossessedHideousMutations10eCodexChaosSpaceMarines10eCb887ee68273E819UnitWeapon,
+    RaptorsMutations10eCodexChaosSpaceMarines10eUnitWeapon,
+    RedCorsairsRaidersHandFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    RedCorsairsReaveCaptainPowerMaul10eCodexChaosSpaceMarines10eUnitWeapon,
+    RedCorsairsReaveCaptainPowerSword10eCodexChaosSpaceMarines10e0773723fEdb72a56UnitWeapon,
+    RenegadeEnforcerAutogun10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeEnforcerEnforcerMeleeWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeEnforcerEnforcerPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeEnforcerLasgun10eCodexChaosSpaceMarines10e9ad3ec244851e23UnitWeapon,
+    RenegadeEnforcerPowerFist10eCodexChaosSpaceMarines10e5d8cBfcf2cb8Fa70UnitWeapon,
+    RenegadeEnforcerPowerWeapon10eCodexChaosSpaceMarines10e97b93221Ac8eD48eUnitWeapon,
+    RenegadeEnforcerShotgun10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeHeavyWeaponsSquadAutocannon10eCodexChaosSpaceMarines10eA89e413524a780f2UnitWeapon,
+    RenegadeHeavyWeaponsSquadCloseCombatWeapons10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeHeavyWeaponsSquadHeavyBolter10eCodexChaosSpaceMarines10e440e3d299a09A1a2UnitWeapon,
+    RenegadeHeavyWeaponsSquadHeavyStubber10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeHeavyWeaponsSquadLascannon10eCodexChaosSpaceMarines10e1e5dEb0e4138A760UnitWeapon,
+    RenegadeHeavyWeaponsSquadMissileLauncherFrag10eCodexChaosSpaceMarines10e3fa9B5ebBc0cE9c2UnitWeapon,
+    RenegadeHeavyWeaponsSquadMissileLauncherKrak10eCodexChaosSpaceMarines10eB50a1090FfcEbb5UnitWeapon,
+    RenegadeHeavyWeaponsSquadMortar10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeHeavyWeaponsSquadRenegadeFirearm10eCodexChaosSpaceMarines10eUnitWeapon,
     RenegadeOgrynBeastHandlerBefouledFangsAndClaws10eCodexChaosSpaceMarines10eUnitWeapon,
-    RenegadeOgrynBeastHandlerMaulerGoadAndRipperClaw10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeOgrynBrutesOgrynPowerDrill10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadeOgrynBrutesOgrynWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RenegadePlagueOgrynsOgrynPlagueClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RoguePsykerChaosStave10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RoguePsykerLaspistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RoguePsykerPsychicStrikeFocusedWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RoguePsykerPsychicStrikeWitchfire10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV1631e6309cF8dc9636UnitWeapon,
-    RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV167250EeacAd4c1068UnitWeapon,
-    RubricMarinesCloseCombatWeapon10eFactionPackChaosSpaceMarines10eV16A16263b8887180afUnitWeapon,
-    RubricMarinesForceWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    RubricMarinesInfernoBoltPistol10eFactionPackThousandSons10eV11UnitWeapon,
-    RubricMarinesInfernoBoltgun10eFactionPackThousandSons10eV11UnitWeapon,
-    RubricMarinesMaleficCurse10eFactionPackThousandSons10eV11UnitWeapon,
-    RubricMarinesSoulreaperCannon10eFactionPackThousandSons10eV11UnitWeapon,
-    RubricMarinesWarpflamePistol10eFactionPackThousandSons10eV11UnitWeapon,
-    RubricMarinesWarpflamer10eFactionPackThousandSons10eV11UnitWeapon,
-    SorcererInTerminatorArmourCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererInTerminatorArmourCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnBikeAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnBikeAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV167c3bFc3520d25b2UnitWeapon,
-    SorcererOnBikeCombiBolter10eFactionPackChaosSpaceMarines10eV1687a7Ac81A8e0987cUnitWeapon,
-    SorcererOnBikeCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnBikePowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnDiscOfTzeentchPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnPalanquinOfNurgleAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnPalanquinOfNurgleAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnPalanquinOfNurgleCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnPalanquinOfNurglePowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnSteedOfSlaaneshAccursedWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnSteedOfSlaaneshAstartesChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnSteedOfSlaaneshCombiBolter10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnSteedOfSlaaneshCombiWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnSteedOfSlaaneshLashingTongue10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    SorcererOnSteedOfSlaaneshPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorEnforcerOgrynWeapons10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorEnforcerPowerFist10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadBoltgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadChainsword10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadCorruptedPistol10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadCultistGrenadeLauncherFrag10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadCultistGrenadeLauncherKrak10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadCultistSniperRifle10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadFlamer10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadLasgun10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadMeltagun10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadPlasmaGunStandard10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadPlasmaGunSupercharge10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    TraitorGuardsmenSquadPowerWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    VashtorrTheArkifaneVashtorrsClaw10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    VashtorrTheArkifaneVashtorrsHammerStrike10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    VashtorrTheArkifaneVashtorrsHammerSweep10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    VenomcrawlerExcruciatorCannon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    VenomcrawlerSoulflayerTendrilsAndClaws10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    WarpTalonsWarpClaws10eFactionPackChaosSpaceMarines10eV1610b9B1a67aa58fe9UnitWeapon,
-    WarpTalonsWarpClaws10eFactionPackChaosSpaceMarines10eV16Ba055efd4be74038UnitWeapon,
-    WarpsmithFlamerTendril10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    WarpsmithForgeWeapon10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
-    WarpsmithMeltaTendril10eFactionPackChaosSpaceMarines10eV16UnitWeapon,
+    RenegadeOgrynBeastHandlerMaulerGoadAndRipperClaw10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeOgrynBrutesOgrynPowerDrill10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadeOgrynBrutesOgrynWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    RenegadePlagueOgrynsOgrynPlagueClaws10eCodexChaosSpaceMarines10eUnitWeapon,
+    RoguePsykerChaosStave10eCodexChaosSpaceMarines10eUnitWeapon,
+    RoguePsykerLaspistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    RoguePsykerPsychicStrikeFocusedWitchfire10eCodexChaosSpaceMarines10eUnitWeapon,
+    RoguePsykerPsychicStrikeWitchfire10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesCloseCombatWeapon10eCodexChaosSpaceMarines10eA16263b8887180af31e6309cF8dc9636UnitWeapon,
+    RubricMarinesCloseCombatWeapon10eCodexChaosSpaceMarines10eA16263b8887180af7250EeacAd4c1068UnitWeapon,
+    RubricMarinesCloseCombatWeapon10eCodexChaosSpaceMarines10eA16263b8887180afA16263b8887180afUnitWeapon,
+    RubricMarinesForceWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesInfernoBoltPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesInfernoBoltgun10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesMaleficCurse10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesSoulreaperCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesWarpflamePistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    RubricMarinesWarpflamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererInTerminatorArmourCombiBolter10eCodexChaosSpaceMarines10eB805Bb52D8d55e82UnitWeapon,
+    SorcererInTerminatorArmourCombiWeapon10eCodexChaosSpaceMarines10e62303b5f63312629UnitWeapon,
+    SorcererOnBikeAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnBikeAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnBikeCombiBolter10eCodexChaosSpaceMarines10e7c3bFc3520d25b2UnitWeapon,
+    SorcererOnBikeCombiBolter10eCodexChaosSpaceMarines10e87a7Ac81A8e0987cUnitWeapon,
+    SorcererOnBikeCombiWeapon10eCodexChaosSpaceMarines10e2c355f18702b7e7fUnitWeapon,
+    SorcererOnBikePowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnDiscOfTzeentchAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnDiscOfTzeentchAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnDiscOfTzeentchCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnDiscOfTzeentchCombiWeapon10eCodexChaosSpaceMarines10e2c355f18702b7e7fUnitWeapon,
+    SorcererOnDiscOfTzeentchPowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnPalanquinOfNurgleAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnPalanquinOfNurgleAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnPalanquinOfNurgleCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnPalanquinOfNurgleNurglingsClawsAndTeeth10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnPalanquinOfNurglePowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnSteedOfSlaaneshAccursedWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnSteedOfSlaaneshAstartesChainsword10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnSteedOfSlaaneshCombiBolter10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnSteedOfSlaaneshCombiWeapon10eCodexChaosSpaceMarines10e2c355f18702b7e7fUnitWeapon,
+    SorcererOnSteedOfSlaaneshLashingTongue10eCodexChaosSpaceMarines10eUnitWeapon,
+    SorcererOnSteedOfSlaaneshPowerFist10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorEnforcerOgrynWeapons10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorEnforcerPowerFist10eCodexChaosSpaceMarines10e5d8cBfcf2cb8Fa70UnitWeapon,
+    TraitorGuardsmenSquadBoltgun10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadChainsword10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadCorruptedPistol10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadCultistGrenadeLauncherFrag10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadCultistGrenadeLauncherKrak10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadCultistSniperRifle10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadFlamer10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadLasgun10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadMeltagun10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadPlasmaGunStandard10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadPlasmaGunSupercharge10eCodexChaosSpaceMarines10eUnitWeapon,
+    TraitorGuardsmenSquadPowerWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    VashtorrTheArkifaneVashtorrsClaw10eCodexChaosSpaceMarines10eUnitWeapon,
+    VashtorrTheArkifaneVashtorrsHammerStrike10eCodexChaosSpaceMarines10eUnitWeapon,
+    VashtorrTheArkifaneVashtorrsHammerSweep10eCodexChaosSpaceMarines10eUnitWeapon,
+    VenomcrawlerExcruciatorCannon10eCodexChaosSpaceMarines10eUnitWeapon,
+    VenomcrawlerSoulflayerTendrilsAndClaws10eCodexChaosSpaceMarines10eUnitWeapon,
+    WarpTalonsWarpClaws10eCodexChaosSpaceMarines10e10b9B1a67aa58fe9UnitWeapon,
+    WarpTalonsWarpClaws10eCodexChaosSpaceMarines10eBa055efd4be74038UnitWeapon,
+    WarpsmithFlamerTendril10eCodexChaosSpaceMarines10eUnitWeapon,
+    WarpsmithForgeWeapon10eCodexChaosSpaceMarines10eUnitWeapon,
+    WarpsmithMeltaTendril10eCodexChaosSpaceMarines10eUnitWeapon,
   ] satisfies UnitWeaponConfig[],
 };
