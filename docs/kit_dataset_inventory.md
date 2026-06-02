@@ -117,6 +117,543 @@ These counts are from the legacy `data/kits` and `data/kit-mappings` JSON files.
 | T'au | 1 | 45 | 45 | 0 | 1 | 40 | 40 | 37 | 0 | 8 |
 | Tyranids | 1 | 48 | 48 | 1 | 1 | 49 | 49 | 45 | 2 | 4 |
 
+## Active Unit Kit Coverage
+
+This compares active non-Legends rules units against canonical typed `kit_units`. Legacy mappings are counted only as review candidates; they do not make a unit canonical.
+
+The active-unit filter uses the `is_legends` flag and also excludes unit names containing `Legends` plus `_legendary` slugs, because some current seed rows still need a Legends flag cleanup pass.
+
+Space Marine chapter factions reuse the legacy Space Marines mapping candidates for shared unit review because the old mapping data was monolithic.
+
+Rows in `Needs source review` are not automatic data defects. They are the units that need a source-backed kit decision before we can call `kit_units` complete.
+
+| Faction | Active units | Canonical `kit_units` | Legacy candidates | Missing canonical | Needs source review |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Adepta Sororitas | 41 | 0 | 29 | 41 | 12 |
+| Adeptus Custodes | 34 | 0 | 23 | 34 | 11 |
+| Adeptus Mechanicus | 37 | 0 | 30 | 37 | 7 |
+| Astra Militarum | 75 | 0 | 62 | 75 | 13 |
+| Grey Knights | 30 | 0 | 16 | 30 | 14 |
+| Imperial Agents | 42 | 0 | 23 | 42 | 19 |
+| Imperial Knights | 22 | 0 | 21 | 22 | 1 |
+| Space Marines | 85 | 1 | 67 | 84 | 18 |
+| Black Templars | 95 | 4 | 75 | 91 | 19 |
+| Blood Angels | 101 | 1 | 76 | 100 | 25 |
+| Dark Angels | 101 | 1 | 80 | 100 | 21 |
+| Deathwatch | 100 | 1 | 70 | 99 | 30 |
+| Imperial Fists | 88 | 1 | 69 | 87 | 19 |
+| Iron Hands | 87 | 1 | 69 | 86 | 18 |
+| Raven Guard | 87 | 1 | 69 | 86 | 18 |
+| Salamanders | 87 | 1 | 68 | 86 | 19 |
+| Space Wolves | 107 | 1 | 87 | 106 | 20 |
+| Ultramarines | 96 | 1 | 74 | 95 | 22 |
+| White Scars | 87 | 1 | 67 | 86 | 20 |
+| Chaos Daemons | 59 | 0 | 42 | 59 | 17 |
+| Chaos Knights | 20 | 0 | 20 | 20 | 0 |
+| Chaos Space Marines | 61 | 0 | 50 | 61 | 11 |
+| Death Guard | 39 | 0 | 33 | 39 | 6 |
+| Emperor's Children | 26 | 0 | 3 | 26 | 23 |
+| Thousand Sons | 38 | 0 | 32 | 38 | 6 |
+| World Eaters | 33 | 0 | 28 | 33 | 5 |
+| Aeldari | 75 | 0 | 62 | 75 | 13 |
+| Drukhari | 39 | 0 | 23 | 39 | 16 |
+| Genestealer Cults | 27 | 0 | 24 | 27 | 3 |
+| Leagues of Votann | 25 | 0 | 20 | 25 | 5 |
+| Necrons | 55 | 0 | 42 | 55 | 13 |
+| Orks | 63 | 0 | 48 | 63 | 15 |
+| T'au | 46 | 0 | 33 | 46 | 13 |
+| Tyranids | 58 | 0 | 48 | 58 | 10 |
+| **Total** | 2066 | 15 | 1583 | 2051 | 482 |
+
+### Units Needing Source Review
+
+These active units have neither a canonical typed `kit_units` row nor a legacy mapping candidate for their faction review path.
+
+| Faction | Unit |
+| --- | --- |
+| Adepta Sororitas | Celestian Insidiants (`celestian_insidiants`) |
+| Adepta Sororitas | Celestian Sacresant (Anointed Halberd) (`celestian_sacresant_anointed_halberd`) |
+| Adepta Sororitas | Celestian Sacresant (Hallowed Mace) (`celestian_sacresant_hallowed_mace`) |
+| Adepta Sororitas | Geminae Superia (`geminae_superia`) |
+| Adepta Sororitas | Immolator (`immolator`) |
+| Adepta Sororitas | Inspiring Devotee [Crucible] (`inspiring_devotee_crucible`) |
+| Adepta Sororitas | Intranzia Fraye (`intranzia_fraye`) |
+| Adepta Sororitas | Militant Commander [Crucible] (`militant_commander_crucible`) |
+| Adepta Sororitas | Reliquant Knight [Crucible] (`reliquant_knight_crucible`) |
+| Adepta Sororitas | Sister Novitiate (Autogun) (`sister_novitiate_autogun`) |
+| Adepta Sororitas | Sister Novitiate (Melee Weapon) (`sister_novitiate_melee_weapon`) |
+| Adepta Sororitas | Sororitas Rhino (`sororitas_rhino`) |
+| Adeptus Custodes | Agamatus Custodians (`agamatus_custodians`) |
+| Adeptus Custodes | Aquilon Custodians (`aquilon_custodians`) |
+| Adeptus Custodes | Contemptor-Achillus Dreadnought (`contemptor_achillus_dreadnought`) |
+| Adeptus Custodes | Contemptor-Galatus Dreadnought (`contemptor_galatus_dreadnought`) |
+| Adeptus Custodes | Coronus Grav-carrier (`coronus_grav_carrier`) |
+| Adeptus Custodes | Custodian Guard with Adrasite and Pyrithite spears (`custodian_guard_with_adrasite_and_pyrithite_spears`) |
+| Adeptus Custodes | Guardian of the Throne [Crucible] (`guardian_of_the_throne_crucible`) |
+| Adeptus Custodes | Kataphraktoi Exemplar [Crucible] (`kataphraktoi_exemplar_crucible`) |
+| Adeptus Custodes | Null Maiden [Crucible] (`null_maiden_crucible`) |
+| Adeptus Custodes | Venatari Custodians (`venatari_custodians`) |
+| Adeptus Custodes | Venerable Contemptor Dreadnought (`venerable_contemptor_dreadnought`) |
+| Adeptus Mechanicus | Cohort Commander [Crucible] (`cohort_commander_crucible`) |
+| Adeptus Mechanicus | Hastarii Exterminators (`hastarii_exterminators`) |
+| Adeptus Mechanicus | Hastarii Fusiliers (`hastarii_fusiliers`) |
+| Adeptus Mechanicus | Ironstrider Alpha [Crucible] (`ironstrider_alpha_crucible`) |
+| Adeptus Mechanicus | Magos [Crucible] (`magos_crucible`) |
+| Adeptus Mechanicus | Skorpius Dunerider (`skorpius_dunerider`) |
+| Adeptus Mechanicus | Thulia Ghuld (`thulia_ghuld`) |
+| Aeldari | Craftworld Warleader [Crucible] (`craftworld_warleader_crucible`) |
+| Aeldari | Ghost Warrior [Crucible] (`ghost_warrior_crucible`) |
+| Aeldari | Phantom Titan (`phantom_titan`) |
+| Aeldari | Revenant Titan (`revenant_titan`) |
+| Aeldari | Skyrunner [Crucible] (`skyrunner_crucible`) |
+| Aeldari | Starweaver (`starweaver`) |
+| Aeldari | Striking Scorpions (`striking_scorpions`) |
+| Aeldari | Troupe Master (`troupe_master`) |
+| Aeldari | Warlock Conclave (`warlock_conclave`) |
+| Aeldari | Wave Serpent (`wave_serpent`) |
+| Aeldari | Wraithknight with Ghostglaive (`wraithknight_with_ghostglaive`) |
+| Aeldari | Ynnari Raider (`ynnari_raider`) |
+| Aeldari | Ynnari Venom (`ynnari_venom`) |
+| Astra Militarum | Aegis Defence Line (`aegis_defence_line`) |
+| Astra Militarum | Augmented Bone 'Ead [Crucible] (`augmented_bone_ead_crucible`) |
+| Astra Militarum | Cadian Recon Squad (`cadian_recon_squad`) |
+| Astra Militarum | Centaur RSV (`centaur_rsv`) |
+| Astra Militarum | Commissar Graves (`commissar_graves`) |
+| Astra Militarum | Commissar Graves on Foot (`commissar_graves_on_foot`) |
+| Astra Militarum | Commissar Yarrick (`commissar_yarrick`) |
+| Astra Militarum | Front-line Commander [Crucible] (`front_line_commander_crucible`) |
+| Astra Militarum | Gaunt’s Ghosts (`gaunts_ghosts`) |
+| Astra Militarum | Hippogriff AFV (`hippogriff_afv`) |
+| Astra Militarum | Ogryn Bodyguard (`ogryn_bodyguard`) |
+| Astra Militarum | Rogal Dorn Commander (`rogal_dorn_commander`) |
+| Astra Militarum | Sentinel Commander [Crucible] (`sentinel_commander_crucible`) |
+| Black Templars | Captain (`captain`) |
+| Black Templars | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Black Templars | Dreadnought (`dreadnought`) |
+| Black Templars | Drop Pod (`drop_pod`) |
+| Black Templars | Emperor's Champion (Anointed) (`emperors_champion_anointed`) |
+| Black Templars | Hammerfall Bunker (`hammerfall_bunker`) |
+| Black Templars | Impulsor (`impulsor`) |
+| Black Templars | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Black Templars | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Black Templars | Razorback (`razorback`) |
+| Black Templars | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Black Templars | Reiver Squad (`reiver_squad`) |
+| Black Templars | Rhino (`rhino`) |
+| Black Templars | Scout Squad (`scout_squad`) |
+| Black Templars | Suppressor Squad (`suppressor_squad`) |
+| Black Templars | Techmarine (`techmarine`) |
+| Black Templars | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Black Templars | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Black Templars | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Blood Angels | Captain (`captain`) |
+| Blood Angels | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Blood Angels | Death Company Captain (`death_company_captain`) |
+| Blood Angels | Death Company Captain with Jump Pack (`death_company_captain_with_jump_pack`) |
+| Blood Angels | Death Company Dreadnought (`death_company_dreadnought`) |
+| Blood Angels | Death Company Intercessors (`death_company_intercessors`) |
+| Blood Angels | Death Company Marines (`death_company_marines`) |
+| Blood Angels | Death Company Marines with Bolt Rifles (`death_company_marines_with_bolt_rifles`) |
+| Blood Angels | Death Company Marines with Jump Packs (`death_company_marines_with_jump_packs`) |
+| Blood Angels | Dreadnought (`dreadnought`) |
+| Blood Angels | Drop Pod (`drop_pod`) |
+| Blood Angels | Hammerfall Bunker (`hammerfall_bunker`) |
+| Blood Angels | Impulsor (`impulsor`) |
+| Blood Angels | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Blood Angels | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Blood Angels | Razorback (`razorback`) |
+| Blood Angels | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Blood Angels | Reiver Squad (`reiver_squad`) |
+| Blood Angels | Rhino (`rhino`) |
+| Blood Angels | Scout Squad (`scout_squad`) |
+| Blood Angels | Suppressor Squad (`suppressor_squad`) |
+| Blood Angels | Techmarine (`techmarine`) |
+| Blood Angels | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Blood Angels | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Blood Angels | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Chaos Daemons | Be'lakor (`belakor`) |
+| Chaos Daemons | Contorted Epitome (`contorted_epitome`) |
+| Chaos Daemons | Daemonic Charioteer [Crucible] (`daemonic_charioteer_crucible`) |
+| Chaos Daemons | Daemonic Herald [Crucible] (`daemonic_herald_crucible`) |
+| Chaos Daemons | Epidemius (`epidemius`) |
+| Chaos Daemons | Feculent Gnarlmaw (`feculent_gnarlmaw`) |
+| Chaos Daemons | Immortal Champion [Crucible] (`immortal_champion_crucible`) |
+| Chaos Daemons | Khorne Soul Grinder (`khorne_soul_grinder`) |
+| Chaos Daemons | Nurgle Soul Grinder (`nurgle_soul_grinder`) |
+| Chaos Daemons | Skull Altar (`skull_altar`) |
+| Chaos Daemons | Skullmaster (`skullmaster`) |
+| Chaos Daemons | Slaanesh Soul Grinder (`slaanesh_soul_grinder`) |
+| Chaos Daemons | Spoilpox Scrivener (`spoilpox_scrivener`) |
+| Chaos Daemons | Syll'esske (`syllesske`) |
+| Chaos Daemons | The Blue Scribes (`the_blue_scribes`) |
+| Chaos Daemons | Tranceweaver (`tranceweaver`) |
+| Chaos Daemons | Tzeentch Soul Grinder (`tzeentch_soul_grinder`) |
+| Chaos Space Marines | Chaos Predator Annihilator (`chaos_predator_annihilator`) |
+| Chaos Space Marines | Chaos Predator Destructor (`chaos_predator_destructor`) |
+| Chaos Space Marines | Chaos Rhino (`chaos_rhino`) |
+| Chaos Space Marines | Cypher (`cypher`) |
+| Chaos Space Marines | Defiler (`defiler`) |
+| Chaos Space Marines | Exalted Champion [Crucible] (`exalted_champion_crucible`) |
+| Chaos Space Marines | Kravek Morne (`kravek_morne`) |
+| Chaos Space Marines | Mutilators (`mutilators`) |
+| Chaos Space Marines | Noctilith Crown (`noctilith_crown`) |
+| Chaos Space Marines | Sorcerous Champion [Crucible] (`sorcerous_champion_crucible`) |
+| Chaos Space Marines | Soul Forge Tyrant [Crucible] (`soul_forge_tyrant_crucible`) |
+| Dark Angels | Captain (`captain`) |
+| Dark Angels | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Dark Angels | Deathwing Terminator Squad (`deathwing_terminator_squad`) |
+| Dark Angels | Dreadnought (`dreadnought`) |
+| Dark Angels | Drop Pod (`drop_pod`) |
+| Dark Angels | Hammerfall Bunker (`hammerfall_bunker`) |
+| Dark Angels | Impulsor (`impulsor`) |
+| Dark Angels | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Dark Angels | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Dark Angels | Lion El'Jonson (`lion_eljonson`) |
+| Dark Angels | Ravenwing Command Squad (`ravenwing_command_squad`) |
+| Dark Angels | Razorback (`razorback`) |
+| Dark Angels | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Dark Angels | Reiver Squad (`reiver_squad`) |
+| Dark Angels | Rhino (`rhino`) |
+| Dark Angels | Scout Squad (`scout_squad`) |
+| Dark Angels | Suppressor Squad (`suppressor_squad`) |
+| Dark Angels | Techmarine (`techmarine`) |
+| Dark Angels | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Dark Angels | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Dark Angels | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Death Guard | Chaos Rhino (`chaos_rhino`) |
+| Death Guard | Defiler (`defiler`) |
+| Death Guard | Miasmic Malignifier (`miasmic_malignifier`) |
+| Death Guard | Plague Lord [Crucible] (`plague_lord_crucible`) |
+| Death Guard | Plague Sorcerer [Crucible] (`plague_sorcerer_crucible`) |
+| Death Guard | Tri-lobe Vectors [Crucible] (`tri_lobe_vectors_crucible`) |
+| Deathwatch | Captain (`captain`) |
+| Deathwatch | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Deathwatch | Deathwatch Terminator Squad (`deathwatch_terminator_squad`) |
+| Deathwatch | Deathwatch Veteran w/ carbine (`deathwatch_veteran_w_carbine`) |
+| Deathwatch | Deathwatch Veteran w/ heavy thunder hammer (`deathwatch_veteran_w_heavy_thunder_hammer`) |
+| Deathwatch | Deathwatch Veteran w/ stalker bolt rifle (`deathwatch_veteran_w_stalker_bolt_rifle`) |
+| Deathwatch | Deathwatch Veterans (`deathwatch_veterans`) |
+| Deathwatch | Decimus Kill Team (`decimus_kill_team`) |
+| Deathwatch | Dreadnought (`dreadnought`) |
+| Deathwatch | Drop Pod (`drop_pod`) |
+| Deathwatch | Fortis Kill Team (`fortis_kill_team`) |
+| Deathwatch | Gravis Veteran w/ infernus heavy bolter (`gravis_veteran_w_infernus_heavy_bolter`) |
+| Deathwatch | Hammerfall Bunker (`hammerfall_bunker`) |
+| Deathwatch | Impulsor (`impulsor`) |
+| Deathwatch | Indomitor Kill Team (`indomitor_kill_team`) |
+| Deathwatch | Kill Team Sergeant (`kill_team_sergeant`) |
+| Deathwatch | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Deathwatch | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Deathwatch | Razorback (`razorback`) |
+| Deathwatch | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Deathwatch | Reiver Squad (`reiver_squad`) |
+| Deathwatch | Rhino (`rhino`) |
+| Deathwatch | Scout Squad (`scout_squad`) |
+| Deathwatch | Spectrus Kill Team (`spectrus_kill_team`) |
+| Deathwatch | Suppressor Squad (`suppressor_squad`) |
+| Deathwatch | Talonstrike Kill Team (`talonstrike_kill_team`) |
+| Deathwatch | Techmarine (`techmarine`) |
+| Deathwatch | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Deathwatch | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Deathwatch | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Drukhari | Archtormentor [Crucible] (`archtormentor_crucible`) |
+| Drukhari | Corsair Skyreavers (`corsair_skyreavers`) |
+| Drukhari | Corsair Voidreavers (`corsair_voidreavers`) |
+| Drukhari | Corsair Voidscarred (`corsair_voidscarred`) |
+| Drukhari | Death Jester (`death_jester`) |
+| Drukhari | Flesh Crafter [Crucible] (`flesh_crafter_crucible`) |
+| Drukhari | Kharseth (`kharseth`) |
+| Drukhari | Prince Yriel (`prince_yriel`) |
+| Drukhari | Shadowseer (`shadowseer`) |
+| Drukhari | Skyweavers (`skyweavers`) |
+| Drukhari | Solitaire (`solitaire`) |
+| Drukhari | Starfangs (`starfangs`) |
+| Drukhari | Starweaver (`starweaver`) |
+| Drukhari | Troupe (`troupe`) |
+| Drukhari | Troupe Master (`troupe_master`) |
+| Drukhari | Voidweaver (`voidweaver`) |
+| Emperor's Children | Champion of Excess [Crucible] (`champion_of_excess_crucible`) |
+| Emperor's Children | Chaos Land Raider (`chaos_land_raider`) |
+| Emperor's Children | Chaos Rhino (`chaos_rhino`) |
+| Emperor's Children | Chaos Spawn (`chaos_spawn`) |
+| Emperor's Children | Chaos Terminators (`chaos_terminators`) |
+| Emperor's Children | Daemonettes (`daemonettes`) |
+| Emperor's Children | Defiler (`defiler`) |
+| Emperor's Children | Excruciator [Crucible] (`excruciator_crucible`) |
+| Emperor's Children | Fiends (`fiends`) |
+| Emperor's Children | Flawless Blades (`flawless_blades`) |
+| Emperor's Children | Flawless Champion [Crucible] (`flawless_champion_crucible`) |
+| Emperor's Children | Fulgrim (`fulgrim`) |
+| Emperor's Children | Heldrake (`heldrake`) |
+| Emperor's Children | Infractors (`infractors`) |
+| Emperor's Children | Keeper of Secrets (`keeper_of_secrets`) |
+| Emperor's Children | Lord Exultant (`lord_exultant`) |
+| Emperor's Children | Lord Kakophonist (`lord_kakophonist`) |
+| Emperor's Children | Maulerfiend (`maulerfiend`) |
+| Emperor's Children | Noise Marines (`noise_marines`) |
+| Emperor's Children | Seekers (`seekers`) |
+| Emperor's Children | Shalaxi Helbane (`shalaxi_helbane`) |
+| Emperor's Children | Sorcerer (`sorcerer`) |
+| Emperor's Children | Tormentors (`tormentors`) |
+| Genestealer Cults | Cult Guerrilla [Crucible] (`cult_guerrilla_crucible`) |
+| Genestealer Cults | Cult Insurrectionist [Crucible] (`cult_insurrectionist_crucible`) |
+| Genestealer Cults | Voice of the Patriarch [Crucible] (`voice_of_the_patriarch_crucible`) |
+| Grey Knights | Champion of Titan [Crucible] (`champion_of_titan_crucible`) |
+| Grey Knights | Dreadknight Champion [Crucible] (`dreadknight_champion_crucible`) |
+| Grey Knights | Grey Knights Thunderhawk Gunship (`grey_knights_thunderhawk_gunship`) |
+| Grey Knights | Land Raider (`land_raider`) |
+| Grey Knights | Land Raider Banisher (`land_raider_banisher`) |
+| Grey Knights | Land Raider Crusader (`land_raider_crusader`) |
+| Grey Knights | Land Raider Redeemer (`land_raider_redeemer`) |
+| Grey Knights | Razorback (`razorback`) |
+| Grey Knights | Rhino (`rhino`) |
+| Grey Knights | Stormhawk Interceptor (`stormhawk_interceptor`) |
+| Grey Knights | Stormraven Gunship (`stormraven_gunship`) |
+| Grey Knights | Stormtalon Gunship (`stormtalon_gunship`) |
+| Grey Knights | Venerable Daemon Slayer [Crucible] (`venerable_daemon_slayer_crucible`) |
+| Grey Knights | Venerable Dreadnought (`venerable_dreadnought`) |
+| Imperial Agents | Cyber-mastiff (`cyber_mastiff`) |
+| Imperial Agents | Deathwatch Agent [Crucible] (`deathwatch_agent_crucible`) |
+| Imperial Agents | Deathwatch Kill Team (`deathwatch_kill_team`) |
+| Imperial Agents | Deathwatch Terminator Squad (`deathwatch_terminator_squad`) |
+| Imperial Agents | Deathwatch Veteran w/ carbine (`deathwatch_veteran_w_carbine`) |
+| Imperial Agents | Deathwatch Veteran w/ heavy thunder hammer (`deathwatch_veteran_w_heavy_thunder_hammer`) |
+| Imperial Agents | Deathwatch Veteran w/ stalker bolt rifle (`deathwatch_veteran_w_stalker_bolt_rifle`) |
+| Imperial Agents | Enthroned Agent [Crucible] (`enthroned_agent_crucible`) |
+| Imperial Agents | Fortis Kill Team (`fortis_kill_team`) |
+| Imperial Agents | Gravis Veteran w/ infernus heavy bolter (`gravis_veteran_w_infernus_heavy_bolter`) |
+| Imperial Agents | Imperial Rhino (`imperial_rhino`) |
+| Imperial Agents | Indomitor Kill Team (`indomitor_kill_team`) |
+| Imperial Agents | Inquisitor (`inquisitor`) |
+| Imperial Agents | Inquisitor Kroyle (`inquisitor_kroyle`) |
+| Imperial Agents | Inquisitorial Chimera (`inquisitorial_chimera`) |
+| Imperial Agents | Kill Team Sergeant (`kill_team_sergeant`) |
+| Imperial Agents | Martial Agent [Crucible] (`martial_agent_crucible`) |
+| Imperial Agents | Sisters of Battle Immolator (`sisters_of_battle_immolator`) |
+| Imperial Agents | Spectrus Kill Team (`spectrus_kill_team`) |
+| Imperial Fists | Captain (`captain`) |
+| Imperial Fists | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Imperial Fists | Dreadnought (`dreadnought`) |
+| Imperial Fists | Drop Pod (`drop_pod`) |
+| Imperial Fists | Hammerfall Bunker (`hammerfall_bunker`) |
+| Imperial Fists | Impulsor (`impulsor`) |
+| Imperial Fists | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Imperial Fists | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Imperial Fists | Pedro Kantor (`pedro_kantor`) |
+| Imperial Fists | Razorback (`razorback`) |
+| Imperial Fists | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Imperial Fists | Reiver Squad (`reiver_squad`) |
+| Imperial Fists | Rhino (`rhino`) |
+| Imperial Fists | Scout Squad (`scout_squad`) |
+| Imperial Fists | Suppressor Squad (`suppressor_squad`) |
+| Imperial Fists | Techmarine (`techmarine`) |
+| Imperial Fists | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Imperial Fists | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Imperial Fists | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Imperial Knights | Knight Destrier (`knight_destrier`) |
+| Iron Hands | Captain (`captain`) |
+| Iron Hands | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Iron Hands | Dreadnought (`dreadnought`) |
+| Iron Hands | Drop Pod (`drop_pod`) |
+| Iron Hands | Hammerfall Bunker (`hammerfall_bunker`) |
+| Iron Hands | Impulsor (`impulsor`) |
+| Iron Hands | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Iron Hands | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Iron Hands | Razorback (`razorback`) |
+| Iron Hands | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Iron Hands | Reiver Squad (`reiver_squad`) |
+| Iron Hands | Rhino (`rhino`) |
+| Iron Hands | Scout Squad (`scout_squad`) |
+| Iron Hands | Suppressor Squad (`suppressor_squad`) |
+| Iron Hands | Techmarine (`techmarine`) |
+| Iron Hands | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Iron Hands | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Iron Hands | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Leagues of Votann | Kapricus Carrier (`kapricus_carrier`) |
+| Leagues of Votann | Kinhost Commander [Crucible] (`kinhost_commander_crucible`) |
+| Leagues of Votann | Living Ancestor [Crucible] (`living_ancestor_crucible`) |
+| Leagues of Votann | Sagitaur (`sagitaur`) |
+| Leagues of Votann | Steeljack Elder [Crucible] (`steeljack_elder_crucible`) |
+| Necrons | C'tan Shard of the Deceiver (`ctan_shard_of_the_deceiver`) |
+| Necrons | C'tan Shard of the Nightbringer (`ctan_shard_of_the_nightbringer`) |
+| Necrons | C'tan Shard of the Void Dragon (`ctan_shard_of_the_void_dragon`) |
+| Necrons | Canoptek Macrocytes (`canoptek_macrocytes`) |
+| Necrons | Canoptek Scarab Swarms (`canoptek_scarab_swarms`) |
+| Necrons | Canoptek Tomb Crawlers (`canoptek_tomb_crawlers`) |
+| Necrons | Dynastic Conqueror [Crucible] (`dynastic_conqueror_crucible`) |
+| Necrons | Geomancer (`geomancer`) |
+| Necrons | Ghost Ark (`ghost_ark`) |
+| Necrons | Hyperscientist [Crucible] (`hyperscientist_crucible`) |
+| Necrons | Lokhust Lord (`lokhust_lord`) |
+| Necrons | Transcendent C'tan (`transcendent_ctan`) |
+| Necrons | Triarchal Overseer [Crucible] (`triarchal_overseer_crucible`) |
+| Orks | Big'ed Bossbunka (`biged_bossbunka`) |
+| Orks | Breaka Boyz (`breaka_boyz`) |
+| Orks | Burna Boy (`burna_boy`) |
+| Orks | Hordeboss [Crucible] (`hordeboss_crucible`) |
+| Orks | Loota (`loota`) |
+| Orks | Nob on Smasha Squig (`nob_on_smasha_squig`) |
+| Orks | Runtherd (`runtherd`) |
+| Orks | Spanner (`spanner`) |
+| Orks | Squighog Boy (`squighog_boy`) |
+| Orks | Tankbustas (`tankbustas`) |
+| Orks | Trukk (`trukk`) |
+| Orks | Upstart Gretchin [Crucible] (`upstart_gretchin_crucible`) |
+| Orks | Warphead [Crucible] (`warphead_crucible`) |
+| Orks | Wazdakka Gutsmek (`wazdakka_gutsmek`) |
+| Orks | Wurrboy (`wurrboy`) |
+| Raven Guard | Captain (`captain`) |
+| Raven Guard | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Raven Guard | Dreadnought (`dreadnought`) |
+| Raven Guard | Drop Pod (`drop_pod`) |
+| Raven Guard | Hammerfall Bunker (`hammerfall_bunker`) |
+| Raven Guard | Impulsor (`impulsor`) |
+| Raven Guard | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Raven Guard | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Raven Guard | Razorback (`razorback`) |
+| Raven Guard | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Raven Guard | Reiver Squad (`reiver_squad`) |
+| Raven Guard | Rhino (`rhino`) |
+| Raven Guard | Scout Squad (`scout_squad`) |
+| Raven Guard | Suppressor Squad (`suppressor_squad`) |
+| Raven Guard | Techmarine (`techmarine`) |
+| Raven Guard | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Raven Guard | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Raven Guard | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Salamanders | Captain (`captain`) |
+| Salamanders | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Salamanders | Dreadnought (`dreadnought`) |
+| Salamanders | Drop Pod (`drop_pod`) |
+| Salamanders | Hammerfall Bunker (`hammerfall_bunker`) |
+| Salamanders | Impulsor (`impulsor`) |
+| Salamanders | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Salamanders | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Salamanders | Razorback (`razorback`) |
+| Salamanders | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Salamanders | Reiver Squad (`reiver_squad`) |
+| Salamanders | Rhino (`rhino`) |
+| Salamanders | Scout Squad (`scout_squad`) |
+| Salamanders | Suppressor Squad (`suppressor_squad`) |
+| Salamanders | Techmarine (`techmarine`) |
+| Salamanders | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Salamanders | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Salamanders | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Salamanders | Vulkan He'stan (`vulkan_hestan`) |
+| Space Marines | Captain (`captain`) |
+| Space Marines | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Space Marines | Dreadnought (`dreadnought`) |
+| Space Marines | Drop Pod (`drop_pod`) |
+| Space Marines | Hammerfall Bunker (`hammerfall_bunker`) |
+| Space Marines | Impulsor (`impulsor`) |
+| Space Marines | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Space Marines | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Space Marines | Razorback (`razorback`) |
+| Space Marines | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Space Marines | Reiver Squad (`reiver_squad`) |
+| Space Marines | Rhino (`rhino`) |
+| Space Marines | Scout Squad (`scout_squad`) |
+| Space Marines | Suppressor Squad (`suppressor_squad`) |
+| Space Marines | Techmarine (`techmarine`) |
+| Space Marines | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Space Marines | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Space Marines | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Space Wolves | Captain (`captain`) |
+| Space Wolves | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Space Wolves | Dreadnought (`dreadnought`) |
+| Space Wolves | Drop Pod (`drop_pod`) |
+| Space Wolves | Hammerfall Bunker (`hammerfall_bunker`) |
+| Space Wolves | Hunting Wolves (`hunting_wolves`) |
+| Space Wolves | Impulsor (`impulsor`) |
+| Space Wolves | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Space Wolves | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Space Wolves | Razorback (`razorback`) |
+| Space Wolves | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Space Wolves | Reiver Squad (`reiver_squad`) |
+| Space Wolves | Rhino (`rhino`) |
+| Space Wolves | Scout Squad (`scout_squad`) |
+| Space Wolves | Suppressor Squad (`suppressor_squad`) |
+| Space Wolves | Techmarine (`techmarine`) |
+| Space Wolves | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Space Wolves | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Space Wolves | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| Space Wolves | Wulfen with Storm Shields (`wulfen_with_storm_shields`) |
+| T'au | AX-1-0 Tiger Shark (`ax_1_0_tiger_shark`) |
+| T'au | Battlesuit Veteran [Crucible] (`battlesuit_veteran_crucible`) |
+| T'au | Commander Farsight (`commander_farsight`) |
+| T'au | Commander in Coldstar Battlesuit (`commander_in_coldstar_battlesuit`) |
+| T'au | Commander in Enforcer Battlesuit (`commander_in_enforcer_battlesuit`) |
+| T'au | Kinband Champion [Crucible] (`kinband_champion_crucible`) |
+| T'au | Manta (`manta`) |
+| T'au | Piranha (`piranhas`) |
+| T'au | Shas'nel [Crucible] (`shasnel_crucible`) |
+| T'au | Sky Ray Gunship (`sky_ray_gunship`) |
+| T'au | Ta'unar Supremacy Armour (`taunar_supremacy_armour`) |
+| T'au | Tidewall Gunrig (`tidewall_gunrig`) |
+| T'au | Tiger Shark (`tiger_shark`) |
+| Thousand Sons | Brayherd Chieftain [Crucible] (`brayherd_chieftain_crucible`) |
+| Thousand Sons | Brayherd Shaman [Crucible] (`brayherd_shaman_crucible`) |
+| Thousand Sons | Chaos Spawn (Flesh Change) (`chaos_spawn_flesh_change`) |
+| Thousand Sons | Defiler (`defiler`) |
+| Thousand Sons | Magister [Crucible] (`magister_crucible`) |
+| Thousand Sons | Sorcerer (`sorcerer`) |
+| Tyranids | Hierophant (`hierophant`) |
+| Tyranids | Macro Organism [Crucible] (`macro_organism_crucible`) |
+| Tyranids | Mucolid Spores (Sporocyst) (`mucolid_spores_sporocyst`) |
+| Tyranids | Node Organism [Crucible] (`node_organism_crucible`) |
+| Tyranids | Prime Organism [Crucible] (`prime_organism_crucible`) |
+| Tyranids | Ripper Swarms (`ripper_swarms`) |
+| Tyranids | Ripper Swarms (Parasite of Mortrex) (`ripper_swarms_parasite_of_mortrex`) |
+| Tyranids | Spore Mines (Biovore) (`spore_mines_biovore`) |
+| Tyranids | The Red Terror (`the_red_terror`) |
+| Tyranids | Von Ryan's Leapers (`von_ryans_leapers`) |
+| Ultramarines | Captain (`captain`) |
+| Ultramarines | Captain Sicarius (`captain_sicarius`) |
+| Ultramarines | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| Ultramarines | Dreadnought (`dreadnought`) |
+| Ultramarines | Drop Pod (`drop_pod`) |
+| Ultramarines | Hammerfall Bunker (`hammerfall_bunker`) |
+| Ultramarines | Impulsor (`impulsor`) |
+| Ultramarines | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| Ultramarines | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| Ultramarines | Lieutenant Titus (`lieutenant_titus`) |
+| Ultramarines | Marneus Calgar (`marneus_calgar`) |
+| Ultramarines | Razorback (`razorback`) |
+| Ultramarines | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| Ultramarines | Reiver Squad (`reiver_squad`) |
+| Ultramarines | Rhino (`rhino`) |
+| Ultramarines | Scout Squad (`scout_squad`) |
+| Ultramarines | Suppressor Squad (`suppressor_squad`) |
+| Ultramarines | Techmarine (`techmarine`) |
+| Ultramarines | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| Ultramarines | Uriel Ventris (`uriel_ventris`) |
+| Ultramarines | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| Ultramarines | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| White Scars | Captain (`captain`) |
+| White Scars | Champion of the Chapter [Crucible] (`champion_of_the_chapter_crucible`) |
+| White Scars | Dreadnought (`dreadnought`) |
+| White Scars | Drop Pod (`drop_pod`) |
+| White Scars | Hammerfall Bunker (`hammerfall_bunker`) |
+| White Scars | Impulsor (`impulsor`) |
+| White Scars | Kor'sarro Khan (`korsarro_khan`) |
+| White Scars | Librarius Adept [Crucible] (`librarius_adept_crucible`) |
+| White Scars | Lieutenant in Reiver Armour (`lieutenant_in_reiver_armour`) |
+| White Scars | Razorback (`razorback`) |
+| White Scars | Redemptor Dreadnought (`redemptor_dreadnought`) |
+| White Scars | Reiver Squad (`reiver_squad`) |
+| White Scars | Rhino (`rhino`) |
+| White Scars | Scout Squad (`scout_squad`) |
+| White Scars | Suboden Khan (`suboden_khan`) |
+| White Scars | Suppressor Squad (`suppressor_squad`) |
+| White Scars | Techmarine (`techmarine`) |
+| White Scars | Thunderhawk Gunship (`thunderhawk_gunship`) |
+| White Scars | Vanguard Veteran Squad with Jump Packs (`vanguard_veteran_squad_with_jump_packs`) |
+| White Scars | Venerable Battle-Brother [Crucible] (`venerable_battle_brother_crucible`) |
+| World Eaters | Bloodcult Champion [Crucible] (`bloodcult_champion_crucible`) |
+| World Eaters | Butcherlord [Crucible] (`butcherlord_crucible`) |
+| World Eaters | Defiler (`defiler`) |
+| World Eaters | Eight-blessed Lord [Crucible] (`eight_blessed_lord_crucible`) |
+| World Eaters | Khârn the Betrayer (`kh_rn_the_betrayer`) |
+
 ## Known Data Quality Flags
 
 - The typed seed currently has no `kit_models` rows; model-level kit contents still require explicit variant/model expansion policy.

@@ -16,6 +16,9 @@ import {
   kitUnitPriceAllocationsDataset,
   kitUnitsDataset,
   kitsDataset,
+  rulesFactionsDataset,
+  rulesFactionUnitsDataset,
+  unitsDataset,
 } from "../db/seed_config/seed/data/_index.data";
 
 const DEFAULT_REPO_ROOT = resolve(
@@ -105,9 +108,32 @@ type KitInventory = {
   };
   duplicateCatalogSlugs: DuplicateCatalogSlug[];
   brokenMappingReferences: BrokenMappingReference[];
+  activeUnitKitCoverage: ActiveUnitKitCoverage;
   unmappedCatalogFiles: string[];
   unmappedMappingFiles: string[];
   normalizedLegacy: NormalizedLegacySummary | null;
+};
+
+type ActiveUnitKitCoverage = {
+  rows: ActiveUnitKitCoverageRow[];
+  reviewUnits: ActiveUnitKitReviewUnit[];
+};
+
+type ActiveUnitKitCoverageRow = {
+  factionName: string;
+  factionSlug: string;
+  activeUnitCount: number;
+  canonicalKitUnitCount: number;
+  legacyMappedUnitCount: number;
+  missingCanonicalKitUnitCount: number;
+  needsSourceReviewCount: number;
+};
+
+type ActiveUnitKitReviewUnit = {
+  factionName: string;
+  factionSlug: string;
+  unitName: string;
+  unitSlug: string;
 };
 
 type DuplicateCatalogSlug = {
@@ -399,6 +425,9 @@ export function buildKitDatasetInventory(
       brokenMappingReferences,
     }),
   );
+  const activeUnitKitCoverage = buildActiveUnitKitCoverage({
+    mappingFileStats,
+  });
   const mappedCatalogRelativePaths = new Set(
     TARGET_FACTION_KIT_SOURCES.flatMap((source) =>
       source.catalogFiles.map((file) => `data/kits/${file}`),
@@ -428,6 +457,7 @@ export function buildKitDatasetInventory(
     },
     duplicateCatalogSlugs: duplicateCatalogSlugs(catalogSlugFiles),
     brokenMappingReferences,
+    activeUnitKitCoverage,
     unmappedCatalogFiles: allCatalogFiles
       .map((file) => toRelativePath(repoRoot, file))
       .filter((file) => !mappedCatalogRelativePaths.has(file))
@@ -477,6 +507,10 @@ export function renderKitDatasetInventoryMarkdown(
     "These counts are from the legacy `data/kits` and `data/kit-mappings` JSON files. They are candidate source data only; they are not yet authoritative typed seed rows.",
     "",
     renderFactionCoverageTable(inventory.rows),
+    "",
+    "## Active Unit Kit Coverage",
+    "",
+    renderActiveUnitKitCoverage(inventory.activeUnitKitCoverage),
     "",
     "## Known Data Quality Flags",
     "",
@@ -627,6 +661,89 @@ function renderSourceRolesTable(inventory: KitInventory): string {
   ]);
 }
 
+function renderActiveUnitKitCoverage(coverage: ActiveUnitKitCoverage): string {
+  const totalActiveUnits = coverage.rows.reduce(
+    (sum, row) => sum + row.activeUnitCount,
+    0,
+  );
+  const totalCanonical = coverage.rows.reduce(
+    (sum, row) => sum + row.canonicalKitUnitCount,
+    0,
+  );
+  const totalLegacyCandidates = coverage.rows.reduce(
+    (sum, row) => sum + row.legacyMappedUnitCount,
+    0,
+  );
+  const totalMissingCanonical = coverage.rows.reduce(
+    (sum, row) => sum + row.missingCanonicalKitUnitCount,
+    0,
+  );
+  const totalNeedsReview = coverage.rows.reduce(
+    (sum, row) => sum + row.needsSourceReviewCount,
+    0,
+  );
+  const lines = [
+    "This compares active non-Legends rules units against canonical typed `kit_units`. Legacy mappings are counted only as review candidates; they do not make a unit canonical.",
+    "",
+    "The active-unit filter uses the `is_legends` flag and also excludes unit names containing `Legends` plus `_legendary` slugs, because some current seed rows still need a Legends flag cleanup pass.",
+    "",
+    "Space Marine chapter factions reuse the legacy Space Marines mapping candidates for shared unit review because the old mapping data was monolithic.",
+    "",
+    "Rows in `Needs source review` are not automatic data defects. They are the units that need a source-backed kit decision before we can call `kit_units` complete.",
+    "",
+    renderTable([
+      [
+        "Faction",
+        "Active units",
+        "Canonical `kit_units`",
+        "Legacy candidates",
+        "Missing canonical",
+        "Needs source review",
+      ],
+      ["---", "---:", "---:", "---:", "---:", "---:"],
+      ...coverage.rows.map((row) => [
+        escapeMarkdownTableCell(row.factionName),
+        String(row.activeUnitCount),
+        String(row.canonicalKitUnitCount),
+        String(row.legacyMappedUnitCount),
+        String(row.missingCanonicalKitUnitCount),
+        String(row.needsSourceReviewCount),
+      ]),
+      [
+        "**Total**",
+        String(totalActiveUnits),
+        String(totalCanonical),
+        String(totalLegacyCandidates),
+        String(totalMissingCanonical),
+        String(totalNeedsReview),
+      ],
+    ]),
+    "",
+    "### Units Needing Source Review",
+    "",
+  ];
+
+  if (coverage.reviewUnits.length === 0) {
+    lines.push("Every active unit has either a canonical `kit_units` row or a legacy mapping candidate.");
+    return lines.join("\n");
+  }
+
+  lines.push(
+    "These active units have neither a canonical typed `kit_units` row nor a legacy mapping candidate for their faction review path.",
+    "",
+    renderTable([
+      ["Faction", "Unit"],
+      ["---", "---"],
+      ...coverage.reviewUnits.map((unit) => [
+        escapeMarkdownTableCell(unit.factionName),
+        `${escapeMarkdownTableCell(unit.unitName)} (\`${unit.unitSlug}\`)`,
+      ]),
+    ]),
+  );
+
+  return lines.join("\n");
+}
+
 function renderLegacyCatalogSummary(inventory: KitInventory): string {
   return renderTable([
     ["Area", "Count"],
@@ -767,6 +884,173 @@ function renderQualityFlags(inventory: KitInventory): string {
   }
 
   return lines.join("\n");
+}
+
+function buildActiveUnitKitCoverage(input: {
+  mappingFileStats: MappingFileStats[];
+}): ActiveUnitKitCoverage {
+  const rulesFactionById = new Map(
+    rulesFactionsDataset.records.map((record) => [
+      record.id,
+      {
+        factionSlug: record.rules_faction_slug,
+        factionName: record.rules_faction_name,
+      },
+    ]),
+  );
+  const unitById = new Map(
+    unitsDataset.records.map((record) => [record.id, record]),
+  );
+  const canonicalKitUnitIds = new Set(
+    kitUnitsDataset.records.map((record) => record.unit_id),
+  );
+  const legacyMappedUnitSlugsByFaction = buildLegacyMappedUnitSlugsByFaction(
+    input.mappingFileStats,
+  );
+  const activeUnitsByFaction = new Map<
+    string,
+    Map<string, { unitName: string; unitSlug: string }>
+  >();
+
+  for (const record of rulesFactionUnitsDataset.records) {
+    const faction = rulesFactionById.get(record.rules_faction_id);
+    const unit = unitById.get(record.unit_id);
+
+    if (!faction || !unit || !isActiveUnit(unit)) {
+      continue;
+    }
+
+    const units = activeUnitsByFaction.get(faction.factionSlug) ?? new Map();
+    units.set(record.unit_id, {
+      unitName: unit.unit_name,
+      unitSlug: unit.unit_slug,
+    });
+    activeUnitsByFaction.set(faction.factionSlug, units);
+  }
+
+  const reviewUnits: ActiveUnitKitReviewUnit[] = [];
+  const rows = TARGET_FACTION_KIT_SOURCES.map((source) => {
+    const activeUnits = activeUnitsByFaction.get(source.factionSlug) ?? new Map();
+    const legacyMappedUnitSlugs =
+      legacyMappedUnitSlugsByFaction.get(source.factionSlug) ?? new Set();
+    let canonicalKitUnitCount = 0;
+    let legacyMappedUnitCount = 0;
+    let missingCanonicalKitUnitCount = 0;
+    let needsSourceReviewCount = 0;
+
+    for (const [unitId, unit] of activeUnits) {
+      const hasCanonicalKitUnit = canonicalKitUnitIds.has(unitId);
+      const hasLegacyCandidate = legacyMappedUnitSlugs.has(unit.unitSlug);
+
+      if (hasCanonicalKitUnit) {
+        canonicalKitUnitCount += 1;
+      } else {
+        missingCanonicalKitUnitCount += 1;
+      }
+
+      if (hasLegacyCandidate) {
+        legacyMappedUnitCount += 1;
+      }
+
+      if (!hasCanonicalKitUnit && !hasLegacyCandidate) {
+        needsSourceReviewCount += 1;
+        reviewUnits.push({
+          factionName: source.factionName,
+          factionSlug: source.factionSlug,
+          unitName: unit.unitName,
+          unitSlug: unit.unitSlug,
+        });
+      }
+    }
+
+    return {
+      factionName: source.factionName,
+      factionSlug: source.factionSlug,
+      activeUnitCount: activeUnits.size,
+      canonicalKitUnitCount,
+      legacyMappedUnitCount,
+      missingCanonicalKitUnitCount,
+      needsSourceReviewCount,
+    };
+  });
+
+  return {
+    rows,
+    reviewUnits: reviewUnits.sort((left, right) =>
+      `${left.factionName}\0${left.unitName}`.localeCompare(
+        `${right.factionName}\0${right.unitName}`,
+      ),
+    ),
+  };
+}
+
+function buildLegacyMappedUnitSlugsByFaction(
+  mappingFileStats: MappingFileStats[],
+): Map<string, Set<string>> {
+  const statsByRelativeMappingFile = new Map(
+    mappingFileStats.map((stats) => [
+      stats.filePath.split(/[\\/]/).slice(-1)[0],
+      stats,
+    ]),
+  );
+  const mappedUnitSlugsByFaction = new Map<string, Set<string>>();
+  const spaceMarineMappingSlugs =
+    statsByRelativeMappingFile.get("space-marines.json")?.unitSlugs ??
+    new Set<string>();
+
+  for (const source of TARGET_FACTION_KIT_SOURCES) {
+    const mappedSlugs = new Set<string>();
+
+    for (const mappingFile of source.mappingFiles) {
+      const fileName = mappingFile.split(/[\\/]/).slice(-1)[0];
+      const stats = statsByRelativeMappingFile.get(fileName);
+      if (!stats) {
+        continue;
+      }
+
+      for (const unitSlug of stats.unitSlugs) {
+        mappedSlugs.add(unitSlug);
+      }
+    }
+
+    if (isSpaceMarineChapterFaction(source.factionSlug)) {
+      for (const unitSlug of spaceMarineMappingSlugs) {
+        mappedSlugs.add(unitSlug);
+      }
+    }
+
+    mappedUnitSlugsByFaction.set(source.factionSlug, mappedSlugs);
+  }
+
+  return mappedUnitSlugsByFaction;
+}
+
+function isSpaceMarineChapterFaction(factionSlug: string): boolean {
+  return [
+    "black_templars",
+    "blood_angels",
+    "dark_angels",
+    "deathwatch",
+    "imperial_fists",
+    "iron_hands",
+    "raven_guard",
+    "salamanders",
+    "space_wolves",
+    "ultramarines",
+    "white_scars",
+  ].includes(factionSlug);
+}
+
+function isActiveUnit(unit: {
+  is_legends: boolean;
+  unit_name: string;
+  unit_slug: string;
+}): boolean {
+  return (
+    !unit.is_legends &&
+    !unit.unit_name.toLowerCase().includes("legends") &&
+    !unit.unit_slug.toLowerCase().includes("legendary")
+  );
 }
 
 function buildFactionRow(input: {

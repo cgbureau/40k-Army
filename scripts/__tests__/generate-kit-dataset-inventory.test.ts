@@ -23,6 +23,19 @@ describe("kit dataset inventory generator", () => {
       kitUnitPriceAllocations: 0,
       kitPrices: 631,
     });
+    expect(inventory.activeUnitKitCoverage.rows).toHaveLength(34);
+    expect(
+      inventory.activeUnitKitCoverage.rows.reduce(
+        (sum, row) => sum + row.activeUnitCount,
+        0,
+      ),
+    ).toBe(2066);
+    expect(
+      inventory.activeUnitKitCoverage.rows.reduce(
+        (sum, row) => sum + row.needsSourceReviewCount,
+        0,
+      ),
+    ).toBe(482);
     expect(inventory.normalizedLegacy?.counts.normalized_products).toBe(853);
     expect(inventory.normalizedLegacy?.counts.price_observations).toBe(7104);
   });
@@ -52,12 +65,15 @@ describe("kit dataset inventory generator", () => {
     expect(markdown).toContain("## Kit Content Evidence Gate");
     expect(markdown).toContain("## Normalized Legacy Staging");
     expect(markdown).toContain("## Faction Legacy Coverage");
+    expect(markdown).toContain("## Active Unit Kit Coverage");
+    expect(markdown).toContain("### Units Needing Source Review");
     expect(markdown).toContain("## Migration Recommendation");
     expect(markdown).toContain("| `kit_models` | 0 |");
     expect(markdown).toContain("| Normalized products | 853 |");
     expect(markdown).toContain("| `kits` | 530 |");
     expect(markdown).toContain("| `kit_prices` | 631 |");
     expect(markdown).toContain("| `kit_units` | 4 |");
+    expect(markdown).toContain("| **Total** | 2066 | 15 | 1583 | 2051 | 482 |");
     expect(markdown).toContain("TCGCSV-backed `kit_prices` rows");
     expect(markdown).toContain("`source_kind`, `source_url`, `source_text`, and `review_status`");
   });
