@@ -1,3 +1,4 @@
+import { tcgCsvImportedKitPricesDataset } from "./kit_prices/tcgcsv/_index.data";
 import type {
   KitPriceConfig,
   SeedDataset,
@@ -8,5 +9,7 @@ import type {
  */
 export const kitPricesDataset: SeedDataset<"kit_prices"> = {
   table: "kit_prices",
-  records: [] satisfies KitPriceConfig[],
+  records: [
+    ...tcgCsvImportedKitPricesDataset.records,
+  ] satisfies KitPriceConfig[],
 };

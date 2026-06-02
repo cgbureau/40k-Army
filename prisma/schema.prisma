@@ -577,8 +577,8 @@ model KitType {
   id               String    @id @default(ulid()) @db.Char(26)
   kitTypeSlug      String    @unique @map("kit_type_slug")
   kitTypeName      String    @map("kit_type_name")
-  multiUnit        Boolean   @map("multi_unit") /// true when the kit normally contains models for more than one unit
-  numberOfFactions Int       @map("number_of_factions") /// number of represented factions, useful for duel boxes and launch boxes
+  multiUnit        Boolean?  @map("multi_unit") /// true when the kit normally contains models for more than one unit; null when catalog data has not supplied reliable contents yet
+  numberOfFactions Int?      @map("number_of_factions") /// number of represented factions, useful for duel boxes and launch boxes; null when contents are unknown
   kits             Kit[]
   createdAt        DateTime  @default(now()) @map("created_at")
   updatedAt        DateTime? @updatedAt @map("updated_at")
@@ -597,11 +597,16 @@ model Kit {
   displayName             String                   @map("display_name") /// user-facing product label shown in calculator and purchase flows
   gwShortSlug             String?                  @map("gw_short_slug") /// shorter Games Workshop slug without release-year suffix when available
   gwYear                  Int?                     @map("gw_year") /// release or product-page year parsed from Games Workshop data when available
-  modelCount              Int                      @map("model_count") /// total physical model count in the boxed product
+  modelCount              Int?                     @map("model_count") /// total physical model count in the boxed product; null when catalog data has not supplied reliable contents yet
   kitType                 KitType                  @relation(fields: [kitTypeId], references: [id])
   kitTypeId               String                   @map("kit_type_id") @db.Char(26)
   gwProductUrl            String?                  @map("gw_product_url") /// source product page used for purchase links and price attribution
   gwImageUrl              String?                  @map("gw_image_url") /// source image URL used for display and future product matching
+  gwProductCode           String?                  @map("gw_product_code") /// Games Workshop product/part code when available from catalog sources
+  gwShortCode             String?                  @map("gw_short_code") /// Games Workshop short trade/catalog code when available
+  productGtin             String?                  @map("product_gtin") /// UPC/GTIN barcode value when available from catalog sources
+  tcgcsvProductId         String?                  @unique @map("tcgcsv_product_id") /// TCGCSV product identifier used for deterministic catalog imports
+  tcgcsvProductUrl        String?                  @map("tcgcsv_product_url") /// TCGCSV product URL used for price attribution and source traceability
   releaseDate             DateTime?                @map("release_date") @db.Date
   discontinuedDate        DateTime?                @map("discontinued_date") @db.Date
   kitModels               KitModel[]
@@ -612,6 +617,8 @@ model Kit {
   updatedAt               DateTime?                @updatedAt @map("updated_at")
 
   @@index([kitTypeId])
+  @@index([gwProductCode])
+  @@index([productGtin])
   @@map("kits")
 }
 

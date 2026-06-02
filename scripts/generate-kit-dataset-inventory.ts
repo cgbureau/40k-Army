@@ -484,7 +484,7 @@ export function renderKitDatasetInventoryMarkdown(
     "- Treat `kit_units` as curated compatibility data. Name matching can suggest candidates, but alternate-build kits, combat patrols, shared transports, upgrade sprues, and bundled character boxes need reviewed edges.",
     "- Treat `kit_models` as curated physical-contents data. This is the collection/purchasing bridge and should be sourced from product contents, assembly options, or manual review rather than inferred from unit names.",
     "- Treat `kit_unit_price_allocations` as derived policy data. Rows should be generated only after kit-unit edges and allocation rules are explicit.",
-    "- Keep `kit_prices` time/source oriented. It should not be split by faction because the same kit can serve multiple factions and prices change by region and observation date.",
+    "- Keep `kit_prices` time/source oriented in the schema. Generated source shards may be grouped for file size, but row identity should not depend on faction because the same kit can serve multiple factions and prices change by region and observation date.",
     "",
   ];
 
@@ -560,13 +560,13 @@ function renderSourceRolesTable(inventory: KitInventory): string {
     [
       "`kits`",
       String(inventory.currentSeed.kits),
-      `${inventory.legacyCatalog.rawRows} legacy catalog rows / ${inventory.legacyCatalog.uniqueKitSlugs} unique slugs`,
+      `TCGCSV product rows plus ${inventory.legacyCatalog.rawRows} legacy catalog rows / ${inventory.legacyCatalog.uniqueKitSlugs} unique slugs`,
       "Normalize sourceable product facts, then dedupe across shared-faction and alias files.",
     ],
     [
       "`kit_prices`",
       String(inventory.currentSeed.kitPrices),
-      `${inventory.legacyCatalog.priceObservations} legacy price observations across ${inventory.legacyCatalog.currencies.join(", ")}`,
+      `TCGCSV USD observations plus ${inventory.legacyCatalog.priceObservations} legacy price observations across ${inventory.legacyCatalog.currencies.join(", ")}`,
       "Source by region, currency, source URL, and observed date; preserve current vs superseded observations.",
     ],
     [
@@ -663,7 +663,12 @@ function renderQualityFlags(inventory: KitInventory): string {
     (row) => row.mappingFilesPresent.length === 0,
   ).length;
   const lines = [
-    "- The typed seed currently has no `kit_models` rows and no `kit_prices` rows.",
+    inventory.currentSeed.kitModels === 0
+      ? "- The typed seed currently has no `kit_models` rows; model-level kit contents still require explicit variant/model expansion policy."
+      : `- The typed seed has ${inventory.currentSeed.kitModels} source-backed \`kit_models\` rows.`,
+    inventory.currentSeed.kitPrices === 0
+      ? "- The typed seed currently has no `kit_prices` rows."
+      : `- The typed seed now has ${inventory.currentSeed.kitPrices} TCGCSV-backed \`kit_prices\` rows; legacy regional price observations remain staging input until their source semantics are normalized.`,
     "- The typed `kits` table does not carry a faction foreign key, so faction coverage for typed kit rows must be inferred through `kit_units` or kept in a separate catalog-source inventory.",
     `- Legacy catalog data has ${inventory.legacyCatalog.duplicateUniqueSlugs} duplicated kit slugs across files, representing ${inventory.legacyCatalog.duplicateRowsBeyondFirst} duplicate rows beyond the first occurrence.`,
     `- Legacy unit mappings contain ${inventory.legacyMappings.brokenReferenceCount} references that do not resolve to any legacy kit slug.`,

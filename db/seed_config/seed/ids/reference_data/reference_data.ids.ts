@@ -78,16 +78,20 @@ export const gameSizeId = (slug: GameSizeSeedSlug): string => {
  * - single_faction_multi_unit: A combined box containing multiple distinct units
  *   from a single faction (e.g. Masters of the Maelstrom, Launch Box).
  * - combat_patrol: A GW Combat Patrol box containing several units for one faction.
+ * - catalog_product_unknown_contents: A catalog product whose physical contents
+ *   have not been source-confirmed yet.
  */
 type KitTypeSeedSlug =
   | "single_faction_single_unit"
   | "single_faction_multi_unit"
-  | "combat_patrol";
+  | "combat_patrol"
+  | "catalog_product_unknown_contents";
 
 const kitTypeSeedIds: Record<KitTypeSeedSlug, string> = {
   single_faction_single_unit: "01KS81VM5EVR541FZTK8S9NDXV",
   single_faction_multi_unit: "01KS81VM5F4TG4H4EXFJV84A1Z",
   combat_patrol: "01KS81VM5F2M8820QH97FHR5WM",
+  catalog_product_unknown_contents: "01K6X6W5S341X78W6063D59MJJ",
 };
 
 export const kitTypeId = (slug: KitTypeSeedSlug): string => {

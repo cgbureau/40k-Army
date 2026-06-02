@@ -4,6 +4,7 @@ import type {
 } from "../../types/_index.types";
 import { kitId, kitTypeId } from "../ids";
 import { kitContentImportedKitsDataset } from "./kits/kit_content_imported.data";
+import { tcgCsvImportedKitsDataset } from "./kits/tcgcsv/_index.data";
 
 /**
  * Typed seed dataset for the `kits` table.
@@ -32,6 +33,11 @@ export const kitsDataset: SeedDataset<"kits"> = {
       kit_type_id: kitTypeId("single_faction_multi_unit"),
       gw_product_url: null,
       gw_image_url: null,
+      gw_product_code: null,
+      gw_short_code: null,
+      product_gtin: null,
+      tcgcsv_product_id: null,
+      tcgcsv_product_url: null,
       release_date: null,
       discontinued_date: null,
     },
@@ -47,6 +53,11 @@ export const kitsDataset: SeedDataset<"kits"> = {
       kit_type_id: kitTypeId("combat_patrol"),
       gw_product_url: null,
       gw_image_url: null,
+      gw_product_code: null,
+      gw_short_code: null,
+      product_gtin: null,
+      tcgcsv_product_id: null,
+      tcgcsv_product_url: null,
       release_date: null,
       discontinued_date: null,
     },
@@ -62,6 +73,11 @@ export const kitsDataset: SeedDataset<"kits"> = {
       kit_type_id: kitTypeId("single_faction_single_unit"),
       gw_product_url: null,
       gw_image_url: null,
+      gw_product_code: null,
+      gw_short_code: null,
+      product_gtin: null,
+      tcgcsv_product_id: null,
+      tcgcsv_product_url: null,
       release_date: null,
       discontinued_date: null,
     },
@@ -77,9 +93,15 @@ export const kitsDataset: SeedDataset<"kits"> = {
       kit_type_id: kitTypeId("single_faction_single_unit"),
       gw_product_url: null,
       gw_image_url: null,
+      gw_product_code: null,
+      gw_short_code: null,
+      product_gtin: null,
+      tcgcsv_product_id: null,
+      tcgcsv_product_url: null,
       release_date: null,
       discontinued_date: null,
     },
     ...kitContentImportedKitsDataset.records,
+    ...tcgCsvImportedKitsDataset.records,
   ] satisfies KitConfig[],
 };

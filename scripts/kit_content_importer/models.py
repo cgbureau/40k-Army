@@ -21,6 +21,13 @@ class ImportedKitContentSource:
 
 
 @dataclass(frozen=True)
+class ImportedTcgCsvRow:
+    source_file: str
+    source_kind: str
+    row: dict[str, str]
+
+
+@dataclass(frozen=True)
 class KitContentItem:
     quantity: int
     name: str
@@ -40,6 +47,17 @@ class NormalizedKitUnit:
 
 
 @dataclass(frozen=True)
+class NormalizedKitPrice:
+    seed_id_key: str
+    kit_seed_slug: str
+    currency: str
+    price: str
+    price_source: str
+    price_source_url: str | None
+    observed_date: str | None
+
+
+@dataclass(frozen=True)
 class NormalizedKitContent:
     kit_seed_slug: str
     kit_slug: str
@@ -47,14 +65,21 @@ class NormalizedKitContent:
     display_name: str
     faction_slug: str
     kit_type_slug: str
-    model_count: int
+    model_count: int | None
     gw_slug: str | None
     gw_short_slug: str | None
     gw_year: int | None
     gw_product_url: str | None
+    gw_image_url: str | None
+    gw_product_code: str | None
+    gw_short_code: str | None
+    product_gtin: str | None
+    tcgcsv_product_id: str | None
+    tcgcsv_product_url: str | None
     release_date: str | None
     source_url: str
     source_kind: KitContentSourceKind
     content_items: list[KitContentItem] = field(default_factory=list)
     kit_units: list[NormalizedKitUnit] = field(default_factory=list)
+    kit_prices: list[NormalizedKitPrice] = field(default_factory=list)
     quality_flags: list[str] = field(default_factory=list)

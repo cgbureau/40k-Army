@@ -21,6 +21,11 @@ export const CombatPatrolBlackTemplars2025Kit: KitConfig = {
   kit_type_id: kitTypeId("combat_patrol"),
   gw_product_url: "https://www.warhammer.com/en-WW/shop/combat-patrol-black-templars-2025",
   gw_image_url: null,
+  gw_product_code: null,
+  gw_short_code: null,
+  product_gtin: null,
+  tcgcsv_product_id: null,
+  tcgcsv_product_url: null,
   release_date: new Date("2025-08-09"),
   discontinued_date: null,
 };
