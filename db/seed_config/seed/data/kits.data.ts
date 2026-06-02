@@ -3,6 +3,7 @@ import type {
   SeedDataset,
 } from "../../types/_index.types";
 import { kitId, kitTypeId } from "../ids";
+import { kitContentImportedKitsDataset } from "./kits/kit_content_imported.data";
 
 /**
  * Typed seed dataset for the `kits` table.
@@ -79,5 +80,6 @@ export const kitsDataset: SeedDataset<"kits"> = {
       release_date: null,
       discontinued_date: null,
     },
+    ...kitContentImportedKitsDataset.records,
   ] satisfies KitConfig[],
 };

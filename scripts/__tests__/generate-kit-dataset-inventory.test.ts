@@ -17,9 +17,9 @@ describe("kit dataset inventory generator", () => {
     expect(inventory.legacyMappings.mappingEntries).toBe(941);
     expect(inventory.currentSeed).toEqual({
       kitTypes: 3,
-      kits: 4,
+      kits: 5,
       kitModels: 0,
-      kitUnits: 4,
+      kitUnits: 8,
       kitUnitPriceAllocations: 2,
       kitPrices: 0,
     });
@@ -54,5 +54,7 @@ describe("kit dataset inventory generator", () => {
     expect(markdown).toContain("## Migration Recommendation");
     expect(markdown).toContain("| `kit_models` | 0 |");
     expect(markdown).toContain("| Normalized products | 853 |");
+    expect(markdown).toContain("| `kits` | 5 |");
+    expect(markdown).toContain("| `kit_units` | 8 |");
   });
 });

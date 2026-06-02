@@ -9716,13 +9716,15 @@ type KitSeedSlug =
   | "masters_of_the_maelstrom_box"
   | "combat_patrol_blood_angels"
   | "intercessor_squad_box"
-  | "assault_intercessor_squad_box";
+  | "assault_intercessor_squad_box"
+  | "combat_patrol_black_templars_2025";
 
 const kitSeedIds: Record<KitSeedSlug, string> = {
   masters_of_the_maelstrom_box: "01KS81VM5FY9CB72APED1E3EQJ",
   combat_patrol_blood_angels: "01KS81VM5FHG3GT1D8ZG9VYNET",
   intercessor_squad_box: "01KS81VM5F8FYSBDMMCYJQ55VJ",
   assault_intercessor_squad_box: "01KS81VM5F35A46GG6H6554PX1",
+  "combat_patrol_black_templars_2025": "01KYG2HBB8BNS1D3454G1G104E",
 };
 
 export const kitId = (slug: KitSeedSlug): string => {
@@ -9733,7 +9735,11 @@ type KitUnitSeedSlug =
   | "masters_of_the_maelstrom_box__huron_blackheart__complete_unit"
   | "masters_of_the_maelstrom_box__masters_of_the_maelstrom__complete_unit"
   | "intercessor_squad_box__intercessor_squad__complete_unit"
-  | "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit";
+  | "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit"
+  | "combat_patrol_black_templars_2025__emperors_champion__complete_unit"
+  | "combat_patrol_black_templars_2025__bladeguard_veteran_squad__complete_unit"
+  | "combat_patrol_black_templars_2025__sword_brethren_squad__complete_unit"
+  | "combat_patrol_black_templars_2025__crusader_squad__complete_unit";
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
   "masters_of_the_maelstrom_box__huron_blackheart__complete_unit":
@@ -9744,6 +9750,10 @@ const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
     "01KS81VM5FQ54Z8X3M8HRVGA7G",
   "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit":
     "01KS81VM5F6729ZGMFJSJYSC7N",
+  "combat_patrol_black_templars_2025__emperors_champion__complete_unit": "01KRWS93S0D8ABD46BWYGX01B0",
+  "combat_patrol_black_templars_2025__bladeguard_veteran_squad__complete_unit": "01K9V66GG43TJT8KY13TCQ20XF",
+  "combat_patrol_black_templars_2025__sword_brethren_squad__complete_unit": "01KTJ07NR78R1AM9X67MD14HVB",
+  "combat_patrol_black_templars_2025__crusader_squad__complete_unit": "01KAYJ1VZE6H4FK1PSV7BK2QDH",
 };
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {

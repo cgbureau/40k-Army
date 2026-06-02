@@ -1,5 +1,6 @@
 import type { KitUnitConfig, SeedDataset } from "../../types/_index.types";
 import { kitId, kitUnitId, unitId } from "../ids";
+import { kitContentImportedKitUnitsDataset } from "./kit_units/kit_content_imported.data";
 
 /**
  * Curated kit-to-unit mapping seed data.
@@ -62,5 +63,6 @@ export const kitUnitsDataset: SeedDataset<"kit_units"> = {
       effective_date: null,
       superseded_date: null,
     },
+    ...kitContentImportedKitUnitsDataset.records,
   ] satisfies KitUnitConfig[],
 };

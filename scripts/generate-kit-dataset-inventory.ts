@@ -578,7 +578,7 @@ function renderSourceRolesTable(inventory: KitInventory): string {
     [
       "`kit_models`",
       String(inventory.currentSeed.kitModels),
-      "No reliable existing source in repo",
+      "Source-backed kit contents are now applied to typed `kits` and `kit_units`; `kit_models` waits for explicit variant/model expansion policy.",
       "Curated physical model contents for collection matching and split-kit workflows.",
     ],
     [

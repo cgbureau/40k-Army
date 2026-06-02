@@ -15,10 +15,10 @@ npm run docs:kit-dataset-inventory
 | Dataset | Current typed rows | Candidate source | Target rule |
 | --- | ---: | --- | --- |
 | `kit_types` | 3 | Curated reference rows | Small controlled list; add types only when purchasing semantics require them. |
-| `kits` | 4 | 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
+| `kits` | 5 | 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
 | `kit_prices` | 0 | 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; preserve current vs superseded observations. |
-| `kit_units` | 4 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
-| `kit_models` | 0 | No reliable existing source in repo | Curated physical model contents for collection matching and split-kit workflows. |
+| `kit_units` | 8 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
+| `kit_models` | 0 | Source-backed kit contents are now applied to typed `kits` and `kit_units`; `kit_models` waits for explicit variant/model expansion policy. | Curated physical model contents for collection matching and split-kit workflows. |
 | `kit_unit_price_allocations` | 2 | Derived from kit prices plus kit-unit edges | Generate from explicit allocation policy; do not use as a replacement for kit prices. |
 
 ## Legacy Catalog Summary
