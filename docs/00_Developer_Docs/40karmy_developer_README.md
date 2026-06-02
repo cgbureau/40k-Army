@@ -7,8 +7,14 @@ This document explains the project structure for developers working on
 ## Project Shape
 
 40KArmy is a Next.js App Router application. The user-facing app is built from
-React components in `app/`, while the army, unit, kit, mapping, and price data
-is stored as JSON and CSV files in `data/`.
+React components in `app/`.
+
+The repository currently has two data areas:
+
+- `data/` is the legacy JSON/CSV data layer still used by parts of the
+  application and older scripts.
+- `db/` is the future-state data layer. It contains the Prisma-aligned,
+  Zod-validated, typed seed datasets that are replacing the legacy data tree.
 
 At a high level:
 
@@ -16,7 +22,9 @@ At a high level:
 40karmy/
 ├── app/
 ├── data/
+├── db/
 ├── docs/
+├── prisma/
 ├── public/
 ├── scripts/
 ├── package.json
@@ -75,8 +83,9 @@ These folders hold application configuration and small helper modules.
 
 ## `data/`
 
-`data/` is the project data layer. It is checked into the repository and read
-directly by the app and API routes.
+`data/` is the legacy app data layer. It is checked into the repository and is
+still read directly by parts of the app and API routes, but it is no longer the
+target shape for new 40KArmy data work.
 
 Important areas:
 
@@ -92,6 +101,45 @@ Important areas:
 
 The calculator joins unit data, kit mappings, kit metadata, and prices to
 estimate how many boxes a selected army may require and what those boxes cost.
+
+New data modeling work should not add to this tree unless the change is
+explicitly part of a legacy-app compatibility bridge.
+
+## `db/`
+
+`db/` is the current canonical seed-data workspace for future database-backed
+40KArmy behavior.
+
+Important areas:
+
+- `db/schemas/*.schema.ts` contains Zod runtime schemas in database column
+  shape.
+- `db/seed_config/types/` derives TypeScript seed types from the Zod schemas.
+- `db/seed_config/seed/data/` contains typed seed datasets. Rules datasets are
+  increasingly organized by edition and faction, for example
+  `units/10e/<faction>.data.ts` and `unit_weapons/10e/<faction>.data.ts`.
+- `db/seed_config/seed/collections/` registers datasets into seed collections
+  so coverage tests can confirm every dataset is part of the seed graph.
+- `db/seed_config/seed/ids/` stores deterministic IDs used by the typed
+  datasets.
+
+The database stack is documented in
+[`database/database-file-map.md`](database/database-file-map.md). The
+model-centered logical data model is documented in
+[`database/model-centered-data-model.md`](database/model-centered-data-model.md).
+
+## `prisma/`
+
+`prisma/` contains the database source of truth.
+
+Important areas:
+
+- `prisma/schema.prisma` defines enums, models, relationships, mapped table
+  names, and generated Prisma client output.
+- `prisma.config.ts` in the repository root configures Prisma CLI behavior.
+
+When schema fields change, keep the Prisma schema, Zod schemas, seed types,
+seed data, collection registration, tests, and docs synchronized.
 
 ## `docs/`
 
@@ -109,20 +157,32 @@ Important areas:
   iteration notes.
 - `docs/V3_CompositionNotes.md` contains V3 composition and data-model notes.
 
+The docs tree still mixes current reference material with historical planning
+notes. A future cleanup should archive legacy docs into a clearly named
+historical area while keeping current developer and database references easy to
+find.
+
 ## `scripts/`
 
-`scripts/` contains data maintenance utilities. Many current scripts are
-organized under `scripts/OLD/`, which reflects the project's historical data
-pipeline rather than active application runtime code.
+`scripts/` contains a mix of current importers and legacy data utilities. Treat
+the folder as an audit target, not as a clean source of truth.
 
-Script responsibilities include:
+Current scripts include:
 
-- synchronizing BSData-derived rules datasets;
-- validating kit registries and kit mappings;
-- detecting missing or unmapped kits;
-- merging duplicate mappings;
-- extracting or updating regional price data;
-- producing project and data coverage reports.
+- `scripts/sync-bsdata-*.py` and `scripts/bsdata_expected_counts.py` for
+  BSData-backed rules datasets.
+- `scripts/sync-kit-content.py` and `scripts/kit_content_importer/**` for
+  source-backed kit, kit-unit, kit-model, and kit-price seed data.
+- `scripts/generate-dataset-inventory.ts` and
+  `scripts/generate-kit-dataset-inventory.ts` for docs inventory reports.
+
+Legacy or transitional scripts include:
+
+- `scripts/OLD/**`.
+- Older `validate:*`, `detect:*`, `diagnose:*`, `merge:*`, and price-fetching
+  npm scripts that operate on the legacy `data/` tree.
+- `scripts/normalize-legacy-kit-data.ts`, which should be treated as a
+  one-time migration/audit helper rather than a canonical data source.
 
 The canonical list of npm entry points is in `package.json`.
 
@@ -170,23 +230,38 @@ npm run build
 
 ## Data Maintenance Commands
 
-See `package.json` for the authoritative script list. Common maintenance tasks
-include:
+See `package.json` for the authoritative script list. Current database-oriented
+maintenance tasks include:
 
 ```bash
-npm run validate:kits
-npm run validate:mappings
-npm run detect:kits
-npm run diagnose:unmapped
-npm run diagnose:faction
-npm run merge:mappings
+npm run data:sync-kit-content
+npm run docs:dataset-inventory
+npm run docs:kit-dataset-inventory
+npm run db:validate
+npx tsc --noEmit
+```
+
+BSData rules sync scripts are run directly from the repository root:
+
+```bash
+python3 scripts/sync-bsdata-core-datasets.py
+python3 scripts/sync-bsdata-rules-faction-units.py
+python3 scripts/sync-bsdata-unit-models.py
+python3 scripts/sync-bsdata-unit-profiles.py
+python3 scripts/sync-bsdata-unit-weapons.py
+python3 scripts/sync-bsdata-abilities.py
 ```
 
 ## Editing Guidelines
 
 - Keep root `README.md` focused on what the application does and how to run it.
 - Put implementation and repository-structure details in this developer README.
-- Keep data-shape changes synchronized across `data/factions`, `data/kits`, and
-  `data/kit-mappings`.
-- Prefer updating existing pipeline docs when changing data-generation behavior.
-- Run the relevant validation script after changing kit or mapping data.
+- Prefer `db/seed_config/seed/data/**` for new canonical seed data.
+- Avoid adding new legacy JSON/CSV data unless the change is explicitly for
+  compatibility with the current app runtime.
+- Keep data-shape changes synchronized across `prisma/schema.prisma`,
+  `db/schemas/*.schema.ts`, seed types, seed collections, tests, and docs.
+- Prefer updating existing database and pipeline docs when changing
+  data-generation behavior.
+- Run the relevant importer, inventory generator, TypeScript check, and Prisma
+  validation after changing typed seed data.
