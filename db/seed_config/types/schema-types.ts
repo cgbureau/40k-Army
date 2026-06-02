@@ -1,5 +1,6 @@
 import {
   abilitySchema,
+  countrySchema,
   unitAbilitySchema,
   detachmentSchema,
   rulesFactionDetachmentSchema,
@@ -57,6 +58,7 @@ import {
 // export inferred types from schemas
 export type GameEdition = z.infer<typeof gameEditionSchema>;
 export type GameSize = z.infer<typeof gameSizeSchema>;
+export type Country = z.infer<typeof countrySchema>;
 export type SuperFaction = z.infer<typeof superFactionSchema>;
 export type RulesFaction = z.infer<typeof rulesFactionSchema>;
 export type RulesSource = z.infer<typeof rulesSourceSchema>;

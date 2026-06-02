@@ -18,6 +18,7 @@
     "diagnose:faction": "tsx scripts/list-unmapped-for-faction.ts",
     "merge:mappings": "tsx scripts/merge-duplicate-kit-mappings.ts",
     "data:normalize-legacy-kits": "tsx scripts/normalize-legacy-kit-data.ts",
+    "data:sync-countries": "python3 scripts/sync-countries.py",
     "data:sync-kit-content": "python3 scripts/sync-kit-content.py",
     "docs:dataset-inventory": "tsx scripts/generate-dataset-inventory.ts",
     "docs:kit-dataset-inventory": "tsx scripts/generate-kit-dataset-inventory.ts",

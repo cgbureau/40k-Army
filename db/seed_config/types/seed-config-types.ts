@@ -1,6 +1,7 @@
 import type {
   GameEdition,
   GameSize,
+  Country,
   SuperFaction,
   RulesFaction,
   RulesSource,
@@ -61,6 +62,15 @@ export type GameEditionConfig = BaseEntityConfig &
  */
 export type GameSizeConfig = BaseEntityConfig &
   Omit<GameSize, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for country reference data.
+ *
+ * Countries use `cca2` as their database primary key. The inherited `id` field
+ * is seed-run metadata used for validation/error reporting.
+ */
+export type CountryConfig = BaseEntityConfig &
+  Omit<Country, "created_at" | "updated_at">;
 
 /**
  * Seed config shape for a top-level faction grouping.
@@ -284,6 +294,7 @@ export type PlayerCollectionModelConfig = BaseEntityConfig &
 export type SeedTableConfigMap = {
   game_editions: GameEditionConfig;
   game_sizes: GameSizeConfig;
+  countries: CountryConfig;
   super_factions: SuperFactionConfig;
   rules_factions: RulesFactionConfig;
   rules_sources: RulesSourceConfig;

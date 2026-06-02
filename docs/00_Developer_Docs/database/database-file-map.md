@@ -24,7 +24,7 @@ dry-run pipeline: registered collections build static TypeScript datasets,
 validate records with Zod table schemas, run a no-op insert stage, and summarize
 the result. It does not yet write to a database. Several reference and game-data
 datasets are now populated from importer output, including abilities, keywords,
-rules sources, rules faction sources, detachments, units, rules faction
+countries, rules sources, rules faction sources, detachments, units, rules faction
 detachments, and rules faction units.
 
 ## Relationship Graph
@@ -236,6 +236,7 @@ Prisma's generated camelCase model property names.
 | `db/seed_config/seed/import/*.ts`                                   | Reserved import pipeline modules for loading, normalizing, reporting, and converting source JSON into typed seed modules.                           | Currently empty placeholders.                                                                                                                        | No current consumers found.                                                                                                                  |
 | `db/seed_config/seed/generated/*.seed.ts`                           | Reserved generated/static seed modules from earlier planning.                                                                                       | Currently empty placeholders.                                                                                                                        | No current consumers found; active hand-written datasets live under `seed/data/*.data.ts`.                                                   |
 | `scripts/sync-bsdata-*.py` and `scripts/bsdata_expected_counts.py`  | Python importers and reporting helpers for BSData-sourced rules data.                                                                               | Parse BSData catalog XML for faction units, detachments, models, profiles, points, weapons, abilities, keywords, and expected inventory counts.      | Used manually from the repo root. Requires `BSDATA_40K_ROOT` or the default sibling checkout at `~/code/wh40k-10e`.                         |
+| `scripts/sync-countries.py` and `scripts/countries_importer/**`     | Python importer for REST Countries v4-backed country reference data.                                                                                | Fetches REST Countries v4 field batches, normalizes country records, maps v4 `geolocation` into the current `latlng` seed field, and writes typed seed data. | Used manually or through `npm run data:sync-countries` from the repo root.                                                                  |
 | `scripts/kit_content_importer/**` and `scripts/sync-kit-content.py` | Python importer for source-backed purchasable kit rows, kit prices, and kit contents.                                                               | Normalizes TCGCSV catalog rows and source-backed kit-content pages into typed seed modules.                                                          | Used manually from the repo root. Source CSVs and fetched content live outside canonical seed data until applied into typed datasets.        |
 
 The current data authoring workflow is mixed: curated reference rows can still be

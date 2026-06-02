@@ -1,5 +1,6 @@
 import {
   abilitiesDataset,
+  countriesDataset,
   gameEditionsDataset,
   gameSizesDataset,
   keywordsDataset,
@@ -13,6 +14,7 @@ import { createStaticSeedCollection } from "./utils.collection";
 const referenceDataDatasets = [
   gameEditionsDataset,
   gameSizesDataset,
+  countriesDataset,
   rulesSourcesDataset,
   abilitiesDataset,
   keywordsDataset,

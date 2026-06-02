@@ -1,4 +1,5 @@
 export * from "./abilities.data";
+export * from "./countries.data";
 export * from "./detachment_unit_keywords.data";
 export * from "./detachments.data";
 export * from "./game_editions.data";

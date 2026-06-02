@@ -171,6 +171,8 @@ Current scripts include:
 
 - `scripts/sync-bsdata-*.py` and `scripts/bsdata_expected_counts.py` for
   BSData-backed rules datasets.
+- `scripts/sync-countries.py` and `scripts/countries_importer/**` for
+  REST Countries v4-backed country reference data.
 - `scripts/sync-kit-content.py` and `scripts/kit_content_importer/**` for
   source-backed kit, kit-unit, kit-model, and kit-price seed data.
 - `scripts/generate-dataset-inventory.ts` and
@@ -234,6 +236,7 @@ See `package.json` for the authoritative script list. Current database-oriented
 maintenance tasks include:
 
 ```bash
+npm run data:sync-countries
 npm run data:sync-kit-content
 npm run docs:dataset-inventory
 npm run docs:kit-dataset-inventory

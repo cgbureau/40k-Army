@@ -1,5 +1,6 @@
 import {
   abilitySchema,
+  countrySchema,
   detachmentSchema,
   detachmentUnitKeywordSchema,
   gameEditionSchema,
@@ -77,6 +78,7 @@ type SeedTableSchemaMap = {
 export const seedTableSchemas = {
   game_editions: createSeedConfigSchema(gameEditionSchema),
   game_sizes: createSeedConfigSchema(gameSizeSchema),
+  countries: createSeedConfigSchema(countrySchema),
   super_factions: createSeedConfigSchema(superFactionSchema),
   rules_factions: createSeedConfigSchema(rulesFactionSchema),
   rules_sources: createSeedConfigSchema(rulesSourceSchema),

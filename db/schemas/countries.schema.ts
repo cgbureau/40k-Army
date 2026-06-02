@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { JsonSchema } from "@db/seed_config/_index.seed_config";
+import { JsonSchema } from "../seed_config/types/seed-util-types";
 
 export const countrySchema = z.object({
   cca2: z.string().length(2),

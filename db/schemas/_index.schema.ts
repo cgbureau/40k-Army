@@ -1,6 +1,7 @@
 // export schemas
 export * from "./abilities.schema";
 export * from "./accessType.schema";
+export * from "./countries.schema";
 export * from "./detachments.schema";
 export * from "./game.schema";
 export * from "./keywords.schema";
