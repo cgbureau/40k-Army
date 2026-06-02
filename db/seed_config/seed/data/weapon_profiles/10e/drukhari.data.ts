@@ -1097,6 +1097,23 @@ export const NeuroDisruptor10eCodexDrukhari10eEbc7B59c5e93df5WeaponProfile: Weap
 };
 
 
+export const PainSculptors10eCodexDrukhari10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("pain_sculptors__10e__codex_drukhari_10e"),
+  weapon_profile_slug: "pain_sculptors__10e__codex_drukhari_10e",
+  weapon_id: weaponId("pain_sculptors"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  range: "Melee",
+  attacks: "3",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -1,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const PairedHekatariiBlades10eCodexDrukhari10eWeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("paired_hekatarii_blades__10e__codex_drukhari_10e"),
   weapon_profile_slug: "paired_hekatarii_blades__10e__codex_drukhari_10e",
@@ -1250,6 +1267,23 @@ export const PowerWeapon10eCodexDrukhari10e96714e790fc55d6fWeaponProfile: Weapon
 };
 
 
+export const PowerWeapon10eCodexDrukhari10eF4d727c92e69E792WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("power_weapon__10e__codex_drukhari_10e__f4d7_27c9_2e69_e792"),
+  weapon_profile_slug: "power_weapon__10e__codex_drukhari_10e__f4d7_27c9_2e69_e792",
+  weapon_id: weaponId("power_weapon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "3",
+  armor_penetration: -2,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const PrismaticCannonDispersedPulse10eCodexDrukhari10eWeaponProfile: WeaponProfileConfig = {
   id: weaponProfileId("prismatic_cannon_dispersed_pulse__10e__codex_drukhari_10e"),
   weapon_profile_slug: "prismatic_cannon_dispersed_pulse__10e__codex_drukhari_10e",
@@ -1329,6 +1363,23 @@ export const RazorFan10eCodexDrukhari10eWeaponProfile: WeaponProfileConfig = {
   skill: "2+",
   strength: "3",
   armor_penetration: 0,
+  damage: "1",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const Razorflail10eCodexDrukhari10eWeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("razorflail__10e__codex_drukhari_10e"),
+  weapon_profile_slug: "razorflail__10e__codex_drukhari_10e",
+  weapon_id: weaponId("razorflail"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  range: "Melee",
+  attacks: "4",
+  skill: "3+",
+  strength: "4",
+  armor_penetration: -2,
   damage: "1",
   effective_date: null,
   superseded_date: null,
@@ -1857,6 +1908,23 @@ export const StingerPistol10eCodexDrukhari10eWeaponProfile: WeaponProfileConfig 
   strength: "2",
   armor_penetration: -1,
   damage: "D3",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const StingerPistol10eCodexDrukhari10e3abeB982D40dF9d6WeaponProfile: WeaponProfileConfig = {
+  id: weaponProfileId("stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6"),
+  weapon_profile_slug: "stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6",
+  weapon_id: weaponId("stinger_pistol"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  range: "12\"",
+  attacks: "1",
+  skill: "3+",
+  strength: "2",
+  armor_penetration: 0,
+  damage: "1",
   effective_date: null,
   superseded_date: null,
 };
@@ -2405,6 +2473,7 @@ export const drukhariWeaponProfiles10e: SeedDataset<"weapon_profiles"> = {
     MonstrousWeapons10eCodexDrukhari10eWeaponProfile,
     NeuroDisruptor10eCodexDrukhari10eWeaponProfile,
     NeuroDisruptor10eCodexDrukhari10eEbc7B59c5e93df5WeaponProfile,
+    PainSculptors10eCodexDrukhari10eWeaponProfile,
     PairedHekatariiBlades10eCodexDrukhari10eWeaponProfile,
     PairedMonstrousWeapons10eCodexDrukhari10eWeaponProfile,
     PowerSword10eCodexDrukhari10eWeaponProfile,
@@ -2414,11 +2483,13 @@ export const drukhariWeaponProfiles10e: SeedDataset<"weapon_profiles"> = {
     PowerWeapon10eCodexDrukhari10e38d49410816e3904WeaponProfile,
     PowerWeapon10eCodexDrukhari10e5693E0ef685c27daWeaponProfile,
     PowerWeapon10eCodexDrukhari10e96714e790fc55d6fWeaponProfile,
+    PowerWeapon10eCodexDrukhari10eF4d727c92e69E792WeaponProfile,
     PrismaticCannonDispersedPulse10eCodexDrukhari10eWeaponProfile,
     PrismaticCannonFocusedLances10eCodexDrukhari10eWeaponProfile,
     ProwBlade10eCodexDrukhari10eWeaponProfile,
     PulseDisintegrators10eCodexDrukhari10eWeaponProfile,
     RazorFan10eCodexDrukhari10eWeaponProfile,
+    Razorflail10eCodexDrukhari10eWeaponProfile,
     RazorwingFeathers10eCodexDrukhari10eWeaponProfile,
     RazorwingMissilesMonoscytheMissiles10eCodexDrukhari10eWeaponProfile,
     RazorwingMissilesNeurotoxinMissiles10eCodexDrukhari10eWeaponProfile,
@@ -2450,6 +2521,7 @@ export const drukhariWeaponProfiles10e: SeedDataset<"weapon_profiles"> = {
     StarBolas10eCodexDrukhari10eWeaponProfile,
     StarfangGrenadeLauncher10eCodexDrukhari10eWeaponProfile,
     StingerPistol10eCodexDrukhari10eWeaponProfile,
+    StingerPistol10eCodexDrukhari10e3abeB982D40dF9d6WeaponProfile,
     StingerPod10eCodexDrukhari10eWeaponProfile,
     StormVortexProjectorBeam10eCodexDrukhari10eWeaponProfile,
     StormVortexProjectorBlast10eCodexDrukhari10eWeaponProfile,

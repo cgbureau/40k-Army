@@ -191,6 +191,20 @@ export const Haemonculus10e1mPointCost: UnitPointCostConfig = {
 };
 
 
+export const HandOfTheArchon10e1mPointCost: UnitPointCostConfig = {
+  id: unitPointCostId("hand_of_the_archon__10e__1m"),
+  unit_point_cost_slug: "hand_of_the_archon__10e__1m",
+  unit_id: unitId("hand_of_the_archon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  unit_points: 125,
+  effective_date: new Date("2024-01-01"),
+  superseded_date: null,
+};
+
+
 export const Hellions10e10mPointCost: UnitPointCostConfig = {
   id: unitPointCostId("hellions__10e__10m"),
   unit_point_cost_slug: "hellions__10e__10m",
@@ -655,6 +669,7 @@ export const drukhariUnitPointCosts10e: SeedDataset<"unit_point_costs"> = {
     Grotesques10e12mPointCost,
     Grotesques10e1mPointCost,
     Haemonculus10e1mPointCost,
+    HandOfTheArchon10e1mPointCost,
     Hellions10e10mPointCost,
     Hellions10e5mPointCost,
     Incubi10e10mPointCost,

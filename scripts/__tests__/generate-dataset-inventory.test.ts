@@ -33,14 +33,13 @@ describe("dataset inventory generator", () => {
     ]);
   }, INVENTORY_TEST_TIMEOUT_MS);
 
-  it("distinguishes current faction-scoped file inventory from target faction presence", () => {
+  it("tracks target faction presence and BSData-backed coverage", () => {
     const inventory = buildDatasetInventory({ repoRoot: process.cwd() });
     const bloodAngels = inventory.rows.find(
       (row) => row.factionSlug === "blood_angels",
     );
 
     expect(bloodAngels).toBeDefined();
-    expect(bloodAngels?.hasDatasheetFolder).toBe(false);
     expect(bloodAngels?.cells.rules_factions.actual).toBe(1);
     expect(bloodAngels?.cells.rules_factions.expected).toBe("1");
     expect(bloodAngels?.cells.rules_faction_sources.actual).toBe(3);
@@ -70,8 +69,8 @@ describe("dataset inventory generator", () => {
     expect(markdown).toContain("# Dataset Inventory");
     expect(markdown).toContain("Cell format: `actual / expected`.");
     expect(markdown).toContain("## Expected Count Rules");
+    expect(markdown).toContain("## BSData Expected Extraction Status");
     expect(markdown).toContain("| Blood Angels | 1 / 1 |");
-    expect(markdown).toContain("- Blood Angels (`blood_angels`)");
   }, INVENTORY_TEST_TIMEOUT_MS);
 
   it("fills second-pass expected counts from the local BSData checkout", () => {
@@ -93,22 +92,22 @@ describe("dataset inventory generator", () => {
     expect(inventory.columnTotals.detachment_unit_keywords.expected).toBe("52");
     expect(inventory.columnTotals.leader_eligibilities.expected).toBe("2499");
     expect(inventory.columnTotals.leader_eligibility_keywords.expected).toBe("82");
-    expect(inventory.columnTotals.unit_keywords.actual).toBe(18645);
-    expect(inventory.columnTotals.unit_keywords.expected).toBe("18645");
-    expect(inventory.columnTotals.unit_models.actual).toBe(4681);
-    expect(inventory.columnTotals.unit_models.expected).toBe("4681");
-    expect(inventory.columnTotals.unit_point_costs.actual).toBe(3988);
-    expect(inventory.columnTotals.unit_point_costs.expected).toBe("3988");
+    expect(inventory.columnTotals.unit_keywords.actual).toBe(18651);
+    expect(inventory.columnTotals.unit_keywords.expected).toBe("18651");
+    expect(inventory.columnTotals.unit_models.actual).toBe(4690);
+    expect(inventory.columnTotals.unit_models.expected).toBe("4690");
+    expect(inventory.columnTotals.unit_point_costs.actual).toBe(3989);
+    expect(inventory.columnTotals.unit_point_costs.expected).toBe("3989");
     expect(inventory.columnTotals.unit_profiles.actual).toBe(3984);
     expect(inventory.columnTotals.unit_profiles.expected).toBe("3984");
     expect(inventory.columnTotals.unit_profile_stats.actual).toBe(23904);
     expect(inventory.columnTotals.unit_profile_stats.expected).toBe("23904");
-    expect(inventory.columnTotals.unit_weapons.actual).toBe(5854);
-    expect(inventory.columnTotals.unit_weapons.expected).toBe("5854");
-    expect(inventory.columnTotals.unit_abilities.actual).toBe(6213);
-    expect(inventory.columnTotals.unit_abilities.expected).toBe("6213");
-    expect(inventory.columnTotals.models.actual).toBe(4548);
-    expect(inventory.columnTotals.models.expected).toBe("4548");
+    expect(inventory.columnTotals.unit_weapons.actual).toBe(5870);
+    expect(inventory.columnTotals.unit_weapons.expected).toBe("5870");
+    expect(inventory.columnTotals.unit_abilities.actual).toBe(6220);
+    expect(inventory.columnTotals.unit_abilities.expected).toBe("6220");
+    expect(inventory.columnTotals.models.actual).toBe(4557);
+    expect(inventory.columnTotals.models.expected).toBe("4557");
     expect(spaceMarines?.cells.rules_faction_detachments.expected).toBe("13");
     expect(spaceMarines?.cells.detachment_unit_keywords.expected).toBe("0");
     expect(spaceMarines?.cells.leader_eligibilities.expected).toBe("122");

@@ -15,6 +15,23 @@ export const kitUnitPriceAllocationBasisSchema = z.enum([
   "market_observation",
 ]);
 
+export const kitContentSourceKindSchema = z.enum([
+  "games_workshop_product_page",
+  "games_workshop_pdf",
+  "warhammer_community_article",
+  "miniset",
+  "retailer_product_page",
+  "manual",
+  "legacy",
+  "other",
+]);
+
+export const kitContentReviewStatusSchema = z.enum([
+  "approved",
+  "needs_review",
+  "rejected",
+]);
+
 export const kitTypeSchema = z.object({
   id: z.ulid(),
   kit_type_slug: z.string(),
@@ -53,6 +70,10 @@ export const kitModelSchema = z.object({
   kit_id: z.ulid(),
   model_id: z.ulid(),
   model_count: z.number().int(),
+  source_kind: kitContentSourceKindSchema,
+  source_url: z.string().nullable(),
+  source_text: z.string(),
+  review_status: kitContentReviewStatusSchema,
   created_at: z.date(),
   updated_at: z.date().nullable(),
 });
@@ -64,6 +85,10 @@ export const kitUnitSchema = z.object({
   unit_count: z.number().int().positive(),
   model_count: z.number().int().positive(),
   component_type: kitUnitComponentTypeSchema,
+  source_kind: kitContentSourceKindSchema,
+  source_url: z.string().nullable(),
+  source_text: z.string(),
+  review_status: kitContentReviewStatusSchema,
   effective_date: z.date().nullable(),
   superseded_date: z.date().nullable(),
   created_at: z.date(),

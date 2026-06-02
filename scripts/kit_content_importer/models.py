@@ -43,6 +43,10 @@ class NormalizedKitUnit:
     unit_count: int
     model_count: int
     component_type: str
+    source_kind: str
+    source_url: str | None
+    source_text: str
+    review_status: str
     source_name: str
 
 

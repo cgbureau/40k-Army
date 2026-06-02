@@ -205,6 +205,18 @@ export const DrukhariHaemonculusRulesFactionUnit: RulesFactionUnitConfig = {
 };
 
 
+export const DrukhariHandOfTheArchonRulesFactionUnit: RulesFactionUnitConfig = {
+  id: rulesFactionUnitId("drukhari__hand_of_the_archon"),
+  rules_faction_unit_slug: "drukhari__hand_of_the_archon",
+  rules_faction_id: rulesFactionId("drukhari"),
+  unit_id: unitId("hand_of_the_archon"),
+  unit_access_type: "exclusive",
+  rules_source_id: rulesSourceId("faction_pack_drukhari_10e_v1_1"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const DrukhariHellionsRulesFactionUnit: RulesFactionUnitConfig = {
   id: rulesFactionUnitId("drukhari__hellions"),
   rules_faction_unit_slug: "drukhari__hellions",
@@ -608,6 +620,7 @@ export const drukhariRulesFactionUnits10e: SeedDataset<"rules_faction_units"> = 
     DrukhariFleshCrafterCrucibleRulesFactionUnit,
     DrukhariGrotesquesRulesFactionUnit,
     DrukhariHaemonculusRulesFactionUnit,
+    DrukhariHandOfTheArchonRulesFactionUnit,
     DrukhariHellionsRulesFactionUnit,
     DrukhariIncubiRulesFactionUnit,
     DrukhariKabaliteWarriorsRulesFactionUnit,

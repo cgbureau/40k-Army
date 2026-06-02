@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 
 /**
- * Deterministic ULID generator for unit-datasheet seed records.
+ * Deterministic ULID generator for rules-data seed records.
  *
  * IDs are derived from a SHA-256 digest of a namespace + slug so the same
  * slug always produces the same ID across seed runs. The "01K" timestamp

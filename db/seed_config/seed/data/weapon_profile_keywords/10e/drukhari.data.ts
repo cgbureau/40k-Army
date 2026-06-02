@@ -657,6 +657,22 @@ export const NeuroDisruptor10eCodexDrukhari10ePistolWeaponProfileKeyword: Weapon
 };
 
 
+export const PainSculptors10eCodexDrukhari10eAntiInfantryWeaponProfileKeyword: WeaponProfileKeywordConfig = {
+  id: weaponProfileKeywordId("pain_sculptors__10e__codex_drukhari_10e__anti_infantry"),
+  weapon_profile_id: weaponProfileId("pain_sculptors__10e__codex_drukhari_10e"),
+  keyword_id: keywordId("anti_infantry"),
+  keyword_parameter: "4+",
+};
+
+
+export const PainSculptors10eCodexDrukhari10eTwinLinkedWeaponProfileKeyword: WeaponProfileKeywordConfig = {
+  id: weaponProfileKeywordId("pain_sculptors__10e__codex_drukhari_10e__twin_linked"),
+  weapon_profile_id: weaponProfileId("pain_sculptors__10e__codex_drukhari_10e"),
+  keyword_id: keywordId("twin_linked"),
+  keyword_parameter: null,
+};
+
+
 export const PairedHekatariiBlades10eCodexDrukhari10eTwinLinkedWeaponProfileKeyword: WeaponProfileKeywordConfig = {
   id: weaponProfileKeywordId("paired_hekatarii_blades__10e__codex_drukhari_10e__twin_linked"),
   weapon_profile_id: weaponProfileId("paired_hekatarii_blades__10e__codex_drukhari_10e"),
@@ -708,6 +724,14 @@ export const PowerWeapon10eCodexDrukhari10e96714e790fc55d6fAntiInfantryWeaponPro
 export const PowerWeapon10eCodexDrukhari10eAntiInfantryWeaponProfileKeyword: WeaponProfileKeywordConfig = {
   id: weaponProfileKeywordId("power_weapon__10e__codex_drukhari_10e__anti_infantry"),
   weapon_profile_id: weaponProfileId("power_weapon__10e__codex_drukhari_10e"),
+  keyword_id: keywordId("anti_infantry"),
+  keyword_parameter: "3+",
+};
+
+
+export const PowerWeapon10eCodexDrukhari10eF4d727c92e69E792AntiInfantryWeaponProfileKeyword: WeaponProfileKeywordConfig = {
+  id: weaponProfileKeywordId("power_weapon__10e__codex_drukhari_10e__f4d7_27c9_2e69_e792__anti_infantry"),
+  weapon_profile_id: weaponProfileId("power_weapon__10e__codex_drukhari_10e__f4d7_27c9_2e69_e792"),
   keyword_id: keywordId("anti_infantry"),
   keyword_parameter: "3+",
 };
@@ -1153,6 +1177,22 @@ export const StarfangGrenadeLauncher10eCodexDrukhari10eBlastWeaponProfileKeyword
 };
 
 
+export const StingerPistol10eCodexDrukhari10e3abeB982D40dF9d6AntiInfantryWeaponProfileKeyword: WeaponProfileKeywordConfig = {
+  id: weaponProfileKeywordId("stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6__anti_infantry"),
+  weapon_profile_id: weaponProfileId("stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6"),
+  keyword_id: keywordId("anti_infantry"),
+  keyword_parameter: "2+",
+};
+
+
+export const StingerPistol10eCodexDrukhari10e3abeB982D40dF9d6PistolWeaponProfileKeyword: WeaponProfileKeywordConfig = {
+  id: weaponProfileKeywordId("stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6__pistol"),
+  weapon_profile_id: weaponProfileId("stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6"),
+  keyword_id: keywordId("pistol"),
+  keyword_parameter: null,
+};
+
+
 export const StingerPistol10eCodexDrukhari10eAntiInfantryWeaponProfileKeyword: WeaponProfileKeywordConfig = {
   id: weaponProfileKeywordId("stinger_pistol__10e__codex_drukhari_10e__anti_infantry"),
   weapon_profile_id: weaponProfileId("stinger_pistol__10e__codex_drukhari_10e"),
@@ -1565,6 +1605,8 @@ export const drukhariWeaponProfileKeywords10e: SeedDataset<"weapon_profile_keywo
     NeuroDisruptor10eCodexDrukhari10eEbc7B59c5e93df5AssaultWeaponProfileKeyword,
     NeuroDisruptor10eCodexDrukhari10eEbc7B59c5e93df5PistolWeaponProfileKeyword,
     NeuroDisruptor10eCodexDrukhari10ePistolWeaponProfileKeyword,
+    PainSculptors10eCodexDrukhari10eAntiInfantryWeaponProfileKeyword,
+    PainSculptors10eCodexDrukhari10eTwinLinkedWeaponProfileKeyword,
     PairedHekatariiBlades10eCodexDrukhari10eTwinLinkedWeaponProfileKeyword,
     PairedMonstrousWeapons10eCodexDrukhari10eTwinLinkedWeaponProfileKeyword,
     PowerSword10eCodexDrukhari10e75136efdDee3eb7DevastatingWoundsWeaponProfileKeyword,
@@ -1572,6 +1614,7 @@ export const drukhariWeaponProfileKeywords10e: SeedDataset<"weapon_profile_keywo
     PowerWeapon10eCodexDrukhari10e5693E0ef685c27daAntiInfantryWeaponProfileKeyword,
     PowerWeapon10eCodexDrukhari10e96714e790fc55d6fAntiInfantryWeaponProfileKeyword,
     PowerWeapon10eCodexDrukhari10eAntiInfantryWeaponProfileKeyword,
+    PowerWeapon10eCodexDrukhari10eF4d727c92e69E792AntiInfantryWeaponProfileKeyword,
     PowerWeapon10eCodexDrukhari10eLanceWeaponProfileKeyword,
     PowerWeapon10eCodexDrukhari10eSustainedHitsWeaponProfileKeyword,
     PrismaticCannonDispersedPulse10eCodexDrukhari10eBlastWeaponProfileKeyword,
@@ -1627,6 +1670,8 @@ export const drukhariWeaponProfileKeywords10e: SeedDataset<"weapon_profile_keywo
     SplinterstormCannon10eCodexDrukhari10eSustainedHitsWeaponProfileKeyword,
     StarfangGrenadeLauncher10eCodexDrukhari10eAssaultWeaponProfileKeyword,
     StarfangGrenadeLauncher10eCodexDrukhari10eBlastWeaponProfileKeyword,
+    StingerPistol10eCodexDrukhari10e3abeB982D40dF9d6AntiInfantryWeaponProfileKeyword,
+    StingerPistol10eCodexDrukhari10e3abeB982D40dF9d6PistolWeaponProfileKeyword,
     StingerPistol10eCodexDrukhari10eAntiInfantryWeaponProfileKeyword,
     StingerPistol10eCodexDrukhari10ePistolWeaponProfileKeyword,
     StingerPistol10eCodexDrukhari10ePrecisionWeaponProfileKeyword,

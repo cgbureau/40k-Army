@@ -10,7 +10,6 @@ export const ChaosAcastusKnightAsteriusUnit: UnitConfig = {
   unit_name: "Chaos Acastus Knight Asterius",
   unit_slug: "chaos_acastus_knight_asterius",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Acastus-Knight-Asterius",
 };
 
 
@@ -19,7 +18,6 @@ export const ChaosAcastusKnightPorphyrionUnit: UnitConfig = {
   unit_name: "Chaos Acastus Knight Porphyrion",
   unit_slug: "chaos_acastus_knight_porphyrion",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Acastus-Knight-Porphyrion",
 };
 
 
@@ -28,7 +26,6 @@ export const ChaosCerastusKnightAcheronUnit: UnitConfig = {
   unit_name: "Chaos Cerastus Knight Acheron",
   unit_slug: "chaos_cerastus_knight_acheron",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Cerastus-Knight-Acheron",
 };
 
 
@@ -37,7 +34,6 @@ export const ChaosCerastusKnightAtraposUnit: UnitConfig = {
   unit_name: "Chaos Cerastus Knight Atrapos",
   unit_slug: "chaos_cerastus_knight_atrapos",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Cerastus-Knight-Atrapos",
 };
 
 
@@ -46,7 +42,6 @@ export const ChaosCerastusKnightCastigatorUnit: UnitConfig = {
   unit_name: "Chaos Cerastus Knight Castigator",
   unit_slug: "chaos_cerastus_knight_castigator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Cerastus-Knight-Castigator",
 };
 
 
@@ -55,7 +50,6 @@ export const ChaosCerastusKnightLancerUnit: UnitConfig = {
   unit_name: "Chaos Cerastus Knight Lancer",
   unit_slug: "chaos_cerastus_knight_lancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Cerastus-Knight-Lancer",
 };
 
 
@@ -64,7 +58,6 @@ export const ChaosQuestorisKnightMagaeraUnit: UnitConfig = {
   unit_name: "Chaos Questoris Knight Magaera",
   unit_slug: "chaos_questoris_knight_magaera",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Questoris-Knight-Magaera",
 };
 
 
@@ -73,7 +66,6 @@ export const ChaosQuestorisKnightStyrixUnit: UnitConfig = {
   unit_name: "Chaos Questoris Knight Styrix",
   unit_slug: "chaos_questoris_knight_styrix",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Chaos-Questoris-Knight-Styrix",
 };
 
 
@@ -82,7 +74,6 @@ export const KnightAbominantUnit: UnitConfig = {
   unit_name: "Knight Abominant",
   unit_slug: "knight_abominant",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Knight-Abominant",
 };
 
 
@@ -91,7 +82,6 @@ export const KnightDesecratorUnit: UnitConfig = {
   unit_name: "Knight Desecrator",
   unit_slug: "knight_desecrator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Knight-Desecrator",
 };
 
 
@@ -100,7 +90,6 @@ export const KnightDespoilerUnit: UnitConfig = {
   unit_name: "Knight Despoiler",
   unit_slug: "knight_despoiler",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Knight-Despoiler",
 };
 
 
@@ -109,7 +98,6 @@ export const KnightRampagerUnit: UnitConfig = {
   unit_name: "Knight Rampager",
   unit_slug: "knight_rampager",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Knight-Rampager",
 };
 
 
@@ -118,7 +106,6 @@ export const KnightRuinatorUnit: UnitConfig = {
   unit_name: "Knight Ruinator",
   unit_slug: "knight_ruinator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Knight-Ruinator",
 };
 
 
@@ -127,7 +114,6 @@ export const KnightTyrantUnit: UnitConfig = {
   unit_name: "Knight Tyrant",
   unit_slug: "knight_tyrant",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/Knight-Tyrant",
 };
 
 
@@ -136,7 +122,6 @@ export const WarDogBrigandUnit: UnitConfig = {
   unit_name: "War Dog Brigand",
   unit_slug: "war_dog_brigand",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/War-Dog-Brigand",
 };
 
 
@@ -145,7 +130,6 @@ export const WarDogExecutionerUnit: UnitConfig = {
   unit_name: "War Dog Executioner",
   unit_slug: "war_dog_executioner",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/War-Dog-Executioner",
 };
 
 
@@ -154,7 +138,6 @@ export const WarDogHuntsmanUnit: UnitConfig = {
   unit_name: "War Dog Huntsman",
   unit_slug: "war_dog_huntsman",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/War-Dog-Huntsman",
 };
 
 
@@ -163,7 +146,6 @@ export const WarDogKarnivoreUnit: UnitConfig = {
   unit_name: "War Dog Karnivore",
   unit_slug: "war_dog_karnivore",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/War-Dog-Karnivore",
 };
 
 
@@ -172,7 +154,6 @@ export const WarDogMoiraxUnit: UnitConfig = {
   unit_name: "War Dog Moirax",
   unit_slug: "war_dog_moirax",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/War-Dog-Moirax",
 };
 
 
@@ -181,7 +162,6 @@ export const WarDogStalkerUnit: UnitConfig = {
   unit_name: "War Dog Stalker",
   unit_slug: "war_dog_stalker",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/chaos-knights/War-Dog-Stalker",
 };
 
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import shutil
 from pathlib import Path
 
 from .models import NormalizedKitContent, NormalizedKitPrice
@@ -13,9 +14,9 @@ DATA_ROOT = REPO_ROOT / "db/seed_config/seed/data"
 KITS_ROOT_PATH = DATA_ROOT / "kits.data.ts"
 KIT_UNITS_ROOT_PATH = DATA_ROOT / "kit_units.data.ts"
 KIT_PRICES_ROOT_PATH = DATA_ROOT / "kit_prices.data.ts"
-KITS_CONTENT_GENERATED_PATH = DATA_ROOT / "kits/kit_content_imported.data.ts"
+KITS_CONTENT_GENERATED_PATH = DATA_ROOT / "kits/kit_content/_index.data.ts"
 KITS_TCGCSV_GENERATED_PATH = DATA_ROOT / "kits/tcgcsv/_index.data.ts"
-KIT_UNITS_GENERATED_PATH = DATA_ROOT / "kit_units/kit_content_imported.data.ts"
+KIT_UNITS_GENERATED_PATH = DATA_ROOT / "kit_units/kit_content/_index.data.ts"
 KIT_PRICES_TCGCSV_GENERATED_PATH = DATA_ROOT / "kit_prices/tcgcsv/_index.data.ts"
 GENERATED_IDS_PATH = REPO_ROOT / "db/seed_config/seed/ids/generated_game_data.ids.ts"
 
@@ -30,9 +31,9 @@ def apply_normalized_kit_contents(
     kits_path = data_root / "kits.data.ts"
     kit_units_path = data_root / "kit_units.data.ts"
     kit_prices_path = data_root / "kit_prices.data.ts"
-    generated_content_kits_path = data_root / "kits/kit_content_imported.data.ts"
+    generated_content_kits_path = data_root / "kits/kit_content/_index.data.ts"
     generated_tcgcsv_kits_path = data_root / "kits/tcgcsv/_index.data.ts"
-    generated_kit_units_path = data_root / "kit_units/kit_content_imported.data.ts"
+    generated_kit_units_path = data_root / "kit_units/kit_content/_index.data.ts"
     generated_kit_prices_path = data_root / "kit_prices/tcgcsv/_index.data.ts"
     ids_path = repo_root / "db/seed_config/seed/ids/generated_game_data.ids.ts"
 
@@ -42,12 +43,24 @@ def apply_normalized_kit_contents(
         './kits/tcgcsv/_index.data',
     )
     replace_in_file(
+        kits_path,
+        './kits/kit_content_imported.data',
+        './kits/kit_content/_index.data',
+    )
+    replace_in_file(
+        kit_units_path,
+        './kit_units/kit_content_imported.data',
+        './kit_units/kit_content/_index.data',
+    )
+    replace_in_file(
         kit_prices_path,
         './kit_prices/tcgcsv_imported.data',
         './kit_prices/tcgcsv/_index.data',
     )
     remove_stale_generated_file(data_root / "kits/tcgcsv_imported.data.ts")
     remove_stale_generated_file(data_root / "kit_prices/tcgcsv_imported.data.ts")
+    remove_stale_generated_file(data_root / "kits/kit_content_imported.data.ts")
+    remove_stale_generated_file(data_root / "kit_units/kit_content_imported.data.ts")
 
     content_kits = [content for content in contents if not is_tcgcsv_content(content)]
     tcgcsv_contents = [content for content in contents if is_tcgcsv_content(content)]
@@ -66,21 +79,17 @@ def apply_normalized_kit_contents(
     generated_content_kits_path.parent.mkdir(parents=True, exist_ok=True)
     generated_kit_units_path.parent.mkdir(parents=True, exist_ok=True)
 
-    generated_content_kits_path.write_text(
-        render_kits_dataset(
-            contents=content_kits,
-            dataset_name="kitContentImportedKitsDataset",
-            description="Imported purchasable kit rows from source-backed kit content pages.",
-        ),
-        encoding="utf-8",
+    write_grouped_content_kits_dataset(
+        root_path=generated_content_kits_path.parent,
+        contents=content_kits,
     )
     write_grouped_kits_dataset(
         root_path=generated_tcgcsv_kits_path.parent,
         contents_by_group=group_tcgcsv_contents_by_faction(tcgcsv_kits),
     )
-    generated_kit_units_path.write_text(
-        render_kit_units_dataset(content_kits),
-        encoding="utf-8",
+    write_grouped_content_kit_units_dataset(
+        root_path=generated_kit_units_path.parent,
+        contents=content_kits,
     )
     write_grouped_kit_prices_dataset(
         root_path=generated_kit_prices_path.parent,
@@ -89,7 +98,7 @@ def apply_normalized_kit_contents(
 
     ensure_root_dataset_spread(
         path=kits_path,
-        import_line='import { kitContentImportedKitsDataset } from "./kits/kit_content_imported.data";',
+        import_line='import { kitContentImportedKitsDataset } from "./kits/kit_content/_index.data";',
         spread_line="    ...kitContentImportedKitsDataset.records,",
         config_name="KitConfig",
     )
@@ -101,7 +110,7 @@ def apply_normalized_kit_contents(
     )
     ensure_root_dataset_spread(
         path=kit_units_path,
-        import_line='import { kitContentImportedKitUnitsDataset } from "./kit_units/kit_content_imported.data";',
+        import_line='import { kitContentImportedKitUnitsDataset } from "./kit_units/kit_content/_index.data";',
         spread_line="    ...kitContentImportedKitUnitsDataset.records,",
         config_name="KitUnitConfig",
     )
@@ -210,18 +219,71 @@ def write_grouped_kits_dataset(
     )
 
 
-def render_kit_units_dataset(contents: list[NormalizedKitContent]) -> str:
+def write_grouped_content_kits_dataset(
+    *,
+    root_path: Path,
+    contents: list[NormalizedKitContent],
+) -> None:
+    reset_generated_tree(root_path)
+    dataset_imports: list[tuple[str, str]] = []
+
+    for (source_slug, faction_slug), group_contents in sorted(
+        group_content_contents_by_source_faction(contents).items(),
+    ):
+        dataset_name = (
+            "kitContentImportedKits"
+            f"{identifier_pascal_case(source_slug)}"
+            f"{identifier_pascal_case(faction_slug)}Dataset"
+        )
+        file_name = f"{source_slug}/{faction_slug}.data.ts"
+        output_path = root_path / file_name
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(
+            render_kits_dataset(
+                contents=group_contents,
+                dataset_name=dataset_name,
+                description=(
+                    "Imported purchasable kit rows from "
+                    f"{source_slug} kit content pages for {faction_slug}."
+                ),
+                type_import_path="../../../../../types/_index.types",
+                ids_import_path="../../../../ids",
+            ),
+            encoding="utf-8",
+        )
+        dataset_imports.append((dataset_name, file_name))
+
+    (root_path / "_index.data.ts").write_text(
+        render_grouped_dataset_index(
+            table_name="kits",
+            config_name="KitConfig",
+            dataset_name="kitContentImportedKitsDataset",
+            dataset_imports=dataset_imports,
+            type_import_path="../../../../types/_index.types",
+        ),
+        encoding="utf-8",
+    )
+
+
+def render_kit_units_dataset(
+    contents: list[NormalizedKitContent],
+    *,
+    dataset_name: str = "kitContentImportedKitUnitsDataset",
+    description: str = "Imported kit-to-unit rows from source-backed kit content pages.",
+    type_import_path: str = "../../../types/_index.types",
+    ids_import_path: str = "../../ids",
+) -> str:
     records = [unit for content in contents for unit in content.kit_units]
     const_names = [f"{identifier_pascal_case(record.seed_id_key)}KitUnit" for record in records]
     lines = [
         "import type {",
         "  KitUnitConfig,",
         "  SeedDataset,",
-        '} from "../../../types/_index.types";',
-        'import { kitId, kitUnitId, unitId } from "../../ids";',
+        f'}} from "{type_import_path}";',
+        f'import {{ kitId, kitUnitId, unitId }} from "{ids_import_path}";',
         "",
         "/**",
-        " * Imported kit-to-unit rows from source-backed kit content pages.",
+        f" * {description}",
         " * Generated by scripts/kit_content_importer/applyer.py.",
         " */",
         "",
@@ -237,6 +299,10 @@ def render_kit_units_dataset(contents: list[NormalizedKitContent]) -> str:
                 f"  unit_count: {record.unit_count},",
                 f"  model_count: {record.model_count},",
                 f'  component_type: {ts_string(record.component_type)},',
+                f'  source_kind: {ts_string(record.source_kind)},',
+                f'  source_url: {ts_nullable_string(record.source_url)},',
+                f'  source_text: {ts_string(record.source_text)},',
+                f'  review_status: {ts_string(record.review_status)},',
                 "  effective_date: null,",
                 "  superseded_date: null,",
                 "};",
@@ -247,13 +313,59 @@ def render_kit_units_dataset(contents: list[NormalizedKitContent]) -> str:
 
     lines.extend(
         render_dataset(
-            "kitContentImportedKitUnitsDataset",
+            dataset_name,
             "kit_units",
             const_names,
             "KitUnitConfig",
         ),
     )
     return "\n".join(lines)
+
+
+def write_grouped_content_kit_units_dataset(
+    *,
+    root_path: Path,
+    contents: list[NormalizedKitContent],
+) -> None:
+    reset_generated_tree(root_path)
+    dataset_imports: list[tuple[str, str]] = []
+
+    for (source_slug, faction_slug), group_contents in sorted(
+        group_content_contents_by_source_faction(contents).items(),
+    ):
+        dataset_name = (
+            "kitContentImportedKitUnits"
+            f"{identifier_pascal_case(source_slug)}"
+            f"{identifier_pascal_case(faction_slug)}Dataset"
+        )
+        file_name = f"{source_slug}/{faction_slug}.data.ts"
+        output_path = root_path / file_name
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        output_path.write_text(
+            render_kit_units_dataset(
+                group_contents,
+                dataset_name=dataset_name,
+                description=(
+                    "Imported kit-to-unit rows from "
+                    f"{source_slug} kit content pages for {faction_slug}."
+                ),
+                type_import_path="../../../../../types/_index.types",
+                ids_import_path="../../../../ids",
+            ),
+            encoding="utf-8",
+        )
+        dataset_imports.append((dataset_name, file_name))
+
+    (root_path / "_index.data.ts").write_text(
+        render_grouped_dataset_index(
+            table_name="kit_units",
+            config_name="KitUnitConfig",
+            dataset_name="kitContentImportedKitUnitsDataset",
+            dataset_imports=dataset_imports,
+            type_import_path="../../../../types/_index.types",
+        ),
+        encoding="utf-8",
+    )
 
 
 def render_kit_prices_dataset(
@@ -365,7 +477,7 @@ def render_grouped_dataset_index(
         [
             "",
             "/**",
-            " * Aggregates TCGCSV generated seed shards.",
+            " * Aggregates generated source-backed seed shards.",
             " * Generated by scripts/kit_content_importer/applyer.py.",
             " */",
             f'export const {dataset_name}: SeedDataset<"{table_name}"> = {{',
@@ -475,9 +587,21 @@ def update_generated_ids(
         keys=dedupe_preserve_order(kit_keys),
     )
 
-    for key in kit_unit_keys:
-        text = ensure_union_member(text, "KitUnitSeedSlug", key)
-        text = ensure_record_entry(text, "kitUnitSeedIds", key, deterministic_ulid("kit_unit", key))
+    text = rewrite_id_section(
+        text=text,
+        type_name="KitUnitSeedSlug",
+        const_name="kitUnitSeedIds",
+        namespace="kit_unit",
+        keys=dedupe_preserve_order(kit_unit_keys),
+    )
+
+    text = rewrite_id_section(
+        text=text,
+        type_name="KitUnitPriceAllocationSeedSlug",
+        const_name="kitUnitPriceAllocationSeedIds",
+        namespace="kit_unit_price_allocation",
+        keys=[],
+    )
 
     text = rewrite_id_section(
         text=text,
@@ -542,7 +666,7 @@ def rewrite_id_section(
     existing_values = read_existing_record_values(text, const_name)
     type_pattern = re.compile(rf"type {type_name} =(?P<body>.*?);", flags=re.DOTALL)
     record_pattern = re.compile(
-        rf"const {const_name}: Record<[^>]+, string> = \{{(?P<body>.*?)\n\}};",
+        rf"const {const_name}: Record<[\s\S]*?>\s*=\s*\{{(?P<body>.*?)\n\}};",
         flags=re.DOTALL,
     )
     type_match = type_pattern.search(text)
@@ -578,7 +702,7 @@ def rewrite_id_section(
 
 def read_existing_record_values(text: str, const_name: str) -> dict[str, str]:
     pattern = re.compile(
-        rf"const {const_name}: Record<[^>]+, string> = \{{(?P<body>.*?)\n\}};",
+        rf"const {const_name}: Record<[\s\S]*?>\s*=\s*\{{(?P<body>.*?)\n\}};",
         flags=re.DOTALL,
     )
     match = pattern.search(text)
@@ -593,7 +717,7 @@ def read_existing_record_values(text: str, const_name: str) -> dict[str, str]:
 
 def ensure_record_entry(text: str, const_name: str, key: str, value: str) -> str:
     pattern = re.compile(
-        rf"const {const_name}: Record<[^>]+, string> = \{{(?P<body>.*?)\n\}};",
+        rf"const {const_name}: Record<[\s\S]*?>\s*=\s*\{{(?P<body>.*?)\n\}};",
         flags=re.DOTALL,
     )
     match = pattern.search(text)
@@ -613,6 +737,7 @@ def record_type_name(const_name: str) -> str:
     return {
         "kitSeedIds": "KitSeedSlug",
         "kitUnitSeedIds": "KitUnitSeedSlug",
+        "kitUnitPriceAllocationSeedIds": "KitUnitPriceAllocationSeedSlug",
         "kitPriceSeedIds": "KitPriceSeedSlug",
     }[const_name]
 
@@ -661,8 +786,32 @@ def reset_generated_directory(path: Path) -> None:
         path.mkdir(parents=True, exist_ok=True)
 
 
+def reset_generated_tree(path: Path) -> None:
+    if path.exists():
+        shutil.rmtree(path)
+    path.mkdir(parents=True, exist_ok=True)
+
+
 def is_tcgcsv_content(content: NormalizedKitContent) -> bool:
     return content.source_kind.startswith("tcgcsv:")
+
+
+def group_content_contents_by_source_faction(
+    contents: list[NormalizedKitContent],
+) -> dict[tuple[str, str], list[NormalizedKitContent]]:
+    groups: dict[tuple[str, str], list[NormalizedKitContent]] = {}
+    for content in contents:
+        key = (
+            generated_file_slug(content.source_kind),
+            generated_file_slug(content.faction_slug or "unassigned"),
+        )
+        groups.setdefault(key, []).append(content)
+    return groups
+
+
+def generated_file_slug(value: str) -> str:
+    slug = re.sub(r"[^a-zA-Z0-9]+", "_", value.lower()).strip("_")
+    return slug or "unassigned"
 
 
 def deterministic_ulid(namespace: str, seed: str) -> str:

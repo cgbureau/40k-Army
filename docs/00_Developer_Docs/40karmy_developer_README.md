@@ -101,7 +101,7 @@ material.
 Important areas:
 
 - `docs/00_Developer_Docs/` contains current developer-facing orientation docs.
-- `docs/00_Wahapedia/` stores source reference material used during data work.
+- `docs/00_GW_Source_PDFs/` stores GW source reference material used during data work.
 - `docs/01_MVP_Docs/` contains MVP-era pipeline and UI planning notes.
 - `docs/02_V2/` contains V2 architecture, deployment, pricing, mobile UI, and
   data pipeline notes.
@@ -117,7 +117,7 @@ pipeline rather than active application runtime code.
 
 Script responsibilities include:
 
-- fetching or transforming Wahapedia-derived unit data;
+- synchronizing BSData-derived rules datasets;
 - validating kit registries and kit mappings;
 - detecting missing or unmapped kits;
 - merging duplicate mappings;

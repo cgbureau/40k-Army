@@ -23,7 +23,6 @@ UNIT_MODELS_OUTPUT_PATH = DATA_ROOT / "unit_models.data.ts"
 UNIT_MODELS_SHARD_ROOT = DATA_ROOT / "unit_models/10e"
 MODELS_OUTPUT_PATH = DATA_ROOT / "models.data.ts"
 MODELS_SHARD_ROOT = DATA_ROOT / "models"
-LEGACY_UNIT_DATASHEET_ROOT = DATA_ROOT / "unit_datasheets"
 
 
 def main() -> None:
@@ -43,7 +42,6 @@ def main() -> None:
     previous_unit_model_count = (
         count_seed_records(UNIT_MODELS_OUTPUT_PATH, "UnitModelConfig")
         + count_seed_records(UNIT_MODELS_SHARD_ROOT, "UnitModelConfig")
-        + count_seed_records(LEGACY_UNIT_DATASHEET_ROOT, "UnitModelConfig")
     )
     previous_model_count = count_seed_records(
         MODELS_OUTPUT_PATH,
@@ -52,7 +50,6 @@ def main() -> None:
 
     write_unit_model_files(group_records_by_owner(unit_models_by_slug.values()))
     write_model_files(group_records_by_owner(model_records))
-    remove_legacy_unit_model_files()
 
     print(
         {
@@ -129,14 +126,6 @@ def write_model_files(
         render_model_index(groups),
     )
     MODELS_OUTPUT_PATH.write_text(render_model_root_file())
-
-
-def remove_legacy_unit_model_files() -> None:
-    if not LEGACY_UNIT_DATASHEET_ROOT.exists():
-        return
-
-    for path in LEGACY_UNIT_DATASHEET_ROOT.glob("*/*_unit_models.data.ts"):
-        path.unlink()
 
 
 def render_unit_model_root_file() -> str:

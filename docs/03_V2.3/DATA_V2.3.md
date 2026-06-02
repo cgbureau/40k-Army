@@ -54,7 +54,7 @@ Source file:
 army-data-no-legends.json
 ```
 
-This dataset is sourced from **Wahapedia**.
+This dataset is sourced from **legacy community datasheet source**.
 
 It contains all gameplay units and points values.
 
@@ -338,7 +338,7 @@ Process:
 data/kits/{faction}.json
 ```
 
-1. Units sourced from Wahapedia.
+1. Units sourced from legacy community datasheet source.
 
 2. Assistant compares units to retail kits.
 

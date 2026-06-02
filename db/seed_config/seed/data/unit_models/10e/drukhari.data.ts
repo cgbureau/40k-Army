@@ -185,6 +185,105 @@ export const HaemonculusHaemonculusUnitModel: UnitModelConfig = {
 };
 
 
+export const HandOfTheArchonKabaliteAgentUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent"),
+  minimum_model_count: 1,
+  maximum_model_count: 9,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithHeavyWeaponUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_heavy_weapon"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_heavy_weapon"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithPainSculptorsUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_pain_sculptors"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_pain_sculptors"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithRazorflailUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_razorflail"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_razorflail"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithShardcarbineUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_shardcarbine"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_shardcarbine"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithSpecialWeaponUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_special_weapon"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_special_weapon"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithStimmNeedlerUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_stimm_needler"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_stimm_needler"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteAgentWithStingerPistolUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_agent_with_stinger_pistol"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_agent_with_stinger_pistol"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteArchsybariteUnitModel: UnitModelConfig = {
+  id: unitModelId("hand_of_the_archon__kabalite_archsybarite"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: modelId("kabalite_archsybarite"),
+  minimum_model_count: 1,
+  maximum_model_count: 1,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const HellionsHeliarchUnitModel: UnitModelConfig = {
   id: unitModelId("hellions__heliarch"),
   unit_id: unitId("hellions"),
@@ -677,6 +776,15 @@ export const drukhariUnitModels10e: SeedDataset<"unit_models"> = {
     GrotesquesGrotesqueWLiquifierUnitModel,
     GrotesquesGrotesqueWPairedMonstrousWeaponsUnitModel,
     HaemonculusHaemonculusUnitModel,
+    HandOfTheArchonKabaliteAgentUnitModel,
+    HandOfTheArchonKabaliteAgentWithHeavyWeaponUnitModel,
+    HandOfTheArchonKabaliteAgentWithPainSculptorsUnitModel,
+    HandOfTheArchonKabaliteAgentWithRazorflailUnitModel,
+    HandOfTheArchonKabaliteAgentWithShardcarbineUnitModel,
+    HandOfTheArchonKabaliteAgentWithSpecialWeaponUnitModel,
+    HandOfTheArchonKabaliteAgentWithStimmNeedlerUnitModel,
+    HandOfTheArchonKabaliteAgentWithStingerPistolUnitModel,
+    HandOfTheArchonKabaliteArchsybariteUnitModel,
     HellionsHeliarchUnitModel,
     HellionsHellionUnitModel,
     IncubiIncubiUnitModel,

@@ -493,6 +493,28 @@ export const BloodAngelsVanguardVeteranSquadKit: KitConfig = {
 };
 
 
+export const CombatPatrolBloodAngelsKit: KitConfig = {
+  id: kitId("combat_patrol_blood_angels"),
+  kit_slug: "combat-patrol-blood-angels",
+  kit_name: "Combat Patrol: Blood Angels",
+  display_name: "Combat Patrol: Blood Angels",
+  gw_slug: null,
+  gw_short_slug: null,
+  gw_year: null,
+  model_count: null,
+  kit_type_id: kitTypeId("combat_patrol"),
+  gw_product_url: null,
+  gw_image_url: "https://tcgplayer-cdn.tcgplayer.com/product/485892_200w.jpg",
+  gw_product_code: "99120101333",
+  gw_short_code: "41-25",
+  product_gtin: "5011921143085",
+  tcgcsv_product_id: "485892",
+  tcgcsv_product_url: "https://cpt.tcgcsv.com/SmV5",
+  release_date: null,
+  discontinued_date: null,
+};
+
+
 export const StartCollectingBloodAngelsKit: KitConfig = {
   id: kitId("start_collecting_blood_angels"),
   kit_slug: "start-collecting-blood-angels",
@@ -540,6 +562,7 @@ export const tcgCsvImportedKitsBloodAngelsDataset: SeedDataset<"kits"> = {
     BloodAngelsTerminatorAssaultSquadKit,
     BloodAngelsUpgradesKit,
     BloodAngelsVanguardVeteranSquadKit,
+    CombatPatrolBloodAngelsKit,
     StartCollectingBloodAngelsKit,
   ] satisfies KitConfig[],
 };

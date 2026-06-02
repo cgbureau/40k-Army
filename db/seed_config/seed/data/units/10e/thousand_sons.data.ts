@@ -10,7 +10,6 @@ export const AhrimanUnit: UnitConfig = {
   unit_name: "Ahriman",
   unit_slug: "ahriman",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Ahriman",
 };
 
 
@@ -19,7 +18,6 @@ export const BrayherdChieftainCrucibleUnit: UnitConfig = {
   unit_name: "Brayherd Chieftain [Crucible]",
   unit_slug: "brayherd_chieftain_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -28,7 +26,6 @@ export const BrayherdShamanCrucibleUnit: UnitConfig = {
   unit_name: "Brayherd Shaman [Crucible]",
   unit_slug: "brayherd_shaman_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -37,7 +34,6 @@ export const ChaosSpawnFleshChangeUnit: UnitConfig = {
   unit_name: "Chaos Spawn (Flesh Change)",
   unit_slug: "chaos_spawn_flesh_change",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -46,16 +42,14 @@ export const DaemonPrinceOfTzeentchUnit: UnitConfig = {
   unit_name: "Daemon Prince of Tzeentch",
   unit_slug: "daemon_prince_of_tzeentch",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Daemon-Prince-of-Tzeentch",
 };
 
 
 export const DaemonPrinceOfTzeentchWithWingsUnit: UnitConfig = {
   id: unitId("daemon_prince_of_tzeentch_with_wings"),
-  unit_name: "Daemon Prince of Tzeentch with Wings",
+  unit_name: "Daemon Prince of Tzeentch with wings",
   unit_slug: "daemon_prince_of_tzeentch_with_wings",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Daemon-Prince-of-Tzeentch-with-Wings",
 };
 
 
@@ -64,7 +58,6 @@ export const ExaltedSorcererUnit: UnitConfig = {
   unit_name: "Exalted Sorcerer",
   unit_slug: "exalted_sorcerer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Exalted-Sorcerer",
 };
 
 
@@ -73,7 +66,6 @@ export const ExaltedSorcererOnDiscOfTzeentchUnit: UnitConfig = {
   unit_name: "Exalted Sorcerer on Disc of Tzeentch",
   unit_slug: "exalted_sorcerer_on_disc_of_tzeentch",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Exalted-Sorcerer-on-Disc-of-Tzeentch",
 };
 
 
@@ -82,7 +74,6 @@ export const InfernalMasterUnit: UnitConfig = {
   unit_name: "Infernal Master",
   unit_slug: "infernal_master",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Infernal-Master",
 };
 
 
@@ -91,16 +82,14 @@ export const MagisterCrucibleUnit: UnitConfig = {
   unit_name: "Magister [Crucible]",
   unit_slug: "magister_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
 export const MagnusTheRedUnit: UnitConfig = {
   id: unitId("magnus_the_red"),
-  unit_name: "Magnus The Red",
+  unit_name: "Magnus the Red",
   unit_slug: "magnus_the_red",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Magnus-The-Red",
 };
 
 
@@ -109,7 +98,6 @@ export const MutalithVortexBeastUnit: UnitConfig = {
   unit_name: "Mutalith Vortex Beast",
   unit_slug: "mutalith_vortex_beast",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Mutalith-Vortex-Beast",
 };
 
 
@@ -118,7 +106,6 @@ export const ScarabOccultTerminatorsUnit: UnitConfig = {
   unit_name: "Scarab Occult Terminators",
   unit_slug: "scarab_occult_terminators",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Scarab-Occult-Terminators",
 };
 
 
@@ -127,7 +114,6 @@ export const SekhetarRobotsUnit: UnitConfig = {
   unit_name: "Sekhetar Robots",
   unit_slug: "sekhetar_robots",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Sekhetar-Robots",
 };
 
 
@@ -136,16 +122,14 @@ export const TzaangorEnlightenedUnit: UnitConfig = {
   unit_name: "Tzaangor Enlightened",
   unit_slug: "tzaangor_enlightened",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangor-Enlightened",
 };
 
 
 export const TzaangorEnlightenedWithFatecasterGreatbowsUnit: UnitConfig = {
   id: unitId("tzaangor_enlightened_with_fatecaster_greatbows"),
-  unit_name: "Tzaangor Enlightened with Fatecaster Greatbows",
+  unit_name: "Tzaangor Enlightened with Fatecaster greatbows",
   unit_slug: "tzaangor_enlightened_with_fatecaster_greatbows",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangor-Enlightened-with-Fatecaster-Greatbows",
 };
 
 
@@ -154,7 +138,6 @@ export const TzaangorShamanUnit: UnitConfig = {
   unit_name: "Tzaangor Shaman",
   unit_slug: "tzaangor_shaman",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangor-Shaman",
 };
 
 
@@ -163,7 +146,6 @@ export const TzaangorsUnit: UnitConfig = {
   unit_name: "Tzaangors",
   unit_slug: "tzaangors",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/thousand-sons/Tzaangors",
 };
 
 

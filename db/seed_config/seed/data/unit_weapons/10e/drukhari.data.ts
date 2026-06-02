@@ -1543,6 +1543,214 @@ export const HaemonculusStingerPistol10eCodexDrukhari10eUnitWeapon: UnitWeaponCo
 };
 
 
+export const HandOfTheArchonBlastPistol10eCodexDrukhari10e59c1F7b9F86c6cbbUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__blast_pistol__10e__codex_drukhari_10e__59c1_f7b9_f86c_6cbb"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("blast_pistol__10e__codex_drukhari_10e__59c1_f7b9_f86c_6cbb"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonBlaster10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__blaster__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("blaster__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonCloseCombatWeapon10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__close_combat_weapon__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("close_combat_weapon__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonDarkLance10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__dark_lance__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("dark_lance__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonPainSculptors10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__pain_sculptors__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("pain_sculptors__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonPowerWeapon10eCodexDrukhari10eF4d727c92e69E792UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__power_weapon__10e__codex_drukhari_10e__f4d7_27c9_2e69_e792"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("power_weapon__10e__codex_drukhari_10e__f4d7_27c9_2e69_e792"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonRazorflail10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__razorflail__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("razorflail__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonShardcarbine10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__shardcarbine__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("shardcarbine__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonShredder10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__shredder__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("shredder__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonSplinterCannon10eCodexDrukhari10eUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__splinter_cannon__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("splinter_cannon__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonSplinterPistol10eCodexDrukhari10e892d38c9D1ee4b337ae0463458ee7cc7UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__splinter_pistol__10e__codex_drukhari_10e__892d_38c9_d1ee_4b33__7ae0_4634_58ee_7cc7"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("splinter_pistol__10e__codex_drukhari_10e__892d_38c9_d1ee_4b33"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonSplinterPistol10eCodexDrukhari10e892d38c9D1ee4b33F4844d6201c9C694UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__splinter_pistol__10e__codex_drukhari_10e__892d_38c9_d1ee_4b33__f484_4d62_01c9_c694"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("splinter_pistol__10e__codex_drukhari_10e__892d_38c9_d1ee_4b33"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonSplinterRifle10eCodexDrukhari10e8346E94f09c24f2dUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__splinter_rifle__10e__codex_drukhari_10e__8346_e94f_09c2_4f2d"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("splinter_rifle__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonSplinterRifle10eCodexDrukhari10e9d68D076B07fA748UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__splinter_rifle__10e__codex_drukhari_10e__9d68_d076_b07f_a748"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("splinter_rifle__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonSplinterRifle10eCodexDrukhari10eD6fbD1bc0472A77aUnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__splinter_rifle__10e__codex_drukhari_10e__d6fb_d1bc_0472_a77a"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("splinter_rifle__10e__codex_drukhari_10e"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonStingerPistol10eCodexDrukhari10e3abeB982D40dF9d6UnitWeapon: UnitWeaponConfig = {
+  id: unitWeaponId("hand_of_the_archon__stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6"),
+  unit_id: unitId("hand_of_the_archon"),
+  model_id: null,
+  weapon_profile_id: weaponProfileId("stinger_pistol__10e__codex_drukhari_10e__3abe_b982_d40d_f9d6"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  is_default: true,
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const HellionsHellglaive10eCodexDrukhari10e182e65db96743e30UnitWeapon: UnitWeaponConfig = {
   id: unitWeaponId("hellions__hellglaive__10e__codex_drukhari_10e__182e_65db_9674_3e30"),
   unit_id: unitId("hellions"),
@@ -3770,6 +3978,22 @@ export const drukhariUnitWeapons10e: SeedDataset<"unit_weapons"> = {
     GrotesquesPairedMonstrousWeapons10eCodexDrukhari10eUnitWeapon,
     HaemonculusHaemonculusToolsAndScissorhands10eCodexDrukhari10eUnitWeapon,
     HaemonculusStingerPistol10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonBlastPistol10eCodexDrukhari10e59c1F7b9F86c6cbbUnitWeapon,
+    HandOfTheArchonBlaster10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonCloseCombatWeapon10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonDarkLance10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonPainSculptors10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonPowerWeapon10eCodexDrukhari10eF4d727c92e69E792UnitWeapon,
+    HandOfTheArchonRazorflail10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonShardcarbine10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonShredder10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonSplinterCannon10eCodexDrukhari10eUnitWeapon,
+    HandOfTheArchonSplinterPistol10eCodexDrukhari10e892d38c9D1ee4b337ae0463458ee7cc7UnitWeapon,
+    HandOfTheArchonSplinterPistol10eCodexDrukhari10e892d38c9D1ee4b33F4844d6201c9C694UnitWeapon,
+    HandOfTheArchonSplinterRifle10eCodexDrukhari10e8346E94f09c24f2dUnitWeapon,
+    HandOfTheArchonSplinterRifle10eCodexDrukhari10e9d68D076B07fA748UnitWeapon,
+    HandOfTheArchonSplinterRifle10eCodexDrukhari10eD6fbD1bc0472A77aUnitWeapon,
+    HandOfTheArchonStingerPistol10eCodexDrukhari10e3abeB982D40dF9d6UnitWeapon,
     HellionsHellglaive10eCodexDrukhari10e182e65db96743e30UnitWeapon,
     HellionsHellglaive10eCodexDrukhari10eA08bCdcc8d2e7cc9UnitWeapon,
     HellionsHellglaive10eCodexDrukhari10eAa4249ad9439C020UnitWeapon,

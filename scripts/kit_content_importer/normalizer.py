@@ -132,6 +132,8 @@ def normalize_imported_source(imported: ImportedKitContentSource) -> NormalizedK
             faction_slug=imported.source.faction_slug,
             kit_seed_slug=kit_seed_slug,
             item=item,
+            source_kind=imported.source.source_kind,
+            source_url=imported.source.url,
         )
         for item in content_items
     ]
@@ -239,6 +241,8 @@ def normalized_kit_unit(
     faction_slug: str,
     kit_seed_slug: str,
     item: KitContentItem,
+    source_kind: str,
+    source_url: str | None,
 ) -> NormalizedKitUnit:
     unit_slug = UNIT_ALIASES.get((faction_slug, item.normalized_name))
 
@@ -254,6 +258,10 @@ def normalized_kit_unit(
         unit_count=1,
         model_count=item.quantity,
         component_type="complete_unit",
+        source_kind=source_kind,
+        source_url=source_url,
+        source_text=item.source_text,
+        review_status="approved",
         source_name=item.name,
     )
 

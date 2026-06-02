@@ -10,34 +10,30 @@ export const AegisDefenceLineUnit: UnitConfig = {
   unit_name: "Aegis Defence Line",
   unit_slug: "aegis_defence_line",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Aegis-Defence-Line",
 };
 
 
 export const AquilaLanderUnit: UnitConfig = {
   id: unitId("aquila_lander"),
-  unit_name: "Aquila Lander",
+  unit_name: "Aquila Lander (Legends)",
   unit_slug: "aquila_lander",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Aquila-Lander",
 };
 
 
 export const ArkurianStormhammerUnit: UnitConfig = {
   id: unitId("arkurian_stormhammer"),
-  unit_name: "Arkurian Stormhammer",
+  unit_name: "Arkurian Stormhammer (Legends)",
   unit_slug: "arkurian_stormhammer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Arkurian-Stormhammer",
 };
 
 
 export const ArmageddonPatternMedusaUnit: UnitConfig = {
   id: unitId("armageddon_pattern_medusa"),
-  unit_name: "Armageddon-pattern Medusa",
+  unit_name: "Armageddon-pattern Medusa (Legends)",
   unit_slug: "armageddon_pattern_medusa",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Armageddon-pattern-Medusa",
 };
 
 
@@ -46,7 +42,6 @@ export const ArmouredSentinelsUnit: UnitConfig = {
   unit_name: "Armoured Sentinels",
   unit_slug: "armoured_sentinels",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Armoured-Sentinels",
 };
 
 
@@ -55,25 +50,22 @@ export const ArtilleryTeamUnit: UnitConfig = {
   unit_name: "Artillery Team",
   unit_slug: "artillery_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Artillery-Team",
 };
 
 
 export const ArvusLighterUnit: UnitConfig = {
   id: unitId("arvus_lighter"),
-  unit_name: "Arvus Lighter",
+  unit_name: "Arvus Lighter (Legends)",
   unit_slug: "arvus_lighter",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Arvus-Lighter",
 };
 
 
 export const AtlasRecoveryVehicleUnit: UnitConfig = {
   id: unitId("atlas_recovery_vehicle"),
-  unit_name: "Atlas Recovery Vehicle",
+  unit_name: "Atlas Recovery Vehicle (Legends)",
   unit_slug: "atlas_recovery_vehicle",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Atlas-Recovery-Vehicle",
 };
 
 
@@ -82,7 +74,6 @@ export const AttilanRoughRidersUnit: UnitConfig = {
   unit_name: "Attilan Rough Riders",
   unit_slug: "attilan_rough_riders",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Attilan-Rough-Riders",
 };
 
 
@@ -91,7 +82,6 @@ export const AugmentedBoneEadCrucibleUnit: UnitConfig = {
   unit_name: "Augmented Bone 'Ead [Crucible]",
   unit_slug: "augmented_bone_ead_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -100,7 +90,6 @@ export const AvengerStrikeFighterUnit: UnitConfig = {
   unit_name: "Avenger Strike Fighter",
   unit_slug: "avenger_strike_fighter",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Avenger-Strike-Fighter",
 };
 
 
@@ -109,7 +98,6 @@ export const BanebladeUnit: UnitConfig = {
   unit_name: "Baneblade",
   unit_slug: "baneblade",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Baneblade",
 };
 
 
@@ -118,7 +106,6 @@ export const BanehammerUnit: UnitConfig = {
   unit_name: "Banehammer",
   unit_slug: "banehammer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Banehammer",
 };
 
 
@@ -127,7 +114,6 @@ export const BaneswordUnit: UnitConfig = {
   unit_name: "Banesword",
   unit_slug: "banesword",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Banesword",
 };
 
 
@@ -136,7 +122,6 @@ export const BasiliskUnit: UnitConfig = {
   unit_name: "Basilisk",
   unit_slug: "basilisk",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Basilisk",
 };
 
 
@@ -145,7 +130,6 @@ export const BullgrynSquadUnit: UnitConfig = {
   unit_name: "Bullgryn Squad",
   unit_slug: "bullgryn_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Bullgryn-Squad",
 };
 
 
@@ -154,7 +138,6 @@ export const CadianCastellanUnit: UnitConfig = {
   unit_name: "Cadian Castellan",
   unit_slug: "cadian_castellan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Castellan",
 };
 
 
@@ -163,7 +146,6 @@ export const CadianCommandSquadUnit: UnitConfig = {
   unit_name: "Cadian Command Squad",
   unit_slug: "cadian_command_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Command-Squad",
 };
 
 
@@ -172,7 +154,6 @@ export const CadianHeavyWeaponsSquadUnit: UnitConfig = {
   unit_name: "Cadian Heavy Weapons Squad",
   unit_slug: "cadian_heavy_weapons_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Heavy-Weapons-Squad",
 };
 
 
@@ -181,7 +162,6 @@ export const CadianReconSquadUnit: UnitConfig = {
   unit_name: "Cadian Recon Squad",
   unit_slug: "cadian_recon_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Recon-Squad",
 };
 
 
@@ -190,16 +170,14 @@ export const CadianShockTroopsUnit: UnitConfig = {
   unit_name: "Cadian Shock Troops",
   unit_slug: "cadian_shock_troops",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cadian-Shock-Troops",
 };
 
 
 export const CarnodonUnit: UnitConfig = {
   id: unitId("carnodon"),
-  unit_name: "Carnodon",
+  unit_name: "Carnodon (Legends)",
   unit_slug: "carnodon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Carnodon",
 };
 
 
@@ -208,7 +186,6 @@ export const CatachanCommandSquadUnit: UnitConfig = {
   unit_name: "Catachan Command Squad",
   unit_slug: "catachan_command_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Catachan-Command-Squad",
 };
 
 
@@ -217,7 +194,6 @@ export const CatachanHeavyWeaponsSquadUnit: UnitConfig = {
   unit_name: "Catachan Heavy Weapons Squad",
   unit_slug: "catachan_heavy_weapons_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Catachan-Heavy-Weapons-Squad",
 };
 
 
@@ -226,16 +202,14 @@ export const CatachanJungleFightersUnit: UnitConfig = {
   unit_name: "Catachan Jungle Fighters",
   unit_slug: "catachan_jungle_fighters",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Catachan-Jungle-Fighters",
 };
 
 
 export const CentaurLightCarrierUnit: UnitConfig = {
   id: unitId("centaur_light_carrier"),
-  unit_name: "Centaur Light Carrier",
+  unit_name: "Centaur Light Carrier (Legends)",
   unit_slug: "centaur_light_carrier",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Centaur-Light-Carrier",
 };
 
 
@@ -244,7 +218,6 @@ export const CentaurRsvUnit: UnitConfig = {
   unit_name: "Centaur RSV",
   unit_slug: "centaur_rsv",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Centaur-RSV",
 };
 
 
@@ -253,16 +226,14 @@ export const ChimeraUnit: UnitConfig = {
   unit_name: "Chimera",
   unit_slug: "chimera",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Chimera",
 };
 
 
 export const ColossusUnit: UnitConfig = {
   id: unitId("colossus"),
-  unit_name: "Colossus",
+  unit_name: "Colossus (Legends)",
   unit_slug: "colossus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Colossus",
 };
 
 
@@ -271,7 +242,6 @@ export const CommissarUnit: UnitConfig = {
   unit_name: "Commissar",
   unit_slug: "commissar",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Commissar",
 };
 
 
@@ -280,7 +250,6 @@ export const CommissarGravesUnit: UnitConfig = {
   unit_name: "Commissar Graves",
   unit_slug: "commissar_graves",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Commissar-Graves",
 };
 
 
@@ -289,7 +258,6 @@ export const CommissarGravesOnFootUnit: UnitConfig = {
   unit_name: "Commissar Graves on Foot",
   unit_slug: "commissar_graves_on_foot",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Commissar-Graves-on-Foot",
 };
 
 
@@ -298,16 +266,14 @@ export const CommissarYarrickUnit: UnitConfig = {
   unit_name: "Commissar Yarrick",
   unit_slug: "commissar_yarrick",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Commissar-Yarrick",
 };
 
 
 export const CrassusUnit: UnitConfig = {
   id: unitId("crassus"),
-  unit_name: "Crassus",
+  unit_name: "Crassus (Legends)",
   unit_slug: "crassus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Crassus",
 };
 
 
@@ -316,34 +282,30 @@ export const CyclopsDemolitionVehicleUnit: UnitConfig = {
   unit_name: "Cyclops Demolition Vehicle",
   unit_slug: "cyclops_demolition_vehicle",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Cyclops-Demolition-Vehicle",
 };
 
 
 export const DeathKorpsGrenadierSquadUnit: UnitConfig = {
   id: unitId("death_korps_grenadier_squad"),
-  unit_name: "Death Korps Grenadier Squad",
+  unit_name: "Death Korps Grenadier Squad (Legends)",
   unit_slug: "death_korps_grenadier_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Death-Korps-Grenadier-Squad",
 };
 
 
 export const DeathKorpsOfKriegUnit: UnitConfig = {
   id: unitId("death_korps_of_krieg"),
-  unit_name: "Death Korps Of Krieg",
+  unit_name: "Death Korps of Krieg",
   unit_slug: "death_korps_of_krieg",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Death-Korps-Of-Krieg",
 };
 
 
 export const DeathRiderCommissarUnit: UnitConfig = {
   id: unitId("death_rider_commissar"),
-  unit_name: "Death Rider Commissar",
+  unit_name: "Death Rider Commissar (Legends)",
   unit_slug: "death_rider_commissar",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Death-Rider-Commissar",
 };
 
 
@@ -352,7 +314,6 @@ export const DeathRidersUnit: UnitConfig = {
   unit_name: "Death Riders",
   unit_slug: "death_riders",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Death-Riders",
 };
 
 
@@ -361,16 +322,14 @@ export const DeathstrikeUnit: UnitConfig = {
   unit_name: "Deathstrike",
   unit_slug: "deathstrike",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Deathstrike",
 };
 
 
 export const DominusArmouredSiegeBombardUnit: UnitConfig = {
   id: unitId("dominus_armoured_siege_bombard"),
-  unit_name: "Dominus Armoured Siege Bombard",
+  unit_name: "Dominus Armoured Siege Bombard (Legends)",
   unit_slug: "dominus_armoured_siege_bombard",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Dominus-Armoured-Siege-Bombard",
 };
 
 
@@ -379,43 +338,38 @@ export const DoomhammerUnit: UnitConfig = {
   unit_name: "Doomhammer",
   unit_slug: "doomhammer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Doomhammer",
 };
 
 
 export const EarthshakerCarriageBatteryUnit: UnitConfig = {
   id: unitId("earthshaker_carriage_battery"),
-  unit_name: "Earthshaker Carriage Battery",
+  unit_name: "Earthshaker Carriage Battery (Legends)",
   unit_slug: "earthshaker_carriage_battery",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Earthshaker-Carriage-Battery",
 };
 
 
 export const EarthshakerPlatformUnit: UnitConfig = {
   id: unitId("earthshaker_platform"),
-  unit_name: "Earthshaker Platform",
+  unit_name: "Earthshaker Platform (Legends)",
   unit_slug: "earthshaker_platform",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Earthshaker-Platform",
 };
 
 
 export const ElysianDropSentinelUnit: UnitConfig = {
   id: unitId("elysian_drop_sentinel"),
-  unit_name: "Elysian Drop Sentinel",
+  unit_name: "Elysian Drop Sentinel (Legends)",
   unit_slug: "elysian_drop_sentinel",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Elysian-Drop-Sentinel",
 };
 
 
 export const ElysianSniperSquadUnit: UnitConfig = {
   id: unitId("elysian_sniper_squad"),
-  unit_name: "Elysian Sniper Squad",
+  unit_name: "Elysian Sniper Squad (Legends)",
   unit_slug: "elysian_sniper_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Elysian-Sniper-Squad",
 };
 
 
@@ -424,7 +378,6 @@ export const FieldOrdnanceBatteryUnit: UnitConfig = {
   unit_name: "Field Ordnance Battery",
   unit_slug: "field_ordnance_battery",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Field-Ordnance-Battery",
 };
 
 
@@ -433,7 +386,6 @@ export const FrontLineCommanderCrucibleUnit: UnitConfig = {
   unit_name: "Front-line Commander [Crucible]",
   unit_slug: "front_line_commander_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -442,52 +394,46 @@ export const GauntsGhostsUnit: UnitConfig = {
   unit_name: "Gaunt\u2019s Ghosts",
   unit_slug: "gaunts_ghosts",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gaunt-s-Ghosts",
 };
 
 
 export const GorgonHeavyTransportUnit: UnitConfig = {
   id: unitId("gorgon_heavy_transport"),
-  unit_name: "Gorgon Heavy Transport",
+  unit_name: "Gorgon Heavy Transport (Legends)",
   unit_slug: "gorgon_heavy_transport",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Gorgon-Heavy-Transport",
 };
 
 
 export const GriffonMortarCarrierUnit: UnitConfig = {
   id: unitId("griffon_mortar_carrier"),
-  unit_name: "Griffon Mortar Carrier",
+  unit_name: "Griffon Mortar Carrier (Legends)",
   unit_slug: "griffon_mortar_carrier",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Griffon-Mortar-Carrier",
 };
 
 
 export const HadesBreachingDrillUnit: UnitConfig = {
   id: unitId("hades_breaching_drill"),
-  unit_name: "Hades Breaching Drill",
+  unit_name: "Hades Breaching Drill (Legends)",
   unit_slug: "hades_breaching_drill",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hades-Breaching-Drill",
 };
 
 
 export const HeavyMortarTeamUnit: UnitConfig = {
   id: unitId("heavy_mortar_team"),
-  unit_name: "Heavy Mortar Team",
+  unit_name: "Heavy Mortar Team (Legends)",
   unit_slug: "heavy_mortar_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Heavy-Mortar-Team",
 };
 
 
 export const HeavyQuadLauncherTeamUnit: UnitConfig = {
   id: unitId("heavy_quad_launcher_team"),
-  unit_name: "Heavy Quad Launcher Team",
+  unit_name: "Heavy Quad Launcher Team (Legends)",
   unit_slug: "heavy_quad_launcher_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Heavy-Quad-Launcher-Team",
 };
 
 
@@ -496,7 +442,6 @@ export const HellhammerUnit: UnitConfig = {
   unit_name: "Hellhammer",
   unit_slug: "hellhammer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hellhammer",
 };
 
 
@@ -505,16 +450,14 @@ export const HellhoundUnit: UnitConfig = {
   unit_name: "Hellhound",
   unit_slug: "hellhound",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hellhound",
 };
 
 
 export const HellsLastUnit: UnitConfig = {
   id: unitId("hells_last"),
-  unit_name: "Hell\u2019s Last",
+  unit_name: "Hell's Last (Legends)",
   unit_slug: "hells_last",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hell-s-Last",
 };
 
 
@@ -523,7 +466,6 @@ export const HippogriffAfvUnit: UnitConfig = {
   unit_name: "Hippogriff AFV",
   unit_slug: "hippogriff_afv",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hippogriff-AFV",
 };
 
 
@@ -532,25 +474,22 @@ export const HydraUnit: UnitConfig = {
   unit_name: "Hydra",
   unit_slug: "hydra",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hydra",
 };
 
 
 export const HydraPlatformUnit: UnitConfig = {
   id: unitId("hydra_platform"),
-  unit_name: "Hydra Platform",
+  unit_name: "Hydra Platform (Legends)",
   unit_slug: "hydra_platform",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Hydra-Platform",
 };
 
 
 export const IronHandStrakenUnit: UnitConfig = {
   id: unitId("iron_hand_straken"),
-  unit_name: "\u2018Iron Hand\u2019 Straken",
+  unit_name: "\u2018Iron Hand\u2019 Straken (Legends)",
   unit_slug: "iron_hand_straken",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Iron-Hand-Straken",
 };
 
 
@@ -559,7 +498,6 @@ export const KasrkinUnit: UnitConfig = {
   unit_name: "Kasrkin",
   unit_slug: "kasrkin",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Kasrkin",
 };
 
 
@@ -568,7 +506,6 @@ export const KriegCombatEngineersUnit: UnitConfig = {
   unit_name: "Krieg Combat Engineers",
   unit_slug: "krieg_combat_engineers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Krieg-Combat-Engineers",
 };
 
 
@@ -577,7 +514,6 @@ export const KriegCommandSquadUnit: UnitConfig = {
   unit_name: "Krieg Command Squad",
   unit_slug: "krieg_command_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Krieg-Command-Squad",
 };
 
 
@@ -586,7 +522,6 @@ export const KriegHeavyWeaponsSquadUnit: UnitConfig = {
   unit_name: "Krieg Heavy Weapons Squad",
   unit_slug: "krieg_heavy_weapons_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Krieg-Heavy-Weapons-Squad",
 };
 
 
@@ -595,7 +530,6 @@ export const LemanRussBattleTankUnit: UnitConfig = {
   unit_name: "Leman Russ Battle Tank",
   unit_slug: "leman_russ_battle_tank",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Battle-Tank",
 };
 
 
@@ -604,7 +538,6 @@ export const LemanRussCommanderUnit: UnitConfig = {
   unit_name: "Leman Russ Commander",
   unit_slug: "leman_russ_commander",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Commander",
 };
 
 
@@ -613,7 +546,6 @@ export const LemanRussDemolisherUnit: UnitConfig = {
   unit_name: "Leman Russ Demolisher",
   unit_slug: "leman_russ_demolisher",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Demolisher",
 };
 
 
@@ -622,7 +554,6 @@ export const LemanRussEradicatorUnit: UnitConfig = {
   unit_name: "Leman Russ Eradicator",
   unit_slug: "leman_russ_eradicator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Eradicator",
 };
 
 
@@ -631,7 +562,6 @@ export const LemanRussExecutionerUnit: UnitConfig = {
   unit_name: "Leman Russ Executioner",
   unit_slug: "leman_russ_executioner",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Executioner",
 };
 
 
@@ -640,7 +570,6 @@ export const LemanRussExterminatorUnit: UnitConfig = {
   unit_name: "Leman Russ Exterminator",
   unit_slug: "leman_russ_exterminator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Exterminator",
 };
 
 
@@ -649,7 +578,6 @@ export const LemanRussPunisherUnit: UnitConfig = {
   unit_name: "Leman Russ Punisher",
   unit_slug: "leman_russ_punisher",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Punisher",
 };
 
 
@@ -658,7 +586,6 @@ export const LemanRussVanquisherUnit: UnitConfig = {
   unit_name: "Leman Russ Vanquisher",
   unit_slug: "leman_russ_vanquisher",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Leman-Russ-Vanquisher",
 };
 
 
@@ -667,7 +594,6 @@ export const LordMarshalDreirUnit: UnitConfig = {
   unit_name: "Lord Marshal Dreir",
   unit_slug: "lord_marshal_dreir",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Lord-Marshal-Dreir",
 };
 
 
@@ -676,79 +602,70 @@ export const LordSolarLeontusUnit: UnitConfig = {
   unit_name: "Lord Solar Leontus",
   unit_slug: "lord_solar_leontus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Lord-Solar-Leontus",
 };
 
 
 export const MachariusUnit: UnitConfig = {
   id: unitId("macharius"),
-  unit_name: "Macharius",
+  unit_name: "Macharius (Legends)",
   unit_slug: "macharius",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Macharius",
 };
 
 
 export const MachariusOmegaUnit: UnitConfig = {
   id: unitId("macharius_omega"),
-  unit_name: "Macharius Omega",
+  unit_name: "Macharius Omega (Legends)",
   unit_slug: "macharius_omega",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Macharius-Omega",
 };
 
 
 export const MachariusVanquisherUnit: UnitConfig = {
   id: unitId("macharius_vanquisher"),
-  unit_name: "Macharius Vanquisher",
+  unit_name: "Macharius Vanquisher (Legends)",
   unit_slug: "macharius_vanquisher",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Macharius-Vanquisher",
 };
 
 
 export const MachariusVulcanUnit: UnitConfig = {
   id: unitId("macharius_vulcan"),
-  unit_name: "Macharius Vulcan",
+  unit_name: "Macharius Vulcan (Legends)",
   unit_slug: "macharius_vulcan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Macharius-Vulcan",
 };
 
 
 export const MalcadorUnit: UnitConfig = {
   id: unitId("malcador"),
-  unit_name: "Malcador",
+  unit_name: "Malcador (Legends)",
   unit_slug: "malcador",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Malcador",
 };
 
 
 export const MalcadorAnnihilatorUnit: UnitConfig = {
   id: unitId("malcador_annihilator"),
-  unit_name: "Malcador Annihilator",
+  unit_name: "Malcador Annihilator (Legends)",
   unit_slug: "malcador_annihilator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Malcador-Annihilator",
 };
 
 
 export const MalcadorDefenderUnit: UnitConfig = {
   id: unitId("malcador_defender"),
-  unit_name: "Malcador Defender",
+  unit_name: "Malcador Defender (Legends)",
   unit_slug: "malcador_defender",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Malcador-Defender",
 };
 
 
 export const MalcadorInfernusUnit: UnitConfig = {
   id: unitId("malcador_infernus"),
-  unit_name: "Malcador Infernus",
+  unit_name: "Malcador Infernus (Legends)",
   unit_slug: "malcador_infernus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Malcador-Infernus",
 };
 
 
@@ -757,43 +674,38 @@ export const ManticoreUnit: UnitConfig = {
   unit_name: "Manticore",
   unit_slug: "manticore",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Manticore",
 };
 
 
 export const ManticorePlatformUnit: UnitConfig = {
   id: unitId("manticore_platform"),
-  unit_name: "Manticore Platform",
+  unit_name: "Manticore Platform (Legends)",
   unit_slug: "manticore_platform",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Manticore-Platform",
 };
 
 
 export const MarauderBomberUnit: UnitConfig = {
   id: unitId("marauder_bomber"),
-  unit_name: "Marauder Bomber",
+  unit_name: "Marauder Bomber (Legends)",
   unit_slug: "marauder_bomber",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Marauder-Bomber",
 };
 
 
 export const MarauderDestroyerUnit: UnitConfig = {
   id: unitId("marauder_destroyer"),
-  unit_name: "Marauder Destroyer",
+  unit_name: "Marauder Destroyer (Legends)",
   unit_slug: "marauder_destroyer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Marauder-Destroyer",
 };
 
 
 export const MedusaCarriageBatteryUnit: UnitConfig = {
   id: unitId("medusa_carriage_battery"),
-  unit_name: "Medusa Carriage Battery",
+  unit_name: "Medusa Carriage Battery (Legends)",
   unit_slug: "medusa_carriage_battery",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Medusa-Carriage-Battery",
 };
 
 
@@ -802,34 +714,30 @@ export const MilitarumTempestusCommandSquadUnit: UnitConfig = {
   unit_name: "Militarum Tempestus Command Squad",
   unit_slug: "militarum_tempestus_command_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Militarum-Tempestus-Command-Squad",
 };
 
 
 export const MinotaurUnit: UnitConfig = {
   id: unitId("minotaur"),
-  unit_name: "Minotaur",
+  unit_name: "Minotaur (Legends)",
   unit_slug: "minotaur",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Minotaur",
 };
 
 
 export const MukaaliRidersUnit: UnitConfig = {
   id: unitId("mukaali_riders"),
-  unit_name: "Mukaali Riders",
+  unit_name: "Mukaali Riders (Legends)",
   unit_slug: "mukaali_riders",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Mukaali-Riders",
 };
 
 
 export const MunitorumServitorsUnit: UnitConfig = {
   id: unitId("munitorum_servitors"),
-  unit_name: "Munitorum Servitors",
+  unit_name: "Munitorum Servitors (Legends)",
   unit_slug: "munitorum_servitors",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Munitorum-Servitors",
 };
 
 
@@ -838,7 +746,6 @@ export const NorkDeddogUnit: UnitConfig = {
   unit_name: "Nork Deddog",
   unit_slug: "nork_deddog",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Nork-Deddog",
 };
 
 
@@ -847,7 +754,6 @@ export const OgrynBodyguardUnit: UnitConfig = {
   unit_name: "Ogryn Bodyguard",
   unit_slug: "ogryn_bodyguard",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ogryn-Bodyguard",
 };
 
 
@@ -856,16 +762,14 @@ export const OgrynSquadUnit: UnitConfig = {
   unit_name: "Ogryn Squad",
   unit_slug: "ogryn_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ogryn-Squad",
 };
 
 
 export const PraetorUnit: UnitConfig = {
   id: unitId("praetor"),
-  unit_name: "Praetor",
+  unit_name: "Praetor (Legends)",
   unit_slug: "praetor",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Praetor",
 };
 
 
@@ -874,34 +778,30 @@ export const PrimarisPsykerUnit: UnitConfig = {
   unit_name: "Primaris Psyker",
   unit_slug: "primaris_psyker",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Primaris-Psyker",
 };
 
 
 export const ProvisionallyPreparedUnit: UnitConfig = {
   id: unitId("provisionally_prepared"),
-  unit_name: "Provisionally Prepared",
+  unit_name: "Provisionally Prepared (Legends)",
   unit_slug: "provisionally_prepared",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Provisionally-Prepared",
 };
 
 
 export const QuartermasterCadreSquadUnit: UnitConfig = {
   id: unitId("quartermaster_cadre_squad"),
-  unit_name: "Quartermaster Cadre Squad",
+  unit_name: "Quartermaster Cadre Squad (Legends)",
   unit_slug: "quartermaster_cadre_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Quartermaster-Cadre-Squad",
 };
 
 
 export const RapierLaserDestroyerBatteryUnit: UnitConfig = {
   id: unitId("rapier_laser_destroyer_battery"),
-  unit_name: "Rapier Laser Destroyer Battery",
+  unit_name: "Rapier Laser Destroyer Battery (Legends)",
   unit_slug: "rapier_laser_destroyer_battery",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rapier-Laser-Destroyer-Battery",
 };
 
 
@@ -910,25 +810,22 @@ export const RatlingsUnit: UnitConfig = {
   unit_name: "Ratlings",
   unit_slug: "ratlings",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ratlings",
 };
 
 
 export const RegimentalAttachSUnit: UnitConfig = {
   id: unitId("regimental_attach_s"),
-  unit_name: "Regimental Attach\u00e9s",
+  unit_name: "Regimental Attach\u00e9s (Legends)",
   unit_slug: "regimental_attach_s",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Regimental-Attach-s",
 };
 
 
 export const ReinAndRausUnit: UnitConfig = {
   id: unitId("rein_and_raus"),
-  unit_name: "Rein And Raus",
+  unit_name: "Rein and Raus (Legends)",
   unit_slug: "rein_and_raus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rein-And-Raus",
 };
 
 
@@ -937,7 +834,6 @@ export const RogalDornBattleTankUnit: UnitConfig = {
   unit_name: "Rogal Dorn Battle Tank",
   unit_slug: "rogal_dorn_battle_tank",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Battle-Tank",
 };
 
 
@@ -946,34 +842,30 @@ export const RogalDornCommanderUnit: UnitConfig = {
   unit_name: "Rogal Dorn Commander",
   unit_slug: "rogal_dorn_commander",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Rogal-Dorn-Commander",
 };
 
 
 export const SabreWeaponsBatteryUnit: UnitConfig = {
   id: unitId("sabre_weapons_battery"),
-  unit_name: "Sabre Weapons Battery",
+  unit_name: "Sabre Weapons Battery (Legends)",
   unit_slug: "sabre_weapons_battery",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Sabre-Weapons-Battery",
 };
 
 
 export const SalamanderCommandVehicleUnit: UnitConfig = {
   id: unitId("salamander_command_vehicle"),
-  unit_name: "Salamander Command Vehicle",
+  unit_name: "Salamander Command Vehicle (Legends)",
   unit_slug: "salamander_command_vehicle",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Salamander-Command-Vehicle",
 };
 
 
 export const SalamanderScoutVehicleUnit: UnitConfig = {
   id: unitId("salamander_scout_vehicle"),
-  unit_name: "Salamander Scout Vehicle",
+  unit_name: "Salamander Scout Vehicle (Legends)",
   unit_slug: "salamander_scout_vehicle",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Salamander-Scout-Vehicle",
 };
 
 
@@ -982,7 +874,6 @@ export const ScoutSentinelsUnit: UnitConfig = {
   unit_name: "Scout Sentinels",
   unit_slug: "scout_sentinels",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Scout-Sentinels",
 };
 
 
@@ -991,25 +882,22 @@ export const SentinelCommanderCrucibleUnit: UnitConfig = {
   unit_name: "Sentinel Commander [Crucible]",
   unit_slug: "sentinel_commander_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
 export const SentinelPowerlifterUnit: UnitConfig = {
   id: unitId("sentinel_powerlifter"),
-  unit_name: "Sentinel Powerlifter",
+  unit_name: "Sentinel Powerlifter (Legends)",
   unit_slug: "sentinel_powerlifter",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Sentinel-Powerlifter",
 };
 
 
 export const SergeantHarkerUnit: UnitConfig = {
   id: unitId("sergeant_harker"),
-  unit_name: "Sergeant Harker",
+  unit_name: "Sergeant Harker (Legends)",
   unit_slug: "sergeant_harker",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Sergeant-Harker",
 };
 
 
@@ -1018,7 +906,6 @@ export const ShadowswordUnit: UnitConfig = {
   unit_name: "Shadowsword",
   unit_slug: "shadowsword",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Shadowsword",
 };
 
 
@@ -1027,25 +914,22 @@ export const SlyMarboUnit: UnitConfig = {
   unit_name: "Sly Marbo",
   unit_slug: "sly_marbo",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Sly-Marbo",
 };
 
 
 export const StormChimeraUnit: UnitConfig = {
   id: unitId("storm_chimera"),
-  unit_name: "Storm Chimera",
+  unit_name: "Storm Chimera (Legends)",
   unit_slug: "storm_chimera",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Storm-Chimera",
 };
 
 
 export const StormbladeUnit: UnitConfig = {
   id: unitId("stormblade"),
-  unit_name: "Stormblade",
+  unit_name: "Stormblade (Legends)",
   unit_slug: "stormblade",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Stormblade",
 };
 
 
@@ -1054,7 +938,6 @@ export const StormlordUnit: UnitConfig = {
   unit_name: "Stormlord",
   unit_slug: "stormlord",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Stormlord",
 };
 
 
@@ -1063,43 +946,38 @@ export const StormswordUnit: UnitConfig = {
   unit_name: "Stormsword",
   unit_slug: "stormsword",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Stormsword",
 };
 
 
 export const StygiesDestroyerTankHunterUnit: UnitConfig = {
   id: unitId("stygies_destroyer_tank_hunter"),
-  unit_name: "Stygies Destroyer Tank Hunter",
+  unit_name: "Stygies Destroyer Tank Hunter (Legends)",
   unit_slug: "stygies_destroyer_tank_hunter",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Stygies-Destroyer-Tank-Hunter",
 };
 
 
 export const TarantulaBatteryUnit: UnitConfig = {
   id: unitId("tarantula_battery"),
-  unit_name: "Tarantula Battery",
+  unit_name: "Tarantula Battery (Legends)",
   unit_slug: "tarantula_battery",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Tarantula-Battery",
 };
 
 
 export const TaurosAssaultVehicleUnit: UnitConfig = {
   id: unitId("tauros_assault_vehicle"),
-  unit_name: "Tauros Assault Vehicle",
+  unit_name: "Tauros Assault Vehicle (Legends)",
   unit_slug: "tauros_assault_vehicle",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Tauros-Assault-Vehicle",
 };
 
 
 export const TaurosVenatorUnit: UnitConfig = {
   id: unitId("tauros_venator"),
-  unit_name: "Tauros Venator",
+  unit_name: "Tauros Venator (Legends)",
   unit_slug: "tauros_venator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Tauros-Venator",
 };
 
 
@@ -1108,7 +986,6 @@ export const TauroxUnit: UnitConfig = {
   unit_name: "Taurox",
   unit_slug: "taurox",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Taurox",
 };
 
 
@@ -1117,7 +994,6 @@ export const TauroxPrimeUnit: UnitConfig = {
   unit_name: "Taurox Prime",
   unit_slug: "taurox_prime",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Taurox-Prime",
 };
 
 
@@ -1126,7 +1002,6 @@ export const TempestusAquilonsUnit: UnitConfig = {
   unit_name: "Tempestus Aquilons",
   unit_slug: "tempestus_aquilons",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Tempestus-Aquilons",
 };
 
 
@@ -1135,16 +1010,14 @@ export const TempestusScionsUnit: UnitConfig = {
   unit_name: "Tempestus Scions",
   unit_slug: "tempestus_scions",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Tempestus-Scions",
 };
 
 
 export const TrojanSupportVehicleUnit: UnitConfig = {
   id: unitId("trojan_support_vehicle"),
-  unit_name: "Trojan Support Vehicle",
+  unit_name: "Trojan Support Vehicle (Legends)",
   unit_slug: "trojan_support_vehicle",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Trojan-Support-Vehicle",
 };
 
 
@@ -1153,16 +1026,14 @@ export const UrsulaCreedUnit: UnitConfig = {
   unit_name: "Ursula Creed",
   unit_slug: "ursula_creed",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Ursula-Creed",
 };
 
 
 export const ValdorUnit: UnitConfig = {
   id: unitId("valdor"),
-  unit_name: "Valdor",
+  unit_name: "Valdor (Legends)",
   unit_slug: "valdor",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Valdor",
 };
 
 
@@ -1171,43 +1042,38 @@ export const ValkyrieUnit: UnitConfig = {
   unit_name: "Valkyrie",
   unit_slug: "valkyrie",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Valkyrie",
 };
 
 
 export const ValkyrieSkyTalonUnit: UnitConfig = {
   id: unitId("valkyrie_sky_talon"),
-  unit_name: "Valkyrie Sky Talon",
+  unit_name: "Valkyrie Sky Talon (Legends)",
   unit_slug: "valkyrie_sky_talon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Valkyrie-Sky-Talon",
 };
 
 
 export const VendettaGunshipUnit: UnitConfig = {
   id: unitId("vendetta_gunship"),
-  unit_name: "Vendetta Gunship",
+  unit_name: "Vendetta Gunship (Legends)",
   unit_slug: "vendetta_gunship",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Vendetta-Gunship",
 };
 
 
 export const VossPatternLightningUnit: UnitConfig = {
   id: unitId("voss_pattern_lightning"),
-  unit_name: "Voss-pattern Lightning",
+  unit_name: "Voss-pattern Lightning (Legends)",
   unit_slug: "voss_pattern_lightning",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Voss-pattern-Lightning",
 };
 
 
 export const VultureGunshipUnit: UnitConfig = {
   id: unitId("vulture_gunship"),
-  unit_name: "Vulture Gunship",
+  unit_name: "Vulture Gunship (Legends)",
   unit_slug: "vulture_gunship",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Vulture-Gunship",
 };
 
 
@@ -1216,7 +1082,6 @@ export const WyvernUnit: UnitConfig = {
   unit_name: "Wyvern",
   unit_slug: "wyvern",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/astra-militarum/Wyvern",
 };
 
 

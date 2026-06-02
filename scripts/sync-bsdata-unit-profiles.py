@@ -23,7 +23,6 @@ UNIT_PROFILES_OUTPUT_PATH = DATA_ROOT / "unit_profiles.data.ts"
 UNIT_PROFILES_SHARD_ROOT = DATA_ROOT / "unit_profiles/10e"
 UNIT_PROFILE_STATS_OUTPUT_PATH = DATA_ROOT / "unit_profile_stats.data.ts"
 UNIT_PROFILE_STATS_SHARD_ROOT = DATA_ROOT / "unit_profile_stats/10e"
-LEGACY_UNIT_DATASHEET_ROOT = DATA_ROOT / "unit_datasheets"
 
 
 def main() -> None:
@@ -46,19 +45,16 @@ def main() -> None:
     previous_profile_count = (
         count_seed_records(UNIT_PROFILES_OUTPUT_PATH, "UnitProfileConfig")
         + count_seed_records(UNIT_PROFILES_SHARD_ROOT, "UnitProfileConfig")
-        + count_seed_records(LEGACY_UNIT_DATASHEET_ROOT, "UnitProfileConfig")
     )
     previous_stat_count = (
         count_seed_records(UNIT_PROFILE_STATS_OUTPUT_PATH, "UnitProfileStatConfig")
         + count_seed_records(UNIT_PROFILE_STATS_SHARD_ROOT, "UnitProfileStatConfig")
-        + count_seed_records(LEGACY_UNIT_DATASHEET_ROOT, "UnitProfileStatConfig")
     )
 
     profile_groups = group_records_by_owner(profiles_by_slug.values())
     stat_groups = group_records_by_owner(stats_by_slug.values())
     write_profile_files(profile_groups)
     write_stat_files(stat_groups)
-    remove_legacy_unit_profile_files()
 
     print(
         {
@@ -143,17 +139,6 @@ def write_stat_files(
         'export * from "./10e/_index.unit_profile_stats.data";\n',
     )
     UNIT_PROFILE_STATS_OUTPUT_PATH.write_text(render_stat_root_file())
-
-
-def remove_legacy_unit_profile_files() -> None:
-    if not LEGACY_UNIT_DATASHEET_ROOT.exists():
-        return
-
-    for path in LEGACY_UNIT_DATASHEET_ROOT.glob("*/*_unit_profiles.data.ts"):
-        path.unlink()
-
-    for path in LEGACY_UNIT_DATASHEET_ROOT.glob("*/*_unit_profile_stats.data.ts"):
-        path.unlink()
 
 
 def render_profile_root_file() -> str:

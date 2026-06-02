@@ -1348,6 +1348,78 @@ export const HaemonculusInfantry10eCodexDrukhari10eUnitKeyword: UnitKeywordConfi
 };
 
 
+export const HandOfTheArchonAeldari10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
+  id: unitKeywordId("hand_of_the_archon__aeldari__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  keyword_id: keywordId("aeldari"),
+  model_id: null,
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonDrukhari10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
+  id: unitKeywordId("hand_of_the_archon__drukhari__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  keyword_id: keywordId("drukhari"),
+  model_id: null,
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonGrenades10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
+  id: unitKeywordId("hand_of_the_archon__grenades__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  keyword_id: keywordId("grenades"),
+  model_id: null,
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonHandOfTheArchon10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
+  id: unitKeywordId("hand_of_the_archon__hand_of_the_archon__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  keyword_id: keywordId("hand_of_the_archon"),
+  model_id: null,
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonInfantry10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
+  id: unitKeywordId("hand_of_the_archon__infantry__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  keyword_id: keywordId("infantry"),
+  model_id: null,
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabal10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
+  id: unitKeywordId("hand_of_the_archon__kabal__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  keyword_id: keywordId("kabal"),
+  model_id: null,
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const HellionsAeldari10eCodexDrukhari10eUnitKeyword: UnitKeywordConfig = {
   id: unitKeywordId("hellions__aeldari__10e__codex_drukhari_10e"),
   unit_id: unitId("hellions"),
@@ -4162,6 +4234,12 @@ export const drukhariUnitKeywords10e: SeedDataset<"unit_keywords"> = {
     HaemonculusHaemonculus10eCodexDrukhari10eUnitKeyword,
     HaemonculusHaemonculusCovens10eCodexDrukhari10eUnitKeyword,
     HaemonculusInfantry10eCodexDrukhari10eUnitKeyword,
+    HandOfTheArchonAeldari10eCodexDrukhari10eUnitKeyword,
+    HandOfTheArchonDrukhari10eCodexDrukhari10eUnitKeyword,
+    HandOfTheArchonGrenades10eCodexDrukhari10eUnitKeyword,
+    HandOfTheArchonHandOfTheArchon10eCodexDrukhari10eUnitKeyword,
+    HandOfTheArchonInfantry10eCodexDrukhari10eUnitKeyword,
+    HandOfTheArchonKabal10eCodexDrukhari10eUnitKeyword,
     HellionsAeldari10eCodexDrukhari10eUnitKeyword,
     HellionsDrukhari10eCodexDrukhari10eUnitKeyword,
     HellionsFly10eCodexDrukhari10eUnitKeyword,

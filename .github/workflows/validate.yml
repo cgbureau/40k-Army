@@ -18,7 +18,3 @@ jobs:
         env:
           DATABASE_URL: "postgresql://placeholder:placeholder@localhost:5432/placeholder"
       - run: npx tsc --noEmit
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - run: python3 -m py_compile scripts/wahapedia_importer/apply_seed.py scripts/wahapedia_importer/normalize_seed.py scripts/wahapedia_importer/cli.py

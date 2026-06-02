@@ -13,8 +13,8 @@ The companion fixture file at
 `docs/00_Developer_Docs/database/fixtures/schema-exercise-seed.json` contains
 representative Space Marines, Blood Angels, and Death Guard data for exercising
 these relationships without making this design document exhaustive. Full
-datasheet imports can use Wahapedia's 10th edition data as a source for faction,
-unit, model, weapon, and profile details. [Wahapedia](https://wahapedia.ru/wh40k10ed)
+rules-facing datasheet imports should use BSData 10th edition catalog XML for
+faction, unit, model, weapon, profile, and rules-relationship details.
 
 The table examples below use generic `id` primary keys to match the intended
 database schema convention. Fixture and import files may use table-specific
@@ -317,7 +317,7 @@ Recommended `component_type` values:
 - `alternate_build`: the kit can build this unit instead of another listed unit.
 - `upgrade_component`: the kit modifies or upgrades another model/unit.
 
-**Seeding slugs (Python layer only):** `kit_unit_slug` and `kit_unit_price_allocation_slug` are computed identifiers used by the Wahapedia importer for deduplication during seeding. They do not correspond to any database column. The canonical unique key in the database is the `@@unique` constraint on `(kit_id, unit_id, component_type)` for `kit_units`, and `(kit_id, unit_id)` for `kit_unit_price_allocations`.
+**Seeding slugs (Python layer only):** `kit_unit_slug` and `kit_unit_price_allocation_slug` are computed identifiers used by source-specific importers for deduplication during seeding. They do not correspond to any database column. The canonical unique key in the database is the `@@unique` constraint on `(kit_id, unit_id, component_type)` for `kit_units`, and `(kit_id, unit_id)` for `kit_unit_price_allocations`.
 
 ### Kit Unit Price Allocations
 

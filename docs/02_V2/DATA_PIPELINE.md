@@ -267,7 +267,7 @@ Current sources include:
 
 Future improvements may include:
 
-• Wahapedia integration  
+• legacy community datasheet source integration
 • automated price updates  
 • improved kit mappings
 
@@ -300,7 +300,7 @@ This keeps the dataset maintainable as Warhammer releases new models.
 
 ## Current Status
 
-The project now has a rebuilt unit dataset sourced from Wahapedia.
+The project now has a rebuilt unit dataset sourced from legacy community datasheet source.
 
 Current state:
 
@@ -408,7 +408,7 @@ The cost calculation system uses a 3-layer data pipeline.
 Layer 1 — Master Unit Dataset  
 `army-data-no-legends.json`
 
-Source: Wahapedia scrape.  
+Source: legacy community datasheet source scrape.
 Contains all valid datasheets and points values.
 
 Total units extracted: ~1577  
@@ -480,7 +480,7 @@ Workflow:
    - models
    - regional prices (GBP, USD, EUR, etc)
 
-3. Units are sourced from Wahapedia and stored in:
+3. Units are sourced from legacy community datasheet source and stored in:
    `data/factions/{faction}/units.json`
 
 4. Mapping process:

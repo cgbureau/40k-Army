@@ -47,11 +47,49 @@ def test_normalizes_miniset_black_templars_combat_patrol_to_typed_seed_inputs() 
         (5, "Sword Brethren"),
         (10, "Crusaders"),
     ]
-    assert [(unit.unit_slug, unit.model_count) for unit in content.kit_units] == [
-        ("emperors_champion", 1),
-        ("bladeguard_veteran_squad", 3),
-        ("sword_brethren_squad", 5),
-        ("crusader_squad", 10),
+    assert [
+        (
+            unit.unit_slug,
+            unit.model_count,
+            unit.source_kind,
+            unit.source_url,
+            unit.source_text,
+            unit.review_status,
+        )
+        for unit in content.kit_units
+    ] == [
+        (
+            "emperors_champion",
+            1,
+            "miniset",
+            "https://miniset.net/sets/gw-99120101428?language=en",
+            "1x Emperor's Champion",
+            "approved",
+        ),
+        (
+            "bladeguard_veteran_squad",
+            3,
+            "miniset",
+            "https://miniset.net/sets/gw-99120101428?language=en",
+            "3x Bladeguard Veterans",
+            "approved",
+        ),
+        (
+            "sword_brethren_squad",
+            5,
+            "miniset",
+            "https://miniset.net/sets/gw-99120101428?language=en",
+            "5x Sword Brethren",
+            "approved",
+        ),
+        (
+            "crusader_squad",
+            10,
+            "miniset",
+            "https://miniset.net/sets/gw-99120101428?language=en",
+            "10x Crusaders",
+            "approved",
+        ),
     ]
 
 

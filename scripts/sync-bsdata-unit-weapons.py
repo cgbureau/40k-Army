@@ -20,7 +20,6 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_ROOT = REPO_ROOT / "db/seed_config/seed/data"
 OUTPUT_PATH = DATA_ROOT / "unit_weapons.data.ts"
 SHARD_ROOT = DATA_ROOT / "unit_weapons/10e"
-LEGACY_UNIT_DATASHEET_ROOT = DATA_ROOT / "unit_datasheets"
 
 
 def main() -> None:
@@ -38,11 +37,9 @@ def main() -> None:
     previous_count = (
         count_seed_records(OUTPUT_PATH)
         + count_seed_records(SHARD_ROOT)
-        + count_seed_records(LEGACY_UNIT_DATASHEET_ROOT)
     )
     groups = group_records_by_owner(records_by_slug.values())
     write_sharded_files(groups)
-    remove_legacy_unit_weapon_files()
 
     print(
         {
@@ -96,14 +93,6 @@ def write_sharded_files(
         'export * from "./10e/_index.unit_weapons.data";\n',
     )
     OUTPUT_PATH.write_text(render_root_file())
-
-
-def remove_legacy_unit_weapon_files() -> None:
-    if not LEGACY_UNIT_DATASHEET_ROOT.exists():
-        return
-
-    for path in LEGACY_UNIT_DATASHEET_ROOT.glob("*/*_unit_weapons.data.ts"):
-        path.unlink()
 
 
 def render_root_file() -> str:

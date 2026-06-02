@@ -10,7 +10,6 @@ export const CorvusBlackstarUnit: UnitConfig = {
   unit_name: "Corvus Blackstar",
   unit_slug: "corvus_blackstar",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Corvus-Blackstar",
 };
 
 
@@ -19,7 +18,6 @@ export const DeathwatchTerminatorSquadUnit: UnitConfig = {
   unit_name: "Deathwatch Terminator Squad",
   unit_slug: "deathwatch_terminator_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Deathwatch-Terminator-Squad",
 };
 
 
@@ -28,7 +26,6 @@ export const DeathwatchVeteranWCarbineUnit: UnitConfig = {
   unit_name: "Deathwatch Veteran w/ carbine",
   unit_slug: "deathwatch_veteran_w_carbine",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -37,7 +34,6 @@ export const DeathwatchVeteranWHeavyThunderHammerUnit: UnitConfig = {
   unit_name: "Deathwatch Veteran w/ heavy thunder hammer",
   unit_slug: "deathwatch_veteran_w_heavy_thunder_hammer",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -46,7 +42,6 @@ export const DeathwatchVeteranWStalkerBoltRifleUnit: UnitConfig = {
   unit_name: "Deathwatch Veteran w/ stalker bolt rifle",
   unit_slug: "deathwatch_veteran_w_stalker_bolt_rifle",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -55,7 +50,6 @@ export const DeathwatchVeteransUnit: UnitConfig = {
   unit_name: "Deathwatch Veterans",
   unit_slug: "deathwatch_veterans",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Deathwatch-Veterans",
 };
 
 
@@ -64,7 +58,6 @@ export const DecimusKillTeamUnit: UnitConfig = {
   unit_name: "Decimus Kill Team",
   unit_slug: "decimus_kill_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Decimus-Kill-Team",
 };
 
 
@@ -73,7 +66,6 @@ export const FortisKillTeamUnit: UnitConfig = {
   unit_name: "Fortis Kill Team",
   unit_slug: "fortis_kill_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Fortis-Kill-Team",
 };
 
 
@@ -82,7 +74,6 @@ export const GravisVeteranWInfernusHeavyBolterUnit: UnitConfig = {
   unit_name: "Gravis Veteran w/ infernus heavy bolter",
   unit_slug: "gravis_veteran_w_infernus_heavy_bolter",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -91,16 +82,14 @@ export const IndomitorKillTeamUnit: UnitConfig = {
   unit_name: "Indomitor Kill Team",
   unit_slug: "indomitor_kill_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Indomitor-Kill-Team",
 };
 
 
 export const KillTeamCassiusUnit: UnitConfig = {
   id: unitId("kill_team_cassius"),
-  unit_name: "Kill Team Cassius",
+  unit_name: "Kill Team Cassius (Legends)",
   unit_slug: "kill_team_cassius",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Kill-Team-Cassius",
 };
 
 
@@ -109,7 +98,6 @@ export const KillTeamSergeantUnit: UnitConfig = {
   unit_name: "Kill Team Sergeant",
   unit_slug: "kill_team_sergeant",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -118,7 +106,6 @@ export const SpectrusKillTeamUnit: UnitConfig = {
   unit_name: "Spectrus Kill Team",
   unit_slug: "spectrus_kill_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Spectrus-Kill-Team",
 };
 
 
@@ -127,7 +114,6 @@ export const TalonstrikeKillTeamUnit: UnitConfig = {
   unit_name: "Talonstrike Kill Team",
   unit_slug: "talonstrike_kill_team",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Talonstrike-Kill-Team",
 };
 
 
@@ -136,7 +122,6 @@ export const WatchCaptainArtemisUnit: UnitConfig = {
   unit_name: "Watch Captain Artemis",
   unit_slug: "watch_captain_artemis",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Watch-Captain-Artemis",
 };
 
 
@@ -145,7 +130,6 @@ export const WatchMasterUnit: UnitConfig = {
   unit_name: "Watch Master",
   unit_slug: "watch_master",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/imperial-agents/Watch-Master",
 };
 
 

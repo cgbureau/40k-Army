@@ -10,7 +10,6 @@ export const CaptainSicariusUnit: UnitConfig = {
   unit_name: "Captain Sicarius",
   unit_slug: "captain_sicarius",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -19,7 +18,6 @@ export const CaptainTitusUnit: UnitConfig = {
   unit_name: "Captain Titus",
   unit_slug: "captain_titus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Captain-Titus",
 };
 
 
@@ -28,16 +26,14 @@ export const CatoSicariusUnit: UnitConfig = {
   unit_name: "Cato Sicarius",
   unit_slug: "cato_sicarius",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Cato-Sicarius",
 };
 
 
 export const ChaplainCassiusUnit: UnitConfig = {
   id: unitId("chaplain_cassius"),
-  unit_name: "Chaplain Cassius",
+  unit_name: "Chaplain Cassius (Legends)",
   unit_slug: "chaplain_cassius",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Chaplain-Cassius",
 };
 
 
@@ -46,16 +42,14 @@ export const ChiefLibrarianTiguriusUnit: UnitConfig = {
   unit_name: "Chief Librarian Tigurius",
   unit_slug: "chief_librarian_tigurius",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Chief-Librarian-Tigurius",
 };
 
 
 export const FerrenAreiosUnit: UnitConfig = {
   id: unitId("ferren_areios"),
-  unit_name: "Ferren Areios",
+  unit_name: "Ferren Areios (Legends)",
   unit_slug: "ferren_areios",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Ferren-Areios",
 };
 
 
@@ -64,7 +58,6 @@ export const LieutenantTitusUnit: UnitConfig = {
   unit_name: "Lieutenant Titus",
   unit_slug: "lieutenant_titus",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -73,7 +66,6 @@ export const MarneusCalgarUnit: UnitConfig = {
   unit_name: "Marneus Calgar",
   unit_slug: "marneus_calgar",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -82,7 +74,6 @@ export const MarneusCalgarInArmourOfAntilochusUnit: UnitConfig = {
   unit_name: "Marneus Calgar in Armour of Antilochus",
   unit_slug: "marneus_calgar_in_armour_of_antilochus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Marneus-Calgar-in-Armour-of-Antilochus",
 };
 
 
@@ -91,43 +82,38 @@ export const RobouteGuillimanUnit: UnitConfig = {
   unit_name: "Roboute Guilliman",
   unit_slug: "roboute_guilliman",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Roboute-Guilliman",
 };
 
 
 export const SergeantChronusUnit: UnitConfig = {
   id: unitId("sergeant_chronus"),
-  unit_name: "Sergeant Chronus",
+  unit_name: "Sergeant Chronus (Legends)",
   unit_slug: "sergeant_chronus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sergeant-Chronus",
 };
 
 
 export const SergeantTelionUnit: UnitConfig = {
   id: unitId("sergeant_telion"),
-  unit_name: "Sergeant Telion",
+  unit_name: "Sergeant Telion (Legends)",
   unit_slug: "sergeant_telion",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sergeant-Telion",
 };
 
 
 export const TyrannicWarVeteransUnit: UnitConfig = {
   id: unitId("tyrannic_war_veterans"),
-  unit_name: "Tyrannic War Veterans",
+  unit_name: "Tyrannic War Veterans (Legends)",
   unit_slug: "tyrannic_war_veterans",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Tyrannic-War-Veterans",
 };
 
 
 export const UltramarinesHonourGuardUnit: UnitConfig = {
   id: unitId("ultramarines_honour_guard"),
-  unit_name: "Ultramarines Honour Guard",
+  unit_name: "Ultramarines Honour Guard (Legends)",
   unit_slug: "ultramarines_honour_guard",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Ultramarines-Honour-Guard",
 };
 
 
@@ -136,7 +122,6 @@ export const UrielVentrisUnit: UnitConfig = {
   unit_name: "Uriel Ventris",
   unit_slug: "uriel_ventris",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Uriel-Ventris",
 };
 
 
@@ -145,7 +130,6 @@ export const VictrixHonourGuardUnit: UnitConfig = {
   unit_name: "Victrix Honour Guard",
   unit_slug: "victrix_honour_guard",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Victrix-Honour-Guard",
 };
 
 
@@ -154,7 +138,6 @@ export const WardensOfUltramarUnit: UnitConfig = {
   unit_name: "Wardens of Ultramar",
   unit_slug: "wardens_of_ultramar",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Wardens-of-Ultramar-1",
 };
 
 

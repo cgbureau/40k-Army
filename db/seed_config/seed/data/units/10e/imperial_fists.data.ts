@@ -10,7 +10,6 @@ export const DarnathLysanderUnit: UnitConfig = {
   unit_name: "Darnath Lysander",
   unit_slug: "darnath_lysander",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Darnath-Lysander",
 };
 
 
@@ -19,7 +18,6 @@ export const PedroKantorUnit: UnitConfig = {
   unit_name: "Pedro Kantor",
   unit_slug: "pedro_kantor",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Pedro-Kantor",
 };
 
 
@@ -28,7 +26,6 @@ export const TorGaradonUnit: UnitConfig = {
   unit_name: "Tor Garadon",
   unit_slug: "tor_garadon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Tor-Garadon",
 };
 
 

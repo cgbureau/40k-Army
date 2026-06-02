@@ -10,7 +10,6 @@ export const AberrantsUnit: UnitConfig = {
   unit_name: "Aberrants",
   unit_slug: "aberrants",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Aberrants",
 };
 
 
@@ -19,7 +18,6 @@ export const AbominantUnit: UnitConfig = {
   unit_name: "Abominant",
   unit_slug: "abominant",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Abominant",
 };
 
 
@@ -28,25 +26,22 @@ export const AchillesRidgerunnersUnit: UnitConfig = {
   unit_name: "Achilles Ridgerunners",
   unit_slug: "achilles_ridgerunners",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Achilles-Ridgerunners",
 };
 
 
 export const AcolyteHybridsWithAutopistolsUnit: UnitConfig = {
   id: unitId("acolyte_hybrids_with_autopistols"),
-  unit_name: "Acolyte Hybrids With Autopistols",
+  unit_name: "Acolyte Hybrids with Autopistols",
   unit_slug: "acolyte_hybrids_with_autopistols",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Acolyte-Hybrids-With-Autopistols",
 };
 
 
 export const AcolyteHybridsWithHandFlamersUnit: UnitConfig = {
   id: unitId("acolyte_hybrids_with_hand_flamers"),
-  unit_name: "Acolyte Hybrids With Hand Flamers",
+  unit_name: "Acolyte Hybrids with Hand Flamers",
   unit_slug: "acolyte_hybrids_with_hand_flamers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Acolyte-Hybrids-With-Hand-Flamers",
 };
 
 
@@ -55,7 +50,6 @@ export const AcolyteIconwardUnit: UnitConfig = {
   unit_name: "Acolyte Iconward",
   unit_slug: "acolyte_iconward",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Acolyte-Iconward",
 };
 
 
@@ -64,7 +58,6 @@ export const AtalanJackalsUnit: UnitConfig = {
   unit_name: "Atalan Jackals",
   unit_slug: "atalan_jackals",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Atalan-Jackals",
 };
 
 
@@ -73,7 +66,6 @@ export const BenefictusUnit: UnitConfig = {
   unit_name: "Benefictus",
   unit_slug: "benefictus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Benefictus",
 };
 
 
@@ -82,7 +74,6 @@ export const BiophagusUnit: UnitConfig = {
   unit_name: "Biophagus",
   unit_slug: "biophagus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Biophagus",
 };
 
 
@@ -91,7 +82,6 @@ export const ClamavusUnit: UnitConfig = {
   unit_name: "Clamavus",
   unit_slug: "clamavus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Clamavus",
 };
 
 
@@ -100,7 +90,6 @@ export const CultGuerrillaCrucibleUnit: UnitConfig = {
   unit_name: "Cult Guerrilla [Crucible]",
   unit_slug: "cult_guerrilla_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -109,7 +98,6 @@ export const CultInsurrectionistCrucibleUnit: UnitConfig = {
   unit_name: "Cult Insurrectionist [Crucible]",
   unit_slug: "cult_insurrectionist_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -118,7 +106,6 @@ export const GoliathRockgrinderUnit: UnitConfig = {
   unit_name: "Goliath Rockgrinder",
   unit_slug: "goliath_rockgrinder",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Goliath-Rockgrinder",
 };
 
 
@@ -127,7 +114,6 @@ export const GoliathTruckUnit: UnitConfig = {
   unit_name: "Goliath Truck",
   unit_slug: "goliath_truck",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Goliath-Truck",
 };
 
 
@@ -136,7 +122,6 @@ export const HybridMetamorphsUnit: UnitConfig = {
   unit_name: "Hybrid Metamorphs",
   unit_slug: "hybrid_metamorphs",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Hybrid-Metamorphs",
 };
 
 
@@ -145,7 +130,6 @@ export const JackalAlphusUnit: UnitConfig = {
   unit_name: "Jackal Alphus",
   unit_slug: "jackal_alphus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Jackal-Alphus",
 };
 
 
@@ -154,7 +138,6 @@ export const KelermorphUnit: UnitConfig = {
   unit_name: "Kelermorph",
   unit_slug: "kelermorph",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Kelermorph",
 };
 
 
@@ -163,7 +146,6 @@ export const LocusUnit: UnitConfig = {
   unit_name: "Locus",
   unit_slug: "locus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Locus",
 };
 
 
@@ -172,7 +154,6 @@ export const MagusUnit: UnitConfig = {
   unit_name: "Magus",
   unit_slug: "magus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Magus",
 };
 
 
@@ -181,7 +162,6 @@ export const NeophyteHybridsUnit: UnitConfig = {
   unit_name: "Neophyte Hybrids",
   unit_slug: "neophyte_hybrids",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Neophyte-Hybrids",
 };
 
 
@@ -190,7 +170,6 @@ export const NexosUnit: UnitConfig = {
   unit_name: "Nexos",
   unit_slug: "nexos",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Nexos",
 };
 
 
@@ -199,7 +178,6 @@ export const PatriarchUnit: UnitConfig = {
   unit_name: "Patriarch",
   unit_slug: "patriarch",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Patriarch",
 };
 
 
@@ -208,7 +186,6 @@ export const PrimusUnit: UnitConfig = {
   unit_name: "Primus",
   unit_slug: "primus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Primus",
 };
 
 
@@ -217,7 +194,6 @@ export const PurestrainGenestealersUnit: UnitConfig = {
   unit_name: "Purestrain Genestealers",
   unit_slug: "purestrain_genestealers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Purestrain-Genestealers",
 };
 
 
@@ -226,7 +202,6 @@ export const ReductusSaboteurUnit: UnitConfig = {
   unit_name: "Reductus Saboteur",
   unit_slug: "reductus_saboteur",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Reductus-Saboteur",
 };
 
 
@@ -235,16 +210,14 @@ export const SanctusUnit: UnitConfig = {
   unit_name: "Sanctus",
   unit_slug: "sanctus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Sanctus",
 };
 
 
 export const TectonicFragdrillUnit: UnitConfig = {
   id: unitId("tectonic_fragdrill"),
-  unit_name: "Tectonic Fragdrill",
+  unit_name: "Tectonic Fragdrill (Legends)",
   unit_slug: "tectonic_fragdrill",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/genestealer-cults/Tectonic-Fragdrill",
 };
 
 
@@ -253,7 +226,6 @@ export const VoiceOfThePatriarchCrucibleUnit: UnitConfig = {
   unit_name: "Voice of the Patriarch [Crucible]",
   unit_slug: "voice_of_the_patriarch_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 

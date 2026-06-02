@@ -49,6 +49,30 @@ export const ArchonOfThePoisonedTonguePainAbility: AbilityConfig = {
 };
 
 
+export const ArchonsRetinueAbility: AbilityConfig = {
+  id: abilityId("archons_retinue"),
+  ability_slug: "archons_retinue",
+  ability_name: "Archon's Retinue",
+  ability_type: "datasheet",
+};
+
+
+export const ArchonsWillAbility: AbilityConfig = {
+  id: abilityId("archons_will"),
+  ability_slug: "archons_will",
+  ability_name: "Archon's Will",
+  ability_type: "datasheet",
+};
+
+
+export const AssassinsPoisonsPainAbility: AbilityConfig = {
+  id: abilityId("assassins_poisons_pain"),
+  ability_slug: "assassins_poisons_pain",
+  ability_name: "Assassins' Poisons (Pain)",
+  ability_type: "datasheet",
+};
+
+
 export const BattlefieldButcheryPainAbility: AbilityConfig = {
   id: abilityId("battlefield_butchery_pain"),
   ability_slug: "battlefield_butchery_pain",
@@ -268,7 +292,7 @@ export const InvulnerableSaveFleshCrafterAbility: AbilityConfig = {
 export const KabaliteIconAbility: AbilityConfig = {
   id: abilityId("kabalite_icon"),
   ability_slug: "kabalite_icon",
-  ability_name: "Kabalite Icon",
+  ability_name: "Kabalite icon",
   ability_type: "datasheet",
 };
 
@@ -505,6 +529,14 @@ export const SplinterRacksPainAbility: AbilityConfig = {
 };
 
 
+export const StimmNeedlerAbility: AbilityConfig = {
+  id: abilityId("stimm_needler"),
+  ability_slug: "stimm_needler",
+  ability_name: "Stimm-needler",
+  ability_type: "datasheet",
+};
+
+
 export const SwoopingDescentPainAbility: AbilityConfig = {
   id: abilityId("swooping_descent_pain"),
   ability_slug: "swooping_descent_pain",
@@ -585,6 +617,9 @@ export const drukhariAbilities10e: SeedDataset<"abilities"> = {
     AgonisingSuppressionPainAbility,
     AirborneEvasionAbility,
     ArchonOfThePoisonedTonguePainAbility,
+    ArchonsRetinueAbility,
+    ArchonsWillAbility,
+    AssassinsPoisonsPainAbility,
     BattlefieldButcheryPainAbility,
     BloodySpectacleAbility,
     BlurOfBladesAbility,
@@ -642,6 +677,7 @@ export const drukhariAbilities10e: SeedDataset<"abilities"> = {
     SoulTrapAbility,
     SpeedOfTheKillAbility,
     SplinterRacksPainAbility,
+    StimmNeedlerAbility,
     SwoopingDescentPainAbility,
     TantalusAbility,
     ThrillingSpectacleAbility,

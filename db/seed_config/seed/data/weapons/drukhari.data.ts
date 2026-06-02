@@ -185,6 +185,14 @@ export const MonstrousWeaponsWeapon: WeaponConfig = {
 };
 
 
+export const PainSculptorsWeapon: WeaponConfig = {
+  id: weaponId("pain_sculptors"),
+  weapon_slug: "pain_sculptors",
+  weapon_name: "Pain sculptors",
+  weapon_type: "melee",
+};
+
+
 export const PairedMonstrousWeaponsWeapon: WeaponConfig = {
   id: weaponId("paired_monstrous_weapons"),
   weapon_slug: "paired_monstrous_weapons",
@@ -213,6 +221,14 @@ export const RazorFanWeapon: WeaponConfig = {
   id: weaponId("razor_fan"),
   weapon_slug: "razor_fan",
   weapon_name: "Razor fan",
+  weapon_type: "melee",
+};
+
+
+export const RazorflailWeapon: WeaponConfig = {
+  id: weaponId("razorflail"),
+  weapon_slug: "razorflail",
+  weapon_name: "Razorflail",
   weapon_type: "melee",
 };
 
@@ -466,10 +482,12 @@ export const drukhariWeapons: SeedDataset<"weapons"> = {
     LiquifierGunWeapon,
     MacroScalpelWeapon,
     MonstrousWeaponsWeapon,
+    PainSculptorsWeapon,
     PairedMonstrousWeaponsWeapon,
     ProwBladeWeapon,
     PulseDisintegratorsWeapon,
     RazorFanWeapon,
+    RazorflailWeapon,
     RazorwingFeathersWeapon,
     RazorwingMissilesMonoscytheMissilesWeapon,
     RazorwingMissilesNeurotoxinMissilesWeapon,

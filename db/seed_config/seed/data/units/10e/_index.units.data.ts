@@ -2,7 +2,6 @@ import type { UnitConfig } from "../../../../types/_index.types";
 import { adeptaSororitasUnits10e } from "./adepta_sororitas.data";
 import { adeptusCustodesUnits10e } from "./adeptus_custodes.data";
 import { adeptusMechanicusUnits10e } from "./adeptus_mechanicus.data";
-import { adeptusTitanicusUnits10e } from "./adeptus_titanicus.data";
 import { aeldariUnits10e } from "./aeldari.data";
 import { astraMilitarumUnits10e } from "./astra_militarum.data";
 import { blackTemplarsUnits10e } from "./black_templars.data";
@@ -32,7 +31,6 @@ import { tauEmpireUnits10e } from "./tau_empire.data";
 import { thousandSonsUnits10e } from "./thousand_sons.data";
 import { tyranidsUnits10e } from "./tyranids.data";
 import { ultramarinesUnits10e } from "./ultramarines.data";
-import { unalignedForcesUnits10e } from "./unaligned_forces.data";
 import { whiteScarsUnits10e } from "./white_scars.data";
 import { worldEatersUnits10e } from "./world_eaters.data";
 
@@ -40,7 +38,6 @@ export const units10e = [
   ...adeptaSororitasUnits10e.records,
   ...adeptusCustodesUnits10e.records,
   ...adeptusMechanicusUnits10e.records,
-  ...adeptusTitanicusUnits10e.records,
   ...aeldariUnits10e.records,
   ...astraMilitarumUnits10e.records,
   ...blackTemplarsUnits10e.records,
@@ -70,7 +67,6 @@ export const units10e = [
   ...thousandSonsUnits10e.records,
   ...tyranidsUnits10e.records,
   ...ultramarinesUnits10e.records,
-  ...unalignedForcesUnits10e.records,
   ...whiteScarsUnits10e.records,
   ...worldEatersUnits10e.records,
 ] satisfies UnitConfig[];

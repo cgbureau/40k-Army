@@ -1121,7 +1121,6 @@ type UnitSeedSlug =
   | "acolyte_iconward"
   | "adrax_agatone"
   | "aegis_defence_line"
-  | "aegis_defence_line_with_weapon_emplacement"
   | "aestred_thurga_and_agathae_dolan"
   | "aetaosraukeres"
   | "aethon_shaan"
@@ -1131,7 +1130,6 @@ type UnitSeedSlug =
   | "aleya"
   | "allarus_custodians"
   | "amallyn_shadowguide"
-  | "ambull"
   | "anathema_psykana_rhino"
   | "ancient"
   | "ancient_in_terminator_armour"
@@ -1197,7 +1195,6 @@ type UnitSeedSlug =
   | "barbgaunts"
   | "barracuda"
   | "basilisk"
-  | "bastion"
   | "battle_sanctum"
   | "battle_sisters_squad"
   | "battlesuit_veteran_crucible"
@@ -1225,16 +1222,13 @@ type UnitSeedSlug =
   | "biophagus"
   | "biovores"
   | "bjorn_the_fell_handed"
-  | "black_templars"
   | "blade_champion"
   | "bladeguard_ancient"
   | "bladeguard_veteran_squad"
   | "blightlord_terminators"
   | "blitza_bommer"
-  | "blood_angels"
   | "blood_angels_captain"
   | "blood_claws"
-  | "blood_slaughterer"
   | "bloodcrushers"
   | "bloodcult_champion_crucible"
   | "bloodletters"
@@ -1308,7 +1302,6 @@ type UnitSeedSlug =
   | "carnodon"
   | "castellan"
   | "castellan_crowe"
-  | "castellum_stronghold"
   | "castigator"
   | "catachan_command_squad"
   | "catachan_heavy_weapons_squad"
@@ -1328,7 +1321,6 @@ type UnitSeedSlug =
   | "cerastus_knight_atrapos"
   | "cerastus_knight_castigator"
   | "cerastus_knight_lancer"
-  | "cerberus"
   | "champion_of_excess_crucible"
   | "champion_of_the_chapter_crucible"
   | "champion_of_titan_crucible"
@@ -1359,13 +1351,11 @@ type UnitSeedSlug =
   | "chaos_spawn_flesh_change"
   | "chaos_terminator_squad"
   | "chaos_terminators"
-  | "chaos_thunderhawk"
   | "chaos_vindicator"
   | "chaplain"
   | "chaplain_cassius"
   | "chaplain_grimaldus"
   | "chaplain_in_terminator_armour"
-  | "chaplain_kastiel"
   | "chaplain_on_bike"
   | "chaplain_venerable_dreadnought"
   | "chaplain_with_jump_pack"
@@ -1460,7 +1450,6 @@ type UnitSeedSlug =
   | "daemonifuge"
   | "dakkajet"
   | "damned_legionnaires"
-  | "dark_angels"
   | "dark_apostle"
   | "dark_commune"
   | "dark_reapers"
@@ -1490,9 +1479,7 @@ type UnitSeedSlug =
   | "deathleaper"
   | "deathmarks"
   | "deathshroud_terminators"
-  | "deathstorm_drop_pod"
   | "deathstrike"
-  | "deathwatch"
   | "deathwatch_agent_crucible"
   | "deathwatch_kill_team"
   | "deathwatch_terminator_squad"
@@ -1504,7 +1491,6 @@ type UnitSeedSlug =
   | "deathwing_knights"
   | "deathwing_strikemaster"
   | "deathwing_terminator_squad"
-  | "decimator"
   | "decimus_kill_team"
   | "deff_dread"
   | "deff_rolla_battle_fortress"
@@ -1513,7 +1499,6 @@ type UnitSeedSlug =
   | "deffkoptas_with_big_shootas"
   | "defiler"
   | "deimos_predator"
-  | "deredeo_dreadnought"
   | "desolation_squad"
   | "devastator_squad"
   | "devilfish"
@@ -1527,10 +1512,8 @@ type UnitSeedSlug =
   | "doomhammer"
   | "doomsday_ark"
   | "drazhar"
-  | "dreadclaw_drop_pod"
   | "dreadknight_champion_crucible"
   | "dreadnought"
-  | "dreadnought_drop_pod"
   | "drone_sentry_turret"
   | "drop_pod"
   | "dynastic_conqueror_crucible"
@@ -1565,13 +1548,11 @@ type UnitSeedSlug =
   | "exorcist"
   | "ezekiel"
   | "fabius_bile"
-  | "falchion"
   | "falcon"
   | "farseer"
   | "farseer_skyrunner"
   | "fateskimmer"
   | "feculent_gnarlmaw"
-  | "fellblade"
   | "fellgor_beastmen"
   | "fenrisian_wolves"
   | "ferren_areios"
@@ -1580,10 +1561,8 @@ type UnitSeedSlug =
   | "fighta_bommer"
   | "fire_dragons"
   | "fire_prism"
-  | "fire_raptor_gunship"
   | "firesight_team"
   | "firestorm"
-  | "firestorm_redoubt"
   | "firestrike_servo_turrets"
   | "flamers"
   | "flash_gitz"
@@ -1597,7 +1576,6 @@ type UnitSeedSlug =
   | "foetid_bloat_drone_with_heavy_blight_launcher"
   | "forgefiend"
   | "fortis_kill_team"
-  | "fortress_of_redemption"
   | "foul_blightspawn"
   | "front_line_commander_crucible"
   | "fuegan"
@@ -1633,8 +1611,6 @@ type UnitSeedSlug =
   | "gravis_veteran_w_infernus_heavy_bolter"
   | "great_knarloc"
   | "great_unclean_one"
-  | "greater_blight_drone"
-  | "greater_brass_scorpion"
   | "gretchin"
   | "grey_hunters"
   | "grey_knights_dreadnought"
@@ -1649,7 +1625,6 @@ type UnitSeedSlug =
   | "grotesques"
   | "grotmas_gitz_legends"
   | "guardian_defenders"
-  | "guardian_drone"
   | "guardian_of_the_throne_crucible"
   | "haarken_worldclaimer"
   | "hades_breaching_drill"
@@ -1675,7 +1650,6 @@ type UnitSeedSlug =
   | "hell_blade"
   | "hell_talon"
   | "hellblaster_squad"
-  | "hellflayer"
   | "hellflayers"
   | "hellhammer"
   | "hellhound"
@@ -1718,8 +1692,6 @@ type UnitSeedSlug =
   | "immortal_champion_crucible"
   | "immortals"
   | "imotekh_the_stormlord"
-  | "imperial_fists"
-  | "imperial_fortress_walls"
   | "imperial_navy_breachers"
   | "imperial_rhino"
   | "imperial_space_marine"
@@ -1754,7 +1726,6 @@ type UnitSeedSlug =
   | "irillyth"
   | "iron_father_feirros"
   | "iron_hand_straken"
-  | "iron_hands"
   | "iron_priest"
   | "iron_priest_on_thunderwolf"
   | "ironclad_dreadnought"
@@ -1766,10 +1737,8 @@ type UnitSeedSlug =
   | "jain_zar"
   | "jakhals"
   | "janus_draik"
-  | "javelin_attack_speeder"
   | "jokaero_weaponsmith"
   | "judiciar"
-  | "judiciar_xacharus"
   | "junith_eruita"
   | "k_hl"
   | "kabalite_warriors"
@@ -1791,7 +1760,6 @@ type UnitSeedSlug =
   | "kelermorph"
   | "kh_rn_the_betrayer"
   | "kharseth"
-  | "kharybdis_assault_claw"
   | "khorne_berzerkers"
   | "khorne_lord_of_skulls"
   | "khorne_soul_grinder"
@@ -1823,7 +1791,6 @@ type UnitSeedSlug =
   | "knight_warden"
   | "kommandos"
   | "korsarro_khan"
-  | "kratos"
   | "kravek_morne"
   | "krieg_combat_engineers"
   | "krieg_command_squad"
@@ -1839,16 +1806,13 @@ type UnitSeedSlug =
   | "krootox_rampagers"
   | "krootox_riders"
   | "kustom_boosta_blasta"
-  | "kytan_ravager"
   | "lady_malys"
   | "land_raider"
-  | "land_raider_achilles"
   | "land_raider_banisher"
   | "land_raider_crusader"
   | "land_raider_excelsior"
   | "land_raider_helios"
   | "land_raider_prometheus"
-  | "land_raider_proteus"
   | "land_raider_redeemer"
   | "land_speeder"
   | "land_speeder_storm"
@@ -1868,7 +1832,6 @@ type UnitSeedSlug =
   | "leman_russ_punisher"
   | "leman_russ_vanquisher"
   | "lemartes"
-  | "leviathan_dreadnought"
   | "lhykhis"
   | "librarian"
   | "librarian_dreadnought"
@@ -1916,7 +1879,6 @@ type UnitSeedSlug =
   | "macharius_omega"
   | "macharius_vanquisher"
   | "macharius_vulcan"
-  | "macro_cannon_aquila_strongpoint"
   | "macro_organism_crucible"
   | "mad_dok_grotsnik"
   | "magister_crucible"
@@ -1943,7 +1905,6 @@ type UnitSeedSlug =
   | "master_of_executions"
   | "master_of_possession"
   | "masters_of_the_maelstrom"
-  | "mastodon"
   | "maugan_ra"
   | "maulerfiend"
   | "mawloc"
@@ -1975,7 +1936,6 @@ type UnitSeedSlug =
   | "murderfang"
   | "mutalith_vortex_beast"
   | "mutilators"
-  | "mutilators_legendary"
   | "mutoid_vermin"
   | "myphitic_blight_hauler"
   | "navigator"
@@ -2048,7 +2008,6 @@ type UnitSeedSlug =
   | "plague_toads"
   | "plaguebearers"
   | "plagueburst_crawler"
-  | "plasma_obliterator"
   | "plasmancer"
   | "possessed"
   | "pox_riders"
@@ -2059,7 +2018,6 @@ type UnitSeedSlug =
   | "predator_destructor"
   | "primaris_company_champion"
   | "primaris_psyker"
-  | "primaris_redoubt"
   | "prime_organism_crucible"
   | "primus"
   | "prince_yriel"
@@ -2081,12 +2039,10 @@ type UnitSeedSlug =
   | "ragnar_blackmane"
   | "raider"
   | "rangers"
-  | "rapier_carrier"
   | "rapier_laser_destroyer_battery"
   | "raptors"
   | "ratlings"
   | "ravager"
-  | "raven_guard"
   | "raven_strike_fighter"
   | "raveners"
   | "ravenwing_black_knights"
@@ -2098,7 +2054,6 @@ type UnitSeedSlug =
   | "razorshark_strike_fighter"
   | "razorwing_jetfighter"
   | "reaper"
-  | "reaver_titan"
   | "reavers"
   | "red_corsairs_raiders"
   | "red_corsairs_reave_captain"
@@ -2107,7 +2062,6 @@ type UnitSeedSlug =
   | "regimental_attach_s"
   | "rein_and_raus"
   | "reiver_squad"
-  | "relic_contemptor_dreadnought"
   | "relic_razorback"
   | "relic_terminator_squad"
   | "reliquant_knight_crucible"
@@ -2147,7 +2101,6 @@ type UnitSeedSlug =
   | "saint_celestine"
   | "salamander_command_vehicle"
   | "salamander_scout_vehicle"
-  | "salamanders"
   | "sammael"
   | "sanctifiers"
   | "sanctus"
@@ -2197,14 +2150,8 @@ type UnitSeedSlug =
   | "shining_spears"
   | "shokkjump_dragsta"
   | "shroud_runners"
-  | "sicaran_arcus"
-  | "sicaran_battle_tank"
-  | "sicaran_omega"
-  | "sicaran_punisher"
-  | "sicaran_venator"
   | "sicarian_infiltrators"
   | "sicarian_ruststalkers"
-  | "sir_hekhtur"
   | "sister_novitiate_autogun"
   | "sister_novitiate_melee_weapon"
   | "sisters_novitiate_squad"
@@ -2228,13 +2175,11 @@ type UnitSeedSlug =
   | "sky_slasher_swarms"
   | "skyclaws"
   | "skyrunner_crucible"
-  | "skyshield_landing_pad"
   | "skyweavers"
   | "slaanesh_soul_grinder"
   | "slaughterbound"
   | "sloppity_bilepiper"
   | "sly_marbo"
-  | "sokar_pattern_stormbird"
   | "solitaire"
   | "sorcerer"
   | "sorcerer_in_terminator_armour"
@@ -2245,12 +2190,8 @@ type UnitSeedSlug =
   | "sorcerous_champion_crucible"
   | "sororitas_rhino"
   | "soul_forge_tyrant_crucible"
-  | "soul_grinder"
-  | "space_wolves"
   | "spanner"
-  | "spartan"
   | "spectrus_kill_team"
-  | "spindle_drones"
   | "spined_chaos_beast"
   | "spiritseer"
   | "spoilpox_scrivener"
@@ -2268,7 +2209,6 @@ type UnitSeedSlug =
   | "sternguard_veteran_squad"
   | "stompa"
   | "storm_chimera"
-  | "storm_eagle_gunship"
   | "storm_guardians"
   | "storm_speeder_hailstrike"
   | "storm_speeder_hammerstrike"
@@ -2307,7 +2247,6 @@ type UnitSeedSlug =
   | "tantalus"
   | "tarantula_air_defence_battery"
   | "tarantula_battery"
-  | "tarantula_sentry_battery"
   | "taunar_supremacy_armour"
   | "tauros_assault_vehicle"
   | "tauros_venator"
@@ -2334,7 +2273,6 @@ type UnitSeedSlug =
   | "tesseract_vault"
   | "tetras"
   | "thar_the_destined"
-  | "the_archivist"
   | "the_blue_scribes"
   | "the_changeling"
   | "the_masque_of_slaanesh"
@@ -2355,10 +2293,8 @@ type UnitSeedSlug =
   | "tidewall_shieldline"
   | "tiger_shark"
   | "tomb_blades"
-  | "tomb_citadel_walls"
   | "tor_garadon"
   | "tormentbringer"
-  | "tormentbringer_on_exalted_seeker_chariot"
   | "tormentors"
   | "toxicrene"
   | "traitor_enforcer"
@@ -2379,7 +2315,6 @@ type UnitSeedSlug =
   | "trygon"
   | "tx42_piranha"
   | "tycho_the_lost"
-  | "typhon"
   | "typhus"
   | "tyranid_prime_with_lash_whip"
   | "tyranid_warriors_with_melee_bio_weapons"
@@ -2395,7 +2330,6 @@ type UnitSeedSlug =
   | "tzeentch_soul_grinder"
   | "ufthak_blackhawk"
   | "ulrik_the_slayer"
-  | "ultramarines"
   | "ultramarines_honour_guard"
   | "upstart_gretchin_crucible"
   | "ur_025"
@@ -2420,7 +2354,6 @@ type UnitSeedSlug =
   | "venerable_dreadnought"
   | "venerable_dreadnought_legendary"
   | "venerable_land_raider"
-  | "vengeance_weapon_battery"
   | "venom"
   | "venomcrawler"
   | "venomthropes"
@@ -2433,21 +2366,15 @@ type UnitSeedSlug =
   | "vigilators"
   | "vindicare_assassin"
   | "vindicator"
-  | "vindicator_laser_destroyer"
   | "voice_of_the_patriarch_crucible"
-  | "void_shield_generator"
   | "voidraven_bomber"
   | "voidsmen_at_arms"
   | "voidweaver"
   | "von_ryans_leapers"
-  | "vortex_missile_strongpoint"
   | "voss_pattern_lightning"
   | "vulkan_hestan"
   | "vulture_gunship"
   | "vypers"
-  | "wall_of_martyrs_bunker"
-  | "wall_of_martyrs_defence_emplacement"
-  | "wall_of_martyrs_defence_line"
   | "war_dog_brigand"
   | "war_dog_executioner"
   | "war_dog_huntsman"
@@ -2459,14 +2386,11 @@ type UnitSeedSlug =
   | "warboss"
   | "warboss_in_mega_armour"
   | "warboss_on_warbike"
-  | "warbringer_nemesis_titan"
   | "warbuggies"
   | "wardens_of_ultramar"
-  | "warhound_titan"
   | "warlock"
   | "warlock_conclave"
   | "warlock_skyrunners"
-  | "warlord_titan"
   | "warp_hunter"
   | "warp_spiders"
   | "warp_talons"
@@ -2482,8 +2406,6 @@ type UnitSeedSlug =
   | "webway_gate"
   | "weirdboy"
   | "whirlwind"
-  | "whirlwind_scorpius"
-  | "white_scars"
   | "windriders"
   | "winged_hive_tyrant"
   | "winged_tyranid_prime"
@@ -2514,8 +2436,6 @@ type UnitSeedSlug =
   | "wurrboy"
   | "wyches"
   | "wyvern"
-  | "x_101"
-  | "xiphon_interceptor"
   | "xv9_hazard_battlesuits"
   | "ynnari_archon"
   | "ynnari_incubi"
@@ -2545,7 +2465,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   acolyte_iconward: "01KWFZJMFBY5QTX5NGPSP93B0A",
   adrax_agatone: "01KA0VZG2725FG8ZDHQHFHNPZ1",
   aegis_defence_line: "01KVDMTNJQGA317183Z87N5WFG",
-  aegis_defence_line_with_weapon_emplacement: "01KKNTJGCEWC414KCC33DAS82D",
   aestred_thurga_and_agathae_dolan: "01K6T6D8QN6W677Z2APPACWN5E",
   aetaosraukeres: "01K8HPS6D1A78A8DMBERC6ZE38",
   aethon_shaan: "01KCGRFTPA2F8H2SHDRM908V39",
@@ -2555,7 +2474,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   aleya: "01KCB0DEPDVD28RXA4JQPWQSDD",
   allarus_custodians: "01KRTYCPMX9PW1K1Q4DDD39B4G",
   amallyn_shadowguide: "01K2RNF9NGTB4N30RV163RZDJZ",
-  ambull: "01KPBV2625JD8W0XV3E0YNE3TX",
   anathema_psykana_rhino: "01K90943Z4PVWG01S973TR0Q0H",
   ancient: "01KV7GGG2HVM1E18HAEYXV5X3F",
   ancient_in_terminator_armour: "01KP8QBY7SV5WAQSHJS5FKDGNX",
@@ -2621,7 +2539,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   barbgaunts: "01KH8WA3X3Z641KQPCE32ECG33",
   barracuda: "01KWRF6RS4JREP27V9WF6TNNSY",
   basilisk: "01K6792DQ1QBGS4PF6X77CB3Z8",
-  bastion: "01KZAWQ7EVFMEMTTHC4XXRNBNP",
   battle_sanctum: "01KJMS2WV52CFWNJ2DWBW5NGHY",
   battle_sisters_squad: "01KE1M6TZV0S4SRGCDQ008R7RT",
   battlesuit_veteran_crucible: "01KDCREPJJC96KPNA4A3SNM53Y",
@@ -2649,16 +2566,13 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   biophagus: "01KSGVXV1WYW5EA1GQC6G8PPJZ",
   biovores: "01KQSK33S52XSR1YFP6AB1MCSZ",
   bjorn_the_fell_handed: "01KPGKDZAXBT0MP2KDZ7TZ6CS1",
-  black_templars: "01KAQ5A7B0ZV783T49KYX7Y1G5",
   blade_champion: "01KSFYYFQXYFYX3052XCC0TBPX",
   bladeguard_ancient: "01K5AFNB50F41BDANDXM5NWEXF",
   bladeguard_veteran_squad: "01KMSYN5CYKGS2TF75YWASNQVV",
   blightlord_terminators: "01KZKM6V8YZKR6QY40G3FNY7CT",
   blitza_bommer: "01KVVSY7NP363TF4CMKM8V6392",
-  blood_angels: "01KEER7ZGKWJN71ZHR9TVTR0RT",
   blood_angels_captain: "01KSEYY47MZXYMCP6KMAHP8AKH",
   blood_claws: "01KSEG3QCXRHAFNEYNT1J901KT",
-  blood_slaughterer: "01K7WCMSGEGSVK71AJ6YN5YM6F",
   bloodcrushers: "01KM06MF157JE5D73KP5DBPGNR",
   bloodcult_champion_crucible: "01KMP0710TATA05NN452XMSVGQ",
   bloodletters: "01K82CM9SBYVJDF5VXR22XN69R",
@@ -2732,7 +2646,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   carnodon: "01KVYZ3QJ1HV5WEEB410KVJXTJ",
   castellan: "01K0HZ1QRHWNDCSS6RGPGNZM36",
   castellan_crowe: "01KMV69ZWCNFFGXRE8A821FQCC",
-  castellum_stronghold: "01KJCAAWP6XMCF5K0D92V994MG",
   castigator: "01K6AC7GBJPVZCHMTEC334Q6EW",
   catachan_command_squad: "01KEAMTVMZEBY3ZP04WXZKKZB5",
   catachan_heavy_weapons_squad: "01K3CZF964GMS63HK4K8BNR5RP",
@@ -2752,7 +2665,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   cerastus_knight_atrapos: "01KE8MD0AQAW55VN2129XZ9VM2",
   cerastus_knight_castigator: "01KGTSBR3RGG221EGMV4PVMPMC",
   cerastus_knight_lancer: "01KRYAR3573MYSJNJKSG8B9YVE",
-  cerberus: "01KWFVG5SDG6BHAQ67C9WW0XT1",
   champion_of_excess_crucible: "01KZTATDKN40A2YJ7JAV0BXQ52",
   champion_of_the_chapter_crucible: "01KY5YGDBPQN781AQYNYSJTRB7",
   champion_of_titan_crucible: "01KW4AWWR5ME9DKGWNQGVTZG2N",
@@ -2783,13 +2695,11 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   chaos_spawn_flesh_change: "01KDCZ4SZ7WHSMF79J9M1RGQEH",
   chaos_terminator_squad: "01KBXE9MN0Y6747EP1AHS9SH37",
   chaos_terminators: "01KHDT2MJ5PSWS3G78QAHGP9GE",
-  chaos_thunderhawk: "01KW3GQE3PRQR5NBEZ0VTQBE85",
   chaos_vindicator: "01KBQAA2RHVVTW78KK2DS4K08E",
   chaplain: "01KKT2BD1370QFGHKFJ3VE8963",
   chaplain_cassius: "01K32JK9G0K147SAKHRBNZ9A9W",
   chaplain_grimaldus: "01KT60AKWGJST60Z33H0B48K8W",
   chaplain_in_terminator_armour: "01KXZY7XZSPXW5TN2T81SCBJGA",
-  chaplain_kastiel: "01KFT2XQ7MWER4HXE3CKYD0111",
   chaplain_on_bike: "01KWSNRFQA7JW792QX0WA6F6KE",
   chaplain_venerable_dreadnought: "01KQ8PSHBXQ6S6H9ZWT156HAKT",
   chaplain_with_jump_pack: "01KHB7Q8Y4Y2ZSYC110RW57M13",
@@ -2884,7 +2794,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   daemonifuge: "01KZS86W68WG6TJG34HM4Z95EM",
   dakkajet: "01KZYNE0RYB95Z3TSVMC3EYM5R",
   damned_legionnaires: "01KYXER71G2XF5QMKSR99F3K8M",
-  dark_angels: "01KC3D1QNF4DDQDHRX4PS3MKSP",
   dark_apostle: "01K29ZNJ5QSKQ162BFGQB01HHH",
   dark_commune: "01KTCCTA0CAPPD12JWEB7WGQEN",
   dark_reapers: "01K494J9TA5ESHJD5HDKXT03AH",
@@ -2914,9 +2823,7 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   deathleaper: "01KTV670F15EQN30F0R6Z6BPR5",
   deathmarks: "01K11VD1JR7YE4TSXGPRRKQE8D",
   deathshroud_terminators: "01K46ZFA4MSS6WHG58AV2Q94Q6",
-  deathstorm_drop_pod: "01KCBR2YWVDN3S7W28GJ2FP7D9",
   deathstrike: "01K9ZSP60FA6JJZR2DGWEB3V5N",
-  deathwatch: "01K9VPA0QP75TR10SCM9Z77E06",
   deathwatch_agent_crucible: "01K86RZ6SXVFBG18AQFW8C41CT",
   deathwatch_kill_team: "01KY1WCVFKVPXQQGYEETW4SNHY",
   deathwatch_terminator_squad: "01KP2HVPMY7GV13YVAHY0VJ6RY",
@@ -2928,7 +2835,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   deathwing_knights: "01K060KE0HASHDT3VEH5ZNSBXV",
   deathwing_strikemaster: "01KGAGE7A0HG66A6SSM5882T50",
   deathwing_terminator_squad: "01KQCY8F5BG80R6NTQYXPS1J3P",
-  decimator: "01K6C1GKSCR172WM9XTG1HB96T",
   decimus_kill_team: "01KGRS0B9SWSF9AK2SPV402F8T",
   deff_dread: "01K2BRQXQK44PTXRVM7VSRKHV5",
   deff_rolla_battle_fortress: "01KX4P61P9G59WJ87VMQQ0AVRH",
@@ -2937,7 +2843,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   deffkoptas_with_big_shootas: "01K6JMJ6DY3GCQQZWNSYQE6TZC",
   defiler: "01K6QHKE0DGNRJEKNQBQCV75CC",
   deimos_predator: "01K54MF29HAQBJFFCTGKJZ366M",
-  deredeo_dreadnought: "01KM3MKTT707E47C9T7VEEQB1Y",
   desolation_squad: "01KGMGGZR0VYC89NJFX1KDJZ73",
   devastator_squad: "01KMP8PBEFC93V9MNCCC59B435",
   devilfish: "01K8J9815KRF1A01TVVN83KTBE",
@@ -2951,10 +2856,8 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   doomhammer: "01KCP5WDAZ3AF6T1G33CAQX8PA",
   doomsday_ark: "01KY5K6BWJ2J7ATHXZBQP4H6V0",
   drazhar: "01KE0MXX8NTDS5QZSBGV2N8E4K",
-  dreadclaw_drop_pod: "01KW9MJP6E6ZMSEG7T2PG38VV8",
   dreadknight_champion_crucible: "01K269E8WHY7HTY9VKVP24C5BA",
   dreadnought: "01KJC9YNH7AYERJ31BBXE3X9D6",
-  dreadnought_drop_pod: "01K42RJGKB549VH92PKJVPE11Z",
   drone_sentry_turret: "01KEZAC5GN5KKV7WGKFP3P8RVV",
   drop_pod: "01K1TPGEA50MC5Z3N16EQBBMF4",
   dynastic_conqueror_crucible: "01KM44D9TVFFE2TK60R51JE7RG",
@@ -2989,13 +2892,11 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   exorcist: "01KFSBQTGA6XGDMF5SCNK1HTCP",
   ezekiel: "01K0PRNJ1DVS6WSVD0XYVJWG4C",
   fabius_bile: "01K2TZN6JBQAHRPW4PQ3DZKVFT",
-  falchion: "01KPJPNY4VBBQT50BTCQ98X8Q3",
   falcon: "01K5S3PX00FNP2822P712V6CD9",
   farseer: "01KAY905RPV4KT5V978SHR780X",
   farseer_skyrunner: "01KYYD29N98TJ7M3NW2G60HZ01",
   fateskimmer: "01KN02DDQP07Z5NWZTTARHBRBX",
   feculent_gnarlmaw: "01KS3DYAPQGPFG43CDMK0B8W2A",
-  fellblade: "01KYZ3H6Q848Y2X9FA506VS00Y",
   fellgor_beastmen: "01KP1H10AYAAMSSGFD950CFBMD",
   fenrisian_wolves: "01K01X3Y8JKYFK9WEXRAF8E02J",
   ferren_areios: "01KKW9YQ0M12SM9ZQ99VWEWY39",
@@ -3004,10 +2905,8 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   fighta_bommer: "01K0N2HCMKGBC3PVPVTW22NP7S",
   fire_dragons: "01KJS3QETJYMQN4HP4XFZ99RBK",
   fire_prism: "01K6GTSPWHHK0QSMJ2271GP8M4",
-  fire_raptor_gunship: "01KMDJP5HP72PYQ64RMD2NX6MM",
   firesight_team: "01KE5Y2Q1V75M7FXSDJFZ3X25Z",
   firestorm: "01KR810H17WBP9ADECBMRHTZY3",
-  firestorm_redoubt: "01KRM62QXYDMSKZK1NTDSDF4E2",
   firestrike_servo_turrets: "01K39FRRQH7KKEVX8HF1V743FG",
   flamers: "01KB4EAYNAGQGNKN746ZSHSDTH",
   flash_gitz: "01KS2CD9DXCXGBYAFY6BFHX2XY",
@@ -3021,7 +2920,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   foetid_bloat_drone_with_heavy_blight_launcher: "01KA0G5C2XM9BX0WQ4H6R35RBX",
   forgefiend: "01KMFHBY8N3WKTNPPMV2WY2E64",
   fortis_kill_team: "01KGHV71MAPTNQFMAK95MV1PMC",
-  fortress_of_redemption: "01KF86G6CPVPEP8NZP3B6EAKPM",
   foul_blightspawn: "01K1ZPK7Q6QA5J8BDSHER1H68G",
   front_line_commander_crucible: "01KK8S3237DA20QWNMPFVYMMAC",
   fuegan: "01KGB33DZA36PTS633XR7SA5FQ",
@@ -3057,8 +2955,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   gravis_veteran_w_infernus_heavy_bolter: "01KFZE7JXQ50Z95V0RT4RWENHM",
   great_knarloc: "01KRCE326T5EY62GCGY9T513SK",
   great_unclean_one: "01KCGS8C473FMXWP594Z6KBZJZ",
-  greater_blight_drone: "01KK3A909V2KN5E003FGHE3SPB",
-  greater_brass_scorpion: "01KGK6Q5T7XYBAGR625CNCEQBJ",
   gretchin: "01KARY70NMTXAFJKYGHPPAXST9",
   grey_hunters: "01KTA14RDWVCBPG8KDY29PZA23",
   grey_knights_dreadnought: "01KQT8M2AVVME69CBB1GP8137E",
@@ -3073,14 +2969,13 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   grotesques: "01KK5HM7Z1VFG47B218DM5X3M5",
   grotmas_gitz_legends: "01K0G9WEW94C17QQEZAJ6BSNGX",
   guardian_defenders: "01KV7S8J6NA28MBAZKBWVN11CG",
-  guardian_drone: "01KM5YZ7RDJQF55FMP999HVXHJ",
   guardian_of_the_throne_crucible: "01KVNRVME6175MCYWYY484C602",
   haarken_worldclaimer: "01KC5E5DEA44WBV5KV42RTTEKR",
   hades_breaching_drill: "01KJQGYPX8RJD8CVY1X2ZXWCCW",
   haemonculus: "01KRSW89AC6SB1X0JJYTZSW22X",
   hammerfall_bunker: "01KXDHV4KVT3VRGEQPMNSHD5CN",
   hammerhead_gunship: "01K6R98EZNR8Z0HA5NP1W10CRM",
-  hand_of_the_archon: "01K3Z9NPBW4FHSZA8EFVRAT52X",
+  hand_of_the_archon: "01KY51B9C85TBE3F297PNEGGEY",
   harald_deathwolf: "01KBMV20EM1VBCC00C4Z8DMQMZ",
   harpy: "01KXYDHYNQMSQVQ2KVVCJ883X7",
   harridan: "01KXQTQ72JDZ4A5N403R4C38WE",
@@ -3099,7 +2994,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   hell_blade: "01KMGV0CNDCBHCCD13H4343YBX",
   hell_talon: "01KTQKJ8NRFVYF125D1KPHCZJ1",
   hellblaster_squad: "01KKJ2HX0AK13DEP0AE2NH29WJ",
-  hellflayer: "01KCP7M0401A0DAV3JEZ092PEE",
   hellflayers: "01K0ZFSHVBSYJV1QH17P88DW8R",
   hellhammer: "01KGMH6PE7E5G47ERJJT5G4ZG0",
   hellhound: "01KASM3QE1EY82RVW8VFVV637T",
@@ -3142,8 +3036,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   immortal_champion_crucible: "01KSWGRR8YXW4D9PQD2AHY69B2",
   immortals: "01KF4VWAXSGM638QJSV54P3BS6",
   imotekh_the_stormlord: "01K21WYCZDP891S53RMKGDC66Z",
-  imperial_fists: "01KCKR7JWYRPPYHTWTDF7GPE0G",
-  imperial_fortress_walls: "01KETZ6GQ4AV6H4KW9P283DNTC",
   imperial_navy_breachers: "01KGKN4WAA6GK3S0SH2K17ANAH",
   imperial_rhino: "01KDH9SXM6Y34SJATV8MZ1B0XG",
   imperial_space_marine: "01KG9HGYA3CGHXGPWKTJWFQGGJ",
@@ -3178,7 +3070,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   irillyth: "01K8Z300XPQVVHMNZGFX8WAR42",
   iron_father_feirros: "01K8MVK05PPKV7AQDPVV65V4EK",
   iron_hand_straken: "01K0DFZKCN4QQ5GJBHWPMP0F4Q",
-  iron_hands: "01KAVBZVF21DE85MMHSCPWJMSK",
   iron_priest: "01KQJF1EEGD5XHFHJ0N0SH7AAW",
   iron_priest_on_thunderwolf: "01KTQRB21QNT60G65QBFPQYCK4",
   ironclad_dreadnought: "01KAJZS1CTTC40ETKHMXP5A9T9",
@@ -3190,10 +3081,8 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   jain_zar: "01K9HQHQM14WR8KJ9K8KQS4BB5",
   jakhals: "01KBBFY5ZT6C9GBQYD0MXJEBC3",
   janus_draik: "01KQSSDQN0YV44Z15NJT58RG0F",
-  javelin_attack_speeder: "01KYAYS3CWJ1MS428BNRJBNM1Q",
   jokaero_weaponsmith: "01KA2ZMSE0AVH7RJZTZRE67VPK",
   judiciar: "01KAYSTGZGWZM0EGRTJV2CAVAD",
-  judiciar_xacharus: "01K4ACKBJW5DR9TQ0VBWQ0P3Q7",
   junith_eruita: "01K6NVA2YPJ9QVKKHWA01YR34A",
   k_hl: "01KBT6CEACGJ5CM1X729Q0SRAH",
   kabalite_warriors: "01KT61SJK5PN1WBA3E1YQQBVW5",
@@ -3215,7 +3104,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   kelermorph: "01KNBN2DV6H52Y5EZW1VW716XV",
   kh_rn_the_betrayer: "01KJ3MQN2D4NSVCZTGF3DDNXBA",
   kharseth: "01KAS2BSX3SJH1N3YM61TPQ6SG",
-  kharybdis_assault_claw: "01KJWTHD8HCTPCJEKHHRN24BPC",
   khorne_berzerkers: "01K0STQZN6C4HX8Z94E7QBH3GX",
   khorne_lord_of_skulls: "01KGFVSTKGWE7FG1T0WKR0GC19",
   khorne_soul_grinder: "01KP83BB9XSARYEGYM9ZGDQ364",
@@ -3247,7 +3135,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   knight_warden: "01KQ3SSGWYBZG9N2VBVFS92VGG",
   kommandos: "01K5E5DRBK223RGETS5X0BXRNX",
   korsarro_khan: "01KJEFRY1NAMDTJ18H8GJQ580C",
-  kratos: "01KCTQ7WNT3X981RS3AZPZP4AG",
   kravek_morne: "01K3Y4SZZ49GZKBP8R6EWX2AG8",
   krieg_combat_engineers: "01KSQ7EKVZJTNSH470F7NCESGH",
   krieg_command_squad: "01KRQNDB9NGBR6SB999DEDQJ8N",
@@ -3263,16 +3150,13 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   krootox_rampagers: "01K1DSQGKZ23MR8FKZXGH5WY9K",
   krootox_riders: "01KWP35DBX82K8WCC314SHQPYF",
   kustom_boosta_blasta: "01KJFY83R7PYHN6K9MDQ6R5XGQ",
-  kytan_ravager: "01KPSY9CJN7P10YFSG5DW2197K",
   lady_malys: "01KQW11WJ0F7D8EJ7TS3SXB77Z",
   land_raider: "01KZGS1KE5WBT3QH6BXYFFZWZE",
-  land_raider_achilles: "01KCYAXACAQXV3MZ7ZNDZ4XDN9",
   land_raider_banisher: "01K804RQHJK8BAYB211RN055F5",
   land_raider_crusader: "01KD9H986EKZNNWC3WBZH8M07M",
   land_raider_excelsior: "01K75Q1W24KYTHQTFEJMXX2N9E",
   land_raider_helios: "01KW0D099V1CD00KNRPMNC4W4M",
   land_raider_prometheus: "01KDMXDJM1AT9TB3XRVKWSPF34",
-  land_raider_proteus: "01K5XPD5D18ZZJQXNB5SY5JKC2",
   land_raider_redeemer: "01KGMBBW1VJ6NFS4JS9VKHJMY0",
   land_speeder: "01KXN0Z82M46M6BDAW4X0Q6TA8",
   land_speeder_storm: "01KZ4C4PDSQ5YP7DTCNDRGXRWX",
@@ -3292,7 +3176,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   leman_russ_punisher: "01K5YZ3V9FPH0FNCDX4GDP27YC",
   leman_russ_vanquisher: "01KAQQTTT61JTZBSRE6N4N2SFB",
   lemartes: "01KRVHD5EJ5P0HA6YW6JCRM9V9",
-  leviathan_dreadnought: "01KN4Y9VYXWH36NC4SW3JVX7V3",
   lhykhis: "01KV0623A7B23ZTVWX4NP5S6GT",
   librarian: "01KXTV3Q58DZ800MJ1K8TF1MDZ",
   librarian_dreadnought: "01K0HG0AGBJ2PDN58HG6242SJZ",
@@ -3340,7 +3223,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   macharius_omega: "01K56Q2HYYHR3NTWEZQ2FZG4YX",
   macharius_vanquisher: "01KV4YN4EHKGK6PGPB2QT2WHN6",
   macharius_vulcan: "01K4A53GVEE875W93HXQ1DCHD4",
-  macro_cannon_aquila_strongpoint: "01KDW6WYBXMW5SKMZS298J2GHP",
   macro_organism_crucible: "01KWJNSNJW4V947WG1AWAYMRGA",
   mad_dok_grotsnik: "01KT5X5JKR0X792CCQWMZXP2MK",
   magister_crucible: "01K10XPWWCR3HBFHF2J9CT6T52",
@@ -3367,7 +3249,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   master_of_executions: "01KRPP8QQHC720ZQEQJK128JDA",
   master_of_possession: "01K5W70736RCYXQKY6DA2YG7FG",
   masters_of_the_maelstrom: "01KEJY5AYEZXZB1NFWWF8NWXK4",
-  mastodon: "01KVSP08KDQWZNQ1T2MQPXM4GK",
   maugan_ra: "01K00G6H3D7QTXP4Y47RJ90F7E",
   maulerfiend: "01KGB66W0DS4D45Y885SX3638T",
   mawloc: "01K3NX2DGH5KDHB7TY02390MVG",
@@ -3399,7 +3280,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   murderfang: "01KF3TT0KM0XDM94NC3YKDABYP",
   mutalith_vortex_beast: "01KK9YJ99PT2Y6PPHZVWXBRES9",
   mutilators: "01KCBMT1NKKWFSMQ67AHHF9T0A",
-  mutilators_legendary: "01KSHCQS50AWH46FSMAD4RZ1G0",
   mutoid_vermin: "01KAXJ5EVSW52ZV2C47QNCMJMF",
   myphitic_blight_hauler: "01KQY58EQZZF732HB9QCGFTHZV",
   navigator: "01KE7JTQ0XTHAHZ8F2G8A85WW1",
@@ -3472,7 +3352,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   plague_toads: "01KX0CD0VK1JMAREV2HK1D7PXD",
   plaguebearers: "01KWVHCVXY140H5H57B5HR19TQ",
   plagueburst_crawler: "01KYB9HRJG3GRWTECE8F03S4CW",
-  plasma_obliterator: "01KDDVG9TK87HZQGV66FYWF4DG",
   plasmancer: "01KJ6HGP8NE9PB921J7863570R",
   possessed: "01KH7PTH9KXB941316DSMQQAW6",
   pox_riders: "01KWNJGEZ06S8TWAKM23WJ6PJQ",
@@ -3483,7 +3362,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   predator_destructor: "01KT9EZNT76P7PSWHH81H64XT6",
   primaris_company_champion: "01KH7NTWV29FXYZ54GET0397G0",
   primaris_psyker: "01KEHWEHB74YA1N920FJAXQSRN",
-  primaris_redoubt: "01KNWJYWY6B4CMRCJVG608QJX4",
   prime_organism_crucible: "01K51HVA4M0YFWVPXFK9PVQE1M",
   primus: "01KDKTAXMGV0K3TPRXAYTRP61Q",
   prince_yriel: "01KTG0XNAHJ2N8QSCJ772S1XWP",
@@ -3505,12 +3383,10 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   ragnar_blackmane: "01KK078KD5BM6T6K2F093BWYS7",
   raider: "01KEEMDXFZBGCMNQWS4S2B1QAS",
   rangers: "01KAWQEWFS220G8BG7NAY5K3B8",
-  rapier_carrier: "01KFTCED5KRV4QEY92T1B4EQQN",
   rapier_laser_destroyer_battery: "01KCED8D9FQJ37986XW90KCHYR",
   raptors: "01KR2S0E1ENWKHM8TWXP51J8GZ",
   ratlings: "01KZASS6X3JHAX7CBP9ABY91NM",
   ravager: "01K2VXFPVQH8N9VF4N4A9AB21Z",
-  raven_guard: "01KGYSXXNYF3YJF2Q7RS4WE1T3",
   raven_strike_fighter: "01KAD9QG536BSWYWHC7GPH25AZ",
   raveners: "01KVRVG4ZPT3XJX95K3K8SC83P",
   ravenwing_black_knights: "01K7DQZM2YKDE9ZAT56TKGKZA7",
@@ -3522,7 +3398,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   razorshark_strike_fighter: "01KWEHEMGGEF4R81M69HCFMEK0",
   razorwing_jetfighter: "01K3R996VCFHMW0G55T08KHAYH",
   reaper: "01K2T0H0PWV0J0RQDG8XX3YRXF",
-  reaver_titan: "01KGGNQE9Q21B1QSWZDBS9YKZE",
   reavers: "01KWHMGB56MVSSZHS9SE9A7S8D",
   red_corsairs_raiders: "01KG5A0J39ERC8QR4C689YEWE9",
   red_corsairs_reave_captain: "01KGA9G6G34W011FAAR7FKWDRH",
@@ -3531,7 +3406,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   regimental_attach_s: "01KWXTJ2CXE31CZR7MS25EQ3P9",
   rein_and_raus: "01KY4R4DSVJSAXDBNC1ZJA5CJK",
   reiver_squad: "01K3VZ9VDWQYNP3HC4XEX2ZCT9",
-  relic_contemptor_dreadnought: "01KTBV8A62Q5PZJ1Z83HD7D7QK",
   relic_razorback: "01KDHSRDR42TYE28CHR7KPCSDD",
   relic_terminator_squad: "01KQNR1EX254H66APNZHTK3SCG",
   reliquant_knight_crucible: "01KBA6V731760MEWHN6XD0RVKQ",
@@ -3571,7 +3445,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   saint_celestine: "01KEPF7R8452PM6DEH4BZ0TZ6H",
   salamander_command_vehicle: "01K6E5P9M5YSWJZDX8WH90R0W9",
   salamander_scout_vehicle: "01KM90TMWBJYMKNVYHYX6KD3NX",
-  salamanders: "01KGBF61E55NVCR819NFB28QNK",
   sammael: "01KB4GB0NDK9BQ1WRKD80A41BK",
   sanctifiers: "01KK9MNNPST1GKPKZBBMMNST5D",
   sanctus: "01K7PKS66ABH3JPSBQ52WPR7KC",
@@ -3621,14 +3494,8 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   shining_spears: "01K4521Q73RFHW41VTJ61THB4T",
   shokkjump_dragsta: "01KF5EM9X0XED3E3GEDX5WJ1YJ",
   shroud_runners: "01KQPTFNY5J5VM2ZZ96A43CKG1",
-  sicaran_arcus: "01KJ1D6CBPNND3MWNDRQVAXCB2",
-  sicaran_battle_tank: "01KA7GVYGJPTPBSB31JV3N9FVT",
-  sicaran_omega: "01KMMT3775HPY66SA9RRZZ5ZDD",
-  sicaran_punisher: "01KYWAN80AK7Z07HM56WYQKW9M",
-  sicaran_venator: "01K1H88XNFEHWZG7YWPQZ1C31R",
   sicarian_infiltrators: "01KR63HPP38Z9Y4B9NJC171HRR",
   sicarian_ruststalkers: "01K26MW8GNNT9CAX545RGRFFT9",
-  sir_hekhtur: "01K5DCZ7CM8CDAYC7ND59ABATM",
   sister_novitiate_autogun: "01KX07J9R856EFDSF0YZ2B41FY",
   sister_novitiate_melee_weapon: "01KB2VWNM41KNT838MKC6KWAEZ",
   sisters_novitiate_squad: "01KNJEY3DYW9ECCYQDB0X33HRZ",
@@ -3652,13 +3519,11 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   sky_slasher_swarms: "01K86XSAX6J3FM7YJ04FRGMTMH",
   skyclaws: "01KHVXGMY1NX8RRYHPRWSSETYQ",
   skyrunner_crucible: "01KQBXRBAC4F8D41DTFZC8ERHE",
-  skyshield_landing_pad: "01KS72FYV5DE2C5FD4K3WMJXYA",
   skyweavers: "01KDNZVRZF22GQHVB9XCB9NBSZ",
   slaanesh_soul_grinder: "01KDX42XE13VXGHASW6ZY5QX6D",
   slaughterbound: "01K7FY56E1P04C64J35HM4XD37",
   sloppity_bilepiper: "01KE6VJ6E5P6TQJVQPJ1V4R0VG",
   sly_marbo: "01K90A8MEEQQA226JC5PD67ZD2",
-  sokar_pattern_stormbird: "01KN9YT82HQP9PZQ9NCT3BC0EC",
   solitaire: "01KEDBJFHT5DEZ2D033K57P4FZ",
   sorcerer: "01KETYRN3EX7KCQ6TBYRPAN79V",
   sorcerer_in_terminator_armour: "01KF7RMC30CBWKNR5CAK5VVHBZ",
@@ -3669,12 +3534,8 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   sorcerous_champion_crucible: "01KZN3BNRJK85HPH1J4813XVR1",
   sororitas_rhino: "01KR8JGHJMFK6E918AB9WT0D0V",
   soul_forge_tyrant_crucible: "01KWXN5XQJYRJN1RAHNNKZ9QJ4",
-  soul_grinder: "01KBFKR161CR2HN2P3ADFPTQM2",
-  space_wolves: "01K5RZQKB2X3J9S2FKP04X6X2M",
   spanner: "01K2BGAYHXWC69KM8B9MP4WDXE",
-  spartan: "01KWBQ0EZF5J562MQYFQ2DHHHZ",
   spectrus_kill_team: "01KR9WCAF5HBQGTH00K9B7B82P",
-  spindle_drones: "01KKQGBGE3W7GYWQG6QSAFQRJY",
   spined_chaos_beast: "01KGBQB3YBA7D1929H1C2RSPHS",
   spiritseer: "01K7EF489GZ6A2JR2H8FV0RY35",
   spoilpox_scrivener: "01K1W9VZYPCHBJPBGTAFXDZJRX",
@@ -3692,7 +3553,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   sternguard_veteran_squad: "01K2HC3MX4GYH18Y03BN0XVYY6",
   stompa: "01K67FK47QDWYAZQ3C8JPYWD8E",
   storm_chimera: "01K3JCQ9JP0S94P8993D1G7RST",
-  storm_eagle_gunship: "01KVP9F660B07F9QEA4VFYKHKB",
   storm_guardians: "01KZ1W0FMF2SRPAZC685WD457E",
   storm_speeder_hailstrike: "01K9YFVWZVCRS4VMJBK17TVRGZ",
   storm_speeder_hammerstrike: "01KPKTXK4F5XGWAS453MN7FVH8",
@@ -3731,7 +3591,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   tantalus: "01KZPP633NBS6HPBXMX2QNQQCA",
   tarantula_air_defence_battery: "01KGXDEZYZYK0QYQBD6EJBNGGE",
   tarantula_battery: "01KX6524V19TGFYKQJNN3YGN4Y",
-  tarantula_sentry_battery: "01K7XVXN77C0945KXEZTGAST5T",
   taunar_supremacy_armour: "01KAABJZNC04JJYBVAD24Q311Z",
   tauros_assault_vehicle: "01KJGG5FC45XHDF7CFZJ6QP7A6",
   tauros_venator: "01KBVJ257RP6CB759H8XJ7HTAD",
@@ -3758,7 +3617,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   tesseract_vault: "01KSXMB1BRY6A2SSTPDQZFNQQA",
   tetras: "01KJQMGMFJYKR8ZXZEYJDQ0CAV",
   thar_the_destined: "01KHTFEEMHE2Z677SFNHTDZ3PW",
-  the_archivist: "01K46JS51A2C26CBSVJYSD4KK3",
   the_blue_scribes: "01KCHV8B6JV5YTGWYSQ9NSJK0W",
   the_changeling: "01KZ6P200Q0DDWC0ADXTVS0R3P",
   the_masque_of_slaanesh: "01KP61Y2AXW35FTE8ZG08Y29R3",
@@ -3779,10 +3637,8 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   tidewall_shieldline: "01KQ4196ZYP8X4QK29HDY7RQZZ",
   tiger_shark: "01KVDN06PSSX5XZFG4KSBXNB20",
   tomb_blades: "01KJ04ZKFYZ0RGV6F1YTT3NEP7",
-  tomb_citadel_walls: "01KC0BD91D8Z2KXBWCPG7Z672M",
   tor_garadon: "01KEK5M55A2E4YV0CV9AKQB4XK",
   tormentbringer: "01K7ZNKHRC9S2Q3SENGMRY234G",
-  tormentbringer_on_exalted_seeker_chariot: "01KB97Q5D7R9X3FQAV94AYTW52",
   tormentors: "01K3SCACXVC11AVD8JM8JKFKC2",
   toxicrene: "01K3X3JG05CHQZMW7V74ZTSCCQ",
   traitor_enforcer: "01KEBAMMSV9P689GAQS7N2RTXR",
@@ -3803,7 +3659,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   trygon: "01K9HGEASH4X1TN824KAR9QJ99",
   tx42_piranha: "01KXN4743V05VQPDY859CQQZVW",
   tycho_the_lost: "01K0266Z395NS09CSN4YBCGKZS",
-  typhon: "01K11P3GT1CFWMJ3XS63KK6W74",
   typhus: "01K7SNJQZAPJW6XXAH2W82PB7Z",
   tyranid_prime_with_lash_whip: "01K0S1S3VG5F0AGH3VA9TM00FF",
   tyranid_warriors_with_melee_bio_weapons: "01K6AC470758SDY8V65ZJKNB5G",
@@ -3819,7 +3674,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   tzeentch_soul_grinder: "01KJHKM0BQPQ0SJ6K9G8K7YXXX",
   ufthak_blackhawk: "01KBQJ65VR84SMA1M1S38NKA4X",
   ulrik_the_slayer: "01KVGJKC7SYACQMD2CM5ZVB04H",
-  ultramarines: "01KGVKNTR406WPD6ME5R2MF2NR",
   ultramarines_honour_guard: "01KT8PPNW1X4RS1M9JTHHPDKH4",
   upstart_gretchin_crucible: "01K6F99PEHCBC19PP68WNN8MCM",
   ur_025: "01KYE3SN3R9G5P8KVEDD0CAKNF",
@@ -3844,7 +3698,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   venerable_dreadnought: "01K1RX98T2R0B0EE5HJPXMGVGQ",
   venerable_dreadnought_legendary: "01K4Y0ZKRH2F51Q7CKHC5P885Y",
   venerable_land_raider: "01K04CWC3DVTPFRH0S8X21KK98",
-  vengeance_weapon_battery: "01K19VR5DRTSNR2M8ZCTGR1E2V",
   venom: "01K7P8AARXA7STK4MYPZHEY878",
   venomcrawler: "01KX94FKN8BXG4QSY5KAWJC04D",
   venomthropes: "01KSD92D8GEBM9P8MMD61370CV",
@@ -3857,21 +3710,15 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   vigilators: "01KF6YEDMF15MFVFCCNEYF6ZRV",
   vindicare_assassin: "01KYY9V7FHSQ0J5JPYXBQMWST8",
   vindicator: "01K9403H8ZNHKK5Q2X4A71061N",
-  vindicator_laser_destroyer: "01K55SS7XM91K2B7KXE9QYMKBZ",
   voice_of_the_patriarch_crucible: "01K0T61NYJHX7W35BGB6KY2ZCT",
-  void_shield_generator: "01K500JWNM8XXT2D7STTZQ66F0",
   voidraven_bomber: "01K5480K9GVXGX3GCZ7P6WD0FX",
   voidsmen_at_arms: "01KKJ03P2WGVG7A45J1B11EFCE",
   voidweaver: "01K9GKB770EFA2S6A6W3JXWJHY",
   von_ryans_leapers: "01KE6TANH5CCY2WVFP6H547BRR",
-  vortex_missile_strongpoint: "01KHRPC20WF9ATXAT8C77WJ6QY",
   voss_pattern_lightning: "01K8QHAX0JSHNKR0FKZT51KJ21",
   vulkan_hestan: "01KRMG9WX5NS0CGTPD2D5BGNQ2",
   vulture_gunship: "01KKTVY6J3XHYW99T3154RVCCX",
   vypers: "01KFSY4GQ41HNHW2K0AZPR051F",
-  wall_of_martyrs_bunker: "01K7D16CSSTYYJ1RGRXX2F2KQV",
-  wall_of_martyrs_defence_emplacement: "01KC9QKNRXZRSK3M0CV5EH8RBP",
-  wall_of_martyrs_defence_line: "01K6MMQHKPZC0FS9DW7BZ7YJCN",
   war_dog_brigand: "01KAQKGDSHMQYZ8SSB8X609VSF",
   war_dog_executioner: "01KF06Y2Q93J83MYMDC1H6CMDZ",
   war_dog_huntsman: "01KX0FFR7RSGQWM7DJ91AVSNCR",
@@ -3883,14 +3730,11 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   warboss: "01KJFXF0CG4Y0FCE566GT3MPYE",
   warboss_in_mega_armour: "01K55B9DP1FPMT9VVZVRAJMAJQ",
   warboss_on_warbike: "01K8GJC31F1NV739J5FHG78RDZ",
-  warbringer_nemesis_titan: "01K75V0A9B39JFD5MMEH0JMH0J",
   warbuggies: "01KQY6BXWPR4MQ33XWF3CZ34RR",
   wardens_of_ultramar: "01KJCKGF8QYG02R55YME18M908",
-  warhound_titan: "01KS272YHRETC1E7KG710EB8TX",
   warlock: "01K7T1BZG8C3AJ8ZKA9NTKZJW9",
   warlock_conclave: "01KH8RNRHYPNSNWB7B6FW5ZTQ8",
   warlock_skyrunners: "01KEP9M0W25F4WX8C6CYXZ23K3",
-  warlord_titan: "01K1ZAG23JRM5M57M3V7Y8AYQC",
   warp_hunter: "01K1J0S0GMTZ7V0P5FRXBYHM26",
   warp_spiders: "01KPA7D48Q6STCX8EZM58WQ829",
   warp_talons: "01KGWEXGRXP53Z1R1CNNRBD7CR",
@@ -3906,8 +3750,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   webway_gate: "01K8XTB2NZC02EB4KTEQA6WA5W",
   weirdboy: "01KXQ1SYVP59K12DQTE5ABVTZ0",
   whirlwind: "01K0K8M2RA7CMESZPH3YBG5NH9",
-  whirlwind_scorpius: "01KPTS0A7Q1VGWEW342JNZBJAW",
-  white_scars: "01KNB2X4W75G5CA0BRDXSFC8MV",
   windriders: "01KWJ0S6XT2583TWPTCRE7BGE5",
   winged_hive_tyrant: "01KEABY2MSQM4C47DZHYAGKPPJ",
   winged_tyranid_prime: "01KRJ9AZVS18XB75AZB573EC0Q",
@@ -3938,8 +3780,6 @@ const unitSeedIds: Record<UnitSeedSlug, string> = {
   wurrboy: "01K6EPE4DAF2ADNZ6D6XXG1JTX",
   wyches: "01KBVX7MMV8EFCJH4DCH92HVCY",
   wyvern: "01K70DQZFTCPYSR6V8Q3N2P5QV",
-  x_101: "01KG75EACR1ZFPR5NYHNVAHW1N",
-  xiphon_interceptor: "01KM5H59JWMB6DYMADKMMNYG7D",
   xv9_hazard_battlesuits: "01KW5K05HGPV5V98E8ZTWN7F67",
   ynnari_archon: "01K2WZKR712QC2T06KVZS1QHTN",
   ynnari_incubi: "01KS4NJT61924YXFN9ZEHNGDW9",
@@ -5146,6 +4986,7 @@ type RulesFactionUnitSeedSlug =
   | "drukhari__flesh_crafter_crucible"
   | "drukhari__grotesques"
   | "drukhari__haemonculus"
+  | "drukhari__hand_of_the_archon"
   | "drukhari__hellions"
   | "drukhari__incubi"
   | "drukhari__kabalite_warriors"
@@ -8019,6 +7860,7 @@ const rulesFactionUnitSeedIds: Record<RulesFactionUnitSeedSlug, string> = {
   "drukhari__flesh_crafter_crucible": "01K4TYMNXTN8YYT9QT7S9TPMZ3",
   "drukhari__grotesques": "01KMW8VAJ4VMD604Y4JEMDA8Z0",
   "drukhari__haemonculus": "01KVNM56JDWVV1PWT52PVYSSA9",
+  "drukhari__hand_of_the_archon": "01KYH0H2XG2QV0QPBVR110XQ2Z",
   "drukhari__hellions": "01KD6R2SPVEXS0DXKT8WAPW7PJ",
   "drukhari__incubi": "01KQAQ1M38WBEBD7P0A355SS3A",
   "drukhari__kabalite_warriors": "01KEADX53CZA2R9W5HVQBH2ZZF",
@@ -9713,10 +9555,6 @@ export const rulesFactionUnitId = (slug: RulesFactionUnitSeedSlug): string => {
 };
 
 type KitSeedSlug =
-  | "masters_of_the_maelstrom_box"
-  | "combat_patrol_blood_angels"
-  | "intercessor_squad_box"
-  | "assault_intercessor_squad_box"
   | "combat_patrol_black_templars_2025"
   | "adepta_sororitas_arco_flagellants"
   | "adepta_sororitas_battle_sanctum"
@@ -9867,6 +9705,7 @@ type KitSeedSlug =
   | "chaos_space_marines_sorcerer"
   | "chaos_space_marines_terminators"
   | "chaos_space_marines_vex_machinator_arch_lord_discordant"
+  | "combat_patrol_blood_angels"
   | "combat_patrol_deathwatch"
   | "combat_patrol_space_wolves"
   | "command_edition"
@@ -10248,10 +10087,6 @@ type KitSeedSlug =
   | "xv104_riptide_battlesuit";
 
 const kitSeedIds: Record<KitSeedSlug, string> = {
-  "masters_of_the_maelstrom_box": "01KS81VM5FY9CB72APED1E3EQJ",
-  "combat_patrol_blood_angels": "01KS81VM5FHG3GT1D8ZG9VYNET",
-  "intercessor_squad_box": "01KS81VM5F8FYSBDMMCYJQ55VJ",
-  "assault_intercessor_squad_box": "01KS81VM5F35A46GG6H6554PX1",
   "combat_patrol_black_templars_2025": "01KYG2HBB8BNS1D3454G1G104E",
   "adepta_sororitas_arco_flagellants": "01KHF2CRTEK0P8NW80H4Y1BSGC",
   "adepta_sororitas_battle_sanctum": "01KDPQR1PVPNNG4HFM9K4YP5ZJ",
@@ -10402,6 +10237,7 @@ const kitSeedIds: Record<KitSeedSlug, string> = {
   "chaos_space_marines_sorcerer": "01KCSSKJ5GJGHE1NN0EQJ5SE0G",
   "chaos_space_marines_terminators": "01KYQ0Y7B182745Y10GF4WAWMN",
   "chaos_space_marines_vex_machinator_arch_lord_discordant": "01KA4XVH25BMP0RCGP4NKSX0R1",
+  "combat_patrol_blood_angels": "01KS81VM5FHG3GT1D8ZG9VYNET",
   "combat_patrol_deathwatch": "01KNAP6E7QPMYYT1G8P4647H5Q",
   "combat_patrol_space_wolves": "01KQBMY2W2A91KVM2WRTWCKYN6",
   "command_edition": "01K42V1QW0AMPJGXQGX1X4F067",
@@ -10788,24 +10624,12 @@ export const kitId = (slug: KitSeedSlug): string => {
 };
 
 type KitUnitSeedSlug =
-  | "masters_of_the_maelstrom_box__huron_blackheart__complete_unit"
-  | "masters_of_the_maelstrom_box__masters_of_the_maelstrom__complete_unit"
-  | "intercessor_squad_box__intercessor_squad__complete_unit"
-  | "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit"
   | "combat_patrol_black_templars_2025__emperors_champion__complete_unit"
   | "combat_patrol_black_templars_2025__bladeguard_veteran_squad__complete_unit"
   | "combat_patrol_black_templars_2025__sword_brethren_squad__complete_unit"
   | "combat_patrol_black_templars_2025__crusader_squad__complete_unit";
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
-  "masters_of_the_maelstrom_box__huron_blackheart__complete_unit":
-    "01KS81VM5FV97DPVKPN6MWV0D0",
-  "masters_of_the_maelstrom_box__masters_of_the_maelstrom__complete_unit":
-    "01KS81VM5F0BP8FG944MAYCHRD",
-  "intercessor_squad_box__intercessor_squad__complete_unit":
-    "01KS81VM5FQ54Z8X3M8HRVGA7G",
-  "assault_intercessor_squad_box__assault_intercessor_squad__complete_unit":
-    "01KS81VM5F6729ZGMFJSJYSC7N",
   "combat_patrol_black_templars_2025__emperors_champion__complete_unit": "01KRWS93S0D8ABD46BWYGX01B0",
   "combat_patrol_black_templars_2025__bladeguard_veteran_squad__complete_unit": "01K9V66GG43TJT8KY13TCQ20XF",
   "combat_patrol_black_templars_2025__sword_brethren_squad__complete_unit": "01KTJ07NR78R1AM9X67MD14HVB",
@@ -10816,17 +10640,9 @@ export const kitUnitId = (slug: KitUnitSeedSlug): string => {
   return kitUnitSeedIds[slug];
 };
 
-type KitUnitPriceAllocationSeedSlug =
-  | "masters_of_the_maelstrom_box__huron_blackheart"
-  | "masters_of_the_maelstrom_box__masters_of_the_maelstrom";
+type KitUnitPriceAllocationSeedSlug = never;
 
-const kitUnitPriceAllocationSeedIds: Record<
-  KitUnitPriceAllocationSeedSlug,
-  string
-> = {
-  "masters_of_the_maelstrom_box__huron_blackheart": "01KS81VM5FQ521TDV7SC9C5X58",
-  "masters_of_the_maelstrom_box__masters_of_the_maelstrom":
-    "01KS81VM5FEK1P6R86KVX89ZSM",
+const kitUnitPriceAllocationSeedIds: Record<KitUnitPriceAllocationSeedSlug, string> = {
 };
 
 export const kitUnitPriceAllocationId = (

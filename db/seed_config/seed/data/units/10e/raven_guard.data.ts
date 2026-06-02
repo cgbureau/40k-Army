@@ -10,7 +10,6 @@ export const AethonShaanUnit: UnitConfig = {
   unit_name: "Aethon Shaan",
   unit_slug: "aethon_shaan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Aethon-Shaan",
 };
 
 
@@ -19,7 +18,6 @@ export const KayvaanShrikeUnit: UnitConfig = {
   unit_name: "Kayvaan Shrike",
   unit_slug: "kayvaan_shrike",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Kayvaan-Shrike",
 };
 
 

@@ -1382,50 +1382,7 @@ type KeywordSeedType =
   | "zoanthropes"
   | "zodgrod_wortsnagga"
 
-  // BEGIN BSData weapon keyword type records
-  | "anti_chaos"
-  | "anti_character"
-  | "anti_daemon"
-  | "anti_epic_hero"
-  | "anti_fly"
-  | "anti_infantry"
-  | "anti_monster"
-  | "anti_psyker"
-  | "anti_tyranids"
-  | "anti_vehicle"
-  | "anti_walker"
-  | "assault"
-  | "blast"
-  | "bubblechukka"
-  | "conversion"
-  | "dead_choppy"
-  | "defensive_array"
-  | "devastating_wounds"
-  | "extra_attacks"
-  | "harpooned"
-  | "hazardous"
-  | "heavy"
-  | "hive_defences"
-  | "hooked"
-  | "ignores_cover"
-  | "indirect_fire"
-  | "lance"
-  | "lethal_hits"
-  | "linked_fire"
-  | "melta"
-  | "one_shot"
-  | "overcharge"
-  | "pistol"
-  | "plasma_warhead"
-  | "precision"
-  | "psychic"
-  | "psychic_assassin"
-  | "rapid_fire"
-  | "reverberating_summons"
-  | "sustained_hits"
-  | "torrent"
-  | "twin_linked"
-  // END BSData weapon keyword type records
+
 
 
 
@@ -1583,6 +1540,51 @@ type KeywordSeedType =
   | "warphead"
   | "watch_sergeant_loadout"
   // END BSData unit keyword type records
+
+  // BEGIN BSData weapon keyword type records
+  | "anti_chaos"
+  | "anti_character"
+  | "anti_daemon"
+  | "anti_epic_hero"
+  | "anti_fly"
+  | "anti_infantry"
+  | "anti_monster"
+  | "anti_psyker"
+  | "anti_tyranids"
+  | "anti_vehicle"
+  | "anti_walker"
+  | "assault"
+  | "blast"
+  | "bubblechukka"
+  | "conversion"
+  | "dead_choppy"
+  | "defensive_array"
+  | "devastating_wounds"
+  | "extra_attacks"
+  | "harpooned"
+  | "hazardous"
+  | "heavy"
+  | "hive_defences"
+  | "hooked"
+  | "ignores_cover"
+  | "indirect_fire"
+  | "lance"
+  | "lethal_hits"
+  | "linked_fire"
+  | "melta"
+  | "one_shot"
+  | "overcharge"
+  | "pistol"
+  | "plasma_warhead"
+  | "precision"
+  | "psychic"
+  | "psychic_assassin"
+  | "rapid_fire"
+  | "reverberating_summons"
+  | "sustained_hits"
+  | "torrent"
+  | "twin_linked"
+  // END BSData weapon keyword type records
 ;
 
 const keywordSeedIds: Record<KeywordSeedType, string> = {
@@ -2960,51 +2962,7 @@ const keywordSeedIds: Record<KeywordSeedType, string> = {
   zarakynel: "01KJPYJBKXPTVT57V22QNEMCV3",
   zephyrim_squad: "01KG5DZY0QE6WY5G1JX5NM0T0H",
   zoanthropes: "01K3M2PTCE26RBBF4TZDEREX4B",
-  zodgrod_wortsnagga: "01KEREVTT1XWA6S6VK9YD36D9H",  // BEGIN BSData weapon keyword id records
-  anti_chaos: "01KSZ0GEAQPEKHJPX1VY1AQBDE",
-  anti_character: "01KPGK8365H3KA3343SHQ0KJD7",
-  anti_daemon: "01KVA2YK21N1K8HBCXZSKZ4W5V",
-  anti_epic_hero: "01KQHYBBAK51M2QMEX4J90BCGW",
-  anti_fly: "01KNM2S7MZ7WYBZK34AR6CKMVK",
-  anti_infantry: "01KCTDA62098MQB0SPABVGM4K1",
-  anti_monster: "01KXCPJNNXDQWA4V5HM2S4Y727",
-  anti_psyker: "01K9844AZK43NGYY51R6FB70DK",
-  anti_tyranids: "01K39CPMNBH8ET0T9X4HJXBGQX",
-  anti_vehicle: "01KWNHER9QG3WZZ69QFRX67SFW",
-  anti_walker: "01KMN7KCEYDXDDWNHBYX1TSQBA",
-  assault: "01KWQB19TMEJM0XR6TQBF7WKNE",
-  blast: "01K9PNS5SEAFGJYYVJYB2TC4PM",
-  bubblechukka: "01KR6J3A3HXYR1MC9YBCXJE3V8",
-  conversion: "01KTPPPBVGBNXEDP34DWSTJYZH",
-  dead_choppy: "01KR4MR42QDKFFPNKF2QNS0QXH",
-  defensive_array: "01KXKENJHWKW9HT8KX5ZQ4DX67",
-  devastating_wounds: "01KPRHCDMMDT02W7XP5T2Q1PBJ",
-  extra_attacks: "01KE03FYJYB80MC68N1S7QF9KD",
-  harpooned: "01KTJJN4C5AFBAC6GZK2FXHJ1H",
-  hazardous: "01KT0QXE3ZQJVXNNV9RV4P6V9F",
-  heavy: "01KE48GJEEZC24T1VGBDAK21AT",
-  hive_defences: "01KZWY8AGA235GMXGWVKJDHYG9",
-  hooked: "01KXBEYAV08BXRXKW6Z1D6YJCN",
-  ignores_cover: "01KVYRY2JX52SBPSXD77M2YB8W",
-  indirect_fire: "01KN0V2N1Q81QGRFKE8BEC4ET8",
-  lance: "01KBGM64MVXA8JSPW6WE45TN3X",
-  lethal_hits: "01KKERGA477YR31SDRVCN063A7",
-  linked_fire: "01KSNR8GFZQGR38ECFH9CVA8SJ",
-  melta: "01KPDHMXWF7W66PDZJVX4KX6Y7",
-  one_shot: "01KH6Z0AQ9AK0NBCY0TYT9Q40W",
-  overcharge: "01KHKVFKG94ZPF3Q62WWPY1Q32",
-  pistol: "01KF63YAT39TGJAP8650TKDFXD",
-  plasma_warhead: "01K8NYJSKKE1663XBM7Z2CNE9X",
-  precision: "01KQQJBVBC4ZWVQ53FX7BB9YPG",
-  psychic: "01KZSN730Z9N4GVMXHNGHXR202",
-  psychic_assassin: "01KVDAVM2KWPPS2VBA7CV1TPF8",
-  rapid_fire: "01KXS031KH4MNRZNSJ0R28G1WS",
-  reverberating_summons: "01K7X4PKMK044NGXNAZN33FDNW",
-  sustained_hits: "01KSMPNNN68GW7Y8P5K6P4FN61",
-  torrent: "01K89S8N33Z0PHDYQAVC8PHY5M",
-  twin_linked: "01KZN6SNV250WRY9K6BDEACX11",
-  // END BSData weapon keyword id records
-  // BEGIN BSData unit keyword id records
+  zodgrod_wortsnagga: "01KEREVTT1XWA6S6VK9YD36D9H",  // BEGIN BSData unit keyword id records
   ac_walker: "01KSGJ3DSF23NVNS4J5XF08NNQ",
   aestred_thurga_and_agathae_dolan: "01KNTGWVSA3075XRMWDQFAX20F",
   aquila_kill_team: "01KZ1YJFVRWD8V3TS6FCGJ7HB3",
@@ -3158,6 +3116,50 @@ const keywordSeedIds: Record<KeywordSeedType, string> = {
   warphead: "01K7F4ZFFR1W7FQYFRW5RY90MM",
   watch_sergeant_loadout: "01K1KYS467XSX500W2SAPP3V9C",
   // END BSData unit keyword id records
+  // BEGIN BSData weapon keyword id records
+  anti_chaos: "01KSZ0GEAQPEKHJPX1VY1AQBDE",
+  anti_character: "01KPGK8365H3KA3343SHQ0KJD7",
+  anti_daemon: "01KVA2YK21N1K8HBCXZSKZ4W5V",
+  anti_epic_hero: "01KQHYBBAK51M2QMEX4J90BCGW",
+  anti_fly: "01KNM2S7MZ7WYBZK34AR6CKMVK",
+  anti_infantry: "01KCTDA62098MQB0SPABVGM4K1",
+  anti_monster: "01KXCPJNNXDQWA4V5HM2S4Y727",
+  anti_psyker: "01K9844AZK43NGYY51R6FB70DK",
+  anti_tyranids: "01K39CPMNBH8ET0T9X4HJXBGQX",
+  anti_vehicle: "01KWNHER9QG3WZZ69QFRX67SFW",
+  anti_walker: "01KMN7KCEYDXDDWNHBYX1TSQBA",
+  assault: "01KWQB19TMEJM0XR6TQBF7WKNE",
+  blast: "01K9PNS5SEAFGJYYVJYB2TC4PM",
+  bubblechukka: "01KR6J3A3HXYR1MC9YBCXJE3V8",
+  conversion: "01KTPPPBVGBNXEDP34DWSTJYZH",
+  dead_choppy: "01KR4MR42QDKFFPNKF2QNS0QXH",
+  defensive_array: "01KXKENJHWKW9HT8KX5ZQ4DX67",
+  devastating_wounds: "01KPRHCDMMDT02W7XP5T2Q1PBJ",
+  extra_attacks: "01KE03FYJYB80MC68N1S7QF9KD",
+  harpooned: "01KTJJN4C5AFBAC6GZK2FXHJ1H",
+  hazardous: "01KT0QXE3ZQJVXNNV9RV4P6V9F",
+  heavy: "01KE48GJEEZC24T1VGBDAK21AT",
+  hive_defences: "01KZWY8AGA235GMXGWVKJDHYG9",
+  hooked: "01KXBEYAV08BXRXKW6Z1D6YJCN",
+  ignores_cover: "01KVYRY2JX52SBPSXD77M2YB8W",
+  indirect_fire: "01KN0V2N1Q81QGRFKE8BEC4ET8",
+  lance: "01KBGM64MVXA8JSPW6WE45TN3X",
+  lethal_hits: "01KKERGA477YR31SDRVCN063A7",
+  linked_fire: "01KSNR8GFZQGR38ECFH9CVA8SJ",
+  melta: "01KPDHMXWF7W66PDZJVX4KX6Y7",
+  one_shot: "01KH6Z0AQ9AK0NBCY0TYT9Q40W",
+  overcharge: "01KHKVFKG94ZPF3Q62WWPY1Q32",
+  pistol: "01KF63YAT39TGJAP8650TKDFXD",
+  plasma_warhead: "01K8NYJSKKE1663XBM7Z2CNE9X",
+  precision: "01KQQJBVBC4ZWVQ53FX7BB9YPG",
+  psychic: "01KZSN730Z9N4GVMXHNGHXR202",
+  psychic_assassin: "01KVDAVM2KWPPS2VBA7CV1TPF8",
+  rapid_fire: "01KXS031KH4MNRZNSJ0R28G1WS",
+  reverberating_summons: "01K7X4PKMK044NGXNAZN33FDNW",
+  sustained_hits: "01KSMPNNN68GW7Y8P5K6P4FN61",
+  torrent: "01K89S8N33Z0PHDYQAVC8PHY5M",
+  twin_linked: "01KZN6SNV250WRY9K6BDEACX11",
+  // END BSData weapon keyword id records
 };
 
 export const keywordId = (type: KeywordSeedType): string => {

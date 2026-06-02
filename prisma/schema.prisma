@@ -133,13 +133,40 @@ enum KitUnitComponentType {
 /// what: describes the evidence or calculation basis used to allocate kit price across units
 /// why: purchase recommendations need auditable per-unit value estimates for multi-unit kits
 enum KitUnitPriceAllocationBasis {
-  STANDALONE_MSRP      @map("standalone_msrp")
-  AVERAGE_UNIT_PRICE   @map("average_unit_price")
-  MODEL_COUNT          @map("model_count")
-  MANUAL               @map("manual")
+  STANDALONE_MSRP    @map("standalone_msrp")
+  AVERAGE_UNIT_PRICE @map("average_unit_price")
+  MODEL_COUNT        @map("model_count")
+  MANUAL             @map("manual")
   MARKET_OBSERVATION @map("market_observation")
 
   @@map("kit_unit_price_allocation_basis")
+}
+
+/// what: ranks the source family used to assert physical kit contents
+/// why: kit-to-unit and kit-to-model rows must be auditable because product titles alone are not enough evidence
+/// example: MINISET for a Miniset content page, MANUAL for a hand-curated edge, RETAILER_PRODUCT_PAGE for a store page repeating official contents
+enum KitContentSourceKind {
+  GAMES_WORKSHOP_PRODUCT_PAGE @map("games_workshop_product_page")
+  GAMES_WORKSHOP_PDF          @map("games_workshop_pdf")
+  WARHAMMER_COMMUNITY_ARTICLE @map("warhammer_community_article")
+  MINISET                     @map("miniset")
+  RETAILER_PRODUCT_PAGE       @map("retailer_product_page")
+  MANUAL                      @map("manual")
+  LEGACY                      @map("legacy")
+  OTHER                       @map("other")
+
+  @@map("kit_content_source_kind")
+}
+
+/// what: describes the review state for a canonical kit-content relationship
+/// why: automated imports can suggest rows, but canonical seed records should distinguish approved evidence from candidates
+/// example: APPROVED for source-backed or human-reviewed rows; NEEDS_REVIEW for staging rows if a future workflow persists candidates
+enum KitContentReviewStatus {
+  APPROVED     @map("approved")
+  NEEDS_REVIEW @map("needs_review")
+  REJECTED     @map("rejected")
+
+  @@map("kit_content_review_status")
 }
 
 /// what: represents a row for each edition of the game
@@ -322,7 +349,6 @@ model Unit {
   unitName                String                   @map("unit_name")
   unitSlug                String                   @unique @map("unit_slug")
   isLegends               Boolean                  @default(false) @map("is_legends") /// true when the unit is published under Warhammer Legends and cannot be used in standard matched play
-  wahapediaUrl            String?                  @map("wahapedia_url") /// optional source/reference URL for the unit's Wahapedia datasheet page
   unitProfiles            UnitProfile[]
   unitModels              UnitModel[]
   unitPointCosts          UnitPointCost[]
@@ -626,17 +652,22 @@ model Kit {
 /// why: kit contents power collection matching and purchase recommendations
 /// example: a Blightlord Terminators kit containing one Blightlord Champion and four Blightlord Terminators
 model KitModel {
-  id         String    @id @default(ulid()) @db.Char(26)
-  kit        Kit       @relation(fields: [kitId], references: [id])
-  kitId      String    @map("kit_id") @db.Char(26)
-  model      Model     @relation(fields: [modelId], references: [id])
-  modelId    String    @map("model_id") @db.Char(26)
-  modelCount Int       @map("model_count")
-  createdAt  DateTime  @default(now()) @map("created_at")
-  updatedAt  DateTime? @updatedAt @map("updated_at")
+  id           String                 @id @default(ulid()) @db.Char(26)
+  kit          Kit                    @relation(fields: [kitId], references: [id])
+  kitId        String                 @map("kit_id") @db.Char(26)
+  model        Model                  @relation(fields: [modelId], references: [id])
+  modelId      String                 @map("model_id") @db.Char(26)
+  modelCount   Int                    @map("model_count")
+  sourceKind   KitContentSourceKind   @map("source_kind") /// source family used to assert this physical model content
+  sourceUrl    String?                @map("source_url") /// URL or local source reference for the exact content evidence
+  sourceText   String                 @map("source_text") /// source phrase that supports this row, e.g. "10x Crusaders"
+  reviewStatus KitContentReviewStatus @map("review_status") /// canonical review state for this kit-content assertion
+  createdAt    DateTime               @default(now()) @map("created_at")
+  updatedAt    DateTime?              @updatedAt @map("updated_at")
 
   @@unique([kitId, modelId])
   @@index([modelId])
+  @@index([sourceKind, reviewStatus])
   @@map("kit_models")
 }
 
@@ -644,21 +675,26 @@ model KitModel {
 /// why: purchase recommendations need unit-level kit satisfaction beyond physical model contents
 /// example: a combined character-and-squad kit satisfying both a character unit and a squad unit
 model KitUnit {
-  id             String               @id @default(ulid()) @db.Char(26)
-  kit            Kit                  @relation(fields: [kitId], references: [id])
-  kitId          String               @map("kit_id") @db.Char(26)
-  unit           Unit                 @relation(fields: [unitId], references: [id])
-  unitId         String               @map("unit_id") @db.Char(26)
-  unitCount      Int                  @map("unit_count")
-  modelCount     Int                  @map("model_count")
-  componentType  KitUnitComponentType @map("component_type")
-  effectiveDate  DateTime?            @map("effective_date") @db.Date
-  supersededDate DateTime?            @map("superseded_date") @db.Date
-  createdAt      DateTime             @default(now()) @map("created_at")
-  updatedAt      DateTime?            @updatedAt @map("updated_at")
+  id             String                 @id @default(ulid()) @db.Char(26)
+  kit            Kit                    @relation(fields: [kitId], references: [id])
+  kitId          String                 @map("kit_id") @db.Char(26)
+  unit           Unit                   @relation(fields: [unitId], references: [id])
+  unitId         String                 @map("unit_id") @db.Char(26)
+  unitCount      Int                    @map("unit_count")
+  modelCount     Int                    @map("model_count")
+  componentType  KitUnitComponentType   @map("component_type")
+  sourceKind     KitContentSourceKind   @map("source_kind") /// source family used to assert this kit-to-unit satisfaction edge
+  sourceUrl      String?                @map("source_url") /// URL or local source reference for the exact content evidence
+  sourceText     String                 @map("source_text") /// source phrase that supports this row, e.g. "10x Crusaders"
+  reviewStatus   KitContentReviewStatus @map("review_status") /// canonical review state for this kit-content assertion
+  effectiveDate  DateTime?              @map("effective_date") @db.Date
+  supersededDate DateTime?              @map("superseded_date") @db.Date
+  createdAt      DateTime               @default(now()) @map("created_at")
+  updatedAt      DateTime?              @updatedAt @map("updated_at")
 
   @@unique([kitId, unitId, componentType])
   @@index([unitId])
+  @@index([sourceKind, reviewStatus])
   @@map("kit_units")
 }
 
@@ -692,7 +728,7 @@ model KitPrice {
   id             String    @id @default(ulid()) @db.Char(26)
   kit            Kit       @relation(fields: [kitId], references: [id])
   kitId          String    @map("kit_id") @db.Char(26)
-  currency       String  @db.VarChar(3) /// lower-case ISO-style currency code, e.g. usd, gbp, eur
+  currency       String    @db.VarChar(3) /// lower-case ISO-style currency code, e.g. usd, gbp, eur
   price          Decimal   @db.Decimal(10, 2) /// exact numeric amount in the listed currency
   priceSource    String?   @map("price_source") /// human-readable source label, e.g. Games Workshop US
   priceSourceUrl String?   @map("price_source_url") /// URL where this price was observed
@@ -908,34 +944,33 @@ model PlayerCollectionModel {
   @@map("player_collection_models")
 }
 
-
 /// what: just a countries list, with a bunch of fun data to play with
 /// why: mainly for default currency, stuff like that, but also for some fun features
 model Country {
-  cca2                String      @id @db.Char(2) // ISO 3166-1 alpha-2 - the natural stable key
-  cca3                String      @unique @db.Char(3)
-  ccn3                String?     @db.Char(3)
-  nameCommon          String      @map("name_common")
-  nameOfficial        String      @map("name_official")
-  nameNative          Json?       @map("name_native")
-  unMember            Boolean     @map("un_member")
-  region              String
-  subregion           String?
-  continents          String[]
-  tld                 String[]
-  timezones           String[]
-  flag                Json
-  population          Int
-  currencies          Json  // { USD: { name, symbol } }
-  languages           Json  // { eng: "English" }
-  car                 Json  // { signs: [...], side: "left" }
-  postalCode          Json?     @map("postal_code") // { format, regex } - not all countries have one
-  latlng              Float[] // [lat, lng]
-  government          Json?
-  gdp                 Json?
-  hdi                 Decimal?
-  createdAt           DateTime  @default(now()) @map("created_at")
-  updatedAt           DateTime?  @updatedAt      @map("updated_at")
+  cca2         String    @id @db.Char(2) // ISO 3166-1 alpha-2 - the natural stable key
+  cca3         String    @unique @db.Char(3)
+  ccn3         String?   @db.Char(3)
+  nameCommon   String    @map("name_common")
+  nameOfficial String    @map("name_official")
+  nameNative   Json?     @map("name_native")
+  unMember     Boolean   @map("un_member")
+  region       String
+  subregion    String?
+  continents   String[]
+  tld          String[]
+  timezones    String[]
+  flag         Json
+  population   Int
+  currencies   Json // { USD: { name, symbol } }
+  languages    Json // { eng: "English" }
+  car          Json // { signs: [...], side: "left" }
+  postalCode   Json?     @map("postal_code") // { format, regex } - not all countries have one
+  latlng       Float[] // [lat, lng]
+  government   Json?
+  gdp          Json?
+  hdi          Decimal?
+  createdAt    DateTime  @default(now()) @map("created_at")
+  updatedAt    DateTime? @updatedAt @map("updated_at")
 
   @@map("countries")
 }
@@ -944,13 +979,13 @@ model Country {
 /// why: the same weapon (e.g. Boltgun) appears on many units and in many editions; storing it once avoids duplication
 /// example: "Slugga Pistol" is one Weapon record referenced by every Ork unit that carries it
 model Weapon {
-  id              String          @id @default(ulid()) @db.Char(26)
-  weaponSlug      String          @unique @map("weapon_slug")
-  weaponName      String          @map("weapon_name")
-  weaponType      WeaponType      @map("weapon_type")
-  weaponProfiles  WeaponProfile[]
-  createdAt       DateTime        @default(now()) @map("created_at")
-  updatedAt       DateTime?       @updatedAt @map("updated_at")
+  id             String          @id @default(ulid()) @db.Char(26)
+  weaponSlug     String          @unique @map("weapon_slug")
+  weaponName     String          @map("weapon_name")
+  weaponType     WeaponType      @map("weapon_type")
+  weaponProfiles WeaponProfile[]
+  createdAt      DateTime        @default(now()) @map("created_at")
+  updatedAt      DateTime?       @updatedAt @map("updated_at")
 
   @@index([weaponType])
   @@map("weapons")
@@ -960,26 +995,26 @@ model Weapon {
 /// why: weapon stats change between editions and are sometimes errata'd mid-edition by Balance Dataslates
 /// example: a Boltgun profile for 10th edition from Codex: Space Marines has Range 24", A 2, BS 3+, S 4, AP 0, D 1
 model WeaponProfile {
-  id                    String                  @id @default(ulid()) @db.Char(26)
-  weaponProfileSlug     String                  @unique @map("weapon_profile_slug")
-  weapon                Weapon                  @relation(fields: [weaponId], references: [id])
-  weaponId              String                  @map("weapon_id") @db.Char(26)
-  gameEdition           GameEdition             @relation(fields: [gameEditionId], references: [id])
-  gameEditionId         String                  @map("game_edition_id") @db.Char(26)
-  rulesSource           RulesSource             @relation(fields: [rulesSourceId], references: [id])
-  rulesSourceId         String                  @map("rules_source_id") @db.Char(26)
-  range                 String                  @map("range") /// printed range value, e.g. 12", 24", or Melee
-  attacks               String                  @map("attacks") /// printed attacks value, e.g. 1, 2, or D6
-  skill                 String                  @map("skill") /// BS for ranged weapons, WS for melee weapons, e.g. 4+ or 3+
-  strength              String                  @map("strength") /// printed strength value, e.g. 3, 4, or 2×
-  armorPenetration      Int                     @map("armor_penetration") /// stored as 0 or negative integer matching the printed minus value, e.g. AP -1 stored as -1
-  damage                String                  @map("damage") /// printed damage value, e.g. 1, D3, or D6+2
+  id                    String                 @id @default(ulid()) @db.Char(26)
+  weaponProfileSlug     String                 @unique @map("weapon_profile_slug")
+  weapon                Weapon                 @relation(fields: [weaponId], references: [id])
+  weaponId              String                 @map("weapon_id") @db.Char(26)
+  gameEdition           GameEdition            @relation(fields: [gameEditionId], references: [id])
+  gameEditionId         String                 @map("game_edition_id") @db.Char(26)
+  rulesSource           RulesSource            @relation(fields: [rulesSourceId], references: [id])
+  rulesSourceId         String                 @map("rules_source_id") @db.Char(26)
+  range                 String                 @map("range") /// printed range value, e.g. 12", 24", or Melee
+  attacks               String                 @map("attacks") /// printed attacks value, e.g. 1, 2, or D6
+  skill                 String                 @map("skill") /// BS for ranged weapons, WS for melee weapons, e.g. 4+ or 3+
+  strength              String                 @map("strength") /// printed strength value, e.g. 3, 4, or 2×
+  armorPenetration      Int                    @map("armor_penetration") /// stored as 0 or negative integer matching the printed minus value, e.g. AP -1 stored as -1
+  damage                String                 @map("damage") /// printed damage value, e.g. 1, D3, or D6+2
   weaponProfileKeywords WeaponProfileKeyword[]
   unitWeapons           UnitWeapon[]
-  effectiveDate         DateTime?               @map("effective_date") @db.Date
-  supersededDate        DateTime?               @map("superseded_date") @db.Date
-  createdAt             DateTime                @default(now()) @map("created_at")
-  updatedAt             DateTime?               @updatedAt @map("updated_at")
+  effectiveDate         DateTime?              @map("effective_date") @db.Date
+  supersededDate        DateTime?              @map("superseded_date") @db.Date
+  createdAt             DateTime               @default(now()) @map("created_at")
+  updatedAt             DateTime?              @updatedAt @map("updated_at")
 
   @@unique([weaponId, gameEditionId, rulesSourceId])
   @@index([weaponId])

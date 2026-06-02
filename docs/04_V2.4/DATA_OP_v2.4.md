@@ -291,7 +291,7 @@ For a faction:
   - incorrect assumptions
 - if a kit clearly implies a missing unit:
   - add that unit to the faction unit file
-  - source its points / exact unit record from Wahapedia
+  - source its points / exact unit record from legacy community datasheet source
 
 Important:
 
@@ -586,7 +586,7 @@ If helping with unit tightening:
 - do not delete units casually
 - compare kit file back against unit file
 - add missing units only when clearly justified
-- source exact unit records from Wahapedia / master unit data
+- source exact unit records from legacy community datasheet source / master unit data
 
 If helping on Chaos / allied issues:
 
@@ -615,7 +615,7 @@ In order:
 
 This is the heart of V2.4.
 
-1. Patch missing units from Wahapedia
+1. Patch missing units from legacy community datasheet source
 
 Only where clearly justified by kit presence and Reddit/user feedback.
 

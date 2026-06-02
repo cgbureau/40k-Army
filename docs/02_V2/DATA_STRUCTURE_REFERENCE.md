@@ -52,7 +52,7 @@ Important rules:
 - units should **never contain price data**
 - units should **never contain retail information**
 
-This dataset is sourced from Wahapedia and represents gameplay data only.
+This dataset is sourced from legacy community datasheet source and represents gameplay data only.
 
 ---
 

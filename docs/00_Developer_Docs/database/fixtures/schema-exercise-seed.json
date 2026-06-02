@@ -4,7 +4,7 @@
     "Keep this fixture focused on relationship coverage; exhaustive faction imports should be generated from source data separately.",
     "Space Marines and Death Guard unit names are grounded in repository data under data/factions.",
     "Blood Angels examples are modeled as a rules faction that inherits Space Marines access and adds exclusive units from Codex Supplement: Blood Angels.",
-    "Full faction, unit, model, weapon, and profile imports can be sourced from https://wahapedia.ru/wh40k10ed when building production seed/import pipelines."
+    "Full faction, unit, model, weapon, and profile imports should be sourced from BSData 10th edition catalog XML when building production seed/import pipelines."
   ],
   "super_factions": [
     {

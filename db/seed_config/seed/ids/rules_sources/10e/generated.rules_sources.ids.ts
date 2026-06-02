@@ -1,7 +1,7 @@
 /**
  * Fixed ULIDs for generated rules source seed records.
  *
- * Generated from normalized Wahapedia rules-source candidates.
+ * Generated from normalized rules-source candidates.
  */
 export const generated10eRulesSourceSeedIds = {
   codex_adepta_sororitas_10e: "01K2A30G30MTC72MEHSYXFYE48",

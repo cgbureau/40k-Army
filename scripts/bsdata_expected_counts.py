@@ -12,12 +12,19 @@ from pathlib import Path
 from typing import Iterable
 from xml.etree import ElementTree as ET
 
-from wahapedia_importer.common import normalize_slug
-
 BS_NS = {"bs": "http://www.battlescribe.net/schema/catalogueSchema"}
 POINTS_FIELD_ID = "51b2-306e-1021-d207"
 UNIT_SELECTION_TYPES = {"model", "unit"}
 WEAPON_PROFILE_TYPES = {"Melee Weapons", "Ranged Weapons"}
+
+
+def normalize_slug(value: str) -> str:
+    value = value.strip().lower()
+    value = value.replace("&", " and ")
+    value = re.sub(r"['’`]", "", value)
+    value = re.sub(r'["“”]', "", value)
+    value = re.sub(r"[^a-z0-9]+", "_", value)
+    return re.sub(r"_+", "_", value).strip("_")
 
 
 @dataclass(frozen=True)
@@ -2009,7 +2016,12 @@ def source_unit_entries(
                 continue
 
             entry = index.resolve_selection_entry(link.attrib.get("targetId"))
-            if entry is None or entry.attrib.get("type") not in UNIT_SELECTION_TYPES:
+            if entry is None:
+                continue
+            if (
+                entry.attrib.get("type") not in UNIT_SELECTION_TYPES
+                and not is_unit_like_entry_link_upgrade(entry)
+            ):
                 continue
 
             linked_units.append(
@@ -2024,6 +2036,27 @@ def source_unit_entries(
         return linked_units
 
     raise ValueError(f"Unsupported BSData source mode: {mode}")
+
+
+def is_unit_like_entry_link_upgrade(entry: ET.Element) -> bool:
+    if entry.attrib.get("type") != "upgrade":
+        return False
+
+    has_points_cost = any(
+        cost.attrib.get("typeId") == POINTS_FIELD_ID
+        and float(cost.attrib.get("value", "0") or "0") > 0
+        for cost in entry.findall(".//bs:cost", BS_NS)
+    )
+    if not has_points_cost:
+        return False
+
+    category_names = {
+        category.attrib.get("name", "")
+        for category in entry.findall(".//bs:categoryLink", BS_NS)
+    }
+    has_faction_category = any(name.startswith("Faction: ") for name in category_names)
+    has_named_unit_category = entry.attrib.get("name", "") in category_names
+    return has_faction_category and has_named_unit_category
 
 
 def metrics_for_unit(entry: ET.Element, fallback_model_name: str) -> UnitMetrics:

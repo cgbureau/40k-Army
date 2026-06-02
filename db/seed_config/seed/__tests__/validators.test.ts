@@ -16,6 +16,10 @@ describe("validateSeedRecord", () => {
     unit_count: 1,
     model_count: 5,
     component_type: "complete_unit",
+    source_kind: "manual",
+    source_url: null,
+    source_text: "Manual test evidence",
+    review_status: "approved",
     effective_date: null,
     superseded_date: null,
     ...overrides,
@@ -51,5 +55,19 @@ describe("validateSeedRecord", () => {
 
     expect(result.length).toBeGreaterThan(0);
     expect(result[0].table).toBe("kit_units");
+  });
+
+  it("should return error for KitUnit without provenance fields", () => {
+    const record = createValidKitUnit({
+      source_kind: undefined as any,
+      source_text: undefined as any,
+      review_status: undefined as any,
+    });
+    const result = validateSeedRecord(collection, "kit_units", record);
+
+    expect(result.length).toBeGreaterThan(0);
+    expect(result.map((issue) => issue.field)).toEqual(
+      expect.arrayContaining(["source_kind", "source_text", "review_status"]),
+    );
   });
 });

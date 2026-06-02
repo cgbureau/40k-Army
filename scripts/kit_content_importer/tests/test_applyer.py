@@ -48,7 +48,7 @@ def test_applies_normalized_kit_content_to_typed_seed_datasets(tmp_path: Path) -
 
     kits_shard = (
         tmp_path
-        / "db/seed_config/seed/data/kits/kit_content_imported.data.ts"
+        / "db/seed_config/seed/data/kits/kit_content/miniset/black_templars.data.ts"
     )
     tcgcsv_kits_shard = (
         tmp_path
@@ -56,7 +56,7 @@ def test_applies_normalized_kit_content_to_typed_seed_datasets(tmp_path: Path) -
     )
     kit_units_shard = (
         tmp_path
-        / "db/seed_config/seed/data/kit_units/kit_content_imported.data.ts"
+        / "db/seed_config/seed/data/kit_units/kit_content/miniset/black_templars.data.ts"
     )
     kit_prices_shard = (
         tmp_path
@@ -78,6 +78,13 @@ def test_applies_normalized_kit_content_to_typed_seed_datasets(tmp_path: Path) -
         kit_prices_shard.read_text()
     )
     assert 'unitId("crusader_squad")' in kit_units_shard.read_text()
+    assert 'source_kind: "miniset"' in kit_units_shard.read_text()
+    assert (
+        'source_url: "https://miniset.net/sets/gw-99120101428?language=en"'
+        in kit_units_shard.read_text()
+    )
+    assert 'source_text: "10x Crusaders"' in kit_units_shard.read_text()
+    assert 'review_status: "approved"' in kit_units_shard.read_text()
     assert "...kitContentImportedKitsDataset.records" in (
         tmp_path / "db/seed_config/seed/data/kits.data.ts"
     ).read_text()
@@ -87,7 +94,13 @@ def test_applies_normalized_kit_content_to_typed_seed_datasets(tmp_path: Path) -
     assert './kits/tcgcsv/_index.data' in (
         tmp_path / "db/seed_config/seed/data/kits.data.ts"
     ).read_text()
+    assert './kits/kit_content/_index.data' in (
+        tmp_path / "db/seed_config/seed/data/kits.data.ts"
+    ).read_text()
     assert "...kitContentImportedKitUnitsDataset.records" in (
+        tmp_path / "db/seed_config/seed/data/kit_units.data.ts"
+    ).read_text()
+    assert './kit_units/kit_content/_index.data' in (
         tmp_path / "db/seed_config/seed/data/kit_units.data.ts"
     ).read_text()
     assert "...tcgCsvImportedKitPricesDataset.records" in (

@@ -99,7 +99,6 @@ def read_current_units() -> dict[str, dict[str, str | bool | None]]:
                 "unit_slug": slug,
                 "unit_name": json.loads(required_match(r"unit_name: (\".*?\"),", block, re.S)),
                 "is_legends": required_match(r"is_legends: (true|false)", block) == "true",
-                "wahapedia_url": parse_nullable_string_field(block, "wahapedia_url"),
             }
 
     return records
@@ -160,39 +159,29 @@ def table_sources(table_name: str) -> list[str]:
     return sources
 
 
-def parse_nullable_string_field(block: str, field_name: str) -> str | None:
-    value = required_match(rf"{field_name}:\s*(?:\n\s*)?(null|\".*?\"),", block, re.S)
-    if value == "null":
-        return None
-    return json.loads(value)
-
-
 def build_unit_records(
     current_units: dict[str, dict[str, str | bool | None]],
     expected_memberships: list[dict[str, str]],
 ) -> "OrderedDict[str, dict[str, str | bool | None]]":
-    unit_records: dict[str, dict[str, str | bool | None]] = {
-        slug: dict(record) for slug, record in current_units.items()
-    }
+    unit_records: dict[str, dict[str, str | bool | None]] = {}
     owner_by_unit = unit_owner_by_slug(expected_memberships)
 
     for record in expected_memberships:
         slug = record["unit_slug"]
+        current_record = current_units.get(slug, {})
         unit_records.setdefault(
             slug,
             {
                 "unit_slug": slug,
                 "unit_name": record["unit_name"],
-                "is_legends": "Legends" in record["unit_name"],
-                "wahapedia_url": None,
+                "is_legends": bool(
+                    current_record.get("is_legends", "Legends" in record["unit_name"]),
+                ),
             },
         )
 
     for slug, record in unit_records.items():
-        record["source_owner_slug"] = owner_by_unit.get(
-            slug,
-            infer_owner_from_wahapedia_url(record.get("wahapedia_url")),
-        )
+        record["source_owner_slug"] = owner_by_unit[slug]
 
     return OrderedDict(sorted(unit_records.items()))
 
@@ -214,17 +203,6 @@ def unit_owner_by_slug(
         )
 
     return owners
-
-
-def infer_owner_from_wahapedia_url(value: str | bool | None) -> str:
-    if not isinstance(value, str):
-        return "legacy_unmapped"
-
-    match = re.search(r"/factions/([^/]+)/", value)
-    if not match:
-        return "legacy_unmapped"
-
-    return match.group(1).replace("-", "_").replace("t_au", "tau")
 
 
 def build_rules_faction_unit_records(
@@ -514,7 +492,6 @@ def render_units_shard(
                 f'  unit_name: {ts_string(str(record["unit_name"]))},',
                 f'  unit_slug: "{record["unit_slug"]}",',
                 f'  is_legends: {str(bool(record["is_legends"])).lower()},',
-                f'  wahapedia_url: {ts_string(record["wahapedia_url"])},',
                 "};",
                 "",
                 "",
@@ -694,7 +671,16 @@ def sync_generated_ids(
 ) -> None:
     text = GENERATED_IDS_PATH.read_text()
 
-    unit_ids = parse_seed_ids(text, "unitSeedIds", "UnitSeedSlug", quoted=False)
+    unit_ids = {
+        slug: value
+        for slug, value in parse_seed_ids(
+            text,
+            "unitSeedIds",
+            "UnitSeedSlug",
+            quoted=False,
+        ).items()
+        if slug in unit_slugs
+    }
     for slug in unit_slugs:
         unit_ids.setdefault(slug, stable_id(f"unit:{slug}"))
 

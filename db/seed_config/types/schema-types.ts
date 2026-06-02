@@ -49,6 +49,8 @@ import {
   unitSelectionLimitKindSchema,
   kitUnitComponentTypeSchema,
   kitUnitPriceAllocationBasisSchema,
+  kitContentReviewStatusSchema,
+  kitContentSourceKindSchema,
   weaponTypeSchema,
 } from "@db_index/";
 
@@ -111,5 +113,9 @@ export type KeywordType = z.infer<typeof keywordTypeSchema>;
 export type KitUnitComponentType = z.infer<typeof kitUnitComponentTypeSchema>;
 export type KitUnitPriceAllocationBasis = z.infer<
   typeof kitUnitPriceAllocationBasisSchema
+>;
+export type KitContentSourceKind = z.infer<typeof kitContentSourceKindSchema>;
+export type KitContentReviewStatus = z.infer<
+  typeof kitContentReviewStatusSchema
 >;
 export type WeaponType = z.infer<typeof weaponTypeSchema>;

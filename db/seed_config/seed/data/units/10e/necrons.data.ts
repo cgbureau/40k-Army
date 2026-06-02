@@ -10,25 +10,22 @@ export const AnnihilationBargeUnit: UnitConfig = {
   unit_name: "Annihilation Barge",
   unit_slug: "annihilation_barge",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Annihilation-Barge",
 };
 
 
 export const AnrakyrTheTravellerUnit: UnitConfig = {
   id: unitId("anrakyr_the_traveller"),
-  unit_name: "Anrakyr The Traveller",
+  unit_name: "Anrakyr the Traveller (Legends)",
   unit_slug: "anrakyr_the_traveller",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Anrakyr-The-Traveller",
 };
 
 
 export const CanoptekAcanthritesUnit: UnitConfig = {
   id: unitId("canoptek_acanthrites"),
-  unit_name: "Canoptek Acanthrites",
+  unit_name: "Canoptek Acanthrites (Legends)",
   unit_slug: "canoptek_acanthrites",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Acanthrites",
 };
 
 
@@ -37,7 +34,6 @@ export const CanoptekDoomstalkerUnit: UnitConfig = {
   unit_name: "Canoptek Doomstalker",
   unit_slug: "canoptek_doomstalker",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Doomstalker",
 };
 
 
@@ -46,7 +42,6 @@ export const CanoptekMacrocytesUnit: UnitConfig = {
   unit_name: "Canoptek Macrocytes",
   unit_slug: "canoptek_macrocytes",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Macrocytes",
 };
 
 
@@ -55,7 +50,6 @@ export const CanoptekReanimatorUnit: UnitConfig = {
   unit_name: "Canoptek Reanimator",
   unit_slug: "canoptek_reanimator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Reanimator",
 };
 
 
@@ -64,7 +58,6 @@ export const CanoptekScarabSwarmsUnit: UnitConfig = {
   unit_name: "Canoptek Scarab Swarms",
   unit_slug: "canoptek_scarab_swarms",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Scarab-Swarms",
 };
 
 
@@ -73,7 +66,6 @@ export const CanoptekSpydersUnit: UnitConfig = {
   unit_name: "Canoptek Spyders",
   unit_slug: "canoptek_spyders",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Spyders",
 };
 
 
@@ -82,25 +74,22 @@ export const CanoptekTombCrawlersUnit: UnitConfig = {
   unit_name: "Canoptek Tomb Crawlers",
   unit_slug: "canoptek_tomb_crawlers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Tomb-Crawlers",
 };
 
 
 export const CanoptekTombSentinelUnit: UnitConfig = {
   id: unitId("canoptek_tomb_sentinel"),
-  unit_name: "Canoptek Tomb Sentinel",
+  unit_name: "Canoptek Tomb Sentinel (Legends)",
   unit_slug: "canoptek_tomb_sentinel",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Tomb-Sentinel",
 };
 
 
 export const CanoptekTombStalkerUnit: UnitConfig = {
   id: unitId("canoptek_tomb_stalker"),
-  unit_name: "Canoptek Tomb Stalker",
+  unit_name: "Canoptek Tomb Stalker (Legends)",
   unit_slug: "canoptek_tomb_stalker",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Tomb-Stalker",
 };
 
 
@@ -109,7 +98,6 @@ export const CanoptekWraithsUnit: UnitConfig = {
   unit_name: "Canoptek Wraiths",
   unit_slug: "canoptek_wraiths",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Canoptek-Wraiths",
 };
 
 
@@ -118,7 +106,6 @@ export const CatacombCommandBargeUnit: UnitConfig = {
   unit_name: "Catacomb Command Barge",
   unit_slug: "catacomb_command_barge",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Catacomb-Command-Barge",
 };
 
 
@@ -127,16 +114,14 @@ export const ChronomancerUnit: UnitConfig = {
   unit_name: "Chronomancer",
   unit_slug: "chronomancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Chronomancer",
 };
 
 
 export const ConvergenceOfDominionUnit: UnitConfig = {
   id: unitId("convergence_of_dominion"),
-  unit_name: "Convergence Of Dominion",
+  unit_name: "Convergence of Dominion",
   unit_slug: "convergence_of_dominion",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Convergence-Of-Dominion",
 };
 
 
@@ -145,34 +130,30 @@ export const CryptothrallsUnit: UnitConfig = {
   unit_name: "Cryptothralls",
   unit_slug: "cryptothralls",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Cryptothralls",
 };
 
 
 export const CtanShardOfTheDeceiverUnit: UnitConfig = {
   id: unitId("ctan_shard_of_the_deceiver"),
-  unit_name: "C\u2019tan Shard of the Deceiver",
+  unit_name: "C'tan Shard of the Deceiver",
   unit_slug: "ctan_shard_of_the_deceiver",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/C-tan-Shard-of-the-Deceiver",
 };
 
 
 export const CtanShardOfTheNightbringerUnit: UnitConfig = {
   id: unitId("ctan_shard_of_the_nightbringer"),
-  unit_name: "C\u2019tan Shard of the Nightbringer",
+  unit_name: "C'tan Shard of the Nightbringer",
   unit_slug: "ctan_shard_of_the_nightbringer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/C-tan-Shard-of-the-Nightbringer",
 };
 
 
 export const CtanShardOfTheVoidDragonUnit: UnitConfig = {
   id: unitId("ctan_shard_of_the_void_dragon"),
-  unit_name: "C\u2019tan Shard of the Void Dragon",
+  unit_name: "C'tan Shard of the Void Dragon",
   unit_slug: "ctan_shard_of_the_void_dragon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/C-tan-Shard-of-the-Void-Dragon",
 };
 
 
@@ -181,7 +162,6 @@ export const DeathmarksUnit: UnitConfig = {
   unit_name: "Deathmarks",
   unit_slug: "deathmarks",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Deathmarks",
 };
 
 
@@ -190,7 +170,6 @@ export const DoomScytheUnit: UnitConfig = {
   unit_name: "Doom Scythe",
   unit_slug: "doom_scythe",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Doom-Scythe",
 };
 
 
@@ -199,7 +178,6 @@ export const DoomsdayArkUnit: UnitConfig = {
   unit_name: "Doomsday Ark",
   unit_slug: "doomsday_ark",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Doomsday-Ark",
 };
 
 
@@ -208,7 +186,6 @@ export const DynasticConquerorCrucibleUnit: UnitConfig = {
   unit_name: "Dynastic Conqueror [Crucible]",
   unit_slug: "dynastic_conqueror_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -217,16 +194,14 @@ export const FlayedOnesUnit: UnitConfig = {
   unit_name: "Flayed Ones",
   unit_slug: "flayed_ones",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Flayed-Ones",
 };
 
 
 export const GaussPylonUnit: UnitConfig = {
   id: unitId("gauss_pylon"),
-  unit_name: "Gauss Pylon",
+  unit_name: "Gauss Pylon (Legends)",
   unit_slug: "gauss_pylon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Gauss-Pylon",
 };
 
 
@@ -235,7 +210,6 @@ export const GeomancerUnit: UnitConfig = {
   unit_name: "Geomancer",
   unit_slug: "geomancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Geomancer",
 };
 
 
@@ -244,7 +218,6 @@ export const GhostArkUnit: UnitConfig = {
   unit_name: "Ghost Ark",
   unit_slug: "ghost_ark",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Ghost-Ark",
 };
 
 
@@ -253,7 +226,6 @@ export const HexmarkDestroyerUnit: UnitConfig = {
   unit_name: "Hexmark Destroyer",
   unit_slug: "hexmark_destroyer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Hexmark-Destroyer",
 };
 
 
@@ -262,7 +234,6 @@ export const HyperscientistCrucibleUnit: UnitConfig = {
   unit_name: "Hyperscientist [Crucible]",
   unit_slug: "hyperscientist_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -271,7 +242,6 @@ export const IlluminorSzerasUnit: UnitConfig = {
   unit_name: "Illuminor Szeras",
   unit_slug: "illuminor_szeras",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Illuminor-Szeras",
 };
 
 
@@ -280,16 +250,14 @@ export const ImmortalsUnit: UnitConfig = {
   unit_name: "Immortals",
   unit_slug: "immortals",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Immortals",
 };
 
 
 export const ImotekhTheStormlordUnit: UnitConfig = {
   id: unitId("imotekh_the_stormlord"),
-  unit_name: "Imotekh The Stormlord",
+  unit_name: "Imotekh the Stormlord",
   unit_slug: "imotekh_the_stormlord",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Imotekh-The-Stormlord",
 };
 
 
@@ -298,7 +266,6 @@ export const LokhustDestroyersUnit: UnitConfig = {
   unit_name: "Lokhust Destroyers",
   unit_slug: "lokhust_destroyers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Lokhust-Destroyers",
 };
 
 
@@ -307,7 +274,6 @@ export const LokhustHeavyDestroyersUnit: UnitConfig = {
   unit_name: "Lokhust Heavy Destroyers",
   unit_slug: "lokhust_heavy_destroyers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Lokhust-Heavy-Destroyers",
 };
 
 
@@ -316,16 +282,14 @@ export const LokhustLordUnit: UnitConfig = {
   unit_name: "Lokhust Lord",
   unit_slug: "lokhust_lord",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Lokhust-Lord",
 };
 
 
 export const LordUnit: UnitConfig = {
   id: unitId("lord"),
-  unit_name: "Lord",
+  unit_name: "Lord (Legends)",
   unit_slug: "lord",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Lord",
 };
 
 
@@ -334,7 +298,6 @@ export const LychguardUnit: UnitConfig = {
   unit_name: "Lychguard",
   unit_slug: "lychguard",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Lychguard",
 };
 
 
@@ -343,7 +306,6 @@ export const MonolithUnit: UnitConfig = {
   unit_name: "Monolith",
   unit_slug: "monolith",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Monolith",
 };
 
 
@@ -352,7 +314,6 @@ export const NecronWarriorsUnit: UnitConfig = {
   unit_name: "Necron Warriors",
   unit_slug: "necron_warriors",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Necron-Warriors",
 };
 
 
@@ -361,16 +322,14 @@ export const NekrosorAmmentarUnit: UnitConfig = {
   unit_name: "Nekrosor Ammentar",
   unit_slug: "nekrosor_ammentar",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Nekrosor-Ammentar",
 };
 
 
 export const NemesorZahndrekhUnit: UnitConfig = {
   id: unitId("nemesor_zahndrekh"),
-  unit_name: "Nemesor Zahndrekh",
+  unit_name: "Nemesor Zahndrekh (Legends)",
   unit_slug: "nemesor_zahndrekh",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Nemesor-Zahndrekh",
 };
 
 
@@ -379,16 +338,14 @@ export const NightScytheUnit: UnitConfig = {
   unit_name: "Night Scythe",
   unit_slug: "night_scythe",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Night-Scythe",
 };
 
 
 export const NightShroudUnit: UnitConfig = {
   id: unitId("night_shroud"),
-  unit_name: "Night Shroud",
+  unit_name: "Night Shroud (Legends)",
   unit_slug: "night_shroud",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Night-Shroud",
 };
 
 
@@ -397,7 +354,6 @@ export const ObeliskUnit: UnitConfig = {
   unit_name: "Obelisk",
   unit_slug: "obelisk",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Obelisk",
 };
 
 
@@ -406,16 +362,14 @@ export const OphydianDestroyersUnit: UnitConfig = {
   unit_name: "Ophydian Destroyers",
   unit_slug: "ophydian_destroyers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Ophydian-Destroyers",
 };
 
 
 export const OrikanTheDivinerUnit: UnitConfig = {
   id: unitId("orikan_the_diviner"),
-  unit_name: "Orikan The Diviner",
+  unit_name: "Orikan the Diviner",
   unit_slug: "orikan_the_diviner",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Orikan-The-Diviner",
 };
 
 
@@ -424,16 +378,14 @@ export const OverlordUnit: UnitConfig = {
   unit_name: "Overlord",
   unit_slug: "overlord",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Overlord",
 };
 
 
 export const OverlordWithTranslocationShroudUnit: UnitConfig = {
   id: unitId("overlord_with_translocation_shroud"),
-  unit_name: "Overlord with translocation shroud",
+  unit_name: "Overlord with Translocation Shroud",
   unit_slug: "overlord_with_translocation_shroud",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Overlord-with-translocation-shroud",
 };
 
 
@@ -442,7 +394,6 @@ export const PlasmancerUnit: UnitConfig = {
   unit_name: "Plasmancer",
   unit_slug: "plasmancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Plasmancer",
 };
 
 
@@ -451,7 +402,6 @@ export const PsychomancerUnit: UnitConfig = {
   unit_name: "Psychomancer",
   unit_slug: "psychomancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Psychomancer",
 };
 
 
@@ -460,16 +410,14 @@ export const RoyalWardenUnit: UnitConfig = {
   unit_name: "Royal Warden",
   unit_slug: "royal_warden",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Royal-Warden",
 };
 
 
 export const SentryPylonUnit: UnitConfig = {
   id: unitId("sentry_pylon"),
-  unit_name: "Sentry Pylon",
+  unit_name: "Sentry Pylon (Legends)",
   unit_slug: "sentry_pylon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Sentry-Pylon",
 };
 
 
@@ -478,7 +426,6 @@ export const SeraptekHeavyConstructUnit: UnitConfig = {
   unit_name: "Seraptek Heavy Construct",
   unit_slug: "seraptek_heavy_construct",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Seraptek-Heavy-Construct",
 };
 
 
@@ -487,7 +434,6 @@ export const SkorpekhDestroyersUnit: UnitConfig = {
   unit_name: "Skorpekh Destroyers",
   unit_slug: "skorpekh_destroyers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Skorpekh-Destroyers",
 };
 
 
@@ -496,7 +442,6 @@ export const SkorpekhLordUnit: UnitConfig = {
   unit_name: "Skorpekh Lord",
   unit_slug: "skorpekh_lord",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Skorpekh-Lord",
 };
 
 
@@ -505,16 +450,14 @@ export const TechnomancerUnit: UnitConfig = {
   unit_name: "Technomancer",
   unit_slug: "technomancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Technomancer",
 };
 
 
 export const TesseractArkUnit: UnitConfig = {
   id: unitId("tesseract_ark"),
-  unit_name: "Tesseract Ark",
+  unit_name: "Tesseract Ark (Legends)",
   unit_slug: "tesseract_ark",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Tesseract-Ark",
 };
 
 
@@ -523,7 +466,6 @@ export const TesseractVaultUnit: UnitConfig = {
   unit_name: "Tesseract Vault",
   unit_slug: "tesseract_vault",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Tesseract-Vault",
 };
 
 
@@ -532,7 +474,6 @@ export const TheSilentKingUnit: UnitConfig = {
   unit_name: "The Silent King",
   unit_slug: "the_silent_king",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/The-Silent-King",
 };
 
 
@@ -541,34 +482,22 @@ export const TombBladesUnit: UnitConfig = {
   unit_name: "Tomb Blades",
   unit_slug: "tomb_blades",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Tomb-Blades",
-};
-
-
-export const TombCitadelWallsUnit: UnitConfig = {
-  id: unitId("tomb_citadel_walls"),
-  unit_name: "Tomb Citadel Walls",
-  unit_slug: "tomb_citadel_walls",
-  is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Tomb-Citadel-Walls",
 };
 
 
 export const TranscendentCtanUnit: UnitConfig = {
   id: unitId("transcendent_ctan"),
-  unit_name: "Transcendent C\u2019tan",
+  unit_name: "Transcendent C'tan",
   unit_slug: "transcendent_ctan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Transcendent-C-tan",
 };
 
 
 export const TrazynTheInfiniteUnit: UnitConfig = {
   id: unitId("trazyn_the_infinite"),
-  unit_name: "Trazyn The Infinite",
+  unit_name: "Trazyn the Infinite",
   unit_slug: "trazyn_the_infinite",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Trazyn-The-Infinite",
 };
 
 
@@ -577,7 +506,6 @@ export const TriarchPraetoriansUnit: UnitConfig = {
   unit_name: "Triarch Praetorians",
   unit_slug: "triarch_praetorians",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Triarch-Praetorians",
 };
 
 
@@ -586,7 +514,6 @@ export const TriarchStalkerUnit: UnitConfig = {
   unit_name: "Triarch Stalker",
   unit_slug: "triarch_stalker",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Triarch-Stalker",
 };
 
 
@@ -595,16 +522,14 @@ export const TriarchalOverseerCrucibleUnit: UnitConfig = {
   unit_name: "Triarchal Overseer [Crucible]",
   unit_slug: "triarchal_overseer_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
 export const VargardObyronUnit: UnitConfig = {
   id: unitId("vargard_obyron"),
-  unit_name: "Vargard Obyron",
+  unit_name: "Vargard Obyron (Legends)",
   unit_slug: "vargard_obyron",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/necrons/Vargard-Obyron",
 };
 
 
@@ -671,7 +596,6 @@ export const necronsUnits10e: SeedDataset<"units"> = {
     TesseractVaultUnit,
     TheSilentKingUnit,
     TombBladesUnit,
-    TombCitadelWallsUnit,
     TranscendentCtanUnit,
     TrazynTheInfiniteUnit,
     TriarchPraetoriansUnit,

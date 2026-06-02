@@ -645,6 +645,90 @@ export const HaemonculusPainAdept10eCodexDrukhari10eUnitAbility: UnitAbilityConf
 };
 
 
+export const HandOfTheArchonArchonsRetinue10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__archons_retinue__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("archons_retinue"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "If this unit has a Leader unit attached to it during the Declare Battle Formations step, that Leader unit gains the Scouts 7\" ability.",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonArchonsWill10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__archons_will__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("archons_will"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "At the start of the first battle round, select one objective marker on the battlefield. Until the end of the battle, while this unit is within range of that objective marker, unless this unit is Battle-shocked, models in this unit have a 5+ invulnerable save and an Objective Control characteristic of 3.",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonAssassinsPoisonsPain10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__assassins_poisons_pain__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("assassins_poisons_pain"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "In your Shooting phase or the Fight phase, when you select this unit to shoot or fight, you can spend 1 Pain token to Empower this unit. While Empowered, weapons equipped by models in this unit (excluding blast pistols, blasters and dark lances) have the [Lethal Hits] and [Precision] abilities.",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonInvulnerableSave10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__invulnerable_save__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("invulnerable_save"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "This unit has a 6+ Invulnerable save",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonKabaliteIcon10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__kabalite_icon__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("kabalite_icon"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "While the bearer's unit is not Battle-shocked, add 1 to the bearer's Objective Control characteristic.",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonPhantasmGrenadeLauncher10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__phantasm_grenade_launcher__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("phantasm_grenade_launcher"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "The bearer\u2019s unit has the Smoke keyword.",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
+export const HandOfTheArchonStimmNeedler10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
+  id: unitAbilityId("hand_of_the_archon__stimm_needler__10e__codex_drukhari_10e"),
+  unit_id: unitId("hand_of_the_archon"),
+  ability_id: abilityId("stimm_needler"),
+  game_edition_id: gameEditionId("10e"),
+  rules_source_id: rulesSourceId("codex_drukhari_10e"),
+  rules_text: "Once per turn, the first time a saving throw is failed for a model in the bearer's unit, change the Damage characteristic of that attack to 0.",
+  effective_date: null,
+  superseded_date: null,
+};
+
+
 export const HellionsBattlefieldButcheryPain10eCodexDrukhari10eUnitAbility: UnitAbilityConfig = {
   id: unitAbilityId("hellions__battlefield_butchery_pain__10e__codex_drukhari_10e"),
   unit_id: unitId("hellions"),
@@ -2117,6 +2201,13 @@ export const drukhariUnitAbilities10e: SeedDataset<"unit_abilities"> = {
     HaemonculusInvulnerableSave10eCodexDrukhari10eUnitAbility,
     HaemonculusLeader10eCodexDrukhari10eUnitAbility,
     HaemonculusPainAdept10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonArchonsRetinue10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonArchonsWill10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonAssassinsPoisonsPain10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonInvulnerableSave10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonKabaliteIcon10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonPhantasmGrenadeLauncher10eCodexDrukhari10eUnitAbility,
+    HandOfTheArchonStimmNeedler10eCodexDrukhari10eUnitAbility,
     HellionsBattlefieldButcheryPain10eCodexDrukhari10eUnitAbility,
     HellionsInvulnerableSave10eCodexDrukhari10eUnitAbility,
     HellionsPhantasmGrenadeLauncher10eCodexDrukhari10eUnitAbility,

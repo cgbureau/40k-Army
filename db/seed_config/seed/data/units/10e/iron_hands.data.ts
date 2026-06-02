@@ -10,7 +10,6 @@ export const CaanokVarUnit: UnitConfig = {
   unit_name: "Caanok Var",
   unit_slug: "caanok_var",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Caanok-Var",
 };
 
 
@@ -19,7 +18,6 @@ export const IronFatherFeirrosUnit: UnitConfig = {
   unit_name: "Iron Father Feirros",
   unit_slug: "iron_father_feirros",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Iron-Father-Feirros",
 };
 
 

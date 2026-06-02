@@ -10,7 +10,6 @@ export const CastellanUnit: UnitConfig = {
   unit_name: "Castellan",
   unit_slug: "castellan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Castellan",
 };
 
 
@@ -19,7 +18,6 @@ export const ChaplainGrimaldusUnit: UnitConfig = {
   unit_name: "Chaplain Grimaldus",
   unit_slug: "chaplain_grimaldus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Chaplain-Grimaldus",
 };
 
 
@@ -28,7 +26,6 @@ export const CrusadeAncientUnit: UnitConfig = {
   unit_name: "Crusade Ancient",
   unit_slug: "crusade_ancient",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Crusade-Ancient",
 };
 
 
@@ -37,25 +34,22 @@ export const CrusaderSquadUnit: UnitConfig = {
   unit_name: "Crusader Squad",
   unit_slug: "crusader_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Crusader-Squad",
 };
 
 
 export const CrusaderSquadLegendaryUnit: UnitConfig = {
   id: unitId("crusader_squad_legendary"),
-  unit_name: "Crusader Squad (Legendary)",
+  unit_name: "Crusader Squad (Legends)",
   unit_slug: "crusader_squad_legendary",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Crusader-Squad-Legendary-",
 };
 
 
 export const EmperorsChampionUnit: UnitConfig = {
   id: unitId("emperors_champion"),
-  unit_name: "Emperor\u2019s Champion",
+  unit_name: "Emperor's Champion",
   unit_slug: "emperors_champion",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Emperor-s-Champion",
 };
 
 
@@ -64,7 +58,6 @@ export const EmperorsChampionAnointedUnit: UnitConfig = {
   unit_name: "Emperor's Champion (Anointed)",
   unit_slug: "emperors_champion_anointed",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
@@ -73,7 +66,6 @@ export const ExecratorUnit: UnitConfig = {
   unit_name: "Execrator",
   unit_slug: "execrator",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Execrator",
 };
 
 
@@ -82,7 +74,6 @@ export const GladiatorLancerUnit: UnitConfig = {
   unit_name: "Gladiator Lancer",
   unit_slug: "gladiator_lancer",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Gladiator-Lancer",
 };
 
 
@@ -91,7 +82,6 @@ export const GladiatorReaperUnit: UnitConfig = {
   unit_name: "Gladiator Reaper",
   unit_slug: "gladiator_reaper",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Gladiator-Reaper",
 };
 
 
@@ -100,7 +90,6 @@ export const GladiatorValiantUnit: UnitConfig = {
   unit_name: "Gladiator Valiant",
   unit_slug: "gladiator_valiant",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Gladiator-Valiant",
 };
 
 
@@ -109,7 +98,6 @@ export const HighMarshalHelbrechtUnit: UnitConfig = {
   unit_name: "High Marshal Helbrecht",
   unit_slug: "high_marshal_helbrecht",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/High-Marshal-Helbrecht",
 };
 
 
@@ -118,7 +106,6 @@ export const ImpulsorUnit: UnitConfig = {
   unit_name: "Impulsor",
   unit_slug: "impulsor",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Impulsor",
 };
 
 
@@ -127,7 +114,6 @@ export const LandRaiderCrusaderUnit: UnitConfig = {
   unit_name: "Land Raider Crusader",
   unit_slug: "land_raider_crusader",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/grey-knights/Land-Raider-Crusader",
 };
 
 
@@ -136,7 +122,6 @@ export const MarshalUnit: UnitConfig = {
   unit_name: "Marshal",
   unit_slug: "marshal",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Marshal",
 };
 
 
@@ -145,7 +130,6 @@ export const RepulsorUnit: UnitConfig = {
   unit_name: "Repulsor",
   unit_slug: "repulsor",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Repulsor",
 };
 
 
@@ -154,7 +138,6 @@ export const RepulsorExecutionerUnit: UnitConfig = {
   unit_name: "Repulsor Executioner",
   unit_slug: "repulsor_executioner",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Repulsor-Executioner",
 };
 
 
@@ -163,7 +146,6 @@ export const SternguardVeteranSquadUnit: UnitConfig = {
   unit_name: "Sternguard Veteran Squad",
   unit_slug: "sternguard_veteran_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sternguard-Veteran-Squad",
 };
 
 
@@ -172,7 +154,6 @@ export const SwordBrethrenSquadUnit: UnitConfig = {
   unit_name: "Sword Brethren Squad",
   unit_slug: "sword_brethren_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Sword-Brethren-Squad",
 };
 
 
@@ -181,7 +162,6 @@ export const TerminatorSquadUnit: UnitConfig = {
   unit_name: "Terminator Squad",
   unit_slug: "terminator_squad",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Terminator-Squad",
 };
 
 

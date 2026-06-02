@@ -97,6 +97,8 @@ type AbilitySeedType =
   | "arch_sorcerer_of_tzeentch_psychic"
   | "architect_of_ruin"
   | "archon_of_the_poisoned_tongue_pain"
+  | "archons_retinue"
+  | "archons_will"
   | "ard_case"
   | "armorium_cherub"
   | "armour_hunter"
@@ -112,6 +114,7 @@ type AbilitySeedType =
   | "aspect_training"
   | "aspire_to_glory"
   | "assassin"
+  | "assassins_poisons_pain"
   | "assault_dropship"
   | "assault_ramp"
   | "assault_vehicle"
@@ -1691,6 +1694,7 @@ type AbilitySeedType =
   | "stasis_bomb"
   | "stealth_drones"
   | "sternguard_focus"
+  | "stimm_needler"
   | "stimulated_by_pain"
   | "stirring_rhetoric"
   | "stompa"
@@ -2147,6 +2151,8 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   arch_sorcerer_of_tzeentch_psychic: "01KKD72XZQQ1C4CZGGW9EEBKD9",
   architect_of_ruin: "01K29HGWF60HCQDYVRYTJ87MSA",
   archon_of_the_poisoned_tongue_pain: "01KASFAM9G2DN2WQM5X6F9TVN1",
+  archons_retinue: "01KZ2535E7AD6XMX3P90YFC31G",
+  archons_will: "01K7BBMVMJCAGNP4FQAJ80AQBA",
   ard_case: "01KDRPJYJTR5W9PTN8BMMDGDQX",
   armorium_cherub: "01KMC3PEXKQJM6HDFX24MTJZTM",
   armour_hunter: "01K5CHYMDDDJ86JHBDJDTAYZ9Y",
@@ -2162,6 +2168,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   aspect_training: "01KTMKTC53876D6Y9GTBN008A5",
   aspire_to_glory: "01KQQ27HET2A6430AF8DYEMV0T",
   assassin: "01KB53N2S2RDHGVRF2TREEBCMX",
+  assassins_poisons_pain: "01KFGRAF57J61KAK14ZE845JNB",
   assault_dropship: "01KAKH950ZMEDPTS7B8FN8ANT9",
   assault_ramp: "01K2Z9VZAGSPTRPDSJK3TD0NNR",
   assault_vehicle: "01K4N7WYQPE52BYNNRKR1HHCQP",
@@ -3741,6 +3748,7 @@ const abilitySeedIds: Record<AbilitySeedType, string> = {
   stasis_bomb: "01KY6PE90BCW0ZRE09BYYDD0SM",
   stealth_drones: "01KM00RCK7DF219NM9TDM32Z8N",
   sternguard_focus: "01KV3N6MG46Y3N43HDWMYE24N0",
+  stimm_needler: "01KPAA4E7VJMBX5VNRD0S6H7KA",
   stimulated_by_pain: "01KMMJP0XNJ9AZG1Q049FAYYBB",
   stirring_rhetoric: "01K00FS34DF31BY3PH5QVZ4YWT",
   stompa: "01KZCR1NQXTP5HGPAG5NMHYH99",

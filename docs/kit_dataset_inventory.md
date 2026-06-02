@@ -2,7 +2,7 @@
 
 # Kit Dataset Inventory
 
-This document inventories the store-side kit data that sits outside BSData and Wahapedia. BSData can tell us which units exist and how they are fielded; it cannot tell us which purchasable boxes exist, what each box costs, what models are physically in a box, or how a multi-build kit should satisfy collection and purchasing workflows.
+This document inventories the store-side kit data that sits outside BSData. BSData can tell us which units exist and how they are fielded; it cannot tell us which purchasable boxes exist, what each box costs, what models are physically in a box, or how a multi-build kit should satisfy collection and purchasing workflows.
 
 Regenerate with:
 
@@ -15,11 +15,24 @@ npm run docs:kit-dataset-inventory
 | Dataset | Current typed rows | Candidate source | Target rule |
 | --- | ---: | --- | --- |
 | `kit_types` | 4 | Curated reference rows | Small controlled list; add types only when purchasing semantics require them. |
-| `kits` | 533 | TCGCSV product rows plus 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
+| `kits` | 530 | TCGCSV product rows plus 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
 | `kit_prices` | 631 | TCGCSV USD observations plus 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; preserve current vs superseded observations. |
-| `kit_units` | 8 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
+| `kit_units` | 4 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
 | `kit_models` | 0 | Source-backed kit contents are now applied to typed `kits` and `kit_units`; `kit_models` waits for explicit variant/model expansion policy. | Curated physical model contents for collection matching and split-kit workflows. |
-| `kit_unit_price_allocations` | 2 | Derived from kit prices plus kit-unit edges | Generate from explicit allocation policy; do not use as a replacement for kit prices. |
+| `kit_unit_price_allocations` | 0 | Derived from kit prices plus kit-unit edges | Generate from explicit allocation policy; do not use as a replacement for kit prices. |
+
+## Kit Content Evidence Gate
+
+Canonical `kit_units` and future `kit_models` rows must preserve the evidence used to assert physical kit contents. The schema now requires `source_kind`, `source_text`, and `review_status`; `source_url` is nullable for manual/local sources but should be present for web-imported rows.
+
+| Source tier | Examples | Canonical seed policy |
+| --- | --- | --- |
+| Preferred | Games Workshop product page, Games Workshop PDF, Warhammer Community box-content article | Apply when the content text explicitly names the included unit or model. |
+| Accepted | Miniset content page with matching product identity | Apply when the page has explicit contents and row quantities reconcile with the kit model count. |
+| Fallback | Retailer product page or product JSON repeating official contents | Apply only when the content text is explicit and attributable to the product page. |
+| Staging only | TCGCSV product title, legacy name match, fuzzy product-to-unit match | Do not apply directly to typed `kit_units` or `kit_models`; keep as candidates until reviewed. |
+
+Rows in canonical typed seed data should normally use `review_status: "approved"`. Candidate rows that still need review should remain outside canonical seed datasets until a reviewed staging workflow is added.
 
 ## Legacy Catalog Summary
 
@@ -194,7 +207,7 @@ These counts are from the legacy `data/kits` and `data/kit-mappings` JSON files.
 ## Migration Recommendation
 
 - Treat `kits` and `kit_prices` as sourceable commerce/catalog data. Use old JSON/API snapshots as input, then deduplicate and normalize before generating typed seed rows.
-- Treat `kit_units` as curated compatibility data. Name matching can suggest candidates, but alternate-build kits, combat patrols, shared transports, upgrade sprues, and bundled character boxes need reviewed edges.
-- Treat `kit_models` as curated physical-contents data. This is the collection/purchasing bridge and should be sourced from product contents, assembly options, or manual review rather than inferred from unit names.
+- Treat `kit_units` as curated compatibility data. Name matching can suggest candidates, but canonical rows require `source_kind`, `source_url`, `source_text`, and `review_status` evidence fields.
+- Treat `kit_models` as curated physical-contents data. This is the collection/purchasing bridge and should be sourced from product contents, assembly options, or manual review rather than inferred from unit names; the same evidence fields are required there before rows can be seeded.
 - Treat `kit_unit_price_allocations` as derived policy data. Rows should be generated only after kit-unit edges and allocation rules are explicit.
 - Keep `kit_prices` time/source oriented in the schema. Generated source shards may be grouped for file size, but row identity should not depend on faction because the same kit can serve multiple factions and prices change by region and observation date.

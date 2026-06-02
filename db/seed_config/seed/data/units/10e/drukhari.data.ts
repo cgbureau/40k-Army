@@ -10,7 +10,6 @@ export const ArchonUnit: UnitConfig = {
   unit_name: "Archon",
   unit_slug: "archon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Archon",
 };
 
 
@@ -19,25 +18,22 @@ export const ArchtormentorCrucibleUnit: UnitConfig = {
   unit_name: "Archtormentor [Crucible]",
   unit_slug: "archtormentor_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
 export const BeastmasterUnit: UnitConfig = {
   id: unitId("beastmaster"),
-  unit_name: "Beastmaster",
+  unit_name: "Beastmaster (Legends)",
   unit_slug: "beastmaster",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Beastmaster",
 };
 
 
 export const CourtOfTheArchonUnit: UnitConfig = {
   id: unitId("court_of_the_archon"),
-  unit_name: "Court of the Archon",
+  unit_name: "Court of the Archon (Legends)",
   unit_slug: "court_of_the_archon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Court-of-the-Archon",
 };
 
 
@@ -46,7 +42,6 @@ export const CronosUnit: UnitConfig = {
   unit_name: "Cronos",
   unit_slug: "cronos",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Cronos",
 };
 
 
@@ -55,7 +50,6 @@ export const DrazharUnit: UnitConfig = {
   unit_name: "Drazhar",
   unit_slug: "drazhar",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Drazhar",
 };
 
 
@@ -64,16 +58,14 @@ export const FleshCrafterCrucibleUnit: UnitConfig = {
   unit_name: "Flesh Crafter [Crucible]",
   unit_slug: "flesh_crafter_crucible",
   is_legends: false,
-  wahapedia_url: null,
 };
 
 
 export const GrotesquesUnit: UnitConfig = {
   id: unitId("grotesques"),
-  unit_name: "Grotesques",
+  unit_name: "Grotesques (Legends)",
   unit_slug: "grotesques",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Grotesques",
 };
 
 
@@ -82,7 +74,6 @@ export const HaemonculusUnit: UnitConfig = {
   unit_name: "Haemonculus",
   unit_slug: "haemonculus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Haemonculus",
 };
 
 
@@ -91,7 +82,6 @@ export const HandOfTheArchonUnit: UnitConfig = {
   unit_name: "Hand of the Archon",
   unit_slug: "hand_of_the_archon",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Hand-of-the-Archon",
 };
 
 
@@ -100,7 +90,6 @@ export const HellionsUnit: UnitConfig = {
   unit_name: "Hellions",
   unit_slug: "hellions",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Hellions",
 };
 
 
@@ -109,7 +98,6 @@ export const IncubiUnit: UnitConfig = {
   unit_name: "Incubi",
   unit_slug: "incubi",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Incubi",
 };
 
 
@@ -118,7 +106,6 @@ export const KabaliteWarriorsUnit: UnitConfig = {
   unit_name: "Kabalite Warriors",
   unit_slug: "kabalite_warriors",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Kabalite-Warriors",
 };
 
 
@@ -127,7 +114,6 @@ export const LadyMalysUnit: UnitConfig = {
   unit_name: "Lady Malys",
   unit_slug: "lady_malys",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Lady-Malys",
 };
 
 
@@ -136,7 +122,6 @@ export const LelithHesperaxUnit: UnitConfig = {
   unit_name: "Lelith Hesperax",
   unit_slug: "lelith_hesperax",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Lelith-Hesperax",
 };
 
 
@@ -145,7 +130,6 @@ export const MandrakesUnit: UnitConfig = {
   unit_name: "Mandrakes",
   unit_slug: "mandrakes",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Mandrakes",
 };
 
 
@@ -154,7 +138,6 @@ export const RaiderUnit: UnitConfig = {
   unit_name: "Raider",
   unit_slug: "raider",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Raider",
 };
 
 
@@ -163,16 +146,14 @@ export const RavagerUnit: UnitConfig = {
   unit_name: "Ravager",
   unit_slug: "ravager",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Ravager",
 };
 
 
 export const RavenStrikeFighterUnit: UnitConfig = {
   id: unitId("raven_strike_fighter"),
-  unit_name: "Raven Strike Fighter",
+  unit_name: "Raven Strike Fighter (Legends)",
   unit_slug: "raven_strike_fighter",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Raven-Strike-Fighter",
 };
 
 
@@ -181,16 +162,14 @@ export const RazorwingJetfighterUnit: UnitConfig = {
   unit_name: "Razorwing Jetfighter",
   unit_slug: "razorwing_jetfighter",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Razorwing-Jetfighter",
 };
 
 
 export const ReaperUnit: UnitConfig = {
   id: unitId("reaper"),
-  unit_name: "Reaper",
+  unit_name: "Reaper (Legends)",
   unit_slug: "reaper",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Reaper",
 };
 
 
@@ -199,7 +178,6 @@ export const ReaversUnit: UnitConfig = {
   unit_name: "Reavers",
   unit_slug: "reavers",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Reavers",
 };
 
 
@@ -208,7 +186,6 @@ export const ScourgesWithHeavyWeaponsUnit: UnitConfig = {
   unit_name: "Scourges with Heavy Weapons",
   unit_slug: "scourges_with_heavy_weapons",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Scourges-with-Heavy-Weapons",
 };
 
 
@@ -217,7 +194,6 @@ export const ScourgesWithShardcarbinesUnit: UnitConfig = {
   unit_name: "Scourges with Shardcarbines",
   unit_slug: "scourges_with_shardcarbines",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Scourges-with-Shardcarbines",
 };
 
 
@@ -226,7 +202,6 @@ export const SuccubusUnit: UnitConfig = {
   unit_name: "Succubus",
   unit_slug: "succubus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Succubus",
 };
 
 
@@ -235,25 +210,22 @@ export const TalosUnit: UnitConfig = {
   unit_name: "Talos",
   unit_slug: "talos",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Talos",
 };
 
 
 export const TantalusUnit: UnitConfig = {
   id: unitId("tantalus"),
-  unit_name: "Tantalus",
+  unit_name: "Tantalus (Legends)",
   unit_slug: "tantalus",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Tantalus",
 };
 
 
 export const UrienRakarthUnit: UnitConfig = {
   id: unitId("urien_rakarth"),
-  unit_name: "Urien Rakarth",
+  unit_name: "Urien Rakarth (Legends)",
   unit_slug: "urien_rakarth",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Urien-Rakarth",
 };
 
 
@@ -262,7 +234,6 @@ export const VenomUnit: UnitConfig = {
   unit_name: "Venom",
   unit_slug: "venom",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Venom",
 };
 
 
@@ -271,7 +242,6 @@ export const VoidravenBomberUnit: UnitConfig = {
   unit_name: "Voidraven Bomber",
   unit_slug: "voidraven_bomber",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Voidraven-Bomber",
 };
 
 
@@ -280,7 +250,6 @@ export const WracksUnit: UnitConfig = {
   unit_name: "Wracks",
   unit_slug: "wracks",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Wracks",
 };
 
 
@@ -289,7 +258,6 @@ export const WychesUnit: UnitConfig = {
   unit_name: "Wyches",
   unit_slug: "wyches",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/drukhari/Wyches",
 };
 
 

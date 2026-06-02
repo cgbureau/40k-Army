@@ -17,10 +17,10 @@ describe("kit dataset inventory generator", () => {
     expect(inventory.legacyMappings.mappingEntries).toBe(941);
     expect(inventory.currentSeed).toEqual({
       kitTypes: 4,
-      kits: 533,
+      kits: 530,
       kitModels: 0,
-      kitUnits: 8,
-      kitUnitPriceAllocations: 2,
+      kitUnits: 4,
+      kitUnitPriceAllocations: 0,
       kitPrices: 631,
     });
     expect(inventory.normalizedLegacy?.counts.normalized_products).toBe(853);
@@ -49,14 +49,16 @@ describe("kit dataset inventory generator", () => {
 
     expect(markdown).toContain("# Kit Dataset Inventory");
     expect(markdown).toContain("## Source Roles");
+    expect(markdown).toContain("## Kit Content Evidence Gate");
     expect(markdown).toContain("## Normalized Legacy Staging");
     expect(markdown).toContain("## Faction Legacy Coverage");
     expect(markdown).toContain("## Migration Recommendation");
     expect(markdown).toContain("| `kit_models` | 0 |");
     expect(markdown).toContain("| Normalized products | 853 |");
-    expect(markdown).toContain("| `kits` | 533 |");
+    expect(markdown).toContain("| `kits` | 530 |");
     expect(markdown).toContain("| `kit_prices` | 631 |");
-    expect(markdown).toContain("| `kit_units` | 8 |");
+    expect(markdown).toContain("| `kit_units` | 4 |");
     expect(markdown).toContain("TCGCSV-backed `kit_prices` rows");
+    expect(markdown).toContain("`source_kind`, `source_url`, `source_text`, and `review_status`");
   });
 });

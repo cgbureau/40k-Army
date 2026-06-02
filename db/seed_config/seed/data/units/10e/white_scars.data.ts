@@ -7,10 +7,9 @@ import { unitId } from "../../../ids";
 
 export const KorsarroKhanUnit: UnitConfig = {
   id: unitId("korsarro_khan"),
-  unit_name: "Kor\u2019sarro Khan",
+  unit_name: "Kor'sarro Khan",
   unit_slug: "korsarro_khan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Kor-sarro-Khan",
 };
 
 
@@ -19,7 +18,6 @@ export const SubodenKhanUnit: UnitConfig = {
   unit_name: "Suboden Khan",
   unit_slug: "suboden_khan",
   is_legends: false,
-  wahapedia_url: "https://wahapedia.ru/wh40k10ed/factions/space-marines/Suboden-Khan",
 };
 
 

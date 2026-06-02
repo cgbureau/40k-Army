@@ -100,6 +100,69 @@ export const HellionModel: ModelConfig = {
 };
 
 
+export const KabaliteAgentModel: ModelConfig = {
+  id: modelId("kabalite_agent"),
+  model_slug: "kabalite_agent",
+  model_name: "Kabalite Agent",
+};
+
+
+export const KabaliteAgentWithHeavyWeaponModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_heavy_weapon"),
+  model_slug: "kabalite_agent_with_heavy_weapon",
+  model_name: "Kabalite Agent with heavy weapon",
+};
+
+
+export const KabaliteAgentWithPainSculptorsModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_pain_sculptors"),
+  model_slug: "kabalite_agent_with_pain_sculptors",
+  model_name: "Kabalite Agent with pain sculptors",
+};
+
+
+export const KabaliteAgentWithRazorflailModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_razorflail"),
+  model_slug: "kabalite_agent_with_razorflail",
+  model_name: "Kabalite Agent with razorflail",
+};
+
+
+export const KabaliteAgentWithShardcarbineModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_shardcarbine"),
+  model_slug: "kabalite_agent_with_shardcarbine",
+  model_name: "Kabalite Agent with shardcarbine",
+};
+
+
+export const KabaliteAgentWithSpecialWeaponModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_special_weapon"),
+  model_slug: "kabalite_agent_with_special_weapon",
+  model_name: "Kabalite Agent with special weapon",
+};
+
+
+export const KabaliteAgentWithStimmNeedlerModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_stimm_needler"),
+  model_slug: "kabalite_agent_with_stimm_needler",
+  model_name: "Kabalite Agent with stimm-needler",
+};
+
+
+export const KabaliteAgentWithStingerPistolModel: ModelConfig = {
+  id: modelId("kabalite_agent_with_stinger_pistol"),
+  model_slug: "kabalite_agent_with_stinger_pistol",
+  model_name: "Kabalite Agent with stinger pistol",
+};
+
+
+export const KabaliteArchsybariteModel: ModelConfig = {
+  id: modelId("kabalite_archsybarite"),
+  model_slug: "kabalite_archsybarite",
+  model_name: "Kabalite Archsybarite",
+};
+
+
 export const KhymeraeModel: ModelConfig = {
   id: modelId("khymerae"),
   model_slug: "khymerae",
@@ -333,6 +396,15 @@ export const drukhariModels: SeedDataset<"models"> = {
     HaemonculusModel,
     HeliarchModel,
     HellionModel,
+    KabaliteAgentModel,
+    KabaliteAgentWithHeavyWeaponModel,
+    KabaliteAgentWithPainSculptorsModel,
+    KabaliteAgentWithRazorflailModel,
+    KabaliteAgentWithShardcarbineModel,
+    KabaliteAgentWithSpecialWeaponModel,
+    KabaliteAgentWithStimmNeedlerModel,
+    KabaliteAgentWithStingerPistolModel,
+    KabaliteArchsybariteModel,
     KhymeraeModel,
     LadyMalysModel,
     LelithHesperaxModel,

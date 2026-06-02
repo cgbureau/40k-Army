@@ -8,7 +8,6 @@ Cell format: `actual / expected`.
 
 - `actual` is the current seed row count or faction coverage count in this repository. For global unit-linked tables such as `leader_eligibilities`, it is the count of BSData faction memberships covered by checked-in global seed rows.
 - `expected` is either the BSData-derived target count or, for curated tables, the policy-backed seed target. Cells marked `?` still need table-specific mapping rules before expected counts are comparable.
-- Legacy Wahapedia-era files under `db/seed_config/seed/data/unit_datasheets/<faction>/` are no longer used as the coverage source for this matrix. Faction access is tracked through `rules_faction_units`; normalized global tables report BSData faction memberships.
 - `unit_models` counts BSData faction memberships covered by checked-in global `unit_models` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.
 - `unit_point_costs` counts BSData faction memberships covered by checked-in global `unit_point_costs` rows. The table is global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.
 - `unit_profiles` and `unit_profile_stats` count BSData faction memberships covered by checked-in global profile/stat rows. These tables are global, so coverage is measured against BSData expected membership keys rather than by direct faction foreign keys.
@@ -56,7 +55,7 @@ npm run docs:dataset-inventory
 | Thousand Sons | 1 / 1 | 42 / 42 | 7 / 7 | 6 / 6 | 1 / 1 | 17 / 17 | 0 / 0 | 329 / 329 | 55 / 55 | 71 / 71 | 276 / 276 | 46 / 46 | 137 / 137 | 121 / 121 | 53 / 53 |
 | World Eaters | 1 / 1 | 35 / 35 | 6 / 6 | 6 / 6 | 0 / 0 | 13 / 13 | 0 / 0 | 242 / 242 | 55 / 55 | 70 / 70 | 204 / 204 | 34 / 34 | 70 / 70 | 90 / 90 | 55 / 55 |
 | Aeldari | 1 / 1 | 100 / 100 | 7 / 7 | 12 / 12 | 2 / 2 | 63 / 63 | 0 / 0 | 705 / 705 | 177 / 177 | 162 / 162 | 654 / 654 | 109 / 109 | 485 / 485 | 294 / 294 | 172 / 172 |
-| Drukhari | 1 / 1 | 48 / 48 | 8 / 8 | 6 / 6 | 0 / 0 | 19 / 19 | 0 / 0 | 336 / 336 | 123 / 123 | 82 / 82 | 282 / 282 | 47 / 47 | 280 / 280 | 171 / 171 | 117 / 117 |
+| Drukhari | 1 / 1 | 49 / 49 | 8 / 8 | 6 / 6 | 0 / 0 | 19 / 19 | 0 / 0 | 342 / 342 | 132 / 132 | 83 / 83 | 282 / 282 | 47 / 47 | 296 / 296 | 178 / 178 | 126 / 126 |
 | Genestealer Cults | 1 / 1 | 28 / 28 | 12 / 12 | 6 / 6 | 0 / 0 | 41 / 41 | 7 / 7 | 153 / 153 | 46 / 46 | 42 / 42 | 210 / 210 | 35 / 35 | 30 / 30 | 73 / 73 | 44 / 44 |
 | Leagues of Votann | 1 / 1 | 25 / 25 | 7 / 7 | 7 / 7 | 0 / 0 | 16 / 16 | 0 / 0 | 125 / 125 | 53 / 53 | 47 / 47 | 186 / 186 | 31 / 31 | 99 / 99 | 69 / 69 | 50 / 50 |
 | Necrons | 1 / 1 | 66 / 66 | 8 / 8 | 9 / 9 | 0 / 0 | 46 / 46 | 0 / 0 | 333 / 333 | 78 / 78 | 88 / 88 | 402 / 402 | 67 / 67 | 150 / 150 | 179 / 179 | 77 / 77 |
@@ -71,25 +70,25 @@ These totals are row sums from the matrix above. They are useful for coverage tr
 | Dataset | Row-Sum Total |
 | --- | ---: |
 | `rules_factions` | 34 / 34 |
-| `rules_faction_units` | 2871 / 2871 |
+| `rules_faction_units` | 2872 / 2872 |
 | `rules_faction_sources` | 212 / 212 |
 | `rules_faction_detachments` | 343 / 343 |
 | `detachment_unit_keywords` | 52 / 52 |
 | `leader_eligibilities` | 2499 / 2499 |
 | `leader_eligibility_keywords` | 82 / 82 |
-| `unit_keywords` | 18645 / 18645 |
-| `unit_models` | 4681 / 4681 |
-| `unit_point_costs` | 3988 / 3988 |
+| `unit_keywords` | 18651 / 18651 |
+| `unit_models` | 4690 / 4690 |
+| `unit_point_costs` | 3989 / 3989 |
 | `unit_profile_stats` | 23904 / 23904 |
 | `unit_profiles` | 3984 / 3984 |
-| `unit_weapons` | 5854 / 5854 |
-| `unit_abilities` | 6213 / 6213 |
-| `models` | 4548 / 4548 |
+| `unit_weapons` | 5870 / 5870 |
+| `unit_abilities` | 6220 / 6220 |
+| `models` | 4557 / 4557 |
 
 ## Expected Count Rules
 
 - `rules_faction_units` expected counts come from BSData unit/model selection entries in the mapped faction catalog. Space Marine chapter factions include the base Space Marines catalog plus their chapter catalog, de-duplicated by normalized seed unit slug.
-- `rules_faction_sources` expected counts come from the curated GW PDF, Warhammer Community download, and Wahapedia source-applicability inventory already captured in seed data. This table is not treated as BSData-derived because source/publication applicability is hand-reviewed.
+- `rules_faction_sources` expected counts come from curated GW PDFs, Warhammer Community downloads, and hand-reviewed source-applicability seed rows. This table is not treated as BSData-derived because publication applicability is hand-reviewed.
 - `rules_faction_detachments` expected counts come from BSData Detachment choices visible to each mapped faction catalog. Space Marine chapter factions include shared Codex Space Marines detachments plus chapter-visible exclusive detachments.
 - `detachment_unit_keywords` expected counts come from conservative BSData detachment rule text parsing for always-on keyword grants that can be mapped to concrete units.
 - `leader_eligibilities` expected counts come from BSData Leader ability profiles. Exact target-unit rows are counted when BSData names a known seed unit; keyword-predicate parent rows are counted with `target_unit_id: null`.
@@ -113,29 +112,13 @@ Use this loop for each dataset/table family before moving on to the next one:
 6. Commit the completed table slice.
 7. Move to the next table.
 
-## Legacy Faction-Scoped Datasheet Folder Note
-
-This is informational only. These folders are missing from the legacy `unit_datasheets/<faction>/` Wahapedia shard layout, but they are not active coverage gaps because current coverage is measured through BSData-backed `rules_faction_units` memberships and normalized global dataset rows.
-
-- Black Templars (`black_templars`) - missing `black-templars`
-- Blood Angels (`blood_angels`) - missing `blood-angels`
-- Dark Angels (`dark_angels`) - missing `dark-angels`
-- Deathwatch (`deathwatch`) - missing `deathwatch`
-- Imperial Fists (`imperial_fists`) - missing `imperial-fists`
-- Iron Hands (`iron_hands`) - missing `iron-hands`
-- Raven Guard (`raven_guard`) - missing `raven-guard`
-- Salamanders (`salamanders`) - missing `salamanders`
-- Space Wolves (`space_wolves`) - missing `space-wolves`
-- Ultramarines (`ultramarines`) - missing `ultramarines`
-- White Scars (`white_scars`) - missing `white-scars`
-
 ## BSData Expected Extraction Status
 
 | Dataset | Expected Count Status |
 | --- | --- |
 | `rules_factions` | Target-list expectation is `1` per faction. |
 | `rules_faction_units` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
-| `rules_faction_sources` | Filled from curated GW PDF, Warhammer Community download, and Wahapedia source-applicability seed rows; guarded by the `rules_faction_sources` contract test. |
+| `rules_faction_sources` | Filled from curated GW PDFs, Warhammer Community downloads, and hand-reviewed source-applicability seed rows; guarded by the `rules_faction_sources` contract test. |
 | `rules_faction_detachments` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
 | `detachment_unit_keywords` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |
 | `leader_eligibilities` | Filled from BSData catalog XML by `scripts/bsdata_expected_counts.py`. |

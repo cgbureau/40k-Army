@@ -213,7 +213,7 @@ DARK ANGELS:
   "dark-angels-ravenwing-bike-squadron" currently maps to Black Knights despite
   some difference
 - "dark-angels-interrogator-chaplain-2017" doesnt have a unit to map to, also no
-  unit found on WAHAPEDIA
+  source-backed unit match found
 - "combat-patrol-dark-angels-2024"
 
 DEATHWATCH:

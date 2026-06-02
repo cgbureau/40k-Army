@@ -235,12 +235,14 @@ Prisma's generated camelCase model property names.
 | `db/seed_config/seed/data/*.data.ts`                                | One typed seed dataset module per database table.                                                                                                   | Export table-specific `SeedDataset` values. Several are populated manually or by importer apply passes; some remain empty scaffolds.                 | Imported by collection files through `data/_index.data.ts`.                                                                                  |
 | `db/seed_config/seed/import/*.ts`                                   | Reserved import pipeline modules for loading, normalizing, reporting, and converting source JSON into typed seed modules.                           | Currently empty placeholders.                                                                                                                        | No current consumers found.                                                                                                                  |
 | `db/seed_config/seed/generated/*.seed.ts`                           | Reserved generated/static seed modules from earlier planning.                                                                                       | Currently empty placeholders.                                                                                                                        | No current consumers found; active hand-written datasets live under `seed/data/*.data.ts`.                                                   |
-| `scripts/wahapedia_importer.py` and `scripts/wahapedia_importer/**` | Python importer for Wahapedia-sourced data.                                                                                                         | Provides CLI commands for collect, normalize, and apply. Current normalize/apply kinds include abilities, keywords, rules sources, and faction data. | Used manually from the repo root. Cache and normalized output are staged outside the repo under `~/code/ai-team-projects/40karmy/wahapedia`. |
+| `scripts/sync-bsdata-*.py` and `scripts/bsdata_expected_counts.py`  | Python importers and reporting helpers for BSData-sourced rules data.                                                                               | Parse BSData catalog XML for faction units, detachments, models, profiles, points, weapons, abilities, keywords, and expected inventory counts.      | Used manually from the repo root. Requires `BSDATA_40K_ROOT` or the default sibling checkout at `~/code/wh40k-10e`.                         |
+| `scripts/kit_content_importer/**` and `scripts/sync-kit-content.py` | Python importer for source-backed purchasable kit rows, kit prices, and kit contents.                                                               | Normalizes TCGCSV catalog rows and source-backed kit-content pages into typed seed modules.                                                          | Used manually from the repo root. Source CSVs and fetched content live outside canonical seed data until applied into typed datasets.        |
 
 The current data authoring workflow is mixed: curated reference rows can still be
-written by hand, but high-volume source-derived data should flow through the
-Wahapedia importer and generated apply pass. Keep source-cache data out of the
-repository unless Mike explicitly changes that policy.
+written by hand, but high-volume rules data should flow through the BSData sync
+scripts and source-backed kit/store data should flow through the kit-content
+importer and generated apply pass. Keep source-cache data out of the repository
+unless Mike explicitly changes that policy.
 
 ## Purchase Data Modeling Note
 
