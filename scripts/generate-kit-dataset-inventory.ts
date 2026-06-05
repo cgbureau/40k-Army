@@ -16,6 +16,8 @@ import {
   kitUnitPriceAllocationsDataset,
   kitUnitsDataset,
   kitsDataset,
+  priceMarketCountriesDataset,
+  priceMarketsDataset,
   rulesFactionsDataset,
   rulesFactionUnitsDataset,
   unitsDataset,
@@ -508,6 +510,10 @@ export function renderKitDatasetInventoryMarkdown(
     "",
     renderFactionCoverageTable(inventory.rows),
     "",
+    "## Pricing Infrastructure",
+    "",
+    renderPricingInfrastructure(),
+    "",
     "## Active Unit Kit Coverage",
     "",
     renderActiveUnitKitCoverage(inventory.activeUnitKitCoverage),
@@ -637,8 +643,8 @@ function renderSourceRolesTable(inventory: KitInventory): string {
     [
       "`kit_prices`",
       String(inventory.currentSeed.kitPrices),
-      `TCGCSV USD observations plus ${inventory.legacyCatalog.priceObservations} legacy price observations across ${inventory.legacyCatalog.currencies.join(", ")}`,
-      "Source by region, currency, source URL, and observed date; preserve current vs superseded observations.",
+      `TCGCSV USD observations (all tagged us\\_en) plus ${inventory.legacyCatalog.priceObservations} legacy price observations across ${inventory.legacyCatalog.currencies.join(", ")}`,
+      "Source by region, currency, source URL, and observed date; all rows must carry a \`price_market_id\`.",
     ],
     [
       "`kit_units`",
@@ -659,6 +665,36 @@ function renderSourceRolesTable(inventory: KitInventory): string {
       "Generate from explicit allocation policy; do not use as a replacement for kit prices.",
     ],
   ]);
+}
+
+function renderPricingInfrastructure(): string {
+  const marketCount = priceMarketsDataset.records.length;
+  const countryMappingCount = priceMarketCountriesDataset.records.length;
+  return [
+    `GW sells at region-specific prices that do not map 1:1 to ISO countries. The \`price_markets\` table models GW's regional pricing concepts; \`price_market_countries\` maps every country to exactly one market. All \`kit_prices\` rows carry a \`price_market_id\` FK so price observations are unambiguously attributed to a region.`,
+    "",
+    renderTable([
+      ["Dataset", "Seeded rows", "Notes"],
+      ["---", "---:", "---"],
+      [
+        "`price_markets`",
+        String(marketCount),
+        "us\\_en, canada\\_en, canada\\_fr, uk\\_en, australia\\_en, new\\_zealand\\_en, eu\\_en, switzerland\\_en, poland\\_pl, japan\\_en, rest\\_of\\_world\\_en",
+      ],
+      [
+        "`price_market_countries`",
+        String(countryMappingCount),
+        "All 250 ISO countries mapped; canada\\_fr has no country rows (locale variant of canada\\_en; CA maps to canada\\_en for pricing)",
+      ],
+      [
+        "`kit_prices` (us\\_en)",
+        `${kitPricesDataset.records.length} (all current)`,
+        "All existing TCGCSV USD kit price rows carry price\\_market\\_id = us\\_en",
+      ],
+    ]),
+    "",
+    "Next step: import GBP, EUR, AUD, CAD, CHF, PLN regional prices from GW store pages into `kit_prices` rows referencing the correct `price_market_id`.",
+  ].join("\n");
 }
 
 function renderActiveUnitKitCoverage(coverage: ActiveUnitKitCoverage): string {

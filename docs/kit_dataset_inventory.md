@@ -16,7 +16,7 @@ npm run docs:kit-dataset-inventory
 | --- | ---: | --- | --- |
 | `kit_types` | 4 | Curated reference rows | Small controlled list; add types only when purchasing semantics require them. |
 | `kits` | 530 | TCGCSV product rows plus 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
-| `kit_prices` | 631 | TCGCSV USD observations plus 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; preserve current vs superseded observations. |
+| `kit_prices` | 631 | TCGCSV USD observations (all tagged us\_en) plus 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; all rows must carry a `price_market_id`. |
 | `kit_units` | 4 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
 | `kit_models` | 0 | Source-backed kit contents are now applied to typed `kits` and `kit_units`; `kit_models` waits for explicit variant/model expansion policy. | Curated physical model contents for collection matching and split-kit workflows. |
 | `kit_unit_price_allocations` | 0 | Derived from kit prices plus kit-unit edges | Generate from explicit allocation policy; do not use as a replacement for kit prices. |
@@ -116,6 +116,18 @@ These counts are from the legacy `data/kits` and `data/kit-mappings` JSON files.
 | Orks | 1 | 58 | 58 | 0 | 1 | 52 | 52 | 51 | 2 | 9 |
 | T'au | 1 | 45 | 45 | 0 | 1 | 40 | 40 | 37 | 0 | 8 |
 | Tyranids | 1 | 48 | 48 | 1 | 1 | 49 | 49 | 45 | 2 | 4 |
+
+## Pricing Infrastructure
+
+GW sells at region-specific prices that do not map 1:1 to ISO countries. The `price_markets` table models GW's regional pricing concepts; `price_market_countries` maps every country to exactly one market. All `kit_prices` rows carry a `price_market_id` FK so price observations are unambiguously attributed to a region.
+
+| Dataset | Seeded rows | Notes |
+| --- | ---: | --- |
+| `price_markets` | 11 | us\_en, canada\_en, canada\_fr, uk\_en, australia\_en, new\_zealand\_en, eu\_en, switzerland\_en, poland\_pl, japan\_en, rest\_of\_world\_en |
+| `price_market_countries` | 250 | All 250 ISO countries mapped; canada\_fr has no country rows (locale variant of canada\_en; CA maps to canada\_en for pricing) |
+| `kit_prices` (us\_en) | 631 (all current) | All existing TCGCSV USD kit price rows carry price\_market\_id = us\_en |
+
+Next step: import GBP, EUR, AUD, CAD, CHF, PLN regional prices from GW store pages into `kit_prices` rows referencing the correct `price_market_id`.
 
 ## Active Unit Kit Coverage
 
