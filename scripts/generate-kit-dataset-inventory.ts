@@ -22,6 +22,7 @@ import {
   rulesFactionUnitsDataset,
   unitsDataset,
 } from "../db/seed_config/seed/data/_index.data";
+import { legacyImportedKitPricesDataset } from "../db/seed_config/seed/data/kit_prices/legacy/all.data";
 
 const DEFAULT_REPO_ROOT = resolve(
   dirname(fileURLToPath(import.meta.url)),
@@ -107,6 +108,8 @@ type KitInventory = {
     kitUnits: number;
     kitUnitPriceAllocations: number;
     kitPrices: number;
+    kitPricesTcgcsv: number;
+    kitPricesLegacy: number;
   };
   duplicateCatalogSlugs: DuplicateCatalogSlug[];
   brokenMappingReferences: BrokenMappingReference[];
@@ -456,6 +459,8 @@ export function buildKitDatasetInventory(
       kitUnits: kitUnitsDataset.records.length,
       kitUnitPriceAllocations: kitUnitPriceAllocationsDataset.records.length,
       kitPrices: kitPricesDataset.records.length,
+      kitPricesTcgcsv: kitPricesDataset.records.length - legacyImportedKitPricesDataset.records.length,
+      kitPricesLegacy: legacyImportedKitPricesDataset.records.length,
     },
     duplicateCatalogSlugs: duplicateCatalogSlugs(catalogSlugFiles),
     brokenMappingReferences,
@@ -687,9 +692,14 @@ function renderPricingInfrastructure(): string {
         "All 250 ISO countries mapped; canada\\_fr has no country rows (locale variant of canada\\_en; CA maps to canada\\_en for pricing)",
       ],
       [
-        "`kit_prices` (us\\_en)",
-        `${kitPricesDataset.records.length} (all current)`,
-        "All existing TCGCSV USD kit price rows carry price\\_market\\_id = us\\_en",
+        "`kit_prices` (us\\_en, TCGCSV)",
+        String(kitPricesDataset.records.length - legacyImportedKitPricesDataset.records.length),
+        "All TCGCSV USD kit price rows carry price\\_market\\_id = us\\_en",
+      ],
+      [
+        "`kit_prices` (legacy regional)",
+        String(legacyImportedKitPricesDataset.records.length),
+        "GBP/EUR/AUD/CAD/CHF/PLN prices from legacy catalog data for matched kits",
       ],
     ]),
     "",
@@ -858,7 +868,7 @@ function renderQualityFlags(inventory: KitInventory): string {
       : `- The typed seed has ${inventory.currentSeed.kitModels} source-backed \`kit_models\` rows.`,
     inventory.currentSeed.kitPrices === 0
       ? "- The typed seed currently has no `kit_prices` rows."
-      : `- The typed seed now has ${inventory.currentSeed.kitPrices} TCGCSV-backed \`kit_prices\` rows; legacy regional price observations remain staging input until their source semantics are normalized.`,
+      : `- The typed seed has ${inventory.currentSeed.kitPrices} \`kit_prices\` rows: ${inventory.currentSeed.kitPricesTcgcsv} TCGCSV USD (us\\_en) and ${inventory.currentSeed.kitPricesLegacy} legacy regional (GBP/EUR/AUD/CAD/CHF/PLN) for ${Math.round(inventory.currentSeed.kitPricesLegacy / 6)} matched kits.`,
     "- The typed `kits` table does not carry a faction foreign key, so faction coverage for typed kit rows must be inferred through `kit_units` or kept in a separate catalog-source inventory.",
     `- Legacy catalog data has ${inventory.legacyCatalog.duplicateUniqueSlugs} duplicated kit slugs across files, representing ${inventory.legacyCatalog.duplicateRowsBeyondFirst} duplicate rows beyond the first occurrence.`,
     `- Legacy unit mappings contain ${inventory.legacyMappings.brokenReferenceCount} references that do not resolve to any legacy kit slug.`,

@@ -16,7 +16,7 @@ npm run docs:kit-dataset-inventory
 | --- | ---: | --- | --- |
 | `kit_types` | 4 | Curated reference rows | Small controlled list; add types only when purchasing semantics require them. |
 | `kits` | 530 | TCGCSV product rows plus 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
-| `kit_prices` | 631 | TCGCSV USD observations (all tagged us\_en) plus 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; all rows must carry a `price_market_id`. |
+| `kit_prices` | 959 | TCGCSV USD observations (all tagged us\_en) plus 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; all rows must carry a `price_market_id`. |
 | `kit_units` | 4 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
 | `kit_models` | 0 | Source-backed kit contents are now applied to typed `kits` and `kit_units`; `kit_models` waits for explicit variant/model expansion policy. | Curated physical model contents for collection matching and split-kit workflows. |
 | `kit_unit_price_allocations` | 0 | Derived from kit prices plus kit-unit edges | Generate from explicit allocation policy; do not use as a replacement for kit prices. |
@@ -125,7 +125,8 @@ GW sells at region-specific prices that do not map 1:1 to ISO countries. The `pr
 | --- | ---: | --- |
 | `price_markets` | 11 | us\_en, canada\_en, canada\_fr, uk\_en, australia\_en, new\_zealand\_en, eu\_en, switzerland\_en, poland\_pl, japan\_en, rest\_of\_world\_en |
 | `price_market_countries` | 250 | All 250 ISO countries mapped; canada\_fr has no country rows (locale variant of canada\_en; CA maps to canada\_en for pricing) |
-| `kit_prices` (us\_en) | 631 (all current) | All existing TCGCSV USD kit price rows carry price\_market\_id = us\_en |
+| `kit_prices` (us\_en, TCGCSV) | 631 | All TCGCSV USD kit price rows carry price\_market\_id = us\_en |
+| `kit_prices` (legacy regional) | 328 | GBP/EUR/AUD/CAD/CHF/PLN prices from legacy catalog data for matched kits |
 
 Next step: import GBP, EUR, AUD, CAD, CHF, PLN regional prices from GW store pages into `kit_prices` rows referencing the correct `price_market_id`.
 
@@ -669,7 +670,7 @@ These active units have neither a canonical typed `kit_units` row nor a legacy m
 ## Known Data Quality Flags
 
 - The typed seed currently has no `kit_models` rows; model-level kit contents still require explicit variant/model expansion policy.
-- The typed seed now has 631 TCGCSV-backed `kit_prices` rows; legacy regional price observations remain staging input until their source semantics are normalized.
+- The typed seed has 959 `kit_prices` rows: 631 TCGCSV USD (us\_en) and 328 legacy regional (GBP/EUR/AUD/CAD/CHF/PLN) for 55 matched kits.
 - The typed `kits` table does not carry a faction foreign key, so faction coverage for typed kit rows must be inferred through `kit_units` or kept in a separate catalog-source inventory.
 - Legacy catalog data has 111 duplicated kit slugs across files, representing 137 duplicate rows beyond the first occurrence.
 - Legacy unit mappings contain 17 references that do not resolve to any legacy kit slug.
