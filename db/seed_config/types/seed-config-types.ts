@@ -2,6 +2,8 @@ import type {
   GameEdition,
   GameSize,
   Country,
+  PriceMarket,
+  PriceMarketCountry,
   SuperFaction,
   RulesFaction,
   RulesSource,
@@ -71,6 +73,18 @@ export type GameSizeConfig = BaseEntityConfig &
  */
 export type CountryConfig = BaseEntityConfig &
   Omit<Country, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for a GW regional price market.
+ */
+export type PriceMarketConfig = BaseEntityConfig &
+  Omit<PriceMarket, "created_at" | "updated_at">;
+
+/**
+ * Seed config shape for a country-to-price-market membership row.
+ * No id column — the PK is the composite (price_market_id, country_cca2).
+ */
+export type PriceMarketCountryConfig = Omit<PriceMarketCountry, never>;
 
 /**
  * Seed config shape for a top-level faction grouping.
@@ -295,6 +309,8 @@ export type SeedTableConfigMap = {
   game_editions: GameEditionConfig;
   game_sizes: GameSizeConfig;
   countries: CountryConfig;
+  price_markets: PriceMarketConfig;
+  price_market_countries: PriceMarketCountryConfig;
   super_factions: SuperFactionConfig;
   rules_factions: RulesFactionConfig;
   rules_sources: RulesSourceConfig;

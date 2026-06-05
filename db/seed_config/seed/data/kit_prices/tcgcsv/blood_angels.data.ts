@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for blood_angels.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const BattleforceBloodAngelsCrimsonSpearStrikeForceTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_blood_angels_crimson_spear_strike_force__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_blood_angels_crimson_spear_strike_force"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "185.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const BattleforceBloodAngelsCrimsonSpearStrikeForceTcgcsvMsrpUsdKitPrice:
 export const BloodAngelsAssaultSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_assault_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_assault_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const BloodAngelsAssaultSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsCaptainTerminatorArmourTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_captain_terminator_armour__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_captain_terminator_armour"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const BloodAngelsCaptainTerminatorArmourTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const BloodAngelsChaplainWithJumpPackTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_chaplain_with_jump_pack__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_chaplain_with_jump_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const BloodAngelsChaplainWithJumpPackTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const BloodAngelsChapterAncientsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_chapter_ancients__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_chapter_ancients"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "105.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const BloodAngelsChapterAncientsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsCompanyCommandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_company_command__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_company_command"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const BloodAngelsCompanyCommandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsDeathCompanyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_death_company__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_death_company"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const BloodAngelsDeathCompanyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsDeathCompanyIntercessorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_death_company_intercessors__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_death_company_intercessors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const BloodAngelsDeathCompanyIntercessorsTcgcsvMsrpUsdKitPrice: KitPriceC
 export const BloodAngelsDeathCompanyStrikeForceTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_death_company_strike_force__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_death_company_strike_force"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "135.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const BloodAngelsDeathCompanyStrikeForceTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const BloodAngelsFuriosoDreadnoughtTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_furioso_dreadnought__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_furioso_dreadnought"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "46.25",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const BloodAngelsFuriosoDreadnoughtTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const BloodAngelsMephistonLordOfDeathTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_mephiston_lord_of_death__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_mephiston_lord_of_death"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const BloodAngelsMephistonLordOfDeathTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const BloodAngelsPrimarisAggressorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_primaris_aggressors__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_primaris_aggressors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const BloodAngelsPrimarisAggressorsTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const BloodAngelsPrimarisHellblastersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_primaris_hellblasters__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_primaris_hellblasters"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const BloodAngelsPrimarisHellblastersTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const BloodAngelsPrimarisIntercessorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_primaris_intercessors__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_primaris_intercessors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const BloodAngelsPrimarisIntercessorsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const BloodAngelsPrimarisUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_primaris_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_primaris_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "12.50",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const BloodAngelsPrimarisUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const BloodAngelsSanguinaryGuardTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_sanguinary_guard__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_sanguinary_guard"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const BloodAngelsSanguinaryGuardTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsSanguinaryPriestTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_sanguinary_priest__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_sanguinary_priest"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const BloodAngelsSanguinaryPriestTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const BloodAngelsSternguardVeteranSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_sternguard_veteran_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_sternguard_veteran_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const BloodAngelsSternguardVeteranSquadTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const BloodAngelsTacticalSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_tactical_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_tactical_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "43.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const BloodAngelsTacticalSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsTerminatorAssaultSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_terminator_assault_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_terminator_assault_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const BloodAngelsTerminatorAssaultSquadTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const BloodAngelsUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "13.50",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const BloodAngelsUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BloodAngelsVanguardVeteranSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("blood_angels_vanguard_veteran_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("blood_angels_vanguard_veteran_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const BloodAngelsVanguardVeteranSquadTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const CombatPatrolBloodAngelsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("combat_patrol_blood_angels__tcgcsv_msrp_usd"),
   kit_id: kitId("combat_patrol_blood_angels"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "140.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const CombatPatrolBloodAngelsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingBloodAngelsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_blood_angels__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_blood_angels"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",

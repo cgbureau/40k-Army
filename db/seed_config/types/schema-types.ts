@@ -1,6 +1,8 @@
 import {
   abilitySchema,
   countrySchema,
+  priceMarketSchema,
+  priceMarketCountrySchema,
   unitAbilitySchema,
   detachmentSchema,
   rulesFactionDetachmentSchema,
@@ -59,6 +61,8 @@ import {
 export type GameEdition = z.infer<typeof gameEditionSchema>;
 export type GameSize = z.infer<typeof gameSizeSchema>;
 export type Country = z.infer<typeof countrySchema>;
+export type PriceMarket = z.infer<typeof priceMarketSchema>;
+export type PriceMarketCountry = z.infer<typeof priceMarketCountrySchema>;
 export type SuperFaction = z.infer<typeof superFactionSchema>;
 export type RulesFaction = z.infer<typeof rulesFactionSchema>;
 export type RulesSource = z.infer<typeof rulesSourceSchema>;

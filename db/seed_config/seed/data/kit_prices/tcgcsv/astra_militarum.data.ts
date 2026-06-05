@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for astra_militarum.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseAstraMilitarumSpearheadDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_astra_militarum_spearhead_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_astra_militarum_spearhead_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseAstraMilitarumSpearheadDetachmentTcgcsvMsrpUsdKitPrice: K
 export const ApocalypseSpaceMarinesBattalionDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_space_marines_battalion_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_space_marines_battalion_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const ApocalypseSpaceMarinesBattalionDetachmentTcgcsvMsrpUsdKitPrice: Kit
 export const AstraMilitarumBanebladeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_baneblade__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_baneblade"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "140.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const AstraMilitarumBanebladeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AstraMilitarumBattleforceBastionPlatoonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_battleforce_bastion_platoon__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_battleforce_bastion_platoon"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "200.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const AstraMilitarumBattleforceBastionPlatoonTcgcsvMsrpUsdKitPrice: KitPr
 export const AstraMilitarumCadianArmouredFistTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_cadian_armoured_fist__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_cadian_armoured_fist"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const AstraMilitarumCadianArmouredFistTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const AstraMilitarumCadianShockTroopsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_cadian_shock_troops__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_cadian_shock_troops"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "29.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const AstraMilitarumCadianShockTroopsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const AstraMilitarumCadianShockTroopsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_cadian_shock_troops__tcgcsv_low_usd"),
   kit_id: kitId("astra_militarum_cadian_shock_troops"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_low_usd",
@@ -96,6 +103,7 @@ export const AstraMilitarumCadianShockTroopsTcgcsvLowUsdKitPrice: KitPriceConfig
 export const AstraMilitarumCadianShockTroopsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_cadian_shock_troops__tcgcsv_mid_usd"),
   kit_id: kitId("astra_militarum_cadian_shock_troops"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_mid_usd",
@@ -108,6 +116,7 @@ export const AstraMilitarumCadianShockTroopsTcgcsvMidUsdKitPrice: KitPriceConfig
 export const AstraMilitarumCadianShockTroopsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_cadian_shock_troops__tcgcsv_high_usd"),
   kit_id: kitId("astra_militarum_cadian_shock_troops"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_high_usd",
@@ -120,6 +129,7 @@ export const AstraMilitarumCadianShockTroopsTcgcsvHighUsdKitPrice: KitPriceConfi
 export const AstraMilitarumCadiansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_cadians__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_cadians"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "10.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const AstraMilitarumCadiansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AstraMilitarumHydraTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_hydra__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_hydra"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "56.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const AstraMilitarumHydraTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AstraMilitarumImperialGuardChimeraTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_imperial_guard_chimera__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_imperial_guard_chimera"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.25",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const AstraMilitarumImperialGuardChimeraTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_imperial_guard_leman_russ_battle_tank__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_imperial_guard_leman_russ_battle_tank"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "49.50",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvMsrpUsdKitPrice
 export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_imperial_guard_leman_russ_battle_tank__tcgcsv_low_usd"),
   kit_id: kitId("astra_militarum_imperial_guard_leman_russ_battle_tank"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "70.00",
   price_source: "tcgcsv_low_usd",
@@ -180,6 +194,7 @@ export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvLowUsdKitPrice:
 export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_imperial_guard_leman_russ_battle_tank__tcgcsv_mid_usd"),
   kit_id: kitId("astra_militarum_imperial_guard_leman_russ_battle_tank"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "70.00",
   price_source: "tcgcsv_mid_usd",
@@ -192,6 +207,7 @@ export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvMidUsdKitPrice:
 export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_imperial_guard_leman_russ_battle_tank__tcgcsv_high_usd"),
   kit_id: kitId("astra_militarum_imperial_guard_leman_russ_battle_tank"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "70.00",
   price_source: "tcgcsv_high_usd",
@@ -204,6 +220,7 @@ export const AstraMilitarumImperialGuardLemanRussBattleTankTcgcsvHighUsdKitPrice
 export const AstraMilitarumLemanRussDemolisherTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_leman_russ_demolisher__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_leman_russ_demolisher"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "49.50",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const AstraMilitarumLemanRussDemolisherTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const AstraMilitarumLemanRussTechCommandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_leman_russ_tech_command__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_leman_russ_tech_command"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const AstraMilitarumLemanRussTechCommandTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const AstraMilitarumSentinelTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_sentinel__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_sentinel"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const AstraMilitarumSentinelTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AstraMilitarumStarterSetKillTeamDropForceImperatorTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_starter_set_kill_team_drop_force_imperator__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_starter_set_kill_team_drop_force_imperator"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const AstraMilitarumStarterSetKillTeamDropForceImperatorTcgcsvMsrpUsdKitP
 export const AstraMilitarumTechPriestEnginseerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_tech_priest_enginseer__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_tech_priest_enginseer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const AstraMilitarumTechPriestEnginseerTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const AstraMilitarumValkyrieTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_militarum_valkyrie__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_militarum_valkyrie"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "66.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const AstraMilitarumValkyrieTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AstraTelepathicaSistersOfSilenceTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("astra_telepathica_sisters_of_silence__tcgcsv_msrp_usd"),
   kit_id: kitId("astra_telepathica_sisters_of_silence"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const AstraTelepathicaSistersOfSilenceTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const BattleforceAstraMilitarumBattlegroupTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_astra_militarum_battlegroup__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_astra_militarum_battlegroup"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const BattleforceAstraMilitarumBattlegroupTcgcsvMsrpUsdKitPrice: KitPrice
 export const BattleforceAstraMilitarumSeverinaRaineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_astra_militarum_severina_raine__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_astra_militarum_severina_raine"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -312,6 +337,7 @@ export const BattleforceAstraMilitarumSeverinaRaineTcgcsvMsrpUsdKitPrice: KitPri
 export const CadianCommandSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("cadian_command_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("cadian_command_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -324,6 +350,7 @@ export const CadianCommandSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const CadianHeavyWeaponSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("cadian_heavy_weapon_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("cadian_heavy_weapon_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "39.50",
   price_source: "tcgcsv_msrp_usd",
@@ -336,6 +363,7 @@ export const CadianHeavyWeaponSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const MilitarumAuxillaBullgrynsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("militarum_auxilla_bullgryns__tcgcsv_msrp_usd"),
   kit_id: kitId("militarum_auxilla_bullgryns"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "47.00",
   price_source: "tcgcsv_msrp_usd",
@@ -348,6 +376,7 @@ export const MilitarumAuxillaBullgrynsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const MilitarumAuxillaBullgrynsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("militarum_auxilla_bullgryns__tcgcsv_low_usd"),
   kit_id: kitId("militarum_auxilla_bullgryns"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_low_usd",
@@ -360,6 +389,7 @@ export const MilitarumAuxillaBullgrynsTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const MilitarumAuxillaBullgrynsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("militarum_auxilla_bullgryns__tcgcsv_mid_usd"),
   kit_id: kitId("militarum_auxilla_bullgryns"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_mid_usd",
@@ -372,6 +402,7 @@ export const MilitarumAuxillaBullgrynsTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const MilitarumAuxillaBullgrynsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("militarum_auxilla_bullgryns__tcgcsv_high_usd"),
   kit_id: kitId("militarum_auxilla_bullgryns"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_high_usd",
@@ -384,6 +415,7 @@ export const MilitarumAuxillaBullgrynsTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const MilitarumTempestusScionsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("militarum_tempestus_scions__tcgcsv_msrp_usd"),
   kit_id: kitId("militarum_tempestus_scions"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -396,6 +428,7 @@ export const MilitarumTempestusScionsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingAstraMilitarumTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_astra_militarum__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_astra_militarum"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",

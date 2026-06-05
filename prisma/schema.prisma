@@ -725,19 +725,22 @@ model KitUnitPriceAllocation {
 /// why: kit pricing changes by region and over time
 /// example: a Games Workshop USD price observed for a Blightlord Terminators kit
 model KitPrice {
-  id             String    @id @default(ulid()) @db.Char(26)
-  kit            Kit       @relation(fields: [kitId], references: [id])
-  kitId          String    @map("kit_id") @db.Char(26)
-  currency       String    @db.VarChar(3) /// lower-case ISO-style currency code, e.g. usd, gbp, eur
-  price          Decimal   @db.Decimal(10, 2) /// exact numeric amount in the listed currency
-  priceSource    String?   @map("price_source") /// human-readable source label, e.g. Games Workshop US
-  priceSourceUrl String?   @map("price_source_url") /// URL where this price was observed
-  observedDate   DateTime? @map("observed_date") @db.Date /// date this price was captured
-  supersededDate DateTime? @map("superseded_date") @db.Date /// null means this is the latest known price for the source
-  createdAt      DateTime  @default(now()) @map("created_at")
-  updatedAt      DateTime? @updatedAt @map("updated_at")
+  id             String       @id @default(ulid()) @db.Char(26)
+  kit            Kit          @relation(fields: [kitId], references: [id])
+  kitId          String       @map("kit_id") @db.Char(26)
+  priceMarket    PriceMarket? @relation(fields: [priceMarketId], references: [id])
+  priceMarketId  String?      @map("price_market_id") @db.Char(26) /// GW price market for this observation; null for legacy rows without market attribution
+  currency       String       @db.VarChar(3) /// lower-case ISO-style currency code, e.g. usd, gbp, eur
+  price          Decimal      @db.Decimal(10, 2) /// exact numeric amount in the listed currency
+  priceSource    String?      @map("price_source") /// human-readable source label, e.g. Games Workshop US
+  priceSourceUrl String?      @map("price_source_url") /// URL where this price was observed
+  observedDate   DateTime?    @map("observed_date") @db.Date /// date this price was captured
+  supersededDate DateTime?    @map("superseded_date") @db.Date /// null means this is the latest known price for the source
+  createdAt      DateTime     @default(now()) @map("created_at")
+  updatedAt      DateTime?    @updatedAt @map("updated_at")
 
   @@index([kitId, currency, priceSource])
+  @@index([priceMarketId])
   @@map("kit_prices")
 }
 
@@ -947,32 +950,65 @@ model PlayerCollectionModel {
 /// what: just a countries list, with a bunch of fun data to play with
 /// why: mainly for default currency, stuff like that, but also for some fun features
 model Country {
-  cca2         String    @id @db.Char(2) // ISO 3166-1 alpha-2 - the natural stable key
-  cca3         String    @unique @db.Char(3)
-  ccn3         String?   @db.Char(3)
-  nameCommon   String    @map("name_common")
-  nameOfficial String    @map("name_official")
-  nameNative   Json?     @map("name_native")
-  unMember     Boolean   @map("un_member")
-  region       String
-  subregion    String?
-  continents   String[]
-  tld          String[]
-  timezones    String[]
-  flag         Json
-  population   Int
-  currencies   Json // { USD: { name, symbol } }
-  languages    Json // { eng: "English" }
-  car          Json // { signs: [...], side: "left" }
-  postalCode   Json?     @map("postal_code") // { format, regex } - not all countries have one
-  latlng       Float[] // [lat, lng]
-  government   Json?
-  gdp          Json?
-  hdi          Decimal?
-  createdAt    DateTime  @default(now()) @map("created_at")
-  updatedAt    DateTime? @updatedAt @map("updated_at")
+  cca2              String               @id @db.Char(2) // ISO 3166-1 alpha-2 - the natural stable key
+  cca3              String               @unique @db.Char(3)
+  ccn3              String?              @db.Char(3)
+  nameCommon        String               @map("name_common")
+  nameOfficial      String               @map("name_official")
+  nameNative        Json?                @map("name_native")
+  unMember          Boolean              @map("un_member")
+  region            String
+  subregion         String?
+  continents        String[]
+  tld               String[]
+  timezones         String[]
+  flag              Json
+  population        Int
+  currencies        Json // { USD: { name, symbol } }
+  languages         Json // { eng: "English" }
+  car               Json // { signs: [...], side: "left" }
+  postalCode        Json?                @map("postal_code") // { format, regex } - not all countries have one
+  latlng            Float[] // [lat, lng]
+  government        Json?
+  gdp               Json?
+  hdi               Decimal?
+  priceMarketMemberships PriceMarketCountry[]
+  createdAt         DateTime             @default(now()) @map("created_at")
+  updatedAt         DateTime?            @updatedAt @map("updated_at")
 
   @@map("countries")
+}
+
+/// what: a Games Workshop regional pricing market, grouping one or more countries under a single currency and store locale
+/// why: GW sells at region-specific prices (us_en, uk_en, eu_en, etc.) that do not map 1:1 to ISO countries
+/// example: eu_en covers all eurozone countries at a single EUR price; poland_pl is a separate PLN market
+model PriceMarket {
+  id               String               @id @default(ulid()) @db.Char(26)
+  marketSlug       String               @unique @map("market_slug") /// GW region selector key, e.g. us_en, uk_en, eu_en
+  marketName       String               @map("market_name") /// human-readable name, e.g. United States
+  currency         String               @db.VarChar(3) /// lower-case ISO currency code for this market, e.g. usd, gbp, eur
+  locale           String               @db.VarChar(10) /// BCP 47 locale tag, e.g. en-US, en-GB, pl-PL
+  gwRegionSelector String?              @map("gw_region_selector") /// GW website region selector value when known
+  countries        PriceMarketCountry[]
+  kitPrices        KitPrice[]
+  createdAt        DateTime             @default(now()) @map("created_at")
+  updatedAt        DateTime?            @updatedAt @map("updated_at")
+
+  @@map("price_markets")
+}
+
+/// what: maps an ISO country to its GW price market for purchase-flow and regional-price lookups
+/// why: a market covers multiple countries (eu_en covers ~30 EU states); a country belongs to exactly one pricing market
+/// example: FR (France) maps to eu_en; CH (Switzerland) maps to switzerland_en
+model PriceMarketCountry {
+  priceMarket   PriceMarket @relation(fields: [priceMarketId], references: [id])
+  priceMarketId String      @map("price_market_id") @db.Char(26)
+  country       Country     @relation(fields: [countryCca2], references: [cca2])
+  countryCca2   String      @map("country_cca2") @db.Char(2)
+
+  @@id([priceMarketId, countryCca2])
+  @@index([countryCca2])
+  @@map("price_market_countries")
 }
 
 /// what: a canonical weapon type shared across units, kits, and editions

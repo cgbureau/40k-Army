@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for ultramarines.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const UltramarinesChiefLibrarianTiguriusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ultramarines_chief_librarian_tigurius__tcgcsv_msrp_usd"),
   kit_id: kitId("ultramarines_chief_librarian_tigurius"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const UltramarinesChiefLibrarianTiguriusTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const UltramarinesUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ultramarines_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("ultramarines_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "13.50",
   price_source: "tcgcsv_msrp_usd",

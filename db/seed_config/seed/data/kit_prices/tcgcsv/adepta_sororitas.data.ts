@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for adepta_sororitas.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const AdeptaSororitasArcoFlagellantsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_arco_flagellants__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_arco_flagellants"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const AdeptaSororitasArcoFlagellantsTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const AdeptaSororitasBattleSanctumTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_battle_sanctum__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_battle_sanctum"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "110.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const AdeptaSororitasBattleSanctumTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const AdeptaSororitasBattleSistersSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_battle_sisters_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_battle_sisters_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const AdeptaSororitasBattleSistersSquadTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const AdeptaSororitasBattleSistersSquadTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_battle_sisters_squad__tcgcsv_low_usd"),
   kit_id: kitId("adepta_sororitas_battle_sisters_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_low_usd",
@@ -60,6 +64,7 @@ export const AdeptaSororitasBattleSistersSquadTcgcsvLowUsdKitPrice: KitPriceConf
 export const AdeptaSororitasBattleSistersSquadTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_battle_sisters_squad__tcgcsv_mid_usd"),
   kit_id: kitId("adepta_sororitas_battle_sisters_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_mid_usd",
@@ -72,6 +77,7 @@ export const AdeptaSororitasBattleSistersSquadTcgcsvMidUsdKitPrice: KitPriceConf
 export const AdeptaSororitasBattleSistersSquadTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_battle_sisters_squad__tcgcsv_high_usd"),
   kit_id: kitId("adepta_sororitas_battle_sisters_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_high_usd",
@@ -84,6 +90,7 @@ export const AdeptaSororitasBattleSistersSquadTcgcsvHighUsdKitPrice: KitPriceCon
 export const AdeptaSororitasCanonessTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_canoness__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_canoness"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const AdeptaSororitasCanonessTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptaSororitasCelestineTheLivingSaintTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_celestine_the_living_saint__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_celestine_the_living_saint"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const AdeptaSororitasCelestineTheLivingSaintTcgcsvMsrpUsdKitPrice: KitPri
 export const AdeptaSororitasDialogusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_dialogus__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_dialogus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const AdeptaSororitasDialogusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptaSororitasExorcistTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_exorcist__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_exorcist"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "80.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const AdeptaSororitasExorcistTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptaSororitasHospitallerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_hospitaller__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_hospitaller"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const AdeptaSororitasHospitallerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptaSororitasImmolatorTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_immolator__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_immolator"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const AdeptaSororitasImmolatorTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptaSororitasJunithEruitaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_junith_eruita__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_junith_eruita"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const AdeptaSororitasJunithEruitaTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const AdeptaSororitasPenitentEnginesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_penitent_engines__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_penitent_engines"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const AdeptaSororitasPenitentEnginesTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const AdeptaSororitasRepentiaSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_repentia_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_repentia_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const AdeptaSororitasRepentiaSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const AdeptaSororitasRetributorSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_retributor_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_retributor_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const AdeptaSororitasRetributorSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const AdeptaSororitasRetributorSquadTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_retributor_squad__tcgcsv_low_usd"),
   kit_id: kitId("adepta_sororitas_retributor_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_low_usd",
@@ -216,6 +233,7 @@ export const AdeptaSororitasRetributorSquadTcgcsvLowUsdKitPrice: KitPriceConfig 
 export const AdeptaSororitasRetributorSquadTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_retributor_squad__tcgcsv_mid_usd"),
   kit_id: kitId("adepta_sororitas_retributor_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_mid_usd",
@@ -228,6 +246,7 @@ export const AdeptaSororitasRetributorSquadTcgcsvMidUsdKitPrice: KitPriceConfig 
 export const AdeptaSororitasRetributorSquadTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_retributor_squad__tcgcsv_high_usd"),
   kit_id: kitId("adepta_sororitas_retributor_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_high_usd",
@@ -240,6 +259,7 @@ export const AdeptaSororitasRetributorSquadTcgcsvHighUsdKitPrice: KitPriceConfig
 export const AdeptaSororitasRhinoTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_rhino__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_rhino"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const AdeptaSororitasRhinoTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptaSororitasSeraphimSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_seraphim_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_seraphim_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const AdeptaSororitasSeraphimSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const AdeptaSororitasSisterSuperiorAmaliaNovenaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_sister_superior_amalia_novena__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_sister_superior_amalia_novena"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const AdeptaSororitasSisterSuperiorAmaliaNovenaTcgcsvMsrpUsdKitPrice: Kit
 export const AdeptaSororitasSistersOfBattleTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_sisters_of_battle__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_sisters_of_battle"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "210.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const AdeptaSororitasSistersOfBattleTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const AdeptaSororitasTheTriumphOfStKatherineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adepta_sororitas_the_triumph_of_st_katherine__tcgcsv_msrp_usd"),
   kit_id: kitId("adepta_sororitas_the_triumph_of_st_katherine"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "110.00",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const AdeptaSororitasTheTriumphOfStKatherineTcgcsvMsrpUsdKitPrice: KitPri
 export const AdeptusSororitasImagifierTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_sororitas_imagifier__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_sororitas_imagifier"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",

@@ -1,6 +1,8 @@
 import {
   abilitySchema,
   countrySchema,
+  priceMarketSchema,
+  priceMarketCountrySchema,
   detachmentSchema,
   detachmentUnitKeywordSchema,
   gameEditionSchema,
@@ -79,6 +81,8 @@ export const seedTableSchemas = {
   game_editions: createSeedConfigSchema(gameEditionSchema),
   game_sizes: createSeedConfigSchema(gameSizeSchema),
   countries: createSeedConfigSchema(countrySchema),
+  price_markets: createSeedConfigSchema(priceMarketSchema),
+  price_market_countries: priceMarketCountrySchema.extend(seedMetadataSchema.shape),
   super_factions: createSeedConfigSchema(superFactionSchema),
   rules_factions: createSeedConfigSchema(rulesFactionSchema),
   rules_sources: createSeedConfigSchema(rulesSourceSchema),
@@ -141,7 +145,7 @@ export const validateSeedRecord = <T extends SeedTableName>(
   return result.error.issues.map((issue) => ({
     collection,
     table,
-    recordId: record.id,
+    recordId: "id" in record ? record.id : undefined,
     field: issue.path.map(String).join(".") || undefined,
     message: issue.message,
     severity: "error",

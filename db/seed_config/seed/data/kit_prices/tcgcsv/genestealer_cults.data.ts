@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for genestealer_cults.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const BattleforceGenestealerCultsInsurrectionTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_genestealer_cults_insurrection__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_genestealer_cults_insurrection"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const BattleforceGenestealerCultsInsurrectionTcgcsvMsrpUsdKitPrice: KitPr
 export const GenestealerCultsAberrantsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_aberrants__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_aberrants"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const GenestealerCultsAberrantsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsAbominantTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_abominant__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_abominant"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const GenestealerCultsAbominantTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsAchillesRidgerunnerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_achilles_ridgerunner__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_achilles_ridgerunner"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const GenestealerCultsAchillesRidgerunnerTcgcsvMsrpUsdKitPrice: KitPriceC
 export const GenestealerCultsAcolyteHybridsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_acolyte_hybrids__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_acolyte_hybrids"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const GenestealerCultsAcolyteHybridsTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const GenestealerCultsAcolyteIconwardTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_acolyte_iconward__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_acolyte_iconward"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const GenestealerCultsAcolyteIconwardTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const GenestealerCultsAtalanJackalsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_atalan_jackals__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_atalan_jackals"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const GenestealerCultsAtalanJackalsTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const GenestealerCultsBiophagusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_biophagus__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_biophagus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const GenestealerCultsBiophagusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsBroodcovenTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_broodcoven__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_broodcoven"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const GenestealerCultsBroodcovenTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsClamavusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_clamavus__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_clamavus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const GenestealerCultsClamavusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsGoliathTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_goliath__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_goliath"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const GenestealerCultsGoliathTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsJackalAlphusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_jackal_alphus__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_jackal_alphus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const GenestealerCultsJackalAlphusTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const GenestealerCultsKelermorphTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_kelermorph__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_kelermorph"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const GenestealerCultsKelermorphTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsLemanRussTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_leman_russ__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_leman_russ"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const GenestealerCultsLemanRussTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsLocusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_locus__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_locus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const GenestealerCultsLocusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsMagusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_magus__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_magus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const GenestealerCultsMagusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsNeophyteHybridArmouredClawTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_neophyte_hybrid_armoured_claw__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_neophyte_hybrid_armoured_claw"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const GenestealerCultsNeophyteHybridArmouredClawTcgcsvMsrpUsdKitPrice: Ki
 export const GenestealerCultsNeophyteHybridSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_neophyte_hybrid_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_neophyte_hybrid_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const GenestealerCultsNeophyteHybridSquadTcgcsvMsrpUsdKitPrice: KitPriceC
 export const GenestealerCultsNeophyteHybridsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_neophyte_hybrids__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_neophyte_hybrids"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const GenestealerCultsNeophyteHybridsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const GenestealerCultsNexosTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_nexos__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_nexos"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const GenestealerCultsNexosTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsSanctusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_sanctus__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_sanctus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const GenestealerCultsSanctusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GenestealerCultsUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("genestealer_cults_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("genestealer_cults_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "12.50",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const GenestealerCultsUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamStarnsDisciplesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_starns_disciples__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_starns_disciples"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const KillTeamStarnsDisciplesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingGenestealerCultsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_genestealer_cults__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_genestealer_cults"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "95.00",
   price_source: "tcgcsv_msrp_usd",

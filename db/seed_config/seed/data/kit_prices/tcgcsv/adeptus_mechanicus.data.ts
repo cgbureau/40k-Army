@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for adeptus_mechanicus.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const AdeptusMechanicusArchaeopterTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_archaeopter__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_archaeopter"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "100.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const AdeptusMechanicusArchaeopterTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const AdeptusMechanicusElectroPriestsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_electro_priests__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_electro_priests"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "41.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const AdeptusMechanicusElectroPriestsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const AdeptusMechanicusIronstriderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_ironstrider__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_ironstrider"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "49.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const AdeptusMechanicusIronstriderTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const AdeptusMechanicusKastelanRobotsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_kastelan_robots__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_kastelan_robots"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "69.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const AdeptusMechanicusKastelanRobotsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const AdeptusMechanicusKastelanRobotsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_kastelan_robots__tcgcsv_low_usd"),
   kit_id: kitId("adeptus_mechanicus_kastelan_robots"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "69.00",
   price_source: "tcgcsv_low_usd",
@@ -72,6 +77,7 @@ export const AdeptusMechanicusKastelanRobotsTcgcsvLowUsdKitPrice: KitPriceConfig
 export const AdeptusMechanicusKastelanRobotsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_kastelan_robots__tcgcsv_mid_usd"),
   kit_id: kitId("adeptus_mechanicus_kastelan_robots"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "69.00",
   price_source: "tcgcsv_mid_usd",
@@ -84,6 +90,7 @@ export const AdeptusMechanicusKastelanRobotsTcgcsvMidUsdKitPrice: KitPriceConfig
 export const AdeptusMechanicusKastelanRobotsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_kastelan_robots__tcgcsv_high_usd"),
   kit_id: kitId("adeptus_mechanicus_kastelan_robots"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "69.00",
   price_source: "tcgcsv_high_usd",
@@ -96,6 +103,7 @@ export const AdeptusMechanicusKastelanRobotsTcgcsvHighUsdKitPrice: KitPriceConfi
 export const AdeptusMechanicusKataphronBattleServitorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_kataphron_battle_servitors__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_kataphron_battle_servitors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "58.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const AdeptusMechanicusKataphronBattleServitorsTcgcsvMsrpUsdKitPrice: Kit
 export const AdeptusMechanicusOnagerDunecrawlerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_onager_dunecrawler__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_onager_dunecrawler"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "66.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const AdeptusMechanicusOnagerDunecrawlerTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const AdeptusMechanicusPteraxiiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_pteraxii__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_pteraxii"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const AdeptusMechanicusPteraxiiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptusMechanicusSerberysRaidersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_serberys_raiders__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_serberys_raiders"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const AdeptusMechanicusSerberysRaidersTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const AdeptusMechanicusSicariansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_sicarians__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_sicarians"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "46.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const AdeptusMechanicusSicariansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptusMechanicusSkitariiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_skitarii__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_skitarii"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "39.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const AdeptusMechanicusSkitariiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const AdeptusMechanicusSkitariiTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_skitarii__tcgcsv_low_usd"),
   kit_id: kitId("adeptus_mechanicus_skitarii"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "39.00",
   price_source: "tcgcsv_low_usd",
@@ -180,6 +194,7 @@ export const AdeptusMechanicusSkitariiTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const AdeptusMechanicusSkitariiTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_skitarii__tcgcsv_mid_usd"),
   kit_id: kitId("adeptus_mechanicus_skitarii"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_mid_usd",
@@ -192,6 +207,7 @@ export const AdeptusMechanicusSkitariiTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const AdeptusMechanicusSkitariiTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_skitarii__tcgcsv_high_usd"),
   kit_id: kitId("adeptus_mechanicus_skitarii"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "48.00",
   price_source: "tcgcsv_high_usd",
@@ -204,6 +220,7 @@ export const AdeptusMechanicusSkitariiTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const AdeptusMechanicusSkorpiusDisintegratorTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_skorpius_disintegrator__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_skorpius_disintegrator"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const AdeptusMechanicusSkorpiusDisintegratorTcgcsvMsrpUsdKitPrice: KitPri
 export const AdeptusMechanicusTechPriestDominusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_tech_priest_dominus__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_tech_priest_dominus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "36.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const AdeptusMechanicusTechPriestDominusTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const AdeptusMechanicusTechPriestManipulusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_mechanicus_tech_priest_manipulus__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_mechanicus_tech_priest_manipulus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const AdeptusMechanicusTechPriestManipulusTcgcsvMsrpUsdKitPrice: KitPrice
 export const ApocalypseAdeptusMechanicusVanguardDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_adeptus_mechanicus_vanguard_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_adeptus_mechanicus_vanguard_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const ApocalypseAdeptusMechanicusVanguardDetachmentTcgcsvMsrpUsdKitPrice:
 export const BattleforceAdeptusMechanicusFistOfTheOmnissianTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_adeptus_mechanicus_fist_of_the_omnissian__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_adeptus_mechanicus_fist_of_the_omnissian"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const BattleforceAdeptusMechanicusFistOfTheOmnissianTcgcsvMsrpUsdKitPrice
 export const CustodianGuardSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("custodian_guard_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("custodian_guard_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const CustodianGuardSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamTheta7AquisitusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_theta_7_aquisitus__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_theta_7_aquisitus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const KillTeamTheta7AquisitusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingAdeptusMechanicusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_adeptus_mechanicus__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_adeptus_mechanicus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "95.00",
   price_source: "tcgcsv_msrp_usd",

@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for white_scars.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const WhiteScarsKorsarroKhanTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("white_scars_korsarro_khan__tcgcsv_msrp_usd"),
   kit_id: kitId("white_scars_korsarro_khan"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const WhiteScarsKorsarroKhanTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const WhiteScarsPrimarisUpgradesTransfersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("white_scars_primaris_upgrades_transfers__tcgcsv_msrp_usd"),
   kit_id: kitId("white_scars_primaris_upgrades_transfers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",

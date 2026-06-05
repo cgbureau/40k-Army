@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for grey_knights.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const GreyKnightsGrandMasterVoldusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("grey_knights_grand_master_voldus__tcgcsv_msrp_usd"),
   kit_id: kitId("grey_knights_grand_master_voldus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const GreyKnightsGrandMasterVoldusTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const GreyKnightsNemesisDreadknightTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("grey_knights_nemesis_dreadknight__tcgcsv_msrp_usd"),
   kit_id: kitId("grey_knights_nemesis_dreadknight"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "53.75",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const GreyKnightsNemesisDreadknightTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const GreyKnightsPaladinSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("grey_knights_paladin_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("grey_knights_paladin_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const GreyKnightsPaladinSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const GreyKnightsStrikeSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("grey_knights_strike_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("grey_knights_strike_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",

@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for imperial_agents.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const EphraelSternKyganilTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ephrael_stern_kyganil__tcgcsv_msrp_usd"),
   kit_id: kitId("ephrael_stern_kyganil"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const EphraelSternKyganilTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const LordInquisitorKyriaDraxusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("lord_inquisitor_kyria_draxus__tcgcsv_msrp_usd"),
   kit_id: kitId("lord_inquisitor_kyria_draxus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const LordInquisitorKyriaDraxusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OfficioAssassinorumCallidusAssassinTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("officio_assassinorum_callidus_assassin__tcgcsv_msrp_usd"),
   kit_id: kitId("officio_assassinorum_callidus_assassin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "32.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const OfficioAssassinorumCallidusAssassinTcgcsvMsrpUsdKitPrice: KitPriceC
 export const OfficioAssassinorumCulexusAssassinTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("officio_assassinorum_culexus_assassin__tcgcsv_msrp_usd"),
   kit_id: kitId("officio_assassinorum_culexus_assassin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "32.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const OfficioAssassinorumCulexusAssassinTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const OfficioAssassinorumEversorAssassinTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("officio_assassinorum_eversor_assassin__tcgcsv_msrp_usd"),
   kit_id: kitId("officio_assassinorum_eversor_assassin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "32.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const OfficioAssassinorumEversorAssassinTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const OfficioAssassinorumVindicareAssassinTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("officio_assassinorum_vindicare_assassin__tcgcsv_msrp_usd"),
   kit_id: kitId("officio_assassinorum_vindicare_assassin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "32.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const OfficioAssassinorumVindicareAssassinTcgcsvMsrpUsdKitPrice: KitPrice
 export const OfficioPrefectusCommissarTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("officio_prefectus_commissar__tcgcsv_msrp_usd"),
   kit_id: kitId("officio_prefectus_commissar"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "21.00",
   price_source: "tcgcsv_msrp_usd",

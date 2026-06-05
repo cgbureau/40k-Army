@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for deathwatch.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const CombatPatrolDeathwatchTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("combat_patrol_deathwatch__tcgcsv_msrp_usd"),
   kit_id: kitId("combat_patrol_deathwatch"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "140.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const CombatPatrolDeathwatchTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathwatchCorvusBlackstarTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_corvus_blackstar__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_corvus_blackstar"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const DeathwatchCorvusBlackstarTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathwatchKillTeamTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_kill_team__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_kill_team"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const DeathwatchKillTeamTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathwatchKillTeamCassiusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_kill_team_cassius__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_kill_team_cassius"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const DeathwatchKillTeamCassiusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathwatchUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "12.50",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const DeathwatchUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathwatchVenerableDreadnoughtTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_venerable_dreadnought__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_venerable_dreadnought"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const DeathwatchVenerableDreadnoughtTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const DeathwatchWatchCaptTerminatorArmourTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_watch_capt_terminator_armour__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_watch_capt_terminator_armour"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const DeathwatchWatchCaptTerminatorArmourTcgcsvMsrpUsdKitPrice: KitPriceC
 export const DeathwatchWatchMasterTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deathwatch_watch_master__tcgcsv_msrp_usd"),
   kit_id: kitId("deathwatch_watch_master"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const DeathwatchWatchMasterTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamAdvanceTeamStarpulseTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_advance_team_starpulse__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_advance_team_starpulse"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const KillTeamAdvanceTeamStarpulseTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const KillTeamCommanderAnkraTheColossusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_ankra_the_colossus__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_ankra_the_colossus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const KillTeamCommanderAnkraTheColossusTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const KillTeamCommanderFeodorLaskoTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_feodor_lasko__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_feodor_lasko"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const KillTeamCommanderFeodorLaskoTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const KillTeamCommanderFirebladeTwinflameTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_fireblade_twinflame__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_fireblade_twinflame"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const KillTeamCommanderFirebladeTwinflameTcgcsvMsrpUsdKitPrice: KitPriceC
 export const KillTeamCommanderGaiusAcastianTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_gaius_acastian__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_gaius_acastian"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const KillTeamCommanderGaiusAcastianTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const KillTeamCommanderGitzogWurldkillaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_gitzog_wurldkilla__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_gitzog_wurldkilla"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const KillTeamCommanderGitzogWurldkillaTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const KillTeamCommanderMagosDalathrustTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_magos_dalathrust__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_magos_dalathrust"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const KillTeamCommanderMagosDalathrustTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const KillTeamCommanderTorrvaldOrksbaneTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_torrvald_orksbane__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_torrvald_orksbane"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const KillTeamCommanderTorrvaldOrksbaneTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const KillTeamCommanderVysaKharavyxisTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commander_vysa_kharavyxis__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commander_vysa_kharavyxis"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const KillTeamCommanderVysaKharavyxisTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const KillTeamCommandersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_commanders__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_commanders"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const KillTeamCommandersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamGenestealerCultsCommanderSetCraskerMatterzhekTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_genestealer_cults_commander_set_crasker_matterzhek__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_genestealer_cults_commander_set_crasker_matterzhek"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const KillTeamGenestealerCultsCommanderSetCraskerMatterzhekTcgcsvMsrpUsdK
 export const KillTeamMordelaiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_mordelai__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_mordelai"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const KillTeamMordelaiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamSectorSanctorisTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_sector_sanctoris__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_sector_sanctoris"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "80.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const KillTeamSectorSanctorisTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamTheDolorousStrainTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_the_dolorous_strain__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_the_dolorous_strain"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const KillTeamTheDolorousStrainTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamTheExaltedScytheTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_the_exalted_scythe__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_the_exalted_scythe"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const KillTeamTheExaltedScytheTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamTheFractalBladesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_the_fractal_blades__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_the_fractal_blades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const KillTeamTheFractalBladesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamTheSlicingNooseTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_the_slicing_noose__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_the_slicing_noose"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -312,6 +337,7 @@ export const KillTeamTheSlicingNooseTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamToofrippasKrewTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_toofrippas_krew__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_toofrippas_krew"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -324,6 +350,7 @@ export const KillTeamToofrippasKrewTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const KillTeamTyranidsCommanderSetNemesis9TyrantisTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("kill_team_tyranids_commander_set_nemesis_9_tyrantis__tcgcsv_msrp_usd"),
   kit_id: kitId("kill_team_tyranids_commander_set_nemesis_9_tyrantis"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -336,6 +363,7 @@ export const KillTeamTyranidsCommanderSetNemesis9TyrantisTcgcsvMsrpUsdKitPrice: 
 export const StartCollectingDeathwatchTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_deathwatch__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_deathwatch"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",

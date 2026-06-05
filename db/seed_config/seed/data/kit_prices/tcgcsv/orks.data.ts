@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for orks.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseOrksSpearheadDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_orks_spearhead_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_orks_spearhead_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseOrksSpearheadDetachmentTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const BattleforceOrksKultOfSpeedTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_orks_kult_of_speed__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_orks_kult_of_speed"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const BattleforceOrksKultOfSpeedTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const BoomdakkaSnazzwagonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("boomdakka_snazzwagon__tcgcsv_msrp_usd"),
   kit_id: kitId("boomdakka_snazzwagon"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const BoomdakkaSnazzwagonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeffkillaWartrikeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("deffkilla_wartrike__tcgcsv_msrp_usd"),
   kit_id: kitId("deffkilla_wartrike"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const DeffkillaWartrikeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const MegatrakkScrapjetTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("megatrakk_scrapjet__tcgcsv_msrp_usd"),
   kit_id: kitId("megatrakk_scrapjet"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const MegatrakkScrapjetTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkBattlewagonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_battlewagon__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_battlewagon"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "66.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const OrkBattlewagonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkBoyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_boyz__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_boyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "29.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const OrkBoyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkBoyzTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_boyz__tcgcsv_low_usd"),
   kit_id: kitId("ork_boyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_low_usd",
@@ -108,6 +116,7 @@ export const OrkBoyzTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const OrkBoyzTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_boyz__tcgcsv_mid_usd"),
   kit_id: kitId("ork_boyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_mid_usd",
@@ -120,6 +129,7 @@ export const OrkBoyzTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const OrkBoyzTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_boyz__tcgcsv_high_usd"),
   kit_id: kitId("ork_boyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_high_usd",
@@ -132,6 +142,7 @@ export const OrkBoyzTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const OrkFlashGitzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_flash_gitz__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_flash_gitz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "53.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const OrkFlashGitzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkGorkanautTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_gorkanaut__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_gorkanaut"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "105.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const OrkGorkanautTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkGretchinTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_gretchin__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_gretchin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "16.50",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const OrkGretchinTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkGretchinTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_gretchin__tcgcsv_low_usd"),
   kit_id: kitId("ork_gretchin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "16.50",
   price_source: "tcgcsv_low_usd",
@@ -180,6 +194,7 @@ export const OrkGretchinTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const OrkGretchinTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_gretchin__tcgcsv_mid_usd"),
   kit_id: kitId("ork_gretchin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "16.50",
   price_source: "tcgcsv_mid_usd",
@@ -192,6 +207,7 @@ export const OrkGretchinTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const OrkGretchinTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_gretchin__tcgcsv_high_usd"),
   kit_id: kitId("ork_gretchin"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "16.50",
   price_source: "tcgcsv_high_usd",
@@ -204,6 +220,7 @@ export const OrkGretchinTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const OrkKillaKansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_killa_kans__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_killa_kans"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "46.25",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const OrkKillaKansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkLootasBurnasTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_lootas_burnas__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_lootas_burnas"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const OrkLootasBurnasTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkMeganobzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_meganobz__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_meganobz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "63.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const OrkMeganobzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkMekGunTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_mek_gun__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_mek_gun"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "46.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const OrkMekGunTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkNobzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_nobz__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_nobz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const OrkNobzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkPainboyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_painboy__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_painboy"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "26.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const OrkPainboyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkStormboyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_stormboyz__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_stormboyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const OrkStormboyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkTrukkTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_trukk__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_trukk"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.25",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const OrkTrukkTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkTrukkBoyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_trukk_boyz__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_trukk_boyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -312,6 +337,7 @@ export const OrkTrukkBoyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkWarbikerMobTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_warbiker_mob__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_warbiker_mob"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "41.25",
   price_source: "tcgcsv_msrp_usd",
@@ -324,6 +350,7 @@ export const OrkWarbikerMobTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrkWazbomBlastajetTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("ork_wazbom_blastajet__tcgcsv_msrp_usd"),
   kit_id: kitId("ork_wazbom_blastajet"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -336,6 +363,7 @@ export const OrkWazbomBlastajetTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrksGhazghkullThrakaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("orks_ghazghkull_thraka__tcgcsv_msrp_usd"),
   kit_id: kitId("orks_ghazghkull_thraka"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -348,6 +376,7 @@ export const OrksGhazghkullThrakaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrksKustomBoostaBlastaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("orks_kustom_boosta_blasta__tcgcsv_msrp_usd"),
   kit_id: kitId("orks_kustom_boosta_blasta"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -360,6 +389,7 @@ export const OrksKustomBoostaBlastaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrksShokkjumpDragstaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("orks_shokkjump_dragsta__tcgcsv_msrp_usd"),
   kit_id: kitId("orks_shokkjump_dragsta"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -372,6 +402,7 @@ export const OrksShokkjumpDragstaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const OrksStarterSetKillTeamKrogskullsBoyzTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("orks_starter_set_kill_team_krogskulls_boyz__tcgcsv_msrp_usd"),
   kit_id: kitId("orks_starter_set_kill_team_krogskulls_boyz"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -384,6 +415,7 @@ export const OrksStarterSetKillTeamKrogskullsBoyzTcgcsvMsrpUsdKitPrice: KitPrice
 export const RukkatrukkSquigbuggyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("rukkatrukk_squigbuggy__tcgcsv_msrp_usd"),
   kit_id: kitId("rukkatrukk_squigbuggy"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",

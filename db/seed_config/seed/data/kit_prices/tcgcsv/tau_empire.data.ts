@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for tau_empire.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseTauEmpireVanguardDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_tau_empire_vanguard_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_tau_empire_vanguard_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseTauEmpireVanguardDetachmentTcgcsvMsrpUsdKitPrice: KitPric
 export const BattleforceTauEmpireCommanderShadowsunTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_tau_empire_commander_shadowsun__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_tau_empire_commander_shadowsun"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const BattleforceTauEmpireCommanderShadowsunTcgcsvMsrpUsdKitPrice: KitPri
 export const BattleforceTauEmpireRapidInsertionCadreTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_tau_empire_rapid_insertion_cadre__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_tau_empire_rapid_insertion_cadre"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const BattleforceTauEmpireRapidInsertionCadreTcgcsvMsrpUsdKitPrice: KitPr
 export const BattleforceTauEmpireStarclaimerHunterCadreTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_tau_empire_starclaimer_hunter_cadre__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_tau_empire_starclaimer_hunter_cadre"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const BattleforceTauEmpireStarclaimerHunterCadreTcgcsvMsrpUsdKitPrice: Ki
 export const CadreFirebladeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("cadre_fireblade__tcgcsv_msrp_usd"),
   kit_id: kitId("cadre_fireblade"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "20.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const CadreFirebladeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingTauEmpireTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_tau_empire__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_tau_empire"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const StartCollectingTauEmpireTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireCoalitionCommandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_coalition_command__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_coalition_command"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const TauEmpireCoalitionCommandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireCommanderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_commander__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_commander"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const TauEmpireCommanderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireCommanderTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_commander__tcgcsv_low_usd"),
   kit_id: kitId("tau_empire_commander"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "62.50",
   price_source: "tcgcsv_low_usd",
@@ -120,6 +129,7 @@ export const TauEmpireCommanderTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const TauEmpireCommanderTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_commander__tcgcsv_mid_usd"),
   kit_id: kitId("tau_empire_commander"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "62.50",
   price_source: "tcgcsv_mid_usd",
@@ -132,6 +142,7 @@ export const TauEmpireCommanderTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const TauEmpireCommanderTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_commander__tcgcsv_high_usd"),
   kit_id: kitId("tau_empire_commander"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "62.50",
   price_source: "tcgcsv_high_usd",
@@ -144,6 +155,7 @@ export const TauEmpireCommanderTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const TauEmpireFireWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_fire_warriors__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_fire_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const TauEmpireFireWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireKv128StormsurgeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_kv128_stormsurge__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_kv128_stormsurge"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "150.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const TauEmpireKv128StormsurgeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpirePathfinderTeamTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_pathfinder_team__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_pathfinder_team"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const TauEmpirePathfinderTeamTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpirePathfinderTeamTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_pathfinder_team__tcgcsv_low_usd"),
   kit_id: kitId("tau_empire_pathfinder_team"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_low_usd",
@@ -192,6 +207,7 @@ export const TauEmpirePathfinderTeamTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const TauEmpirePathfinderTeamTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_pathfinder_team__tcgcsv_mid_usd"),
   kit_id: kitId("tau_empire_pathfinder_team"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_mid_usd",
@@ -204,6 +220,7 @@ export const TauEmpirePathfinderTeamTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const TauEmpirePathfinderTeamTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_pathfinder_team__tcgcsv_high_usd"),
   kit_id: kitId("tau_empire_pathfinder_team"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_high_usd",
@@ -216,6 +233,7 @@ export const TauEmpirePathfinderTeamTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const TauEmpireTidewallDroneportTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_tidewall_droneport__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_tidewall_droneport"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const TauEmpireTidewallDroneportTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireTidewallRampartTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_tidewall_rampart__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_tidewall_rampart"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "160.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const TauEmpireTidewallRampartTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireTidewallShieldlineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_tidewall_shieldline__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_tidewall_shieldline"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const TauEmpireTidewallShieldlineTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const TauEmpireTx4PiranhaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_tx4_piranha__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_tx4_piranha"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const TauEmpireTx4PiranhaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireTy7DevilfishTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_ty7_devilfish__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_ty7_devilfish"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "38.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const TauEmpireTy7DevilfishTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TauEmpireXv25StealthBattlesuitsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv25_stealth_battlesuits__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_xv25_stealth_battlesuits"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "27.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const TauEmpireXv25StealthBattlesuitsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const TauEmpireXv25StealthBattlesuitsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv25_stealth_battlesuits__tcgcsv_low_usd"),
   kit_id: kitId("tau_empire_xv25_stealth_battlesuits"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_low_usd",
@@ -300,6 +324,7 @@ export const TauEmpireXv25StealthBattlesuitsTcgcsvLowUsdKitPrice: KitPriceConfig
 export const TauEmpireXv25StealthBattlesuitsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv25_stealth_battlesuits__tcgcsv_mid_usd"),
   kit_id: kitId("tau_empire_xv25_stealth_battlesuits"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_mid_usd",
@@ -312,6 +337,7 @@ export const TauEmpireXv25StealthBattlesuitsTcgcsvMidUsdKitPrice: KitPriceConfig
 export const TauEmpireXv25StealthBattlesuitsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv25_stealth_battlesuits__tcgcsv_high_usd"),
   kit_id: kitId("tau_empire_xv25_stealth_battlesuits"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_high_usd",
@@ -324,6 +350,7 @@ export const TauEmpireXv25StealthBattlesuitsTcgcsvHighUsdKitPrice: KitPriceConfi
 export const TauEmpireXv8CrisisBattlesuitsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv8_crisis_battlesuits__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_xv8_crisis_battlesuits"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",
@@ -336,6 +363,7 @@ export const TauEmpireXv8CrisisBattlesuitsTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const TauEmpireXv88BroadsideBattlesuitTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv88_broadside_battlesuit__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_xv88_broadside_battlesuit"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -348,6 +376,7 @@ export const TauEmpireXv88BroadsideBattlesuitTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const TauEmpireXv88BroadsideBattlesuitTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv88_broadside_battlesuit__tcgcsv_low_usd"),
   kit_id: kitId("tau_empire_xv88_broadside_battlesuit"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "62.50",
   price_source: "tcgcsv_low_usd",
@@ -360,6 +389,7 @@ export const TauEmpireXv88BroadsideBattlesuitTcgcsvLowUsdKitPrice: KitPriceConfi
 export const TauEmpireXv88BroadsideBattlesuitTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv88_broadside_battlesuit__tcgcsv_mid_usd"),
   kit_id: kitId("tau_empire_xv88_broadside_battlesuit"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "62.50",
   price_source: "tcgcsv_mid_usd",
@@ -372,6 +402,7 @@ export const TauEmpireXv88BroadsideBattlesuitTcgcsvMidUsdKitPrice: KitPriceConfi
 export const TauEmpireXv88BroadsideBattlesuitTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv88_broadside_battlesuit__tcgcsv_high_usd"),
   kit_id: kitId("tau_empire_xv88_broadside_battlesuit"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "62.50",
   price_source: "tcgcsv_high_usd",
@@ -384,6 +415,7 @@ export const TauEmpireXv88BroadsideBattlesuitTcgcsvHighUsdKitPrice: KitPriceConf
 export const TauEmpireXv95GhostkeelBattlesuitTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tau_empire_xv95_ghostkeel_battlesuit__tcgcsv_msrp_usd"),
   kit_id: kitId("tau_empire_xv95_ghostkeel_battlesuit"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",

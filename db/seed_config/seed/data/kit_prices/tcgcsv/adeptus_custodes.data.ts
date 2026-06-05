@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for adeptus_custodes.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const AdeptusCustodesCaptainGeneralTrajannValorisTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_custodes_captain_general_trajann_valoris__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_custodes_captain_general_trajann_valoris"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const AdeptusCustodesCaptainGeneralTrajannValorisTcgcsvMsrpUsdKitPrice: K
 export const AdeptusCustodesCustodianWardensTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_custodes_custodian_wardens__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_custodes_custodian_wardens"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const AdeptusCustodesCustodianWardensTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const AdeptusCustodesCustodianWardensTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_custodes_custodian_wardens__tcgcsv_low_usd"),
   kit_id: kitId("adeptus_custodes_custodian_wardens"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_low_usd",
@@ -48,6 +51,7 @@ export const AdeptusCustodesCustodianWardensTcgcsvLowUsdKitPrice: KitPriceConfig
 export const AdeptusCustodesCustodianWardensTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_custodes_custodian_wardens__tcgcsv_mid_usd"),
   kit_id: kitId("adeptus_custodes_custodian_wardens"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_mid_usd",
@@ -60,6 +64,7 @@ export const AdeptusCustodesCustodianWardensTcgcsvMidUsdKitPrice: KitPriceConfig
 export const AdeptusCustodesCustodianWardensTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_custodes_custodian_wardens__tcgcsv_high_usd"),
   kit_id: kitId("adeptus_custodes_custodian_wardens"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "69.99",
   price_source: "tcgcsv_high_usd",
@@ -72,6 +77,7 @@ export const AdeptusCustodesCustodianWardensTcgcsvHighUsdKitPrice: KitPriceConfi
 export const AdeptusCustodesVertusPraetorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("adeptus_custodes_vertus_praetors__tcgcsv_msrp_usd"),
   kit_id: kitId("adeptus_custodes_vertus_praetors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const AdeptusCustodesVertusPraetorsTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const TalonsOfTheEmperorValerianAndAleyaTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("talons_of_the_emperor_valerian_and_aleya__tcgcsv_msrp_usd"),
   kit_id: kitId("talons_of_the_emperor_valerian_and_aleya"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",

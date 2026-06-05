@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for space_wolves.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const BattleforceSpaceWolvesTalonsOfMorkaiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_space_wolves_talons_of_morkai__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_space_wolves_talons_of_morkai"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const BattleforceSpaceWolvesTalonsOfMorkaiTcgcsvMsrpUsdKitPrice: KitPrice
 export const CombatPatrolSpaceWolvesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("combat_patrol_space_wolves__tcgcsv_msrp_usd"),
   kit_id: kitId("combat_patrol_space_wolves"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "140.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const CombatPatrolSpaceWolvesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesFenrisianWolfPackTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_fenrisian_wolf_pack__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_fenrisian_wolf_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "24.75",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const SpaceWolvesFenrisianWolfPackTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const SpaceWolvesFenrisianWolfPackTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_fenrisian_wolf_pack__tcgcsv_low_usd"),
   kit_id: kitId("space_wolves_fenrisian_wolf_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "22.99",
   price_source: "tcgcsv_low_usd",
@@ -60,6 +64,7 @@ export const SpaceWolvesFenrisianWolfPackTcgcsvLowUsdKitPrice: KitPriceConfig = 
 export const SpaceWolvesFenrisianWolfPackTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_fenrisian_wolf_pack__tcgcsv_mid_usd"),
   kit_id: kitId("space_wolves_fenrisian_wolf_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "22.99",
   price_source: "tcgcsv_mid_usd",
@@ -72,6 +77,7 @@ export const SpaceWolvesFenrisianWolfPackTcgcsvMidUsdKitPrice: KitPriceConfig = 
 export const SpaceWolvesFenrisianWolfPackTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_fenrisian_wolf_pack__tcgcsv_high_usd"),
   kit_id: kitId("space_wolves_fenrisian_wolf_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "22.99",
   price_source: "tcgcsv_high_usd",
@@ -84,6 +90,7 @@ export const SpaceWolvesFenrisianWolfPackTcgcsvHighUsdKitPrice: KitPriceConfig =
 export const SpaceWolvesHoundsOfMorkaiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_hounds_of_morkai__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_hounds_of_morkai"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const SpaceWolvesHoundsOfMorkaiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesIronPriestTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_iron_priest__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_iron_priest"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const SpaceWolvesIronPriestTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesLongFangsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_long_fangs__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_long_fangs"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const SpaceWolvesLongFangsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesPackTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_pack__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const SpaceWolvesPackTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesPrimarisUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_primaris_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_primaris_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "12.50",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const SpaceWolvesPrimarisUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const SpaceWolvesRagnarBlackmaneTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_ragnar_blackmane__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_ragnar_blackmane"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const SpaceWolvesRagnarBlackmaneTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesSkyhammerWolfPackTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_skyhammer_wolf_pack__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_skyhammer_wolf_pack"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const SpaceWolvesSkyhammerWolfPackTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const SpaceWolvesStormfangGunshipTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_stormfang_gunship__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_stormfang_gunship"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "81.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const SpaceWolvesStormfangGunshipTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const SpaceWolvesThunderwolfCavalryTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_thunderwolf_cavalry__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_thunderwolf_cavalry"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "54.50",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const SpaceWolvesThunderwolfCavalryTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const SpaceWolvesUlrikTheSlayerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_ulrik_the_slayer__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_ulrik_the_slayer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const SpaceWolvesUlrikTheSlayerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "13.50",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const SpaceWolvesUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesVenerableDreadnoughtTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_venerable_dreadnought__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_venerable_dreadnought"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "54.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const SpaceWolvesVenerableDreadnoughtTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const SpaceWolvesWolfGuardTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_wolf_guard_terminators__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_wolf_guard_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const SpaceWolvesWolfGuardTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const SpaceWolvesWolfLordKromTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_wolf_lord_krom__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_wolf_lord_krom"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const SpaceWolvesWolfLordKromTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SpaceWolvesWulfenTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("space_wolves_wulfen__tcgcsv_msrp_usd"),
   kit_id: kitId("space_wolves_wulfen"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const SpaceWolvesWulfenTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingPrimarisSpaceWolvesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_primaris_space_wolves__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_primaris_space_wolves"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "95.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const StartCollectingPrimarisSpaceWolvesTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const StartCollectingSpaceWolvesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_space_wolves__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_space_wolves"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",

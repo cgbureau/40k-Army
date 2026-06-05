@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for thousand_sons.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const StartCollectingThousandSonsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_thousand_sons__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_thousand_sons"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "95.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const StartCollectingThousandSonsTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const ThousandSonsExaltedSorcerersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("thousand_sons_exalted_sorcerers__tcgcsv_msrp_usd"),
   kit_id: kitId("thousand_sons_exalted_sorcerers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const ThousandSonsExaltedSorcerersTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const ThousandSonsMagnusTheRedTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("thousand_sons_magnus_the_red__tcgcsv_msrp_usd"),
   kit_id: kitId("thousand_sons_magnus_the_red"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "130.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const ThousandSonsMagnusTheRedTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ThousandSonsScarabOccultTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("thousand_sons_scarab_occult_terminators__tcgcsv_msrp_usd"),
   kit_id: kitId("thousand_sons_scarab_occult_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const ThousandSonsScarabOccultTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceC
 export const ThousandSonsTzaangorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("thousand_sons_tzaangors__tcgcsv_msrp_usd"),
   kit_id: kitId("thousand_sons_tzaangors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",

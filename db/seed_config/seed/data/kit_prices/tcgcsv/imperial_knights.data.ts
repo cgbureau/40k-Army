@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for imperial_knights.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseImperialKnightsSuperHeavyDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_imperial_knights_super_heavy_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_imperial_knights_super_heavy_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseImperialKnightsSuperHeavyDetachmentTcgcsvMsrpUsdKitPrice:
 export const ImperialKnightsArmigerHelverinsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_armiger_helverins__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_knights_armiger_helverins"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const ImperialKnightsArmigerHelverinsTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const ImperialKnightsArmigerHelverinsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_armiger_helverins__tcgcsv_low_usd"),
   kit_id: kitId("imperial_knights_armiger_helverins"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "94.50",
   price_source: "tcgcsv_low_usd",
@@ -48,6 +51,7 @@ export const ImperialKnightsArmigerHelverinsTcgcsvLowUsdKitPrice: KitPriceConfig
 export const ImperialKnightsArmigerHelverinsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_armiger_helverins__tcgcsv_mid_usd"),
   kit_id: kitId("imperial_knights_armiger_helverins"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "94.50",
   price_source: "tcgcsv_mid_usd",
@@ -60,6 +64,7 @@ export const ImperialKnightsArmigerHelverinsTcgcsvMidUsdKitPrice: KitPriceConfig
 export const ImperialKnightsArmigerHelverinsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_armiger_helverins__tcgcsv_high_usd"),
   kit_id: kitId("imperial_knights_armiger_helverins"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "94.50",
   price_source: "tcgcsv_high_usd",
@@ -72,6 +77,7 @@ export const ImperialKnightsArmigerHelverinsTcgcsvHighUsdKitPrice: KitPriceConfi
 export const ImperialKnightsArmigerWarglaivesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_armiger_warglaives__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_knights_armiger_warglaives"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "75.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const ImperialKnightsArmigerWarglaivesTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const ImperialKnightsKnightCastellanTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_knight_castellan__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_knights_knight_castellan"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const ImperialKnightsKnightCastellanTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const ImperialKnightsKnightPreceptorCanisRexTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_knight_preceptor_canis_rex__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_knights_knight_preceptor_canis_rex"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "157.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const ImperialKnightsKnightPreceptorCanisRexTcgcsvMsrpUsdKitPrice: KitPri
 export const ImperialKnightsKnightValiantTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_knight_valiant__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_knights_knight_valiant"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const ImperialKnightsKnightValiantTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const ImperialKnightsRenegadeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_knights_renegade__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_knights_renegade"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "195.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const ImperialKnightsRenegadeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const SectorMechanicusSacristanForgeshrineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("sector_mechanicus_sacristan_forgeshrine__tcgcsv_msrp_usd"),
   kit_id: kitId("sector_mechanicus_sacristan_forgeshrine"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",

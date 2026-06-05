@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for drukhari.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const BattleforceDrukhariPoisonbladeRaidingPartyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_drukhari_poisonblade_raiding_party__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_drukhari_poisonblade_raiding_party"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "185.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const BattleforceDrukhariPoisonbladeRaidingPartyTcgcsvMsrpUsdKitPrice: Ki
 export const DarkEldarArchonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_archon__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_archon"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "23.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const DarkEldarArchonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarHaemonculusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_haemonculus__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_haemonculus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "26.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const DarkEldarHaemonculusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarKabaliteWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_kabalite_warriors__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_kabalite_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "29.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const DarkEldarKabaliteWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarKabaliteWarriorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_kabalite_warriors__tcgcsv_low_usd"),
   kit_id: kitId("dark_eldar_kabalite_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_low_usd",
@@ -72,6 +77,7 @@ export const DarkEldarKabaliteWarriorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const DarkEldarKabaliteWarriorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_kabalite_warriors__tcgcsv_mid_usd"),
   kit_id: kitId("dark_eldar_kabalite_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_mid_usd",
@@ -84,6 +90,7 @@ export const DarkEldarKabaliteWarriorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const DarkEldarKabaliteWarriorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_kabalite_warriors__tcgcsv_high_usd"),
   kit_id: kitId("dark_eldar_kabalite_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_high_usd",
@@ -96,6 +103,7 @@ export const DarkEldarKabaliteWarriorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const DarkEldarRaiderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_raider__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_raider"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.25",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const DarkEldarRaiderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarScourgesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_scourges__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_scourges"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const DarkEldarScourgesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarTalosPainEngineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_talos_pain_engine__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_talos_pain_engine"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "46.25",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const DarkEldarTalosPainEngineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarVenomTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_venom__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_venom"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const DarkEldarVenomTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarVoidravenBomberTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_voidraven_bomber__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_voidraven_bomber"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "80.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const DarkEldarVoidravenBomberTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkEldarWracksTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_eldar_wracks__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_eldar_wracks"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "36.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const DarkEldarWracksTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DrukhariDrazharMasterOfBladesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("drukhari_drazhar_master_of_blades__tcgcsv_msrp_usd"),
   kit_id: kitId("drukhari_drazhar_master_of_blades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const DrukhariDrazharMasterOfBladesTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const DrukhariIncubiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("drukhari_incubi__tcgcsv_msrp_usd"),
   kit_id: kitId("drukhari_incubi"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const DrukhariIncubiTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DrukhariSuccubusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("drukhari_succubus__tcgcsv_msrp_usd"),
   kit_id: kitId("drukhari_succubus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "23.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const DrukhariSuccubusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingDarkEldarTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_dark_eldar__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_dark_eldar"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const StartCollectingDarkEldarTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingDrukhariTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_drukhari__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_drukhari"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",

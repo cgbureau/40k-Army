@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for tyranids.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseTyranidsSpearheadDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_tyranids_spearhead_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_tyranids_spearhead_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseTyranidsSpearheadDetachmentTcgcsvMsrpUsdKitPrice: KitPric
 export const BattleforceTyranidsBioswarmTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_tyranids_bioswarm__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_tyranids_bioswarm"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "185.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const BattleforceTyranidsBioswarmTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const StartCollectingTyranidsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_tyranids__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_tyranids"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const StartCollectingTyranidsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidBroodlordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_broodlord__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_broodlord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const TyranidBroodlordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidGargoyleBroodTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_gargoyle_brood__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_gargoyle_brood"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "29.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const TyranidGargoyleBroodTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidGenestealersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_genestealers__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_genestealers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const TyranidGenestealersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidHarpyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_harpy__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_harpy"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "80.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const TyranidHarpyTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidHaruspexTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_haruspex__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_haruspex"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "73.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const TyranidHaruspexTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidHiveTyrantTheSwarmlordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_hive_tyrant_the_swarmlord__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_hive_tyrant_the_swarmlord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "53.75",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const TyranidHiveTyrantTheSwarmlordTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const TyranidHiveTyrantTheSwarmlordTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_hive_tyrant_the_swarmlord__tcgcsv_low_usd"),
   kit_id: kitId("tyranid_hive_tyrant_the_swarmlord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_low_usd",
@@ -132,6 +142,7 @@ export const TyranidHiveTyrantTheSwarmlordTcgcsvLowUsdKitPrice: KitPriceConfig =
 export const TyranidHiveTyrantTheSwarmlordTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_hive_tyrant_the_swarmlord__tcgcsv_mid_usd"),
   kit_id: kitId("tyranid_hive_tyrant_the_swarmlord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_mid_usd",
@@ -144,6 +155,7 @@ export const TyranidHiveTyrantTheSwarmlordTcgcsvMidUsdKitPrice: KitPriceConfig =
 export const TyranidHiveTyrantTheSwarmlordTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_hive_tyrant_the_swarmlord__tcgcsv_high_usd"),
   kit_id: kitId("tyranid_hive_tyrant_the_swarmlord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_high_usd",
@@ -156,6 +168,7 @@ export const TyranidHiveTyrantTheSwarmlordTcgcsvHighUsdKitPrice: KitPriceConfig 
 export const TyranidHormagauntBroodTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_hormagaunt_brood__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_hormagaunt_brood"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "29.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const TyranidHormagauntBroodTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidSwarmTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_swarm__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_swarm"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const TyranidSwarmTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidTermagantBroodTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_termagant_brood__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_termagant_brood"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "29.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const TyranidTermagantBroodTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidTermagantsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_termagants__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_termagants"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "10.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const TyranidTermagantsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidTermagantsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_termagants__tcgcsv_low_usd"),
   kit_id: kitId("tyranid_termagants"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_low_usd",
@@ -216,6 +233,7 @@ export const TyranidTermagantsTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const TyranidTermagantsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_termagants__tcgcsv_mid_usd"),
   kit_id: kitId("tyranid_termagants"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_mid_usd",
@@ -228,6 +246,7 @@ export const TyranidTermagantsTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const TyranidTermagantsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_termagants__tcgcsv_high_usd"),
   kit_id: kitId("tyranid_termagants"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_high_usd",
@@ -240,6 +259,7 @@ export const TyranidTermagantsTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const TyranidTrygonMawlocTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_trygon_mawloc__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_trygon_mawloc"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "57.75",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const TyranidTrygonMawlocTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidTyrannocyteTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_tyrannocyte__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_tyrannocyte"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "63.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const TyranidTyrannocyteTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidTyrannofexTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_tyrannofex__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_tyrannofex"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "57.75",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const TyranidTyrannofexTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidVenomthropesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_venomthropes__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_venomthropes"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "66.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const TyranidVenomthropesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranid_warriors__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranid_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "51.00",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const TyranidWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const TyranidsBattleforceBroodSwarmTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranids_battleforce_brood_swarm__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranids_battleforce_brood_swarm"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "210.00",
   price_source: "tcgcsv_msrp_usd",
@@ -312,6 +337,7 @@ export const TyranidsBattleforceBroodSwarmTcgcsvMsrpUsdKitPrice: KitPriceConfig 
 export const TyranidsStarterSetKillTeamTheWrithingShadowTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("tyranids_starter_set_kill_team_the_writhing_shadow__tcgcsv_msrp_usd"),
   kit_id: kitId("tyranids_starter_set_kill_team_the_writhing_shadow"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",

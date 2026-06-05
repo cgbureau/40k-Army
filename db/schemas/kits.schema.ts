@@ -112,6 +112,7 @@ export const kitUnitPriceAllocationSchema = z.object({
 export const kitPriceSchema = z.object({
   id: z.ulid(),
   kit_id: z.ulid(),
+  price_market_id: z.ulid().nullable(),
   currency: z.string().length(3),
   price: z.union([z.number(), z.string()]),
   price_source: z.string().nullable(),

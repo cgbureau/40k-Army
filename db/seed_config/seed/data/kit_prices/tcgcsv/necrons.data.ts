@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for necrons.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseNecronsOutriderDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_necrons_outrider_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_necrons_outrider_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseNecronsOutriderDetachmentTcgcsvMsrpUsdKitPrice: KitPriceC
 export const BattleforceNecronsDominionSpearheadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_necrons_dominion_spearhead__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_necrons_dominion_spearhead"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const BattleforceNecronsDominionSpearheadTcgcsvMsrpUsdKitPrice: KitPriceC
 export const IlluminorSzerasTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("illuminor_szeras__tcgcsv_msrp_usd"),
   kit_id: kitId("illuminor_szeras"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const IlluminorSzerasTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronCanoptekSpyderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_canoptek_spyder__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_canoptek_spyder"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const NecronCanoptekSpyderTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronCanoptekWraithsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_canoptek_wraiths__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_canoptek_wraiths"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "47.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const NecronCanoptekWraithsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronCanoptekWraithsRepackageTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_canoptek_wraiths_repackage__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_canoptek_wraiths_repackage"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "47.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const NecronCanoptekWraithsRepackageTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const NecronCatacombCommmandBargeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_catacomb_commmand_barge__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_catacomb_commmand_barge"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.25",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const NecronCatacombCommmandBargeTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const NecronCryptekTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_cryptek__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_cryptek"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const NecronCryptekTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronDoomScytheNightScytheTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_doom_scythe_night_scythe__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_doom_scythe_night_scythe"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.50",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const NecronDoomScytheNightScytheTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const NecronDoomScytheNightScytheRepackageTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_doom_scythe_night_scythe_repackage__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_doom_scythe_night_scythe_repackage"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.50",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const NecronDoomScytheNightScytheRepackageTcgcsvMsrpUsdKitPrice: KitPrice
 export const NecronImmortalsDeathmarksTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_immortals_deathmarks__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_immortals_deathmarks"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const NecronImmortalsDeathmarksTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronImmortalsDeathmarksTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_immortals_deathmarks__tcgcsv_low_usd"),
   kit_id: kitId("necron_immortals_deathmarks"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_low_usd",
@@ -156,6 +168,7 @@ export const NecronImmortalsDeathmarksTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const NecronImmortalsDeathmarksTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_immortals_deathmarks__tcgcsv_mid_usd"),
   kit_id: kitId("necron_immortals_deathmarks"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_mid_usd",
@@ -168,6 +181,7 @@ export const NecronImmortalsDeathmarksTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const NecronImmortalsDeathmarksTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_immortals_deathmarks__tcgcsv_high_usd"),
   kit_id: kitId("necron_immortals_deathmarks"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_high_usd",
@@ -180,6 +194,7 @@ export const NecronImmortalsDeathmarksTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const NecronLychguardTriarchPraetoriansTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_lychguard_triarch_praetorians__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_lychguard_triarch_praetorians"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const NecronLychguardTriarchPraetoriansTcgcsvMsrpUsdKitPrice: KitPriceCon
 export const NecronOverlordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_overlord__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_overlord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "28.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const NecronOverlordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronTombBladesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_tomb_blades__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_tomb_blades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "41.25",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const NecronTombBladesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronTombBladesRepackageTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_tomb_blades_repackage__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_tomb_blades_repackage"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "41.25",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const NecronTombBladesRepackageTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necron_warriors__tcgcsv_msrp_usd"),
   kit_id: kitId("necron_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "36.25",
   price_source: "tcgcsv_msrp_usd",
@@ -240,6 +259,7 @@ export const NecronWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsBattleforceEradicationLegionTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_battleforce_eradication_legion__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_battleforce_eradication_legion"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "210.00",
   price_source: "tcgcsv_msrp_usd",
@@ -252,6 +272,7 @@ export const NecronsBattleforceEradicationLegionTcgcsvMsrpUsdKitPrice: KitPriceC
 export const NecronsCanoptekDoomstalkerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_canoptek_doomstalker__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_canoptek_doomstalker"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -264,6 +285,7 @@ export const NecronsCanoptekDoomstalkerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsConvergenceOfDominionTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_convergence_of_dominion__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_convergence_of_dominion"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const NecronsConvergenceOfDominionTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const NecronsCtanShardOfTheVoidDragonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_ctan_shard_of_the_void_dragon__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_ctan_shard_of_the_void_dragon"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "110.00",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const NecronsCtanShardOfTheVoidDragonTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const NecronsHexmarkDestroyerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_hexmark_destroyer__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_hexmark_destroyer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const NecronsHexmarkDestroyerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsLokhustHeavyDestroyerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_lokhust_heavy_destroyer__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_lokhust_heavy_destroyer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -312,6 +337,7 @@ export const NecronsLokhustHeavyDestroyerTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const NecronsLokhustHeavyDestroyerTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_lokhust_heavy_destroyer__tcgcsv_low_usd"),
   kit_id: kitId("necrons_lokhust_heavy_destroyer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_low_usd",
@@ -324,6 +350,7 @@ export const NecronsLokhustHeavyDestroyerTcgcsvLowUsdKitPrice: KitPriceConfig = 
 export const NecronsLokhustHeavyDestroyerTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_lokhust_heavy_destroyer__tcgcsv_mid_usd"),
   kit_id: kitId("necrons_lokhust_heavy_destroyer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_mid_usd",
@@ -336,6 +363,7 @@ export const NecronsLokhustHeavyDestroyerTcgcsvMidUsdKitPrice: KitPriceConfig = 
 export const NecronsLokhustHeavyDestroyerTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_lokhust_heavy_destroyer__tcgcsv_high_usd"),
   kit_id: kitId("necrons_lokhust_heavy_destroyer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "37.00",
   price_source: "tcgcsv_high_usd",
@@ -348,6 +376,7 @@ export const NecronsLokhustHeavyDestroyerTcgcsvHighUsdKitPrice: KitPriceConfig =
 export const NecronsMonolithTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_monolith__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_monolith"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -360,6 +389,7 @@ export const NecronsMonolithTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsOphydianDestroyersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_ophydian_destroyers__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_ophydian_destroyers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -372,6 +402,7 @@ export const NecronsOphydianDestroyersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsSkorpekhDestroyersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_skorpekh_destroyers__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_skorpekh_destroyers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -384,6 +415,7 @@ export const NecronsSkorpekhDestroyersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsSzarekhTheSilentKingTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_szarekh_the_silent_king__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_szarekh_the_silent_king"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "150.00",
   price_source: "tcgcsv_msrp_usd",
@@ -396,6 +428,7 @@ export const NecronsSzarekhTheSilentKingTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const NecronsWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_warriors__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "45.00",
   price_source: "tcgcsv_msrp_usd",
@@ -408,6 +441,7 @@ export const NecronsWarriorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const NecronsWarriorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_warriors__tcgcsv_low_usd"),
   kit_id: kitId("necrons_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_low_usd",
@@ -420,6 +454,7 @@ export const NecronsWarriorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const NecronsWarriorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_warriors__tcgcsv_mid_usd"),
   kit_id: kitId("necrons_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_mid_usd",
@@ -432,6 +467,7 @@ export const NecronsWarriorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const NecronsWarriorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_warriors__tcgcsv_high_usd"),
   kit_id: kitId("necrons_warriors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_high_usd",
@@ -444,6 +480,7 @@ export const NecronsWarriorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const NecronsWarriorsPaintsSetTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("necrons_warriors_paints_set__tcgcsv_msrp_usd"),
   kit_id: kitId("necrons_warriors_paints_set"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -456,6 +493,7 @@ export const NecronsWarriorsPaintsSetTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const StartCollectingNecronsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_necrons__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_necrons"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "85.00",
   price_source: "tcgcsv_msrp_usd",

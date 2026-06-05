@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for dark_angels.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const DarkAngelsCompanyVeteransSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_company_veterans_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_company_veterans_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const DarkAngelsCompanyVeteransSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const DarkAngelsDeathwingCommandSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_deathwing_command_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_deathwing_command_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const DarkAngelsDeathwingCommandSquadTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const DarkAngelsDeathwingCommandSquadTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_deathwing_command_squad__tcgcsv_low_usd"),
   kit_id: kitId("dark_angels_deathwing_command_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "70.00",
   price_source: "tcgcsv_low_usd",
@@ -48,6 +51,7 @@ export const DarkAngelsDeathwingCommandSquadTcgcsvLowUsdKitPrice: KitPriceConfig
 export const DarkAngelsDeathwingCommandSquadTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_deathwing_command_squad__tcgcsv_mid_usd"),
   kit_id: kitId("dark_angels_deathwing_command_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "70.00",
   price_source: "tcgcsv_mid_usd",
@@ -60,6 +64,7 @@ export const DarkAngelsDeathwingCommandSquadTcgcsvMidUsdKitPrice: KitPriceConfig
 export const DarkAngelsDeathwingCommandSquadTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_deathwing_command_squad__tcgcsv_high_usd"),
   kit_id: kitId("dark_angels_deathwing_command_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "70.00",
   price_source: "tcgcsv_high_usd",
@@ -72,6 +77,7 @@ export const DarkAngelsDeathwingCommandSquadTcgcsvHighUsdKitPrice: KitPriceConfi
 export const DarkAngelsGauntletTacticalSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_gauntlet_tactical_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_gauntlet_tactical_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const DarkAngelsGauntletTacticalSquadTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const DarkAngelsInterrogatorChaplainTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_interrogator_chaplain__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_interrogator_chaplain"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const DarkAngelsInterrogatorChaplainTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const DarkAngelsMasterLazarusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_master_lazarus__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_master_lazarus"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const DarkAngelsMasterLazarusTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkAngelsPrimarisAggressorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_primaris_aggressors__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_primaris_aggressors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const DarkAngelsPrimarisAggressorsTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const DarkAngelsPrimarisHellblastersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_primaris_hellblasters__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_primaris_hellblasters"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const DarkAngelsPrimarisHellblastersTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const DarkAngelsPrimarisIntercessorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_primaris_intercessors__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_primaris_intercessors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const DarkAngelsPrimarisIntercessorsTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const DarkAngelsPrimarisLieutenantZakariahTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_primaris_lieutenant_zakariah__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_primaris_lieutenant_zakariah"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const DarkAngelsPrimarisLieutenantZakariahTcgcsvMsrpUsdKitPrice: KitPrice
 export const DarkAngelsPrimarisUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_primaris_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_primaris_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "12.50",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const DarkAngelsPrimarisUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DarkAngelsUpgradesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("dark_angels_upgrades__tcgcsv_msrp_usd"),
   kit_id: kitId("dark_angels_upgrades"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "13.50",
   price_source: "tcgcsv_msrp_usd",

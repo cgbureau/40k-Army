@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for imperial_fists.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const BattleforceImperialFistsSupremacyForceTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_imperial_fists_supremacy_force__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_imperial_fists_supremacy_force"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const BattleforceImperialFistsSupremacyForceTcgcsvMsrpUsdKitPrice: KitPri
 export const ImperialFistsPrimarisUpgradesTransferssalamandersAdraxAgatoneTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_fists_primaris_upgrades_transferssalamanders_adrax_agatone__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_fists_primaris_upgrades_transferssalamanders_adrax_agatone"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const ImperialFistsPrimarisUpgradesTransferssalamandersAdraxAgatoneTcgcsv
 export const ImperialFistsTorGaradonTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("imperial_fists_tor_garadon__tcgcsv_msrp_usd"),
   kit_id: kitId("imperial_fists_tor_garadon"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",

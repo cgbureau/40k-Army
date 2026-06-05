@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for death_guard.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const BattleforceDeathGuardInfectionClusterTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_death_guard_infection_cluster__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_death_guard_infection_cluster"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const BattleforceDeathGuardInfectionClusterTcgcsvMsrpUsdKitPrice: KitPric
 export const DeathGuardBiologusPutrifierTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("death_guard_biologus_putrifier__tcgcsv_msrp_usd"),
   kit_id: kitId("death_guard_biologus_putrifier"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const DeathGuardBiologusPutrifierTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const DeathGuardFoulBlightspawnTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("death_guard_foul_blightspawn__tcgcsv_msrp_usd"),
   kit_id: kitId("death_guard_foul_blightspawn"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const DeathGuardFoulBlightspawnTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathGuardNauseousRotboneTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("death_guard_nauseous_rotbone__tcgcsv_msrp_usd"),
   kit_id: kitId("death_guard_nauseous_rotbone"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const DeathGuardNauseousRotboneTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const DeathGuardPlagueMarineChampionTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("death_guard_plague_marine_champion__tcgcsv_msrp_usd"),
   kit_id: kitId("death_guard_plague_marine_champion"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -72,6 +77,7 @@ export const DeathGuardPlagueMarineChampionTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const DeathGuardPlagueMarineIconBearerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("death_guard_plague_marine_icon_bearer__tcgcsv_msrp_usd"),
   kit_id: kitId("death_guard_plague_marine_icon_bearer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -84,6 +90,7 @@ export const DeathGuardPlagueMarineIconBearerTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const DeathGuardScribbusWretchTheTallymanTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("death_guard_scribbus_wretch_the_tallyman__tcgcsv_msrp_usd"),
   kit_id: kitId("death_guard_scribbus_wretch_the_tallyman"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -96,6 +103,7 @@ export const DeathGuardScribbusWretchTheTallymanTcgcsvMsrpUsdKitPrice: KitPriceC
 export const EasyToBuildDeathGuardPlagueMarinesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("easy_to_build_death_guard_plague_marines__tcgcsv_msrp_usd"),
   kit_id: kitId("easy_to_build_death_guard_plague_marines"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "15.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const EasyToBuildDeathGuardPlagueMarinesTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const EasyToBuildDeathGuardPoxwalkersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("easy_to_build_death_guard_poxwalkers__tcgcsv_msrp_usd"),
   kit_id: kitId("easy_to_build_death_guard_poxwalkers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "15.00",
   price_source: "tcgcsv_msrp_usd",

@@ -19,5 +19,6 @@ export * from "./superfactions.schema";
 export * from "./unitPointCost.schema";
 export * from "./unitProfiles.schema";
 export * from "./units.schema";
+export * from "./price_markets.schema";
 export * from "./unitSelectionLimits.schema";
 export * from "./weapons.schema";

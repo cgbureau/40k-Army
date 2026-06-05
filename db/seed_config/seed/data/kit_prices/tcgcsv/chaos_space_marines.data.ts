@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for chaos_space_marines.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ApocalypseChaosSpaceMarinesBattalionDetachmentTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("apocalypse_chaos_space_marines_battalion_detachment__tcgcsv_msrp_usd"),
   kit_id: kitId("apocalypse_chaos_space_marines_battalion_detachment"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -24,6 +25,7 @@ export const ApocalypseChaosSpaceMarinesBattalionDetachmentTcgcsvMsrpUsdKitPrice
 export const BattleforceChaosSpaceMarinesVengeanceWarbandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("battleforce_chaos_space_marines_vengeance_warband__tcgcsv_msrp_usd"),
   kit_id: kitId("battleforce_chaos_space_marines_vengeance_warband"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "170.00",
   price_source: "tcgcsv_msrp_usd",
@@ -36,6 +38,7 @@ export const BattleforceChaosSpaceMarinesVengeanceWarbandTcgcsvMsrpUsdKitPrice: 
 export const ChaosBikersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_bikers__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_bikers"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -48,6 +51,7 @@ export const ChaosBikersTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosCultistsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_cultists__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_cultists"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "10.00",
   price_source: "tcgcsv_msrp_usd",
@@ -60,6 +64,7 @@ export const ChaosCultistsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosCultistsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_cultists__tcgcsv_low_usd"),
   kit_id: kitId("chaos_cultists"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "59.99",
   price_source: "tcgcsv_low_usd",
@@ -72,6 +77,7 @@ export const ChaosCultistsTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const ChaosCultistsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_cultists__tcgcsv_mid_usd"),
   kit_id: kitId("chaos_cultists"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "59.99",
   price_source: "tcgcsv_mid_usd",
@@ -84,6 +90,7 @@ export const ChaosCultistsTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const ChaosCultistsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_cultists__tcgcsv_high_usd"),
   kit_id: kitId("chaos_cultists"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "59.99",
   price_source: "tcgcsv_high_usd",
@@ -96,6 +103,7 @@ export const ChaosCultistsTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "10.00",
   price_source: "tcgcsv_msrp_usd",
@@ -108,6 +116,7 @@ export const ChaosSpaceMarineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineAspiringChampionTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_aspiring_champion__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_aspiring_champion"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "20.00",
   price_source: "tcgcsv_msrp_usd",
@@ -120,6 +129,7 @@ export const ChaosSpaceMarineAspiringChampionTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const ChaosSpaceMarineChaosLordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_chaos_lord__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_chaos_lord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -132,6 +142,7 @@ export const ChaosSpaceMarineChaosLordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineCultistAssaultTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_cultist_assault__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_cultist_assault"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "48.00",
   price_source: "tcgcsv_msrp_usd",
@@ -144,6 +155,7 @@ export const ChaosSpaceMarineCultistAssaultTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const ChaosSpaceMarineForgefiendTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_forgefiend__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_forgefiend"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "68.00",
   price_source: "tcgcsv_msrp_usd",
@@ -156,6 +168,7 @@ export const ChaosSpaceMarineForgefiendTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineHelbruteTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_helbrute__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_helbrute"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "54.00",
   price_source: "tcgcsv_msrp_usd",
@@ -168,6 +181,7 @@ export const ChaosSpaceMarineHelbruteTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineHeldrakeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_heldrake__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_heldrake"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "74.00",
   price_source: "tcgcsv_msrp_usd",
@@ -180,6 +194,7 @@ export const ChaosSpaceMarineHeldrakeTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineKharnTheBetrayerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_kharn_the_betrayer__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_kharn_the_betrayer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -192,6 +207,7 @@ export const ChaosSpaceMarineKharnTheBetrayerTcgcsvMsrpUsdKitPrice: KitPriceConf
 export const ChaosSpaceMarineMasterOfExecutionsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_master_of_executions__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_master_of_executions"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "25.00",
   price_source: "tcgcsv_msrp_usd",
@@ -204,6 +220,7 @@ export const ChaosSpaceMarineMasterOfExecutionsTcgcsvMsrpUsdKitPrice: KitPriceCo
 export const ChaosSpaceMarinePossessedTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_possessed__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_possessed"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "33.00",
   price_source: "tcgcsv_msrp_usd",
@@ -216,6 +233,7 @@ export const ChaosSpaceMarinePossessedTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineRaptorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_raptors__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_raptors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -228,6 +246,7 @@ export const ChaosSpaceMarineRaptorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineRaptorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_raptors__tcgcsv_low_usd"),
   kit_id: kitId("chaos_space_marine_raptors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "59.99",
   price_source: "tcgcsv_low_usd",
@@ -240,6 +259,7 @@ export const ChaosSpaceMarineRaptorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineRaptorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_raptors__tcgcsv_mid_usd"),
   kit_id: kitId("chaos_space_marine_raptors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "59.99",
   price_source: "tcgcsv_mid_usd",
@@ -252,6 +272,7 @@ export const ChaosSpaceMarineRaptorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineRaptorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_raptors__tcgcsv_high_usd"),
   kit_id: kitId("chaos_space_marine_raptors"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "59.99",
   price_source: "tcgcsv_high_usd",
@@ -264,6 +285,7 @@ export const ChaosSpaceMarineRaptorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_squad__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_squad"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "39.00",
   price_source: "tcgcsv_msrp_usd",
@@ -276,6 +298,7 @@ export const ChaosSpaceMarineSquadTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarineTerminatorLordTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_terminator_lord__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_terminator_lord"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "24.75",
   price_source: "tcgcsv_msrp_usd",
@@ -288,6 +311,7 @@ export const ChaosSpaceMarineTerminatorLordTcgcsvMsrpUsdKitPrice: KitPriceConfig
 export const ChaosSpaceMarineTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marine_terminators__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marine_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -300,6 +324,7 @@ export const ChaosSpaceMarineTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const ChaosSpaceMarinesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -312,6 +337,7 @@ export const ChaosSpaceMarinesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarinesAbaddonTheDespoilerTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_abaddon_the_despoiler__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_abaddon_the_despoiler"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -324,6 +350,7 @@ export const ChaosSpaceMarinesAbaddonTheDespoilerTcgcsvMsrpUsdKitPrice: KitPrice
 export const ChaosSpaceMarinesBattleforceDecimationWarbandTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_battleforce_decimation_warband__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_battleforce_decimation_warband"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "200.00",
   price_source: "tcgcsv_msrp_usd",
@@ -336,6 +363,7 @@ export const ChaosSpaceMarinesBattleforceDecimationWarbandTcgcsvMsrpUsdKitPrice:
 export const ChaosSpaceMarinesDarkApostleTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_dark_apostle__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_dark_apostle"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -348,6 +376,7 @@ export const ChaosSpaceMarinesDarkApostleTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const ChaosSpaceMarinesDarkApostleTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_dark_apostle__tcgcsv_low_usd"),
   kit_id: kitId("chaos_space_marines_dark_apostle"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_low_usd",
@@ -360,6 +389,7 @@ export const ChaosSpaceMarinesDarkApostleTcgcsvLowUsdKitPrice: KitPriceConfig = 
 export const ChaosSpaceMarinesDarkApostleTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_dark_apostle__tcgcsv_mid_usd"),
   kit_id: kitId("chaos_space_marines_dark_apostle"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_mid_usd",
@@ -372,6 +402,7 @@ export const ChaosSpaceMarinesDarkApostleTcgcsvMidUsdKitPrice: KitPriceConfig = 
 export const ChaosSpaceMarinesDarkApostleTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_dark_apostle__tcgcsv_high_usd"),
   kit_id: kitId("chaos_space_marines_dark_apostle"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_high_usd",
@@ -384,6 +415,7 @@ export const ChaosSpaceMarinesDarkApostleTcgcsvHighUsdKitPrice: KitPriceConfig =
 export const ChaosSpaceMarinesFabiusBileTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_fabius_bile__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_fabius_bile"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "40.00",
   price_source: "tcgcsv_msrp_usd",
@@ -396,6 +428,7 @@ export const ChaosSpaceMarinesFabiusBileTcgcsvMsrpUsdKitPrice: KitPriceConfig = 
 export const ChaosSpaceMarinesHaarkenWorldclaimerHeraldOfTheApocalypseTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_haarken_worldclaimer_herald_of_the_apocalypse__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_haarken_worldclaimer_herald_of_the_apocalypse"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -408,6 +441,7 @@ export const ChaosSpaceMarinesHaarkenWorldclaimerHeraldOfTheApocalypseTcgcsvMsrp
 export const ChaosSpaceMarinesHavocsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_havocs__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_havocs"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "55.00",
   price_source: "tcgcsv_msrp_usd",
@@ -420,6 +454,7 @@ export const ChaosSpaceMarinesHavocsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarinesNoctilithCrownTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_noctilith_crown__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_noctilith_crown"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "50.00",
   price_source: "tcgcsv_msrp_usd",
@@ -432,6 +467,7 @@ export const ChaosSpaceMarinesNoctilithCrownTcgcsvMsrpUsdKitPrice: KitPriceConfi
 export const ChaosSpaceMarinesNoiseMarineTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_noise_marine__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_noise_marine"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "35.00",
   price_source: "tcgcsv_msrp_usd",
@@ -444,6 +480,7 @@ export const ChaosSpaceMarinesNoiseMarineTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const ChaosSpaceMarinesSorcererTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_sorcerer__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_sorcerer"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "30.00",
   price_source: "tcgcsv_msrp_usd",
@@ -456,6 +493,7 @@ export const ChaosSpaceMarinesSorcererTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
 export const ChaosSpaceMarinesTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_terminators__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_msrp_usd",
@@ -468,6 +506,7 @@ export const ChaosSpaceMarinesTerminatorsTcgcsvMsrpUsdKitPrice: KitPriceConfig =
 export const ChaosSpaceMarinesTerminatorsTcgcsvLowUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_terminators__tcgcsv_low_usd"),
   kit_id: kitId("chaos_space_marines_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "60.00",
   price_source: "tcgcsv_low_usd",
@@ -480,6 +519,7 @@ export const ChaosSpaceMarinesTerminatorsTcgcsvLowUsdKitPrice: KitPriceConfig = 
 export const ChaosSpaceMarinesTerminatorsTcgcsvMidUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_terminators__tcgcsv_mid_usd"),
   kit_id: kitId("chaos_space_marines_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_mid_usd",
@@ -492,6 +532,7 @@ export const ChaosSpaceMarinesTerminatorsTcgcsvMidUsdKitPrice: KitPriceConfig = 
 export const ChaosSpaceMarinesTerminatorsTcgcsvHighUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_terminators__tcgcsv_high_usd"),
   kit_id: kitId("chaos_space_marines_terminators"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "69.99",
   price_source: "tcgcsv_high_usd",
@@ -504,6 +545,7 @@ export const ChaosSpaceMarinesTerminatorsTcgcsvHighUsdKitPrice: KitPriceConfig =
 export const ChaosSpaceMarinesVexMachinatorArchLordDiscordantTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_space_marines_vex_machinator_arch_lord_discordant__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_space_marines_vex_machinator_arch_lord_discordant"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "65.00",
   price_source: "tcgcsv_msrp_usd",
@@ -516,6 +558,7 @@ export const ChaosSpaceMarinesVexMachinatorArchLordDiscordantTcgcsvMsrpUsdKitPri
 export const StartCollectingChaosSpaceMarinesTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("start_collecting_chaos_space_marines__tcgcsv_msrp_usd"),
   kit_id: kitId("start_collecting_chaos_space_marines"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "95.00",
   price_source: "tcgcsv_msrp_usd",

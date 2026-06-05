@@ -2,7 +2,7 @@ import type {
   KitPriceConfig,
   SeedDataset,
 } from "../../../../types/_index.types";
-import { kitId, kitPriceId } from "../../../ids";
+import { kitId, kitPriceId, priceMarketId } from "../../../ids";
 
 /**
  * Imported kit price rows from TCGCSV catalog data for chaos_knights.
@@ -12,6 +12,7 @@ import { kitId, kitPriceId } from "../../../ids";
 export const ChaosKnightsKnightDesecratorTcgcsvMsrpUsdKitPrice: KitPriceConfig = {
   id: kitPriceId("chaos_knights_knight_desecrator__tcgcsv_msrp_usd"),
   kit_id: kitId("chaos_knights_knight_desecrator"),
+  price_market_id: priceMarketId("us_en"),
   currency: "usd",
   price: "150.00",
   price_source: "tcgcsv_msrp_usd",

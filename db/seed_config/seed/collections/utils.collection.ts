@@ -73,7 +73,7 @@ export const validateCollection = (
     }
 
     for (const record of dataset.records) {
-      if (!record.id) {
+      if ("id" in record && !record.id) {
         issues.push({
           collection: buildResult.collection,
           table: dataset.table,
