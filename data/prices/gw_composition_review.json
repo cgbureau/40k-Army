@@ -1,1 +1,1490 @@
-{}
+{
+  "space_marines_primaris_chaplain_on_bike": {
+    "seed_slug": "space_marines_primaris_chaplain_on_bike",
+    "gw_slug": "Primaris-Chaplain-on-Bike-2020",
+    "unit_slug_candidate": "chaplain_on_bike",
+    "product_name": null,
+    "features": [
+      "A plastic miniature for Warhammer 40,000",
+      "Mounted on a bike for added speed and manoeuvrability",
+      "Able to bellow Litanies of Battle to inspire his fellow warriors"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Primaris-Chaplain-on-Bike-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_marines_primaris_techmarine": {
+    "seed_slug": "space_marines_primaris_techmarine",
+    "gw_slug": "Space-Marine-Primaris-Lieutenant-With-Power-Sword-2020",
+    "unit_slug_candidate": "techmarine",
+    "product_name": null,
+    "features": [
+      "A plastic miniature for Warhammer 40,000",
+      "Provides a handy aura ability to nearby units",
+      "Armed with a power sword and bolt pistol"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Marine-Primaris-Lieutenant-With-Power-Sword-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_marines_outriders": {
+    "seed_slug": "space_marines_outriders",
+    "gw_slug": "Outriders-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A Fast Attack choice for the Space Marines",
+      "Swift and deadly bike-mounted hunters",
+      "Three push-fit plastic miniatures"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Outriders-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "space_marines_hammerfall_bunker": {
+    "seed_slug": "space_marines_hammerfall_bunker",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "unit_slug_candidate": "hammerfall_bunker",
+    "product_name": null,
+    "features": [
+      "A Fortification choice available to the Space Marines",
+      "Can be assembled with either a Hammerfall heavy flamer or heavy bolter array",
+      "A devastating area-denial asset"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Hammerfall-Bunker-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_marines_primaris_invader_atv": {
+    "seed_slug": "space_marines_primaris_invader_atv",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "unit_slug_candidate": "invader_atv",
+    "product_name": null,
+    "features": [
+      "A Fast Attack choice available to the Space Marines",
+      "Fire support on the move!",
+      "Can be armed with an onslaught gatling cannon or multi-melta"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Primaris-Invader-ATV-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "grey_knights_nemesis_dreadknight": {
+    "seed_slug": "grey_knights_nemesis_dreadknight",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "unit_slug_candidate": "nemesis_dreadknight",
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Grey-Knights-Grand-Master-Voldus-2017",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_marine_attack_bike": {
+    "seed_slug": "space_marine_attack_bike",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Upgrade a variety of Primaris units",
+      "Add iconography and details unique to the White Scars",
+      "Finish your models with Chapter-specific transfers"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/White-Scar-Primaris-Upgrades-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "adepta_sororitas_sister_superior_amalia_novena": {
+    "seed_slug": "adepta_sororitas_sister_superior_amalia_novena",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Lead your squads of Battle Sisters into action",
+      "Slay the Emperor's foes with faith and fury",
+      "Based on iconic Sisters of Battle artwork"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Sister-Superior-Amalia-Novena-2019",
+    "status": "needs_review",
+    "notes": null
+  },
+  "dark_eldar_voidraven_bomber": {
+    "seed_slug": "dark_eldar_voidraven_bomber",
+    "gw_slug": "Voidraven-Bomber",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Voidraven-Bomber",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necrons_convergence_of_dominion": {
+    "seed_slug": "necrons_convergence_of_dominion",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "unit_slug_candidate": "convergence_of_dominion",
+    "product_name": null,
+    "features": [
+      "A fortification for your Necron forces",
+      "Kill anyone who comes close with transdimensional abductors",
+      "Starsteles give benefits to nearby Necrons"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Convergence-of-Dominion-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "necrons_ophydian_destroyers": {
+    "seed_slug": "necrons_ophydian_destroyers",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "unit_slug_candidate": "ophydian_destroyers",
+    "product_name": null,
+    "features": [
+      "Slay your enemies with these floating killers",
+      "Cut through anything with hyperphase weaponry",
+      "Power up your Destroyers with a Plasmacyte"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Ophydian-Destroyers-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "3-6"
+  },
+  "necrons_warriors": {
+    "seed_slug": "necrons_warriors",
+    "gw_slug": "Necron-Warriors-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Includes two units – one Troops and one Fast Attack choice available to the Necrons",
+      "Push-fit – no need for glue!",
+      "Necron Warriors can be built with a choice of head and weapon options"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Warriors-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necrons_skorpekh_destroyers": {
+    "seed_slug": "necrons_skorpekh_destroyers",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "unit_slug_candidate": "skorpekh_destroyers",
+    "product_name": null,
+    "features": [
+      "Includes two units – both Elites choices available to the Necrons",
+      "Push-fit – no need for glue!",
+      "A swift and deadly melee option for the Necrons"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Skorpekh-Destroyers-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "3-6"
+  },
+  "necrons_lokhust_heavy_destroyer": {
+    "seed_slug": "necrons_lokhust_heavy_destroyer",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Destroy enemies at a distance",
+      "Push-fit",
+      "no need for glue!",
+      "Includes choice of head and weapon"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Lokhust-Heavy-Destroyer-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_trygon_mawloc": {
+    "seed_slug": "tyranid_trygon_mawloc",
+    "gw_slug": "Tyranid-Mawloc",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyranid-Mawloc",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_tyrannocyte": {
+    "seed_slug": "tyranid_tyrannocyte",
+    "gw_slug": "Tyrannocyte",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyrannocyte",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_harpy": {
+    "seed_slug": "tyranid_harpy",
+    "gw_slug": "Tyranid-Harpy",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyranid-Harpy",
+    "status": "needs_review",
+    "notes": null
+  },
+  "chaos_space_marine_helbrute": {
+    "seed_slug": "chaos_space_marine_helbrute",
+    "gw_slug": "Helbrute",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "An infernal take on the Dreadnought for the Chaos Space Marines",
+      "Arm your Helbrute for different roles with a huge armoury of powerful weapons",
+      "Customise to your liking with heads, horns, poses and more",
+      "Can also be used in Death Guard, Thousand Sons, and World Eaters armies"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Helbrute",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tau_empire_tidewall_droneport": {
+    "seed_slug": "tau_empire_tidewall_droneport",
+    "gw_slug": "Tidewall-Droneport",
+    "unit_slug_candidate": "tidewall_droneport",
+    "product_name": null,
+    "features": [
+      "A multitasking support structure for your T'au Empire armies",
+      "A defensible ring offers cover to infantry, while also serving as a hub for versatile drones",
+      "Modular design ties in perfectly with other T'au Empire emplacements"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tidewall-Droneport",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_marine_primaris_captain": {
+    "seed_slug": "space_marine_primaris_captain",
+    "gw_slug": "Space-Marine-Primaris-Captain-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Marine-Primaris-Captain-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "space_marine_tactical_squad": {
+    "seed_slug": "space_marine_tactical_squad",
+    "gw_slug": "Space-Marine-Tactical-Squad-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Marine-Tactical-Squad-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "stormraven_gunship": {
+    "seed_slug": "stormraven_gunship",
+    "gw_slug": "Stormraven-Gunship-2020",
+    "unit_slug_candidate": "stormraven_gunship",
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Stormraven-Gunship-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_marine_devastator_squad": {
+    "seed_slug": "space_marine_devastator_squad",
+    "gw_slug": "Space-Marine-Devastator-Squad-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Marine-Devastator-Squad-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "blood_angels_sanguinary_guard": {
+    "seed_slug": "blood_angels_sanguinary_guard",
+    "gw_slug": "blood-angels-sanguinary-guard-2024",
+    "unit_slug_candidate": "sanguinary_guard",
+    "product_name": null,
+    "features": [
+      "A trio of elite warriors of the Blood Angels for use in Warhammer 40,000",
+      "Equipped with jump packs, and armed for close combat with spears and swords",
+      "Peerless shock troops and equally adept as bodyguards"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/blood-angels-sanguinary-guard-2024",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-6"
+  },
+  "blood_angels_captain_terminator_armour": {
+    "seed_slug": "blood_angels_captain_terminator_armour",
+    "gw_slug": "blood-angels-captain-2024",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A versatile Captain clad in the finery of the Blood Angels",
+      "Can wield a variety of weapons to tailor his battlefield role",
+      "A range of accessories and options makes him highly customisable"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/blood-angels-captain-2024",
+    "status": "needs_review",
+    "notes": null
+  },
+  "dark_angels_master_lazarus": {
+    "seed_slug": "dark_angels_master_lazarus",
+    "gw_slug": "Dark-Angels-Master-Lazarus-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A unique HQ choice for the Dark Angels Faction",
+      "Captain of the Dark Angels 5th Company",
+      "Can alternatively be assembled as a Primaris Captain for the Dark Angels or their successor Chapters"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Dark-Angels-Master-Lazarus-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "dark_angels_interrogator_chaplain": {
+    "seed_slug": "dark_angels_interrogator_chaplain",
+    "gw_slug": "Dark-Angels-Interrogator-Chaplain-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Dark-Angels-Interrogator-Chaplain-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "deathwatch_corvus_blackstar": {
+    "seed_slug": "deathwatch_corvus_blackstar",
+    "gw_slug": "Deathwatch-Corvus-Blackstar-2020",
+    "unit_slug_candidate": "corvus_blackstar",
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Deathwatch-Corvus-Blackstar-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "deathwatch_watch_master": {
+    "seed_slug": "deathwatch_watch_master",
+    "gw_slug": "Deathwatch-Watch-Master-2020",
+    "unit_slug_candidate": "watch_master",
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Deathwatch-Watch-Master-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "deathwatch_upgrades": {
+    "seed_slug": "deathwatch_upgrades",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Deathwatch-Upgrades-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "space_marine_venerable_dreadnought": {
+    "seed_slug": "space_marine_venerable_dreadnought",
+    "gw_slug": "Space-Marine-Venerable-Dreadnought-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Marine-Venerable-Dreadnought-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "iron_hands_feirros": {
+    "seed_slug": "iron_hands_feirros",
+    "gw_slug": "Iron-Hands-Feirros-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Lead your Iron Hands into battle with the honoured Iron Father",
+      "Blast your foes apart at range with Gorgon's Wrath...",
+      "...or chop off more than just hands with Harrowhand"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Iron-Hands-Feirros-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "space_wolves_wolf_guard_terminators": {
+    "seed_slug": "space_wolves_wolf_guard_terminators",
+    "gw_slug": "space-wolves-wolf-guard-terminators-2025",
+    "unit_slug_candidate": "wolf_guard_terminators",
+    "product_name": null,
+    "features": [
+      "5 plastic miniatures for Warhammer 40,000",
+      "Add resilient heavy infantry to your Space Wolves army",
+      "Stroll through even the heaviest of enemy firepower and unleash your rage upon your foes",
+      "Easy to personalise with a choice of weapons and interchangeable parts including heads and shoulder pads"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/space-wolves-wolf-guard-terminators-2025",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 5,
+    "suggestion_source": "features_text",
+    "unit_models_range": "4-21"
+  },
+  "space_wolves_venerable_dreadnought": {
+    "seed_slug": "space_wolves_venerable_dreadnought",
+    "gw_slug": "Space-Wolves-Venerable-Dreadnought-2020",
+    "unit_slug_candidate": "venerable_dreadnought",
+    "product_name": null,
+    "features": [
+      "A plastic miniature for Warhammer 40,000",
+      "Add an honoured ancestor to your Space Wolves army",
+      "Blast enemies with a choice of ranged weaponry, or hack them apart with a Fenrisian greataxe",
+      "Can alternatively be built as Murderfang, Bjorn the Fell-Handed, or a Wulfen Dreadnought"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Wolves-Venerable-Dreadnought-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "space_wolves_wulfen": {
+    "seed_slug": "space_wolves_wulfen",
+    "gw_slug": "Space-Wolves-Wulfen-2020",
+    "unit_slug_candidate": "wulfen",
+    "product_name": null,
+    "features": [
+      "5 plastic miniatures for Warhammer 40,000",
+      "Add bestial, elite infantry to your Space Wolves army",
+      "Tear your way through enemy forces with warriors who have let their inner beast out",
+      "Easy to customise with head options and a range of deadly melee weapons"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Space-Wolves-Wulfen-2020",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 5,
+    "suggestion_source": "features_text",
+    "unit_models_range": "2-20"
+  },
+  "adepta_sororitas_rhino": {
+    "seed_slug": "adepta_sororitas_rhino",
+    "gw_slug": "Adepta-Sororitas-Rhino-2020",
+    "unit_slug_candidate": "rhino",
+    "product_name": null,
+    "features": [
+      "Carry your Battle Sister to war with the Adepta Sororitas: Rhino",
+      "A Dedicated Transport vehicle",
+      "Carries up to 10 Sororitas infantry"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Rhino-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-6"
+  },
+  "adepta_sororitas_repentia_squad": {
+    "seed_slug": "adepta_sororitas_repentia_squad",
+    "gw_slug": "Adepta-Sororitas-Repentia-Squad-2020",
+    "unit_slug_candidate": "repentia_squad",
+    "product_name": null,
+    "features": [
+      "Seek holy redemption with the ferocious Repentia",
+      "Armed with penitent eviscerators",
+      "brutally destructive two-handed chainblades",
+      "Includes 10 plastic miniatures (nine Repentia and one Repentia Superior)"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Repentia-Squad-2020",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 10,
+    "suggestion_source": "features_text",
+    "unit_models_range": "5-10"
+  },
+  "adepta_sororitas_immolator": {
+    "seed_slug": "adepta_sororitas_immolator",
+    "gw_slug": "Adepta-Sororitas-Immolator-2020",
+    "unit_slug_candidate": "immolator",
+    "product_name": null,
+    "features": [
+      "Burn foes as your Sororitas ride to war with the Immolator",
+      "A Dedicated Transport vehicle",
+      "Carries up to six Sororitas infantry"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Immolator-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-6"
+  },
+  "adepta_sororitas_penitent_engines": {
+    "seed_slug": "adepta_sororitas_penitent_engines",
+    "gw_slug": "Adepta-Sororitas-Penitent-Engines-2020",
+    "unit_slug_candidate": "penitent_engines",
+    "product_name": null,
+    "features": [
+      "A murderously destructive Heavy Support choice for Adepta Sororitas armies",
+      "Builds 2 Penitent Engines or Mortifiers",
+      "Seek holy death with heavy flamers and a brutal medley of buzz-saws or flails"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Penitent-Engines-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-2"
+  },
+  "adepta_sororitas_arco_flagellants": {
+    "seed_slug": "adepta_sororitas_arco_flagellants",
+    "gw_slug": "Adepta-Sororitas-Arco-Flagellants-2020",
+    "unit_slug_candidate": "arco_flagellants",
+    "product_name": null,
+    "features": [
+      "Ten Arco-flagellant penitents for your Adepta Sororitas army",
+      "Swift and deadly melee specialists",
+      "Includes a host of customisation options and additional parts"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Arco-Flagellants-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "3-10"
+  },
+  "adepta_sororitas_hospitaller": {
+    "seed_slug": "adepta_sororitas_hospitaller",
+    "gw_slug": "Adepta-Sororitas-Hospitaller-2020",
+    "unit_slug_candidate": "hospitaller",
+    "product_name": null,
+    "features": [
+      "An Elites choice for the Adepta Sororitas Faction",
+      "A field medic able to patch up wounded Battle Sisters",
+      "Armed with a bolt pistol and chirurgeon’s tools"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Hospitaller-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "adepta_sororitas_retributor_squad": {
+    "seed_slug": "adepta_sororitas_retributor_squad",
+    "gw_slug": "Adepta-Sororitas-Retributor-Squad-2020",
+    "unit_slug_candidate": "retributor_squad",
+    "product_name": null,
+    "features": [
+      "Assemble the heavy weapon specialists of the Adepta Sororitas army",
+      "Gear up with your choice of weapons and wargear",
+      "Includes five Retributors and two Armorium Cherubs"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Retributor-Squad-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "5-5"
+  },
+  "adepta_sororitas_the_triumph_of_st_katherine": {
+    "seed_slug": "adepta_sororitas_the_triumph_of_st_katherine",
+    "gw_slug": "Adepta-Sororitas-The-Triumph-Of-St-Katherine-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Inspire your Adepta Sororitas with the presence of a legendary hero in state",
+      "Accompanied by a procession of relic bearers and cherubs",
+      "An incredible centrepiece model for your army or collection"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-The-Triumph-Of-St-Katherine-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "adepta_sororitas_battle_sisters_squad": {
+    "seed_slug": "adepta_sororitas_battle_sisters_squad",
+    "gw_slug": "Adepta-Sororitas-Battle-Sisters-Squad-2020",
+    "unit_slug_candidate": "battle_sisters_squad",
+    "product_name": null,
+    "features": [
+      "Assemble the faithful core of your Adepta Sororitas army",
+      "Builds 10 Battle Sisters armed with bolters and plenty of wargear",
+      "Can alternatively build a Dominion Squad of weapons specialists"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Battle-Sisters-Squad-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "10-13"
+  },
+  "adepta_sororitas_exorcist": {
+    "seed_slug": "adepta_sororitas_exorcist",
+    "gw_slug": "Adepta-Sororitas-Exorcist-2020",
+    "unit_slug_candidate": "exorcist",
+    "product_name": null,
+    "features": [
+      "An Adepta Sororitas battle tank that offers devastating fire support",
+      "The Exorcist missile launcher delivers high-explosive death from afar",
+      "Alternatively, Exorcist conflagration rockets unleash multiple salvoes of anti-personnel munitions"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Exorcist-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "adepta_sororitas_seraphim_squad": {
+    "seed_slug": "adepta_sororitas_seraphim_squad",
+    "gw_slug": "Adepta-Sororitas-Seraphim-Squad-2020",
+    "unit_slug_candidate": "seraphim_squad",
+    "product_name": null,
+    "features": [
+      "Strike from above with the skyborne Seraphim",
+      "Includes five plastic Seraphim miniatures",
+      "Can be assembled as Zephyrim instead"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adepta-Sororitas-Seraphim-Squad-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "4-12"
+  },
+  "adeptus_custodes_vertus_praetors": {
+    "seed_slug": "adeptus_custodes_vertus_praetors",
+    "gw_slug": "Adeptus-Custodes-Vertus-Praetors-2018",
+    "unit_slug_candidate": "vertus_praetors",
+    "product_name": null,
+    "features": [
+      "A set of 3 Adeptus Custodes on Dawneagle jetbikes",
+      "Incredibly fast and highly manoeuvrable hit-and-run troops",
+      "Kit includes options for a Shield-Captain"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Custodes-Vertus-Praetors-2018",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "2-6"
+  },
+  "adeptus_custodes_custodian_wardens": {
+    "seed_slug": "adeptus_custodes_custodian_wardens",
+    "gw_slug": "Adeptus-Custodes-Custodian-Wardens-2018",
+    "unit_slug_candidate": "custodian_wardens",
+    "product_name": null,
+    "features": [
+      "5 plastic miniatures for Warhammer 40,000 and Warhammer: The Horus Heresy",
+      "Add the finest warriors of the Imperium to your Adeptus Custodes or Talons of the Emperor army",
+      "Hack your way through even the toughest of enemies with Emperor-given speed and strength",
+      "Easily customisable with interchangeable heads, and a selection of weapons and wargear"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Custodes-Custodian-Wardens-2018",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 5,
+    "suggestion_source": "features_text",
+    "unit_models_range": "3-11"
+  },
+  "adeptus_mechanicus_serberys_raiders": {
+    "seed_slug": "adeptus_mechanicus_serberys_raiders",
+    "gw_slug": "Adeptus-Mechanicus-Serberys-Raiders-2020",
+    "unit_slug_candidate": "serberys_raiders",
+    "product_name": null,
+    "features": [
+      "Swift and versatile vanguard riders",
+      "Can instead be assembled as Serberys Sulphurhounds",
+      "A Fast Attack choice for the Adeptus Mechanicus"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Serberys-Raiders-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "3-7"
+  },
+  "adeptus_mechanicus_pteraxii": {
+    "seed_slug": "adeptus_mechanicus_pteraxii",
+    "gw_slug": "Adeptus-Mechanicus-Pteraxii-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Swift-winged jump infantry that unleash a storm of bullets with their flechette blasters",
+      "Can instead be assembled as Pteraxii Sterylizors",
+      "A Fast Attack choice for the Adeptus Mechanicus"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Pteraxii-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "adeptus_mechanicus_archaeopter": {
+    "seed_slug": "adeptus_mechanicus_archaeopter",
+    "gw_slug": "Adeptus-Mechanicus-Archaeopter-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A swift aerial transport craft",
+      "Can instead be assembled as an Archaeopter Fusilave or Archaeopter Stratoraptor",
+      "A Flyer choice for the Adeptus Mechanicus"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Archaeopter-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "adeptus_mechanicus_tech_priest_manipulus": {
+    "seed_slug": "adeptus_mechanicus_tech_priest_manipulus",
+    "gw_slug": "Adeptus-Mechanicus-Tech-priest-Manipulus-2020",
+    "unit_slug_candidate": "tech_priest_manipulus",
+    "product_name": null,
+    "features": [
+      "Keeper of the sacred Motive Force",
+      "Repair damaged vehicles and augment your units in battle",
+      "An HQ choice for the Adeptus Mechanicus"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Tech-priest-Manipulus-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "adeptus_mechanicus_skorpius_disintegrator": {
+    "seed_slug": "adeptus_mechanicus_skorpius_disintegrator",
+    "gw_slug": "Adeptus-Mechanicus-Skorpius-Disintegrator-2019",
+    "unit_slug_candidate": "skorpius_disintegrator",
+    "product_name": null,
+    "features": [
+      "An armoured vanguard craft for the Adeptus Mechanicus",
+      "A Heavy Support choice that can be equipped with a choice of deadly turret weapon",
+      "Can alternatively be assembled as a Skorpius Dunerider"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Skorpius-Disintegrator-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "astra_militarum_tech_priest_enginseer": {
+    "seed_slug": "astra_militarum_tech_priest_enginseer",
+    "gw_slug": "Astra-Militarum-Tech-Priest-Enginseer",
+    "unit_slug_candidate": "tech_priest_enginseer",
+    "product_name": null,
+    "features": [
+      "A plastic character for Warhammer 40,000",
+      "Add a handy vehicle-repairing expert to your Astra Militarum or Adeptus Mechanicus army",
+      "Repair and restore vehicles in the name of the Omnissiah",
+      "Armed with a heavy cog axe and protected by thick armour"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Astra-Militarum-Tech-Priest-Enginseer",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "craftworlds_howling_banshees": {
+    "seed_slug": "craftworlds_howling_banshees",
+    "gw_slug": "Craftworlds-Howling-Banshees-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Lethal close combat fighters",
+      "Includes multiple build options for the Exarch",
+      "Assemble as either Asuryani or Ynarri warriors"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Craftworlds-Howling-Banshees-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "eldar_dire_avengers": {
+    "seed_slug": "eldar_dire_avengers",
+    "gw_slug": "Eldar-Dire-Avengers-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "5 plastic miniatures for Warhammer 40,000",
+      "Add tactically flexible warriors to your Aeldari army",
+      "Hold the line and cut down foes with punishing bursts of shuriken fire",
+      "Includes multiple build options for the optional Exarch, and a Dire Avengers Aspect shrine"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Eldar-Dire-Avengers-2017",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 5,
+    "suggestion_source": "features_text"
+  },
+  "drukhari_incubi": {
+    "seed_slug": "drukhari_incubi",
+    "gw_slug": "Drukhari-Incubi-2020",
+    "unit_slug_candidate": "incubi",
+    "product_name": null,
+    "features": [
+      "5 plastic miniatures for Warhammer 40,000",
+      "Add elite, murderous close combat warriors to your Drukhari army",
+      "Slice your way through opponents with sweeps of vicious klaives",
+      "Can also be fielded in a Ynnari force in your Aeldari army"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Drukhari-Incubi-2020",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 5,
+    "suggestion_source": "features_text",
+    "unit_models_range": "5-10"
+  },
+  "eldar_windriders": {
+    "seed_slug": "eldar_windriders",
+    "gw_slug": "Eldar-Windriders-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "3 plastic miniatures for Warhammer 40,000",
+      "Add fast, agile, and hard-hitting jetbikes to your Aeldari army",
+      "Threaten wide swathes of the battlefield, harass your enemies, and mow down lesser units",
+      "Can be armed with a twin shuriken catapult, shuriken cannon, or scatter laser"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Eldar-Windriders-2017",
+    "status": "needs_review",
+    "notes": null,
+    "suggested_model_count": 3,
+    "suggestion_source": "features_text"
+  },
+  "eldar_farseer_skyrunner": {
+    "seed_slug": "eldar_farseer_skyrunner",
+    "gw_slug": "Eldar-Farseer-Skyrunner-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A plastic character for Warhammer 40,000",
+      "Add a highly mobile psyker to your Aeldari army",
+      "Combine the firepower of a sleek jetbike with the power of the warp",
+      "Can alternatively be built as a Warlock Skyrunner"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Eldar-Farseer-Skyrunner-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "eldar_hemlock_wraithfighter": {
+    "seed_slug": "eldar_hemlock_wraithfighter",
+    "gw_slug": "Eldar-Hemlock-Wraithfighter-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A plastic aircraft for Warhammer 40,000",
+      "Add a fast, sleek attack craft to your Aeldari army",
+      "Swoop low and fast, mowing down enemy infantry",
+      "Can alternatively be built as a Crimson Hunter"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Eldar-Hemlock-Wraithfighter-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "dark_eldar_venom": {
+    "seed_slug": "dark_eldar_venom",
+    "gw_slug": "Dark-Eldar-Venom-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A plastic vehicle for Warhammer 40,000",
+      "Add a sleek, swift light transport to your Drukhari army",
+      "Outmanoeuvre and outflank slower enemy forces",
+      "Can also be fielded in a Ynnari force in your Aeldari army"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Dark-Eldar-Venom-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "dark_eldar_talos_pain_engine": {
+    "seed_slug": "dark_eldar_talos_pain_engine",
+    "gw_slug": "Dark-Eldar-Talos-Pain-Engine-2018",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Dark-Eldar-Talos-Pain-Engine-2018",
+    "status": "needs_review",
+    "notes": null
+  },
+  "dark_eldar_scourges": {
+    "seed_slug": "dark_eldar_scourges",
+    "gw_slug": "Dark-Eldar-Scourges",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Dark-Eldar-Scourges",
+    "status": "needs_review",
+    "notes": null
+  },
+  "genestealer_cults_kelermorph": {
+    "seed_slug": "genestealer_cults_kelermorph",
+    "gw_slug": "Genestealer-Cults-Kelermorph-2020",
+    "unit_slug_candidate": "kelermorph",
+    "product_name": null,
+    "features": [
+      "A hero of the revolution",
+      "Gun down enemy Characters with ease",
+      "An Elites choice for the Genestealer Cults"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Kelermorph-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_achilles_ridgerunner": {
+    "seed_slug": "genestealer_cults_achilles_ridgerunner",
+    "gw_slug": "Genestealer-Cults-Achilles-Ridgerunner-2019",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A fast-moving scout vehicle with a great deal of firepower",
+      "Can support and improve a unit of Atalan Jackals"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Achilles-Ridgerunner-2019",
+    "status": "needs_review",
+    "notes": null
+  },
+  "genestealer_cults_aberrants": {
+    "seed_slug": "genestealer_cults_aberrants",
+    "gw_slug": "Genestealer-Cults-Aberrants-2019",
+    "unit_slug_candidate": "aberrants",
+    "product_name": null,
+    "features": [
+      "A brutal close-combat unit for Genestealer Cults armies",
+      "Enough components to build five Aberrants",
+      "Options to build a single Hypermorph"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Aberrants-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "5-10"
+  },
+  "genestealer_cults_abominant": {
+    "seed_slug": "genestealer_cults_abominant",
+    "gw_slug": "Genestealer-Cults-Abominant-2019",
+    "unit_slug_candidate": "abominant",
+    "product_name": null,
+    "features": [
+      "Armed with a power sledgehammer and rending claw",
+      "A melee-specialist Elites choice for Genestealer Cults armies"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Abominant-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_biophagus": {
+    "seed_slug": "genestealer_cults_biophagus",
+    "gw_slug": "Genestealer-Cults-Biophagus-2019",
+    "unit_slug_candidate": "biophagus",
+    "product_name": null,
+    "features": [
+      "Use genomic enhancement to improve the characteristics of a nearby Aberrant unit",
+      "A formidable melee combatant in his own right",
+      "Accompanied by an Alchemicus Familiar"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Biophagus-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_jackal_alphus": {
+    "seed_slug": "genestealer_cults_jackal_alphus",
+    "gw_slug": "Genestealer-Cults-Jackal-Alphus-2019",
+    "unit_slug_candidate": "jackal_alphus",
+    "product_name": null,
+    "features": [
+      "Lead your Atalan Jackals in battle",
+      "Enhance the accuracy of nearby Genestealer Cults units"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Jackal-Alphus-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_nexos": {
+    "seed_slug": "genestealer_cults_nexos",
+    "gw_slug": "Genestealer-Cults-Nexos-2019",
+    "unit_slug_candidate": "nexos",
+    "product_name": null,
+    "features": [
+      "Coordinate deadly ambushes",
+      "Gain more Command Points for your army"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Nexos-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_locus": {
+    "seed_slug": "genestealer_cults_locus",
+    "gw_slug": "Genestealer-Cults-Locus-2019",
+    "unit_slug_candidate": "locus",
+    "product_name": null,
+    "features": [
+      "Protect your favourite characters",
+      "Strike down enemies with vicious close-combat abilities",
+      "Customise your model with a choice of 4 heads"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Locus-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_magus": {
+    "seed_slug": "genestealer_cults_magus",
+    "gw_slug": "Genestealer-Cults-Magus-2019",
+    "unit_slug_candidate": "magus",
+    "product_name": null,
+    "features": [
+      "Unleash sinister psychic powers",
+      "Deny enemy psykers and enhance nearby units"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Magus-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_clamavus": {
+    "seed_slug": "genestealer_cults_clamavus",
+    "gw_slug": "Genestealer-Cults-Clamavus-2019",
+    "unit_slug_candidate": "clamavus",
+    "product_name": null,
+    "features": [
+      "Enhance the speed of your nearby units",
+      "Disrupt enemy reinforcements with the Scrambler Array"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Clamavus-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "genestealer_cults_broodcoven": {
+    "seed_slug": "genestealer_cults_broodcoven",
+    "gw_slug": "Genestealer-Cults-Broodcoven",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Broodcoven",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_genestealers": {
+    "seed_slug": "tyranid_genestealers",
+    "gw_slug": "tyranids-genestealers-2023",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Terrifying melee killers for Tyranids and Genestealer Cults armies",
+      "Builds 10 Genestealers, four-armed killers whose talons rend through armour",
+      "Cosmetic options to build your swarm with fanged maws or feeder tendrils"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/tyranids-genestealers-2023",
+    "status": "needs_review",
+    "notes": null
+  },
+  "genestealer_cults_atalan_jackals": {
+    "seed_slug": "genestealer_cults_atalan_jackals",
+    "gw_slug": "Genestealer-Cults-Atalan-Jackals-2019",
+    "unit_slug_candidate": "atalan_jackals",
+    "product_name": null,
+    "features": [
+      "Scout ahead and chase down enemy units",
+      "Arm your squads with a huge host of weapon options",
+      "Customise your models with heads, accessories and more"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Atalan-Jackals-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "5-17"
+  },
+  "genestealer_cults_sanctus": {
+    "seed_slug": "genestealer_cults_sanctus",
+    "gw_slug": "Genestealer-Cults-Sanctus-2019",
+    "unit_slug_candidate": "sanctus",
+    "product_name": null,
+    "features": [
+      "Assassinate enemy characters",
+      "Gear up with your choice of weapons"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Genestealer-Cults-Sanctus-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "necron_warriors": {
+    "seed_slug": "necron_warriors",
+    "gw_slug": "Necron-Warriors-2020",
+    "unit_slug_candidate": "necron_warriors",
+    "product_name": null,
+    "features": [
+      "Includes two units – one Troops and one Fast Attack choice available to the Necrons",
+      "Push-fit – no need for glue!",
+      "Necron Warriors can be built with a choice of head and weapon options"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Warriors-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "2-40"
+  },
+  "necron_canoptek_wraiths": {
+    "seed_slug": "necron_canoptek_wraiths",
+    "gw_slug": "Necron-Canoptek-Wraiths-2020",
+    "unit_slug_candidate": "canoptek_wraiths",
+    "product_name": null,
+    "features": [
+      "Guardians of the slumbering Tomb Worlds",
+      "Horrendously effective at close range",
+      "Able to move through terrain completely unhindered"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Canoptek-Wraiths-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "6-36"
+  },
+  "necron_tomb_blades": {
+    "seed_slug": "necron_tomb_blades",
+    "gw_slug": "Necron-Tomb-Blades-2020",
+    "unit_slug_candidate": "tomb_blades",
+    "product_name": null,
+    "features": [
+      "Surprisingly fast, incredibly evasive Necron craft",
+      "Able to fly and take extra shields",
+      "Armed with choice of gauss blasters, tesla carbines or particle beamer"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Tomb-Blades-2020",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "3-6"
+  },
+  "necron_immortals_deathmarks": {
+    "seed_slug": "necron_immortals_deathmarks",
+    "gw_slug": "Necron-Immortals-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Immortals-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necron_doom_scythe_night_scythe": {
+    "seed_slug": "necron_doom_scythe_night_scythe",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Strikingly-shaped iconic Necron aircraft",
+      "Kit can be used to optionally assemble a Doom Scythe",
+      "Literally armed with a death ray!"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Doom-Scythe-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necron_catacomb_commmand_barge": {
+    "seed_slug": "necron_catacomb_commmand_barge",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Catacomb-Command-Barge-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necron_overlord": {
+    "seed_slug": "necron_overlord",
+    "gw_slug": "necrons-overlord-2023",
+    "unit_slug_candidate": "overlord",
+    "product_name": null,
+    "features": [
+      "A mighty commander for your Necrons",
+      "Armed with a powerful, wrist-mounted tachyon arrow and a lethal blade",
+      "Shrug off attacks with an immortal armoured carapace"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/necrons-overlord-2023",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "orks_kustom_boosta_blasta": {
+    "seed_slug": "orks_kustom_boosta_blasta",
+    "gw_slug": "Orks-Kustom-Boosta-Blasta-2019",
+    "unit_slug_candidate": "kustom_boosta_blasta",
+    "product_name": null,
+    "features": [
+      "A versatile choice for a Speed Freeks army",
+      "Deadly at range with the rivet kannon...",
+      "...or up-close with the spiked ram and burna exhausts"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Orks-Kustom-Boosta-Blasta-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "rukkatrukk_squigbuggy": {
+    "seed_slug": "rukkatrukk_squigbuggy",
+    "gw_slug": "Orks-Rukkatrukk-Squigbuggy-2018",
+    "unit_slug_candidate": "rukkatrukk_squigbuggy",
+    "product_name": null,
+    "features": [
+      "A mobile weapons platform liable to explode calamitously",
+      "Launches bitey, bile and boom squigs, with hilarious consequences"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Orks-Rukkatrukk-Squigbuggy-2018",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "deffkilla_wartrike": {
+    "seed_slug": "deffkilla_wartrike",
+    "gw_slug": "Orks-Deffkilla-Wartrike-2018",
+    "unit_slug_candidate": "deffkilla_wartrike",
+    "product_name": null,
+    "features": [
+      "Fast, light and deadly – the perfect Ork trike",
+      "Armed with twin boomstikks, serrated tyres and a furious, snagga klaw-wielding Speedboss"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Orks-Deffkilla-Wartrike-2018",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "boomdakka_snazzwagon": {
+    "seed_slug": "boomdakka_snazzwagon",
+    "gw_slug": "Orks-Boomdakka-Snazzwagon-2018",
+    "unit_slug_candidate": "boomdakka_snazzwagon",
+    "product_name": null,
+    "features": [
+      "Lightly armoured yet heavily armed Ork speedster",
+      "Crewed by pyromaniac Burna Boys, cheerily flinging flames at the foe"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Orks-Boomdakka-Snazzwagon-2018",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "ork_warbiker_mob": {
+    "seed_slug": "ork_warbiker_mob",
+    "gw_slug": "Ork-Warbiker-Mob-2018",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Ork-Warbiker-Mob-2018",
+    "status": "needs_review",
+    "notes": null
+  },
+  "ork_gretchin": {
+    "seed_slug": "ork_gretchin",
+    "gw_slug": "Ork-Gretchin-2018",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Ork-Gretchin-2018",
+    "status": "needs_review",
+    "notes": null
+  },
+  "ork_mek_gun": {
+    "seed_slug": "ork_mek_gun",
+    "gw_slug": "Ork-Mek-2018",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Ork-Mek-2018",
+    "status": "needs_review",
+    "notes": null
+  },
+  "orks_shokkjump_dragsta": {
+    "seed_slug": "orks_shokkjump_dragsta",
+    "gw_slug": "Orks-Shokkjump-Dragsta-2019",
+    "unit_slug_candidate": "shokkjump_dragsta",
+    "product_name": null,
+    "features": [
+      "Devastates enemies at almost any range with a host of deadly weapons",
+      "Capable of teleporting with the Shokk Tunnel ability"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Orks-Shokkjump-Dragsta-2019",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "ork_killa_kans": {
+    "seed_slug": "ork_killa_kans",
+    "gw_slug": "Ork-Killa-Kans",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Ork-Killa-Kans",
+    "status": "needs_review",
+    "notes": null
+  },
+  "astra_militarum_baneblade": {
+    "seed_slug": "astra_militarum_baneblade",
+    "gw_slug": "astra-militarum-baneblade-2023",
+    "unit_slug_candidate": "baneblade",
+    "product_name": null,
+    "features": [
+      "A plastic vehicle for Warhammer 40,000",
+      "Add a mighty battle tank to your Astra Militarum army",
+      "Destroy enemy units with the versatile Baneblade cannon",
+      "This huge 170mm by 110mm by 275mm kit can alternatively be built as a Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/astra-militarum-baneblade-2023",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "tyranid_warriors": {
+    "seed_slug": "tyranid_warriors",
+    "gw_slug": "Tyranid-Warriors-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyranid-Warriors-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_gargoyle_brood": {
+    "seed_slug": "tyranid_gargoyle_brood",
+    "gw_slug": "Tyranid-Gargoyle-Brood",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyranid-Gargoyle-Brood",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_broodlord": {
+    "seed_slug": "tyranid_broodlord",
+    "gw_slug": "Tyranid-Broodlord",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyranid-Broodlord",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tyranid_tyrannofex": {
+    "seed_slug": "tyranid_tyrannofex",
+    "gw_slug": "Tyranid-Tyrannofex",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tyranid-Tyrannofex",
+    "status": "needs_review",
+    "notes": null
+  },
+  "imperial_knights_knight_preceptor_canis_rex": {
+    "seed_slug": "imperial_knights_knight_preceptor_canis_rex",
+    "gw_slug": "imperial-knights-knight-preceptor-canis-rex-2025",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A plastic war machine for Warhammer 40,000",
+      "Add a noble walker to your Imperial Knights, Space Marines, Astra Militarum, Adepta Sororitas, Adeptus Custodes, Adeptus Mechanicus, or Imperial Agents army",
+      "Obliterate enemy units with incredibly powerful weaponry",
+      "Can alternatively be built as a Knight Paladin, Knight Errant, Knight Gallant, Knight Warden, Knight Crusader, Knight Despoiler, or Canis Rex and Sir Hekhtur"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/imperial-knights-knight-preceptor-canis-rex-2025",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tau_empire_fire_warriors": {
+    "seed_slug": "tau_empire_fire_warriors",
+    "gw_slug": "Tau-Empire-Fire-Warriors-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Reliable frontline infantry for T'au Empire armies",
+      "Builds 10 Fire Warriors, with options for pulse rifles or pulse carbines as well as plenty of cosmetic variations",
+      "Includes two tactical drones and a mobile-deployment turret"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-Fire-Warriors-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tau_empire_xv88_broadside_battlesuit": {
+    "seed_slug": "tau_empire_xv88_broadside_battlesuit",
+    "gw_slug": "Tau-Empire-XV88-Broadside-Battlesuit-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A heavily armed fire support battlesuit for T'au Empire armies",
+      "Blast foes apart with a heavy rail rifle or missile pods, plus a variety of secondary weapons",
+      "Includes two tactical drones with different loadouts, including a lethal Missile Drone"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-XV88-Broadside-Battlesuit-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "xv104_riptide_battlesuit": {
+    "seed_slug": "xv104_riptide_battlesuit",
+    "gw_slug": "Tau-Empire-XV104-Riptide-Battlesuit-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A massive linebreaker battlesuit for T'au Empire armies",
+      "Plenty of options for powerful weapons, poses, and support systems",
+      "Devastate your enemies from afar with two Shielded Missile Drones"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-XV104-Riptide-Battlesuit-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tau_empire_commander": {
+    "seed_slug": "tau_empire_commander",
+    "gw_slug": "Tau-Empire-Commander-2017",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "Lead from the front with a swift and deadly leader for your T'au Empire armies",
+      "Versatile loadout allows you to build an Enforcer or Coldstar battlesuit to take on any foes",
+      "Includes a tactical drone sidekick, which can be built in several different ways"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-Commander-2017",
+    "status": "needs_review",
+    "notes": null
+  },
+  "cadre_fireblade": {
+    "seed_slug": "cadre_fireblade",
+    "gw_slug": "Tau-Empire-Cadre-Fireblade-2017",
+    "unit_slug_candidate": "cadre_fireblade",
+    "product_name": null,
+    "features": [
+      "A veteran warrior to lead your T'au Empire army to victory",
+      "Armed with a ceremonial bonding knife and an upgraded pulse rifle",
+      "Add the experience of a specialist in infantry tactics to your force"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-Cadre-Fireblade-2017",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "hammerhead_gunship": {
+    "seed_slug": "hammerhead_gunship",
+    "gw_slug": "Tau-Empire-Hammerhead-Gunship",
+    "unit_slug_candidate": "hammerhead_gunship",
+    "product_name": null,
+    "features": [
+      "A heavily armed flying gunship for T'au Empire armies",
+      "Unleash a terrifying railgun or ion cannon to cut down the toughest targets from afar",
+      "May alternatively be built as a Sky Ray Gunship"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-Hammerhead-Gunship",
+    "status": "needs_review",
+    "notes": null,
+    "unit_models_range": "1-3"
+  },
+  "tau_empire_ty7_devilfish": {
+    "seed_slug": "tau_empire_ty7_devilfish",
+    "gw_slug": "Tau-Empire-TY7-Devilfish-2015",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A tough and agile transport skimmer for T'au Empire armies",
+      "Fly your troops over the battlefield in style",
+      "Features a number of options for you to individualise your Devilfish"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-TY7-Devilfish-2015",
+    "status": "needs_review",
+    "notes": null
+  },
+  "tau_empire_tx4_piranha": {
+    "seed_slug": "tau_empire_tx4_piranha",
+    "gw_slug": "Tau-Empire-TX4-Piranha-2015",
+    "unit_slug_candidate": null,
+    "product_name": null,
+    "features": [
+      "A fast light scout flyer for T'au Empire armies",
+      "Skim over the battlefield and pick off your foes with attached drones",
+      "Cut through infantry or destroy enemy tanks with a choice of weaponry"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Tau-Empire-TX4-Piranha-2015",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necron_canoptek_spyder": {
+    "seed_slug": "necron_canoptek_spyder",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "unit_slug_candidate": null,
+    "product_name": "Canoptek Spyder",
+    "features": [],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Canoptek-Spyder-2020",
+    "status": "needs_review",
+    "notes": null
+  },
+  "necron_cryptek": {
+    "seed_slug": "necron_cryptek",
+    "gw_slug": "Necron-Cryptek-2020",
+    "unit_slug_candidate": null,
+    "product_name": "Cryptek",
+    "features": [
+      "The ideal commander to accompany Canoptek constructs",
+      "Repairs vehicles and improves Reanimation Protocols rolls for nearby units"
+    ],
+    "gw_url": "https://www.warhammer.com/en-US/shop/Necron-Cryptek-2020",
+    "status": "needs_review",
+    "notes": null
+  }
+}
