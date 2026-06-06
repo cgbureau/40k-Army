@@ -3970,8 +3970,14 @@
         "en-GB": {
           "price": 42.5,
           "currency": "GBP",
-          "fetched_at": "2026-06-06T10:33:38.904137+00:00"
+          "fetched_at": "2026-06-06T17:25:00.392966+00:00"
         }
+      },
+      "composition": {
+        "long_description": "<p>Unlike their Necron masters, Canoptek Spyders never sleep, but while away the aeons servicing the structures of their Tomb World. Though the Canoptek Spyder is essentially an automated drone, it is still a formidable foe when the situation demands. Any enemy foolish enough to stray within reach of the Canoptek Spyder will have flesh scoured from bone by an array of mechanical tools and pincers. If a triad of Canoptek Spyders operate together, one takes overall command, harnessing the processing capacity of the others to create a supermind far greater than the sum of its parts. This hyper-efficiency is passed on to all Canoptek Wraiths and Canoptek Scarabs in the immediate vicinity, allowing a co-ordinated and precise response to any threat - and ensuring the safety of their slumbering masters.<br /><br />When it comes to ferocious mechanical constructs, you can't get much nastier than a Canoptek Spyder. If it isn't tearing apart enemy infantry or tanks with an array of hooks and blades, then it can be used to repair your damaged vehicles. The icing on the cake (or the chip on the circuit board - whatever the Necron equivalent of cake is) is that, even in the heat of battle, it can spawn Canoptek Scarabs to boost your war efforts and irritate your foes.<br /><br />This multi-part plastic boxed set contains 30 components with which to build one Necron Canoptek Spyder. This kit comes with two ball socket stems and one large flying base. This kit is supplied unpainted and requires assembly - we recommend using Citadel Plastic Glue and Citadel Paints.</p>",
+        "features": [],
+        "pim_key": "99120110061",
+        "product_name": "Canoptek Spyder"
       }
     },
     "Necrons-Illuminor-Szeras-2020": {
@@ -5338,6 +5344,25 @@
           "currency": "GBP",
           "fetched_at": "2026-06-06T10:55:43.991657+00:00"
         }
+      }
+    },
+    "Necron-Cryptek-2020": {
+      "product_code": "99070110005",
+      "prices": {
+        "en-GB": {
+          "price": 38.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T17:26:01.759645+00:00"
+        }
+      },
+      "composition": {
+        "long_description": "Crypteks are a core element of Necron armies, harnessing ancient technologies to support their comrades and incinerating enemies in searing beams of light. They are masters of dimensional dissonance, singularity manipulation, atomic transmutation, elemental transmogrification and countless other reason-defying technologies.<br /><br />Equipped with a Canoptek cloak, this Cryptek is capable of keeping up with the rest of your skimmers and Canoptek constructs, as well as being better at repairing them too, making him a great choice in a host of armies. This model features an amazing level of detail, looking at home alongside anything from Canoptek Wraiths to Necron Overlords, and is a must-have for any Necron player looking for new tactical options.<br /><br />This kit contains 18 components and a 50mm round base, allowing you to build a Necron Cryptek armed with a staff of light and Canoptek cloak.",
+        "features": [
+          "The ideal commander to accompany Canoptek constructs",
+          "Repairs vehicles and improves Reanimation Protocols rolls for nearby units"
+        ],
+        "pim_key": "99070110005",
+        "product_name": "Cryptek"
       }
     }
   }

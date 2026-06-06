@@ -9540,5 +9540,149 @@
     "gw_product_code": "99120113049",
     "source": "gw_direct",
     "fetched_at": "2026-06-06T11:20:37.381514+00:00"
+  },
+  "necron_canoptek_spyder.en-GB": {
+    "price": 42.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:00.392966+00:00"
+  },
+  "necron_canoptek_spyder.en-AU": {
+    "price": 110.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:02.221109+00:00"
+  },
+  "necron_canoptek_spyder.en-CA": {
+    "price": 83.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:03.969560+00:00"
+  },
+  "necron_canoptek_spyder.en-EU": {
+    "price": 55.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:05.488616+00:00"
+  },
+  "necron_canoptek_spyder.de-CH": {
+    "price": 55.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:07.711432+00:00"
+  },
+  "necron_canoptek_spyder.en-PL": {
+    "price": 230.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:09.978810+00:00"
+  },
+  "necron_canoptek_spyder.en-NZ": {
+    "price": 129.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:12.180255+00:00"
+  },
+  "necron_canoptek_spyder.en-JP": {
+    "price": 9600.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "gw_product_code": "99120110022",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:25:13.976731+00:00"
+  },
+  "necron_cryptek.en-GB": {
+    "price": 38.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:01.759645+00:00"
+  },
+  "necron_cryptek.en-AU": {
+    "price": 103.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:03.900872+00:00"
+  },
+  "necron_cryptek.en-CA": {
+    "price": 74.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:05.485834+00:00"
+  },
+  "necron_cryptek.en-EU": {
+    "price": 50.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:07.009738+00:00"
+  },
+  "necron_cryptek.de-CH": {
+    "price": 50.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:08.837301+00:00"
+  },
+  "necron_cryptek.en-PL": {
+    "price": 210.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:10.319383+00:00"
+  },
+  "necron_cryptek.en-NZ": {
+    "price": 121.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:12.251073+00:00"
+  },
+  "necron_cryptek.en-JP": {
+    "price": 8600.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Necron-Cryptek-2020",
+    "gw_product_code": "99070110002",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T17:26:14.560280+00:00"
   }
 }

@@ -11768,6 +11768,14 @@ type KitPriceSeedSlug =
   | "militarum_auxilla_bullgryns__tcgcsv_msrp_usd"
   | "militarum_tempestus_scions__tcgcsv_msrp_usd"
   | "munitorium_armoured_containers__tcgcsv_msrp_usd"
+  | "necron_canoptek_spyder__gw_aud"
+  | "necron_canoptek_spyder__gw_cad"
+  | "necron_canoptek_spyder__gw_chf"
+  | "necron_canoptek_spyder__gw_eur"
+  | "necron_canoptek_spyder__gw_gbp"
+  | "necron_canoptek_spyder__gw_jpy"
+  | "necron_canoptek_spyder__gw_nzd"
+  | "necron_canoptek_spyder__gw_pln"
   | "necron_canoptek_spyder__tcgcsv_msrp_usd"
   | "necron_canoptek_wraiths__gw_aud"
   | "necron_canoptek_wraiths__gw_cad"
@@ -11788,6 +11796,14 @@ type KitPriceSeedSlug =
   | "necron_catacomb_commmand_barge__gw_nzd"
   | "necron_catacomb_commmand_barge__gw_pln"
   | "necron_catacomb_commmand_barge__tcgcsv_msrp_usd"
+  | "necron_cryptek__gw_aud"
+  | "necron_cryptek__gw_cad"
+  | "necron_cryptek__gw_chf"
+  | "necron_cryptek__gw_eur"
+  | "necron_cryptek__gw_gbp"
+  | "necron_cryptek__gw_jpy"
+  | "necron_cryptek__gw_nzd"
+  | "necron_cryptek__gw_pln"
   | "necron_cryptek__tcgcsv_msrp_usd"
   | "necron_doom_scythe_night_scythe__gw_aud"
   | "necron_doom_scythe_night_scythe__gw_cad"
@@ -13775,6 +13791,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "militarum_auxilla_bullgryns__tcgcsv_msrp_usd": "01K328046KKDA6B1EPYGEJ1AZ1",
   "militarum_tempestus_scions__tcgcsv_msrp_usd": "01KKBEC0QN4XJVQ7MN5JFBN1NX",
   "munitorium_armoured_containers__tcgcsv_msrp_usd": "01KRY0Y0ZZJX09RDJ0EEHXW3KJ",
+  "necron_canoptek_spyder__gw_aud": "01KCRGVAAX02H7EGMF741Q13RT",
+  "necron_canoptek_spyder__gw_cad": "01KD60N4837WKHCSJHR193A3JW",
+  "necron_canoptek_spyder__gw_chf": "01K29YPESA68VN1EJZ0JBX960Z",
+  "necron_canoptek_spyder__gw_eur": "01K8JYRPM5P5MVGT2W0SWQ2PYM",
+  "necron_canoptek_spyder__gw_gbp": "01K6XJXX1F7JF85V56933GT31R",
+  "necron_canoptek_spyder__gw_jpy": "01K50RGQJ2DFV39C25QCB0YF08",
+  "necron_canoptek_spyder__gw_nzd": "01KYBP6PHW2SQ3NBGMSSA2KS3D",
+  "necron_canoptek_spyder__gw_pln": "01K5PQPVGRK3HYQQCJGB2QBPDC",
   "necron_canoptek_spyder__tcgcsv_msrp_usd": "01KW9V87S2NHYW5521CTZGFK59",
   "necron_canoptek_wraiths__gw_aud": "01KKFS3NTG6T32K728DXYJB5S3",
   "necron_canoptek_wraiths__gw_cad": "01KEK2ZM7NTHT3KYMYYY45T0P2",
@@ -13795,6 +13819,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_catacomb_commmand_barge__gw_nzd": "01KV5NRRPF32BSDXZ06T30Z634",
   "necron_catacomb_commmand_barge__gw_pln": "01KMPWNKAY5JP04339BVWVW9D1",
   "necron_catacomb_commmand_barge__tcgcsv_msrp_usd": "01KXS2QA4YCZFQ638SBX3AH5D5",
+  "necron_cryptek__gw_aud": "01KS4DEX9JZQYV43AZQ0S10SDA",
+  "necron_cryptek__gw_cad": "01K0QS1SVKZ8CZ936KR2S99697",
+  "necron_cryptek__gw_chf": "01KNMC0VPXHQK99VX1MJ6M0WFT",
+  "necron_cryptek__gw_eur": "01KEBK1WKC2EX4RG1A522H05B2",
+  "necron_cryptek__gw_gbp": "01KH12TK44MQ3AQYWKD6P3EMQ0",
+  "necron_cryptek__gw_jpy": "01K0P23H92099DTXY2REN7B9YQ",
+  "necron_cryptek__gw_nzd": "01KYY10JY80HTZDTJ2N80EA9X9",
+  "necron_cryptek__gw_pln": "01KNPGMF25GGYBY25K36CVMRG2",
   "necron_cryptek__tcgcsv_msrp_usd": "01KNMYMBPFJGEQGSGN40D9J29W",
   "necron_doom_scythe_night_scythe__gw_aud": "01KYHY13F1XQNY2MX02GD1RPTQ",
   "necron_doom_scythe_night_scythe__gw_cad": "01KSCXGWYVHQHBNSTVK2QZSSWA",
