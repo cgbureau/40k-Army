@@ -65,7 +65,10 @@
     "fetched_at": "2026-06-06T16:08:26.453270+00:00",
     "long_description": "The elite amongst the elite, carefully selected and recruited for their exceptional abilities, the Deathwatch are a thin black line, a sentinel that stands between the Imperium and alien threats unimaginable. Always outnumbered – such is the staggering scale of the hordes they face – this noble brotherhood has stood stout against countless invasions, and will face countless more.<br /><br />Should you be looking to turn your Space Marines miniatures into the expert alien exterminators of the Deathwatch, this is the upgrade frame for you! Adapt your troops and vehicles and add to your Imperial miniatures collection using the icons and Deathwatch details, including:<br /><br />10x Deathwatch Space Marine shoulder pads (left arm)<br />2x Deathwatch Space Marine Terminator shoulder pads (right arm)<br />1x Deathwatch Space Marine Sergeant chest plate<br />2x Deathwatch Space Marine Sergeant helmets<br />1x Deathwatch Space Marine power sword<br />1x Deathwatch backpack icon<br />2x Deathwatch vehicle/walker icons",
     "features": [],
-    "pim_key": "99070109007"
+    "pim_key": "99070109007",
+    "auto_unit_slug": "kill_team_cassius",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "grey_knights_nemesis_dreadknight": {
     "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
@@ -86,7 +89,10 @@
       "Hack down your enemies with the storied chainblade, Frostfang",
       "Packed with details, including runes, wolf pelts, and more for a fun painting challenge"
     ],
-    "pim_key": "99120101275"
+    "pim_key": "99120101275",
+    "auto_unit_slug": "ragnar_blackmane",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "space_marine_attack_bike": {
     "gw_slug": "White-Scar-Primaris-Upgrades-2020",
@@ -153,7 +159,10 @@
       "Use reality itself as a weapon",
       "An incredible centrepiece for your Necron army"
     ],
-    "pim_key": "99120110054"
+    "pim_key": "99120110054",
+    "auto_unit_slug": "ctan_shard_of_the_void_dragon",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "necrons_ophydian_destroyers": {
     "gw_slug": "Ophydian-Destroyers-2020",
@@ -177,7 +186,10 @@
       "Obliterate your enemies with esoteric weapons",
       "Summon reinforcements through the eternity gate"
     ],
-    "pim_key": "99120110043"
+    "pim_key": "99120110043",
+    "auto_unit_slug": "monolith",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "necrons_warriors": {
     "gw_slug": "Necron-Warriors-2020",
@@ -213,7 +225,10 @@
       "Armed with six enmitic disintegrator pistols!",
       "A close-range fire support unit"
     ],
-    "pim_key": "99120110048"
+    "pim_key": "99120110048",
+    "auto_unit_slug": "hexmark_destroyer",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "necrons_canoptek_doomstalker": {
     "gw_slug": "Canoptek-Doomstalker-2020",
@@ -226,7 +241,10 @@
       "no need for glue!",
       "Perfect for defending your units"
     ],
-    "pim_key": "99120110045"
+    "pim_key": "99120110045",
+    "auto_unit_slug": "canoptek_doomstalker",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "necrons_lokhust_heavy_destroyer": {
     "gw_slug": "Lokhust-Heavy-Destroyer-2020",
@@ -247,7 +265,10 @@
     "fetched_at": "2026-06-06T16:10:44.992978+00:00",
     "long_description": "<p>Trazyn the Infinite is a preserver of histories, artefacts and events. In his possession are technologies and relics that are so valuable as to be priceless. Amongst his collection are the fabled wraithbone choir of Altansar, the preserved head of Sebastian Thor, the ossified husk of an Enslaver and a giant man clad in baroque power armour. In such a dangerous galaxy, Trazyn is loath to go out and explore it himself, but with so many exquisite artefacts to see and catalogue, he cannot afford to miss out. As a result he will send out substitutes of himself to do his dirty work. On the battlefield this can become increasingly irritating, as killing what appears to be Trazyn may simply be a Lychguard or a Necron Lord. Meanwhile, somewhere nearby, the real Trazyn is busy smashing his way through his foes to get his metal hands on his latest acquisition.<br /><br />This pack contains Trazyn the Infinite - a finely detailed resin cast kit that comes as three components, and is supplied with a 25mm Round Base. This miniature is supplied unpainted and requires assembly - we recommend using Citadel Super Glue and Citadel Paints.</p>",
     "features": [],
-    "pim_key": "99800110009"
+    "pim_key": "99800110009",
+    "auto_unit_slug": "illuminor_szeras",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "orks_ghazghkull_thraka": {
     "gw_slug": "Ghazghkull-Thraka-2020",
@@ -259,7 +280,10 @@
       "Krump anyone who gets in your way",
       "Supported by the legendary Makari"
     ],
-    "pim_key": "99120103079"
+    "pim_key": "99120103079",
+    "auto_unit_slug": "ghazghkull_thraka",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "tyranid_trygon_mawloc": {
     "gw_slug": "Tyranid-Mawloc",
@@ -415,7 +439,10 @@
       "A swift and deadly addition to any Dark Angels army",
       "Ornate bikes and armour make a perfect painting project"
     ],
-    "pim_key": "99120101361"
+    "pim_key": "99120101361",
+    "auto_unit_slug": "ravenwing_command_squad",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "dark_angels_master_lazarus": {
     "gw_slug": "Dark-Angels-Master-Lazarus-2020",
@@ -471,7 +498,10 @@
       "Able to be equipped with a wide variety of weapon options",
       "Can also be assembled as a Grey Knights Interceptor, Purifier, or Purgation Squad"
     ],
-    "pim_key": "99120107018"
+    "pim_key": "99120107018",
+    "auto_unit_slug": "strike_squad",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "grey_knights_grand_master_voldus": {
     "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
@@ -479,7 +509,10 @@
     "fetched_at": "2026-06-06T16:15:46.932353+00:00",
     "long_description": "Aldrik Voldus, Warden of the Librarius, wields more psychic might than any Grey Knight seen in centuries. The very air crackles around as he focuses his mind and bends the colossal energies of the warp to his will. With a word, purifying flames pour forth from the head of his ornate Nemesis Daemon hammer – the Malleus Argyrum – turning Chaos-tainted flesh bone and armour into pillars of ash. Heretic war engines halt as their twisted machine spirits are rent from their chassis. In Voldus’ grip reality constricts, and the helms of his enemies are crushed by invisible force; just as easily can Voldus sharpen the minds of his fellow Grey Knights, allowing them to channel their reserves into strikes that can bring low all but the largest of Daemons.<br /><br />This multi-part plastic kit contains the components necessary to assemble Grand Master Voldus, Warden of the Librarius. This is a miniature absolutely brimming with details, as befits a Grand Master of his power and reputation. His Terminator armour features numerous sacred inscriptions, along with plenty of skulls, chains and magical tomes. His legendary hammer, standing as tall as Voldus himself, is replete with purity seals and cabling reflecting its purpose as a conduit for his psychic energies, and he wields a wrist-mounted storm bolter on his left arm.<br /><br />Grand Master Voldus comes as 7 components, and is supplied with a Citadel 40mm Round base.",
     "features": [],
-    "pim_key": "99070107002"
+    "pim_key": "99070107002",
+    "auto_unit_slug": "grand_master_voldus",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "space_marine_venerable_dreadnought": {
     "gw_slug": "Space-Marine-Venerable-Dreadnought-2020",
@@ -499,7 +532,10 @@
       "Crush your enemies with the Hand of Defiance…",
       "…and lay low their fortifications."
     ],
-    "pim_key": "99120101342"
+    "pim_key": "99120101342",
+    "auto_unit_slug": "tor_garadon",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "iron_hands_feirros": {
     "gw_slug": "Iron-Hands-Feirros-2020",
@@ -536,7 +572,10 @@
       "Stalk your targets through the shadows and cut them down with the Raven’s Talons",
       "The former Chapter Master still has plenty of prey to hunt"
     ],
-    "pim_key": "99120101292"
+    "pim_key": "99120101292",
+    "auto_unit_slug": "kayvaan_shrike",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "raven_guard_primaris_upgrades_transfers": {
     "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
@@ -560,7 +599,10 @@
       "Shatter your enemies with Malleus Noctum…",
       "…and burn them to ash with Drakkis."
     ],
-    "pim_key": "99120101293"
+    "pim_key": "99120101293",
+    "auto_unit_slug": "adrax_agatone",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "space_wolves_wolf_guard_terminators": {
     "gw_slug": "space-wolves-wolf-guard-terminators-2025",
@@ -599,7 +641,10 @@
       "Inspire your force with the Wolf Helm of Russ, and club enemies into submission with a huge crozius arcanum",
       "Packed with details, including wolf pelts, a drinking horn, and a cape, making it a joy to paint"
     ],
-    "pim_key": "99070101066"
+    "pim_key": "99070101066",
+    "auto_unit_slug": "ulrik_the_slayer",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "space_wolves_iron_priest": {
     "gw_slug": "Space-Wolves-Iron-Priest-2020",
@@ -612,7 +657,10 @@
       "Blast your foes with the destructive helfrost pistol and smash them aside with a tempest hammer",
       "Packed with details, including finely wrought armour, wolf pelts, and esoteric weaponry, making it a joy to paint"
     ],
-    "pim_key": "99070101065"
+    "pim_key": "99070101065",
+    "auto_unit_slug": "iron_priest",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "space_wolves_wulfen": {
     "gw_slug": "Space-Wolves-Wulfen-2020",
@@ -637,7 +685,10 @@
       "Decimate the enemy with psychic attacks...",
       "...while shutting their powers down"
     ],
-    "pim_key": "99120101329"
+    "pim_key": "99120101329",
+    "auto_unit_slug": "chief_librarian_tigurius",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "white_scars_korsarro_khan": {
     "gw_slug": "White-Scars-KorSarro-Khan-2020",
@@ -650,7 +701,10 @@
       "Track your foes and claim their heads with the fabled sword, Moonfang",
       "Take out enemy leaders and watch their force crumble"
     ],
-    "pim_key": "99120101330"
+    "pim_key": "99120101330",
+    "auto_unit_slug": "korsarro_khan",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "adepta_sororitas_rhino": {
     "gw_slug": "Adepta-Sororitas-Rhino-2020",
@@ -723,7 +777,10 @@
       "Canoness Superior of the Order of Our Martyred Lady",
       "Floats into battle within the Pulpit of Saint Holline’s Basilica, which is equipped with a pair of heavy flamers"
     ],
-    "pim_key": "99120108055"
+    "pim_key": "99120108055",
+    "auto_unit_slug": "junith_eruita",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "adepta_sororitas_hospitaller": {
     "gw_slug": "Adepta-Sororitas-Hospitaller-2020",
@@ -1389,7 +1446,10 @@
       "Lord of the Fallen, and the Dark Angels’ most hated foe",
       "Blessed with Divine Protection, he’s incredibly hard to kill"
     ],
-    "pim_key": "99070102008"
+    "pim_key": "99070102008",
+    "auto_unit_slug": "cypher",
+    "auto_model_count": 1,
+    "composition_source": "unit_model_inferred"
   },
   "tau_empire_fire_warriors": {
     "gw_slug": "Tau-Empire-Fire-Warriors-2017",

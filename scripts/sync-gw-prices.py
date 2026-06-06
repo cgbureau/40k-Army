@@ -51,7 +51,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SLUG_CATALOG_FILE = REPO_ROOT / "data/prices/gw_slug_catalog.json"
 PRICES_CACHE_FILE = REPO_ROOT / "data/prices/gw_prices_cache.json"
 COMPOSITION_CACHE_FILE = REPO_ROOT / "data/prices/gw_composition_cache.json"
+COMPOSITION_REVIEW_FILE = REPO_ROOT / "data/prices/gw_composition_review.json"
 KITS_GLOB = str(REPO_ROOT / "db/seed_config/seed/data/kits/**/*.ts")
+UNIT_MODELS_GLOB = str(REPO_ROOT / "db/seed_config/seed/data/unit_models/**/*.ts")
 
 BASE_URL = "https://www.warhammer.com"
 
@@ -408,6 +410,207 @@ def load_composition_cache() -> dict:
 def save_composition_cache(cache: dict) -> None:
     COMPOSITION_CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
     COMPOSITION_CACHE_FILE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
+
+
+def load_composition_review() -> dict:
+    if COMPOSITION_REVIEW_FILE.exists():
+        return json.loads(COMPOSITION_REVIEW_FILE.read_text())
+    return {}
+
+
+def save_composition_review(review: dict) -> None:
+    COMPOSITION_REVIEW_FILE.parent.mkdir(parents=True, exist_ok=True)
+    COMPOSITION_REVIEW_FILE.write_text(json.dumps(review, indent=2, ensure_ascii=False))
+
+
+# ---------------------------------------------------------------------------
+# Unit models loader (for single-model inference)
+# ---------------------------------------------------------------------------
+
+def load_unit_models() -> dict[str, list[tuple[int, int]]]:
+    """
+    Returns: {unit_slug: [(min_count, max_count), ...]} for all unit_model entries.
+    Used to infer whether a kit builds a definitively single-model unit.
+    """
+    unit_models: dict[str, list[tuple[int, int]]] = {}
+    for filepath in glob.glob(UNIT_MODELS_GLOB, recursive=True):
+        content = Path(filepath).read_text()
+        # Match unit_id, minimum_model_count, maximum_model_count blocks
+        # Each UnitModelConfig block has these three fields
+        blocks = re.findall(
+            r'unit_id:\s*unitId\("([^"]+)"\).*?minimum_model_count:\s*(\d+).*?maximum_model_count:\s*(\d+)',
+            content,
+            re.DOTALL,
+        )
+        for unit_slug, mn, mx in blocks:
+            if unit_slug not in unit_models:
+                unit_models[unit_slug] = []
+            unit_models[unit_slug].append((int(mn), int(mx)))
+    return unit_models
+
+
+def single_model_units(unit_models: dict[str, list[tuple[int, int]]]) -> set[str]:
+    """Unit slugs where every model entry has min=max=1 (exactly one model)."""
+    return {
+        slug for slug, entries in unit_models.items()
+        if entries and all(mn == 1 and mx == 1 for mn, mx in entries)
+    }
+
+
+_UNIT_SLUG_PREFIXES = [
+    "space_marines_", "necrons_", "blood_angels_", "dark_angels_",
+    "space_wolves_", "black_templars_", "adepta_sororitas_",
+    "adeptus_mechanicus_", "adeptus_custodes_", "aeldari_",
+    "genestealer_cults_", "grey_knights_", "chaos_space_marines_",
+    "death_guard_", "thousand_sons_", "world_eaters_", "emperors_children_",
+    "tyranids_", "orks_", "tau_empire_", "drukhari_", "astra_militarum_",
+    "imperial_knights_", "chaos_knights_", "necron_", "deathwatch_",
+    "ultramarines_", "salamanders_", "iron_hands_", "white_scars_",
+    "raven_guard_", "imperial_fists_", "leagues_of_votann_",
+    "chaos_daemons_", "imperial_agents_",
+]
+
+# Kit slug fragments that also strip "primaris_" sub-prefix after faction strip
+_PRIMARIS_STRIP = "primaris_"
+
+
+def kit_slug_to_unit_candidates(kit_seed_slug: str) -> list[str]:
+    """Generate candidate unit_slugs from a kit seed_slug by stripping faction prefixes."""
+    candidates = [kit_seed_slug]
+    stripped = kit_seed_slug
+    for prefix in _UNIT_SLUG_PREFIXES:
+        if kit_seed_slug.startswith(prefix):
+            stripped = kit_seed_slug[len(prefix):]
+            candidates.append(stripped)
+            # Also try stripping an additional "primaris_" sub-prefix
+            if stripped.startswith(_PRIMARIS_STRIP):
+                candidates.append(stripped[len(_PRIMARIS_STRIP):])
+            break
+    return candidates
+
+
+def infer_unit_slug(kit_seed_slug: str, all_unit_slugs: set[str]) -> str | None:
+    """Return the best matching unit_slug for a kit, or None if ambiguous."""
+    for candidate in kit_slug_to_unit_candidates(kit_seed_slug):
+        if candidate in all_unit_slugs:
+            return candidate
+    return None
+
+
+# ---------------------------------------------------------------------------
+# HTML composition extraction (for legacy GW pages)
+# ---------------------------------------------------------------------------
+
+# Patterns that indicate the composition section of a product page
+_NX_PATTERN = re.compile(r"[–\-]\s*(\d+)\s*[xX]\s+([^\n<]{3,80})")
+_SET_BUILDS_PATTERN = re.compile(
+    r"(?:This (?:set|box(?:ed set)?|kit) (?:builds|contains|includes)[^.]{0,200}?)"
+    r"(?:[–\-]\s*\d+\s*[xX]\s+[^\n<]{3,80})",
+    re.DOTALL,
+)
+_COMPRISES_PATTERN = re.compile(
+    r"This kit comprises.*?(\d+)[^.]*?(?:plastic|resin|metal)\s+(?:components?|parts?|pieces?)",
+    re.DOTALL | re.IGNORECASE,
+)
+
+
+def strip_html_to_text(html: str) -> str:
+    """Strip HTML tags and decode entities to plain text."""
+    from html import unescape
+    import codecs
+    # Decode unicode escapes like < → <
+    try:
+        html = codecs.decode(html, "unicode_escape") if "\\u00" in html else html
+    except Exception:
+        pass
+    # Normalise line breaks
+    text = re.sub(r"<br\s*/?>", "\n", html, flags=re.IGNORECASE)
+    text = re.sub(r"</(?:p|li|div|tr)[^>]*>", "\n", text, flags=re.IGNORECASE)
+    # Remove remaining tags
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = unescape(text)
+    # Collapse horizontal whitespace but keep newlines
+    text = re.sub(r"[ \t]+", " ", text)
+    return text
+
+
+def extract_nx_items_from_html(html: str) -> list[tuple[int, str]]:
+    """
+    Extract (quantity, name) tuples from a GW product description HTML fragment.
+
+    Should be called on the product description section only (not the full page)
+    to avoid false matches from related product tiles or carousels.
+    """
+    text = strip_html_to_text(html)
+
+    items = []
+    for m in _NX_PATTERN.finditer(text):
+        qty = int(m.group(1))
+        name = m.group(2).strip().rstrip(".,;:")
+        # Must look like a unit/model name: reasonable length, no leftover HTML
+        if len(name) < 3 or len(name) > 80:
+            continue
+        if "<" in name or ">" in name or "\\" in name:
+            continue
+        lower = name.lower()
+        # Filter out non-unit lines (bases, components, transfers, sprues, etc.)
+        if any(w in lower for w in [
+            "base", "transfer", "sprue", "component", "part", "piece",
+            "citadel", "round", "oval", "hex", "flying", "stem",
+            "instruction", "sheet", "token", "card", "dice", "ruler",
+        ]):
+            continue
+        items.append((qty, name))
+
+    return items
+
+
+def extract_product_description_from_html(html: str) -> str | None:
+    """
+    Pull only the product description section from a GW page (legacy or Next.js).
+
+    GW legacy pages embed the description in a known div. We deliberately only
+    extract that section — not the full page — to avoid picking up Nx patterns
+    from related product tiles, carousels, or other page furniture.
+    """
+    # GW legacy pages: productView-description or similar
+    patterns = [
+        # Legacy BigCommerce-style GW pages
+        r'<div[^>]+class="[^"]*productView-description[^"]*"[^>]*>(.*?)</div\s*>',
+        r'<div[^>]+class="[^"]*product-description[^"]*"[^>]*>(.*?)</div\s*>',
+        r'<div[^>]+id="[^"]*product-description[^"]*"[^>]*>(.*?)</div\s*>',
+        # Next.js rendered pages sometimes use article or section
+        r'<article[^>]*>(.*?)</article>',
+        # Generic prose containers
+        r'<div[^>]+class="[^"]*prose[^"]*"[^>]*>(.*?)</div\s*>',
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, html, re.DOTALL | re.IGNORECASE)
+        if m:
+            content = m.group(1)
+            # Must be substantial and contain at least one sentence
+            if len(content) > 150 and "." in content:
+                return content
+
+    # Fallback: look for any div that contains "This set builds" or "This kit comprises"
+    # anchor text — only take the surrounding container
+    anchor_m = re.search(
+        r'(<div[^>]*>(?:(?!</div>).){0,500}?(?:This (?:set|box|kit) (?:builds|contains|comprises))'
+        r'(?:(?!</div>).){0,2000}?</div>)',
+        html,
+        re.DOTALL | re.IGNORECASE,
+    )
+    if anchor_m:
+        return anchor_m.group(1)
+
+    return None
+
+
+def has_structured_nx(long_description: str | None) -> bool:
+    """True if the long_description already has '– Nx Unit' composition lines."""
+    if not long_description:
+        return False
+    return bool(_NX_PATTERN.search(long_description))
 
 
 # ---------------------------------------------------------------------------
@@ -1217,6 +1420,231 @@ def phase_direct_fetch(args, catalog: dict, kits: list[dict], kits_by_code_map: 
     print(f"\n  Done. Found slugs for {total_found}/{total_kits} kits.")
 
 
+def phase_composition_scrape(
+    args,
+    catalog: dict,
+    composition_cache: dict,
+) -> None:
+    """
+    Phase 5 (--composition-scrape): Fill in composition data for kits that don't
+    yet have a structured '– Nx Unit' breakdown in their long_description.
+
+    Strategy per kit:
+      1. Skip if long_description already has '– Nx' lines (already done).
+      2. If the kit maps to a definitively single-model unit (all unit_model
+         entries have min=max=1), tag it as auto-inferred — no network call needed.
+      3. Otherwise, fetch the full GW product page HTML (handles both Next.js and
+         legacy pages) and parse it for '– Nx' composition lines.
+      4. If found → update the composition cache with the structured data.
+      5. If not found → write to gw_composition_review.json for manual review.
+
+    Respects --limit N for testing.
+    """
+    print("\n=== Phase 5: Composition HTML scrape for unstructured kits ===")
+
+    # Load unit model data for single-model inference
+    print("  Loading unit model data...")
+    unit_models_map = load_unit_models()
+    single_models = single_model_units(unit_models_map)
+    all_unit_slugs = set(unit_models_map.keys())
+    print(f"  {len(unit_models_map)} units, {len(single_models)} definitively single-model")
+
+    # Build slug → gw_slug lookup from catalog
+    seed_slug_to_gw_slug: dict[str, str] = {}
+    for gw_slug, entry in catalog["slugs"].items():
+        ss = entry.get("seed_slug") if isinstance(entry, dict) else None
+        if ss:
+            seed_slug_to_gw_slug[ss] = gw_slug
+
+    review = load_composition_review()
+
+    # Identify kits needing work
+    pending = []
+    auto_inferred = []
+
+    for seed_slug, comp_data in composition_cache.items():
+        ld = comp_data.get("long_description") or ""
+
+        # Already has structured data
+        if has_structured_nx(ld):
+            continue
+
+        # Already in review queue
+        if seed_slug in review:
+            continue
+
+        # Check if single-model unit can be auto-inferred
+        unit_slug = infer_unit_slug(seed_slug, all_unit_slugs)
+        if unit_slug and unit_slug in single_models:
+            auto_inferred.append((seed_slug, unit_slug))
+            continue
+
+        # Needs HTML fetch
+        gw_slug = seed_slug_to_gw_slug.get(seed_slug) or comp_data.get("gw_slug")
+        pending.append((seed_slug, comp_data, gw_slug, unit_slug))
+
+    print(f"  Already structured: {sum(1 for d in composition_cache.values() if has_structured_nx(d.get('long_description') or ''))}")
+    print(f"  Auto-inferred (single-model): {len(auto_inferred)}")
+    print(f"  Already in review queue: {sum(1 for s in composition_cache if s in review)}")
+    print(f"  Need HTML fetch: {len(pending)}")
+
+    # Write auto-inferred entries to composition cache
+    for seed_slug, unit_slug in auto_inferred:
+        if "auto_unit_slug" not in composition_cache.get(seed_slug, {}):
+            composition_cache[seed_slug]["auto_unit_slug"] = unit_slug
+            composition_cache[seed_slug]["auto_model_count"] = 1
+            composition_cache[seed_slug]["composition_source"] = "unit_model_inferred"
+            print(f"  ✓ auto-inferred: {seed_slug} → {unit_slug} (1 model)")
+    save_composition_cache(composition_cache)
+
+    if not pending:
+        print("  Nothing to fetch.")
+        return
+
+    if args.limit:
+        pending = pending[:args.limit]
+
+    print(f"\n  Fetching HTML for {len(pending)} kits (slow — one page at a time)...")
+
+    from playwright.sync_api import sync_playwright
+    PAGE_BATCH = 30  # New browser session every N pages
+
+    kit_batches = [pending[i:i+PAGE_BATCH] for i in range(0, len(pending), PAGE_BATCH)]
+    found_count = 0
+    review_count = 0
+
+    for batch_idx, batch in enumerate(kit_batches):
+        print(f"\n  [Batch {batch_idx+1}/{len(kit_batches)}] Starting browser session...")
+        with sync_playwright() as pw:
+            browser, ctx = make_browser_context(pw, headed=True)
+            page = ctx.new_page()
+
+            build_id = warm_up_browser(page)
+            if not build_id:
+                print("  WARN: Could not get buildId — will fall back to direct page.goto()")
+
+            for i, (seed_slug, comp_data, gw_slug, unit_slug) in enumerate(batch):
+                global_i = batch_idx * PAGE_BATCH + i + 1
+                print(f"  [{global_i}/{len(pending)}] {seed_slug}")
+
+                html_content: str | None = None
+                source_url: str | None = None
+
+                # Try Next.js API first (if we have a slug and buildId)
+                if gw_slug and build_id:
+                    # Try en-GB API
+                    api_url = f"{BASE_URL}/_next/data/{build_id}/en-GB/shop/{gw_slug}.json?slug=shop&slug={gw_slug}"
+                    try:
+                        result = page.evaluate(f"""
+                        async () => {{
+                            try {{
+                                const resp = await fetch("{api_url}", {{
+                                    headers: {{"x-nextjs-data": "1", "accept": "*/*"}}
+                                }});
+                                if (!resp.ok) return {{_error: resp.status}};
+                                return await resp.json();
+                            }} catch(e) {{ return {{_error: e.message}}; }}
+                        }}
+                        """)
+                        if result and not result.get("_error"):
+                            nd_text = json.dumps({"props": result})
+                            comp = extract_composition_from_next_data(nd_text)
+                            if comp and comp.get("long_description"):
+                                ld = comp["long_description"]
+                                if has_structured_nx(ld):
+                                    # Great — update the cache and move on
+                                    composition_cache[seed_slug].update(comp)
+                                    composition_cache[seed_slug]["composition_source"] = "nextjs_api"
+                                    save_composition_cache(composition_cache)
+                                    items = extract_nx_items_from_html(ld)
+                                    print(f"    ✓ via Next.js API — {len(items)} unit line(s)")
+                                    found_count += 1
+                                    time.sleep(random.uniform(0.5, 1.5))
+                                    continue
+                                else:
+                                    html_content = ld  # use what we got, fall through to HTML parse
+                    except Exception as e:
+                        print(f"    Next.js API error: {e}")
+
+                # Fetch full HTML page (handles legacy GW pages)
+                if gw_slug:
+                    # Try en-US (more stable URL pattern for legacy pages)
+                    for locale_prefix in ["en-US", "en-GB"]:
+                        product_url = f"{BASE_URL}/{locale_prefix}/shop/{gw_slug}"
+                        try:
+                            raw_html = page.evaluate(f"""
+                            async () => {{
+                                try {{
+                                    const resp = await fetch("{product_url}", {{
+                                        headers: {{
+                                            "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                            "accept-language": "en-US,en;q=0.9"
+                                        }}
+                                    }});
+                                    if (!resp.ok) return {{_error: resp.status}};
+                                    return await resp.text();
+                                }} catch(e) {{ return {{_error: e.message}}; }}
+                            }}
+                            """)
+                            if isinstance(raw_html, str) and len(raw_html) > 500:
+                                html_content = raw_html
+                                source_url = product_url
+                                break
+                        except Exception:
+                            continue
+
+                # Parse HTML for composition — scope to description section only.
+                # Never fall back to the full page — doing so picks up Nx patterns
+                # from related product tiles, carousels, and other page furniture.
+                found_items: list[tuple[int, str]] = []
+                if html_content:
+                    if source_url:
+                        # Full page HTML: must isolate the product description section
+                        scoped = extract_product_description_from_html(html_content)
+                        if scoped:
+                            found_items = extract_nx_items_from_html(scoped)
+                        # else: scoped is None → no structured section found → review
+                    else:
+                        # Already a description fragment (e.g., longDescription from API)
+                        found_items = extract_nx_items_from_html(html_content)
+
+                if found_items:
+                    # Build structured long_description update
+                    lines = "\n".join(f"– {qty}x {name}" for qty, name in found_items)
+                    composition_cache[seed_slug]["structured_items"] = [
+                        {"qty": qty, "name": name} for qty, name in found_items
+                    ]
+                    composition_cache[seed_slug]["composition_source"] = "html_parsed"
+                    if source_url:
+                        composition_cache[seed_slug]["html_source_url"] = source_url
+                    save_composition_cache(composition_cache)
+                    print(f"    ✓ parsed from HTML — {len(found_items)} item(s): {found_items[:3]}")
+                    found_count += 1
+                else:
+                    # Add to manual review queue
+                    review[seed_slug] = {
+                        "seed_slug": seed_slug,
+                        "gw_slug": gw_slug,
+                        "unit_slug_candidate": unit_slug,
+                        "product_name": comp_data.get("product_name"),
+                        "features": comp_data.get("features", []),
+                        "gw_url": f"{BASE_URL}/en-US/shop/{gw_slug}" if gw_slug else None,
+                        "status": "needs_review",
+                        "notes": None,
+                    }
+                    save_composition_review(review)
+                    print(f"    → added to review queue (no structured data found)")
+                    review_count += 1
+
+                time.sleep(random.uniform(1.5, 3.0))
+
+            browser.close()
+        time.sleep(random.uniform(3.0, 6.0))
+
+    print(f"\n  Done. Found: {found_count}, Added to review: {review_count}, Auto-inferred: {len(auto_inferred)}")
+    print(f"  Review file: {COMPOSITION_REVIEW_FILE}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sync GW regional kit prices")
     parser.add_argument("--crawl", action="store_true", help="Phase 1: crawl category pages for product slugs")
@@ -1225,13 +1653,15 @@ def main() -> None:
     parser.add_argument("--prices", action="store_true", help="Phase 3: fetch locale prices for all matched kits")
     parser.add_argument("--direct-fetch", action="store_true", help="Phase 2b: directly fetch unmatched kits by constructing their GW slug")
     parser.add_argument("--composition-backfill", action="store_true", help="Phase 4: backfill composition data for already-priced kits")
+    parser.add_argument("--composition-scrape", action="store_true", help="Phase 5: fetch full HTML for kits missing structured composition; writes review queue")
     parser.add_argument("--all", action="store_true", help="Run all phases")
     parser.add_argument("--limit", type=int, default=None, help="Limit items per phase (for testing)")
     parser.add_argument("--locale", type=str, default=None, help="Only fetch this locale (phase 3)")
     args = parser.parse_args()
 
     if not any([args.crawl, getattr(args, "name_match", False), args.map, args.prices,
-                getattr(args, "direct_fetch", False), getattr(args, "composition_backfill", False), args.all]):
+                getattr(args, "direct_fetch", False), getattr(args, "composition_backfill", False),
+                getattr(args, "composition_scrape", False), args.all]):
         parser.print_help()
         return
 
@@ -1268,6 +1698,10 @@ def main() -> None:
 
     if args.all or getattr(args, "composition_backfill", False):
         phase_composition_backfill(args, catalog, by_code, composition_cache)
+
+    if getattr(args, "composition_scrape", False):
+        composition_cache = load_composition_cache()
+        phase_composition_scrape(args, catalog, composition_cache)
 
     print("\nDone. Run scripts/sync-gw-prices-apply.py to write seed rows.")
 
