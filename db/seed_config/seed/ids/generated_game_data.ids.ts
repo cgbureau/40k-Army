@@ -10970,6 +10970,14 @@ type KitPriceSeedSlug =
   | "battlezone_manufactorum_sub_cloister_and_storage_fane__tcgcsv_msrp_usd"
   | "battlezone_manufactorum_vertigus__tcgcsv_msrp_usd"
   | "blood_angels_assault_squad__tcgcsv_msrp_usd"
+  | "blood_angels_captain_terminator_armour__gw_aud"
+  | "blood_angels_captain_terminator_armour__gw_cad"
+  | "blood_angels_captain_terminator_armour__gw_chf"
+  | "blood_angels_captain_terminator_armour__gw_eur"
+  | "blood_angels_captain_terminator_armour__gw_gbp"
+  | "blood_angels_captain_terminator_armour__gw_jpy"
+  | "blood_angels_captain_terminator_armour__gw_nzd"
+  | "blood_angels_captain_terminator_armour__gw_pln"
   | "blood_angels_captain_terminator_armour__tcgcsv_msrp_usd"
   | "blood_angels_chaplain_with_jump_pack__legacy_aud"
   | "blood_angels_chaplain_with_jump_pack__legacy_cad"
@@ -11109,6 +11117,14 @@ type KitPriceSeedSlug =
   | "chaos_space_marines_terminators__tcgcsv_mid_usd"
   | "chaos_space_marines_terminators__tcgcsv_msrp_usd"
   | "chaos_space_marines_vex_machinator_arch_lord_discordant__tcgcsv_msrp_usd"
+  | "combat_patrol_black_templars_2025__gw_aud"
+  | "combat_patrol_black_templars_2025__gw_cad"
+  | "combat_patrol_black_templars_2025__gw_chf"
+  | "combat_patrol_black_templars_2025__gw_eur"
+  | "combat_patrol_black_templars_2025__gw_gbp"
+  | "combat_patrol_black_templars_2025__gw_jpy"
+  | "combat_patrol_black_templars_2025__gw_nzd"
+  | "combat_patrol_black_templars_2025__gw_pln"
   | "combat_patrol_black_templars_2025__legacy_aud"
   | "combat_patrol_black_templars_2025__legacy_cad"
   | "combat_patrol_black_templars_2025__legacy_chf"
@@ -11643,6 +11659,14 @@ type KitPriceSeedSlug =
   | "iron_hands_feirros__gw_nzd"
   | "iron_hands_feirros__gw_pln"
   | "iron_hands_feirros__tcgcsv_msrp_usd"
+  | "iron_hands_primaris_upgrades_transfers__gw_aud"
+  | "iron_hands_primaris_upgrades_transfers__gw_cad"
+  | "iron_hands_primaris_upgrades_transfers__gw_chf"
+  | "iron_hands_primaris_upgrades_transfers__gw_eur"
+  | "iron_hands_primaris_upgrades_transfers__gw_gbp"
+  | "iron_hands_primaris_upgrades_transfers__gw_jpy"
+  | "iron_hands_primaris_upgrades_transfers__gw_nzd"
+  | "iron_hands_primaris_upgrades_transfers__gw_pln"
   | "iron_hands_primaris_upgrades_transfers__tcgcsv_msrp_usd"
   | "khorne_berzerkers__legacy_aud"
   | "khorne_berzerkers__legacy_cad"
@@ -11716,10 +11740,34 @@ type KitPriceSeedSlug =
   | "necron_canoptek_wraiths__gw_pln"
   | "necron_canoptek_wraiths__tcgcsv_msrp_usd"
   | "necron_canoptek_wraiths_repackage__tcgcsv_msrp_usd"
+  | "necron_catacomb_commmand_barge__gw_aud"
+  | "necron_catacomb_commmand_barge__gw_cad"
+  | "necron_catacomb_commmand_barge__gw_chf"
+  | "necron_catacomb_commmand_barge__gw_eur"
+  | "necron_catacomb_commmand_barge__gw_gbp"
+  | "necron_catacomb_commmand_barge__gw_jpy"
+  | "necron_catacomb_commmand_barge__gw_nzd"
+  | "necron_catacomb_commmand_barge__gw_pln"
   | "necron_catacomb_commmand_barge__tcgcsv_msrp_usd"
   | "necron_cryptek__tcgcsv_msrp_usd"
+  | "necron_doom_scythe_night_scythe__gw_aud"
+  | "necron_doom_scythe_night_scythe__gw_cad"
+  | "necron_doom_scythe_night_scythe__gw_chf"
+  | "necron_doom_scythe_night_scythe__gw_eur"
+  | "necron_doom_scythe_night_scythe__gw_gbp"
+  | "necron_doom_scythe_night_scythe__gw_jpy"
+  | "necron_doom_scythe_night_scythe__gw_nzd"
+  | "necron_doom_scythe_night_scythe__gw_pln"
   | "necron_doom_scythe_night_scythe__tcgcsv_msrp_usd"
   | "necron_doom_scythe_night_scythe_repackage__tcgcsv_msrp_usd"
+  | "necron_immortals_deathmarks__gw_aud"
+  | "necron_immortals_deathmarks__gw_cad"
+  | "necron_immortals_deathmarks__gw_chf"
+  | "necron_immortals_deathmarks__gw_eur"
+  | "necron_immortals_deathmarks__gw_gbp"
+  | "necron_immortals_deathmarks__gw_jpy"
+  | "necron_immortals_deathmarks__gw_nzd"
+  | "necron_immortals_deathmarks__gw_pln"
   | "necron_immortals_deathmarks__tcgcsv_high_usd"
   | "necron_immortals_deathmarks__tcgcsv_low_usd"
   | "necron_immortals_deathmarks__tcgcsv_mid_usd"
@@ -11829,6 +11877,14 @@ type KitPriceSeedSlug =
   | "ork_killa_kans__tcgcsv_msrp_usd"
   | "ork_lootas_burnas__tcgcsv_msrp_usd"
   | "ork_meganobz__tcgcsv_msrp_usd"
+  | "ork_mek_gun__gw_aud"
+  | "ork_mek_gun__gw_cad"
+  | "ork_mek_gun__gw_chf"
+  | "ork_mek_gun__gw_eur"
+  | "ork_mek_gun__gw_gbp"
+  | "ork_mek_gun__gw_jpy"
+  | "ork_mek_gun__gw_nzd"
+  | "ork_mek_gun__gw_pln"
   | "ork_mek_gun__tcgcsv_msrp_usd"
   | "ork_nobz__legacy_aud"
   | "ork_nobz__legacy_cad"
@@ -11913,6 +11969,14 @@ type KitPriceSeedSlug =
   | "raven_guard_kayvaan_shrike__gw_nzd"
   | "raven_guard_kayvaan_shrike__gw_pln"
   | "raven_guard_kayvaan_shrike__tcgcsv_msrp_usd"
+  | "raven_guard_primaris_upgrades_transfers__gw_aud"
+  | "raven_guard_primaris_upgrades_transfers__gw_cad"
+  | "raven_guard_primaris_upgrades_transfers__gw_chf"
+  | "raven_guard_primaris_upgrades_transfers__gw_eur"
+  | "raven_guard_primaris_upgrades_transfers__gw_gbp"
+  | "raven_guard_primaris_upgrades_transfers__gw_jpy"
+  | "raven_guard_primaris_upgrades_transfers__gw_nzd"
+  | "raven_guard_primaris_upgrades_transfers__gw_pln"
   | "raven_guard_primaris_upgrades_transfers__tcgcsv_msrp_usd"
   | "ravenwing_command_squad__gw_aud"
   | "ravenwing_command_squad__gw_cad"
@@ -12344,6 +12408,11 @@ type KitPriceSeedSlug =
   | "tyranid_termagants__tcgcsv_low_usd"
   | "tyranid_termagants__tcgcsv_mid_usd"
   | "tyranid_termagants__tcgcsv_msrp_usd"
+  | "tyranid_trygon_mawloc__gw_cad"
+  | "tyranid_trygon_mawloc__gw_eur"
+  | "tyranid_trygon_mawloc__gw_gbp"
+  | "tyranid_trygon_mawloc__gw_jpy"
+  | "tyranid_trygon_mawloc__gw_pln"
   | "tyranid_trygon_mawloc__tcgcsv_msrp_usd"
   | "tyranid_tyrannocyte__tcgcsv_msrp_usd"
   | "tyranid_tyrannofex__gw_cad"
@@ -12733,6 +12802,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "battlezone_manufactorum_sub_cloister_and_storage_fane__tcgcsv_msrp_usd": "01KRS6V73GFSDZTXF4VNE3DSZX",
   "battlezone_manufactorum_vertigus__tcgcsv_msrp_usd": "01KZARMKYZMK936J173EB3CCEB",
   "blood_angels_assault_squad__tcgcsv_msrp_usd": "01KT0A60DPPP2Y11AT0WQND4QV",
+  "blood_angels_captain_terminator_armour__gw_aud": "01KYZNXJQNKX6P4A26Q35KH7DZ",
+  "blood_angels_captain_terminator_armour__gw_cad": "01K27YHFPVE8XPZFSJY3M9MKWX",
+  "blood_angels_captain_terminator_armour__gw_chf": "01K6F1QQM9D9WQT9G1ZC8N2S1B",
+  "blood_angels_captain_terminator_armour__gw_eur": "01K3JV2K8NKV80BNDT10PRSPNF",
+  "blood_angels_captain_terminator_armour__gw_gbp": "01KAMFC028BRW05Z88M8HRP8W9",
+  "blood_angels_captain_terminator_armour__gw_jpy": "01K9TQ5W5QGRVK8RDSA58D3N89",
+  "blood_angels_captain_terminator_armour__gw_nzd": "01KBGQEFDTSV8NRM35851CRXRK",
+  "blood_angels_captain_terminator_armour__gw_pln": "01KW4X9XM84KJF644TZQ6HMT1N",
   "blood_angels_captain_terminator_armour__tcgcsv_msrp_usd": "01KMEB4325CSHRCANT5DH2N6CE",
   "blood_angels_chaplain_with_jump_pack__legacy_aud": "01KD3K7MTKSM485YEZ270RSWHQ",
   "blood_angels_chaplain_with_jump_pack__legacy_cad": "01KQ1ADX4RBPBB1DX60M6YTGZA",
@@ -12872,6 +12949,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "chaos_space_marines_terminators__tcgcsv_mid_usd": "01K5BDJDHY6GE1M1R65TBMFD8E",
   "chaos_space_marines_terminators__tcgcsv_msrp_usd": "01K5RYXQYMPNJAYDYT7WBP6S1T",
   "chaos_space_marines_vex_machinator_arch_lord_discordant__tcgcsv_msrp_usd": "01KCMXF68F9WJRKYTZZX3V8N35",
+  "combat_patrol_black_templars_2025__gw_aud": "01KM6KDMH76K511XTP5DY5RPS5",
+  "combat_patrol_black_templars_2025__gw_cad": "01KC7VS8T63AE235PM8M914HR0",
+  "combat_patrol_black_templars_2025__gw_chf": "01KVM6WWWS7JFEMSA9K1M2XTBK",
+  "combat_patrol_black_templars_2025__gw_eur": "01K3RRS86H9F37N26BR3YC8MXY",
+  "combat_patrol_black_templars_2025__gw_gbp": "01KB8T8S7NS2GSKVSB80YN1PB4",
+  "combat_patrol_black_templars_2025__gw_jpy": "01KE0FZTDBKAWET2E0PX5GSEBE",
+  "combat_patrol_black_templars_2025__gw_nzd": "01KT0H1AA9PHT7NXJDJ37SJX4A",
+  "combat_patrol_black_templars_2025__gw_pln": "01KWKH2W255JX2SRTVYY3AVDY1",
   "combat_patrol_black_templars_2025__legacy_aud": "01K48JXHRYPQM9HYAR69M7TZDT",
   "combat_patrol_black_templars_2025__legacy_cad": "01K8AAF926TJTJX4JK1KD9K232",
   "combat_patrol_black_templars_2025__legacy_chf": "01K3D8XZMYDM9FAXD138T8ESG8",
@@ -13406,6 +13491,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "iron_hands_feirros__gw_nzd": "01KSFHNYNGR2ZCGQRRE8APFPYB",
   "iron_hands_feirros__gw_pln": "01K90KZJ5CF02RCKRW5T6GCC89",
   "iron_hands_feirros__tcgcsv_msrp_usd": "01KED9EF0Q0KWAZN900Q3264XC",
+  "iron_hands_primaris_upgrades_transfers__gw_aud": "01K6AT79VZBKBEXCEV85NXNA3C",
+  "iron_hands_primaris_upgrades_transfers__gw_cad": "01KT8FP0BDQMVJRYRT204X9KNW",
+  "iron_hands_primaris_upgrades_transfers__gw_chf": "01KRXGGKJZ15JBS21R1A48JFVT",
+  "iron_hands_primaris_upgrades_transfers__gw_eur": "01K8SFVQN7FDSBKF0RZZJZRCB1",
+  "iron_hands_primaris_upgrades_transfers__gw_gbp": "01KVFJXE2B52GZHEHC4ENNAA3M",
+  "iron_hands_primaris_upgrades_transfers__gw_jpy": "01KBC5G72VESJ6M4JWP467K7G8",
+  "iron_hands_primaris_upgrades_transfers__gw_nzd": "01KQEPGJFHMN6GHZ8F6ZE54XV0",
+  "iron_hands_primaris_upgrades_transfers__gw_pln": "01KPCW4H7ABBW1842H43Y9JWCG",
   "iron_hands_primaris_upgrades_transfers__tcgcsv_msrp_usd": "01KCVQ7S25HKEXR6QQTGPNACJX",
   "khorne_berzerkers__legacy_aud": "01K1ANW7NCPYR01E4E2CN8VHAG",
   "khorne_berzerkers__legacy_cad": "01KVK6G3EVWY8MTR0Q487Q3NZN",
@@ -13479,10 +13572,34 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_canoptek_wraiths__gw_pln": "01K10CK51CMHK167EQT1ATWEPT",
   "necron_canoptek_wraiths__tcgcsv_msrp_usd": "01KZRVZA5DSSGNM19YSKVFTW9C",
   "necron_canoptek_wraiths_repackage__tcgcsv_msrp_usd": "01KHVCNRVV1N16X3R2SYFZXDPH",
+  "necron_catacomb_commmand_barge__gw_aud": "01KYKWNVNW98E0A6XK4ZRY2T5F",
+  "necron_catacomb_commmand_barge__gw_cad": "01KV9F5VXBHYAC3DMK6EM6XYC4",
+  "necron_catacomb_commmand_barge__gw_chf": "01KCN6ZQP2SGR8QFFVGQQCM321",
+  "necron_catacomb_commmand_barge__gw_eur": "01K3A7KAPANEBJCD03AF9JCSRG",
+  "necron_catacomb_commmand_barge__gw_gbp": "01KZ7039FSH59G26KT1BGSV5HR",
+  "necron_catacomb_commmand_barge__gw_jpy": "01KRH35Z3RYBZS8QA2732TWBY0",
+  "necron_catacomb_commmand_barge__gw_nzd": "01KV5NRRPF32BSDXZ06T30Z634",
+  "necron_catacomb_commmand_barge__gw_pln": "01KMPWNKAY5JP04339BVWVW9D1",
   "necron_catacomb_commmand_barge__tcgcsv_msrp_usd": "01KXS2QA4YCZFQ638SBX3AH5D5",
   "necron_cryptek__tcgcsv_msrp_usd": "01KNMYMBPFJGEQGSGN40D9J29W",
+  "necron_doom_scythe_night_scythe__gw_aud": "01KYHY13F1XQNY2MX02GD1RPTQ",
+  "necron_doom_scythe_night_scythe__gw_cad": "01KSCXGWYVHQHBNSTVK2QZSSWA",
+  "necron_doom_scythe_night_scythe__gw_chf": "01KW6XQ291X0DZZVV2RF9N4A88",
+  "necron_doom_scythe_night_scythe__gw_eur": "01KCY7R5Z3YS2V5NYAX5E19FDJ",
+  "necron_doom_scythe_night_scythe__gw_gbp": "01KGZ63NCSWBSM85J61G3B5KEW",
+  "necron_doom_scythe_night_scythe__gw_jpy": "01KDGKBX998PTG4NFJCH4SVNTM",
+  "necron_doom_scythe_night_scythe__gw_nzd": "01KDFNC5JJRG988QYZM37CP8T4",
+  "necron_doom_scythe_night_scythe__gw_pln": "01KAYK67Z465CGY1W6NHF5Q0CX",
   "necron_doom_scythe_night_scythe__tcgcsv_msrp_usd": "01KJ14BH0KNX5P94B44SPQKBJN",
   "necron_doom_scythe_night_scythe_repackage__tcgcsv_msrp_usd": "01KPKE586VGR1VA9D03MN5XMGE",
+  "necron_immortals_deathmarks__gw_aud": "01KNGW8HPPCG82TZ1H24E21HXJ",
+  "necron_immortals_deathmarks__gw_cad": "01KC3ZA775FE2V2TCB79C4KV8R",
+  "necron_immortals_deathmarks__gw_chf": "01KA2HW79QB2G03MSJTAF562FW",
+  "necron_immortals_deathmarks__gw_eur": "01KTH6JY0GGAV5X6ET8Z61VMR8",
+  "necron_immortals_deathmarks__gw_gbp": "01KE5S9S3KZZYJ74R27MZK9T46",
+  "necron_immortals_deathmarks__gw_jpy": "01K5C8MA2QHJEN4HC1ANWR06W4",
+  "necron_immortals_deathmarks__gw_nzd": "01KMKFTF3JK37ZQB4Q86S0T939",
+  "necron_immortals_deathmarks__gw_pln": "01KVMC8VMK4RMG6XYMK8SRWTHH",
   "necron_immortals_deathmarks__tcgcsv_high_usd": "01K8RBQ0QD46FW2W8JPWJ1P1KT",
   "necron_immortals_deathmarks__tcgcsv_low_usd": "01KGXTDXVWHT3VKT21E1N94TKQ",
   "necron_immortals_deathmarks__tcgcsv_mid_usd": "01K58NYRM03QEE902GZHZFW9ZW",
@@ -13592,6 +13709,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ork_killa_kans__tcgcsv_msrp_usd": "01KSZ4C4492SBRYG94NAS397NA",
   "ork_lootas_burnas__tcgcsv_msrp_usd": "01KDKFEJQBMF9QH3JXNYQFRS5D",
   "ork_meganobz__tcgcsv_msrp_usd": "01KE01BHA8RWET4EN4S5MKQEXF",
+  "ork_mek_gun__gw_aud": "01KF3X8KNZP33VJVPTFTB2JZWV",
+  "ork_mek_gun__gw_cad": "01K2TFDKHHEQGGFVQCFM5DNB4E",
+  "ork_mek_gun__gw_chf": "01K6GB3NZWQSCM6CFVKFB8N7S8",
+  "ork_mek_gun__gw_eur": "01KQP7NG26N1597B4PZE2B00TK",
+  "ork_mek_gun__gw_gbp": "01KDYGQ2XFYR9D1HBK85R2VVW6",
+  "ork_mek_gun__gw_jpy": "01KZAB3P27HEW93PYC5NCFP1JP",
+  "ork_mek_gun__gw_nzd": "01K12JXE9SKBB0EZ70MM3HE9MR",
+  "ork_mek_gun__gw_pln": "01KCQ9SV7MWKT2YARWEH2586V1",
   "ork_mek_gun__tcgcsv_msrp_usd": "01KVT28VA15YYQP09HVXZP1XVK",
   "ork_nobz__legacy_aud": "01KMYJA43F41SP6BAGKZT70VZB",
   "ork_nobz__legacy_cad": "01KT150AD1Z6VVT3ZN6BKXPR5C",
@@ -13676,6 +13801,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "raven_guard_kayvaan_shrike__gw_nzd": "01KJEQK8QH96FQBESRFSC2W7PS",
   "raven_guard_kayvaan_shrike__gw_pln": "01KSGTN1B4DHZ5XNZS2MWKWQTM",
   "raven_guard_kayvaan_shrike__tcgcsv_msrp_usd": "01K9K6XXDJNNAJ71M0NZGXGVZV",
+  "raven_guard_primaris_upgrades_transfers__gw_aud": "01KH9PH8HWT2S3S29FHNGJRN0Z",
+  "raven_guard_primaris_upgrades_transfers__gw_cad": "01K02NGD6W8DYG73Q0HQ67B0QN",
+  "raven_guard_primaris_upgrades_transfers__gw_chf": "01KSTVDG467PJC9JZ4CMMNKFWQ",
+  "raven_guard_primaris_upgrades_transfers__gw_eur": "01KJ2617P4KD1D2EEJ4E23MM24",
+  "raven_guard_primaris_upgrades_transfers__gw_gbp": "01K3SEBH8M4THEQ931JRRRVBNS",
+  "raven_guard_primaris_upgrades_transfers__gw_jpy": "01K8TPP775SCK8V4H1YWZHEA15",
+  "raven_guard_primaris_upgrades_transfers__gw_nzd": "01KRAZYG8ECE6YFFQ1218W0N5D",
+  "raven_guard_primaris_upgrades_transfers__gw_pln": "01K8D0T5MWZG6HQWSWQ2D761PZ",
   "raven_guard_primaris_upgrades_transfers__tcgcsv_msrp_usd": "01KPCP64189RFW24BJZ06SD74S",
   "ravenwing_command_squad__gw_aud": "01KMRR0ZHR5NF17T6A569XK389",
   "ravenwing_command_squad__gw_cad": "01KWWJTXSJ0P14MJN89B3YKTDD",
@@ -14107,6 +14240,11 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_termagants__tcgcsv_low_usd": "01K61GTWJQYXXNERBXMPM96PRD",
   "tyranid_termagants__tcgcsv_mid_usd": "01KWT1STA6M2E9QGTYQR9MSVV8",
   "tyranid_termagants__tcgcsv_msrp_usd": "01KKSGKAM1E8GYV1MXKG05DZYX",
+  "tyranid_trygon_mawloc__gw_cad": "01KEPSJ8XD4XB07G21AZW0ADP7",
+  "tyranid_trygon_mawloc__gw_eur": "01K9MP74NAQRPV4MSJ2ZD0F0ER",
+  "tyranid_trygon_mawloc__gw_gbp": "01KAWNSZQ5EHW5BK21D1FPR6RF",
+  "tyranid_trygon_mawloc__gw_jpy": "01KX2BSKWGHMDSHHSMCMJAC68D",
+  "tyranid_trygon_mawloc__gw_pln": "01K80VAYME617VN3ZTZM6CMD6F",
   "tyranid_trygon_mawloc__tcgcsv_msrp_usd": "01KHHB8KYTGKM6VVD7D3MPDVE9",
   "tyranid_tyrannocyte__tcgcsv_msrp_usd": "01K4XNJ5KATNAD7S1WDA0798QR",
   "tyranid_tyrannofex__gw_cad": "01KBD2M7ZA4GTHZCV0Q54HJVKT",

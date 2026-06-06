@@ -7316,5 +7316,647 @@
     "gw_product_code": null,
     "source": "gw_direct",
     "fetched_at": "2026-06-05T21:04:37.420044+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-GB": {
+    "price": 105.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:14.971360+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-AU": {
+    "price": 285.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:21.227601+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-CA": {
+    "price": 205.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:27.688228+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-EU": {
+    "price": 135.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:34.645330+00:00"
+  },
+  "combat_patrol_black_templars_2025.de-CH": {
+    "price": 135.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:42.688252+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-PL": {
+    "price": 565.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:49.770215+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-NZ": {
+    "price": 338.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:24:58.600350+00:00"
+  },
+  "combat_patrol_black_templars_2025.en-JP": {
+    "price": 24100.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:25:05.559822+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-GB": {
+    "price": 52.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:25:29.757281+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-AU": {
+    "price": 145.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:25:35.902189+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-CA": {
+    "price": 100.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:25:42.338948+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-EU": {
+    "price": 67.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:25:48.870548+00:00"
+  },
+  "blood_angels_captain_terminator_armour.de-CH": {
+    "price": 67.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:25:57.131371+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-PL": {
+    "price": 285.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:26:03.566718+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-NZ": {
+    "price": 170.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:26:11.052643+00:00"
+  },
+  "blood_angels_captain_terminator_armour.en-JP": {
+    "price": 12200.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "blood-angels-captain-2024",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:26:19.496516+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-GB": {
+    "price": 18.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:26:51.727207+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-AU": {
+    "price": 49.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:26:57.522662+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-CA": {
+    "price": 36.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:10.302207+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-EU": {
+    "price": 23.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:15.017838+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.de-CH": {
+    "price": 23.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:20.211324+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-PL": {
+    "price": 99.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:27.474294+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-NZ": {
+    "price": 60.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:32.836783+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers.en-JP": {
+    "price": 4200.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:39.010624+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-GB": {
+    "price": 18.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:46.151421+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-AU": {
+    "price": 49.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:27:54.694966+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-CA": {
+    "price": 36.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:21.898243+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-EU": {
+    "price": 23.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:27.899368+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.de-CH": {
+    "price": 23.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:34.585209+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-PL": {
+    "price": 99.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:40.376604+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-NZ": {
+    "price": 60.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:46.992810+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers.en-JP": {
+    "price": 4200.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:52.150751+00:00"
+  },
+  "necron_immortals_deathmarks.en-GB": {
+    "price": 40.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:28:59.288315+00:00"
+  },
+  "necron_immortals_deathmarks.en-AU": {
+    "price": 110.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:29:06.476113+00:00"
+  },
+  "necron_immortals_deathmarks.en-CA": {
+    "price": 78.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:29:34.753033+00:00"
+  },
+  "necron_immortals_deathmarks.en-EU": {
+    "price": 51.5,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:29:42.700571+00:00"
+  },
+  "necron_immortals_deathmarks.de-CH": {
+    "price": 51.5,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:29:50.439163+00:00"
+  },
+  "necron_immortals_deathmarks.en-PL": {
+    "price": 215.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:29:56.560745+00:00"
+  },
+  "necron_immortals_deathmarks.en-NZ": {
+    "price": 129.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:01.743121+00:00"
+  },
+  "necron_immortals_deathmarks.en-JP": {
+    "price": 9300.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Necron-Immortals-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:07.516166+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-GB": {
+    "price": 120.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:13.626576+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-AU": {
+    "price": 315.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:19.683320+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-CA": {
+    "price": 240.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:44.637192+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-EU": {
+    "price": 155.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:50.614044+00:00"
+  },
+  "necron_doom_scythe_night_scythe.de-CH": {
+    "price": 155.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:30:57.670358+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-PL": {
+    "price": 660.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:31:03.177582+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-NZ": {
+    "price": 370.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:31:09.641901+00:00"
+  },
+  "necron_doom_scythe_night_scythe.en-JP": {
+    "price": 26400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:31:16.293282+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-GB": {
+    "price": 47.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:31:21.772687+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-AU": {
+    "price": 107.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:31:30.201159+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-CA": {
+    "price": 93.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:31:54.137967+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-EU": {
+    "price": 61.5,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:00.969556+00:00"
+  },
+  "necron_catacomb_commmand_barge.de-CH": {
+    "price": 61.5,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:07.257778+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-PL": {
+    "price": 260.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:14.048048+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-NZ": {
+    "price": 126.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:20.675240+00:00"
+  },
+  "necron_catacomb_commmand_barge.en-JP": {
+    "price": 10700.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:26.383104+00:00"
+  },
+  "ork_mek_gun.en-GB": {
+    "price": 38.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:33.586990+00:00"
+  },
+  "ork_mek_gun.en-AU": {
+    "price": 95.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:32:39.525500+00:00"
+  },
+  "ork_mek_gun.en-CA": {
+    "price": 74.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:03.413994+00:00"
+  },
+  "ork_mek_gun.en-EU": {
+    "price": 50.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:08.792493+00:00"
+  },
+  "ork_mek_gun.de-CH": {
+    "price": 50.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:17.115415+00:00"
+  },
+  "ork_mek_gun.en-PL": {
+    "price": 210.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:23.379651+00:00"
+  },
+  "ork_mek_gun.en-NZ": {
+    "price": 111.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:29.259804+00:00"
+  },
+  "ork_mek_gun.en-JP": {
+    "price": 8600.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Ork-Mek-2018",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:36.370584+00:00"
+  },
+  "tyranid_trygon_mawloc.en-GB": {
+    "price": 64.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Tyranid-Trygon",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:33:42.029912+00:00"
+  },
+  "tyranid_trygon_mawloc.en-AU": {
+    "price": null,
+    "locale": "en-AU",
+    "gw_slug": "Tyranid-Trygon",
+    "source": "gw_direct_failed",
+    "fetched_at": "2026-06-06T05:33:50.516904+00:00"
+  },
+  "tyranid_trygon_mawloc.en-CA": {
+    "price": 127.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Tyranid-Trygon",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:34:09.717250+00:00"
+  },
+  "tyranid_trygon_mawloc.en-EU": {
+    "price": 84.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Tyranid-Trygon",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:34:16.065268+00:00"
+  },
+  "tyranid_trygon_mawloc.de-CH": {
+    "price": null,
+    "locale": "de-CH",
+    "gw_slug": "Tyranid-Trygon",
+    "source": "gw_direct_failed",
+    "fetched_at": "2026-06-06T05:34:23.556224+00:00"
+  },
+  "tyranid_trygon_mawloc.en-PL": {
+    "price": 355.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Tyranid-Trygon",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:34:27.119795+00:00"
+  },
+  "tyranid_trygon_mawloc.en-NZ": {
+    "price": null,
+    "locale": "en-NZ",
+    "gw_slug": "Tyranid-Trygon",
+    "source": "gw_direct_failed",
+    "fetched_at": "2026-06-06T05:34:33.047533+00:00"
+  },
+  "tyranid_trygon_mawloc.en-JP": {
+    "price": 13600.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Tyranid-Trygon",
+    "gw_product_code": null,
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T05:34:36.789795+00:00"
   }
 }
