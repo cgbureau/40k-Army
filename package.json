@@ -26,6 +26,7 @@
     "data:sync-gw-prices:name-match": "python3 scripts/sync-gw-prices.py --name-match",
     "data:sync-gw-prices:map": "python3 scripts/sync-gw-prices.py --map",
     "data:sync-gw-prices:prices": "python3 scripts/sync-gw-prices.py --prices",
+    "data:sync-gw-prices:composition-backfill": "python3 scripts/sync-gw-prices.py --composition-backfill",
     "data:apply-gw-prices": "python3 scripts/sync-gw-prices-apply.py",
     "data:sync-kit-content": "python3 scripts/sync-kit-content.py",
     "docs:dataset-inventory": "tsx scripts/generate-dataset-inventory.ts",

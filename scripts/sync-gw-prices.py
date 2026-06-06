@@ -50,6 +50,7 @@ from urllib.parse import unquote
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SLUG_CATALOG_FILE = REPO_ROOT / "data/prices/gw_slug_catalog.json"
 PRICES_CACHE_FILE = REPO_ROOT / "data/prices/gw_prices_cache.json"
+COMPOSITION_CACHE_FILE = REPO_ROOT / "data/prices/gw_composition_cache.json"
 KITS_GLOB = str(REPO_ROOT / "db/seed_config/seed/data/kits/**/*.ts")
 
 BASE_URL = "https://www.warhammer.com"
@@ -312,11 +313,94 @@ def extract_locale_currency_from_next_data(nd_text: str) -> str | None:
     return m.group(1) if m else None
 
 
+def extract_composition_from_next_data(nd_text: str) -> dict | None:
+    """
+    Extract kit composition data from __NEXT_DATA__ attributesRaw.
+
+    Returns dict with:
+      long_description: str  — full HTML description including "This set builds..." section
+      features: list[str]    — bullet-point feature strings
+      pim_key: str | None    — product code from pimKey attribute (more reliable than regex)
+
+    Returns None if no attributesRaw can be found.
+    """
+    try:
+        nd = json.loads(nd_text)
+        attrs_raw = (
+            nd.get("props", {})
+            .get("pageProps", {})
+            .get("context", {})
+            .get("productInformation", {})
+            .get("inStore", {})
+            .get("product", {})
+            .get("masterData", {})
+            .get("current", {})
+            .get("masterVariant", {})
+            .get("attributesRaw", [])
+        )
+    except (json.JSONDecodeError, AttributeError):
+        return None
+
+    if not attrs_raw:
+        return None
+
+    attr_map = {a["name"]: a["value"] for a in attrs_raw if isinstance(a, dict)}
+
+    # longDescription is locale-keyed: {"en-US": "..."}
+    long_desc_raw = attr_map.get("longDescription")
+    long_description: str | None = None
+    if isinstance(long_desc_raw, dict):
+        long_description = long_desc_raw.get("en-US") or long_desc_raw.get("en-GB")
+    elif isinstance(long_desc_raw, str):
+        long_description = long_desc_raw or None
+
+    # features is a list of locale-keyed dicts: [{"en-US": "..."}, ...]
+    features_raw = attr_map.get("features", [])
+    features: list[str] = []
+    for f in features_raw:
+        if isinstance(f, dict):
+            text = f.get("en-US") or f.get("en-GB") or ""
+        elif isinstance(f, str):
+            text = f
+        else:
+            text = ""
+        if text:
+            features.append(text)
+
+    # pimKey is the product code — more direct than regex scanning
+    pim_key_raw = attr_map.get("pimKey")
+    pim_key: str | None = str(pim_key_raw) if pim_key_raw else None
+
+    if not long_description and not features:
+        return None
+
+    return {
+        "long_description": long_description,
+        "features": features,
+        "pim_key": pim_key,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Composition cache
+# ---------------------------------------------------------------------------
+
+def load_composition_cache() -> dict:
+    if COMPOSITION_CACHE_FILE.exists():
+        return json.loads(COMPOSITION_CACHE_FILE.read_text())
+    return {}
+
+
+def save_composition_cache(cache: dict) -> None:
+    COMPOSITION_CACHE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    COMPOSITION_CACHE_FILE.write_text(json.dumps(cache, indent=2, ensure_ascii=False))
+
+
 # ---------------------------------------------------------------------------
 # Playwright helpers
 # ---------------------------------------------------------------------------
 
-def make_browser_context(pw, headed: bool = False):
+def make_browser_context(pw, headed: bool = True):
     browser = pw.chromium.launch(
         headless=not headed,
         args=["--disable-blink-features=AutomationControlled", "--no-sandbox", "--disable-dev-shm-usage"],
@@ -329,27 +413,133 @@ def make_browser_context(pw, headed: bool = False):
     return browser, ctx
 
 
-def warm_up_browser(page) -> None:
-    """Navigate to GW homepage to pass WAF challenge."""
+def warm_up_browser(page) -> str | None:
+    """
+    Navigate to GW homepage to pass WAF challenge and extract buildId.
+    Returns the Next.js buildId needed for /_next/data/ API calls.
+    """
     print("  Warming up browser (GW homepage)...")
     page.goto(f"{BASE_URL}/en-GB", wait_until="domcontentloaded", timeout=25000)
     time.sleep(5)
+    try:
+        nd_text = page.evaluate(
+            '() => { const el = document.getElementById("__NEXT_DATA__"); return el ? el.textContent : null; }'
+        )
+        if nd_text:
+            nd = json.loads(nd_text)
+            build_id = nd.get("buildId")
+            if build_id:
+                print(f"  Build ID: {build_id}")
+                return build_id
+    except Exception:
+        pass
+    print("  Warning: could not extract buildId from homepage")
+    return None
 
 
-def is_waf_blocked(page) -> bool:
-    """Check if the page is showing a WAF challenge instead of real content."""
-    title = page.title()
-    url = page.url
-    return (
-        "Human Verification" in title
-        or "awswaf" in page.content().lower()[:500]
-        or page.content().count("__NEXT_DATA__") == 0 and page.content().count("<a ") < 5
-    )
+def is_waf_blocked_response(data: dict) -> bool:
+    """Check if the API response indicates a WAF block rather than real data."""
+    if not data or "pageProps" not in data:
+        return True
+    return False
+
+
+def fetch_product_data_via_api(
+    page,
+    slug: str,
+    locale: str,
+    build_id: str,
+    delay_range: tuple[float, float] = (0.5, 1.5),
+) -> dict | None:
+    """
+    Fetch product data via the Next.js JSON API endpoint.
+
+    Uses page.evaluate(fetch(...)) — reuses the current browser session's WAF
+    cookie without triggering a full page navigation. Much faster than page.goto().
+
+    URL pattern: /_next/data/{buildId}/{locale}/shop/{slug}.json?slug=shop&slug={slug}
+
+    The API response is { pageProps: { context: { productInformation: {...} } } }
+    We wrap it as { props: { pageProps: ... } } to match our existing extraction
+    functions which expect the full __NEXT_DATA__ shape.
+    """
+    api_url = f"{BASE_URL}/_next/data/{build_id}/{locale}/shop/{slug}.json?slug=shop&slug={slug}"
+    try:
+        result = page.evaluate(f"""
+        async () => {{
+            try {{
+                const resp = await fetch("{api_url}", {{
+                    headers: {{
+                        "x-nextjs-data": "1",
+                        "accept": "*/*"
+                    }}
+                }});
+                if (!resp.ok) return {{ _error: resp.status, _url: resp.url }};
+                return await resp.json();
+            }} catch(e) {{
+                return {{ _error: e.message }};
+            }}
+        }}
+        """)
+
+        if not result or result.get("_error"):
+            err = result.get("_error") if result else "null response"
+            print(f"    API error for {slug} ({locale}): {err}")
+            return None
+
+        if is_waf_blocked_response(result):
+            print(f"    WAF block detected for {slug} ({locale})")
+            return None
+
+        # Wrap to match __NEXT_DATA__ shape expected by extraction functions
+        nd_text = json.dumps({"props": result})
+
+        currency = extract_locale_currency_from_next_data(nd_text)
+        prices = extract_prices_from_next_data(nd_text, currency)
+        all_codes = extract_product_codes_from_next_data(nd_text)
+
+        # Composition only for en-GB (same content across locales, no need to re-fetch)
+        composition = extract_composition_from_next_data(nd_text) if locale == "en-GB" else None
+
+        # pimKey from composition is the cleanest product code
+        product_code = (
+            composition["pim_key"] if composition and composition.get("pim_key")
+            else (all_codes[0] if all_codes else None)
+        )
+
+        if not prices:
+            return {
+                "product_code": product_code,
+                "all_codes": all_codes,
+                "price": None,
+                "currency": currency,
+                "composition": composition,
+                "status": "no_price",
+            }
+
+        main_price, main_currency = prices[0]
+        return {
+            "product_code": product_code,
+            "all_codes": all_codes,
+            "price": main_price,
+            "currency": main_currency,
+            "locale": locale,
+            "composition": composition,
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "status": "ok",
+        }
+
+    except Exception as e:
+        print(f"    Error fetching {slug} ({locale}): {e}")
+        return None
+    finally:
+        time.sleep(random.uniform(*delay_range))
 
 
 def collect_product_slugs_from_page(page, category_path: str) -> list[str]:
     """
     Navigate to a GW category page and collect all product page slugs.
+    Still uses page.goto() — category pages need full render for lazy-loaded tiles.
     Returns slugs (the path segment after /shop/).
     """
     url = f"{BASE_URL}/en-GB/{category_path}"
@@ -359,7 +549,8 @@ def collect_product_slugs_from_page(page, category_path: str) -> list[str]:
 
     time.sleep(8)
 
-    if is_waf_blocked(page):
+    title = page.title()
+    if "Human Verification" in title or page.content().count("__NEXT_DATA__") == 0:
         print("    WAF challenge detected — re-warming browser...")
         warm_up_browser(page)
         resp = page.goto(url, wait_until="domcontentloaded", timeout=30000)
@@ -373,12 +564,10 @@ def collect_product_slugs_from_page(page, category_path: str) -> list[str]:
         time.sleep(0.25)
     time.sleep(4)
 
-    # Extract href attributes from page source
     content = page.content()
     hrefs = re.findall(r'href="(/en-GB/shop/[^"?#]+)"', content)
     unique_hrefs = list(dict.fromkeys(hrefs))
 
-    # Filter out navigation links, keep product slugs
     product_slugs = []
     for href in unique_hrefs:
         slug_parts = href.replace("/en-GB/shop/", "").split("/")
@@ -390,57 +579,6 @@ def collect_product_slugs_from_page(page, category_path: str) -> list[str]:
         product_slugs.append(slug)
 
     return product_slugs
-
-
-def fetch_product_page(
-    page,
-    slug: str,
-    locale: str = "en-GB",
-    delay_range: tuple[float, float] = (2.0, 4.0),
-) -> dict | None:
-    """
-    Navigate to a product page and extract product_code + price.
-    Returns dict with fields or None if page fails.
-    """
-    url = f"{BASE_URL}/{locale}/shop/{slug}"
-    try:
-        resp = page.goto(url, wait_until="domcontentloaded", timeout=25000)
-        if resp.status not in (200, 304):
-            return None
-
-        time.sleep(random.uniform(1.5, 3.0))
-
-        nd_text = page.evaluate(
-            '() => { const el = document.getElementById("__NEXT_DATA__"); return el ? el.textContent : null; }'
-        )
-        if not nd_text:
-            return None
-
-        currency = extract_locale_currency_from_next_data(nd_text)
-        prices = extract_prices_from_next_data(nd_text, currency)
-        product_code = extract_product_code_from_next_data(nd_text)
-
-        all_codes = extract_product_codes_from_next_data(nd_text) if nd_text else []
-
-        if not prices:
-            return {"product_code": product_code, "all_codes": all_codes, "price": None, "currency": currency, "status": "no_price"}
-
-        main_price, main_currency = prices[0]
-        return {
-            "product_code": product_code,
-            "all_codes": all_codes,
-            "price": main_price,
-            "currency": main_currency,
-            "locale": locale,
-            "fetched_at": datetime.now(timezone.utc).isoformat(),
-            "status": "ok",
-        }
-
-    except Exception as e:
-        print(f"    Error fetching {slug} ({locale}): {e}")
-        return None
-    finally:
-        time.sleep(random.uniform(*delay_range))
 
 
 # ---------------------------------------------------------------------------
@@ -534,26 +672,31 @@ def phase_map(args, catalog: dict, kits_by_code_map: dict[str, dict]) -> None:
 
     from playwright.sync_api import sync_playwright
 
-    MAP_BATCH = 6  # Fresh browser context every N slugs to avoid WAF session blocks
+    # Each browser session can handle many more slugs now — API calls instead of page navigations
+    MAP_BATCH = 60
 
     for batch_start in range(0, len(slugs_needing_code), MAP_BATCH):
         batch = slugs_needing_code[batch_start: batch_start + MAP_BATCH]
         with sync_playwright() as pw:
             browser, ctx = make_browser_context(pw, headed=True)
             page = ctx.new_page()
-            warm_up_browser(page)
+            build_id = warm_up_browser(page)
+
+            if not build_id:
+                print("  ERROR: could not get buildId — skipping batch")
+                browser.close()
+                continue
 
             for i, slug in enumerate(batch):
                 overall_i = batch_start + i + 1
                 print(f"  [{overall_i}/{len(slugs_needing_code)}] {slug}")
-                result = fetch_product_page(page, slug, "en-GB")
+                result = fetch_product_data_via_api(page, slug, "en-GB", build_id)
                 if result:
-                    # Primary product code is the first one in the page data
-                    # Only check first 3 codes to avoid picking related-product codes
-                    nd_text_codes = result.get("all_codes", [result.get("product_code")])
-                    first_codes = nd_text_codes[:3]
+                    pim_code = result.get("product_code")
+                    nd_text_codes = result.get("all_codes", [])
+                    first_codes = ([pim_code] + [c for c in nd_text_codes[:3] if c != pim_code]) if pim_code else nd_text_codes[:3]
                     matched_code = next((c for c in first_codes if c and c in kits_by_code_map), None)
-                    primary_code = nd_text_codes[0] if nd_text_codes else None
+                    primary_code = pim_code or (nd_text_codes[0] if nd_text_codes else None)
                     catalog["slugs"][slug]["product_code"] = primary_code
                     if result.get("price") is not None:
                         catalog["slugs"][slug].setdefault("prices", {})["en-GB"] = {
@@ -561,8 +704,11 @@ def phase_map(args, catalog: dict, kits_by_code_map: dict[str, dict]) -> None:
                             "currency": result["currency"],
                             "fetched_at": result["fetched_at"],
                         }
+                    if result.get("composition"):
+                        catalog["slugs"][slug]["composition"] = result["composition"]
                     kit = kits_by_code_map.get(matched_code) if matched_code else None
-                    print(f"    code={primary_code}, price={result.get('price')} {result.get('currency')}, kit={kit['seed_slug'] if kit else 'NOT MATCHED'}")
+                    has_comp = "✓" if result.get("composition") else "✗"
+                    print(f"    code={primary_code}, price={result.get('price')} {result.get('currency')}, comp={has_comp}, kit={kit['seed_slug'] if kit else 'NOT MATCHED'}")
                 else:
                     print(f"    FAILED")
                     catalog["slugs"][slug]["product_code"] = "FETCH_FAILED"
@@ -570,7 +716,7 @@ def phase_map(args, catalog: dict, kits_by_code_map: dict[str, dict]) -> None:
                 save_slug_catalog(catalog)
 
             browser.close()
-        time.sleep(random.uniform(8.0, 15.0))  # Longer pause between browser sessions
+        time.sleep(random.uniform(3.0, 6.0))
 
     matched = sum(
         1 for s, d in catalog["slugs"].items()
@@ -583,7 +729,7 @@ def phase_map(args, catalog: dict, kits_by_code_map: dict[str, dict]) -> None:
 # Phase 3: Fetch all locales for matched kits
 # ---------------------------------------------------------------------------
 
-def phase_prices(args, catalog: dict, kits_by_code_map: dict[str, dict], prices_cache: dict) -> None:
+def phase_prices(args, catalog: dict, kits_by_code_map: dict[str, dict], prices_cache: dict, composition_cache: dict) -> None:
     print("\n=== Phase 3: Fetch locale prices for matched kits ===")
 
     locales = [args.locale] if args.locale else LOCALES
@@ -648,21 +794,27 @@ def phase_prices(args, catalog: dict, kits_by_code_map: dict[str, dict], prices_
 
     from playwright.sync_api import sync_playwright
 
-    PRICES_BATCH = 8  # Fresh browser every N fetches to avoid WAF blocking
+    # API calls instead of page navigations — large batches are fine now
+    PRICES_BATCH = 120
 
     for batch_start in range(0, len(kits_to_fetch), PRICES_BATCH):
         batch = kits_to_fetch[batch_start: batch_start + PRICES_BATCH]
         with sync_playwright() as pw:
             browser, ctx = make_browser_context(pw, headed=True)
             page = ctx.new_page()
-            warm_up_browser(page)
+            build_id = warm_up_browser(page)
+
+            if not build_id:
+                print("  ERROR: could not get buildId — skipping batch")
+                browser.close()
+                continue
 
             for i, (seed_slug, gw_slug, locale) in enumerate(batch):
                 overall_i = batch_start + i + 1
                 key = prices_key(seed_slug, locale)
                 code = seed_to_code.get(seed_slug)
                 print(f"  [{overall_i}/{len(kits_to_fetch)}] {seed_slug} ({locale})")
-                result = fetch_product_page(page, gw_slug, locale)
+                result = fetch_product_data_via_api(page, gw_slug, locale, build_id)
                 if result and result.get("price") is not None:
                     prices_cache[key] = {
                         "price": result["price"],
@@ -673,7 +825,17 @@ def phase_prices(args, catalog: dict, kits_by_code_map: dict[str, dict], prices_
                         "source": "gw_direct",
                         "fetched_at": result["fetched_at"],
                     }
-                    print(f"    {result['price']} {result['currency']}")
+                    # Capture composition once per kit from the en-GB page
+                    if locale == "en-GB" and result.get("composition") and seed_slug not in composition_cache:
+                        composition_cache[seed_slug] = {
+                            "gw_slug": gw_slug,
+                            "gw_product_code": code,
+                            "fetched_at": result["fetched_at"],
+                            **result["composition"],
+                        }
+                        save_composition_cache(composition_cache)
+                    has_comp = "✓" if result.get("composition") else ""
+                    print(f"    {result['price']} {result['currency']} {has_comp}")
                 else:
                     prices_cache[key] = {
                         "price": None,
@@ -687,7 +849,7 @@ def phase_prices(args, catalog: dict, kits_by_code_map: dict[str, dict], prices_
                 save_prices_cache(prices_cache)
 
             browser.close()
-        time.sleep(random.uniform(8.0, 15.0))
+        time.sleep(random.uniform(3.0, 6.0))
 
     successful = sum(1 for v in prices_cache.values() if v.get("price") is not None)
     print(f"  Done. Cache: {len(prices_cache)} entries, {successful} with prices.")
@@ -697,18 +859,113 @@ def phase_prices(args, catalog: dict, kits_by_code_map: dict[str, dict], prices_
 # Main
 # ---------------------------------------------------------------------------
 
+def phase_composition_backfill(args, catalog: dict, kits_by_code_map: dict[str, dict], composition_cache: dict) -> None:
+    """
+    Phase 4 (--composition-backfill): Re-visit en-GB product pages for kits that
+    already have prices cached but are missing composition data. Runs one locale
+    (en-GB) only, skips kits already in composition_cache.
+    """
+    print("\n=== Phase 4: Backfill composition data for already-priced kits ===")
+
+    # Build seed_slug → gw_slug mapping (same as phase 3)
+    seed_to_gw_slug: dict[str, str] = {}
+    for gw_slug, data in catalog["slugs"].items():
+        code = data.get("product_code")
+        if code and code in kits_by_code_map:
+            seed_to_gw_slug[kits_by_code_map[code]["seed_slug"]] = gw_slug
+    for gw_slug, data in catalog["slugs"].items():
+        name_slug = data.get("name_matched_seed_slug")
+        if name_slug and name_slug not in seed_to_gw_slug:
+            seed_to_gw_slug[name_slug] = gw_slug
+
+    # Also pull composition from already-fetched catalog entries (no network needed)
+    pulled = 0
+    for gw_slug, data in catalog["slugs"].items():
+        comp = data.get("composition")
+        if not comp:
+            continue
+        code = data.get("product_code")
+        name_slug = data.get("name_matched_seed_slug")
+        seed_slug = (kits_by_code_map[code]["seed_slug"] if code and code in kits_by_code_map else name_slug)
+        if seed_slug and seed_slug not in composition_cache:
+            composition_cache[seed_slug] = {
+                "gw_slug": gw_slug,
+                "gw_product_code": code,
+                "fetched_at": data.get("prices", {}).get("en-GB", {}).get("fetched_at", ""),
+                **comp,
+            }
+            pulled += 1
+    if pulled:
+        save_composition_cache(composition_cache)
+        print(f"  Pulled {pulled} composition entries from existing catalog data (no network).")
+
+    kits_needing_composition = [
+        (seed_slug, gw_slug)
+        for seed_slug, gw_slug in seed_to_gw_slug.items()
+        if seed_slug not in composition_cache
+    ]
+
+    if args.limit:
+        kits_needing_composition = kits_needing_composition[:args.limit]
+
+    if not kits_needing_composition:
+        print("  All matched kits already have composition data.")
+        return
+
+    print(f"  {len(kits_needing_composition)} kits need composition fetch (en-GB only)")
+
+    from playwright.sync_api import sync_playwright
+    COMP_BATCH = 100
+
+    for batch_start in range(0, len(kits_needing_composition), COMP_BATCH):
+        batch = kits_needing_composition[batch_start: batch_start + COMP_BATCH]
+        with sync_playwright() as pw:
+            browser, ctx = make_browser_context(pw, headed=True)
+            page = ctx.new_page()
+            build_id = warm_up_browser(page)
+
+            if not build_id:
+                print("  ERROR: could not get buildId — skipping batch")
+                browser.close()
+                continue
+
+            for i, (seed_slug, gw_slug) in enumerate(batch):
+                overall_i = batch_start + i + 1
+                code = catalog["slugs"].get(gw_slug, {}).get("product_code")
+                print(f"  [{overall_i}/{len(kits_needing_composition)}] {seed_slug}")
+                result = fetch_product_data_via_api(page, gw_slug, "en-GB", build_id)
+                if result and result.get("composition"):
+                    composition_cache[seed_slug] = {
+                        "gw_slug": gw_slug,
+                        "gw_product_code": code,
+                        "fetched_at": result.get("fetched_at", datetime.now(timezone.utc).isoformat()),
+                        **result["composition"],
+                    }
+                    save_composition_cache(composition_cache)
+                    print(f"    ✓ composition captured")
+                else:
+                    print(f"    ✗ no composition data")
+
+            browser.close()
+        time.sleep(random.uniform(3.0, 6.0))
+
+    print(f"  Done. Composition cache: {len(composition_cache)} entries.")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Sync GW regional kit prices")
     parser.add_argument("--crawl", action="store_true", help="Phase 1: crawl category pages for product slugs")
     parser.add_argument("--name-match", action="store_true", help="Phase 1b: name-match GW slugs to seed kits (no network)")
     parser.add_argument("--map", action="store_true", help="Phase 2: fetch product pages to match via product codes")
     parser.add_argument("--prices", action="store_true", help="Phase 3: fetch locale prices for all matched kits")
+    parser.add_argument("--composition-backfill", action="store_true", help="Phase 4: backfill composition data for already-priced kits")
     parser.add_argument("--all", action="store_true", help="Run all phases")
     parser.add_argument("--limit", type=int, default=None, help="Limit items per phase (for testing)")
     parser.add_argument("--locale", type=str, default=None, help="Only fetch this locale (phase 3)")
     args = parser.parse_args()
 
-    if not any([args.crawl, getattr(args, "name_match", False), args.map, args.prices, args.all]):
+    if not any([args.crawl, getattr(args, "name_match", False), args.map, args.prices,
+                getattr(args, "composition_backfill", False), args.all]):
         parser.print_help()
         return
 
@@ -719,8 +976,10 @@ def main() -> None:
 
     catalog = load_slug_catalog()
     prices_cache = load_prices_cache()
+    composition_cache = load_composition_cache()
     print(f"  Slug catalog: {len(catalog['slugs'])} slugs, {len(catalog['crawled_categories'])} categories crawled")
     print(f"  Prices cache: {len(prices_cache)} entries")
+    print(f"  Composition cache: {len(composition_cache)} entries")
 
     if args.all or args.crawl:
         phase_crawl(args, catalog)
@@ -735,7 +994,10 @@ def main() -> None:
         catalog = load_slug_catalog()
 
     if args.all or args.prices:
-        phase_prices(args, catalog, by_code, prices_cache)
+        phase_prices(args, catalog, by_code, prices_cache, composition_cache)
+
+    if args.all or getattr(args, "composition_backfill", False):
+        phase_composition_backfill(args, catalog, by_code, composition_cache)
 
     print("\nDone. Run scripts/sync-gw-prices-apply.py to write seed rows.")
 
