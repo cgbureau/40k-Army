@@ -1,0 +1,2416 @@
+{
+  "crawled_categories": [
+    "shop/warhammer-40000/space-marines",
+    "shop/warhammer-40000/space-marines/black-templars",
+    "shop/warhammer-40000/space-marines/blood-angels",
+    "shop/warhammer-40000/space-marines/dark-angels",
+    "shop/warhammer-40000/space-marines/deathwatch",
+    "shop/warhammer-40000/space-marines/grey-knights",
+    "shop/warhammer-40000/space-marines/imperial-fists",
+    "shop/warhammer-40000/space-marines/iron-hands",
+    "shop/warhammer-40000/space-marines/raven-guard",
+    "shop/warhammer-40000/space-marines/salamanders",
+    "shop/warhammer-40000/space-marines/space-wolves",
+    "shop/warhammer-40000/space-marines/ultramarines",
+    "shop/warhammer-40000/space-marines/white-scars",
+    "shop/warhammer-40000/armies-of-the-imperium/adepta-sororitas",
+    "shop/warhammer-40000/armies-of-the-imperium/adeptus-custodes",
+    "shop/warhammer-40000/armies-of-the-imperium/adeptus-mechanicus",
+    "shop/warhammer-40000/armies-of-the-imperium/astra-militarum",
+    "shop/warhammer-40000/armies-of-the-imperium/imperial-agents",
+    "shop/warhammer-40000/armies-of-the-imperium/leagues-of-votann",
+    "shop/warhammer-40000/chaos/death-guard",
+    "shop/warhammer-40000/chaos/emperors-children",
+    "shop/warhammer-40000/chaos/thousand-sons",
+    "shop/warhammer-40000/chaos/world-eaters",
+    "shop/warhammer-40000/xenos-armies/votann",
+    "shop/warhammer-40000/xenos-armies/aeldari",
+    "shop/warhammer-40000/xenos-armies/drukhari",
+    "shop/warhammer-40000/xenos-armies/necrons",
+    "shop/warhammer-40000/xenos-armies/orks",
+    "shop/warhammer-40000/xenos-armies/tyranids",
+    "shop/warhammer-40000/armies-of-the-imperium/imperial-knights",
+    "shop/warhammer-40000/chaos/chaos-space-marines",
+    "shop/warhammer-40000/chaos/chaos-knights",
+    "shop/warhammer-40000/chaos/daemons",
+    "shop/warhammer-40000/xenos-armies/genestealer-cults",
+    "shop/warhammer-40000/xenos-armies/t-au-empire",
+    "shop/warhammer-40000/xenos-armies/tau-empire"
+  ],
+  "slugs": {
+    "expert-kits": {
+      "product_code": null,
+      "prices": {}
+    },
+    "GW-Virtual-Gift-Voucher": {
+      "product_code": null,
+      "prices": {
+        "en-GB": {
+          "price": 5.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:35:43.987055+00:00"
+        }
+      }
+    },
+    "White-Dwarf-12-month-sub-ENG": {
+      "product_code": null,
+      "prices": {
+        "en-GB": {
+          "price": 140.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:35:50.670802+00:00"
+        }
+      }
+    },
+    "warhammer-quest-darkwater-2025-eng": {
+      "product_code": "99120206050",
+      "prices": {
+        "en-GB": {
+          "price": 160.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:33:19.240679+00:00"
+        }
+      }
+    },
+    "warhammer-underworlds-embergard-2024-eng": {
+      "product_code": null,
+      "prices": {
+        "en-GB": {
+          "price": 67.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:35:56.146455+00:00"
+        }
+      }
+    },
+    "horus-heresy-age-of-darkness-saturnine-2025-eng": {
+      "product_code": "99123001044",
+      "prices": {
+        "en-GB": {
+          "price": 200.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:33:32.941166+00:00"
+        }
+      }
+    },
+    "Adeptus-Titanicus-Core-Game-EN-2020": {
+      "product_code": null,
+      "prices": {
+        "en-GB": {
+          "price": 115.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:02.793644+00:00"
+        }
+      }
+    },
+    "blood-bowl-third-season-edition-2025-eng": {
+      "product_code": "99120999021",
+      "prices": {
+        "en-GB": {
+          "price": 88.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:33:48.048766+00:00"
+        }
+      }
+    },
+    "armageddon-battalion-deathwatch-2026": {
+      "product_code": "99120109017",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:33:55.499730+00:00"
+        }
+      }
+    },
+    "armageddon-return-of-yarrick-2026-eng": {
+      "product_code": "99120105133",
+      "prices": {
+        "en-GB": {
+          "price": 160.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:34:01.811735+00:00"
+        }
+      }
+    },
+    "space-marine-librarian-in-terminator-armour-2023": {
+      "product_code": "99120101273",
+      "prices": {
+        "en-GB": {
+          "price": 134.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:34:07.768194+00:00"
+        }
+      }
+    },
+    "Captain-With-Master-crafted-Bolt-Rifle-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Primaris-Techmarine-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Marine-Primaris-Captain-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_marine_primaris_captain",
+      "name_matched_kit_slug": "space-marine-primaris-captain"
+    },
+    "Primaris-Lieutenant-In-Phobos-Armour-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Primaris-Librarian-In-Phobos-Armour-2020": {
+      "product_code": "99120101326",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:09.724841+00:00"
+        }
+      }
+    },
+    "Primaris-Captain-In-Phobos-Armour-2020": {
+      "product_code": "99120101301",
+      "prices": {
+        "en-GB": {
+          "price": 37.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:17.206446+00:00"
+        }
+      }
+    },
+    "Space-Marine-Primaris-Lieutenant-With-Power-Sword-2020": {
+      "product_code": "99120101278",
+      "prices": {
+        "en-GB": {
+          "price": 27.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:25.233439+00:00"
+        }
+      }
+    },
+    "Primaris-Chaplain-on-Bike-2020": {
+      "product_code": "99120101273",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:31.648651+00:00"
+        }
+      }
+    },
+    "combat-patrol-space-wolves-2025": {
+      "product_code": "99120101426",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:38.221628+00:00"
+        }
+      },
+      "name_matched_seed_slug": "combat_patrol_space_wolves",
+      "name_matched_kit_slug": "combat-patrol-space-wolves"
+    },
+    "combat-patrol-grey-knights-2025": {
+      "product_code": "99120107021",
+      "prices": {
+        "en-GB": {
+          "price": 155.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:45.523189+00:00"
+        }
+      }
+    },
+    "combat-patrol-blood-angels-2024": {
+      "product_code": "99120101412",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:52.415456+00:00"
+        }
+      },
+      "name_matched_seed_slug": "combat_patrol_blood_angels",
+      "name_matched_kit_slug": "combat-patrol-blood-angels"
+    },
+    "combat-patrol-dark-angels-2024": {
+      "product_code": "99120101406",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-05T18:36:59.670476+00:00"
+        }
+      }
+    },
+    "combat-patrol-black-templars-2025": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "combat_patrol_black_templars_2025",
+      "name_matched_kit_slug": "combat-patrol-black-templars-2025"
+    },
+    "blood-angels-commander-dante-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "dark-angels-azrael-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "grey-knights-castellan-crowe-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-marshal-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-castellan-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-emperors-champion-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-grimaldus-and-retinue-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-high-marshal-helbrecht-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-sword-brethren-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-primaris-crusader-squad-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-crusade-ancient-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-execrator-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "black-templars-upgrades-and-transfers-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-supplement-black-templars-2025-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "predator-annihilator-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Assault-Intercessors-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Outriders-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Hammerfall-Bunker-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Marine-Tactical-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_marine_tactical_squad",
+      "name_matched_kit_slug": "space-marine-tactical-squad"
+    },
+    "Primaris-Invader-ATV-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Centurion-Devastator-Squad-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Centurion-Assault-Squad-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Stormtalon-Gunship-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Stormraven-Gunship-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "stormraven_gunship",
+      "name_matched_kit_slug": "stormraven-gunship"
+    },
+    "Stormhawk-Interceptor-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Marine-Devastator-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_marine_devastator_squad",
+      "name_matched_kit_slug": "space-marine-devastator-squad"
+    },
+    "Blood-Angels-Baal-Predator": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mephiston-Lord-of-Death-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Blood-Angels-Terminator-Librarian-2014": {
+      "product_code": null,
+      "prices": {}
+    },
+    "blood-angels-upgrades-and-transfers-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "blood-angels-astorath-the-grim-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "blood-angels-the-sanguinor-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "blood-angels-lemartes-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "blood-angels-sanguinary-guard-2024": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "blood_angels_sanguinary_guard",
+      "name_matched_kit_slug": "blood-angels-sanguinary-guard"
+    },
+    "blood-angels-captain-2024": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "blood_angels_captain_terminator_armour",
+      "name_matched_kit_slug": "blood-angels-captain-terminator-armour"
+    },
+    "codex-supplement-blood-angels-2024-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-supplement-dark-angels-eng-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "dark-angels-lion-el-johnson-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ravenwing-Command-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "ravenwing_command_squad",
+      "name_matched_kit_slug": "ravenwing-command-squad"
+    },
+    "Dark-Angels-Master-Lazarus-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "dark_angels_master_lazarus",
+      "name_matched_kit_slug": "dark-angels-master-lazarus"
+    },
+    "Dark-Angels-Interrogator-Chaplain-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "dark_angels_interrogator_chaplain",
+      "name_matched_kit_slug": "dark-angels-interrogator-chaplain"
+    },
+    "Dark-Angels-Ravenwing-Darkshroud": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Angels-Nephilim-Jetfigher": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Angels-Land-Speeder-Vengeance": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Angels-Ravenwing-Dark-Talon": {
+      "product_code": null,
+      "prices": {}
+    },
+    "dark-angelsbelial-grand-master-of-the-deathwing-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "dark-angels-deathwing-knights-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "dark-angels-asmodai-master-of-repentance-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "dark-angels-inner-circle-companions-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Angels-Sammael": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Angels-Ezekiel-Grand-Master-of-Librarians": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-agents-deathwatch-captain-artemis-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Deathwatch-Corvus-Blackstar-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "deathwatch_corvus_blackstar",
+      "name_matched_kit_slug": "deathwatch-corvus-blackstar"
+    },
+    "Deathwatch-Watch-Master-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "deathwatch_watch_master",
+      "name_matched_kit_slug": "deathwatch-watch-master"
+    },
+    "Deathwatch-Upgrades-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "deathwatch_upgrades",
+      "name_matched_kit_slug": "deathwatch-upgrades"
+    },
+    "codex-grey-knights-2025-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Grey-Knights-Purifier-Squad-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Grey-Knights-Purgation-Squad-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Grey-Knights-Interceptor-Squad-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Grey-Knights-Terminators-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Grey-Knights-Paladins-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Grey-Knights-Strike-Squad-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "grey_knights_strike_squad",
+      "name_matched_kit_slug": "grey-knights-strike-squad"
+    },
+    "Grey-Knights-Grand-Master-Voldus-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "grey_knights_grand_master_voldus",
+      "name_matched_kit_slug": "grey-knights-grand-master-voldus"
+    },
+    "grey-knights-grandmaster-in-nemesis-dreadknight-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Marine-Land-Raider": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Marine-Venerable-Dreadnought-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_marine_venerable_dreadnought",
+      "name_matched_kit_slug": "space-marine-venerable-dreadnought"
+    },
+    "Landraider-Redeemer-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Land-Raider-Crusader-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Imperial-Fists-Tor-Garadon-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "imperial_fists_tor_garadon",
+      "name_matched_kit_slug": "imperial-fists-tor-garadon"
+    },
+    "Imperial-Fists-Primaris-Upgrades-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-fists-darnath-lysander-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Iron-Hands-Feirros-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "iron_hands_feirros",
+      "name_matched_kit_slug": "iron-hands-feirros"
+    },
+    "Iron-Hands-Primaris-Upgrades-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "iron_hands_primaris_upgrades_transfers",
+      "name_matched_kit_slug": "iron-hands-primaris-upgrades-transfers"
+    },
+    "iron-hands-caanok-var-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Raven-Guard-Kayvaan-Shrike-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "raven_guard_kayvaan_shrike",
+      "name_matched_kit_slug": "raven-guard-kayvaan-shrike"
+    },
+    "Raven-Guard-Primaris-Upgrades-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "raven_guard_primaris_upgrades_transfers",
+      "name_matched_kit_slug": "raven-guard-primaris-upgrades-transfers"
+    },
+    "raven-guard-aethon-shaan-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Salamanders-Adrax-Agatone-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "salamanders_adrax_agatone",
+      "name_matched_kit_slug": "salamanders-adrax-agatone"
+    },
+    "Salamanders-Primaris-Upgrades-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "salamanders-vulkan-hestan-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-supplement-space-wolves-2025-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-arjac-rockfist-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-wolf-guard-terminators-2025": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_wolves_wolf_guard_terminators",
+      "name_matched_kit_slug": "space-wolves-wolf-guard-terminators"
+    },
+    "space-wolves-logan-grimnar-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ragnar-Blackmane-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-wolf-priest-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-wolf-guard-battle-leader-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-blood-claws-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-njal-stormcaller-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-wolf-guard-headtakers-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "space-wolves-grey-hunters-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Wolves-Venerable-Dreadnought-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_wolves_venerable_dreadnought",
+      "name_matched_kit_slug": "space-wolves-venerable-dreadnought"
+    },
+    "Space-Wolves-Ulrik-the-Slayer-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_wolves_ulrik_the_slayer",
+      "name_matched_kit_slug": "space-wolves-ulrik-the-slayer"
+    },
+    "Space-Wolves-Iron-Priest-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_wolves_iron_priest",
+      "name_matched_kit_slug": "space-wolves-iron-priest"
+    },
+    "Fenrisian-Wolves-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Murderfang-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Bjorn-the-Fellhanded-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Thunderwolf-Cavalry-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Wolves-Wulfen-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "space_wolves_wulfen",
+      "name_matched_kit_slug": "space-wolves-wulfen"
+    },
+    "captain-titus-and-the-wardens-of-ultramar-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ultramarines-Chief-Librarian-Tigurius-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "ultramarines_chief_librarian_tigurius",
+      "name_matched_kit_slug": "ultramarines-chief-librarian-tigurius"
+    },
+    "Roboute-Guilliman-Ultramarines-Primarch-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "ultramarines-upgrades-and-transfers-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "ultramarines-victrix-honour-guard-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "ultramarines-cato-sicarius-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "marneus-calgar-in-armour-of-antilochus-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "White-Scars-KorSarro-Khan-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "white_scars_korsarro_khan",
+      "name_matched_kit_slug": "white-scars-korsarro-khan"
+    },
+    "White-Scar-Primaris-Upgrades-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "white-scars-suboden-khan-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "armageddon-battalion-adepta-sororitas-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-adepta-soritas-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adepta-sororitas-intranzia-fraye-dogmata-superior-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-adepta-sororitas-2024-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Aestred-Thurga-Relinquant-At-Arms": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Castigator": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Morvenn-Vahl-Abbess-Sanctorum-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Paragon-Warsuit-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Celestian-Sacresants-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Sister-Dogmata-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Palatine-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Daemonifuge-Ephrael-Stern-and-Kyganil-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Rhino-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_rhino",
+      "name_matched_kit_slug": "adepta-sororitas-rhino"
+    },
+    "Adepta-Sororitas-Repentia-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_repentia_squad",
+      "name_matched_kit_slug": "adepta-sororitas-repentia-squad"
+    },
+    "Adepta-Sororitas-Immolator-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_immolator",
+      "name_matched_kit_slug": "adepta-sororitas-immolator"
+    },
+    "Adepta-Sororitas-Imagifier-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Mortifier-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Penitent-Engines-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_penitent_engines",
+      "name_matched_kit_slug": "adepta-sororitas-penitent-engines"
+    },
+    "Adepta-Sororitas-Arco-Flagellants-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_arco_flagellants",
+      "name_matched_kit_slug": "adepta-sororitas-arco-flagellants"
+    },
+    "Adepta-Sororitas-Junith-Eruita-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_junith_eruita",
+      "name_matched_kit_slug": "adepta-sororitas-junith-eruita"
+    },
+    "Adepta-Sororitas-Hospitaller-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_hospitaller",
+      "name_matched_kit_slug": "adepta-sororitas-hospitaller"
+    },
+    "Adepta-Sororitas-Retributor-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_retributor_squad",
+      "name_matched_kit_slug": "adepta-sororitas-retributor-squad"
+    },
+    "Adepta-Sororitas-The-Triumph-Of-St-Katherine-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_the_triumph_of_st_katherine",
+      "name_matched_kit_slug": "adepta-sororitas-the-triumph-of-st-katherine"
+    },
+    "Adepta-Sororitas-Battle-Sisters-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_battle_sisters_squad",
+      "name_matched_kit_slug": "adepta-sororitas-battle-sisters-squad"
+    },
+    "Sister-Superior-Amalia-Novena-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Space-Marine-Celestine-The-Living-Saint-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Dominions-Celestians-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adepta-sororitas-sisters-novitiate-squad-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adepta-sororitas-canoness-with-jump-pack-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adepta-sororitas-ministorum-priest-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adepta-sororitas-ministorum-priest-with-vindicator-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Exorcist-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_exorcist",
+      "name_matched_kit_slug": "adepta-sororitas-exorcist"
+    },
+    "Adepta-Sororitas-Zephyrim-Squad-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adepta-Sororitas-Seraphim-Squad-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adepta_sororitas_seraphim_squad",
+      "name_matched_kit_slug": "adepta-sororitas-seraphim-squad"
+    },
+    "combat-patrol-adeptus-custodes-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-adeptus-custodes-eng-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Shield-Captain-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legiones-astartes-contemptor-dreadnought-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Shield-captain-On-Dawneagle-and-2-Miniatures-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Talons-Of-The-Emperor-Valerian-And-Aleya-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "talons_of_the_emperor_valerian_and_aleya",
+      "name_matched_kit_slug": "talons-of-the-emperor-valerian-and-aleya"
+    },
+    "Adeptus-Custodes-Custodian-Guard-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adeptus-custodes-blade-champion-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Vexilus-Praetor-and-4-Miniatures-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Shield-Captain-and-4-miniatures-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Custodes-Vertus-Praetors-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_custodes_vertus_praetors",
+      "name_matched_kit_slug": "adeptus-custodes-vertus-praetors"
+    },
+    "Adeptus-Custodes-Custodian-Wardens-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_custodes_custodian_wardens",
+      "name_matched_kit_slug": "adeptus-custodes-custodian-wardens"
+    },
+    "Vexilus-Praetor-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Shield-Captain-in-Allarus-Terminator-Armour-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Vexilus-Praetor-in-Allarus-Terminator-Armour-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Captain-general-Trajann-Valoris-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Custodes-Allarus-Custodians-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Vigilator-Squad": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Sisters-Of-Silence-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Witchseeker-Squad": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Venerable-Land-Raider": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-sentinel-guard-sodality-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-shield-captain-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-venatari-sodality-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-custodian-guard-sodality-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-caladius-grav-tank-annihilator-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-caladius-grav-tank-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-coronus-grav-carrier-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "legio-custodes-custodian-dreadnought-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Legio-Custodes-Ares-Gunship-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Legio-Custodes-Shield-Captain-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Legio-Custodes-Telemon-Dreadnought-Iliastus-Accelerator-Culverin-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Custodes-Gunship-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Legio-Custodes-Aquilon-Terminators-with-Infernus-Firepikes-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Legio-Custodes-Aquilon-Terminators-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "eye-of-terror-battalion-adeptus-mechanicus-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-adeptus-mechanicus-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-adeptus-mechanicus-hb-eng-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adeptus-mechanicus-technoarchaeologist-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Serberys-Sulphurhounds--2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Pteraxii-Sterylizors-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Archaeopter-Stratoraptor-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Archaeopter-Fusilave-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Serberys-Raiders-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_mechanicus_serberys_raiders",
+      "name_matched_kit_slug": "adeptus-mechanicus-serberys-raiders"
+    },
+    "Adeptus-Mechanicus-Pteraxii-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_mechanicus_pteraxii",
+      "name_matched_kit_slug": "adeptus-mechanicus-pteraxii"
+    },
+    "Adeptus-Mechanicus-Archaeopter-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_mechanicus_archaeopter",
+      "name_matched_kit_slug": "adeptus-mechanicus-archaeopter"
+    },
+    "Adeptus-Mechanicus-Tech-priest-Manipulus-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_mechanicus_tech_priest_manipulus",
+      "name_matched_kit_slug": "adeptus-mechanicus-tech-priest-manipulus"
+    },
+    "Adeptus-Mechanicus-Skorpius-Dunerider-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Skorpius-Disintegrator-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "adeptus_mechanicus_skorpius_disintegrator",
+      "name_matched_kit_slug": "adeptus-mechanicus-skorpius-disintegrator"
+    },
+    "Kataphron-Battle-Servitors-Destroyers-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Kataphron-Battle-Servitors-Breachers-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Sicarian-Infiltrators-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Sicarians-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Skitarii-Rangers-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Skitarii-Vanguard-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ironstrider-Ballistarius-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Sydonian-Dragoon-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Belisarius-Cawl-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Astra-Militarum-Tech-Priest-Enginseer": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "astra_militarum_tech_priest_enginseer",
+      "name_matched_kit_slug": "astra-militarum-tech-priest-enginseer"
+    },
+    "Ad-Mec-Corpuscarii-Electro-Priests": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ad-Mec-Tech-Priest-Dominus": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ad-Mec-Fulgurite-Electro-Priests": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Onager-Dunecrawler": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adeptus-mechanicus-hastarii-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adeptus-mechanicus-thulia-ghuld-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "adeptus-mechanicus-sydonian-skatros-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "eye-of-terror-reign-of-iron-2026-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Adeptus-Mechanicus-Skitarii-Marshall-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Kastelan-Robots-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "war-dog-huntsman-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "war-dog-executioner-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-dominus-knight-tyrant-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "knight-questoris-despoiler-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-questoris-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "horus-heresy-cerastus-knight-acheron-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "horus-heresy-cerastus-knight-castigator-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "MECHANICUM-KNIGHT-MOIRAX-WITH-VOLKITE-VEULGLAIRE-FW-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mechanicum-Knight-Moirax-Graviton-Pulsar-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mechanicum-Knight-Conversion-Beam-Cannon-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Knight-Moirax-with-Lightning-Locks-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Acastus-Knight-Porphyrion": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Questoris-Knight-Styrix": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Questoris-Knight-Magaera": {
+      "product_code": null,
+      "prices": {}
+    },
+    "horus-heresy-cerastus-knight-lancer-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mechanicum-Acastus-Knight-Asterius-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mechanicum-Cerastus-Knight-Atrapos": {
+      "product_code": null,
+      "prices": {}
+    },
+    "armageddon-battalion-orks-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-agents-inquisitor-kroyle-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-wazdakka-gutsmek-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-commissar-graves-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-commissar-yarrick-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-drukhari-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-leagues-of-votann-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-tyranid-assault-brood-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-thousand-sons-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-emperors-children-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-world-eaters-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-death-guard-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-aeldari-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-astra-militarum-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-imperial-agents-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-genestealer-cults-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-tau-empire-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "combat-patrol-necrons-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Hellions": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Wyches": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Astra-Militarum-Manticore": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-eldritch-raiders-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-shining-spears-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-aeldari-2025-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-maugan-ra-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-dark-reapers-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Craftworlds-Howling-Banshees-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "craftworlds_howling_banshees",
+      "name_matched_kit_slug": "craftworlds-howling-banshees"
+    },
+    "Craftworlds-Jain-Zar-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Eldar-Dire-Avengers-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "eldar_dire_avengers",
+      "name_matched_kit_slug": "eldar-dire-avengers"
+    },
+    "Eldar-Crimson-Hunter-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-phoenix-lord-fuegan-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-phoenix-lord-baharroth-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-phoenix-lord-lhykhis-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-swooping-hawks-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-fire-dragons-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-warp-spiders-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Eldar-Support-Weapon": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-autarch-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-shroud-runners-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-rangers-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-avatar-of-khaine-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-the-yncarne-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-warlocks-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-the-visarch-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "aeldari-yvraine-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Drukhari-Incubi-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "drukhari_incubi",
+      "name_matched_kit_slug": "drukhari-incubi"
+    },
+    "Craftworlds-Spiritseer-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Eldar-Windriders-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "eldar_windriders",
+      "name_matched_kit_slug": "eldar-windriders"
+    },
+    "Eldar-Warlock-Skyrunner-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Eldar-Farseer-Skyrunner-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "eldar_farseer_skyrunner",
+      "name_matched_kit_slug": "eldar-farseer-skyrunner"
+    },
+    "Eldrad-Ulthran-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Drukhari-Kabalite-Warriors-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Eldar-Hemlock-Wraithfighter-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "eldar_hemlock_wraithfighter",
+      "name_matched_kit_slug": "eldar-hemlock-wraithfighter"
+    },
+    "Dark-Eldar-Venom-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "dark_eldar_venom",
+      "name_matched_kit_slug": "dark-eldar-venom"
+    },
+    "Drukhari-Lelith-Hesperax-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Haemonculus-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Succubus-2014": {
+      "product_code": null,
+      "prices": {}
+    },
+    "drukhari-archon-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "drukhari-lady-malys-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "drukhari-wracks-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-drukhari-hb-2025-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Talos-Pain-Engine-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "dark_eldar_talos_pain_engine",
+      "name_matched_kit_slug": "dark-eldar-talos-pain-engine"
+    },
+    "Dark-Eldar-Cronos-Parasite-Engine-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Voidraven-Bomber": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Razorwing-Jetfighter": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Scourges": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "dark_eldar_scourges",
+      "name_matched_kit_slug": "dark-eldar-scourges"
+    },
+    "Drukhari-Raider": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Drukhari-Drazhar-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Ravager": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Dark-Eldar-Reavers": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-genestealer-cults-2024-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "genestealer-cults-reductus-saboteur-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Genestealer-Cults-Kelermorph-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_kelermorph",
+      "name_matched_kit_slug": "genestealer-cults-kelermorph"
+    },
+    "Genestealer-Cults-Achilles-Ridgerunner-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_achilles_ridgerunner",
+      "name_matched_kit_slug": "genestealer-cults-achilles-ridgerunner"
+    },
+    "Genestealer-Cults-Aberrants-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_aberrants",
+      "name_matched_kit_slug": "genestealer-cults-aberrants"
+    },
+    "Genestealer-Cults-Abominant-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_abominant",
+      "name_matched_kit_slug": "genestealer-cults-abominant"
+    },
+    "Genestealer-Cults-Biophagus-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_biophagus",
+      "name_matched_kit_slug": "genestealer-cults-biophagus"
+    },
+    "Genestealer-Cults-Jackal-Alphus-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_jackal_alphus",
+      "name_matched_kit_slug": "genestealer-cults-jackal-alphus"
+    },
+    "Genestealer-Cults-Nexos-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_nexos",
+      "name_matched_kit_slug": "genestealer-cults-nexos"
+    },
+    "Genestealer-Cults-Locus-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_locus",
+      "name_matched_kit_slug": "genestealer-cults-locus"
+    },
+    "Genestealer-Cults-Magus-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_magus",
+      "name_matched_kit_slug": "genestealer-cults-magus"
+    },
+    "Genestealer-Cults-Clamavus-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_clamavus",
+      "name_matched_kit_slug": "genestealer-cults-clamavus"
+    },
+    "goliath-rockgrinder-2016": {
+      "product_code": null,
+      "prices": {}
+    },
+    "goliath-truck-2016": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Genestealer-Cults-Broodcoven": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_broodcoven",
+      "name_matched_kit_slug": "genestealer-cults-broodcoven"
+    },
+    "acolyte-iconward-2016": {
+      "product_code": null,
+      "prices": {}
+    },
+    "hybrid-metamorphs-2016": {
+      "product_code": null,
+      "prices": {}
+    },
+    "neophite-hybrids-2016": {
+      "product_code": null,
+      "prices": {}
+    },
+    "acolyte-hybrids-2016": {
+      "product_code": null,
+      "prices": {}
+    },
+    "genestealer-cults-benefictus-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-genestealers-2023": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_genestealers",
+      "name_matched_kit_slug": "tyranid-genestealers"
+    },
+    "Genestealer-Cults-Atalan-Jackals-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_atalan_jackals",
+      "name_matched_kit_slug": "genestealer-cults-atalan-jackals"
+    },
+    "Genestealer-Cults-Sanctus-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "genestealer_cults_sanctus",
+      "name_matched_kit_slug": "genestealer-cults-sanctus"
+    },
+    "Imperial-Guard-Basilisk": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Imperial-Guard-Chimera": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-cadian-upgrades-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-cadian-castellan-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-attilan-rough-riders-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-armoured-sentinel-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-stormsword-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-stormlord-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-shadowsword-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-hellhammer-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-doomhammer-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necrons-Royal-Court-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "necrons-ctan-shard-of-the-nightbringer-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "necrons-nekrosor-ammentar-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necrons-Psychomancer-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Convergence-of-Dominion-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "CTan-Shard-of-the-Void-Dragon-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ophydian-Destroyers-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Monolith-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necron-Destroyer-Squadron-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necron-Warriors-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_warriors",
+      "name_matched_kit_slug": "necron-warriors"
+    },
+    "Skorpekh-Destroyers-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Hexmark-Destroyer-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Canoptek-Doomstalker-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Lokhust-Heavy-Destroyer-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necron-Canoptek-Wraiths-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_canoptek_wraiths",
+      "name_matched_kit_slug": "necron-canoptek-wraiths"
+    },
+    "Necron-Tomb-Blades-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_tomb_blades",
+      "name_matched_kit_slug": "necron-tomb-blades"
+    },
+    "Necron-Immortals-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_immortals_deathmarks",
+      "name_matched_kit_slug": "necron-immortals-deathmarks"
+    },
+    "Necron-Doom-Scythe-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_doom_scythe_night_scythe",
+      "name_matched_kit_slug": "necron-doom-scythe-night-scythe"
+    },
+    "Necron-Deathmarks-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necron-Catacomb-Command-Barge-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_catacomb_commmand_barge",
+      "name_matched_kit_slug": "necron-catacomb-commmand-barge"
+    },
+    "Necron-Annihilation-Barge-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ghost Ark-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Doomsday-Ark-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Canoptek-Spyder-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necrons-Illuminor-Szeras-2020": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "illuminor_szeras",
+      "name_matched_kit_slug": "illuminor-szeras"
+    },
+    "Necron-Obelisk": {
+      "product_code": null,
+      "prices": {}
+    },
+    "NecronsTesseract-Vault": {
+      "product_code": null,
+      "prices": {}
+    },
+    "necrons-royal-warden-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "necrons-overlord-2023": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "necron_overlord",
+      "name_matched_kit_slug": "necron-overlord"
+    },
+    "necrons-overlord-and-translocation-shroud-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "necrons-orikan-the-diviner-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "necrons-imotekh-the-stormlord-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necron-C-tan-Shard-of-The-Deceiver": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Necron-Trazyn-the-Infinite": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ork-Deff-Dread": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-boss-snikrot-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "deffkoptas-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "hunta-rig-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-kill-rig-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-squighog-boyz-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-beast-snagga-boyz-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ghazghkull-Thraka-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Orks-Kustom-Boosta-Blasta-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "orks_kustom_boosta_blasta",
+      "name_matched_kit_slug": "orks-kustom-boosta-blasta"
+    },
+    "Orks-Rukkatrukk-Squigbuggy-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "rukkatrukk_squigbuggy",
+      "name_matched_kit_slug": "rukkatrukk-squigbuggy"
+    },
+    "Orks-Deffkilla-Wartrike-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "deffkilla_wartrike",
+      "name_matched_kit_slug": "deffkilla-wartrike"
+    },
+    "Orks-Boomdakka-Snazzwagon-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "boomdakka_snazzwagon",
+      "name_matched_kit_slug": "boomdakka-snazzwagon"
+    },
+    "Ork-Warbiker-Mob-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "ork_warbiker_mob",
+      "name_matched_kit_slug": "ork-warbiker-mob"
+    },
+    "Ork-Gretchin-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "ork_gretchin",
+      "name_matched_kit_slug": "ork-gretchin"
+    },
+    "Ork-Mek-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "ork_mek_gun",
+      "name_matched_kit_slug": "ork-mek-gun"
+    },
+    "Mek-Gunz-Traktor-Kannon": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mek-Gunz-Kustom-Mega-kannon": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mek-Gunz-Smasha-Gun": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Big-Mek-with-Shokk-Attack-Gun": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Mek-Gunz-Bubblechukka": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Morkanaut": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Gorkanaut": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ork-Stompa": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-big-mek-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Orks-Shokkjump-Dragsta-2019": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "orks_shokkjump_dragsta",
+      "name_matched_kit_slug": "orks-shokkjump-dragsta"
+    },
+    "codex-orks-hb-english-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Ork-Killa-Kans": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "ork_killa_kans",
+      "name_matched_kit_slug": "ork-killa-kans"
+    },
+    "ork-warboss-in-mega-armour-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "beastboss-on-squigosaur-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-mozrog-skragbad-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "orks-painboss-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "gunwagon-2021": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-barbgaunts-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tau-empire-commander-farsight-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-banesword-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-banehammer-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-leman-russ-battle-tank-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-aegis-defence-line-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "astra-militarum-baneblade-2023": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "astra_militarum_baneblade",
+      "name_matched_kit_slug": "astra-militarum-baneblade"
+    },
+    "astra-militarum-field-ordnance-battery-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-hive-tyrant-no-wings-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-parasite-of-mortrex-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-tyranids-2023-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyranids-Hive-Tyrant-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Old-One-Eyes-Carnifex-Brood-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Screamer-Killer-Brood-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyranid-Warriors-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_warriors",
+      "name_matched_kit_slug": "tyranid-warriors"
+    },
+    "Tyranid-Gargoyle-Brood": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_gargoyle_brood",
+      "name_matched_kit_slug": "tyranid-gargoyle-brood"
+    },
+    "Tyranid-Trygon": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_trygon_mawloc",
+      "name_matched_kit_slug": "tyranid-trygon-mawloc"
+    },
+    "Tyranid-Broodlord": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_broodlord",
+      "name_matched_kit_slug": "tyranid-broodlord"
+    },
+    "Maleceptor": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Sporocyst": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Zoanthropes": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyranid-Hierophant-Bio-Titan": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Venomthropes": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyrannocyte": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Toxicrene": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyrant-Guard": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Hive-Crone": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Carnifex-Brood": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Hive-Guard": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyranid-Harpy": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_harpy",
+      "name_matched_kit_slug": "tyranid-harpy"
+    },
+    "Tyranid-Mawloc": {
+      "product_code": null,
+      "prices": {}
+    },
+    "The-Swarmlord-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyranid-Tervigon": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tyranid-Tyrannofex": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tyranid_tyrannofex",
+      "name_matched_kit_slug": "tyranid-tyrannofex"
+    },
+    "tyranid-prime-with-lash-whip-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "killzone-upgrade-tyranid-infestation-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-horrors-of-the-hive-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-prime-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-psychophage-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-neurogaunts-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tyranids-von-ryans-leapers-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "eye-of-terror-battalion-imperial-knights-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-destrier-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-preceptor-canis-rex-2025": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "imperial_knights_knight_preceptor_canis_rex",
+      "name_matched_kit_slug": "imperial-knights-knight-preceptor-canis-rex"
+    },
+    "imperial-knights-knight-armigers-armiger-warglaive-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-dominus-knight-castellan-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-dominus-knight-valiant-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "imperial-knights-knight-armigers-armiger-helverin-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "knight-questoris-crusader-2025": {
+      "product_code": null,
+      "prices": {}
+    },
+    "codex-imperial-knights-2025-eng": {
+      "product_code": null,
+      "prices": {}
+    },
+    "world-eaters-khorne-berserkers-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "slaves-to-darkness-daemon-prince-2023": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Master-Of-Executions-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Abaddon-the-Despoiler-2019": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Haarken-Worldclaimer-2018": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Cypher-2018": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "cypher",
+      "name_matched_kit_slug": "cypher"
+    },
+    "rubric-marines": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Helbrute": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tau-empire-darkstrider-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tau-empire-the-twin-lance-2026": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tau-empire-ethereal-2022": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-Commander-Shadowsun-2020": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Fire-Warriors-Breacher-Team-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-Fire-Warriors-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tau_empire_fire_warriors",
+      "name_matched_kit_slug": "tau-empire-fire-warriors"
+    },
+    "Tau-Empire-XV88-Broadside-Battlesuit-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tau_empire_xv88_broadside_battlesuit",
+      "name_matched_kit_slug": "tau-empire-xv88-broadside-battlesuit"
+    },
+    "Tau-Tigershark-AX-1-0-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-XV104-Riptide-Battlesuit-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "xv104_riptide_battlesuit",
+      "name_matched_kit_slug": "xv104-riptide-battlesuit"
+    },
+    "Pathfinder-Team-2017": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-Commander-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tau_empire_commander",
+      "name_matched_kit_slug": "tau-empire-commander"
+    },
+    "Tau-Empire-Cadre-Fireblade-2017": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "cadre_fireblade",
+      "name_matched_kit_slug": "cadre-fireblade"
+    },
+    "Tau-KX139-Taunar-Heavy-Rail-Cannon-Array": {
+      "product_code": null,
+      "prices": {}
+    },
+    "KX139-Nexus-Meteor": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tidewall-Droneport": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tidewall-Shieldline": {
+      "product_code": null,
+      "prices": {}
+    },
+    "XV8-Crisis-Battlesuits": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Drones-2015": {
+      "product_code": null,
+      "prices": {}
+    },
+    "XV95-Ghostkeel-Battlesuit": {
+      "product_code": null,
+      "prices": {}
+    },
+    "KV128-Stormsurge": {
+      "product_code": null,
+      "prices": {}
+    },
+    "KX139-Ta'unar-Supremacy-Armour-Fusion-Eradicator": {
+      "product_code": null,
+      "prices": {}
+    },
+    "KX139-Ta'unar-Supremacy-Armour-Pulse-Ordnance-Multi-driver": {
+      "product_code": null,
+      "prices": {}
+    },
+    "KX139-Ta'unar-Supremacy-Armour-Tri-axis-Ion-Cannon": {
+      "product_code": null,
+      "prices": {}
+    },
+    "KX139-Taunar-Supremacy-Armour-Body": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-Sky-Ray-Missile-Defence-Gunship": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-Hammerhead-Gunship": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "hammerhead_gunship",
+      "name_matched_kit_slug": "hammerhead-gunship"
+    },
+    "Tau-Empire-TY7-Devilfish-2015": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tau_empire_ty7_devilfish",
+      "name_matched_kit_slug": "tau-empire-ty7-devilfish"
+    },
+    "Tau-Empire-Sniper-Drone-Team": {
+      "product_code": null,
+      "prices": {}
+    },
+    "Tau-Empire-TX4-Piranha-2015": {
+      "product_code": null,
+      "prices": {},
+      "name_matched_seed_slug": "tau_empire_tx4_piranha",
+      "name_matched_kit_slug": "tau-empire-tx4-piranha"
+    },
+    "tau-empire-kroot-hounds-2024": {
+      "product_code": null,
+      "prices": {}
+    },
+    "tau-empire-kroot-trail-shaper-2024": {
+      "product_code": null,
+      "prices": {}
+    }
+  }
+}
