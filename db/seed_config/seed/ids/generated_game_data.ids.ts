@@ -10774,6 +10774,14 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_seraphim_squad__gw_nzd"
   | "adepta_sororitas_seraphim_squad__gw_pln"
   | "adepta_sororitas_seraphim_squad__tcgcsv_msrp_usd"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_aud"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_cad"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_chf"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_eur"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_gbp"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_jpy"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_nzd"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_pln"
   | "adepta_sororitas_sister_superior_amalia_novena__tcgcsv_msrp_usd"
   | "adepta_sororitas_sisters_of_battle__tcgcsv_msrp_usd"
   | "adepta_sororitas_the_triumph_of_st_katherine__gw_aud"
@@ -11081,6 +11089,13 @@ type KitPriceSeedSlug =
   | "chaos_space_marine_chaos_lord__tcgcsv_msrp_usd"
   | "chaos_space_marine_cultist_assault__tcgcsv_msrp_usd"
   | "chaos_space_marine_forgefiend__tcgcsv_msrp_usd"
+  | "chaos_space_marine_helbrute__gw_aud"
+  | "chaos_space_marine_helbrute__gw_cad"
+  | "chaos_space_marine_helbrute__gw_eur"
+  | "chaos_space_marine_helbrute__gw_gbp"
+  | "chaos_space_marine_helbrute__gw_jpy"
+  | "chaos_space_marine_helbrute__gw_nzd"
+  | "chaos_space_marine_helbrute__gw_pln"
   | "chaos_space_marine_helbrute__tcgcsv_msrp_usd"
   | "chaos_space_marine_heldrake__tcgcsv_msrp_usd"
   | "chaos_space_marine_kharn_the_betrayer__tcgcsv_msrp_usd"
@@ -11268,6 +11283,14 @@ type KitPriceSeedSlug =
   | "dark_eldar_venom__gw_nzd"
   | "dark_eldar_venom__gw_pln"
   | "dark_eldar_venom__tcgcsv_msrp_usd"
+  | "dark_eldar_voidraven_bomber__gw_aud"
+  | "dark_eldar_voidraven_bomber__gw_cad"
+  | "dark_eldar_voidraven_bomber__gw_chf"
+  | "dark_eldar_voidraven_bomber__gw_eur"
+  | "dark_eldar_voidraven_bomber__gw_gbp"
+  | "dark_eldar_voidraven_bomber__gw_jpy"
+  | "dark_eldar_voidraven_bomber__gw_nzd"
+  | "dark_eldar_voidraven_bomber__gw_pln"
   | "dark_eldar_voidraven_bomber__tcgcsv_msrp_usd"
   | "dark_eldar_wracks__tcgcsv_msrp_usd"
   | "dark_imperium__tcgcsv_msrp_usd"
@@ -11287,6 +11310,14 @@ type KitPriceSeedSlug =
   | "deathwatch_corvus_blackstar__gw_pln"
   | "deathwatch_corvus_blackstar__tcgcsv_msrp_usd"
   | "deathwatch_kill_team__tcgcsv_msrp_usd"
+  | "deathwatch_kill_team_cassius__gw_aud"
+  | "deathwatch_kill_team_cassius__gw_cad"
+  | "deathwatch_kill_team_cassius__gw_chf"
+  | "deathwatch_kill_team_cassius__gw_eur"
+  | "deathwatch_kill_team_cassius__gw_gbp"
+  | "deathwatch_kill_team_cassius__gw_jpy"
+  | "deathwatch_kill_team_cassius__gw_nzd"
+  | "deathwatch_kill_team_cassius__gw_pln"
   | "deathwatch_kill_team_cassius__tcgcsv_msrp_usd"
   | "deathwatch_upgrades__gw_aud"
   | "deathwatch_upgrades__gw_cad"
@@ -11529,6 +11560,14 @@ type KitPriceSeedSlug =
   | "grey_knights_grand_master_voldus__gw_nzd"
   | "grey_knights_grand_master_voldus__gw_pln"
   | "grey_knights_grand_master_voldus__tcgcsv_msrp_usd"
+  | "grey_knights_nemesis_dreadknight__gw_aud"
+  | "grey_knights_nemesis_dreadknight__gw_cad"
+  | "grey_knights_nemesis_dreadknight__gw_chf"
+  | "grey_knights_nemesis_dreadknight__gw_eur"
+  | "grey_knights_nemesis_dreadknight__gw_gbp"
+  | "grey_knights_nemesis_dreadknight__gw_jpy"
+  | "grey_knights_nemesis_dreadknight__gw_nzd"
+  | "grey_knights_nemesis_dreadknight__gw_pln"
   | "grey_knights_nemesis_dreadknight__tcgcsv_msrp_usd"
   | "grey_knights_paladin_squad__tcgcsv_msrp_usd"
   | "grey_knights_strike_squad__gw_aud"
@@ -11808,18 +11847,90 @@ type KitPriceSeedSlug =
   | "necron_warriors__legacy_pln"
   | "necron_warriors__tcgcsv_msrp_usd"
   | "necrons_battleforce_eradication_legion__tcgcsv_msrp_usd"
+  | "necrons_canoptek_doomstalker__gw_aud"
+  | "necrons_canoptek_doomstalker__gw_cad"
+  | "necrons_canoptek_doomstalker__gw_chf"
+  | "necrons_canoptek_doomstalker__gw_eur"
+  | "necrons_canoptek_doomstalker__gw_gbp"
+  | "necrons_canoptek_doomstalker__gw_jpy"
+  | "necrons_canoptek_doomstalker__gw_nzd"
+  | "necrons_canoptek_doomstalker__gw_pln"
   | "necrons_canoptek_doomstalker__tcgcsv_msrp_usd"
+  | "necrons_convergence_of_dominion__gw_aud"
+  | "necrons_convergence_of_dominion__gw_cad"
+  | "necrons_convergence_of_dominion__gw_chf"
+  | "necrons_convergence_of_dominion__gw_eur"
+  | "necrons_convergence_of_dominion__gw_gbp"
+  | "necrons_convergence_of_dominion__gw_jpy"
+  | "necrons_convergence_of_dominion__gw_nzd"
+  | "necrons_convergence_of_dominion__gw_pln"
   | "necrons_convergence_of_dominion__tcgcsv_msrp_usd"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_aud"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_cad"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_chf"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_eur"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_gbp"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_jpy"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_nzd"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_pln"
   | "necrons_ctan_shard_of_the_void_dragon__tcgcsv_msrp_usd"
+  | "necrons_hexmark_destroyer__gw_aud"
+  | "necrons_hexmark_destroyer__gw_cad"
+  | "necrons_hexmark_destroyer__gw_chf"
+  | "necrons_hexmark_destroyer__gw_eur"
+  | "necrons_hexmark_destroyer__gw_gbp"
+  | "necrons_hexmark_destroyer__gw_jpy"
+  | "necrons_hexmark_destroyer__gw_nzd"
+  | "necrons_hexmark_destroyer__gw_pln"
   | "necrons_hexmark_destroyer__tcgcsv_msrp_usd"
+  | "necrons_lokhust_heavy_destroyer__gw_aud"
+  | "necrons_lokhust_heavy_destroyer__gw_cad"
+  | "necrons_lokhust_heavy_destroyer__gw_chf"
+  | "necrons_lokhust_heavy_destroyer__gw_eur"
+  | "necrons_lokhust_heavy_destroyer__gw_gbp"
+  | "necrons_lokhust_heavy_destroyer__gw_jpy"
+  | "necrons_lokhust_heavy_destroyer__gw_nzd"
+  | "necrons_lokhust_heavy_destroyer__gw_pln"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_high_usd"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_low_usd"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_mid_usd"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_msrp_usd"
+  | "necrons_monolith__gw_aud"
+  | "necrons_monolith__gw_cad"
+  | "necrons_monolith__gw_chf"
+  | "necrons_monolith__gw_eur"
+  | "necrons_monolith__gw_gbp"
+  | "necrons_monolith__gw_jpy"
+  | "necrons_monolith__gw_nzd"
+  | "necrons_monolith__gw_pln"
   | "necrons_monolith__tcgcsv_msrp_usd"
+  | "necrons_ophydian_destroyers__gw_aud"
+  | "necrons_ophydian_destroyers__gw_cad"
+  | "necrons_ophydian_destroyers__gw_chf"
+  | "necrons_ophydian_destroyers__gw_eur"
+  | "necrons_ophydian_destroyers__gw_gbp"
+  | "necrons_ophydian_destroyers__gw_jpy"
+  | "necrons_ophydian_destroyers__gw_nzd"
+  | "necrons_ophydian_destroyers__gw_pln"
   | "necrons_ophydian_destroyers__tcgcsv_msrp_usd"
+  | "necrons_skorpekh_destroyers__gw_aud"
+  | "necrons_skorpekh_destroyers__gw_cad"
+  | "necrons_skorpekh_destroyers__gw_chf"
+  | "necrons_skorpekh_destroyers__gw_eur"
+  | "necrons_skorpekh_destroyers__gw_gbp"
+  | "necrons_skorpekh_destroyers__gw_jpy"
+  | "necrons_skorpekh_destroyers__gw_nzd"
+  | "necrons_skorpekh_destroyers__gw_pln"
   | "necrons_skorpekh_destroyers__tcgcsv_msrp_usd"
   | "necrons_szarekh_the_silent_king__tcgcsv_msrp_usd"
+  | "necrons_warriors__gw_aud"
+  | "necrons_warriors__gw_cad"
+  | "necrons_warriors__gw_chf"
+  | "necrons_warriors__gw_eur"
+  | "necrons_warriors__gw_gbp"
+  | "necrons_warriors__gw_jpy"
+  | "necrons_warriors__gw_nzd"
+  | "necrons_warriors__gw_pln"
   | "necrons_warriors__tcgcsv_high_usd"
   | "necrons_warriors__tcgcsv_low_usd"
   | "necrons_warriors__tcgcsv_mid_usd"
@@ -11937,6 +12048,14 @@ type KitPriceSeedSlug =
   | "ork_wazbom_blastajet__legacy_gbp"
   | "ork_wazbom_blastajet__legacy_pln"
   | "ork_wazbom_blastajet__tcgcsv_msrp_usd"
+  | "orks_ghazghkull_thraka__gw_aud"
+  | "orks_ghazghkull_thraka__gw_cad"
+  | "orks_ghazghkull_thraka__gw_chf"
+  | "orks_ghazghkull_thraka__gw_eur"
+  | "orks_ghazghkull_thraka__gw_gbp"
+  | "orks_ghazghkull_thraka__gw_jpy"
+  | "orks_ghazghkull_thraka__gw_nzd"
+  | "orks_ghazghkull_thraka__gw_pln"
   | "orks_ghazghkull_thraka__tcgcsv_msrp_usd"
   | "orks_kustom_boosta_blasta__gw_aud"
   | "orks_kustom_boosta_blasta__gw_cad"
@@ -12037,6 +12156,14 @@ type KitPriceSeedSlug =
   | "space_hulk__tcgcsv_msrp_usd"
   | "space_marine__tcgcsv_msrp_usd"
   | "space_marine_assault_squad__tcgcsv_msrp_usd"
+  | "space_marine_attack_bike__gw_aud"
+  | "space_marine_attack_bike__gw_cad"
+  | "space_marine_attack_bike__gw_chf"
+  | "space_marine_attack_bike__gw_eur"
+  | "space_marine_attack_bike__gw_gbp"
+  | "space_marine_attack_bike__gw_jpy"
+  | "space_marine_attack_bike__gw_nzd"
+  | "space_marine_attack_bike__gw_pln"
   | "space_marine_attack_bike__tcgcsv_msrp_usd"
   | "space_marine_bike_squad__tcgcsv_msrp_usd"
   | "space_marine_centurion_devastator_squad__tcgcsv_msrp_usd"
@@ -12117,8 +12244,24 @@ type KitPriceSeedSlug =
   | "space_marines_assault_intercessors_paints_set__tcgcsv_msrp_usd"
   | "space_marines_battleforce_interdiction_force__tcgcsv_msrp_usd"
   | "space_marines_gladiator__tcgcsv_msrp_usd"
+  | "space_marines_hammerfall_bunker__gw_aud"
+  | "space_marines_hammerfall_bunker__gw_cad"
+  | "space_marines_hammerfall_bunker__gw_chf"
+  | "space_marines_hammerfall_bunker__gw_eur"
+  | "space_marines_hammerfall_bunker__gw_gbp"
+  | "space_marines_hammerfall_bunker__gw_jpy"
+  | "space_marines_hammerfall_bunker__gw_nzd"
+  | "space_marines_hammerfall_bunker__gw_pln"
   | "space_marines_hammerfall_bunker__tcgcsv_msrp_usd"
   | "space_marines_marneus_calgar_ultramarines_chapter_master__tcgcsv_msrp_usd"
+  | "space_marines_outriders__gw_aud"
+  | "space_marines_outriders__gw_cad"
+  | "space_marines_outriders__gw_chf"
+  | "space_marines_outriders__gw_eur"
+  | "space_marines_outriders__gw_gbp"
+  | "space_marines_outriders__gw_jpy"
+  | "space_marines_outriders__gw_nzd"
+  | "space_marines_outriders__gw_pln"
   | "space_marines_outriders__tcgcsv_msrp_usd"
   | "space_marines_primaris_captain_in_phobos_armour__tcgcsv_msrp_usd"
   | "space_marines_primaris_chaplain_on_bike__gw_aud"
@@ -12136,6 +12279,14 @@ type KitPriceSeedSlug =
   | "space_marines_primaris_firestrike_servo_turret__tcgcsv_msrp_usd"
   | "space_marines_primaris_impulsor__tcgcsv_msrp_usd"
   | "space_marines_primaris_infiltrators__tcgcsv_msrp_usd"
+  | "space_marines_primaris_invader_atv__gw_aud"
+  | "space_marines_primaris_invader_atv__gw_cad"
+  | "space_marines_primaris_invader_atv__gw_chf"
+  | "space_marines_primaris_invader_atv__gw_eur"
+  | "space_marines_primaris_invader_atv__gw_gbp"
+  | "space_marines_primaris_invader_atv__gw_jpy"
+  | "space_marines_primaris_invader_atv__gw_nzd"
+  | "space_marines_primaris_invader_atv__gw_pln"
   | "space_marines_primaris_invader_atv__tcgcsv_msrp_usd"
   | "space_marines_primaris_invictor_tactical_warsuit__tcgcsv_msrp_usd"
   | "space_marines_primaris_librarian_in_phobos_armour__tcgcsv_msrp_usd"
@@ -12171,6 +12322,14 @@ type KitPriceSeedSlug =
   | "space_wolves_long_fangs__tcgcsv_msrp_usd"
   | "space_wolves_pack__tcgcsv_msrp_usd"
   | "space_wolves_primaris_upgrades__tcgcsv_msrp_usd"
+  | "space_wolves_ragnar_blackmane__gw_aud"
+  | "space_wolves_ragnar_blackmane__gw_cad"
+  | "space_wolves_ragnar_blackmane__gw_chf"
+  | "space_wolves_ragnar_blackmane__gw_eur"
+  | "space_wolves_ragnar_blackmane__gw_gbp"
+  | "space_wolves_ragnar_blackmane__gw_jpy"
+  | "space_wolves_ragnar_blackmane__gw_nzd"
+  | "space_wolves_ragnar_blackmane__gw_pln"
   | "space_wolves_ragnar_blackmane__tcgcsv_msrp_usd"
   | "space_wolves_skyhammer_wolf_pack__tcgcsv_msrp_usd"
   | "space_wolves_stormfang_gunship__tcgcsv_msrp_usd"
@@ -12298,6 +12457,14 @@ type KitPriceSeedSlug =
   | "tau_empire_pathfinder_team__tcgcsv_low_usd"
   | "tau_empire_pathfinder_team__tcgcsv_mid_usd"
   | "tau_empire_pathfinder_team__tcgcsv_msrp_usd"
+  | "tau_empire_tidewall_droneport__gw_aud"
+  | "tau_empire_tidewall_droneport__gw_cad"
+  | "tau_empire_tidewall_droneport__gw_chf"
+  | "tau_empire_tidewall_droneport__gw_eur"
+  | "tau_empire_tidewall_droneport__gw_gbp"
+  | "tau_empire_tidewall_droneport__gw_jpy"
+  | "tau_empire_tidewall_droneport__gw_nzd"
+  | "tau_empire_tidewall_droneport__gw_pln"
   | "tau_empire_tidewall_droneport__tcgcsv_msrp_usd"
   | "tau_empire_tidewall_rampart__tcgcsv_msrp_usd"
   | "tau_empire_tidewall_shieldline__tcgcsv_msrp_usd"
@@ -12414,6 +12581,14 @@ type KitPriceSeedSlug =
   | "tyranid_trygon_mawloc__gw_jpy"
   | "tyranid_trygon_mawloc__gw_pln"
   | "tyranid_trygon_mawloc__tcgcsv_msrp_usd"
+  | "tyranid_tyrannocyte__gw_aud"
+  | "tyranid_tyrannocyte__gw_cad"
+  | "tyranid_tyrannocyte__gw_chf"
+  | "tyranid_tyrannocyte__gw_eur"
+  | "tyranid_tyrannocyte__gw_gbp"
+  | "tyranid_tyrannocyte__gw_jpy"
+  | "tyranid_tyrannocyte__gw_nzd"
+  | "tyranid_tyrannocyte__gw_pln"
   | "tyranid_tyrannocyte__tcgcsv_msrp_usd"
   | "tyranid_tyrannofex__gw_cad"
   | "tyranid_tyrannofex__gw_eur"
@@ -12606,6 +12781,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_seraphim_squad__gw_nzd": "01KC0GWZ8ZJ7J6GW1N3NB3HNM3",
   "adepta_sororitas_seraphim_squad__gw_pln": "01KH84192RC008MTSMRJG0FGFP",
   "adepta_sororitas_seraphim_squad__tcgcsv_msrp_usd": "01K4A1AFQJ63TQFDHCWZ1YV21J",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_aud": "01KTSWKMPBXJSRRD5NAB4BY2FX",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_cad": "01K28C2G01Y8F072PCWNGWF1B8",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_chf": "01KH4DHSJ4WTNTXD06GSM6TRG6",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_eur": "01KP1HQP3ABJKT6KZ08R17HNWP",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_gbp": "01KXVDH8RAKYWAKE43HSJRPH2K",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_jpy": "01KHFZXH684WFH0ZNPX850YHEH",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_nzd": "01KRKCBM3E0F0K5PD3NT3VAZ39",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_pln": "01KTQFQHKEZJYEP380X4NWGZ2B",
   "adepta_sororitas_sister_superior_amalia_novena__tcgcsv_msrp_usd": "01KBH0YQGZPRH6D96N1FC4VDKQ",
   "adepta_sororitas_sisters_of_battle__tcgcsv_msrp_usd": "01KRJFRRN4JVYVQZ0HHBZXT7GP",
   "adepta_sororitas_the_triumph_of_st_katherine__gw_aud": "01KYVKQP7Z79R0ZS7PM49FV8EC",
@@ -12913,6 +13096,13 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "chaos_space_marine_chaos_lord__tcgcsv_msrp_usd": "01K33NN1FV2P6BDNP9XS0R3663",
   "chaos_space_marine_cultist_assault__tcgcsv_msrp_usd": "01KWHGB0Z4S0R1H6HNQ50QVDYS",
   "chaos_space_marine_forgefiend__tcgcsv_msrp_usd": "01K3512RZWR0QNRBDEJC2X506V",
+  "chaos_space_marine_helbrute__gw_aud": "01KA1QBHDXR2SACK6KBHXWSVZN",
+  "chaos_space_marine_helbrute__gw_cad": "01K6XYFZ2RXPZXMBPKYTHKKMJM",
+  "chaos_space_marine_helbrute__gw_eur": "01K43720J4ZCT24HFV2CHHED1X",
+  "chaos_space_marine_helbrute__gw_gbp": "01K8VW0XZXJ50X0KZ14W078RZV",
+  "chaos_space_marine_helbrute__gw_jpy": "01KPN6DK2QYV2GRAFDNAQH4QQQ",
+  "chaos_space_marine_helbrute__gw_nzd": "01K5MDJ40JXPVJY3356N090RZ6",
+  "chaos_space_marine_helbrute__gw_pln": "01KGS2S2W2B3FT73T2818F9MJM",
   "chaos_space_marine_helbrute__tcgcsv_msrp_usd": "01KKG3ECPB643X50ME8K3GF1X0",
   "chaos_space_marine_heldrake__tcgcsv_msrp_usd": "01K7T59MXBAZTFT1QD8CRSNDHR",
   "chaos_space_marine_kharn_the_betrayer__tcgcsv_msrp_usd": "01KSCYGQCFK7YHA1AA2G9N5T95",
@@ -13100,6 +13290,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_eldar_venom__gw_nzd": "01KJ4E4WZR9R6MGRC617D2T718",
   "dark_eldar_venom__gw_pln": "01KJW6P8T91097XRX3HFVRQ8QY",
   "dark_eldar_venom__tcgcsv_msrp_usd": "01K27P6K6J29QM52WFPKG9H45X",
+  "dark_eldar_voidraven_bomber__gw_aud": "01K7F96T9TSFM354N2CZC6ZTJ0",
+  "dark_eldar_voidraven_bomber__gw_cad": "01K4XG3S5SD64JC2EXZYK44A0Y",
+  "dark_eldar_voidraven_bomber__gw_chf": "01KAJF9PAFT0DC8E9GFYCG1WTJ",
+  "dark_eldar_voidraven_bomber__gw_eur": "01KRXBQT2ZMBRQN9ZG1X2278DH",
+  "dark_eldar_voidraven_bomber__gw_gbp": "01K9BBW2JGGWWW7QS88YZKMSPR",
+  "dark_eldar_voidraven_bomber__gw_jpy": "01KEW7HD0TK3RPHQ3HEZSDAZNG",
+  "dark_eldar_voidraven_bomber__gw_nzd": "01KMF1GRY6N81NYEZ5ZJB7AQES",
+  "dark_eldar_voidraven_bomber__gw_pln": "01KSKDJFDPX13BFXEC47ZHMPWP",
   "dark_eldar_voidraven_bomber__tcgcsv_msrp_usd": "01KY6YJ3TXPTDW5TH4VXPR0427",
   "dark_eldar_wracks__tcgcsv_msrp_usd": "01KKA9F7N30S3MZAHZ7PV8JN8M",
   "dark_imperium__tcgcsv_msrp_usd": "01KQV2XGC7GP64SYC5FGAHGPWG",
@@ -13119,6 +13317,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "deathwatch_corvus_blackstar__gw_pln": "01K4WVKM8E8RWQX6QMRZBC7H88",
   "deathwatch_corvus_blackstar__tcgcsv_msrp_usd": "01KWZ5RNPKVZR1BP8SG9V65FE0",
   "deathwatch_kill_team__tcgcsv_msrp_usd": "01KTS2X1722C02BJT5TT5J1768",
+  "deathwatch_kill_team_cassius__gw_aud": "01K9M2ANRG45323H6D9B5J6TAF",
+  "deathwatch_kill_team_cassius__gw_cad": "01KRSBPKG022KCBK8K7J2TVPYW",
+  "deathwatch_kill_team_cassius__gw_chf": "01KNTYSZ2DYT3Z5CXAR2W0EYX7",
+  "deathwatch_kill_team_cassius__gw_eur": "01K3MNGKK5BR6RWPGBX0CZDYJR",
+  "deathwatch_kill_team_cassius__gw_gbp": "01KCVJYPR8FWTFD9GYV71CSN0J",
+  "deathwatch_kill_team_cassius__gw_jpy": "01K7K4VVMEBNFRHW2KJ6BA2SYY",
+  "deathwatch_kill_team_cassius__gw_nzd": "01KGF2FVY29D77SVPKYMHMCAVM",
+  "deathwatch_kill_team_cassius__gw_pln": "01KF8BKQ1RM7N1D18WQH5KKCZR",
   "deathwatch_kill_team_cassius__tcgcsv_msrp_usd": "01K6EWRVK4RK6PEN732SEZ8DZR",
   "deathwatch_upgrades__gw_aud": "01KV97M45GB38GHYFH6QJ1PNT5",
   "deathwatch_upgrades__gw_cad": "01K6ZX9P1AWS5B9HPPS9A9EAPP",
@@ -13361,6 +13567,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "grey_knights_grand_master_voldus__gw_nzd": "01KVSBWBSMH3KTZ8N6KE3KNCY8",
   "grey_knights_grand_master_voldus__gw_pln": "01KA14QVZDF5HYD1E2MW372WN8",
   "grey_knights_grand_master_voldus__tcgcsv_msrp_usd": "01KZTWG5GV4P42XG2EE372B88J",
+  "grey_knights_nemesis_dreadknight__gw_aud": "01KCD35CZTXX9HKWHTYHQNR6QN",
+  "grey_knights_nemesis_dreadknight__gw_cad": "01KQ2HJ6B36HSA4AFXK325B0VG",
+  "grey_knights_nemesis_dreadknight__gw_chf": "01K1DZQ9P4ZH1SE2WBP6KXE3XS",
+  "grey_knights_nemesis_dreadknight__gw_eur": "01KYYSGYKC8EJKWEM3E4PE094M",
+  "grey_knights_nemesis_dreadknight__gw_gbp": "01KTJX5537C3890K711J3SRGED",
+  "grey_knights_nemesis_dreadknight__gw_jpy": "01KQMW4X59R90FBKNMYW22HWTG",
+  "grey_knights_nemesis_dreadknight__gw_nzd": "01KCS4CVET90Y1Q53F4P9XFGBB",
+  "grey_knights_nemesis_dreadknight__gw_pln": "01KW8JVP7JAMNEBNSDSHK2HNKR",
   "grey_knights_nemesis_dreadknight__tcgcsv_msrp_usd": "01KNBPDMPZDF60NSXZRP6RYZHR",
   "grey_knights_paladin_squad__tcgcsv_msrp_usd": "01KFQA7DFRY9C0Z5RY7SHTD7TJ",
   "grey_knights_strike_squad__gw_aud": "01KVZC82NCG5F02RGS0RW9GS8K",
@@ -13640,18 +13854,90 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_warriors__legacy_pln": "01KX347P0A3GM3GN0GCKMMHX1H",
   "necron_warriors__tcgcsv_msrp_usd": "01KC8Q1TZW2DKGZWV5M2NSGEJS",
   "necrons_battleforce_eradication_legion__tcgcsv_msrp_usd": "01K5W3SX4ACG4J185ZZYPRHR8D",
+  "necrons_canoptek_doomstalker__gw_aud": "01KAR21NRS7PGHYKNJFMC1B1KR",
+  "necrons_canoptek_doomstalker__gw_cad": "01KDW6DN3J2DBSCMBKEZ58D821",
+  "necrons_canoptek_doomstalker__gw_chf": "01K6DZR14EV1JY4DW7NCWREQ85",
+  "necrons_canoptek_doomstalker__gw_eur": "01K4DG3YA04P2E9XQXBB15R1Y8",
+  "necrons_canoptek_doomstalker__gw_gbp": "01KG9QYA7MCFY4K91AV3FCW5MH",
+  "necrons_canoptek_doomstalker__gw_jpy": "01KHP6H991VK1K9GHHRR6ADZMB",
+  "necrons_canoptek_doomstalker__gw_nzd": "01KEMET2209XZEN9KKFT574932",
+  "necrons_canoptek_doomstalker__gw_pln": "01KZH4VTH64BTS4DKY8JAP2DTZ",
   "necrons_canoptek_doomstalker__tcgcsv_msrp_usd": "01K6CTX3T6270080KH0SB77X08",
+  "necrons_convergence_of_dominion__gw_aud": "01K79GPG8DQNDYGY215C4EBTQK",
+  "necrons_convergence_of_dominion__gw_cad": "01KREBCF9BGTEQ7T22W6YZDEBT",
+  "necrons_convergence_of_dominion__gw_chf": "01K5SJAC0QC8V8VV7DAVZDXRY0",
+  "necrons_convergence_of_dominion__gw_eur": "01KH0RR3JJ5Z99HTHE480AQ67N",
+  "necrons_convergence_of_dominion__gw_gbp": "01KMHS1MAK8MY0ZJ1FBZC2WT7A",
+  "necrons_convergence_of_dominion__gw_jpy": "01K0C7F21VEK5EGEBPXXAHC8P8",
+  "necrons_convergence_of_dominion__gw_nzd": "01KTYKVZ8FV0YNCABMP8FKEG7Q",
+  "necrons_convergence_of_dominion__gw_pln": "01K3WAMSDQ2VQKWWRPRE2E49EW",
   "necrons_convergence_of_dominion__tcgcsv_msrp_usd": "01KNY8618CB7M253SCXENNJSV0",
+  "necrons_ctan_shard_of_the_void_dragon__gw_aud": "01KKBDCWH5SGF27NKWJEC36NMN",
+  "necrons_ctan_shard_of_the_void_dragon__gw_cad": "01K6FXDGYS77Y1EMZVK1TW4PHS",
+  "necrons_ctan_shard_of_the_void_dragon__gw_chf": "01KAQET8Q5QS2BG9GGRKD0SD34",
+  "necrons_ctan_shard_of_the_void_dragon__gw_eur": "01KBZX9P4P79AYFP2BTDDEF7ZM",
+  "necrons_ctan_shard_of_the_void_dragon__gw_gbp": "01K37N8BVR12E2HHFYDS1BM966",
+  "necrons_ctan_shard_of_the_void_dragon__gw_jpy": "01K5DVEMSGC595A4SH7QCBMVJG",
+  "necrons_ctan_shard_of_the_void_dragon__gw_nzd": "01KAEKT1S7P0S63DAA8VNMEGNF",
+  "necrons_ctan_shard_of_the_void_dragon__gw_pln": "01KVHKBDEBF3CG4B9FR560YZ0S",
   "necrons_ctan_shard_of_the_void_dragon__tcgcsv_msrp_usd": "01K9QAXGW5MEW0583F3RQC4ART",
+  "necrons_hexmark_destroyer__gw_aud": "01K99WTXPKJBB0XEZTWPW6QS4R",
+  "necrons_hexmark_destroyer__gw_cad": "01KFD6Q4E0ZF49K4D8DG279FCH",
+  "necrons_hexmark_destroyer__gw_chf": "01K9M1T3D3Q4W60397AST8ZXKS",
+  "necrons_hexmark_destroyer__gw_eur": "01K92X5Q9HZ32KAZ4CW657QS65",
+  "necrons_hexmark_destroyer__gw_gbp": "01KP5RWPH3C0AWK116T0YTD1AE",
+  "necrons_hexmark_destroyer__gw_jpy": "01KGTBKWVZKPHS4X48480HEEJG",
+  "necrons_hexmark_destroyer__gw_nzd": "01KY4DRWB4CJ05QB5P65G6E9EN",
+  "necrons_hexmark_destroyer__gw_pln": "01KD0EPBPH31267Z17FY377DXG",
   "necrons_hexmark_destroyer__tcgcsv_msrp_usd": "01KJEYQBVPB74P047G7WETRW50",
+  "necrons_lokhust_heavy_destroyer__gw_aud": "01K0H4KXQBDYBBY21Y5QBD0ZNP",
+  "necrons_lokhust_heavy_destroyer__gw_cad": "01K1X1XWP7JPPQAE56NDK80N8R",
+  "necrons_lokhust_heavy_destroyer__gw_chf": "01KWXWP5WZ31ZFRAH9MV9D6RG2",
+  "necrons_lokhust_heavy_destroyer__gw_eur": "01KGZXF37YFYY3Q4EGMB23WYPW",
+  "necrons_lokhust_heavy_destroyer__gw_gbp": "01K3397976XM00CB513B0ECFJQ",
+  "necrons_lokhust_heavy_destroyer__gw_jpy": "01K70QVJHM3V0H9MDTXCH8E6V6",
+  "necrons_lokhust_heavy_destroyer__gw_nzd": "01KNP93Y3ZCM9F9ATJEJ7KFYGP",
+  "necrons_lokhust_heavy_destroyer__gw_pln": "01KPCA0RXDB2MVN4B8EFCP34W1",
   "necrons_lokhust_heavy_destroyer__tcgcsv_high_usd": "01KDXJZ4ZX6DYR3BQFYVSRMJAN",
   "necrons_lokhust_heavy_destroyer__tcgcsv_low_usd": "01KSVN4BD59DJMQ3NX5WTMDABC",
   "necrons_lokhust_heavy_destroyer__tcgcsv_mid_usd": "01KGA8PGWGKW14SNB9KPPTKP50",
   "necrons_lokhust_heavy_destroyer__tcgcsv_msrp_usd": "01K651TCFA77RMTFPJHWBZQZGE",
+  "necrons_monolith__gw_aud": "01K4MY6AEXHK1KPFWMRC14ZES5",
+  "necrons_monolith__gw_cad": "01K07BNSZJCFQ4RF11PG0H5M4T",
+  "necrons_monolith__gw_chf": "01KBY6CTFY0SHXWJ11M09NV48J",
+  "necrons_monolith__gw_eur": "01KKXYXRVSXVV9Z1M2NDZ4GDVK",
+  "necrons_monolith__gw_gbp": "01K8G014R8VS2933AXT27A4RJW",
+  "necrons_monolith__gw_jpy": "01KWTJRVEDJ64N7DEB2GAPNFS2",
+  "necrons_monolith__gw_nzd": "01KXCEHAQBGWZWAJXXNH22512W",
+  "necrons_monolith__gw_pln": "01KQBJWEGKNWF7W143ZYK7V1XQ",
   "necrons_monolith__tcgcsv_msrp_usd": "01K5KZ39317D0FDRXQRPC63N7T",
+  "necrons_ophydian_destroyers__gw_aud": "01KJA91RHC1SHTF08CCDGKR908",
+  "necrons_ophydian_destroyers__gw_cad": "01KANGGMHYN9YAXHFJKZG6RR9V",
+  "necrons_ophydian_destroyers__gw_chf": "01KPCEFDF05DGZ9F9WEE3SX4S0",
+  "necrons_ophydian_destroyers__gw_eur": "01KPCTKAY0YG5BB8TVY83V7Z7V",
+  "necrons_ophydian_destroyers__gw_gbp": "01KFPQ8WG1RX1Q9RCFKE27ZQ8R",
+  "necrons_ophydian_destroyers__gw_jpy": "01KGW9Q9SYEGXEGDP4KMGY4NKH",
+  "necrons_ophydian_destroyers__gw_nzd": "01K3ZTZ0R2CWVD046ZMS7HEWHZ",
+  "necrons_ophydian_destroyers__gw_pln": "01KQS47MENVM3EAN4HB5MJSJ4D",
   "necrons_ophydian_destroyers__tcgcsv_msrp_usd": "01KD5GD2S312VKNTCD55RH7W8Q",
+  "necrons_skorpekh_destroyers__gw_aud": "01KCRNWKAX0EK0Y42R1SRDBFM9",
+  "necrons_skorpekh_destroyers__gw_cad": "01KZH529R39EYV7SX0MJHFWEW7",
+  "necrons_skorpekh_destroyers__gw_chf": "01K1VDA4TGPN5W9968WYYM9W80",
+  "necrons_skorpekh_destroyers__gw_eur": "01K54YKJGACP42R73QEYT8MH1P",
+  "necrons_skorpekh_destroyers__gw_gbp": "01KZ3JJ69B54H2MPZPCSHNQT0W",
+  "necrons_skorpekh_destroyers__gw_jpy": "01K0B6DWNSF1QK4KE903NK19RV",
+  "necrons_skorpekh_destroyers__gw_nzd": "01K1HG6B6DBF21BQ7R3GQXGFVT",
+  "necrons_skorpekh_destroyers__gw_pln": "01KPF0VDSNZR6939QAN7V4GRWS",
   "necrons_skorpekh_destroyers__tcgcsv_msrp_usd": "01KABYB18DTRJBWN8DKQTB4HDS",
   "necrons_szarekh_the_silent_king__tcgcsv_msrp_usd": "01KWX3PXMEQQSFNN0H2BXK4GRN",
+  "necrons_warriors__gw_aud": "01KVGNDNTYFJCBPE2Z5QRW7YVF",
+  "necrons_warriors__gw_cad": "01KDAY88QJD34JKYBBP7GDZZCJ",
+  "necrons_warriors__gw_chf": "01KDSTA28FS7XTFSY047Z8WT22",
+  "necrons_warriors__gw_eur": "01KJR9K19CGS44XK39RHGQW83V",
+  "necrons_warriors__gw_gbp": "01K61MY8KVGDYRYEJRVX9JCMN9",
+  "necrons_warriors__gw_jpy": "01K98CYZJHW3B1PSS82HVAQ5V7",
+  "necrons_warriors__gw_nzd": "01KVDRNG9SPMCDNHPVDV9GV97K",
+  "necrons_warriors__gw_pln": "01KWQ7RQYW3VPKDEHY0NX1CRJZ",
   "necrons_warriors__tcgcsv_high_usd": "01KCYTSR8R9Q2TC8Y9JMW65TEC",
   "necrons_warriors__tcgcsv_low_usd": "01K39PVKGQ7HDESRPYD8040XD1",
   "necrons_warriors__tcgcsv_mid_usd": "01KT116MPX609AFN08MQ8G7W0N",
@@ -13769,6 +14055,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ork_wazbom_blastajet__legacy_gbp": "01KS77XYKF5GWGM3CPNDMVR4GW",
   "ork_wazbom_blastajet__legacy_pln": "01K35WW75X7KK3118TVX29SWP5",
   "ork_wazbom_blastajet__tcgcsv_msrp_usd": "01KHX6RAT0WBBQSTS2DB901D17",
+  "orks_ghazghkull_thraka__gw_aud": "01K3Y3FWRN1CP7E5KX8PTJSXEB",
+  "orks_ghazghkull_thraka__gw_cad": "01K4R9WSPM192BF1KMWJKYK8GJ",
+  "orks_ghazghkull_thraka__gw_chf": "01K50J3T5ND15XKNEJVCKW42S1",
+  "orks_ghazghkull_thraka__gw_eur": "01KE84JTJGYQ05Y8M430B5BZ26",
+  "orks_ghazghkull_thraka__gw_gbp": "01KXQ1JR8VTPXW7YPC1ZA1Z5HM",
+  "orks_ghazghkull_thraka__gw_jpy": "01K92WSBJ3S30J8QG6W8QTKPAX",
+  "orks_ghazghkull_thraka__gw_nzd": "01K4P6ZWH4QKC9P1CRZXHK21TJ",
+  "orks_ghazghkull_thraka__gw_pln": "01KJ112GRT4EE2GMCS0QB2CAKZ",
   "orks_ghazghkull_thraka__tcgcsv_msrp_usd": "01K7TEFM8S8JNNWCXSXCYJK68N",
   "orks_kustom_boosta_blasta__gw_aud": "01K4JTGTA8KD4NC898V008REFH",
   "orks_kustom_boosta_blasta__gw_cad": "01K60QYN8JXMWW7N6M5M58MH3G",
@@ -13869,6 +14163,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_hulk__tcgcsv_msrp_usd": "01K4JW695VPZSDQNVN3G9Z1C5D",
   "space_marine__tcgcsv_msrp_usd": "01KGVZME16VP2YQEYVQWQ1N0C5",
   "space_marine_assault_squad__tcgcsv_msrp_usd": "01KXJWZ28KACRHX9SCCSNMES9W",
+  "space_marine_attack_bike__gw_aud": "01K8HBYQ5QDGJ3YBB4518A51P5",
+  "space_marine_attack_bike__gw_cad": "01KX947RVZ6R9S7NHKXR1VWSWZ",
+  "space_marine_attack_bike__gw_chf": "01K479KFAXM01D1W5KAPMN02M9",
+  "space_marine_attack_bike__gw_eur": "01K8WGQ6CW33DQZKD0DGPP8QTC",
+  "space_marine_attack_bike__gw_gbp": "01KVYNFV06Q21TA1RK1T1AN6KD",
+  "space_marine_attack_bike__gw_jpy": "01KMN48RTB3JKJBW1CZ8AQHT0T",
+  "space_marine_attack_bike__gw_nzd": "01KW12FRM2PYBRHCGGMBAKD3NX",
+  "space_marine_attack_bike__gw_pln": "01KWAADSFVV6EF5YAA9SGZ5ZHT",
   "space_marine_attack_bike__tcgcsv_msrp_usd": "01K9H3AA4BE3WJ9TR0KYQ0QV0S",
   "space_marine_bike_squad__tcgcsv_msrp_usd": "01KDA2BP8HPSVVFD61YF5PP4GF",
   "space_marine_centurion_devastator_squad__tcgcsv_msrp_usd": "01K87X7XP2KNTRJHQ3KN0TRVZY",
@@ -13949,8 +14251,24 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marines_assault_intercessors_paints_set__tcgcsv_msrp_usd": "01KQNP53FFQKQRX9YSH0X8QMJ4",
   "space_marines_battleforce_interdiction_force__tcgcsv_msrp_usd": "01KHXE940XD3KVNPKMJ9V02PCK",
   "space_marines_gladiator__tcgcsv_msrp_usd": "01KYZQ1M1BA71NCXTRJ15ERPA5",
+  "space_marines_hammerfall_bunker__gw_aud": "01K9Z6KMT0PW4PCTBF2JNWNTP0",
+  "space_marines_hammerfall_bunker__gw_cad": "01KW2Y8SRH9R5BDCB29QBZZFRV",
+  "space_marines_hammerfall_bunker__gw_chf": "01K606692EH4BZQK6PW1S695ZS",
+  "space_marines_hammerfall_bunker__gw_eur": "01K8BTM9A26V0NCC8038GBMH4P",
+  "space_marines_hammerfall_bunker__gw_gbp": "01K9T1SJA1QAQXRV6CZHTS6RKH",
+  "space_marines_hammerfall_bunker__gw_jpy": "01KWMVKYNZM6TCNKS2KGHZEZVF",
+  "space_marines_hammerfall_bunker__gw_nzd": "01KDDM0W0C3QFGXX32YG9QSBEC",
+  "space_marines_hammerfall_bunker__gw_pln": "01KT9GD5Y9S46KJ13EDRY9H8HP",
   "space_marines_hammerfall_bunker__tcgcsv_msrp_usd": "01KM1HK0JFJJ6D99C9FWP6JEHE",
   "space_marines_marneus_calgar_ultramarines_chapter_master__tcgcsv_msrp_usd": "01KM53HMYNV8N2467MVS3C57XS",
+  "space_marines_outriders__gw_aud": "01KEDVJ901YH3NEKR17QCH4WVT",
+  "space_marines_outriders__gw_cad": "01KRNA6WE9CKPJZA7XMZXX92P5",
+  "space_marines_outriders__gw_chf": "01KJE6RBZPPPMTMM2EHFZ11P47",
+  "space_marines_outriders__gw_eur": "01KJT0XJW699F2KDPB7TNNBRBT",
+  "space_marines_outriders__gw_gbp": "01KEDR11H14PD87R95ZJK3GYH9",
+  "space_marines_outriders__gw_jpy": "01KG9TWAWEM0NBY2SM50X7GTR8",
+  "space_marines_outriders__gw_nzd": "01K1J2C14Z8RNX7SWEX9WZ6DBN",
+  "space_marines_outriders__gw_pln": "01KMZK7WQZ1EV5JE0R4C7W8XK4",
   "space_marines_outriders__tcgcsv_msrp_usd": "01K6QY97KX35G8GHC54HSVN6JD",
   "space_marines_primaris_captain_in_phobos_armour__tcgcsv_msrp_usd": "01KQ1BK2TAZKXD94MTF722X43W",
   "space_marines_primaris_chaplain_on_bike__gw_aud": "01KQRS689YRFB73JD0AS9ZBZXD",
@@ -13968,6 +14286,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marines_primaris_firestrike_servo_turret__tcgcsv_msrp_usd": "01K9GW4N5SNQJYECMW4WJ0K3C4",
   "space_marines_primaris_impulsor__tcgcsv_msrp_usd": "01K3G53HWKDEYD0WXYQ1V362X2",
   "space_marines_primaris_infiltrators__tcgcsv_msrp_usd": "01KCTYXK8HM5P7VSPE6A4JT2FH",
+  "space_marines_primaris_invader_atv__gw_aud": "01KGCP7G7VJ7C9G6V8SN7080SR",
+  "space_marines_primaris_invader_atv__gw_cad": "01KPVFTMDKJYS7GTQ9PJ20VV3D",
+  "space_marines_primaris_invader_atv__gw_chf": "01KSDJR92VCV216B4VXRBFRN2V",
+  "space_marines_primaris_invader_atv__gw_eur": "01KK1Z4FF2AX638HK6K2YGK0MQ",
+  "space_marines_primaris_invader_atv__gw_gbp": "01KDXKKQXYTK3NPB97850TT34P",
+  "space_marines_primaris_invader_atv__gw_jpy": "01KY9ZVYTXNSC77DK4053HXGVA",
+  "space_marines_primaris_invader_atv__gw_nzd": "01K492EJJW64M1TFNR1TX03F8W",
+  "space_marines_primaris_invader_atv__gw_pln": "01KWFTNT8MYBSV4WGVDX6HAVNW",
   "space_marines_primaris_invader_atv__tcgcsv_msrp_usd": "01KY682T02A243B6SJ76SZBAF1",
   "space_marines_primaris_invictor_tactical_warsuit__tcgcsv_msrp_usd": "01K2B6RKAJ4T1ZN67ZPKMPB5M1",
   "space_marines_primaris_librarian_in_phobos_armour__tcgcsv_msrp_usd": "01KM3HCHGH5ZVE84PEXDZZMKYW",
@@ -14003,6 +14329,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_wolves_long_fangs__tcgcsv_msrp_usd": "01K1A71CQSKJQBANFZ0NBQSFY0",
   "space_wolves_pack__tcgcsv_msrp_usd": "01K5RET6DJM0HJS0WZKC1JCWTK",
   "space_wolves_primaris_upgrades__tcgcsv_msrp_usd": "01KM7EX3GPY584633N2F63JGZ0",
+  "space_wolves_ragnar_blackmane__gw_aud": "01K67NMY6PHNVT9TSSAWK2TXR3",
+  "space_wolves_ragnar_blackmane__gw_cad": "01KCPJN7FYMT0QGWF40QQYHDH5",
+  "space_wolves_ragnar_blackmane__gw_chf": "01K1KAY2C3RPRV2CPT469NWXFK",
+  "space_wolves_ragnar_blackmane__gw_eur": "01KQZ8S5E36NGZZPVAT713W296",
+  "space_wolves_ragnar_blackmane__gw_gbp": "01K6469BZJDNNQNWEKH3BACHKK",
+  "space_wolves_ragnar_blackmane__gw_jpy": "01KRB4C06S6013YRK6JP5Y6H09",
+  "space_wolves_ragnar_blackmane__gw_nzd": "01K188CAWPTHS625CWD541E8ED",
+  "space_wolves_ragnar_blackmane__gw_pln": "01K7MBV1982WAJDCJVDKCZPH2M",
   "space_wolves_ragnar_blackmane__tcgcsv_msrp_usd": "01KTY9DCSJ8NPM1XAKJ9BQA5ZS",
   "space_wolves_skyhammer_wolf_pack__tcgcsv_msrp_usd": "01K44NERF4XJJJ2H8TXJSQCVXZ",
   "space_wolves_stormfang_gunship__tcgcsv_msrp_usd": "01K9THMJYC8ERAS21P8GP5DH9N",
@@ -14130,6 +14464,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_pathfinder_team__tcgcsv_low_usd": "01K97XM231NBF523H4GTZ89ZHR",
   "tau_empire_pathfinder_team__tcgcsv_mid_usd": "01KR4GXWF651A6CJ0PM9BA2A3N",
   "tau_empire_pathfinder_team__tcgcsv_msrp_usd": "01K508MME0522WNG9YZPTBMA6Q",
+  "tau_empire_tidewall_droneport__gw_aud": "01KN3XFKSTF15P8W0QDKZ0ZC4M",
+  "tau_empire_tidewall_droneport__gw_cad": "01KV7QK3744RD5CHNS3QE6ZPRC",
+  "tau_empire_tidewall_droneport__gw_chf": "01KBY97NDFE2NCSFS5EZAF58BY",
+  "tau_empire_tidewall_droneport__gw_eur": "01KDJ40D2G17GB7YWWWFNWM8NS",
+  "tau_empire_tidewall_droneport__gw_gbp": "01KY2WJJNMYFBH08B80QBKREKY",
+  "tau_empire_tidewall_droneport__gw_jpy": "01KYCW5BVC8CB6VKG0J73CZW7B",
+  "tau_empire_tidewall_droneport__gw_nzd": "01KM859RTRB71T5442DPEQ7X97",
+  "tau_empire_tidewall_droneport__gw_pln": "01KENBZA3D5ZTMSQ5S0WCGPSX1",
   "tau_empire_tidewall_droneport__tcgcsv_msrp_usd": "01K6MKMAYKRJBY65VGS5YR1K85",
   "tau_empire_tidewall_rampart__tcgcsv_msrp_usd": "01KPQV6H74PW72SSNS9RVMEX29",
   "tau_empire_tidewall_shieldline__tcgcsv_msrp_usd": "01KH03Z8MT7PTDZWNFRH17BVZR",
@@ -14246,6 +14588,14 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_trygon_mawloc__gw_jpy": "01KX2BSKWGHMDSHHSMCMJAC68D",
   "tyranid_trygon_mawloc__gw_pln": "01K80VAYME617VN3ZTZM6CMD6F",
   "tyranid_trygon_mawloc__tcgcsv_msrp_usd": "01KHHB8KYTGKM6VVD7D3MPDVE9",
+  "tyranid_tyrannocyte__gw_aud": "01KJDDV8CX2KHBM7CB099MZP1Z",
+  "tyranid_tyrannocyte__gw_cad": "01KRS89VWQKEQ28KPJJT5DYAX8",
+  "tyranid_tyrannocyte__gw_chf": "01KR256SGTJ2G5YA0R12EV3VTV",
+  "tyranid_tyrannocyte__gw_eur": "01K89YT2S2PVZV42KG0EBKGC72",
+  "tyranid_tyrannocyte__gw_gbp": "01KS7XT3F9GMK7PGTG2Q0TEW4E",
+  "tyranid_tyrannocyte__gw_jpy": "01KDYDRKMC6Z82EE9MGCS01J5H",
+  "tyranid_tyrannocyte__gw_nzd": "01KTV11JS40J7VC2TKXKVGDT4R",
+  "tyranid_tyrannocyte__gw_pln": "01K2DNYDXYM4Z9GZ8FJJPM043X",
   "tyranid_tyrannocyte__tcgcsv_msrp_usd": "01K4XNJ5KATNAD7S1WDA0798QR",
   "tyranid_tyrannofex__gw_cad": "01KBD2M7ZA4GTHZCV0Q54HJVKT",
   "tyranid_tyrannofex__gw_eur": "01KX72GXQ52YFPRY40Z5EDM80F",

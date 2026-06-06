@@ -7958,5 +7958,1587 @@
     "gw_product_code": null,
     "source": "gw_direct",
     "fetched_at": "2026-06-06T05:34:36.789795+00:00"
+  },
+  "space_marines_outriders.en-GB": {
+    "price": 40.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:36:59.442700+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-GB": {
+    "price": 55.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:37:06.186380+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-GB": {
+    "price": 110.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:37:20.325115+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-GB": {
+    "price": 58.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "imperial-agents-deathwatch-captain-artemis-2024",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:42:52.052362+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-GB": {
+    "price": 42.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:44:43.701940+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-GB": {
+    "price": 100.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:48:10.538409+00:00"
+  },
+  "space_marine_attack_bike.en-GB": {
+    "price": 27.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:52:06.783355+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-GB": {
+    "price": 74.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T09:56:23.473898+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-GB": {
+    "price": 58.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:22:51.562230+00:00"
+  },
+  "necrons_convergence_of_dominion.en-GB": {
+    "price": 115.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:30:12.503021+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-GB": {
+    "price": 115.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:30:38.996112+00:00"
+  },
+  "necrons_ophydian_destroyers.en-GB": {
+    "price": 115.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:30:44.804235+00:00"
+  },
+  "necrons_monolith.en-GB": {
+    "price": 115.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:30:51.018977+00:00"
+  },
+  "necrons_warriors.en-GB": {
+    "price": 110.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:31:06.486959+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-GB": {
+    "price": 110.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:31:14.431544+00:00"
+  },
+  "necrons_hexmark_destroyer.en-GB": {
+    "price": 110.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:31:40.564431+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-GB": {
+    "price": 110.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:31:48.745566+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-GB": {
+    "price": 110.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:31:56.464690+00:00"
+  },
+  "orks_ghazghkull_thraka.en-GB": {
+    "price": 49.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:36:43.414725+00:00"
+  },
+  "tyranid_tyrannocyte.en-GB": {
+    "price": 64.5,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Sporocyst",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:44:31.301356+00:00"
+  },
+  "chaos_space_marine_helbrute.en-GB": {
+    "price": 120.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:50:32.565058+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-GB": {
+    "price": 118.0,
+    "currency": "GBP",
+    "locale": "en-GB",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:53:17.544210+00:00"
+  },
+  "space_marines_outriders.en-AU": {
+    "price": 110.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:56:39.320709+00:00"
+  },
+  "space_marines_outriders.en-CA": {
+    "price": 78.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:56:47.242628+00:00"
+  },
+  "space_marines_outriders.en-EU": {
+    "price": 51.5,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:56:55.190772+00:00"
+  },
+  "space_marines_outriders.de-CH": {
+    "price": 51.5,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:01.091051+00:00"
+  },
+  "space_marines_outriders.en-PL": {
+    "price": 215.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:07.302877+00:00"
+  },
+  "space_marines_outriders.en-NZ": {
+    "price": 130.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:14.124370+00:00"
+  },
+  "space_marines_outriders.en-JP": {
+    "price": 9300.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Outriders-2020",
+    "gw_product_code": "99120101285",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:20.342371+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-AU": {
+    "price": 149.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:26.729673+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-CA": {
+    "price": 107.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:49.968489+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-EU": {
+    "price": 70.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:57:57.037899+00:00"
+  },
+  "space_marines_hammerfall_bunker.de-CH": {
+    "price": 70.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:58:03.209716+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-PL": {
+    "price": 305.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:58:11.115496+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-NZ": {
+    "price": 180.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:58:17.914815+00:00"
+  },
+  "space_marines_hammerfall_bunker.en-JP": {
+    "price": 12800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "gw_product_code": "99120101294",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:58:24.408600+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-AU": {
+    "price": 230.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:58:31.727683+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-CA": {
+    "price": 220.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:58:38.557477+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-EU": {
+    "price": 145.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:07.336866+00:00"
+  },
+  "space_marines_primaris_invader_atv.de-CH": {
+    "price": 45.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:12.741691+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-PL": {
+    "price": 610.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:18.369106+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-NZ": {
+    "price": 260.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:24.561725+00:00"
+  },
+  "space_marines_primaris_invader_atv.en-JP": {
+    "price": 19800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "gw_product_code": "99120101271",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:32.503238+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-AU": {
+    "price": 260.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:40.701998+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-CA": {
+    "price": 200.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:46.752735+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-EU": {
+    "price": 130.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T10:59:53.073312+00:00"
+  },
+  "deathwatch_kill_team_cassius.de-CH": {
+    "price": 130.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:00:21.148731+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-PL": {
+    "price": 550.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:00:26.580608+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-NZ": {
+    "price": 317.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:00:32.069538+00:00"
+  },
+  "deathwatch_kill_team_cassius.en-JP": {
+    "price": 22700.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "gw_product_code": "99120109003",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:00:39.066770+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-AU": {
+    "price": 114.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:00:46.508707+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-CA": {
+    "price": 83.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:00:52.890137+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-EU": {
+    "price": 55.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:01:00.129393+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.de-CH": {
+    "price": 55.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:01:07.544607+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-PL": {
+    "price": 230.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:01:31.615306+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-NZ": {
+    "price": 131.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:01:39.389031+00:00"
+  },
+  "grey_knights_nemesis_dreadknight.en-JP": {
+    "price": 9500.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "gw_product_code": "99120107008",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:01:46.296932+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-AU": {
+    "price": 260.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:01:53.089708+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-CA": {
+    "price": 200.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:02:01.442021+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-EU": {
+    "price": 130.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:02:07.643332+00:00"
+  },
+  "space_wolves_ragnar_blackmane.de-CH": {
+    "price": 130.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:02:15.788528+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-PL": {
+    "price": 550.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:02:22.762612+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-NZ": {
+    "price": 317.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:02:50.155192+00:00"
+  },
+  "space_wolves_ragnar_blackmane.en-JP": {
+    "price": 22700.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "gw_product_code": "99120101275",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:02:57.177839+00:00"
+  },
+  "space_marine_attack_bike.en-AU": {
+    "price": 59.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:03:03.750420+00:00"
+  },
+  "space_marine_attack_bike.en-CA": {
+    "price": 55.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:03:10.246651+00:00"
+  },
+  "space_marine_attack_bike.en-EU": {
+    "price": 35.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:03:16.709381+00:00"
+  },
+  "space_marine_attack_bike.de-CH": {
+    "price": 23.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:03:24.989247+00:00"
+  },
+  "space_marine_attack_bike.en-PL": {
+    "price": 155.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:03:32.785137+00:00"
+  },
+  "space_marine_attack_bike.en-NZ": {
+    "price": 70.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:03:40.846789+00:00"
+  },
+  "space_marine_attack_bike.en-JP": {
+    "price": 6200.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "gw_product_code": "99120101030",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:04.032689+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-AU": {
+    "price": 207.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:11.692114+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-CA": {
+    "price": 146.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:18.972930+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-EU": {
+    "price": 97.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:26.327644+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.de-CH": {
+    "price": 97.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:34.040616+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-PL": {
+    "price": 405.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:41.697624+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-NZ": {
+    "price": 244.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:49.411675+00:00"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena.en-JP": {
+    "price": 17400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "gw_product_code": "99120108020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:04:55.492268+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-AU": {
+    "price": 139.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:05:22.665199+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-CA": {
+    "price": 116.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:05:29.116497+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-EU": {
+    "price": 76.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:05:35.721412+00:00"
+  },
+  "dark_eldar_voidraven_bomber.de-CH": {
+    "price": 76.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:05:42.985077+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-PL": {
+    "price": 320.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:05:49.140220+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-NZ": {
+    "price": 155.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:05:56.439547+00:00"
+  },
+  "dark_eldar_voidraven_bomber.en-JP": {
+    "price": 13600.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Voidraven-Bomber",
+    "gw_product_code": "99120112020",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:06:03.275941+00:00"
+  },
+  "necrons_convergence_of_dominion.en-AU": {
+    "price": 315.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:06:09.657649+00:00"
+  },
+  "necrons_convergence_of_dominion.en-CA": {
+    "price": 230.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:06:37.603689+00:00"
+  },
+  "necrons_convergence_of_dominion.en-EU": {
+    "price": 150.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:06:45.521378+00:00"
+  },
+  "necrons_convergence_of_dominion.de-CH": {
+    "price": 150.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:06:52.629737+00:00"
+  },
+  "necrons_convergence_of_dominion.en-PL": {
+    "price": 640.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:00.425905+00:00"
+  },
+  "necrons_convergence_of_dominion.en-NZ": {
+    "price": 370.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:07.044110+00:00"
+  },
+  "necrons_convergence_of_dominion.en-JP": {
+    "price": 26400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "gw_product_code": "99120110066",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:12.798296+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-AU": {
+    "price": 315.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:19.315807+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-CA": {
+    "price": 230.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:25.295785+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-EU": {
+    "price": 150.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:50.150300+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.de-CH": {
+    "price": 150.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:07:57.009212+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-PL": {
+    "price": 640.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:08:03.783578+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-NZ": {
+    "price": 370.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:08:10.451892+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon.en-JP": {
+    "price": 26400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "gw_product_code": "99120110054",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:08:17.590698+00:00"
+  },
+  "necrons_ophydian_destroyers.en-AU": {
+    "price": 315.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:08:25.103405+00:00"
+  },
+  "necrons_ophydian_destroyers.en-CA": {
+    "price": 230.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:08:31.220783+00:00"
+  },
+  "necrons_ophydian_destroyers.en-EU": {
+    "price": 150.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:08:38.681817+00:00"
+  },
+  "necrons_ophydian_destroyers.de-CH": {
+    "price": 150.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:02.463182+00:00"
+  },
+  "necrons_ophydian_destroyers.en-PL": {
+    "price": 640.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:10.873711+00:00"
+  },
+  "necrons_ophydian_destroyers.en-NZ": {
+    "price": 370.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:17.755146+00:00"
+  },
+  "necrons_ophydian_destroyers.en-JP": {
+    "price": 26400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "gw_product_code": "99120110053",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:24.639720+00:00"
+  },
+  "necrons_monolith.en-AU": {
+    "price": 315.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:32.880167+00:00"
+  },
+  "necrons_monolith.en-CA": {
+    "price": 230.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:40.126336+00:00"
+  },
+  "necrons_monolith.en-EU": {
+    "price": 150.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:46.230655+00:00"
+  },
+  "necrons_monolith.de-CH": {
+    "price": 150.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:09:52.477400+00:00"
+  },
+  "necrons_monolith.en-PL": {
+    "price": 640.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:10:18.861683+00:00"
+  },
+  "necrons_monolith.en-NZ": {
+    "price": 370.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:10:26.791512+00:00"
+  },
+  "necrons_monolith.en-JP": {
+    "price": 26400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Monolith-2020",
+    "gw_product_code": "99120110043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:10:33.256337+00:00"
+  },
+  "necrons_warriors.en-AU": {
+    "price": 295.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:10:40.007710+00:00"
+  },
+  "necrons_warriors.en-CA": {
+    "price": 220.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:10:47.612189+00:00"
+  },
+  "necrons_warriors.en-EU": {
+    "price": 145.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:10:55.235560+00:00"
+  },
+  "necrons_warriors.de-CH": {
+    "price": 140.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:11:03.144740+00:00"
+  },
+  "necrons_warriors.en-PL": {
+    "price": 610.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:11:09.200428+00:00"
+  },
+  "necrons_warriors.en-NZ": {
+    "price": 348.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:11:35.865447+00:00"
+  },
+  "necrons_warriors.en-JP": {
+    "price": 24800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Necron-Warriors-2020",
+    "gw_product_code": "99120110052",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:11:44.282906+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-AU": {
+    "price": 295.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:11:50.332085+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-CA": {
+    "price": 220.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:11:57.983837+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-EU": {
+    "price": 145.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:12:05.293087+00:00"
+  },
+  "necrons_skorpekh_destroyers.de-CH": {
+    "price": 140.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:12:13.437507+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-PL": {
+    "price": 610.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:12:19.967232+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-NZ": {
+    "price": 348.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:12:27.359286+00:00"
+  },
+  "necrons_skorpekh_destroyers.en-JP": {
+    "price": 24800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "gw_product_code": "99120110051",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:12:48.620319+00:00"
+  },
+  "necrons_hexmark_destroyer.en-AU": {
+    "price": 295.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:12:54.534945+00:00"
+  },
+  "necrons_hexmark_destroyer.en-CA": {
+    "price": 220.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:13:02.034941+00:00"
+  },
+  "necrons_hexmark_destroyer.en-EU": {
+    "price": 145.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:13:08.578233+00:00"
+  },
+  "necrons_hexmark_destroyer.de-CH": {
+    "price": 140.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:13:16.479235+00:00"
+  },
+  "necrons_hexmark_destroyer.en-PL": {
+    "price": 610.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:13:24.154201+00:00"
+  },
+  "necrons_hexmark_destroyer.en-NZ": {
+    "price": 348.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:13:32.307131+00:00"
+  },
+  "necrons_hexmark_destroyer.en-JP": {
+    "price": 24800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "gw_product_code": "99120110048",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:13:39.675694+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-AU": {
+    "price": 295.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:05.990007+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-CA": {
+    "price": 220.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:13.785370+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-EU": {
+    "price": 145.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:19.646237+00:00"
+  },
+  "necrons_canoptek_doomstalker.de-CH": {
+    "price": 140.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:27.877967+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-PL": {
+    "price": 610.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:34.090840+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-NZ": {
+    "price": 348.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:41.442598+00:00"
+  },
+  "necrons_canoptek_doomstalker.en-JP": {
+    "price": 24800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "gw_product_code": "99120110045",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:49.066752+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-AU": {
+    "price": 295.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:14:56.172622+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-CA": {
+    "price": 220.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:15:24.306492+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-EU": {
+    "price": 145.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:15:31.209307+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.de-CH": {
+    "price": 140.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:15:38.953520+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-PL": {
+    "price": 610.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:15:46.438959+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-NZ": {
+    "price": 348.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:15:55.088608+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer.en-JP": {
+    "price": 24800.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "gw_product_code": "99120110044",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:16:02.712933+00:00"
+  },
+  "orks_ghazghkull_thraka.en-AU": {
+    "price": 133.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:16:10.000077+00:00"
+  },
+  "orks_ghazghkull_thraka.en-CA": {
+    "price": 98.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:16:17.119833+00:00"
+  },
+  "orks_ghazghkull_thraka.en-EU": {
+    "price": 64.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:16:45.476373+00:00"
+  },
+  "orks_ghazghkull_thraka.de-CH": {
+    "price": 64.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:16:52.458648+00:00"
+  },
+  "orks_ghazghkull_thraka.en-PL": {
+    "price": 270.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:16:58.472969+00:00"
+  },
+  "orks_ghazghkull_thraka.en-NZ": {
+    "price": 158.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:17:04.570879+00:00"
+  },
+  "orks_ghazghkull_thraka.en-JP": {
+    "price": 11400.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "gw_product_code": "99120103079",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:17:09.942697+00:00"
+  },
+  "tyranid_tyrannocyte.en-AU": {
+    "price": 155.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:17:17.102651+00:00"
+  },
+  "tyranid_tyrannocyte.en-CA": {
+    "price": 127.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:17:24.546039+00:00"
+  },
+  "tyranid_tyrannocyte.en-EU": {
+    "price": 84.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:17:30.745212+00:00"
+  },
+  "tyranid_tyrannocyte.de-CH": {
+    "price": 84.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:17:56.778495+00:00"
+  },
+  "tyranid_tyrannocyte.en-PL": {
+    "price": 355.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:18:04.401389+00:00"
+  },
+  "tyranid_tyrannocyte.en-NZ": {
+    "price": 187.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:18:11.795798+00:00"
+  },
+  "tyranid_tyrannocyte.en-JP": {
+    "price": 13600.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Tyrannocyte",
+    "gw_product_code": "99120106034",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:18:18.737969+00:00"
+  },
+  "chaos_space_marine_helbrute.en-AU": {
+    "price": 203.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:18:26.458383+00:00"
+  },
+  "chaos_space_marine_helbrute.en-CA": {
+    "price": 240.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:18:32.208228+00:00"
+  },
+  "chaos_space_marine_helbrute.en-EU": {
+    "price": 155.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:18:40.362098+00:00"
+  },
+  "chaos_space_marine_helbrute.de-CH": {
+    "price": null,
+    "locale": "de-CH",
+    "gw_slug": "Helbrute",
+    "source": "gw_direct_failed",
+    "fetched_at": "2026-06-06T11:18:48.242722+00:00"
+  },
+  "chaos_space_marine_helbrute.en-PL": {
+    "price": 660.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:12.036006+00:00"
+  },
+  "chaos_space_marine_helbrute.en-NZ": {
+    "price": 240.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:20.493910+00:00"
+  },
+  "chaos_space_marine_helbrute.en-JP": {
+    "price": 19000.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Helbrute",
+    "gw_product_code": "99120102043",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:26.721867+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-AU": {
+    "price": 299.0,
+    "currency": "AUD",
+    "locale": "en-AU",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:33.326140+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-CA": {
+    "price": 235.0,
+    "currency": "CAD",
+    "locale": "en-CA",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:41.191459+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-EU": {
+    "price": 150.0,
+    "currency": "EUR",
+    "locale": "en-EU",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:46.429445+00:00"
+  },
+  "tau_empire_tidewall_droneport.de-CH": {
+    "price": 150.0,
+    "currency": "CHF",
+    "locale": "de-CH",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:19:53.948743+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-PL": {
+    "price": 650.0,
+    "currency": "PLN",
+    "locale": "en-PL",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:20:00.940152+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-NZ": {
+    "price": 353.0,
+    "currency": "NZD",
+    "locale": "en-NZ",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:20:28.493021+00:00"
+  },
+  "tau_empire_tidewall_droneport.en-JP": {
+    "price": 28000.0,
+    "currency": "JPY",
+    "locale": "en-JP",
+    "gw_slug": "Tidewall-Droneport",
+    "gw_product_code": "99120113049",
+    "source": "gw_direct",
+    "fetched_at": "2026-06-06T11:20:37.381514+00:00"
   }
 }

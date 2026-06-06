@@ -39,11 +39,11 @@
   ],
   "slugs": {
     "expert-kits": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {}
     },
     "GW-Virtual-Gift-Voucher": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {
         "en-GB": {
           "price": 5.0,
@@ -53,7 +53,7 @@
       }
     },
     "White-Dwarf-12-month-sub-ENG": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {
         "en-GB": {
           "price": 140.0,
@@ -78,7 +78,7 @@
         "en-GB": {
           "price": 67.5,
           "currency": "GBP",
-          "fetched_at": "2026-06-05T18:35:56.146455+00:00"
+          "fetched_at": "2026-06-06T09:33:04.166985+00:00"
         }
       }
     },
@@ -98,7 +98,7 @@
         "en-GB": {
           "price": 115.0,
           "currency": "GBP",
-          "fetched_at": "2026-06-05T18:36:02.793644+00:00"
+          "fetched_at": "2026-06-06T09:33:10.385232+00:00"
         }
       }
     },
@@ -143,21 +143,27 @@
       }
     },
     "Captain-With-Master-crafted-Bolt-Rifle-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101139",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:33:18.012186+00:00"
+        }
+      }
     },
     "Primaris-Techmarine-2020": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {}
     },
     "Space-Marine-Primaris-Captain-2020": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {},
       "name_matched_seed_slug": "space_marine_primaris_captain",
       "name_matched_kit_slug": "space-marine-primaris-captain"
     },
     "Primaris-Lieutenant-In-Phobos-Armour-2020": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {}
     },
     "Primaris-Librarian-In-Phobos-Armour-2020": {
@@ -245,2172 +251,5094 @@
       }
     },
     "combat-patrol-black-templars-2025": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101428",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:34:01.481715+00:00"
+        }
+      },
       "name_matched_seed_slug": "combat_patrol_black_templars_2025",
       "name_matched_kit_slug": "combat-patrol-black-templars-2025"
     },
     "blood-angels-commander-dante-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101395",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:34:09.399511+00:00"
+        }
+      }
     },
     "dark-angels-azrael-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101379",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:34:15.964129+00:00"
+        }
+      }
     },
     "grey-knights-castellan-crowe-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107015",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:34:39.810115+00:00"
+        }
+      }
     },
     "black-templars-marshal-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101368",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:34:45.613909+00:00"
+        }
+      }
     },
     "black-templars-castellan-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101367",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:34:52.720912+00:00"
+        }
+      }
     },
     "black-templars-emperors-champion-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101366",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:35:00.795265+00:00"
+        }
+      }
     },
     "black-templars-grimaldus-and-retinue-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101364",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:35:08.375857+00:00"
+        }
+      }
     },
     "black-templars-high-marshal-helbrecht-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101363",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:35:14.857227+00:00"
+        }
+      }
     },
     "black-templars-sword-brethren-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101357",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:35:41.818566+00:00"
+        }
+      }
     },
     "black-templars-primaris-crusader-squad-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101351",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:35:47.540864+00:00"
+        }
+      }
     },
     "black-templars-crusade-ancient-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101442",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:35:54.519623+00:00"
+        }
+      }
     },
     "black-templars-execrator-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101443",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:36:02.234431+00:00"
+        }
+      }
     },
     "black-templars-upgrades-and-transfers-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101369",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:36:10.461429+00:00"
+        }
+      }
     },
     "codex-supplement-black-templars-2025-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101369",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:36:17.631679+00:00"
+        }
+      }
     },
     "predator-annihilator-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101320",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:36:44.147747+00:00"
+        }
+      }
     },
     "Assault-Intercessors-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101283",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:36:51.915512+00:00"
+        }
+      }
     },
     "Outriders-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101285",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:36:59.442700+00:00"
+        }
+      }
     },
     "Hammerfall-Bunker-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101294",
+      "prices": {
+        "en-GB": {
+          "price": 55.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:37:06.186380+00:00"
+        }
+      }
     },
     "Space-Marine-Tactical-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101316",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:37:12.992992+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_marine_tactical_squad",
       "name_matched_kit_slug": "space-marine-tactical-squad"
     },
     "Primaris-Invader-ATV-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101271",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:37:20.325115+00:00"
+        }
+      }
     },
     "Centurion-Devastator-Squad-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101313",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:37:50.153353+00:00"
+        }
+      }
     },
     "Centurion-Assault-Squad-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101313",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:37:57.717047+00:00"
+        }
+      }
     },
     "Stormtalon-Gunship-2020": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {}
     },
     "Stormraven-Gunship-2020": {
-      "product_code": null,
+      "product_code": "FETCH_FAILED",
       "prices": {},
       "name_matched_seed_slug": "stormraven_gunship",
       "name_matched_kit_slug": "stormraven-gunship"
     },
     "Stormhawk-Interceptor-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101315",
+      "prices": {
+        "en-GB": {
+          "price": 78.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:38:19.499418+00:00"
+        }
+      }
     },
     "Space-Marine-Devastator-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101317",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:38:27.761468+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_marine_devastator_squad",
       "name_matched_kit_slug": "space-marine-devastator-squad"
     },
     "Blood-Angels-Baal-Predator": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101086",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:38:50.518897+00:00"
+        }
+      }
     },
     "Mephiston-Lord-of-Death-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101358",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:38:58.091835+00:00"
+        }
+      }
     },
     "Blood-Angels-Terminator-Librarian-2014": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101358",
+      "prices": {
+        "en-GB": {
+          "price": 29.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:39:06.124771+00:00"
+        }
+      }
     },
     "blood-angels-upgrades-and-transfers-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101417",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:39:13.592221+00:00"
+        }
+      }
     },
     "blood-angels-astorath-the-grim-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101419",
+      "prices": {
+        "en-GB": {
+          "price": 52.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:39:19.834363+00:00"
+        }
+      }
     },
     "blood-angels-the-sanguinor-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101414",
+      "prices": {
+        "en-GB": {
+          "price": 52.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:39:26.254242+00:00"
+        }
+      }
     },
     "blood-angels-lemartes-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101418",
+      "prices": {
+        "en-GB": {
+          "price": 52.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:39:49.896202+00:00"
+        }
+      }
     },
     "blood-angels-sanguinary-guard-2024": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101413",
+      "prices": {
+        "en-GB": {
+          "price": 52.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:39:56.636597+00:00"
+        }
+      },
       "name_matched_seed_slug": "blood_angels_sanguinary_guard",
       "name_matched_kit_slug": "blood-angels-sanguinary-guard"
     },
     "blood-angels-captain-2024": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101416",
+      "prices": {
+        "en-GB": {
+          "price": 52.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:02.732381+00:00"
+        }
+      },
       "name_matched_seed_slug": "blood_angels_captain_terminator_armour",
       "name_matched_kit_slug": "blood-angels-captain-terminator-armour"
     },
     "codex-supplement-blood-angels-2024-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101416",
+      "prices": {
+        "en-GB": {
+          "price": 29.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:09.257353+00:00"
+        }
+      }
     },
     "codex-supplement-dark-angels-eng-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101407",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:14.544193+00:00"
+        }
+      }
     },
     "dark-angels-lion-el-johnson-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101378",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:22.141124+00:00"
+        }
+      }
     },
     "Ravenwing-Command-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101361",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:45.829745+00:00"
+        }
+      },
       "name_matched_seed_slug": "ravenwing_command_squad",
       "name_matched_kit_slug": "ravenwing-command-squad"
     },
     "Dark-Angels-Master-Lazarus-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101362",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:52.432592+00:00"
+        }
+      },
       "name_matched_seed_slug": "dark_angels_master_lazarus",
       "name_matched_kit_slug": "dark-angels-master-lazarus"
     },
     "Dark-Angels-Interrogator-Chaplain-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101050",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:40:58.713496+00:00"
+        }
+      },
       "name_matched_seed_slug": "dark_angels_interrogator_chaplain",
       "name_matched_kit_slug": "dark-angels-interrogator-chaplain"
     },
     "Dark-Angels-Ravenwing-Darkshroud": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101098",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:41:05.817584+00:00"
+        }
+      }
     },
     "Dark-Angels-Nephilim-Jetfigher": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101095",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:41:13.041414+00:00"
+        }
+      }
     },
     "Dark-Angels-Land-Speeder-Vengeance": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101098",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:41:20.967180+00:00"
+        }
+      }
     },
     "Dark-Angels-Ravenwing-Dark-Talon": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101095",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:41:46.821473+00:00"
+        }
+      }
     },
     "dark-angelsbelial-grand-master-of-the-deathwing-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101404",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:41:54.183587+00:00"
+        }
+      }
     },
     "dark-angels-deathwing-knights-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101405",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:01.124169+00:00"
+        }
+      }
     },
     "dark-angels-asmodai-master-of-repentance-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101403",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:07.554353+00:00"
+        }
+      }
     },
     "dark-angels-inner-circle-companions-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101407",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:13.819481+00:00"
+        }
+      }
     },
     "Dark-Angels-Sammael": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101050",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:22.062741+00:00"
+        }
+      }
     },
     "Dark-Angels-Ezekiel-Grand-Master-of-Librarians": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101050",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:44.158999+00:00"
+        }
+      }
     },
     "imperial-agents-deathwatch-captain-artemis-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120109003",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:52.052362+00:00"
+        }
+      }
     },
     "Deathwatch-Corvus-Blackstar-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120109016",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:42:59.390705+00:00"
+        }
+      },
       "name_matched_seed_slug": "deathwatch_corvus_blackstar",
       "name_matched_kit_slug": "deathwatch-corvus-blackstar"
     },
     "Deathwatch-Watch-Master-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120109003",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:43:05.573160+00:00"
+        }
+      },
       "name_matched_seed_slug": "deathwatch_watch_master",
       "name_matched_kit_slug": "deathwatch-watch-master"
     },
     "Deathwatch-Upgrades-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120109003",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:43:12.062351+00:00"
+        }
+      },
       "name_matched_seed_slug": "deathwatch_upgrades",
       "name_matched_kit_slug": "deathwatch-upgrades"
     },
     "codex-grey-knights-2025-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107021",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:43:19.153398+00:00"
+        }
+      }
     },
     "Grey-Knights-Purifier-Squad-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:43:43.336265+00:00"
+        }
+      }
     },
     "Grey-Knights-Purgation-Squad-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:43:49.649636+00:00"
+        }
+      }
     },
     "Grey-Knights-Interceptor-Squad-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:43:55.943487+00:00"
+        }
+      }
     },
     "Grey-Knights-Terminators-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107019",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:44:04.503220+00:00"
+        }
+      }
     },
     "Grey-Knights-Paladins-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107019",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:44:11.778504+00:00"
+        }
+      }
     },
     "Grey-Knights-Strike-Squad-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120107018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:44:19.124200+00:00"
+        }
+      },
       "name_matched_seed_slug": "grey_knights_strike_squad",
       "name_matched_kit_slug": "grey-knights-strike-squad"
     },
     "Grey-Knights-Grand-Master-Voldus-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120107008",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:44:43.701940+00:00"
+        }
+      },
       "name_matched_seed_slug": "grey_knights_grand_master_voldus",
       "name_matched_kit_slug": "grey-knights-grand-master-voldus"
     },
     "grey-knights-grandmaster-in-nemesis-dreadknight-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120107023",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:44:50.403328+00:00"
+        }
+      }
     },
     "Space-Marine-Land-Raider": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101061",
+      "prices": {
+        "en-GB": {
+          "price": 71.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:44:56.916574+00:00"
+        }
+      }
     },
     "Space-Marine-Venerable-Dreadnought-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101299",
+      "prices": {
+        "en-GB": {
+          "price": 49.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:45:02.908017+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_marine_venerable_dreadnought",
       "name_matched_kit_slug": "space-marine-venerable-dreadnought"
     },
     "Landraider-Redeemer-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101344",
+      "prices": {
+        "en-GB": {
+          "price": 71.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:45:09.078340+00:00"
+        }
+      }
     },
     "Land-Raider-Crusader-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101344",
+      "prices": {
+        "en-GB": {
+          "price": 71.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:45:17.198925+00:00"
+        }
+      }
     },
     "Imperial-Fists-Tor-Garadon-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101342",
+      "prices": {
+        "en-GB": {
+          "price": 29.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:45:44.293098+00:00"
+        }
+      },
       "name_matched_seed_slug": "imperial_fists_tor_garadon",
       "name_matched_kit_slug": "imperial-fists-tor-garadon"
     },
     "Imperial-Fists-Primaris-Upgrades-2020": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 18.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:45:49.823730+00:00"
+        }
+      }
     },
     "imperial-fists-darnath-lysander-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101446",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:45:55.262115+00:00"
+        }
+      }
     },
     "Iron-Hands-Feirros-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101291",
+      "prices": {
+        "en-GB": {
+          "price": 29.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:46:01.341118+00:00"
+        }
+      },
       "name_matched_seed_slug": "iron_hands_feirros",
       "name_matched_kit_slug": "iron-hands-feirros"
     },
     "Iron-Hands-Primaris-Upgrades-2020": {
       "product_code": null,
-      "prices": {},
+      "prices": {
+        "en-GB": {
+          "price": 18.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:46:07.819104+00:00"
+        }
+      },
       "name_matched_seed_slug": "iron_hands_primaris_upgrades_transfers",
       "name_matched_kit_slug": "iron-hands-primaris-upgrades-transfers"
     },
     "iron-hands-caanok-var-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101447",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:46:15.799998+00:00"
+        }
+      }
     },
     "Raven-Guard-Kayvaan-Shrike-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101292",
+      "prices": {
+        "en-GB": {
+          "price": 29.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:46:40.406538+00:00"
+        }
+      },
       "name_matched_seed_slug": "raven_guard_kayvaan_shrike",
       "name_matched_kit_slug": "raven-guard-kayvaan-shrike"
     },
     "Raven-Guard-Primaris-Upgrades-2020": {
       "product_code": null,
-      "prices": {},
+      "prices": {
+        "en-GB": {
+          "price": 18.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:46:47.120338+00:00"
+        }
+      },
       "name_matched_seed_slug": "raven_guard_primaris_upgrades_transfers",
       "name_matched_kit_slug": "raven-guard-primaris-upgrades-transfers"
     },
     "raven-guard-aethon-shaan-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101445",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:46:54.378121+00:00"
+        }
+      }
     },
     "Salamanders-Adrax-Agatone-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101293",
+      "prices": {
+        "en-GB": {
+          "price": 29.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:47:01.454252+00:00"
+        }
+      },
       "name_matched_seed_slug": "salamanders_adrax_agatone",
       "name_matched_kit_slug": "salamanders-adrax-agatone"
     },
     "Salamanders-Primaris-Upgrades-2020": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 19.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:47:09.008139+00:00"
+        }
+      }
     },
     "salamanders-vulkan-hestan-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101444",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:47:16.162755+00:00"
+        }
+      }
     },
     "codex-supplement-space-wolves-2025-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101438",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:47:42.287144+00:00"
+        }
+      }
     },
     "space-wolves-arjac-rockfist-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101439",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:47:49.558800+00:00"
+        }
+      }
     },
     "space-wolves-wolf-guard-terminators-2025": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101441",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:47:56.804754+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_wolves_wolf_guard_terminators",
       "name_matched_kit_slug": "space-wolves-wolf-guard-terminators"
     },
     "space-wolves-logan-grimnar-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101438",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:48:04.107535+00:00"
+        }
+      }
     },
     "Ragnar-Blackmane-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101275",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:48:10.538409+00:00"
+        }
+      }
     },
     "space-wolves-wolf-priest-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101435",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:48:17.120079+00:00"
+        }
+      }
     },
     "space-wolves-wolf-guard-battle-leader-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101436",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:48:41.074987+00:00"
+        }
+      }
     },
     "space-wolves-blood-claws-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101434",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:48:47.940837+00:00"
+        }
+      }
     },
     "space-wolves-njal-stormcaller-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101440",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:48:54.435738+00:00"
+        }
+      }
     },
     "space-wolves-wolf-guard-headtakers-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101437",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:49:01.751809+00:00"
+        }
+      }
     },
     "space-wolves-grey-hunters-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101433",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:49:09.360022+00:00"
+        }
+      }
     },
     "Space-Wolves-Venerable-Dreadnought-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101348",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:49:17.273238+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_wolves_venerable_dreadnought",
       "name_matched_kit_slug": "space-wolves-venerable-dreadnought"
     },
     "Space-Wolves-Ulrik-the-Slayer-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101145",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:49:44.152134+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_wolves_ulrik_the_slayer",
       "name_matched_kit_slug": "space-wolves-ulrik-the-slayer"
     },
     "Space-Wolves-Iron-Priest-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101145",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:49:50.972514+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_wolves_iron_priest",
       "name_matched_kit_slug": "space-wolves-iron-priest"
     },
     "Fenrisian-Wolves-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101352",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:49:57.616348+00:00"
+        }
+      }
     },
     "Murderfang-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101348",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:50:05.986175+00:00"
+        }
+      }
     },
     "Bjorn-the-Fellhanded-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101348",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:50:11.056678+00:00"
+        }
+      }
     },
     "Thunderwolf-Cavalry-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101350",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:50:16.464193+00:00"
+        }
+      }
     },
     "Space-Wolves-Wulfen-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101349",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:50:41.568823+00:00"
+        }
+      },
       "name_matched_seed_slug": "space_wolves_wulfen",
       "name_matched_kit_slug": "space-wolves-wulfen"
     },
     "captain-titus-and-the-wardens-of-ultramar-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101459",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:50:48.258075+00:00"
+        }
+      }
     },
     "Ultramarines-Chief-Librarian-Tigurius-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101329",
+      "prices": {
+        "en-GB": {
+          "price": 35.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:50:55.134890+00:00"
+        }
+      },
       "name_matched_seed_slug": "ultramarines_chief_librarian_tigurius",
       "name_matched_kit_slug": "ultramarines-chief-librarian-tigurius"
     },
     "Roboute-Guilliman-Ultramarines-Primarch-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101327",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:51:03.706119+00:00"
+        }
+      }
     },
     "ultramarines-upgrades-and-transfers-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101451",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:51:09.354423+00:00"
+        }
+      }
     },
     "ultramarines-victrix-honour-guard-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101453",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:51:16.821855+00:00"
+        }
+      }
     },
     "ultramarines-cato-sicarius-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101452",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:51:44.641206+00:00"
+        }
+      }
     },
     "marneus-calgar-in-armour-of-antilochus-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101450",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:51:51.687703+00:00"
+        }
+      }
     },
     "White-Scars-KorSarro-Khan-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120101330",
+      "prices": {
+        "en-GB": {
+          "price": 29.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:51:58.989074+00:00"
+        }
+      },
       "name_matched_seed_slug": "white_scars_korsarro_khan",
       "name_matched_kit_slug": "white-scars-korsarro-khan"
     },
     "White-Scar-Primaris-Upgrades-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101030",
+      "prices": {
+        "en-GB": {
+          "price": 27.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:52:06.783355+00:00"
+        }
+      }
     },
     "white-scars-suboden-khan-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101448",
+      "prices": {
+        "en-GB": {
+          "price": 78.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:52:14.797519+00:00"
+        }
+      }
     },
     "armageddon-battalion-adepta-sororitas-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108120",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:52:23.169489+00:00"
+        }
+      }
     },
     "combat-patrol-adepta-soritas-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108100",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:52:48.125768+00:00"
+        }
+      }
     },
     "adepta-sororitas-intranzia-fraye-dogmata-superior-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108122",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:52:54.935421+00:00"
+        }
+      }
     },
     "codex-adepta-sororitas-2024-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108100",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:01.211804+00:00"
+        }
+      }
     },
     "Aestred-Thurga-Relinquant-At-Arms": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108050",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:08.820869+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Castigator": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108048",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:15.865375+00:00"
+        }
+      }
     },
     "Morvenn-Vahl-Abbess-Sanctorum-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108047",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:22.371239+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Paragon-Warsuit-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108046",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:43.711930+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Celestian-Sacresants-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108045",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:50.635169+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Sister-Dogmata-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108057",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:53:58.863746+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Palatine-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108057",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:54:05.183956+00:00"
+        }
+      }
     },
     "Daemonifuge-Ephrael-Stern-and-Kyganil-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108065",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:54:12.109838+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Rhino-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108063",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:54:19.561521+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_rhino",
       "name_matched_kit_slug": "adepta-sororitas-rhino"
     },
     "Adepta-Sororitas-Repentia-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108060",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:54:46.832569+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_repentia_squad",
       "name_matched_kit_slug": "adepta-sororitas-repentia-squad"
     },
     "Adepta-Sororitas-Immolator-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108054",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:54:53.952586+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_immolator",
       "name_matched_kit_slug": "adepta-sororitas-immolator"
     },
     "Adepta-Sororitas-Imagifier-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108057",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:55:01.391614+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Mortifier-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108059",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:55:09.292662+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Penitent-Engines-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108059",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:55:15.069599+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_penitent_engines",
       "name_matched_kit_slug": "adepta-sororitas-penitent-engines"
     },
     "Adepta-Sororitas-Arco-Flagellants-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108056",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:55:21.328250+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_arco_flagellants",
       "name_matched_kit_slug": "adepta-sororitas-arco-flagellants"
     },
     "Adepta-Sororitas-Junith-Eruita-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108055",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:55:47.454218+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_junith_eruita",
       "name_matched_kit_slug": "adepta-sororitas-junith-eruita"
     },
     "Adepta-Sororitas-Hospitaller-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108053",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:55:54.057105+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_hospitaller",
       "name_matched_kit_slug": "adepta-sororitas-hospitaller"
     },
     "Adepta-Sororitas-Retributor-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108062",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:56:00.930182+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_retributor_squad",
       "name_matched_kit_slug": "adepta-sororitas-retributor-squad"
     },
     "Adepta-Sororitas-The-Triumph-Of-St-Katherine-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108061",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:56:07.300430+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_the_triumph_of_st_katherine",
       "name_matched_kit_slug": "adepta-sororitas-the-triumph-of-st-katherine"
     },
     "Adepta-Sororitas-Battle-Sisters-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108057",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:56:15.404997+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_battle_sisters_squad",
       "name_matched_kit_slug": "adepta-sororitas-battle-sisters-squad"
     },
     "Sister-Superior-Amalia-Novena-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108020",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:56:23.473898+00:00"
+        }
+      }
     },
     "Space-Marine-Celestine-The-Living-Saint-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108066",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:56:51.181530+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Dominions-Celestians-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108057",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:56:56.951327+00:00"
+        }
+      }
     },
     "adepta-sororitas-sisters-novitiate-squad-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108121",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:57:04.315376+00:00"
+        }
+      }
     },
     "adepta-sororitas-canoness-with-jump-pack-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108103",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:57:10.500421+00:00"
+        }
+      }
     },
     "adepta-sororitas-ministorum-priest-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108066",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:57:16.377135+00:00"
+        }
+      }
     },
     "adepta-sororitas-ministorum-priest-with-vindicator-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108100",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:57:24.013720+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Exorcist-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108052",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:57:46.801971+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_exorcist",
       "name_matched_kit_slug": "adepta-sororitas-exorcist"
     },
     "Adepta-Sororitas-Zephyrim-Squad-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108064",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:57:55.309958+00:00"
+        }
+      }
     },
     "Adepta-Sororitas-Seraphim-Squad-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108064",
+      "prices": {
+        "en-GB": {
+          "price": 57.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:58:01.776023+00:00"
+        }
+      },
       "name_matched_seed_slug": "adepta_sororitas_seraphim_squad",
       "name_matched_kit_slug": "adepta-sororitas-seraphim-squad"
     },
     "combat-patrol-adeptus-custodes-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108094",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:58:07.824112+00:00"
+        }
+      }
     },
     "codex-adeptus-custodes-eng-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108094",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:58:13.711594+00:00"
+        }
+      }
     },
     "Shield-Captain-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108073",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:58:19.486245+00:00"
+        }
+      }
     },
     "legiones-astartes-contemptor-dreadnought-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123001007",
+      "prices": {
+        "en-GB": {
+          "price": 85.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:58:44.425890+00:00"
+        }
+      }
     },
     "Shield-captain-On-Dawneagle-and-2-Miniatures-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108078",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:58:52.416426+00:00"
+        }
+      }
     },
     "Talons-Of-The-Emperor-Valerian-And-Aleya-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108031",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:59:00.804659+00:00"
+        }
+      },
       "name_matched_seed_slug": "talons_of_the_emperor_valerian_and_aleya",
       "name_matched_kit_slug": "talons-of-the-emperor-valerian-and-aleya"
     },
     "Adeptus-Custodes-Custodian-Guard-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108073",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:59:07.890800+00:00"
+        }
+      }
     },
     "adeptus-custodes-blade-champion-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108075",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:59:13.289284+00:00"
+        }
+      }
     },
     "Vexilus-Praetor-and-4-Miniatures-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108077",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:59:20.265578+00:00"
+        }
+      }
     },
     "Shield-Captain-and-4-miniatures-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108077",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:59:47.676349+00:00"
+        }
+      }
     },
     "Adeptus-Custodes-Vertus-Praetors-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108078",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T09:59:55.517513+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_custodes_vertus_praetors",
       "name_matched_kit_slug": "adeptus-custodes-vertus-praetors"
     },
     "Adeptus-Custodes-Custodian-Wardens-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108077",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:00:02.383374+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_custodes_custodian_wardens",
       "name_matched_kit_slug": "adeptus-custodes-custodian-wardens"
     },
     "Vexilus-Praetor-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108073",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:00:09.163424+00:00"
+        }
+      }
     },
     "Shield-Captain-in-Allarus-Terminator-Armour-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108075",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:00:15.538587+00:00"
+        }
+      }
     },
     "Vexilus-Praetor-in-Allarus-Terminator-Armour-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108075",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:00:22.688204+00:00"
+        }
+      }
     },
     "Captain-general-Trajann-Valoris-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108076",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:00:44.772904+00:00"
+        }
+      }
     },
     "Adeptus-Custodes-Allarus-Custodians-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108075",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:00:52.454270+00:00"
+        }
+      }
     },
     "Vigilator-Squad": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108074",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:00.663844+00:00"
+        }
+      }
     },
     "Sisters-Of-Silence-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108074",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:06.831874+00:00"
+        }
+      }
     },
     "Witchseeker-Squad": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108074",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:12.888714+00:00"
+        }
+      }
     },
     "Venerable-Land-Raider": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120101061",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:18.687294+00:00"
+        }
+      }
     },
     "legio-custodes-sentinel-guard-sodality-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043002",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:40.736977+00:00"
+        }
+      }
     },
     "legio-custodes-shield-captain-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043004",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:48.069585+00:00"
+        }
+      }
     },
     "legio-custodes-venatari-sodality-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043003",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:01:55.570407+00:00"
+        }
+      }
     },
     "legio-custodes-custodian-guard-sodality-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043005",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:02:03.677388+00:00"
+        }
+      }
     },
     "legio-custodes-caladius-grav-tank-annihilator-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043009",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:02:09.380326+00:00"
+        }
+      }
     },
     "legio-custodes-caladius-grav-tank-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043007",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:02:16.523456+00:00"
+        }
+      }
     },
     "legio-custodes-coronus-grav-carrier-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043008",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:02:39.812562+00:00"
+        }
+      }
     },
     "legio-custodes-custodian-dreadnought-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123043006",
+      "prices": {
+        "en-GB": {
+          "price": 86.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:02:48.286648+00:00"
+        }
+      }
     },
     "Legio-Custodes-Ares-Gunship-2019": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 377.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:02:54.415348+00:00"
+        }
+      }
     },
     "Legio-Custodes-Shield-Captain-2018": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 377.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:03:01.637820+00:00"
+        }
+      }
     },
     "Legio-Custodes-Telemon-Dreadnought-Iliastus-Accelerator-Culverin-2017": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 377.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:03:09.971671+00:00"
+        }
+      }
     },
     "Custodes-Gunship-2017": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 377.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:03:17.588861+00:00"
+        }
+      }
     },
     "Legio-Custodes-Aquilon-Terminators-with-Infernus-Firepikes-2017": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 377.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:03:43.054723+00:00"
+        }
+      }
     },
     "Legio-Custodes-Aquilon-Terminators-2017": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 377.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:03:49.211645+00:00"
+        }
+      }
     },
     "eye-of-terror-battalion-adeptus-mechanicus-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116049",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:03:56.290246+00:00"
+        }
+      }
     },
     "combat-patrol-adeptus-mechanicus-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116044",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:04:05.229763+00:00"
+        }
+      }
     },
     "codex-adeptus-mechanicus-hb-eng-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116044",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:04:10.754000+00:00"
+        }
+      }
     },
     "adeptus-mechanicus-technoarchaeologist-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116030",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:04:17.998502+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Serberys-Sulphurhounds--2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116041",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:04:45.094987+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Pteraxii-Sterylizors-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116040",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:04:52.124964+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Archaeopter-Stratoraptor-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116039",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:04:59.449526+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Archaeopter-Fusilave-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116039",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:05:06.089966+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Serberys-Raiders-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120116041",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:05:12.864054+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_mechanicus_serberys_raiders",
       "name_matched_kit_slug": "adeptus-mechanicus-serberys-raiders"
     },
     "Adeptus-Mechanicus-Pteraxii-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120116040",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:05:19.947356+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_mechanicus_pteraxii",
       "name_matched_kit_slug": "adeptus-mechanicus-pteraxii"
     },
     "Adeptus-Mechanicus-Archaeopter-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120116039",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:05:43.942816+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_mechanicus_archaeopter",
       "name_matched_kit_slug": "adeptus-mechanicus-archaeopter"
     },
     "Adeptus-Mechanicus-Tech-priest-Manipulus-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120116030",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:05:51.580243+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_mechanicus_tech_priest_manipulus",
       "name_matched_kit_slug": "adeptus-mechanicus-tech-priest-manipulus"
     },
     "Adeptus-Mechanicus-Skorpius-Dunerider-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116038",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:05:57.505384+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Skorpius-Disintegrator-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120116038",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:06:05.666726+00:00"
+        }
+      },
       "name_matched_seed_slug": "adeptus_mechanicus_skorpius_disintegrator",
       "name_matched_kit_slug": "adeptus-mechanicus-skorpius-disintegrator"
     },
     "Kataphron-Battle-Servitors-Destroyers-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116037",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:06:11.788885+00:00"
+        }
+      }
     },
     "Kataphron-Battle-Servitors-Breachers-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116037",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:06:19.951958+00:00"
+        }
+      }
     },
     "Sicarian-Infiltrators-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116035",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:06:39.755742+00:00"
+        }
+      }
     },
     "Sicarians-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116035",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:06:46.827591+00:00"
+        }
+      }
     },
     "Skitarii-Rangers-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116033",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:06:53.923012+00:00"
+        }
+      }
     },
     "Skitarii-Vanguard-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116033",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:07:01.083170+00:00"
+        }
+      }
     },
     "Ironstrider-Ballistarius-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116034",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:07:07.378102+00:00"
+        }
+      }
     },
     "Sydonian-Dragoon-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116034",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:07:13.853314+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Belisarius-Cawl-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116032",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:07:41.574209+00:00"
+        }
+      }
     },
     "Astra-Militarum-Tech-Priest-Enginseer": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120116030",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:07:48.879880+00:00"
+        }
+      },
       "name_matched_seed_slug": "astra_militarum_tech_priest_enginseer",
       "name_matched_kit_slug": "astra-militarum-tech-priest-enginseer"
     },
     "Ad-Mec-Corpuscarii-Electro-Priests": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116031",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:07:56.359375+00:00"
+        }
+      }
     },
     "Ad-Mec-Tech-Priest-Dominus": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116030",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:01.699667+00:00"
+        }
+      }
     },
     "Ad-Mec-Fulgurite-Electro-Priests": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116031",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:08.662264+00:00"
+        }
+      }
     },
     "Onager-Dunecrawler": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116030",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:14.890134+00:00"
+        }
+      }
     },
     "adeptus-mechanicus-hastarii-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116051",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:37.190421+00:00"
+        }
+      }
     },
     "adeptus-mechanicus-thulia-ghuld-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116050",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:43.042833+00:00"
+        }
+      }
     },
     "adeptus-mechanicus-sydonian-skatros-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116045",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:48.865889+00:00"
+        }
+      }
     },
     "eye-of-terror-reign-of-iron-2026-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102228",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:08:54.761103+00:00"
+        }
+      }
     },
     "Adeptus-Mechanicus-Skitarii-Marshall-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116030",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:01.653954+00:00"
+        }
+      }
     },
     "Kastelan-Robots-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120116036",
+      "prices": {
+        "en-GB": {
+          "price": 52.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:09.164001+00:00"
+        }
+      }
     },
     "war-dog-huntsman-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108080",
+      "prices": {
+        "en-GB": {
+          "price": 60.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:31.376404+00:00"
+        }
+      }
     },
     "war-dog-executioner-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108080",
+      "prices": {
+        "en-GB": {
+          "price": 115.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:38.045281+00:00"
+        }
+      }
     },
     "imperial-knights-knight-dominus-knight-tyrant-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108081",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:45.075683+00:00"
+        }
+      }
     },
     "knight-questoris-despoiler-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108105",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:51.159611+00:00"
+        }
+      }
     },
     "imperial-knights-knight-questoris-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108105",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:09:59.440675+00:00"
+        }
+      }
     },
     "horus-heresy-cerastus-knight-acheron-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123008006",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:10:05.645323+00:00"
+        }
+      }
     },
     "horus-heresy-cerastus-knight-castigator-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123008005",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:10:33.527969+00:00"
+        }
+      }
     },
     "MECHANICUM-KNIGHT-MOIRAX-WITH-VOLKITE-VEULGLAIRE-FW-2020": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:10:41.130550+00:00"
+        }
+      }
     },
     "Mechanicum-Knight-Moirax-Graviton-Pulsar-2019": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:10:48.592290+00:00"
+        }
+      }
     },
     "Mechanicum-Knight-Conversion-Beam-Cannon-2019": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:10:54.071736+00:00"
+        }
+      }
     },
     "Knight-Moirax-with-Lightning-Locks-2019": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:10:59.496596+00:00"
+        }
+      }
     },
     "Acastus-Knight-Porphyrion": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:11:07.128070+00:00"
+        }
+      }
     },
     "Questoris-Knight-Styrix": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:11:32.267162+00:00"
+        }
+      }
     },
     "Questoris-Knight-Magaera": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:11:40.785924+00:00"
+        }
+      }
     },
     "horus-heresy-cerastus-knight-lancer-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123008004",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:11:48.504299+00:00"
+        }
+      }
     },
     "Mechanicum-Acastus-Knight-Asterius-2019": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:11:55.604494+00:00"
+        }
+      }
     },
     "Mechanicum-Cerastus-Knight-Atrapos": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 243.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:12:02.737815+00:00"
+        }
+      }
     },
     "armageddon-battalion-orks-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103126",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:12:11.009470+00:00"
+        }
+      }
     },
     "imperial-agents-inquisitor-kroyle-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108124",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:12:37.417425+00:00"
+        }
+      }
     },
     "orks-wazdakka-gutsmek-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103128",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:12:44.121772+00:00"
+        }
+      }
     },
     "astra-militarum-commissar-graves-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105140",
+      "prices": {
+        "en-GB": {
+          "price": 160.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:12:51.685569+00:00"
+        }
+      }
     },
     "astra-militarum-commissar-yarrick-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105138",
+      "prices": {
+        "en-GB": {
+          "price": 160.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:12:58.914684+00:00"
+        }
+      }
     },
     "combat-patrol-drukhari-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112057",
+      "prices": {
+        "en-GB": {
+          "price": 150.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:13:05.859763+00:00"
+        }
+      }
     },
     "combat-patrol-leagues-of-votann-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120118024",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:13:13.593206+00:00"
+        }
+      }
     },
     "combat-patrol-tyranid-assault-brood-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106081",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:13:38.170896+00:00"
+        }
+      }
     },
     "combat-patrol-thousand-sons-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102195",
+      "prices": {
+        "en-GB": {
+          "price": 130.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:13:44.017559+00:00"
+        }
+      }
     },
     "combat-patrol-emperors-children-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102207",
+      "prices": {
+        "en-GB": {
+          "price": 105.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:13:51.297223+00:00"
+        }
+      }
     },
     "combat-patrol-world-eaters-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102196",
+      "prices": {
+        "en-GB": {
+          "price": 150.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:13:58.521689+00:00"
+        }
+      }
     },
     "combat-patrol-death-guard-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102194",
+      "prices": {
+        "en-GB": {
+          "price": 150.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:14:06.016449+00:00"
+        }
+      }
     },
     "combat-patrol-aeldari-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104097",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:14:13.388930+00:00"
+        }
+      }
     },
     "combat-patrol-astra-militarum-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105124",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:14:36.024804+00:00"
+        }
+      }
     },
     "combat-patrol-imperial-agents-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108101",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:14:43.873923+00:00"
+        }
+      }
     },
     "combat-patrol-genestealer-cults-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117028",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:14:50.333387+00:00"
+        }
+      }
     },
     "combat-patrol-tau-empire-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113091",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:14:57.467867+00:00"
+        }
+      }
     },
     "combat-patrol-necrons-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110077",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:15:05.297589+00:00"
+        }
+      }
     },
     "Dark-Eldar-Hellions": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112009",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:15:12.393474+00:00"
+        }
+      }
     },
     "Dark-Eldar-Wyches": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112044",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:15:39.722338+00:00"
+        }
+      }
     },
     "Astra-Militarum-Manticore": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105049",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:15:47.032327+00:00"
+        }
+      }
     },
     "aeldari-eldritch-raiders-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104088",
+      "prices": {
+        "en-GB": {
+          "price": 160.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:15:54.031254+00:00"
+        }
+      }
     },
     "aeldari-shining-spears-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104071",
+      "prices": {
+        "en-GB": {
+          "price": 69.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:16:01.118059+00:00"
+        }
+      }
     },
     "codex-aeldari-2025-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104100",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:16:08.273124+00:00"
+        }
+      }
     },
     "aeldari-maugan-ra-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104069",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:16:16.095637+00:00"
+        }
+      }
     },
     "aeldari-dark-reapers-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104068",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:16:42.088087+00:00"
+        }
+      }
     },
     "Craftworlds-Howling-Banshees-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120104086",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:16:49.732798+00:00"
+        }
+      },
       "name_matched_seed_slug": "craftworlds_howling_banshees",
       "name_matched_kit_slug": "craftworlds-howling-banshees"
     },
     "Craftworlds-Jain-Zar-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104087",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:16:56.912069+00:00"
+        }
+      }
     },
     "Eldar-Dire-Avengers-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120104079",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:17:03.722695+00:00"
+        }
+      },
       "name_matched_seed_slug": "eldar_dire_avengers",
       "name_matched_kit_slug": "eldar-dire-avengers"
     },
     "Eldar-Crimson-Hunter-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104080",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:17:09.967613+00:00"
+        }
+      }
     },
     "aeldari-phoenix-lord-fuegan-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104103",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:17:17.205355+00:00"
+        }
+      }
     },
     "aeldari-phoenix-lord-baharroth-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104099",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:17:46.403496+00:00"
+        }
+      }
     },
     "aeldari-phoenix-lord-lhykhis-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104101",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:17:53.060559+00:00"
+        }
+      }
     },
     "aeldari-swooping-hawks-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104098",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:00.100050+00:00"
+        }
+      }
     },
     "aeldari-fire-dragons-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104102",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:07.008964+00:00"
+        }
+      }
     },
     "aeldari-warp-spiders-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104100",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:13.301791+00:00"
+        }
+      }
     },
     "Eldar-Support-Weapon": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104028",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:19.839686+00:00"
+        }
+      }
     },
     "aeldari-autarch-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104077",
+      "prices": {
+        "en-GB": {
+          "price": 27.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:44.583198+00:00"
+        }
+      }
     },
     "aeldari-shroud-runners-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104074",
+      "prices": {
+        "en-GB": {
+          "price": 69.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:50.146938+00:00"
+        }
+      }
     },
     "aeldari-rangers-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104073",
+      "prices": {
+        "en-GB": {
+          "price": 69.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:18:58.230429+00:00"
+        }
+      }
     },
     "aeldari-avatar-of-khaine-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104072",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:19:06.133581+00:00"
+        }
+      }
     },
     "aeldari-the-yncarne-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104076",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:19:13.767423+00:00"
+        }
+      }
     },
     "aeldari-warlocks-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104066",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:19:20.335147+00:00"
+        }
+      }
     },
     "aeldari-the-visarch-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104066",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:19:44.962705+00:00"
+        }
+      }
     },
     "aeldari-yvraine-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104066",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:19:51.119390+00:00"
+        }
+      }
     },
     "Drukhari-Incubi-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120112051",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:19:58.125368+00:00"
+        }
+      },
       "name_matched_seed_slug": "drukhari_incubi",
       "name_matched_kit_slug": "drukhari-incubi"
     },
     "Craftworlds-Spiritseer-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104051",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:20:05.088166+00:00"
+        }
+      }
     },
     "Eldar-Windriders-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120104082",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:20:11.625268+00:00"
+        }
+      },
       "name_matched_seed_slug": "eldar_windriders",
       "name_matched_kit_slug": "eldar-windriders"
     },
     "Eldar-Warlock-Skyrunner-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104084",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:20:18.257506+00:00"
+        }
+      }
     },
     "Eldar-Farseer-Skyrunner-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120104084",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:20:40.510160+00:00"
+        }
+      },
       "name_matched_seed_slug": "eldar_farseer_skyrunner",
       "name_matched_kit_slug": "eldar-farseer-skyrunner"
     },
     "Eldrad-Ulthran-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120104084",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:20:46.197453+00:00"
+        }
+      }
     },
     "Drukhari-Kabalite-Warriors-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112045",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:20:54.166367+00:00"
+        }
+      }
     },
     "Eldar-Hemlock-Wraithfighter-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120104080",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:21:01.452954+00:00"
+        }
+      },
       "name_matched_seed_slug": "eldar_hemlock_wraithfighter",
       "name_matched_kit_slug": "eldar-hemlock-wraithfighter"
     },
     "Dark-Eldar-Venom-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120112049",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:21:07.773675+00:00"
+        }
+      },
       "name_matched_seed_slug": "dark_eldar_venom",
       "name_matched_kit_slug": "dark-eldar-venom"
     },
     "Drukhari-Lelith-Hesperax-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112042",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:21:15.358725+00:00"
+        }
+      }
     },
     "Haemonculus-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112047",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:21:40.067325+00:00"
+        }
+      }
     },
     "Succubus-2014": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112047",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:21:48.236706+00:00"
+        }
+      }
     },
     "drukhari-archon-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112060",
+      "prices": {
+        "en-GB": {
+          "price": 49.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:21:54.165921+00:00"
+        }
+      }
     },
     "drukhari-lady-malys-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112054",
+      "prices": {
+        "en-GB": {
+          "price": 150.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:01.165325+00:00"
+        }
+      }
     },
     "drukhari-wracks-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112033",
+      "prices": {
+        "en-GB": {
+          "price": 150.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:08.090773+00:00"
+        }
+      }
     },
     "codex-drukhari-hb-2025-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112054",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:13.811321+00:00"
+        }
+      }
     },
     "Dark-Eldar-Talos-Pain-Engine-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120112048",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:36.825437+00:00"
+        }
+      },
       "name_matched_seed_slug": "dark_eldar_talos_pain_engine",
       "name_matched_kit_slug": "dark-eldar-talos-pain-engine"
     },
     "Dark-Eldar-Cronos-Parasite-Engine-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112048",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:44.167890+00:00"
+        }
+      }
     },
     "Voidraven-Bomber": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112020",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:51.562230+00:00"
+        }
+      }
     },
     "Dark-Eldar-Razorwing-Jetfighter": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112015",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:22:59.239621+00:00"
+        }
+      }
     },
     "Dark-Eldar-Scourges": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120112047",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:23:05.747889+00:00"
+        }
+      },
       "name_matched_seed_slug": "dark_eldar_scourges",
       "name_matched_kit_slug": "dark-eldar-scourges"
     },
     "Drukhari-Raider": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112046",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:23:12.655745+00:00"
+        }
+      }
     },
     "Drukhari-Drazhar-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112050",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:23:37.318440+00:00"
+        }
+      }
     },
     "Dark-Eldar-Ravager": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112011",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:23:44.338373+00:00"
+        }
+      }
     },
     "Dark-Eldar-Reavers": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120112010",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:23:51.972573+00:00"
+        }
+      }
     },
     "codex-genestealer-cults-2024-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106068",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:23:57.568725+00:00"
+        }
+      }
     },
     "genestealer-cults-reductus-saboteur-2022": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 25.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:24:04.466602+00:00"
+        }
+      }
     },
     "Genestealer-Cults-Kelermorph-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:24:11.944502+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_kelermorph",
       "name_matched_kit_slug": "genestealer-cults-kelermorph"
     },
     "Genestealer-Cults-Achilles-Ridgerunner-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117025",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:24:40.338744+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_achilles_ridgerunner",
       "name_matched_kit_slug": "genestealer-cults-achilles-ridgerunner"
     },
     "Genestealer-Cults-Aberrants-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117022",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:24:47.979365+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_aberrants",
       "name_matched_kit_slug": "genestealer-cults-aberrants"
     },
     "Genestealer-Cults-Abominant-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117010",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:24:55.587876+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_abominant",
       "name_matched_kit_slug": "genestealer-cults-abominant"
     },
     "Genestealer-Cults-Biophagus-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117010",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:25:03.225392+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_biophagus",
       "name_matched_kit_slug": "genestealer-cults-biophagus"
     },
     "Genestealer-Cults-Jackal-Alphus-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117023",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:25:09.727918+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_jackal_alphus",
       "name_matched_kit_slug": "genestealer-cults-jackal-alphus"
     },
     "Genestealer-Cults-Nexos-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:25:16.576476+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_nexos",
       "name_matched_kit_slug": "genestealer-cults-nexos"
     },
     "Genestealer-Cults-Locus-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:25:43.715714+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_locus",
       "name_matched_kit_slug": "genestealer-cults-locus"
     },
     "Genestealer-Cults-Magus-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:25:51.689455+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_magus",
       "name_matched_kit_slug": "genestealer-cults-magus"
     },
     "Genestealer-Cults-Clamavus-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:25:58.892184+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_clamavus",
       "name_matched_kit_slug": "genestealer-cults-clamavus"
     },
     "goliath-rockgrinder-2016": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:26:05.561743+00:00"
+        }
+      }
     },
     "goliath-truck-2016": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:26:13.666403+00:00"
+        }
+      }
     },
     "Genestealer-Cults-Broodcoven": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117017",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:26:20.822279+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_broodcoven",
       "name_matched_kit_slug": "genestealer-cults-broodcoven"
     },
     "acolyte-iconward-2016": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117019",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:26:46.430576+00:00"
+        }
+      }
     },
     "hybrid-metamorphs-2016": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117019",
+      "prices": {
+        "en-GB": {
+          "price": 35.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:26:54.431506+00:00"
+        }
+      }
     },
     "neophite-hybrids-2016": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117020",
+      "prices": {
+        "en-GB": {
+          "price": 35.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:27:00.974512+00:00"
+        }
+      }
     },
     "acolyte-hybrids-2016": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117019",
+      "prices": {
+        "en-GB": {
+          "price": 35.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:27:08.254288+00:00"
+        }
+      }
     },
     "genestealer-cults-benefictus-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120117028",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:27:14.900910+00:00"
+        }
+      }
     },
     "tyranids-genestealers-2023": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106068",
+      "prices": {
+        "en-GB": {
+          "price": 74.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:27:21.153448+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_genestealers",
       "name_matched_kit_slug": "tyranid-genestealers"
     },
     "Genestealer-Cults-Atalan-Jackals-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117024",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:27:44.576028+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_atalan_jackals",
       "name_matched_kit_slug": "genestealer-cults-atalan-jackals"
     },
     "Genestealer-Cults-Sanctus-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120117018",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:27:52.844607+00:00"
+        }
+      },
       "name_matched_seed_slug": "genestealer_cults_sanctus",
       "name_matched_kit_slug": "genestealer-cults-sanctus"
     },
     "Imperial-Guard-Basilisk": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105047",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:00.352473+00:00"
+        }
+      }
     },
     "Imperial-Guard-Chimera": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105114",
+      "prices": {
+        "en-GB": {
+          "price": 58.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:05.920482+00:00"
+        }
+      }
     },
     "astra-militarum-cadian-upgrades-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105106",
+      "prices": {
+        "en-GB": {
+          "price": 32.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:13.196929+00:00"
+        }
+      }
     },
     "astra-militarum-cadian-castellan-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105100",
+      "prices": {
+        "en-GB": {
+          "price": 32.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:19.298592+00:00"
+        }
+      }
     },
     "astra-militarum-attilan-rough-riders-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105092",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:42.524338+00:00"
+        }
+      }
     },
     "astra-militarum-armoured-sentinel-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105103",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:50.308087+00:00"
+        }
+      }
     },
     "astra-militarum-stormsword-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:28:56.599723+00:00"
+        }
+      }
     },
     "astra-militarum-stormlord-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:03.748677+00:00"
+        }
+      }
     },
     "astra-militarum-shadowsword-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:11.333898+00:00"
+        }
+      }
     },
     "astra-militarum-hellhammer-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:17.769053+00:00"
+        }
+      }
     },
     "astra-militarum-doomhammer-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:40.206362+00:00"
+        }
+      }
     },
     "Necrons-Royal-Court-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110072",
+      "prices": {
+        "en-GB": {
+          "price": 105.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:47.340320+00:00"
+        }
+      }
     },
     "necrons-ctan-shard-of-the-nightbringer-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110088",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:53.669469+00:00"
+        }
+      }
     },
     "necrons-nekrosor-ammentar-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110089",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:29:59.427456+00:00"
+        }
+      }
     },
     "Necrons-Psychomancer-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110073",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:30:04.720270+00:00"
+        }
+      }
     },
     "Convergence-of-Dominion-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110066",
+      "prices": {
+        "en-GB": {
+          "price": 115.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:30:12.503021+00:00"
+        }
+      }
     },
     "CTan-Shard-of-the-Void-Dragon-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110054",
+      "prices": {
+        "en-GB": {
+          "price": 115.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:30:38.996112+00:00"
+        }
+      }
     },
     "Ophydian-Destroyers-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110053",
+      "prices": {
+        "en-GB": {
+          "price": 115.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:30:44.804235+00:00"
+        }
+      }
     },
     "Monolith-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110043",
+      "prices": {
+        "en-GB": {
+          "price": 115.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:30:51.018977+00:00"
+        }
+      }
     },
     "Necron-Destroyer-Squadron-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110071",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:30:58.750184+00:00"
+        }
+      }
     },
     "Necron-Warriors-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110052",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:31:06.486959+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_warriors",
       "name_matched_kit_slug": "necron-warriors"
     },
     "Skorpekh-Destroyers-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110051",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:31:14.431544+00:00"
+        }
+      }
     },
     "Hexmark-Destroyer-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110048",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:31:40.564431+00:00"
+        }
+      }
     },
     "Canoptek-Doomstalker-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110045",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:31:48.745566+00:00"
+        }
+      }
     },
     "Lokhust-Heavy-Destroyer-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110044",
+      "prices": {
+        "en-GB": {
+          "price": 110.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:31:56.464690+00:00"
+        }
+      }
     },
     "Necron-Canoptek-Wraiths-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110060",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:32:04.554070+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_canoptek_wraiths",
       "name_matched_kit_slug": "necron-canoptek-wraiths"
     },
     "Necron-Tomb-Blades-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110059",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:32:11.359643+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_tomb_blades",
       "name_matched_kit_slug": "necron-tomb-blades"
     },
     "Necron-Immortals-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110057",
+      "prices": {
+        "en-GB": {
+          "price": 40.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:32:17.257386+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_immortals_deathmarks",
       "name_matched_kit_slug": "necron-immortals-deathmarks"
     },
     "Necron-Doom-Scythe-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110065",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:32:40.487738+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_doom_scythe_night_scythe",
       "name_matched_kit_slug": "necron-doom-scythe-night-scythe"
     },
     "Necron-Deathmarks-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110057",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:32:47.012770+00:00"
+        }
+      }
     },
     "Necron-Catacomb-Command-Barge-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110064",
+      "prices": {
+        "en-GB": {
+          "price": 47.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:32:54.125298+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_catacomb_commmand_barge",
       "name_matched_kit_slug": "necron-catacomb-commmand-barge"
     },
     "Necron-Annihilation-Barge-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110064",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:00.495978+00:00"
+        }
+      }
     },
     "Ghost Ark-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110063",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:06.928088+00:00"
+        }
+      }
     },
     "Doomsday-Ark-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110063",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:14.351529+00:00"
+        }
+      }
     },
     "Canoptek-Spyder-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110061",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:38.904137+00:00"
+        }
+      }
     },
     "Necrons-Illuminor-Szeras-2020": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110049",
+      "prices": {
+        "en-GB": {
+          "price": 38.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:45.836876+00:00"
+        }
+      },
       "name_matched_seed_slug": "illuminor_szeras",
       "name_matched_kit_slug": "illuminor-szeras"
     },
     "Necron-Obelisk": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110026",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:52.334701+00:00"
+        }
+      }
     },
     "NecronsTesseract-Vault": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110026",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:33:59.936498+00:00"
+        }
+      }
     },
     "necrons-royal-warden-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110077",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:34:08.275780+00:00"
+        }
+      }
     },
     "necrons-overlord-2023": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120110077",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:34:16.646857+00:00"
+        }
+      },
       "name_matched_seed_slug": "necron_overlord",
       "name_matched_kit_slug": "necron-overlord"
     },
     "necrons-overlord-and-translocation-shroud-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110079",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:34:43.697333+00:00"
+        }
+      }
     },
     "necrons-orikan-the-diviner-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110081",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:34:51.509074+00:00"
+        }
+      }
     },
     "necrons-imotekh-the-stormlord-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110078",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:34:58.213279+00:00"
+        }
+      }
     },
     "Necron-C-tan-Shard-of-The-Deceiver": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110049",
+      "prices": {
+        "en-GB": {
+          "price": 80.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:35:05.545928+00:00"
+        }
+      }
     },
     "Necron-Trazyn-the-Infinite": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120110049",
+      "prices": {
+        "en-GB": {
+          "price": 38.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:35:12.907037+00:00"
+        }
+      }
     },
     "Ork-Deff-Dread": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103023",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:35:19.019936+00:00"
+        }
+      }
     },
     "orks-boss-snikrot-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103114",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:35:45.501049+00:00"
+        }
+      }
     },
     "deffkoptas-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103107",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:35:52.503854+00:00"
+        }
+      }
     },
     "hunta-rig-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103072",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:35:59.167754+00:00"
+        }
+      }
     },
     "orks-kill-rig-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103072",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:36:05.669476+00:00"
+        }
+      }
     },
     "orks-squighog-boyz-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103076",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:36:12.890702+00:00"
+        }
+      }
     },
     "orks-beast-snagga-boyz-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103073",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:36:20.077378+00:00"
+        }
+      }
     },
     "Ghazghkull-Thraka-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103079",
+      "prices": {
+        "en-GB": {
+          "price": 49.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:36:43.414725+00:00"
+        }
+      }
     },
     "Orks-Kustom-Boosta-Blasta-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103100",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:36:51.693829+00:00"
+        }
+      },
       "name_matched_seed_slug": "orks_kustom_boosta_blasta",
       "name_matched_kit_slug": "orks-kustom-boosta-blasta"
     },
     "Orks-Rukkatrukk-Squigbuggy-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103102",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:00.263713+00:00"
+        }
+      },
       "name_matched_seed_slug": "rukkatrukk_squigbuggy",
       "name_matched_kit_slug": "rukkatrukk-squigbuggy"
     },
     "Orks-Deffkilla-Wartrike-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103099",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:07.144311+00:00"
+        }
+      },
       "name_matched_seed_slug": "deffkilla_wartrike",
       "name_matched_kit_slug": "deffkilla-wartrike"
     },
     "Orks-Boomdakka-Snazzwagon-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103098",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:14.934858+00:00"
+        }
+      },
       "name_matched_seed_slug": "boomdakka_snazzwagon",
       "name_matched_kit_slug": "boomdakka-snazzwagon"
     },
     "Ork-Warbiker-Mob-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103096",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:21.025375+00:00"
+        }
+      },
       "name_matched_seed_slug": "ork_warbiker_mob",
       "name_matched_kit_slug": "ork-warbiker-mob"
     },
     "Ork-Gretchin-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103092",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:44.628783+00:00"
+        }
+      },
       "name_matched_seed_slug": "ork_gretchin",
       "name_matched_kit_slug": "ork-gretchin"
     },
     "Ork-Mek-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103095",
+      "prices": {
+        "en-GB": {
+          "price": 38.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:51.217120+00:00"
+        }
+      },
       "name_matched_seed_slug": "ork_mek_gun",
       "name_matched_kit_slug": "ork-mek-gun"
     },
     "Mek-Gunz-Traktor-Kannon": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103086",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:37:59.583819+00:00"
+        }
+      }
     },
     "Mek-Gunz-Kustom-Mega-kannon": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103086",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:38:05.987577+00:00"
+        }
+      }
     },
     "Mek-Gunz-Smasha-Gun": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103086",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:38:13.425673+00:00"
+        }
+      }
     },
     "Big-Mek-with-Shokk-Attack-Gun": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103031",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:38:20.836227+00:00"
+        }
+      }
     },
     "Mek-Gunz-Bubblechukka": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103086",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:38:47.715209+00:00"
+        }
+      }
     },
     "Morkanaut": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103088",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:38:55.128759+00:00"
+        }
+      }
     },
     "Gorkanaut": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103088",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:39:03.280405+00:00"
+        }
+      }
     },
     "Ork-Stompa": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103021",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:39:10.855935+00:00"
+        }
+      }
     },
     "orks-big-mek-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103120",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:39:17.921032+00:00"
+        }
+      }
     },
     "Orks-Shokkjump-Dragsta-2019": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103103",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:39:24.743612+00:00"
+        }
+      },
       "name_matched_seed_slug": "orks_shokkjump_dragsta",
       "name_matched_kit_slug": "orks-shokkjump-dragsta"
     },
     "codex-orks-hb-english-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103115",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:39:51.807918+00:00"
+        }
+      }
     },
     "Ork-Killa-Kans": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120103085",
+      "prices": {
+        "en-GB": {
+          "price": 91.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:39:58.355707+00:00"
+        }
+      },
       "name_matched_seed_slug": "ork_killa_kans",
       "name_matched_kit_slug": "ork-killa-kans"
     },
     "ork-warboss-in-mega-armour-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103105",
+      "prices": {
+        "en-GB": {
+          "price": 38.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:40:06.335239+00:00"
+        }
+      }
     },
     "beastboss-on-squigosaur-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103075",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:40:13.885459+00:00"
+        }
+      }
     },
     "orks-mozrog-skragbad-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103075",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:40:21.137814+00:00"
+        }
+      }
     },
     "orks-painboss-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103073",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:40:28.862134+00:00"
+        }
+      }
     },
     "gunwagon-2021": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120103084",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:40:56.802113+00:00"
+        }
+      }
     },
     "tyranids-barbgaunts-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106062",
+      "prices": {
+        "en-GB": {
+          "price": 134.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:41:04.722212+00:00"
+        }
+      }
     },
     "tau-empire-commander-farsight-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113086",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:41:13.353849+00:00"
+        }
+      }
     },
     "astra-militarum-banesword-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:41:23.826102+00:00"
+        }
+      }
     },
     "astra-militarum-banehammer-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:41:34.008192+00:00"
+        }
+      }
     },
     "astra-militarum-leman-russ-battle-tank-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105111",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:41:42.909900+00:00"
+        }
+      }
     },
     "astra-militarum-aegis-defence-line-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105108",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:42:11.877823+00:00"
+        }
+      }
     },
     "astra-militarum-baneblade-2023": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120105107",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:42:18.485250+00:00"
+        }
+      },
       "name_matched_seed_slug": "astra_militarum_baneblade",
       "name_matched_kit_slug": "astra-militarum-baneblade"
     },
     "astra-militarum-field-ordnance-battery-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120105104",
+      "prices": {
+        "en-GB": {
+          "price": 42.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:42:24.750881+00:00"
+        }
+      }
     },
     "tyranids-hive-tyrant-no-wings-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106060",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:42:33.009803+00:00"
+        }
+      }
     },
     "tyranids-parasite-of-mortrex-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106050",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:42:39.869745+00:00"
+        }
+      }
     },
     "codex-tyranids-2023-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106063",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:42:46.158873+00:00"
+        }
+      }
     },
     "Tyranids-Hive-Tyrant-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106060",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:43:14.298954+00:00"
+        }
+      }
     },
     "Old-One-Eyes-Carnifex-Brood-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106031",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:43:23.112636+00:00"
+        }
+      }
     },
     "Screamer-Killer-Brood-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106031",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:43:30.250398+00:00"
+        }
+      }
     },
     "Tyranid-Warriors-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106058",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:43:36.994372+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_warriors",
       "name_matched_kit_slug": "tyranid-warriors"
     },
     "Tyranid-Gargoyle-Brood": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106052",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:43:44.210127+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_gargoyle_brood",
       "name_matched_kit_slug": "tyranid-gargoyle-brood"
     },
     "Tyranid-Trygon": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106019",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:43:51.401051+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_trygon_mawloc",
       "name_matched_kit_slug": "tyranid-trygon-mawloc"
     },
     "Tyranid-Broodlord": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106059",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:44:18.339979+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_broodlord",
       "name_matched_kit_slug": "tyranid-broodlord"
     },
     "Maleceptor": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106033",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:44:25.170489+00:00"
+        }
+      }
     },
     "Sporocyst": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106034",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:44:31.301356+00:00"
+        }
+      }
     },
     "Zoanthropes": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106057",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:44:39.755946+00:00"
+        }
+      }
     },
     "Tyranid-Hierophant-Bio-Titan": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 350.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:44:46.245133+00:00"
+        }
+      }
     },
     "Venomthropes": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106057",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:44:52.254835+00:00"
+        }
+      }
     },
     "Tyrannocyte": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106034",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:45:17.516036+00:00"
+        }
+      }
     },
     "Toxicrene": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106033",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:45:25.516180+00:00"
+        }
+      }
     },
     "Tyrant-Guard": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106055",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:45:31.244721+00:00"
+        }
+      }
     },
     "Hive-Crone": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106024",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:45:38.601227+00:00"
+        }
+      }
     },
     "Carnifex-Brood": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106031",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:45:44.993429+00:00"
+        }
+      }
     },
     "Hive-Guard": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106055",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:45:52.984222+00:00"
+        }
+      }
     },
     "Tyranid-Harpy": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106024",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:46:16.563349+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_harpy",
       "name_matched_kit_slug": "tyranid-harpy"
     },
     "Tyranid-Mawloc": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106019",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:46:22.969690+00:00"
+        }
+      }
     },
     "The-Swarmlord-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106060",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:46:28.588395+00:00"
+        }
+      }
     },
     "Tyranid-Tervigon": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106054",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:46:35.396877+00:00"
+        }
+      }
     },
     "Tyranid-Tyrannofex": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120106054",
+      "prices": {
+        "en-GB": {
+          "price": 64.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:46:42.851054+00:00"
+        }
+      },
       "name_matched_seed_slug": "tyranid_tyrannofex",
       "name_matched_kit_slug": "tyranid-tyrannofex"
     },
     "tyranid-prime-with-lash-whip-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106084",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:46:50.414526+00:00"
+        }
+      }
     },
     "killzone-upgrade-tyranid-infestation-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106080",
+      "prices": {
+        "en-GB": {
+          "price": 85.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:47:13.363635+00:00"
+        }
+      }
     },
     "tyranids-horrors-of-the-hive-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106076",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:47:20.930106+00:00"
+        }
+      }
     },
     "tyranids-prime-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106075",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:47:28.712055+00:00"
+        }
+      }
     },
     "tyranids-psychophage-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106074",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:47:36.468180+00:00"
+        }
+      }
     },
     "tyranids-neurogaunts-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106071",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:47:42.197896+00:00"
+        }
+      }
     },
     "tyranids-von-ryans-leapers-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120106070",
+      "prices": {
+        "en-GB": {
+          "price": 100.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:47:48.793927+00:00"
+        }
+      }
     },
     "eye-of-terror-battalion-imperial-knights-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108148",
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:48:11.050736+00:00"
+        }
+      }
     },
     "imperial-knights-knight-destrier-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108123",
+      "prices": {
+        "en-GB": {
+          "price": 463.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:48:17.246316+00:00"
+        }
+      }
     },
     "imperial-knights-knight-preceptor-canis-rex-2025": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120108106",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:48:22.771301+00:00"
+        }
+      },
       "name_matched_seed_slug": "imperial_knights_knight_preceptor_canis_rex",
       "name_matched_kit_slug": "imperial-knights-knight-preceptor-canis-rex"
     },
     "imperial-knights-knight-armigers-armiger-warglaive-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108080",
+      "prices": {
+        "en-GB": {
+          "price": 60.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:48:29.499116+00:00"
+        }
+      }
     },
     "imperial-knights-knight-dominus-knight-castellan-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108081",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:48:36.220241+00:00"
+        }
+      }
     },
     "imperial-knights-knight-dominus-knight-valiant-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108081",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:48:43.411908+00:00"
+        }
+      }
     },
     "imperial-knights-knight-armigers-armiger-helverin-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108080",
+      "prices": {
+        "en-GB": {
+          "price": 60.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:49:04.664734+00:00"
+        }
+      }
     },
     "knight-questoris-crusader-2025": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120108105",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:49:10.785633+00:00"
+        }
+      }
     },
     "codex-imperial-knights-2025-eng": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99123008005",
+      "prices": {
+        "en-GB": {
+          "price": 129.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:49:17.252004+00:00"
+        }
+      }
     },
     "world-eaters-khorne-berserkers-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102153",
+      "prices": {
+        "en-GB": {
+          "price": 105.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:49:23.033352+00:00"
+        }
+      }
     },
     "slaves-to-darkness-daemon-prince-2023": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120201130",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:49:29.717166+00:00"
+        }
+      }
     },
     "Master-Of-Executions-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102168",
+      "prices": {
+        "en-GB": {
+          "price": 54.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:49:36.380244+00:00"
+        }
+      }
     },
     "Abaddon-the-Despoiler-2019": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102175",
+      "prices": {
+        "en-GB": {
+          "price": 44.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:50:05.327604+00:00"
+        }
+      }
     },
     "Haarken-Worldclaimer-2018": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102164",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:50:11.468104+00:00"
+        }
+      }
     },
     "Cypher-2018": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120102041",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:50:17.384509+00:00"
+        }
+      },
       "name_matched_seed_slug": "cypher",
       "name_matched_kit_slug": "cypher"
     },
     "rubric-marines": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102130",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:50:24.765896+00:00"
+        }
+      }
     },
     "Helbrute": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120102043",
+      "prices": {
+        "en-GB": {
+          "price": 120.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:50:32.565058+00:00"
+        }
+      }
     },
     "tau-empire-darkstrider-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113073",
+      "prices": {
+        "en-GB": {
+          "price": 95.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:50:40.609346+00:00"
+        }
+      }
     },
     "tau-empire-the-twin-lance-2026": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113101",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:51:06.719253+00:00"
+        }
+      }
     },
     "tau-empire-ethereal-2022": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113073",
+      "prices": {
+        "en-GB": {
+          "price": 29.5,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:51:13.323011+00:00"
+        }
+      }
     },
     "Tau-Empire-Commander-Shadowsun-2020": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113083",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:51:20.278981+00:00"
+        }
+      }
     },
     "Tau-Fire-Warriors-Breacher-Team-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113076",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:51:26.524750+00:00"
+        }
+      }
     },
     "Tau-Empire-Fire-Warriors-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113076",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:51:33.682694+00:00"
+        }
+      },
       "name_matched_seed_slug": "tau_empire_fire_warriors",
       "name_matched_kit_slug": "tau-empire-fire-warriors"
     },
     "Tau-Empire-XV88-Broadside-Battlesuit-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113082",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:51:40.806296+00:00"
+        }
+      },
       "name_matched_seed_slug": "tau_empire_xv88_broadside_battlesuit",
       "name_matched_kit_slug": "tau-empire-xv88-broadside-battlesuit"
     },
     "Tau-Tigershark-AX-1-0-2017": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:52:07.152014+00:00"
+        }
+      }
     },
     "Tau-Empire-XV104-Riptide-Battlesuit-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113077",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:52:14.147590+00:00"
+        }
+      },
       "name_matched_seed_slug": "xv104_riptide_battlesuit",
       "name_matched_kit_slug": "xv104-riptide-battlesuit"
     },
     "Pathfinder-Team-2017": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113080",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:52:21.249129+00:00"
+        }
+      }
     },
     "Tau-Empire-Commander-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113079",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:52:28.025262+00:00"
+        }
+      },
       "name_matched_seed_slug": "tau_empire_commander",
       "name_matched_kit_slug": "tau-empire-commander"
     },
     "Tau-Empire-Cadre-Fireblade-2017": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120114001",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:52:35.943940+00:00"
+        }
+      },
       "name_matched_seed_slug": "cadre_fireblade",
       "name_matched_kit_slug": "cadre-fireblade"
     },
     "Tau-KX139-Taunar-Heavy-Rail-Cannon-Array": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:52:42.534815+00:00"
+        }
+      }
     },
     "KX139-Nexus-Meteor": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:53:09.432068+00:00"
+        }
+      }
     },
     "Tidewall-Droneport": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113049",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:53:17.544210+00:00"
+        }
+      }
     },
     "Tidewall-Shieldline": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113075",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:53:23.840733+00:00"
+        }
+      }
     },
     "XV8-Crisis-Battlesuits": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113072",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:53:31.496444+00:00"
+        }
+      }
     },
     "Tau-Drones-2015": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120114001",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:53:38.341616+00:00"
+        }
+      }
     },
     "XV95-Ghostkeel-Battlesuit": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113078",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:53:44.619906+00:00"
+        }
+      }
     },
     "KV128-Stormsurge": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113071",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:54:08.520900+00:00"
+        }
+      }
     },
     "KX139-Ta'unar-Supremacy-Armour-Fusion-Eradicator": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:54:16.391911+00:00"
+        }
+      }
     },
     "KX139-Ta'unar-Supremacy-Armour-Pulse-Ordnance-Multi-driver": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:54:24.466334+00:00"
+        }
+      }
     },
     "KX139-Ta'unar-Supremacy-Armour-Tri-axis-Ion-Cannon": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:54:31.207691+00:00"
+        }
+      }
     },
     "KX139-Taunar-Supremacy-Armour-Body": {
       "product_code": null,
-      "prices": {}
+      "prices": {
+        "en-GB": {
+          "price": 1310.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:54:37.799315+00:00"
+        }
+      }
     },
     "Tau-Empire-Sky-Ray-Missile-Defence-Gunship": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113070",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:54:43.890999+00:00"
+        }
+      }
     },
     "Tau-Empire-Hammerhead-Gunship": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113070",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:55:08.159195+00:00"
+        }
+      },
       "name_matched_seed_slug": "hammerhead_gunship",
       "name_matched_kit_slug": "hammerhead-gunship"
     },
     "Tau-Empire-TY7-Devilfish-2015": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113074",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:55:14.784088+00:00"
+        }
+      },
       "name_matched_seed_slug": "tau_empire_ty7_devilfish",
       "name_matched_kit_slug": "tau-empire-ty7-devilfish"
     },
     "Tau-Empire-Sniper-Drone-Team": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120114001",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:55:20.662048+00:00"
+        }
+      }
     },
     "Tau-Empire-TX4-Piranha-2015": {
-      "product_code": null,
-      "prices": {},
+      "product_code": "99120113073",
+      "prices": {
+        "en-GB": {
+          "price": 118.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:55:28.666964+00:00"
+        }
+      },
       "name_matched_seed_slug": "tau_empire_tx4_piranha",
       "name_matched_kit_slug": "tau-empire-tx4-piranha"
     },
     "tau-empire-kroot-hounds-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113090",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:55:35.795144+00:00"
+        }
+      }
     },
     "tau-empire-kroot-trail-shaper-2024": {
-      "product_code": null,
-      "prices": {}
+      "product_code": "99120113091",
+      "prices": {
+        "en-GB": {
+          "price": 105.0,
+          "currency": "GBP",
+          "fetched_at": "2026-06-06T10:55:43.991657+00:00"
+        }
+      }
     }
   }
 }
