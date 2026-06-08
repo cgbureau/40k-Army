@@ -25,6 +25,36 @@ export const CaptainGeneralTrajannValorisTrajannValorisCompleteUnitKitUnit: KitU
   superseded_date: null,
 };
 
+export const TalonsOfTheEmperorValerianAndAleyaValerianCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("talons_of_the_emperor_valerian_and_aleya__valerian__complete_unit"),
+  kit_id: kitId("talons_of_the_emperor_valerian_and_aleya"),
+  unit_id: unitId("valerian"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/24zc45nh",
+  source_text: "1x Valerian",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const TalonsOfTheEmperorValerianAndAleyaAleyaCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("talons_of_the_emperor_valerian_and_aleya__aleya__complete_unit"),
+  kit_id: kitId("talons_of_the_emperor_valerian_and_aleya"),
+  unit_id: unitId("aleya"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/24zc45nh",
+  source_text: "1x Aleya",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const LegioCustodesShieldCaptainShieldCaptainCompleteUnitKitUnit: KitUnitConfig = {
   id: kitUnitId("legio_custodes_shield_captain__shield_captain__complete_unit"),
   kit_id: kitId("legio_custodes_shield_captain"),
@@ -145,6 +175,36 @@ export const VigilatorSquadVigilatorsPartialUnitKitUnit: KitUnitConfig = {
   superseded_date: null,
 };
 
+export const VexilusPraetorCustodianGuardPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("vexilus_praetor__custodian_guard__partial_unit"),
+  kit_id: kitId("vexilus_praetor"),
+  unit_id: unitId("custodian_guard"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/28erj762",
+  source_text: "1x Custodian Guard (Vexilla loadout)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VexilusPraetorInAllarusTerminatorArmourAllarusCustodiansPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("vexilus_praetor_in_allarus_terminator_armour__allarus_custodians__partial_unit"),
+  kit_id: kitId("vexilus_praetor_in_allarus_terminator_armour"),
+  unit_id: unitId("allarus_custodians"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/27aunuon",
+  source_text: "1x Allarus Custodian (Vexilla loadout)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const AdeptusCustodesCustodianGuardCustodianGuardCompleteUnitKitUnit: KitUnitConfig = {
   id: kitUnitId("adeptus_custodes_custodian_guard__custodian_guard__complete_unit"),
   kit_id: kitId("adeptus_custodes_custodian_guard"),
@@ -185,6 +245,21 @@ export const LegioCustodesSentinelGuardSodalityCustodianGuardCompleteUnitKitUnit
   source_kind: "games_workshop_product_page",
   source_url: "https://tinyurl.com/22f7hnqp",
   source_text: "6x Custodian Guard (see notes)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VexilusPraetorAnd4MiniaturesCustodianWardensPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("vexilus_praetor_and_4_miniatures__custodian_wardens__partial_unit"),
+  kit_id: kitId("vexilus_praetor_and_4_miniatures"),
+  unit_id: unitId("custodian_wardens"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2423hm3x",
+  source_text: "1x Custodian Warden (Vexilla loadout)",
   review_status: "needs_review",
   effective_date: null,
   superseded_date: null,
@@ -524,6 +599,8 @@ export const kitUnitsMarkdownAdeptusCustodesDataset: SeedDataset<"kit_units"> = 
   table: "kit_units",
   records: [
     CaptainGeneralTrajannValorisTrajannValorisCompleteUnitKitUnit,
+    TalonsOfTheEmperorValerianAndAleyaValerianCompleteUnitKitUnit,
+    TalonsOfTheEmperorValerianAndAleyaAleyaCompleteUnitKitUnit,
     LegioCustodesShieldCaptainShieldCaptainCompleteUnitKitUnit,
     ShieldCaptainCustodianGuardPartialUnitKitUnit,
     ShieldCaptainAnd4MiniaturesShieldCaptainPartialUnitKitUnit,
@@ -532,9 +609,12 @@ export const kitUnitsMarkdownAdeptusCustodesDataset: SeedDataset<"kit_units"> = 
     ShieldCaptainInAllarusTerminatorArmourShieldCaptainInAllarusTerminatorArmourCompleteUnitKitUnit,
     AdeptusCustodesBladeChampionBladeChampionCompleteUnitKitUnit,
     VigilatorSquadVigilatorsPartialUnitKitUnit,
+    VexilusPraetorCustodianGuardPartialUnitKitUnit,
+    VexilusPraetorInAllarusTerminatorArmourAllarusCustodiansPartialUnitKitUnit,
     AdeptusCustodesCustodianGuardCustodianGuardCompleteUnitKitUnit,
     LegioCustodesCustodianGuardSodalityCustodianGuardCompleteUnitKitUnit,
     LegioCustodesSentinelGuardSodalityCustodianGuardCompleteUnitKitUnit,
+    VexilusPraetorAnd4MiniaturesCustodianWardensPartialUnitKitUnit,
     AdeptusCustodesCustodianWardensCustodianWardensCompleteUnitKitUnit,
     AdeptusCustodesVertusPraetorsVertusPraetorsCompleteUnitKitUnit,
     LegioCustodesGyrfalconPatternJetbikeAgamatusCustodiansCompleteUnitKitUnit,

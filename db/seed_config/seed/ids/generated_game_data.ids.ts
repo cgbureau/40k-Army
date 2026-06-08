@@ -10798,6 +10798,13 @@ type KitUnitSeedSlug =
   | "vigilator_squad__vigilators__alternate_build"
   | "vigilator_squad__vigilators__partial_unit"
   | "witchseeker_squad__witchseekers__alternate_build"
+  | "adepta_sororitas_sister_superior_amalia_novena__battle_sisters_squad__complete_unit"
+  | "adepta_sororitas_sister_superior_amalia_novena__battle_sisters_squad__partial_unit"
+  | "talons_of_the_emperor_valerian_and_aleya__aleya__complete_unit"
+  | "talons_of_the_emperor_valerian_and_aleya__valerian__complete_unit"
+  | "vexilus_praetor__custodian_guard__partial_unit"
+  | "vexilus_praetor_and_4_miniatures__custodian_wardens__partial_unit"
+  | "vexilus_praetor_in_allarus_terminator_armour__allarus_custodians__partial_unit"
 ;
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
@@ -10874,6 +10881,13 @@ const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
   "vigilator_squad__vigilators__alternate_build": "01KTKVS1AKB5KHM08KNEZHQV6P",
   "vigilator_squad__vigilators__partial_unit": "01KTKVS13NA5S6VW30R0MGATPF",
   "witchseeker_squad__witchseekers__alternate_build": "01KTKVS1AZB00H6VGNBFWCE2KY",
+  "adepta_sororitas_sister_superior_amalia_novena__battle_sisters_squad__complete_unit": "01KTKYXNS9ZW4ST5CRXB18K6Y6",
+  "adepta_sororitas_sister_superior_amalia_novena__battle_sisters_squad__partial_unit": "01KTKYY95GHW4DR1GQGY92VKQK",
+  "talons_of_the_emperor_valerian_and_aleya__aleya__complete_unit": "01KTKZHJQN6DX5JZC2K3Q4CY2E",
+  "talons_of_the_emperor_valerian_and_aleya__valerian__complete_unit": "01KTKZHJQ8882731K4TMBG3R9T",
+  "vexilus_praetor__custodian_guard__partial_unit": "01KTKZHJWDKDD7XKGGDSD3KT7S",
+  "vexilus_praetor_and_4_miniatures__custodian_wardens__partial_unit": "01KTKZHJYNQN5XQT5F5KG5KQHE",
+  "vexilus_praetor_in_allarus_terminator_armour__allarus_custodians__partial_unit": "01KTKZHJWTTKPX5GXWGFMTY6EZ",
 };
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {
