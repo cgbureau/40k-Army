@@ -10661,6 +10661,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_arco_flagellants__gw_jpy"
   | "adepta_sororitas_arco_flagellants__gw_nzd"
   | "adepta_sororitas_arco_flagellants__gw_pln"
+  | "adepta_sororitas_arco_flagellants__gw_usd"
   | "adepta_sororitas_arco_flagellants__tcgcsv_msrp_usd"
   | "adepta_sororitas_battle_sanctum__tcgcsv_msrp_usd"
   | "adepta_sororitas_battle_sisters_squad__gw_aud"
@@ -10671,6 +10672,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_battle_sisters_squad__gw_jpy"
   | "adepta_sororitas_battle_sisters_squad__gw_nzd"
   | "adepta_sororitas_battle_sisters_squad__gw_pln"
+  | "adepta_sororitas_battle_sisters_squad__gw_usd"
   | "adepta_sororitas_battle_sisters_squad__legacy_aud"
   | "adepta_sororitas_battle_sisters_squad__legacy_cad"
   | "adepta_sororitas_battle_sisters_squad__legacy_chf"
@@ -10692,6 +10694,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_exorcist__gw_jpy"
   | "adepta_sororitas_exorcist__gw_nzd"
   | "adepta_sororitas_exorcist__gw_pln"
+  | "adepta_sororitas_exorcist__gw_usd"
   | "adepta_sororitas_exorcist__tcgcsv_msrp_usd"
   | "adepta_sororitas_hospitaller__gw_aud"
   | "adepta_sororitas_hospitaller__gw_cad"
@@ -10701,6 +10704,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_hospitaller__gw_jpy"
   | "adepta_sororitas_hospitaller__gw_nzd"
   | "adepta_sororitas_hospitaller__gw_pln"
+  | "adepta_sororitas_hospitaller__gw_usd"
   | "adepta_sororitas_hospitaller__tcgcsv_msrp_usd"
   | "adepta_sororitas_immolator__gw_aud"
   | "adepta_sororitas_immolator__gw_cad"
@@ -10710,6 +10714,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_immolator__gw_jpy"
   | "adepta_sororitas_immolator__gw_nzd"
   | "adepta_sororitas_immolator__gw_pln"
+  | "adepta_sororitas_immolator__gw_usd"
   | "adepta_sororitas_immolator__tcgcsv_msrp_usd"
   | "adepta_sororitas_junith_eruita__gw_aud"
   | "adepta_sororitas_junith_eruita__gw_cad"
@@ -10719,6 +10724,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_junith_eruita__gw_jpy"
   | "adepta_sororitas_junith_eruita__gw_nzd"
   | "adepta_sororitas_junith_eruita__gw_pln"
+  | "adepta_sororitas_junith_eruita__gw_usd"
   | "adepta_sororitas_junith_eruita__tcgcsv_msrp_usd"
   | "adepta_sororitas_penitent_engines__gw_aud"
   | "adepta_sororitas_penitent_engines__gw_cad"
@@ -10728,6 +10734,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_penitent_engines__gw_jpy"
   | "adepta_sororitas_penitent_engines__gw_nzd"
   | "adepta_sororitas_penitent_engines__gw_pln"
+  | "adepta_sororitas_penitent_engines__gw_usd"
   | "adepta_sororitas_penitent_engines__tcgcsv_msrp_usd"
   | "adepta_sororitas_repentia_squad__gw_aud"
   | "adepta_sororitas_repentia_squad__gw_cad"
@@ -10737,6 +10744,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_repentia_squad__gw_jpy"
   | "adepta_sororitas_repentia_squad__gw_nzd"
   | "adepta_sororitas_repentia_squad__gw_pln"
+  | "adepta_sororitas_repentia_squad__gw_usd"
   | "adepta_sororitas_repentia_squad__tcgcsv_msrp_usd"
   | "adepta_sororitas_retributor_squad__gw_aud"
   | "adepta_sororitas_retributor_squad__gw_cad"
@@ -10746,6 +10754,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_retributor_squad__gw_jpy"
   | "adepta_sororitas_retributor_squad__gw_nzd"
   | "adepta_sororitas_retributor_squad__gw_pln"
+  | "adepta_sororitas_retributor_squad__gw_usd"
   | "adepta_sororitas_retributor_squad__tcgcsv_high_usd"
   | "adepta_sororitas_retributor_squad__tcgcsv_low_usd"
   | "adepta_sororitas_retributor_squad__tcgcsv_mid_usd"
@@ -10758,6 +10767,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_rhino__gw_jpy"
   | "adepta_sororitas_rhino__gw_nzd"
   | "adepta_sororitas_rhino__gw_pln"
+  | "adepta_sororitas_rhino__gw_usd"
   | "adepta_sororitas_rhino__legacy_aud"
   | "adepta_sororitas_rhino__legacy_cad"
   | "adepta_sororitas_rhino__legacy_chf"
@@ -10773,6 +10783,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_seraphim_squad__gw_jpy"
   | "adepta_sororitas_seraphim_squad__gw_nzd"
   | "adepta_sororitas_seraphim_squad__gw_pln"
+  | "adepta_sororitas_seraphim_squad__gw_usd"
   | "adepta_sororitas_seraphim_squad__tcgcsv_msrp_usd"
   | "adepta_sororitas_sister_superior_amalia_novena__gw_aud"
   | "adepta_sororitas_sister_superior_amalia_novena__gw_cad"
@@ -10782,6 +10793,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_sister_superior_amalia_novena__gw_jpy"
   | "adepta_sororitas_sister_superior_amalia_novena__gw_nzd"
   | "adepta_sororitas_sister_superior_amalia_novena__gw_pln"
+  | "adepta_sororitas_sister_superior_amalia_novena__gw_usd"
   | "adepta_sororitas_sister_superior_amalia_novena__tcgcsv_msrp_usd"
   | "adepta_sororitas_sisters_of_battle__tcgcsv_msrp_usd"
   | "adepta_sororitas_the_triumph_of_st_katherine__gw_aud"
@@ -10792,6 +10804,7 @@ type KitPriceSeedSlug =
   | "adepta_sororitas_the_triumph_of_st_katherine__gw_jpy"
   | "adepta_sororitas_the_triumph_of_st_katherine__gw_nzd"
   | "adepta_sororitas_the_triumph_of_st_katherine__gw_pln"
+  | "adepta_sororitas_the_triumph_of_st_katherine__gw_usd"
   | "adepta_sororitas_the_triumph_of_st_katherine__tcgcsv_msrp_usd"
   | "adeptus_astartes_mark_iii_space_marine__tcgcsv_msrp_usd"
   | "adeptus_astartes_starter_set_kill_team_fangs_of_ulfrich__tcgcsv_msrp_usd"
@@ -10804,6 +10817,7 @@ type KitPriceSeedSlug =
   | "adeptus_custodes_custodian_wardens__gw_jpy"
   | "adeptus_custodes_custodian_wardens__gw_nzd"
   | "adeptus_custodes_custodian_wardens__gw_pln"
+  | "adeptus_custodes_custodian_wardens__gw_usd"
   | "adeptus_custodes_custodian_wardens__tcgcsv_high_usd"
   | "adeptus_custodes_custodian_wardens__tcgcsv_low_usd"
   | "adeptus_custodes_custodian_wardens__tcgcsv_mid_usd"
@@ -10816,6 +10830,7 @@ type KitPriceSeedSlug =
   | "adeptus_custodes_vertus_praetors__gw_jpy"
   | "adeptus_custodes_vertus_praetors__gw_nzd"
   | "adeptus_custodes_vertus_praetors__gw_pln"
+  | "adeptus_custodes_vertus_praetors__gw_usd"
   | "adeptus_custodes_vertus_praetors__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_archaeopter__gw_aud"
   | "adeptus_mechanicus_archaeopter__gw_cad"
@@ -10825,6 +10840,7 @@ type KitPriceSeedSlug =
   | "adeptus_mechanicus_archaeopter__gw_jpy"
   | "adeptus_mechanicus_archaeopter__gw_nzd"
   | "adeptus_mechanicus_archaeopter__gw_pln"
+  | "adeptus_mechanicus_archaeopter__gw_usd"
   | "adeptus_mechanicus_archaeopter__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_electro_priests__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_ironstrider__tcgcsv_msrp_usd"
@@ -10848,6 +10864,7 @@ type KitPriceSeedSlug =
   | "adeptus_mechanicus_pteraxii__gw_jpy"
   | "adeptus_mechanicus_pteraxii__gw_nzd"
   | "adeptus_mechanicus_pteraxii__gw_pln"
+  | "adeptus_mechanicus_pteraxii__gw_usd"
   | "adeptus_mechanicus_pteraxii__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_serberys_raiders__gw_aud"
   | "adeptus_mechanicus_serberys_raiders__gw_cad"
@@ -10857,6 +10874,7 @@ type KitPriceSeedSlug =
   | "adeptus_mechanicus_serberys_raiders__gw_jpy"
   | "adeptus_mechanicus_serberys_raiders__gw_nzd"
   | "adeptus_mechanicus_serberys_raiders__gw_pln"
+  | "adeptus_mechanicus_serberys_raiders__gw_usd"
   | "adeptus_mechanicus_serberys_raiders__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_sicarians__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_skitarii__tcgcsv_high_usd"
@@ -10869,6 +10887,7 @@ type KitPriceSeedSlug =
   | "adeptus_mechanicus_skorpius_disintegrator__gw_gbp"
   | "adeptus_mechanicus_skorpius_disintegrator__gw_jpy"
   | "adeptus_mechanicus_skorpius_disintegrator__gw_pln"
+  | "adeptus_mechanicus_skorpius_disintegrator__gw_usd"
   | "adeptus_mechanicus_skorpius_disintegrator__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_tech_priest_dominus__tcgcsv_msrp_usd"
   | "adeptus_mechanicus_tech_priest_manipulus__gw_aud"
@@ -10879,6 +10898,7 @@ type KitPriceSeedSlug =
   | "adeptus_mechanicus_tech_priest_manipulus__gw_jpy"
   | "adeptus_mechanicus_tech_priest_manipulus__gw_nzd"
   | "adeptus_mechanicus_tech_priest_manipulus__gw_pln"
+  | "adeptus_mechanicus_tech_priest_manipulus__gw_usd"
   | "adeptus_mechanicus_tech_priest_manipulus__tcgcsv_msrp_usd"
   | "adeptus_sororitas_imagifier__tcgcsv_msrp_usd"
   | "aegis_defense_line__tcgcsv_msrp_usd"
@@ -10909,6 +10929,7 @@ type KitPriceSeedSlug =
   | "astra_militarum_baneblade__gw_jpy"
   | "astra_militarum_baneblade__gw_nzd"
   | "astra_militarum_baneblade__gw_pln"
+  | "astra_militarum_baneblade__gw_usd"
   | "astra_militarum_baneblade__tcgcsv_msrp_usd"
   | "astra_militarum_battleforce_bastion_platoon__tcgcsv_msrp_usd"
   | "astra_militarum_cadian_armoured_fist__tcgcsv_msrp_usd"
@@ -10941,6 +10962,7 @@ type KitPriceSeedSlug =
   | "astra_militarum_tech_priest_enginseer__gw_jpy"
   | "astra_militarum_tech_priest_enginseer__gw_nzd"
   | "astra_militarum_tech_priest_enginseer__gw_pln"
+  | "astra_militarum_tech_priest_enginseer__gw_usd"
   | "astra_militarum_tech_priest_enginseer__legacy_aud"
   | "astra_militarum_tech_priest_enginseer__legacy_cad"
   | "astra_militarum_tech_priest_enginseer__legacy_chf"
@@ -10986,6 +11008,7 @@ type KitPriceSeedSlug =
   | "blood_angels_captain_terminator_armour__gw_jpy"
   | "blood_angels_captain_terminator_armour__gw_nzd"
   | "blood_angels_captain_terminator_armour__gw_pln"
+  | "blood_angels_captain_terminator_armour__gw_usd"
   | "blood_angels_captain_terminator_armour__tcgcsv_msrp_usd"
   | "blood_angels_chaplain_with_jump_pack__legacy_aud"
   | "blood_angels_chaplain_with_jump_pack__legacy_cad"
@@ -11013,6 +11036,7 @@ type KitPriceSeedSlug =
   | "blood_angels_sanguinary_guard__gw_jpy"
   | "blood_angels_sanguinary_guard__gw_nzd"
   | "blood_angels_sanguinary_guard__gw_pln"
+  | "blood_angels_sanguinary_guard__gw_usd"
   | "blood_angels_sanguinary_guard__tcgcsv_msrp_usd"
   | "blood_angels_sanguinary_priest__tcgcsv_msrp_usd"
   | "blood_angels_sternguard_veteran_squad__tcgcsv_msrp_usd"
@@ -11029,6 +11053,7 @@ type KitPriceSeedSlug =
   | "boomdakka_snazzwagon__gw_jpy"
   | "boomdakka_snazzwagon__gw_nzd"
   | "boomdakka_snazzwagon__gw_pln"
+  | "boomdakka_snazzwagon__gw_usd"
   | "boomdakka_snazzwagon__legacy_aud"
   | "boomdakka_snazzwagon__legacy_cad"
   | "boomdakka_snazzwagon__legacy_chf"
@@ -11052,6 +11077,7 @@ type KitPriceSeedSlug =
   | "cadre_fireblade__gw_jpy"
   | "cadre_fireblade__gw_nzd"
   | "cadre_fireblade__gw_pln"
+  | "cadre_fireblade__gw_usd"
   | "cadre_fireblade__legacy_aud"
   | "cadre_fireblade__legacy_cad"
   | "cadre_fireblade__legacy_chf"
@@ -11091,11 +11117,13 @@ type KitPriceSeedSlug =
   | "chaos_space_marine_forgefiend__tcgcsv_msrp_usd"
   | "chaos_space_marine_helbrute__gw_aud"
   | "chaos_space_marine_helbrute__gw_cad"
+  | "chaos_space_marine_helbrute__gw_chf"
   | "chaos_space_marine_helbrute__gw_eur"
   | "chaos_space_marine_helbrute__gw_gbp"
   | "chaos_space_marine_helbrute__gw_jpy"
   | "chaos_space_marine_helbrute__gw_nzd"
   | "chaos_space_marine_helbrute__gw_pln"
+  | "chaos_space_marine_helbrute__gw_usd"
   | "chaos_space_marine_helbrute__tcgcsv_msrp_usd"
   | "chaos_space_marine_heldrake__tcgcsv_msrp_usd"
   | "chaos_space_marine_kharn_the_betrayer__tcgcsv_msrp_usd"
@@ -11140,6 +11168,7 @@ type KitPriceSeedSlug =
   | "combat_patrol_black_templars_2025__gw_jpy"
   | "combat_patrol_black_templars_2025__gw_nzd"
   | "combat_patrol_black_templars_2025__gw_pln"
+  | "combat_patrol_black_templars_2025__gw_usd"
   | "combat_patrol_black_templars_2025__legacy_aud"
   | "combat_patrol_black_templars_2025__legacy_cad"
   | "combat_patrol_black_templars_2025__legacy_chf"
@@ -11154,6 +11183,7 @@ type KitPriceSeedSlug =
   | "combat_patrol_blood_angels__gw_jpy"
   | "combat_patrol_blood_angels__gw_nzd"
   | "combat_patrol_blood_angels__gw_pln"
+  | "combat_patrol_blood_angels__gw_usd"
   | "combat_patrol_blood_angels__legacy_aud"
   | "combat_patrol_blood_angels__legacy_cad"
   | "combat_patrol_blood_angels__legacy_chf"
@@ -11170,6 +11200,7 @@ type KitPriceSeedSlug =
   | "combat_patrol_space_wolves__gw_jpy"
   | "combat_patrol_space_wolves__gw_nzd"
   | "combat_patrol_space_wolves__gw_pln"
+  | "combat_patrol_space_wolves__gw_usd"
   | "combat_patrol_space_wolves__legacy_aud"
   | "combat_patrol_space_wolves__legacy_cad"
   | "combat_patrol_space_wolves__legacy_chf"
@@ -11189,6 +11220,7 @@ type KitPriceSeedSlug =
   | "craftworlds_howling_banshees__gw_jpy"
   | "craftworlds_howling_banshees__gw_nzd"
   | "craftworlds_howling_banshees__gw_pln"
+  | "craftworlds_howling_banshees__gw_usd"
   | "craftworlds_howling_banshees__tcgcsv_msrp_usd"
   | "craftworlds_jain_zar_the_storm_of_silence__tcgcsv_msrp_usd"
   | "custodian_guard_squad__tcgcsv_msrp_usd"
@@ -11200,6 +11232,7 @@ type KitPriceSeedSlug =
   | "cypher__gw_jpy"
   | "cypher__gw_nzd"
   | "cypher__gw_pln"
+  | "cypher__gw_usd"
   | "cypher__legacy_aud"
   | "cypher__legacy_cad"
   | "cypher__legacy_chf"
@@ -11222,6 +11255,7 @@ type KitPriceSeedSlug =
   | "dark_angels_interrogator_chaplain__gw_jpy"
   | "dark_angels_interrogator_chaplain__gw_nzd"
   | "dark_angels_interrogator_chaplain__gw_pln"
+  | "dark_angels_interrogator_chaplain__gw_usd"
   | "dark_angels_interrogator_chaplain__legacy_aud"
   | "dark_angels_interrogator_chaplain__legacy_cad"
   | "dark_angels_interrogator_chaplain__legacy_chf"
@@ -11237,6 +11271,7 @@ type KitPriceSeedSlug =
   | "dark_angels_master_lazarus__gw_jpy"
   | "dark_angels_master_lazarus__gw_nzd"
   | "dark_angels_master_lazarus__gw_pln"
+  | "dark_angels_master_lazarus__gw_usd"
   | "dark_angels_master_lazarus__tcgcsv_msrp_usd"
   | "dark_angels_primaris_aggressors__tcgcsv_msrp_usd"
   | "dark_angels_primaris_hellblasters__tcgcsv_msrp_usd"
@@ -11253,11 +11288,13 @@ type KitPriceSeedSlug =
   | "dark_eldar_raider__tcgcsv_msrp_usd"
   | "dark_eldar_scourges__gw_aud"
   | "dark_eldar_scourges__gw_cad"
+  | "dark_eldar_scourges__gw_chf"
   | "dark_eldar_scourges__gw_eur"
   | "dark_eldar_scourges__gw_gbp"
   | "dark_eldar_scourges__gw_jpy"
   | "dark_eldar_scourges__gw_nzd"
   | "dark_eldar_scourges__gw_pln"
+  | "dark_eldar_scourges__gw_usd"
   | "dark_eldar_scourges__legacy_aud"
   | "dark_eldar_scourges__legacy_cad"
   | "dark_eldar_scourges__legacy_chf"
@@ -11273,6 +11310,7 @@ type KitPriceSeedSlug =
   | "dark_eldar_talos_pain_engine__gw_jpy"
   | "dark_eldar_talos_pain_engine__gw_nzd"
   | "dark_eldar_talos_pain_engine__gw_pln"
+  | "dark_eldar_talos_pain_engine__gw_usd"
   | "dark_eldar_talos_pain_engine__tcgcsv_msrp_usd"
   | "dark_eldar_venom__gw_aud"
   | "dark_eldar_venom__gw_cad"
@@ -11282,6 +11320,7 @@ type KitPriceSeedSlug =
   | "dark_eldar_venom__gw_jpy"
   | "dark_eldar_venom__gw_nzd"
   | "dark_eldar_venom__gw_pln"
+  | "dark_eldar_venom__gw_usd"
   | "dark_eldar_venom__tcgcsv_msrp_usd"
   | "dark_eldar_voidraven_bomber__gw_aud"
   | "dark_eldar_voidraven_bomber__gw_cad"
@@ -11291,6 +11330,7 @@ type KitPriceSeedSlug =
   | "dark_eldar_voidraven_bomber__gw_jpy"
   | "dark_eldar_voidraven_bomber__gw_nzd"
   | "dark_eldar_voidraven_bomber__gw_pln"
+  | "dark_eldar_voidraven_bomber__gw_usd"
   | "dark_eldar_voidraven_bomber__tcgcsv_msrp_usd"
   | "dark_eldar_wracks__tcgcsv_msrp_usd"
   | "dark_imperium__tcgcsv_msrp_usd"
@@ -11308,6 +11348,7 @@ type KitPriceSeedSlug =
   | "deathwatch_corvus_blackstar__gw_jpy"
   | "deathwatch_corvus_blackstar__gw_nzd"
   | "deathwatch_corvus_blackstar__gw_pln"
+  | "deathwatch_corvus_blackstar__gw_usd"
   | "deathwatch_corvus_blackstar__tcgcsv_msrp_usd"
   | "deathwatch_kill_team__tcgcsv_msrp_usd"
   | "deathwatch_kill_team_cassius__gw_aud"
@@ -11318,6 +11359,7 @@ type KitPriceSeedSlug =
   | "deathwatch_kill_team_cassius__gw_jpy"
   | "deathwatch_kill_team_cassius__gw_nzd"
   | "deathwatch_kill_team_cassius__gw_pln"
+  | "deathwatch_kill_team_cassius__gw_usd"
   | "deathwatch_kill_team_cassius__tcgcsv_msrp_usd"
   | "deathwatch_upgrades__gw_aud"
   | "deathwatch_upgrades__gw_cad"
@@ -11327,6 +11369,7 @@ type KitPriceSeedSlug =
   | "deathwatch_upgrades__gw_jpy"
   | "deathwatch_upgrades__gw_nzd"
   | "deathwatch_upgrades__gw_pln"
+  | "deathwatch_upgrades__gw_usd"
   | "deathwatch_upgrades__tcgcsv_msrp_usd"
   | "deathwatch_venerable_dreadnought__tcgcsv_msrp_usd"
   | "deathwatch_watch_capt_terminator_armour__tcgcsv_msrp_usd"
@@ -11338,6 +11381,7 @@ type KitPriceSeedSlug =
   | "deathwatch_watch_master__gw_jpy"
   | "deathwatch_watch_master__gw_nzd"
   | "deathwatch_watch_master__gw_pln"
+  | "deathwatch_watch_master__gw_usd"
   | "deathwatch_watch_master__tcgcsv_msrp_usd"
   | "deffkilla_wartrike__gw_aud"
   | "deffkilla_wartrike__gw_cad"
@@ -11347,6 +11391,7 @@ type KitPriceSeedSlug =
   | "deffkilla_wartrike__gw_jpy"
   | "deffkilla_wartrike__gw_nzd"
   | "deffkilla_wartrike__gw_pln"
+  | "deffkilla_wartrike__gw_usd"
   | "deffkilla_wartrike__legacy_aud"
   | "deffkilla_wartrike__legacy_cad"
   | "deffkilla_wartrike__legacy_chf"
@@ -11363,6 +11408,7 @@ type KitPriceSeedSlug =
   | "drukhari_incubi__gw_jpy"
   | "drukhari_incubi__gw_nzd"
   | "drukhari_incubi__gw_pln"
+  | "drukhari_incubi__gw_usd"
   | "drukhari_incubi__tcgcsv_msrp_usd"
   | "drukhari_succubus__tcgcsv_msrp_usd"
   | "easy_to_build_death_guard_plague_marines__tcgcsv_msrp_usd"
@@ -11378,6 +11424,7 @@ type KitPriceSeedSlug =
   | "eldar_dire_avengers__gw_jpy"
   | "eldar_dire_avengers__gw_nzd"
   | "eldar_dire_avengers__gw_pln"
+  | "eldar_dire_avengers__gw_usd"
   | "eldar_dire_avengers__tcgcsv_msrp_usd"
   | "eldar_farseer_skyrunner__gw_aud"
   | "eldar_farseer_skyrunner__gw_cad"
@@ -11387,6 +11434,7 @@ type KitPriceSeedSlug =
   | "eldar_farseer_skyrunner__gw_jpy"
   | "eldar_farseer_skyrunner__gw_nzd"
   | "eldar_farseer_skyrunner__gw_pln"
+  | "eldar_farseer_skyrunner__gw_usd"
   | "eldar_farseer_skyrunner__tcgcsv_msrp_usd"
   | "eldar_guardians__tcgcsv_msrp_usd"
   | "eldar_hemlock_wraithfighter__gw_cad"
@@ -11395,15 +11443,18 @@ type KitPriceSeedSlug =
   | "eldar_hemlock_wraithfighter__gw_gbp"
   | "eldar_hemlock_wraithfighter__gw_jpy"
   | "eldar_hemlock_wraithfighter__gw_pln"
+  | "eldar_hemlock_wraithfighter__gw_usd"
   | "eldar_hemlock_wraithfighter__tcgcsv_msrp_usd"
   | "eldar_war_walker__tcgcsv_msrp_usd"
   | "eldar_windriders__gw_aud"
   | "eldar_windriders__gw_cad"
+  | "eldar_windriders__gw_chf"
   | "eldar_windriders__gw_eur"
   | "eldar_windriders__gw_gbp"
   | "eldar_windriders__gw_jpy"
   | "eldar_windriders__gw_nzd"
   | "eldar_windriders__gw_pln"
+  | "eldar_windriders__gw_usd"
   | "eldar_windriders__tcgcsv_msrp_usd"
   | "eldar_wraithguard__tcgcsv_high_usd"
   | "eldar_wraithguard__tcgcsv_low_usd"
@@ -11424,6 +11475,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_aberrants__gw_jpy"
   | "genestealer_cults_aberrants__gw_nzd"
   | "genestealer_cults_aberrants__gw_pln"
+  | "genestealer_cults_aberrants__gw_usd"
   | "genestealer_cults_aberrants__tcgcsv_msrp_usd"
   | "genestealer_cults_abominant__gw_aud"
   | "genestealer_cults_abominant__gw_cad"
@@ -11433,6 +11485,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_abominant__gw_jpy"
   | "genestealer_cults_abominant__gw_nzd"
   | "genestealer_cults_abominant__gw_pln"
+  | "genestealer_cults_abominant__gw_usd"
   | "genestealer_cults_abominant__tcgcsv_msrp_usd"
   | "genestealer_cults_achilles_ridgerunner__gw_aud"
   | "genestealer_cults_achilles_ridgerunner__gw_cad"
@@ -11442,6 +11495,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_achilles_ridgerunner__gw_jpy"
   | "genestealer_cults_achilles_ridgerunner__gw_nzd"
   | "genestealer_cults_achilles_ridgerunner__gw_pln"
+  | "genestealer_cults_achilles_ridgerunner__gw_usd"
   | "genestealer_cults_achilles_ridgerunner__tcgcsv_msrp_usd"
   | "genestealer_cults_acolyte_hybrids__tcgcsv_msrp_usd"
   | "genestealer_cults_acolyte_iconward__tcgcsv_msrp_usd"
@@ -11453,6 +11507,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_atalan_jackals__gw_jpy"
   | "genestealer_cults_atalan_jackals__gw_nzd"
   | "genestealer_cults_atalan_jackals__gw_pln"
+  | "genestealer_cults_atalan_jackals__gw_usd"
   | "genestealer_cults_atalan_jackals__tcgcsv_msrp_usd"
   | "genestealer_cults_biophagus__gw_aud"
   | "genestealer_cults_biophagus__gw_cad"
@@ -11462,6 +11517,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_biophagus__gw_jpy"
   | "genestealer_cults_biophagus__gw_nzd"
   | "genestealer_cults_biophagus__gw_pln"
+  | "genestealer_cults_biophagus__gw_usd"
   | "genestealer_cults_biophagus__tcgcsv_msrp_usd"
   | "genestealer_cults_broodcoven__gw_aud"
   | "genestealer_cults_broodcoven__gw_cad"
@@ -11471,6 +11527,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_broodcoven__gw_jpy"
   | "genestealer_cults_broodcoven__gw_nzd"
   | "genestealer_cults_broodcoven__gw_pln"
+  | "genestealer_cults_broodcoven__gw_usd"
   | "genestealer_cults_broodcoven__legacy_aud"
   | "genestealer_cults_broodcoven__legacy_cad"
   | "genestealer_cults_broodcoven__legacy_chf"
@@ -11486,6 +11543,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_clamavus__gw_jpy"
   | "genestealer_cults_clamavus__gw_nzd"
   | "genestealer_cults_clamavus__gw_pln"
+  | "genestealer_cults_clamavus__gw_usd"
   | "genestealer_cults_clamavus__tcgcsv_msrp_usd"
   | "genestealer_cults_goliath__tcgcsv_msrp_usd"
   | "genestealer_cults_jackal_alphus__gw_aud"
@@ -11496,6 +11554,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_jackal_alphus__gw_jpy"
   | "genestealer_cults_jackal_alphus__gw_nzd"
   | "genestealer_cults_jackal_alphus__gw_pln"
+  | "genestealer_cults_jackal_alphus__gw_usd"
   | "genestealer_cults_jackal_alphus__tcgcsv_msrp_usd"
   | "genestealer_cults_kelermorph__gw_aud"
   | "genestealer_cults_kelermorph__gw_cad"
@@ -11505,6 +11564,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_kelermorph__gw_jpy"
   | "genestealer_cults_kelermorph__gw_nzd"
   | "genestealer_cults_kelermorph__gw_pln"
+  | "genestealer_cults_kelermorph__gw_usd"
   | "genestealer_cults_kelermorph__tcgcsv_msrp_usd"
   | "genestealer_cults_leman_russ__tcgcsv_msrp_usd"
   | "genestealer_cults_locus__gw_aud"
@@ -11515,6 +11575,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_locus__gw_jpy"
   | "genestealer_cults_locus__gw_nzd"
   | "genestealer_cults_locus__gw_pln"
+  | "genestealer_cults_locus__gw_usd"
   | "genestealer_cults_locus__tcgcsv_msrp_usd"
   | "genestealer_cults_magus__gw_aud"
   | "genestealer_cults_magus__gw_cad"
@@ -11524,6 +11585,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_magus__gw_jpy"
   | "genestealer_cults_magus__gw_nzd"
   | "genestealer_cults_magus__gw_pln"
+  | "genestealer_cults_magus__gw_usd"
   | "genestealer_cults_magus__tcgcsv_msrp_usd"
   | "genestealer_cults_neophyte_hybrid_armoured_claw__tcgcsv_msrp_usd"
   | "genestealer_cults_neophyte_hybrid_squad__tcgcsv_msrp_usd"
@@ -11536,6 +11598,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_nexos__gw_jpy"
   | "genestealer_cults_nexos__gw_nzd"
   | "genestealer_cults_nexos__gw_pln"
+  | "genestealer_cults_nexos__gw_usd"
   | "genestealer_cults_nexos__tcgcsv_msrp_usd"
   | "genestealer_cults_sanctus__gw_aud"
   | "genestealer_cults_sanctus__gw_cad"
@@ -11545,6 +11608,7 @@ type KitPriceSeedSlug =
   | "genestealer_cults_sanctus__gw_jpy"
   | "genestealer_cults_sanctus__gw_nzd"
   | "genestealer_cults_sanctus__gw_pln"
+  | "genestealer_cults_sanctus__gw_usd"
   | "genestealer_cults_sanctus__tcgcsv_msrp_usd"
   | "genestealer_cults_upgrades__tcgcsv_msrp_usd"
   | "getting_started_with_warhammer_40k__tcgcsv_high_usd"
@@ -11559,6 +11623,7 @@ type KitPriceSeedSlug =
   | "grey_knights_grand_master_voldus__gw_jpy"
   | "grey_knights_grand_master_voldus__gw_nzd"
   | "grey_knights_grand_master_voldus__gw_pln"
+  | "grey_knights_grand_master_voldus__gw_usd"
   | "grey_knights_grand_master_voldus__tcgcsv_msrp_usd"
   | "grey_knights_nemesis_dreadknight__gw_aud"
   | "grey_knights_nemesis_dreadknight__gw_cad"
@@ -11568,6 +11633,7 @@ type KitPriceSeedSlug =
   | "grey_knights_nemesis_dreadknight__gw_jpy"
   | "grey_knights_nemesis_dreadknight__gw_nzd"
   | "grey_knights_nemesis_dreadknight__gw_pln"
+  | "grey_knights_nemesis_dreadknight__gw_usd"
   | "grey_knights_nemesis_dreadknight__tcgcsv_msrp_usd"
   | "grey_knights_paladin_squad__tcgcsv_msrp_usd"
   | "grey_knights_strike_squad__gw_aud"
@@ -11578,6 +11644,7 @@ type KitPriceSeedSlug =
   | "grey_knights_strike_squad__gw_jpy"
   | "grey_knights_strike_squad__gw_nzd"
   | "grey_knights_strike_squad__gw_pln"
+  | "grey_knights_strike_squad__gw_usd"
   | "grey_knights_strike_squad__legacy_aud"
   | "grey_knights_strike_squad__legacy_cad"
   | "grey_knights_strike_squad__legacy_chf"
@@ -11588,11 +11655,13 @@ type KitPriceSeedSlug =
   | "haemotrope_reactor__tcgcsv_msrp_usd"
   | "hammerhead_gunship__gw_aud"
   | "hammerhead_gunship__gw_cad"
+  | "hammerhead_gunship__gw_chf"
   | "hammerhead_gunship__gw_eur"
   | "hammerhead_gunship__gw_gbp"
   | "hammerhead_gunship__gw_jpy"
   | "hammerhead_gunship__gw_nzd"
   | "hammerhead_gunship__gw_pln"
+  | "hammerhead_gunship__gw_usd"
   | "hammerhead_gunship__legacy_aud"
   | "hammerhead_gunship__legacy_cad"
   | "hammerhead_gunship__legacy_chf"
@@ -11644,6 +11713,7 @@ type KitPriceSeedSlug =
   | "illuminor_szeras__gw_jpy"
   | "illuminor_szeras__gw_nzd"
   | "illuminor_szeras__gw_pln"
+  | "illuminor_szeras__gw_usd"
   | "illuminor_szeras__legacy_aud"
   | "illuminor_szeras__legacy_cad"
   | "illuminor_szeras__legacy_chf"
@@ -11661,6 +11731,7 @@ type KitPriceSeedSlug =
   | "imperial_fists_tor_garadon__gw_jpy"
   | "imperial_fists_tor_garadon__gw_nzd"
   | "imperial_fists_tor_garadon__gw_pln"
+  | "imperial_fists_tor_garadon__gw_usd"
   | "imperial_fists_tor_garadon__tcgcsv_msrp_usd"
   | "imperial_knight_warden__tcgcsv_msrp_usd"
   | "imperial_knights_armiger_helverins__tcgcsv_high_usd"
@@ -11677,6 +11748,7 @@ type KitPriceSeedSlug =
   | "imperial_knights_knight_preceptor_canis_rex__gw_jpy"
   | "imperial_knights_knight_preceptor_canis_rex__gw_nzd"
   | "imperial_knights_knight_preceptor_canis_rex__gw_pln"
+  | "imperial_knights_knight_preceptor_canis_rex__gw_usd"
   | "imperial_knights_knight_preceptor_canis_rex__tcgcsv_msrp_usd"
   | "imperial_knights_knight_valiant__tcgcsv_msrp_usd"
   | "imperial_knights_renegade__tcgcsv_msrp_usd"
@@ -11697,6 +11769,7 @@ type KitPriceSeedSlug =
   | "iron_hands_feirros__gw_jpy"
   | "iron_hands_feirros__gw_nzd"
   | "iron_hands_feirros__gw_pln"
+  | "iron_hands_feirros__gw_usd"
   | "iron_hands_feirros__tcgcsv_msrp_usd"
   | "iron_hands_primaris_upgrades_transfers__gw_aud"
   | "iron_hands_primaris_upgrades_transfers__gw_cad"
@@ -11706,6 +11779,7 @@ type KitPriceSeedSlug =
   | "iron_hands_primaris_upgrades_transfers__gw_jpy"
   | "iron_hands_primaris_upgrades_transfers__gw_nzd"
   | "iron_hands_primaris_upgrades_transfers__gw_pln"
+  | "iron_hands_primaris_upgrades_transfers__gw_usd"
   | "iron_hands_primaris_upgrades_transfers__tcgcsv_msrp_usd"
   | "khorne_berzerkers__legacy_aud"
   | "khorne_berzerkers__legacy_cad"
@@ -11776,6 +11850,7 @@ type KitPriceSeedSlug =
   | "necron_canoptek_spyder__gw_jpy"
   | "necron_canoptek_spyder__gw_nzd"
   | "necron_canoptek_spyder__gw_pln"
+  | "necron_canoptek_spyder__gw_usd"
   | "necron_canoptek_spyder__tcgcsv_msrp_usd"
   | "necron_canoptek_wraiths__gw_aud"
   | "necron_canoptek_wraiths__gw_cad"
@@ -11785,6 +11860,7 @@ type KitPriceSeedSlug =
   | "necron_canoptek_wraiths__gw_jpy"
   | "necron_canoptek_wraiths__gw_nzd"
   | "necron_canoptek_wraiths__gw_pln"
+  | "necron_canoptek_wraiths__gw_usd"
   | "necron_canoptek_wraiths__tcgcsv_msrp_usd"
   | "necron_canoptek_wraiths_repackage__tcgcsv_msrp_usd"
   | "necron_catacomb_commmand_barge__gw_aud"
@@ -11795,6 +11871,7 @@ type KitPriceSeedSlug =
   | "necron_catacomb_commmand_barge__gw_jpy"
   | "necron_catacomb_commmand_barge__gw_nzd"
   | "necron_catacomb_commmand_barge__gw_pln"
+  | "necron_catacomb_commmand_barge__gw_usd"
   | "necron_catacomb_commmand_barge__tcgcsv_msrp_usd"
   | "necron_cryptek__gw_aud"
   | "necron_cryptek__gw_cad"
@@ -11804,6 +11881,7 @@ type KitPriceSeedSlug =
   | "necron_cryptek__gw_jpy"
   | "necron_cryptek__gw_nzd"
   | "necron_cryptek__gw_pln"
+  | "necron_cryptek__gw_usd"
   | "necron_cryptek__tcgcsv_msrp_usd"
   | "necron_doom_scythe_night_scythe__gw_aud"
   | "necron_doom_scythe_night_scythe__gw_cad"
@@ -11813,6 +11891,7 @@ type KitPriceSeedSlug =
   | "necron_doom_scythe_night_scythe__gw_jpy"
   | "necron_doom_scythe_night_scythe__gw_nzd"
   | "necron_doom_scythe_night_scythe__gw_pln"
+  | "necron_doom_scythe_night_scythe__gw_usd"
   | "necron_doom_scythe_night_scythe__tcgcsv_msrp_usd"
   | "necron_doom_scythe_night_scythe_repackage__tcgcsv_msrp_usd"
   | "necron_immortals_deathmarks__gw_aud"
@@ -11823,6 +11902,7 @@ type KitPriceSeedSlug =
   | "necron_immortals_deathmarks__gw_jpy"
   | "necron_immortals_deathmarks__gw_nzd"
   | "necron_immortals_deathmarks__gw_pln"
+  | "necron_immortals_deathmarks__gw_usd"
   | "necron_immortals_deathmarks__tcgcsv_high_usd"
   | "necron_immortals_deathmarks__tcgcsv_low_usd"
   | "necron_immortals_deathmarks__tcgcsv_mid_usd"
@@ -11836,6 +11916,7 @@ type KitPriceSeedSlug =
   | "necron_overlord__gw_jpy"
   | "necron_overlord__gw_nzd"
   | "necron_overlord__gw_pln"
+  | "necron_overlord__gw_usd"
   | "necron_overlord__tcgcsv_msrp_usd"
   | "necron_tomb_blades__gw_aud"
   | "necron_tomb_blades__gw_cad"
@@ -11845,6 +11926,7 @@ type KitPriceSeedSlug =
   | "necron_tomb_blades__gw_jpy"
   | "necron_tomb_blades__gw_nzd"
   | "necron_tomb_blades__gw_pln"
+  | "necron_tomb_blades__gw_usd"
   | "necron_tomb_blades__tcgcsv_msrp_usd"
   | "necron_tomb_blades_repackage__tcgcsv_msrp_usd"
   | "necron_warriors__gw_aud"
@@ -11855,6 +11937,7 @@ type KitPriceSeedSlug =
   | "necron_warriors__gw_jpy"
   | "necron_warriors__gw_nzd"
   | "necron_warriors__gw_pln"
+  | "necron_warriors__gw_usd"
   | "necron_warriors__legacy_aud"
   | "necron_warriors__legacy_cad"
   | "necron_warriors__legacy_chf"
@@ -11871,6 +11954,7 @@ type KitPriceSeedSlug =
   | "necrons_canoptek_doomstalker__gw_jpy"
   | "necrons_canoptek_doomstalker__gw_nzd"
   | "necrons_canoptek_doomstalker__gw_pln"
+  | "necrons_canoptek_doomstalker__gw_usd"
   | "necrons_canoptek_doomstalker__tcgcsv_msrp_usd"
   | "necrons_convergence_of_dominion__gw_aud"
   | "necrons_convergence_of_dominion__gw_cad"
@@ -11880,6 +11964,7 @@ type KitPriceSeedSlug =
   | "necrons_convergence_of_dominion__gw_jpy"
   | "necrons_convergence_of_dominion__gw_nzd"
   | "necrons_convergence_of_dominion__gw_pln"
+  | "necrons_convergence_of_dominion__gw_usd"
   | "necrons_convergence_of_dominion__tcgcsv_msrp_usd"
   | "necrons_ctan_shard_of_the_void_dragon__gw_aud"
   | "necrons_ctan_shard_of_the_void_dragon__gw_cad"
@@ -11889,6 +11974,7 @@ type KitPriceSeedSlug =
   | "necrons_ctan_shard_of_the_void_dragon__gw_jpy"
   | "necrons_ctan_shard_of_the_void_dragon__gw_nzd"
   | "necrons_ctan_shard_of_the_void_dragon__gw_pln"
+  | "necrons_ctan_shard_of_the_void_dragon__gw_usd"
   | "necrons_ctan_shard_of_the_void_dragon__tcgcsv_msrp_usd"
   | "necrons_hexmark_destroyer__gw_aud"
   | "necrons_hexmark_destroyer__gw_cad"
@@ -11898,6 +11984,7 @@ type KitPriceSeedSlug =
   | "necrons_hexmark_destroyer__gw_jpy"
   | "necrons_hexmark_destroyer__gw_nzd"
   | "necrons_hexmark_destroyer__gw_pln"
+  | "necrons_hexmark_destroyer__gw_usd"
   | "necrons_hexmark_destroyer__tcgcsv_msrp_usd"
   | "necrons_lokhust_heavy_destroyer__gw_aud"
   | "necrons_lokhust_heavy_destroyer__gw_cad"
@@ -11907,6 +11994,7 @@ type KitPriceSeedSlug =
   | "necrons_lokhust_heavy_destroyer__gw_jpy"
   | "necrons_lokhust_heavy_destroyer__gw_nzd"
   | "necrons_lokhust_heavy_destroyer__gw_pln"
+  | "necrons_lokhust_heavy_destroyer__gw_usd"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_high_usd"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_low_usd"
   | "necrons_lokhust_heavy_destroyer__tcgcsv_mid_usd"
@@ -11919,6 +12007,7 @@ type KitPriceSeedSlug =
   | "necrons_monolith__gw_jpy"
   | "necrons_monolith__gw_nzd"
   | "necrons_monolith__gw_pln"
+  | "necrons_monolith__gw_usd"
   | "necrons_monolith__tcgcsv_msrp_usd"
   | "necrons_ophydian_destroyers__gw_aud"
   | "necrons_ophydian_destroyers__gw_cad"
@@ -11928,6 +12017,7 @@ type KitPriceSeedSlug =
   | "necrons_ophydian_destroyers__gw_jpy"
   | "necrons_ophydian_destroyers__gw_nzd"
   | "necrons_ophydian_destroyers__gw_pln"
+  | "necrons_ophydian_destroyers__gw_usd"
   | "necrons_ophydian_destroyers__tcgcsv_msrp_usd"
   | "necrons_skorpekh_destroyers__gw_aud"
   | "necrons_skorpekh_destroyers__gw_cad"
@@ -11937,6 +12027,7 @@ type KitPriceSeedSlug =
   | "necrons_skorpekh_destroyers__gw_jpy"
   | "necrons_skorpekh_destroyers__gw_nzd"
   | "necrons_skorpekh_destroyers__gw_pln"
+  | "necrons_skorpekh_destroyers__gw_usd"
   | "necrons_skorpekh_destroyers__tcgcsv_msrp_usd"
   | "necrons_szarekh_the_silent_king__tcgcsv_msrp_usd"
   | "necrons_warriors__gw_aud"
@@ -11947,6 +12038,7 @@ type KitPriceSeedSlug =
   | "necrons_warriors__gw_jpy"
   | "necrons_warriors__gw_nzd"
   | "necrons_warriors__gw_pln"
+  | "necrons_warriors__gw_usd"
   | "necrons_warriors__tcgcsv_high_usd"
   | "necrons_warriors__tcgcsv_low_usd"
   | "necrons_warriors__tcgcsv_mid_usd"
@@ -11978,6 +12070,7 @@ type KitPriceSeedSlug =
   | "ork_gretchin__gw_jpy"
   | "ork_gretchin__gw_nzd"
   | "ork_gretchin__gw_pln"
+  | "ork_gretchin__gw_usd"
   | "ork_gretchin__legacy_aud"
   | "ork_gretchin__legacy_cad"
   | "ork_gretchin__legacy_chf"
@@ -11990,11 +12083,13 @@ type KitPriceSeedSlug =
   | "ork_gretchin__tcgcsv_msrp_usd"
   | "ork_killa_kans__gw_aud"
   | "ork_killa_kans__gw_cad"
+  | "ork_killa_kans__gw_chf"
   | "ork_killa_kans__gw_eur"
   | "ork_killa_kans__gw_gbp"
   | "ork_killa_kans__gw_jpy"
   | "ork_killa_kans__gw_nzd"
   | "ork_killa_kans__gw_pln"
+  | "ork_killa_kans__gw_usd"
   | "ork_killa_kans__legacy_aud"
   | "ork_killa_kans__legacy_cad"
   | "ork_killa_kans__legacy_chf"
@@ -12012,6 +12107,7 @@ type KitPriceSeedSlug =
   | "ork_mek_gun__gw_jpy"
   | "ork_mek_gun__gw_nzd"
   | "ork_mek_gun__gw_pln"
+  | "ork_mek_gun__gw_usd"
   | "ork_mek_gun__tcgcsv_msrp_usd"
   | "ork_nobz__legacy_aud"
   | "ork_nobz__legacy_cad"
@@ -12050,6 +12146,7 @@ type KitPriceSeedSlug =
   | "ork_warbiker_mob__gw_jpy"
   | "ork_warbiker_mob__gw_nzd"
   | "ork_warbiker_mob__gw_pln"
+  | "ork_warbiker_mob__gw_usd"
   | "ork_warbiker_mob__legacy_aud"
   | "ork_warbiker_mob__legacy_cad"
   | "ork_warbiker_mob__legacy_chf"
@@ -12072,6 +12169,7 @@ type KitPriceSeedSlug =
   | "orks_ghazghkull_thraka__gw_jpy"
   | "orks_ghazghkull_thraka__gw_nzd"
   | "orks_ghazghkull_thraka__gw_pln"
+  | "orks_ghazghkull_thraka__gw_usd"
   | "orks_ghazghkull_thraka__tcgcsv_msrp_usd"
   | "orks_kustom_boosta_blasta__gw_aud"
   | "orks_kustom_boosta_blasta__gw_cad"
@@ -12081,6 +12179,7 @@ type KitPriceSeedSlug =
   | "orks_kustom_boosta_blasta__gw_jpy"
   | "orks_kustom_boosta_blasta__gw_nzd"
   | "orks_kustom_boosta_blasta__gw_pln"
+  | "orks_kustom_boosta_blasta__gw_usd"
   | "orks_kustom_boosta_blasta__tcgcsv_msrp_usd"
   | "orks_shokkjump_dragsta__gw_aud"
   | "orks_shokkjump_dragsta__gw_cad"
@@ -12090,6 +12189,7 @@ type KitPriceSeedSlug =
   | "orks_shokkjump_dragsta__gw_jpy"
   | "orks_shokkjump_dragsta__gw_nzd"
   | "orks_shokkjump_dragsta__gw_pln"
+  | "orks_shokkjump_dragsta__gw_usd"
   | "orks_shokkjump_dragsta__tcgcsv_msrp_usd"
   | "orks_starter_set_kill_team_krogskulls_boyz__tcgcsv_msrp_usd"
   | "paints_tools_set__tcgcsv_msrp_usd"
@@ -12103,6 +12203,7 @@ type KitPriceSeedSlug =
   | "raven_guard_kayvaan_shrike__gw_jpy"
   | "raven_guard_kayvaan_shrike__gw_nzd"
   | "raven_guard_kayvaan_shrike__gw_pln"
+  | "raven_guard_kayvaan_shrike__gw_usd"
   | "raven_guard_kayvaan_shrike__tcgcsv_msrp_usd"
   | "raven_guard_primaris_upgrades_transfers__gw_aud"
   | "raven_guard_primaris_upgrades_transfers__gw_cad"
@@ -12112,6 +12213,7 @@ type KitPriceSeedSlug =
   | "raven_guard_primaris_upgrades_transfers__gw_jpy"
   | "raven_guard_primaris_upgrades_transfers__gw_nzd"
   | "raven_guard_primaris_upgrades_transfers__gw_pln"
+  | "raven_guard_primaris_upgrades_transfers__gw_usd"
   | "raven_guard_primaris_upgrades_transfers__tcgcsv_msrp_usd"
   | "ravenwing_command_squad__gw_aud"
   | "ravenwing_command_squad__gw_cad"
@@ -12131,6 +12233,7 @@ type KitPriceSeedSlug =
   | "rukkatrukk_squigbuggy__gw_jpy"
   | "rukkatrukk_squigbuggy__gw_nzd"
   | "rukkatrukk_squigbuggy__gw_pln"
+  | "rukkatrukk_squigbuggy__gw_usd"
   | "rukkatrukk_squigbuggy__legacy_aud"
   | "rukkatrukk_squigbuggy__legacy_cad"
   | "rukkatrukk_squigbuggy__legacy_chf"
@@ -12147,6 +12250,7 @@ type KitPriceSeedSlug =
   | "salamanders_adrax_agatone__gw_jpy"
   | "salamanders_adrax_agatone__gw_nzd"
   | "salamanders_adrax_agatone__gw_pln"
+  | "salamanders_adrax_agatone__gw_usd"
   | "salamanders_adrax_agatone__tcgcsv_msrp_usd"
   | "salamanders_primaris_upgrades_transferssalamanders_adrax_agatone__tcgcsv_msrp_usd"
   | "sector_imperialis_25_40mm_round_bases__tcgcsv_msrp_usd"
@@ -12193,6 +12297,7 @@ type KitPriceSeedSlug =
   | "space_marine_devastator_squad__gw_jpy"
   | "space_marine_devastator_squad__gw_nzd"
   | "space_marine_devastator_squad__gw_pln"
+  | "space_marine_devastator_squad__gw_usd"
   | "space_marine_devastator_squad__tcgcsv_high_usd"
   | "space_marine_devastator_squad__tcgcsv_low_usd"
   | "space_marine_devastator_squad__tcgcsv_mid_usd"
@@ -12220,6 +12325,7 @@ type KitPriceSeedSlug =
   | "space_marine_primaris_captain__gw_jpy"
   | "space_marine_primaris_captain__gw_nzd"
   | "space_marine_primaris_captain__gw_pln"
+  | "space_marine_primaris_captain__gw_usd"
   | "space_marine_primaris_captain__tcgcsv_msrp_usd"
   | "space_marine_primaris_librarian__tcgcsv_msrp_usd"
   | "space_marine_primaris_redemptor_dreadnought__tcgcsv_high_usd"
@@ -12242,6 +12348,7 @@ type KitPriceSeedSlug =
   | "space_marine_tactical_squad__gw_jpy"
   | "space_marine_tactical_squad__gw_nzd"
   | "space_marine_tactical_squad__gw_pln"
+  | "space_marine_tactical_squad__gw_usd"
   | "space_marine_tactical_squad__tcgcsv_msrp_usd"
   | "space_marine_terminator_close_combat_squad__tcgcsv_msrp_usd"
   | "space_marine_terminator_command__tcgcsv_msrp_usd"
@@ -12255,6 +12362,7 @@ type KitPriceSeedSlug =
   | "space_marine_venerable_dreadnought__gw_jpy"
   | "space_marine_venerable_dreadnought__gw_nzd"
   | "space_marine_venerable_dreadnought__gw_pln"
+  | "space_marine_venerable_dreadnought__gw_usd"
   | "space_marine_venerable_dreadnought__tcgcsv_msrp_usd"
   | "space_marine_vindicator__tcgcsv_msrp_usd"
   | "space_marines_assault_intercessors_paints_set__tcgcsv_msrp_usd"
@@ -12268,6 +12376,7 @@ type KitPriceSeedSlug =
   | "space_marines_hammerfall_bunker__gw_jpy"
   | "space_marines_hammerfall_bunker__gw_nzd"
   | "space_marines_hammerfall_bunker__gw_pln"
+  | "space_marines_hammerfall_bunker__gw_usd"
   | "space_marines_hammerfall_bunker__tcgcsv_msrp_usd"
   | "space_marines_marneus_calgar_ultramarines_chapter_master__tcgcsv_msrp_usd"
   | "space_marines_outriders__gw_aud"
@@ -12278,15 +12387,18 @@ type KitPriceSeedSlug =
   | "space_marines_outriders__gw_jpy"
   | "space_marines_outriders__gw_nzd"
   | "space_marines_outriders__gw_pln"
+  | "space_marines_outriders__gw_usd"
   | "space_marines_outriders__tcgcsv_msrp_usd"
   | "space_marines_primaris_captain_in_phobos_armour__tcgcsv_msrp_usd"
   | "space_marines_primaris_chaplain_on_bike__gw_aud"
   | "space_marines_primaris_chaplain_on_bike__gw_cad"
+  | "space_marines_primaris_chaplain_on_bike__gw_chf"
   | "space_marines_primaris_chaplain_on_bike__gw_eur"
   | "space_marines_primaris_chaplain_on_bike__gw_gbp"
   | "space_marines_primaris_chaplain_on_bike__gw_jpy"
   | "space_marines_primaris_chaplain_on_bike__gw_nzd"
   | "space_marines_primaris_chaplain_on_bike__gw_pln"
+  | "space_marines_primaris_chaplain_on_bike__gw_usd"
   | "space_marines_primaris_chaplain_on_bike__tcgcsv_msrp_usd"
   | "space_marines_primaris_eliminators__tcgcsv_high_usd"
   | "space_marines_primaris_eliminators__tcgcsv_low_usd"
@@ -12303,6 +12415,7 @@ type KitPriceSeedSlug =
   | "space_marines_primaris_invader_atv__gw_jpy"
   | "space_marines_primaris_invader_atv__gw_nzd"
   | "space_marines_primaris_invader_atv__gw_pln"
+  | "space_marines_primaris_invader_atv__gw_usd"
   | "space_marines_primaris_invader_atv__tcgcsv_msrp_usd"
   | "space_marines_primaris_invictor_tactical_warsuit__tcgcsv_msrp_usd"
   | "space_marines_primaris_librarian_in_phobos_armour__tcgcsv_msrp_usd"
@@ -12317,6 +12430,7 @@ type KitPriceSeedSlug =
   | "space_marines_primaris_techmarine__gw_jpy"
   | "space_marines_primaris_techmarine__gw_nzd"
   | "space_marines_primaris_techmarine__gw_pln"
+  | "space_marines_primaris_techmarine__gw_usd"
   | "space_marines_primaris_techmarine__tcgcsv_msrp_usd"
   | "space_marines_roboute_guilliman__tcgcsv_msrp_usd"
   | "space_marines_terminator_chaplain_tarentus__tcgcsv_msrp_usd"
@@ -12334,6 +12448,7 @@ type KitPriceSeedSlug =
   | "space_wolves_iron_priest__gw_jpy"
   | "space_wolves_iron_priest__gw_nzd"
   | "space_wolves_iron_priest__gw_pln"
+  | "space_wolves_iron_priest__gw_usd"
   | "space_wolves_iron_priest__tcgcsv_msrp_usd"
   | "space_wolves_long_fangs__tcgcsv_msrp_usd"
   | "space_wolves_pack__tcgcsv_msrp_usd"
@@ -12346,6 +12461,7 @@ type KitPriceSeedSlug =
   | "space_wolves_ragnar_blackmane__gw_jpy"
   | "space_wolves_ragnar_blackmane__gw_nzd"
   | "space_wolves_ragnar_blackmane__gw_pln"
+  | "space_wolves_ragnar_blackmane__gw_usd"
   | "space_wolves_ragnar_blackmane__tcgcsv_msrp_usd"
   | "space_wolves_skyhammer_wolf_pack__tcgcsv_msrp_usd"
   | "space_wolves_stormfang_gunship__tcgcsv_msrp_usd"
@@ -12368,6 +12484,7 @@ type KitPriceSeedSlug =
   | "space_wolves_venerable_dreadnought__gw_jpy"
   | "space_wolves_venerable_dreadnought__gw_nzd"
   | "space_wolves_venerable_dreadnought__gw_pln"
+  | "space_wolves_venerable_dreadnought__gw_usd"
   | "space_wolves_venerable_dreadnought__legacy_aud"
   | "space_wolves_venerable_dreadnought__legacy_cad"
   | "space_wolves_venerable_dreadnought__legacy_chf"
@@ -12383,6 +12500,7 @@ type KitPriceSeedSlug =
   | "space_wolves_wolf_guard_terminators__gw_jpy"
   | "space_wolves_wolf_guard_terminators__gw_nzd"
   | "space_wolves_wolf_guard_terminators__gw_pln"
+  | "space_wolves_wolf_guard_terminators__gw_usd"
   | "space_wolves_wolf_guard_terminators__tcgcsv_msrp_usd"
   | "space_wolves_wolf_lord_krom__tcgcsv_msrp_usd"
   | "space_wolves_wulfen__gw_aud"
@@ -12393,6 +12511,7 @@ type KitPriceSeedSlug =
   | "space_wolves_wulfen__gw_jpy"
   | "space_wolves_wulfen__gw_nzd"
   | "space_wolves_wulfen__gw_pln"
+  | "space_wolves_wulfen__gw_usd"
   | "space_wolves_wulfen__tcgcsv_msrp_usd"
   | "spacemarine_landraider_crusader_redeemer__tcgcsv_msrp_usd"
   | "speed_freeks__tcgcsv_msrp_usd"
@@ -12422,6 +12541,7 @@ type KitPriceSeedSlug =
   | "stormraven_gunship__gw_jpy"
   | "stormraven_gunship__gw_nzd"
   | "stormraven_gunship__gw_pln"
+  | "stormraven_gunship__gw_usd"
   | "stormraven_gunship__legacy_aud"
   | "stormraven_gunship__legacy_cad"
   | "stormraven_gunship__legacy_chf"
@@ -12438,6 +12558,7 @@ type KitPriceSeedSlug =
   | "talons_of_the_emperor_valerian_and_aleya__gw_jpy"
   | "talons_of_the_emperor_valerian_and_aleya__gw_nzd"
   | "talons_of_the_emperor_valerian_and_aleya__gw_pln"
+  | "talons_of_the_emperor_valerian_and_aleya__gw_usd"
   | "talons_of_the_emperor_valerian_and_aleya__legacy_aud"
   | "talons_of_the_emperor_valerian_and_aleya__legacy_cad"
   | "talons_of_the_emperor_valerian_and_aleya__legacy_chf"
@@ -12455,6 +12576,7 @@ type KitPriceSeedSlug =
   | "tau_empire_commander__gw_jpy"
   | "tau_empire_commander__gw_nzd"
   | "tau_empire_commander__gw_pln"
+  | "tau_empire_commander__gw_usd"
   | "tau_empire_commander__tcgcsv_high_usd"
   | "tau_empire_commander__tcgcsv_low_usd"
   | "tau_empire_commander__tcgcsv_mid_usd"
@@ -12467,6 +12589,7 @@ type KitPriceSeedSlug =
   | "tau_empire_fire_warriors__gw_jpy"
   | "tau_empire_fire_warriors__gw_nzd"
   | "tau_empire_fire_warriors__gw_pln"
+  | "tau_empire_fire_warriors__gw_usd"
   | "tau_empire_fire_warriors__tcgcsv_msrp_usd"
   | "tau_empire_kv128_stormsurge__tcgcsv_msrp_usd"
   | "tau_empire_pathfinder_team__tcgcsv_high_usd"
@@ -12481,6 +12604,7 @@ type KitPriceSeedSlug =
   | "tau_empire_tidewall_droneport__gw_jpy"
   | "tau_empire_tidewall_droneport__gw_nzd"
   | "tau_empire_tidewall_droneport__gw_pln"
+  | "tau_empire_tidewall_droneport__gw_usd"
   | "tau_empire_tidewall_droneport__tcgcsv_msrp_usd"
   | "tau_empire_tidewall_rampart__tcgcsv_msrp_usd"
   | "tau_empire_tidewall_shieldline__tcgcsv_msrp_usd"
@@ -12492,6 +12616,7 @@ type KitPriceSeedSlug =
   | "tau_empire_tx4_piranha__gw_jpy"
   | "tau_empire_tx4_piranha__gw_nzd"
   | "tau_empire_tx4_piranha__gw_pln"
+  | "tau_empire_tx4_piranha__gw_usd"
   | "tau_empire_tx4_piranha__tcgcsv_msrp_usd"
   | "tau_empire_ty7_devilfish__gw_aud"
   | "tau_empire_ty7_devilfish__gw_cad"
@@ -12501,6 +12626,7 @@ type KitPriceSeedSlug =
   | "tau_empire_ty7_devilfish__gw_jpy"
   | "tau_empire_ty7_devilfish__gw_nzd"
   | "tau_empire_ty7_devilfish__gw_pln"
+  | "tau_empire_ty7_devilfish__gw_usd"
   | "tau_empire_ty7_devilfish__tcgcsv_msrp_usd"
   | "tau_empire_xv25_stealth_battlesuits__tcgcsv_high_usd"
   | "tau_empire_xv25_stealth_battlesuits__tcgcsv_low_usd"
@@ -12514,6 +12640,7 @@ type KitPriceSeedSlug =
   | "tau_empire_xv88_broadside_battlesuit__gw_jpy"
   | "tau_empire_xv88_broadside_battlesuit__gw_nzd"
   | "tau_empire_xv88_broadside_battlesuit__gw_pln"
+  | "tau_empire_xv88_broadside_battlesuit__gw_usd"
   | "tau_empire_xv88_broadside_battlesuit__tcgcsv_high_usd"
   | "tau_empire_xv88_broadside_battlesuit__tcgcsv_low_usd"
   | "tau_empire_xv88_broadside_battlesuit__tcgcsv_mid_usd"
@@ -12536,6 +12663,7 @@ type KitPriceSeedSlug =
   | "tyranid_broodlord__gw_jpy"
   | "tyranid_broodlord__gw_nzd"
   | "tyranid_broodlord__gw_pln"
+  | "tyranid_broodlord__gw_usd"
   | "tyranid_broodlord__legacy_aud"
   | "tyranid_broodlord__legacy_cad"
   | "tyranid_broodlord__legacy_chf"
@@ -12545,11 +12673,13 @@ type KitPriceSeedSlug =
   | "tyranid_broodlord__tcgcsv_msrp_usd"
   | "tyranid_gargoyle_brood__gw_aud"
   | "tyranid_gargoyle_brood__gw_cad"
+  | "tyranid_gargoyle_brood__gw_chf"
   | "tyranid_gargoyle_brood__gw_eur"
   | "tyranid_gargoyle_brood__gw_gbp"
   | "tyranid_gargoyle_brood__gw_jpy"
   | "tyranid_gargoyle_brood__gw_nzd"
   | "tyranid_gargoyle_brood__gw_pln"
+  | "tyranid_gargoyle_brood__gw_usd"
   | "tyranid_gargoyle_brood__legacy_aud"
   | "tyranid_gargoyle_brood__legacy_cad"
   | "tyranid_gargoyle_brood__legacy_eur"
@@ -12564,14 +12694,17 @@ type KitPriceSeedSlug =
   | "tyranid_genestealers__gw_jpy"
   | "tyranid_genestealers__gw_nzd"
   | "tyranid_genestealers__gw_pln"
+  | "tyranid_genestealers__gw_usd"
   | "tyranid_genestealers__tcgcsv_msrp_usd"
   | "tyranid_harpy__gw_aud"
   | "tyranid_harpy__gw_cad"
+  | "tyranid_harpy__gw_chf"
   | "tyranid_harpy__gw_eur"
   | "tyranid_harpy__gw_gbp"
   | "tyranid_harpy__gw_jpy"
   | "tyranid_harpy__gw_nzd"
   | "tyranid_harpy__gw_pln"
+  | "tyranid_harpy__gw_usd"
   | "tyranid_harpy__legacy_aud"
   | "tyranid_harpy__legacy_cad"
   | "tyranid_harpy__legacy_chf"
@@ -12591,11 +12724,15 @@ type KitPriceSeedSlug =
   | "tyranid_termagants__tcgcsv_low_usd"
   | "tyranid_termagants__tcgcsv_mid_usd"
   | "tyranid_termagants__tcgcsv_msrp_usd"
+  | "tyranid_trygon_mawloc__gw_aud"
   | "tyranid_trygon_mawloc__gw_cad"
+  | "tyranid_trygon_mawloc__gw_chf"
   | "tyranid_trygon_mawloc__gw_eur"
   | "tyranid_trygon_mawloc__gw_gbp"
   | "tyranid_trygon_mawloc__gw_jpy"
+  | "tyranid_trygon_mawloc__gw_nzd"
   | "tyranid_trygon_mawloc__gw_pln"
+  | "tyranid_trygon_mawloc__gw_usd"
   | "tyranid_trygon_mawloc__tcgcsv_msrp_usd"
   | "tyranid_tyrannocyte__gw_aud"
   | "tyranid_tyrannocyte__gw_cad"
@@ -12605,12 +12742,15 @@ type KitPriceSeedSlug =
   | "tyranid_tyrannocyte__gw_jpy"
   | "tyranid_tyrannocyte__gw_nzd"
   | "tyranid_tyrannocyte__gw_pln"
+  | "tyranid_tyrannocyte__gw_usd"
   | "tyranid_tyrannocyte__tcgcsv_msrp_usd"
   | "tyranid_tyrannofex__gw_cad"
+  | "tyranid_tyrannofex__gw_chf"
   | "tyranid_tyrannofex__gw_eur"
   | "tyranid_tyrannofex__gw_gbp"
   | "tyranid_tyrannofex__gw_jpy"
   | "tyranid_tyrannofex__gw_pln"
+  | "tyranid_tyrannofex__gw_usd"
   | "tyranid_tyrannofex__legacy_aud"
   | "tyranid_tyrannofex__legacy_cad"
   | "tyranid_tyrannofex__legacy_chf"
@@ -12627,6 +12767,7 @@ type KitPriceSeedSlug =
   | "tyranid_warriors__gw_jpy"
   | "tyranid_warriors__gw_nzd"
   | "tyranid_warriors__gw_pln"
+  | "tyranid_warriors__gw_usd"
   | "tyranid_warriors__legacy_aud"
   | "tyranid_warriors__legacy_cad"
   | "tyranid_warriors__legacy_chf"
@@ -12644,6 +12785,7 @@ type KitPriceSeedSlug =
   | "ultramarines_chief_librarian_tigurius__gw_jpy"
   | "ultramarines_chief_librarian_tigurius__gw_nzd"
   | "ultramarines_chief_librarian_tigurius__gw_pln"
+  | "ultramarines_chief_librarian_tigurius__gw_usd"
   | "ultramarines_chief_librarian_tigurius__tcgcsv_msrp_usd"
   | "ultramarines_upgrades__tcgcsv_msrp_usd"
   | "urban_conquest__tcgcsv_msrp_usd"
@@ -12657,6 +12799,7 @@ type KitPriceSeedSlug =
   | "white_scars_korsarro_khan__gw_jpy"
   | "white_scars_korsarro_khan__gw_nzd"
   | "white_scars_korsarro_khan__gw_pln"
+  | "white_scars_korsarro_khan__gw_usd"
   | "white_scars_korsarro_khan__tcgcsv_msrp_usd"
   | "white_scars_primaris_upgrades_transfers__tcgcsv_msrp_usd"
   | "xv104_riptide_battlesuit__gw_aud"
@@ -12667,6 +12810,7 @@ type KitPriceSeedSlug =
   | "xv104_riptide_battlesuit__gw_jpy"
   | "xv104_riptide_battlesuit__gw_nzd"
   | "xv104_riptide_battlesuit__gw_pln"
+  | "xv104_riptide_battlesuit__gw_usd"
   | "xv104_riptide_battlesuit__legacy_aud"
   | "xv104_riptide_battlesuit__legacy_cad"
   | "xv104_riptide_battlesuit__legacy_chf"
@@ -12684,6 +12828,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_arco_flagellants__gw_jpy": "01KK3GEKP3TMC2CKBHXW0HK19A",
   "adepta_sororitas_arco_flagellants__gw_nzd": "01KNTB1BFQ17SENG35KA1JVJ85",
   "adepta_sororitas_arco_flagellants__gw_pln": "01KC7D0VRYK35TRBVHV98CZK4Q",
+  "adepta_sororitas_arco_flagellants__gw_usd": "01KAK18YFAR1V381FCFV3EVSP3",
   "adepta_sororitas_arco_flagellants__tcgcsv_msrp_usd": "01K7Y4GNS2BR28J9NK43AR2MFT",
   "adepta_sororitas_battle_sanctum__tcgcsv_msrp_usd": "01KBN12NZ3AQ9VTB752J5KP1MV",
   "adepta_sororitas_battle_sisters_squad__gw_aud": "01KD2X0J003DEPDF75DW7K3BRS",
@@ -12694,6 +12839,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_battle_sisters_squad__gw_jpy": "01KB4CCX7KDMW8AXXH3TYC2GMA",
   "adepta_sororitas_battle_sisters_squad__gw_nzd": "01K3HQBANK0CVXCK3P5SDQGZEC",
   "adepta_sororitas_battle_sisters_squad__gw_pln": "01KTQ9ZFH4FFH4XE5N3VC1ESF0",
+  "adepta_sororitas_battle_sisters_squad__gw_usd": "01KNKZYFE0Y6GNHTRJEDTTRQR1",
   "adepta_sororitas_battle_sisters_squad__legacy_aud": "01K1W1A5V2W7H86JNTXW36KE3T",
   "adepta_sororitas_battle_sisters_squad__legacy_cad": "01KBAMHX9XSQX3ESS6HZ3D8SG5",
   "adepta_sororitas_battle_sisters_squad__legacy_chf": "01KDDVGHC4Z6XG30ZC60YTJMC5",
@@ -12715,6 +12861,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_exorcist__gw_jpy": "01K23GNFT8634F1E5FTNWX3A3E",
   "adepta_sororitas_exorcist__gw_nzd": "01KMAF8SPCP42FJTTT860QCJ17",
   "adepta_sororitas_exorcist__gw_pln": "01KC92MY9V0MPWEPM2HG073P03",
+  "adepta_sororitas_exorcist__gw_usd": "01K0PDJK2AEJMEV39TN7FA2A5T",
   "adepta_sororitas_exorcist__tcgcsv_msrp_usd": "01KPZRHTCTQPN2GVEBDYDW113M",
   "adepta_sororitas_hospitaller__gw_aud": "01KVYQKYCE61S04HEDKJSNCEAJ",
   "adepta_sororitas_hospitaller__gw_cad": "01KKJ88F7YMR1PQ9M9PYD56ZP6",
@@ -12724,6 +12871,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_hospitaller__gw_jpy": "01K4E9P1C12QDKS6FKD3NXT5A5",
   "adepta_sororitas_hospitaller__gw_nzd": "01KV8AYDC0R99A8BJKVCHM11E0",
   "adepta_sororitas_hospitaller__gw_pln": "01KH7YAVZY03HMEQHYTDS73DPR",
+  "adepta_sororitas_hospitaller__gw_usd": "01KJ31GS4EQ42RS130R31KBMX6",
   "adepta_sororitas_hospitaller__tcgcsv_msrp_usd": "01K2KRA0BHBA836MDW8TKNMPYQ",
   "adepta_sororitas_immolator__gw_aud": "01K8B0PTC1891G7WX2AJGGY0QW",
   "adepta_sororitas_immolator__gw_cad": "01KKEM9F4QSZKMQK57EXYC2KCD",
@@ -12733,6 +12881,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_immolator__gw_jpy": "01K7XM1TWWB1CRRJ974AMGNR8K",
   "adepta_sororitas_immolator__gw_nzd": "01KTED6X0KW6WNK4A0YADHAFAM",
   "adepta_sororitas_immolator__gw_pln": "01K5X03W0Z00GXA40FW9P2SNMW",
+  "adepta_sororitas_immolator__gw_usd": "01KFVHRAFRFF0J09D9SRYQY6X9",
   "adepta_sororitas_immolator__tcgcsv_msrp_usd": "01KHVDRRGGH9MCSP2MXK0QD5HW",
   "adepta_sororitas_junith_eruita__gw_aud": "01K87WV9SN0S50VTHK859P026X",
   "adepta_sororitas_junith_eruita__gw_cad": "01KY0R7DF6605NSH6N644M68XS",
@@ -12742,6 +12891,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_junith_eruita__gw_jpy": "01KRF4Y3YA6TSTSHH1DVZG3Z11",
   "adepta_sororitas_junith_eruita__gw_nzd": "01K4N32W3T5A53TK3J24044QQ5",
   "adepta_sororitas_junith_eruita__gw_pln": "01KQ6J36SEDJJ3233YW6SBY5M2",
+  "adepta_sororitas_junith_eruita__gw_usd": "01KJ2Z9BWD9FRVJ40KGB3F286J",
   "adepta_sororitas_junith_eruita__tcgcsv_msrp_usd": "01KAPAWK4NQ5XX6YGCYYFXSASZ",
   "adepta_sororitas_penitent_engines__gw_aud": "01KADHPWY9W5HZM16CX4BR5MYF",
   "adepta_sororitas_penitent_engines__gw_cad": "01KTS43AM8R04KAW1YYK8GQ6CE",
@@ -12751,6 +12901,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_penitent_engines__gw_jpy": "01KN74N81VTA7D2QG4RQ35HY25",
   "adepta_sororitas_penitent_engines__gw_nzd": "01K379M8J6WFSM964MP97VJND5",
   "adepta_sororitas_penitent_engines__gw_pln": "01K7E558QGQEJ8EWAETN0SXS5C",
+  "adepta_sororitas_penitent_engines__gw_usd": "01K1T8RM3H5EBJCV6VF95KNBNC",
   "adepta_sororitas_penitent_engines__tcgcsv_msrp_usd": "01KGYT5NSBVGNNH03M2HMNYCCJ",
   "adepta_sororitas_repentia_squad__gw_aud": "01K3MAN6J80QGMA13KRACD9ZZ1",
   "adepta_sororitas_repentia_squad__gw_cad": "01KNT1J26YV5NAYZTZCVTPQNNP",
@@ -12760,6 +12911,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_repentia_squad__gw_jpy": "01KB2YZ2XJ61NXKSTGJ47YGCQB",
   "adepta_sororitas_repentia_squad__gw_nzd": "01KV9AG5Y2QC10CRPRXHHYQCQ7",
   "adepta_sororitas_repentia_squad__gw_pln": "01KES3BQX8K6VGNHDNQ3FS6H6J",
+  "adepta_sororitas_repentia_squad__gw_usd": "01KBRSMSZFDJHZCMASHJVYWB7V",
   "adepta_sororitas_repentia_squad__tcgcsv_msrp_usd": "01KT8YDPCKVP7KAA3KNN11Y2G8",
   "adepta_sororitas_retributor_squad__gw_aud": "01K8159VQSE0A9GFHA3627QKWF",
   "adepta_sororitas_retributor_squad__gw_cad": "01KDC68BQ7EE9KCZW9EX6RTDPC",
@@ -12769,6 +12921,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_retributor_squad__gw_jpy": "01KH72TFY7CN5FEHBVSYK76DWF",
   "adepta_sororitas_retributor_squad__gw_nzd": "01KGTT8E7TQGTKA5REG2K2NMT9",
   "adepta_sororitas_retributor_squad__gw_pln": "01KYKFVKV7HVC6BT721XRR3Q40",
+  "adepta_sororitas_retributor_squad__gw_usd": "01K1V6NHV627J6XH0WWWCFBAH1",
   "adepta_sororitas_retributor_squad__tcgcsv_high_usd": "01KEM51TG0DJWE1BNT9BPZNMGX",
   "adepta_sororitas_retributor_squad__tcgcsv_low_usd": "01K7AZZDG19J48V1810GWMQ8TH",
   "adepta_sororitas_retributor_squad__tcgcsv_mid_usd": "01K7NCSMKF8M1TM9WJTQZJCQZ8",
@@ -12781,6 +12934,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_rhino__gw_jpy": "01KGWS7WKTMH3DXV0BWYDHD409",
   "adepta_sororitas_rhino__gw_nzd": "01KXT297V5R7G1HRXWERAYYDTW",
   "adepta_sororitas_rhino__gw_pln": "01KHJ5Z14JHPPNX300DN3JDXPA",
+  "adepta_sororitas_rhino__gw_usd": "01KXG5GRN8HDH9K1HEMYEW5S2A",
   "adepta_sororitas_rhino__legacy_aud": "01KK4M1GY2YG5JSY75JH139NJD",
   "adepta_sororitas_rhino__legacy_cad": "01KXPN38GXF0DBAQ9T292EFYQS",
   "adepta_sororitas_rhino__legacy_chf": "01K4QNY7DCBGVYJ0C3ZAPJZ84Z",
@@ -12796,6 +12950,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_seraphim_squad__gw_jpy": "01KD664XZMZT8JS6MP7V24YKC8",
   "adepta_sororitas_seraphim_squad__gw_nzd": "01KC0GWZ8ZJ7J6GW1N3NB3HNM3",
   "adepta_sororitas_seraphim_squad__gw_pln": "01KH84192RC008MTSMRJG0FGFP",
+  "adepta_sororitas_seraphim_squad__gw_usd": "01KN4R532NAM6RM2TAV1FHGYDB",
   "adepta_sororitas_seraphim_squad__tcgcsv_msrp_usd": "01K4A1AFQJ63TQFDHCWZ1YV21J",
   "adepta_sororitas_sister_superior_amalia_novena__gw_aud": "01KTSWKMPBXJSRRD5NAB4BY2FX",
   "adepta_sororitas_sister_superior_amalia_novena__gw_cad": "01K28C2G01Y8F072PCWNGWF1B8",
@@ -12805,6 +12960,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_sister_superior_amalia_novena__gw_jpy": "01KHFZXH684WFH0ZNPX850YHEH",
   "adepta_sororitas_sister_superior_amalia_novena__gw_nzd": "01KRKCBM3E0F0K5PD3NT3VAZ39",
   "adepta_sororitas_sister_superior_amalia_novena__gw_pln": "01KTQFQHKEZJYEP380X4NWGZ2B",
+  "adepta_sororitas_sister_superior_amalia_novena__gw_usd": "01KC9ESYDNHEFGW26X2E3K05BW",
   "adepta_sororitas_sister_superior_amalia_novena__tcgcsv_msrp_usd": "01KBH0YQGZPRH6D96N1FC4VDKQ",
   "adepta_sororitas_sisters_of_battle__tcgcsv_msrp_usd": "01KRJFRRN4JVYVQZ0HHBZXT7GP",
   "adepta_sororitas_the_triumph_of_st_katherine__gw_aud": "01KYVKQP7Z79R0ZS7PM49FV8EC",
@@ -12815,6 +12971,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adepta_sororitas_the_triumph_of_st_katherine__gw_jpy": "01KR1WMP0Y8SMBEM4VECK88J46",
   "adepta_sororitas_the_triumph_of_st_katherine__gw_nzd": "01KB1VC6T97ESYNZ6K18ZNHZTG",
   "adepta_sororitas_the_triumph_of_st_katherine__gw_pln": "01KFE4SK7Y6001FQERH86B2CKM",
+  "adepta_sororitas_the_triumph_of_st_katherine__gw_usd": "01KSDZ62YHWZS8KG8BSF3HYRHN",
   "adepta_sororitas_the_triumph_of_st_katherine__tcgcsv_msrp_usd": "01KAWHNVE9CF4N3N23W10G7X9S",
   "adeptus_astartes_mark_iii_space_marine__tcgcsv_msrp_usd": "01KHVPP0G4R2BD8PJNY9NS8946",
   "adeptus_astartes_starter_set_kill_team_fangs_of_ulfrich__tcgcsv_msrp_usd": "01KWW7J6MM2MESNGXDBY632GYV",
@@ -12827,6 +12984,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_custodes_custodian_wardens__gw_jpy": "01K9HJ66PKBBJJY7E2RABTDXW1",
   "adeptus_custodes_custodian_wardens__gw_nzd": "01KNVR9GSAR0HEZZTE8PDW3FVX",
   "adeptus_custodes_custodian_wardens__gw_pln": "01KV56B3CEW74H5WM4NY7P4SB4",
+  "adeptus_custodes_custodian_wardens__gw_usd": "01KT4E1Q06HKFEPNCXDP0MT34X",
   "adeptus_custodes_custodian_wardens__tcgcsv_high_usd": "01KCSEDJPXRWKEHVM75J0RWARH",
   "adeptus_custodes_custodian_wardens__tcgcsv_low_usd": "01KQ7W1T8R144GSNBRPCZJ314X",
   "adeptus_custodes_custodian_wardens__tcgcsv_mid_usd": "01KJDRV8QRZT3GMV7GP577T368",
@@ -12839,6 +12997,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_custodes_vertus_praetors__gw_jpy": "01KK3XQTK10HT1VX87AEV44YZD",
   "adeptus_custodes_vertus_praetors__gw_nzd": "01KZCFH06TQDTWEMXNWACR014D",
   "adeptus_custodes_vertus_praetors__gw_pln": "01KNP2TKSE0GHFVRVHKZZ89PJJ",
+  "adeptus_custodes_vertus_praetors__gw_usd": "01K66DFXY28D0YTETN1JCSP1B2",
   "adeptus_custodes_vertus_praetors__tcgcsv_msrp_usd": "01KQ95XN7MMJKJAT0C22YNB6P9",
   "adeptus_mechanicus_archaeopter__gw_aud": "01KNNN9A7X3RBWDM70FGTBRTT5",
   "adeptus_mechanicus_archaeopter__gw_cad": "01K4X8SZND7XAVTQTCHF8Y8P0Z",
@@ -12848,6 +13007,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_mechanicus_archaeopter__gw_jpy": "01KKVXV0Q1J26E2PR9E3FEPPM3",
   "adeptus_mechanicus_archaeopter__gw_nzd": "01KNS3QJ3ZP096CJZ3V865FTJV",
   "adeptus_mechanicus_archaeopter__gw_pln": "01K1WXD1P9SGTTX0FA4PEPKRC6",
+  "adeptus_mechanicus_archaeopter__gw_usd": "01KVR7DADAGY4A3YMCQ0BGN28P",
   "adeptus_mechanicus_archaeopter__tcgcsv_msrp_usd": "01KB8S6ZT5C8GQ0SN6F3XPQQNF",
   "adeptus_mechanicus_electro_priests__tcgcsv_msrp_usd": "01K5S7D5YKMCCFNYEGZ16TBV51",
   "adeptus_mechanicus_ironstrider__tcgcsv_msrp_usd": "01KYWC61Y9CM66079GDEWNHVEX",
@@ -12871,6 +13031,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_mechanicus_pteraxii__gw_jpy": "01K472DB02DMY7FH4AB6F0AG6H",
   "adeptus_mechanicus_pteraxii__gw_nzd": "01KRBFF0NB1V5TBNJGG8VHQE99",
   "adeptus_mechanicus_pteraxii__gw_pln": "01KKJSHR83DVAZRM5JGPSV1AH0",
+  "adeptus_mechanicus_pteraxii__gw_usd": "01KVPKCVC58DM91N4K0V495CQ0",
   "adeptus_mechanicus_pteraxii__tcgcsv_msrp_usd": "01KXFX8Z50B7NY5RBHDNHSS9EW",
   "adeptus_mechanicus_serberys_raiders__gw_aud": "01K9C7FNGBY31NK2M15BQV545V",
   "adeptus_mechanicus_serberys_raiders__gw_cad": "01KCN67CYYBJA6E26CG9A9RK9Q",
@@ -12880,6 +13041,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_mechanicus_serberys_raiders__gw_jpy": "01KMH5QXWZSW3KEH8BZJX47WQF",
   "adeptus_mechanicus_serberys_raiders__gw_nzd": "01K8HTEFP0ZGRHWCE34GVQH4QY",
   "adeptus_mechanicus_serberys_raiders__gw_pln": "01K43R8S7SEQHTT6GG9K6EQ83J",
+  "adeptus_mechanicus_serberys_raiders__gw_usd": "01KCBVFA7PMGZE594S7J17PC5P",
   "adeptus_mechanicus_serberys_raiders__tcgcsv_msrp_usd": "01KAKVVSJPNC1M5NFZ6DWXG1JF",
   "adeptus_mechanicus_sicarians__tcgcsv_msrp_usd": "01K1JXK0K87PYX73739QDGT4BQ",
   "adeptus_mechanicus_skitarii__tcgcsv_high_usd": "01KCQYKDTM58RNJ9MER2NHVD5C",
@@ -12892,6 +13054,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_mechanicus_skorpius_disintegrator__gw_gbp": "01KJQ9KMC9F1RTF1XZ8SCEW003",
   "adeptus_mechanicus_skorpius_disintegrator__gw_jpy": "01KDJ7WN4K5FZ1MTDEFA237R4S",
   "adeptus_mechanicus_skorpius_disintegrator__gw_pln": "01KB5KSF1RY2Q34981R3K2NG2H",
+  "adeptus_mechanicus_skorpius_disintegrator__gw_usd": "01K5MXYMSC3067JWRJ9A3GD8ZN",
   "adeptus_mechanicus_skorpius_disintegrator__tcgcsv_msrp_usd": "01KFW1AZXB2448TG39EFCVBE96",
   "adeptus_mechanicus_tech_priest_dominus__tcgcsv_msrp_usd": "01KEKQ4WFCCZNCMGXE7JASVJ69",
   "adeptus_mechanicus_tech_priest_manipulus__gw_aud": "01KDZBVFP6R3HVT17SHZGDVPVN",
@@ -12902,6 +13065,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "adeptus_mechanicus_tech_priest_manipulus__gw_jpy": "01KBNQTHMS5BMFQEB8VYM1ZBQK",
   "adeptus_mechanicus_tech_priest_manipulus__gw_nzd": "01KTH20KTZ7YCY5V3VR7VTFPWT",
   "adeptus_mechanicus_tech_priest_manipulus__gw_pln": "01KSJES592QRJ4KZMP6BX280W0",
+  "adeptus_mechanicus_tech_priest_manipulus__gw_usd": "01KBBNP7GJR9YX6PVMPVTY9CHB",
   "adeptus_mechanicus_tech_priest_manipulus__tcgcsv_msrp_usd": "01KDW6QQ3JB6PDBMFVMT8MAXY7",
   "adeptus_sororitas_imagifier__tcgcsv_msrp_usd": "01KGKB4FRWXC351PHS0Q2EWCSK",
   "aegis_defense_line__tcgcsv_msrp_usd": "01KREX3B2J4JZ7Q6AG6H0BB8HP",
@@ -12932,6 +13096,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "astra_militarum_baneblade__gw_jpy": "01KHVZ27X8K5VK81X9XD50MTZM",
   "astra_militarum_baneblade__gw_nzd": "01KP5YNH5KWJ031ANGSXBP4KN7",
   "astra_militarum_baneblade__gw_pln": "01KS12BP80EJZJZV1H29C1DXZ3",
+  "astra_militarum_baneblade__gw_usd": "01KHPJ83G7FBZ2JXE38EME5JT8",
   "astra_militarum_baneblade__tcgcsv_msrp_usd": "01KQ6CKPM2TJWVZX5BA5C0G5ZQ",
   "astra_militarum_battleforce_bastion_platoon__tcgcsv_msrp_usd": "01KRMXAQBPBN9STXZM8TX43QBT",
   "astra_militarum_cadian_armoured_fist__tcgcsv_msrp_usd": "01KVZ4VGXR6MPCT890WY5FYR9Q",
@@ -12964,6 +13129,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "astra_militarum_tech_priest_enginseer__gw_jpy": "01KXJM7R7JJZ37FXP02SCD4D9V",
   "astra_militarum_tech_priest_enginseer__gw_nzd": "01KQ118BR48F4VC6ER53JZW83J",
   "astra_militarum_tech_priest_enginseer__gw_pln": "01KTTMK0SEFS0Y8AA2BKKBB7BM",
+  "astra_militarum_tech_priest_enginseer__gw_usd": "01KT88FT4ZTRSJA4WKS2MP09ZD",
   "astra_militarum_tech_priest_enginseer__legacy_aud": "01KD08B2XF3XAJ5GHKM8H8ABNJ",
   "astra_militarum_tech_priest_enginseer__legacy_cad": "01K1HDJ1PNB1VNVNN9ARKZHZPN",
   "astra_militarum_tech_priest_enginseer__legacy_chf": "01KE7GPAEHHQY2FAGH7W86X754",
@@ -13009,6 +13175,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "blood_angels_captain_terminator_armour__gw_jpy": "01K9TQ5W5QGRVK8RDSA58D3N89",
   "blood_angels_captain_terminator_armour__gw_nzd": "01KBGQEFDTSV8NRM35851CRXRK",
   "blood_angels_captain_terminator_armour__gw_pln": "01KW4X9XM84KJF644TZQ6HMT1N",
+  "blood_angels_captain_terminator_armour__gw_usd": "01KX7SEEK3GAG6ARCD630R7KED",
   "blood_angels_captain_terminator_armour__tcgcsv_msrp_usd": "01KMEB4325CSHRCANT5DH2N6CE",
   "blood_angels_chaplain_with_jump_pack__legacy_aud": "01KD3K7MTKSM485YEZ270RSWHQ",
   "blood_angels_chaplain_with_jump_pack__legacy_cad": "01KQ1ADX4RBPBB1DX60M6YTGZA",
@@ -13036,6 +13203,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "blood_angels_sanguinary_guard__gw_jpy": "01KR1QCGZZQVCKRCXYKVNWR21Z",
   "blood_angels_sanguinary_guard__gw_nzd": "01K0A61P4B1WQV288HFJ08RM7Y",
   "blood_angels_sanguinary_guard__gw_pln": "01KG2DXDXBW43M8B29W06S8S9K",
+  "blood_angels_sanguinary_guard__gw_usd": "01K7BMJDRRTH6DVW4QQV8DEX4S",
   "blood_angels_sanguinary_guard__tcgcsv_msrp_usd": "01KKVCZMMTP5Y919N93F9WCWF3",
   "blood_angels_sanguinary_priest__tcgcsv_msrp_usd": "01KREFG7F5BT5E1DAC68ETH1W1",
   "blood_angels_sternguard_veteran_squad__tcgcsv_msrp_usd": "01K4SS40M7CVCVAVR5DPPNFB72",
@@ -13052,6 +13220,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "boomdakka_snazzwagon__gw_jpy": "01KC4A14M9Y5S6BYV2QTNN7437",
   "boomdakka_snazzwagon__gw_nzd": "01KPEXS7H0VRFCWMGAR3S4EPHY",
   "boomdakka_snazzwagon__gw_pln": "01KN2D912VRXZ2YE63QVYWA8TR",
+  "boomdakka_snazzwagon__gw_usd": "01KBQ30KBV4BNFFY3J2HKPNYEW",
   "boomdakka_snazzwagon__legacy_aud": "01K3YZBWSNTZ3Z8FCP2PJ0VTWB",
   "boomdakka_snazzwagon__legacy_cad": "01KADGW4PWZFFCQEB7QJ3DEW73",
   "boomdakka_snazzwagon__legacy_chf": "01KKPHQ6VST39GJNG3FF14799M",
@@ -13075,6 +13244,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "cadre_fireblade__gw_jpy": "01KGHNMCT3V91TM3KYNEAAHEB0",
   "cadre_fireblade__gw_nzd": "01K9Q98BYCJPRB09155Q5V5NKJ",
   "cadre_fireblade__gw_pln": "01KWHTXWXY4PHM3WV907SE7W1R",
+  "cadre_fireblade__gw_usd": "01KYF0X0ZZCCRJW333K3GPMEFG",
   "cadre_fireblade__legacy_aud": "01KD66MV4Z1EFHJ9Q1P83DHTN1",
   "cadre_fireblade__legacy_cad": "01KYM4G7WFQ435BTH8M75YY89V",
   "cadre_fireblade__legacy_chf": "01K7F96JKB548YHAMK6S677JGR",
@@ -13114,11 +13284,13 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "chaos_space_marine_forgefiend__tcgcsv_msrp_usd": "01K3512RZWR0QNRBDEJC2X506V",
   "chaos_space_marine_helbrute__gw_aud": "01KA1QBHDXR2SACK6KBHXWSVZN",
   "chaos_space_marine_helbrute__gw_cad": "01K6XYFZ2RXPZXMBPKYTHKKMJM",
+  "chaos_space_marine_helbrute__gw_chf": "01KDFP6Q7WJEVTBDVFZFBV5HX6",
   "chaos_space_marine_helbrute__gw_eur": "01K43720J4ZCT24HFV2CHHED1X",
   "chaos_space_marine_helbrute__gw_gbp": "01K8VW0XZXJ50X0KZ14W078RZV",
   "chaos_space_marine_helbrute__gw_jpy": "01KPN6DK2QYV2GRAFDNAQH4QQQ",
   "chaos_space_marine_helbrute__gw_nzd": "01K5MDJ40JXPVJY3356N090RZ6",
   "chaos_space_marine_helbrute__gw_pln": "01KGS2S2W2B3FT73T2818F9MJM",
+  "chaos_space_marine_helbrute__gw_usd": "01K37TKERPCGAYR1JWGKE5TKBW",
   "chaos_space_marine_helbrute__tcgcsv_msrp_usd": "01KKG3ECPB643X50ME8K3GF1X0",
   "chaos_space_marine_heldrake__tcgcsv_msrp_usd": "01K7T59MXBAZTFT1QD8CRSNDHR",
   "chaos_space_marine_kharn_the_betrayer__tcgcsv_msrp_usd": "01KSCYGQCFK7YHA1AA2G9N5T95",
@@ -13163,6 +13335,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "combat_patrol_black_templars_2025__gw_jpy": "01KE0FZTDBKAWET2E0PX5GSEBE",
   "combat_patrol_black_templars_2025__gw_nzd": "01KT0H1AA9PHT7NXJDJ37SJX4A",
   "combat_patrol_black_templars_2025__gw_pln": "01KWKH2W255JX2SRTVYY3AVDY1",
+  "combat_patrol_black_templars_2025__gw_usd": "01KBM5MRC88RDKFD6CSA2AKBYQ",
   "combat_patrol_black_templars_2025__legacy_aud": "01K48JXHRYPQM9HYAR69M7TZDT",
   "combat_patrol_black_templars_2025__legacy_cad": "01K8AAF926TJTJX4JK1KD9K232",
   "combat_patrol_black_templars_2025__legacy_chf": "01K3D8XZMYDM9FAXD138T8ESG8",
@@ -13177,6 +13350,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "combat_patrol_blood_angels__gw_jpy": "01KQKH5KK0GC3S2FW2QCBTTXC8",
   "combat_patrol_blood_angels__gw_nzd": "01K1HVH5A5KAQ469Y8JDDMR569",
   "combat_patrol_blood_angels__gw_pln": "01KY52MD6JH8Q0XGB0PMWPBA8W",
+  "combat_patrol_blood_angels__gw_usd": "01K6R32GQJZD8CE8CZTK6RBTGP",
   "combat_patrol_blood_angels__legacy_aud": "01KP1WS7FX7KHTQB8EETY8M1WP",
   "combat_patrol_blood_angels__legacy_cad": "01KVMVM8SECNFHA2AHWEGC63MT",
   "combat_patrol_blood_angels__legacy_chf": "01KP96FY4TH5XBZYG01932QMM1",
@@ -13193,6 +13367,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "combat_patrol_space_wolves__gw_jpy": "01KKRN3YM3YBC62THDWW5JFZGT",
   "combat_patrol_space_wolves__gw_nzd": "01K0BVXPRY4S6VQV7N5DAHBKKM",
   "combat_patrol_space_wolves__gw_pln": "01KKNBF38AWQSSMFHP4W6J68ER",
+  "combat_patrol_space_wolves__gw_usd": "01KBNT1HX015HQG06X7KF9NWRT",
   "combat_patrol_space_wolves__legacy_aud": "01KA2WVTZ2K91HC0WS0DFXCZTH",
   "combat_patrol_space_wolves__legacy_cad": "01KCBTG96JXTEPX8SRJ0DAKM2A",
   "combat_patrol_space_wolves__legacy_chf": "01KJT3NE85XQE55QH0VZPEZZD7",
@@ -13212,6 +13387,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "craftworlds_howling_banshees__gw_jpy": "01KFHMJJHVQJD4FADCKN4P2DR4",
   "craftworlds_howling_banshees__gw_nzd": "01K16ASM1JY631EBCP5Y6GDKM0",
   "craftworlds_howling_banshees__gw_pln": "01KTTQB732FQ3AP83ED8WWRQFC",
+  "craftworlds_howling_banshees__gw_usd": "01K8DQTEYDR4P5ZC5ZCJR5GSFD",
   "craftworlds_howling_banshees__tcgcsv_msrp_usd": "01K9MPT7JKFGV25VFE58QTZXFN",
   "craftworlds_jain_zar_the_storm_of_silence__tcgcsv_msrp_usd": "01K5WQE1XSVC95906PRKA9CWVP",
   "custodian_guard_squad__tcgcsv_msrp_usd": "01K0E02JF8B7XPCB7WKH282RAQ",
@@ -13223,6 +13399,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "cypher__gw_jpy": "01K0B7XXWBAM3AD8R6GRK5NSCZ",
   "cypher__gw_nzd": "01KYE12H364FVS05BSZFYBZSQC",
   "cypher__gw_pln": "01KFH1V1G80Q1VGVVTAEHNYC2J",
+  "cypher__gw_usd": "01K7HRZK3WV13K9TQJTV51VC6H",
   "cypher__legacy_aud": "01K1EXKA6KQP9FCERBY384PH8V",
   "cypher__legacy_cad": "01KGHMVRPVCY8KJ84WE1TGFN5S",
   "cypher__legacy_chf": "01K9PGRKAS0ZVGFFP4HQCDT0HX",
@@ -13245,6 +13422,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_angels_interrogator_chaplain__gw_jpy": "01KCP9E01ZD652EHEKE1HZGVH4",
   "dark_angels_interrogator_chaplain__gw_nzd": "01KC6Q0X60VTA6Z31HPAJR84Y6",
   "dark_angels_interrogator_chaplain__gw_pln": "01K3G8VT33C808Y5MH6MZNT9YT",
+  "dark_angels_interrogator_chaplain__gw_usd": "01KZXQ5405GA83SBMS2JHC31H3",
   "dark_angels_interrogator_chaplain__legacy_aud": "01KHZ6EE4Q5SVRW3PD5B9N0SNS",
   "dark_angels_interrogator_chaplain__legacy_cad": "01K9DQPPVW8BVACS6BTXMZ1G8T",
   "dark_angels_interrogator_chaplain__legacy_chf": "01KKDEY7MDMG7R7J37HBKA77R1",
@@ -13260,6 +13438,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_angels_master_lazarus__gw_jpy": "01KYJ888YYYAYXV9F54041STS5",
   "dark_angels_master_lazarus__gw_nzd": "01K2TE47F7Y170P3H9TG8JPAP5",
   "dark_angels_master_lazarus__gw_pln": "01KK102JFCJCSTBCX64PHPEEN6",
+  "dark_angels_master_lazarus__gw_usd": "01KG7QAT8AVPS9V1138Y8TE06K",
   "dark_angels_master_lazarus__tcgcsv_msrp_usd": "01KVDM4ZNDJJGVJ20CHYWREXNC",
   "dark_angels_primaris_aggressors__tcgcsv_msrp_usd": "01KXT5DTMJMJTTEK1ZAZERJZKT",
   "dark_angels_primaris_hellblasters__tcgcsv_msrp_usd": "01KV83C8TDH7VCZT951Q02EAV1",
@@ -13276,11 +13455,13 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_eldar_raider__tcgcsv_msrp_usd": "01K317YXVQ4Q52KN6HWJE9Y654",
   "dark_eldar_scourges__gw_aud": "01KH0WCV5TEKCE5QQZFE1H62RP",
   "dark_eldar_scourges__gw_cad": "01KVWZV0VPMXRVDP8JC322C58D",
+  "dark_eldar_scourges__gw_chf": "01K7EPRXB6FGF3ZMC7GEN0B64C",
   "dark_eldar_scourges__gw_eur": "01K0CYZQWCQ84MS8P1T1BMXM84",
   "dark_eldar_scourges__gw_gbp": "01KSRANFD9EN3VAC23MPT91GK0",
   "dark_eldar_scourges__gw_jpy": "01K854VMFRH7C12RXCA5V2HV2W",
   "dark_eldar_scourges__gw_nzd": "01KVD0RS396Q2DCCVJC9R66B7M",
   "dark_eldar_scourges__gw_pln": "01KK8WWSKBH7ZYP03ZM1DS11G9",
+  "dark_eldar_scourges__gw_usd": "01KVPVTN1STF72K5AZHHF7YDQR",
   "dark_eldar_scourges__legacy_aud": "01KVCXN8MDQTKEX5X7B0TJQDKC",
   "dark_eldar_scourges__legacy_cad": "01K6QN76N1Y2DRMTTDGXWC9VK6",
   "dark_eldar_scourges__legacy_chf": "01KRRGX47DTBM03RQF1AHMP2J9",
@@ -13296,6 +13477,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_eldar_talos_pain_engine__gw_jpy": "01KBWGQRRAK5DD3ZQNWB402W4K",
   "dark_eldar_talos_pain_engine__gw_nzd": "01K8JVV5MSQZDHD576ZBXFV1EX",
   "dark_eldar_talos_pain_engine__gw_pln": "01K47VSGZ31G17HMT6TYG8WD81",
+  "dark_eldar_talos_pain_engine__gw_usd": "01KSGEWM3ZJ8HFKNR8X1W3VBS6",
   "dark_eldar_talos_pain_engine__tcgcsv_msrp_usd": "01KXCT40DRATK4SZNWGMCCS5KV",
   "dark_eldar_venom__gw_aud": "01K9E0QK6T0Q8CQGZY8JA19Z5F",
   "dark_eldar_venom__gw_cad": "01KSM0X46KAMVX00VXECX7KPC6",
@@ -13305,6 +13487,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_eldar_venom__gw_jpy": "01KRGEB70GP788C3DN87GZY5NV",
   "dark_eldar_venom__gw_nzd": "01KJ4E4WZR9R6MGRC617D2T718",
   "dark_eldar_venom__gw_pln": "01KJW6P8T91097XRX3HFVRQ8QY",
+  "dark_eldar_venom__gw_usd": "01KTAFXGZWTGVJPEFA6HCEK600",
   "dark_eldar_venom__tcgcsv_msrp_usd": "01K27P6K6J29QM52WFPKG9H45X",
   "dark_eldar_voidraven_bomber__gw_aud": "01K7F96T9TSFM354N2CZC6ZTJ0",
   "dark_eldar_voidraven_bomber__gw_cad": "01K4XG3S5SD64JC2EXZYK44A0Y",
@@ -13314,6 +13497,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "dark_eldar_voidraven_bomber__gw_jpy": "01KEW7HD0TK3RPHQ3HEZSDAZNG",
   "dark_eldar_voidraven_bomber__gw_nzd": "01KMF1GRY6N81NYEZ5ZJB7AQES",
   "dark_eldar_voidraven_bomber__gw_pln": "01KSKDJFDPX13BFXEC47ZHMPWP",
+  "dark_eldar_voidraven_bomber__gw_usd": "01KJRADESJ28Y5PRJXE0XEPYNH",
   "dark_eldar_voidraven_bomber__tcgcsv_msrp_usd": "01KY6YJ3TXPTDW5TH4VXPR0427",
   "dark_eldar_wracks__tcgcsv_msrp_usd": "01KKA9F7N30S3MZAHZ7PV8JN8M",
   "dark_imperium__tcgcsv_msrp_usd": "01KQV2XGC7GP64SYC5FGAHGPWG",
@@ -13331,6 +13515,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "deathwatch_corvus_blackstar__gw_jpy": "01K2F1FAJBC8053M0Q4GRQWSTA",
   "deathwatch_corvus_blackstar__gw_nzd": "01KXS8HD3887PHXQRPKKABNEFD",
   "deathwatch_corvus_blackstar__gw_pln": "01K4WVKM8E8RWQX6QMRZBC7H88",
+  "deathwatch_corvus_blackstar__gw_usd": "01K2NAT7Z3B6H7SWYY1YQ7M7HV",
   "deathwatch_corvus_blackstar__tcgcsv_msrp_usd": "01KWZ5RNPKVZR1BP8SG9V65FE0",
   "deathwatch_kill_team__tcgcsv_msrp_usd": "01KTS2X1722C02BJT5TT5J1768",
   "deathwatch_kill_team_cassius__gw_aud": "01K9M2ANRG45323H6D9B5J6TAF",
@@ -13341,6 +13526,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "deathwatch_kill_team_cassius__gw_jpy": "01K7K4VVMEBNFRHW2KJ6BA2SYY",
   "deathwatch_kill_team_cassius__gw_nzd": "01KGF2FVY29D77SVPKYMHMCAVM",
   "deathwatch_kill_team_cassius__gw_pln": "01KF8BKQ1RM7N1D18WQH5KKCZR",
+  "deathwatch_kill_team_cassius__gw_usd": "01KM9GN5FN09N28NAWXSXY6WZ0",
   "deathwatch_kill_team_cassius__tcgcsv_msrp_usd": "01K6EWRVK4RK6PEN732SEZ8DZR",
   "deathwatch_upgrades__gw_aud": "01KV97M45GB38GHYFH6QJ1PNT5",
   "deathwatch_upgrades__gw_cad": "01K6ZX9P1AWS5B9HPPS9A9EAPP",
@@ -13350,6 +13536,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "deathwatch_upgrades__gw_jpy": "01K00KT4EWQ0VJG8HPSRM26PSH",
   "deathwatch_upgrades__gw_nzd": "01KJFHPTX62CMQ9HZ4E97ZA1GM",
   "deathwatch_upgrades__gw_pln": "01KP7XKD3R4E18MY96X3NSH5FD",
+  "deathwatch_upgrades__gw_usd": "01KT5ST7G94NR1E4R0SBHBSANV",
   "deathwatch_upgrades__tcgcsv_msrp_usd": "01KS9AGMJ2B3S9Q9ZY63QDPQ1W",
   "deathwatch_venerable_dreadnought__tcgcsv_msrp_usd": "01K1DHTBNH46SFFMYFWZD8S7JP",
   "deathwatch_watch_capt_terminator_armour__tcgcsv_msrp_usd": "01KKXTHAXBFSFGR0CJW5627Y6Z",
@@ -13361,6 +13548,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "deathwatch_watch_master__gw_jpy": "01KA9R2S16XV3V1MBWHG0060G2",
   "deathwatch_watch_master__gw_nzd": "01K2QAM2GRC75S10W09S6T83P9",
   "deathwatch_watch_master__gw_pln": "01KJQMZEEVXJBCD25TR0B9KNE5",
+  "deathwatch_watch_master__gw_usd": "01K696XFKRQDN86508JP5WX2FK",
   "deathwatch_watch_master__tcgcsv_msrp_usd": "01KBM7C3B4P8C3GHHAFZQKEEJM",
   "deffkilla_wartrike__gw_aud": "01K42RVGJY3G39SA69NVY0E50Z",
   "deffkilla_wartrike__gw_cad": "01KW1VYHQ0YFMF39THBH907C80",
@@ -13370,6 +13558,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "deffkilla_wartrike__gw_jpy": "01K43JJ6RZBHKFJGB3DZC1J5DA",
   "deffkilla_wartrike__gw_nzd": "01KD4HF0Y692MJN6AGYFH8YS4F",
   "deffkilla_wartrike__gw_pln": "01KY4EY6SEKBD3TDAF6Y2PQN7N",
+  "deffkilla_wartrike__gw_usd": "01KJAR3EYVNBYTBR1WNJ42P51T",
   "deffkilla_wartrike__legacy_aud": "01KEPZWF5DGAFAQAK4Y88JYP5A",
   "deffkilla_wartrike__legacy_cad": "01KW5E93YSG8BEPT8BQ6ARWK2B",
   "deffkilla_wartrike__legacy_chf": "01KXYX76B02VFXK6F1DPK66MCT",
@@ -13386,6 +13575,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "drukhari_incubi__gw_jpy": "01KTR5J91X0HVHEC793ZZZREBR",
   "drukhari_incubi__gw_nzd": "01KE8QF0CPD4J98N7HWFVEY5Q8",
   "drukhari_incubi__gw_pln": "01KTRBXJ9S7WW2278KS01W77P6",
+  "drukhari_incubi__gw_usd": "01KXNFBXS851B9RGZK0RA90ZNJ",
   "drukhari_incubi__tcgcsv_msrp_usd": "01K6KGFMHB1Y96TXJ2Z8XPK8B7",
   "drukhari_succubus__tcgcsv_msrp_usd": "01KQ07DK5KDFHV5KC54JSFMVYF",
   "easy_to_build_death_guard_plague_marines__tcgcsv_msrp_usd": "01KV77W6RK34QWXYM7XXC0G7ST",
@@ -13401,6 +13591,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "eldar_dire_avengers__gw_jpy": "01KBBABDVQY6RQEQ76WKQTZYEF",
   "eldar_dire_avengers__gw_nzd": "01K7BPXDX2B0P62GVP73BZMD5G",
   "eldar_dire_avengers__gw_pln": "01K341WDYW4DRAJ46WFN35WMQ3",
+  "eldar_dire_avengers__gw_usd": "01KHJ2PYH3Y9M54TTX73Z9QP9J",
   "eldar_dire_avengers__tcgcsv_msrp_usd": "01KEP666W24H2QH168X28MT78Y",
   "eldar_farseer_skyrunner__gw_aud": "01KCJRWPAQX6NJFNK2TN4EGWBY",
   "eldar_farseer_skyrunner__gw_cad": "01KK78D78J11R597HJYRPA94PZ",
@@ -13410,6 +13601,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "eldar_farseer_skyrunner__gw_jpy": "01KBXVQ8Q2KQ38Y7TEE38RSVM8",
   "eldar_farseer_skyrunner__gw_nzd": "01KCAKDVM010Z0PGWGMS3Y15ZM",
   "eldar_farseer_skyrunner__gw_pln": "01KFTQN5323AB4WPBC59XX1JAE",
+  "eldar_farseer_skyrunner__gw_usd": "01KQT3YNE229D9H4934RGW4QVC",
   "eldar_farseer_skyrunner__tcgcsv_msrp_usd": "01K358XDDMJBW7XCBVQ17WJJW7",
   "eldar_guardians__tcgcsv_msrp_usd": "01KXJHHC89FGK74EQ9RMFS467Y",
   "eldar_hemlock_wraithfighter__gw_cad": "01K1QHJQ6G659SRJEJRSPBVVM5",
@@ -13418,15 +13610,18 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "eldar_hemlock_wraithfighter__gw_gbp": "01K18XQJ2YBK109XGJSTZJCKG4",
   "eldar_hemlock_wraithfighter__gw_jpy": "01K3X9KTCVRTMB77VGAJ4WVFYQ",
   "eldar_hemlock_wraithfighter__gw_pln": "01K110MF7SERJN1NGDH4M1R60P",
+  "eldar_hemlock_wraithfighter__gw_usd": "01KH3GBCTBXY7DK40CSA02QHQY",
   "eldar_hemlock_wraithfighter__tcgcsv_msrp_usd": "01KSD2HZ6ZRTVQ8CX5E8YJXATH",
   "eldar_war_walker__tcgcsv_msrp_usd": "01KWY203NNV3KAGQA8KKC97R2F",
   "eldar_windriders__gw_aud": "01KY18N8D5Y7Z5AJ4H9SWNN551",
   "eldar_windriders__gw_cad": "01KYVJ2MX09D8X637NFTY1AN1F",
+  "eldar_windriders__gw_chf": "01KCJTGDFWK4FQBTA81RFN4BWT",
   "eldar_windriders__gw_eur": "01KPHTYV9KG0TEDEPH2EQ5HY29",
   "eldar_windriders__gw_gbp": "01KY9VSGGV57D364XR2ARQ1TVA",
   "eldar_windriders__gw_jpy": "01K8MFSN4QX8G4BXJVN2KHWQR1",
   "eldar_windriders__gw_nzd": "01K7955MKEN1TD4ZA4XN744679",
   "eldar_windriders__gw_pln": "01K7EFZN3JWF5JMHGKRSGW8XEJ",
+  "eldar_windriders__gw_usd": "01KRVW2DHNPMNP6Z0GZ9J78JCF",
   "eldar_windriders__tcgcsv_msrp_usd": "01K2KKK27PJ6195HKSPCYX2QN0",
   "eldar_wraithguard__tcgcsv_high_usd": "01KCGMD62RF2X9CCA9PTR1X12H",
   "eldar_wraithguard__tcgcsv_low_usd": "01KVFYNF5QMXV50ZWRR8GJTGDQ",
@@ -13447,6 +13642,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_aberrants__gw_jpy": "01KN6HQF0RK88Q1KWRZNA0427K",
   "genestealer_cults_aberrants__gw_nzd": "01K5CEBG4N636K1CT0EXYTYXV7",
   "genestealer_cults_aberrants__gw_pln": "01KMG62SFDXV0GQAFAN948QNYX",
+  "genestealer_cults_aberrants__gw_usd": "01K41GHPV5F1WT9W04PFB5JF81",
   "genestealer_cults_aberrants__tcgcsv_msrp_usd": "01KC9M128A12TXR3Q3DMGAV5Q5",
   "genestealer_cults_abominant__gw_aud": "01KD4SAM5ZFRXXFD53JCGQ8G53",
   "genestealer_cults_abominant__gw_cad": "01K5Q1Z543JX1DZS5FP8635YDJ",
@@ -13456,6 +13652,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_abominant__gw_jpy": "01K9NQTX413HFK992E38JCTCPK",
   "genestealer_cults_abominant__gw_nzd": "01KXX1FKFJFDYJWNHFD3PF8TPN",
   "genestealer_cults_abominant__gw_pln": "01KTJNB066XCC5BPMBP728GZ2T",
+  "genestealer_cults_abominant__gw_usd": "01KS1EATNVD882VM7QRTPYJQ5K",
   "genestealer_cults_abominant__tcgcsv_msrp_usd": "01KV9GHJ9PSYYFEY250RHJJ4BH",
   "genestealer_cults_achilles_ridgerunner__gw_aud": "01KVKH0S74N7NZDQTHAYN16Q41",
   "genestealer_cults_achilles_ridgerunner__gw_cad": "01K71ZVBE25003HXHPZ1P1RH01",
@@ -13465,6 +13662,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_achilles_ridgerunner__gw_jpy": "01KFMVPDM9J4MER8K0JXPY0RCT",
   "genestealer_cults_achilles_ridgerunner__gw_nzd": "01KMRM0T7K8PS9CEFMH240ZABQ",
   "genestealer_cults_achilles_ridgerunner__gw_pln": "01KPEWCVHE113J3JCTDKVS3A3B",
+  "genestealer_cults_achilles_ridgerunner__gw_usd": "01K093KZRGJVYZJZPK6P000FYC",
   "genestealer_cults_achilles_ridgerunner__tcgcsv_msrp_usd": "01KPV17N5PPECTY718GCMP7PXE",
   "genestealer_cults_acolyte_hybrids__tcgcsv_msrp_usd": "01KSW4NG1NBV3Q9R7S1561PJVV",
   "genestealer_cults_acolyte_iconward__tcgcsv_msrp_usd": "01K59QSJFATR51BQSAFBZRPHXZ",
@@ -13476,6 +13674,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_atalan_jackals__gw_jpy": "01KBPX86ZQNKWJVMRB8PTB5NN7",
   "genestealer_cults_atalan_jackals__gw_nzd": "01KWE7FFGTW64F4DRZ26B6WCX5",
   "genestealer_cults_atalan_jackals__gw_pln": "01K0Y546ENHWVG7RKX1C8XASHV",
+  "genestealer_cults_atalan_jackals__gw_usd": "01K2QQDA7CX77YDW7GMDJVH0NS",
   "genestealer_cults_atalan_jackals__tcgcsv_msrp_usd": "01KDDSJ3RZK4CYNP4QXYQW2C0D",
   "genestealer_cults_biophagus__gw_aud": "01K6DYJAZRQWYKCAES5NKKNB61",
   "genestealer_cults_biophagus__gw_cad": "01KGP3Z6Z2K8D9GPGXQ3M4PT4J",
@@ -13485,6 +13684,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_biophagus__gw_jpy": "01KKG75FP1B9R0RA18C1YBS5X4",
   "genestealer_cults_biophagus__gw_nzd": "01KSTM7571Q0G584SCJ39X4VWJ",
   "genestealer_cults_biophagus__gw_pln": "01K21GRH3T1ZEKSW1CP30QYMRK",
+  "genestealer_cults_biophagus__gw_usd": "01KJMVCHT0PV631QX0QSMD737Y",
   "genestealer_cults_biophagus__tcgcsv_msrp_usd": "01KKGMQDZKY3V7ZA9F1RGBWGTZ",
   "genestealer_cults_broodcoven__gw_aud": "01KNXWZWFXV3NV6SAYB1B3QN6F",
   "genestealer_cults_broodcoven__gw_cad": "01KFEVP4N03BY4DCEMGZ5J44FY",
@@ -13494,6 +13694,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_broodcoven__gw_jpy": "01KQF8MSD42W9NCWJASQ7KDEQZ",
   "genestealer_cults_broodcoven__gw_nzd": "01KGRJBCB5TE9519WZCH6N6DGX",
   "genestealer_cults_broodcoven__gw_pln": "01KW0RB0XQ4NMWSMH8KQKQGB1H",
+  "genestealer_cults_broodcoven__gw_usd": "01K5C4XFFB5TAR2NTQDD4SE10N",
   "genestealer_cults_broodcoven__legacy_aud": "01K8E5AYTHGKSSCGZPGY5501E2",
   "genestealer_cults_broodcoven__legacy_cad": "01K352GA9GEAGT08HTCMN2Q44C",
   "genestealer_cults_broodcoven__legacy_chf": "01KBZ12ZM33PR8029ZE3DYJ616",
@@ -13509,6 +13710,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_clamavus__gw_jpy": "01KBYKSK38VY46WCE8DTD7QMX3",
   "genestealer_cults_clamavus__gw_nzd": "01K0NANKTV71S3SH25R7BC5AX4",
   "genestealer_cults_clamavus__gw_pln": "01KS0EVMQNRPNAW9NS2K90Z75R",
+  "genestealer_cults_clamavus__gw_usd": "01K007EX3JEQ6Y1XABZ2R3JB37",
   "genestealer_cults_clamavus__tcgcsv_msrp_usd": "01KPN98F6P19E51AV8N4DWHZM3",
   "genestealer_cults_goliath__tcgcsv_msrp_usd": "01KH5SME32JZ3FT1XM4DCSA4EY",
   "genestealer_cults_jackal_alphus__gw_aud": "01KMC15CDTA0028E5C9ZPQ5NVM",
@@ -13519,6 +13721,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_jackal_alphus__gw_jpy": "01KDAFB3R8CEKA51NWQR9GSHKP",
   "genestealer_cults_jackal_alphus__gw_nzd": "01K4DZRB1GR8DYZKZP3MW3PPJR",
   "genestealer_cults_jackal_alphus__gw_pln": "01KQA62DKW8ZW4JM06N6Y85HHJ",
+  "genestealer_cults_jackal_alphus__gw_usd": "01K8PSZEXXKP7VCJTBJGN35YK9",
   "genestealer_cults_jackal_alphus__tcgcsv_msrp_usd": "01K0N91P5PHT9FZNF6VBVD9778",
   "genestealer_cults_kelermorph__gw_aud": "01KCT0RSND00R5SGY8B6H6B7MR",
   "genestealer_cults_kelermorph__gw_cad": "01KXKBDY2RV1C5C0A02AFFHVJF",
@@ -13528,6 +13731,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_kelermorph__gw_jpy": "01KFZF1N4D7H5C4V49SYWH7R08",
   "genestealer_cults_kelermorph__gw_nzd": "01KN8NYTYY1TAA3VND7YMJADG0",
   "genestealer_cults_kelermorph__gw_pln": "01KCVY1640QWAAQHX2YY5WA19N",
+  "genestealer_cults_kelermorph__gw_usd": "01KTXXWJ48VJZ8D4AAP0QBHHT0",
   "genestealer_cults_kelermorph__tcgcsv_msrp_usd": "01K5SG2GC761KH40G2V9JA4N3T",
   "genestealer_cults_leman_russ__tcgcsv_msrp_usd": "01K9WCKNGQJX42PCJC2BT3GKR2",
   "genestealer_cults_locus__gw_aud": "01KW97EW77060Q2K2SQAX3V7XE",
@@ -13538,6 +13742,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_locus__gw_jpy": "01KPJGPEJTAMKX51WQWQAA4E20",
   "genestealer_cults_locus__gw_nzd": "01KYT526PKF3TD7YMX4J1Z5MW5",
   "genestealer_cults_locus__gw_pln": "01KNR1WH54ETCAV3CM8HWKPE5N",
+  "genestealer_cults_locus__gw_usd": "01KHTJGGYKMG835P0CSRQ9FKEA",
   "genestealer_cults_locus__tcgcsv_msrp_usd": "01KTKJJ2CA8XZSCGYS946N21YK",
   "genestealer_cults_magus__gw_aud": "01KKBS07NKY43BX03GT0P4EC63",
   "genestealer_cults_magus__gw_cad": "01KDHD37TQ7JQVQJF8SCW7XNKF",
@@ -13547,6 +13752,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_magus__gw_jpy": "01KQXJH64R7KQQDERFSPEEHMEG",
   "genestealer_cults_magus__gw_nzd": "01K3QCAEJKNYC1SS30WBNJ02A5",
   "genestealer_cults_magus__gw_pln": "01K0K3A07RSFHRG5NTFMKF213E",
+  "genestealer_cults_magus__gw_usd": "01K0KGT6F2BMZFBN95Q6SDB9HM",
   "genestealer_cults_magus__tcgcsv_msrp_usd": "01K6C114BQ9M56VQ8WXX82TY1C",
   "genestealer_cults_neophyte_hybrid_armoured_claw__tcgcsv_msrp_usd": "01KF51NJM860HBSNRMR4PYG3PZ",
   "genestealer_cults_neophyte_hybrid_squad__tcgcsv_msrp_usd": "01KKV9DSNB4HVHW1B24HG37MS6",
@@ -13559,6 +13765,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_nexos__gw_jpy": "01K66KPA4Q3J2F232QMN9WRBG5",
   "genestealer_cults_nexos__gw_nzd": "01KBADD06TPNVCRN4YVN7ZJJP4",
   "genestealer_cults_nexos__gw_pln": "01KRW02EW50Z5TZYJFVPY2F457",
+  "genestealer_cults_nexos__gw_usd": "01K0199SBJK4J7N5ZJDPY3SZ02",
   "genestealer_cults_nexos__tcgcsv_msrp_usd": "01KW0PK8X31WD4J651R1KJJ0X6",
   "genestealer_cults_sanctus__gw_aud": "01KE7GZGK36VEKVXJ4QRNH7522",
   "genestealer_cults_sanctus__gw_cad": "01K5GQ83WNMQ1B1Z9Z0KJVF47E",
@@ -13568,6 +13775,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "genestealer_cults_sanctus__gw_jpy": "01K2QTSZD62JRTFQAGT5MCM9K5",
   "genestealer_cults_sanctus__gw_nzd": "01K0YT2DKB5FS0Y0TS2G2RSK76",
   "genestealer_cults_sanctus__gw_pln": "01KQDKCP32VV4QWR5ABPEQ05CA",
+  "genestealer_cults_sanctus__gw_usd": "01KZXTYXCE3EXWYSQK6A299DF0",
   "genestealer_cults_sanctus__tcgcsv_msrp_usd": "01KMW2ZBMTYCRW8BXVVNBWSVFW",
   "genestealer_cults_upgrades__tcgcsv_msrp_usd": "01KWSPZB2C7VSQRP7B3XSB4ZJA",
   "getting_started_with_warhammer_40k__tcgcsv_high_usd": "01KZRFWHCJ1SVFS9413VCBTTQ3",
@@ -13582,6 +13790,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "grey_knights_grand_master_voldus__gw_jpy": "01KNRCD9TBQGZKWNPY19PSN930",
   "grey_knights_grand_master_voldus__gw_nzd": "01KVSBWBSMH3KTZ8N6KE3KNCY8",
   "grey_knights_grand_master_voldus__gw_pln": "01KA14QVZDF5HYD1E2MW372WN8",
+  "grey_knights_grand_master_voldus__gw_usd": "01KEZNR1CCR0B53GYFS85N98C9",
   "grey_knights_grand_master_voldus__tcgcsv_msrp_usd": "01KZTWG5GV4P42XG2EE372B88J",
   "grey_knights_nemesis_dreadknight__gw_aud": "01KCD35CZTXX9HKWHTYHQNR6QN",
   "grey_knights_nemesis_dreadknight__gw_cad": "01KQ2HJ6B36HSA4AFXK325B0VG",
@@ -13591,6 +13800,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "grey_knights_nemesis_dreadknight__gw_jpy": "01KQMW4X59R90FBKNMYW22HWTG",
   "grey_knights_nemesis_dreadknight__gw_nzd": "01KCS4CVET90Y1Q53F4P9XFGBB",
   "grey_knights_nemesis_dreadknight__gw_pln": "01KW8JVP7JAMNEBNSDSHK2HNKR",
+  "grey_knights_nemesis_dreadknight__gw_usd": "01KT00W3Z2N6NTE74Z14HS6TSX",
   "grey_knights_nemesis_dreadknight__tcgcsv_msrp_usd": "01KNBPDMPZDF60NSXZRP6RYZHR",
   "grey_knights_paladin_squad__tcgcsv_msrp_usd": "01KFQA7DFRY9C0Z5RY7SHTD7TJ",
   "grey_knights_strike_squad__gw_aud": "01KVZC82NCG5F02RGS0RW9GS8K",
@@ -13601,6 +13811,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "grey_knights_strike_squad__gw_jpy": "01KNZNR21N3PEZKDNJ8HAMR56A",
   "grey_knights_strike_squad__gw_nzd": "01KM90BEEPEPY8GHS0J1PSCV43",
   "grey_knights_strike_squad__gw_pln": "01KBN4QRKH5DN40HSHDXAA96XF",
+  "grey_knights_strike_squad__gw_usd": "01KR0DRHZXGPXS7YVVPWH89Z4F",
   "grey_knights_strike_squad__legacy_aud": "01KFH0HTCMRCATZNDZ4GZQQNKV",
   "grey_knights_strike_squad__legacy_cad": "01KRHV8AG0JYP0YXRRG5KG0XK2",
   "grey_knights_strike_squad__legacy_chf": "01KJVZ5SE1DJRPFGVQ0NM2AG3C",
@@ -13611,11 +13822,13 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "haemotrope_reactor__tcgcsv_msrp_usd": "01K6SHY914689R1Y8PM849F7HG",
   "hammerhead_gunship__gw_aud": "01KP5SKB4N4EEMS96E7KQH3729",
   "hammerhead_gunship__gw_cad": "01K0PXJ8PW3GX71Q2YE95D75HE",
+  "hammerhead_gunship__gw_chf": "01KB19YC35HRB4D0HWE7B52JVJ",
   "hammerhead_gunship__gw_eur": "01KK5J55YAB0B167WXZPVC2KCA",
   "hammerhead_gunship__gw_gbp": "01KCQ5M85TSGAX9TAAXC6TACKQ",
   "hammerhead_gunship__gw_jpy": "01KHKPWQ6BPQ8XEX5AXNBX2KGS",
   "hammerhead_gunship__gw_nzd": "01KPY3274RFX1BDKWK5AQBFM11",
   "hammerhead_gunship__gw_pln": "01KX0YHNE6VJ152FGTPYERBBGK",
+  "hammerhead_gunship__gw_usd": "01KWW96H9M4F9CZ87Z9ME6H8YF",
   "hammerhead_gunship__legacy_aud": "01K60TJ6PPJQGWEVABVXBQ43YN",
   "hammerhead_gunship__legacy_cad": "01KQKRM2YW1K3R7NEB8MCA0JWJ",
   "hammerhead_gunship__legacy_chf": "01KNWSM3PY4DBR58PH1BZ6T8KQ",
@@ -13667,6 +13880,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "illuminor_szeras__gw_jpy": "01K9R8HDZH39H696SCZMY686AY",
   "illuminor_szeras__gw_nzd": "01KS762D93BBVR9Z5DT5QMHWKB",
   "illuminor_szeras__gw_pln": "01KZTNE5EFFZTRMJGAC60W9BXP",
+  "illuminor_szeras__gw_usd": "01KC0G011N8NCQTY8CCTDG1FHG",
   "illuminor_szeras__legacy_aud": "01KEG9QXZM2BK75970T8X4QXYS",
   "illuminor_szeras__legacy_cad": "01K6G39P5NFFGTDRJH8H144MH8",
   "illuminor_szeras__legacy_chf": "01KJFFBZS0F0M5BYVBVKRAKE81",
@@ -13684,6 +13898,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "imperial_fists_tor_garadon__gw_jpy": "01KJK9P1T7013N0KX8W5AYT5F7",
   "imperial_fists_tor_garadon__gw_nzd": "01KPQFA9C1N51K7WT1M1VH0BX0",
   "imperial_fists_tor_garadon__gw_pln": "01KG9GF9A2AZQ1182669GCAWRK",
+  "imperial_fists_tor_garadon__gw_usd": "01KF5ZCJK6QD1ZCQNJP2NPMWZH",
   "imperial_fists_tor_garadon__tcgcsv_msrp_usd": "01KEXZRSCZG0AD9C2X7FCJ27RE",
   "imperial_knight_warden__tcgcsv_msrp_usd": "01K51EDR2NDW6RF3ASZEKDHG9Q",
   "imperial_knights_armiger_helverins__tcgcsv_high_usd": "01KG6BB4AP0K9TZ04969V6M6GY",
@@ -13700,6 +13915,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "imperial_knights_knight_preceptor_canis_rex__gw_jpy": "01K7G4H2CZMFVY676DFHC0FS33",
   "imperial_knights_knight_preceptor_canis_rex__gw_nzd": "01KNQWXCY416YKFNQKAH0PMGTR",
   "imperial_knights_knight_preceptor_canis_rex__gw_pln": "01K749QF3ZJGWJ77J2GA85ER97",
+  "imperial_knights_knight_preceptor_canis_rex__gw_usd": "01KMGTEENMJTN9DK3MGVR92FEC",
   "imperial_knights_knight_preceptor_canis_rex__tcgcsv_msrp_usd": "01K3QACA1Y4W04SSXF5Z0Y19PP",
   "imperial_knights_knight_valiant__tcgcsv_msrp_usd": "01KJSP6A7D9KYGW31ANPSZ4MJ6",
   "imperial_knights_renegade__tcgcsv_msrp_usd": "01K3XWRA6GHSSXJDR8YA1VQ63Q",
@@ -13720,6 +13936,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "iron_hands_feirros__gw_jpy": "01K0VZTZ9HCW7CW15T427CS4WY",
   "iron_hands_feirros__gw_nzd": "01KSFHNYNGR2ZCGQRRE8APFPYB",
   "iron_hands_feirros__gw_pln": "01K90KZJ5CF02RCKRW5T6GCC89",
+  "iron_hands_feirros__gw_usd": "01KPE371KX7PG3G94AZENJSG3T",
   "iron_hands_feirros__tcgcsv_msrp_usd": "01KED9EF0Q0KWAZN900Q3264XC",
   "iron_hands_primaris_upgrades_transfers__gw_aud": "01K6AT79VZBKBEXCEV85NXNA3C",
   "iron_hands_primaris_upgrades_transfers__gw_cad": "01KT8FP0BDQMVJRYRT204X9KNW",
@@ -13729,6 +13946,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "iron_hands_primaris_upgrades_transfers__gw_jpy": "01KBC5G72VESJ6M4JWP467K7G8",
   "iron_hands_primaris_upgrades_transfers__gw_nzd": "01KQEPGJFHMN6GHZ8F6ZE54XV0",
   "iron_hands_primaris_upgrades_transfers__gw_pln": "01KPCW4H7ABBW1842H43Y9JWCG",
+  "iron_hands_primaris_upgrades_transfers__gw_usd": "01KQTXGJF268H4N2H95RRAACHA",
   "iron_hands_primaris_upgrades_transfers__tcgcsv_msrp_usd": "01KCVQ7S25HKEXR6QQTGPNACJX",
   "khorne_berzerkers__legacy_aud": "01K1ANW7NCPYR01E4E2CN8VHAG",
   "khorne_berzerkers__legacy_cad": "01KVK6G3EVWY8MTR0Q487Q3NZN",
@@ -13799,6 +14017,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_canoptek_spyder__gw_jpy": "01K50RGQJ2DFV39C25QCB0YF08",
   "necron_canoptek_spyder__gw_nzd": "01KYBP6PHW2SQ3NBGMSSA2KS3D",
   "necron_canoptek_spyder__gw_pln": "01K5PQPVGRK3HYQQCJGB2QBPDC",
+  "necron_canoptek_spyder__gw_usd": "01KBJHTESHPHH9MEZSTGZXZQ44",
   "necron_canoptek_spyder__tcgcsv_msrp_usd": "01KW9V87S2NHYW5521CTZGFK59",
   "necron_canoptek_wraiths__gw_aud": "01KKFS3NTG6T32K728DXYJB5S3",
   "necron_canoptek_wraiths__gw_cad": "01KEK2ZM7NTHT3KYMYYY45T0P2",
@@ -13808,6 +14027,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_canoptek_wraiths__gw_jpy": "01KSDP3MBRYZYEXZPKNQ1WJGN8",
   "necron_canoptek_wraiths__gw_nzd": "01KEJ00TG1G3WJB0J2D6SY8VM6",
   "necron_canoptek_wraiths__gw_pln": "01K10CK51CMHK167EQT1ATWEPT",
+  "necron_canoptek_wraiths__gw_usd": "01KTQVEF7Q9Q2EQJFAK87JP6KX",
   "necron_canoptek_wraiths__tcgcsv_msrp_usd": "01KZRVZA5DSSGNM19YSKVFTW9C",
   "necron_canoptek_wraiths_repackage__tcgcsv_msrp_usd": "01KHVCNRVV1N16X3R2SYFZXDPH",
   "necron_catacomb_commmand_barge__gw_aud": "01KYKWNVNW98E0A6XK4ZRY2T5F",
@@ -13818,6 +14038,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_catacomb_commmand_barge__gw_jpy": "01KRH35Z3RYBZS8QA2732TWBY0",
   "necron_catacomb_commmand_barge__gw_nzd": "01KV5NRRPF32BSDXZ06T30Z634",
   "necron_catacomb_commmand_barge__gw_pln": "01KMPWNKAY5JP04339BVWVW9D1",
+  "necron_catacomb_commmand_barge__gw_usd": "01KS3240CNGCWDGKZ1H4KRSVYH",
   "necron_catacomb_commmand_barge__tcgcsv_msrp_usd": "01KXS2QA4YCZFQ638SBX3AH5D5",
   "necron_cryptek__gw_aud": "01KS4DEX9JZQYV43AZQ0S10SDA",
   "necron_cryptek__gw_cad": "01K0QS1SVKZ8CZ936KR2S99697",
@@ -13827,6 +14048,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_cryptek__gw_jpy": "01K0P23H92099DTXY2REN7B9YQ",
   "necron_cryptek__gw_nzd": "01KYY10JY80HTZDTJ2N80EA9X9",
   "necron_cryptek__gw_pln": "01KNPGMF25GGYBY25K36CVMRG2",
+  "necron_cryptek__gw_usd": "01KP5T3JMFZMK9MSRQA13F05RX",
   "necron_cryptek__tcgcsv_msrp_usd": "01KNMYMBPFJGEQGSGN40D9J29W",
   "necron_doom_scythe_night_scythe__gw_aud": "01KYHY13F1XQNY2MX02GD1RPTQ",
   "necron_doom_scythe_night_scythe__gw_cad": "01KSCXGWYVHQHBNSTVK2QZSSWA",
@@ -13836,6 +14058,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_doom_scythe_night_scythe__gw_jpy": "01KDGKBX998PTG4NFJCH4SVNTM",
   "necron_doom_scythe_night_scythe__gw_nzd": "01KDFNC5JJRG988QYZM37CP8T4",
   "necron_doom_scythe_night_scythe__gw_pln": "01KAYK67Z465CGY1W6NHF5Q0CX",
+  "necron_doom_scythe_night_scythe__gw_usd": "01KSVRWV2EC6HH6JT8GA1C30A3",
   "necron_doom_scythe_night_scythe__tcgcsv_msrp_usd": "01KJ14BH0KNX5P94B44SPQKBJN",
   "necron_doom_scythe_night_scythe_repackage__tcgcsv_msrp_usd": "01KPKE586VGR1VA9D03MN5XMGE",
   "necron_immortals_deathmarks__gw_aud": "01KNGW8HPPCG82TZ1H24E21HXJ",
@@ -13846,6 +14069,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_immortals_deathmarks__gw_jpy": "01K5C8MA2QHJEN4HC1ANWR06W4",
   "necron_immortals_deathmarks__gw_nzd": "01KMKFTF3JK37ZQB4Q86S0T939",
   "necron_immortals_deathmarks__gw_pln": "01KVMC8VMK4RMG6XYMK8SRWTHH",
+  "necron_immortals_deathmarks__gw_usd": "01KD84BYA58S1WGC9423NS75V1",
   "necron_immortals_deathmarks__tcgcsv_high_usd": "01K8RBQ0QD46FW2W8JPWJ1P1KT",
   "necron_immortals_deathmarks__tcgcsv_low_usd": "01KGXTDXVWHT3VKT21E1N94TKQ",
   "necron_immortals_deathmarks__tcgcsv_mid_usd": "01K58NYRM03QEE902GZHZFW9ZW",
@@ -13859,6 +14083,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_overlord__gw_jpy": "01KZK467SS8QF4A0X2YNZS9FPS",
   "necron_overlord__gw_nzd": "01KVQW8G5TXEN8DB51HFX5NTNK",
   "necron_overlord__gw_pln": "01KXFJPVKXYKQFWFPXTXCGMD12",
+  "necron_overlord__gw_usd": "01KRGTEC27W49F15AT9TE96QWP",
   "necron_overlord__tcgcsv_msrp_usd": "01KCQ5NTYKPRXDP3C3ZP1X1X6F",
   "necron_tomb_blades__gw_aud": "01K414EM0XPZ2T8W3HN5H36HX0",
   "necron_tomb_blades__gw_cad": "01K3GVQ9CQTXTP1ZJ2SZP5MS9H",
@@ -13868,6 +14093,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_tomb_blades__gw_jpy": "01KSJJ7HRK9HVPXW2X8HH1WSRX",
   "necron_tomb_blades__gw_nzd": "01KDMXFANH8ZSBVPF3ZV6H03YB",
   "necron_tomb_blades__gw_pln": "01KBNHVSGH3X8YYC3T5C2PK101",
+  "necron_tomb_blades__gw_usd": "01K8ZF7DJHKWW71JX9CVJB7ZZH",
   "necron_tomb_blades__tcgcsv_msrp_usd": "01KCRTWGGEJG8RRDNCKVBEPF9W",
   "necron_tomb_blades_repackage__tcgcsv_msrp_usd": "01KK1EPE49BHZ595VVJDFNZDB8",
   "necron_warriors__gw_aud": "01KYZTME1G2C9AVAKZFJGFMXJ3",
@@ -13878,6 +14104,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necron_warriors__gw_jpy": "01KYGW89K7N94CF6JNB6494QE6",
   "necron_warriors__gw_nzd": "01K7ZPRQV3Q2W52Z45PV0VKC80",
   "necron_warriors__gw_pln": "01K6AB9T8FP58X165G9JCK541T",
+  "necron_warriors__gw_usd": "01KK839HT97T3PPS50D6V17VPG",
   "necron_warriors__legacy_aud": "01KP6CEP19XSN0ZSG0ZEC6XB7Z",
   "necron_warriors__legacy_cad": "01KZY41E0FVP55MZCZV3JSQ905",
   "necron_warriors__legacy_chf": "01KSXVCERQH12GKESCZW3GC0K2",
@@ -13894,6 +14121,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_canoptek_doomstalker__gw_jpy": "01KHP6H991VK1K9GHHRR6ADZMB",
   "necrons_canoptek_doomstalker__gw_nzd": "01KEMET2209XZEN9KKFT574932",
   "necrons_canoptek_doomstalker__gw_pln": "01KZH4VTH64BTS4DKY8JAP2DTZ",
+  "necrons_canoptek_doomstalker__gw_usd": "01K7DJHX33W1B6E79Q7CZPJN2A",
   "necrons_canoptek_doomstalker__tcgcsv_msrp_usd": "01K6CTX3T6270080KH0SB77X08",
   "necrons_convergence_of_dominion__gw_aud": "01K79GPG8DQNDYGY215C4EBTQK",
   "necrons_convergence_of_dominion__gw_cad": "01KREBCF9BGTEQ7T22W6YZDEBT",
@@ -13903,6 +14131,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_convergence_of_dominion__gw_jpy": "01K0C7F21VEK5EGEBPXXAHC8P8",
   "necrons_convergence_of_dominion__gw_nzd": "01KTYKVZ8FV0YNCABMP8FKEG7Q",
   "necrons_convergence_of_dominion__gw_pln": "01K3WAMSDQ2VQKWWRPRE2E49EW",
+  "necrons_convergence_of_dominion__gw_usd": "01KH37WJ3CVPASGGKGRX04QMX9",
   "necrons_convergence_of_dominion__tcgcsv_msrp_usd": "01KNY8618CB7M253SCXENNJSV0",
   "necrons_ctan_shard_of_the_void_dragon__gw_aud": "01KKBDCWH5SGF27NKWJEC36NMN",
   "necrons_ctan_shard_of_the_void_dragon__gw_cad": "01K6FXDGYS77Y1EMZVK1TW4PHS",
@@ -13912,6 +14141,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_ctan_shard_of_the_void_dragon__gw_jpy": "01K5DVEMSGC595A4SH7QCBMVJG",
   "necrons_ctan_shard_of_the_void_dragon__gw_nzd": "01KAEKT1S7P0S63DAA8VNMEGNF",
   "necrons_ctan_shard_of_the_void_dragon__gw_pln": "01KVHKBDEBF3CG4B9FR560YZ0S",
+  "necrons_ctan_shard_of_the_void_dragon__gw_usd": "01KC0CJX244AXXJQPA5SAYX7N8",
   "necrons_ctan_shard_of_the_void_dragon__tcgcsv_msrp_usd": "01K9QAXGW5MEW0583F3RQC4ART",
   "necrons_hexmark_destroyer__gw_aud": "01K99WTXPKJBB0XEZTWPW6QS4R",
   "necrons_hexmark_destroyer__gw_cad": "01KFD6Q4E0ZF49K4D8DG279FCH",
@@ -13921,6 +14151,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_hexmark_destroyer__gw_jpy": "01KGTBKWVZKPHS4X48480HEEJG",
   "necrons_hexmark_destroyer__gw_nzd": "01KY4DRWB4CJ05QB5P65G6E9EN",
   "necrons_hexmark_destroyer__gw_pln": "01KD0EPBPH31267Z17FY377DXG",
+  "necrons_hexmark_destroyer__gw_usd": "01KR1YMGA86278GYT7P3Q9CQFZ",
   "necrons_hexmark_destroyer__tcgcsv_msrp_usd": "01KJEYQBVPB74P047G7WETRW50",
   "necrons_lokhust_heavy_destroyer__gw_aud": "01K0H4KXQBDYBBY21Y5QBD0ZNP",
   "necrons_lokhust_heavy_destroyer__gw_cad": "01K1X1XWP7JPPQAE56NDK80N8R",
@@ -13930,6 +14161,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_lokhust_heavy_destroyer__gw_jpy": "01K70QVJHM3V0H9MDTXCH8E6V6",
   "necrons_lokhust_heavy_destroyer__gw_nzd": "01KNP93Y3ZCM9F9ATJEJ7KFYGP",
   "necrons_lokhust_heavy_destroyer__gw_pln": "01KPCA0RXDB2MVN4B8EFCP34W1",
+  "necrons_lokhust_heavy_destroyer__gw_usd": "01K9D05EMYMM6FHE7383DFAH5V",
   "necrons_lokhust_heavy_destroyer__tcgcsv_high_usd": "01KDXJZ4ZX6DYR3BQFYVSRMJAN",
   "necrons_lokhust_heavy_destroyer__tcgcsv_low_usd": "01KSVN4BD59DJMQ3NX5WTMDABC",
   "necrons_lokhust_heavy_destroyer__tcgcsv_mid_usd": "01KGA8PGWGKW14SNB9KPPTKP50",
@@ -13942,6 +14174,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_monolith__gw_jpy": "01KWTJRVEDJ64N7DEB2GAPNFS2",
   "necrons_monolith__gw_nzd": "01KXCEHAQBGWZWAJXXNH22512W",
   "necrons_monolith__gw_pln": "01KQBJWEGKNWF7W143ZYK7V1XQ",
+  "necrons_monolith__gw_usd": "01K09RJFQ6Q8AR8PHCEFDNYB2S",
   "necrons_monolith__tcgcsv_msrp_usd": "01K5KZ39317D0FDRXQRPC63N7T",
   "necrons_ophydian_destroyers__gw_aud": "01KJA91RHC1SHTF08CCDGKR908",
   "necrons_ophydian_destroyers__gw_cad": "01KANGGMHYN9YAXHFJKZG6RR9V",
@@ -13951,6 +14184,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_ophydian_destroyers__gw_jpy": "01KGW9Q9SYEGXEGDP4KMGY4NKH",
   "necrons_ophydian_destroyers__gw_nzd": "01K3ZTZ0R2CWVD046ZMS7HEWHZ",
   "necrons_ophydian_destroyers__gw_pln": "01KQS47MENVM3EAN4HB5MJSJ4D",
+  "necrons_ophydian_destroyers__gw_usd": "01KATH9V3CKSV624GX927PZRCG",
   "necrons_ophydian_destroyers__tcgcsv_msrp_usd": "01KD5GD2S312VKNTCD55RH7W8Q",
   "necrons_skorpekh_destroyers__gw_aud": "01KCRNWKAX0EK0Y42R1SRDBFM9",
   "necrons_skorpekh_destroyers__gw_cad": "01KZH529R39EYV7SX0MJHFWEW7",
@@ -13960,6 +14194,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_skorpekh_destroyers__gw_jpy": "01K0B6DWNSF1QK4KE903NK19RV",
   "necrons_skorpekh_destroyers__gw_nzd": "01K1HG6B6DBF21BQ7R3GQXGFVT",
   "necrons_skorpekh_destroyers__gw_pln": "01KPF0VDSNZR6939QAN7V4GRWS",
+  "necrons_skorpekh_destroyers__gw_usd": "01KK6Z1QHMEKXJY087F7Y9RCM7",
   "necrons_skorpekh_destroyers__tcgcsv_msrp_usd": "01KABYB18DTRJBWN8DKQTB4HDS",
   "necrons_szarekh_the_silent_king__tcgcsv_msrp_usd": "01KWX3PXMEQQSFNN0H2BXK4GRN",
   "necrons_warriors__gw_aud": "01KVGNDNTYFJCBPE2Z5QRW7YVF",
@@ -13970,6 +14205,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "necrons_warriors__gw_jpy": "01K98CYZJHW3B1PSS82HVAQ5V7",
   "necrons_warriors__gw_nzd": "01KVDRNG9SPMCDNHPVDV9GV97K",
   "necrons_warriors__gw_pln": "01KWQ7RQYW3VPKDEHY0NX1CRJZ",
+  "necrons_warriors__gw_usd": "01KJ61146FH4B64SN2B2E7CFBG",
   "necrons_warriors__tcgcsv_high_usd": "01KCYTSR8R9Q2TC8Y9JMW65TEC",
   "necrons_warriors__tcgcsv_low_usd": "01K39PVKGQ7HDESRPYD8040XD1",
   "necrons_warriors__tcgcsv_mid_usd": "01KT116MPX609AFN08MQ8G7W0N",
@@ -14001,6 +14237,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ork_gretchin__gw_jpy": "01KMAKB23GPW7S0FCTQC8Z0A1M",
   "ork_gretchin__gw_nzd": "01KZE09CH7NMHNY5H8JXHKNK7T",
   "ork_gretchin__gw_pln": "01K5A5YQ49KS0JEVZSP4CRZMAB",
+  "ork_gretchin__gw_usd": "01K1RDMPXWXWJHAZKPBK76KCCN",
   "ork_gretchin__legacy_aud": "01KBK1VAT9TE68C8TA2KQ883Q8",
   "ork_gretchin__legacy_cad": "01KQG4BRWRD5E92VHJTXV8ZCSN",
   "ork_gretchin__legacy_chf": "01KT3A7FW2MHFRTQ12WJKYTF94",
@@ -14013,11 +14250,13 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ork_gretchin__tcgcsv_msrp_usd": "01KWKJXJJ8AKS4V8BH2J0XRMMX",
   "ork_killa_kans__gw_aud": "01KND00M68FGH139SV7XXQ0F3E",
   "ork_killa_kans__gw_cad": "01KVK593NWDDBVG8Z87JAQ3V4C",
+  "ork_killa_kans__gw_chf": "01K8628XWFJ3RW3VRR3H8WF8VA",
   "ork_killa_kans__gw_eur": "01KZY2YPP7BPYAEF3QX24E7JCY",
   "ork_killa_kans__gw_gbp": "01KP1580NTCY0WB2A26H99HRD7",
   "ork_killa_kans__gw_jpy": "01KB6DF2P8ANHGSXP1Z8NHHRDW",
   "ork_killa_kans__gw_nzd": "01KET814CF4PYFF4ABCQ0P0SBX",
   "ork_killa_kans__gw_pln": "01KPC167RBZSNWYTBET07D1ZM9",
+  "ork_killa_kans__gw_usd": "01KHZVAT02Z4N5K54BQABXXETA",
   "ork_killa_kans__legacy_aud": "01KFY5A5XMSS7Q7A7WRR54Z9QA",
   "ork_killa_kans__legacy_cad": "01KS3A7WWJJ2A4YJQYXY9W7HVN",
   "ork_killa_kans__legacy_chf": "01KH7C07W6259NFE76Z4BTJ0AY",
@@ -14035,6 +14274,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ork_mek_gun__gw_jpy": "01KZAB3P27HEW93PYC5NCFP1JP",
   "ork_mek_gun__gw_nzd": "01K12JXE9SKBB0EZ70MM3HE9MR",
   "ork_mek_gun__gw_pln": "01KCQ9SV7MWKT2YARWEH2586V1",
+  "ork_mek_gun__gw_usd": "01KZ1E765Y8QWKC5W9KWPNGYSN",
   "ork_mek_gun__tcgcsv_msrp_usd": "01KVT28VA15YYQP09HVXZP1XVK",
   "ork_nobz__legacy_aud": "01KMYJA43F41SP6BAGKZT70VZB",
   "ork_nobz__legacy_cad": "01KT150AD1Z6VVT3ZN6BKXPR5C",
@@ -14073,6 +14313,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ork_warbiker_mob__gw_jpy": "01K1VDG41AS3YMXAV4JYBRHM2K",
   "ork_warbiker_mob__gw_nzd": "01KR0XE2SY2DEQF290S0DC1F91",
   "ork_warbiker_mob__gw_pln": "01KJ67CETVTJ6ZM2TZ1P7S1567",
+  "ork_warbiker_mob__gw_usd": "01K09172E9PYNZG24FRKQ6KTWT",
   "ork_warbiker_mob__legacy_aud": "01K55W1M5YA21VFT3V0NAZTPC0",
   "ork_warbiker_mob__legacy_cad": "01K5T5845BY0TFYMAMJ8M1VQD4",
   "ork_warbiker_mob__legacy_chf": "01K7WP6TK45ZG8D2ABCJEGQY44",
@@ -14095,6 +14336,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "orks_ghazghkull_thraka__gw_jpy": "01K92WSBJ3S30J8QG6W8QTKPAX",
   "orks_ghazghkull_thraka__gw_nzd": "01K4P6ZWH4QKC9P1CRZXHK21TJ",
   "orks_ghazghkull_thraka__gw_pln": "01KJ112GRT4EE2GMCS0QB2CAKZ",
+  "orks_ghazghkull_thraka__gw_usd": "01KG5NZDS1FWXMBDBK2X4WQ305",
   "orks_ghazghkull_thraka__tcgcsv_msrp_usd": "01K7TEFM8S8JNNWCXSXCYJK68N",
   "orks_kustom_boosta_blasta__gw_aud": "01K4JTGTA8KD4NC898V008REFH",
   "orks_kustom_boosta_blasta__gw_cad": "01K60QYN8JXMWW7N6M5M58MH3G",
@@ -14104,6 +14346,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "orks_kustom_boosta_blasta__gw_jpy": "01KF0YVWTKNJ9EHPH181RJRKZE",
   "orks_kustom_boosta_blasta__gw_nzd": "01KJYED0E2CHR8J9S1RSN0TKFB",
   "orks_kustom_boosta_blasta__gw_pln": "01KA2F1QQEDVPHEPYCCHXVBZNB",
+  "orks_kustom_boosta_blasta__gw_usd": "01K07DM6AG46DMSHDRN8W7EMYN",
   "orks_kustom_boosta_blasta__tcgcsv_msrp_usd": "01KG448KZV6V6EXJW2N7SD3KEV",
   "orks_shokkjump_dragsta__gw_aud": "01KVP6M19S9YFA8SHPV5BCM5EE",
   "orks_shokkjump_dragsta__gw_cad": "01KYP3X0RDFTA21RF0EY7AZ1KN",
@@ -14113,6 +14356,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "orks_shokkjump_dragsta__gw_jpy": "01K8NPBNNAJJDSR3ZSDXSHH3GM",
   "orks_shokkjump_dragsta__gw_nzd": "01K9NMC6Q2HK6201MNA9PWBN45",
   "orks_shokkjump_dragsta__gw_pln": "01KD7655J6BW8605YVPQ42K0AY",
+  "orks_shokkjump_dragsta__gw_usd": "01KG1HZ6NZHQRQNJ2R16WYVAD8",
   "orks_shokkjump_dragsta__tcgcsv_msrp_usd": "01KP5GWXNKZ2WJ88ZWNVKNRTTC",
   "orks_starter_set_kill_team_krogskulls_boyz__tcgcsv_msrp_usd": "01KACGXX5B4D8F9CW0GXPHZ0G7",
   "paints_tools_set__tcgcsv_msrp_usd": "01K4DPYVRN3SXSE8Y083MJ6RCT",
@@ -14126,6 +14370,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "raven_guard_kayvaan_shrike__gw_jpy": "01K6G96NGQA46YY2FSMHS0EZ1P",
   "raven_guard_kayvaan_shrike__gw_nzd": "01KJEQK8QH96FQBESRFSC2W7PS",
   "raven_guard_kayvaan_shrike__gw_pln": "01KSGTN1B4DHZ5XNZS2MWKWQTM",
+  "raven_guard_kayvaan_shrike__gw_usd": "01KCEJXW3ETGH35WSFE6YXNBVP",
   "raven_guard_kayvaan_shrike__tcgcsv_msrp_usd": "01K9K6XXDJNNAJ71M0NZGXGVZV",
   "raven_guard_primaris_upgrades_transfers__gw_aud": "01KH9PH8HWT2S3S29FHNGJRN0Z",
   "raven_guard_primaris_upgrades_transfers__gw_cad": "01K02NGD6W8DYG73Q0HQ67B0QN",
@@ -14135,6 +14380,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "raven_guard_primaris_upgrades_transfers__gw_jpy": "01K8TPP775SCK8V4H1YWZHEA15",
   "raven_guard_primaris_upgrades_transfers__gw_nzd": "01KRAZYG8ECE6YFFQ1218W0N5D",
   "raven_guard_primaris_upgrades_transfers__gw_pln": "01K8D0T5MWZG6HQWSWQ2D761PZ",
+  "raven_guard_primaris_upgrades_transfers__gw_usd": "01K229S96B9J1F43853CA702CM",
   "raven_guard_primaris_upgrades_transfers__tcgcsv_msrp_usd": "01KPCP64189RFW24BJZ06SD74S",
   "ravenwing_command_squad__gw_aud": "01KMRR0ZHR5NF17T6A569XK389",
   "ravenwing_command_squad__gw_cad": "01KWWJTXSJ0P14MJN89B3YKTDD",
@@ -14154,6 +14400,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "rukkatrukk_squigbuggy__gw_jpy": "01K0YVZQWC286MPSSAN55TRZ5F",
   "rukkatrukk_squigbuggy__gw_nzd": "01KDP6RJQT7PCJPVBS3YJ8PN1K",
   "rukkatrukk_squigbuggy__gw_pln": "01KS3S6YDRDKKBNH8SCKAHMQRZ",
+  "rukkatrukk_squigbuggy__gw_usd": "01KTCTBVW50XWVPE0N9817PH08",
   "rukkatrukk_squigbuggy__legacy_aud": "01KZSG7GGKS2QN7TZGFN2FR0X5",
   "rukkatrukk_squigbuggy__legacy_cad": "01KC9R8VAC0SFDRBM8Q1DAVDAV",
   "rukkatrukk_squigbuggy__legacy_chf": "01K0HPNBPX8AF5P27Y2XDYWHZG",
@@ -14170,6 +14417,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "salamanders_adrax_agatone__gw_jpy": "01KGF1G4FHJRDGGEZAS9ZAX5MK",
   "salamanders_adrax_agatone__gw_nzd": "01KTDDWJ9YG1PS225B6EB5QBYE",
   "salamanders_adrax_agatone__gw_pln": "01KDY2MBF7YFQ5MXS83MP9TDNR",
+  "salamanders_adrax_agatone__gw_usd": "01K8WJ649GBR795D66SK8XJW3X",
   "salamanders_adrax_agatone__tcgcsv_msrp_usd": "01KCMQ35N1X63AZW8NY7Z0KMZ8",
   "salamanders_primaris_upgrades_transferssalamanders_adrax_agatone__tcgcsv_msrp_usd": "01KP36KBQ6WEKR6K0NZCQY5GFD",
   "sector_imperialis_25_40mm_round_bases__tcgcsv_msrp_usd": "01KV0N6X13MME1HTP8JT6DQNXV",
@@ -14216,6 +14464,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marine_devastator_squad__gw_jpy": "01KQ2A7399VTMTMS2Y41HRCSG3",
   "space_marine_devastator_squad__gw_nzd": "01KPS0WHZ2ZJNH502EQ25AP4E5",
   "space_marine_devastator_squad__gw_pln": "01KERMRXGKC9HQSGF1X52WP8HM",
+  "space_marine_devastator_squad__gw_usd": "01K1WH45DX0D8XJ773SCDPA6F2",
   "space_marine_devastator_squad__tcgcsv_high_usd": "01KH3YDRHGYH9XNJC82A8QYVDK",
   "space_marine_devastator_squad__tcgcsv_low_usd": "01KXDPPX5MW026CHJ6HGFCQDY6",
   "space_marine_devastator_squad__tcgcsv_mid_usd": "01KEEHBHZXWCW1S20AKAP5H41W",
@@ -14243,6 +14492,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marine_primaris_captain__gw_jpy": "01K148ZX28TXVG1GEN3ZWNKXX5",
   "space_marine_primaris_captain__gw_nzd": "01KN5QYER14B3R0P4G25AM4KBQ",
   "space_marine_primaris_captain__gw_pln": "01KSHH7PCNQBW7WBYKD35K46SP",
+  "space_marine_primaris_captain__gw_usd": "01KXN37A1PB7AC38X3CB9HGAJH",
   "space_marine_primaris_captain__tcgcsv_msrp_usd": "01K85G1SQ8FR34GAZAYP7AHKNH",
   "space_marine_primaris_librarian__tcgcsv_msrp_usd": "01K4C9BM3HCFW21EHT7V7KBZWC",
   "space_marine_primaris_redemptor_dreadnought__tcgcsv_high_usd": "01KWDSRW3NZ9CQMKXHF6Z14R44",
@@ -14265,6 +14515,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marine_tactical_squad__gw_jpy": "01K1GQDM3T14ZWC1X84MX477E5",
   "space_marine_tactical_squad__gw_nzd": "01KPRCP1ZAPP71H56ACXJ2HZ49",
   "space_marine_tactical_squad__gw_pln": "01K7W5DP5ZFTB8F00EV9696KDA",
+  "space_marine_tactical_squad__gw_usd": "01K36Z7ANP7Q9JSRFSHC8Q6C6D",
   "space_marine_tactical_squad__tcgcsv_msrp_usd": "01KSGWTSCJWTZHETK97MFR47XX",
   "space_marine_terminator_close_combat_squad__tcgcsv_msrp_usd": "01K3TFH5A1NJ8YMGSMCV608ZP4",
   "space_marine_terminator_command__tcgcsv_msrp_usd": "01KARJVNCN95G0FTYA1HJE4VNW",
@@ -14278,6 +14529,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marine_venerable_dreadnought__gw_jpy": "01KJD99KGAWK0ERRGHQ655RBCW",
   "space_marine_venerable_dreadnought__gw_nzd": "01KGQ52WBCXMHA30DY47M0TQAC",
   "space_marine_venerable_dreadnought__gw_pln": "01K081HRYG5C8TEQSQM6CQ1XE7",
+  "space_marine_venerable_dreadnought__gw_usd": "01KR0NPH1C23DFZ8YNQFH4WY1A",
   "space_marine_venerable_dreadnought__tcgcsv_msrp_usd": "01KEFS5QWHZJ1ZGF17VC7Z982Q",
   "space_marine_vindicator__tcgcsv_msrp_usd": "01K199ZJPVV9QPY8KA816SMQQ2",
   "space_marines_assault_intercessors_paints_set__tcgcsv_msrp_usd": "01KQNP53FFQKQRX9YSH0X8QMJ4",
@@ -14291,6 +14543,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marines_hammerfall_bunker__gw_jpy": "01KWMVKYNZM6TCNKS2KGHZEZVF",
   "space_marines_hammerfall_bunker__gw_nzd": "01KDDM0W0C3QFGXX32YG9QSBEC",
   "space_marines_hammerfall_bunker__gw_pln": "01KT9GD5Y9S46KJ13EDRY9H8HP",
+  "space_marines_hammerfall_bunker__gw_usd": "01KRQW4AK8G61APJ6V3D1QXZPT",
   "space_marines_hammerfall_bunker__tcgcsv_msrp_usd": "01KM1HK0JFJJ6D99C9FWP6JEHE",
   "space_marines_marneus_calgar_ultramarines_chapter_master__tcgcsv_msrp_usd": "01KM53HMYNV8N2467MVS3C57XS",
   "space_marines_outriders__gw_aud": "01KEDVJ901YH3NEKR17QCH4WVT",
@@ -14301,15 +14554,18 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marines_outriders__gw_jpy": "01KG9TWAWEM0NBY2SM50X7GTR8",
   "space_marines_outriders__gw_nzd": "01K1J2C14Z8RNX7SWEX9WZ6DBN",
   "space_marines_outriders__gw_pln": "01KMZK7WQZ1EV5JE0R4C7W8XK4",
+  "space_marines_outriders__gw_usd": "01K6WGZN9ACMXPDMF7V44HPZQD",
   "space_marines_outriders__tcgcsv_msrp_usd": "01K6QY97KX35G8GHC54HSVN6JD",
   "space_marines_primaris_captain_in_phobos_armour__tcgcsv_msrp_usd": "01KQ1BK2TAZKXD94MTF722X43W",
   "space_marines_primaris_chaplain_on_bike__gw_aud": "01KQRS689YRFB73JD0AS9ZBZXD",
   "space_marines_primaris_chaplain_on_bike__gw_cad": "01KX4ZVNW4MGQHSX16883G6YXN",
+  "space_marines_primaris_chaplain_on_bike__gw_chf": "01KT8ZEQ4RBHESTN5J9J31R6E7",
   "space_marines_primaris_chaplain_on_bike__gw_eur": "01KWDN3QNT2K80TXS8EXYCA6YK",
   "space_marines_primaris_chaplain_on_bike__gw_gbp": "01KRJV3NDDDD60BP11WX7GTE73",
   "space_marines_primaris_chaplain_on_bike__gw_jpy": "01K4AQP52Q30F2ARX0CS5XFY5Q",
   "space_marines_primaris_chaplain_on_bike__gw_nzd": "01KSHAPKFXB1DZQPWW8J62YYTC",
   "space_marines_primaris_chaplain_on_bike__gw_pln": "01KPQ6ZVJP5DKSR6N21EDFCA74",
+  "space_marines_primaris_chaplain_on_bike__gw_usd": "01K382QZ1QEQ2ABQXVNJPGMWD7",
   "space_marines_primaris_chaplain_on_bike__tcgcsv_msrp_usd": "01KW3WM0P4PNRT7M0S66KBTCZA",
   "space_marines_primaris_eliminators__tcgcsv_high_usd": "01KXM772QTRD7K5F04R6QWT6Q8",
   "space_marines_primaris_eliminators__tcgcsv_low_usd": "01KDE29VGT16T92Y542GDQ2574",
@@ -14326,6 +14582,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marines_primaris_invader_atv__gw_jpy": "01KY9ZVYTXNSC77DK4053HXGVA",
   "space_marines_primaris_invader_atv__gw_nzd": "01K492EJJW64M1TFNR1TX03F8W",
   "space_marines_primaris_invader_atv__gw_pln": "01KWFTNT8MYBSV4WGVDX6HAVNW",
+  "space_marines_primaris_invader_atv__gw_usd": "01KTSNS3QETG4SX1FAM315HFPA",
   "space_marines_primaris_invader_atv__tcgcsv_msrp_usd": "01KY682T02A243B6SJ76SZBAF1",
   "space_marines_primaris_invictor_tactical_warsuit__tcgcsv_msrp_usd": "01K2B6RKAJ4T1ZN67ZPKMPB5M1",
   "space_marines_primaris_librarian_in_phobos_armour__tcgcsv_msrp_usd": "01KM3HCHGH5ZVE84PEXDZZMKYW",
@@ -14340,6 +14597,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_marines_primaris_techmarine__gw_jpy": "01KEGN7CFTMJC3QFXD4342SHCM",
   "space_marines_primaris_techmarine__gw_nzd": "01K784RD4PNCVQDDVTZ47AMPZG",
   "space_marines_primaris_techmarine__gw_pln": "01K342VGYDFBXV4Z1ZXG43PRZ9",
+  "space_marines_primaris_techmarine__gw_usd": "01KPTPE3R5Z00ZT9Q5163J4NR2",
   "space_marines_primaris_techmarine__tcgcsv_msrp_usd": "01K70Z5YGN7RWBEQR4SG853982",
   "space_marines_roboute_guilliman__tcgcsv_msrp_usd": "01K9XTWAZC0XFR8GPFCXCX99QD",
   "space_marines_terminator_chaplain_tarentus__tcgcsv_msrp_usd": "01KF1MNNDJDQVWQN9XDK9S2YX8",
@@ -14357,6 +14615,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_wolves_iron_priest__gw_jpy": "01KQ90AW0EYFD8WYK1A0RP3Q0P",
   "space_wolves_iron_priest__gw_nzd": "01K0TAZANBS9B1S8SSK7NGPZE2",
   "space_wolves_iron_priest__gw_pln": "01K0RJZH76RAMKYPZ87A8J2QY6",
+  "space_wolves_iron_priest__gw_usd": "01KFZXSBP9KYN71TQTGT71BJ1T",
   "space_wolves_iron_priest__tcgcsv_msrp_usd": "01K0T84Y354WHQ3D1S24AJCGVV",
   "space_wolves_long_fangs__tcgcsv_msrp_usd": "01K1A71CQSKJQBANFZ0NBQSFY0",
   "space_wolves_pack__tcgcsv_msrp_usd": "01K5RET6DJM0HJS0WZKC1JCWTK",
@@ -14369,6 +14628,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_wolves_ragnar_blackmane__gw_jpy": "01KRB4C06S6013YRK6JP5Y6H09",
   "space_wolves_ragnar_blackmane__gw_nzd": "01K188CAWPTHS625CWD541E8ED",
   "space_wolves_ragnar_blackmane__gw_pln": "01K7MBV1982WAJDCJVDKCZPH2M",
+  "space_wolves_ragnar_blackmane__gw_usd": "01K0AFEG3A5TDDAG2F6N7E6S99",
   "space_wolves_ragnar_blackmane__tcgcsv_msrp_usd": "01KTY9DCSJ8NPM1XAKJ9BQA5ZS",
   "space_wolves_skyhammer_wolf_pack__tcgcsv_msrp_usd": "01K44NERF4XJJJ2H8TXJSQCVXZ",
   "space_wolves_stormfang_gunship__tcgcsv_msrp_usd": "01K9THMJYC8ERAS21P8GP5DH9N",
@@ -14391,6 +14651,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_wolves_venerable_dreadnought__gw_jpy": "01KWCHFC28JA2XZG17JBWE1XKY",
   "space_wolves_venerable_dreadnought__gw_nzd": "01K9NB0T21EKHE2RCXN4WWF420",
   "space_wolves_venerable_dreadnought__gw_pln": "01KV0BMX6WPGSJT2C9DH32Z7CB",
+  "space_wolves_venerable_dreadnought__gw_usd": "01KBBKD8RKWREKH73RZF7V5Q2Z",
   "space_wolves_venerable_dreadnought__legacy_aud": "01KEM0PAC2Y5EGQP9WTCY8F0T2",
   "space_wolves_venerable_dreadnought__legacy_cad": "01KQYVC7W520A42F5DSSHJ2CRB",
   "space_wolves_venerable_dreadnought__legacy_chf": "01KFZ72ZYVNVQFJJ0N1QD7ENGK",
@@ -14406,6 +14667,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_wolves_wolf_guard_terminators__gw_jpy": "01K8Q5PM04QQXH9YYZCZDQ18W5",
   "space_wolves_wolf_guard_terminators__gw_nzd": "01KXW6X1K7564BKVZXGKB0Q6VW",
   "space_wolves_wolf_guard_terminators__gw_pln": "01KGPJYJ1A5ACZDEG22952TSPP",
+  "space_wolves_wolf_guard_terminators__gw_usd": "01KVY9V1VECWWVHANMHXHD57HE",
   "space_wolves_wolf_guard_terminators__tcgcsv_msrp_usd": "01K1KVPT5QGSXYJN75RTE9B9AA",
   "space_wolves_wolf_lord_krom__tcgcsv_msrp_usd": "01KKXXR2TT1YV8DWG42XDX4CR5",
   "space_wolves_wulfen__gw_aud": "01KGPZ3QJEFRKZWY5NP66RD3BV",
@@ -14416,6 +14678,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "space_wolves_wulfen__gw_jpy": "01K1P5CDE2ZFMB8HW1QB67JQA5",
   "space_wolves_wulfen__gw_nzd": "01K4EJRHHT64WWTJZMW8KN8XB3",
   "space_wolves_wulfen__gw_pln": "01K4R5TPT1QFBSSX3VHTHGF25P",
+  "space_wolves_wulfen__gw_usd": "01KEQVPKS6V3D0Q3HVRP651MZ3",
   "space_wolves_wulfen__tcgcsv_msrp_usd": "01K7EWMH1DG45JN5C2XBCT59DG",
   "spacemarine_landraider_crusader_redeemer__tcgcsv_msrp_usd": "01K6H1T9X2DD3V5C4D6ZJW02GV",
   "speed_freeks__tcgcsv_msrp_usd": "01KTHK187WWYXAB95T16XR3DG2",
@@ -14445,6 +14708,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "stormraven_gunship__gw_jpy": "01KN6DB4TWWBFSESRNT675WP3M",
   "stormraven_gunship__gw_nzd": "01K0886GB177HE56QSM9990B2H",
   "stormraven_gunship__gw_pln": "01KMZY6Z5EJWT51VA25BFQP4BA",
+  "stormraven_gunship__gw_usd": "01KY2FDV96GRXRTKNSVXFTW8C4",
   "stormraven_gunship__legacy_aud": "01KBVEGN412BM5W9DHP2K2S1QD",
   "stormraven_gunship__legacy_cad": "01KVD72QQSG09JCCD18DVZ3KB7",
   "stormraven_gunship__legacy_chf": "01KYM05ACPHF2A47T475W7MT17",
@@ -14461,6 +14725,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "talons_of_the_emperor_valerian_and_aleya__gw_jpy": "01KXKHWT03ZW73Z60YJ5NNJZWA",
   "talons_of_the_emperor_valerian_and_aleya__gw_nzd": "01KS2WNZZEHC6DGR284BKB9NM7",
   "talons_of_the_emperor_valerian_and_aleya__gw_pln": "01KPZQXC4FPKTJDWEGJZ91WCYR",
+  "talons_of_the_emperor_valerian_and_aleya__gw_usd": "01K2MP0HS4EK8NYDT29MTGEK35",
   "talons_of_the_emperor_valerian_and_aleya__legacy_aud": "01KPQ900VPERX2JGV6312FM8EG",
   "talons_of_the_emperor_valerian_and_aleya__legacy_cad": "01K7HDD49381CDWH7S96M1YS3X",
   "talons_of_the_emperor_valerian_and_aleya__legacy_chf": "01K9CD9XT9KGQJVXZWNT1XYRDC",
@@ -14478,6 +14743,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_commander__gw_jpy": "01K66TBH10K2NAJ9SZMJ5E1YE8",
   "tau_empire_commander__gw_nzd": "01K8FBEKFK3FRABF8YQC6VZZT3",
   "tau_empire_commander__gw_pln": "01K6NSV9AHH1VPYMQNVN6ZWPYE",
+  "tau_empire_commander__gw_usd": "01KCC64HA7WB9ERFQE859P6F1A",
   "tau_empire_commander__tcgcsv_high_usd": "01KXTCY6RXC7977DMMZ2PVGEKP",
   "tau_empire_commander__tcgcsv_low_usd": "01KTNGCQPAN390A7RSV822KHZY",
   "tau_empire_commander__tcgcsv_mid_usd": "01KNGFVDDHCFWEHG7VHEBNKMDB",
@@ -14490,6 +14756,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_fire_warriors__gw_jpy": "01KFX4MR5KJNV8ECPCDGDEQ1TA",
   "tau_empire_fire_warriors__gw_nzd": "01KVK97NYTJNNTNS73GMVAD0JS",
   "tau_empire_fire_warriors__gw_pln": "01KVFKQQ1FG803KKP1SX2EDKZR",
+  "tau_empire_fire_warriors__gw_usd": "01K0QEGE04YA7FKGB6THR1CT1P",
   "tau_empire_fire_warriors__tcgcsv_msrp_usd": "01K3CVRWZ63DHJ4PE3Y5M9NHWQ",
   "tau_empire_kv128_stormsurge__tcgcsv_msrp_usd": "01KWTRGRVE4W63KEKB6YKTQ32J",
   "tau_empire_pathfinder_team__tcgcsv_high_usd": "01KC2SKP4PF2SFP77CDD49B8F3",
@@ -14504,6 +14771,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_tidewall_droneport__gw_jpy": "01KYCW5BVC8CB6VKG0J73CZW7B",
   "tau_empire_tidewall_droneport__gw_nzd": "01KM859RTRB71T5442DPEQ7X97",
   "tau_empire_tidewall_droneport__gw_pln": "01KENBZA3D5ZTMSQ5S0WCGPSX1",
+  "tau_empire_tidewall_droneport__gw_usd": "01KQYTWTG62RX6NYN1GRXAS255",
   "tau_empire_tidewall_droneport__tcgcsv_msrp_usd": "01K6MKMAYKRJBY65VGS5YR1K85",
   "tau_empire_tidewall_rampart__tcgcsv_msrp_usd": "01KPQV6H74PW72SSNS9RVMEX29",
   "tau_empire_tidewall_shieldline__tcgcsv_msrp_usd": "01KH03Z8MT7PTDZWNFRH17BVZR",
@@ -14515,6 +14783,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_tx4_piranha__gw_jpy": "01KP34NK6KS77JQAJ49T7CVSA7",
   "tau_empire_tx4_piranha__gw_nzd": "01K5QXYTKH0JS53HMFQSAX4BPP",
   "tau_empire_tx4_piranha__gw_pln": "01KZ9M86SBB1W1Q989C80X85WE",
+  "tau_empire_tx4_piranha__gw_usd": "01KFS1HKG9CJJ66RP0FWQ28CA3",
   "tau_empire_tx4_piranha__tcgcsv_msrp_usd": "01KTRMGPAVYW3HDKXGY2MVGHHP",
   "tau_empire_ty7_devilfish__gw_aud": "01KCS5FW8SYHC6QYFCJ8JHYGGQ",
   "tau_empire_ty7_devilfish__gw_cad": "01KSCBKEQ3BT2DAETT9E0HACNM",
@@ -14524,6 +14793,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_ty7_devilfish__gw_jpy": "01KMW3XHPKGC8758DAGDGKGR5X",
   "tau_empire_ty7_devilfish__gw_nzd": "01KZ6VTMFNRYRC4X4RX9VYMK7E",
   "tau_empire_ty7_devilfish__gw_pln": "01KED4JR631EVHMACFKKDX19VD",
+  "tau_empire_ty7_devilfish__gw_usd": "01KN6Y5C0N0R0W0N20QD3CCNT3",
   "tau_empire_ty7_devilfish__tcgcsv_msrp_usd": "01KVW4Y58VFQW93V0ZR82P78FD",
   "tau_empire_xv25_stealth_battlesuits__tcgcsv_high_usd": "01KEBGW076AYZFMXX1PV03Y47M",
   "tau_empire_xv25_stealth_battlesuits__tcgcsv_low_usd": "01KM2V1N7JKJ378SPV6NBCRVYE",
@@ -14537,6 +14807,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tau_empire_xv88_broadside_battlesuit__gw_jpy": "01KYA0VPHS4RWPP96GKW22TW90",
   "tau_empire_xv88_broadside_battlesuit__gw_nzd": "01KWW0RYSP3G6S3SSRDK2KRXN4",
   "tau_empire_xv88_broadside_battlesuit__gw_pln": "01K0PRGM5V0PNC6M7J42Y2DHZM",
+  "tau_empire_xv88_broadside_battlesuit__gw_usd": "01KR7DEDZCYQD9BEGPV0T3B1JM",
   "tau_empire_xv88_broadside_battlesuit__tcgcsv_high_usd": "01KJY2ZZ81JPMFF0CFRANNYM06",
   "tau_empire_xv88_broadside_battlesuit__tcgcsv_low_usd": "01KGX1QWJWE7T9AJ3NJ694XVWQ",
   "tau_empire_xv88_broadside_battlesuit__tcgcsv_mid_usd": "01K5ARA6EQ2G5107CG0GXRGA4Z",
@@ -14559,6 +14830,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_broodlord__gw_jpy": "01K5Y60GZ1YXGPYKMQZMSNHQPT",
   "tyranid_broodlord__gw_nzd": "01K8EA3C10FFPNJSPD3AVQFFWV",
   "tyranid_broodlord__gw_pln": "01KWV42G839GAX2VYRW2MZH6VT",
+  "tyranid_broodlord__gw_usd": "01KC9XCHW8H09D9MPWE04H0QZG",
   "tyranid_broodlord__legacy_aud": "01KKRHEYPVZK2VNVV6MA0BD51N",
   "tyranid_broodlord__legacy_cad": "01KD1H0ACZ59B231WXJZ5G5HPW",
   "tyranid_broodlord__legacy_chf": "01KCN785CQ0GJ77Y66DNKYSQHK",
@@ -14568,11 +14840,13 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_broodlord__tcgcsv_msrp_usd": "01KNJW7BWT8DAM3V7Z1KCVQ02F",
   "tyranid_gargoyle_brood__gw_aud": "01KVZBFHN50S2FRCQ9A24WY3YZ",
   "tyranid_gargoyle_brood__gw_cad": "01K11ZS5H2G0DPSXV9R3G6903G",
+  "tyranid_gargoyle_brood__gw_chf": "01KSMNZ10PR6B64VZK0ZDGRT3S",
   "tyranid_gargoyle_brood__gw_eur": "01KSH13F4VJWFTK1F2Q0G135G5",
   "tyranid_gargoyle_brood__gw_gbp": "01KQJBS6X1F2PPZFTAZMJYEKTS",
   "tyranid_gargoyle_brood__gw_jpy": "01KAXHRESJTEX4KAMZ3N2RWNFS",
   "tyranid_gargoyle_brood__gw_nzd": "01KBYMJ6Q8ZE18PSA8Y3PAX1VM",
   "tyranid_gargoyle_brood__gw_pln": "01KATA4RF6ZMBZ06EJ88MKRRC0",
+  "tyranid_gargoyle_brood__gw_usd": "01K1KMJQE9G01VHGZ4008GPYZB",
   "tyranid_gargoyle_brood__legacy_aud": "01KYT09J5T0QR224GX09SZGMMW",
   "tyranid_gargoyle_brood__legacy_cad": "01KHEQJGD1PN4C20CFT126QG1Z",
   "tyranid_gargoyle_brood__legacy_eur": "01K1J0E0955GQPWTC7HTSTPDPW",
@@ -14587,14 +14861,17 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_genestealers__gw_jpy": "01KCH4HT876A9JMJ3V0PW1JPB4",
   "tyranid_genestealers__gw_nzd": "01K88J2ZK4APRZPQJA9QGMPEGH",
   "tyranid_genestealers__gw_pln": "01K7K1NCWVHB7N8RW4G2Y4EA7J",
+  "tyranid_genestealers__gw_usd": "01K4Z6SYSGN4TZ6XQYD59F13Q9",
   "tyranid_genestealers__tcgcsv_msrp_usd": "01KED44K0QDBS4AJ779VKAJP9T",
   "tyranid_harpy__gw_aud": "01KBND5J9922DH5QA1WT91J6QR",
   "tyranid_harpy__gw_cad": "01KPJ0G9S3Z3HF2G17NFAPB3SY",
+  "tyranid_harpy__gw_chf": "01KXR2NMDZYENSMKRDJZ3C7P10",
   "tyranid_harpy__gw_eur": "01KXB7JKMR6E7JKD19BFN75A0Y",
   "tyranid_harpy__gw_gbp": "01K2BJBGVTZC125TDD1JF88422",
   "tyranid_harpy__gw_jpy": "01KGWWAV6K5RQQDSG391AA5XP8",
   "tyranid_harpy__gw_nzd": "01K3MQBFGKE27SQ26GRRAR61JD",
   "tyranid_harpy__gw_pln": "01K8QMQRPG9GEP79NRZHPSNGZH",
+  "tyranid_harpy__gw_usd": "01KYSHZWY5MYY3VCDYCRRGTHSF",
   "tyranid_harpy__legacy_aud": "01KVX6TYM9CSJZRBP9EC90BF5C",
   "tyranid_harpy__legacy_cad": "01K2M3TZPC1B308EGH5RR1VCHB",
   "tyranid_harpy__legacy_chf": "01KGWVZ7TTA6NPS6K7WK8R25B6",
@@ -14614,11 +14891,15 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_termagants__tcgcsv_low_usd": "01K61GTWJQYXXNERBXMPM96PRD",
   "tyranid_termagants__tcgcsv_mid_usd": "01KWT1STA6M2E9QGTYQR9MSVV8",
   "tyranid_termagants__tcgcsv_msrp_usd": "01KKSGKAM1E8GYV1MXKG05DZYX",
+  "tyranid_trygon_mawloc__gw_aud": "01KNM4HRFMMW3FH6M5SWH5AR4W",
   "tyranid_trygon_mawloc__gw_cad": "01KEPSJ8XD4XB07G21AZW0ADP7",
+  "tyranid_trygon_mawloc__gw_chf": "01KWF4EYCDDXMJHS6DCG1TZ8T6",
   "tyranid_trygon_mawloc__gw_eur": "01K9MP74NAQRPV4MSJ2ZD0F0ER",
   "tyranid_trygon_mawloc__gw_gbp": "01KAWNSZQ5EHW5BK21D1FPR6RF",
   "tyranid_trygon_mawloc__gw_jpy": "01KX2BSKWGHMDSHHSMCMJAC68D",
+  "tyranid_trygon_mawloc__gw_nzd": "01KK69JAG3TDN0363XPRAV9AHG",
   "tyranid_trygon_mawloc__gw_pln": "01K80VAYME617VN3ZTZM6CMD6F",
+  "tyranid_trygon_mawloc__gw_usd": "01K16Z2FFKNN0Y8G4D97TAKZX7",
   "tyranid_trygon_mawloc__tcgcsv_msrp_usd": "01KHHB8KYTGKM6VVD7D3MPDVE9",
   "tyranid_tyrannocyte__gw_aud": "01KJDDV8CX2KHBM7CB099MZP1Z",
   "tyranid_tyrannocyte__gw_cad": "01KRS89VWQKEQ28KPJJT5DYAX8",
@@ -14628,12 +14909,15 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_tyrannocyte__gw_jpy": "01KDYDRKMC6Z82EE9MGCS01J5H",
   "tyranid_tyrannocyte__gw_nzd": "01KTV11JS40J7VC2TKXKVGDT4R",
   "tyranid_tyrannocyte__gw_pln": "01K2DNYDXYM4Z9GZ8FJJPM043X",
+  "tyranid_tyrannocyte__gw_usd": "01KJSQ23KTESNFR9JSZ7K9CBPN",
   "tyranid_tyrannocyte__tcgcsv_msrp_usd": "01K4XNJ5KATNAD7S1WDA0798QR",
   "tyranid_tyrannofex__gw_cad": "01KBD2M7ZA4GTHZCV0Q54HJVKT",
+  "tyranid_tyrannofex__gw_chf": "01K6QGHM9AB62G0TCSPRM0ZCNS",
   "tyranid_tyrannofex__gw_eur": "01KX72GXQ52YFPRY40Z5EDM80F",
   "tyranid_tyrannofex__gw_gbp": "01K9XSHGS2K9R80GYPSY7CAD3G",
   "tyranid_tyrannofex__gw_jpy": "01KTGKNZ21X3FSQAFD2JHA0SA0",
   "tyranid_tyrannofex__gw_pln": "01KQFEMPMHXAWAVXC0EDHJJ53D",
+  "tyranid_tyrannofex__gw_usd": "01K5P07X22ERWAG66HACQ2DE86",
   "tyranid_tyrannofex__legacy_aud": "01K6ZMNXH63G2T4JA94BETAHWM",
   "tyranid_tyrannofex__legacy_cad": "01K7S4ASREF6VJEW2Q24JD2TNC",
   "tyranid_tyrannofex__legacy_chf": "01KYMJ3HQQH5EZV5ND5S706FV7",
@@ -14650,6 +14934,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "tyranid_warriors__gw_jpy": "01K6VMMX1D3W5ETNNTGR4VJMQA",
   "tyranid_warriors__gw_nzd": "01KXVR4YXTQE4BHSXF5E0Q9J8A",
   "tyranid_warriors__gw_pln": "01KJA361AEF8EAPNPAGMD4J4D1",
+  "tyranid_warriors__gw_usd": "01KB4P3AHK4S9ZH57KRWSG2VV7",
   "tyranid_warriors__legacy_aud": "01KJ40MBVVDFYG6AD399F8KEYM",
   "tyranid_warriors__legacy_cad": "01KZP0SJ0JTJMF0147CM40N6GH",
   "tyranid_warriors__legacy_chf": "01K292S1D5JPKQY1G3D3S6JVH4",
@@ -14667,6 +14952,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "ultramarines_chief_librarian_tigurius__gw_jpy": "01KDEGNE5HNTS6M97AF5DKYQ83",
   "ultramarines_chief_librarian_tigurius__gw_nzd": "01KMDBRS69RC1YYQWKEC3SVG30",
   "ultramarines_chief_librarian_tigurius__gw_pln": "01K4V2Y9R95ENH0KEP8PTGEHWR",
+  "ultramarines_chief_librarian_tigurius__gw_usd": "01K3M55S3H47Q30X5YVVF9CE8X",
   "ultramarines_chief_librarian_tigurius__tcgcsv_msrp_usd": "01K5Z8K5CJY5N0FZKZRVMQJRPN",
   "ultramarines_upgrades__tcgcsv_msrp_usd": "01KY0SQC4WAR95F4F1NVXRP45S",
   "urban_conquest__tcgcsv_msrp_usd": "01K6VZN156FV5W3RPRXN85DNCJ",
@@ -14680,6 +14966,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "white_scars_korsarro_khan__gw_jpy": "01KRYFYNV0A48Y085SES5EA22J",
   "white_scars_korsarro_khan__gw_nzd": "01KNV8Y2C1CP9F9C4SPDS47P84",
   "white_scars_korsarro_khan__gw_pln": "01K7PB7CSN387A51Q699W6FCSV",
+  "white_scars_korsarro_khan__gw_usd": "01K4Z22VFWXSS9A1P0QTRFGPA8",
   "white_scars_korsarro_khan__tcgcsv_msrp_usd": "01KFWY8B33P8BK3Q4YWGBV0GWH",
   "white_scars_primaris_upgrades_transfers__tcgcsv_msrp_usd": "01K92X043BCBGWB57K6JAZFTPD",
   "xv104_riptide_battlesuit__gw_aud": "01KTY4A4BQKKSJSMZSGDB401H4",
@@ -14690,6 +14977,7 @@ const kitPriceSeedIds: Record<KitPriceSeedSlug, string> = {
   "xv104_riptide_battlesuit__gw_jpy": "01KQXAV36G3BBBZMQ6V3BJ4XJV",
   "xv104_riptide_battlesuit__gw_nzd": "01K4SMQWGQ6K5CTFZZVGZGC4B0",
   "xv104_riptide_battlesuit__gw_pln": "01K9ESX1ZSVXK18A4CDME0PN8Z",
+  "xv104_riptide_battlesuit__gw_usd": "01KA563J5RNA7BVJNGQ8HAPE5P",
   "xv104_riptide_battlesuit__legacy_aud": "01KW2PKKWQPVXQYGD5TWAQV0TE",
   "xv104_riptide_battlesuit__legacy_cad": "01K3SQ0Z5JSGMAC0SAQB0EWCD8",
   "xv104_riptide_battlesuit__legacy_chf": "01KBT3B1X842NM1AR8KRGQGEB5",

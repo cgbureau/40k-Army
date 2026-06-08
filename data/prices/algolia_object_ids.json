@@ -1,0 +1,950 @@
+{
+  "space_marines_primaris_chaplain_on_bike": {
+    "objectID": "prod4530269-99120101273",
+    "gw_slug": "Primaris-Chaplain-on-Bike-2020",
+    "name": "Chaplain on Bike",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:14.106635+00:00"
+  },
+  "space_marines_primaris_techmarine": {
+    "objectID": "prod4510250-99070101053",
+    "gw_slug": "Space-Marine-Primaris-Lieutenant-With-Power-Sword-2020",
+    "name": "Lieutenant with Power Sword",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:14.583249+00:00"
+  },
+  "space_marines_outriders": {
+    "objectID": "prod4540164-99120101285",
+    "gw_slug": "Outriders-2020",
+    "name": "Outriders",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:14.994512+00:00"
+  },
+  "space_marines_hammerfall_bunker": {
+    "objectID": "prod4530379-99120101294",
+    "gw_slug": "Hammerfall-Bunker-2020",
+    "name": "Hammerfall Bunker",
+    "usd_price": 69,
+    "resolved_at": "2026-06-08T13:42:15.401948+00:00"
+  },
+  "space_marines_primaris_invader_atv": {
+    "objectID": "prod4530267-99120101271",
+    "gw_slug": "Primaris-Invader-ATV-2020",
+    "name": "Primaris Invader ATV",
+    "usd_price": 53,
+    "resolved_at": "2026-06-08T13:42:15.791706+00:00"
+  },
+  "deathwatch_kill_team_cassius": {
+    "objectID": "prod4550162-99070109007",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "name": "Deathwatch Upgrades",
+    "usd_price": 17.25,
+    "resolved_at": "2026-06-08T13:42:16.186791+00:00"
+  },
+  "grey_knights_nemesis_dreadknight": {
+    "objectID": "P-226350-99120107023",
+    "gw_slug": "grey-knights-grandmaster-in-nemesis-dreadknight-2025",
+    "name": "Grand Master in Nemesis Dreadknight",
+    "usd_price": 82,
+    "resolved_at": "2026-06-08T00:00:00+00:00"
+  },
+  "space_wolves_ragnar_blackmane": {
+    "objectID": "prod4540161-99120101275",
+    "gw_slug": "Ragnar-Blackmane-2020",
+    "name": "Ragnar Blackmane",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:42:17.020083+00:00"
+  },
+  "space_marine_attack_bike": {
+    "objectID": null,
+    "gw_slug": "White-Scar-Primaris-Upgrades-2020",
+    "name": "White Scars Primaris Upgrades & Transfers",
+    "usd_price": 32,
+    "resolved_at": "2026-06-08T00:00:00+00:00",
+    "error": "not_found_in_algolia"
+  },
+  "adepta_sororitas_sister_superior_amalia_novena": {
+    "objectID": "prod4240157-99120108020",
+    "gw_slug": "Sister-Superior-Amalia-Novena-2019",
+    "name": "Sister Superior Amalia Novena",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:17.850271+00:00"
+  },
+  "talons_of_the_emperor_valerian_and_aleya": {
+    "objectID": "prod4390158-99120108031",
+    "gw_slug": "Talons-Of-The-Emperor-Valerian-And-Aleya-2020",
+    "name": "Talons of the Emperor: Valerian and Aleya",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:18.228841+00:00"
+  },
+  "dark_eldar_voidraven_bomber": {
+    "objectID": "prod2680172-99120112020",
+    "gw_slug": "Voidraven-Bomber",
+    "name": "Voidraven Bomber",
+    "usd_price": 96,
+    "resolved_at": "2026-06-08T13:42:18.607550+00:00"
+  },
+  "necrons_convergence_of_dominion": {
+    "objectID": "prod4530383-99120110066",
+    "gw_slug": "Convergence-of-Dominion-2020",
+    "name": "Convergence of Dominion",
+    "usd_price": 69,
+    "resolved_at": "2026-06-08T13:42:18.992384+00:00"
+  },
+  "necrons_ctan_shard_of_the_void_dragon": {
+    "objectID": "prod4530382-99120110054",
+    "gw_slug": "CTan-Shard-of-the-Void-Dragon-2020",
+    "name": "C'tan Shard of the Void Dragon",
+    "usd_price": 130,
+    "resolved_at": "2026-06-08T13:42:19.365648+00:00"
+  },
+  "necrons_ophydian_destroyers": {
+    "objectID": "prod4530381-99120110053",
+    "gw_slug": "Ophydian-Destroyers-2020",
+    "name": "Ophydian Destroyers",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:19.739736+00:00"
+  },
+  "necrons_monolith": {
+    "objectID": "prod4530380-99120110043",
+    "gw_slug": "Monolith-2020",
+    "name": "Monolith",
+    "usd_price": 194,
+    "resolved_at": "2026-06-08T13:42:20.104623+00:00"
+  },
+  "necrons_warriors": {
+    "objectID": "prod4530327-99120110052",
+    "gw_slug": "Necron-Warriors-2020",
+    "name": "Necron Warriors",
+    "usd_price": 53,
+    "resolved_at": "2026-06-08T13:42:20.524708+00:00"
+  },
+  "necrons_skorpekh_destroyers": {
+    "objectID": "prod4530326-99120110051",
+    "gw_slug": "Skorpekh-Destroyers-2020",
+    "name": "Skorpekh Destroyers",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:20.936679+00:00"
+  },
+  "necrons_hexmark_destroyer": {
+    "objectID": "prod4530325-99120110048",
+    "gw_slug": "Hexmark-Destroyer-2020",
+    "name": "Hexmark Destroyer",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:21.326796+00:00"
+  },
+  "necrons_canoptek_doomstalker": {
+    "objectID": "prod4530271-99120110045",
+    "gw_slug": "Canoptek-Doomstalker-2020",
+    "name": "Canoptek Doomstalker",
+    "usd_price": 53,
+    "resolved_at": "2026-06-08T13:42:21.745391+00:00"
+  },
+  "necrons_lokhust_heavy_destroyer": {
+    "objectID": "prod4530270-99120110044",
+    "gw_slug": "Lokhust-Heavy-Destroyer-2020",
+    "name": "Lokhust Heavy Destroyer",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:22.167578+00:00"
+  },
+  "illuminor_szeras": {
+    "objectID": "prod1380037a-99800110009",
+    "gw_slug": "Necron-Trazyn-the-Infinite",
+    "name": "Trazyn the Infinite",
+    "usd_price": 33.5,
+    "resolved_at": "2026-06-08T13:42:22.601579+00:00"
+  },
+  "orks_ghazghkull_thraka": {
+    "objectID": "prod4540166-99120103079",
+    "gw_slug": "Ghazghkull-Thraka-2020",
+    "name": "Ghazghkull Thraka",
+    "usd_price": 82,
+    "resolved_at": "2026-06-08T13:42:22.978011+00:00"
+  },
+  "tyranid_trygon_mawloc": {
+    "objectID": "prod2180142-99120106019",
+    "gw_slug": "Tyranid-Mawloc",
+    "name": "Mawloc",
+    "usd_price": 96,
+    "resolved_at": "2026-06-08T13:42:23.376916+00:00"
+  },
+  "tyranid_tyrannocyte": {
+    "objectID": "prod2590267-99120106034",
+    "gw_slug": "Tyrannocyte",
+    "name": "Tyrannocyte",
+    "usd_price": 82,
+    "resolved_at": "2026-06-08T13:42:23.812229+00:00"
+  },
+  "tyranid_harpy": {
+    "objectID": "prod2360290-99120106024",
+    "gw_slug": "Tyranid-Harpy",
+    "name": "Tyranid Harpy",
+    "usd_price": 92,
+    "resolved_at": "2026-06-08T13:42:24.202691+00:00"
+  },
+  "chaos_space_marine_helbrute": {
+    "objectID": "prod2430129-99120102043",
+    "gw_slug": "Helbrute",
+    "name": "Helbrute",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:24.601323+00:00"
+  },
+  "tau_empire_tidewall_droneport": {
+    "objectID": "prod2990141-99120113049",
+    "gw_slug": "Tidewall-Droneport",
+    "name": "Tidewall Droneport",
+    "usd_price": 69,
+    "resolved_at": "2026-06-08T13:42:24.987222+00:00"
+  },
+  "space_marine_primaris_captain": {
+    "objectID": "prod4530191-99070101061",
+    "gw_slug": "Space-Marine-Primaris-Captain-2020",
+    "name": "Space Marine Captain",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T13:42:25.436808+00:00"
+  },
+  "combat_patrol_space_wolves": {
+    "objectID": "P-221372-99120101426",
+    "gw_slug": "combat-patrol-space-wolves-2025",
+    "name": "Combat Patrol: Space Wolves",
+    "usd_price": 170,
+    "resolved_at": "2026-06-08T13:42:25.900873+00:00"
+  },
+  "combat_patrol_blood_angels": {
+    "objectID": "P-194147-99120101412",
+    "gw_slug": "combat-patrol-blood-angels-2024",
+    "name": "Combat Patrol: Blood Angels",
+    "usd_price": 170,
+    "resolved_at": "2026-06-08T13:42:26.363230+00:00"
+  },
+  "combat_patrol_black_templars_2025": {
+    "objectID": "P-221368-99120101428",
+    "gw_slug": "combat-patrol-black-templars-2025",
+    "name": "Combat Patrol: Black Templars",
+    "usd_price": 170,
+    "resolved_at": "2026-06-08T13:42:26.790078+00:00"
+  },
+  "space_marine_tactical_squad": {
+    "objectID": "prod4530360-99120101316",
+    "gw_slug": "Space-Marine-Tactical-Squad-2020",
+    "name": "Tactical Squad",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:27.226179+00:00"
+  },
+  "stormraven_gunship": {
+    "objectID": "prod4510327-99120101339",
+    "gw_slug": "Stormraven-Gunship-2020",
+    "name": "Stormraven Gunship",
+    "usd_price": 127,
+    "resolved_at": "2026-06-08T13:42:27.606682+00:00"
+  },
+  "space_marine_devastator_squad": {
+    "objectID": "prod4510316-99120101317",
+    "gw_slug": "Space-Marine-Devastator-Squad-2020",
+    "name": "Devastator Squad",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:28.051934+00:00"
+  },
+  "blood_angels_sanguinary_guard": {
+    "objectID": "P-193699-99120101413",
+    "gw_slug": "blood-angels-sanguinary-guard-2024",
+    "name": "Sanguinary Guard",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:28.520505+00:00"
+  },
+  "blood_angels_captain_terminator_armour": {
+    "objectID": "P-193697-99120101416",
+    "gw_slug": "blood-angels-captain-2024",
+    "name": "Blood Angels Captain",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T13:42:28.975850+00:00"
+  },
+  "ravenwing_command_squad": {
+    "objectID": null,
+    "gw_slug": "astra-militarum-cadian-command-squad-2023",
+    "name": "Cadian Command Squad",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T00:00:00+00:00",
+    "error": "not_found_in_algolia"
+  },
+  "dark_angels_master_lazarus": {
+    "objectID": "prod4580260-99120101362",
+    "gw_slug": "Dark-Angels-Master-Lazarus-2020",
+    "name": "Master Lazarus",
+    "usd_price": 47,
+    "resolved_at": "2026-06-08T13:42:29.831804+00:00"
+  },
+  "dark_angels_interrogator_chaplain": {
+    "objectID": "prod3580143-99070101035",
+    "gw_slug": "Dark-Angels-Interrogator-Chaplain-2017",
+    "name": "Dark Angels Interrogator-Chaplain",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:30.222463+00:00"
+  },
+  "deathwatch_corvus_blackstar": {
+    "objectID": "prod4550120-99120109016",
+    "gw_slug": "Deathwatch-Corvus-Blackstar-2020",
+    "name": "Corvus Blackstar",
+    "usd_price": 96,
+    "resolved_at": "2026-06-08T13:42:30.690582+00:00"
+  },
+  "deathwatch_watch_master": {
+    "objectID": "prod4550163-99070109008",
+    "gw_slug": "Deathwatch-Watch-Master-2020",
+    "name": "Watch Master",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:31.081380+00:00"
+  },
+  "deathwatch_upgrades": {
+    "objectID": "prod4550162-99070109007",
+    "gw_slug": "Deathwatch-Upgrades-2020",
+    "name": "Deathwatch Upgrades",
+    "usd_price": 17.25,
+    "resolved_at": "2026-06-08T13:42:31.539092+00:00"
+  },
+  "grey_knights_strike_squad": {
+    "objectID": "prod3530548-99120107018",
+    "gw_slug": "Grey-Knights-Strike-Squad-2017",
+    "name": "Grey Knights Strike Squad",
+    "usd_price": 69,
+    "resolved_at": "2026-06-08T13:42:32.067974+00:00"
+  },
+  "grey_knights_grand_master_voldus": {
+    "objectID": "prod3530544-99070107002",
+    "gw_slug": "Grey-Knights-Grand-Master-Voldus-2017",
+    "name": "Grand Master Voldus",
+    "usd_price": 42,
+    "resolved_at": "2026-06-08T13:42:32.443239+00:00"
+  },
+  "space_marine_venerable_dreadnought": {
+    "objectID": "prod4530122-99120101299",
+    "gw_slug": "Space-Marine-Venerable-Dreadnought-2020",
+    "name": "Venerable Dreadnought",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:32.904533+00:00"
+  },
+  "imperial_fists_tor_garadon": {
+    "objectID": "prod4530352-99120101342",
+    "gw_slug": "Imperial-Fists-Tor-Garadon-2020",
+    "name": "Tor Garadon",
+    "usd_price": 47,
+    "resolved_at": "2026-06-08T13:42:33.285446+00:00"
+  },
+  "iron_hands_feirros": {
+    "objectID": "prod4530365-99120101291",
+    "gw_slug": "Iron-Hands-Feirros-2020",
+    "name": "Iron Father Feirros",
+    "usd_price": 47,
+    "resolved_at": "2026-06-08T13:42:33.725106+00:00"
+  },
+  "iron_hands_primaris_upgrades_transfers": {
+    "objectID": "prod4510301-99070101049",
+    "gw_slug": "Iron-Hands-Primaris-Upgrades-2020",
+    "name": "Iron Hands Primaris Upgrades and Transfers",
+    "usd_price": 32,
+    "resolved_at": "2026-06-08T13:42:34.180440+00:00"
+  },
+  "raven_guard_kayvaan_shrike": {
+    "objectID": "prod4530190-99120101292",
+    "gw_slug": "Raven-Guard-Kayvaan-Shrike-2020",
+    "name": "Kayvaan Shrike",
+    "usd_price": 47,
+    "resolved_at": "2026-06-08T13:42:34.600623+00:00"
+  },
+  "raven_guard_primaris_upgrades_transfers": {
+    "objectID": "prod4510314-99070101050",
+    "gw_slug": "Raven-Guard-Primaris-Upgrades-2020",
+    "name": "Raven Guard Primaris Upgrades and Transfers",
+    "usd_price": 32,
+    "resolved_at": "2026-06-08T13:42:35.050110+00:00"
+  },
+  "salamanders_adrax_agatone": {
+    "objectID": "prod4530362-99120101293",
+    "gw_slug": "Salamanders-Adrax-Agatone-2020",
+    "name": "Adrax Agatone",
+    "usd_price": 47,
+    "resolved_at": "2026-06-08T13:42:35.456410+00:00"
+  },
+  "space_wolves_wolf_guard_terminators": {
+    "objectID": "P-219464-99120101441",
+    "gw_slug": "space-wolves-wolf-guard-terminators-2025",
+    "name": "Wolf Guard Terminators",
+    "usd_price": 69,
+    "resolved_at": "2026-06-08T13:42:35.986095+00:00"
+  },
+  "space_wolves_venerable_dreadnought": {
+    "objectID": "prod4550172-99120101348",
+    "gw_slug": "Space-Wolves-Venerable-Dreadnought-2020",
+    "name": "Space Wolves Venerable Dreadnought",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:36.423868+00:00"
+  },
+  "space_wolves_ulrik_the_slayer": {
+    "objectID": null,
+    "gw_slug": "Space-Wolves-Grey-2019",
+    "name": "Contrast: Space Wolves Grey",
+    "usd_price": 7.8,
+    "resolved_at": "2026-06-08T00:00:00+00:00",
+    "error": "not_found_in_algolia"
+  },
+  "space_wolves_iron_priest": {
+    "objectID": "prod4550167-99070101065",
+    "gw_slug": "Space-Wolves-Iron-Priest-2020",
+    "name": "Iron Priest",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:37.299818+00:00"
+  },
+  "space_wolves_wulfen": {
+    "objectID": "prod4550122-99120101349",
+    "gw_slug": "Space-Wolves-Wulfen-2020",
+    "name": "Wulfen",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:37.726810+00:00"
+  },
+  "ultramarines_chief_librarian_tigurius": {
+    "objectID": "prod4530181-99120101329",
+    "gw_slug": "Ultramarines-Chief-Librarian-Tigurius-2020",
+    "name": "Chief Librarian Tigurius",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:42:38.111028+00:00"
+  },
+  "white_scars_korsarro_khan": {
+    "objectID": "prod4530151-99120101330",
+    "gw_slug": "White-Scars-KorSarro-Khan-2020",
+    "name": "Kor'sarro Khan",
+    "usd_price": 47,
+    "resolved_at": "2026-06-08T13:42:38.489861+00:00"
+  },
+  "adepta_sororitas_rhino": {
+    "objectID": "prod4400132-99120108063",
+    "gw_slug": "Adepta-Sororitas-Rhino-2020",
+    "name": "Adepta Sororitas Rhino",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:38.931614+00:00"
+  },
+  "adepta_sororitas_repentia_squad": {
+    "objectID": "prod4400131-99120108060",
+    "gw_slug": "Adepta-Sororitas-Repentia-Squad-2020",
+    "name": "Repentia Squad",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:39.350356+00:00"
+  },
+  "adepta_sororitas_immolator": {
+    "objectID": "prod4400129-99120108054",
+    "gw_slug": "Adepta-Sororitas-Immolator-2020",
+    "name": "Immolator",
+    "usd_price": 84,
+    "resolved_at": "2026-06-08T13:42:39.779423+00:00"
+  },
+  "adepta_sororitas_penitent_engines": {
+    "objectID": "prod4370259-99120108059",
+    "gw_slug": "Adepta-Sororitas-Penitent-Engines-2020",
+    "name": "Penitent Engines",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:40.199986+00:00"
+  },
+  "adepta_sororitas_arco_flagellants": {
+    "objectID": "prod4370258-99120108056",
+    "gw_slug": "Adepta-Sororitas-Arco-Flagellants-2020",
+    "name": "Arco-flagellants",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:40.573970+00:00"
+  },
+  "adepta_sororitas_junith_eruita": {
+    "objectID": "prod4370257-99120108055",
+    "gw_slug": "Adepta-Sororitas-Junith-Eruita-2020",
+    "name": "Junith Eruita",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:41.004364+00:00"
+  },
+  "adepta_sororitas_hospitaller": {
+    "objectID": "prod4370256-99120108053",
+    "gw_slug": "Adepta-Sororitas-Hospitaller-2020",
+    "name": "Hospitaller",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T13:42:41.532608+00:00"
+  },
+  "adepta_sororitas_retributor_squad": {
+    "objectID": "prod4370219-99120108062",
+    "gw_slug": "Adepta-Sororitas-Retributor-Squad-2020",
+    "name": "Retributor Squad",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:42.055068+00:00"
+  },
+  "adepta_sororitas_the_triumph_of_st_katherine": {
+    "objectID": "prod4370218-99120108061",
+    "gw_slug": "Adepta-Sororitas-The-Triumph-Of-St-Katherine-2020",
+    "name": "The Triumph of Saint Katherine",
+    "usd_price": 122,
+    "resolved_at": "2026-06-08T13:42:42.492351+00:00"
+  },
+  "adepta_sororitas_battle_sisters_squad": {
+    "objectID": "prod4370217-99120108057",
+    "gw_slug": "Adepta-Sororitas-Battle-Sisters-Squad-2020",
+    "name": "Adepta Sororitas Battle Sisters Squad",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:42.924017+00:00"
+  },
+  "adepta_sororitas_exorcist": {
+    "objectID": "prod4370255-99120108052",
+    "gw_slug": "Adepta-Sororitas-Exorcist-2020",
+    "name": "Exorcist",
+    "usd_price": 92,
+    "resolved_at": "2026-06-08T13:42:43.374871+00:00"
+  },
+  "adepta_sororitas_seraphim_squad": {
+    "objectID": "prod4400133-99120108064",
+    "gw_slug": "Adepta-Sororitas-Seraphim-Squad-2020",
+    "name": "Seraphim Squad",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:43.767146+00:00"
+  },
+  "adeptus_custodes_vertus_praetors": {
+    "objectID": "prod3710210-99120108078",
+    "gw_slug": "Adeptus-Custodes-Vertus-Praetors-2018",
+    "name": "Vertus Praetors",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:44.150916+00:00"
+  },
+  "adeptus_custodes_custodian_wardens": {
+    "objectID": "prod3710209-99120108077",
+    "gw_slug": "Adeptus-Custodes-Custodian-Wardens-2018",
+    "name": "Custodian Wardens",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:44.537763+00:00"
+  },
+  "adeptus_mechanicus_serberys_raiders": {
+    "objectID": "prod4420184-99120116041",
+    "gw_slug": "Adeptus-Mechanicus-Serberys-Raiders-2020",
+    "name": "Serberys Raiders",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:45.003152+00:00"
+  },
+  "adeptus_mechanicus_pteraxii": {
+    "objectID": "prod4420183-99120116040",
+    "gw_slug": "Adeptus-Mechanicus-Pteraxii-2020",
+    "name": "Pteraxii Skystalkers",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:45.457140+00:00"
+  },
+  "adeptus_mechanicus_archaeopter": {
+    "objectID": "prod4420182-99120116039",
+    "gw_slug": "Adeptus-Mechanicus-Archaeopter-2020",
+    "name": "Archaeopter Transvector",
+    "usd_price": 122,
+    "resolved_at": "2026-06-08T13:42:45.889611+00:00"
+  },
+  "adeptus_mechanicus_tech_priest_manipulus": {
+    "objectID": "prod4420181-99070116006",
+    "gw_slug": "Adeptus-Mechanicus-Tech-priest-Manipulus-2020",
+    "name": "Tech-Priest Manipulus",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T13:42:46.287362+00:00"
+  },
+  "adeptus_mechanicus_skorpius_disintegrator": {
+    "objectID": "prod4210208-99120116038",
+    "gw_slug": "Adeptus-Mechanicus-Skorpius-Disintegrator-2019",
+    "name": "Skorpius Disintegrator",
+    "usd_price": 84,
+    "resolved_at": "2026-06-08T13:42:46.660966+00:00"
+  },
+  "astra_militarum_tech_priest_enginseer": {
+    "objectID": "prod3150382-99070116004",
+    "gw_slug": "Astra-Militarum-Tech-Priest-Enginseer",
+    "name": "Tech-Priest Enginseer",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:42:47.090331+00:00"
+  },
+  "craftworlds_howling_banshees": {
+    "objectID": "prod4390157-99120104086",
+    "gw_slug": "Craftworlds-Howling-Banshees-2020",
+    "name": "Howling Banshees",
+    "usd_price": 62.5,
+    "resolved_at": "2026-06-08T13:42:47.483074+00:00"
+  },
+  "eldar_dire_avengers": {
+    "objectID": "prod3690254-99120104079",
+    "gw_slug": "Eldar-Dire-Avengers-2017",
+    "name": "Dire Avengers",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:42:47.866509+00:00"
+  },
+  "drukhari_incubi": {
+    "objectID": "prod4390160-99120112051",
+    "gw_slug": "Drukhari-Incubi-2020",
+    "name": "Incubi",
+    "usd_price": 62.5,
+    "resolved_at": "2026-06-08T13:42:48.266270+00:00"
+  },
+  "eldar_windriders": {
+    "objectID": "prod3660121-99120104082",
+    "gw_slug": "Eldar-Windriders-2017",
+    "name": "Windriders",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:48.656077+00:00"
+  },
+  "eldar_farseer_skyrunner": {
+    "objectID": "prod3650295-99070104012",
+    "gw_slug": "Eldar-Farseer-Skyrunner-2017",
+    "name": "Farseer Skyrunner",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T13:42:49.045518+00:00"
+  },
+  "eldar_hemlock_wraithfighter": {
+    "objectID": "prod3600197-99120104080",
+    "gw_slug": "Eldar-Hemlock-Wraithfighter-2017",
+    "name": "Hemlock Wraithfighter",
+    "usd_price": 96,
+    "resolved_at": "2026-06-08T13:42:49.442563+00:00"
+  },
+  "dark_eldar_venom": {
+    "objectID": "prod3590134-99120112049",
+    "gw_slug": "Dark-Eldar-Venom-2017",
+    "name": "Venom",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T00:00:00+00:00"
+  },
+  "dark_eldar_talos_pain_engine": {
+    "objectID": "prod3740157-99120112048",
+    "gw_slug": "Dark-Eldar-Talos-Pain-Engine-2018",
+    "name": "Talos",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T00:00:00+00:00"
+  },
+  "dark_eldar_scourges": {
+    "objectID": "prod1230009a-99120112047",
+    "gw_slug": "Dark-Eldar-Scourges",
+    "name": "Scourges",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T00:00:00+00:00"
+  },
+  "genestealer_cults_kelermorph": {
+    "objectID": "prod4370382-99070117019",
+    "gw_slug": "Genestealer-Cults-Kelermorph-2020",
+    "name": "Kelermorph",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:51.081002+00:00"
+  },
+  "genestealer_cults_achilles_ridgerunner": {
+    "objectID": "prod4140167-99120117025",
+    "gw_slug": "Genestealer-Cults-Achilles-Ridgerunner-2019",
+    "name": "Achilles Ridgerunner",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:51.465698+00:00"
+  },
+  "genestealer_cults_aberrants": {
+    "objectID": "prod4140166-99120117022",
+    "gw_slug": "Genestealer-Cults-Aberrants-2019",
+    "name": "Aberrants",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:42:51.843628+00:00"
+  },
+  "genestealer_cults_abominant": {
+    "objectID": "prod4140165-99070117018",
+    "gw_slug": "Genestealer-Cults-Abominant-2019",
+    "name": "Abominant",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:52.257441+00:00"
+  },
+  "genestealer_cults_biophagus": {
+    "objectID": "prod4140164-99070117012",
+    "gw_slug": "Genestealer-Cults-Biophagus-2019",
+    "name": "Biophagus",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:52.642009+00:00"
+  },
+  "genestealer_cults_jackal_alphus": {
+    "objectID": "prod4130153-99120117023",
+    "gw_slug": "Genestealer-Cults-Jackal-Alphus-2019",
+    "name": "Jackal Alphus",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:42:53.046651+00:00"
+  },
+  "genestealer_cults_nexos": {
+    "objectID": "prod4130151-99070117017",
+    "gw_slug": "Genestealer-Cults-Nexos-2019",
+    "name": "Nexos",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:53.453269+00:00"
+  },
+  "genestealer_cults_locus": {
+    "objectID": "prod4130150-99070117016",
+    "gw_slug": "Genestealer-Cults-Locus-2019",
+    "name": "Locus",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:53.840674+00:00"
+  },
+  "genestealer_cults_magus": {
+    "objectID": "prod4130148-99070117014",
+    "gw_slug": "Genestealer-Cults-Magus-2019",
+    "name": "Magus",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:54.275174+00:00"
+  },
+  "genestealer_cults_clamavus": {
+    "objectID": "prod4130147-99070117013",
+    "gw_slug": "Genestealer-Cults-Clamavus-2019",
+    "name": "Clamavus",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:54.652569+00:00"
+  },
+  "genestealer_cults_broodcoven": {
+    "objectID": "prod3290256-99120117017",
+    "gw_slug": "Genestealer-Cults-Broodcoven",
+    "name": "Broodcoven",
+    "usd_price": 73.5,
+    "resolved_at": "2026-06-08T00:00:00+00:00"
+  },
+  "tyranid_genestealers": {
+    "objectID": "P-156049-99120106068",
+    "gw_slug": "tyranids-genestealers-2023",
+    "name": "Genestealers",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:55.520424+00:00"
+  },
+  "genestealer_cults_atalan_jackals": {
+    "objectID": "prod4130154-99120117024",
+    "gw_slug": "Genestealer-Cults-Atalan-Jackals-2019",
+    "name": "Atalan Jackals",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:55.975838+00:00"
+  },
+  "genestealer_cults_sanctus": {
+    "objectID": "prod4130149-99070117015",
+    "gw_slug": "Genestealer-Cults-Sanctus-2019",
+    "name": "Sanctus",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:42:56.372804+00:00"
+  },
+  "necron_warriors": {
+    "objectID": "prod4530327-99120110052",
+    "gw_slug": "Necron-Warriors-2020",
+    "name": "Necron Warriors",
+    "usd_price": 53,
+    "resolved_at": "2026-06-08T13:42:56.836001+00:00"
+  },
+  "necron_canoptek_wraiths": {
+    "objectID": "prod4530138-99120110060",
+    "gw_slug": "Necron-Canoptek-Wraiths-2020",
+    "name": "Canoptek Wraiths",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:42:57.231077+00:00"
+  },
+  "necron_tomb_blades": {
+    "objectID": "prod4510311-99120110059",
+    "gw_slug": "Necron-Tomb-Blades-2020",
+    "name": "Tomb Blades",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:57.623546+00:00"
+  },
+  "necron_immortals_deathmarks": {
+    "objectID": "prod4510310-99120110057",
+    "gw_slug": "Necron-Immortals-2020",
+    "name": "Immortals",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:42:58.007938+00:00"
+  },
+  "necron_doom_scythe_night_scythe": {
+    "objectID": "prod4510309-99120110065",
+    "gw_slug": "Necron-Doom-Scythe-2020",
+    "name": "Night Scythe",
+    "usd_price": 77,
+    "resolved_at": "2026-06-08T13:42:58.386145+00:00"
+  },
+  "necron_catacomb_commmand_barge": {
+    "objectID": "prod4510307-99120110064",
+    "gw_slug": "Necron-Catacomb-Command-Barge-2020",
+    "name": "Necron Catacomb Command Barge",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:58.793675+00:00"
+  },
+  "necron_overlord": {
+    "objectID": "P-163834-99070110006",
+    "gw_slug": "necrons-overlord-2023",
+    "name": "Overlord with Tachyon Arrow",
+    "usd_price": 42,
+    "resolved_at": "2026-06-08T13:42:59.221286+00:00"
+  },
+  "orks_kustom_boosta_blasta": {
+    "objectID": "prod4090143-99120103100",
+    "gw_slug": "Orks-Kustom-Boosta-Blasta-2019",
+    "name": "Kustom Boosta-blasta",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:42:59.662881+00:00"
+  },
+  "rukkatrukk_squigbuggy": {
+    "objectID": "prod4000171-99120103102",
+    "gw_slug": "Orks-Rukkatrukk-Squigbuggy-2018",
+    "name": "Rukkatrukk Squigbuggy",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:43:00.121485+00:00"
+  },
+  "deffkilla_wartrike": {
+    "objectID": "prod4000169-99120103099",
+    "gw_slug": "Orks-Deffkilla-Wartrike-2018",
+    "name": "Deffkilla Wartrike",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:43:00.560936+00:00"
+  },
+  "boomdakka_snazzwagon": {
+    "objectID": "prod4000168-99120103098",
+    "gw_slug": "Orks-Boomdakka-Snazzwagon-2018",
+    "name": "Boomdakka Snazzwagon",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:43:01.019532+00:00"
+  },
+  "ork_warbiker_mob": {
+    "objectID": "prod4000165-99120103096",
+    "gw_slug": "Ork-Warbiker-Mob-2018",
+    "name": "Ork Warbiker Mob",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:43:01.498415+00:00"
+  },
+  "ork_gretchin": {
+    "objectID": "prod4000161-99120103092",
+    "gw_slug": "Ork-Gretchin-2018",
+    "name": "Ork Gretchin",
+    "usd_price": 27,
+    "resolved_at": "2026-06-08T13:43:02.095516+00:00"
+  },
+  "ork_mek_gun": {
+    "objectID": "prod4000158-99070103004",
+    "gw_slug": "Ork-Mek-2018",
+    "name": "Ork Mek",
+    "usd_price": 32,
+    "resolved_at": "2026-06-08T13:43:02.535472+00:00"
+  },
+  "orks_shokkjump_dragsta": {
+    "objectID": "prod4090144-99120103103",
+    "gw_slug": "Orks-Shokkjump-Dragsta-2019",
+    "name": "Shokkjump Dragsta",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:43:03.007204+00:00"
+  },
+  "ork_killa_kans": {
+    "objectID": "prod630021a-99120103085",
+    "gw_slug": "Ork-Killa-Kans",
+    "name": "Killa Kans",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:43:03.451779+00:00"
+  },
+  "astra_militarum_baneblade": {
+    "objectID": "prod5030168-99120105107",
+    "gw_slug": "astra-militarum-baneblade-2023",
+    "name": "Baneblade",
+    "usd_price": 197,
+    "resolved_at": "2026-06-08T13:43:03.891570+00:00"
+  },
+  "tyranid_warriors": {
+    "objectID": "prod3590130-99120106058",
+    "gw_slug": "Tyranid-Warriors-2017",
+    "name": "Tyranid Warriors",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:43:04.267424+00:00"
+  },
+  "tyranid_gargoyle_brood": {
+    "objectID": "prod350002a-99120106052",
+    "gw_slug": "Tyranid-Gargoyle-Brood",
+    "name": "Gargoyle Brood",
+    "usd_price": 48.5,
+    "resolved_at": "2026-06-08T13:43:04.656115+00:00"
+  },
+  "tyranid_broodlord": {
+    "objectID": "prod3150383-99120106059",
+    "gw_slug": "Tyranid-Broodlord",
+    "name": "Broodlord",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:43:05.047015+00:00"
+  },
+  "tyranid_tyrannofex": {
+    "objectID": "prod1460213a-99120106054",
+    "gw_slug": "Tyranid-Tyrannofex",
+    "name": "Tyrannofex",
+    "usd_price": 69,
+    "resolved_at": "2026-06-08T13:43:05.425827+00:00"
+  },
+  "imperial_knights_knight_preceptor_canis_rex": {
+    "objectID": "P-217972-99120108106",
+    "gw_slug": "imperial-knights-knight-preceptor-canis-rex-2025",
+    "name": "Knight Preceptor/Canis Rex",
+    "usd_price": 194,
+    "resolved_at": "2026-06-08T13:43:05.951205+00:00"
+  },
+  "cypher": {
+    "objectID": "prod3700233-99070102008",
+    "gw_slug": "Cypher-2018",
+    "name": "Cypher",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:43:06.346448+00:00"
+  },
+  "tau_empire_fire_warriors": {
+    "objectID": "prod3720130-99120113076",
+    "gw_slug": "Tau-Empire-Fire-Warriors-2017",
+    "name": "Fire Warriors Strike Team",
+    "usd_price": 60,
+    "resolved_at": "2026-06-08T13:43:06.789991+00:00"
+  },
+  "tau_empire_xv88_broadside_battlesuit": {
+    "objectID": "prod3700286-99120113082",
+    "gw_slug": "Tau-Empire-XV88-Broadside-Battlesuit-2017",
+    "name": "XV88 Broadside Battlesuit",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:43:07.201655+00:00"
+  },
+  "xv104_riptide_battlesuit": {
+    "objectID": "prod3630127-99120113077",
+    "gw_slug": "Tau-Empire-XV104-Riptide-Battlesuit-2017",
+    "name": "XV104 Riptide Battlesuit",
+    "usd_price": 122,
+    "resolved_at": "2026-06-08T13:43:07.571175+00:00"
+  },
+  "tau_empire_commander": {
+    "objectID": "prod3590135-99120113079",
+    "gw_slug": "Tau-Empire-Commander-2017",
+    "name": "T'au Empire Commander",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:43:08.005121+00:00"
+  },
+  "cadre_fireblade": {
+    "objectID": "prod3590123-99070113006",
+    "gw_slug": "Tau-Empire-Cadre-Fireblade-2017",
+    "name": "Cadre Fireblade",
+    "usd_price": 35,
+    "resolved_at": "2026-06-08T13:43:08.381776+00:00"
+  },
+  "hammerhead_gunship": {
+    "objectID": "prod2210211-99120113070",
+    "gw_slug": "Tau-Empire-Hammerhead-Gunship",
+    "name": "Hammerhead Gunship",
+    "usd_price": 80,
+    "resolved_at": "2026-06-08T13:43:08.821794+00:00"
+  },
+  "tau_empire_ty7_devilfish": {
+    "objectID": "prod1720000-99120113074",
+    "gw_slug": "Tau-Empire-TY7-Devilfish-2015",
+    "name": "Devilfish",
+    "usd_price": 65,
+    "resolved_at": "2026-06-08T13:43:09.255000+00:00"
+  },
+  "tau_empire_tx4_piranha": {
+    "objectID": "prod1090208-99120113073",
+    "gw_slug": "Tau-Empire-TX4-Piranha-2015",
+    "name": "Piranha",
+    "usd_price": 43.5,
+    "resolved_at": "2026-06-08T13:43:09.685030+00:00"
+  },
+  "necron_canoptek_spyder": {
+    "objectID": "prod4510242-99120110061",
+    "gw_slug": "Canoptek-Spyder-2020",
+    "name": "Canoptek Spyder",
+    "usd_price": 48,
+    "resolved_at": "2026-06-08T13:43:10.081573+00:00"
+  },
+  "necron_cryptek": {
+    "objectID": "prod4510244-99070110005",
+    "gw_slug": "Necron-Cryptek-2020",
+    "name": "Cryptek",
+    "usd_price": 39,
+    "resolved_at": "2026-06-08T13:43:10.520012+00:00"
+  }
+}
