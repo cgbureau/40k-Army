@@ -10084,7 +10084,58 @@ type KitSeedSlug =
   | "wake_the_dead"
   | "white_scars_korsarro_khan"
   | "white_scars_primaris_upgrades_transfers"
-  | "xv104_riptide_battlesuit";
+  | "xv104_riptide_battlesuit"
+  | "adepta_sororitas_canoness_with_jump_pack"
+  | "adepta_sororitas_castigator"
+  | "adepta_sororitas_celestian_sacresants"
+  | "adepta_sororitas_dominions_celestians"
+  | "adepta_sororitas_imagifier"
+  | "adepta_sororitas_intranzia_fraye_dogmata_superior"
+  | "adepta_sororitas_ministorum_priest"
+  | "adepta_sororitas_ministorum_priest_with_vindicator"
+  | "adepta_sororitas_mortifier"
+  | "adepta_sororitas_palatine"
+  | "adepta_sororitas_sister_dogmata"
+  | "adepta_sororitas_sisters_novitiate_squad"
+  | "adepta_sororitas_zephyrim_squad"
+  | "adeptus_custodes_allarus_custodians"
+  | "adeptus_custodes_blade_champion"
+  | "adeptus_custodes_custodian_guard"
+  | "adeptus_custodes_shield_captain"
+  | "aestred_thurga_relinquant_at_arms"
+  | "captain_general_trajann_valoris"
+  | "custodes_gunship"
+  | "daemonifuge_ephrael_stern_and_kyganil"
+  | "legio_custodes_aquilon_terminators"
+  | "legio_custodes_aquilon_terminators_with_infernus_firepikes"
+  | "legio_custodes_ares_gunship"
+  | "legio_custodes_caladius_grav_tank"
+  | "legio_custodes_caladius_grav_tank_annihilator"
+  | "legio_custodes_coronus_grav_carrier"
+  | "legio_custodes_custodian_dreadnought"
+  | "legio_custodes_custodian_guard_sodality"
+  | "legio_custodes_gyrfalcon_pattern_jetbike"
+  | "legio_custodes_heavy_dreadnought_body"
+  | "legio_custodes_pallas_grav_attack"
+  | "legio_custodes_sentinel_guard_sodality"
+  | "legio_custodes_shield_captain"
+  | "legio_custodes_venatari_sodality"
+  | "legiones_astartes_contemptor_dreadnought"
+  | "morvenn_vahl_abbess_sanctorum"
+  | "shield_captain"
+  | "shield_captain_and_4_miniatures"
+  | "shield_captain_in_allarus_terminator_armour"
+  | "shield_captain_on_dawneagle_and_2_miniatures"
+  | "sisters_of_silence"
+  | "space_marine_celestine_the_living_saint"
+  | "space_marines_rhino"
+  | "venerable_land_raider"
+  | "vexilus_praetor"
+  | "vexilus_praetor_and_4_miniatures"
+  | "vexilus_praetor_in_allarus_terminator_armour"
+  | "vigilator_squad"
+  | "witchseeker_squad"
+;
 
 const kitSeedIds: Record<KitSeedSlug, string> = {
   "combat_patrol_black_templars_2025": "01KYG2HBB8BNS1D3454G1G104E",
@@ -10617,6 +10668,56 @@ const kitSeedIds: Record<KitSeedSlug, string> = {
   "white_scars_korsarro_khan": "01KQDPYCBMM5FNAB2V2M9ZD5Y3",
   "white_scars_primaris_upgrades_transfers": "01KG7A9BX40WZVMAW7Q7F9RQ09",
   "xv104_riptide_battlesuit": "01KPEAJJ39EPNMM72YW5DMA49Q",
+  "adepta_sororitas_canoness_with_jump_pack": "01KTKVS0SBA8XY19QZDEGZMS6R",
+  "adepta_sororitas_castigator": "01KTKVS0QY0AVJ0HP4SVSQ56FJ",
+  "adepta_sororitas_celestian_sacresants": "01KTKVS0WBZ41ZDBHSS64Y5PA4",
+  "adepta_sororitas_dominions_celestians": "01KTKVS0TNTJWJ58GJF0F48J2E",
+  "adepta_sororitas_imagifier": "01KTKVS0Q6S8HV30WKHQGVTR3P",
+  "adepta_sororitas_intranzia_fraye_dogmata_superior": "01KTKVS0T7X8JFQH67DZMANTCB",
+  "adepta_sororitas_ministorum_priest": "01KTKVS0RVTG1Z56F4VYK1MFKV",
+  "adepta_sororitas_ministorum_priest_with_vindicator": "01KTKVS0RCBCZG9BWDSKT7MW70",
+  "adepta_sororitas_mortifier": "01KTKVS0KKMREWC9VPFHJA15BR",
+  "adepta_sororitas_palatine": "01KTKVS0VNC33TXCAA6DGGKXNM",
+  "adepta_sororitas_sister_dogmata": "01KTKVS0QJDTCSEEV598H4CD7B",
+  "adepta_sororitas_sisters_novitiate_squad": "01KTKVS0SS25YWZBSZYQRSXP02",
+  "adepta_sororitas_zephyrim_squad": "01KTKVS0NS3SF8GYSVP9FR5R8B",
+  "adeptus_custodes_allarus_custodians": "01KTKVS180RWDF5R8N8ZJE3MJN",
+  "adeptus_custodes_blade_champion": "01KTKVS12QZWT5TZZDK373TX68",
+  "adeptus_custodes_custodian_guard": "01KTKVS14SNJW0W0E4RBT7A00R",
+  "adeptus_custodes_shield_captain": "01KTKVS10QNKCVCDKKZWYZ40PQ",
+  "aestred_thurga_relinquant_at_arms": "01KTKVS0XNH9EWV6YHCDSEXGM1",
+  "captain_general_trajann_valoris": "01KTKVS0Y5W336WX507X8VS77C",
+  "custodes_gunship": "01KTKVS1GASZG0N1RHP0QM5BPN",
+  "daemonifuge_ephrael_stern_and_kyganil": "01KTKVS0V3AJN8T604H78W5AN1",
+  "legio_custodes_aquilon_terminators": "01KTKVS18F335FG20W70GHZ95R",
+  "legio_custodes_aquilon_terminators_with_infernus_firepikes": "01KTKVS18YWDDPVJH8HWCNDSNE",
+  "legio_custodes_ares_gunship": "01KTKVS1FYCE797KN5W5XXVBYW",
+  "legio_custodes_caladius_grav_tank": "01KTKVS1E2ZTT9JND4C5AED033",
+  "legio_custodes_caladius_grav_tank_annihilator": "01KTKVS1EGK64N39R80MKSPKJ8",
+  "legio_custodes_coronus_grav_carrier": "01KTKVS1F2RXG5CMZTYX8258FW",
+  "legio_custodes_custodian_dreadnought": "01KTKVS1BZFGA9S0XY8TKAZ26Q",
+  "legio_custodes_custodian_guard_sodality": "01KTKVS159NEMZ2HM8KNSGY593",
+  "legio_custodes_gyrfalcon_pattern_jetbike": "01KTKVS17H8094N1C6T504P0WC",
+  "legio_custodes_heavy_dreadnought_body": "01KTKVS1DKTDH263FDAH32XT0S",
+  "legio_custodes_pallas_grav_attack": "01KTKVS1FGH6ZPSKRNQ5P3TQ1P",
+  "legio_custodes_sentinel_guard_sodality": "01KTKVS15PAZ4538SA00SEW4YF",
+  "legio_custodes_shield_captain": "01KTKVS0Z58E0E841XC7FJNJK6",
+  "legio_custodes_venatari_sodality": "01KTKVS19B2DF4983E1N0MVF8K",
+  "legiones_astartes_contemptor_dreadnought": "01KTKVS1D134N2PA0CAM59XA6M",
+  "morvenn_vahl_abbess_sanctorum": "01KTKVS0WSJTDKZRETSP0AYHGA",
+  "shield_captain": "01KTKVS0ZKPX5KGHRYHAJ6B6R0",
+  "shield_captain_and_4_miniatures": "01KTKVS104RPBJTGR615VCX5QK",
+  "shield_captain_in_allarus_terminator_armour": "01KTKVS124CVBWWS0N428MSQWJ",
+  "shield_captain_on_dawneagle_and_2_miniatures": "01KTKVS11KHXRP3B76ZNQCGTY4",
+  "sisters_of_silence": "01KTKVS19S40JG41J82JQ2611Y",
+  "space_marine_celestine_the_living_saint": "01KTKVS0PR85V6YH9XXK6824JE",
+  "space_marines_rhino": "01KTKVS1AZG6M1815VQ7APNYE4",
+  "venerable_land_raider": "01KTKVS1BG4VG0JA2KCPEC4D14",
+  "vexilus_praetor": "01KTKVS13NFD35HTK670B99TQ6",
+  "vexilus_praetor_and_4_miniatures": "01KTKVS164BVCCTKQ0X1DMCNSY",
+  "vexilus_praetor_in_allarus_terminator_armour": "01KTKVS147GKCFEEV4BNXC7AYC",
+  "vigilator_squad": "01KTKVS135H6DJHMXVFBBEGKBE",
+  "witchseeker_squad": "01KTKVS1AKVM1W600YQF8P096E",
 };
 
 export const kitId = (slug: KitSeedSlug): string => {
@@ -10647,6 +10748,56 @@ type KitUnitSeedSlug =
   | "adeptus_custodes_custodian_wardens__custodian_wardens__complete_unit"
   | "adeptus_custodes_vertus_praetors__vertus_praetors__complete_unit"
   | "adeptus_sororitas_imagifier__imagifier__complete_unit"
+  | "adepta_sororitas_canoness_with_jump_pack__canoness_with_jump_pack__complete_unit"
+  | "adepta_sororitas_castigator__castigator__complete_unit"
+  | "adepta_sororitas_celestian_sacresants__celestian_sacresants__complete_unit"
+  | "adepta_sororitas_dominions_celestians__dominion_squad__alternate_build"
+  | "adepta_sororitas_imagifier__imagifier__complete_unit"
+  | "adepta_sororitas_intranzia_fraye_dogmata_superior__intranzia_fraye__complete_unit"
+  | "adepta_sororitas_ministorum_priest__ministorum_priest__complete_unit"
+  | "adepta_sororitas_ministorum_priest_with_vindicator__ministorum_priest__complete_unit"
+  | "adepta_sororitas_mortifier__mortifiers__alternate_build"
+  | "adepta_sororitas_palatine__palatine__complete_unit"
+  | "adepta_sororitas_sister_dogmata__dogmata__complete_unit"
+  | "adepta_sororitas_sisters_novitiate_squad__sisters_novitiate_squad__complete_unit"
+  | "adepta_sororitas_zephyrim_squad__zephyrim_squad__alternate_build"
+  | "adeptus_custodes_allarus_custodians__allarus_custodians__complete_unit"
+  | "adeptus_custodes_blade_champion__blade_champion__complete_unit"
+  | "adeptus_custodes_custodian_guard__custodian_guard__complete_unit"
+  | "adeptus_custodes_shield_captain__shield_captain__complete_unit"
+  | "aestred_thurga_relinquant_at_arms__aestred_thurga_and_agathae_dolan__complete_unit"
+  | "captain_general_trajann_valoris__trajann_valoris__complete_unit"
+  | "custodes_gunship__orion_assault_dropship__complete_unit"
+  | "daemonifuge_ephrael_stern_and_kyganil__daemonifuge__complete_unit"
+  | "legio_custodes_aquilon_terminators__aquilon_custodians__complete_unit"
+  | "legio_custodes_aquilon_terminators_with_infernus_firepikes__aquilon_custodians__complete_unit"
+  | "legio_custodes_ares_gunship__ares_gunship__complete_unit"
+  | "legio_custodes_caladius_grav_tank__caladius_grav_tank__complete_unit"
+  | "legio_custodes_caladius_grav_tank_annihilator__caladius_grav_tank__complete_unit"
+  | "legio_custodes_coronus_grav_carrier__coronus_grav_carrier__complete_unit"
+  | "legio_custodes_custodian_dreadnought__contemptor_achillus_dreadnought__complete_unit"
+  | "legio_custodes_custodian_dreadnought__contemptor_galatus_dreadnought__complete_unit"
+  | "legio_custodes_custodian_guard_sodality__custodian_guard__complete_unit"
+  | "legio_custodes_gyrfalcon_pattern_jetbike__agamatus_custodians__complete_unit"
+  | "legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__complete_unit"
+  | "legio_custodes_pallas_grav_attack__pallas_grav_attack__complete_unit"
+  | "legio_custodes_sentinel_guard_sodality__custodian_guard__complete_unit"
+  | "legio_custodes_shield_captain__shield_captain__complete_unit"
+  | "legio_custodes_venatari_sodality__venatari_custodians__complete_unit"
+  | "legiones_astartes_contemptor_dreadnought__venerable_contemptor_dreadnought__complete_unit"
+  | "morvenn_vahl_abbess_sanctorum__morvenn_vahl__complete_unit"
+  | "morvenn_vahl_abbess_sanctorum__paragon_warsuits__complete_unit"
+  | "shield_captain__custodian_guard__partial_unit"
+  | "shield_captain_and_4_miniatures__shield_captain__partial_unit"
+  | "shield_captain_in_allarus_terminator_armour__shield_captain_in_allarus_terminator_armour__complete_unit"
+  | "shield_captain_on_dawneagle_and_2_miniatures__shield_captain_on_dawneagle_jetbike__complete_unit"
+  | "sisters_of_silence__prosecutors__alternate_build"
+  | "space_marine_celestine_the_living_saint__saint_celestine__complete_unit"
+  | "space_marines_rhino__anathema_psykana_rhino__complete_unit"
+  | "venerable_land_raider__venerable_land_raider__complete_unit"
+  | "vigilator_squad__vigilators__alternate_build"
+  | "vigilator_squad__vigilators__partial_unit"
+  | "witchseeker_squad__witchseekers__alternate_build"
 ;
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
@@ -10673,6 +10824,56 @@ const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
   "adeptus_custodes_custodian_wardens__custodian_wardens__complete_unit": "01KTKS8AJHCJK865TPV8ZNP2T8",
   "adeptus_custodes_vertus_praetors__vertus_praetors__complete_unit": "01KTKS8AK1JCKKWSSVJ3M07PGH",
   "adeptus_sororitas_imagifier__imagifier__complete_unit": "01KTKS8AHAX98PTSZPD2G79FNC",
+  "adepta_sororitas_canoness_with_jump_pack__canoness_with_jump_pack__complete_unit": "01KTKVS0SS63053048K5T0B5NW",
+  "adepta_sororitas_castigator__castigator__complete_unit": "01KTKVS0RCA8J65XNA9WDXN95T",
+  "adepta_sororitas_celestian_sacresants__celestian_sacresants__complete_unit": "01KTKVS0WSY1ND097Y55PP4CN8",
+  "adepta_sororitas_dominions_celestians__dominion_squad__alternate_build": "01KTKVS0V3VY95JHGHYGET6J8A",
+  "adepta_sororitas_imagifier__imagifier__complete_unit": "01KTKVS0QJJJS3PZV1PXP7PQ6M",
+  "adepta_sororitas_intranzia_fraye_dogmata_superior__intranzia_fraye__complete_unit": "01KTKVS0TNQFTF6SE0B4VS8334",
+  "adepta_sororitas_ministorum_priest__ministorum_priest__complete_unit": "01KTKVS0SBMX6T46CXQEP7GX8S",
+  "adepta_sororitas_ministorum_priest_with_vindicator__ministorum_priest__complete_unit": "01KTKVS0RVD3A3NWZTK49MAEFK",
+  "adepta_sororitas_mortifier__mortifiers__alternate_build": "01KTKVS0M1C43AYS0P3FS82TY8",
+  "adepta_sororitas_palatine__palatine__complete_unit": "01KTKVS0WB800C48Y7VW8RPYCC",
+  "adepta_sororitas_sister_dogmata__dogmata__complete_unit": "01KTKVS0QYW6BYT0VW2T77JNAN",
+  "adepta_sororitas_sisters_novitiate_squad__sisters_novitiate_squad__complete_unit": "01KTKVS0T7DTG2PSZHKERQJNNB",
+  "adepta_sororitas_zephyrim_squad__zephyrim_squad__alternate_build": "01KTKVS0P8R8HFYJ008V8T4J6M",
+  "adeptus_custodes_allarus_custodians__allarus_custodians__complete_unit": "01KTKVS18F4M50CGXZTH1Q5S6B",
+  "adeptus_custodes_blade_champion__blade_champion__complete_unit": "01KTKVS135CHAA228PPN76PS5V",
+  "adeptus_custodes_custodian_guard__custodian_guard__complete_unit": "01KTKVS1593XNDDRPX4HPN77SS",
+  "adeptus_custodes_shield_captain__shield_captain__complete_unit": "01KTKVS1163A4EB0FB4DMPQXMV",
+  "aestred_thurga_relinquant_at_arms__aestred_thurga_and_agathae_dolan__complete_unit": "01KTKVS0Y5WXZBJT7VKX6ZBFMT",
+  "captain_general_trajann_valoris__trajann_valoris__complete_unit": "01KTKVS0YKGGY65R9CVWADNAC9",
+  "custodes_gunship__orion_assault_dropship__complete_unit": "01KTKVS1GR8YKN0GWGE461Y8VQ",
+  "daemonifuge_ephrael_stern_and_kyganil__daemonifuge__complete_unit": "01KTKVS0VNMYVNS0NZH00Y3E8C",
+  "legio_custodes_aquilon_terminators__aquilon_custodians__complete_unit": "01KTKVS18Y87CD1TRJWFNMWC63",
+  "legio_custodes_aquilon_terminators_with_infernus_firepikes__aquilon_custodians__complete_unit": "01KTKVS19BZ99GB52CZ7XADKBV",
+  "legio_custodes_ares_gunship__ares_gunship__complete_unit": "01KTKVS1GARHXFEGFP37H690ZR",
+  "legio_custodes_caladius_grav_tank__caladius_grav_tank__complete_unit": "01KTKVS1EG29WR1N3VDH7NC8DQ",
+  "legio_custodes_caladius_grav_tank_annihilator__caladius_grav_tank__complete_unit": "01KTKVS1F27ENME774H41DY9FM",
+  "legio_custodes_coronus_grav_carrier__coronus_grav_carrier__complete_unit": "01KTKVS1FGFHWCVN56MKQ65YXJ",
+  "legio_custodes_custodian_dreadnought__contemptor_achillus_dreadnought__complete_unit": "01KTKVS1CF1DFC5EBND6HMS016",
+  "legio_custodes_custodian_dreadnought__contemptor_galatus_dreadnought__complete_unit": "01KTKVS1D10CFPRFGFAFD21CAK",
+  "legio_custodes_custodian_guard_sodality__custodian_guard__complete_unit": "01KTKVS15PT10F44FCEHVC5K9V",
+  "legio_custodes_gyrfalcon_pattern_jetbike__agamatus_custodians__complete_unit": "01KTKVS180Z8MC292GV9PKYZ71",
+  "legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__complete_unit": "01KTKVS1E20B46SEA56K4S5M86",
+  "legio_custodes_pallas_grav_attack__pallas_grav_attack__complete_unit": "01KTKVS1FYCJ8SN8C89V5BH8R1",
+  "legio_custodes_sentinel_guard_sodality__custodian_guard__complete_unit": "01KTKVS16445XB5KXME1AJJGC1",
+  "legio_custodes_shield_captain__shield_captain__complete_unit": "01KTKVS0ZKM0XS3N85GQNCH176",
+  "legio_custodes_venatari_sodality__venatari_custodians__complete_unit": "01KTKVS19SWVS8HHS1N7KFAYZ3",
+  "legiones_astartes_contemptor_dreadnought__venerable_contemptor_dreadnought__complete_unit": "01KTKVS1DK17BQCVYX1D6ZQM2J",
+  "morvenn_vahl_abbess_sanctorum__morvenn_vahl__complete_unit": "01KTKVS0XNXJ65P21RTRYC4R5M",
+  "morvenn_vahl_abbess_sanctorum__paragon_warsuits__complete_unit": "01KTKVS0X73GQ5FJJ588MCMGKQ",
+  "shield_captain__custodian_guard__partial_unit": "01KTKVS104NPW857XWDSWEK859",
+  "shield_captain_and_4_miniatures__shield_captain__partial_unit": "01KTKVS10QV5A4BXQ7S7GDXZJ5",
+  "shield_captain_in_allarus_terminator_armour__shield_captain_in_allarus_terminator_armour__complete_unit": "01KTKVS12QQ7YZH3NGB1BH1VG6",
+  "shield_captain_on_dawneagle_and_2_miniatures__shield_captain_on_dawneagle_jetbike__complete_unit": "01KTKVS124ZWSBRJFMPGJMRW4H",
+  "sisters_of_silence__prosecutors__alternate_build": "01KTKVS1A658WC3F28J4DHDZ5G",
+  "space_marine_celestine_the_living_saint__saint_celestine__complete_unit": "01KTKVS0Q6YECJ01EPEXTJ7XZK",
+  "space_marines_rhino__anathema_psykana_rhino__complete_unit": "01KTKVS1BG610B2PHK2TJ85PBW",
+  "venerable_land_raider__venerable_land_raider__complete_unit": "01KTKVS1BZ81QTH0CZ2V3N117C",
+  "vigilator_squad__vigilators__alternate_build": "01KTKVS1AKB5KHM08KNEZHQV6P",
+  "vigilator_squad__vigilators__partial_unit": "01KTKVS13NA5S6VW30R0MGATPF",
+  "witchseeker_squad__witchseekers__alternate_build": "01KTKVS1AZB00H6VGNBFWCE2KY",
 };
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {

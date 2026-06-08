@@ -1,156 +1,12 @@
 [
   {
     "faction": "adepta_sororitas",
-    "kit": "Adeptas Sororitas Moritifiers",
-    "unit": "Mortifiers",
-    "models": "2x Penitent Engines or 2x Mortifiers",
-    "url": "https://tinyurl.com/28bq7szh",
-    "notes": "Alternate Build Kit: either Penitent Engines or Mortifiers",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Adepta Sororitas Zephyrim Squad",
-    "unit": "Zephyrim Squad",
-    "models": "4x Zephyrim, 1x Zephyrim Superior",
-    "url": "https://tinyurl.com/224akoqt",
-    "notes": "Alternate Build Kit: either Zephyrim or Seraphim; can be built as 5x Seraphim/Zephyrim, no Superior",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
     "kit": "Adepta Sororitas: Sister Superior Amalia Novena",
     "unit": "n/a (kit only)",
     "models": "1x Sister Superior (Battle Sisters Squad Leader)",
     "url": "https://tinyurl.com/25lx5b45",
     "notes": "Amalia is a model based on artwork; she is in game terms just a squad leader for a battle sisters squad",
-    "reason": "skip_unit_name:n/a (kit only)"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Sister Dogmata",
-    "unit": "Dogmata",
-    "models": "1x Dogmata",
-    "url": "https://tinyurl.com/2ydj48y5",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Castigator",
-    "unit": "Castigator",
-    "models": "1x Castigator",
-    "url": "https://tinyurl.com/2dxv2hso",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Ministorum Priest with Vindictor",
-    "unit": "Ministorum Priest",
-    "models": "1x Ministorum Priest (w/Vindictor Weapon Build)",
-    "url": "https://tinyurl.com/23qgyvpd",
-    "notes": "This kit and the Ministorum Priest kit are both the Ministorum Priest unit, just alternate weapon options",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Ministorum Priest",
-    "unit": "Ministorum Priest",
-    "models": "1x Ministorum Priest (w/Pistol and Power Weapon Build)",
-    "url": "https://tinyurl.com/257e54xg",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Canonness with Jump Pack",
-    "unit": "Canonness with Jump Pack",
-    "models": "1x Canonness with Jump Pack",
-    "url": "https://tinyurl.com/2cy5nkwm",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Sisters Novitiate Squad",
-    "unit": "Sisters Novitiate",
-    "models": "9x Novitiates, 1x Novitiate Superior",
-    "url": "https://tinyurl.com/2y8bzvyd",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Intranzia Fraye - Dogmata Superior",
-    "unit": "Intranzia Fraye",
-    "models": "1x Intranzia Fraye",
-    "url": "https://tinyurl.com/2cwalwua",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Adepta Sororitas Dominion Squad",
-    "unit": "Dominion Squad",
-    "models": "9x Dominions, 1x Dominion Superior, 1c Censor Cherub",
-    "url": "https://tinyurl.com/23ag9as7",
-    "notes": "Alternate build: Battle Sisters Squad",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Daemonifuge - Ephrael Stern & Kyganil",
-    "unit": "Daemonifuge",
-    "models": "1x Ephrael Stern, 1x Kyganil",
-    "url": "https://tinyurl.com/2277hm5n",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Palatine",
-    "unit": "Palatine",
-    "models": "1x Palatine",
-    "url": "https://tinyurl.com/2aazgtez",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Celestian Sacresants",
-    "unit": "Celestian Sacresants",
-    "models": "4x Sacresants, 1x Sacresant Superior",
-    "url": "https://tinyurl.com/22jotfec",
-    "notes": "Can be built as 5x Sacresants",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Paragon Warsuits",
-    "unit": "Paragon Warsuits",
-    "models": "2x Paragon Warsuits, 1x Paragon Superior",
-    "url": "https://tinyurl.com/2czkdbva",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Morvenn Vahl, Abgbess Sanctorum of the Adepta Sororitas",
-    "unit": "Morvenn Vahl",
-    "models": "1x Morvenn Vahl",
-    "url": "https://tinyurl.com/2czkdbva",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adepta_sororitas",
-    "kit": "Aestred Thurga and Agathae Dolan",
-    "unit": "Aestred Thurga and Agathae Dolan",
-    "models": "1x Aestred Thurga, 1x Agathae Dolan",
-    "url": "https://tinyurl.com/2xrojqpq",
-    "notes": "",
-    "reason": "no_kit_slug_match"
+    "reason": "skip:n/a (kit only)"
   },
   {
     "faction": "adeptus_custodes",
@@ -159,88 +15,9 @@
     "models": "1x Valerian, 1x Aleya",
     "url": "https://tinyurl.com/24zc45nh",
     "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Shield-Captain (2018)",
-    "unit": "Shield Captain",
-    "models": "1x Shield Captain",
-    "url": "https://tinyurl.com/26f8d7bn",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Shield-Captain (2018)",
-    "unit": "Partial Kit: Custodian Guard Shield Captain",
-    "models": "1x Shield Captain (+ 4x Guard)",
-    "url": "https://tinyurl.com/2bet7hra",
-    "notes": "The shield captain that can be built from the Custodian Guard kit",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Custodian Wardens Shield Captain (2018)",
-    "unit": "Partial Kit: Shield Captain (with Guardian Spear)",
-    "models": "1x Shield Captain (+4x Custodian Wardens)",
-    "url": "https://tinyurl.com/24r5msys",
-    "notes": "The shield captain that can be built from custodian wardens; it is just a shield captain with guardian spear",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Shield-Captain (2024)",
-    "unit": "Shield Captain",
-    "models": "1x Shield Captain",
-    "url": "https://tinyurl.com/2363p4wa",
-    "notes": "Online Only",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Shield-Captain (2026)",
-    "unit": "Shield Captain",
-    "models": "1x Shield Captain",
-    "url": "https://tinyurl.com/2c9m4a2o",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Shield-Captain on Dawneagle Jetbike",
-    "unit": "Shield Captain on Dawneagle Jetbike",
-    "models": "1x Shield Captain Jetbike",
-    "url": "https://tinyurl.com/24bqgh63",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Shield-Captain in Allarus Terminator Armour",
-    "unit": "Shield Captain in Allarus Terminator Armour",
-    "models": "1x Shield Captain in Term Armour",
-    "url": "https://tinyurl.com/28sjrgkt",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Blade Champion",
-    "unit": "Blade Champion",
-    "models": "1x Blade Champion",
-    "url": "https://tinyurl.com/2bg7s45c",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Knight-Centura",
-    "unit": "Partial Kit: Vigilator Superior",
-    "models": "1x Knight-Centura (+ 4x Vigilators)",
-    "url": "https://tinyurl.com/23velfcj",
-    "notes": "It is the Vigilator Superior from the Vigilators Squad",
-    "reason": "no_kit_slug_match"
+    "reason": "no_unit_slug_match",
+    "kit_slug": "talons_of_the_emperor_valerian_and_aleya",
+    "resolved_url": "https://www.warhammer.com/en-US/shop/Talons-Of-The-Emperor-Valerian-And-Aleya-2020"
   },
   {
     "faction": "adeptus_custodes",
@@ -249,7 +26,9 @@
     "models": "1x Custodian Guard (+4x guard)",
     "url": "https://tinyurl.com/28erj762",
     "notes": "Just a different model loadout for custodian guard; used to be its own unit",
-    "reason": "no_kit_slug_match"
+    "reason": "no_unit_slug_match",
+    "kit_slug": "vexilus_praetor",
+    "resolved_url": "https://www.warhammer.com/en-US/shop/Vexilus-Praetor-2018"
   },
   {
     "faction": "adeptus_custodes",
@@ -258,34 +37,9 @@
     "models": "1x Allarus Terminator (+4x terminators)",
     "url": "https://tinyurl.com/27aunuon",
     "notes": "Just a different model loadout for an allarus terminator model; used to be its own unit",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Custodian Guard (2018)",
-    "unit": "Custodian Guard, Shield Captain",
-    "models": "5x Custodian Guard (see notes)",
-    "url": "https://tinyurl.com/22p59n9a",
-    "notes": "Can build Shield Captain and Vexilus Praetor",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Custodian Guard Sodality (2026)",
-    "unit": "Custodian Guard",
-    "models": "6x Custodian Guard (see notes)",
-    "url": "https://tinyurl.com/27ern9r8",
-    "notes": "Can alternately build 1x vexilus praetor",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Sentinal Guard Sodality (2026)",
-    "unit": "Custodian Guard",
-    "models": "6x Custodian Guard (see notes)",
-    "url": "https://tinyurl.com/22f7hnqp",
-    "notes": "Just custodian guard with sentinal blade & praesidium shield; alternately build 1x vexilus praetor",
-    "reason": "no_kit_slug_match"
+    "reason": "no_unit_slug_match",
+    "kit_slug": "vexilus_praetor_in_allarus_terminator_armour",
+    "resolved_url": "https://www.warhammer.com/en-US/shop/Vexilus-Praetor-in-Allarus-Terminator-Armour-2018"
   },
   {
     "faction": "adeptus_custodes",
@@ -294,186 +48,8 @@
     "models": "1x Warden (+4x wardens)",
     "url": "https://tinyurl.com/2423hm3x",
     "notes": "Just a different model loadout for a custodian warden; used to be its own unit",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Legio Custodes Gyrfalcon Pattern Jetbike",
-    "unit": "Agamatus Custodians",
-    "models": "1x Agamatus Custodian",
-    "url": "https://tinyurl.com/284by6h4",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Allarus Custodians",
-    "unit": "Allarus Custodians",
-    "models": "3x Allarus Custodians",
-    "url": "https://tinyurl.com/22pdhe39",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Aquilon Custodians",
-    "unit": "Aquilon Custodians",
-    "models": "3x Aquilon Custodians",
-    "url": "https://tinyurl.com/2xsy6oss",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Aquilon Custodians with Infernus Firepikes",
-    "unit": "Aquilon Custodians",
-    "models": "3x Aquilon Custodians",
-    "url": "https://tinyurl.com/2725hrts",
-    "notes": "Alternate model loadout for aquilon custodians",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Venatari Sodality",
-    "unit": "Venatari Custodians",
-    "models": "6x Venatari Custodians",
-    "url": "https://tinyurl.com/22wyqk8q",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Prosecutors",
-    "unit": "Prosecutors",
-    "models": "5x Prosecutors",
-    "url": "https://tinyurl.com/22my3w8f",
-    "notes": "Alternate build kit: Prosecutors, Witchseekers, Vigilators",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Vigilators",
-    "unit": "Vigilators",
-    "models": "5x Vigilators",
-    "url": "https://tinyurl.com/23velfcj",
-    "notes": "Alternate build kit: Prosecutors, Witchseekers, Vigilators",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Witchseekers",
-    "unit": "Witchseekers",
-    "models": "5x Witchseekers",
-    "url": "https://tinyurl.com/23cx6k82",
-    "notes": "Alternate build kit: Prosecutors, Witchseekers, Vigilators",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Rhino",
-    "unit": "Anathema Psykana Rhino",
-    "models": "1x Anathema Psykana Rhino",
-    "url": "https://tinyurl.com/2ywf2noz",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Venerable Land Raider",
-    "unit": "Venerable Land Raider",
-    "models": "1x Venerable Land Raider",
-    "url": "https://tinyurl.com/2b9fwd9q",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Custodian Dreadnought",
-    "unit": "Contemptor-Achillus Dreadnought",
-    "models": "1x Contemptor-Achillus Dreadnought",
-    "url": "https://tinyurl.com/2dqn8qlu",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Custodian Dreadnought",
-    "unit": "Contemptor-Galatus Dreadnought",
-    "models": "1x Contemptor-Galatus Dreadnought",
-    "url": "https://tinyurl.com/2dqn8qlu",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Contemptor Dreadnought",
-    "unit": "Venerable Contemptor Dreadnought",
-    "models": "1x Venerable Contemptor Dreadnought",
-    "url": "https://tinyurl.com/2yns8hbr",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Telemon Heavy Dreadnought",
-    "unit": "Telemon Heavy Dreadnought",
-    "models": "1x Telemon Heavy Dreadnought",
-    "url": "https://tinyurl.com/28ze7zjv",
-    "notes": "Just the body of the telemon dreadnought; arms sold separately",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Caladius Grav-tank",
-    "unit": "Caladius Grav-Tank",
-    "models": "1x Caladius Grav-Tank",
-    "url": "https://tinyurl.com/25rlagnd",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Caladius Annihilator Grav-Tank",
-    "unit": "Caladius Annihilator Grav-Tank",
-    "models": "1x Caladius Annihilator Grav-Tank",
-    "url": "https://tinyurl.com/2b8sla23",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Coronus Grav-carrier",
-    "unit": "Coronus Grav-carrier",
-    "models": "1x Coronus Grav-carrier",
-    "url": "https://tinyurl.com/29eyhs4a",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Pallas Grav-attack",
-    "unit": "Pallas Grav-attack",
-    "models": "1x Pallas Grav-attack",
-    "url": "https://tinyurl.com/23bkr3ul",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Ares Gunship",
-    "unit": "Ares Gunship",
-    "models": "1x Ares Gunship",
-    "url": "https://tinyurl.com/2afs39sm",
-    "notes": "",
-    "reason": "no_kit_slug_match"
-  },
-  {
-    "faction": "adeptus_custodes",
-    "kit": "Orion Assault Dropship",
-    "unit": "Orion Assault Dropship",
-    "models": "1x Orion Assault Dropship",
-    "url": "https://tinyurl.com/28zkdqp5",
-    "notes": "",
-    "reason": "no_kit_slug_match"
+    "reason": "no_unit_slug_match",
+    "kit_slug": "vexilus_praetor_and_4_miniatures",
+    "resolved_url": "https://www.warhammer.com/en-US/shop/Vexilus-Praetor-and-4-Miniatures-2018"
   }
 ]

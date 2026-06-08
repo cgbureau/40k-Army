@@ -10,9 +10,9 @@ import { kitId, kitUnitId, unitId } from "../../../ids";
  * review_status: "needs_review" — verify model counts, component_type, and unit matches.
  */
 
-export const AdeptusCustodesCaptainGeneralTrajannValorisTrajannValorisCompleteUnitKitUnit: KitUnitConfig = {
-  id: kitUnitId("adeptus_custodes_captain_general_trajann_valoris__trajann_valoris__complete_unit"),
-  kit_id: kitId("adeptus_custodes_captain_general_trajann_valoris"),
+export const CaptainGeneralTrajannValorisTrajannValorisCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("captain_general_trajann_valoris__trajann_valoris__complete_unit"),
+  kit_id: kitId("captain_general_trajann_valoris"),
   unit_id: unitId("trajann_valoris"),
   unit_count: 1,
   model_count: 1,
@@ -20,6 +20,171 @@ export const AdeptusCustodesCaptainGeneralTrajannValorisTrajannValorisCompleteUn
   source_kind: "games_workshop_product_page",
   source_url: "https://tinyurl.com/27t76v7s",
   source_text: "1x Captain-General Trajann Valoris",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesShieldCaptainShieldCaptainCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_shield_captain__shield_captain__complete_unit"),
+  kit_id: kitId("legio_custodes_shield_captain"),
+  unit_id: unitId("shield_captain"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/26f8d7bn",
+  source_text: "1x Shield Captain",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShieldCaptainCustodianGuardPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("shield_captain__custodian_guard__partial_unit"),
+  kit_id: kitId("shield_captain"),
+  unit_id: unitId("custodian_guard"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2bet7hra",
+  source_text: "1x Shield Captain (+ 4x Guard)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShieldCaptainAnd4MiniaturesShieldCaptainPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("shield_captain_and_4_miniatures__shield_captain__partial_unit"),
+  kit_id: kitId("shield_captain_and_4_miniatures"),
+  unit_id: unitId("shield_captain"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/24r5msys",
+  source_text: "1x Shield Captain (+4x Custodian Wardens)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptusCustodesShieldCaptainShieldCaptainCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adeptus_custodes_shield_captain__shield_captain__complete_unit"),
+  kit_id: kitId("adeptus_custodes_shield_captain"),
+  unit_id: unitId("shield_captain"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2363p4wa",
+  source_text: "1x Shield Captain",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShieldCaptainOnDawneagleAnd2MiniaturesShieldCaptainOnDawneagleJetbikeCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("shield_captain_on_dawneagle_and_2_miniatures__shield_captain_on_dawneagle_jetbike__complete_unit"),
+  kit_id: kitId("shield_captain_on_dawneagle_and_2_miniatures"),
+  unit_id: unitId("shield_captain_on_dawneagle_jetbike"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/24bqgh63",
+  source_text: "1x Shield Captain Jetbike",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const ShieldCaptainInAllarusTerminatorArmourShieldCaptainInAllarusTerminatorArmourCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("shield_captain_in_allarus_terminator_armour__shield_captain_in_allarus_terminator_armour__complete_unit"),
+  kit_id: kitId("shield_captain_in_allarus_terminator_armour"),
+  unit_id: unitId("shield_captain_in_allarus_terminator_armour"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/28sjrgkt",
+  source_text: "1x Shield Captain in Term Armour",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptusCustodesBladeChampionBladeChampionCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adeptus_custodes_blade_champion__blade_champion__complete_unit"),
+  kit_id: kitId("adeptus_custodes_blade_champion"),
+  unit_id: unitId("blade_champion"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2bg7s45c",
+  source_text: "1x Blade Champion",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VigilatorSquadVigilatorsPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("vigilator_squad__vigilators__partial_unit"),
+  kit_id: kitId("vigilator_squad"),
+  unit_id: unitId("vigilators"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/23velfcj",
+  source_text: "1x Knight-Centura (+ 4x Vigilators)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptusCustodesCustodianGuardCustodianGuardCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adeptus_custodes_custodian_guard__custodian_guard__complete_unit"),
+  kit_id: kitId("adeptus_custodes_custodian_guard"),
+  unit_id: unitId("custodian_guard"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/22p59n9a",
+  source_text: "5x Custodian Guard (see notes)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesCustodianGuardSodalityCustodianGuardCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_custodian_guard_sodality__custodian_guard__complete_unit"),
+  kit_id: kitId("legio_custodes_custodian_guard_sodality"),
+  unit_id: unitId("custodian_guard"),
+  unit_count: 1,
+  model_count: 6,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/27ern9r8",
+  source_text: "6x Custodian Guard (see notes)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesSentinelGuardSodalityCustodianGuardCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_sentinel_guard_sodality__custodian_guard__complete_unit"),
+  kit_id: kitId("legio_custodes_sentinel_guard_sodality"),
+  unit_id: unitId("custodian_guard"),
+  unit_count: 1,
+  model_count: 6,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/22f7hnqp",
+  source_text: "6x Custodian Guard (see notes)",
   review_status: "needs_review",
   effective_date: null,
   superseded_date: null,
@@ -55,11 +220,342 @@ export const AdeptusCustodesVertusPraetorsVertusPraetorsCompleteUnitKitUnit: Kit
   superseded_date: null,
 };
 
+export const LegioCustodesGyrfalconPatternJetbikeAgamatusCustodiansCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_gyrfalcon_pattern_jetbike__agamatus_custodians__complete_unit"),
+  kit_id: kitId("legio_custodes_gyrfalcon_pattern_jetbike"),
+  unit_id: unitId("agamatus_custodians"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/284by6h4",
+  source_text: "1x Agamatus Custodian",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptusCustodesAllarusCustodiansAllarusCustodiansCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adeptus_custodes_allarus_custodians__allarus_custodians__complete_unit"),
+  kit_id: kitId("adeptus_custodes_allarus_custodians"),
+  unit_id: unitId("allarus_custodians"),
+  unit_count: 1,
+  model_count: 3,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/22pdhe39",
+  source_text: "3x Allarus Custodians",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesAquilonTerminatorsAquilonCustodiansCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_aquilon_terminators__aquilon_custodians__complete_unit"),
+  kit_id: kitId("legio_custodes_aquilon_terminators"),
+  unit_id: unitId("aquilon_custodians"),
+  unit_count: 1,
+  model_count: 3,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2xsy6oss",
+  source_text: "3x Aquilon Custodians",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesAquilonTerminatorsWithInfernusFirepikesAquilonCustodiansCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_aquilon_terminators_with_infernus_firepikes__aquilon_custodians__complete_unit"),
+  kit_id: kitId("legio_custodes_aquilon_terminators_with_infernus_firepikes"),
+  unit_id: unitId("aquilon_custodians"),
+  unit_count: 1,
+  model_count: 3,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2725hrts",
+  source_text: "3x Aquilon Custodians",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesVenatariSodalityVenatariCustodiansCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_venatari_sodality__venatari_custodians__complete_unit"),
+  kit_id: kitId("legio_custodes_venatari_sodality"),
+  unit_id: unitId("venatari_custodians"),
+  unit_count: 1,
+  model_count: 6,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/22wyqk8q",
+  source_text: "6x Venatari Custodians",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SistersOfSilenceProsecutorsAlternateBuildKitUnit: KitUnitConfig = {
+  id: kitUnitId("sisters_of_silence__prosecutors__alternate_build"),
+  kit_id: kitId("sisters_of_silence"),
+  unit_id: unitId("prosecutors"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "alternate_build",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/22my3w8f",
+  source_text: "5x Prosecutors",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VigilatorSquadVigilatorsAlternateBuildKitUnit: KitUnitConfig = {
+  id: kitUnitId("vigilator_squad__vigilators__alternate_build"),
+  kit_id: kitId("vigilator_squad"),
+  unit_id: unitId("vigilators"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "alternate_build",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/23velfcj",
+  source_text: "5x Vigilators",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const WitchseekerSquadWitchseekersAlternateBuildKitUnit: KitUnitConfig = {
+  id: kitUnitId("witchseeker_squad__witchseekers__alternate_build"),
+  kit_id: kitId("witchseeker_squad"),
+  unit_id: unitId("witchseekers"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "alternate_build",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/23cx6k82",
+  source_text: "5x Witchseekers",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const SpaceMarinesRhinoAnathemaPsykanaRhinoCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("space_marines_rhino__anathema_psykana_rhino__complete_unit"),
+  kit_id: kitId("space_marines_rhino"),
+  unit_id: unitId("anathema_psykana_rhino"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2ywf2noz",
+  source_text: "1x Anathema Psykana Rhino",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const VenerableLandRaiderVenerableLandRaiderCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("venerable_land_raider__venerable_land_raider__complete_unit"),
+  kit_id: kitId("venerable_land_raider"),
+  unit_id: unitId("venerable_land_raider"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2b9fwd9q",
+  source_text: "1x Venerable Land Raider",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesCustodianDreadnoughtContemptorAchillusDreadnoughtCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_custodian_dreadnought__contemptor_achillus_dreadnought__complete_unit"),
+  kit_id: kitId("legio_custodes_custodian_dreadnought"),
+  unit_id: unitId("contemptor_achillus_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2dqn8qlu",
+  source_text: "1x Contemptor-Achillus Dreadnought",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesCustodianDreadnoughtContemptorGalatusDreadnoughtCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_custodian_dreadnought__contemptor_galatus_dreadnought__complete_unit"),
+  kit_id: kitId("legio_custodes_custodian_dreadnought"),
+  unit_id: unitId("contemptor_galatus_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2dqn8qlu",
+  source_text: "1x Contemptor-Galatus Dreadnought",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegionesAstartesContemptorDreadnoughtVenerableContemptorDreadnoughtCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legiones_astartes_contemptor_dreadnought__venerable_contemptor_dreadnought__complete_unit"),
+  kit_id: kitId("legiones_astartes_contemptor_dreadnought"),
+  unit_id: unitId("venerable_contemptor_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2yns8hbr",
+  source_text: "1x Venerable Contemptor Dreadnought",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesHeavyDreadnoughtBodyTelemonHeavyDreadnoughtCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__complete_unit"),
+  kit_id: kitId("legio_custodes_heavy_dreadnought_body"),
+  unit_id: unitId("telemon_heavy_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/28ze7zjv",
+  source_text: "1x Telemon Heavy Dreadnought",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesCaladiusGravTankCaladiusGravTankCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_caladius_grav_tank__caladius_grav_tank__complete_unit"),
+  kit_id: kitId("legio_custodes_caladius_grav_tank"),
+  unit_id: unitId("caladius_grav_tank"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/25rlagnd",
+  source_text: "1x Caladius Grav-Tank",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesCaladiusGravTankAnnihilatorCaladiusGravTankCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_caladius_grav_tank_annihilator__caladius_grav_tank__complete_unit"),
+  kit_id: kitId("legio_custodes_caladius_grav_tank_annihilator"),
+  unit_id: unitId("caladius_grav_tank"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2b8sla23",
+  source_text: "1x Caladius Annihilator Grav-Tank",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesCoronusGravCarrierCoronusGravCarrierCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_coronus_grav_carrier__coronus_grav_carrier__complete_unit"),
+  kit_id: kitId("legio_custodes_coronus_grav_carrier"),
+  unit_id: unitId("coronus_grav_carrier"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/29eyhs4a",
+  source_text: "1x Coronus Grav-carrier",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesPallasGravAttackPallasGravAttackCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_pallas_grav_attack__pallas_grav_attack__complete_unit"),
+  kit_id: kitId("legio_custodes_pallas_grav_attack"),
+  unit_id: unitId("pallas_grav_attack"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/23bkr3ul",
+  source_text: "1x Pallas Grav-attack",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesAresGunshipAresGunshipCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_ares_gunship__ares_gunship__complete_unit"),
+  kit_id: kitId("legio_custodes_ares_gunship"),
+  unit_id: unitId("ares_gunship"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2afs39sm",
+  source_text: "1x Ares Gunship",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const CustodesGunshipOrionAssaultDropshipCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("custodes_gunship__orion_assault_dropship__complete_unit"),
+  kit_id: kitId("custodes_gunship"),
+  unit_id: unitId("orion_assault_dropship"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/28zkdqp5",
+  source_text: "1x Orion Assault Dropship",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const kitUnitsMarkdownAdeptusCustodesDataset: SeedDataset<"kit_units"> = {
   table: "kit_units",
   records: [
-    AdeptusCustodesCaptainGeneralTrajannValorisTrajannValorisCompleteUnitKitUnit,
+    CaptainGeneralTrajannValorisTrajannValorisCompleteUnitKitUnit,
+    LegioCustodesShieldCaptainShieldCaptainCompleteUnitKitUnit,
+    ShieldCaptainCustodianGuardPartialUnitKitUnit,
+    ShieldCaptainAnd4MiniaturesShieldCaptainPartialUnitKitUnit,
+    AdeptusCustodesShieldCaptainShieldCaptainCompleteUnitKitUnit,
+    ShieldCaptainOnDawneagleAnd2MiniaturesShieldCaptainOnDawneagleJetbikeCompleteUnitKitUnit,
+    ShieldCaptainInAllarusTerminatorArmourShieldCaptainInAllarusTerminatorArmourCompleteUnitKitUnit,
+    AdeptusCustodesBladeChampionBladeChampionCompleteUnitKitUnit,
+    VigilatorSquadVigilatorsPartialUnitKitUnit,
+    AdeptusCustodesCustodianGuardCustodianGuardCompleteUnitKitUnit,
+    LegioCustodesCustodianGuardSodalityCustodianGuardCompleteUnitKitUnit,
+    LegioCustodesSentinelGuardSodalityCustodianGuardCompleteUnitKitUnit,
     AdeptusCustodesCustodianWardensCustodianWardensCompleteUnitKitUnit,
     AdeptusCustodesVertusPraetorsVertusPraetorsCompleteUnitKitUnit,
+    LegioCustodesGyrfalconPatternJetbikeAgamatusCustodiansCompleteUnitKitUnit,
+    AdeptusCustodesAllarusCustodiansAllarusCustodiansCompleteUnitKitUnit,
+    LegioCustodesAquilonTerminatorsAquilonCustodiansCompleteUnitKitUnit,
+    LegioCustodesAquilonTerminatorsWithInfernusFirepikesAquilonCustodiansCompleteUnitKitUnit,
+    LegioCustodesVenatariSodalityVenatariCustodiansCompleteUnitKitUnit,
+    SistersOfSilenceProsecutorsAlternateBuildKitUnit,
+    VigilatorSquadVigilatorsAlternateBuildKitUnit,
+    WitchseekerSquadWitchseekersAlternateBuildKitUnit,
+    SpaceMarinesRhinoAnathemaPsykanaRhinoCompleteUnitKitUnit,
+    VenerableLandRaiderVenerableLandRaiderCompleteUnitKitUnit,
+    LegioCustodesCustodianDreadnoughtContemptorAchillusDreadnoughtCompleteUnitKitUnit,
+    LegioCustodesCustodianDreadnoughtContemptorGalatusDreadnoughtCompleteUnitKitUnit,
+    LegionesAstartesContemptorDreadnoughtVenerableContemptorDreadnoughtCompleteUnitKitUnit,
+    LegioCustodesHeavyDreadnoughtBodyTelemonHeavyDreadnoughtCompleteUnitKitUnit,
+    LegioCustodesCaladiusGravTankCaladiusGravTankCompleteUnitKitUnit,
+    LegioCustodesCaladiusGravTankAnnihilatorCaladiusGravTankCompleteUnitKitUnit,
+    LegioCustodesCoronusGravCarrierCoronusGravCarrierCompleteUnitKitUnit,
+    LegioCustodesPallasGravAttackPallasGravAttackCompleteUnitKitUnit,
+    LegioCustodesAresGunshipAresGunshipCompleteUnitKitUnit,
+    CustodesGunshipOrionAssaultDropshipCompleteUnitKitUnit,
   ] satisfies KitUnitConfig[],
 };

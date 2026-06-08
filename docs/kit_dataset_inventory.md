@@ -17,7 +17,7 @@ npm run docs:kit-dataset-inventory
 | `kit_types` | 4 | Curated reference rows | Small controlled list; add types only when purchasing semantics require them. |
 | `kits` | 530 | TCGCSV product rows plus 1031 legacy catalog rows / 894 unique slugs | Normalize sourceable product facts, then dedupe across shared-faction and alias files. |
 | `kit_prices` | 2165 | TCGCSV USD observations (all tagged us\_en) plus 7104 legacy price observations across AUD, CAD, CHF, EUR, GBP, PLN, USD | Source by region, currency, source URL, and observed date; all rows must carry a `price_market_id`. |
-| `kit_units` | 4 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
+| `kit_units` | 70 | 941 legacy unit-to-kit mappings | Curated unit satisfaction edges; suggestions are allowed, blind inference is not. |
 | `kit_models` | 0 | Source-backed kit contents are now applied to typed `kits` and `kit_units`; `kit_models` waits for explicit variant/model expansion policy. | Curated physical model contents for collection matching and split-kit workflows. |
 | `kit_unit_price_allocations` | 0 | Derived from kit prices plus kit-unit edges | Generate from explicit allocation policy; do not use as a replacement for kit prices. |
 
@@ -143,12 +143,12 @@ Rows in `Needs source review` are not automatic data defects. They are the units
 
 | Faction | Active units | Canonical `kit_units` | Legacy candidates | Missing canonical | Needs source review |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Adepta Sororitas | 41 | 0 | 29 | 41 | 12 |
-| Adeptus Custodes | 34 | 0 | 23 | 34 | 11 |
+| Adepta Sororitas | 41 | 31 | 29 | 10 | 9 |
+| Adeptus Custodes | 34 | 26 | 23 | 8 | 4 |
 | Adeptus Mechanicus | 37 | 0 | 30 | 37 | 7 |
-| Astra Militarum | 75 | 0 | 62 | 75 | 13 |
+| Astra Militarum | 75 | 1 | 62 | 74 | 13 |
 | Grey Knights | 30 | 0 | 16 | 30 | 14 |
-| Imperial Agents | 42 | 0 | 23 | 42 | 19 |
+| Imperial Agents | 42 | 1 | 23 | 41 | 19 |
 | Imperial Knights | 22 | 0 | 21 | 22 | 1 |
 | Space Marines | 85 | 1 | 67 | 84 | 18 |
 | Black Templars | 95 | 4 | 75 | 91 | 19 |
@@ -177,7 +177,7 @@ Rows in `Needs source review` are not automatic data defects. They are the units
 | Orks | 63 | 0 | 48 | 63 | 15 |
 | T'au | 46 | 0 | 33 | 46 | 13 |
 | Tyranids | 58 | 0 | 48 | 58 | 10 |
-| **Total** | 2066 | 15 | 1583 | 2051 | 482 |
+| **Total** | 2066 | 74 | 1583 | 1992 | 472 |
 
 ### Units Needing Source Review
 
@@ -189,25 +189,15 @@ These active units have neither a canonical typed `kit_units` row nor a legacy m
 | Adepta Sororitas | Celestian Sacresant (Anointed Halberd) (`celestian_sacresant_anointed_halberd`) |
 | Adepta Sororitas | Celestian Sacresant (Hallowed Mace) (`celestian_sacresant_hallowed_mace`) |
 | Adepta Sororitas | Geminae Superia (`geminae_superia`) |
-| Adepta Sororitas | Immolator (`immolator`) |
 | Adepta Sororitas | Inspiring Devotee [Crucible] (`inspiring_devotee_crucible`) |
-| Adepta Sororitas | Intranzia Fraye (`intranzia_fraye`) |
 | Adepta Sororitas | Militant Commander [Crucible] (`militant_commander_crucible`) |
 | Adepta Sororitas | Reliquant Knight [Crucible] (`reliquant_knight_crucible`) |
 | Adepta Sororitas | Sister Novitiate (Autogun) (`sister_novitiate_autogun`) |
 | Adepta Sororitas | Sister Novitiate (Melee Weapon) (`sister_novitiate_melee_weapon`) |
-| Adepta Sororitas | Sororitas Rhino (`sororitas_rhino`) |
-| Adeptus Custodes | Agamatus Custodians (`agamatus_custodians`) |
-| Adeptus Custodes | Aquilon Custodians (`aquilon_custodians`) |
-| Adeptus Custodes | Contemptor-Achillus Dreadnought (`contemptor_achillus_dreadnought`) |
-| Adeptus Custodes | Contemptor-Galatus Dreadnought (`contemptor_galatus_dreadnought`) |
-| Adeptus Custodes | Coronus Grav-carrier (`coronus_grav_carrier`) |
 | Adeptus Custodes | Custodian Guard with Adrasite and Pyrithite spears (`custodian_guard_with_adrasite_and_pyrithite_spears`) |
 | Adeptus Custodes | Guardian of the Throne [Crucible] (`guardian_of_the_throne_crucible`) |
 | Adeptus Custodes | Kataphraktoi Exemplar [Crucible] (`kataphraktoi_exemplar_crucible`) |
 | Adeptus Custodes | Null Maiden [Crucible] (`null_maiden_crucible`) |
-| Adeptus Custodes | Venatari Custodians (`venatari_custodians`) |
-| Adeptus Custodes | Venerable Contemptor Dreadnought (`venerable_contemptor_dreadnought`) |
 | Adeptus Mechanicus | Cohort Commander [Crucible] (`cohort_commander_crucible`) |
 | Adeptus Mechanicus | Hastarii Exterminators (`hastarii_exterminators`) |
 | Adeptus Mechanicus | Hastarii Fusiliers (`hastarii_fusiliers`) |

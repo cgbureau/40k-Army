@@ -145,6 +145,21 @@ export const AdeptaSororitasPenitentEnginesPenitentEnginesAlternateBuildKitUnit:
   superseded_date: null,
 };
 
+export const AdeptaSororitasMortifierMortifiersAlternateBuildKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_mortifier__mortifiers__alternate_build"),
+  kit_id: kitId("adepta_sororitas_mortifier"),
+  unit_id: unitId("mortifiers"),
+  unit_count: 1,
+  model_count: 2,
+  component_type: "alternate_build",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/28bq7szh",
+  source_text: "2x Penitent Engines or 2x Mortifiers",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const AdeptaSororitasRepentiaSquadRepentiaSquadCompleteUnitKitUnit: KitUnitConfig = {
   id: kitUnitId("adepta_sororitas_repentia_squad__repentia_squad__complete_unit"),
   kit_id: kitId("adepta_sororitas_repentia_squad"),
@@ -205,6 +220,21 @@ export const AdeptaSororitasSeraphimSquadSeraphimSquadAlternateBuildKitUnit: Kit
   superseded_date: null,
 };
 
+export const AdeptaSororitasZephyrimSquadZephyrimSquadAlternateBuildKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_zephyrim_squad__zephyrim_squad__alternate_build"),
+  kit_id: kitId("adepta_sororitas_zephyrim_squad"),
+  unit_id: unitId("zephyrim_squad"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "alternate_build",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/224akoqt",
+  source_text: "4x Zephyrim, 1x Zephyrim Superior",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const AdeptaSororitasTheTriumphOfStKatherineTriumphOfSaintKatherineCompleteUnitKitUnit: KitUnitConfig = {
   id: kitUnitId("adepta_sororitas_the_triumph_of_st_katherine__triumph_of_saint_katherine__complete_unit"),
   kit_id: kitId("adepta_sororitas_the_triumph_of_st_katherine"),
@@ -220,9 +250,9 @@ export const AdeptaSororitasTheTriumphOfStKatherineTriumphOfSaintKatherineComple
   superseded_date: null,
 };
 
-export const AdeptaSororitasCelestineTheLivingSaintSaintCelestineCompleteUnitKitUnit: KitUnitConfig = {
-  id: kitUnitId("adepta_sororitas_celestine_the_living_saint__saint_celestine__complete_unit"),
-  kit_id: kitId("adepta_sororitas_celestine_the_living_saint"),
+export const SpaceMarineCelestineTheLivingSaintSaintCelestineCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("space_marine_celestine_the_living_saint__saint_celestine__complete_unit"),
+  kit_id: kitId("space_marine_celestine_the_living_saint"),
   unit_id: unitId("saint_celestine"),
   unit_count: 1,
   model_count: 3,
@@ -235,9 +265,9 @@ export const AdeptaSororitasCelestineTheLivingSaintSaintCelestineCompleteUnitKit
   superseded_date: null,
 };
 
-export const AdeptusSororitasImagifierImagifierCompleteUnitKitUnit: KitUnitConfig = {
-  id: kitUnitId("adeptus_sororitas_imagifier__imagifier__complete_unit"),
-  kit_id: kitId("adeptus_sororitas_imagifier"),
+export const AdeptaSororitasImagifierImagifierCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_imagifier__imagifier__complete_unit"),
+  kit_id: kitId("adepta_sororitas_imagifier"),
   unit_id: unitId("imagifier"),
   unit_count: 1,
   model_count: 1,
@@ -245,6 +275,216 @@ export const AdeptusSororitasImagifierImagifierCompleteUnitKitUnit: KitUnitConfi
   source_kind: "games_workshop_product_page",
   source_url: "https://tinyurl.com/28a5ojb6",
   source_text: "1x Imagifier",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasSisterDogmataDogmataCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_sister_dogmata__dogmata__complete_unit"),
+  kit_id: kitId("adepta_sororitas_sister_dogmata"),
+  unit_id: unitId("dogmata"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2ydj48y5",
+  source_text: "1x Dogmata",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasCastigatorCastigatorCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_castigator__castigator__complete_unit"),
+  kit_id: kitId("adepta_sororitas_castigator"),
+  unit_id: unitId("castigator"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2dxv2hso",
+  source_text: "1x Castigator",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasMinistorumPriestWithVindicatorMinistorumPriestCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_ministorum_priest_with_vindicator__ministorum_priest__complete_unit"),
+  kit_id: kitId("adepta_sororitas_ministorum_priest_with_vindicator"),
+  unit_id: unitId("ministorum_priest"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/23qgyvpd",
+  source_text: "1x Ministorum Priest (w/Vindictor Weapon Build)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasMinistorumPriestMinistorumPriestCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_ministorum_priest__ministorum_priest__complete_unit"),
+  kit_id: kitId("adepta_sororitas_ministorum_priest"),
+  unit_id: unitId("ministorum_priest"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/257e54xg",
+  source_text: "1x Ministorum Priest (w/Pistol and Power Weapon Build)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasCanonessWithJumpPackCanonessWithJumpPackCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_canoness_with_jump_pack__canoness_with_jump_pack__complete_unit"),
+  kit_id: kitId("adepta_sororitas_canoness_with_jump_pack"),
+  unit_id: unitId("canoness_with_jump_pack"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2cy5nkwm",
+  source_text: "1x Canonness with Jump Pack",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasSistersNovitiateSquadSistersNovitiateSquadCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_sisters_novitiate_squad__sisters_novitiate_squad__complete_unit"),
+  kit_id: kitId("adepta_sororitas_sisters_novitiate_squad"),
+  unit_id: unitId("sisters_novitiate_squad"),
+  unit_count: 1,
+  model_count: 10,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2y8bzvyd",
+  source_text: "9x Novitiates, 1x Novitiate Superior",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasIntranziaFrayeDogmataSuperiorIntranziaFrayeCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_intranzia_fraye_dogmata_superior__intranzia_fraye__complete_unit"),
+  kit_id: kitId("adepta_sororitas_intranzia_fraye_dogmata_superior"),
+  unit_id: unitId("intranzia_fraye"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2cwalwua",
+  source_text: "1x Intranzia Fraye",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasDominionsCelestiansDominionSquadAlternateBuildKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_dominions_celestians__dominion_squad__alternate_build"),
+  kit_id: kitId("adepta_sororitas_dominions_celestians"),
+  unit_id: unitId("dominion_squad"),
+  unit_count: 1,
+  model_count: 10,
+  component_type: "alternate_build",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/23ag9as7",
+  source_text: "9x Dominions, 1x Dominion Superior, 1c Censor Cherub",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const DaemonifugeEphraelSternAndKyganilDaemonifugeCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("daemonifuge_ephrael_stern_and_kyganil__daemonifuge__complete_unit"),
+  kit_id: kitId("daemonifuge_ephrael_stern_and_kyganil"),
+  unit_id: unitId("daemonifuge"),
+  unit_count: 1,
+  model_count: 2,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2277hm5n",
+  source_text: "1x Ephrael Stern, 1x Kyganil",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasPalatinePalatineCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_palatine__palatine__complete_unit"),
+  kit_id: kitId("adepta_sororitas_palatine"),
+  unit_id: unitId("palatine"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2aazgtez",
+  source_text: "1x Palatine",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AdeptaSororitasCelestianSacresantsCelestianSacresantsCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_celestian_sacresants__celestian_sacresants__complete_unit"),
+  kit_id: kitId("adepta_sororitas_celestian_sacresants"),
+  unit_id: unitId("celestian_sacresants"),
+  unit_count: 1,
+  model_count: 5,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/22jotfec",
+  source_text: "4x Sacresants, 1x Sacresant Superior",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MorvennVahlAbbessSanctorumParagonWarsuitsCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("morvenn_vahl_abbess_sanctorum__paragon_warsuits__complete_unit"),
+  kit_id: kitId("morvenn_vahl_abbess_sanctorum"),
+  unit_id: unitId("paragon_warsuits"),
+  unit_count: 1,
+  model_count: 3,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2czkdbva",
+  source_text: "2x Paragon Warsuits, 1x Paragon Superior",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const MorvennVahlAbbessSanctorumMorvennVahlCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("morvenn_vahl_abbess_sanctorum__morvenn_vahl__complete_unit"),
+  kit_id: kitId("morvenn_vahl_abbess_sanctorum"),
+  unit_id: unitId("morvenn_vahl"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2czkdbva",
+  source_text: "1x Morvenn Vahl",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const AestredThurgaRelinquantAtArmsAestredThurgaAndAgathaeDolanCompleteUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("aestred_thurga_relinquant_at_arms__aestred_thurga_and_agathae_dolan__complete_unit"),
+  kit_id: kitId("aestred_thurga_relinquant_at_arms"),
+  unit_id: unitId("aestred_thurga_and_agathae_dolan"),
+  unit_count: 1,
+  model_count: 2,
+  component_type: "complete_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/2xrojqpq",
+  source_text: "1x Aestred Thurga, 1x Agathae Dolan",
   review_status: "needs_review",
   effective_date: null,
   superseded_date: null,
@@ -262,12 +502,28 @@ export const kitUnitsMarkdownAdeptaSororitasDataset: SeedDataset<"kit_units"> = 
     AdeptaSororitasImmolatorImmolatorCompleteUnitKitUnit,
     AdeptaSororitasJunithEruitaJunithEruitaCompleteUnitKitUnit,
     AdeptaSororitasPenitentEnginesPenitentEnginesAlternateBuildKitUnit,
+    AdeptaSororitasMortifierMortifiersAlternateBuildKitUnit,
     AdeptaSororitasRepentiaSquadRepentiaSquadCompleteUnitKitUnit,
     AdeptaSororitasRetributorSquadRetributorSquadCompleteUnitKitUnit,
     AdeptaSororitasRhinoSororitasRhinoCompleteUnitKitUnit,
     AdeptaSororitasSeraphimSquadSeraphimSquadAlternateBuildKitUnit,
+    AdeptaSororitasZephyrimSquadZephyrimSquadAlternateBuildKitUnit,
     AdeptaSororitasTheTriumphOfStKatherineTriumphOfSaintKatherineCompleteUnitKitUnit,
-    AdeptaSororitasCelestineTheLivingSaintSaintCelestineCompleteUnitKitUnit,
-    AdeptusSororitasImagifierImagifierCompleteUnitKitUnit,
+    SpaceMarineCelestineTheLivingSaintSaintCelestineCompleteUnitKitUnit,
+    AdeptaSororitasImagifierImagifierCompleteUnitKitUnit,
+    AdeptaSororitasSisterDogmataDogmataCompleteUnitKitUnit,
+    AdeptaSororitasCastigatorCastigatorCompleteUnitKitUnit,
+    AdeptaSororitasMinistorumPriestWithVindicatorMinistorumPriestCompleteUnitKitUnit,
+    AdeptaSororitasMinistorumPriestMinistorumPriestCompleteUnitKitUnit,
+    AdeptaSororitasCanonessWithJumpPackCanonessWithJumpPackCompleteUnitKitUnit,
+    AdeptaSororitasSistersNovitiateSquadSistersNovitiateSquadCompleteUnitKitUnit,
+    AdeptaSororitasIntranziaFrayeDogmataSuperiorIntranziaFrayeCompleteUnitKitUnit,
+    AdeptaSororitasDominionsCelestiansDominionSquadAlternateBuildKitUnit,
+    DaemonifugeEphraelSternAndKyganilDaemonifugeCompleteUnitKitUnit,
+    AdeptaSororitasPalatinePalatineCompleteUnitKitUnit,
+    AdeptaSororitasCelestianSacresantsCelestianSacresantsCompleteUnitKitUnit,
+    MorvennVahlAbbessSanctorumParagonWarsuitsCompleteUnitKitUnit,
+    MorvennVahlAbbessSanctorumMorvennVahlCompleteUnitKitUnit,
+    AestredThurgaRelinquantAtArmsAestredThurgaAndAgathaeDolanCompleteUnitKitUnit,
   ] satisfies KitUnitConfig[],
 };
