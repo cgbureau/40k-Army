@@ -90,14 +90,23 @@ def save_url_cache(cache: dict[str, str]) -> None:
     URL_CACHE.write_text(json.dumps(cache, indent=2, ensure_ascii=False) + "\n")
 
 
+_GW_DIRECT_RE = re.compile(r"https?://www\.warhammer\.com/[^/]+/shop/", re.IGNORECASE)
+
+
 def resolve_urls(urls: list[str], dry_run: bool = False, no_resolve: bool = False) -> dict[str, str]:
-    """Resolve a list of URLs (with caching). Returns {original_url: resolved_url}."""
+    """Resolve a list of URLs (with caching). Returns {original_url: resolved_url}.
+
+    Direct GW product URLs are used as-is without any HTTP request — the slug
+    is already in the URL path so resolution is unnecessary.
+    """
     cache = load_url_cache()
     result: dict[str, str] = {}
     to_fetch = []
 
     for url in urls:
-        if url in cache:
+        if _GW_DIRECT_RE.match(url):
+            result[url] = url  # already a GW URL, no redirect needed
+        elif url in cache:
             result[url] = cache[url]
         else:
             to_fetch.append(url)
@@ -302,13 +311,16 @@ def infer_component_type(unit_name: str, notes: str) -> ComponentType:
     n = notes.lower()
     if u.startswith("partial kit:"):
         return "partial_unit"
+    if u.startswith("upgrade:"):
+        return "upgrade_component"
     if "alternate build" in n:
         return "alternate_build"
     return "complete_unit"
 
 
-def strip_partial_prefix(unit_name: str) -> str:
-    m = re.match(r"^partial kit:\s*(.+)$", unit_name, re.IGNORECASE)
+def strip_unit_prefix(unit_name: str) -> str:
+    """Strip 'partial kit:' or 'upgrade:' prefix before unit slug matching."""
+    m = re.match(r"^(?:partial kit|upgrade):\s*(.+)$", unit_name, re.IGNORECASE)
     return m.group(1).strip() if m else unit_name
 
 # ─── Model count ──────────────────────────────────────────────────────────────
@@ -616,7 +628,7 @@ def process(dry_run: bool = False, no_resolve: bool = False) -> None:
 
             # Determine component_type
             component_type = infer_component_type(unit_name, row.notes)
-            unit_name_clean = strip_partial_prefix(unit_name)
+            unit_name_clean = strip_unit_prefix(unit_name)
 
             # Match unit slug
             unit_slug = match_unit_slug(unit_name_clean, unit_slug_list)

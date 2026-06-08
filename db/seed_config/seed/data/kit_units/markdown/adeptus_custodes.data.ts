@@ -490,16 +490,61 @@ export const LegionesAstartesContemptorDreadnoughtVenerableContemptorDreadnought
   superseded_date: null,
 };
 
-export const LegioCustodesHeavyDreadnoughtBodyTelemonHeavyDreadnoughtCompleteUnitKitUnit: KitUnitConfig = {
-  id: kitUnitId("legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__complete_unit"),
+export const LegioCustodesHeavyDreadnoughtBodyTelemonHeavyDreadnoughtPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__partial_unit"),
   kit_id: kitId("legio_custodes_heavy_dreadnought_body"),
   unit_id: unitId("telemon_heavy_dreadnought"),
   unit_count: 1,
   model_count: 1,
-  component_type: "complete_unit",
+  component_type: "partial_unit",
   source_kind: "games_workshop_product_page",
   source_url: "https://tinyurl.com/28ze7zjv",
-  source_text: "1x Telemon Heavy Dreadnought",
+  source_text: "1x Telemon Heavy Dreadnought (body only)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesTelemonStormCannonArmTelemonHeavyDreadnoughtUpgradeComponentKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_telemon_storm_cannon_arm__telemon_heavy_dreadnought__upgrade_component"),
+  kit_id: kitId("legio_custodes_telemon_storm_cannon_arm"),
+  unit_id: unitId("telemon_heavy_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "upgrade_component",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://www.warhammer.com/en-US/shop/Legio-Custodes-Telemon-Storm-Cannon-Arm-2017",
+  source_text: "1x Storm Cannon arm",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesHeavyDreadnoughtArmTelemonHeavyDreadnoughtUpgradeComponentKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_heavy_dreadnought_arm__telemon_heavy_dreadnought__upgrade_component"),
+  kit_id: kitId("legio_custodes_heavy_dreadnought_arm"),
+  unit_id: unitId("telemon_heavy_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "upgrade_component",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://www.warhammer.com/en-US/shop/Legio-custodes-heavy-dreadnought-arm-2017",
+  source_text: "1x Heavy Dreadnought arm",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
+export const LegioCustodesTelemonDreadnoughtIliastusAcceleratorCulverinTelemonHeavyDreadnoughtUpgradeComponentKitUnit: KitUnitConfig = {
+  id: kitUnitId("legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin__telemon_heavy_dreadnought__upgrade_component"),
+  kit_id: kitId("legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin"),
+  unit_id: unitId("telemon_heavy_dreadnought"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "upgrade_component",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://www.warhammer.com/en-US/shop/Legio-Custodes-Telemon-Dreadnought-Iliastus-Accelerator-Culverin-2017",
+  source_text: "1x Iliastus Accelerator Culverin arm",
   review_status: "needs_review",
   effective_date: null,
   superseded_date: null,
@@ -630,7 +675,10 @@ export const kitUnitsMarkdownAdeptusCustodesDataset: SeedDataset<"kit_units"> = 
     LegioCustodesCustodianDreadnoughtContemptorAchillusDreadnoughtCompleteUnitKitUnit,
     LegioCustodesCustodianDreadnoughtContemptorGalatusDreadnoughtCompleteUnitKitUnit,
     LegionesAstartesContemptorDreadnoughtVenerableContemptorDreadnoughtCompleteUnitKitUnit,
-    LegioCustodesHeavyDreadnoughtBodyTelemonHeavyDreadnoughtCompleteUnitKitUnit,
+    LegioCustodesHeavyDreadnoughtBodyTelemonHeavyDreadnoughtPartialUnitKitUnit,
+    LegioCustodesTelemonStormCannonArmTelemonHeavyDreadnoughtUpgradeComponentKitUnit,
+    LegioCustodesHeavyDreadnoughtArmTelemonHeavyDreadnoughtUpgradeComponentKitUnit,
+    LegioCustodesTelemonDreadnoughtIliastusAcceleratorCulverinTelemonHeavyDreadnoughtUpgradeComponentKitUnit,
     LegioCustodesCaladiusGravTankCaladiusGravTankCompleteUnitKitUnit,
     LegioCustodesCaladiusGravTankAnnihilatorCaladiusGravTankCompleteUnitKitUnit,
     LegioCustodesCoronusGravCarrierCoronusGravCarrierCompleteUnitKitUnit,

@@ -10135,6 +10135,9 @@ type KitSeedSlug =
   | "vexilus_praetor_in_allarus_terminator_armour"
   | "vigilator_squad"
   | "witchseeker_squad"
+  | "legio_custodes_heavy_dreadnought_arm"
+  | "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin"
+  | "legio_custodes_telemon_storm_cannon_arm"
 ;
 
 const kitSeedIds: Record<KitSeedSlug, string> = {
@@ -10718,6 +10721,9 @@ const kitSeedIds: Record<KitSeedSlug, string> = {
   "vexilus_praetor_in_allarus_terminator_armour": "01KTKVS147GKCFEEV4BNXC7AYC",
   "vigilator_squad": "01KTKVS135H6DJHMXVFBBEGKBE",
   "witchseeker_squad": "01KTKVS1AKVM1W600YQF8P096E",
+  "legio_custodes_heavy_dreadnought_arm": "01KTM2A38AV3R9255F7BZE7CY2",
+  "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin": "01KTM2A38TT5KHCEJVWZJ3BTM2",
+  "legio_custodes_telemon_storm_cannon_arm": "01KTM2A37WM7Q3EPSMQY22HERV",
 };
 
 export const kitId = (slug: KitSeedSlug): string => {
@@ -10805,6 +10811,10 @@ type KitUnitSeedSlug =
   | "vexilus_praetor__custodian_guard__partial_unit"
   | "vexilus_praetor_and_4_miniatures__custodian_wardens__partial_unit"
   | "vexilus_praetor_in_allarus_terminator_armour__allarus_custodians__partial_unit"
+  | "legio_custodes_heavy_dreadnought_arm__telemon_heavy_dreadnought__upgrade_component"
+  | "legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__partial_unit"
+  | "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin__telemon_heavy_dreadnought__upgrade_component"
+  | "legio_custodes_telemon_storm_cannon_arm__telemon_heavy_dreadnought__upgrade_component"
 ;
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
@@ -10888,6 +10898,10 @@ const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
   "vexilus_praetor__custodian_guard__partial_unit": "01KTKZHJWDKDD7XKGGDSD3KT7S",
   "vexilus_praetor_and_4_miniatures__custodian_wardens__partial_unit": "01KTKZHJYNQN5XQT5F5KG5KQHE",
   "vexilus_praetor_in_allarus_terminator_armour__allarus_custodians__partial_unit": "01KTKZHJWTTKPX5GXWGFMTY6EZ",
+  "legio_custodes_heavy_dreadnought_arm__telemon_heavy_dreadnought__upgrade_component": "01KTM2A38TBS9Q1RJYW8P0Y3M1",
+  "legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__partial_unit": "01KTM2A37WQ5H6JQ7450BDNPBC",
+  "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin__telemon_heavy_dreadnought__upgrade_component": "01KTM2A39A8RMZ408YF7YGD64E",
+  "legio_custodes_telemon_storm_cannon_arm__telemon_heavy_dreadnought__upgrade_component": "01KTM2A38AH8XR372X62HRXHYJ",
 };
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {
