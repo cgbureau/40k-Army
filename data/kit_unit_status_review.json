@@ -1,14 +1,5 @@
 [
   {
-    "faction": "adepta_sororitas",
-    "kit": "Adepta Sororitas: Sister Superior Amalia Novena",
-    "unit": "n/a (kit only)",
-    "models": "1x Sister Superior (Battle Sisters Squad Leader)",
-    "url": "https://tinyurl.com/25lx5b45",
-    "notes": "Amalia is a model based on artwork; she is in game terms just a squad leader for a battle sisters squad",
-    "reason": "skip:n/a (kit only)"
-  },
-  {
     "faction": "adeptus_custodes",
     "kit": "Talons of the Emperor: Valerian and Aleya",
     "unit": "Shield-Captain Valerian; Knight-Centura Aleya",

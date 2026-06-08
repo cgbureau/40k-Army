@@ -265,6 +265,21 @@ export const SpaceMarineCelestineTheLivingSaintSaintCelestineCompleteUnitKitUnit
   superseded_date: null,
 };
 
+export const AdeptaSororitasSisterSuperiorAmaliaNovenaBattleSistersSquadPartialUnitKitUnit: KitUnitConfig = {
+  id: kitUnitId("adepta_sororitas_sister_superior_amalia_novena__battle_sisters_squad__partial_unit"),
+  kit_id: kitId("adepta_sororitas_sister_superior_amalia_novena"),
+  unit_id: unitId("battle_sisters_squad"),
+  unit_count: 1,
+  model_count: 1,
+  component_type: "partial_unit",
+  source_kind: "games_workshop_product_page",
+  source_url: "https://tinyurl.com/25lx5b45",
+  source_text: "1x Sister Superior (Battle Sisters Squad Leader)",
+  review_status: "needs_review",
+  effective_date: null,
+  superseded_date: null,
+};
+
 export const AdeptaSororitasImagifierImagifierCompleteUnitKitUnit: KitUnitConfig = {
   id: kitUnitId("adepta_sororitas_imagifier__imagifier__complete_unit"),
   kit_id: kitId("adepta_sororitas_imagifier"),
@@ -510,6 +525,7 @@ export const kitUnitsMarkdownAdeptaSororitasDataset: SeedDataset<"kit_units"> = 
     AdeptaSororitasZephyrimSquadZephyrimSquadAlternateBuildKitUnit,
     AdeptaSororitasTheTriumphOfStKatherineTriumphOfSaintKatherineCompleteUnitKitUnit,
     SpaceMarineCelestineTheLivingSaintSaintCelestineCompleteUnitKitUnit,
+    AdeptaSororitasSisterSuperiorAmaliaNovenaBattleSistersSquadPartialUnitKitUnit,
     AdeptaSororitasImagifierImagifierCompleteUnitKitUnit,
     AdeptaSororitasSisterDogmataDogmataCompleteUnitKitUnit,
     AdeptaSororitasCastigatorCastigatorCompleteUnitKitUnit,
