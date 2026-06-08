@@ -10627,13 +10627,52 @@ type KitUnitSeedSlug =
   | "combat_patrol_black_templars_2025__emperors_champion__complete_unit"
   | "combat_patrol_black_templars_2025__bladeguard_veteran_squad__complete_unit"
   | "combat_patrol_black_templars_2025__sword_brethren_squad__complete_unit"
-  | "combat_patrol_black_templars_2025__crusader_squad__complete_unit";
+  | "combat_patrol_black_templars_2025__crusader_squad__complete_unit"
+  | "adepta_sororitas_arco_flagellants__arco_flagellants__complete_unit"
+  | "adepta_sororitas_battle_sisters_squad__battle_sisters_squad__complete_unit"
+  | "adepta_sororitas_canoness__canoness__complete_unit"
+  | "adepta_sororitas_celestine_the_living_saint__saint_celestine__complete_unit"
+  | "adepta_sororitas_dialogus__dialogus__complete_unit"
+  | "adepta_sororitas_exorcist__exorcist__complete_unit"
+  | "adepta_sororitas_hospitaller__hospitaller__complete_unit"
+  | "adepta_sororitas_immolator__immolator__complete_unit"
+  | "adepta_sororitas_junith_eruita__junith_eruita__complete_unit"
+  | "adepta_sororitas_penitent_engines__penitent_engines__alternate_build"
+  | "adepta_sororitas_repentia_squad__repentia_squad__complete_unit"
+  | "adepta_sororitas_retributor_squad__retributor_squad__complete_unit"
+  | "adepta_sororitas_rhino__sororitas_rhino__complete_unit"
+  | "adepta_sororitas_seraphim_squad__seraphim_squad__alternate_build"
+  | "adepta_sororitas_the_triumph_of_st_katherine__triumph_of_saint_katherine__complete_unit"
+  | "adeptus_custodes_captain_general_trajann_valoris__trajann_valoris__complete_unit"
+  | "adeptus_custodes_custodian_wardens__custodian_wardens__complete_unit"
+  | "adeptus_custodes_vertus_praetors__vertus_praetors__complete_unit"
+  | "adeptus_sororitas_imagifier__imagifier__complete_unit"
+;
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
   "combat_patrol_black_templars_2025__emperors_champion__complete_unit": "01KRWS93S0D8ABD46BWYGX01B0",
   "combat_patrol_black_templars_2025__bladeguard_veteran_squad__complete_unit": "01K9V66GG43TJT8KY13TCQ20XF",
   "combat_patrol_black_templars_2025__sword_brethren_squad__complete_unit": "01KTJ07NR78R1AM9X67MD14HVB",
   "combat_patrol_black_templars_2025__crusader_squad__complete_unit": "01KAYJ1VZE6H4FK1PSV7BK2QDH",
+  "adepta_sororitas_arco_flagellants__arco_flagellants__complete_unit": "01KTKS8AABC11DPDCFEDY68JV2",
+  "adepta_sororitas_battle_sisters_squad__battle_sisters_squad__complete_unit": "01KTKS8AAVJQ70BCE6F3PEC7YJ",
+  "adepta_sororitas_canoness__canoness__complete_unit": "01KTKS8AB9RCBZZPGE6YC9BQYK",
+  "adepta_sororitas_celestine_the_living_saint__saint_celestine__complete_unit": "01KTKS8AGV82RFKYGCP6MTTFEM",
+  "adepta_sororitas_dialogus__dialogus__complete_unit": "01KTKS8ABPZPSNJYKD0WJE1NGN",
+  "adepta_sororitas_exorcist__exorcist__complete_unit": "01KTKS8AC3DJW50AAHGTFD99FY",
+  "adepta_sororitas_hospitaller__hospitaller__complete_unit": "01KTKS8ACHZSTB0QYE6Q92VWRE",
+  "adepta_sororitas_immolator__immolator__complete_unit": "01KTKS8AD03NNCR3D9EQ9PTJ2M",
+  "adepta_sororitas_junith_eruita__junith_eruita__complete_unit": "01KTKS8ADEM7FJJE4GB7G3Z0PB",
+  "adepta_sororitas_penitent_engines__penitent_engines__alternate_build": "01KTKS8ADWXP1DDBSHDKE43HFG",
+  "adepta_sororitas_repentia_squad__repentia_squad__complete_unit": "01KTKS8AEB2GK3Z8V7NE8H8KR5",
+  "adepta_sororitas_retributor_squad__retributor_squad__complete_unit": "01KTKS8AESQR4QBFCRY2SCBWY6",
+  "adepta_sororitas_rhino__sororitas_rhino__complete_unit": "01KTKS8AF9SEM18E3SBA02392Z",
+  "adepta_sororitas_seraphim_squad__seraphim_squad__alternate_build": "01KTKS8AFSK4YFV0K8M9KAQ6EX",
+  "adepta_sororitas_the_triumph_of_st_katherine__triumph_of_saint_katherine__complete_unit": "01KTKS8AGBYD2TWD5DK5Z67ZPN",
+  "adeptus_custodes_captain_general_trajann_valoris__trajann_valoris__complete_unit": "01KTKS8AHYH26DVQXZN6J813NJ",
+  "adeptus_custodes_custodian_wardens__custodian_wardens__complete_unit": "01KTKS8AJHCJK865TPV8ZNP2T8",
+  "adeptus_custodes_vertus_praetors__vertus_praetors__complete_unit": "01KTKS8AK1JCKKWSSVJ3M07PGH",
+  "adeptus_sororitas_imagifier__imagifier__complete_unit": "01KTKS8AHAX98PTSZPD2G79FNC",
 };
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {
