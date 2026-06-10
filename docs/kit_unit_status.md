@@ -583,141 +583,8 @@ _Unit Model Options_
 
 | Unit | Notes |
 | ---- | ----- |
-| Aggressor Squad | — |
-| Ancient | — |
-| Ancient in Terminator Armor | — |
-| Ancient on Bike (Legends) | — |
-| Apothecary | — |
-| Apothecary Biologis | — |
-| Apothecary on Bike (Legends) | — |
-| Assault Intercessor Squad | — |
-| Assault Intercessors with Jump Packs | — |
-| Assault Squad (Legends) | — |
-| Assault Squad with Jump Packs (Legends) | — |
-| Astartes Servitors (Legends) | — |
-| Astraeus | — |
-| Attack Bike Squad (Legends) | — |
-| Ballistus Dreadnought | — |
-| Bike Squad (Legends) | — |
-| Bladeguard Ancient | — |
-| Brutalis Dreadnought | — |
-| Caestus Assault Ram (Legends) | — |
-| Captain | — |
-| Captain in Gravis Armour | — |
-| Captain in Phobos Armour | — |
-| Captain in Terminator Armour | — |
-| Captain on Bike (Legends) | — |
-| Captain with Jump Pack | — |
-| Carab Culln the Risen (Legends) | — |
-| Castellan | — |
-| Centurion Assault Squad | — |
-| Centurion Devastator Squad | — |
-| Champion of the Chapter [Crucible] | — |
-| Chaplain | — |
-| Chaplain Grimaldus | — |
-| Chaplain Venerable Dreadnought (Legends) | — |
-| Chaplain in Terminator Armour | — |
-| Chaplain on Bike | — |
-| Chaplain with Jump Pack | — |
-| Command Squad (Legends) | — |
-| Company Champion on Bike (Legends) | — |
-| Company Heroes | — |
-| Company Veterans on Bikes (Legends) | — |
-| Crusade Ancient | — |
 | Crusader Squad (Legends) | — |
-| Deimos Predator (Legends) | — |
-| Desolation Squad | — |
-| Devastator Squad | — |
-| Dreadnought | — |
-| Drop Pod | — |
-| Eliminator Squad | — |
 | Emperor's Champion (Anointed) | — |
-| Eradicator Squad | — |
-| Execrator | — |
-| Firestrike Servo-Turrets | — |
-| Gladiator Lancer | — |
-| Gladiator Reaper | — |
-| Gladiator Valiant | — |
-| Hammerfall Bunker | — |
-| Heavy Intercessor Squad | — |
-| Hellblaster Squad | — |
-| High Marshal Helbrecht | — |
-| Hunter (Legends) | — |
-| Imperial Space Marine (Legends) | — |
-| Impulsor | — |
-| Inceptor Squad | — |
-| Incursor Squad | — |
-| Infernus Squad | — |
-| Infiltrator Squad | — |
-| Intercessor Squad | — |
-| Invader ATV | — |
-| Invictor Tactical Warsuit | — |
-| Ironclad Dreadnought (Legends) | — |
-| Judiciar | — |
-| Land Raider | — |
-| Land Raider Crusader | — |
-| Land Raider Excelsior (Legends) | — |
-| Land Raider Helios (Legends) | — |
-| Land Raider Prometheus (Legends) | — |
-| Land Raider Redeemer | — |
-| Land Speeder (Legends) | — |
-| Land Speeder Storm (Legends) | — |
-| Land Speeder Tempest (Legends) | — |
-| Land Speeder Tornado (Legends) | — |
-| Land Speeder Typhoon (Legends) | — |
-| Librarian | — |
-| Librarian in Phobos Armour | — |
-| Librarian in Terminator Armour | — |
-| Librarian on Bike (Legends) | — |
-| Librarian with Jump Pack (Legends) | — |
-| Librarius Adept [Crucible] | — |
-| Lieutenant | — |
-| Lieutenant in Phobos Armour | — |
-| Lieutenant in Reiver Armour | — |
-| Lieutenant with Combi-weapon | — |
-| Marshal | — |
-| Mortis Dreadnought (Legends) | — |
-| Outrider Squad | — |
-| Predator Annihilator | — |
-| Predator Destructor | — |
-| Primaris Company Champion (Legends) | — |
-| Razorback | — |
-| Redemptor Dreadnought | — |
-| Reiver Squad | — |
-| Relic Razorback (Legends) | — |
-| Relic Terminator Squad (Legends) | — |
-| Repulsor | — |
-| Repulsor Executioner | — |
-| Rhino | — |
-| Rhino Primaris (Legends) | — |
-| Scout Bike Squad (Legends) | — |
-| Scout Sniper Squad (Legends) | — |
-| Scout Squad | — |
-| Stalker (Legends) | — |
-| Sternguard Veteran Squad | — |
-| Storm Speeder Hailstrike | — |
-| Storm Speeder Hammerstrike | — |
-| Storm Speeder Thunderstrike | — |
-| Stormhawk Interceptor | — |
-| Stormraven Gunship | — |
-| Stormtalon Gunship | — |
-| Suppressor Squad | — |
-| Tactical Squad | — |
-| Tarantula Air Defense Battery (Legends) | — |
-| Techmarine | — |
-| Techmarine on Bike (Legends) | — |
-| Terminator Assault Squad | — |
-| Terminator Squad | — |
-| Terminus Ultra (Legends) | — |
-| Thunderfire Cannon (Legends) | — |
-| Thunderhawk Gunship | — |
-| Thunderhawk Transporter (Legends) | — |
-| Vanguard Veteran Squad (Legends) | — |
-| Vanguard Veteran Squad with Jump Packs | — |
-| Venerable Battle-Brother [Crucible] | — |
-| Venerable Dreadnought (Legends) | — |
-| Vindicator | — |
-| Whirlwind | — |
 
 ---
 
@@ -756,51 +623,13 @@ _Unit Model Options_
 
 | Unit | Notes |
 | ---- | ----- |
-| Aggressor Squad | — |
-| Ancient | — |
-| Ancient in Terminator Armor | — |
-| Ancient on Bike (Legends) | — |
-| Apothecary | — |
-| Apothecary Biologis | — |
-| Apothecary on Bike (Legends) | — |
-| Assault Intercessor Squad | — |
-| Assault Intercessors with Jump Packs | — |
-| Assault Squad (Legends) | — |
-| Assault Squad with Jump Packs (Legends) | — |
-| Astartes Servitors (Legends) | — |
 | Astorath | — |
-| Astraeus | — |
-| Attack Bike Squad (Legends) | — |
 | Baal Predator | — |
-| Ballistus Dreadnought | — |
-| Bike Squad (Legends) | — |
-| Bladeguard Ancient | — |
 | Blood Angels Captain | — |
 | Brother Corbulo (Legends) | — |
-| Brutalis Dreadnought | — |
-| Caestus Assault Ram (Legends) | — |
-| Captain | — |
 | Captain Tycho (Legends) | — |
-| Captain in Gravis Armour | — |
-| Captain in Phobos Armour | — |
-| Captain in Terminator Armour | — |
-| Captain on Bike (Legends) | — |
-| Captain with Jump Pack | — |
-| Carab Culln the Risen (Legends) | — |
-| Centurion Assault Squad | — |
-| Centurion Devastator Squad | — |
-| Champion of the Chapter [Crucible] | — |
-| Chaplain | — |
-| Chaplain Venerable Dreadnought (Legends) | — |
-| Chaplain in Terminator Armour | — |
-| Chaplain on Bike | — |
-| Chaplain with Jump Pack | — |
 | Chief Librarian Mephiston | — |
-| Command Squad (Legends) | — |
 | Commander Dante | — |
-| Company Champion on Bike (Legends) | — |
-| Company Heroes | — |
-| Company Veterans on Bikes (Legends) | — |
 | Death Company Captain | — |
 | Death Company Captain with Jump Pack | — |
 | Death Company Dreadnought | — |
@@ -811,105 +640,16 @@ _Unit Model Options_
 | Death Company Marines with Boltguns (Legends) | — |
 | Death Company Marines with Boltguns and Jump Packs (Legends) | — |
 | Death Company Marines with Jump Packs | — |
-| Deimos Predator (Legends) | — |
-| Desolation Squad | — |
-| Devastator Squad | — |
-| Dreadnought | — |
-| Drop Pod | — |
-| Eliminator Squad | — |
-| Eradicator Squad | — |
-| Firestrike Servo-Turrets | — |
 | Furioso Dreadnought (Legends) | — |
 | Gabriel Seth (Legends) | — |
-| Gladiator Lancer | — |
-| Gladiator Reaper | — |
-| Gladiator Valiant | — |
-| Hammerfall Bunker | — |
-| Heavy Intercessor Squad | — |
-| Hellblaster Squad | — |
-| Hunter (Legends) | — |
-| Imperial Space Marine (Legends) | — |
-| Impulsor | — |
-| Inceptor Squad | — |
-| Incursor Squad | — |
-| Infernus Squad | — |
-| Infiltrator Squad | — |
-| Intercessor Squad | — |
-| Invader ATV | — |
-| Invictor Tactical Warsuit | — |
-| Ironclad Dreadnought (Legends) | — |
-| Judiciar | — |
-| Land Raider | — |
-| Land Raider Crusader | — |
-| Land Raider Excelsior (Legends) | — |
-| Land Raider Helios (Legends) | — |
-| Land Raider Prometheus (Legends) | — |
-| Land Raider Redeemer | — |
-| Land Speeder (Legends) | — |
-| Land Speeder Storm (Legends) | — |
-| Land Speeder Tempest (Legends) | — |
-| Land Speeder Tornado (Legends) | — |
-| Land Speeder Typhoon (Legends) | — |
 | Lemartes | — |
-| Librarian | — |
 | Librarian Dreadnought (Legends) | — |
-| Librarian in Phobos Armour | — |
-| Librarian in Terminator Armour | — |
-| Librarian on Bike (Legends) | — |
-| Librarian with Jump Pack (Legends) | — |
-| Librarius Adept [Crucible] | — |
-| Lieutenant | — |
-| Lieutenant in Phobos Armour | — |
-| Lieutenant in Reiver Armour | — |
-| Lieutenant with Combi-weapon | — |
-| Mortis Dreadnought (Legends) | — |
-| Outrider Squad | — |
-| Predator Annihilator | — |
-| Predator Destructor | — |
-| Primaris Company Champion (Legends) | — |
-| Razorback | — |
-| Redemptor Dreadnought | — |
-| Reiver Squad | — |
-| Relic Razorback (Legends) | — |
-| Relic Terminator Squad (Legends) | — |
-| Repulsor | — |
-| Repulsor Executioner | — |
-| Rhino | — |
-| Rhino Primaris (Legends) | — |
 | Sanguinary Guard | — |
 | Sanguinary Priest | — |
 | Sanguinary Priest on Bike (Legends) | — |
 | Sanguinary Priest with Jump Pack (Legends) | — |
-| Scout Bike Squad (Legends) | — |
-| Scout Sniper Squad (Legends) | — |
-| Scout Squad | — |
-| Stalker (Legends) | — |
-| Sternguard Veteran Squad | — |
-| Storm Speeder Hailstrike | — |
-| Storm Speeder Hammerstrike | — |
-| Storm Speeder Thunderstrike | — |
-| Stormhawk Interceptor | — |
-| Stormraven Gunship | — |
-| Stormtalon Gunship | — |
-| Suppressor Squad | — |
-| Tactical Squad | — |
-| Tarantula Air Defense Battery (Legends) | — |
-| Techmarine | — |
-| Techmarine on Bike (Legends) | — |
-| Terminator Assault Squad | — |
-| Terminator Squad | — |
-| Terminus Ultra (Legends) | — |
 | The Sanguinor | — |
-| Thunderfire Cannon (Legends) | — |
-| Thunderhawk Gunship | — |
-| Thunderhawk Transporter (Legends) | — |
 | Tycho the Lost (Legends) | — |
-| Vanguard Veteran Squad (Legends) | — |
-| Vanguard Veteran Squad with Jump Packs | — |
-| Venerable Battle-Brother [Crucible] | — |
-| Venerable Dreadnought (Legends) | — |
-| Vindicator | — |
-| Whirlwind | — |
 
 ---
 
