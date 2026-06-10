@@ -5,8 +5,10 @@
 
 import { kitUnitsMarkdownAdeptaSororitasDataset } from "./adepta_sororitas.data";
 import { kitUnitsMarkdownAdeptusCustodesDataset } from "./adeptus_custodes.data";
+import { kitUnitsMarkdownBlackTemplarsDataset } from "./black_templars.data";
 
 export const kitUnitsMarkdownDatasets = [
   kitUnitsMarkdownAdeptaSororitasDataset,
   kitUnitsMarkdownAdeptusCustodesDataset,
+  kitUnitsMarkdownBlackTemplarsDataset,
 ];

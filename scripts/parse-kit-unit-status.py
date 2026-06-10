@@ -63,18 +63,24 @@ ComponentType = Literal["complete_unit", "alternate_build", "partial_unit", "upg
 # ─── URL resolution ────────────────────────────────────────────────────────────
 
 def _resolve_redirect(url: str) -> str | None:
-    """Follow a redirect (tinyurl etc.) and return the Location URL without loading the page."""
-    class _NoRedirect(urllib.request.HTTPRedirectHandler):
-        def redirect_request(self, req, fp, code, msg, headers, newurl):
-            return None
+    """Follow redirects until we reach a warhammer.com URL, then stop without loading the page."""
+    result: list[str] = []
 
-    opener = urllib.request.build_opener(_NoRedirect())
+    class _StopAtWarhammer(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, req, fp, code, msg, headers, newurl):
+            if "warhammer.com" in newurl.lower():
+                result.append(newurl)
+                return None  # stop — raises HTTPError with this as Location
+            return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+    opener = urllib.request.build_opener(_StopAtWarhammer())
     try:
         resp = opener.open(url, timeout=10)
         return resp.url
     except urllib.error.HTTPError as e:
-        loc = e.headers.get("Location")
-        return loc
+        if result:
+            return result[0]
+        return e.headers.get("Location")
     except Exception:
         return None
 

@@ -19,7 +19,7 @@ describe("kit dataset inventory generator", () => {
       kitTypes: 4,
       kits: 530,
       kitModels: 0,
-      kitUnits: 79,
+      kitUnits: 87,
       kitUnitPriceAllocations: 0,
       kitPrices: 2165,
       kitPricesTcgcsv: 631,
@@ -75,7 +75,7 @@ describe("kit dataset inventory generator", () => {
     expect(markdown).toContain("| Normalized products | 853 |");
     expect(markdown).toContain("| `kits` | 530 |");
     expect(markdown).toContain("| `kit_prices` | 2165 |");
-    expect(markdown).toContain("| `kit_units` | 79 |");
+    expect(markdown).toContain("| `kit_units` | 87 |");
     expect(markdown).toContain("2165 `kit_prices` rows");
     expect(markdown).toContain("631 TCGCSV USD");
     expect(markdown).toContain("`source_kind`, `source_url`, `source_text`, and `review_status`");

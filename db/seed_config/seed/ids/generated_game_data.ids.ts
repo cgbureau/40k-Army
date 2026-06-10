@@ -10138,6 +10138,14 @@ type KitSeedSlug =
   | "legio_custodes_heavy_dreadnought_arm"
   | "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin"
   | "legio_custodes_telemon_storm_cannon_arm"
+  | "black_templars_castellan"
+  | "black_templars_crusade_ancient"
+  | "black_templars_emperors_champion"
+  | "black_templars_execrator"
+  | "black_templars_grimaldus_and_retinue"
+  | "black_templars_high_marshal_helbrecht"
+  | "black_templars_marshal"
+  | "black_templars_sword_brethren"
 ;
 
 const kitSeedIds: Record<KitSeedSlug, string> = {
@@ -10724,6 +10732,14 @@ const kitSeedIds: Record<KitSeedSlug, string> = {
   "legio_custodes_heavy_dreadnought_arm": "01KTM2A38AV3R9255F7BZE7CY2",
   "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin": "01KTM2A38TT5KHCEJVWZJ3BTM2",
   "legio_custodes_telemon_storm_cannon_arm": "01KTM2A37WM7Q3EPSMQY22HERV",
+  "black_templars_castellan": "01KTRPRY66TQHZ7QNETW887BJH",
+  "black_templars_crusade_ancient": "01KTRPRY86288E4N3EEMN17K99",
+  "black_templars_emperors_champion": "01KTRPRY6JYVZ0VV46EJAY0WRD",
+  "black_templars_execrator": "01KTRPRY8MMPKX08JSWZQYYTCC",
+  "black_templars_grimaldus_and_retinue": "01KTRPRY6ZNCHZXQ3F017K1652",
+  "black_templars_high_marshal_helbrecht": "01KTRPRY7CQJJB1Q9NQYQYY284",
+  "black_templars_marshal": "01KTRPRY5VW0YE10M1ANZK75VC",
+  "black_templars_sword_brethren": "01KTRPRY7TS95XDTNSCY4ZRZVN",
 };
 
 export const kitId = (slug: KitSeedSlug): string => {
@@ -10815,6 +10831,14 @@ type KitUnitSeedSlug =
   | "legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__partial_unit"
   | "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin__telemon_heavy_dreadnought__upgrade_component"
   | "legio_custodes_telemon_storm_cannon_arm__telemon_heavy_dreadnought__upgrade_component"
+  | "black_templars_castellan__castellan__complete_unit"
+  | "black_templars_crusade_ancient__crusade_ancient__complete_unit"
+  | "black_templars_emperors_champion__emperors_champion__complete_unit"
+  | "black_templars_execrator__execrator__complete_unit"
+  | "black_templars_grimaldus_and_retinue__chaplain_grimaldus__complete_unit"
+  | "black_templars_high_marshal_helbrecht__high_marshal_helbrecht__complete_unit"
+  | "black_templars_marshal__marshal__complete_unit"
+  | "black_templars_sword_brethren__sword_brethren_squad__complete_unit"
 ;
 
 const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
@@ -10902,6 +10926,14 @@ const kitUnitSeedIds: Record<KitUnitSeedSlug, string> = {
   "legio_custodes_heavy_dreadnought_body__telemon_heavy_dreadnought__partial_unit": "01KTM2A37WQ5H6JQ7450BDNPBC",
   "legio_custodes_telemon_dreadnought_iliastus_accelerator_culverin__telemon_heavy_dreadnought__upgrade_component": "01KTM2A39A8RMZ408YF7YGD64E",
   "legio_custodes_telemon_storm_cannon_arm__telemon_heavy_dreadnought__upgrade_component": "01KTM2A38AH8XR372X62HRXHYJ",
+  "black_templars_castellan__castellan__complete_unit": "01KTRPRY6JZK9X9VYZNPGANWJB",
+  "black_templars_crusade_ancient__crusade_ancient__complete_unit": "01KTRPRY8M80F3TQS75TJ5YQVA",
+  "black_templars_emperors_champion__emperors_champion__complete_unit": "01KTRPRY6ZNWFS0H6KCB3FNBZ6",
+  "black_templars_execrator__execrator__complete_unit": "01KTRPRY90RF89BPKP936YNFG5",
+  "black_templars_grimaldus_and_retinue__chaplain_grimaldus__complete_unit": "01KTRPRY7CZYCWM7FP2V9HYTAW",
+  "black_templars_high_marshal_helbrecht__high_marshal_helbrecht__complete_unit": "01KTRPRY7TVJVC7860C2TV4DGY",
+  "black_templars_marshal__marshal__complete_unit": "01KTRPRY666HSFQ62VY7V41F8M",
+  "black_templars_sword_brethren__sword_brethren_squad__complete_unit": "01KTRPRY86RAKMGH91YYYM8QS1",
 };
 
 export const kitUnitId = (slug: KitUnitSeedSlug): string => {
