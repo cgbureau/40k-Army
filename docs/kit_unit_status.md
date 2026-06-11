@@ -613,85 +613,85 @@ _Unit Model Options_
 
 ### Chaos Daemons Kits
 
-| Kit                                                | Unit(s)                           | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| -------------------------------------------------- | --------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Ahriman Arch-Sorcerer of Tzeentch                  | —                                 | —      | —                       | —                                  | —     |
-| Be'lakor, the Dark Master                          | Be'lakor                          | —      | —                       | —                                  | —     |
-| Bloodcrushers                                      | Bloodcrushers                     | —      | —                       | —                                  | —     |
-| Bloodletters                                       | Bloodletters                      | —      | —                       | —                                  | —     |
-| Bloodmaster, Herald of Khorne                      | Bloodmaster                       | —      | —                       | —                                  | —     |
-| Bloodthirster                                      | Bloodthirster                     | —      | —                       | —                                  | —     |
-| Blue Horrors and Brimstone Horrors                 | Blue Horrors                      | —      | —                       | —                                  | —     |
-| Fateskimmer, Herald of Tzeentch on Burning Chariot | Burning Chariot                   | —      | —                       | —                                  | —     |
-| Changecaster                                       | Changecaster                      | —      | —                       | —                                  | —     |
-| The Contorted Epitome                              | Contorted Epitome                 | —      | —                       | —                                  | —     |
-| Daemon Prince                                      | Daemon Prince of Chaos            | —      | —                       | —                                  | —     |
-| Daemon Prince                                      | Daemon Prince of Chaos with wings | —      | —                       | —                                  | —     |
-| Daemonettes of Slaanesh                            | Daemonettes                       | —      | —                       | —                                  | —     |
-| Exalted Flamer of Tzeentch                         | Exalted Flamer                    | —      | —                       | —                                  | —     |
-| Fateskimmer, Herald of Tzeentch on Burning Chariot | Fateskimmer                       | —      | —                       | —                                  | —     |
-| Feculent Gnarlmaw                                  | Feculent Gnarlmaw                 | —      | —                       | —                                  | —     |
-| Fiends                                             | Fiends                            | —      | —                       | —                                  | —     |
-| Flamers                                            | Flamers                           | —      | —                       | —                                  | —     |
-| Flesh Hounds                                       | Flesh Hounds                      | —      | —                       | —                                  | —     |
-| Chaos Spawn                                        | Giant Chaos Spawn (Legends)       | —      | —                       | —                                  | —     |
-| Great Unclean One                                  | Great Unclean One                 | —      | —                       | —                                  | —     |
-| Horticulous Slimux                                 | Horticulous Slimux                | —      | —                       | —                                  | —     |
-| Infernal Enrapturess                               | Infernal Enrapturess              | —      | —                       | —                                  | —     |
-| Kairos Fateweaver                                  | Kairos Fateweaver                 | —      | —                       | —                                  | —     |
-| Karanak                                            | Karanak                           | —      | —                       | —                                  | —     |
-| Keeper of Secrets                                  | Keeper of Secrets                 | —      | —                       | —                                  | —     |
-| Soul Grinder                                       | Khorne Soul Grinder               | —      | —                       | —                                  | —     |
-| Lord of Change                                     | Lord of Change                    | —      | —                       | —                                  | —     |
-| Soul Grinder                                       | Nurgle Soul Grinder               | —      | —                       | —                                  | —     |
-| Nurglings                                          | Nurglings                         | —      | —                       | —                                  | —     |
-| Pink Horrors                                       | Pink Horrors                      | —      | —                       | —                                  | —     |
-| Plague Drones                                      | Plague Drones                     | —      | —                       | —                                  | —     |
-| Plaguebearers                                      | Plaguebearers                     | —      | —                       | —                                  | —     |
-| Poxbringer                                         | Poxbringer                        | —      | —                       | —                                  | —     |
-| Rotigus                                            | Rotigus                           | —      | —                       | —                                  | —     |
-| Screamers                                          | Screamers                         | —      | —                       | —                                  | —     |
-| Witchseekers                                       | Seekers                           | —      | —                       | —                                  | —     |
-| Shalaxi Helbane                                    | Shalaxi Helbane                   | —      | —                       | —                                  | —     |
-| Skarbrand                                          | Skarbrand                         | —      | —                       | —                                  | —     |
-| Skull Altar                                        | Skull Altar                       | —      | —                       | —                                  | —     |
-| Skull Cannon                                       | Skull Cannon                      | —      | —                       | —                                  | —     |
-| Skulltaker                                         | Skulltaker                        | —      | —                       | —                                  | —     |
-| Soul Grinder                                       | Slaanesh Soul Grinder             | —      | —                       | —                                  | —     |
-| Sloppity Bilepiper                                 | Sloppity Bilepiper                | —      | —                       | —                                  | —     |
-| Syll'Esske: The Vengeful Allegiance                | Syll'esske                        | —      | —                       | —                                  | —     |
-| The Changeling                                     | The Changeling                    | —      | —                       | —                                  | —     |
-| The Masque                                         | The Masque of Slaanesh            | —      | —                       | —                                  | —     |
-| Soul Grinder                                       | Tzeentch Soul Grinder             | —      | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Ahriman Arch-Sorcerer of Tzeentch | | | | | |
+| Be'lakor, the Dark Master | Be'lakor | | | | |
+| Bloodmaster, Herald of Khorne | Bloodmaster | | | | |
+| Bloodthirster | Bloodthirster | | | | |
+| Changecaster | Changecaster | | | | |
+| Daemon Prince | Daemon Prince of Chaos | | | | |
+| Daemon Prince | Daemon Prince of Chaos with wings | | | | |
+| Exalted Flamer of Tzeentch | Exalted Flamer | | | | |
+| Fateskimmer, Herald of Tzeentch on Burning Chariot | Fateskimmer | | | | |
+| Great Unclean One | Great Unclean One | | | | |
+| Horticulous Slimux | Horticulous Slimux | | | | |
+| Infernal Enrapturess | Infernal Enrapturess | | | | |
+| Kairos Fateweaver | Kairos Fateweaver | | | | |
+| Karanak | Karanak | | | | |
+| Keeper of Secrets | Keeper of Secrets | | | | |
+| Lord of Change | Lord of Change | | | | |
+| Poxbringer | Poxbringer | | | | |
+| Rotigus | Rotigus | | | | |
+| Shalaxi Helbane | Shalaxi Helbane | | | | |
+| Skarbrand | Skarbrand | | | | |
+| Skulltaker | Skulltaker | | | | |
+| Sloppity Bilepiper | Sloppity Bilepiper | | | | |
+| Syll'Esske: The Vengeful Allegiance | Syll'esske | | | | |
+| The Changeling | The Changeling | | | | |
+| The Contorted Epitome | Contorted Epitome | | | | |
+| The Masque | The Masque of Slaanesh | | | | |
+| Bloodcrushers | Bloodcrushers | | | | |
+| Bloodletters | Bloodletters | | | | |
+| Blue Horrors and Brimstone Horrors | Blue Horrors | | | | |
+| Daemonettes of Slaanesh | Daemonettes | | | | |
+| Fiends | Fiends | | | | |
+| Flamers | Flamers | | | | |
+| Flesh Hounds | Flesh Hounds | | | | |
+| Nurglings | Nurglings | | | | |
+| Pink Horrors | Pink Horrors | | | | |
+| Plague Drones | Plague Drones | | | | |
+| Plaguebearers | Plaguebearers | | | | |
+| Screamers | Screamers | | | | |
+| Witchseekers | Seekers | | | | |
+| Fateskimmer, Herald of Tzeentch on Burning Chariot | Burning Chariot | | | | |
+| Skull Cannon | Skull Cannon | | | | |
+| Soul Grinder | Khorne Soul Grinder | | | | |
+| Soul Grinder | Nurgle Soul Grinder | | | | |
+| Soul Grinder | Slaanesh Soul Grinder | | | | |
+| Soul Grinder | Tzeentch Soul Grinder | | | | |
 
 ### Chaos Daemons Units with no kit data
 
-| Unit                                              | Notes |
-| ------------------------------------------------- | ----- |
-| Aetaos'rau'keres (Legends)                        | —     |
-| An'ggrath the Unbound (Legends)                   | —     |
-| Beasts of Nurgle                                  | —     |
-| Daemonic Charioteer [Crucible]                    | —     |
-| Daemonic Herald [Crucible]                        | —     |
-| Epidemius                                         | —     |
-| Exalted Seeker Chariot (Legends)                  | —     |
-| Fluxmaster                                        | —     |
-| Furies (Legends)                                  | —     |
-| Hellflayers                                       | —     |
-| Herald of Slaanesh on Steed of Slaanesh (Legends) | —     |
-| Immortal Champion [Crucible]                      | —     |
-| Plague Toads (Legends)                            | —     |
-| Pox Riders (Legends)                              | —     |
-| Rendmaster on Blood Throne                        | —     |
-| Scabeiathrax the Bloated (Legends)                | —     |
-| Seeker Chariot (Legends)                          | —     |
-| Skullmaster                                       | —     |
-| Spined Chaos Beast (Legends)                      | —     |
-| Spoilpox Scrivener                                | —     |
-| The Blue Scribes                                  | —     |
-| Tormentbringer                                    | —     |
-| Tranceweaver                                      | —     |
-| Zarakynel (Legends)                               | —     |
+| Unit | Notes |
+| --- | --- |
+| Aetaos'rau'keres (Legends) | |
+| An'ggrath the Unbound (Legends) | |
+| Beasts of Nurgle | |
+| Daemonic Charioteer [Crucible] | |
+| Daemonic Herald [Crucible] | |
+| Epidemius | |
+| Exalted Seeker Chariot (Legends) | |
+| Feculent Gnarlmaw | |
+| Fluxmaster | |
+| Furies (Legends) | |
+| Giant Chaos Spawn (Legends) | |
+| Hellflayers | |
+| Herald of Slaanesh on Steed of Slaanesh (Legends) | |
+| Immortal Champion [Crucible] | |
+| Plague Toads (Legends) | |
+| Pox Riders (Legends) | |
+| Rendmaster on Blood Throne | |
+| Scabeiathrax the Bloated (Legends) | |
+| Seeker Chariot (Legends) | |
+| Skull Altar | |
+| Skullmaster | |
+| Spined Chaos Beast (Legends) | |
+| Spoilpox Scrivener | |
+| The Blue Scribes | |
+| Tormentbringer | |
+| Tranceweaver | |
+| Zarakynel (Legends) | |
 
 ---
 
