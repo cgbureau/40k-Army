@@ -191,6 +191,7 @@ _Unit Model Options_
 | Sydonian Skatros                                      | Sydonian Skatros                       |        |                         |                                    |       |
 | Tech-Priest Enginseer                                 | Tech-Priest Enginseer                  |        |                         |                                    |       |
 | Technoarcheologist                                    | Technoarcheologist                     |        |                         |                                    |       |
+| Cybernetica Datasmith                                 |                                        |        |                         |                                    |       |
 | Thulia Ghuld                                          | Thulia Ghuld                           |        |                         |                                    |       |
 | Adeptus Mechanicus Electro Priests                    | Corpuscarii Electro-Priests            |        |                         |                                    |       |
 | Adeptus Mechanicus Electro Priests                    | Fulgurite Electro-Priests              |        |                         |                                    |       |
@@ -207,6 +208,7 @@ _Unit Model Options_
 | Adeptus Mechanicus Skitarii                           | Skitarii Vanguard                      |        |                         |                                    |       |
 | Hastarii                                              | Hastarii Exterminators                 |        |                         |                                    |       |
 | Hastarii                                              | Hastarii Fusiliers                     |        |                         |                                    |       |
+| Servitor Battleclade                                  |                                        |        |                         |                                    |       |
 | Adeptus Mechanicus Archaeopter                        | Archaeopter Fusilave                   |        |                         |                                    |       |
 | Adeptus Mechanicus Archaeopter                        | Archaeopter Stratoraptor               |        |                         |                                    |       |
 | Adeptus Mechanicus Archaeopter                        | Archaeopter Transvector                |        |                         |                                    |       |
@@ -227,11 +229,9 @@ _Unit Model Options_
 | Unit                             | Notes |
 | -------------------------------- | ----- |
 | Cohort Commander [Crucible]      |       |
-| Cybernetica Datasmith            |       |
 | Ironstrider Alpha [Crucible]     |       |
 | Secutarii Hoplites (Legends)     |       |
 | Secutarii Peltasts (Legends)     |       |
-| Servitor Battleclade             |       |
 | Servitors (Legends)              |       |
 | Terrax-Pattern Termite (Legends) |       |
 
@@ -241,78 +241,81 @@ _Unit Model Options_
 
 ### Aeldari Kits
 
-| Kit                                          | Unit(s)                       | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| -------------------------------------------- | ----------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Archon                                       | Ynnari Archon                 |        |                         |                                    |       |
-| Asurmen                                      | Asurmen                       |        |                         |                                    |       |
-| Autarch Wayleaper                            | Autarch                       |        |                         |                                    |       |
-| Autarch Wayleaper                            | Autarch Wayleaper             |        |                         |                                    |       |
-| Avatar of Khaine                             | Avatar of Khaine              |        |                         |                                    |       |
-| Baharroth                                    | Baharroth                     |        |                         |                                    |       |
-| Craftworlds Eldrad Ulthran                   | Eldrad Ulthran                |        |                         |                                    |       |
-| Craftworlds Farseer                          |                               |        |                         |                                    |       |
-| Craftworlds Jain Zar, the Storm of Silence   | Jain Zar                      |        |                         |                                    |       |
-| Eldar Farseer Skyrunner                      | Farseer                       |        |                         |                                    |       |
-| Eldar Farseer Skyrunner                      | Farseer Skyrunner             |        |                         |                                    |       |
-| Eldar Farseer Skyrunner                      | Skyrunner [Crucible]          |        |                         |                                    |       |
-| Fuegan                                       | Fuegan                        |        |                         |                                    |       |
-| Harlequin Death Jester                       | Death Jester                  |        |                         |                                    |       |
-| Harlequin Shadowseer                         | Shadowseer                    |        |                         |                                    |       |
-| Kharseth                                     | Kharseth                      |        |                         |                                    |       |
-| Lhykhis                                      | Lhykhis                       |        |                         |                                    |       |
-| Maugan Ra                                    | Maugan Ra                     |        |                         |                                    |       |
-| Prince Yriel                                 | Prince Yriel                  |        |                         |                                    |       |
-| Solitaire                                    | Solitaire                     |        |                         |                                    |       |
-| Succubus                                     | Ynnari Succubus               |        |                         |                                    |       |
-| The Visarch                                  | The Visarch                   |        |                         |                                    |       |
-| The Yncarne                                  | The Yncarne                   |        |                         |                                    |       |
-| Warlock Skyrunner                            | Warlock Skyrunners            |        |                         |                                    |       |
-| Warlocks                                     | Warlock                       |        |                         |                                    |       |
-| Yvraine                                      | Yvraine                       |        |                         |                                    |       |
-| Corsair Skyreavers                           | Corsair Skyreavers            |        |                         |                                    |       |
-| Craftworlds Howling Banshees                 | Howling Banshees              |        |                         |                                    |       |
-| Dark Reapers                                 | Dark Reapers                  |        |                         |                                    |       |
-| Eldar Dire Avengers                          | Dire Avengers                 |        | ~5                      |                                    |       |
-| Eldar Guardians                              |                               |        |                         |                                    |       |
-| Eldar Windriders                             | Windriders                    |        | ~3                      |                                    |       |
-| Eldar Wraithguard                            | Wraithguard                   |        |                         |                                    |       |
-| Eldar Wraithlord                             | Wraithlord                    |        |                         |                                    |       |
-| Fire Dragons                                 | Fire Dragons                  |        |                         |                                    |       |
-| Guardian Defenders                           | Guardian Defenders            |        |                         |                                    |       |
-| Harlequin Troupe                             | Troupe                        |        |                         |                                    |       |
-| Incubi                                       | Ynnari Incubi                 |        |                         |                                    |       |
-| Kabalite Warriors                            | Ynnari Kabalite Warriors      |        |                         |                                    |       |
-| Rangers                                      | Rangers                       |        |                         |                                    |       |
-| Reavers                                      | Corsair Voidreavers           |        |                         |                                    |       |
-| Reavers                                      | Ynnari Reavers                |        |                         |                                    |       |
-| Shining Spears                               | Shining Spears                |        |                         |                                    |       |
-| Shroud Runners                               | Shroud Runners                |        |                         |                                    |       |
-| Storm Guardians                              | Storm Guardians               |        |                         |                                    |       |
-| Swooping Hawks                               | Swooping Hawks                |        |                         |                                    |       |
-| Warp Spiders                                 | Warp Spiders                  |        |                         |                                    |       |
-| Wraithblades                                 | Wraithblades                  |        |                         |                                    |       |
-| Wyches                                       | Ynnari Wyches                 |        |                         |                                    |       |
-| Crimson Hunter                               | Crimson Hunter                |        |                         |                                    |       |
-| Eldar Hemlock Wraithfighter                  | Hemlock Wraithfighter         |        |                         |                                    |       |
-| Eldar War Walker                             | War Walkers                   |        |                         |                                    |       |
-| Eldar Wraithknight                           | Wraithknight                  |        |                         |                                    |       |
-| Eldar Wraithknight                           | Wraithknight with Ghostglaive |        |                         |                                    |       |
-| Fire Prism                                   | Fire Prism                    |        |                         |                                    |       |
-| Harlequin Skyweavers                         | Skyweavers                    |        |                         |                                    |       |
-| Harlequin Starweaver                         | Starweaver                    |        |                         |                                    |       |
-| Night Spinner                                | Night Spinner                 |        |                         |                                    |       |
-| Raider                                       | Ynnari Raider                 |        |                         |                                    |       |
-| Venom                                        | Ynnari Venom                  |        |                         |                                    |       |
-| Voidweaver                                   | Voidweaver                    |        |                         |                                    |       |
-| Vyper/Starfang                               | Starfangs                     |        |                         |                                    |       |
-| Vyper/Starfang                               | Vypers                        |        |                         |                                    |       |
-| Wave Serpent/Falcon                          | Falcon                        |        |                         |                                    |       |
-| Wave Serpent/Falcon                          | Wave Serpent                  |        |                         |                                    |       |
-| Apocalypse: Craftworlds Vanguard Detachment  |                               |        |                         |                                    |       |
-| Battleforce: Craftworlds Asuryani Bladehost  |                               |        |                         |                                    |       |
-| Blood of the Phoenix                         |                               |        |                         |                                    |       |
-| Battleforce: Craftworlds Spiritseer          | Spiritseer                    |        |                         |                                    |       |
-| Start Collecting! Eldar                      |                               |        |                         |                                    |       |
+| Kit                                         | Unit(s)                       | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------- | ----------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Archon                                      | Ynnari Archon                 |        |                         |                                    |       |
+| Asurmen                                     | Asurmen                       |        |                         |                                    |       |
+| Autarch Wayleaper                           | Autarch                       |        |                         |                                    |       |
+| Autarch Wayleaper                           | Autarch Wayleaper             |        |                         |                                    |       |
+| Avatar of Khaine                            | Avatar of Khaine              |        |                         |                                    |       |
+| Baharroth                                   | Baharroth                     |        |                         |                                    |       |
+| Craftworlds Eldrad Ulthran                  | Eldrad Ulthran                |        |                         |                                    |       |
+| Craftworlds Farseer                         |                               |        |                         |                                    |       |
+| Craftworlds Jain Zar, the Storm of Silence  | Jain Zar                      |        |                         |                                    |       |
+| Eldar Farseer Skyrunner                     | Farseer                       |        |                         |                                    |       |
+| Eldar Farseer Skyrunner                     | Farseer Skyrunner             |        |                         |                                    |       |
+| Eldar Farseer Skyrunner                     | Skyrunner [Crucible]          |        |                         |                                    |       |
+| Fuegan                                      | Fuegan                        |        |                         |                                    |       |
+| Harlequin Death Jester                      | Death Jester                  |        |                         |                                    |       |
+| Harlequin Shadowseer                        | Shadowseer                    |        |                         |                                    |       |
+| Kharseth                                    | Kharseth                      |        |                         |                                    |       |
+| Lhykhis                                     | Lhykhis                       |        |                         |                                    |       |
+| Maugan Ra                                   | Maugan Ra                     |        |                         |                                    |       |
+| Prince Yriel                                | Prince Yriel                  |        |                         |                                    |       |
+| Solitaire                                   | Solitaire                     |        |                         |                                    |       |
+| Succubus                                    | Ynnari Succubus               |        |                         |                                    |       |
+| The Visarch                                 | The Visarch                   |        |                         |                                    |       |
+| The Yncarne                                 | The Yncarne                   |        |                         |                                    |       |
+| Troupe Master                               | Troupe Master                 |        |                         |                                    |       |
+| Warlock Skyrunner                           | Warlock Skyrunners            |        |                         |                                    |       |
+| Warlocks                                    | Warlock                       |        |                         |                                    |       |
+| Yvraine                                     | Yvraine                       |        |                         |                                    |       |
+| Corsair Skyreavers                          | Corsair Skyreavers            |        |                         |                                    |       |
+| Corsair Voidreavers                         | Corsair Voidreavers           |        |                         |                                    |       |
+| Corsair Voidreavers                         | Corsair VoidScarred           |        |                         |                                    |       |
+| Craftworlds Howling Banshees                | Howling Banshees              |        |                         |                                    |       |
+| Dark Reapers                                | Dark Reapers                  |        |                         |                                    |       |
+| D-Cannon Platform                           |                               |        |                         |                                    |       |
+| Eldar Dire Avengers                         | Dire Avengers                 |        |                         |                                    |       |
+| Eldar Windriders                            | Windriders                    |        |                         |                                    |       |
+| Eldar Wraithguard                           | Wraithguard                   |        |                         |                                    |       |
+| Eldar Wraithlord                            | Wraithlord                    |        |                         |                                    |       |
+| Fire Dragons                                | Fire Dragons                  |        |                         |                                    |       |
+| Guardian Defenders                          | Guardian Defenders            |        |                         |                                    |       |
+| Harlequin Troupe                            | Troupe                        |        |                         |                                    |       |
+| Incubi                                      | Ynnari Incubi                 |        |                         |                                    |       |
+| Kabalite Warriors                           | Ynnari Kabalite Warriors      |        |                         |                                    |       |
+| Rangers                                     | Rangers                       |        |                         |                                    |       |
+| Reavers                                     | Ynnari Reavers                |        |                         |                                    |       |
+| Shining Spears                              | Shining Spears                |        |                         |                                    |       |
+| Shroud Runners                              | Shroud Runners                |        |                         |                                    |       |
+| Storm Guardians                             | Storm Guardians               |        |                         |                                    |       |
+| Striking Scorpions                          | Striking Scorpions            |        |                         |                                    |       |
+| Swooping Hawks                              | Swooping Hawks                |        |                         |                                    |       |
+| Warp Spiders                                | Warp Spiders                  |        |                         |                                    |       |
+| Wraithblades                                | Wraithblades                  |        |                         |                                    |       |
+| Wyches                                      | Ynnari Wyches                 |        |                         |                                    |       |
+| Crimson Hunter                              | Crimson Hunter                |        |                         |                                    |       |
+| Eldar Hemlock Wraithfighter                 | Hemlock Wraithfighter         |        |                         |                                    |       |
+| Eldar War Walker                            | War Walkers                   |        |                         |                                    |       |
+| Eldar Wraithknight                          | Wraithknight                  |        |                         |                                    |       |
+| Eldar Wraithknight                          | Wraithknight with Ghostglaive |        |                         |                                    |       |
+| Fire Prism                                  | Fire Prism                    |        |                         |                                    |       |
+| Harlequin Skyweavers                        | Skyweavers                    |        |                         |                                    |       |
+| Harlequin Starweaver                        | Starweaver                    |        |                         |                                    |       |
+| Night Spinner                               | Night Spinner                 |        |                         |                                    |       |
+| Raider                                      | Ynnari Raider                 |        |                         |                                    |       |
+| Venom                                       | Ynnari Venom                  |        |                         |                                    |       |
+| Voidweaver                                  | Voidweaver                    |        |                         |                                    |       |
+| Vyper/Starfang                              | Starfangs                     |        |                         |                                    |       |
+| Vyper/Starfang                              | Vypers                        |        |                         |                                    |       |
+| Wave Serpent/Falcon                         | Falcon                        |        |                         |                                    |       |
+| Wave Serpent/Falcon                         | Wave Serpent                  |        |                         |                                    |       |
+| Apocalypse: Craftworlds Vanguard Detachment |                               |        |                         |                                    |       |
+| Battleforce: Craftworlds Asuryani Bladehost |                               |        |                         |                                    |       |
+| Blood of the Phoenix                        |                               |        |                         |                                    |       |
+| Battleforce: Craftworlds Spiritseer         | Spiritseer                    |        |                         |                                    |       |
+| Start Collecting! Eldar                     |                               |        |                         |                                    |       |
 
 ### Aeldari Units with no kit data
 
@@ -326,7 +329,6 @@ _Unit Model Options_
 | Corsair Cloud Dancer Band (Legends) |       |
 | Corsair Reaver Band (Legends)       |       |
 | Corsair Skyreaver Band (Legends)    |       |
-| Corsair Voidscarred                 |       |
 | Craftworld Warleader [Crucible]     |       |
 | D-Cannon Platform                   |       |
 | Firestorm (Legends)                 |       |
@@ -345,8 +347,6 @@ _Unit Model Options_
 | Shadow Spectres (Legends)           |       |
 | Shadow Weaver Platform              |       |
 | Skathach Wraithknight (Legends)     |       |
-| Striking Scorpions                  |       |
-| Troupe Master                       |       |
 | Vampire Hunter (Legends)            |       |
 | Vampire Raider (Legends)            |       |
 | Vibro Cannon Platform               |       |
@@ -362,174 +362,160 @@ _Unit Model Options_
 
 ### Astra Militarum Kits
 
-| Kit                                                           | Unit(s)                             | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------- | ----------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: Astra Militarum Spearhead Detachment              | —                                   | —           | —                       | —                                  | —     |
-| Apocalypse: Space Marines Battalion Detachment                | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Baneblade                                     | Baneblade (unconfirmed)             | £120 / €155 | —                       | —                                  | —     |
-| Astra Militarum Cadian Armoured Fist                          | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Cadian Shock Troops                           | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Cadians                                       | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Hydra                                         | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Imperial Guard Chimera                        | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Imperial Guard Leman Russ Battle Tank         | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Leman Russ Demolisher                         | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Leman Russ Tech-Command                       | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Sentinel                                      | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Starter Set: Kill Team - Drop Force Imperator | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum Tech-Priest Enginseer                         | Tech-Priest Enginseer (unconfirmed) | £52 / €68   | —                       | —                                  | —     |
-| Astra Militarum Valkyrie                                      | —                                   | —           | —                       | —                                  | —     |
-| Astra Militarum: Battleforce - Bastion Platoon                | —                                   | —           | —                       | —                                  | —     |
-| Astra Telepathica Sisters of Silence                          | —                                   | —           | —                       | —                                  | —     |
-| Battleforce - Astra Militarum: Battlegroup                    | —                                   | —           | —                       | —                                  | —     |
-| Battleforce - Astra Militarum: Severina Raine                 | —                                   | —           | —                       | —                                  | —     |
-| Cadian Command Squad                                          | —                                   | —           | —                       | —                                  | —     |
-| Cadian Heavy Weapon Squad                                     | —                                   | —           | —                       | —                                  | —     |
-| Militarum Auxilla Bullgryns                                   | —                                   | —           | —                       | —                                  | —     |
-| Militarum Tempestus Scions                                    | —                                   | —           | —                       | —                                  | —     |
-| Start Collecting! Astra Militarum                             | —                                   | —           | —                       | —                                  | —     |
-| Aegis Defence Line                                            | Aegis Defence Line                  | —           | —                       | —                                  | —     |
-| Armoured Sentinel                                             | Armoured Sentinels                  | —           | —                       | —                                  | —     |
-| Artillery Team                                                | Artillery Team                      | —           | —                       | —                                  | —     |
-| Attilan Rough Riders                                          | Attilan Rough Riders                | —           | —                       | —                                  | —     |
-| Avenger Strike Fighter                                        | Avenger Strike Fighter              | —           | —                       | —                                  | —     |
-| Astra Militarum Baneblade                                     | Baneblade                           | —           | —                       | —                                  | —     |
-| Banehammer                                                    | Banehammer                          | —           | —                       | —                                  | —     |
-| Banesword                                                     | Banesword                           | —           | —                       | —                                  | —     |
-| Basilisk                                                      | Basilisk                            | —           | —                       | —                                  | —     |
-| Cadian Castellan                                              | Cadian Castellan                    | —           | —                       | —                                  | —     |
-| Cadian Command Squad                                          | Cadian Command Squad                | —           | —                       | —                                  | —     |
-| Cadian Heavy Weapon Squad                                     | Cadian Heavy Weapons Squad          | —           | —                       | —                                  | —     |
-| Astra Militarum Cadian Shock Troops                           | Cadian Shock Troops                 | —           | —                       | —                                  | —     |
-| Catachan Command Squad                                        | Catachan Command Squad              | —           | —                       | —                                  | —     |
-| Catachan Heavy Weapons Squad                                  | Catachan Heavy Weapons Squad        | —           | —                       | —                                  | —     |
-| Catachan Jungle Fighters                                      | Catachan Jungle Fighters            | —           | —                       | —                                  | —     |
-| Astra Militarum Imperial Guard Chimera                        | Chimera                             | —           | —                       | —                                  | —     |
-| Kill Team Commander: Ankra The Colossus                       | Colossus (Legends)                  | —           | —                       | —                                  | —     |
-| Officio Prefectus Commissar                                   | Commissar                           | —           | —                       | —                                  | —     |
-| Commissar Graves                                              | Commissar Graves                    | —           | —                       | —                                  | —     |
-| Commissar Graves                                              | Commissar Graves on Foot            | —           | —                       | —                                  | —     |
-| Commissar Yarrick                                             | Commissar Yarrick                   | —           | —                       | —                                  | —     |
-| Cyclops Demolition Vehicle                                    | Cyclops Demolition Vehicle          | —           | —                       | —                                  | —     |
-| Death Korps of Krieg                                          | Death Korps of Krieg                | —           | —                       | —                                  | —     |
-| Commissar                                                     | Death Rider Commissar (Legends)     | —           | —                       | —                                  | —     |
-| Death Riders                                                  | Death Riders                        | —           | —                       | —                                  | —     |
-| Deathstrike                                                   | Deathstrike                         | —           | —                       | —                                  | —     |
-| Doomhammer                                                    | Doomhammer                          | —           | —                       | —                                  | —     |
-| Field Ordnance Battery                                        | Field Ordnance Battery              | —           | —                       | —                                  | —     |
-| Hellhammer                                                    | Hellhammer                          | —           | —                       | —                                  | —     |
-| Hellhound                                                     | Hellhound                           | —           | —                       | —                                  | —     |
-| Astra Militarum Hydra                                         | Hydra                               | —           | —                       | —                                  | —     |
-| Hydra                                                         | Hydra Platform (Legends)            | —           | —                       | —                                  | —     |
-| Kill Team: Kasrkin                                            | Kasrkin                             | —           | —                       | —                                  | —     |
-| Krieg Combat Engineers                                        | Krieg Combat Engineers              | —           | —                       | —                                  | —     |
-| Krieg Command Squad                                           | Krieg Command Squad                 | —           | —                       | —                                  | —     |
-| Catachan Heavy Weapons Squad                                  | Krieg Heavy Weapons Squad           | —           | —                       | —                                  | —     |
-| Astra Militarum Imperial Guard Leman Russ Battle Tank         | Leman Russ Battle Tank              | —           | —                       | —                                  | —     |
-| Astra Militarum Leman Russ Demolisher                         | Leman Russ Demolisher               | —           | —                       | —                                  | —     |
-| Lord Marshal Dreir                                            | Lord Marshal Dreir                  | —           | —                       | —                                  | —     |
-| Lord Solar Leontus                                            | Lord Solar Leontus                  | —           | —                       | —                                  | —     |
-| Manticore                                                     | Manticore                           | —           | —                       | —                                  | —     |
-| Manticore                                                     | Manticore Platform (Legends)        | —           | —                       | —                                  | —     |
-| Marauder Bomber                                               | Marauder Bomber (Legends)           | —           | —                       | —                                  | —     |
-| Marauder Destroyer                                            | Marauder Destroyer (Legends)        | —           | —                       | —                                  | —     |
-| Militarum Tempestus Scions Command Squad                      | Militarum Tempestus Command Squad   | —           | —                       | —                                  | —     |
-| Ministorum Priest                                             | Ministorum Priest                   | —           | —                       | —                                  | —     |
-| Nork Deddog                                                   | Nork Deddog                         | —           | —                       | —                                  | —     |
-| Vexilus Praetor in Allarus Terminator Armour                  | Praetor (Legends)                   | —           | —                       | —                                  | —     |
-| Primaris Psyker                                               | Primaris Psyker                     | —           | —                       | —                                  | —     |
-| Kill Team: Ratlings                                           | Ratlings                            | —           | —                       | —                                  | —     |
-| Rogal Dorn Battle Tank                                        | Rogal Dorn Battle Tank              | —           | —                       | —                                  | —     |
-| Scout Sentinel                                                | Scout Sentinels                     | —           | —                       | —                                  | —     |
-| Shadowsword                                                   | Shadowsword                         | —           | —                       | —                                  | —     |
-| Sly Marbo                                                     | Sly Marbo                           | —           | —                       | —                                  | —     |
-| Chimera                                                       | Storm Chimera (Legends)             | —           | —                       | —                                  | —     |
-| Imotekh the Stormlord                                         | Stormlord                           | —           | —                       | —                                  | —     |
-| Stormsword                                                    | Stormsword                          | —           | —                       | —                                  | —     |
-| Taurox Prime                                                  | Taurox                              | —           | —                       | —                                  | —     |
-| Taurox Prime                                                  | Taurox Prime                        | —           | —                       | —                                  | —     |
-| Tech-Priest Enginseer                                         | Tech-Priest Enginseer               | —           | —                       | —                                  | —     |
-| Kill Team: Tempestus Aquilons                                 | Tempestus Aquilons                  | —           | —                       | —                                  | —     |
-| Militarum Tempestus Scions                                    | Tempestus Scions                    | —           | —                       | —                                  | —     |
-| Lord Castellan Ursula Creed                                   | Ursula Creed                        | —           | —                       | —                                  | —     |
-| Astra Militarum Valkyrie                                      | Valkyrie                            | —           | —                       | —                                  | —     |
-| Valkyrie                                                      | Valkyrie Sky Talon (Legends)        | —           | —                       | —                                  | —     |
-| Wyvern                                                        | Wyvern                              | —           | —                       | —                                  | —     |
+| Kit                                                           | Unit(s)                           | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------------------------- | --------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Astra Militarum Tech-Priest Enginseer                         | Tech-Priest Enginseer             |        |                         |                                    |       |
+| Cadian Castellan                                              | Cadian Castellan                  |        |                         |                                    |       |
+| Cadian Command Squad                                          | Cadian Command Squad              |        |                         |                                    |       |
+| Catachan Command Squad                                        | Catachan Command Squad            |        |                         |                                    |       |
+| Commissar Graves                                              | Commissar Graves                  |        |                         |                                    |       |
+| Commissar Graves                                              | Commissar Graves on Foot          |        |                         |                                    |       |
+| Commissar Yarrick                                             | Commissar Yarrick                 |        |                         |                                    |       |
+| Krieg Command Squad                                           | Krieg Command Squad               |        |                         |                                    |       |
+| Lord Castellan Ursula Creed                                   | Ursula Creed                      |        |                         |                                    |       |
+| Lord Marshal Dreir                                            | Lord Marshal Dreir                |        |                         |                                    |       |
+| Lord Solar Leontus                                            | Lord Solar Leontus                |        |                         |                                    |       |
+| Militarum Tempestus Scions Command Squad                      | Militarum Tempestus Command Squad |        |                         |                                    |       |
+| Ministorum Priest                                             | Ministorum Priest                 |        |                         |                                    |       |
+| Nork Deddog                                                   | Nork Deddog                       |        |                         |                                    |       |
+| Officio Prefectus Commissar                                   | Commissar                         |        |                         |                                    |       |
+| Primaris Psyker                                               | Primaris Psyker                   |        |                         |                                    |       |
+| Sly Marbo                                                     | Sly Marbo                         |        |                         |                                    |       |
+| Artillery Team                                                | Artillery Team                    |        |                         |                                    |       |
+| Astra Militarum Cadian Shock Troops                           | Cadian Shock Troops               |        |                         |                                    |       |
+| Astra Telepathica Sisters of Silence                          |                                   |        |                         |                                    |       |
+| Attilan Rough Riders                                          | Attilan Rough Riders              |        |                         |                                    |       |
+| Cadian Heavy Weapon Squad                                     | Cadian Heavy Weapons Squad        |        |                         |                                    |       |
+| Catachan Heavy Weapons Squad                                  | Catachan Heavy Weapons Squad      |        |                         |                                    |       |
+| Catachan Heavy Weapons Squad                                  | Krieg Heavy Weapons Squad         |        |                         |                                    |       |
+| Catachan Jungle Fighters                                      | Catachan Jungle Fighters          |        |                         |                                    |       |
+| Death Korps of Krieg                                          | Death Korps of Krieg              |        |                         |                                    |       |
+| Death Riders                                                  | Death Riders                      |        |                         |                                    |       |
+| Field Ordnance Battery                                        | Field Ordnance Battery            |        |                         |                                    |       |
+| Kill Team: Kasrkin                                            | Kasrkin                           |        |                         |                                    |       |
+| Kill Team: Ratlings                                           | Ratlings                          |        |                         |                                    |       |
+| Kill Team: Tempestus Aquilons                                 | Tempestus Aquilons                |        |                         |                                    |       |
+| Krieg Combat Engineers                                        | Krieg Combat Engineers            |        |                         |                                    |       |
+| Militarum Auxilla Bullgryns                                   |                                   |        |                         |                                    |       |
+| Militarum Tempestus Scions                                    | Tempestus Scions                  |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Baneblade                         |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Banehammer                        |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Banesword                         |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Doomhammer                        |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Hellhammer                        |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Shadowsword                       |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Stormlord                         |        |                         |                                    |       |
+| Astra Militarum Baneblade                                     | Stormsword                        |        |                         |                                    |       |
+| Astra Militarum Hydra                                         | Hydra                             |        |                         |                                    |       |
+| Astra Militarum Hydra                                         | Wyvern                            |        |                         |                                    |       |
+| Astra Militarum Imperial Guard Chimera                        | Chimera                           |        |                         |                                    |       |
+| Astra Militarum Imperial Guard Leman Russ Battle Tank         | Leman Russ Battle Tank            |        |                         |                                    |       |
+| Astra Militarum Leman Russ Demolisher                         | Leman Russ Demolisher             |        |                         |                                    |       |
+| Astra Militarum Leman Russ Tech-Command                       |                                   |        |                         |                                    |       |
+| Astra Militarum Sentinel                                      | Armoured Sentinels                |        |                         |                                    |       |
+| Astra Militarum Sentinel                                      | Scout Sentinels                   |        |                         |                                    |       |
+| Astra Militarum Valkyrie                                      | Valkyrie                          |        |                         |                                    |       |
+| Avenger Strike Fighter                                        | Avenger Strike Fighter            |        |                         |                                    |       |
+| Basilisk                                                      | Basilisk                          |        |                         |                                    |       |
+| Cyclops Demolition Vehicle                                    | Cyclops Demolition Vehicle        |        |                         |                                    |       |
+| Deathstrike                                                   | Deathstrike                       |        |                         |                                    |       |
+| Hellhound                                                     | Hellhound                         |        |                         |                                    |       |
+| Manticore                                                     | Manticore                         |        |                         |                                    |       |
+| Rogal Dorn Battle Tank                                        | Rogal Dorn Battle Tank            |        |                         |                                    |       |
+| Taurox Prime                                                  | Taurox                            |        |                         |                                    |       |
+| Taurox Prime                                                  | Taurox Prime                      |        |                         |                                    |       |
+| Apocalypse: Astra Militarum Spearhead Detachment              |                                   |        |                         |                                    |       |
+| Apocalypse: Space Marines Battalion Detachment                |                                   |        |                         |                                    |       |
+| Astra Militarum Cadian Armoured Fist                          |                                   |        |                         |                                    |       |
+| Astra Militarum Starter Set: Kill Team - Drop Force Imperator |                                   |        |                         |                                    |       |
+| Astra Militarum: Battleforce - Bastion Platoon                |                                   |        |                         |                                    |       |
+| Battleforce - Astra Militarum: Battlegroup                    |                                   |        |                         |                                    |       |
+| Battleforce - Astra Militarum: Severina Raine                 |                                   |        |                         |                                    |       |
+| Start Collecting! Astra Militarum                             |                                   |        |                         |                                    |       |
 
 ### Astra Militarum Units with no kit data
 
 | Unit                                     | Notes |
 | ---------------------------------------- | ----- |
-| Aquila Lander (Legends)                  | —     |
-| Arkurian Stormhammer (Legends)           | —     |
-| Armageddon-pattern Medusa (Legends)      | —     |
-| Arvus Lighter (Legends)                  | —     |
-| Atlas Recovery Vehicle (Legends)         | —     |
-| Augmented Bone 'Ead [Crucible]           | —     |
-| Bullgryn Squad                           | —     |
-| Cadian Recon Squad                       | —     |
-| Carnodon (Legends)                       | —     |
-| Centaur Light Carrier (Legends)          | —     |
-| Centaur RSV                              | —     |
-| Crassus (Legends)                        | —     |
-| Death Korps Grenadier Squad (Legends)    | —     |
-| Dominus Armoured Siege Bombard (Legends) | —     |
-| Earthshaker Carriage Battery (Legends)   | —     |
-| Earthshaker Platform (Legends)           | —     |
-| Elysian Drop Sentinel (Legends)          | —     |
-| Elysian Sniper Squad (Legends)           | —     |
-| Front-line Commander [Crucible]          | —     |
-| Gaunt\u2019s Ghosts                      | —     |
-| Gorgon Heavy Transport (Legends)         | —     |
-| Griffon Mortar Carrier (Legends)         | —     |
-| Hades Breaching Drill (Legends)          | —     |
-| Heavy Mortar Team (Legends)              | —     |
-| Heavy Quad Launcher Team (Legends)       | —     |
-| Hell's Last (Legends)                    | —     |
-| Hippogriff AFV                           | —     |
-| Leman Russ Commander                     | —     |
-| Leman Russ Eradicator                    | —     |
-| Leman Russ Executioner                   | —     |
-| Leman Russ Exterminator                  | —     |
-| Leman Russ Punisher                      | —     |
-| Leman Russ Vanquisher                    | —     |
-| Macharius (Legends)                      | —     |
-| Macharius Omega (Legends)                | —     |
-| Macharius Vanquisher (Legends)           | —     |
-| Macharius Vulcan (Legends)               | —     |
-| Malcador (Legends)                       | —     |
-| Malcador Annihilator (Legends)           | —     |
-| Malcador Defender (Legends)              | —     |
-| Malcador Infernus (Legends)              | —     |
-| Medusa Carriage Battery (Legends)        | —     |
-| Minotaur (Legends)                       | —     |
-| Mukaali Riders (Legends)                 | —     |
-| Munitorum Servitors (Legends)            | —     |
-| Ogryn Bodyguard                          | —     |
-| Ogryn Squad                              | —     |
-| Provisionally Prepared (Legends)         | —     |
-| Quartermaster Cadre Squad (Legends)      | —     |
-| Rapier Laser Destroyer Battery (Legends) | —     |
-| Regimental Attach\u00e9s (Legends)       | —     |
-| Rein and Raus (Legends)                  | —     |
-| Rogal Dorn Commander                     | —     |
-| Sabre Weapons Battery (Legends)          | —     |
-| Salamander Command Vehicle (Legends)     | —     |
-| Salamander Scout Vehicle (Legends)       | —     |
-| Sentinel Commander [Crucible]            | —     |
-| Sentinel Powerlifter (Legends)           | —     |
-| Sergeant Harker (Legends)                | —     |
-| Stormblade (Legends)                     | —     |
-| Stygies Destroyer Tank Hunter (Legends)  | —     |
-| Tarantula Battery (Legends)              | —     |
-| Tauros Assault Vehicle (Legends)         | —     |
-| Tauros Venator (Legends)                 | —     |
-| Trojan Support Vehicle (Legends)         | —     |
-| Valdor (Legends)                         | —     |
-| Vendetta Gunship (Legends)               | —     |
-| Voss-pattern Lightning (Legends)         | —     |
-| Vulture Gunship (Legends)                | —     |
-| \u2018Iron Hand\u2019 Straken (Legends)  | —     |
+| Aegis Defence Line                       |       |
+| Aquila Lander (Legends)                  |       |
+| Arkurian Stormhammer (Legends)           |       |
+| Armageddon-pattern Medusa (Legends)      |       |
+| Arvus Lighter (Legends)                  |       |
+| Atlas Recovery Vehicle (Legends)         |       |
+| Augmented Bone 'Ead [Crucible]           |       |
+| Bullgryn Squad                           |       |
+| Cadian Recon Squad                       |       |
+| Carnodon (Legends)                       |       |
+| Centaur Light Carrier (Legends)          |       |
+| Centaur RSV                              |       |
+| Colossus (Legends)                       |       |
+| Crassus (Legends)                        |       |
+| Death Korps Grenadier Squad (Legends)    |       |
+| Death Rider Commissar (Legends)          |       |
+| Dominus Armoured Siege Bombard (Legends) |       |
+| Earthshaker Carriage Battery (Legends)   |       |
+| Earthshaker Platform (Legends)           |       |
+| Elysian Drop Sentinel (Legends)          |       |
+| Elysian Sniper Squad (Legends)           |       |
+| Front-line Commander [Crucible]          |       |
+| Gaunt\u2019s Ghosts                      |       |
+| Gorgon Heavy Transport (Legends)         |       |
+| Griffon Mortar Carrier (Legends)         |       |
+| Hades Breaching Drill (Legends)          |       |
+| Heavy Mortar Team (Legends)              |       |
+| Heavy Quad Launcher Team (Legends)       |       |
+| Hell's Last (Legends)                    |       |
+| Hippogriff AFV                           |       |
+| Hydra Platform (Legends)                 |       |
+| Leman Russ Commander                     |       |
+| Leman Russ Eradicator                    |       |
+| Leman Russ Executioner                   |       |
+| Leman Russ Exterminator                  |       |
+| Leman Russ Punisher                      |       |
+| Leman Russ Vanquisher                    |       |
+| Macharius (Legends)                      |       |
+| Macharius Omega (Legends)                |       |
+| Macharius Vanquisher (Legends)           |       |
+| Macharius Vulcan (Legends)               |       |
+| Malcador (Legends)                       |       |
+| Malcador Annihilator (Legends)           |       |
+| Malcador Defender (Legends)              |       |
+| Malcador Infernus (Legends)              |       |
+| Manticore Platform (Legends)             |       |
+| Marauder Bomber (Legends)                |       |
+| Marauder Destroyer (Legends)             |       |
+| Medusa Carriage Battery (Legends)        |       |
+| Minotaur (Legends)                       |       |
+| Mukaali Riders (Legends)                 |       |
+| Munitorum Servitors (Legends)            |       |
+| Ogryn Bodyguard                          |       |
+| Ogryn Squad                              |       |
+| Provisionally Prepared (Legends)         |       |
+| Quartermaster Cadre Squad (Legends)      |       |
+| Rapier Laser Destroyer Battery (Legends) |       |
+| Regimental Attach\u00e9s (Legends)       |       |
+| Rein and Raus (Legends)                  |       |
+| Rogal Dorn Commander                     |       |
+| Sabre Weapons Battery (Legends)          |       |
+| Salamander Command Vehicle (Legends)     |       |
+| Salamander Scout Vehicle (Legends)       |       |
+| Sentinel Commander [Crucible]            |       |
+| Sentinel Powerlifter (Legends)           |       |
+| Sergeant Harker (Legends)                |       |
+| Storm Chimera (Legends)                  |       |
+| Stormblade (Legends)                     |       |
+| Stygies Destroyer Tank Hunter (Legends)  |       |
+| Tarantula Battery (Legends)              |       |
+| Tauros Assault Vehicle (Legends)         |       |
+| Tauros Venator (Legends)                 |       |
+| Trojan Support Vehicle (Legends)         |       |
+| Valdor (Legends)                         |       |
+| Valkyrie Sky Talon (Legends)             |       |
+| Vendetta Gunship (Legends)               |       |
+| Voss-pattern Lightning (Legends)         |       |
+| Vulture Gunship (Legends)                |       |
+| \u2018Iron Hand\u2019 Straken (Legends)  |       |
 
 ---
 
