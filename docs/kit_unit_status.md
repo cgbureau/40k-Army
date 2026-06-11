@@ -182,71 +182,58 @@ _Unit Model Options_
 
 ### Adeptus Mechanicus Kits
 
-| Kit                                                   | Unit(s)                              | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------------------- | ------------------------------------ | --------- | ----------------------- | ---------------------------------- | ----- |
-| Adeptus Mechanicus Archaeopter                        | —                                    | £74 / €97 | —                       | —                                  | —     |
-| Adeptus Mechanicus Electro Priests                    | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Ironstrider                        | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Kastelan Robots                    | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Kataphron Battle Servitors         | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Onager Dunecrawler                 | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Pteraxii                           | —                                    | £74 / €97 | —                       | —                                  | —     |
-| Adeptus Mechanicus Serberys Raiders                   | Serberys Raiders (unconfirmed)       | £74 / €97 | —                       | —                                  | —     |
-| Adeptus Mechanicus Sicarians                          | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Skitarii                           | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Skorpius Disintegrator             | Skorpius Disintegrator (unconfirmed) | £52 / €68 | —                       | —                                  | —     |
-| Adeptus Mechanicus Tech-Priest Dominus                | —                                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Tech-Priest Manipulus              | Tech-Priest Manipulus (unconfirmed)  | £74 / €97 | —                       | —                                  | —     |
-| Apocalypse: Adeptus Mechanicus Vanguard Detachment    | —                                    | —         | —                       | —                                  | —     |
-| Battleforce: Adeptus Mechanicus Fist of the Omnissian | —                                    | —         | —                       | —                                  | —     |
-| Kill Team Theta-7 Aquisitus                           | —                                    | —         | —                       | —                                  | —     |
-| Start Collecting! Adeptus Mechanicus                  | —                                    | —         | —                       | —                                  | —     |
-| Archaeopter Fusilave                                  | Archaeopter Fusilave                 | —         | —                       | —                                  | —     |
-| Archaeopter Stratoraptor                              | Archaeopter Stratoraptor             | —         | —                       | —                                  | —     |
-| Archaeopter Transvector                               | Archaeopter Transvector              | —         | —                       | —                                  | —     |
-| Belisarius Cawl                                       | Belisarius Cawl                      | —         | —                       | —                                  | —     |
-| Corpuscarii Electro-Priests                           | Corpuscarii Electro-Priests          | —         | —                       | —                                  | —     |
-| Fulgurite Electro-Priests                             | Fulgurite Electro-Priests            | —         | —                       | —                                  | —     |
-| Hastarii                                              | Hastarii Exterminators               | —         | —                       | —                                  | —     |
-| Hastarii                                              | Hastarii Fusiliers                   | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Kastelan Robots                    | Kastelan Robots                      | —         | —                       | —                                  | —     |
-| Kataphron Breachers                                   | Kataphron Breachers                  | —         | —                       | —                                  | —     |
-| Kataphron Destroyers                                  | Kataphron Destroyers                 | —         | —                       | —                                  | —     |
-| Kill Team Commander: Magos Dalathrust                 | Magos [Crucible]                     | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Onager Dunecrawler                 | Onager Dunecrawler                   | —         | —                       | —                                  | —     |
-| Pteraxii Skystalkers                                  | Pteraxii Skystalkers                 | —         | —                       | —                                  | —     |
-| Pteraxii Sterylizors                                  | Pteraxii Sterylizors                 | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Serberys Raiders                   | Serberys Raiders                     | —         | —                       | —                                  | —     |
-| Serberys Sulphurhounds                                | Serberys Sulphurhounds               | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Kataphron Battle Servitors         | Servitors (Legends)                  | —         | —                       | —                                  | —     |
-| Sicarian Infiltrators                                 | Sicarian Infiltrators                | —         | —                       | —                                  | —     |
-| Sicarian Ruststalkers                                 | Sicarian Ruststalkers                | —         | —                       | —                                  | —     |
-| Skitarii Marshal                                      | Skitarii Marshal                     | —         | —                       | —                                  | —     |
-| Rangers                                               | Skitarii Rangers                     | —         | —                       | —                                  | —     |
-| Skitarii Vanguard                                     | Skitarii Vanguard                    | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Skorpius Disintegrator             | Skorpius Disintegrator               | —         | —                       | —                                  | —     |
-| Skorpius Dunerider                                    | Skorpius Dunerider                   | —         | —                       | —                                  | —     |
-| Sydonian Skatros                                      | Sydonian Skatros                     | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Tech-Priest Dominus                | Tech-Priest Dominus                  | —         | —                       | —                                  | —     |
-| Tech-Priest Enginseer                                 | Tech-Priest Enginseer                | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Tech-Priest Manipulus              | Tech-Priest Manipulus                | —         | —                       | —                                  | —     |
-| Technoarcheologist                                    | Technoarcheologist                   | —         | —                       | —                                  | —     |
-| Thulia Ghuld                                          | Thulia Ghuld                         | —         | —                       | —                                  | —     |
+| Kit                                                   | Unit(s)                                | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ----------------------------------------------------- | -------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Adeptus Mechanicus Tech-Priest Dominus                | Tech-Priest Dominus                    |        |                         |                                    |       |
+| Adeptus Mechanicus Tech-Priest Manipulus              | Tech-Priest Manipulus                  |        |                         |                                    |       |
+| Belisarius Cawl                                       | Belisarius Cawl                        |        |                         |                                    |       |
+| Skitarii Marshal                                      | Skitarii Marshal                       |        |                         |                                    |       |
+| Sydonian Skatros                                      | Sydonian Skatros                       |        |                         |                                    |       |
+| Tech-Priest Enginseer                                 | Tech-Priest Enginseer                  |        |                         |                                    |       |
+| Technoarcheologist                                    | Technoarcheologist                     |        |                         |                                    |       |
+| Thulia Ghuld                                          | Thulia Ghuld                           |        |                         |                                    |       |
+| Adeptus Mechanicus Electro Priests                    | Corpuscarii Electro-Priests            |        |                         |                                    |       |
+| Adeptus Mechanicus Electro Priests                    | Fulgurite Electro-Priests              |        |                         |                                    |       |
+| Adeptus Mechanicus Kastelan Robots                    | Kastelan Robots                        |        |                         |                                    |       |
+| Adeptus Mechanicus Kataphron Battle Servitors         | Kataphron Breachers                    |        |                         |                                    |       |
+| Adeptus Mechanicus Kataphron Battle Servitors         | Kataphron Destroyers                   |        |                         |                                    |       |
+| Adeptus Mechanicus Pteraxii                           | Pteraxii Skystalkers                   |        |                         |                                    |       |
+| Adeptus Mechanicus Pteraxii                           | Pteraxii Sterylizors                   |        |                         |                                    |       |
+| Adeptus Mechanicus Serberys Raiders                   | Serberys Raiders                       |        |                         |                                    |       |
+| Adeptus Mechanicus Serberys Raiders                   | Serberys Sulphurhounds                 |        |                         |                                    |       |
+| Adeptus Mechanicus Sicarians                          | Sicarian Infiltrators                  |        |                         |                                    |       |
+| Adeptus Mechanicus Sicarians                          | Sicarian Ruststalkers                  |        |                         |                                    |       |
+| Adeptus Mechanicus Skitarii                           | Skitarii Rangers                       |        |                         |                                    |       |
+| Adeptus Mechanicus Skitarii                           | Skitarii Vanguard                      |        |                         |                                    |       |
+| Hastarii                                              | Hastarii Exterminators                 |        |                         |                                    |       |
+| Hastarii                                              | Hastarii Fusiliers                     |        |                         |                                    |       |
+| Adeptus Mechanicus Archaeopter                        | Archaeopter Fusilave                   |        |                         |                                    |       |
+| Adeptus Mechanicus Archaeopter                        | Archaeopter Stratoraptor               |        |                         |                                    |       |
+| Adeptus Mechanicus Archaeopter                        | Archaeopter Transvector                |        |                         |                                    |       |
+| Adeptus Mechanicus Ironstrider                        | Ironstrider Ballistarii                |        |                         |                                    |       |
+| Adeptus Mechanicus Ironstrider                        | Sydonian Dragoons with radium jezzails |        |                         |                                    |       |
+| Adeptus Mechanicus Ironstrider                        | Sydonian Dragoons with taser lances    |        |                         |                                    |       |
+| Adeptus Mechanicus Onager Dunecrawler                 | Onager Dunecrawler                     |        |                         |                                    |       |
+| Adeptus Mechanicus Skorpius Disintegrator             | Skorpius Disintegrator                 |        |                         |                                    |       |
+| Adeptus Mechanicus Skorpius Disintegrator             | Skorpius Dunerider                     |        |                         |                                    |       |
+| Apocalypse: Adeptus Mechanicus Vanguard Detachment    |                                        |        |                         |                                    |       |
+| Battleforce: Adeptus Mechanicus Fist of the Omnissian |                                        |        |                         |                                    |       |
+| Kill Team Commander: Magos Dalathrust                 | Magos [Crucible]                       |        |                         |                                    |       |
+| Kill Team Theta-7 Aquisitus                           |                                        |        |                         |                                    |       |
+| Start Collecting! Adeptus Mechanicus                  |                                        |        |                         |                                    |       |
 
 ### Adeptus Mechanicus Units with no kit data
 
-| Unit                                   | Notes |
-| -------------------------------------- | ----- |
-| Cohort Commander [Crucible]            | —     |
-| Cybernetica Datasmith                  | —     |
-| Ironstrider Alpha [Crucible]           | —     |
-| Ironstrider Ballistarii                | —     |
-| Secutarii Hoplites (Legends)           | —     |
-| Secutarii Peltasts (Legends)           | —     |
-| Servitor Battleclade                   | —     |
-| Sydonian Dragoons with radium jezzails | —     |
-| Sydonian Dragoons with taser lances    | —     |
-| Terrax-Pattern Termite (Legends)       | —     |
+| Unit                             | Notes |
+| -------------------------------- | ----- |
+| Cohort Commander [Crucible]      |       |
+| Cybernetica Datasmith            |       |
+| Ironstrider Alpha [Crucible]     |       |
+| Secutarii Hoplites (Legends)     |       |
+| Secutarii Peltasts (Legends)     |       |
+| Servitor Battleclade             |       |
+| Servitors (Legends)              |       |
+| Terrax-Pattern Termite (Legends) |       |
 
 ---
 
