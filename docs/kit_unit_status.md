@@ -843,42 +843,38 @@ _Unit Model Options_
 
 ### Dark Angels Kits
 
-| Kit                                        | Unit(s)                           | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------ | --------------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Dark Angels - Primaris Aggressors          | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels - Primaris Hellblasters        | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels - Primaris Intercessors        | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels - Primaris Lieutenant Zakariah | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels - Primaris Upgrades            | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels Company Veterans Squad         | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels Deathwing Command Squad        | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels Gauntlet Tactical Squad        | —                                 | —         | —                       | —                                  | —     |
-| Dark Angels Interrogator-Chaplain          | —                                 | £54 / €70 | —                       | —                                  | —     |
-| Dark Angels Master Lazarus                 | —                                 | £54 / €70 | —                       | —                                  | —     |
-| Dark Angels Upgrades                       | —                                 | —         | —                       | —                                  | —     |
-| Asmodai, Master of Repentance              | Asmodai                           | —         | —                       | —                                  | —     |
-| Azrael, Supreme Grand Master               | Azrael                            | —         | —                       | —                                  | —     |
-| Belial, Grand Master of The Deathwing      | Belial                            | —         | —                       | —                                  | —     |
-| Dark Angels Deathwing Command Squad        | Deathwing Command Squad (Legends) | —         | —                       | —                                  | —     |
-| Deathwing Knights                          | Deathwing Knights                 | —         | —                       | —                                  | —     |
-| Terminator Squad                           | Deathwing Terminator Squad        | —         | —                       | —                                  | —     |
-| Ezekiel, Grand Master of Librarians        | Ezekiel                           | —         | —                       | —                                  | —     |
-| Inner Circle Companions                    | Inner Circle Companions           | —         | —                       | —                                  | —     |
-| Land Speeder Vengeance                     | Land Speeder Vengeance            | —         | —                       | —                                  | —     |
-| Dark Angels Master Lazarus                 | Lazarus                           | —         | —                       | —                                  | —     |
-| Lion El'Jonson                             | Lion El'Jonson                    | —         | —                       | —                                  | —     |
-| Nephilim Jetfighter                        | Nephilim Jetfighter               | —         | —                       | —                                  | —     |
-| Ravenwing Black Knights                    | Ravenwing Black Knights           | —         | —                       | —                                  | —     |
-| Ravenwing Dark Talon                       | Ravenwing Dark Talon              | —         | —                       | —                                  | —     |
-| Ravenwing Darkshroud                       | Ravenwing Darkshroud              | —         | —                       | —                                  | —     |
-| Sammael                                    | Sammael                           | —         | —                       | —                                  | —     |
+| Kit                                        | Unit(s)                    | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------ | -------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Asmodai, Master of Repentance              | Asmodai                    |        |                         |                                    |       |
+| Azrael, Supreme Grand Master               | Azrael                     |        |                         |                                    |       |
+| Belial, Grand Master of The Deathwing      | Belial                     |        |                         |                                    |       |
+| Dark Angels - Primaris Lieutenant Zakariah |                            |        |                         |                                    |       |
+| Dark Angels Interrogator-Chaplain          |                            |        |                         |                                    |       |
+| Dark Angels Master Lazarus                 | Lazarus                    |        |                         |                                    |       |
+| Ezekiel, Grand Master of Librarians        | Ezekiel                    |        |                         |                                    |       |
+| Lion El'Jonson                             | Lion El'Jonson             |        |                         |                                    |       |
+| Sammael                                    | Sammael                    |        |                         |                                    |       |
+| Dark Angels - Primaris Aggressors          |                            |        |                         |                                    |       |
+| Dark Angels - Primaris Hellblasters        |                            |        |                         |                                    |       |
+| Dark Angels - Primaris Intercessors        |                            |        |                         |                                    |       |
+| Dark Angels Company Veterans Squad         |                            |        |                         |                                    |       |
+| Dark Angels Gauntlet Tactical Squad        |                            |        |                         |                                    |       |
+| Deathwing Knights                          | Deathwing Knights          |        |                         |                                    |       |
+| Inner Circle Companions                    | Inner Circle Companions    |        |                         |                                    |       |
+| Ravenwing Black Knights                    | Ravenwing Black Knights    |        |                         |                                    |       |
+| Terminator Squad                           | Deathwing Terminator Squad |        |                         |                                    |       |
+| Land Speeder Vengeance                     | Land Speeder Vengeance     |        |                         |                                    |       |
+| Nephilim Jetfighter                        | Nephilim Jetfighter        |        |                         |                                    |       |
+| Ravenwing Dark Talon                       | Ravenwing Dark Talon       |        |                         |                                    |       |
+| Ravenwing Darkshroud                       | Ravenwing Darkshroud       |        |                         |                                    |       |
 
 ### Dark Angels Units with no kit data
 
 | Unit                             | Notes |
 | -------------------------------- | ----- |
-| Deathwing Strikemaster (Legends) | —     |
-| Ravenwing Talonmaster (Legends)  | —     |
+| Deathwing Command Squad (Legends) |       |
+| Deathwing Strikemaster (Legends) |       |
+| Ravenwing Talonmaster (Legends)  |       |
 
 ---
 
