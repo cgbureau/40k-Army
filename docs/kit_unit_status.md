@@ -241,136 +241,120 @@ _Unit Model Options_
 
 ### Aeldari Kits
 
-| Kit                                         | Unit(s)                         | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------- | ------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Aeldari Webway Gate                         | —                               | —           | —                       | —                                  | —     |
-| Apocalypse: Craftworlds Vanguard Detachment | —                               | —           | —                       | —                                  | —     |
-| Battleforce: Craftworlds Asuryani Bladehost | —                               | —           | —                       | —                                  | —     |
-| Battleforce: Craftworlds Spiritseer         | —                               | —           | —                       | —                                  | —     |
-| Craftworlds Eldrad Ulthran                  | —                               | —           | —                       | —                                  | —     |
-| Craftworlds Farseer                         | —                               | —           | —                       | —                                  | —     |
-| Craftworlds Howling Banshees                | —                               | £105 / €135 | —                       | —                                  | —     |
-| Craftworlds Jain Zar, the Storm of Silence  | —                               | —           | —                       | —                                  | —     |
-| Eldar Dire Avengers                         | —                               | £105 / €135 | ~5                      | —                                  | —     |
-| Eldar Farseer Skyrunner                     | —                               | £105 / €135 | —                       | —                                  | —     |
-| Eldar Guardians                             | —                               | —           | —                       | —                                  | —     |
-| Eldar Hemlock Wraithfighter                 | —                               | £105 / €135 | —                       | —                                  | —     |
-| Eldar War Walker                            | —                               | —           | —                       | —                                  | —     |
-| Eldar Windriders                            | —                               | £105 / €135 | ~3                      | —                                  | —     |
-| Eldar Wraithguard                           | —                               | —           | —                       | —                                  | —     |
-| Eldar Wraithknight                          | —                               | —           | —                       | —                                  | —     |
-| Eldar Wraithlord                            | —                               | —           | —                       | —                                  | —     |
-| Harlequin Death Jester                      | —                               | —           | —                       | —                                  | —     |
-| Harlequin Shadowseer                        | —                               | —           | —                       | —                                  | —     |
-| Harlequin Skyweavers                        | —                               | —           | —                       | —                                  | —     |
-| Harlequin Starweaver                        | —                               | —           | —                       | —                                  | —     |
-| Harlequin Troupe                            | —                               | —           | —                       | —                                  | —     |
-| Start Collecting! Eldar                     | —                               | —           | —                       | —                                  | —     |
-| Asurmen                                     | Asurmen                         | —           | —                       | —                                  | —     |
-| Autarch Wayleaper                           | Autarch                         | —           | —                       | —                                  | —     |
-| Autarch                                     | Autarch Skyrunner (Legends)     | —           | —                       | —                                  | —     |
-| Autarch Wayleaper                           | Autarch Wayleaper               | —           | —                       | —                                  | —     |
-| Avatar of Khaine                            | Avatar of Khaine                | —           | —                       | —                                  | —     |
-| Baharroth                                   | Baharroth                       | —           | —                       | —                                  | —     |
-| Corsair Skyreavers                          | Corsair Skyreavers              | —           | —                       | —                                  | —     |
-| Reavers                                     | Corsair Voidreavers             | —           | —                       | —                                  | —     |
-| Crimson Hunter                              | Crimson Hunter                  | —           | —                       | —                                  | —     |
-| Dark Reapers                                | Dark Reapers                    | —           | —                       | —                                  | —     |
-| Harlequin Death Jester                      | Death Jester                    | —           | —                       | —                                  | —     |
-| Dire Avengers                               | Dire Avengers                   | —           | —                       | —                                  | —     |
-| Craftworlds Eldrad Ulthran                  | Eldrad Ulthran                  | —           | —                       | —                                  | —     |
-| Legio Custodes Gyrfalcon Pattern Jetbike    | Falcon                          | —           | —                       | —                                  | —     |
-| Farseer Skyrunner                           | Farseer                         | —           | —                       | —                                  | —     |
-| Farseer Skyrunner                           | Farseer Skyrunner               | —           | —                       | —                                  | —     |
-| Fire Dragons                                | Fire Dragons                    | —           | —                       | —                                  | —     |
-| Fire Prism                                  | Fire Prism                      | —           | —                       | —                                  | —     |
-| Fuegan                                      | Fuegan                          | —           | —                       | —                                  | —     |
-| Guardian Defenders                          | Guardian Defenders              | —           | —                       | —                                  | —     |
-| Hemlock Wraithfighter                       | Hemlock Wraithfighter           | —           | —                       | —                                  | —     |
-| Howling Banshees                            | Howling Banshees                | —           | —                       | —                                  | —     |
-| Craftworlds Jain Zar, the Storm of Silence  | Jain Zar                        | —           | —                       | —                                  | —     |
-| Kharseth                                    | Kharseth                        | —           | —                       | —                                  | —     |
-| Lhykhis                                     | Lhykhis                         | —           | —                       | —                                  | —     |
-| Maugan Ra                                   | Maugan Ra                       | —           | —                       | —                                  | —     |
-| Night Spinner                               | Night Spinner                   | —           | —                       | —                                  | —     |
-| Blood of the Phoenix                        | Phoenix (Legends)               | —           | —                       | —                                  | —     |
-| Prince Yriel                                | Prince Yriel                    | —           | —                       | —                                  | —     |
-| Prince Yriel                                | Prince Yriel (Legends)          | —           | —                       | —                                  | —     |
-| Rangers                                     | Rangers                         | —           | —                       | —                                  | —     |
-| Harlequin Shadowseer                        | Shadowseer                      | —           | —                       | —                                  | —     |
-| Shining Spears                              | Shining Spears                  | —           | —                       | —                                  | —     |
-| Shroud Runners                              | Shroud Runners                  | —           | —                       | —                                  | —     |
-| Wraithknight                                | Skathach Wraithknight (Legends) | —           | —                       | —                                  | —     |
-| Farseer Skyrunner                           | Skyrunner [Crucible]            | —           | —                       | —                                  | —     |
-| Harlequin Skyweavers                        | Skyweavers                      | —           | —                       | —                                  | —     |
-| Solitaire                                   | Solitaire                       | —           | —                       | —                                  | —     |
-| Battleforce: Craftworlds Spiritseer         | Spiritseer                      | —           | —                       | —                                  | —     |
-| Harlequin Starweaver                        | Starweaver                      | —           | —                       | —                                  | —     |
-| Storm Guardians                             | Storm Guardians                 | —           | —                       | —                                  | —     |
-| Swooping Hawks                              | Swooping Hawks                  | —           | —                       | —                                  | —     |
-| The Visarch                                 | The Visarch                     | —           | —                       | —                                  | —     |
-| The Yncarne                                 | The Yncarne                     | —           | —                       | —                                  | —     |
-| Harlequin Troupe                            | Troupe                          | —           | —                       | —                                  | —     |
-| Raider                                      | Vampire Raider (Legends)        | —           | —                       | —                                  | —     |
-| Voidweaver                                  | Voidweaver                      | —           | —                       | —                                  | —     |
-| Vyper/Starfang                              | Vypers                          | —           | —                       | —                                  | —     |
-| War Walkers                                 | War Walkers                     | —           | —                       | —                                  | —     |
-| Warlocks                                    | Warlock                         | —           | —                       | —                                  | —     |
-| Warlock Skyrunner                           | Warlock Skyrunners              | —           | —                       | —                                  | —     |
-| Warp Spiders                                | Warp Spiders                    | —           | —                       | —                                  | —     |
-| Wave Serpent/Falcon                         | Wave Serpent                    | —           | —                       | —                                  | —     |
-| Aeldari Webway Gate                         | Webway Gate (Legends)           | —           | —                       | —                                  | —     |
-| Eldar Windriders                            | Windriders                      | —           | —                       | —                                  | —     |
-| Wraithblades                                | Wraithblades                    | —           | —                       | —                                  | —     |
-| Eldar Wraithguard                           | Wraithguard                     | —           | —                       | —                                  | —     |
-| Eldar Wraithknight                          | Wraithknight                    | —           | —                       | —                                  | —     |
-| Wraithknight                                | Wraithknight with Ghostglaive   | —           | —                       | —                                  | —     |
-| Eldar Wraithlord                            | Wraithlord                      | —           | —                       | —                                  | —     |
-| Archon                                      | Ynnari Archon                   | —           | —                       | —                                  | —     |
-| Incubi                                      | Ynnari Incubi                   | —           | —                       | —                                  | —     |
-| Kabalite Warriors                           | Ynnari Kabalite Warriors        | —           | —                       | —                                  | —     |
-| Raider                                      | Ynnari Raider                   | —           | —                       | —                                  | —     |
-| Reavers                                     | Ynnari Reavers                  | —           | —                       | —                                  | —     |
-| Succubus                                    | Ynnari Succubus                 | —           | —                       | —                                  | —     |
-| Venom                                       | Ynnari Venom                    | —           | —                       | —                                  | —     |
-| Wyches                                      | Ynnari Wyches                   | —           | —                       | —                                  | —     |
-| Yvraine                                     | Yvraine                         | —           | —                       | —                                  | —     |
+| Kit                                          | Unit(s)                       | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| -------------------------------------------- | ----------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Archon                                       | Ynnari Archon                 |        |                         |                                    |       |
+| Asurmen                                      | Asurmen                       |        |                         |                                    |       |
+| Autarch Wayleaper                            | Autarch                       |        |                         |                                    |       |
+| Autarch Wayleaper                            | Autarch Wayleaper             |        |                         |                                    |       |
+| Avatar of Khaine                             | Avatar of Khaine              |        |                         |                                    |       |
+| Baharroth                                    | Baharroth                     |        |                         |                                    |       |
+| Craftworlds Eldrad Ulthran                   | Eldrad Ulthran                |        |                         |                                    |       |
+| Craftworlds Farseer                          |                               |        |                         |                                    |       |
+| Craftworlds Jain Zar, the Storm of Silence   | Jain Zar                      |        |                         |                                    |       |
+| Eldar Farseer Skyrunner                      | Farseer                       |        |                         |                                    |       |
+| Eldar Farseer Skyrunner                      | Farseer Skyrunner             |        |                         |                                    |       |
+| Eldar Farseer Skyrunner                      | Skyrunner [Crucible]          |        |                         |                                    |       |
+| Fuegan                                       | Fuegan                        |        |                         |                                    |       |
+| Harlequin Death Jester                       | Death Jester                  |        |                         |                                    |       |
+| Harlequin Shadowseer                         | Shadowseer                    |        |                         |                                    |       |
+| Kharseth                                     | Kharseth                      |        |                         |                                    |       |
+| Lhykhis                                      | Lhykhis                       |        |                         |                                    |       |
+| Maugan Ra                                    | Maugan Ra                     |        |                         |                                    |       |
+| Prince Yriel                                 | Prince Yriel                  |        |                         |                                    |       |
+| Solitaire                                    | Solitaire                     |        |                         |                                    |       |
+| Succubus                                     | Ynnari Succubus               |        |                         |                                    |       |
+| The Visarch                                  | The Visarch                   |        |                         |                                    |       |
+| The Yncarne                                  | The Yncarne                   |        |                         |                                    |       |
+| Warlock Skyrunner                            | Warlock Skyrunners            |        |                         |                                    |       |
+| Warlocks                                     | Warlock                       |        |                         |                                    |       |
+| Yvraine                                      | Yvraine                       |        |                         |                                    |       |
+| Corsair Skyreavers                           | Corsair Skyreavers            |        |                         |                                    |       |
+| Craftworlds Howling Banshees                 | Howling Banshees              |        |                         |                                    |       |
+| Dark Reapers                                 | Dark Reapers                  |        |                         |                                    |       |
+| Eldar Dire Avengers                          | Dire Avengers                 |        | ~5                      |                                    |       |
+| Eldar Guardians                              |                               |        |                         |                                    |       |
+| Eldar Windriders                             | Windriders                    |        | ~3                      |                                    |       |
+| Eldar Wraithguard                            | Wraithguard                   |        |                         |                                    |       |
+| Eldar Wraithlord                             | Wraithlord                    |        |                         |                                    |       |
+| Fire Dragons                                 | Fire Dragons                  |        |                         |                                    |       |
+| Guardian Defenders                           | Guardian Defenders            |        |                         |                                    |       |
+| Harlequin Troupe                             | Troupe                        |        |                         |                                    |       |
+| Incubi                                       | Ynnari Incubi                 |        |                         |                                    |       |
+| Kabalite Warriors                            | Ynnari Kabalite Warriors      |        |                         |                                    |       |
+| Rangers                                      | Rangers                       |        |                         |                                    |       |
+| Reavers                                      | Corsair Voidreavers           |        |                         |                                    |       |
+| Reavers                                      | Ynnari Reavers                |        |                         |                                    |       |
+| Shining Spears                               | Shining Spears                |        |                         |                                    |       |
+| Shroud Runners                               | Shroud Runners                |        |                         |                                    |       |
+| Storm Guardians                              | Storm Guardians               |        |                         |                                    |       |
+| Swooping Hawks                               | Swooping Hawks                |        |                         |                                    |       |
+| Warp Spiders                                 | Warp Spiders                  |        |                         |                                    |       |
+| Wraithblades                                 | Wraithblades                  |        |                         |                                    |       |
+| Wyches                                       | Ynnari Wyches                 |        |                         |                                    |       |
+| Crimson Hunter                               | Crimson Hunter                |        |                         |                                    |       |
+| Eldar Hemlock Wraithfighter                  | Hemlock Wraithfighter         |        |                         |                                    |       |
+| Eldar War Walker                             | War Walkers                   |        |                         |                                    |       |
+| Eldar Wraithknight                           | Wraithknight                  |        |                         |                                    |       |
+| Eldar Wraithknight                           | Wraithknight with Ghostglaive |        |                         |                                    |       |
+| Fire Prism                                   | Fire Prism                    |        |                         |                                    |       |
+| Harlequin Skyweavers                         | Skyweavers                    |        |                         |                                    |       |
+| Harlequin Starweaver                         | Starweaver                    |        |                         |                                    |       |
+| Night Spinner                                | Night Spinner                 |        |                         |                                    |       |
+| Raider                                       | Ynnari Raider                 |        |                         |                                    |       |
+| Venom                                        | Ynnari Venom                  |        |                         |                                    |       |
+| Voidweaver                                   | Voidweaver                    |        |                         |                                    |       |
+| Vyper/Starfang                               | Starfangs                     |        |                         |                                    |       |
+| Vyper/Starfang                               | Vypers                        |        |                         |                                    |       |
+| Wave Serpent/Falcon                          | Falcon                        |        |                         |                                    |       |
+| Wave Serpent/Falcon                          | Wave Serpent                  |        |                         |                                    |       |
+| Apocalypse: Craftworlds Vanguard Detachment  |                               |        |                         |                                    |       |
+| Battleforce: Craftworlds Asuryani Bladehost  |                               |        |                         |                                    |       |
+| Blood of the Phoenix                         |                               |        |                         |                                    |       |
+| Battleforce: Craftworlds Spiritseer          | Spiritseer                    |        |                         |                                    |       |
+| Start Collecting! Eldar                      |                               |        |                         |                                    |       |
 
 ### Aeldari Units with no kit data
 
 | Unit                                | Notes |
 | ----------------------------------- | ----- |
-| Amallyn Shadowguide (Legends)       | —     |
-| Bonesinger (Legends)                | —     |
-| Cobra (Legends)                     | —     |
-| Corsair Cloud Dancer Band (Legends) | —     |
-| Corsair Reaver Band (Legends)       | —     |
-| Corsair Skyreaver Band (Legends)    | —     |
-| Corsair Voidscarred                 | —     |
-| Craftworld Warleader [Crucible]     | —     |
-| D-Cannon Platform                   | —     |
-| Firestorm (Legends)                 | —     |
-| Ghost Warrior [Crucible]            | —     |
-| Hornet (Legends)                    | —     |
-| Illic Nightspear (Legends)          | —     |
-| Irillyth (Legends)                  | —     |
-| Karandras (Legends)                 | —     |
-| Lynx (Legends)                      | —     |
-| Nightwing (Legends)                 | —     |
-| Phantom Titan                       | —     |
-| Revenant Titan                      | —     |
-| Scorpion (Legends)                  | —     |
-| Shadow Spectres (Legends)           | —     |
-| Shadow Weaver Platform              | —     |
-| Starfangs                           | —     |
-| Striking Scorpions                  | —     |
-| Troupe Master                       | —     |
-| Vampire Hunter (Legends)            | —     |
-| Vibro Cannon Platform               | —     |
-| Warlock Conclave                    | —     |
-| Warp Hunter (Legends)               | —     |
-| Wasp Assault Walker (Legends)       | —     |
-| Wraithseer (Legends)                | —     |
+| Aeldari Webway Gate                 |       |
+| Amallyn Shadowguide (Legends)       |       |
+| Autarch Skyrunner (Legends)         |       |
+| Bonesinger (Legends)                |       |
+| Cobra (Legends)                     |       |
+| Corsair Cloud Dancer Band (Legends) |       |
+| Corsair Reaver Band (Legends)       |       |
+| Corsair Skyreaver Band (Legends)    |       |
+| Corsair Voidscarred                 |       |
+| Craftworld Warleader [Crucible]     |       |
+| D-Cannon Platform                   |       |
+| Firestorm (Legends)                 |       |
+| Ghost Warrior [Crucible]            |       |
+| Hornet (Legends)                    |       |
+| Illic Nightspear (Legends)          |       |
+| Irillyth (Legends)                  |       |
+| Karandras (Legends)                 |       |
+| Lynx (Legends)                      |       |
+| Nightwing (Legends)                 |       |
+| Phantom Titan                       |       |
+| Phoenix (Legends)                   |       |
+| Prince Yriel (Legends)              |       |
+| Revenant Titan                      |       |
+| Scorpion (Legends)                  |       |
+| Shadow Spectres (Legends)           |       |
+| Shadow Weaver Platform              |       |
+| Skathach Wraithknight (Legends)     |       |
+| Striking Scorpions                  |       |
+| Troupe Master                       |       |
+| Vampire Hunter (Legends)            |       |
+| Vampire Raider (Legends)            |       |
+| Vibro Cannon Platform               |       |
+| Warlock Conclave                    |       |
+| Warp Hunter (Legends)               |       |
+| Wasp Assault Walker (Legends)       |       |
+| Webway Gate (Legends)               |       |
+| Wraithseer (Legends)                |       |
 
 ---
 
