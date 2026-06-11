@@ -699,34 +699,33 @@ _Unit Model Options_
 
 ### Chaos Knights Kits
 
-| Kit                             | Unit(s)                          | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------- | -------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Chaos Knights Knight Desecrator | —                                | —      | —                       | —                                  | —     |
-| Acastus Knight Asterius         | Chaos Acastus Knight Asterius    | —      | —                       | —                                  | —     |
-| Acastus Knight Porphyrion       | Chaos Acastus Knight Porphyrion  | —      | —                       | —                                  | —     |
-| Cerastus Knight Acheron         | Chaos Cerastus Knight Acheron    | —      | —                       | —                                  | —     |
-| Cerastus Knight Atrapos         | Chaos Cerastus Knight Atrapos    | —      | —                       | —                                  | —     |
-| Castigator                      | Chaos Cerastus Knight Castigator | —      | —                       | —                                  | —     |
-| Cerastus Knight Lancer          | Chaos Cerastus Knight Lancer     | —      | —                       | —                                  | —     |
-| Questoris Knight Magaera        | Chaos Questoris Knight Magaera   | —      | —                       | —                                  | —     |
-| Questoris Knight Styrix         | Chaos Questoris Knight Styrix    | —      | —                       | —                                  | —     |
-| Abominant                       | Knight Abominant                 | —      | —                       | —                                  | —     |
-| Chaos Knights Knight Desecrator | Knight Desecrator                | —      | —                       | —                                  | —     |
-| Knight Despoiler                | Knight Despoiler                 | —      | —                       | —                                  | —     |
-| Knight Ruinator                 | Knight Ruinator                  | —      | —                       | —                                  | —     |
-| Knight Tyrant                   | Knight Tyrant                    | —      | —                       | —                                  | —     |
-| War Dog Brigands                | War Dog Brigand                  | —      | —                       | —                                  | —     |
-| War Dog Executioners            | War Dog Executioner              | —      | —                       | —                                  | —     |
-| War Dog Karnivores              | War Dog Karnivore                | —      | —                       | —                                  | —     |
-| War Dog Stalkers                | War Dog Stalker                  | —      | —                       | —                                  | —     |
+| Kit                            | Unit(s)                          | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------ | -------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Acastus Knight Asterius        | Chaos Acastus Knight Asterius    |        |                         |                                    |       |
+| Acastus Knight Porphyrion      | Chaos Acastus Knight Porphyrion  |        |                         |                                    |       |
+| Castigator                     | Chaos Cerastus Knight Castigator |        |                         |                                    |       |
+| Cerastus Knight Acheron        | Chaos Cerastus Knight Acheron    |        |                         |                                    |       |
+| Cerastus Knight Atrapos        | Chaos Cerastus Knight Atrapos    |        |                         |                                    |       |
+| Cerastus Knight Lancer         | Chaos Cerastus Knight Lancer     |        |                         |                                    |       |
+| Chaos Knights Knight Abominant | Knight Abominant                 |        |                         |                                    |       |
+| Chaos Knights Knight Abominant | Knight Desecrator                |        |                         |                                    |       |
+| Chaos Knights Knight Abominant | Knight Rampager                  |        |                         |                                    |       |
+| Knight Despoiler               | Knight Despoiler                 |        |                         |                                    |       |
+| Knight Ruinator                | Knight Ruinator                  |        |                         |                                    |       |
+| Knight Tyrant                  | Knight Tyrant                    |        |                         |                                    |       |
+| Questoris Knight Magaera       | Chaos Questoris Knight Magaera   |        |                         |                                    |       |
+| Questoris Knight Styrix        | Chaos Questoris Knight Styrix    |        |                         |                                    |       |
+| War Dog Stalkers               | War Dog Executioner              |        |                         |                                    |       |
+| War Dog Stalkers               | War Dog Stalker                  |        |                         |                                    |       |
+| War Dogs                       | War Dog Brigand                  |        |                         |                                    |       |
+| War Dogs                       | War Dog Huntsman                 |        |                         |                                    |       |
+| War Dogs                       | War Dog Karnivore                |        |                         |                                    |       |
 
 ### Chaos Knights Units with no kit data
 
-| Unit             | Notes |
-| ---------------- | ----- |
-| Knight Rampager  | —     |
-| War Dog Huntsman | —     |
-| War Dog Moirax   | —     |
+| Unit           | Notes |
+| -------------- | ----- |
+| War Dog Moirax |       |
 
 ---
 
