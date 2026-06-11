@@ -733,127 +733,109 @@ _Unit Model Options_
 
 ### Chaos Space Marines Kits
 
-| Kit                                                                | Unit(s)                                   | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------------ | ----------------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: Chaos Space Marines Battalion Detachment               | —                                         | —           | —                       | —                                  | —     |
-| Battleforce: Chaos Space Marines Vengeance Warband                 | —                                         | —           | —                       | —                                  | —     |
-| Chaos Bikers                                                       | —                                         | —           | —                       | —                                  | —     |
-| Chaos Cultists                                                     | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine                                                 | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Aspiring Champion                               | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Chaos Lord                                      | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Cultist Assault                                 | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Forgefiend                                      | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Helbrute                                        | —                                         | £120 / €155 | —                       | —                                  | —     |
-| Chaos Space Marine Heldrake                                        | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Kharn The Betrayer                              | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Master of Executions                            | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Possessed                                       | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Raptors                                         | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Squad                                           | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Terminator Lord                                 | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Terminators                                     | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines                                                | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Abaddon the Despoiler                          | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Dark Apostle                                   | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Havocs                                         | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Noctilith Crown                                | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Noise Marine                                   | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Sorcerer                                       | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Terminators                                    | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Vex Machinator, Arch-Lord Discordant           | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines: Battleforce - Decimation Warband              | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines: Fabius Bile                                   | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines: Haarken Worldclaimer Herald of the Apocalypse | —                                         | —           | —                       | —                                  | —     |
-| Start Collecting! Chaos Space Marines                              | —                                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Abaddon the Despoiler                          | Abaddon the Despoiler                     | —           | —                       | —                                  | —     |
-| Accursed Cultists                                                  | Accursed Cultists                         | —           | —                       | —                                  | —     |
-| Chaos Bikers                                                       | Chaos Bikers                              | —           | —                       | —                                  | —     |
-| Chaos Predator                                                     | Chaos Deimos Predator (Legends)           | —           | —                       | —                                  | —     |
-| Raider                                                             | Chaos Land Raider                         | —           | —                       | —                                  | —     |
-| Chaos Space Marine Chaos Lord                                      | Chaos Lord                                | —           | —                       | —                                  | —     |
-| Chaos Lord in Terminator Armour                                    | Chaos Lord in Terminator Armour           | —           | —                       | —                                  | —     |
-| Lord on Juggernaut                                                 | Chaos Lord on Juggernaut (Legends)        | —           | —                       | —                                  | —     |
-| Chaos Lord with Jump Pack                                          | Chaos Lord with Jump Pack                 | —           | —                       | —                                  | —     |
-| Chaos Predator                                                     | Chaos Predator Annihilator                | —           | —                       | —                                  | —     |
-| Chaos Predator                                                     | Chaos Predator Destructor                 | —           | —                       | —                                  | —     |
-| Chaos Rhino                                                        | Chaos Rhino                               | —           | —                       | —                                  | —     |
-| Chaos Spawn                                                        | Chaos Spawn                               | —           | —                       | —                                  | —     |
-| Terminator Squad                                                   | Chaos Terminator Squad                    | —           | —                       | —                                  | —     |
-| Vindicator                                                         | Chaos Vindicator                          | —           | —                       | —                                  | —     |
-| Chosen                                                             | Chosen                                    | —           | —                       | —                                  | —     |
-| Cultist Firebrand                                                  | Cultist Firebrand                         | —           | —                       | —                                  | —     |
-| Chaos Space Marines Dark Apostle                                   | Dark Apostle                              | —           | —                       | —                                  | —     |
-| Dark Commune                                                       | Dark Commune                              | —           | —                       | —                                  | —     |
-| Defiler                                                            | Defiler                                   | —           | —                       | —                                  | —     |
-| Chaos Space Marines: Fabius Bile                                   | Fabius Bile                               | —           | —                       | —                                  | —     |
-| Chaos Space Marine Forgefiend                                      | Forgefiend                                | —           | —                       | —                                  | —     |
-| Chaos Space Marines: Haarken Worldclaimer Herald of the Apocalypse | Haarken Worldclaimer                      | —           | —                       | —                                  | —     |
-| Chaos Space Marines Havocs                                         | Havocs                                    | —           | —                       | —                                  | —     |
-| Chaos Space Marine Helbrute                                        | Helbrute                                  | —           | —                       | —                                  | —     |
-| Chaos Space Marine Heldrake                                        | Heldrake                                  | —           | —                       | —                                  | —     |
-| Daemon Prince                                                      | Heretic Astartes Daemon Prince            | —           | —                       | —                                  | —     |
-| Daemon Prince                                                      | Heretic Astartes Daemon Prince with wings | —           | —                       | —                                  | —     |
-| Huron Blackheart and the Masters of the Maelstrom                  | Huron Blackheart                          | —           | —                       | —                                  | —     |
-| Khorne Berzerkers                                                  | Khorne Berzerkers                         | —           | —                       | —                                  | —     |
-| Khorne Lord of Skulls                                              | Khorne Lord of Skulls                     | —           | —                       | —                                  | —     |
-| Kravek Morne                                                       | Kravek Morne                              | —           | —                       | —                                  | —     |
-| Legionaries                                                        | Legionaries                               | —           | —                       | —                                  | —     |
-| Lord Discordant on Helstalker                                      | Lord Discordant on Helstalker             | —           | —                       | —                                  | —     |
-| Chaos Space Marine Master of Executions                            | Master of Executions                      | —           | —                       | —                                  | —     |
-| Master of Possession                                               | Master of Possession                      | —           | —                       | —                                  | —     |
-| Huron Blackheart and the Masters of the Maelstrom                  | Masters of the Maelstrom                  | —           | —                       | —                                  | —     |
-| Maulerfiend                                                        | Maulerfiend                               | —           | —                       | —                                  | —     |
-| Mutilators                                                         | Mutilators                                | —           | —                       | —                                  | —     |
-| Kill Team: Nemesis Claw                                            | Nemesis Claw                              | —           | —                       | —                                  | —     |
-| Chaos Space Marines Noctilith Crown                                | Noctilith Crown                           | —           | —                       | —                                  | —     |
-| Noise Marines                                                      | Noise Marines                             | —           | —                       | —                                  | —     |
-| Seraptek Heavy Construct with Synaptic Obliterators                | Obliterators                              | —           | —                       | —                                  | —     |
-| Easy To Build Death Guard Plague Marines                           | Plague Marines                            | —           | —                       | —                                  | —     |
-| Chaos Space Marine Possessed                                       | Possessed                                 | —           | —                       | —                                  | —     |
-| Chaos Space Marine Raptors                                         | Raptors                                   | —           | —                       | —                                  | —     |
-| Red Corsairs Raiders                                               | Red Corsairs Raiders                      | —           | —                       | —                                  | —     |
-| Red Corsairs Reave-Captain                                         | Red Corsairs Reave-captain                | —           | —                       | —                                  | —     |
-| Catachan Heavy Weapons Squad                                       | Renegade Heavy Weapons Squad (Legends)    | —           | —                       | —                                  | —     |
-| Ogryns                                                             | Renegade Plague Ogryns (Legends)          | —           | —                       | —                                  | —     |
-| Rubric Marines                                                     | Rubric Marines                            | —           | —                       | —                                  | —     |
-| Thousand Sons Exalted Sorcerers                                    | Sorcerer                                  | —           | —                       | —                                  | —     |
-| Ancient in Terminator Armour                                       | Sorcerer in Terminator Armour             | —           | —                       | —                                  | —     |
-| Traitor Enforcer                                                   | Traitor Enforcer                          | —           | —                       | —                                  | —     |
-| Traitor Guardsmen Squad                                            | Traitor Guardsmen Squad                   | —           | —                       | —                                  | —     |
-| Vashtorr the Arkifane                                              | Vashtorr the Arkifane                     | —           | —                       | —                                  | —     |
-| Venom                                                              | Venomcrawler                              | —           | —                       | —                                  | —     |
-| Warpsmith                                                          | Warpsmith                                 | —           | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Ancient in Terminator Armour | Sorcerer in Terminator Armour |  |  |  |  |
+| Chaos Lord in Terminator Armour | Chaos Lord in Terminator Armour |  |  |  |  |
+| Chaos Lord with Jump Pack | Chaos Lord with Jump Pack |  |  |  |  |
+| Chaos Space Marine Aspiring Champion |  |  |  |  |  |
+| Chaos Space Marine Chaos Lord | Chaos Lord |  |  |  |  |
+| Chaos Space Marine Kharn The Betrayer |  |  |  |  |  |
+| Chaos Space Marine Master of Executions | Master of Executions |  |  |  |  |
+| Chaos Space Marine Terminator Lord |  |  |  |  |  |
+| Chaos Space Marines Abaddon the Despoiler | Abaddon the Despoiler |  |  |  |  |
+| Chaos Space Marines Dark Apostle | Dark Apostle |  |  |  |  |
+| Chaos Space Marines Sorcerer |  |  |  |  |  |
+| Chaos Space Marines Vex Machinator, Arch-Lord Discordant | Lord Discordant on Helstalker |  |  |  |  |
+| Chaos Space Marines: Fabius Bile | Fabius Bile |  |  |  |  |
+| Chaos Space Marines: Haarken Worldclaimer Herald of the Apocalypse | Haarken Worldclaimer |  |  |  |  |
+| Cultist Firebrand | Cultist Firebrand |  |  |  |  |
+| Daemon Prince | Heretic Astartes Daemon Prince |  |  |  |  |
+| Daemon Prince | Heretic Astartes Daemon Prince with wings |  |  |  |  |
+| Dark Commune | Dark Commune |  |  |  |  |
+| Huron Blackheart and the Masters of the Maelstrom | Huron Blackheart |  |  |  |  |
+| Kravek Morne | Kravek Morne |  |  |  |  |
+| Master of Possession | Master of Possession |  |  |  |  |
+| Red Corsairs Reave-Captain | Red Corsairs Reave-captain |  |  |  |  |
+| Thousand Sons Exalted Sorcerers | Sorcerer |  |  |  |  |
+| Traitor Enforcer | Traitor Enforcer |  |  |  |  |
+| Vashtorr the Arkifane | Vashtorr the Arkifane |  |  |  |  |
+| Warpsmith | Warpsmith |  |  |  |  |
+| Accursed Cultists | Accursed Cultists |  |  |  |  |
+| Chaos Bikers | Chaos Bikers |  |  |  |  |
+| Chaos Cultists |  |  |  |  |  |
+| Chaos Space Marine |  |  |  |  |  |
+| Chaos Space Marine Cultist Assault |  |  |  |  |  |
+| Chaos Space Marine Possessed | Possessed |  |  |  |  |
+| Chaos Space Marine Raptors | Raptors |  |  |  |  |
+| Chaos Space Marine Squad |  |  |  |  |  |
+| Chaos Space Marines |  |  |  |  |  |
+| Chaos Space Marines Havocs | Havocs |  |  |  |  |
+| Chaos Space Marines Noise Marine | Noise Marines |  |  |  |  |
+| Chaos Space Marines Terminators | Chaos Terminator Squad |  |  |  |  |
+| Chaos Spawn | Chaos Spawn |  |  |  |  |
+| Chosen | Chosen |  |  |  |  |
+| Easy To Build Death Guard Plague Marines | Plague Marines |  |  |  |  |
+| Huron Blackheart and the Masters of the Maelstrom | Masters of the Maelstrom |  |  |  |  |
+| Khorne Berzerkers | Khorne Berzerkers |  |  |  |  |
+| Legionaries | Legionaries |  |  |  |  |
+| Mutilators | Mutilators |  |  |  |  |
+| Red Corsairs Raiders | Red Corsairs Raiders |  |  |  |  |
+| Rubric Marines | Rubric Marines |  |  |  |  |
+| Seraptek Heavy Construct with Synaptic Obliterators | Obliterators |  |  |  |  |
+| Traitor Guardsmen Squad | Traitor Guardsmen Squad |  |  |  |  |
+| Chaos Predator | Chaos Predator Annihilator |  |  |  |  |
+| Chaos Predator | Chaos Predator Destructor |  |  |  |  |
+| Chaos Rhino | Chaos Rhino |  |  |  |  |
+| Chaos Space Marine Forgefiend | Forgefiend |  |  |  |  |
+| Chaos Space Marine Helbrute | Helbrute |  |  |  |  |
+| Chaos Space Marine Heldrake | Heldrake |  |  |  |  |
+| Defiler | Defiler |  |  |  |  |
+| Khorne Lord of Skulls | Khorne Lord of Skulls |  |  |  |  |
+| Maulerfiend | Maulerfiend |  |  |  |  |
+| Raider | Chaos Land Raider |  |  |  |  |
+| Venom | Venomcrawler |  |  |  |  |
+| Vindicator | Chaos Vindicator |  |  |  |  |
+| Apocalypse: Chaos Space Marines Battalion Detachment |  |  |  |  |  |
+| Battleforce: Chaos Space Marines Vengeance Warband |  |  |  |  |  |
+| Chaos Space Marines: Battleforce - Decimation Warband |  |  |  |  |  |
+| Kill Team: Nemesis Claw | Nemesis Claw |  |  |  |  |
+| Start Collecting! Chaos Space Marines |  |  |  |  |  |
 
 ### Chaos Space Marines Units with no kit data
 
-| Unit                                        | Notes |
-| ------------------------------------------- | ----- |
-| Chaos Lord on Bike (Legends)                | —     |
-| Chaos Lord on Disc of Tzeentch (Legends)    | —     |
-| Chaos Lord on Palanquin of Nurgle (Legends) | —     |
-| Chaos Lord on Steed of Slaanesh (Legends)   | —     |
-| Cultist Mob                                 | —     |
-| Cultist Mob with Firearms (Legends)         | —     |
-| Exalted Champion (Legends)                  | —     |
-| Exalted Champion [Crucible]                 | —     |
-| Fellgor Beastmen                            | —     |
-| Gellerpox Infected (Legends)                | —     |
-| Hell Talon (Legends)                        | —     |
-| Hellblade (Legends)                         | —     |
-| Mutoid Vermin (Legends)                     | —     |
-| Negavolt Cultists (Legends)                 | —     |
-| Renegade Enforcer (Legends)                 | —     |
-| Renegade Ogryn Beast Handler (Legends)      | —     |
-| Renegade Ogryn Brutes (Legends)             | —     |
-| Rogue Psyker (Legends)                      | —     |
-| Sorcerer on Bike (Legends)                  | —     |
-| Sorcerer on Disc of Tzeentch (Legends)      | —     |
-| Sorcerer on Palanquin of Nurgle (Legends)   | —     |
-| Sorcerer on Steed of Slaanesh (Legends)     | —     |
-| Sorcerous Champion [Crucible]               | —     |
-| Soul Forge Tyrant [Crucible]                | —     |
-| Warp Talons                                 | —     |
+| Unit | Notes |
+| ---- | ----- |
+| Chaos Deimos Predator (Legends) |  |
+| Chaos Lord on Bike (Legends) |  |
+| Chaos Lord on Disc of Tzeentch (Legends) |  |
+| Chaos Lord on Juggernaut (Legends) |  |
+| Chaos Lord on Palanquin of Nurgle (Legends) |  |
+| Chaos Lord on Steed of Slaanesh (Legends) |  |
+| Cultist Mob |  |
+| Cultist Mob with Firearms (Legends) |  |
+| Exalted Champion (Legends) |  |
+| Exalted Champion [Crucible] |  |
+| Fellgor Beastmen |  |
+| Gellerpox Infected (Legends) |  |
+| Hell Talon (Legends) |  |
+| Hellblade (Legends) |  |
+| Mutoid Vermin (Legends) |  |
+| Negavolt Cultists (Legends) |  |
+| Noctilith Crown |  |
+| Renegade Enforcer (Legends) |  |
+| Renegade Heavy Weapons Squad (Legends) |  |
+| Renegade Ogryn Beast Handler (Legends) |  |
+| Renegade Ogryn Brutes (Legends) |  |
+| Renegade Plague Ogryns (Legends) |  |
+| Rogue Psyker (Legends) |  |
+| Sorcerer on Bike (Legends) |  |
+| Sorcerer on Disc of Tzeentch (Legends) |  |
+| Sorcerer on Palanquin of Nurgle (Legends) |  |
+| Sorcerer on Steed of Slaanesh (Legends) |  |
+| Sorcerous Champion [Crucible] |  |
+| Soul Forge Tyrant [Crucible] |  |
+| Warp Talons |  |
 
 ---
 
