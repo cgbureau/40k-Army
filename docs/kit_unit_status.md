@@ -882,72 +882,65 @@ _Unit Model Options_
 
 ### Death Guard Kits
 
-| Kit                                                                       | Unit(s)                                               | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------------------- | ----------------------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Battleforce: Death Guard Infection Cluster                                | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Biologus Putrifier                                            | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Foul Blightspawn                                              | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Nauseous Rotbone                                              | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Plague Marine Champion                                        | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Plague Marine Icon Bearer                                     | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Scribbus Wretch The Tallyman                                  | —                                                     | —      | —                       | —                                  | —     |
-| Easy To Build Death Guard Plague Marines                                  | —                                                     | —      | —                       | —                                  | —     |
-| Easy To Build Death Guard Poxwalkers                                      | —                                                     | —      | —                       | —                                  | —     |
-| Death Guard Biologus Putrifier                                            | Biologus Putrifier                                    | —      | —                       | —                                  | —     |
-| Lord of Contagion and Blightlord Terminators                              | Blightlord Terminators                                | —      | —                       | —                                  | —     |
-| Raider                                                                    | Chaos Land Raider                                     | —      | —                       | —                                  | —     |
-| Chaos Predator                                                            | Chaos Predator Annihilator                            | —      | —                       | —                                  | —     |
-| Chaos Predator                                                            | Chaos Predator Destructor                             | —      | —                       | —                                  | —     |
-| Chaos Rhino                                                               | Chaos Rhino                                           | —      | —                       | —                                  | —     |
-| Chaos Spawn                                                               | Chaos Spawn                                           | —      | —                       | —                                  | —     |
-| Daemon Prince                                                             | Daemon Prince of Nurgle                               | —      | —                       | —                                  | —     |
-| Daemon Prince                                                             | Daemon Prince of Nurgle with wings                    | —      | —                       | —                                  | —     |
-| Chaos Lord in Terminator Armour                                           | Death Guard Chaos Lord in Terminator Armour (Legends) | —      | —                       | —                                  | —     |
-| Possessed                                                                 | Death Guard Possessed (Legends)                       | —      | —                       | —                                  | —     |
-| Deathshroud Terminators                                                   | Deathshroud Terminators                               | —      | —                       | —                                  | —     |
-| Defiler                                                                   | Defiler                                               | —      | —                       | —                                  | —     |
-| Foetid Bloat-drone                                                        | Foetid Bloat-drone                                    | —      | —                       | —                                  | —     |
-| Foetid Bloat-drone                                                        | Foetid Bloat-drone with heavy blight launcher         | —      | —                       | —                                  | —     |
-| Death Guard Foul Blightspawn                                              | Foul Blightspawn                                      | —      | —                       | —                                  | —     |
-| Great Unclean One                                                         | Great Unclean One                                     | —      | —                       | —                                  | —     |
-| Chaos Space Marine Helbrute                                               | Helbrute                                              | —      | —                       | —                                  | —     |
-| Death Guard Plague Marine Icon Bearer                                     | Icon Bearer                                           | —      | —                       | —                                  | —     |
-| Lord of Contagion and Blightlord Terminators                              | Lord of Contagion                                     | —      | —                       | —                                  | —     |
-| Lord of Poxes                                                             | Lord of Poxes                                         | —      | —                       | —                                  | —     |
-| Lord of Virulence                                                         | Lord of Virulence                                     | —      | —                       | —                                  | —     |
-| Malignant Plaguecaster, Noxious Blightbringer, and Plague Marine Champion | Malignant Plaguecaster                                | —      | —                       | —                                  | —     |
-| Miasmic Malignifier                                                       | Miasmic Malignifier                                   | —      | —                       | —                                  | —     |
-| Mortarion, Daemon Primarch of Nurgle                                      | Mortarion                                             | —      | —                       | —                                  | —     |
-| Myphitic Blight-hauler                                                    | Myphitic Blight-hauler                                | —      | —                       | —                                  | —     |
-| Malignant Plaguecaster, Noxious Blightbringer, and Plague Marine Champion | Noxious Blightbringer                                 | —      | —                       | —                                  | —     |
-| Nurglings                                                                 | Nurglings                                             | —      | —                       | —                                  | —     |
-| Plague Drones                                                             | Plague Drones                                         | —      | —                       | —                                  | —     |
-| Easy To Build Death Guard Plague Marines                                  | Plague Marines                                        | —      | —                       | —                                  | —     |
-| Plague Surgeon                                                            | Plague Surgeon                                        | —      | —                       | —                                  | —     |
-| Plaguebearers                                                             | Plaguebearers                                         | —      | —                       | —                                  | —     |
-| Plagueburst Crawler                                                       | Plagueburst Crawler                                   | —      | —                       | —                                  | —     |
-| Easy To Build Death Guard Poxwalkers                                      | Poxwalkers                                            | —      | —                       | —                                  | —     |
-| Rotigus                                                                   | Rotigus                                               | —      | —                       | —                                  | —     |
-| Death Guard Scribbus Wretch The Tallyman                                  | Tallyman                                              | —      | —                       | —                                  | —     |
-| Typhus, Herald of the Plague God                                          | Typhus                                                | —      | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Daemon Prince | Daemon Prince of Nurgle | | | | |
+| Daemon Prince | Daemon Prince of Nurgle with wings | | | | |
+| Death Guard Biologus Putrifier | Biologus Putrifier | | | | |
+| Death Guard Foul Blightspawn | Foul Blightspawn | | | | |
+| Death Guard Nauseous Rotbone | Plague Surgeon | | | | |
+| Death Guard Plague Marine Champion | | | | | |
+| Death Guard Plague Marine Icon Bearer | Icon Bearer | | | | |
+| Death Guard Scribbus Wretch The Tallyman | Tallyman | | | | |
+| Great Unclean One | Great Unclean One | | | | |
+| Lord of Contagion and Blightlord Terminators | Lord of Contagion | | | | |
+| Lord of Poxes | Lord of Poxes | | | | |
+| Lord of Virulence | Lord of Virulence | | | | |
+| Malignant Plaguecaster, Noxious Blightbringer, and Plague Marine Champion | Malignant Plaguecaster | | | | |
+| Malignant Plaguecaster, Noxious Blightbringer, and Plague Marine Champion | Noxious Blightbringer | | | | |
+| Mortarion, Daemon Primarch of Nurgle | Mortarion | | | | |
+| Rotigus | Rotigus | | | | |
+| Typhus, Herald of the Plague God | Typhus | | | | |
+| Chaos Spawn | Chaos Spawn | | | | |
+| Deathshroud Terminators | Deathshroud Terminators | | | | |
+| Easy To Build Death Guard Plague Marines | Plague Marines | | | | |
+| Easy To Build Death Guard Poxwalkers | Poxwalkers | | | | |
+| Lord of Contagion and Blightlord Terminators | Blightlord Terminators | | | | |
+| Nurglings | Nurglings | | | | |
+| Plague Drones | Plague Drones | | | | |
+| Plaguebearers | Plaguebearers | | | | |
+| Chaos Predator | Chaos Predator Annihilator | | | | |
+| Chaos Predator | Chaos Predator Destructor | | | | |
+| Chaos Rhino | Chaos Rhino | | | | |
+| Chaos Space Marine Helbrute | Helbrute | | | | |
+| Defiler | Defiler | | | | |
+| Foetid Bloat-drone | Foetid Bloat-drone | | | | |
+| Foetid Bloat-drone | Foetid Bloat-drone with heavy blight launcher | | | | |
+| Myphitic Blight-hauler | Myphitic Blight-hauler | | | | |
+| Plagueburst Crawler | Plagueburst Crawler | | | | |
+| Raider | Chaos Land Raider | | | | |
+| Battleforce: Death Guard Infection Cluster | | | | | |
 
 ### Death Guard Units with no kit data
 
-| Unit                                                | Notes |
-| --------------------------------------------------- | ----- |
-| Beasts of Nurgle                                    | —     |
-| Chaos Lord on Palanquin of Nurgle (Legends)         | —     |
-| Death Guard Chaos Lord (Legends)                    | —     |
-| Death Guard Cultists (Legends)                      | —     |
-| Death Guard Sorcerer in Terminator Armour (Legends) | —     |
-| Gellerpox Infected (Legends)                        | —     |
-| Hell Talon (Legends)                                | —     |
-| Hellblade (Legends)                                 | —     |
-| Mutoid Vermin (Legends)                             | —     |
-| Plague Lord [Crucible]                              | —     |
-| Plague Sorcerer [Crucible]                          | —     |
-| Sorcerer on Palanquin of Nurgle (Legends)           | —     |
-| Tri-lobe Vectors [Crucible]                         | —     |
+| Unit | Notes |
+| --- | --- |
+| Beasts of Nurgle | |
+| Chaos Lord on Palanquin of Nurgle (Legends) | |
+| Death Guard Chaos Lord (Legends) | |
+| Death Guard Chaos Lord in Terminator Armour (Legends) | |
+| Death Guard Cultists (Legends) | |
+| Death Guard Possessed (Legends) | |
+| Death Guard Sorcerer in Terminator Armour (Legends) | |
+| Gellerpox Infected (Legends) | |
+| Hell Talon (Legends) | |
+| Hellblade (Legends) | |
+| Miasmic Malignifier | |
+| Mutoid Vermin (Legends) | |
+| Plague Lord [Crucible] | |
+| Plague Sorcerer [Crucible] | |
+| Sorcerer on Palanquin of Nurgle (Legends) | |
+| Tri-lobe Vectors [Crucible] | |
 
 ---
 
