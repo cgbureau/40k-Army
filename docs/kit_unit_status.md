@@ -1313,8 +1313,8 @@ _Unit Model Options_
 
 | Kit                 | Unit(s)             | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
 | ------------------- | ------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Caanok Var          | Caanok Var          | —      | —                       | —                                  | —     |
-| Iron Father Feirros | Iron Father Feirros | —      | —                       | —                                  | —     |
+| Caanok Var          | Caanok Var          |        |                         |                                    |       |
+| Iron Father Feirros | Iron Father Feirros |        |                         |                                    |       |
 
 ### Iron Hands Units with no kit data
 
