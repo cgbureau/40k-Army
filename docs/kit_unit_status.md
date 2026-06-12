@@ -2067,28 +2067,26 @@ _Unit Model Options_
 
 ### Ultramarines Kits
 
-| Kit                                       | Unit(s)                                | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------- | -------------------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Ultramarines Chief Librarian Tigurius     | Chief Librarian Tigurius ×1 (inferred) | £36 / €45 | 1                       | —                                  | —     |
-| Ultramarines Upgrades                     | —                                      | —         | —                       | —                                  | —     |
-| Captain Titus and The Wardens of Ultramar | Captain Titus                          | —         | —                       | —                                  | —     |
-| Cato Sicarius                             | Cato Sicarius                          | —         | —                       | —                                  | —     |
-| Chaplain                                  | Chaplain Cassius (Legends)             | —         | —                       | —                                  | —     |
-| Marneus Calgar in Armour of Antilochus    | Marneus Calgar in Armour of Antilochus | —         | —                       | —                                  | —     |
-| Space Marines: Roboute Guilliman          | Roboute Guilliman                      | —         | —                       | —                                  | —     |
-| Victrix Honour Guard                      | Victrix Honour Guard                   | —         | —                       | —                                  | —     |
-| Captain Titus and The Wardens of Ultramar | Wardens of Ultramar                    | —         | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Captain Titus and The Wardens of Ultramar | Captain Titus | | | | |
+| Captain Titus and The Wardens of Ultramar | Wardens of Ultramar | | | | |
+| Cato Sicarius | Cato Sicarius | | | | |
+| Marneus Calgar in Armour of Antilochus | Marneus Calgar in Armour of Antilochus | | | | |
+| Space Marines: Roboute Guilliman | Roboute Guilliman | | | | |
+| Ultramarines Chief Librarian Tigurius | Chief Librarian Tigurius | | 1 | | |
+| Victrix Honour Guard | Victrix Honour Guard | | | | |
 
 ### Ultramarines Units with no kit data
 
-| Unit                            | Notes |
-| ------------------------------- | ----- |
-| Lieutenant Titus                | —     |
-| Sergeant Chronus (Legends)      | —     |
-| Sergeant Telion (Legends)       | —     |
-| Tyrannic War Veterans (Legends) | —     |
-| Uriel Ventris                   | —     |
-
+| Unit | Notes |
+| ---- | ----- |
+| Chaplain Cassius (Legends) | |
+| Lieutenant Titus | |
+| Sergeant Chronus (Legends) | |
+| Sergeant Telion (Legends) | |
+| Tyrannic War Veterans (Legends) | |
+| Uriel Ventris | |
 ---
 
 ## Unassigned
