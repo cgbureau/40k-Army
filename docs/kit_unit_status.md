@@ -1329,37 +1329,36 @@ _Unit Model Options_
 
 | Kit                        | Unit(s)                                                | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
 | -------------------------- | ------------------------------------------------------ | ------ | ----------------------- | ---------------------------------- | ----- |
-| Arkanyst Evaluator         | Arkanyst Evaluator                                     | —      | —                       | —                                  | —     |
-| Buri Aegnirssen            | Buri Aegnirssen                                        | —      | —                       | —                                  | —     |
-| Cthonian Beserks           | Cthonian Beserks                                       | —      | —                       | —                                  | —     |
-| Cthonian Earthshakers      | Cthonian Earthshakers                                  | —      | —                       | —                                  | —     |
-| Einhyr Champion            | Einhyr Champion                                        | —      | —                       | —                                  | —     |
-| Einhyr Hearthguard         | Einhyr Hearthguard                                     | —      | —                       | —                                  | —     |
-| Grimnyr                    | Grimnyr                                                | —      | —                       | —                                  | —     |
-| Hearthkyn Warriors         | Hearthkyn Warriors                                     | —      | —                       | —                                  | —     |
-| Hekaton Land Fortress      | Hekaton Land Fortress                                  | —      | —                       | —                                  | —     |
-| Hernkyn Pioneers           | Hernkyn Pioneers                                       | —      | —                       | —                                  | —     |
-| Kill Team: Hernkyn Yaegirs | Hernkyn Yaegirs                                        | —      | —                       | —                                  | —     |
-| Ironkin Steeljacks         | Ironkin Steeljacks with Heavy Volkanite Disintegrators | —      | —                       | —                                  | —     |
-| Ironkin Steeljacks         | Ironkin Steeljacks with Melee Weapons                  | —      | —                       | —                                  | —     |
-| Memnyr Strategist          | Memnyr Strategist                                      | —      | —                       | —                                  | —     |
-| Sagitaur                   | Sagitaur                                               | —      | —                       | —                                  | —     |
+| Arkanyst Evaluator         | Arkanyst Evaluator                                     |        |                         |                                    |       |
+| Buri Aegnirssen            | Buri Aegnirssen                                        |        |                         |                                    |       |
+| Einhyr Champion            | Einhyr Champion                                        |        |                         |                                    |       |
+| Grimnyr                    | Grimnyr                                                |        |                         |                                    |       |
+| Memnyr Strategist          | Memnyr Strategist                                      |        |                         |                                    |       |
+| Cthonian Beserks           | Cthonian Beserks                                       |        |                         |                                    |       |
+| Cthonian Earthshakers      | Cthonian Earthshakers                                  |        |                         |                                    |       |
+| Einhyr Hearthguard         | Einhyr Hearthguard                                     |        |                         |                                    |       |
+| Hearthkyn Warriors         | Hearthkyn Warriors                                     |        |                         |                                    |       |
+| Hernkyn Pioneers           | Hernkyn Pioneers                                       |        |                         |                                    |       |
+| Ironkin Steeljacks         | Ironkin Steeljacks with Heavy Volkanite Disintegrators |        |                         |                                    |       |
+| Ironkin Steeljacks         | Ironkin Steeljacks with Melee Weapons                  |        |                         |                                    |       |
+| Hekaton Land Fortress      | Hekaton Land Fortress                                  |        |                         |                                    |       |
+| Sagitaur                   | Sagitaur                                               |        |                         |                                    |       |
+| Kill Team: Hernkyn Yaegirs | Hernkyn Yaegirs                                        |        |                         |                                    |       |
 
 ### Leagues of Votann Units with no kit data
 
 | Unit                         | Notes |
 | ---------------------------- | ----- |
-| Berehk Stornbr\u00f6w        | —     |
-| Br\u00f4khyr Iron-master     | —     |
-| Br\u00f4khyr Thunderkyn      | —     |
-| K\u00e2hl                    | —     |
-| Kapricus Carrier             | —     |
-| Kapricus Defenders           | —     |
-| Kinhost Commander [Crucible] | —     |
-| Living Ancestor [Crucible]   | —     |
-| Steeljack Elder [Crucible]   | —     |
-| \u00dbthar the Destined      | —     |
-
+| Berehk Stornbr\u00f6w        |       |
+| Br\u00f4khyr Iron-master     |       |
+| Br\u00f4khyr Thunderkyn      |       |
+| K\u00e2hl                    |       |
+| Kapricus Carrier             |       |
+| Kapricus Defenders           |       |
+| Kinhost Commander [Crucible] |       |
+| Living Ancestor [Crucible]   |       |
+| Steeljack Elder [Crucible]   |       |
+| \u00dbthar the Destined      |       |
 ---
 
 ## Necrons
