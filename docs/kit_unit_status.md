@@ -1050,37 +1050,37 @@ _Unit Model Options_
 
 | Kit                                   | Unit(s)                              | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
 | ------------------------------------- | ------------------------------------ | ------ | ----------------------- | ---------------------------------- | ----- |
-| Raider                                | Chaos Land Raider                    | —      | —                       | —                                  | —     |
-| Chaos Rhino                           | Chaos Rhino                          | —      | —                       | —                                  | —     |
-| Chaos Spawn                           | Chaos Spawn                          | —      | —                       | —                                  | —     |
-| Daemon Prince                         | Daemon Prince of Slaanesh            | —      | —                       | —                                  | —     |
-| Daemon Prince                         | Daemon Prince of Slaanesh with Wings | —      | —                       | —                                  | —     |
-| Daemonettes of Slaanesh               | Daemonettes                          | —      | —                       | —                                  | —     |
-| Defiler                               | Defiler                              | —      | —                       | —                                  | —     |
-| Fiends                                | Fiends                               | —      | —                       | —                                  | —     |
-| Flawless Blades                       | Flawless Blades                      | —      | —                       | —                                  | —     |
-| Fulgrim – Daemon Primarch of Slaanesh | Fulgrim                              | —      | —                       | —                                  | —     |
-| Chaos Space Marine Heldrake           | Heldrake                             | —      | —                       | —                                  | —     |
-| Keeper of Secrets                     | Keeper of Secrets                    | —      | —                       | —                                  | —     |
-| Lord Exultant                         | Lord Exultant                        | —      | —                       | —                                  | —     |
-| Lord Kakophonist                      | Lord Kakophonist                     | —      | —                       | —                                  | —     |
-| Lucius the Eternal                    | Lucius the Eternal                   | —      | —                       | —                                  | —     |
-| Maulerfiend                           | Maulerfiend                          | —      | —                       | —                                  | —     |
-| Noise Marines                         | Noise Marines                        | —      | —                       | —                                  | —     |
-| Witchseekers                          | Seekers                              | —      | —                       | —                                  | —     |
-| Shalaxi Helbane                       | Shalaxi Helbane                      | —      | —                       | —                                  | —     |
-| Thousand Sons Exalted Sorcerers       | Sorcerer                             | —      | —                       | —                                  | —     |
-| Tormentors                            | Tormentors                           | —      | —                       | —                                  | —     |
+| Daemon Prince                         | Daemon Prince of Slaanesh            |        |                         |                                    |       |
+| Daemon Prince                         | Daemon Prince of Slaanesh with Wings |        |                         |                                    |       |
+| Fulgrim – Daemon Primarch of Slaanesh | Fulgrim                              |        |                         |                                    |       |
+| Lord Exultant                         | Lord Exultant                        |        |                         |                                    |       |
+| Lord Kakophonist                      | Lord Kakophonist                     |        |                         |                                    |       |
+| Lucius the Eternal                    | Lucius the Eternal                   |        |                         |                                    |       |
+| Shalaxi Helbane                       | Shalaxi Helbane                      |        |                         |                                    |       |
+| Thousand Sons Exalted Sorcerers       | Sorcerer                             |        |                         |                                    |       |
+| Chaos Spawn                           | Chaos Spawn                          |        |                         |                                    |       |
+| Daemonettes of Slaanesh               | Daemonettes                          |        |                         |                                    |       |
+| Fiends                                | Fiends                               |        |                         |                                    |       |
+| Flawless Blades                       | Flawless Blades                      |        |                         |                                    |       |
+| Keeper of Secrets                     | Keeper of Secrets                    |        |                         |                                    |       |
+| Noise Marines                         | Noise Marines                        |        |                         |                                    |       |
+| Witchseekers                          | Seekers                              |        |                         |                                    |       |
+| Tormentors                            | Tormentors                           |        |                         |                                    |       |
+| Raider                                | Chaos Land Raider                    |        |                         |                                    |       |
+| Chaos Rhino                           | Chaos Rhino                          |        |                         |                                    |       |
+| Defiler                               | Defiler                              |        |                         |                                    |       |
+| Chaos Space Marine Heldrake           | Heldrake                             |        |                         |                                    |       |
+| Maulerfiend                           | Maulerfiend                          |        |                         |                                    |       |
 
 ### Emperor's Children Units with no kit data
 
 | Unit                          | Notes |
 | ----------------------------- | ----- |
-| Champion of Excess [Crucible] | —     |
-| Chaos Terminators             | —     |
-| Excruciator [Crucible]        | —     |
-| Flawless Champion [Crucible]  | —     |
-| Infractors                    | —     |
+| Champion of Excess [Crucible] |       |
+| Chaos Terminators             |       |
+| Excruciator [Crucible]        |       |
+| Flawless Champion [Crucible]  |       |
+| Infractors                    |       |
 
 ---
 
