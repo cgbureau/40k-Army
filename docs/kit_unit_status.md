@@ -2174,17 +2174,15 @@ _Unit Model Options_
 
 ### White Scars Kits
 
-| Kit                                       | Unit(s)                      | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------- | ---------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| White Scars Kor'sarro Khan                | Kor'sarro Khan ×1 (inferred) | £29 / €37 | 1                       | —                                  | —     |
-| White Scars Primaris Upgrades & Transfers | —                            | —         | —                       | —                                  | —     |
-| Suboden Khan                              | Suboden Khan                 | —         | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Suboden Khan | Suboden Khan | | | | |
+| White Scars Kor'sarro Khan | Kor'sarro Khan | | 1 | | |
 
 ### White Scars Units with no kit data
 
 | Unit | Notes |
 | ---- | ----- |
-
 ---
 
 ## World Eaters
