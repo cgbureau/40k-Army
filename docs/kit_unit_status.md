@@ -982,77 +982,65 @@ _Unit Model Options_
 
 ### Drukhari Kits
 
-| Kit                                             | Unit(s)                       | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------------- | ----------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Battleforce: Drukhari Poisonblade Raiding Party | —                             | —         | —                       | —                                  | —     |
-| Dark Eldar Archon                               | —                             | —         | —                       | —                                  | —     |
-| Dark Eldar Haemonculus                          | —                             | —         | —                       | —                                  | —     |
-| Dark Eldar Kabalite Warriors                    | —                             | —         | —                       | —                                  | —     |
-| Dark Eldar Raider                               | —                             | —         | —                       | —                                  | —     |
-| Dark Eldar Scourges                             | —                             | £58 / €76 | —                       | —                                  | —     |
-| Dark Eldar Talos Pain Engine                    | —                             | £58 / €76 | —                       | —                                  | —     |
-| Dark Eldar Venom                                | —                             | £58 / €76 | —                       | —                                  | —     |
-| Dark Eldar Voidraven Bomber                     | —                             | £58 / €76 | —                       | —                                  | —     |
-| Dark Eldar Wracks                               | —                             | —         | —                       | —                                  | —     |
-| Drukhari Drazhar, Master of Blades              | —                             | —         | —                       | —                                  | —     |
-| Drukhari Incubi                                 | Incubi (unconfirmed)          | £58 / €76 | ~5                      | —                                  | —     |
-| Drukhari Succubus                               | —                             | —         | —                       | —                                  | —     |
-| Start Collecting! Dark Eldar                    | —                             | —         | —                       | —                                  | —     |
-| Start Collecting! Drukhari                      | —                             | —         | —                       | —                                  | —     |
-| Dark Eldar Archon                               | Archon                        | —         | —                       | —                                  | —     |
-| Corsair Skyreavers                              | Corsair Skyreavers            | —         | —                       | —                                  | —     |
-| Reavers                                         | Corsair Voidreavers           | —         | —                       | —                                  | —     |
-| Archon                                          | Court of the Archon (Legends) | —         | —                       | —                                  | —     |
-| Cronos                                          | Cronos                        | —         | —                       | —                                  | —     |
-| Harlequin Death Jester                          | Death Jester                  | —         | —                       | —                                  | —     |
-| Drukhari Drazhar, Master of Blades              | Drazhar                       | —         | —                       | —                                  | —     |
-| Dark Eldar Haemonculus                          | Haemonculus                   | —         | —                       | —                                  | —     |
-| Kill Team: Hand of the Archon                   | Hand of the Archon            | —         | —                       | —                                  | —     |
-| Hellions                                        | Hellions                      | —         | —                       | —                                  | —     |
-| Incubi                                          | Incubi                        | —         | —                       | —                                  | —     |
-| Dark Eldar Kabalite Warriors                    | Kabalite Warriors             | —         | —                       | —                                  | —     |
-| Kharseth                                        | Kharseth                      | —         | —                       | —                                  | —     |
-| Lady Malys                                      | Lady Malys                    | —         | —                       | —                                  | —     |
-| Lelith Hesperax                                 | Lelith Hesperax               | —         | —                       | —                                  | —     |
-| Kill Team: Mandrakes                            | Mandrakes                     | —         | —                       | —                                  | —     |
-| Prince Yriel                                    | Prince Yriel                  | —         | —                       | —                                  | —     |
-| Dark Eldar Raider                               | Raider                        | —         | —                       | —                                  | —     |
-| Kill Team: Fellgor Ravagers                     | Ravager                       | —         | —                       | —                                  | —     |
-| Razorwing Jetfighter                            | Razorwing Jetfighter          | —         | —                       | —                                  | —     |
-| Dark Reapers                                    | Reaper (Legends)              | —         | —                       | —                                  | —     |
-| Corsair Skyreavers                              | Reavers                       | —         | —                       | —                                  | —     |
-| Scourges                                        | Scourges with Heavy Weapons   | —         | —                       | —                                  | —     |
-| Scourges                                        | Scourges with Shardcarbines   | —         | —                       | —                                  | —     |
-| Harlequin Shadowseer                            | Shadowseer                    | —         | —                       | —                                  | —     |
-| Harlequin Skyweavers                            | Skyweavers                    | —         | —                       | —                                  | —     |
-| Solitaire                                       | Solitaire                     | —         | —                       | —                                  | —     |
-| Harlequin Starweaver                            | Starweaver                    | —         | —                       | —                                  | —     |
-| Drukhari Succubus                               | Succubus                      | —         | —                       | —                                  | —     |
-| Talos                                           | Talos                         | —         | —                       | —                                  | —     |
-| Harlequin Troupe                                | Troupe                        | —         | —                       | —                                  | —     |
-| Venom                                           | Venom                         | —         | —                       | —                                  | —     |
-| Dark Eldar Voidraven Bomber                     | Voidraven Bomber              | —         | —                       | —                                  | —     |
-| Voidweaver                                      | Voidweaver                    | —         | —                       | —                                  | —     |
-| Dark Eldar Wracks                               | Wracks                        | —         | —                       | —                                  | —     |
-| Wyches                                          | Wyches                        | —         | —                       | —                                  | —     |
+| Kit                                             | Unit(s)                     | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ----------------------------------------------- | --------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Dark Eldar Archon                               | Archon                      |        |                         |                                    |       |
+| Dark Eldar Haemonculus                          | Haemonculus                 |        |                         |                                    |       |
+| Drukhari Drazhar, Master of Blades              | Drazhar                     |        |                         |                                    |       |
+| Drukhari Succubus                               | Succubus                    |        |                         |                                    |       |
+| Harlequin Death Jester                          | Death Jester                |        |                         |                                    |       |
+| Harlequin Shadowseer                            | Shadowseer                  |        |                         |                                    |       |
+| Kharseth                                        | Kharseth                    |        |                         |                                    |       |
+| Lady Malys                                      | Lady Malys                  |        |                         |                                    |       |
+| Lelith Hesperax                                 | Lelith Hesperax             |        |                         |                                    |       |
+| Prince Yriel                                    | Prince Yriel                |        |                         |                                    |       |
+| Solitaire                                       | Solitaire                   |        |                         |                                    |       |
+| Corsair Skyreavers                              | Corsair Skyreavers          |        |                         |                                    |       |
+| Corsair Skyreavers                              | Reavers                     |        |                         |                                    |       |
+| Cronos                                          | Cronos                      |        |                         |                                    |       |
+| Dark Eldar Kabalite Warriors                    | Kabalite Warriors           |        |                         |                                    |       |
+| Dark Eldar Wracks                               | Wracks                      |        |                         |                                    |       |
+| Hellions                                        | Hellions                    |        |                         |                                    |       |
+| Harlequin Troupe                                | Troupe                      |        |                         |                                    |       |
+| Incubi                                          | Incubi                      |        | ~5                      |                                    |       |
+| Reavers                                         | Corsair Voidreavers         |        |                         |                                    |       |
+| Scourges                                        | Scourges with Heavy Weapons |        |                         |                                    |       |
+| Scourges                                        | Scourges with Shardcarbines |        |                         |                                    |       |
+| Harlequin Skyweavers                            | Skyweavers                  |        |                         |                                    |       |
+| Wyches                                          | Wyches                      |        |                         |                                    |       |
+| Dark Eldar Raider                               | Raider                      |        |                         |                                    |       |
+| Dark Eldar Voidraven Bomber                     | Voidraven Bomber            |        |                         |                                    |       |
+| Harlequin Starweaver                            | Starweaver                  |        |                         |                                    |       |
+| Kill Team: Fellgor Ravagers                     | Ravager                     |        |                         |                                    |       |
+| Razorwing Jetfighter                            | Razorwing Jetfighter        |        |                         |                                    |       |
+| Talos                                           | Talos                       |        |                         |                                    |       |
+| Venom                                           | Venom                       |        |                         |                                    |       |
+| Voidweaver                                      | Voidweaver                  |        |                         |                                    |       |
+| Battleforce: Drukhari Poisonblade Raiding Party |                             |        |                         |                                    |       |
+| Kill Team: Hand of the Archon                   | Hand of the Archon          |        |                         |                                    |       |
+| Kill Team: Mandrakes                            | Mandrakes                   |        |                         |                                    |       |
+| Start Collecting! Dark Eldar                    |                             |        |                         |                                    |       |
+| Start Collecting! Drukhari                      |                             |        |                         |                                    |       |
 
 ### Drukhari Units with no kit data
 
 | Unit                                | Notes |
 | ----------------------------------- | ----- |
-| Archtormentor [Crucible]            | —     |
-| Beastmaster (Legends)               | —     |
-| Corsair Cloud Dancer Band (Legends) | —     |
-| Corsair Reaver Band (Legends)       | —     |
-| Corsair Skyreaver Band (Legends)    | —     |
-| Corsair Voidscarred                 | —     |
-| Flesh Crafter [Crucible]            | —     |
-| Grotesques (Legends)                | —     |
-| Raven Strike Fighter (Legends)      | —     |
-| Starfangs                           | —     |
-| Tantalus (Legends)                  | —     |
-| Troupe Master                       | —     |
-| Urien Rakarth (Legends)             | —     |
+| Archtormentor [Crucible]            |       |
+| Beastmaster (Legends)               |       |
+| Corsair Cloud Dancer Band (Legends) |       |
+| Corsair Reaver Band (Legends)       |       |
+| Corsair Skyreaver Band (Legends)    |       |
+| Corsair Voidscarred                 |       |
+| Court of the Archon (Legends)       |       |
+| Flesh Crafter [Crucible]            |       |
+| Grotesques (Legends)                |       |
+| Raven Strike Fighter (Legends)      |       |
+| Reaper (Legends)                    |       |
+| Starfangs                           |       |
+| Tantalus (Legends)                  |       |
+| Troupe Master                       |       |
+| Urien Rakarth (Legends)             |       |
 
 ---
 
