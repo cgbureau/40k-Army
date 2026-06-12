@@ -2189,45 +2189,45 @@ _Unit Model Options_
 
 ### World Eaters Kits
 
-| Kit                                     | Unit(s)                            | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --------------------------------------- | ---------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Angron – Daemon Primarch of Khorne      | Angron                             | —      | —                       | —                                  | —     |
-| Bloodcrushers                           | Bloodcrushers                      | —      | —                       | —                                  | —     |
-| Bloodletters                            | Bloodletters                       | —      | —                       | —                                  | —     |
-| Bloodthirster                           | Bloodthirster                      | —      | —                       | —                                  | —     |
-| Raider                                  | Chaos Land Raider                  | —      | —                       | —                                  | —     |
-| Chaos Predator                          | Chaos Predator Annihilator         | —      | —                       | —                                  | —     |
-| Chaos Predator                          | Chaos Predator Destructor          | —      | —                       | —                                  | —     |
-| Chaos Rhino                             | Chaos Rhino                        | —      | —                       | —                                  | —     |
-| Chaos Spawn                             | Chaos Spawn                        | —      | —                       | —                                  | —     |
-| Daemon Prince                           | Daemon Prince of Khorne            | —      | —                       | —                                  | —     |
-| Daemon Prince                           | Daemon Prince of Khorne with wings | —      | —                       | —                                  | —     |
-| Defiler                                 | Defiler                            | —      | —                       | —                                  | —     |
-| Exalted Eightbound                      | Eightbound                         | —      | —                       | —                                  | —     |
-| Exalted Eightbound                      | Exalted Eightbound                 | —      | —                       | —                                  | —     |
-| Flesh Hounds                            | Flesh Hounds                       | —      | —                       | —                                  | —     |
-| Chaos Space Marine Forgefiend           | Forgefiend                         | —      | —                       | —                                  | —     |
-| Kill Team: Goremongers                  | Goremongers                        | —      | —                       | —                                  | —     |
-| Chaos Space Marine Helbrute             | Helbrute                           | —      | —                       | —                                  | —     |
-| Chaos Space Marine Heldrake             | Heldrake                           | —      | —                       | —                                  | —     |
-| Jakhals                                 | Jakhal                             | —      | —                       | —                                  | —     |
-| Khorne Berzerkers                       | Khorne Berzerkers                  | —      | —                       | —                                  | —     |
-| Khorne Lord of Skulls                   | Khorne Lord of Skulls              | —      | —                       | —                                  | —     |
-| Lord Invocatus                          | Lord Invocatus                     | —      | —                       | —                                  | —     |
-| Lord on Juggernaut                      | Lord on Juggernaut                 | —      | —                       | —                                  | —     |
-| Chaos Space Marine Master of Executions | Master of Executions               | —      | —                       | —                                  | —     |
-| Maulerfiend                             | Maulerfiend                        | —      | —                       | —                                  | —     |
-| Skarbrand                               | Skarbrand                          | —      | —                       | —                                  | —     |
-| Slaughterbound                          | Slaughterbound                     | —      | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Angron – Daemon Primarch of Khorne | Angron | | | | |
+| Bloodthirster | Bloodthirster | | | | |
+| Daemon Prince | Daemon Prince of Khorne | | | | |
+| Daemon Prince | Daemon Prince of Khorne with wings | | | | |
+| Lord Invocatus | Lord Invocatus | | | | |
+| Lord on Juggernaut | Lord on Juggernaut | | | | |
+| Chaos Space Marine Master of Executions | Master of Executions | | | | |
+| Skarbrand | Skarbrand | | | | |
+| Bloodcrushers | Bloodcrushers | | | | |
+| Bloodletters | Bloodletters | | | | |
+| Chaos Spawn | Chaos Spawn | | | | |
+| Exalted Eightbound | Eightbound | | | | |
+| Exalted Eightbound | Exalted Eightbound | | | | |
+| Flesh Hounds | Flesh Hounds | | | | |
+| Jakhals | Jakhal | | | | |
+| Khorne Berzerkers | Khorne Berzerkers | | | | |
+| Slaughterbound | Slaughterbound | | | | |
+| Chaos Predator | Chaos Predator Annihilator | | | | |
+| Chaos Predator | Chaos Predator Destructor | | | | |
+| Chaos Rhino | Chaos Rhino | | | | |
+| Chaos Space Marine Forgefiend | Forgefiend | | | | |
+| Chaos Space Marine Helbrute | Helbrute | | | | |
+| Chaos Space Marine Heldrake | Heldrake | | | | |
+| Defiler | Defiler | | | | |
+| Khorne Lord of Skulls | Khorne Lord of Skulls | | | | |
+| Maulerfiend | Maulerfiend | | | | |
+| Raider | Chaos Land Raider | | | | |
+| Kill Team: Goremongers | Goremongers | | | | |
 
 ### World Eaters Units with no kit data
 
-| Unit                          | Notes |
-| ----------------------------- | ----- |
-| Bloodcult Champion [Crucible] | —     |
-| Butcherlord [Crucible]        | —     |
-| Chaos Terminators             | —     |
-| Eight-blessed Lord [Crucible] | —     |
-| Hell Talon (Legends)          | —     |
-| Hellblade (Legends)           | —     |
-| Kh\u00e2rn the Betrayer       | —     |
+| Unit | Notes |
+| ---- | ----- |
+| Bloodcult Champion [Crucible] | |
+| Butcherlord [Crucible] | |
+| Chaos Terminators | |
+| Eight-blessed Lord [Crucible] | |
+| Hell Talon (Legends) | |
+| Hellblade (Legends) | |
+| Kh\u00e2rn the Betrayer | |
