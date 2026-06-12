@@ -1272,43 +1272,38 @@ _Unit Model Options_
 
 ### Imperial Knights Kits
 
-| Kit                                                 | Unit(s)                    | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --------------------------------------------------- | -------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: Imperial Knights Super Heavy Detachment | —                          | —           | —                       | —                                  | —     |
-| Imperial Knights - Armiger Helverins                | —                          | —           | —                       | —                                  | —     |
-| Imperial Knights - Armiger Warglaives               | —                          | —           | —                       | —                                  | —     |
-| Imperial Knights - Knight Castellan                 | —                          | —           | —                       | —                                  | —     |
-| Imperial Knights - Knight Preceptor Canis Rex       | —                          | £129 / €170 | —                       | —                                  | —     |
-| Imperial Knights - Knight Valiant                   | —                          | —           | —                       | —                                  | —     |
-| Imperial Knights: Renegade                          | —                          | —           | —                       | —                                  | —     |
-| Sector Mechanicus - Sacristan Forgeshrine           | —                          | —           | —                       | —                                  | —     |
-| Acastus Knight Asterius                             | Acastus Knight Asterius    | —           | —                       | —                                  | —     |
-| Acastus Knight Porphyrion                           | Acastus Knight Porphyrion  | —           | —                       | —                                  | —     |
-| Imperial Knights - Armiger Helverins                | Armiger Helverin           | —           | —                       | —                                  | —     |
-| Imperial Knights - Armiger Warglaives               | Armiger Warglaive          | —           | —                       | —                                  | —     |
-| Imperial Knights - Knight Preceptor Canis Rex       | Canis Rex                  | —           | —                       | —                                  | —     |
-| Cerastus Knight Acheron                             | Cerastus Knight Acheron    | —           | —                       | —                                  | —     |
-| Cerastus Knight Atrapos                             | Cerastus Knight Atrapos    | —           | —                       | —                                  | —     |
-| Castigator                                          | Cerastus Knight Castigator | —           | —                       | —                                  | —     |
-| Cerastus Knight Lancer                              | Cerastus Knight Lancer     | —           | —                       | —                                  | —     |
-| Imperial Knights - Knight Castellan                 | Knight Castellan           | —           | —                       | —                                  | —     |
-| Knight Crusader                                     | Knight Crusader            | —           | —                       | —                                  | —     |
-| Knight Destrier                                     | Knight Destrier            | —           | —                       | —                                  | —     |
-| Imperial Knights - Knight Preceptor Canis Rex       | Knight Preceptor           | —           | —                       | —                                  | —     |
-| Imperial Knights - Knight Valiant                   | Knight Valiant             | —           | —                       | —                                  | —     |
-| Imperial Knight Warden                              | Knight Warden              | —           | —                       | —                                  | —     |
-| Knight Questoris                                    | Questoris Knight Magaera   | —           | —                       | —                                  | —     |
-| Questoris Knight Styrix                             | Questoris Knight Styrix    | —           | —                       | —                                  | —     |
+| Kit                                                 | Unit(s)                    | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --------------------------------------------------- | -------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Acastus Knight Asterius                             | Acastus Knight Asterius    |        |                         |                                    |       |
+| Acastus Knight Porphyrion                           | Acastus Knight Porphyrion  |        |                         |                                    |       |
+| Castigator                                          | Cerastus Knight Castigator |        |                         |                                    |       |
+| Cerastus Knight Acheron                             | Cerastus Knight Acheron    |        |                         |                                    |       |
+| Cerastus Knight Atrapos                             | Cerastus Knight Atrapos    |        |                         |                                    |       |
+| Cerastus Knight Lancer                              | Cerastus Knight Lancer     |        |                         |                                    |       |
+| Imperial Knight Warden                              | Knight Warden              |        |                         |                                    |       |
+| Imperial Knights - Armiger Helverins                | Armiger Helverin           |        |                         |                                    |       |
+| Imperial Knights - Armiger Warglaives               | Armiger Warglaive          |        |                         |                                    |       |
+| Imperial Knights - Knight Castellan                 | Knight Castellan           |        |                         |                                    |       |
+| Imperial Knights - Knight Preceptor Canis Rex       | Canis Rex                  |        |                         |                                    |       |
+| Imperial Knights - Knight Preceptor Canis Rex       | Knight Preceptor           |        |                         |                                    |       |
+| Imperial Knights - Knight Valiant                   | Knight Valiant             |        |                         |                                    |       |
+| Knight Crusader                                     | Knight Crusader            |        |                         |                                    |       |
+| Knight Destrier                                     | Knight Destrier            |        |                         |                                    |       |
+| Knight Questoris                                    | Questoris Knight Magaera   |        |                         |                                    |       |
+| Questoris Knight Styrix                             | Questoris Knight Styrix    |        |                         |                                    |       |
+| Apocalypse: Imperial Knights Super Heavy Detachment |                            |        |                         |                                    |       |
+| Imperial Knights: Renegade                          |                            |        |                         |                                    |       |
 
 ### Imperial Knights Units with no kit data
 
-| Unit            | Notes |
-| --------------- | ----- |
-| Armiger Moirax  | —     |
-| Knight Defender | —     |
-| Knight Errant   | —     |
-| Knight Gallant  | —     |
-| Knight Paladin  | —     |
+| Unit                  | Notes |
+| --------------------- | ----- |
+| Armiger Moirax        |       |
+| Knight Defender       |       |
+| Knight Errant         |       |
+| Knight Gallant        |       |
+| Knight Paladin        |       |
+| Sacristan Forgeshrine |       |
 
 ---
 
