@@ -1137,49 +1137,46 @@ _Unit Model Options_
 
 ### Grey Knights Kits
 
-| Kit                                           | Unit(s)                                | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --------------------------------------------- | -------------------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Grey Knights Grand Master Voldus              | Grand Master Voldus ×1 (inferred)      | £42 / €55 | 1                       | —                                  | —     |
-| Grey Knights Nemesis Dreadknight              | Nemesis Dreadknight (unconfirmed)      | £42 / €55 | —                       | —                                  | —     |
-| Grey Knights Paladin Squad                    | —                                      | —         | —                       | —                                  | —     |
-| Grey Knights Strike Squad                     | Strike Squad ×1 (inferred)             | £42 / €55 | 1                       | —                                  | —     |
-| Chaplain                                      | Brotherhood Chaplain                   | —         | —                       | —                                  | —     |
-| Techmarine                                    | Brotherhood Techmarine                 | —         | —                       | —                                  | —     |
-| Grey Knights Brotherhood Terminator Squad     | Brotherhood Terminator Squad           | —         | —                       | —                                  | —     |
-| Castellan Crowe                               | Castellan Crowe                        | —         | —                       | —                                  | —     |
-| Grey Knights Grand Master Voldus              | Grand Master                           | —         | —                       | —                                  | —     |
-| Grand Master in Nemesis Dreadknight           | Grand Master in Nemesis Dreadknight    | —         | —                       | —                                  | —     |
-| Razorback                                     | Grey Knights Relic Razorback (Legends) | —         | —                       | —                                  | —     |
-| Grey Knights Interceptor Squad                | Interceptor Squad                      | —         | —                       | —                                  | —     |
-| Venerable Land Raider                         | Land Raider                            | —         | —                       | —                                  | —     |
-| Raider                                        | Land Raider Crusader                   | —         | —                       | —                                  | —     |
-| Land Raider Redeemer                          | Land Raider Redeemer                   | —         | —                       | —                                  | —     |
-| Grey Knights Nemesis Dreadknight              | Nemesis Dreadknight                    | —         | —                       | —                                  | —     |
-| Grey Knights Paladin Squad                    | Paladin Squad                          | —         | —                       | —                                  | —     |
-| Grey Knights Purgation Squad                  | Purgation Squad                        | —         | —                       | —                                  | —     |
-| Grey Knights Purifier Squad                   | Purifier Squad                         | —         | —                       | —                                  | —     |
-| Space Marine Razorback                        | Razorback                              | —         | —                       | —                                  | —     |
-| Chaos Rhino                                   | Rhino                                  | —         | —                       | —                                  | —     |
-| Adeptus Mechanicus Kataphron Battle Servitors | Servitors (Legends)                    | —         | —                       | —                                  | —     |
-| Space Marine Stormhawk Interceptor            | Stormhawk Interceptor                  | —         | —                       | —                                  | —     |
-| Stormraven Gunship                            | Stormraven Gunship                     | —         | —                       | —                                  | —     |
-| Stormtalon Gunship                            | Stormtalon Gunship                     | —         | —                       | —                                  | —     |
-| Venerable Dreadnought                         | Venerable Dreadnought                  | —         | —                       | —                                  | —     |
+| Kit                                       | Unit(s)                             | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ----------------------------------------- | ----------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Castellan Crowe                           | Castellan Crowe                     |        |                         |                                    |       |
+| Chaplain                                  | Brotherhood Chaplain                |        |                         |                                    |       |
+| Grand Master in Nemesis Dreadknight       | Grand Master in Nemesis Dreadknight |        |                         |                                    |       |
+| Grey Knights Grand Master Voldus          | Grand Master Voldus                 |        | 1                       |                                    |       |
+| Techmarine                                | Brotherhood Techmarine              |        |                         |                                    |       |
+| Grey Knights Brotherhood Terminator Squad | Brotherhood Terminator Squad        |        |                         |                                    |       |
+| Grey Knights Interceptor Squad            | Interceptor Squad                   |        |                         |                                    |       |
+| Grey Knights Paladin Squad                | Paladin Squad                       |        |                         |                                    |       |
+| Grey Knights Purgation Squad              | Purgation Squad                     |        |                         |                                    |       |
+| Grey Knights Purifier Squad               | Purifier Squad                      |        |                         |                                    |       |
+| Grey Knights Strike Squad                 | Strike Squad                        |        | 1                       |                                    |       |
+| Chaos Rhino                               | Rhino                               |        |                         |                                    |       |
+| Grey Knights Nemesis Dreadknight          | Nemesis Dreadknight                 |        |                         |                                    |       |
+| Land Raider Redeemer                      | Land Raider Redeemer                |        |                         |                                    |       |
+| Raider                                    | Land Raider Crusader                |        |                         |                                    |       |
+| Space Marine Razorback                    | Razorback                           |        |                         |                                    |       |
+| Space Marine Stormhawk Interceptor        | Stormhawk Interceptor               |        |                         |                                    |       |
+| Stormraven Gunship                        | Stormraven Gunship                  |        |                         |                                    |       |
+| Stormtalon Gunship                        | Stormtalon Gunship                  |        |                         |                                    |       |
+| Venerable Dreadnought                     | Venerable Dreadnought               |        |                         |                                    |       |
+| Venerable Land Raider                     | Land Raider                         |        |                         |                                    |       |
 
 ### Grey Knights Units with no kit data
 
-| Unit                               | Notes |
-| ---------------------------------- | ----- |
-| Brother-Captain                    | —     |
-| Brother-Captain Stern (Legends)    | —     |
-| Brotherhood Champion               | —     |
-| Brotherhood Librarian              | —     |
-| Champion of Titan [Crucible]       | —     |
-| Dreadknight Champion [Crucible]    | —     |
-| Grey Knights Dreadnought (Legends) | —     |
-| Grey Knights Thunderhawk Gunship   | —     |
-| Kaldor Draigo (Legends)            | —     |
-| Venerable Daemon Slayer [Crucible] | —     |
+| Unit                                    | Notes |
+| --------------------------------------- | ----- |
+| Brother-Captain                         |       |
+| Brother-Captain Stern (Legends)         |       |
+| Brotherhood Champion                    |       |
+| Brotherhood Librarian                   |       |
+| Champion of Titan [Crucible]            |       |
+| Dreadknight Champion [Crucible]         |       |
+| Grey Knights Dreadnought (Legends)      |       |
+| Grey Knights Relic Razorback (Legends)  |       |
+| Grey Knights Thunderhawk Gunship        |       |
+| Kaldor Draigo (Legends)                 |       |
+| Servitors (Legends)                     |       |
+| Venerable Daemon Slayer [Crucible]      |       |
 
 ---
 
