@@ -1450,135 +1450,117 @@ _Unit Model Options_
 
 ### Orks Kits
 
-| Kit                                            | Unit(s)                                   | Prices     | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ---------------------------------------------- | ----------------------------------------- | ---------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: Orks Spearhead Detachment          | —                                         | —          | —                       | —                                  | —     |
-| Battleforce - Orks: Kult of Speed              | —                                         | —          | —                       | —                                  | —     |
-| Boomdakka Snazzwagon                           | Boomdakka Snazzwagon (unconfirmed)        | £91 / €120 | —                       | —                                  | —     |
-| Deffkilla Wartrike                             | Deffkilla Wartrike (unconfirmed)          | £91 / €120 | —                       | —                                  | —     |
-| Megatrakk Scrapjet                             | —                                         | —          | —                       | —                                  | —     |
-| Ork Battlewagon                                | —                                         | —          | —                       | —                                  | —     |
-| Ork Boyz                                       | —                                         | —          | —                       | —                                  | —     |
-| Ork Flash Gitz                                 | —                                         | —          | —                       | —                                  | —     |
-| Ork Gorkanaut                                  | —                                         | —          | —                       | —                                  | —     |
-| Ork Gretchin                                   | —                                         | £91 / €120 | —                       | —                                  | —     |
-| Ork Killa Kans                                 | —                                         | £91 / €120 | —                       | —                                  | —     |
-| Ork Lootas & Burnas                            | —                                         | —          | —                       | —                                  | —     |
-| Ork Meganobz                                   | —                                         | —          | —                       | —                                  | —     |
-| Ork Mek Gun                                    | —                                         | £38 / €50  | —                       | —                                  | —     |
-| Ork Nobz                                       | —                                         | —          | —                       | —                                  | —     |
-| Ork Painboy                                    | —                                         | —          | —                       | —                                  | —     |
-| Ork Stormboyz                                  | —                                         | —          | —                       | —                                  | —     |
-| Ork Trukk                                      | —                                         | —          | —                       | —                                  | —     |
-| Ork Trukk Boyz                                 | —                                         | —          | —                       | —                                  | —     |
-| Ork Warbiker Mob                               | —                                         | £91 / €120 | —                       | —                                  | —     |
-| Ork Wazbom Blastajet                           | —                                         | —          | —                       | —                                  | —     |
-| Orks Kustom Boosta-Blasta                      | Kustom Boosta-blasta (unconfirmed)        | £91 / €120 | —                       | —                                  | —     |
-| Orks Shokkjump Dragsta                         | Shokkjump Dragsta (unconfirmed)           | £91 / €120 | —                       | —                                  | —     |
-| Orks Starter Set: Kill Team - Krogskull's Boyz | —                                         | —          | —                       | —                                  | —     |
-| Orks: Ghazghkull Thraka                        | Ghazghkull Thraka ×1 (inferred)           | £50 / €64  | 1                       | —                                  | —     |
-| Rukkatrukk Squigbuggy                          | Rukkatrukk Squigbuggy (unconfirmed)       | £91 / €120 | —                       | —                                  | —     |
-| Ork Battlewagon                                | Battlewagon                               | —          | —                       | —                                  | —     |
-| Ork Beast Snagga Boyz                          | Beast Snagga Boyz                         | —          | —                       | —                                  | —     |
-| Beastboss on Squigosaur                        | Beastboss                                 | —          | —                       | —                                  | —     |
-| Beastboss on Squigosaur                        | Beastboss on Squigosaur                   | —          | —                       | —                                  | —     |
-| Big Mek in Mega Armour                         | Big Mek                                   | —          | —                       | —                                  | —     |
-| Big Mek in Mega Armour                         | Big Mek in Mega Armour                    | —          | —                       | —                                  | —     |
-| Big Mek                                        | Big Mek on Warbike (Legends)              | —          | —                       | —                                  | —     |
-| Big Mek                                        | Big Mek with Kustom Force Field (Legends) | —          | —                       | —                                  | —     |
-| Big Mek                                        | Big Mek with Shokk Attack Gun             | —          | —                       | —                                  | —     |
-| Big'ed Bossbunka                               | Big'ed Bossbunka                          | —          | —                       | —                                  | —     |
-| Blitza-Bommer                                  | Blitza-bommer                             | —          | —                       | —                                  | —     |
-| Boomdakka Snazzwagon                           | Boomdakka Snazzwagon                      | —          | —                       | —                                  | —     |
-| Boss Snikrot                                   | Boss Snikrot                              | —          | —                       | —                                  | —     |
-| Burna-Bommer                                   | Burna-bommer                              | —          | —                       | —                                  | —     |
-| Da Red Gobbo                                   | Da Red Gobbo (Legends)                    | —          | —                       | —                                  | —     |
-| Da Red Gobbo                                   | Da Red Gobbo's Tinboy (Legends)           | —          | —                       | —                                  | —     |
-| Dakkajet                                       | Dakkajet                                  | —          | —                       | —                                  | —     |
-| Deff Dread                                     | Deff Dread                                | —          | —                       | —                                  | —     |
-| Deffkilla Wartrike                             | Deffkilla Wartrike                        | —          | —                       | —                                  | —     |
-| Deffkoptas                                     | Deffkoptas                                | —          | —                       | —                                  | —     |
-| Deffkoptas                                     | Deffkoptas with Big Shootas (Legends)     | —          | —                       | —                                  | —     |
-| Ork Flash Gitz                                 | Flash Gitz                                | —          | —                       | —                                  | —     |
-| Ork Gargantuan Squiggoth                       | Gargantuan Squiggoth                      | —          | —                       | —                                  | —     |
-| Ork Gorkanaut                                  | Gorkanaut                                 | —          | —                       | —                                  | —     |
-| Ork Gretchin                                   | Gretchin                                  | —          | —                       | —                                  | —     |
-| Hunta Rig                                      | Hunta Rig                                 | —          | —                       | —                                  | —     |
-| Kill Rig                                       | Kill Rig                                  | —          | —                       | —                                  | —     |
-| Killa Kans                                     | Killa Kans                                | —          | —                       | —                                  | —     |
-| Kommandos                                      | Kommandos                                 | —          | —                       | —                                  | —     |
-| Orks Kustom Boosta-Blasta                      | Kustom Boosta-blasta                      | —          | —                       | —                                  | —     |
-| Ork Lootas & Burnas                            | Loota                                     | —          | —                       | —                                  | —     |
-| Ork Lootas & Burnas                            | Lootas                                    | —          | —                       | —                                  | —     |
-| Ork Meganobz                                   | Meganobz                                  | —          | —                       | —                                  | —     |
-| Megatrakk Scrapjet                             | Megatrakk Scrapjet                        | —          | —                       | —                                  | —     |
-| Mek Gunz: Bubblechukka                         | Mek Gunz                                  | —          | —                       | —                                  | —     |
-| Morkanaut                                      | Morkanaut                                 | —          | —                       | —                                  | —     |
-| Mozrog Skragbad                                | Mozrog Skragbad                           | —          | —                       | —                                  | —     |
-| Painboss                                       | Painboss                                  | —          | —                       | —                                  | —     |
-| Ork Painboy                                    | Painboy                                   | —          | —                       | —                                  | —     |
-| Rukkatrukk Squigbuggy                          | Rukkatrukk Squigbuggy                     | —          | —                       | —                                  | —     |
-| Orks Shokkjump Dragsta                         | Shokkjump Dragsta                         | —          | —                       | —                                  | —     |
-| Ork Gargantuan Squiggoth                       | Squiggoth (Legends)                       | —          | —                       | —                                  | —     |
-| Squighog Boyz                                  | Squighog Boy                              | —          | —                       | —                                  | —     |
-| Squighog Boyz                                  | Squighog Boyz                             | —          | —                       | —                                  | —     |
-| Stompa                                         | Stompa                                    | —          | —                       | —                                  | —     |
-| Ork Stormboyz                                  | Stormboyz                                 | —          | —                       | —                                  | —     |
-| Rukkatrukk Squigbuggy                          | Trukk                                     | —          | —                       | —                                  | —     |
-| Warboss in Mega Armour                         | Warboss                                   | —          | —                       | —                                  | —     |
-| Warboss in Mega Armour                         | Warboss in Mega Armour                    | —          | —                       | —                                  | —     |
-| Ork Wazbom Blastajet                           | Wazbom Blastajet                          | —          | —                       | —                                  | —     |
-| Wazdakka Gutsmek                               | Wazdakka Gutsmek                          | —          | —                       | —                                  | —     |
-| Zodgrod Wortsnagga                             | Zodgrod Wortsnagga                        | —          | —                       | —                                  | —     |
+| Kit                                            | Unit(s)                        | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ---------------------------------------------- | ------------------------------ | ------ | ----------------------- | ---------------------------------- | ----- |
+| Beastboss on Squigosaur                        | Beastboss                      |        |                         |                                    |       |
+| Beastboss on Squigosaur                        | Beastboss on Squigosaur        |        |                         |                                    |       |
+| Big Mek                                        | Big Mek with Shokk Attack Gun  |        |                         |                                    |       |
+| Big Mek in Mega Armour                         | Big Mek                        |        |                         |                                    |       |
+| Big Mek in Mega Armour                         | Big Mek in Mega Armour         |        |                         |                                    |       |
+| Boss Snikrot                                   | Boss Snikrot                   |        |                         |                                    |       |
+| Mozrog Skragbad                                | Mozrog Skragbad                |        |                         |                                    |       |
+| Ork Painboy                                    | Painboy                        |        |                         |                                    |       |
+| Orks: Ghazghkull Thraka                        | Ghazghkull Thraka              |        | 1                       |                                    |       |
+| Painboss                                       | Painboss                       |        |                         |                                    |       |
+| Warboss in Mega Armour                         | Warboss                        |        |                         |                                    |       |
+| Warboss in Mega Armour                         | Warboss in Mega Armour         |        |                         |                                    |       |
+| Wazdakka Gutsmek                               | Wazdakka Gutsmek               |        |                         |                                    |       |
+| Zodgrod Wortsnagga                             | Zodgrod Wortsnagga             |        |                         |                                    |       |
+| Deffkoptas                                     | Deffkoptas                     |        |                         |                                    |       |
+| Kommandos                                      | Kommandos                      |        |                         |                                    |       |
+| Ork Beast Snagga Boyz                          | Beast Snagga Boyz              |        |                         |                                    |       |
+| Ork Boyz                                       |                                |        |                         |                                    |       |
+| Ork Flash Gitz                                 | Flash Gitz                     |        |                         |                                    |       |
+| Ork Gretchin                                   | Gretchin                       |        |                         |                                    |       |
+| Ork Lootas & Burnas                            | Loota                          |        |                         |                                    |       |
+| Ork Lootas & Burnas                            | Lootas                         |        |                         |                                    |       |
+| Ork Meganobz                                   | Meganobz                       |        |                         |                                    |       |
+| Ork Nobz                                       |                                |        |                         |                                    |       |
+| Ork Stormboyz                                  | Stormboyz                      |        |                         |                                    |       |
+| Ork Warbiker Mob                               |                                |        |                         |                                    |       |
+| Squighog Boyz                                  | Squighog Boy                   |        |                         |                                    |       |
+| Squighog Boyz                                  | Squighog Boyz                  |        |                         |                                    |       |
+| Big'ed Bossbunka                               | Big'ed Bossbunka               |        |                         |                                    |       |
+| Blitza-Bommer                                  | Blitza-bommer                  |        |                         |                                    |       |
+| Boomdakka Snazzwagon                           | Boomdakka Snazzwagon           |        |                         |                                    |       |
+| Burna-Bommer                                   | Burna-bommer                   |        |                         |                                    |       |
+| Dakkajet                                       | Dakkajet                       |        |                         |                                    |       |
+| Deff Dread                                     | Deff Dread                     |        |                         |                                    |       |
+| Deffkilla Wartrike                             | Deffkilla Wartrike             |        |                         |                                    |       |
+| Hunta Rig                                      | Hunta Rig                      |        |                         |                                    |       |
+| Kill Rig                                       | Kill Rig                       |        |                         |                                    |       |
+| Killa Kans                                     | Killa Kans                     |        |                         |                                    |       |
+| Megatrakk Scrapjet                             | Megatrakk Scrapjet             |        |                         |                                    |       |
+| Mek Gunz: Bubblechukka                         | Mek Gunz                       |        |                         |                                    |       |
+| Morkanaut                                      | Morkanaut                      |        |                         |                                    |       |
+| Ork Battlewagon                                | Battlewagon                    |        |                         |                                    |       |
+| Ork Gargantuan Squiggoth                       | Gargantuan Squiggoth           |        |                         |                                    |       |
+| Ork Gorkanaut                                  | Gorkanaut                      |        |                         |                                    |       |
+| Ork Trukk                                      |                                |        |                         |                                    |       |
+| Ork Trukk Boyz                                 |                                |        |                         |                                    |       |
+| Ork Wazbom Blastajet                           | Wazbom Blastajet               |        |                         |                                    |       |
+| Orks Kustom Boosta-Blasta                      | Kustom Boosta-blasta           |        |                         |                                    |       |
+| Orks Shokkjump Dragsta                         | Shokkjump Dragsta              |        |                         |                                    |       |
+| Rukkatrukk Squigbuggy                          | Rukkatrukk Squigbuggy          |        |                         |                                    |       |
+| Rukkatrukk Squigbuggy                          | Trukk                          |        |                         |                                    |       |
+| Stompa                                         | Stompa                         |        |                         |                                    |       |
+| Apocalypse: Orks Spearhead Detachment          |                                |        |                         |                                    |       |
+| Battleforce - Orks: Kult of Speed              |                                |        |                         |                                    |       |
+| Orks Starter Set: Kill Team - Krogskull's Boyz |                                |        |                         |                                    |       |
 
 ### Orks Units with no kit data
 
 | Unit                                 | Notes |
 | ------------------------------------ | ----- |
-| Attack Fighta (Legends)              | —     |
-| Big Gunz (Legends)                   | —     |
-| Big Trakk (Legends)                  | —     |
-| Boss Zagstruk (Legends)              | —     |
-| Boyz                                 | —     |
-| Breaka Boyz                          | —     |
-| Burna Boy                            | —     |
-| Burna Boyz                           | —     |
-| Chinork Warkopta (Legends)           | —     |
-| Deff Rolla Battle Fortress (Legends) | —     |
-| Fighta-Bommer (Legends)              | —     |
-| Grot Bomm Launcha (Legends)          | —     |
-| Grot Mega-Tank (Legends)             | —     |
-| Grot Tanks (Legends)                 | —     |
-| Hordeboss [Crucible]                 | —     |
-| Kannonwagon (Legends)                | —     |
-| Kaptin Badrukk (Legends)             | —     |
-| Kill Krusha (Legends)                | —     |
-| Kill Tank (Legends)                  | —     |
-| Lifta Wagon (Legends)                | —     |
-| Mad Dok Grotsnik (Legends)           | —     |
-| Mega Dread (Legends)                 | —     |
-| Mek                                  | —     |
-| Meka-Dread (Legends)                 | —     |
-| Mekboy Workshop (Legends)            | —     |
-| Nob on Smasha Squig                  | —     |
-| Nob with Waaagh! Banner (Legends)    | —     |
-| Nobz                                 | —     |
-| Nobz on Warbikes (Legends)           | —     |
-| Painboy on Warbike (Legends)         | —     |
-| Runtherd                             | —     |
-| Skorchas (Legends)                   | —     |
-| Spanner                              | —     |
-| Tankbustas                           | —     |
-| Ufthak Blackhawk (Legends)           | —     |
-| Upstart Gretchin [Crucible]          | —     |
-| Warbikers                            | —     |
-| Warboss on Warbike (Legends)         | —     |
-| Warbuggies (Legends)                 | —     |
-| Warphead [Crucible]                  | —     |
-| Wartrakks (Legends)                  | —     |
-| Weirdboy                             | —     |
-| Wurrboy                              | —     |
-
+| Attack Fighta (Legends)              |       |
+| Big Gunz (Legends)                   |       |
+| Big Mek on Warbike (Legends)         |       |
+| Big Mek with Kustom Force Field (Legends) |  |
+| Big Trakk (Legends)                  |       |
+| Boss Zagstruk (Legends)              |       |
+| Boyz                                 |       |
+| Breaka Boyz                          |       |
+| Burna Boy                            |       |
+| Burna Boyz                           |       |
+| Chinork Warkopta (Legends)           |       |
+| Da Red Gobbo (Legends)               |       |
+| Da Red Gobbo's Tinboy (Legends)      |       |
+| Deff Rolla Battle Fortress (Legends) |       |
+| Deffkoptas with Big Shootas (Legends) |      |
+| Fighta-Bommer (Legends)              |       |
+| Grot Bomm Launcha (Legends)          |       |
+| Grot Mega-Tank (Legends)             |       |
+| Grot Tanks (Legends)                 |       |
+| Hordeboss [Crucible]                 |       |
+| Kannonwagon (Legends)                |       |
+| Kaptin Badrukk (Legends)             |       |
+| Kill Krusha (Legends)                |       |
+| Kill Tank (Legends)                  |       |
+| Lifta Wagon (Legends)                |       |
+| Mad Dok Grotsnik (Legends)           |       |
+| Mega Dread (Legends)                 |       |
+| Mek                                  |       |
+| Meka-Dread (Legends)                 |       |
+| Mekboy Workshop (Legends)            |       |
+| Nob on Smasha Squig                  |       |
+| Nob with Waaagh! Banner (Legends)    |       |
+| Nobz                                 |       |
+| Nobz on Warbikes (Legends)           |       |
+| Painboy on Warbike (Legends)         |       |
+| Runtherd                             |       |
+| Skorchas (Legends)                   |       |
+| Spanner                              |       |
+| Squiggoth (Legends)                  |       |
+| Tankbustas                           |       |
+| Ufthak Blackhawk (Legends)           |       |
+| Upstart Gretchin [Crucible]          |       |
+| Warbikers                            |       |
+| Warboss on Warbike (Legends)         |       |
+| Warbuggies (Legends)                 |       |
+| Warphead [Crucible]                  |       |
+| Wartrakks (Legends)                  |       |
+| Weirdboy                             |       |
+| Wurrboy                              |       |
 ---
 
 ## Raven Guard
