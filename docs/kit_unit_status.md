@@ -2093,82 +2093,81 @@ _Unit Model Options_
 
 ### Unassigned Kits
 
-| Kit                                                      | Unit(s)                               | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| -------------------------------------------------------- | ------------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Aegis Defense Line                                       | —                                     | —           | —                       | —                                  | —     |
-| Apocalypse                                               | —                                     | —           | —                       | —                                  | —     |
-| Basilica Administratum                                   | —                                     | —           | —                       | —                                  | —     |
-| Battlezone Manufactorum Battlefield                      | —                                     | —           | —                       | —                                  | —     |
-| Battlezone Manufactorum Objective Set                    | —                                     | —           | —                       | —                                  | —     |
-| Battlezone: Manufactorum - Conservators                  | —                                     | —           | —                       | —                                  | —     |
-| Battlezone: Manufactorum - Munitorum Armoured Containers | —                                     | —           | —                       | —                                  | —     |
-| Battlezone: Manufactorum - Sanctum Administratus         | —                                     | —           | —                       | —                                  | —     |
-| Battlezone: Manufactorum - Sub-Cloister and Storage Fane | —                                     | —           | —                       | —                                  | —     |
-| Battlezone: Manufactorum - Vertigus                      | —                                     | —           | —                       | —                                  | —     |
-| Blood of the Phoenix                                     | —                                     | —           | —                       | —                                  | —     |
-| Command Edition                                          | —                                     | —           | —                       | —                                  | —     |
-| Command Edition: Battlefield Expansion Set               | —                                     | —           | —                       | —                                  | —     |
-| Cypher                                                   | Cypher ×1 (inferred)                  | £120 / €155 | 1                       | —                                  | —     |
-| Da Red Gobbo                                             | —                                     | —           | —                       | —                                  | —     |
-| Dark Imperium                                            | —                                     | —           | —                       | —                                  | —     |
-| Elite Edition                                            | —                                     | —           | —                       | —                                  | —     |
-| First Strike                                             | —                                     | —           | —                       | —                                  | —     |
-| Forgebane                                                | —                                     | —           | —                       | —                                  | —     |
-| Gangs Of Commorragh                                      | —                                     | —           | —                       | —                                  | —     |
-| Getting Started with Warhammer 40K                       | —                                     | —           | —                       | —                                  | —     |
-| Haemotrope Reactor                                       | —                                     | —           | —                       | —                                  | —     |
-| Hammerhead Gunship                                       | Hammerhead Gunship (unconfirmed)      | £118 / €150 | —                       | —                                  | —     |
-| Hero Bases                                               | —                                     | —           | —                       | —                                  | —     |
-| Imperial Bastion                                         | —                                     | —           | —                       | —                                  | —     |
-| Imperial Knight Warden                                   | —                                     | —           | —                       | —                                  | —     |
-| Imperial Sector                                          | —                                     | —           | —                       | —                                  | —     |
-| Indomitus                                                | —                                     | —           | —                       | —                                  | —     |
-| Inquisitor Greyfax                                       | —                                     | —           | —                       | —                                  | —     |
-| Khorne Berzerkers                                        | —                                     | —           | —                       | —                                  | —     |
-| Kill Team                                                | —                                     | —           | —                       | —                                  | —     |
-| Kill Team - Arena                                        | —                                     | —           | —                       | —                                  | —     |
-| Kill Team - Rogue Trader                                 | —                                     | —           | —                       | —                                  | —     |
-| Kill Team Starter Set                                    | —                                     | —           | —                       | —                                  | —     |
-| Killzone: Sector Fronteris                               | —                                     | —           | —                       | —                                  | —     |
-| Know No Fear                                             | —                                     | —           | —                       | —                                  | —     |
-| Logan Grimnar On Stormrider                              | —                                     | —           | —                       | —                                  | —     |
-| Manufactorum                                             | —                                     | —           | —                       | —                                  | —     |
-| Munitorium Armoured Containers                           | —                                     | —           | —                       | —                                  | —     |
-| Paints + Tools Set                                       | —                                     | —           | —                       | —                                  | —     |
-| Promethium Relay Pipes                                   | —                                     | —           | —                       | —                                  | —     |
-| Prophecy of the Wolf                                     | —                                     | —           | —                       | —                                  | —     |
-| Ravenwing Command Squad                                  | Ravenwing Command Squad ×1 (inferred) | £54 / €70   | 1                       | —                                  | —     |
-| Recruit Edition                                          | —                                     | —           | —                       | —                                  | —     |
-| Sector Imperialis: 25 & 40Mm Round Bases                 | —                                     | —           | —                       | —                                  | —     |
-| Sector Imperialis: 32Mm Round Bases                      | —                                     | —           | —                       | —                                  | —     |
-| Sector Imperialis: 60Mm Rd+75/90Mm Oval Bases            | —                                     | —           | —                       | —                                  | —     |
-| Sector Imperialis: Large Base Detail Kit                 | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus - Promethium Refinery                  | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus - Tectonic Fragdrill                   | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus - Thermic Plasma Conduits              | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus - Thermic Plasma Regulators            | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Alchomite Stack                       | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Ferratonic Furnace                    | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Ferratonic Incinerator                | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Galvanic Magnavent                    | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Galvanic Servo-Haulers                | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Industrial Bases                      | —                                     | —           | —                       | —                                  | —     |
-| Sector Mechanicus: Promethium Forge                      | —                                     | —           | —                       | —                                  | —     |
-| Shadowspear                                              | —                                     | —           | —                       | —                                  | —     |
-| Space Hulk                                               | —                                     | —           | —                       | —                                  | —     |
-| Speed Freeks                                             | —                                     | —           | —                       | —                                  | —     |
-| Start Collecting! Militarum Tempestus                    | —                                     | —           | —                       | —                                  | —     |
-| Stormraven Gunship                                       | Stormraven Gunship (unconfirmed)      | £78 / €100  | —                       | —                                  | —     |
-| Talons Of The Emperor                                    | —                                     | —           | —                       | —                                  | —     |
-| Tooth and Claw                                           | —                                     | —           | —                       | —                                  | —     |
-| Triumvirate of The Imperium                              | —                                     | —           | —                       | —                                  | —     |
-| Triumvirate of The Primarch                              | —                                     | —           | —                       | —                                  | —     |
-| Triumvirate of Ynnead                                    | —                                     | —           | —                       | —                                  | —     |
-| Urban Conquest                                           | —                                     | —           | —                       | —                                  | —     |
-| Voidshield Generator                                     | —                                     | —           | —                       | —                                  | —     |
-| Wake the Dead                                            | —                                     | —           | —                       | —                                  | —     |
-| Xv104 Riptide Battlesuit                                 | —                                     | £118 / €150 | —                       | —                                  | —     |
-
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Cypher | Cypher | | 1 | | |
+| Da Red Gobbo | | | | | |
+| Inquisitor Greyfax | | | | | |
+| Logan Grimnar On Stormrider | | | | | |
+| Ravenwing Command Squad | Ravenwing Command Squad | | 1 | | |
+| Khorne Berzerkers | | | | | |
+| Hammerhead Gunship | Hammerhead Gunship | | | | |
+| Imperial Knight Warden | | | | | |
+| Stormraven Gunship | Stormraven Gunship | | | | |
+| Xv104 Riptide Battlesuit | | | | | |
+| Aegis Defense Line | | | | | |
+| Apocalypse | | | | | |
+| Basilica Administratum | | | | | |
+| Battlezone Manufactorum Battlefield | | | | | |
+| Battlezone Manufactorum Objective Set | | | | | |
+| Battlezone: Manufactorum - Conservators | | | | | |
+| Battlezone: Manufactorum - Munitorum Armoured Containers | | | | | |
+| Battlezone: Manufactorum - Sanctum Administratus | | | | | |
+| Battlezone: Manufactorum - Sub-Cloister and Storage Fane | | | | | |
+| Battlezone: Manufactorum - Vertigus | | | | | |
+| Blood of the Phoenix | | | | | |
+| Command Edition | | | | | |
+| Command Edition: Battlefield Expansion Set | | | | | |
+| Dark Imperium | | | | | |
+| Elite Edition | | | | | |
+| First Strike | | | | | |
+| Forgebane | | | | | |
+| Gangs Of Commorragh | | | | | |
+| Getting Started with Warhammer 40K | | | | | |
+| Haemotrope Reactor | | | | | |
+| Hero Bases | | | | | |
+| Imperial Bastion | | | | | |
+| Imperial Sector | | | | | |
+| Indomitus | | | | | |
+| Kill Team | | | | | |
+| Kill Team - Arena | | | | | |
+| Kill Team - Rogue Trader | | | | | |
+| Kill Team Starter Set | | | | | |
+| Killzone: Sector Fronteris | | | | | |
+| Know No Fear | | | | | |
+| Manufactorum | | | | | |
+| Munitorium Armoured Containers | | | | | |
+| Paints + Tools Set | | | | | |
+| Promethium Relay Pipes | | | | | |
+| Prophecy of the Wolf | | | | | |
+| Recruit Edition | | | | | |
+| Sector Imperialis: 25 & 40Mm Round Bases | | | | | |
+| Sector Imperialis: 32Mm Round Bases | | | | | |
+| Sector Imperialis: 60Mm Rd+75/90Mm Oval Bases | | | | | |
+| Sector Imperialis: Large Base Detail Kit | | | | | |
+| Sector Mechanicus - Promethium Refinery | | | | | |
+| Sector Mechanicus - Tectonic Fragdrill | | | | | |
+| Sector Mechanicus - Thermic Plasma Conduits | | | | | |
+| Sector Mechanicus - Thermic Plasma Regulators | | | | | |
+| Sector Mechanicus: Alchomite Stack | | | | | |
+| Sector Mechanicus: Ferratonic Furnace | | | | | |
+| Sector Mechanicus: Ferratonic Incinerator | | | | | |
+| Sector Mechanicus: Galvanic Magnavent | | | | | |
+| Sector Mechanicus: Galvanic Servo-Haulers | | | | | |
+| Sector Mechanicus: Industrial Bases | | | | | |
+| Sector Mechanicus: Promethium Forge | | | | | |
+| Shadowspear | | | | | |
+| Space Hulk | | | | | |
+| Speed Freeks | | | | | |
+| Start Collecting! Militarum Tempestus | | | | | |
+| Talons Of The Emperor | | | | | |
+| Tooth and Claw | | | | | |
+| Triumvirate of The Imperium | | | | | |
+| Triumvirate of The Primarch | | | | | |
+| Triumvirate of Ynnead | | | | | |
+| Urban Conquest | | | | | |
+| Voidshield Generator | | | | | |
+| Wake the Dead | | | | | |
 ---
 
 ## White Scars
