@@ -1986,97 +1986,81 @@ _Unit Model Options_
 
 ### Tyranids Kits
 
-| Kit                                                   | Unit(s)                                  | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------------------- | ---------------------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: Tyranids Spearhead Detachment             | —                                        | —         | —                       | —                                  | —     |
-| Battleforce: Tyranids Bioswarm                        | —                                        | —         | —                       | —                                  | —     |
-| Start Collecting! Tyranids                            | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Broodlord                                     | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranid Gargoyle Brood                                | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranid Genestealers                                  | —                                        | £74 / €97 | —                       | —                                  | —     |
-| Tyranid Harpy                                         | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranid Haruspex                                      | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Hive Tyrant / The Swarmlord                   | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Hormagaunt Brood                              | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Swarm                                         | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Termagant Brood                               | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Termagants                                    | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Trygon/Mawloc                                 | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranid Tyrannocyte                                   | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranid Tyrannofex                                    | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranid Venomthropes                                  | —                                        | —         | —                       | —                                  | —     |
-| Tyranid Warriors                                      | —                                        | £64 / €84 | —                       | —                                  | —     |
-| Tyranids Starter Set: Kill Team - The Writhing Shadow | —                                        | —         | —                       | —                                  | —     |
-| Tyranids: Battleforce - Brood Swarm                   | —                                        | —         | —                       | —                                  | —     |
-| Barbgaunts                                            | Barbgaunts                               | —         | —                       | —                                  | —     |
-| Biovore                                               | Biovores                                 | —         | —                       | —                                  | —     |
-| Tyranid Broodlord                                     | Broodlord                                | —         | —                       | —                                  | —     |
-| Deathleaper                                           | Deathleaper                              | —         | —                       | —                                  | —     |
-| Exocrine                                              | Exocrine                                 | —         | —                       | —                                  | —     |
-| Tyranid Genestealers                                  | Genestealers                             | —         | —                       | —                                  | —     |
-| Tyranid Harpy                                         | Harpy                                    | —         | —                       | —                                  | —     |
-| Tyranid Harridan                                      | Harridan                                 | —         | —                       | —                                  | —     |
-| Tyranid Haruspex                                      | Haruspex                                 | —         | —                       | —                                  | —     |
-| Tyranid Hierophant Bio-Titan                          | Hierophant                               | —         | —                       | —                                  | —     |
-| Hive Crone                                            | Hive Crone                               | —         | —                       | —                                  | —     |
-| Hive Guard                                            | Hive Guard                               | —         | —                       | —                                  | —     |
-| Tyranid Hive Tyrant / The Swarmlord                   | Hive Tyrant                              | —         | —                       | —                                  | —     |
-| Hormagaunts                                           | Hormagaunts                              | —         | —                       | —                                  | —     |
-| Lictor                                                | Lictor                                   | —         | —                       | —                                  | —     |
-| Maleceptor                                            | Maleceptor                               | —         | —                       | —                                  | —     |
-| Tyranid Trygon/Mawloc                                 | Mawloc                                   | —         | —                       | —                                  | —     |
-| Neurogaunts                                           | Neurogaunts                              | —         | —                       | —                                  | —     |
-| Lictor                                                | Neurolictor                              | —         | —                       | —                                  | —     |
-| Norn Assimilator                                      | Norn Assimilator                         | —         | —                       | —                                  | —     |
-| Norn Emissary                                         | Norn Emissary                            | —         | —                       | —                                  | —     |
-| Old One Eye's Carnifex Brood                          | Old One Eye                              | —         | —                       | —                                  | —     |
-| Parasite of Mortrex                                   | Parasite of Mortrex                      | —         | —                       | —                                  | —     |
-| Psychophage                                           | Psychophage                              | —         | —                       | —                                  | —     |
-| Pyrovore                                              | Pyrovores                                | —         | —                       | —                                  | —     |
-| Kill Team: Raveners                                   | Raveners                                 | —         | —                       | —                                  | —     |
-| Parasite of Mortrex                                   | Ripper Swarms (Parasite of Mortrex)      | —         | —                       | —                                  | —     |
-| Screamer-Killer Brood                                 | Screamer-killer                          | —         | —                       | —                                  | —     |
-| Biovore                                               | Spore Mines (Biovore)                    | —         | —                       | —                                  | —     |
-| Sporocyst and Mucolid Spore                           | Sporocyst                                | —         | —                       | —                                  | —     |
-| Tyranid Termagants                                    | Termagants                               | —         | —                       | —                                  | —     |
-| Tervigon                                              | Tervigon                                 | —         | —                       | —                                  | —     |
-| Tyranid Hive Tyrant / The Swarmlord                   | The Swarmlord                            | —         | —                       | —                                  | —     |
-| Toxicrene                                             | Toxicrene                                | —         | —                       | —                                  | —     |
-| Tyranid Trygon/Mawloc                                 | Trygon                                   | —         | —                       | —                                  | —     |
-| Tyranid Prime with Lash Whip                          | Tyranid Prime with Lash Whip             | —         | —                       | —                                  | —     |
-| Tyranid Warriors                                      | Tyranid Warriors with Melee Bio-Weapons  | —         | —                       | —                                  | —     |
-| Tyranid Warriors                                      | Tyranid Warriors with Ranged Bio-Weapons | —         | —                       | —                                  | —     |
-| Tyranid Tyrannocyte                                   | Tyrannocyte                              | —         | —                       | —                                  | —     |
-| Tyrannofex                                            | Tyrannofex                               | —         | —                       | —                                  | —     |
-| Tyrant Guard                                          | Tyrant Guard                             | —         | —                       | —                                  | —     |
-| Venom                                                 | Venomthropes                             | —         | —                       | —                                  | —     |
-| Von Ryan's Leapers                                    | Von Ryan's Leapers                       | —         | —                       | —                                  | —     |
-| Hive Tyrant                                           | Winged Hive Tyrant                       | —         | —                       | —                                  | —     |
-| Tyranid Prime                                         | Winged Tyranid Prime                     | —         | —                       | —                                  | —     |
-| Zoanthropes                                           | Zoanthropes                              | —         | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Deathleaper | Deathleaper | | | | |
+| Hive Tyrant | Winged Hive Tyrant | | | | |
+| Old One Eye's Carnifex Brood | Old One Eye | | | | |
+| Parasite of Mortrex | Parasite of Mortrex | | | | |
+| Parasite of Mortrex | Ripper Swarms (Parasite of Mortrex) | | | | |
+| Tyranid Broodlord | Broodlord | | | | |
+| Tyranid Hive Tyrant / The Swarmlord | Hive Tyrant | | | | |
+| Tyranid Hive Tyrant / The Swarmlord | The Swarmlord | | | | |
+| Tyranid Prime | Winged Tyranid Prime | | | | |
+| Tyranid Prime with Lash Whip | Tyranid Prime with Lash Whip | | | | |
+| Barbgaunts | Barbgaunts | | | | |
+| Biovore | Biovores | | | | |
+| Biovore | Spore Mines (Biovore) | | | | |
+| Exocrine | Exocrine | | | | |
+| Hive Guard | Hive Guard | | | | |
+| Lictor | Lictor | | | | |
+| Lictor | Neurolictor | | | | |
+| Maleceptor | Maleceptor | | | | |
+| Neurogaunts | Neurogaunts | | | | |
+| Norn Assimilator | Norn Assimilator | | | | |
+| Norn Emissary | Norn Emissary | | | | |
+| Psychophage | Psychophage | | | | |
+| Pyrovore | Pyrovores | | | | |
+| Screamer-Killer Brood | Screamer-killer | | | | |
+| Sporocyst and Mucolid Spore | Sporocyst | | | | |
+| Tervigon | Tervigon | | | | |
+| Toxicrene | Toxicrene | | | | |
+| Tyranid Gargoyle Brood | | | | | |
+| Tyranid Haruspex | Haruspex | | | | |
+| Tyranid Hormagaunt Brood | Hormagaunts | | | | |
+| Tyranid Swarm | | | | | |
+| Tyranid Termagant Brood | Termagants | | | | |
+| Tyranid Venomthropes | Venomthropes | | | | |
+| Tyranid Warriors | Tyranid Warriors with Melee Bio-Weapons | | | | |
+| Tyranid Warriors | Tyranid Warriors with Ranged Bio-Weapons | | | | |
+| Tyrant Guard | Tyrant Guard | | | | |
+| Von Ryan's Leapers | Von Ryan's Leapers | | | | |
+| Zoanthropes | Zoanthropes | | | | |
+| Hive Crone | Hive Crone | | | | |
+| Tyranid Harridan | Harridan | | | | |
+| Tyranid Hierophant Bio-Titan | Hierophant | | | | |
+| Tyranid Trygon/Mawloc | Mawloc | | | | |
+| Tyranid Trygon/Mawloc | Trygon | | | | |
+| Tyranid Tyrannofex | Tyrannofex | | | | |
+| Tyranid Tyrannocyte | Tyrannocyte | | | | |
+| Apocalypse: Tyranids Spearhead Detachment | | | | | |
+| Battleforce: Tyranids Bioswarm | | | | | |
+| Kill Team: Raveners | Raveners | | | | |
+| Start Collecting! Tyranids | | | | | |
+| Tyranids Starter Set: Kill Team - The Writhing Shadow | | | | | |
+| Tyranids: Battleforce - Brood Swarm | | | | | |
 
 ### Tyranids Units with no kit data
 
-| Unit                         | Notes |
-| ---------------------------- | ----- |
-| Barbed Hierodule (Legends)   | —     |
-| Carnifexes                   | —     |
-| Dimachaeron (Legends)        | —     |
-| Gargoyles                    | —     |
-| Hyperadapted Raveners        | —     |
-| Macro Organism [Crucible]    | —     |
-| Malanthrope (Legends)        | —     |
-| Mucolid Spores               | —     |
-| Mucolid Spores (Sporocyst)   | —     |
-| Neurotyrant                  | —     |
-| Node Organism [Crucible]     | —     |
-| Prime Organism [Crucible]    | —     |
-| Ripper Swarms                | —     |
-| Scythed Hierodule (Legends)  | —     |
-| Sky-slasher Swarms (Legends) | —     |
-| Spore Mines                  | —     |
-| The Red Terror               | —     |
-
+| Unit | Notes |
+| ---- | ----- |
+| Barbed Hierodule (Legends) | |
+| Carnifexes | |
+| Dimachaeron (Legends) | |
+| Gargoyles | |
+| Hyperadapted Raveners | |
+| Macro Organism [Crucible] | |
+| Malanthrope (Legends) | |
+| Mucolid Spores | |
+| Mucolid Spores (Sporocyst) | |
+| Neurotyrant | |
+| Node Organism [Crucible] | |
+| Prime Organism [Crucible] | |
+| Ripper Swarms | |
+| Scythed Hierodule (Legends) | |
+| Sky-slasher Swarms (Legends) | |
+| Spore Mines | |
+| The Red Terror | |
 ---
 
 ## Ultramarines
