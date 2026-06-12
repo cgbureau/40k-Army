@@ -1841,100 +1841,89 @@ _Unit Model Options_
 
 ### T'au Empire Kits
 
-| Kit                                               | Unit(s)                          | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------- | -------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: T'au Empire Vanguard Detachment       | —                                | —           | —                       | —                                  | —     |
-| Battleforce - T'au Empire, Commander Shadowsun    | —                                | —           | —                       | —                                  | —     |
-| Battleforce - T'au Empire: Rapid Insertion Cadre  | —                                | —           | —                       | —                                  | —     |
-| Battleforce: T'au Empire Starclaimer Hunter Cadre | —                                | —           | —                       | —                                  | —     |
-| Cadre Fireblade                                   | Cadre Fireblade (unconfirmed)    | £118 / €150 | —                       | —                                  | —     |
-| Start Collecting! Tau Empire                      | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Coalition Command                      | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Commander                              | —                                | £118 / €150 | —                       | —                                  | —     |
-| Tau Empire Fire Warriors                          | —                                | £118 / €150 | —                       | —                                  | —     |
-| Tau Empire Kv128 Stormsurge                       | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Pathfinder Team                        | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Tidewall Droneport                     | Tidewall Droneport (unconfirmed) | £118 / €150 | —                       | —                                  | —     |
-| Tau Empire Tidewall Rampart                       | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Tidewall Shieldline                    | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Tx4 Piranha                            | —                                | £118 / €150 | —                       | —                                  | —     |
-| Tau Empire Ty7 Devilfish                          | —                                | £118 / €150 | —                       | —                                  | —     |
-| Tau Empire Xv25 Stealth Battlesuits               | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Xv8 Crisis Battlesuits                 | —                                | —           | —                       | —                                  | —     |
-| Tau Empire Xv88 Broadside Battlesuit              | —                                | £118 / €150 | —                       | —                                  | —     |
-| Tau Empire Xv95 Ghostkeel Battlesuit              | —                                | —           | —                       | —                                  | —     |
-| T’au Tiger Shark AX-1-0                           | AX-1-0 Tiger Shark               | —           | —                       | —                                  | —     |
-| Fire Warriors Breacher Team                       | Breacher Team                    | —           | —                       | —                                  | —     |
-| Cadre Fireblade                                   | Cadre Fireblade                  | —           | —                       | —                                  | —     |
-| Commander Farsight                                | Commander Farsight               | —           | —                       | —                                  | —     |
-| Battleforce - T'au Empire, Commander Shadowsun    | Commander Shadowsun              | —           | —                       | —                                  | —     |
-| Tau Empire Xv8 Crisis Battlesuits                 | Crisis Battlesuits (Legends)     | —           | —                       | —                                  | —     |
-| Darkstrider                                       | Darkstrider                      | —           | —                       | —                                  | —     |
-| Devilfish                                         | Devilfish                        | —           | —                       | —                                  | —     |
-| Ethereal                                          | Ethereal                         | —           | —                       | —                                  | —     |
-| Firesight Team                                    | Firesight Team                   | —           | —                       | —                                  | —     |
-| Tau Empire Xv95 Ghostkeel Battlesuit              | Ghostkeel Battlesuit             | —           | —                       | —                                  | —     |
-| Hammerhead Gunship                                | Hammerhead Gunship               | —           | —                       | —                                  | —     |
-| Kroot Carnivores                                  | Kroot Carnivores                 | —           | —                       | —                                  | —     |
-| Kroot Flesh Shaper                                | Kroot Flesh Shaper               | —           | —                       | —                                  | —     |
-| Kroot Hounds                                      | Kroot Hounds                     | —           | —                       | —                                  | —     |
-| Kroot Lone-spear                                  | Kroot Lone-spear                 | —           | —                       | —                                  | —     |
-| Kroot Trail Shaper                                | Kroot Trail Shaper               | —           | —                       | —                                  | —     |
-| Kroot War Shaper                                  | Kroot War Shaper                 | —           | —                       | —                                  | —     |
-| Krootox Rampagers                                 | Krootox Rampagers                | —           | —                       | —                                  | —     |
-| Krootox Rider                                     | Krootox Riders                   | —           | —                       | —                                  | —     |
-| Manta                                             | Manta                            | —           | —                       | —                                  | —     |
-| Tau Empire Pathfinder Team                        | Pathfinder Team                  | —           | —                       | —                                  | —     |
-| Piranha                                           | Piranha                          | —           | —                       | —                                  | —     |
-| AX3 Razorshark Strike Fighter                     | Razorshark Strike Fighter        | —           | —                       | —                                  | —     |
-| XV104 Riptide Battlesuit                          | Riptide Battlesuit               | —           | —                       | —                                  | —     |
-| TX78 Sky Ray Gunship                              | Sky Ray Gunship                  | —           | —                       | —                                  | —     |
-| Tau Empire Xv25 Stealth Battlesuits               | Stealth Battlesuits              | —           | —                       | —                                  | —     |
-| Tau Empire Kv128 Stormsurge                       | Stormsurge                       | —           | —                       | —                                  | —     |
-| Fire Warriors Strike Team                         | Strike Team                      | —           | —                       | —                                  | —     |
-| AX39 Sun Shark Bomber                             | Sun Shark Bomber                 | —           | —                       | —                                  | —     |
-| Piranha                                           | TX42 Piranha (Legends)           | —           | —                       | —                                  | —     |
-| KX139 Ta'unar Supremacy Armour Fusion Eradicator  | Ta'unar Supremacy Armour         | —           | —                       | —                                  | —     |
-| Tactical Drones                                   | Tactical Drones (Legends)        | —           | —                       | —                                  | —     |
-| The Twin Lance                                    | The Twin Lance                   | —           | —                       | —                                  | —     |
-| Tau Empire Tidewall Droneport                     | Tidewall Droneport               | —           | —                       | —                                  | —     |
-| Tau Empire Tidewall Shieldline                    | Tidewall Shieldline              | —           | —                       | —                                  | —     |
-| T’au Tiger Shark AX-1-0                           | Tiger Shark                      | —           | —                       | —                                  | —     |
-| Kill Team: Vespid Stingwings                      | Vespid Stingwings                | —           | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Cadre Fireblade | Cadre Fireblade | | | | |
+| Commander Farsight | Commander Farsight | | | | |
+| Darkstrider | Darkstrider | | | | |
+| Ethereal | Ethereal | | | | |
+| Fire Warriors Breacher Team | Breacher Team | | | | |
+| Fire Warriors Strike Team | Strike Team | | | | |
+| Firesight Team | Firesight Team | | | | |
+| Kroot Carnivores | Kroot Carnivores | | | | |
+| Kroot Flesh Shaper | Kroot Flesh Shaper | | | | |
+| Kroot Hounds | Kroot Hounds | | | | |
+| Kroot Lone-spear | Kroot Lone-spear | | | | |
+| Kroot Trail Shaper | Kroot Trail Shaper | | | | |
+| Kroot War Shaper | Kroot War Shaper | | | | |
+| Krootox Rampagers | Krootox Rampagers | | | | |
+| Krootox Rider | Krootox Riders | | | | |
+| Tau Empire Coalition Command | | | | | |
+| Tau Empire Commander | | | | | |
+| Tau Empire Fire Warriors | | | | | |
+| Tau Empire Pathfinder Team | Pathfinder Team | | | | |
+| Tau Empire Xv25 Stealth Battlesuits | Stealth Battlesuits | | | | |
+| Tau Empire Xv88 Broadside Battlesuit | | | | | |
+| AX3 Razorshark Strike Fighter | Razorshark Strike Fighter | | | | |
+| AX39 Sun Shark Bomber | Sun Shark Bomber | | | | |
+| Hammerhead Gunship | Hammerhead Gunship | | | | |
+| KX139 Ta'unar Supremacy Armour Fusion Eradicator | Ta'unar Supremacy Armour | | | | |
+| Manta | Manta | | | | |
+| T'au Tiger Shark AX-1-0 | AX-1-0 Tiger Shark | | | | |
+| T'au Tiger Shark AX-1-0 | Tiger Shark | | | | |
+| Tau Empire Kv128 Stormsurge | Stormsurge | | | | |
+| Tau Empire Tx4 Piranha | Piranha | | | | |
+| Tau Empire Tidewall Rampart | | | | | |
+| Tau Empire Ty7 Devilfish | Devilfish | | | | |
+| Tau Empire Xv95 Ghostkeel Battlesuit | Ghostkeel Battlesuit | | | | |
+| The Twin Lance | The Twin Lance | | | | |
+| TX78 Sky Ray Gunship | Sky Ray Gunship | | | | |
+| XV104 Riptide Battlesuit | Riptide Battlesuit | | | | |
+| Apocalypse: T'au Empire Vanguard Detachment | | | | | |
+| Battleforce - T'au Empire, Commander Shadowsun | Commander Shadowsun | | | | |
+| Battleforce - T'au Empire: Rapid Insertion Cadre | | | | | |
+| Battleforce: T'au Empire Starclaimer Hunter Cadre | | | | | |
+| Kill Team: Vespid Stingwings | Vespid Stingwings | | | | |
+| Start Collecting! Tau Empire | | | | | |
 
 ### T'au Empire Units with no kit data
 
-| Unit                                     | Notes |
-| ---------------------------------------- | ----- |
-| Aun'shi (Legends)                        | —     |
-| Aun'va (Legends)                         | —     |
-| Barracuda (Legends)                      | —     |
-| Battlesuit Veteran [Crucible]            | —     |
-| Broadside Battlesuits                    | —     |
-| Commander in Coldstar Battlesuit         | —     |
-| Commander in Crisis Battlesuit (Legends) | —     |
-| Commander in Enforcer Battlesuit         | —     |
-| Crisis Fireknife Battlesuits             | —     |
-| Crisis Starscythe Battlesuits            | —     |
-| Crisis Sunforge Battlesuits              | —     |
-| Drone Sentry Turret (Legends)            | —     |
-| Great Knarloc (Legends)                  | —     |
-| Heavy Gun Drones (Legends)               | —     |
-| Kinband Champion [Crucible]              | —     |
-| Knarloc Riders (Legends)                 | —     |
-| Kroot Farstalkers                        | —     |
-| Longstrike (Legends)                     | —     |
-| Orca Dropship (Legends)                  | —     |
-| R'varna Battlesuit (Legends)             | —     |
-| Remora Stealth Drones (Legends)          | —     |
-| Remote Sensor Tower (Legends)            | —     |
-| Shas'nel [Crucible]                      | —     |
-| Shas'o R'alai (Legends)                  | —     |
-| Tetras (Legends)                         | —     |
-| Tidewall Gunrig                          | —     |
-| XV9 Hazard Battlesuits (Legends)         | —     |
-| Y'vahra Battlesuit (Legends)             | —     |
-
+| Unit | Notes |
+| ---- | ----- |
+| Aun'shi (Legends) | |
+| Aun'va (Legends) | |
+| Barracuda (Legends) | |
+| Battlesuit Veteran [Crucible] | |
+| Broadside Battlesuits | |
+| Commander in Coldstar Battlesuit | |
+| Commander in Crisis Battlesuit (Legends) | |
+| Commander in Enforcer Battlesuit | |
+| Crisis Battlesuits (Legends) | |
+| Crisis Fireknife Battlesuits | |
+| Crisis Starscythe Battlesuits | |
+| Crisis Sunforge Battlesuits | |
+| Drone Sentry Turret (Legends) | |
+| Great Knarloc (Legends) | |
+| Heavy Gun Drones (Legends) | |
+| Kinband Champion [Crucible] | |
+| Knarloc Riders (Legends) | |
+| Kroot Farstalkers | |
+| Longstrike (Legends) | |
+| Orca Dropship (Legends) | |
+| R'varna Battlesuit (Legends) | |
+| Remora Stealth Drones (Legends) | |
+| Remote Sensor Tower (Legends) | |
+| Shas'nel [Crucible] | |
+| Shas'o R'alai (Legends) | |
+| Tactical Drones (Legends) | |
+| Tetras (Legends) | |
+| Tidewall Droneport | |
+| Tidewall Gunrig | |
+| Tidewall Rampart | |
+| Tidewall Shieldline | |
+| TX42 Piranha (Legends) | |
+| XV9 Hazard Battlesuits (Legends) | |
+| Y'vahra Battlesuit (Legends) | |
 ---
 
 ## Thousand Sons
