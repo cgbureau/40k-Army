@@ -1088,65 +1088,48 @@ _Unit Model Options_
 
 ### Genestealer Cults Kits
 
-| Kit                                             | Unit(s)                           | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------------- | --------------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Battleforce - Genestealer Cults: Insurrection   | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults - Aberrants                   | Aberrants (unconfirmed)           | £40 / €52 | —                       | —                                  | —     |
-| Genestealer Cults - Achilles Ridgerunner        | —                                 | £40 / €52 | —                       | —                                  | —     |
-| Genestealer Cults Abominant                     | Abominant (unconfirmed)           | £40 / €52 | —                       | —                                  | —     |
-| Genestealer Cults Acolyte Hybrids               | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Acolyte Iconward              | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Atalan Jackals                | Atalan Jackals (unconfirmed)      | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Biophagus                     | Biophagus (unconfirmed)           | £40 / €52 | —                       | —                                  | —     |
-| Genestealer Cults Broodcoven                    | —                                 | £44 / €58 | —                       | —                                  | —     |
-| Genestealer Cults Clamavus                      | Clamavus (unconfirmed)            | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Goliath                       | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Jackal Alphus                 | Jackal Alphus (unconfirmed)       | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Leman Russ                    | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Locus                         | Locus (unconfirmed)               | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Magus                         | Magus (unconfirmed)               | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Neophyte Hybrid Armoured Claw | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Neophyte Hybrid Squad         | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Neophyte Hybrids              | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Nexos                         | Nexos (unconfirmed)               | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Sanctus                       | Sanctus (unconfirmed)             | £42 / €55 | —                       | —                                  | —     |
-| Genestealer Cults Upgrades                      | —                                 | —         | —                       | —                                  | —     |
-| Genestealer Cults, Kelermorph                   | Kelermorph (unconfirmed)          | £42 / €55 | —                       | —                                  | —     |
-| Kill Team Starn's Disciples                     | —                                 | —         | —                       | —                                  | —     |
-| Start Collecting! Genestealer Cults             | —                                 | —         | —                       | —                                  | —     |
-| Aberrants                                       | Aberrants                         | —         | —                       | —                                  | —     |
-| Abominant                                       | Abominant                         | —         | —                       | —                                  | —     |
-| Achilles Ridgerunner                            | Achilles Ridgerunners             | —         | —                       | —                                  | —     |
-| Acolyte Hybrids                                 | Acolyte Hybrids with Autopistols  | —         | —                       | —                                  | —     |
-| Flamers                                         | Acolyte Hybrids with Hand Flamers | —         | —                       | —                                  | —     |
-| Genestealer Cults Acolyte Iconward              | Acolyte Iconward                  | —         | —                       | —                                  | —     |
-| Genestealer Cults Atalan Jackals                | Atalan Jackals                    | —         | —                       | —                                  | —     |
-| Benefictus                                      | Benefictus                        | —         | —                       | —                                  | —     |
-| Biophagus                                       | Biophagus                         | —         | —                       | —                                  | —     |
-| Clamavus                                        | Clamavus                          | —         | —                       | —                                  | —     |
-| Goliath Rockgrinder                             | Goliath Rockgrinder               | —         | —                       | —                                  | —     |
-| Goliath Truck                                   | Goliath Truck                     | —         | —                       | —                                  | —     |
-| Hybrid Metamorphs                               | Hybrid Metamorphs                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Jackal Alphus                 | Jackal Alphus                     | —         | —                       | —                                  | —     |
-| Genestealer Cults, Kelermorph                   | Kelermorph                        | —         | —                       | —                                  | —     |
-| Genestealer Cults Locus                         | Locus                             | —         | —                       | —                                  | —     |
-| Magus                                           | Magus                             | —         | —                       | —                                  | —     |
-| Genestealer Cults Neophyte Hybrids              | Neophyte Hybrids                  | —         | —                       | —                                  | —     |
-| Genestealer Cults Nexos                         | Nexos                             | —         | —                       | —                                  | —     |
-| Genestealers                                    | Purestrain Genestealers           | —         | —                       | —                                  | —     |
-| Reductus Saboteur                               | Reductus Saboteur                 | —         | —                       | —                                  | —     |
-| Genestealer Cults Sanctus                       | Sanctus                           | —         | —                       | —                                  | —     |
-| Sector Mechanicus - Tectonic Fragdrill          | Tectonic Fragdrill (Legends)      | —         | —                       | —                                  | —     |
+| Kit                                             | Unit(s)                           | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ----------------------------------------------- | --------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Abominant                                       | Abominant                         |        |                         |                                    |       |
+| Benefictus                                      | Benefictus                        |        |                         |                                    |       |
+| Biophagus                                       | Biophagus                         |        |                         |                                    |       |
+| Clamavus                                        | Clamavus                          |        |                         |                                    |       |
+| Genestealer Cults Acolyte Iconward              | Acolyte Iconward                  |        |                         |                                    |       |
+| Genestealer Cults Jackal Alphus                 | Jackal Alphus                     |        |                         |                                    |       |
+| Genestealer Cults Locus                         | Locus                             |        |                         |                                    |       |
+| Genestealer Cults Nexos                         | Nexos                             |        |                         |                                    |       |
+| Genestealer Cults Sanctus                       | Sanctus                           |        |                         |                                    |       |
+| Genestealer Cults, Kelermorph                   | Kelermorph                        |        |                         |                                    |       |
+| Magus                                           | Magus                             |        |                         |                                    |       |
+| Reductus Saboteur                               | Reductus Saboteur                 |        |                         |                                    |       |
+| Aberrants                                       | Aberrants                         |        |                         |                                    |       |
+| Acolyte Hybrids                                 | Acolyte Hybrids with Autopistols  |        |                         |                                    |       |
+| Flamers                                         | Acolyte Hybrids with Hand Flamers |        |                         |                                    |       |
+| Genestealer Cults Atalan Jackals                | Atalan Jackals                    |        |                         |                                    |       |
+| Genestealer Cults Neophyte Hybrids              | Neophyte Hybrids                  |        |                         |                                    |       |
+| Genestealers                                    | Purestrain Genestealers           |        |                         |                                    |       |
+| Hybrid Metamorphs                               | Hybrid Metamorphs                 |        |                         |                                    |       |
+| Achilles Ridgerunner                            | Achilles Ridgerunners             |        |                         |                                    |       |
+| Genestealer Cults Leman Russ                    |                                   |        |                         |                                    |       |
+| Goliath Rockgrinder                             | Goliath Rockgrinder               |        |                         |                                    |       |
+| Goliath Truck                                   | Goliath Truck                     |        |                         |                                    |       |
+| Battleforce - Genestealer Cults: Insurrection   |                                   |        |                         |                                    |       |
+| Genestealer Cults Broodcoven                    |                                   |        |                         |                                    |       |
+| Genestealer Cults Neophyte Hybrid Armoured Claw |                                   |        |                         |                                    |       |
+| Genestealer Cults Upgrades                      |                                   |        |                         |                                    |       |
+| Kill Team Starn's Disciples                     |                                   |        |                         |                                    |       |
+| Start Collecting! Genestealer Cults             |                                   |        |                         |                                    |       |
 
 ### Genestealer Cults Units with no kit data
 
 | Unit                              | Notes |
 | --------------------------------- | ----- |
-| Cult Guerrilla [Crucible]         | —     |
-| Cult Insurrectionist [Crucible]   | —     |
-| Patriarch                         | —     |
-| Primus                            | —     |
-| Voice of the Patriarch [Crucible] | —     |
+| Cult Guerrilla [Crucible]         |       |
+| Cult Insurrectionist [Crucible]   |       |
+| Patriarch                         |       |
+| Primus                            |       |
+| Tectonic Fragdrill (Legends)      |       |
+| Voice of the Patriarch [Crucible] |       |
 
 ---
 
