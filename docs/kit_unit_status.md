@@ -1930,61 +1930,56 @@ _Unit Model Options_
 
 ### Thousand Sons Kits
 
-| Kit                                     | Unit(s)                                        | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --------------------------------------- | ---------------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Start Collecting! Thousand Sons         | —                                              | —      | —                       | —                                  | —     |
-| Thousand Sons Exalted Sorcerers         | —                                              | —      | —                       | —                                  | —     |
-| Thousand Sons Magnus The Red            | —                                              | —      | —                       | —                                  | —     |
-| Thousand Sons Scarab Occult Terminators | —                                              | —      | —                       | —                                  | —     |
-| Thousand Sons Tzaangors                 | —                                              | —      | —                       | —                                  | —     |
-| Ahriman Arch-Sorcerer of Tzeentch       | Ahriman                                        | —      | —                       | —                                  | —     |
-| Blue Horrors and Brimstone Horrors      | Blue Horrors                                   | —      | —                       | —                                  | —     |
-| Raider                                  | Chaos Land Raider                              | —      | —                       | —                                  | —     |
-| Chaos Predator                          | Chaos Predator Annihilator                     | —      | —                       | —                                  | —     |
-| Chaos Predator                          | Chaos Predator Destructor                      | —      | —                       | —                                  | —     |
-| Chaos Rhino                             | Chaos Rhino                                    | —      | —                       | —                                  | —     |
-| Chaos Spawn                             | Chaos Spawn                                    | —      | —                       | —                                  | —     |
-| Chaos Spawn                             | Chaos Spawn (Flesh Change)                     | —      | —                       | —                                  | —     |
-| Vindicator                              | Chaos Vindicator                               | —      | —                       | —                                  | —     |
-| Daemon Prince                           | Daemon Prince of Tzeentch                      | —      | —                       | —                                  | —     |
-| Daemon Prince                           | Daemon Prince of Tzeentch with wings           | —      | —                       | —                                  | —     |
-| Defiler                                 | Defiler                                        | —      | —                       | —                                  | —     |
-| Thousand Sons Exalted Sorcerers         | Exalted Sorcerer                               | —      | —                       | —                                  | —     |
-| Flamers                                 | Flamers                                        | —      | —                       | —                                  | —     |
-| Chaos Space Marine Forgefiend           | Forgefiend                                     | —      | —                       | —                                  | —     |
-| Chaos Space Marine Helbrute             | Helbrute                                       | —      | —                       | —                                  | —     |
-| Chaos Space Marine Heldrake             | Heldrake                                       | —      | —                       | —                                  | —     |
-| Infernal Master                         | Infernal Master                                | —      | —                       | —                                  | —     |
-| Kairos Fateweaver                       | Kairos Fateweaver                              | —      | —                       | —                                  | —     |
-| Lord of Change                          | Lord of Change                                 | —      | —                       | —                                  | —     |
-| Thousand Sons Magnus The Red            | Magnus the Red                                 | —      | —                       | —                                  | —     |
-| Maulerfiend                             | Maulerfiend                                    | —      | —                       | —                                  | —     |
-| Mutalith Vortex Beast                   | Mutalith Vortex Beast                          | —      | —                       | —                                  | —     |
-| Pink Horrors                            | Pink Horrors                                   | —      | —                       | —                                  | —     |
-| Rubric Marines                          | Rubric Marines                                 | —      | —                       | —                                  | —     |
-| Thousand Sons Scarab Occult Terminators | Scarab Occult Terminators                      | —      | —                       | —                                  | —     |
-| Screamers                               | Screamers                                      | —      | —                       | —                                  | —     |
-| Sekhetar Robots                         | Sekhetar Robots                                | —      | —                       | —                                  | —     |
-| Thousand Sons Exalted Sorcerers         | Sorcerer                                       | —      | —                       | —                                  | —     |
-| Ancient in Terminator Armour            | Sorcerer in Terminator Armour                  | —      | —                       | —                                  | —     |
-| Tzaangor Enlightened                    | Tzaangor Enlightened                           | —      | —                       | —                                  | —     |
-| Tzaangor Enlightened                    | Tzaangor Enlightened with Fatecaster greatbows | —      | —                       | —                                  | —     |
-| Tzaangor Shaman                         | Tzaangor Shaman                                | —      | —                       | —                                  | —     |
-| Thousand Sons Tzaangors                 | Tzaangors                                      | —      | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Ahriman Arch-Sorcerer of Tzeentch | Ahriman | | | | |
+| Ancient in Terminator Armour | Sorcerer in Terminator Armour | | | | |
+| Daemon Prince | Daemon Prince of Tzeentch | | | | |
+| Daemon Prince | Daemon Prince of Tzeentch with wings | | | | |
+| Infernal Master | Infernal Master | | | | |
+| Kairos Fateweaver | Kairos Fateweaver | | | | |
+| Lord of Change | Lord of Change | | | | |
+| Thousand Sons Exalted Sorcerers | Exalted Sorcerer | | | | |
+| Thousand Sons Exalted Sorcerers | Sorcerer | | | | |
+| Thousand Sons Magnus The Red | Magnus the Red | | | | |
+| Tzaangor Shaman | Tzaangor Shaman | | | | |
+| Blue Horrors and Brimstone Horrors | Blue Horrors | | | | |
+| Chaos Spawn | Chaos Spawn | | | | |
+| Chaos Spawn | Chaos Spawn (Flesh Change) | | | | |
+| Flamers | Flamers | | | | |
+| Mutalith Vortex Beast | Mutalith Vortex Beast | | | | |
+| Pink Horrors | Pink Horrors | | | | |
+| Rubric Marines | Rubric Marines | | | | |
+| Screamers | Screamers | | | | |
+| Sekhetar Robots | Sekhetar Robots | | | | |
+| Thousand Sons Scarab Occult Terminators | Scarab Occult Terminators | | | | |
+| Thousand Sons Tzaangors | Tzaangors | | | | |
+| Tzaangor Enlightened | Tzaangor Enlightened | | | | |
+| Tzaangor Enlightened | Tzaangor Enlightened with Fatecaster greatbows | | | | |
+| Chaos Predator | Chaos Predator Annihilator | | | | |
+| Chaos Predator | Chaos Predator Destructor | | | | |
+| Chaos Rhino | Chaos Rhino | | | | |
+| Chaos Space Marine Forgefiend | Forgefiend | | | | |
+| Chaos Space Marine Helbrute | Helbrute | | | | |
+| Chaos Space Marine Heldrake | Heldrake | | | | |
+| Defiler | Defiler | | | | |
+| Maulerfiend | Maulerfiend | | | | |
+| Raider | Chaos Land Raider | | | | |
+| Vindicator | Chaos Vindicator | | | | |
+| Start Collecting! Thousand Sons | | | | | |
 
 ### Thousand Sons Units with no kit data
 
-| Unit                                     | Notes |
-| ---------------------------------------- | ----- |
-| Brayherd Chieftain [Crucible]            | —     |
-| Brayherd Shaman [Crucible]               | —     |
-| Chaos Lord on Disc of Tzeentch (Legends) | —     |
-| Exalted Sorcerer on Disc of Tzeentch     | —     |
-| Hell Talon (Legends)                     | —     |
-| Hellblade (Legends)                      | —     |
-| Magister [Crucible]                      | —     |
-| Sorcerer on Disc of Tzeentch (Legends)   | —     |
-
+| Unit | Notes |
+| ---- | ----- |
+| Brayherd Chieftain [Crucible] | |
+| Brayherd Shaman [Crucible] | |
+| Chaos Lord on Disc of Tzeentch (Legends) | |
+| Exalted Sorcerer on Disc of Tzeentch | |
+| Hell Talon (Legends) | |
+| Hellblade (Legends) | |
+| Magister [Crucible] | |
+| Sorcerer on Disc of Tzeentch (Legends) | |
 ---
 
 ## Tyranids
