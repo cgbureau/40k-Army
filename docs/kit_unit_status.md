@@ -1365,104 +1365,85 @@ _Unit Model Options_
 
 ### Necrons Kits
 
-| Kit                                                 | Unit(s)                                      | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --------------------------------------------------- | -------------------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Apocalypse: Necrons Outrider Detachment             | —                                            | —           | —                       | —                                  | —     |
-| Battleforce: Necrons Dominion Spearhead             | —                                            | —           | —                       | —                                  | —     |
-| Illuminor Szeras                                    | Illuminor Szeras ×1 (inferred)               | £38 / €50   | 1                       | —                                  | —     |
-| Necron Canoptek Spyder                              | —                                            | £42 / €55   | —                       | —                                  | —     |
-| Necron Canoptek Wraiths                             | Canoptek Wraiths (unconfirmed)               | £42 / €55   | —                       | —                                  | —     |
-| Necron Canoptek Wraiths (Repackage)                 | —                                            | —           | —                       | —                                  | —     |
-| Necron Catacomb Commmand Barge                      | —                                            | £47 / €62   | —                       | —                                  | —     |
-| Necron Cryptek                                      | —                                            | £38 / €50   | —                       | —                                  | —     |
-| Necron Doom Scythe/Night Scythe                     | —                                            | £120 / €155 | —                       | —                                  | —     |
-| Necron Doom Scythe/Night Scythe (Repackage)         | —                                            | —           | —                       | —                                  | —     |
-| Necron Immortals/Deathmarks                         | —                                            | £40 / €52   | —                       | —                                  | —     |
-| Necron Lychguard/Triarch Praetorians                | —                                            | —           | —                       | —                                  | —     |
-| Necron Overlord                                     | Overlord (unconfirmed)                       | £105 / €135 | —                       | —                                  | —     |
-| Necron Tomb Blades                                  | Tomb Blades (unconfirmed)                    | £120 / €155 | —                       | —                                  | —     |
-| Necron Tomb Blades (Repackage)                      | —                                            | —           | —                       | —                                  | —     |
-| Necron Warriors                                     | Necron Warriors (unconfirmed)                | £110 / €145 | —                       | —                                  | —     |
-| Necrons: Battleforce - Eradication Legion           | —                                            | —           | —                       | —                                  | —     |
-| Necrons: C'Tan Shard of the Void Dragon             | C'tan Shard of the Void Dragon ×1 (inferred) | £115 / €150 | 1                       | —                                  | —     |
-| Necrons: Canoptek Doomstalker                       | Canoptek Doomstalker ×1 (inferred)           | £110 / €145 | 1                       | —                                  | —     |
-| Necrons: Convergence of Dominion                    | Convergence of Dominion (unconfirmed)        | £115 / €150 | —                       | —                                  | —     |
-| Necrons: Hexmark Destroyer                          | Hexmark Destroyer ×1 (inferred)              | £110 / €145 | 1                       | —                                  | —     |
-| Necrons: Lokhust Heavy Destroyer                    | —                                            | £110 / €145 | —                       | —                                  | —     |
-| Necrons: Monolith                                   | Monolith ×1 (inferred)                       | £115 / €150 | 1                       | —                                  | —     |
-| Necrons: Ophydian Destroyers                        | Ophydian Destroyers (unconfirmed)            | £115 / €150 | —                       | —                                  | —     |
-| Necrons: Skorpekh Destroyers                        | Skorpekh Destroyers (unconfirmed)            | £110 / €145 | —                       | —                                  | —     |
-| Necrons: Szarekh, the Silent King                   | —                                            | —           | —                       | —                                  | —     |
-| Necrons: Warriors                                   | —                                            | £110 / €145 | —                       | —                                  | —     |
-| Necrons: Warriors + Paints Set                      | —                                            | —           | —                       | —                                  | —     |
-| Start Collecting! Necrons                           | —                                            | —           | —                       | —                                  | —     |
-| Annihilation Barge                                  | Annihilation Barge                           | —           | —                       | —                                  | —     |
-| C'tan Shard of The Deceiver                         | C'tan Shard of the Deceiver                  | —           | —                       | —                                  | —     |
-| C'tan Shard of The Deceiver                         | C'tan Shard of the Nightbringer              | —           | —                       | —                                  | —     |
-| Canoptek Spyder                                     | Canoptek Spyders                             | —           | —                       | —                                  | —     |
-| Necron Canoptek Wraiths                             | Canoptek Wraiths                             | —           | —                       | —                                  | —     |
-| Necron Catacomb Command Barge                       | Catacomb Command Barge                       | —           | —                       | —                                  | —     |
-| Chronomancer                                        | Chronomancer                                 | —           | —                       | —                                  | —     |
-| Convergence of Dominion                             | Convergence of Dominion                      | —           | —                       | —                                  | —     |
-| Necron Immortals/Deathmarks                         | Deathmarks                                   | —           | —                       | —                                  | —     |
-| Necron Doom Scythe/Night Scythe                     | Doom Scythe                                  | —           | —                       | —                                  | —     |
-| Doomsday Ark                                        | Doomsday Ark                                 | —           | —                       | —                                  | —     |
-| Flayed Ones                                         | Flayed Ones                                  | —           | —                       | —                                  | —     |
-| Ghost Ark                                           | Ghost Ark                                    | —           | —                       | —                                  | —     |
-| Necron Immortals/Deathmarks                         | Immortals                                    | —           | —                       | —                                  | —     |
-| Imotekh the Stormlord                               | Imotekh the Stormlord                        | —           | —                       | —                                  | —     |
-| Lokhust Heavy Destroyer                             | Lokhust Heavy Destroyers                     | —           | —                       | —                                  | —     |
-| Necron Lychguard/Triarch Praetorians                | Lychguard                                    | —           | —                       | —                                  | —     |
-| Necron Warriors                                     | Necron Warriors                              | —           | —                       | —                                  | —     |
-| Nekrosor Ammentar                                   | Nekrosor Ammentar                            | —           | —                       | —                                  | —     |
-| Necron Doom Scythe/Night Scythe                     | Night Scythe                                 | —           | —                       | —                                  | —     |
-| Obelisk & Transcendent C'tan                        | Obelisk                                      | —           | —                       | —                                  | —     |
-| Necrons: Ophydian Destroyers                        | Ophydian Destroyers                          | —           | —                       | —                                  | —     |
-| Orikan the Diviner                                  | Orikan the Diviner                           | —           | —                       | —                                  | —     |
-| Necron Overlord                                     | Overlord                                     | —           | —                       | —                                  | —     |
-| Overlord with Translocation Shroud                  | Overlord with Translocation Shroud           | —           | —                       | —                                  | —     |
-| Psychomancer                                        | Psychomancer                                 | —           | —                       | —                                  | —     |
-| Royal Warden                                        | Royal Warden                                 | —           | —                       | —                                  | —     |
-| Seraptek Heavy Construct with Synaptic Obliterators | Seraptek Heavy Construct                     | —           | —                       | —                                  | —     |
-| Skorpekh Destroyers                                 | Skorpekh Destroyers                          | —           | —                       | —                                  | —     |
-| Tesseract Vault                                     | Tesseract Vault                              | —           | —                       | —                                  | —     |
-| Necrons: Szarekh, the Silent King                   | The Silent King                              | —           | —                       | —                                  | —     |
-| Necron Tomb Blades (Repackage)                      | Tomb Blades                                  | —           | —                       | —                                  | —     |
-| Obelisk & Transcendent C'tan                        | Transcendent C'tan                           | —           | —                       | —                                  | —     |
-| Trazyn the Infinite                                 | Trazyn the Infinite                          | —           | —                       | —                                  | —     |
-| Necron Lychguard/Triarch Praetorians                | Triarch Praetorians                          | —           | —                       | —                                  | —     |
-| Triarch Stalker                                     | Triarch Stalker                              | —           | —                       | —                                  | —     |
+| Kit                                                 | Unit(s)                            | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --------------------------------------------------- | ---------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Chronomancer                                        | Chronomancer                       |        |                         |                                    |       |
+| Illuminor Szeras                                    | Illuminor Szeras                   |        | 1                       |                                    |       |
+| Imotekh the Stormlord                               | Imotekh the Stormlord              |        |                         |                                    |       |
+| Necron Cryptek                                      |                                    |        |                         |                                    |       |
+| Necron Overlord                                     | Overlord                           |        |                         |                                    |       |
+| Necrons: Hexmark Destroyer                          | Hexmark Destroyer                  |        | 1                       |                                    |       |
+| Necrons: Szarekh, the Silent King                   | The Silent King                    |        |                         |                                    |       |
+| Nekrosor Ammentar                                   | Nekrosor Ammentar                  |        |                         |                                    |       |
+| Orikan the Diviner                                  | Orikan the Diviner                 |        |                         |                                    |       |
+| Overlord with Translocation Shroud                  | Overlord with Translocation Shroud |        |                         |                                    |       |
+| Psychomancer                                        | Psychomancer                       |        |                         |                                    |       |
+| Royal Warden                                        | Royal Warden                       |        |                         |                                    |       |
+| Trazyn the Infinite                                 | Trazyn the Infinite                |        |                         |                                    |       |
+| Canoptek Spyder                                     | Canoptek Spyders                   |        |                         |                                    |       |
+| C'tan Shard of The Deceiver                         | C'tan Shard of the Deceiver        |        |                         |                                    |       |
+| C'tan Shard of The Deceiver                         | C'tan Shard of the Nightbringer    |        |                         |                                    |       |
+| Convergence of Dominion                             | Convergence of Dominion            |        |                         |                                    |       |
+| Flayed Ones                                         | Flayed Ones                        |        |                         |                                    |       |
+| Lokhust Heavy Destroyer                             | Lokhust Heavy Destroyers           |        |                         |                                    |       |
+| Necron Canoptek Wraiths                             | Canoptek Wraiths                   |        |                         |                                    |       |
+| Necron Immortals/Deathmarks                         | Deathmarks                         |        |                         |                                    |       |
+| Necron Immortals/Deathmarks                         | Immortals                          |        |                         |                                    |       |
+| Necron Lychguard/Triarch Praetorians                | Lychguard                          |        |                         |                                    |       |
+| Necron Lychguard/Triarch Praetorians                | Triarch Praetorians                |        |                         |                                    |       |
+| Necron Warriors                                     | Necron Warriors                    |        |                         |                                    |       |
+| Necrons: C'Tan Shard of the Void Dragon             | C'tan Shard of the Void Dragon     |        | 1                       |                                    |       |
+| Necrons: Canoptek Doomstalker                       | Canoptek Doomstalker               |        | 1                       |                                    |       |
+| Necrons: Ophydian Destroyers                        | Ophydian Destroyers                |        |                         |                                    |       |
+| Skorpekh Destroyers                                 | Skorpekh Destroyers                |        |                         |                                    |       |
+| Annihilation Barge                                  | Annihilation Barge                 |        |                         |                                    |       |
+| Doomsday Ark                                        | Doomsday Ark                       |        |                         |                                    |       |
+| Ghost Ark                                           | Ghost Ark                          |        |                         |                                    |       |
+| Necron Catacomb Command Barge                       | Catacomb Command Barge             |        |                         |                                    |       |
+| Necron Doom Scythe/Night Scythe                     | Doom Scythe                        |        |                         |                                    |       |
+| Necron Doom Scythe/Night Scythe                     | Night Scythe                       |        |                         |                                    |       |
+| Necron Tomb Blades                                  | Tomb Blades                        |        |                         |                                    |       |
+| Necrons: Monolith                                   | Monolith                           |        | 1                       |                                    |       |
+| Obelisk & Transcendent C'tan                        | Obelisk                            |        |                         |                                    |       |
+| Obelisk & Transcendent C'tan                        | Transcendent C'tan                 |        |                         |                                    |       |
+| Seraptek Heavy Construct with Synaptic Obliterators | Seraptek Heavy Construct           |        |                         |                                    |       |
+| Tesseract Vault                                     | Tesseract Vault                    |        |                         |                                    |       |
+| Triarch Stalker                                     | Triarch Stalker                    |        |                         |                                    |       |
+| Apocalypse: Necrons Outrider Detachment             |                                    |        |                         |                                    |       |
+| Battleforce: Necrons Dominion Spearhead             |                                    |        |                         |                                    |       |
+| Necrons: Battleforce - Eradication Legion           |                                    |        |                         |                                    |       |
+| Necrons: Warriors + Paints Set                      |                                    |        |                         |                                    |       |
+| Start Collecting! Necrons                           |                                    |        |                         |                                    |       |
 
 ### Necrons Units with no kit data
 
 | Unit                             | Notes |
 | -------------------------------- | ----- |
-| Anrakyr the Traveller (Legends)  | —     |
-| Canoptek Acanthrites (Legends)   | —     |
-| Canoptek Macrocytes              | —     |
-| Canoptek Reanimator              | —     |
-| Canoptek Scarab Swarms           | —     |
-| Canoptek Tomb Crawlers           | —     |
-| Canoptek Tomb Sentinel (Legends) | —     |
-| Canoptek Tomb Stalker (Legends)  | —     |
-| Cryptothralls                    | —     |
-| Dynastic Conqueror [Crucible]    | —     |
-| Gauss Pylon (Legends)            | —     |
-| Geomancer                        | —     |
-| Hyperscientist [Crucible]        | —     |
-| Lokhust Destroyers               | —     |
-| Lokhust Lord                     | —     |
-| Lord (Legends)                   | —     |
-| Nemesor Zahndrekh (Legends)      | —     |
-| Night Shroud (Legends)           | —     |
-| Plasmancer                       | —     |
-| Sentry Pylon (Legends)           | —     |
-| Skorpekh Lord                    | —     |
-| Technomancer                     | —     |
-| Tesseract Ark (Legends)          | —     |
-| Triarchal Overseer [Crucible]    | —     |
-| Vargard Obyron (Legends)         | —     |
-
+| Anrakyr the Traveller (Legends)  |       |
+| Canoptek Acanthrites (Legends)   |       |
+| Canoptek Macrocytes              |       |
+| Canoptek Reanimator              |       |
+| Canoptek Scarab Swarms           |       |
+| Canoptek Tomb Crawlers           |       |
+| Canoptek Tomb Sentinel (Legends) |       |
+| Canoptek Tomb Stalker (Legends)  |       |
+| Cryptothralls                    |       |
+| Dynastic Conqueror [Crucible]    |       |
+| Gauss Pylon (Legends)            |       |
+| Geomancer                        |       |
+| Hyperscientist [Crucible]        |       |
+| Lokhust Destroyers               |       |
+| Lokhust Lord                     |       |
+| Lord (Legends)                   |       |
+| Nemesor Zahndrekh (Legends)      |       |
+| Night Shroud (Legends)           |       |
+| Plasmancer                       |       |
+| Sentry Pylon (Legends)           |       |
+| Skorpekh Lord                    |       |
+| Technomancer                     |       |
+| Tesseract Ark (Legends)          |       |
+| Triarchal Overseer [Crucible]    |       |
+| Vargard Obyron (Legends)         |       |
 ---
 
 ## Orks
