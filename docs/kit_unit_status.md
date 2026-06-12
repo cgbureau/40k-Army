@@ -1254,18 +1254,17 @@ _Unit Model Options_
 
 ### Imperial Fists Kits
 
-| Kit                                                                     | Unit(s)                   | Prices    | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------------------------------------- | ------------------------- | --------- | ----------------------- | ---------------------------------- | ----- |
-| Battleforce: Imperial Fists Supremacy Force                             | —                         | —         | —                       | —                                  | —     |
-| Imperial Fists: Primaris Upgrades & TransfersSalamanders: Adrax Agatone | —                         | —         | —                       | —                                  | —     |
-| Imperial Fists: Tor Garadon                                             | Tor Garadon ×1 (inferred) | £29 / €37 | 1                       | —                                  | —     |
-| Darnath Lysander                                                        | Darnath Lysander          | —         | —                       | —                                  | —     |
+| Kit                                         | Unit(s)          | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------- | ---------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Darnath Lysander                            | Darnath Lysander |        |                         |                                    |       |
+| Imperial Fists: Tor Garadon                 | Tor Garadon      |        | 1                       |                                    |       |
+| Battleforce: Imperial Fists Supremacy Force |                  |        |                         |                                    |       |
 
 ### Imperial Fists Units with no kit data
 
 | Unit         | Notes |
 | ------------ | ----- |
-| Pedro Kantor | —     |
+| Pedro Kantor |       |
 
 ---
 
