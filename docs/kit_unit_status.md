@@ -1776,74 +1776,65 @@ _Unit Model Options_
 
 ### Space Wolves Kits
 
-| Kit                                        | Unit(s)                                                                            | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------ | ---------------------------------------------------------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Battleforce: Space Wolves Talons of Morkai | —                                                                                  | —           | —                       | —                                  | —     |
-| Combat Patrol: Space Wolves                | 1× Wolf Guard Battle Leader; 5× Wolf Guard Terminators; 5× Wulfen; 10× Blood Claws | £105 / €135 | 21                      | —                                  | —     |
-| Space Wolves Fenrisian Wolf Pack           | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Iron Priest                   | Iron Priest ×1 (inferred)                                                          | £40 / €51   | 1                       | —                                  | —     |
-| Space Wolves Long Fangs                    | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Pack                          | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Primaris Upgrades             | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Skyhammer Wolf Pack           | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Stormfang Gunship             | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Thunderwolf Cavalry           | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Ulrik The Slayer              | Ulrik the Slayer ×1 (inferred)                                                     | £40 / €51   | 1                       | —                                  | —     |
-| Space Wolves Upgrades                      | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Venerable Dreadnought         | Venerable Dreadnought (unconfirmed)                                                | £57 / €72   | —                       | —                                  | —     |
-| Space Wolves Wolf Guard Terminators        | Wolf Guard Terminators (unconfirmed)                                               | £44 / €58   | ~5                      | —                                  | —     |
-| Space Wolves Wolf Lord Krom                | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves Wulfen                        | Wulfen (unconfirmed)                                                               | £40 / €52   | ~5                      | —                                  | —     |
-| Space Wolves: Hounds of Morkai             | —                                                                                  | —           | —                       | —                                  | —     |
-| Space Wolves: Ragnar Blackmane             | Ragnar Blackmane ×1 (inferred)                                                     | £100 / €130 | 1                       | —                                  | —     |
-| Start Collecting! Primaris Space Wolves    | —                                                                                  | —           | —                       | —                                  | —     |
-| Start Collecting! Space Wolves             | —                                                                                  | —           | —                       | —                                  | —     |
-| Arjac Rockfist                             | Arjac Rockfist                                                                     | —           | —                       | —                                  | —     |
-| Bjorn the Fell-handed                      | Bjorn the Fell-Handed                                                              | —           | —                       | —                                  | —     |
-| Blood Claws                                | Blood Claws                                                                        | —           | —                       | —                                  | —     |
-| Fenrisian Wolves                           | Fenrisian Wolves                                                                   | —           | —                       | —                                  | —     |
-| Grey Hunters                               | Grey Hunters                                                                       | —           | —                       | —                                  | —     |
-| Space Wolves: Hounds of Morkai             | Hounds of Morkai (Legends)                                                         | —           | —                       | —                                  | —     |
-| Iron Priest                                | Iron Priest on Thunderwolf (Legends)                                               | —           | —                       | —                                  | —     |
-| Logan Grimnar On Stormrider                | Logan Grimnar                                                                      | —           | —                       | —                                  | —     |
-| Logan Grimnar On Stormrider                | Logan Grimnar on Stormrider (Legends)                                              | —           | —                       | —                                  | —     |
-| Space Wolves Long Fangs                    | Long Fangs (Legends)                                                               | —           | —                       | —                                  | —     |
-| Murderfang                                 | Murderfang                                                                         | —           | —                       | —                                  | —     |
-| Njal Stormcaller                           | Njal Stormcaller                                                                   | —           | —                       | —                                  | —     |
-| Space Wolves Stormfang Gunship             | Stormfang Gunship (Legends)                                                        | —           | —                       | —                                  | —     |
-| Space Wolves Thunderwolf Cavalry           | Thunderwolf Cavalry                                                                | —           | —                       | —                                  | —     |
-| Venerable Dreadnought                      | Venerable Dreadnought                                                              | —           | —                       | —                                  | —     |
-| Venerable Dreadnought                      | Venerable Dreadnought (Legends)                                                    | —           | —                       | —                                  | —     |
-| Space Wolves Wolf Guard Terminators        | Wolf Guard (Legends)                                                               | —           | —                       | —                                  | —     |
-| Wolf Guard Battle Leader                   | Wolf Guard Battle Leader                                                           | —           | —                       | —                                  | —     |
-| Wolf Guard Battle Leader                   | Wolf Guard Battle Leader in Terminator Armour (Legends)                            | —           | —                       | —                                  | —     |
-| Wolf Guard Battle Leader                   | Wolf Guard Battle Leader on Thunderwolf (Legends)                                  | —           | —                       | —                                  | —     |
-| Wolf Guard Headtakers                      | Wolf Guard Headtakers                                                              | —           | —                       | —                                  | —     |
-| Wolf Guard Battle Leader                   | Wolf Guard Pack Leader (Legends)                                                   | —           | —                       | —                                  | —     |
-| Space Wolves Wolf Guard Terminators        | Wolf Guard Terminators                                                             | —           | —                       | —                                  | —     |
-| Wolf Priest                                | Wolf Priest                                                                        | —           | —                       | —                                  | —     |
-| Kill Team: Wolf Scouts                     | Wolf Scouts                                                                        | —           | —                       | —                                  | —     |
-| Kill Team: Wolf Scouts                     | Wolf Scouts (Legends)                                                              | —           | —                       | —                                  | —     |
-| Wulfen                                     | Wulfen                                                                             | —           | —                       | —                                  | —     |
-| Wulfen                                     | Wulfen Dreadnought                                                                 | —           | —                       | —                                  | —     |
-| Wulfen                                     | Wulfen with Storm Shields                                                          | —           | —                       | —                                  | —     |
+| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Arjac Rockfist | Arjac Rockfist | | | | |
+| Logan Grimnar On Stormrider | Logan Grimnar | | | | |
+| Njal Stormcaller | Njal Stormcaller | | | | |
+| Space Wolves Iron Priest | Iron Priest | | 1 | | |
+| Space Wolves Ulrik The Slayer | Ulrik the Slayer | | 1 | | |
+| Space Wolves Wolf Lord Krom | | | | | |
+| Space Wolves: Ragnar Blackmane | Ragnar Blackmane | | 1 | | |
+| Wolf Guard Battle Leader | Wolf Guard Battle Leader | | | | |
+| Wolf Priest | Wolf Priest | | | | |
+| Blood Claws | Blood Claws | | | | |
+| Fenrisian Wolves | Fenrisian Wolves | | | | |
+| Grey Hunters | Grey Hunters | | | | |
+| Space Wolves Fenrisian Wolf Pack | | | | | |
+| Space Wolves Pack | | | | | |
+| Space Wolves Skyhammer Wolf Pack | | | | | |
+| Space Wolves Thunderwolf Cavalry | Thunderwolf Cavalry | | | | |
+| Space Wolves Wolf Guard Terminators | Wolf Guard Terminators | | ~5 | | |
+| Space Wolves Wulfen | Wulfen | | ~5 | | |
+| Wolf Guard Headtakers | Wolf Guard Headtakers | | | | |
+| Wulfen | Wulfen with Storm Shields | | | | |
+| Bjorn the Fell-handed | Bjorn the Fell-Handed | | | | |
+| Murderfang | Murderfang | | | | |
+| Space Wolves Stormfang Gunship | | | | | |
+| Space Wolves Venerable Dreadnought | Venerable Dreadnought | | | | |
+| Wulfen | Wulfen Dreadnought | | | | |
+| Battleforce: Space Wolves Talons of Morkai | | | | | |
+| Combat Patrol: Space Wolves | 1× Wolf Guard Battle Leader; 5× Wolf Guard Terminators; 5× Wulfen; 10× Blood Claws | | 21 | | |
+| Kill Team: Wolf Scouts | Wolf Scouts | | | | |
+| Start Collecting! Primaris Space Wolves | | | | | |
+| Start Collecting! Space Wolves | | | | | |
 
 ### Space Wolves Units with no kit data
 
-| Unit                                                  | Notes |
-| ----------------------------------------------------- | ----- |
-| Canis Wolfborn (Legends)                              | —     |
-| Cyberwolf (Legends)                                   | —     |
-| Harald Deathwolf (Legends)                            | —     |
-| Hunting Wolves                                        | —     |
-| Krom Dragongaze (Legends)                             | —     |
-| Lukas the Trickster (Legends)                         | —     |
-| Skyclaws (Legends)                                    | —     |
-| Stormwolf (Legends)                                   | —     |
-| Wolf Guard Pack Leader in Terminator Armour (Legends) | —     |
-| Wolf Guard Pack Leader with Jump Pack (Legends)       | —     |
-| Wolf Lord on Thunderwolf (Legends)                    | —     |
-
+| Unit | Notes |
+| ---- | ----- |
+| Canis Wolfborn (Legends) | |
+| Cyberwolf (Legends) | |
+| Harald Deathwolf (Legends) | |
+| Hounds of Morkai (Legends) | |
+| Hunting Wolves | |
+| Iron Priest on Thunderwolf (Legends) | |
+| Krom Dragongaze (Legends) | |
+| Logan Grimnar on Stormrider (Legends) | |
+| Long Fangs (Legends) | |
+| Lukas the Trickster (Legends) | |
+| Skyclaws (Legends) | |
+| Stormfang Gunship (Legends) | |
+| Stormwolf (Legends) | |
+| Venerable Dreadnought (Legends) | |
+| Wolf Guard (Legends) | |
+| Wolf Guard Battle Leader in Terminator Armour (Legends) | |
+| Wolf Guard Battle Leader on Thunderwolf (Legends) | |
+| Wolf Guard Pack Leader (Legends) | |
+| Wolf Guard Pack Leader in Terminator Armour (Legends) | |
+| Wolf Guard Pack Leader with Jump Pack (Legends) | |
+| Wolf Lord on Thunderwolf (Legends) | |
+| Wolf Scouts (Legends) | |
 ---
 
 ## T'au Empire
