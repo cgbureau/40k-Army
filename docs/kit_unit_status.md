@@ -1584,7 +1584,7 @@ _Unit Model Options_
 
 | Kit            | Unit(s)        | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
 | -------------- | -------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Vulkan He'stan | Vulkan He'stan | —      | —                       | —                                  | —     |
+| Vulkan He'stan | Vulkan He'stan |        |                         |                                    |       |
 
 ### Salamanders Units with no kit data
 
