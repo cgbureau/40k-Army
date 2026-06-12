@@ -1184,74 +1184,69 @@ _Unit Model Options_
 
 ### Imperial Agents Kits
 
-| Kit                                                          | Unit(s)                                   | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------ | ----------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Ephrael Stern & Kyganil                                      | —                                         | —      | —                       | —                                  | —     |
-| Lord Inquisitor Kyria Draxus                                 | —                                         | —      | —                       | —                                  | —     |
-| Officio Assassinorum Callidus Assassin                       | —                                         | —      | —                       | —                                  | —     |
-| Officio Assassinorum Culexus Assassin                        | —                                         | —      | —                       | —                                  | —     |
-| Officio Assassinorum Eversor Assassin                        | —                                         | —      | —                       | —                                  | —     |
-| Officio Assassinorum Vindicare Assassin                      | —                                         | —      | —                       | —                                  | —     |
-| Officio Prefectus Commissar                                  | —                                         | —      | —                       | —                                  | —     |
-| Kill Team                                                    | Aquila Kill Team                          | —      | —                       | —                                  | —     |
-| Officio Assassinorum Callidus Assassin                       | Callidus Assassin                         | —      | —                       | —                                  | —     |
-| Deathwatch Corvus Blackstar                                  | Corvus Blackstar                          | —      | —                       | —                                  | —     |
-| Officio Assassinorum Culexus Assassin                        | Culexus Assassin                          | —      | —                       | —                                  | —     |
-| Deathwatch Kill Team                                         | Deathwatch Kill Team                      | —      | —                       | —                                  | —     |
-| Terminator Squad                                             | Deathwatch Terminator Squad               | —      | —                       | —                                  | —     |
-| Officio Assassinorum Eversor Assassin                        | Eversor Assassin                          | —      | —                       | —                                  | —     |
-| Kill Team: Exaction Squad                                    | Exaction Squad                            | —      | —                       | —                                  | —     |
-| Kill Team                                                    | Fortis Kill Team                          | —      | —                       | —                                  | —     |
-| Grey Knights Paladin Squad                                   | Grey Knights Terminator Squad             | —      | —                       | —                                  | —     |
-| Kill Team: Imperial Navy Breachers                           | Imperial Navy Breachers                   | —      | —                       | —                                  | —     |
-| Rhino                                                        | Imperial Rhino                            | —      | —                       | —                                  | —     |
-| Kill Team                                                    | Indomitor Kill Team                       | —      | —                       | —                                  | —     |
-| Lord Inquisitor Kyria Draxus                                 | Inquisitor                                | —      | —                       | —                                  | —     |
-| Inquisitor Coteaz                                            | Inquisitor Coteaz                         | —      | —                       | —                                  | —     |
-| Eisenhorn                                                    | Inquisitor Eisenhorn (Legends)            | —      | —                       | —                                  | —     |
-| Inquisitor Greyfax                                           | Inquisitor Greyfax                        | —      | —                       | —                                  | —     |
-| Inquisitor Kroyle                                            | Inquisitor Kroyle                         | —      | —                       | —                                  | —     |
-| Warhammer+ Year 4: Imperial Agents – Inquisitor Ostromandeus | Inquisitor Ostromandeus (Legends)         | —      | —                       | —                                  | —     |
-| Ancient in Terminator Armour                                 | Inquisitor in Terminator Armour (Legends) | —      | —                       | —                                  | —     |
-| Kill Team: Inquisitorial Agents                              | Inquisitorial Agents                      | —      | —                       | —                                  | —     |
-| Chimera                                                      | Inquisitorial Chimera                     | —      | —                       | —                                  | —     |
-| Kill Team                                                    | Kill Team Sergeant                        | —      | —                       | —                                  | —     |
-| Ministorum Priest                                            | Ministorum Priest                         | —      | —                       | —                                  | —     |
-| Navigator                                                    | Navigator                                 | —      | —                       | —                                  | —     |
-| Kill Team                                                    | Proteus Kill Team (Legends)               | —      | —                       | —                                  | —     |
-| Rogue Trader Entourage and Voidsmen-at-Arms                  | Rogue Trader Entourage                    | —      | —                       | —                                  | —     |
-| Kill Team: Sanctifiers                                       | Sanctifiers                               | —      | —                       | —                                  | —     |
-| Immolator                                                    | Sisters of Battle Immolator               | —      | —                       | —                                  | —     |
-| Kill Team                                                    | Spectrus Kill Team                        | —      | —                       | —                                  | —     |
-| Officio Assassinorum Vindicare Assassin                      | Vindicare Assassin                        | —      | —                       | —                                  | —     |
-| Rogue Trader Entourage and Voidsmen-at-Arms                  | Voidsmen-at-Arms                          | —      | —                       | —                                  | —     |
-| Watch Captain Artemis                                        | Watch Captain Artemis                     | —      | —                       | —                                  | —     |
-| Watch Master                                                 | Watch Master                              | —      | —                       | —                                  | —     |
+| Kit                                         | Unit(s)                       | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------- | ----------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Ephrael Stern & Kyganil                     |                               |        |                         |                                    |       |
+| Inquisitor Coteaz                           | Inquisitor Coteaz             |        |                         |                                    |       |
+| Inquisitor Greyfax                          | Inquisitor Greyfax            |        |                         |                                    |       |
+| Inquisitor Kroyle                           | Inquisitor Kroyle             |        |                         |                                    |       |
+| Lord Inquisitor Kyria Draxus                | Inquisitor                    |        |                         |                                    |       |
+| Ministorum Priest                           | Ministorum Priest             |        |                         |                                    |       |
+| Navigator                                   | Navigator                     |        |                         |                                    |       |
+| Officio Assassinorum Callidus Assassin      | Callidus Assassin             |        |                         |                                    |       |
+| Officio Assassinorum Culexus Assassin       | Culexus Assassin              |        |                         |                                    |       |
+| Officio Assassinorum Eversor Assassin       | Eversor Assassin              |        |                         |                                    |       |
+| Officio Assassinorum Vindicare Assassin     | Vindicare Assassin            |        |                         |                                    |       |
+| Officio Prefectus Commissar                 |                               |        |                         |                                    |       |
+| Watch Captain Artemis                       | Watch Captain Artemis         |        |                         |                                    |       |
+| Watch Master                                | Watch Master                  |        |                         |                                    |       |
+| Deathwatch Kill Team                        | Deathwatch Kill Team          |        |                         |                                    |       |
+| Grey Knights Paladin Squad                  | Grey Knights Terminator Squad |        |                         |                                    |       |
+| Kill Team                                   | Aquila Kill Team              |        |                         |                                    |       |
+| Kill Team                                   | Fortis Kill Team              |        |                         |                                    |       |
+| Kill Team                                   | Indomitor Kill Team           |        |                         |                                    |       |
+| Kill Team                                   | Kill Team Sergeant            |        |                         |                                    |       |
+| Kill Team                                   | Spectrus Kill Team            |        |                         |                                    |       |
+| Rogue Trader Entourage and Voidsmen-at-Arms | Rogue Trader Entourage        |        |                         |                                    |       |
+| Rogue Trader Entourage and Voidsmen-at-Arms | Voidsmen-at-Arms              |        |                         |                                    |       |
+| Terminator Squad                            | Deathwatch Terminator Squad   |        |                         |                                    |       |
+| Chimera                                     | Inquisitorial Chimera         |        |                         |                                    |       |
+| Deathwatch Corvus Blackstar                 | Corvus Blackstar              |        |                         |                                    |       |
+| Immolator                                   | Sisters of Battle Immolator   |        |                         |                                    |       |
+| Rhino                                       | Imperial Rhino                |        |                         |                                    |       |
+| Kill Team: Exaction Squad                   | Exaction Squad                |        |                         |                                    |       |
+| Kill Team: Imperial Navy Breachers          | Imperial Navy Breachers       |        |                         |                                    |       |
+| Kill Team: Inquisitorial Agents             | Inquisitorial Agents          |        |                         |                                    |       |
+| Kill Team: Sanctifiers                      | Sanctifiers                   |        |                         |                                    |       |
 
 ### Imperial Agents Units with no kit data
 
 | Unit                                       | Notes |
 | ------------------------------------------ | ----- |
-| Cyber-mastiff                              | —     |
-| Daemonhost (Legends)                       | —     |
-| Damned Legionnaires (Legends)              | —     |
-| Deathwatch Agent [Crucible]                | —     |
-| Deathwatch Veteran w/ carbine              | —     |
-| Deathwatch Veteran w/ heavy thunder hammer | —     |
-| Deathwatch Veteran w/ stalker bolt rifle   | —     |
-| Enthroned Agent [Crucible]                 | —     |
-| Gravis Veteran w/ infernus heavy bolter    | —     |
-| Inquisitor Draxus                          | —     |
-| Inquisitor Karamazov (Legends)             | —     |
-| Janus Draik (Legends)                      | —     |
-| Jokaero Weaponsmith (Legends)              | —     |
-| Martial Agent [Crucible]                   | —     |
-| Neyam Shai Murad (Legends)                 | —     |
-| Sisters of Battle Squad                    | —     |
-| Subductor Squad                            | —     |
-| UR-025 (Legends)                           | —     |
-| Veteran Bike Squad (Legends)               | —     |
-| Vigilant Squad                             | —     |
+| Cyber-mastiff                              |       |
+| Daemonhost (Legends)                       |       |
+| Damned Legionnaires (Legends)              |       |
+| Deathwatch Agent [Crucible]                |       |
+| Deathwatch Veteran w/ carbine              |       |
+| Deathwatch Veteran w/ heavy thunder hammer |       |
+| Deathwatch Veteran w/ stalker bolt rifle   |       |
+| Enthroned Agent [Crucible]                 |       |
+| Gravis Veteran w/ infernus heavy bolter    |       |
+| Inquisitor Draxus                          |       |
+| Inquisitor Eisenhorn (Legends)             |       |
+| Inquisitor in Terminator Armour (Legends)  |       |
+| Inquisitor Karamazov (Legends)             |       |
+| Inquisitor Ostromandeus (Legends)          |       |
+| Janus Draik (Legends)                      |       |
+| Jokaero Weaponsmith (Legends)              |       |
+| Martial Agent [Crucible]                   |       |
+| Neyam Shai Murad (Legends)                 |       |
+| Proteus Kill Team (Legends)                |       |
+| Sisters of Battle Squad                    |       |
+| Subductor Squad                            |       |
+| UR-025 (Legends)                           |       |
+| Veteran Bike Squad (Legends)               |       |
+| Vigilant Squad                             |       |
 
 ---
 
