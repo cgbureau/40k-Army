@@ -155,9 +155,9 @@ _Unit Model Options_
 | Custodian Dreadnought                        | Contemptor-Galatus Dreadnought                    | $77               | 1x Contemptor-Galatus Dreadnought         | https://tinyurl.com/2dqn8qlu                                                                               |                                                                                                              |
 | Contemptor Dreadnought                       | Venerable Contemptor Dreadnought                  | $65               | 1x Venerable Contemptor Dreadnought       | https://tinyurl.com/2yns8hbr                                                                               |                                                                                                              |
 | Telemon Heavy Dreadnought                    | partial kit: Telemon Heavy Dreadnought            | $103              | 1x Telemon Heavy Dreadnought (body only)  | https://tinyurl.com/28ze7zjv                                                                               | Body only; arms sold separately as distinct kits                                                             |
-| Legio Custodes Telemon Storm Cannon Arm      | upgrade: Telemon Heavy Dreadnought                | —                 | 1x Storm Cannon arm                       | https://www.warhammer.com/en-US/shop/Legio-Custodes-Telemon-Storm-Cannon-Arm-2017                          | Weapon arm for the Telemon body kit                                                                          |
-| Legio Custodes Heavy Dreadnought Arm         | upgrade: Telemon Heavy Dreadnought                | —                 | 1x Heavy Dreadnought arm                  | https://www.warhammer.com/en-US/shop/Legio-custodes-heavy-dreadnought-arm-2017                             | Weapon arm for the Telemon body kit                                                                          |
-| Legio Custodes Telemon Iliastus Culverin     | upgrade: Telemon Heavy Dreadnought                | —                 | 1x Iliastus Accelerator Culverin arm      | https://www.warhammer.com/en-US/shop/Legio-Custodes-Telemon-Dreadnought-Iliastus-Accelerator-Culverin-2017 | Weapon arm for the Telemon body kit                                                                          |
+| Legio Custodes Telemon Storm Cannon Arm      | upgrade: Telemon Heavy Dreadnought                |                   | 1x Storm Cannon arm                       | https://www.warhammer.com/en-US/shop/Legio-Custodes-Telemon-Storm-Cannon-Arm-2017                          | Weapon arm for the Telemon body kit                                                                          |
+| Legio Custodes Heavy Dreadnought Arm         | upgrade: Telemon Heavy Dreadnought                |                   | 1x Heavy Dreadnought arm                  | https://www.warhammer.com/en-US/shop/Legio-custodes-heavy-dreadnought-arm-2017                             | Weapon arm for the Telemon body kit                                                                          |
+| Legio Custodes Telemon Iliastus Culverin     | upgrade: Telemon Heavy Dreadnought                |                   | 1x Iliastus Accelerator Culverin arm      | https://www.warhammer.com/en-US/shop/Legio-Custodes-Telemon-Dreadnought-Iliastus-Accelerator-Culverin-2017 | Weapon arm for the Telemon body kit                                                                          |
 | Caladius Grav-tank                           | Caladius Grav-Tank                                | $100              | 1x Caladius Grav-Tank                     | https://tinyurl.com/25rlagnd                                                                               |                                                                                                              |
 | Caladius Annihilator Grav-Tank               | Caladius Annihilator Grav-Tank                    | $100              | 1x Caladius Annihilator Grav-Tank         | https://tinyurl.com/2b8sla23                                                                               |                                                                                                              |
 | Coronus Grav-carrier                         | Coronus Grav-carrier                              | $127              | 1x Coronus Grav-carrier                   | https://tinyurl.com/29eyhs4a                                                                               |                                                                                                              |
@@ -172,9 +172,9 @@ _Unit Model Options_
 | -------------------------------------------------- | ------------------------------------------------------------------- |
 | Custodian Guard with Adrasite and Pyrithite Spears | Kit not available on GW site; unit appears as non-legends in BSData |
 | Sagittarum Custodians                              | Kit not available on GW site; unit appears as non-legends in BSData |
-| Null Maiden [Crucible]                             | —                                                                   |
-| Kataphraktoi Exemplar [Crucible]                   | —                                                                   |
-| Guardian of the Throne [Crucible]                  | —                                                                   |
+| Null Maiden [Crucible]                             |                                                                     |
+| Kataphraktoi Exemplar [Crucible]                   |                                                                     |
+| Guardian of the Throne [Crucible]                  |                                                                     |
 
 ---
 
@@ -182,58 +182,72 @@ _Unit Model Options_
 
 ### Adeptus Mechanicus Kits
 
-| Kit                                                   | Unit(s)                                | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------------------------------- | -------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Tech-Priest Dominus                                   | Tech-Priest Dominus                    |        |                         |                                    |       |
-| Tech-Priest Manipulus                                 | Tech-Priest Manipulus                  |        |                         |                                    |       |
-| Belisarius Cawl                                       | Belisarius Cawl                        |        |                         |                                    |       |
-| Skitarii Marshal                                      | Skitarii Marshal                       |        |                         |                                    |       |
-| Sydonian Skatros                                      | Sydonian Skatros                       |        |                         |                                    |       |
-| Tech-Priest Enginseer                                 | Tech-Priest Enginseer                  |        |                         |                                    |       |
-| Technoarcheologist                                    | Technoarcheologist                     |        |                         |                                    |       |
-| Cybernetica Datasmith                                 |                                        |        |                         |                                    |       |
-| Thulia Ghuld                                          | Thulia Ghuld                           |        |                         |                                    |       |
-| Electro Priests                                       | Corpuscarii Electro-Priests            |        |                         |                                    |       |
-| Electro Priests                                       | Fulgurite Electro-Priests              |        |                         |                                    |       |
-| Kastelan Robots                                       | Kastelan Robots                        |        |                         |                                    |       |
-| Kataphron Battle Servitors                            | Kataphron Breachers                    |        |                         |                                    |       |
-| Kataphron Battle Servitors                            | Kataphron Destroyers                   |        |                         |                                    |       |
-| Pteraxii                                              | Pteraxii Skystalkers                   |        |                         |                                    |       |
-| Pteraxii                                              | Pteraxii Sterylizors                   |        |                         |                                    |       |
-| Serberys Raiders                                      | Serberys Raiders                       |        |                         |                                    |       |
-| Serberys Raiders                                      | Serberys Sulphurhounds                 |        |                         |                                    |       |
-| Sicarians                                             | Sicarian Infiltrators                  |        |                         |                                    |       |
-| Sicarians                                             | Sicarian Ruststalkers                  |        |                         |                                    |       |
-| Skitarii                                              | Skitarii Rangers                       |        |                         |                                    |       |
-| Skitarii                                              | Skitarii Vanguard                      |        |                         |                                    |       |
-| Hastarii                                              | Hastarii Exterminators                 |        |                         |                                    |       |
-| Hastarii                                              | Hastarii Fusiliers                     |        |                         |                                    |       |
-| Servitor Battleclade                                  |                                        |        |                         |                                    |       |
-| Archaeopter                                           | Archaeopter Fusilave                   |        |                         |                                    |       |
-| Archaeopter                                           | Archaeopter Stratoraptor               |        |                         |                                    |       |
-| Archaeopter                                           | Archaeopter Transvector                |        |                         |                                    |       |
-| Ironstrider                                           | Ironstrider Ballistarii                |        |                         |                                    |       |
-| Ironstrider                                           | Sydonian Dragoons with radium jezzails |        |                         |                                    |       |
-| Ironstrider                                           | Sydonian Dragoons with taser lances    |        |                         |                                    |       |
-| Onager Dunecrawler                                    | Onager Dunecrawler                     |        |                         |                                    |       |
-| Skorpius Disintegrator                                | Skorpius Disintegrator                 |        |                         |                                    |       |
-| Skorpius Disintegrator                                | Skorpius Dunerider                     |        |                         |                                    |       |
-| Apocalypse: Adeptus Mechanicus Vanguard Detachment    |                                        |        |                         |                                    |       |
-| Battleforce: Adeptus Mechanicus Fist of the Omnissian |                                        |        |                         |                                    |       |
-| Kill Team Commander: Magos Dalathrust                 | Magos [Crucible]                       |        |                         |                                    |       |
-| Kill Team Theta-7 Aquisitus                           |                                        |        |                         |                                    |       |
-| Start Collecting! Adeptus Mechanicus                  |                                        |        |                         |                                    |       |
+| Kit                                                  | Unit(s)                                | Prices | Models (Manually Added)                                    | Warhammer Kit URL (Manually Added)                                                   | Notes                                                                                      |
+| ---------------------------------------------------- | -------------------------------------- | ------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
+| Tech-Priest Dominus                                  | Tech-Priest Dominus                    | $43.50 | 1x Tech-Priest Dominus                                     | https://www.warhammer.com/en-US/shop/Ad-Mec-Tech-Priest-Dominus                      |                                                                                            |
+| Tech-Priest Manipulus                                | Tech-Priest Manipulus                  | $43.50 | 1x Tech-Priest Manipulus                                   | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Tech-priest-Manipulus-2020   |                                                                                            |
+| Belisarius Cawl                                      | Belisarius Cawl                        | $65    | 1x Belisarius Cawl                                         | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Belisarius-Cawl-2017         |                                                                                            |
+| Skitarii Marshal                                     | Skitarii Marshal                       | $35    | 1x Skitarii Marshall                                       | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Skitarii-Marshall-2021       |                                                                                            |
+| Sydonian Skatros                                     | Sydonian Skatros                       | $42    | 1x Sydonian Skatros                                        | https://www.warhammer.com/en-US/shop/adeptus-mechanicus-sydonian-skatros-2023        | Online only                                                                                |
+| Tech-Priest Enginseer                                | Tech-Priest Enginseer                  | $39    | 1x Tech-Priest Enginseer                                   | https://www.warhammer.com/en-US/shop/Astra-Militarum-Tech-Priest-Enginseer           |                                                                                            |
+| Technoarcheologist (Kill Team: Battleclade)          | Multi-Unit Kit: Technoarcheologist     | $73.50 | 1x Technoarcheologist (+9 Servitor Battleclade)            | https://www.warhammer.com/en-US/shop/kill-team-battleclade-2025                      | 1x Technoarcheologist, 9x Battleclade Unit models                                          |
+| Technoarcheologist                                   | Technoarcheologist                     | $35.00 | 1x Technoarcheologist                                      | https://www.warhammer.com/en-US/shop/adeptus-mechanicus-technoarchaeologist-2022     | Online only                                                                                |
+| Cybernetica Datasmith (Partial Kit: Kastelan Robots) | Cybernetica Datasmith                  | &85    | 1x Cybernetica Datasmith (+2 Kastelan Robots)              | https://www.warhammer.com/en-US/shop/Kastelan-Robots-2017                            | Only sold as part of Kastelan Robots kit                                                   |
+| Thulia Ghuld                                         | Thulia Ghuld                           | $65    | 1x Thulia Ghuld                                            | https://www.warhammer.com/en-US/shop/adeptus-mechanicus-thulia-ghuld-2026            |                                                                                            |
+| Corpuscarii Electro Priests                          | Corpuscarii Electro-Priests            | $60    | 5x Corpuscarii Electro-Priests                             | https://www.warhammer.com/en-US/shop/Ad-Mec-Corpuscarii-Electro-Priests              | Online only; Alternate build kit: Corpuscarii Electro-Priests or Fulgurite Electro-Priests |
+| Fulgurite Electro Priests                            | Fulgurite Electro-Priests              | $60    | 5x Fulgurite Electro-Priests                               | https://www.warhammer.com/en-US/shop/Ad-Mec-Fulgurite-Electro-Priests                | Online only; Alternate build kit: Corpuscarii Electro-Priests or Fulgurite Electro-Priests |
+| Kataphron Breachers                                  | Kataphron Breachers                    | $65    | 3x Kataphron Breachers                                     | https://www.warhammer.com/en-US/shop/Kataphron-Battle-Servitors-Breachers-2017       |                                                                                            |
+| Kataphron Destroyers                                 | Kataphron Destroyers                   | $65    | 3x Kataphron Destroyers                                    | https://www.warhammer.com/en-US/shop/Kataphron-Battle-Servitors-Destroyers-2017      |                                                                                            |
+| Pteraxii                                             | Pteraxii Skystalkers                   | $65    | 1x Pteraxii Skystalker Alpha, 4x Pteraxii Skystalkers      | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Pteraxii-2020                |                                                                                            |
+| Pteraxii                                             | Pteraxii Sterylizors                   | $65    | 1x Pteraxii Sterylizor Alpha, 4x Pteraxii Sterylizors      | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Pteraxii-2020                |                                                                                            |
+| Serberys Raiders                                     | Serberys Raiders                       | $65    | 1x Serberys Raider Alpha, 2x Serberys Raiders              | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Serberys-Raiders-2020        |                                                                                            |
+| Serberys Sulphurhounds                               | Serberys Sulphurhounds                 | $65    | 1x Serberys Sulphurhounds, 2x Serberys Sulphurhounds       | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Serberys-Sulphurhounds--2020 |                                                                                            |
+| Sicarian Infiltrators                                | Sicarian Infiltrators                  | $60    | 1x Sicarian Infiltrator Princeps, 4x Sicarian Infiltrators | https://www.warhammer.com/en-US/shop/Sicarians-2017                                  |                                                                                            |
+| Sicarians Ruststalkers                               | Sicarian Ruststalkers                  | $60    | 1x Sicarian Ruststalker Princeps, 4x Sicarian Ruststalkers | https://www.warhammer.com/en-US/shop/Sicarians-2017                                  |                                                                                            |
+| Skitarii Rangers                                     | Skitarii Rangers                       | $60    | 1x Skitarii Ranger Alpha, 9x Skitarii Rangers              | https://www.warhammer.com/en-US/shop/Skitarii-Rangers-2017                           | Alternate build kit: Skitarii Vanguard or Skitarii Rangers                                 |
+| Skitarii Vanguard                                    | Skitarii Vanguard                      | $60    | 1x Skitarii Vanguard Alpha, 9x Skitarii Vanguard           | https://www.warhammer.com/en-US/shop/Skitarii-Vanguard-2017                          | Alternate build kit: Skitarii Vanguard or Skitarii Rangers                                 |
+| Hastarii                                             | Hastarii Exterminators                 | $60    | 1x Hastarii Exterminator Alpha, 4x Hastarii Exterminators  | https://www.warhammer.com/en-US/shop/adeptus-mechanicus-hastarii-2026                | Alternate Build Kit: Hastarii Exterminators or Hastarii Fusiliers                          |
+| Hastarii                                             | Hastarii Fusiliers                     | $60    | 1x Hastarii Fusilier Alpha, 4x Hastarii Fusiliers          | https://www.warhammer.com/en-US/shop/adeptus-mechanicus-hastarii-2026                | Alternate Build Kit: Hastarii Exterminators or Hastarii Fusiliers                          |
+| Archaeopter                                          | Archaeopter Fusilave                   | $122   | 1x Archaeopter Fusilave                                    | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Archaeopter-2020             |                                                                                            |
+| Archaeopter                                          | Archaeopter Stratoraptor               | $122   | 1x Archaeopter Stratoraptor                                | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Archaeopter-2020             |                                                                                            |
+| Archaeopter                                          | Archaeopter Transvector                | $122   | 1x Archaeoptor Transvector                                 | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Archaeopter-2020             |                                                                                            |
+| Ironstrider Ballistarius                             | Ironstrider Ballistarii                | $65    | 1x Ironstrider Ballistarii                                 | https://www.warhammer.com/en-US/shop/Ironstrider-Ballistarius-2017                   | Alternate Build Kit: Ironstrider Ballistarii, or either Sydonian Dragoon kit               |
+| Kastelan Robots                                      | Kastelan Robots                        | $85    | 2x Kastelan Robots (+1x Cybernetica Datasmith)             | https://www.warhammer.com/en-US/shop/Kastelan-Robots-2017                            |                                                                                            |
+| Onager Dunecrawler                                   | Onager Dunecrawler                     | $84    | 1x Onager Dunecrawler                                      | https://www.warhammer.com/en-US/shop/Onager-Dunecrawler                              |                                                                                            |
+| Skorpius Disintegrator                               | Skorpius Disintegrator                 | $84    | 1x Skorpius Disintegrator                                  | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Skorpius-Disintegrator-2019  |                                                                                            |
+| Sydonian Dragoon                                     | Sydonian Dragoons with radium jezzails | $65    | 1x Sydonian Dragoon                                        | https://www.warhammer.com/en-US/shop/Sydonian-Dragoon-2017                           | Alternate Build Kit: Ironstrider Ballistarii, or either Sydonian Dragoon kit               |
+| Sydonian Dragoon                                     | Sydonian Dragoons with taser lances    | $65    | 1x Sydonian Dragoon                                        | https://www.warhammer.com/en-US/shop/Sydonian-Dragoon-2017                           | Alternate Build Kit: Ironstrider Ballistarii, or either Sydonian Dragoon kit               |
+| Skorpius Dunerider                                   | Skorpius Dunerider                     | $84    | 1x Skorpius Dunerider                                      | https://www.warhammer.com/en-US/shop/Adeptus-Mechanicus-Skorpius-Dunerider-2019      |                                                                                            |
+| Combat Patrol: Adeptus Mechanicus                    | Multi-Unit Kit                         | $170   | See notes                                                  | https://www.warhammer.com/en-US/shop/combat-patrol-adeptus-mechanicus-2023           | 1x Tech-Priest Manipulus, Serberys Raiders Kit, Pteraxii Kit, Skitarii Kit                 |
+| Servitor Battleclade (Kill Team: Battleclade)        | Multi-Unit Kit: Servitor Battleclade   | $73.50 | See Section Below                                          | https://www.warhammer.com/en-US/shop/kill-team-battleclade-2025                      | 1x Technoarcheologist, 9x Battleclade Unit models                                          |
 
 ### Adeptus Mechanicus Units with no kit data
 
 | Unit                             | Notes |
 | -------------------------------- | ----- |
+| X-101 (Legends)                  |       |
 | Cohort Commander [Crucible]      |       |
+| Magos Dalathrust                 |       |
 | Ironstrider Alpha [Crucible]     |       |
 | Secutarii Hoplites (Legends)     |       |
 | Secutarii Peltasts (Legends)     |       |
 | Servitors (Legends)              |       |
 | Terrax-Pattern Termite (Legends) |       |
+
+### Adeptus Mechanicus Kill Team: Battleclade Configuration Options
+
+First Model: **Technoarcheologist**
+The Technoarcheologist is not in the unit list. He is a separate unit from the 'Battleclade' unit.
+
+Battleclade Unit:
+
+Second Model: **Servitor Underseer**
+This is the guy with the big round bulbous thing on his back.
+
+Third Model, Fourth Model: **Gun Servitor with Heavy Bolter, second Gun Servitor with Heavy Arc Rifle(?)**
+Not sure what the second weapon is. Kind of looks like radium weapon or arc rifle.
+
+Fifth through Tenth Models: **Combat Servitors**
 
 ---
 
@@ -241,81 +255,79 @@ _Unit Model Options_
 
 ### Aeldari Kits
 
-| Kit                                         | Unit(s)                       | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------- | ----------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Archon                                      | Ynnari Archon                 |        |                         |                                    |       |
-| Asurmen                                     | Asurmen                       |        |                         |                                    |       |
-| Autarch Wayleaper                           | Autarch                       |        |                         |                                    |       |
-| Autarch Wayleaper                           | Autarch Wayleaper             |        |                         |                                    |       |
-| Avatar of Khaine                            | Avatar of Khaine              |        |                         |                                    |       |
-| Baharroth                                   | Baharroth                     |        |                         |                                    |       |
-| Eldrad Ulthran                              | Eldrad Ulthran                |        |                         |                                    |       |
-| Farseer                                     |                               |        |                         |                                    |       |
-| Jain Zar, the Storm of Silence              | Jain Zar                      |        |                         |                                    |       |
-| Farseer Skyrunner                           | Farseer                       |        |                         |                                    |       |
-| Farseer Skyrunner                           | Farseer Skyrunner             |        |                         |                                    |       |
-| Farseer Skyrunner                           | Skyrunner [Crucible]          |        |                         |                                    |       |
-| Fuegan                                      | Fuegan                        |        |                         |                                    |       |
-| Harlequin Death Jester                      | Death Jester                  |        |                         |                                    |       |
-| Harlequin Shadowseer                        | Shadowseer                    |        |                         |                                    |       |
-| Kharseth                                    | Kharseth                      |        |                         |                                    |       |
-| Lhykhis                                     | Lhykhis                       |        |                         |                                    |       |
-| Maugan Ra                                   | Maugan Ra                     |        |                         |                                    |       |
-| Prince Yriel                                | Prince Yriel                  |        |                         |                                    |       |
-| Solitaire                                   | Solitaire                     |        |                         |                                    |       |
-| Succubus                                    | Ynnari Succubus               |        |                         |                                    |       |
-| The Visarch                                 | The Visarch                   |        |                         |                                    |       |
-| The Yncarne                                 | The Yncarne                   |        |                         |                                    |       |
-| Troupe Master                               | Troupe Master                 |        |                         |                                    |       |
-| Warlock Skyrunner                           | Warlock Skyrunners            |        |                         |                                    |       |
-| Warlocks                                    | Warlock                       |        |                         |                                    |       |
-| Yvraine                                     | Yvraine                       |        |                         |                                    |       |
-| Corsair Skyreavers                          | Corsair Skyreavers            |        |                         |                                    |       |
-| Corsair Voidreavers                         | Corsair Voidreavers           |        |                         |                                    |       |
-| Corsair Voidreavers                         | Corsair VoidScarred           |        |                         |                                    |       |
-| Howling Banshees                            | Howling Banshees              |        |                         |                                    |       |
-| Dark Reapers                                | Dark Reapers                  |        |                         |                                    |       |
-| D-Cannon Platform                           |                               |        |                         |                                    |       |
-| Dire Avengers                               | Dire Avengers                 |        |                         |                                    |       |
-| Windriders                                  | Windriders                    |        |                         |                                    |       |
-| Wraithguard                                 | Wraithguard                   |        |                         |                                    |       |
-| Wraithlord                                  | Wraithlord                    |        |                         |                                    |       |
-| Fire Dragons                                | Fire Dragons                  |        |                         |                                    |       |
-| Guardian Defenders                          | Guardian Defenders            |        |                         |                                    |       |
-| Harlequin Troupe                            | Troupe                        |        |                         |                                    |       |
-| Incubi                                      | Ynnari Incubi                 |        |                         |                                    |       |
-| Kabalite Warriors                           | Ynnari Kabalite Warriors      |        |                         |                                    |       |
-| Rangers                                     | Rangers                       |        |                         |                                    |       |
-| Reavers                                     | Ynnari Reavers                |        |                         |                                    |       |
-| Shining Spears                              | Shining Spears                |        |                         |                                    |       |
-| Shroud Runners                              | Shroud Runners                |        |                         |                                    |       |
-| Storm Guardians                             | Storm Guardians               |        |                         |                                    |       |
-| Striking Scorpions                          | Striking Scorpions            |        |                         |                                    |       |
-| Swooping Hawks                              | Swooping Hawks                |        |                         |                                    |       |
-| Warp Spiders                                | Warp Spiders                  |        |                         |                                    |       |
-| Wraithblades                                | Wraithblades                  |        |                         |                                    |       |
-| Wyches                                      | Ynnari Wyches                 |        |                         |                                    |       |
-| Crimson Hunter                              | Crimson Hunter                |        |                         |                                    |       |
-| Hemlock Wraithfighter                       | Hemlock Wraithfighter         |        |                         |                                    |       |
-| War Walker                                  | War Walkers                   |        |                         |                                    |       |
-| Wraithknight                                | Wraithknight                  |        |                         |                                    |       |
-| Wraithknight                                | Wraithknight with Ghostglaive |        |                         |                                    |       |
-| Fire Prism                                  | Fire Prism                    |        |                         |                                    |       |
-| Harlequin Skyweavers                        | Skyweavers                    |        |                         |                                    |       |
-| Harlequin Starweaver                        | Starweaver                    |        |                         |                                    |       |
-| Night Spinner                               | Night Spinner                 |        |                         |                                    |       |
-| Raider                                      | Ynnari Raider                 |        |                         |                                    |       |
-| Venom                                       | Ynnari Venom                  |        |                         |                                    |       |
-| Voidweaver                                  | Voidweaver                    |        |                         |                                    |       |
-| Vyper/Starfang                              | Starfangs                     |        |                         |                                    |       |
-| Vyper/Starfang                              | Vypers                        |        |                         |                                    |       |
-| Wave Serpent/Falcon                         | Falcon                        |        |                         |                                    |       |
-| Wave Serpent/Falcon                         | Wave Serpent                  |        |                         |                                    |       |
-| Apocalypse: Craftworlds Vanguard Detachment |                               |        |                         |                                    |       |
-| Battleforce: Craftworlds Asuryani Bladehost |                               |        |                         |                                    |       |
-| Blood of the Phoenix                        |                               |        |                         |                                    |       |
-| Battleforce: Craftworlds Spiritseer         | Spiritseer                    |        |                         |                                    |       |
-| Start Collecting! Eldar                     |                               |        |                         |                                    |       |
+| Kit                                    | Unit(s)                  | Prices | Models (Manually Added)                            | Warhammer Kit URL (Manually Added)                                                       | Notes                                                                                     |
+| -------------------------------------- | ------------------------ | ------ | -------------------------------------------------- | ---------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Asurmen                                | Asurmen                  | $48    | 1x Asurmen                                         | https://www.warhammer.com/en-US/shop/aeldari-asurmen-2025                                |                                                                                           |
+| Autarch                                | Autarch                  | $43.50 | 1x Autarch                                         | https://www.warhammer.com/en-US/shop/aeldari-autarch-2022                                |                                                                                           |
+| Autarch Wayleaper                      | Autarch Wayleaper        | $33.50 | 1x Autarch Wayleaper                               | https://www.warhammer.com/en-US/shop/Eldar-Autarch                                       | Online only                                                                               |
+| Avatar of Khaine                       | Avatar of Khaine         | $114   | 1x Avatar of Khaine                                | https://www.warhammer.com/en-US/shop/aeldari-avatar-of-khaine-2022                       |                                                                                           |
+| Baharroth                              | Baharroth                | $48    | 1x Baharroth                                       | https://www.warhammer.com/en-US/shop/aeldari-phoenix-lord-baharroth-2025                 |                                                                                           |
+| Eldrad Ulthran                         | Eldrad Ulthran           | $39    | 1x Eldrad Ulthran                                  | https://www.warhammer.com/en-US/shop/Eldrad-Ulthran-2017                                 |                                                                                           |
+| Jain Zar                               | Jain Zar                 | $48    | 1x Jain Zar                                        | https://www.warhammer.com/en-US/shop/Craftworlds-Jain-Zar-2020                           |                                                                                           |
+| Harlequin Death Jester                 | Death Jester             | $35    | 1x Death Jester                                    | https://www.warhammer.com/en-US/shop/Harlequin-Death-Jester                              |                                                                                           |
+| Farseer                                | Farseer                  | $35    | 1x Farseer                                         | https://www.warhammer.com/en-US/shop/Eldar-Farseer                                       | Online only                                                                               |
+| Warhammer + Year 5: Infinity's Lament  | Farseer                  | $45    | 1x Farseer                                         | https://www.warhammer.com/en-US/shop/warhammer-plus-aeldari-infinitys-lament-2025-year-5 | Online only                                                                               |
+| Farseer Skyrunner                      | Farseer Skyrunner        | $43.50 | 1x Farseer Skyrunner                               | https://www.warhammer.com/en-US/shop/Eldar-Farseer-Skyrunner-2017                        |                                                                                           |
+| Fuegan                                 | Fuegan                   | $48    | 1x Fuegan                                          | https://www.warhammer.com/en-US/shop/aeldari-phoenix-lord-fuegan-2025                    |                                                                                           |
+| Harlequin Shadowseer                   | Shadowseer               | $35    | 1x Shadowseer                                      | https://www.warhammer.com/en-US/shop/Harlequin-Shadowseer                                |                                                                                           |
+| Spiritseer                             | Spiritseer               | $35    | 1x Spiritseer                                      | https://www.warhammer.com/en-US/shop/Craftworlds-Spiritseer-2019                         |                                                                                           |
+| Warlocks                               | Warlock                  | $60    | 2x Warlocks                                        | https://www.warhammer.com/en-US/shop/aeldari-warlocks-2022                               |                                                                                           |
+| Kharseth                               | Kharseth                 | $43.50 | 1x Kharseth                                        | https://www.warhammer.com/en-US/shop/aeldari-kharseth-2026                               |                                                                                           |
+| Lhykhis                                | Lhykhis                  | $48    | 1x Lhykhis                                         | https://www.warhammer.com/en-US/shop/aeldari-phoenix-lord-lhykhis-2025                   |                                                                                           |
+| Maugan Ra                              | Maugan Ra                | $48    | 1x Maugan Ra                                       | https://www.warhammer.com/en-US/shop/aeldari-maugan-ra-2022                              |                                                                                           |
+| Prince Yriel                           | Prince Yriel             | $47    | 1x Prince Yriel                                    | https://www.warhammer.com/en-US/shop/aeldari-prince-yriel-2026                           |                                                                                           |
+| Solitaire                              | Solitaire                | $33.50 | 1x Solitaire                                       | https://www.warhammer.com/en-US/shop/Solitaire                                           | Online only                                                                               |
+| Archon                                 | Ynnari Archon            | $40    | 1x Ynnari Archon                                   | https://www.warhammer.com/en-US/shop/drukhari-archon-2025                                |                                                                                           |
+| Succubus                               | Ynnari Succubus          | $32    | 1x Ynnari Succubus                                 | https://www.warhammer.com/en-US/shop/Succubus-2014                                       | Online only                                                                               |
+| The Visarch                            | The Visarch              | $35    | 1x The Visarch                                     | https://www.warhammer.com/en-US/shop/aeldari-the-visarch-2022                            | Online only                                                                               |
+| The Yncarne                            | The Yncarne              | $60    | 1x The Yncarne                                     | https://www.warhammer.com/en-US/shop/aeldari-the-yncarne-2022                            | Online only                                                                               |
+| Yvraine                                | Yvraine                  | $43.50 | 1x Yvraine                                         | https://www.warhammer.com/en-US/shop/aeldari-yvraine-2022                                | Online only                                                                               |
+| Corsair Voidreavers                    | Corsair Voidreavers      | $65    | 1x Voidreaver Felarch, 9x Voidreavers              | https://www.warhammer.com/en-US/shop/aeldari-corsair-voidreavers-2026                    |                                                                                           |
+| Guardian Defenders                     | Guardian Defenders       | $60    | 10x Guardian Defenders, 1x Heavy Weapon Platform   | https://www.warhammer.com/en-US/shop/aeldari-guardians-2022                              |                                                                                           |
+| Storm Guardians                        | Storm Guardians          | $60    | 10x Storm Guardians, 1x Serpent's Scale Platform   | https://www.warhammer.com/en-US/shop/aeldari-guardians-2022                              |                                                                                           |
+| Kabalite Warriors                      | Ynnari Kabalite Warriors | $48    | 1x Sybarite, 9x Kabalite Warriors                  | https://www.warhammer.com/en-US/shop/Drukhari-Kabalite-Warriors-2017                     |                                                                                           |
+| Wyches                                 | Ynnari Wyches            | $48    | 1x Hekatrix, 9x Wyches                             | https://www.warhammer.com/en-US/shop/Dark-Eldar-Wyches                                   |                                                                                           |
+| Corsair Skyreavers                     | Corsair Skyreavers       | $60    | 1x Skyreaver, 4x Skyreavers                        | https://www.warhammer.com/en-US/shop/aeldari-corsair-skyreavers-2026                     |                                                                                           |
+| Corsair Voidreavers                    | Corsair VoidScarred      | $65    | 1x Voidscarred Felarch, 9x Voidscarred             | https://www.warhammer.com/en-US/shop/aeldari-corsair-voidreavers-2026                    |                                                                                           |
+| Support Weapon                         | D-Cannon Platform        | $32    | 1x D-Cannon Platform                               | https://www.warhammer.com/en-US/shop/Eldar-Support-Weapon                                | Online only                                                                               |
+| Dark Reapers                           | Dark Reapers             | $62.50 | 1x Dark Reaper Exarch, 4x Dark Reapers             | https://www.warhammer.com/en-US/shop/aeldari-dark-reapers-2022                           | Can be assembled as 5x Dark Reapers                                                       |
+| Dire Avengers                          | Dire Avengers            | $48    | 1x Dire Avenger Exarch, 4x Dire Avengers           | https://www.warhammer.com/en-US/shop/Eldar-Dire-Avengers-2017                            |                                                                                           |
+| Fire Dragons                           | Fire Dragons             | $62.50 | 1x Fire Dragon Exarch, 4x Fire Dragons             | https://www.warhammer.com/en-US/shop/aeldari-fire-dragons-2025                           | Can be assembled as 5x Fire Dragons                                                       |
+| Howling Banshees                       | Howling Banshees         | $62.50 | 1x Howling Banshee Exarch, 4x Howling Banshees     | https://www.warhammer.com/en-US/shop/Craftworlds-Howling-Banshees-2020                   | Can be assembled as 5x Howling Banshees                                                   |
+| Rangers                                | Rangers                  | $62.50 | 5x Rangers                                         | https://www.warhammer.com/en-US/shop/aeldari-rangers-2022                                |                                                                                           |
+| Support Weapon                         | Shadow Weaver Platform   | $32    | 1x Shadow Weaver Platform                          | https://www.warhammer.com/en-US/shop/Eldar-Support-Weapon                                | Online only                                                                               |
+| Kill Team: Blades of Khaine            | Striking Scorpions       | $82.00 | 1x Striking Scorpion Exarch, 9x Striking Scorpions | https://www.warhammer.com/en-US/shop/kill-team-blades-of-khaine-2024                     |                                                                                           |
+| Swooping Hawks                         | Swooping Hawks           | $62.50 | 1x Swooping Hawk Exarch, 4x Swooping Hawks         | https://www.warhammer.com/en-US/shop/aeldari-swooping-hawks-2025                         | Can be assembled as 5x Swooping Hawks                                                     |
+| Harlequin Troupe                       | Troupe                   | $48    | 1x Lead Player, 4x Players                         | https://www.warhammer.com/en-US/shop/Harlequin-Troupe-Troop-2017                         | Can be assembled as 5x players                                                            |
+| Support Weapon                         | Vibro Cannon Platform    | $32    | 1x Vibro Cannon Platform                           | https://www.warhammer.com/en-US/shop/Eldar-Support-Weapon                                | Online only                                                                               |
+| Warlocks                               | Warlock Conclave         | $60    | 2x Warlocks                                        | https://www.warhammer.com/en-US/shop/aeldari-warlocks-2022                               |                                                                                           |
+| Warp Spiders                           | Warp Spiders             | $62.50 | 1x Warp Spider Exarch, 4x Warp Spiders             | https://www.warhammer.com/en-US/shop/aeldari-warp-spiders-2025                           | Can be assembled as 5x Warp Spiders                                                       |
+| Wraithblades                           | Wraithblades             | $65    | 5x Wraithblades                                    | https://www.warhammer.com/en-US/shop/Eldar-Wraithblades-2017                             |                                                                                           |
+| Wraithguard                            | Wraithguard              | $65    | 5x Wraithguard                                     | https://www.warhammer.com/en-US/shop/Eldar-Wraithguard-2017                              |                                                                                           |
+| Incubi                                 | Ynnari Incubi            | $62.50 | 1x Klaivex, 4x Incubi                              | https://www.warhammer.com/en-US/shop/Drukhari-Incubi-2020                                |                                                                                           |
+| Shining Spears                         | Shining Spears           | $69    | 1x Shining Spear Exarch, 2x Shining Spears         | https://www.warhammer.com/en-US/shop/aeldari-shining-spears-2022                         | Can be assembled as 3x Shining Spears                                                     |
+| Shroud Runners                         | Shroud Runners           | $73.50 | 3x Shroud Runners                                  | https://www.warhammer.com/en-US/shop/aeldari-shroud-runners-2022                         |                                                                                           |
+| Harlequin Skyweavers                   | Skyweavers               | $60    | 2x Skyweavers                                      | https://www.warhammer.com/en-US/shop/Harlequin-Skyweavers                                |                                                                                           |
+| Warlock Skyrunners                     | Warlock Skyrunners       | $43.50 | 1x Warlock Skyrunner                               | https://www.warhammer.com/en-US/shop/Eldar-Warlock-Skyrunner-2017                        |                                                                                           |
+| Windriders                             | Windriders               | $60    | 3x Windriders                                      | https://www.warhammer.com/en-US/shop/Eldar-Windriders-2017                               |                                                                                           |
+| Reavers                                | Ynnari Reavers           | $48    | 1x Arena Champion, 2x Reavers                      | https://www.warhammer.com/en-US/shop/Dark-Eldar-Reavers                                  | Online only; Can be assembled as 3 reavers                                                |
+| Wraithknight                           | Wraithknight             | $170   | 1x Wraithknight                                    | https://www.warhammer.com/en-US/shop/Eldar-Wraithknight-2017                             |                                                                                           |
+| Wraithlord                             | Wraithlord               | $65    | 1x Wraithlord                                      | https://www.warhammer.com/en-US/shop/Eldar-Wraithlord-2017                               |                                                                                           |
+| Crimson Hunter                         | Crimson Hunter           | $96    | 1x Crimson Hunter                                  | https://www.warhammer.com/en-US/shop/Eldar-Crimson-Hunter-2017                           | Online only                                                                               |
+| Wave Serpent/Falcon                    | Falcon                   | $69    | 1x Falcon                                          | https://www.warhammer.com/en-US/shop/aeldari-wave-serpent-2025                           |                                                                                           |
+| Fire Prism                             | Fire Prism               | $69    | 1x Fire Prism                                      | https://www.warhammer.com/en-US/shop/Eldar-Fire-Prism                                    | Online only                                                                               |
+| Hemlock Wraithfighter                  | Hemlock Wraithfighter    | $96    | 1x Hemlock Wraithfighter                           | https://www.warhammer.com/en-US/shop/Eldar-Hemlock-Wraithfighter-2017                    | Online only                                                                               |
+| Night Spinner                          | Night Spinner            | $69    | 1x Night Spinner                                   | https://www.warhammer.com/en-US/shop/Eldar-Night-Spinner                                 | Online only                                                                               |
+| Vyper/Starfang                         | Starfangs                | $65    | 1x Starfang                                        | https://www.warhammer.com/en-US/shop/aeldari-vyper-2026                                  |                                                                                           |
+| Voidweaver                             | Voidweaver               | $48    | 1x Voidweaver                                      | https://www.warhammer.com/en-US/shop/Voidweaver                                          |                                                                                           |
+| Vyper/Starfang                         | Vyper                    | $65    | 1x Vyper                                           | https://www.warhammer.com/en-US/shop/aeldari-vyper-2026                                  |                                                                                           |
+| War Walker                             | War Walkers              | $85    | 2x War Walkers                                     | https://www.warhammer.com/en-US/shop/aeldari-war-walkers-2025                            |                                                                                           |
+| Harlequin Starweaver                   | Starweaver               | $48    | 1x Starweaver                                      | https://www.warhammer.com/en-US/shop/Harlequin-Starweaver                                |                                                                                           |
+| Wave Serpent/Falcon                    | Wave Serpent             | $69    | 1x Wave Serpent                                    | https://www.warhammer.com/en-US/shop/aeldari-wave-serpent-2025                           |                                                                                           |
+| Raider                                 | Ynnari Raider            | $65    | 1x Ynnari Raider                                   | https://www.warhammer.com/en-US/shop/Drukhari-Raider                                     | Online only                                                                               |
+| Venom                                  | Ynnari Venom             | $43.50 | 1x Ynnari Venom                                    | https://www.warhammer.com/en-US/shop/Dark-Eldar-Venom-2017                               |                                                                                           |
+| Combat Patrol: Aeldari                 | Multi-Unit Kit           | $170   | See Notes                                          | https://www.warhammer.com/en-US/shop/combat-patrol-aeldari-2025                          | 1x Spiritseer, 1x Wraithblades/Wraithguard Kit, 1x Warp Spiders Kit, 2x Dire Avengers Kit |
+| Corsairs Battleforce: Eldritch Raiders | Multi-Unit Kit           | $255   | See Notes                                          | https://www.warhammer.com/en-US/shop/aeldari-eldritch-raiders-2026                       | 1x Prince Yriel, 1x Kharseth, 1x Vyper/Starfang, 2x Skyreavers Kits, 1x Voidreavers Kit   |
 
 ### Aeldari Units with no kit data
 
@@ -330,7 +342,6 @@ _Unit Model Options_
 | Corsair Reaver Band (Legends)       |       |
 | Corsair Skyreaver Band (Legends)    |       |
 | Craftworld Warleader [Crucible]     |       |
-| D-Cannon Platform                   |       |
 | Firestorm (Legends)                 |       |
 | Ghost Warrior [Crucible]            |       |
 | Hornet (Legends)                    |       |
@@ -345,16 +356,14 @@ _Unit Model Options_
 | Revenant Titan                      |       |
 | Scorpion (Legends)                  |       |
 | Shadow Spectres (Legends)           |       |
-| Shadow Weaver Platform              |       |
 | Skathach Wraithknight (Legends)     |       |
 | Vampire Hunter (Legends)            |       |
 | Vampire Raider (Legends)            |       |
-| Vibro Cannon Platform               |       |
-| Warlock Conclave                    |       |
 | Warp Hunter (Legends)               |       |
 | Wasp Assault Walker (Legends)       |       |
 | Webway Gate (Legends)               |       |
 | Wraithseer (Legends)                |       |
+| Troupe Master                       |       |
 
 ---
 
@@ -362,76 +371,142 @@ _Unit Model Options_
 
 ### Astra Militarum Kits
 
-| Kit                                                           | Unit(s)                           | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------- | --------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Astra Militarum Tech-Priest Enginseer                         | Tech-Priest Enginseer             |        |                         |                                    |       |
-| Cadian Castellan                                              | Cadian Castellan                  |        |                         |                                    |       |
-| Cadian Command Squad                                          | Cadian Command Squad              |        |                         |                                    |       |
-| Catachan Command Squad                                        | Catachan Command Squad            |        |                         |                                    |       |
-| Commissar Graves                                              | Commissar Graves                  |        |                         |                                    |       |
-| Commissar Graves                                              | Commissar Graves on Foot          |        |                         |                                    |       |
-| Commissar Yarrick                                             | Commissar Yarrick                 |        |                         |                                    |       |
-| Krieg Command Squad                                           | Krieg Command Squad               |        |                         |                                    |       |
-| Lord Castellan Ursula Creed                                   | Ursula Creed                      |        |                         |                                    |       |
-| Lord Marshal Dreir                                            | Lord Marshal Dreir                |        |                         |                                    |       |
-| Lord Solar Leontus                                            | Lord Solar Leontus                |        |                         |                                    |       |
-| Militarum Tempestus Scions Command Squad                      | Militarum Tempestus Command Squad |        |                         |                                    |       |
-| Ministorum Priest                                             | Ministorum Priest                 |        |                         |                                    |       |
-| Nork Deddog                                                   | Nork Deddog                       |        |                         |                                    |       |
-| Officio Prefectus Commissar                                   | Commissar                         |        |                         |                                    |       |
-| Primaris Psyker                                               | Primaris Psyker                   |        |                         |                                    |       |
-| Sly Marbo                                                     | Sly Marbo                         |        |                         |                                    |       |
-| Artillery Team                                                | Artillery Team                    |        |                         |                                    |       |
-| Cadian Shock Troops                                           | Cadian Shock Troops               |        |                         |                                    |       |
-| Astra Telepathica Sisters of Silence                          |                                   |        |                         |                                    |       |
-| Attilan Rough Riders                                          | Attilan Rough Riders              |        |                         |                                    |       |
-| Cadian Heavy Weapon Squad                                     | Cadian Heavy Weapons Squad        |        |                         |                                    |       |
-| Catachan Heavy Weapons Squad                                  | Catachan Heavy Weapons Squad      |        |                         |                                    |       |
-| Catachan Heavy Weapons Squad                                  | Krieg Heavy Weapons Squad         |        |                         |                                    |       |
-| Catachan Jungle Fighters                                      | Catachan Jungle Fighters          |        |                         |                                    |       |
-| Death Korps of Krieg                                          | Death Korps of Krieg              |        |                         |                                    |       |
-| Death Riders                                                  | Death Riders                      |        |                         |                                    |       |
-| Field Ordnance Battery                                        | Field Ordnance Battery            |        |                         |                                    |       |
-| Kill Team: Kasrkin                                            | Kasrkin                           |        |                         |                                    |       |
-| Kill Team: Ratlings                                           | Ratlings                          |        |                         |                                    |       |
-| Kill Team: Tempestus Aquilons                                 | Tempestus Aquilons                |        |                         |                                    |       |
-| Krieg Combat Engineers                                        | Krieg Combat Engineers            |        |                         |                                    |       |
-| Militarum Auxilla Bullgryns                                   |                                   |        |                         |                                    |       |
-| Militarum Tempestus Scions                                    | Tempestus Scions                  |        |                         |                                    |       |
-| Baneblade                                                     | Baneblade                         |        |                         |                                    |       |
-| Baneblade                                                     | Banehammer                        |        |                         |                                    |       |
-| Baneblade                                                     | Banesword                         |        |                         |                                    |       |
-| Baneblade                                                     | Doomhammer                        |        |                         |                                    |       |
-| Baneblade                                                     | Hellhammer                        |        |                         |                                    |       |
-| Baneblade                                                     | Shadowsword                       |        |                         |                                    |       |
-| Baneblade                                                     | Stormlord                         |        |                         |                                    |       |
-| Baneblade                                                     | Stormsword                        |        |                         |                                    |       |
-| Hydra                                                         | Hydra                             |        |                         |                                    |       |
-| Hydra                                                         | Wyvern                            |        |                         |                                    |       |
-| Imperial Guard Chimera                                        | Chimera                           |        |                         |                                    |       |
-| Imperial Guard Leman Russ Battle Tank                         | Leman Russ Battle Tank            |        |                         |                                    |       |
-| Leman Russ Demolisher                                         | Leman Russ Demolisher             |        |                         |                                    |       |
-| Leman Russ Tech-Command                                       |                                   |        |                         |                                    |       |
-| Sentinel                                                      | Armoured Sentinels                |        |                         |                                    |       |
-| Sentinel                                                      | Scout Sentinels                   |        |                         |                                    |       |
-| Valkyrie                                                      | Valkyrie                          |        |                         |                                    |       |
-| Avenger Strike Fighter                                        | Avenger Strike Fighter            |        |                         |                                    |       |
-| Basilisk                                                      | Basilisk                          |        |                         |                                    |       |
-| Cyclops Demolition Vehicle                                    | Cyclops Demolition Vehicle        |        |                         |                                    |       |
-| Deathstrike                                                   | Deathstrike                       |        |                         |                                    |       |
-| Hellhound                                                     | Hellhound                         |        |                         |                                    |       |
-| Manticore                                                     | Manticore                         |        |                         |                                    |       |
-| Rogal Dorn Battle Tank                                        | Rogal Dorn Battle Tank            |        |                         |                                    |       |
-| Taurox Prime                                                  | Taurox                            |        |                         |                                    |       |
-| Taurox Prime                                                  | Taurox Prime                      |        |                         |                                    |       |
-| Apocalypse: Astra Militarum Spearhead Detachment              |                                   |        |                         |                                    |       |
-| Apocalypse: Space Marines Battalion Detachment                |                                   |        |                         |                                    |       |
-| Astra Militarum Cadian Armoured Fist                          |                                   |        |                         |                                    |       |
-| Astra Militarum Starter Set: Kill Team - Drop Force Imperator |                                   |        |                         |                                    |       |
-| Astra Militarum: Battleforce - Bastion Platoon                |                                   |        |                         |                                    |       |
-| Battleforce - Astra Militarum: Battlegroup                    |                                   |        |                         |                                    |       |
-| Battleforce - Astra Militarum: Severina Raine                 |                                   |        |                         |                                    |       |
-| Start Collecting! Astra Militarum                             |                                   |        |                         |                                    |       |
+| Kit                                           | Unit(s)                                 | Prices | Models (Manually Added)                      | Warhammer Kit URL (Manually Added)                                                      | Notes                                                                                                                      |
+| --------------------------------------------- | --------------------------------------- | ------ | -------------------------------------------- | --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Tech-Priest Enginseer                         | Tech-Priest Enginseer                   | $39    | 1x Tech-Priest Enginseer                     | https://www.warhammer.com/en-US/shop/Astra-Militarum-Tech-Priest-Enginseer              |                                                                                                                            |
+| Cadian Castellan                              | Cadian Castellan                        | $39    | 1x Cadian Castellan                          | https://www.warhammer.com/en-US/shop/astra-militarum-cadian-castellan-2023              |                                                                                                                            |
+| Cadian Command Squad                          | Cadian Command Squad                    | $48    | See section below this table                 | https://www.warhammer.com/en-US/shop/astra-militarum-cadian-command-squad-2023          | In addition to section below this table, this is also an alternate build kit                                               |
+| Catachan Command Squad                        | Catachan Command Squad                  | $39    | See section below this table                 | https://www.warhammer.com/en-US/shop/Imperial-Guard-Catachan-Command-Squad              | In addition to section below this table, this is also an alternate build kit                                               |
+| Commissar Graves (as Vehicle)                 | Commissar Graves (+Graves on Foot)      | $102   | 1x Commissar Graves (as vehicle)             | https://www.warhammer.com/en-US/shop/astra-militarum-commissar-graves-2026              | Kit contains both Graves in Taurox and Graves on foot; cannot be taken with Commissar Graves on Foot                       |
+| Commissar Graves                              | Commissar Graves on Foot (+Graves Tank) | $102   | 1x Commissar Graves (on foot)                | https://www.warhammer.com/en-US/shop/astra-militarum-commissar-graves-2026              | Kit contains both Graves in Taurox and Graves on foot; cannot be taken with Commissar Graves (as Vehicle)                  |
+| Commissar Yarrick                             | Commissar Yarrick                       | $48    | 1x Commissar Yarrick                         | https://www.warhammer.com/en-US/shop/astra-militarum-commissar-yarrick-2026             |                                                                                                                            |
+| Gaunt's Ghosts                                | Gaunt's Ghosts                          | $82    | See section below this table                 | https://www.warhammer.com/en-US/shop/Astra-Militarum-Gaunts-Ghosts-2021                 |                                                                                                                            |
+| Krieg Command Squad                           | Krieg Command Squad                     | $48    | See section below this table                 | https://www.warhammer.com/en-US/shop/astra-militarum-krieg-command-squad-2025           | In addition to section below this table, this is also an alternate build kit                                               |
+| Leman Russ Battle Tank Commander              | Leman Russ Commander                    | $70    | 1x Leman Russ Commander                      | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Lord Castellan Ursula Creed                   | Ursula Creed                            | $48    | 1x Ursula Creed                              | https://www.warhammer.com/en-US/shop/astra-militarum-lord-castellan-ursula-creed-2023   |                                                                                                                            |
+| Lord Marshal Dreir                            | Lord Marshal Dreir                      | $60    | 1x Lord Marshal Dreir                        | https://www.warhammer.com/en-US/shop/astra-militarum-krieg-lord-marshal-dreir-2025      |                                                                                                                            |
+| Lord Solar Leontus                            | Lord Solar Leontus                      | $65    | 1x Lord Solar Leontus                        | https://www.warhammer.com/en-US/shop/astra-militarum-lord-solar-leontus-2023            |                                                                                                                            |
+| Militarum Tempestus Scions Command Squad      | Militarum Tempestus Command Squad       | $48    | See section below this table                 | https://www.warhammer.com/en-US/shop/Militarum-Tempestus-Scions-Command-Squad-2017      |                                                                                                                            |
+| Ministorum Priest                             | Ministorum Priest                       | $35    | 1x Ministorum Priest                         | https://www.warhammer.com/en-US/shop/adepta-sororitas-ministorum-priest-2024            |                                                                                                                            |
+| Nork Deddog                                   | Nork Deddog                             | $65    | 1x Nork Deddog, 2x Ogryns                    | https://www.warhammer.com/en-US/shop/Militarum-Auxilla-Nork-Deddog                      | Alternate build kit: 1x Deddog, 2x Bullgryn; 3x Bullgryn; 3x Ogryn; 1x Deddog, 2x Ogryn                                    |
+| Officio Prefectus Commissar                   | Commissar                               | $39    | 1x Commissar                                 | https://www.warhammer.com/en-US/shop/astra-militarum-commissar-2023                     |                                                                                                                            |
+| Primaris Psyker                               | Primaris Psyker                         | $35    | 1x Primaris Psyker                           | https://www.warhammer.com/en-US/shop/astra-militarum-primaris-psyker-2023               | Online only                                                                                                                |
+| Rogal Dorn Battle Tank Commander              | Rogal Dorn Commander                    | $108   | 1x Rogal Dorn Commander                      | https://www.warhammer.com/en-US/shop/astra-militarum-rogal-dorn-battle-tank-2023        |                                                                                                                            |
+| Sly Marbo                                     | Sly Marbo                               | $33.50 | 1x Sly Marbo                                 | https://www.warhammer.com/en-US/shop/Astra-Militarum-Sly-Marbo-2018                     | Online only                                                                                                                |
+| Warhammer+ Year 3: Astra Militarum - Unbroken | 1x Cadian Shock Trooper (Partial Unit)  | $42    | 1x Cadian Shock Trooper                      | https://www.warhammer.com/en-US/shop/warhammer-plus-astra-militarum-unbroken-year3-2023 | Online only; an annual special model, it is just part of a 10 man cadian shock trooper squad                               |
+| (Krieg) Artillery Team                        | Artillery Team                          | $65    | 1x Artillery Team                            | https://www.warhammer.com/en-US/shop/astra-militarum-krieg-artillery-team-2025          |                                                                                                                            |
+| Cadian Shock Troops                           | Cadian Shock Troops                     | $53    | 1x Sergeant, 9x Shock Troopers               | https://www.warhammer.com/en-US/shop/astra-militarum-cadian-shock-troops-2023           | Alternate build kit: Can build Cadian with Master Vox, 2 Cadians with Special Weapons                                      |
+| Attilan Rough Riders                          | Attilan Rough Riders                    | $65    | 1x Sergeant, 4x Rough Riders                 | https://www.warhammer.com/en-US/shop/astra-militarum-attilan-rough-riders-2023          | Alternate build kit: 5x Rough Riders                                                                                       |
+| (Cadian) Heavy Weapon Squad                   | Cadian Heavy Weapons Squad              | $53    | 3x Heavy Weapons Teams                       | https://www.warhammer.com/en-US/shop/astra-militarum-cadian-heavy-weapons-squad-2023    |                                                                                                                            |
+| Catachan Heavy Weapons Squad                  | Catachan Heavy Weapons Squad            | $48    | 3x Heavy Weapons Teams                       | https://www.warhammer.com/en-US/shop/Imperial-Guard-Catachan-Heavy-Weapon-Squad         | Online only                                                                                                                |
+| Krieg Heavy Weapons Squad                     | Krieg Heavy Weapons Squad               | $53    | 3x Heavy Weapons Teams, 1x Fire Coordinator  | https://www.warhammer.com/en-US/shop/astra-militarum-krieg-heavy-weapons-squad-2025     |                                                                                                                            |
+| Catachan Jungle Fighters                      | Catachan Jungle Fighters                | $39    | 1x Sergeant, 9x Catachan Jungle Fighters     | https://www.warhammer.com/en-US/shop/Imperial-Guard-Catachan-Jungle-Fighters            | Online only; Alternate build: 10 Catachan Jungle Fighters, of which 2x Jungle Fighters with Special Weapons, 1x Vox Caster |
+| Death Korps of Krieg                          | Death Korps of Krieg                    | $53    | 1 Watchmaster, 9 Death Korps Troopers        | https://www.warhammer.com/en-US/shop/astra-militarum-death-korps-of-krieg-2025          |                                                                                                                            |
+| Death Riders                                  | Death Riders                            | $65    | 1x Ridemaster, 4x Death Riders               | https://www.warhammer.com/en-US/shop/astra-militarum-death-riders-2025                  | Alternate build kit: 5x Death Riders                                                                                       |
+| Field Ordnance Battery                        | Field Ordnance Battery                  | $60    | 2x Ordnance Teams                            | https://www.warhammer.com/en-US/shop/astra-militarum-field-ordnance-battery-2023        |                                                                                                                            |
+| Kill Team: Kasrkin                            | Kasrkin                                 | $69    | 1x Sergeant, 9x Kasrkin Troopers             | https://www.warhammer.com/en-US/shop/kill-team-kasrkin-2024                             | Standard Kill Team kit--a lot of alternate special weapon and special model builds; sergeant can be trooper instead.       |
+| Kill Team: Ratlings                           | Ratlings                                | $69    | 10x Ratlings, 1x Battlemutt                  | https://www.warhammer.com/en-US/shop/kill-team-ratlings-2025                            |                                                                                                                            |
+| Kill Team: Tempestus Aquilons                 | Tempestus Aquilons                      | $69    | 1x Tempestor, 9x Tempestus Aquilons          | https://www.warhammer.com/en-US/shop/kill-team-tempestus-aquilons-2024                  | Standard Kill Team kit--a lot of alternate special weapon and special model builds; tempestor can be tempestus instead.    |
+| Krieg Combat Engineers                        | Krieg Combat Engineers                  | $48    | 1x Watchmaster, 4x Engineers, 1x Remote Mine | https://www.warhammer.com/en-US/shop/astra-militarum-krieg-combat-engineers-2025        | Alternate build kit: 5x Combat Engineers, 1x Remote Mine                                                                   |
+| Bullgryns                                     | Bullgryns                               | $65    | 3x Bullgryns                                 | https://www.warhammer.com/en-US/shop/Militarum-Auxilla-Bullgryns                        | Alternate build kit: 1x Deddog, 2x Bullgryn; 3x Bullgryn; 3x Ogryn; 1x Deddog, 2x Ogryn                                    |
+| Ogryns                                        | Ogryns                                  | $65    | 3x Ogryns                                    | https://www.warhammer.com/en-US/shop/Militarum-Auxilla-Ogryns                           | Alternate build kit: 1x Deddog, 2x Bullgryn; 3x Bullgryn; 3x Ogryn; 1x Deddog, 2x Ogryn                                    |
+| Tempestus Scions                              | Tempestus Scions                        | $48    | 1x Tempestor, 4x Tempestus Scions            | https://www.warhammer.com/en-US/shop/Militarum-Tempestus-Scions-2017                    | Alternate build kit: 5x Tempestus Scions; 1x can be special weapon                                                         |
+| Baneblade                                     | Baneblade                               | $197   | 1x Baneblade                                 | https://www.warhammer.com/en-US/shop/astra-militarum-baneblade-2023                     | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Banehammer                                    | Banehammer                              | $197   | 1x Banehammer                                | https://www.warhammer.com/en-US/shop/astra-militarum-banehammer-2023                    | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Banesword                                     | Banesword                               | $197   | 1x Banesword                                 | https://www.warhammer.com/en-US/shop/astra-militarum-banesword-2023                     | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Doomhammer                                    | Doomhammer                              | $197   | 1x Doomhammer                                | https://www.warhammer.com/en-US/shop/astra-militarum-doomhammer-2023                    | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Hellhammer                                    | Hellhammer                              | $197   | 1x Hellhammer                                | https://www.warhammer.com/en-US/shop/astra-militarum-hellhammer-2023                    | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Shadowsword                                   | Shadowsword                             | $197   | 1x Shadowsword                               | https://www.warhammer.com/en-US/shop/astra-militarum-shadowsword-2023                   | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Stormlord                                     | Stormlord                               | $197   | 1x Stormlord                                 | https://www.warhammer.com/en-US/shop/astra-militarum-stormlord-2023                     | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Stormsword                                    | Stormsword                              | $197   | 1x Stormsword                                | https://www.warhammer.com/en-US/shop/astra-militarum-stormsword-2023                    | Alternate build kit: Banehammer, Banesword, Hellhammer, Stormlord, Stormsword, Doomhammer, or Shadowsword                  |
+| Hydra                                         | Hydra                                   | $69    | 1x Hydra                                     | https://www.warhammer.com/en-US/shop/Astra-Militarum-Hydra                              | Alternate build kit: Wyvern                                                                                                |
+| Wyvern                                        | Wyvern                                  | $69    | 1x Wyvern                                    | https://www.warhammer.com/en-US/shop/Astra-Militarum-Wyvern                             | Alternate build kit: Hydra                                                                                                 |
+| Chimera                                       | Chimera                                 | $65    | 1x Chimera                                   | https://www.warhammer.com/en-US/shop/Imperial-Guard-Chimera                             |                                                                                                                            |
+| Leman Russ Battle Tank                        | Leman Russ Battle Tank                  | $70    | 1x Leman Russ                                | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Leman Russ Demolisher                         | Leman Russ Demolisher                   | $70    | 1x Leman Russ Demolisher                     | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Leman Russ Eradicator                         | Leman Russ Eradicator                   | $70    | 1x Leman Russ Eradicator                     | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Leman Russ Executioner                        | Leman Russ Executioner                  | $70    | 1x Leman Russ Executioner                    | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Leman Russ Exterminator                       | Leman Russ Exterminator                 | $70    | 1x Leman Russ Exterminator                   | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Leman Russ Punisher                           | Leman Russ Punisher                     | $70    | 1x Leman Russ Punisher                       | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Leman Russ Vanquisher                         | Leman Russ Vanquisher                   | $70    | 1x Leman Russ Vanquisher                     | https://www.warhammer.com/en-US/shop/astra-militarum-leman-russ-battle-tank-2023        | Alternate build kit: Demolisher, Eradicator, Executioner, Exterminator, Punisher, Vanquisher, Commander, Leman Russ        |
+| Sentinel                                      | Armoured Sentinels                      | $48    |                                              | https://www.warhammer.com/en-US/shop/astra-militarum-armoured-sentinel-2023             | Alternate build kit: Scout Sentinel                                                                                        |
+| Sentinel                                      | Scout Sentinels                         | $48    |                                              | https://www.warhammer.com/en-US/shop/astra-militarum-scout-sentinel-2023                | Alternate build kit: Armoured Sentinel                                                                                     |
+| Valkyrie                                      | Valkyrie                                | $96    | 1x Valkyrie                                  | https://www.warhammer.com/en-US/shop/Imperial-Guard-Valkyrie                            |                                                                                                                            |
+| Avenger Strike Fighter                        | Avenger Strike Fighter                  | $205   | 1x Avenger Strike Fighter                    | https://www.warhammer.com/en-US/shop/Imperial-Navy-Avenger-Strike-Fighter               | Online only                                                                                                                |
+| Basilisk                                      | Basilisk                                | $69    | 1x Basilisk                                  | https://www.warhammer.com/en-US/shop/Imperial-Guard-Basilisk                            | Online only                                                                                                                |
+| Cyclops Demolition Vehicle                    | Cyclops Demolition Vehicle              | $31    | 1x Cyclops Demolition Vehicle                | https://www.warhammer.com/en-US/shop/Cyclops-Demolition-Vehicle                         | Online only                                                                                                                |
+| Deathstrike                                   | Deathstrike                             | $69    | 1x Deathstrike                               | https://www.warhammer.com/en-US/shop/Imperial-Guard-Deathstrike                         | Online only; Alternate build kit: Manticore                                                                                |
+| Hellhound                                     | Hellhound                               | $65    | 1x Hellhound                                 | https://www.warhammer.com/en-US/shop/Imperial-Guard-Hellhound                           | Online only                                                                                                                |
+| Manticore                                     | Manticore                               | $69    | 1x Manticore                                 | https://www.warhammer.com/en-US/shop/Astra-Militarum-Manticore                          | Online only; Alternate build kit: Deathstrike                                                                              |
+| Rogal Dorn Battle Tank                        | Rogal Dorn Battle Tank                  | $108   | 1x Rogal Dorn                                | https://www.warhammer.com/en-US/shop/astra-militarum-rogal-dorn-battle-tank-2023        |                                                                                                                            |
+| Taurox                                        | Taurox                                  | $60    | 1x Taurox                                    | https://www.warhammer.com/en-US/shop/Taurox                                             | Online only; Alternate build kit: Taurox Prime                                                                             |
+| Taurox Prime                                  | Taurox Prime                            | $60    | 1x Taurox Prime                              | https://www.warhammer.com/en-US/shop/Taurox-Prime                                       | Online only; Alternate build kit: Taurox                                                                                   |
+| Combat Patrol: Astra Militarum                | Multi-Unit Kit                          | $170   | See Notes                                    | https://www.warhammer.com/en-US/shop/combat-patrol-astra-militarum-2025                 | 1x Cadian Command Kit, 1x Kasrkin Kit, 2x Attilan Rough Riders Kit                                                         |
+
+### Astra Militarum Command Squad Models
+
+#### Cadian Command Squad
+
+- Cadian Commander
+- Cadian Veteran Guardsman (aka the Cadian Veteran Guardsman Bodyguard)
+- Cadian Veteran Guardsman with Master Vox
+- Cadian Veteran Guardsman with Regimental Standard
+- Cadian Veteran Guardsman with Medi-Pack
+
+- Alternate Builds: The Cadian Veteran Guardsman Bodyguard, who is supposed to be armed with a chainsword, power sword, or power fist, can alternatively be armed as a weapons specialist with a flamer, grenade launcher, meltagun or plasma gun.
+- Alternate Builds 2: The Cadian Veteran Guardsman with Regimental Standard can alternatively be built as a weapons specialist with a flamer, grenade launcher, meltagun or plasma gun.
+
+#### Catachan Command Squad
+
+- Catachan Commander
+- Catachan Veteran Guardsman with Special Weapon
+- Catachan Veteran Guardsman with Master Vox
+- Catachan Veteran Guardsman with Regimental Standard
+- Catachan Veteran Guardsman with Medi-Pack
+
+- Alternate Builds: The Master Vox, Regimental Standard, and Medi-Pack guardsmen can alternatively be built with special weapons as well. Special weapons include one each of: flamer, grenade launcher, heavy flamer, meltagun, plasma gun, sniper rifle.
+- Alternate Builds 2: Any of the 4 veteran guardsmen can be built with a standard loadout instead of special weapons--i.e. a close combat weapon, lasgun, and laspistol.
+
+#### Krieg Command Squad
+
+- Lord Commissar
+- Veteran Guardsman with Alchemyk counteragents
+- Veteran Guardsman with Boltgun
+- Veteran Guardsman with Chainsword
+- Veteran Guardsman with Master Vox
+- Veteran Guardsman with Regimental Standard
+- Servo-scribes (a token, not a unit model)
+
+- Alternate Builds: The Veteran Guardsman with Boltgun may instead of the Boltgun take a Flamer, Grenade Launcher, Meltagun, or Plasma Gun
+- Alternate Builds 2: The Veteran Guardsman with Chainsword may instead of the Chainsword, take a Power Weapon or Trench Club, and instead of the Las Pistol take a Bolt Pistol or Plasma Pistol
+
+#### Militarum Tempestus Command Squad
+
+- Tempestor Prime
+- Tempestus Scion with Hot-shot Lasgun
+- Tempestus Scion with Master Vox
+- Tempestus Scion with Regimental Standard
+- Tempestus Scion with Medi-Pack
+
+- Alternate Builds: Any ONE of the Tempestus Scions can instead have Flamer, Grenade Launcher, Hot Shot Volley Gun, Meltagun, Plasma Gun; The other 3 must be the specialists above or have hot-shot lasguns.
+
+#### Gaunt's Ghosts
+
+- Colonel Commissar Ibram Gaunt
+- 1x Tanith Ghost armed with Bragg's Autocannon
+- 1x Tanith Ghost armed with Corbec's Hot-Shot Lascarbine
+- 1x Tanith Ghost armed with Larkin's Long-las
+- 1x Tanith Ghost armed with Mkoll's Straight Silver Knife
+- 1x Tanith Ghost armed with Rawne's Lascarbine
+
+Alternatively thought of as:
+
+- 1 Commissar
+- 1x Tanith Veteran Guardsman with Autocannon
+- 1x Tanith Veteran Guardsman with Sniper Rifle
+- 1x Tanith Veteran Guardsman with Hot-Shot Lascarbine
+- 1x Tanith Veteran Guardsman with Power Combat Weapon and Lascarbine
+- 1x Tanith Veteran Guardsman with Specialist Lascarbine and Close Combat Weapon
 
 ### Astra Militarum Units with no kit data
 
@@ -444,36 +519,24 @@ _Unit Model Options_
 | Arvus Lighter (Legends)                  |       |
 | Atlas Recovery Vehicle (Legends)         |       |
 | Augmented Bone 'Ead [Crucible]           |       |
-| Bullgryn Squad                           |       |
-| Cadian Recon Squad                       |       |
 | Carnodon (Legends)                       |       |
 | Centaur Light Carrier (Legends)          |       |
-| Centaur RSV                              |       |
 | Colossus (Legends)                       |       |
 | Crassus (Legends)                        |       |
 | Death Korps Grenadier Squad (Legends)    |       |
 | Death Rider Commissar (Legends)          |       |
 | Dominus Armoured Siege Bombard (Legends) |       |
 | Earthshaker Carriage Battery (Legends)   |       |
-| Earthshaker Platform (Legends)           |       |
 | Elysian Drop Sentinel (Legends)          |       |
 | Elysian Sniper Squad (Legends)           |       |
 | Front-line Commander [Crucible]          |       |
-| Gaunt\u2019s Ghosts                      |       |
 | Gorgon Heavy Transport (Legends)         |       |
 | Griffon Mortar Carrier (Legends)         |       |
 | Hades Breaching Drill (Legends)          |       |
 | Heavy Mortar Team (Legends)              |       |
 | Heavy Quad Launcher Team (Legends)       |       |
 | Hell's Last (Legends)                    |       |
-| Hippogriff AFV                           |       |
-| Hydra Platform (Legends)                 |       |
-| Leman Russ Commander                     |       |
-| Leman Russ Eradicator                    |       |
-| Leman Russ Executioner                   |       |
-| Leman Russ Exterminator                  |       |
-| Leman Russ Punisher                      |       |
-| Leman Russ Vanquisher                    |       |
+| 'Iron Hand' Straken (Legends)            |       |
 | Macharius (Legends)                      |       |
 | Macharius Omega (Legends)                |       |
 | Macharius Vanquisher (Legends)           |       |
@@ -482,40 +545,34 @@ _Unit Model Options_
 | Malcador Annihilator (Legends)           |       |
 | Malcador Defender (Legends)              |       |
 | Malcador Infernus (Legends)              |       |
-| Manticore Platform (Legends)             |       |
 | Marauder Bomber (Legends)                |       |
 | Marauder Destroyer (Legends)             |       |
 | Medusa Carriage Battery (Legends)        |       |
 | Minotaur (Legends)                       |       |
 | Mukaali Riders (Legends)                 |       |
 | Munitorum Servitors (Legends)            |       |
-| Ogryn Bodyguard                          |       |
-| Ogryn Squad                              |       |
+| Praetor (Legends)                        |       |
 | Provisionally Prepared (Legends)         |       |
 | Quartermaster Cadre Squad (Legends)      |       |
 | Rapier Laser Destroyer Battery (Legends) |       |
-| Regimental Attach\u00e9s (Legends)       |       |
 | Rein and Raus (Legends)                  |       |
-| Rogal Dorn Commander                     |       |
-| Sabre Weapons Battery (Legends)          |       |
 | Salamander Command Vehicle (Legends)     |       |
 | Salamander Scout Vehicle (Legends)       |       |
 | Sentinel Commander [Crucible]            |       |
 | Sentinel Powerlifter (Legends)           |       |
 | Sergeant Harker (Legends)                |       |
-| Storm Chimera (Legends)                  |       |
 | Stormblade (Legends)                     |       |
 | Stygies Destroyer Tank Hunter (Legends)  |       |
 | Tarantula Battery (Legends)              |       |
 | Tauros Assault Vehicle (Legends)         |       |
 | Tauros Venator (Legends)                 |       |
+| Thunderbolt Heavy Fighter                |       |
 | Trojan Support Vehicle (Legends)         |       |
 | Valdor (Legends)                         |       |
 | Valkyrie Sky Talon (Legends)             |       |
 | Vendetta Gunship (Legends)               |       |
 | Voss-pattern Lightning (Legends)         |       |
 | Vulture Gunship (Legends)                |       |
-| \u2018Iron Hand\u2019 Straken (Legends)  |       |
 
 ---
 
@@ -523,24 +580,25 @@ _Unit Model Options_
 
 ### Black Templars Kits
 
-| Kit                           | Unit(s)                                                                                         | Prices      | Models (Manually Added)                      | Warhammer Kit URL (Manually Added) | Notes |
-| ----------------------------- | ----------------------------------------------------------------------------------------------- | ----------- | -------------------------------------------- | ---------------------------------- | ----- |
-| Combat Patrol: Black Templars | Emperor's Champion ×1; Bladeguard Veteran Squad ×3; Sword Brethren Squad ×5; Crusader Squad ×10 | £105 / €135 | 19                                           | —                                  | —     |
-| Marshal                       | Marshal                                                                                         | —           | 1x Marshal                                   | https://tinyurl.com/24lrt7sn       |       |
-| Castellan                     | Castellan                                                                                       | —           | 1x Castellan                                 | https://tinyurl.com/264j7byr       |       |
-| Emperor's Champion            | Emperor's Champion                                                                              | —           | 1x Emperor's Champion                        | https://tinyurl.com/26y8j7w2       |       |
-| Grimaldus and Retinue         | Chaplain Grimaldus                                                                              | —           | 1x Chaplain Grimaldus, 3x Cenobyte Servitors | https://tinyurl.com/29audakf       |       |
-| High Marshal Helbrecht        | High Marshal Helbrecht                                                                          | —           | 1x High Marshal Helbrecht                    | https://tinyurl.com/24tuxslr       |       |
-| Sword Brethren                | Sword Brethren Squad                                                                            | —           | 5x Sword Brethren                            | https://tinyurl.com/277j46vy       |       |
-| Crusade Ancient               | Crusade Ancient                                                                                 | —           | 1x Crusade Ancient                           | https://tinyurl.com/288449aw       |       |
-| Execrator                     | Execrator                                                                                       | —           | 1x Execrator                                 | https://tinyurl.com/2bvaxoq5       |       |
+| Kit                           | Unit(s)                  | Prices | Models (Manually Added)                      | Warhammer Kit URL (Manually Added)                                               | Notes                                                                                               |
+| ----------------------------- | ------------------------ | ------ | -------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| Combat Patrol: Black Templars | Multi-Unit Kit           | $170   | See Notes                                    | https://www.warhammer.com/en-US/shop/combat-patrol-black-templars-2025           | 1x Emperor's Champion, 1x Bladeguard Veterans Kit, 1x Sword Brethren Kit, 1x Primaris Crusaders Kit |
+| Marshal                       | Marshal                  | $39    | 1x Marshal                                   | https://www.warhammer.com/en-US/shop/black-templars-marshal-2021                 |                                                                                                     |
+| Castellan                     | Castellan                | $39    | 1x Castellan                                 | https://www.warhammer.com/en-US/shop/black-templars-castellan-2021               |                                                                                                     |
+| Emperor's Champion            | Emperor's Champion       | $43.50 | 1x Emperor's Champion                        | https://www.warhammer.com/en-US/shop/black-templars-emperors-champion-2021       |                                                                                                     |
+| Grimaldus and Retinue         | Chaplain Grimaldus       | $60    | 1x Chaplain Grimaldus, 3x Cenobyte Servitors | https://www.warhammer.com/en-US/shop/black-templars-grimaldus-and-retinue-2021   |                                                                                                     |
+| High Marshal Helbrecht        | High Marshal Helbrecht   | $60    | 1x High Marshal Helbrecht                    | https://www.warhammer.com/en-US/shop/black-templars-high-marshal-helbrecht-2021  |                                                                                                     |
+| Sword Brethren                | Sword Brethren Squad     | $65    | 5x Sword Brethren                            | https://www.warhammer.com/en-US/shop/black-templars-sword-brethren-2021          |                                                                                                     |
+| Crusade Ancient               | Crusade Ancient          | $43.50 | 1x Crusade Ancient                           | https://www.warhammer.com/en-US/shop/black-templars-crusade-ancient-2025         |                                                                                                     |
+| Execrator                     | Execrator                | $42    | 1x Execrator                                 | https://www.warhammer.com/en-US/shop/black-templars-execrator-2025               |                                                                                                     |
+| Primaris Crusaders Squad      | Primaris Crusaders Squad | $65    | 1x Sword Brother, 5x Initiates, 4x Neophytes | https://www.warhammer.com/en-US/shop/black-templars-primaris-crusader-squad-2021 | Alternate build kit: 6x Initiates                                                                   |
 
 ### Black Templars Units with no kit data
 
 | Unit                          | Notes |
 | ----------------------------- | ----- |
-| Crusader Squad (Legends)      | —     |
-| Emperor's Champion (Anointed) | —     |
+| Crusader Squad (Legends)      |       |
+| Emperor's Champion (Anointed) |       |
 
 ---
 
@@ -548,63 +606,43 @@ _Unit Model Options_
 
 ### Blood Angels Kits
 
-| Kit                                                  | Unit(s)                                            | Prices      | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ---------------------------------------------------- | -------------------------------------------------- | ----------- | ----------------------- | ---------------------------------- | ----- |
-| Battleforce: Blood Angels Crimson Spear Strike Force | —                                                  | —           | —                       | —                                  | —     |
-| Assault Squad                                        | —                                                  | —           | —                       | —                                  | —     |
-| Captain: Terminator Armour                           | —                                                  | £52 / €67   | —                       | —                                  | —     |
-| Chaplain With Jump Pack                              | —                                                  | —           | —                       | —                                  | —     |
-| Chapter Ancients                                     | —                                                  | —           | —                       | —                                  | —     |
-| Company Command                                      | —                                                  | —           | —                       | —                                  | —     |
-| Death Company                                        | —                                                  | —           | —                       | —                                  | —     |
-| Death Company Strike Force                           | —                                                  | —           | —                       | —                                  | —     |
-| Furioso Dreadnought                                  | —                                                  | —           | —                       | —                                  | —     |
-| Mephiston, Lord of Death                             | —                                                  | —           | —                       | —                                  | —     |
-| Primaris Aggressors                                  | —                                                  | —           | —                       | —                                  | —     |
-| Primaris Hellblasters                                | —                                                  | —           | —                       | —                                  | —     |
-| Primaris Intercessors                                | —                                                  | —           | —                       | —                                  | —     |
-| Sanguinary Guard                                     | Sanguinary Guard (unconfirmed)                     | £52 / €67   | —                       | —                                  | —     |
-| Sanguinary Priest                                    | —                                                  | —           | —                       | —                                  | —     |
-| Sternguard Veteran Squad                             | —                                                  | —           | —                       | —                                  | —     |
-| Tactical Squad                                       | —                                                  | —           | —                       | —                                  | —     |
-| Terminator Assault Squad                             | —                                                  | —           | —                       | —                                  | —     |
-| Upgrades                                             | —                                                  | —           | —                       | —                                  | —     |
-| Vanguard Veteran Squad                               | —                                                  | —           | —                       | —                                  | —     |
-| Blood Angels: Death Company Intercessors             | —                                                  | —           | —                       | —                                  | —     |
-| Combat Patrol: Blood Angels                          | 10× Assault Intercessors; 2× Blood Angels Upgrades | £105 / €135 | 12                      | —                                  | —     |
-| Start Collecting! Blood Angels                       | —                                                  | —           | —                       | —                                  | —     |
+| Kit                                         | Unit(s)                        | Prices | Models (Manually Added)           | Warhammer Kit URL (Manually Added)                                             | Notes                                                                                            |
+| ------------------------------------------- | ------------------------------ | ------ | --------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| Combat Patrol: Blood Angels                 | Multi-Unit Kit                 | $170   | See notes                         | https://www.warhammer.com/en-US/shop/combat-patrol-blood-angels-2024           | 1x Captain, 2x Sanguinary Guard kits, 1x Assault Intercessors kit, 2x Blood Angels Upgrades kits |
+| Commander Dante                             | Commander Dante                | $48    | 1x Commander Dante                | https://www.warhammer.com/en-US/shop/blood-angels-commander-dante-2023         |                                                                                                  |
+| Mephiston                                   | Mephiston                      | $48    | 1x Mephiston                      | https://www.warhammer.com/en-US/shop/Mephiston-Lord-of-Death-2020              |                                                                                                  |
+| Baal Predator                               | Baal Predator                  | $80    | 1x Baal Predator                  | https://www.warhammer.com/en-US/shop/Blood-Angels-Baal-Predator                | Online only                                                                                      |
+| Blood Angels Chaplain with Jump Pack        | Chaplain with Jump Pack        | $39    | 1x Chaplain with Jump Pack        | https://www.warhammer.com/en-US/shop/Blood-Angels-Chaplain-with-Jump-Pack-2020 |                                                                                                  |
+| Blood Angels Librarian in Terminator Armour | Librarian in Terminator Armour | $35    | 1x Librarian in Terminator Armour | https://www.warhammer.com/en-US/shop/Blood-Angels-Terminator-Librarian-2014    | Online only                                                                                      |
+| Astorath the Grim                           | Astorath the Grim              | $47    | 1x Astorath the Grim              | https://www.warhammer.com/en-US/shop/blood-angels-astorath-the-grim-2024       |                                                                                                  |
+| The Sanguinor                               | The Sanguinor                  | $47    | 1x The Sanguinor                  | https://www.warhammer.com/en-US/shop/blood-angels-the-sanguinor-2024           |                                                                                                  |
+| Sanguinary Guard                            | Sanguinary Guard               | $60    | 3x Sanguinary Guard               | https://www.warhammer.com/en-US/shop/blood-angels-sanguinary-guard-2024        |                                                                                                  |
+| Blood Angels Captain                        | Captain                        | $43.50 | 1x Captain                        | https://www.warhammer.com/en-US/shop/blood-angels-captain-2024                 |                                                                                                  |
+| Sanguinary Priest                           | Sanguinary Priest              | $42    | 1x Sanguinary Priest              | https://www.warhammer.com/en-US/shop/blood-angels-sanguinary-priest-2024       |                                                                                                  |
+| Lemartes                                    | Lemartes                       | $47    | 1x Lemartes                       | https://www.warhammer.com/en-US/shop/blood-angels-lemartes-2024                |                                                                                                  |
 
 ### Blood Angels Units with no kit data
 
 | Unit                                                         | Notes |
 | ------------------------------------------------------------ | ----- |
-| Astorath                                                     | —     |
-| Baal Predator                                                | —     |
-| Blood Angels Captain                                         | —     |
-| Brother Corbulo (Legends)                                    | —     |
-| Captain Tycho (Legends)                                      | —     |
-| Chief Librarian Mephiston                                    | —     |
-| Commander Dante                                              | —     |
-| Death Company Captain                                        | —     |
-| Death Company Captain with Jump Pack                         | —     |
-| Death Company Dreadnought                                    | —     |
-| Death Company Dreadnought with Magna-Grapple (Legends)       | —     |
-| Death Company Intercessors                                   | —     |
-| Death Company Marines                                        | —     |
-| Death Company Marines with Bolt Rifles                       | —     |
-| Death Company Marines with Boltguns (Legends)                | —     |
-| Death Company Marines with Boltguns and Jump Packs (Legends) | —     |
-| Death Company Marines with Jump Packs                        | —     |
-| Furioso Dreadnought (Legends)                                | —     |
-| Gabriel Seth (Legends)                                       | —     |
-| Lemartes                                                     | —     |
-| Librarian Dreadnought (Legends)                              | —     |
-| Sanguinary Guard                                             | —     |
-| Sanguinary Priest                                            | —     |
-| Sanguinary Priest on Bike (Legends)                          | —     |
-| Sanguinary Priest with Jump Pack (Legends)                   | —     |
-| The Sanguinor                                                | —     |
-| Tycho the Lost (Legends)                                     | —     |
+| Brother Corbulo (Legends)                                    |       |
+| Captain Tycho (Legends)                                      |       |
+| Death Company Captain                                        |       |
+| Death Company Captain with Jump Pack                         |       |
+| Death Company Dreadnought                                    |       |
+| Death Company Dreadnought with Magna-Grapple (Legends)       |       |
+| Death Company Intercessors                                   |       |
+| Death Company Marines                                        |       |
+| Death Company Marines with Bolt Rifles                       |       |
+| Death Company Marines with Boltguns (Legends)                |       |
+| Death Company Marines with Boltguns and Jump Packs (Legends) |       |
+| Death Company Marines with Jump Packs                        |       |
+| Furioso Dreadnought (Legends)                                |       |
+| Gabriel Seth (Legends)                                       |       |
+| Librarian Dreadnought (Legends)                              |       |
+| Sanguinary Priest on Bike (Legends)                          |       |
+| Sanguinary Priest with Jump Pack (Legends)                   |       |
+| Tycho the Lost (Legends)                                     |       |
 
 ---
 
@@ -612,53 +650,61 @@ _Unit Model Options_
 
 ### Chaos Daemons Kits
 
-| Kit                                                | Unit(s)                           | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| -------------------------------------------------- | --------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Ahriman Arch-Sorcerer of Tzeentch                  |                                   |        |                         |                                    |       |
-| Be'lakor, the Dark Master                          | Be'lakor                          |        |                         |                                    |       |
-| Bloodmaster, Herald of Khorne                      | Bloodmaster                       |        |                         |                                    |       |
-| Bloodthirster                                      | Bloodthirster                     |        |                         |                                    |       |
-| Changecaster                                       | Changecaster                      |        |                         |                                    |       |
-| Daemon Prince                                      | Daemon Prince of Chaos            |        |                         |                                    |       |
-| Daemon Prince                                      | Daemon Prince of Chaos with wings |        |                         |                                    |       |
-| Exalted Flamer of Tzeentch                         | Exalted Flamer                    |        |                         |                                    |       |
-| Fateskimmer, Herald of Tzeentch on Burning Chariot | Fateskimmer                       |        |                         |                                    |       |
-| Great Unclean One                                  | Great Unclean One                 |        |                         |                                    |       |
-| Horticulous Slimux                                 | Horticulous Slimux                |        |                         |                                    |       |
-| Infernal Enrapturess                               | Infernal Enrapturess              |        |                         |                                    |       |
-| Kairos Fateweaver                                  | Kairos Fateweaver                 |        |                         |                                    |       |
-| Karanak                                            | Karanak                           |        |                         |                                    |       |
-| Keeper of Secrets                                  | Keeper of Secrets                 |        |                         |                                    |       |
-| Lord of Change                                     | Lord of Change                    |        |                         |                                    |       |
-| Poxbringer                                         | Poxbringer                        |        |                         |                                    |       |
-| Rotigus                                            | Rotigus                           |        |                         |                                    |       |
-| Shalaxi Helbane                                    | Shalaxi Helbane                   |        |                         |                                    |       |
-| Skarbrand                                          | Skarbrand                         |        |                         |                                    |       |
-| Skulltaker                                         | Skulltaker                        |        |                         |                                    |       |
-| Sloppity Bilepiper                                 | Sloppity Bilepiper                |        |                         |                                    |       |
-| Syll'Esske: The Vengeful Allegiance                | Syll'esske                        |        |                         |                                    |       |
-| The Changeling                                     | The Changeling                    |        |                         |                                    |       |
-| The Contorted Epitome                              | Contorted Epitome                 |        |                         |                                    |       |
-| The Masque                                         | The Masque of Slaanesh            |        |                         |                                    |       |
-| Bloodcrushers                                      | Bloodcrushers                     |        |                         |                                    |       |
-| Bloodletters                                       | Bloodletters                      |        |                         |                                    |       |
-| Blue Horrors and Brimstone Horrors                 | Blue Horrors                      |        |                         |                                    |       |
-| Daemonettes of Slaanesh                            | Daemonettes                       |        |                         |                                    |       |
-| Fiends                                             | Fiends                            |        |                         |                                    |       |
-| Flamers                                            | Flamers                           |        |                         |                                    |       |
-| Flesh Hounds                                       | Flesh Hounds                      |        |                         |                                    |       |
-| Nurglings                                          | Nurglings                         |        |                         |                                    |       |
-| Pink Horrors                                       | Pink Horrors                      |        |                         |                                    |       |
-| Plague Drones                                      | Plague Drones                     |        |                         |                                    |       |
-| Plaguebearers                                      | Plaguebearers                     |        |                         |                                    |       |
-| Screamers                                          | Screamers                         |        |                         |                                    |       |
-| Witchseekers                                       | Seekers                           |        |                         |                                    |       |
-| Fateskimmer, Herald of Tzeentch on Burning Chariot | Burning Chariot                   |        |                         |                                    |       |
-| Skull Cannon                                       | Skull Cannon                      |        |                         |                                    |       |
-| Soul Grinder                                       | Khorne Soul Grinder               |        |                         |                                    |       |
-| Soul Grinder                                       | Nurgle Soul Grinder               |        |                         |                                    |       |
-| Soul Grinder                                       | Slaanesh Soul Grinder             |        |                         |                                    |       |
-| Soul Grinder                                       | Tzeentch Soul Grinder             |        |                         |                                    |       |
+| Kit                                                | Unit(s)                           | Prices | Models (Manually Added)                 | Warhammer Kit URL (Manually Added)                                                          | Notes                                                                          |
+| -------------------------------------------------- | --------------------------------- | ------ | --------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --- |
+| Be'lakor, the Dark Master                          | Be'lakor                          | $170   | 1x Be'lakor                             | https://www.warhammer.com/en-US/shop/Chaos-Daemons-Belakor-The-Dark-Master-2021             |                                                                                |
+| Rendmaster, Herald of Khorne                       | Rendmaster                        | $48    | 1x Rendmaster                           | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodthrone                          | Online only                                                                    |
+| Bloodthirster                                      | Bloodthirster                     | $170   | 1x Bloodthirster                        | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodthirster                        | Alternate build kit: Skarbrand                                                 |
+| Changecaster                                       | Changecaster                      | $60    | 1x Changecaster                         | https://www.warhammer.com/en-US/shop/changecaster-2022                                      | Online only                                                                    |
+| Daemon Prince                                      | Daemon Prince of Chaos            | $89    | 1x Daemon Prince                        | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                  | Alternate build kit: Daemon Prince with Wings                                  |
+| Daemon Prince                                      | Daemon Prince of Chaos with wings | $89    | 1x Daemon Prince with Wings             | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                  | Alternate build kit: Daemon Prince                                             |
+| Exalted Flamer of Tzeentch                         | Exalted Flamer                    | $60    | 1x Exalted Flamer of Tzeentch           | https://www.warhammer.com/en-US/shop/Exalted-Flamer-of-Tzeentch                             | Online only                                                                    |
+| Fateskimmer, Herald of Tzeentch on Burning Chariot | Fateskimmer                       | $60    | 1x Fateskimmer                          | https://www.warhammer.com/en-US/shop/herald-of-tzeentch-on-burning-chariot-2016             | Online only                                                                    |
+| Great Unclean One                                  | Great Unclean One                 | $170   | 1x Great Unclean One                    | https://www.warhammer.com/en-US/shop/Great-Unclean-One-2018                                 | Alternate build kit: Rotigus                                                   |
+| Horticulous Slimux                                 | Horticulous Slimux                | $65    | 1x Horticulous Slimux                   | https://www.warhammer.com/en-US/shop/Horticulous-Slimux-2018                                | Online only                                                                    |
+| Infernal Enrapturess                               | Infernal Enrapturess              | $48    | 1x Infernal Enrapturess                 | https://www.warhammer.com/en-US/shop/Infernal-Enrapturess-2019                              | Online only                                                                    |
+| Kairos Fateweaver                                  | Kairos Fateweaver                 | $170   | 1x Kairos Fateweaver                    | https://www.warhammer.com/en-US/shop/Kairos-Fateweaver-2017                                 |                                                                                |
+| Karanak                                            | Karanak                           | $43.50 | 1x Karanak                              | https://www.warhammer.com/en-US/shop/Karanak-the-Hound-of-Vengeance-2019                    | Online only                                                                    |
+| Keeper of Secrets                                  | Keeper of Secrets                 | $170   | 1x Keeper of Secrets                    | https://www.warhammer.com/en-US/shop/Keeper-of-Secrets-2019                                 | Alternate build kit: Shalaxi Helbane                                           |
+| Lord of Change                                     | Lord of Change                    | $170   | 1x Lord of Change                       | https://www.warhammer.com/en-US/shop/lord-of-change-2016                                    |                                                                                |
+| Poxbringer                                         | Poxbringer                        | $35    | 1x Poxbringer                           | https://www.warhammer.com/en-US/shop/Poxbringer-Herald-Of-Nurgle-2018                       | Online only                                                                    |
+| Rotigus                                            | Rotigus                           | $170   | 1x Rotigus                              | https://www.warhammer.com/en-US/shop/Rotigus-Rainmaker                                      | Alternate build kit: Great Unclean One                                         |
+| Shalaxi Helbane                                    | Shalaxi Helbane                   | $170   | 1x Shalaxi Helbane                      | https://www.warhammer.com/en-US/shop/Shalaxi-Hellbane-2019                                  | Alternate build kit: Keeper of Secrets                                         |
+| Skarbrand                                          | Skarbrand                         | $170   | 1x Skarbrand                            | https://www.warhammer.com/en-US/shop/Skarbrand-Bloodthirster                                | Alternate build kit: Bloodthirster                                             |
+| Skulltaker                                         | Skulltaker                        | $43.50 | 1x Skulltaker                           | https://www.warhammer.com/en-US/shop/Skulltaker-2019                                        |                                                                                |
+| Sloppity Bilepiper                                 | Sloppity Bilepiper                | $39    | 1x Sloppity Bilepiper                   | https://www.warhammer.com/en-US/shop/Sloppity-Bilepiper-Herald-Of-Nurgle-2018               |                                                                                |
+| Syll'Esske: The Vengeful Allegiance                | Syll'esske                        | $60    | 1x Syll'esske                           | https://www.warhammer.com/en-US/shop/The-Vengeful-Allegiance-2019                           | Online only                                                                    |
+| The Changeling                                     | The Changeling                    | $39    | 1x The Changeling                       | https://www.warhammer.com/en-US/shop/the-changeling-2016                                    | Online only                                                                    |
+| The Contorted Epitome                              | Contorted Epitome                 | $60    | 1x The Contorted Epitome                | https://www.warhammer.com/en-US/shop/The-Contorted-Epitome-2019                             | Online only                                                                    |
+| The Masque                                         | The Masque of Slaanesh            | $39    | 1x The Masque of Slaanesh               | https://www.warhammer.com/en-US/shop/The-Masque-2019                                        |                                                                                |
+| Beast of Nurgle                                    | Beasts of Nurgle                  | $60    | 1x Beast of Nurgle                      | https://www.warhammer.com/en-US/shop/Beast-Of-Nurgle-2018                                   |                                                                                |
+| Bloodcrushers                                      | Bloodcrushers                     | $110   | 1x Bloodhunter, 2x Bloodcrushers        | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodcrushers                        | Online only; Alternate build: 3x bloodcrushers                                 |
+| Bloodletters                                       | Bloodletters                      | $43.50 | 1x Bloodreaper, 9x Bloodletters         | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodletters-40k-2017                | Alternate build: 10x bloodletters                                              |
+| Blue Horrors and Brimstone Horrors                 | Blue Horrors                      | $48    | 10x Blue Horrors, 10x Brimstone Horrors | https://www.warhammer.com/en-US/shop/blue-horrors-2016                                      |                                                                                |
+| Burning Chariot of Tzeentch                        | Burning Chariot                   | $60    | 1x Burning Chariot                      | https://www.warhammer.com/en-US/shop/Burning-Chariot-of-Tzeentch                            | Online only; Alternate build: see below this table.                            |
+| Daemonettes of Slaanesh                            | Daemonettes                       | $43.50 | 1x Alluress, 9x Daemonettes             | https://www.warhammer.com/en-US/shop/Nurglings-2017                                         | Alternate build: 10x daemonettes                                               |
+| Fiends                                             | Fiends                            | $60    | 3x Fiends of Slaanesh                   | https://www.warhammer.com/en-US/shop/Fiends-of-Slaanesh-2019                                | Online only                                                                    |
+| Flamers                                            | Flamers                           | $39    | 1x Pyrocaster, 2x Flamers               | https://www.warhammer.com/en-US/shop/flamers-of-tzeentch-2017                               | Alternate build: 3x flamers                                                    |     |
+| Flesh Hounds                                       | Flesh Hounds                      | $60    | 1x Gore Hound, 4x Flesh Hounds          | https://www.warhammer.com/en-US/shop/Flesh-Hounds-2019                                      | Alternate build: 5x Flesh Hounds                                               |
+| Nurglings                                          | Nurglings                         | $39    | 3x Swarms of Nurglings                  | https://www.warhammer.com/en-US/shop/Nurglings-2017                                         |                                                                                |
+| Pink Horrors                                       | Pink Horrors                      | $48    | 10x Pink Horrors                        | https://www.warhammer.com/en-US/shop/pink-horrors-2018                                      |                                                                                |
+| Plague Drones                                      | Plague Drones                     | $65    | 1x Plaguebringer, 2x Plague Drones      | https://www.warhammer.com/en-US/shop/plague-drones-of-nurgle-2017                           | Online only                                                                    |
+| Plaguebearers                                      | Plaguebearers                     | $43.50 | 1x Plagueridden, 9x Plaguebearers       | https://www.warhammer.com/en-US/shop/Chaos-Daemons-Plaguebearers-of-Nurgle-2018             | Alternate build: 10x plaguebearers                                             |
+| Screamers                                          | Screamers                         | $39    | 3x Screamers                            | https://www.warhammer.com/en-US/shop/screamers-2016                                         | Online only                                                                    |
+| Skull Cannon                                       | Skull Cannon                      | $48    | 1x Skull Cannon                         | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Skull-Cannon                         | Online only                                                                    |
+| Soul Grinder                                       | Khorne Soul Grinder               | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
+| Soul Grinder                                       | Nurgle Soul Grinder               | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
+| Soul Grinder                                       | Slaanesh Soul Grinder             | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
+| Soul Grinder                                       | Tzeentch Soul Grinder             | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
+| Spearhead: Blades of Khorne                        | Multi-Unit Kit                    | $150   | See notes                               | https://www.warhammer.com/en-US/shop/spearhead-blades-of-khorne-fangs-of-the-blood-god-2025 |                                                                                |
+
+#### Burning Chariot of Tzeentch & Fateskimmer
+
+Burning Chariot:
+"This extensive kit includes the components necessary to assemble a wide variety of Tzeentch models – in addition to a Burning Chariot, it can be used to also build a Changecaster. Alternatively, it can be used to assemble both an Exalted Flamer and a Fateskimmer or Changecaster, as well as three Blue Horrors."
+
+Fateskimmer:
+"This extensive kit includes the components necessary to assemble a wide variety of Tzeentch models – in addition to a Fateskimmer, it can be used to also build an Exalted Flamer and three Blue Horrors. Alternatively, it can be used to assemble a Changecaster and either an Exalted Flamer or a Burning Chariot."
 
 ### Chaos Daemons Units with no kit data
 
@@ -947,23 +993,23 @@ _Unit Model Options_
 
 ### Deathwatch Kits
 
-| Kit                                                           | Unit(s)                     | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------- | --------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Deathwatch Watch Capt./Terminator Armour                      |                             |        |                         |                                    |       |
-| Deathwatch Watch Master                                       | Watch Master                |        |                         |                                    |       |
-| Watch Captain Artemis                                         | Watch Captain Artemis       |        |                         |                                    |       |
-| Deathwatch Kill Team                                          |                             |        |                         |                                    |       |
-| Kill Team                                                     | Decimus Kill Team           |        |                         |                                    |       |
-| Kill Team                                                     | Fortis Kill Team            |        |                         |                                    |       |
-| Kill Team                                                     | Indomitor Kill Team         |        |                         |                                    |       |
-| Kill Team                                                     | Kill Team Sergeant          |        |                         |                                    |       |
-| Kill Team                                                     | Spectrus Kill Team          |        |                         |                                    |       |
-| Kill Team                                                     | Talonstrike Kill Team       |        |                         |                                    |       |
-| Terminator Squad                                              | Deathwatch Terminator Squad |        |                         |                                    |       |
-| Deathwatch Corvus Blackstar                                   | Corvus Blackstar            |        |                         |                                    |       |
-| Deathwatch Venerable Dreadnought                              |                             |        |                         |                                    |       |
-| Combat Patrol: Deathwatch                                     |                             |        |                         |                                    |       |
-| Start Collecting! Deathwatch                                  |                             |        |                         |                                    |       |
+| Kit                                      | Unit(s)                     | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ---------------------------------------- | --------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Deathwatch Watch Capt./Terminator Armour |                             |        |                         |                                    |       |
+| Deathwatch Watch Master                  | Watch Master                |        |                         |                                    |       |
+| Watch Captain Artemis                    | Watch Captain Artemis       |        |                         |                                    |       |
+| Deathwatch Kill Team                     |                             |        |                         |                                    |       |
+| Kill Team                                | Decimus Kill Team           |        |                         |                                    |       |
+| Kill Team                                | Fortis Kill Team            |        |                         |                                    |       |
+| Kill Team                                | Indomitor Kill Team         |        |                         |                                    |       |
+| Kill Team                                | Kill Team Sergeant          |        |                         |                                    |       |
+| Kill Team                                | Spectrus Kill Team          |        |                         |                                    |       |
+| Kill Team                                | Talonstrike Kill Team       |        |                         |                                    |       |
+| Terminator Squad                         | Deathwatch Terminator Squad |        |                         |                                    |       |
+| Deathwatch Corvus Blackstar              | Corvus Blackstar            |        |                         |                                    |       |
+| Deathwatch Venerable Dreadnought         |                             |        |                         |                                    |       |
+| Combat Patrol: Deathwatch                |                             |        |                         |                                    |       |
+| Start Collecting! Deathwatch             |                             |        |                         |                                    |       |
 
 ### Deathwatch Units with no kit data
 
@@ -1163,20 +1209,20 @@ _Unit Model Options_
 
 ### Grey Knights Units with no kit data
 
-| Unit                                    | Notes |
-| --------------------------------------- | ----- |
-| Brother-Captain                         |       |
-| Brother-Captain Stern (Legends)         |       |
-| Brotherhood Champion                    |       |
-| Brotherhood Librarian                   |       |
-| Champion of Titan [Crucible]            |       |
-| Dreadknight Champion [Crucible]         |       |
-| Grey Knights Dreadnought (Legends)      |       |
-| Grey Knights Relic Razorback (Legends)  |       |
-| Grey Knights Thunderhawk Gunship        |       |
-| Kaldor Draigo (Legends)                 |       |
-| Servitors (Legends)                     |       |
-| Venerable Daemon Slayer [Crucible]      |       |
+| Unit                                   | Notes |
+| -------------------------------------- | ----- |
+| Brother-Captain                        |       |
+| Brother-Captain Stern (Legends)        |       |
+| Brotherhood Champion                   |       |
+| Brotherhood Librarian                  |       |
+| Champion of Titan [Crucible]           |       |
+| Dreadknight Champion [Crucible]        |       |
+| Grey Knights Dreadnought (Legends)     |       |
+| Grey Knights Relic Razorback (Legends) |       |
+| Grey Knights Thunderhawk Gunship       |       |
+| Kaldor Draigo (Legends)                |       |
+| Servitors (Legends)                    |       |
+| Venerable Daemon Slayer [Crucible]     |       |
 
 ---
 
@@ -1359,6 +1405,7 @@ _Unit Model Options_
 | Living Ancestor [Crucible]   |       |
 | Steeljack Elder [Crucible]   |       |
 | \u00dbthar the Destined      |       |
+
 ---
 
 ## Necrons
@@ -1444,123 +1491,125 @@ _Unit Model Options_
 | Tesseract Ark (Legends)          |       |
 | Triarchal Overseer [Crucible]    |       |
 | Vargard Obyron (Legends)         |       |
+
 ---
 
 ## Orks
 
 ### Orks Kits
 
-| Kit                                            | Unit(s)                        | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ---------------------------------------------- | ------------------------------ | ------ | ----------------------- | ---------------------------------- | ----- |
-| Beastboss on Squigosaur                        | Beastboss                      |        |                         |                                    |       |
-| Beastboss on Squigosaur                        | Beastboss on Squigosaur        |        |                         |                                    |       |
-| Big Mek                                        | Big Mek with Shokk Attack Gun  |        |                         |                                    |       |
-| Big Mek in Mega Armour                         | Big Mek                        |        |                         |                                    |       |
-| Big Mek in Mega Armour                         | Big Mek in Mega Armour         |        |                         |                                    |       |
-| Boss Snikrot                                   | Boss Snikrot                   |        |                         |                                    |       |
-| Mozrog Skragbad                                | Mozrog Skragbad                |        |                         |                                    |       |
-| Ork Painboy                                    | Painboy                        |        |                         |                                    |       |
-| Orks: Ghazghkull Thraka                        | Ghazghkull Thraka              |        | 1                       |                                    |       |
-| Painboss                                       | Painboss                       |        |                         |                                    |       |
-| Warboss in Mega Armour                         | Warboss                        |        |                         |                                    |       |
-| Warboss in Mega Armour                         | Warboss in Mega Armour         |        |                         |                                    |       |
-| Wazdakka Gutsmek                               | Wazdakka Gutsmek               |        |                         |                                    |       |
-| Zodgrod Wortsnagga                             | Zodgrod Wortsnagga             |        |                         |                                    |       |
-| Deffkoptas                                     | Deffkoptas                     |        |                         |                                    |       |
-| Kommandos                                      | Kommandos                      |        |                         |                                    |       |
-| Ork Beast Snagga Boyz                          | Beast Snagga Boyz              |        |                         |                                    |       |
-| Ork Boyz                                       |                                |        |                         |                                    |       |
-| Ork Flash Gitz                                 | Flash Gitz                     |        |                         |                                    |       |
-| Ork Gretchin                                   | Gretchin                       |        |                         |                                    |       |
-| Ork Lootas & Burnas                            | Loota                          |        |                         |                                    |       |
-| Ork Lootas & Burnas                            | Lootas                         |        |                         |                                    |       |
-| Ork Meganobz                                   | Meganobz                       |        |                         |                                    |       |
-| Ork Nobz                                       |                                |        |                         |                                    |       |
-| Ork Stormboyz                                  | Stormboyz                      |        |                         |                                    |       |
-| Ork Warbiker Mob                               |                                |        |                         |                                    |       |
-| Squighog Boyz                                  | Squighog Boy                   |        |                         |                                    |       |
-| Squighog Boyz                                  | Squighog Boyz                  |        |                         |                                    |       |
-| Big'ed Bossbunka                               | Big'ed Bossbunka               |        |                         |                                    |       |
-| Blitza-Bommer                                  | Blitza-bommer                  |        |                         |                                    |       |
-| Boomdakka Snazzwagon                           | Boomdakka Snazzwagon           |        |                         |                                    |       |
-| Burna-Bommer                                   | Burna-bommer                   |        |                         |                                    |       |
-| Dakkajet                                       | Dakkajet                       |        |                         |                                    |       |
-| Deff Dread                                     | Deff Dread                     |        |                         |                                    |       |
-| Deffkilla Wartrike                             | Deffkilla Wartrike             |        |                         |                                    |       |
-| Hunta Rig                                      | Hunta Rig                      |        |                         |                                    |       |
-| Kill Rig                                       | Kill Rig                       |        |                         |                                    |       |
-| Killa Kans                                     | Killa Kans                     |        |                         |                                    |       |
-| Megatrakk Scrapjet                             | Megatrakk Scrapjet             |        |                         |                                    |       |
-| Mek Gunz: Bubblechukka                         | Mek Gunz                       |        |                         |                                    |       |
-| Morkanaut                                      | Morkanaut                      |        |                         |                                    |       |
-| Ork Battlewagon                                | Battlewagon                    |        |                         |                                    |       |
-| Ork Gargantuan Squiggoth                       | Gargantuan Squiggoth           |        |                         |                                    |       |
-| Ork Gorkanaut                                  | Gorkanaut                      |        |                         |                                    |       |
-| Ork Trukk                                      |                                |        |                         |                                    |       |
-| Ork Trukk Boyz                                 |                                |        |                         |                                    |       |
-| Ork Wazbom Blastajet                           | Wazbom Blastajet               |        |                         |                                    |       |
-| Orks Kustom Boosta-Blasta                      | Kustom Boosta-blasta           |        |                         |                                    |       |
-| Orks Shokkjump Dragsta                         | Shokkjump Dragsta              |        |                         |                                    |       |
-| Rukkatrukk Squigbuggy                          | Rukkatrukk Squigbuggy          |        |                         |                                    |       |
-| Rukkatrukk Squigbuggy                          | Trukk                          |        |                         |                                    |       |
-| Stompa                                         | Stompa                         |        |                         |                                    |       |
-| Apocalypse: Orks Spearhead Detachment          |                                |        |                         |                                    |       |
-| Battleforce - Orks: Kult of Speed              |                                |        |                         |                                    |       |
-| Orks Starter Set: Kill Team - Krogskull's Boyz |                                |        |                         |                                    |       |
+| Kit                                            | Unit(s)                       | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ---------------------------------------------- | ----------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Beastboss on Squigosaur                        | Beastboss                     |        |                         |                                    |       |
+| Beastboss on Squigosaur                        | Beastboss on Squigosaur       |        |                         |                                    |       |
+| Big Mek                                        | Big Mek with Shokk Attack Gun |        |                         |                                    |       |
+| Big Mek in Mega Armour                         | Big Mek                       |        |                         |                                    |       |
+| Big Mek in Mega Armour                         | Big Mek in Mega Armour        |        |                         |                                    |       |
+| Boss Snikrot                                   | Boss Snikrot                  |        |                         |                                    |       |
+| Mozrog Skragbad                                | Mozrog Skragbad               |        |                         |                                    |       |
+| Ork Painboy                                    | Painboy                       |        |                         |                                    |       |
+| Orks: Ghazghkull Thraka                        | Ghazghkull Thraka             |        | 1                       |                                    |       |
+| Painboss                                       | Painboss                      |        |                         |                                    |       |
+| Warboss in Mega Armour                         | Warboss                       |        |                         |                                    |       |
+| Warboss in Mega Armour                         | Warboss in Mega Armour        |        |                         |                                    |       |
+| Wazdakka Gutsmek                               | Wazdakka Gutsmek              |        |                         |                                    |       |
+| Zodgrod Wortsnagga                             | Zodgrod Wortsnagga            |        |                         |                                    |       |
+| Deffkoptas                                     | Deffkoptas                    |        |                         |                                    |       |
+| Kommandos                                      | Kommandos                     |        |                         |                                    |       |
+| Ork Beast Snagga Boyz                          | Beast Snagga Boyz             |        |                         |                                    |       |
+| Ork Boyz                                       |                               |        |                         |                                    |       |
+| Ork Flash Gitz                                 | Flash Gitz                    |        |                         |                                    |       |
+| Ork Gretchin                                   | Gretchin                      |        |                         |                                    |       |
+| Ork Lootas & Burnas                            | Loota                         |        |                         |                                    |       |
+| Ork Lootas & Burnas                            | Lootas                        |        |                         |                                    |       |
+| Ork Meganobz                                   | Meganobz                      |        |                         |                                    |       |
+| Ork Nobz                                       |                               |        |                         |                                    |       |
+| Ork Stormboyz                                  | Stormboyz                     |        |                         |                                    |       |
+| Ork Warbiker Mob                               |                               |        |                         |                                    |       |
+| Squighog Boyz                                  | Squighog Boy                  |        |                         |                                    |       |
+| Squighog Boyz                                  | Squighog Boyz                 |        |                         |                                    |       |
+| Big'ed Bossbunka                               | Big'ed Bossbunka              |        |                         |                                    |       |
+| Blitza-Bommer                                  | Blitza-bommer                 |        |                         |                                    |       |
+| Boomdakka Snazzwagon                           | Boomdakka Snazzwagon          |        |                         |                                    |       |
+| Burna-Bommer                                   | Burna-bommer                  |        |                         |                                    |       |
+| Dakkajet                                       | Dakkajet                      |        |                         |                                    |       |
+| Deff Dread                                     | Deff Dread                    |        |                         |                                    |       |
+| Deffkilla Wartrike                             | Deffkilla Wartrike            |        |                         |                                    |       |
+| Hunta Rig                                      | Hunta Rig                     |        |                         |                                    |       |
+| Kill Rig                                       | Kill Rig                      |        |                         |                                    |       |
+| Killa Kans                                     | Killa Kans                    |        |                         |                                    |       |
+| Megatrakk Scrapjet                             | Megatrakk Scrapjet            |        |                         |                                    |       |
+| Mek Gunz: Bubblechukka                         | Mek Gunz                      |        |                         |                                    |       |
+| Morkanaut                                      | Morkanaut                     |        |                         |                                    |       |
+| Ork Battlewagon                                | Battlewagon                   |        |                         |                                    |       |
+| Ork Gargantuan Squiggoth                       | Gargantuan Squiggoth          |        |                         |                                    |       |
+| Ork Gorkanaut                                  | Gorkanaut                     |        |                         |                                    |       |
+| Ork Trukk                                      |                               |        |                         |                                    |       |
+| Ork Trukk Boyz                                 |                               |        |                         |                                    |       |
+| Ork Wazbom Blastajet                           | Wazbom Blastajet              |        |                         |                                    |       |
+| Orks Kustom Boosta-Blasta                      | Kustom Boosta-blasta          |        |                         |                                    |       |
+| Orks Shokkjump Dragsta                         | Shokkjump Dragsta             |        |                         |                                    |       |
+| Rukkatrukk Squigbuggy                          | Rukkatrukk Squigbuggy         |        |                         |                                    |       |
+| Rukkatrukk Squigbuggy                          | Trukk                         |        |                         |                                    |       |
+| Stompa                                         | Stompa                        |        |                         |                                    |       |
+| Apocalypse: Orks Spearhead Detachment          |                               |        |                         |                                    |       |
+| Battleforce - Orks: Kult of Speed              |                               |        |                         |                                    |       |
+| Orks Starter Set: Kill Team - Krogskull's Boyz |                               |        |                         |                                    |       |
 
 ### Orks Units with no kit data
 
-| Unit                                 | Notes |
-| ------------------------------------ | ----- |
-| Attack Fighta (Legends)              |       |
-| Big Gunz (Legends)                   |       |
-| Big Mek on Warbike (Legends)         |       |
-| Big Mek with Kustom Force Field (Legends) |  |
-| Big Trakk (Legends)                  |       |
-| Boss Zagstruk (Legends)              |       |
-| Boyz                                 |       |
-| Breaka Boyz                          |       |
-| Burna Boy                            |       |
-| Burna Boyz                           |       |
-| Chinork Warkopta (Legends)           |       |
-| Da Red Gobbo (Legends)               |       |
-| Da Red Gobbo's Tinboy (Legends)      |       |
-| Deff Rolla Battle Fortress (Legends) |       |
-| Deffkoptas with Big Shootas (Legends) |      |
-| Fighta-Bommer (Legends)              |       |
-| Grot Bomm Launcha (Legends)          |       |
-| Grot Mega-Tank (Legends)             |       |
-| Grot Tanks (Legends)                 |       |
-| Hordeboss [Crucible]                 |       |
-| Kannonwagon (Legends)                |       |
-| Kaptin Badrukk (Legends)             |       |
-| Kill Krusha (Legends)                |       |
-| Kill Tank (Legends)                  |       |
-| Lifta Wagon (Legends)                |       |
-| Mad Dok Grotsnik (Legends)           |       |
-| Mega Dread (Legends)                 |       |
-| Mek                                  |       |
-| Meka-Dread (Legends)                 |       |
-| Mekboy Workshop (Legends)            |       |
-| Nob on Smasha Squig                  |       |
-| Nob with Waaagh! Banner (Legends)    |       |
-| Nobz                                 |       |
-| Nobz on Warbikes (Legends)           |       |
-| Painboy on Warbike (Legends)         |       |
-| Runtherd                             |       |
-| Skorchas (Legends)                   |       |
-| Spanner                              |       |
-| Squiggoth (Legends)                  |       |
-| Tankbustas                           |       |
-| Ufthak Blackhawk (Legends)           |       |
-| Upstart Gretchin [Crucible]          |       |
-| Warbikers                            |       |
-| Warboss on Warbike (Legends)         |       |
-| Warbuggies (Legends)                 |       |
-| Warphead [Crucible]                  |       |
-| Wartrakks (Legends)                  |       |
-| Weirdboy                             |       |
-| Wurrboy                              |       |
+| Unit                                      | Notes |
+| ----------------------------------------- | ----- |
+| Attack Fighta (Legends)                   |       |
+| Big Gunz (Legends)                        |       |
+| Big Mek on Warbike (Legends)              |       |
+| Big Mek with Kustom Force Field (Legends) |       |
+| Big Trakk (Legends)                       |       |
+| Boss Zagstruk (Legends)                   |       |
+| Boyz                                      |       |
+| Breaka Boyz                               |       |
+| Burna Boy                                 |       |
+| Burna Boyz                                |       |
+| Chinork Warkopta (Legends)                |       |
+| Da Red Gobbo (Legends)                    |       |
+| Da Red Gobbo's Tinboy (Legends)           |       |
+| Deff Rolla Battle Fortress (Legends)      |       |
+| Deffkoptas with Big Shootas (Legends)     |       |
+| Fighta-Bommer (Legends)                   |       |
+| Grot Bomm Launcha (Legends)               |       |
+| Grot Mega-Tank (Legends)                  |       |
+| Grot Tanks (Legends)                      |       |
+| Hordeboss [Crucible]                      |       |
+| Kannonwagon (Legends)                     |       |
+| Kaptin Badrukk (Legends)                  |       |
+| Kill Krusha (Legends)                     |       |
+| Kill Tank (Legends)                       |       |
+| Lifta Wagon (Legends)                     |       |
+| Mad Dok Grotsnik (Legends)                |       |
+| Mega Dread (Legends)                      |       |
+| Mek                                       |       |
+| Meka-Dread (Legends)                      |       |
+| Mekboy Workshop (Legends)                 |       |
+| Nob on Smasha Squig                       |       |
+| Nob with Waaagh! Banner (Legends)         |       |
+| Nobz                                      |       |
+| Nobz on Warbikes (Legends)                |       |
+| Painboy on Warbike (Legends)              |       |
+| Runtherd                                  |       |
+| Skorchas (Legends)                        |       |
+| Spanner                                   |       |
+| Squiggoth (Legends)                       |       |
+| Tankbustas                                |       |
+| Ufthak Blackhawk (Legends)                |       |
+| Upstart Gretchin [Crucible]               |       |
+| Warbikers                                 |       |
+| Warboss on Warbike (Legends)              |       |
+| Warbuggies (Legends)                      |       |
+| Warphead [Crucible]                       |       |
+| Wartrakks (Legends)                       |       |
+| Weirdboy                                  |       |
+| Wurrboy                                   |       |
+
 ---
 
 ## Raven Guard
@@ -1597,637 +1646,645 @@ _Unit Model Options_
 
 ### Space Marines Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Ancient | Bladeguard Ancient | | | | |
-| Ancient in Terminator Armour | Ancient in Terminator Armor | | | | |
-| Ancient in Terminator Armour | Captain in Terminator Armour | | | | |
-| Ancient in Terminator Armour | Chaplain in Terminator Armour | | | | |
-| Apothecary | Apothecary | | | | |
-| Apothecary | Apothecary Biologis | | | | |
-| Blood Angels Chapter Ancients | Ancient | | | | |
-| Blood Angels Chaplain With Jump Pack | Chaplain with Jump Pack | | | | |
-| Canonness with Jump Pack | Captain with Jump Pack | | | | |
-| Captain in Terminator Armour | Captain in Gravis Armour | | | | |
-| Company Heroes | Company Heroes | | | | |
-| Dark Angels Interrogator-Chaplain | Chaplain | | | | |
-| Heroes of the Chapter | Champion of the Chapter [Crucible] | | | | |
-| Iron Hands Feirros | | | | | |
-| Lieutenant in Reiver Armour | Lieutenant in Reiver Armour | | | | |
-| Raven Guard Kayvaan Shrike | Kayvaan Shrike | | | | |
-| S/M Librarian In Terminator Armour | Librarian in Terminator Armour | | | | |
-| Salamanders: Adrax Agatone | Adrax Agatone | | | | |
-| Space Marine Favoured of Chaos | | | | | |
-| Space Marine Heroes | | | | | |
-| Space Marine Heroes (Limited Printing) | | | | | |
-| Space Marine Heroes 3: Dispenser | | | | | |
-| Space Marine Librarian | | | | | |
-| Space Marine Primaris Captain | | | | | |
-| Space Marine Primaris Librarian | | | | | |
-| Space Marines: Marneus Calgar Ultramarines Chapter Master | | | | | |
-| Space Marines: Primaris Chaplain on Bike | Chaplain on Bike | | | | |
-| Space Marines: Primaris Techmarine | Techmarine | | | | |
-| Space Marines: Roboute Guilliman | | | | | |
-| Space Marines: Terminator Chaplain Tarentus | | | | | |
-| Space Marines Primaris Captain in Phobos Armour | Captain in Phobos Armour | | | | |
-| Space Marines Primaris Librarian in Phobos Armour | Librarian in Phobos Armour | | | | |
-| Space Marines Primaris Lieutenant in Phobos Armour | Lieutenant in Phobos Armour | | | | |
-| Space Marines Primaris Lieutenant with Power Sword | Lieutenant | | | | |
-| Ultramarines Chief Librarian Tigurius | Librarian | | | | |
-| Adeptus Astartes Mark III Space Marine | | | | | |
-| Aggressor Squad | Aggressor Squad | | | | |
-| Assault Intercessor Squad | Assault Intercessor Squad | | | | |
-| Assault Intercessor Squad | Intercessor Squad | | | | |
-| Assault Intercessors with Jump Packs | Assault Intercessors with Jump Packs | | | | |
-| Blood Angels Sternguard Veteran Squad | Sternguard Veteran Squad | | | | |
-| Blood Angels Terminator Assault Squad | Terminator Assault Squad | | | | |
-| Centurion Assault Squad | Centurion Assault Squad | | | | |
-| Desolation Squad | Desolation Squad | | | | |
-| Devastator Squad | Centurion Devastator Squad | | | | |
-| Devastator Squad | Devastator Squad | | | | |
-| Easy To Build Space Marine Primaris Intercessors | | | | | |
-| Easy To Build Space Marine Primaris Reivers | | | | | |
-| Heavy Intercessor Squad | Heavy Intercessor Squad | | | | |
-| Hellblaster Squad | Hellblaster Squad | | | | |
-| Inceptor Squad | Inceptor Squad | | | | |
-| Incursor Squad | Incursor Squad | | | | |
-| Infernus Squad | Infernus Squad | | | | |
-| Infiltrator Squad | Infiltrator Squad | | | | |
-| Reiver Squad | Reiver Squad | | | | |
-| Space Marine Centurion Devastator Squad | | | | | |
-| Space Marine Company Command | | | | | |
-| Space Marine Devastator Squad | | | | | |
-| Space Marine Primaris Aggressors | | | | | |
-| Space Marine Primaris Reivers | | | | | |
-| Space Marines: Outriders | | | | | |
-| Space Marines: Primaris Infiltrators | | | | | |
-| Space Marine Scouts | | | | | |
-| Space Marine Scouts With Sniper Rifles | | | | | |
-| Space Marine Sternguard Veteran Squad | | | | | |
-| Space Marine Tactical Squad | Tactical Squad | | | | |
-| Space Marine Terminator Close Combat Squad | | | | | |
-| Space Marine Terminator Command | | | | | |
-| Space Marine Terminator Squad | Terminator Squad | | | | |
-| Tartaros Terminators | | | | | |
-| Astraeus Super-heavy Tank | Astraeus | | | | |
-| Ballistus Dreadnought | Ballistus Dreadnought | | | | |
-| Brutalis Dreadnought | Brutalis Dreadnought | | | | |
-| Chaos Rhino | Rhino | | | | |
-| Easy To Build Space Marine Primaris Redemptor Deadnought | | | | | |
-| Land Raider Redeemer | Land Raider Redeemer | | | | |
-| Legion Thunderhawk Gunship | Thunderhawk Gunship | | | | |
-| Predator Annihilator | Predator Annihilator | | | | |
-| Predator Destructor | Predator Destructor | | | | |
-| Raider | Land Raider Crusader | | | | |
-| Space Marine Attack Bike | | | | | |
-| Space Marine Dreadnought | | | | | |
-| Space Marine Drop Pod | Drop Pod | | | | |
-| Space Marine Predator | | | | | |
-| Space Marine Primaris Redemptor Dreadnought | Redemptor Dreadnought | | | | |
-| Space Marine Razorback | Razorback | | | | |
-| Space Marine Rhino | | | | | |
-| Space Marine Stalker | | | | | |
-| Space Marine Stormhawk Interceptor | Stormhawk Interceptor | | | | |
-| Space Marine Venerable Dreadnought | | | | | |
-| Space Marines: Gladiator | Gladiator Lancer | | | | |
-| Space Marines: Gladiator | Gladiator Reaper | | | | |
-| Space Marines: Gladiator | Gladiator Valiant | | | | |
-| Space Marines: Primaris Firestrike Servo-Turret | Firestrike Servo-Turrets | | | | |
-| Space Marines: Primaris Impulsor | Impulsor | | | | |
-| Space Marines: Primaris Invader ATV | Invader ATV | | | | |
-| Space Marines Primaris Invictor Tactical Warsuit | Invictor Tactical Warsuit | | | | |
-| Space Marines Primaris Repulsor Executioner | Repulsor | | | | |
-| Space Marines Primaris Repulsor Executioner | Repulsor Executioner | | | | |
-| Spacemarine Landraider Crusader/Redeemer | | | | | |
-| Storm Speeder Hailstrike | Storm Speeder Hailstrike | | | | |
-| Storm Speeder Hammerstrike | Storm Speeder Hammerstrike | | | | |
-| Storm Speeder Thunderstrike | Storm Speeder Thunderstrike | | | | |
-| Stormraven Gunship | Stormraven Gunship | | | | |
-| Stormtalon Gunship | Stormtalon Gunship | | | | |
-| Venerable Land Raider | Land Raider | | | | |
-| Whirlwind | Whirlwind | | | | |
-| Adeptus Astartes Starter Set: Kill Team - Fangs of Ulfrich | | | | | |
-| Battleforce: Space Marine Primaris Interdiction Force | | | | | |
-| Kill Team: Scout Squad | Scout Squad | | | | |
-| Space Marines: Assault Intercessors + Paints Set | | | | | |
-| Start Collecting! Space Marine | | | | | |
-| Start Collecting! Vanguard Space Marines | | | | | |
+| Kit                                                        | Unit(s)                              | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ---------------------------------------------------------- | ------------------------------------ | ------ | ----------------------- | ---------------------------------- | ----- |
+| Ancient                                                    | Bladeguard Ancient                   |        |                         |                                    |       |
+| Ancient in Terminator Armour                               | Ancient in Terminator Armor          |        |                         |                                    |       |
+| Ancient in Terminator Armour                               | Captain in Terminator Armour         |        |                         |                                    |       |
+| Ancient in Terminator Armour                               | Chaplain in Terminator Armour        |        |                         |                                    |       |
+| Apothecary                                                 | Apothecary                           |        |                         |                                    |       |
+| Apothecary                                                 | Apothecary Biologis                  |        |                         |                                    |       |
+| Blood Angels Chapter Ancients                              | Ancient                              |        |                         |                                    |       |
+| Blood Angels Chaplain With Jump Pack                       | Chaplain with Jump Pack              |        |                         |                                    |       |
+| Canonness with Jump Pack                                   | Captain with Jump Pack               |        |                         |                                    |       |
+| Captain in Terminator Armour                               | Captain in Gravis Armour             |        |                         |                                    |       |
+| Company Heroes                                             | Company Heroes                       |        |                         |                                    |       |
+| Dark Angels Interrogator-Chaplain                          | Chaplain                             |        |                         |                                    |       |
+| Heroes of the Chapter                                      | Champion of the Chapter [Crucible]   |        |                         |                                    |       |
+| Iron Hands Feirros                                         |                                      |        |                         |                                    |       |
+| Lieutenant in Reiver Armour                                | Lieutenant in Reiver Armour          |        |                         |                                    |       |
+| Raven Guard Kayvaan Shrike                                 | Kayvaan Shrike                       |        |                         |                                    |       |
+| S/M Librarian In Terminator Armour                         | Librarian in Terminator Armour       |        |                         |                                    |       |
+| Salamanders: Adrax Agatone                                 | Adrax Agatone                        |        |                         |                                    |       |
+| Space Marine Favoured of Chaos                             |                                      |        |                         |                                    |       |
+| Space Marine Heroes                                        |                                      |        |                         |                                    |       |
+| Space Marine Heroes (Limited Printing)                     |                                      |        |                         |                                    |       |
+| Space Marine Heroes 3: Dispenser                           |                                      |        |                         |                                    |       |
+| Space Marine Librarian                                     |                                      |        |                         |                                    |       |
+| Space Marine Primaris Captain                              |                                      |        |                         |                                    |       |
+| Space Marine Primaris Librarian                            |                                      |        |                         |                                    |       |
+| Space Marines: Marneus Calgar Ultramarines Chapter Master  |                                      |        |                         |                                    |       |
+| Space Marines: Primaris Chaplain on Bike                   | Chaplain on Bike                     |        |                         |                                    |       |
+| Space Marines: Primaris Techmarine                         | Techmarine                           |        |                         |                                    |       |
+| Space Marines: Roboute Guilliman                           |                                      |        |                         |                                    |       |
+| Space Marines: Terminator Chaplain Tarentus                |                                      |        |                         |                                    |       |
+| Space Marines Primaris Captain in Phobos Armour            | Captain in Phobos Armour             |        |                         |                                    |       |
+| Space Marines Primaris Librarian in Phobos Armour          | Librarian in Phobos Armour           |        |                         |                                    |       |
+| Space Marines Primaris Lieutenant in Phobos Armour         | Lieutenant in Phobos Armour          |        |                         |                                    |       |
+| Space Marines Primaris Lieutenant with Power Sword         | Lieutenant                           |        |                         |                                    |       |
+| Ultramarines Chief Librarian Tigurius                      | Librarian                            |        |                         |                                    |       |
+| Adeptus Astartes Mark III Space Marine                     |                                      |        |                         |                                    |       |
+| Aggressor Squad                                            | Aggressor Squad                      |        |                         |                                    |       |
+| Assault Intercessor Squad                                  | Assault Intercessor Squad            |        |                         |                                    |       |
+| Assault Intercessor Squad                                  | Intercessor Squad                    |        |                         |                                    |       |
+| Assault Intercessors with Jump Packs                       | Assault Intercessors with Jump Packs |        |                         |                                    |       |
+| Blood Angels Sternguard Veteran Squad                      | Sternguard Veteran Squad             |        |                         |                                    |       |
+| Blood Angels Terminator Assault Squad                      | Terminator Assault Squad             |        |                         |                                    |       |
+| Centurion Assault Squad                                    | Centurion Assault Squad              |        |                         |                                    |       |
+| Desolation Squad                                           | Desolation Squad                     |        |                         |                                    |       |
+| Devastator Squad                                           | Centurion Devastator Squad           |        |                         |                                    |       |
+| Devastator Squad                                           | Devastator Squad                     |        |                         |                                    |       |
+| Easy To Build Space Marine Primaris Intercessors           |                                      |        |                         |                                    |       |
+| Easy To Build Space Marine Primaris Reivers                |                                      |        |                         |                                    |       |
+| Heavy Intercessor Squad                                    | Heavy Intercessor Squad              |        |                         |                                    |       |
+| Hellblaster Squad                                          | Hellblaster Squad                    |        |                         |                                    |       |
+| Inceptor Squad                                             | Inceptor Squad                       |        |                         |                                    |       |
+| Incursor Squad                                             | Incursor Squad                       |        |                         |                                    |       |
+| Infernus Squad                                             | Infernus Squad                       |        |                         |                                    |       |
+| Infiltrator Squad                                          | Infiltrator Squad                    |        |                         |                                    |       |
+| Reiver Squad                                               | Reiver Squad                         |        |                         |                                    |       |
+| Space Marine Centurion Devastator Squad                    |                                      |        |                         |                                    |       |
+| Space Marine Company Command                               |                                      |        |                         |                                    |       |
+| Space Marine Devastator Squad                              |                                      |        |                         |                                    |       |
+| Space Marine Primaris Aggressors                           |                                      |        |                         |                                    |       |
+| Space Marine Primaris Reivers                              |                                      |        |                         |                                    |       |
+| Space Marines: Outriders                                   |                                      |        |                         |                                    |       |
+| Space Marines: Primaris Infiltrators                       |                                      |        |                         |                                    |       |
+| Space Marine Scouts                                        |                                      |        |                         |                                    |       |
+| Space Marine Scouts With Sniper Rifles                     |                                      |        |                         |                                    |       |
+| Space Marine Sternguard Veteran Squad                      |                                      |        |                         |                                    |       |
+| Space Marine Tactical Squad                                | Tactical Squad                       |        |                         |                                    |       |
+| Space Marine Terminator Close Combat Squad                 |                                      |        |                         |                                    |       |
+| Space Marine Terminator Command                            |                                      |        |                         |                                    |       |
+| Space Marine Terminator Squad                              | Terminator Squad                     |        |                         |                                    |       |
+| Tartaros Terminators                                       |                                      |        |                         |                                    |       |
+| Astraeus Super-heavy Tank                                  | Astraeus                             |        |                         |                                    |       |
+| Ballistus Dreadnought                                      | Ballistus Dreadnought                |        |                         |                                    |       |
+| Brutalis Dreadnought                                       | Brutalis Dreadnought                 |        |                         |                                    |       |
+| Chaos Rhino                                                | Rhino                                |        |                         |                                    |       |
+| Easy To Build Space Marine Primaris Redemptor Deadnought   |                                      |        |                         |                                    |       |
+| Land Raider Redeemer                                       | Land Raider Redeemer                 |        |                         |                                    |       |
+| Legion Thunderhawk Gunship                                 | Thunderhawk Gunship                  |        |                         |                                    |       |
+| Predator Annihilator                                       | Predator Annihilator                 |        |                         |                                    |       |
+| Predator Destructor                                        | Predator Destructor                  |        |                         |                                    |       |
+| Raider                                                     | Land Raider Crusader                 |        |                         |                                    |       |
+| Space Marine Attack Bike                                   |                                      |        |                         |                                    |       |
+| Space Marine Dreadnought                                   |                                      |        |                         |                                    |       |
+| Space Marine Drop Pod                                      | Drop Pod                             |        |                         |                                    |       |
+| Space Marine Predator                                      |                                      |        |                         |                                    |       |
+| Space Marine Primaris Redemptor Dreadnought                | Redemptor Dreadnought                |        |                         |                                    |       |
+| Space Marine Razorback                                     | Razorback                            |        |                         |                                    |       |
+| Space Marine Rhino                                         |                                      |        |                         |                                    |       |
+| Space Marine Stalker                                       |                                      |        |                         |                                    |       |
+| Space Marine Stormhawk Interceptor                         | Stormhawk Interceptor                |        |                         |                                    |       |
+| Space Marine Venerable Dreadnought                         |                                      |        |                         |                                    |       |
+| Space Marines: Gladiator                                   | Gladiator Lancer                     |        |                         |                                    |       |
+| Space Marines: Gladiator                                   | Gladiator Reaper                     |        |                         |                                    |       |
+| Space Marines: Gladiator                                   | Gladiator Valiant                    |        |                         |                                    |       |
+| Space Marines: Primaris Firestrike Servo-Turret            | Firestrike Servo-Turrets             |        |                         |                                    |       |
+| Space Marines: Primaris Impulsor                           | Impulsor                             |        |                         |                                    |       |
+| Space Marines: Primaris Invader ATV                        | Invader ATV                          |        |                         |                                    |       |
+| Space Marines Primaris Invictor Tactical Warsuit           | Invictor Tactical Warsuit            |        |                         |                                    |       |
+| Space Marines Primaris Repulsor Executioner                | Repulsor                             |        |                         |                                    |       |
+| Space Marines Primaris Repulsor Executioner                | Repulsor Executioner                 |        |                         |                                    |       |
+| Spacemarine Landraider Crusader/Redeemer                   |                                      |        |                         |                                    |       |
+| Storm Speeder Hailstrike                                   | Storm Speeder Hailstrike             |        |                         |                                    |       |
+| Storm Speeder Hammerstrike                                 | Storm Speeder Hammerstrike           |        |                         |                                    |       |
+| Storm Speeder Thunderstrike                                | Storm Speeder Thunderstrike          |        |                         |                                    |       |
+| Stormraven Gunship                                         | Stormraven Gunship                   |        |                         |                                    |       |
+| Stormtalon Gunship                                         | Stormtalon Gunship                   |        |                         |                                    |       |
+| Venerable Land Raider                                      | Land Raider                          |        |                         |                                    |       |
+| Whirlwind                                                  | Whirlwind                            |        |                         |                                    |       |
+| Adeptus Astartes Starter Set: Kill Team - Fangs of Ulfrich |                                      |        |                         |                                    |       |
+| Battleforce: Space Marine Primaris Interdiction Force      |                                      |        |                         |                                    |       |
+| Kill Team: Scout Squad                                     | Scout Squad                          |        |                         |                                    |       |
+| Space Marines: Assault Intercessors + Paints Set           |                                      |        |                         |                                    |       |
+| Start Collecting! Space Marine                             |                                      |        |                         |                                    |       |
+| Start Collecting! Vanguard Space Marines                   |                                      |        |                         |                                    |       |
 
 ### Space Marines Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Ancient on Bike (Legends) | |
-| Apothecary on Bike (Legends) | |
-| Assault Squad (Legends) | |
-| Assault Squad with Jump Packs (Legends) | |
-| Astartes Servitors (Legends) | |
-| Attack Bike Squad (Legends) | |
-| Bike Squad (Legends) | |
-| Caestus Assault Ram (Legends) | |
-| Captain on Bike (Legends) | |
-| Carab Culln the Risen (Legends) | |
-| Chaplain Venerable Dreadnought (Legends) | |
-| Command Squad (Legends) | |
-| Company Champion on Bike (Legends) | |
-| Company Veterans on Bikes (Legends) | |
-| Deimos Predator (Legends) | |
-| Eliminator Squad | |
-| Eradicator Squad | |
-| Hammerfall Bunker | |
-| Hunter (Legends) | |
-| Imperial Space Marine (Legends) | |
-| Ironclad Dreadnought (Legends) | |
-| Judiciar | |
-| Land Raider Excelsior (Legends) | |
-| Land Raider Helios (Legends) | |
-| Land Raider Prometheus (Legends) | |
-| Land Speeder (Legends) | |
-| Land Speeder Storm (Legends) | |
-| Land Speeder Tempest (Legends) | |
-| Land Speeder Tornado (Legends) | |
-| Land Speeder Typhoon (Legends) | |
-| Librarian on Bike (Legends) | |
-| Librarian with Jump Pack (Legends) | |
-| Librarius Adept [Crucible] | |
-| Lieutenant with Combi-weapon | |
-| Mortis Dreadnought (Legends) | |
-| Outrider Squad | |
-| Primaris Company Champion (Legends) | |
-| Relic Razorback (Legends) | |
-| Relic Terminator Squad (Legends) | |
-| Rhino Primaris (Legends) | |
-| Scout Bike Squad (Legends) | |
-| Scout Sniper Squad (Legends) | |
-| Stalker (Legends) | |
-| Suppressor Squad | |
-| Tarantula Air Defense Battery (Legends) | |
-| Techmarine on Bike (Legends) | |
-| Terminus Ultra (Legends) | |
-| Thunderfire Cannon (Legends) | |
-| Thunderhawk Transporter (Legends) | |
-| Vanguard Veteran Squad (Legends) | |
-| Vanguard Veteran Squad with Jump Packs | |
-| Venerable Battle-Brother [Crucible] | |
-| Venerable Dreadnought (Legends) | |
+| Unit                                     | Notes |
+| ---------------------------------------- | ----- |
+| Ancient on Bike (Legends)                |       |
+| Apothecary on Bike (Legends)             |       |
+| Assault Squad (Legends)                  |       |
+| Assault Squad with Jump Packs (Legends)  |       |
+| Astartes Servitors (Legends)             |       |
+| Attack Bike Squad (Legends)              |       |
+| Bike Squad (Legends)                     |       |
+| Caestus Assault Ram (Legends)            |       |
+| Captain on Bike (Legends)                |       |
+| Carab Culln the Risen (Legends)          |       |
+| Chaplain Venerable Dreadnought (Legends) |       |
+| Command Squad (Legends)                  |       |
+| Company Champion on Bike (Legends)       |       |
+| Company Veterans on Bikes (Legends)      |       |
+| Deimos Predator (Legends)                |       |
+| Eliminator Squad                         |       |
+| Eradicator Squad                         |       |
+| Hammerfall Bunker                        |       |
+| Hunter (Legends)                         |       |
+| Imperial Space Marine (Legends)          |       |
+| Ironclad Dreadnought (Legends)           |       |
+| Judiciar                                 |       |
+| Land Raider Excelsior (Legends)          |       |
+| Land Raider Helios (Legends)             |       |
+| Land Raider Prometheus (Legends)         |       |
+| Land Speeder (Legends)                   |       |
+| Land Speeder Storm (Legends)             |       |
+| Land Speeder Tempest (Legends)           |       |
+| Land Speeder Tornado (Legends)           |       |
+| Land Speeder Typhoon (Legends)           |       |
+| Librarian on Bike (Legends)              |       |
+| Librarian with Jump Pack (Legends)       |       |
+| Librarius Adept [Crucible]               |       |
+| Lieutenant with Combi-weapon             |       |
+| Mortis Dreadnought (Legends)             |       |
+| Outrider Squad                           |       |
+| Primaris Company Champion (Legends)      |       |
+| Relic Razorback (Legends)                |       |
+| Relic Terminator Squad (Legends)         |       |
+| Rhino Primaris (Legends)                 |       |
+| Scout Bike Squad (Legends)               |       |
+| Scout Sniper Squad (Legends)             |       |
+| Stalker (Legends)                        |       |
+| Suppressor Squad                         |       |
+| Tarantula Air Defense Battery (Legends)  |       |
+| Techmarine on Bike (Legends)             |       |
+| Terminus Ultra (Legends)                 |       |
+| Thunderfire Cannon (Legends)             |       |
+| Thunderhawk Transporter (Legends)        |       |
+| Vanguard Veteran Squad (Legends)         |       |
+| Vanguard Veteran Squad with Jump Packs   |       |
+| Venerable Battle-Brother [Crucible]      |       |
+| Venerable Dreadnought (Legends)          |       |
+
 ---
 
 ## Space Wolves
 
 ### Space Wolves Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Arjac Rockfist | Arjac Rockfist | | | | |
-| Logan Grimnar On Stormrider | Logan Grimnar | | | | |
-| Njal Stormcaller | Njal Stormcaller | | | | |
-| Space Wolves Iron Priest | Iron Priest | | 1 | | |
-| Space Wolves Ulrik The Slayer | Ulrik the Slayer | | 1 | | |
-| Space Wolves Wolf Lord Krom | | | | | |
-| Space Wolves: Ragnar Blackmane | Ragnar Blackmane | | 1 | | |
-| Wolf Guard Battle Leader | Wolf Guard Battle Leader | | | | |
-| Wolf Priest | Wolf Priest | | | | |
-| Blood Claws | Blood Claws | | | | |
-| Fenrisian Wolves | Fenrisian Wolves | | | | |
-| Grey Hunters | Grey Hunters | | | | |
-| Space Wolves Fenrisian Wolf Pack | | | | | |
-| Space Wolves Pack | | | | | |
-| Space Wolves Skyhammer Wolf Pack | | | | | |
-| Space Wolves Thunderwolf Cavalry | Thunderwolf Cavalry | | | | |
-| Space Wolves Wolf Guard Terminators | Wolf Guard Terminators | | ~5 | | |
-| Space Wolves Wulfen | Wulfen | | ~5 | | |
-| Wolf Guard Headtakers | Wolf Guard Headtakers | | | | |
-| Wulfen | Wulfen with Storm Shields | | | | |
-| Bjorn the Fell-handed | Bjorn the Fell-Handed | | | | |
-| Murderfang | Murderfang | | | | |
-| Space Wolves Stormfang Gunship | | | | | |
-| Space Wolves Venerable Dreadnought | Venerable Dreadnought | | | | |
-| Wulfen | Wulfen Dreadnought | | | | |
-| Battleforce: Space Wolves Talons of Morkai | | | | | |
-| Combat Patrol: Space Wolves | 1× Wolf Guard Battle Leader; 5× Wolf Guard Terminators; 5× Wulfen; 10× Blood Claws | | 21 | | |
-| Kill Team: Wolf Scouts | Wolf Scouts | | | | |
-| Start Collecting! Primaris Space Wolves | | | | | |
-| Start Collecting! Space Wolves | | | | | |
+| Kit                                        | Unit(s)                                                                            | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------ | ---------------------------------------------------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Arjac Rockfist                             | Arjac Rockfist                                                                     |        |                         |                                    |       |
+| Logan Grimnar On Stormrider                | Logan Grimnar                                                                      |        |                         |                                    |       |
+| Njal Stormcaller                           | Njal Stormcaller                                                                   |        |                         |                                    |       |
+| Space Wolves Iron Priest                   | Iron Priest                                                                        |        | 1                       |                                    |       |
+| Space Wolves Ulrik The Slayer              | Ulrik the Slayer                                                                   |        | 1                       |                                    |       |
+| Space Wolves Wolf Lord Krom                |                                                                                    |        |                         |                                    |       |
+| Space Wolves: Ragnar Blackmane             | Ragnar Blackmane                                                                   |        | 1                       |                                    |       |
+| Wolf Guard Battle Leader                   | Wolf Guard Battle Leader                                                           |        |                         |                                    |       |
+| Wolf Priest                                | Wolf Priest                                                                        |        |                         |                                    |       |
+| Blood Claws                                | Blood Claws                                                                        |        |                         |                                    |       |
+| Fenrisian Wolves                           | Fenrisian Wolves                                                                   |        |                         |                                    |       |
+| Grey Hunters                               | Grey Hunters                                                                       |        |                         |                                    |       |
+| Space Wolves Fenrisian Wolf Pack           |                                                                                    |        |                         |                                    |       |
+| Space Wolves Pack                          |                                                                                    |        |                         |                                    |       |
+| Space Wolves Skyhammer Wolf Pack           |                                                                                    |        |                         |                                    |       |
+| Space Wolves Thunderwolf Cavalry           | Thunderwolf Cavalry                                                                |        |                         |                                    |       |
+| Space Wolves Wolf Guard Terminators        | Wolf Guard Terminators                                                             |        | ~5                      |                                    |       |
+| Space Wolves Wulfen                        | Wulfen                                                                             |        | ~5                      |                                    |       |
+| Wolf Guard Headtakers                      | Wolf Guard Headtakers                                                              |        |                         |                                    |       |
+| Wulfen                                     | Wulfen with Storm Shields                                                          |        |                         |                                    |       |
+| Bjorn the Fell-handed                      | Bjorn the Fell-Handed                                                              |        |                         |                                    |       |
+| Murderfang                                 | Murderfang                                                                         |        |                         |                                    |       |
+| Space Wolves Stormfang Gunship             |                                                                                    |        |                         |                                    |       |
+| Space Wolves Venerable Dreadnought         | Venerable Dreadnought                                                              |        |                         |                                    |       |
+| Wulfen                                     | Wulfen Dreadnought                                                                 |        |                         |                                    |       |
+| Battleforce: Space Wolves Talons of Morkai |                                                                                    |        |                         |                                    |       |
+| Combat Patrol: Space Wolves                | 1× Wolf Guard Battle Leader; 5× Wolf Guard Terminators; 5× Wulfen; 10× Blood Claws |        | 21                      |                                    |       |
+| Kill Team: Wolf Scouts                     | Wolf Scouts                                                                        |        |                         |                                    |       |
+| Start Collecting! Primaris Space Wolves    |                                                                                    |        |                         |                                    |       |
+| Start Collecting! Space Wolves             |                                                                                    |        |                         |                                    |       |
 
 ### Space Wolves Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Canis Wolfborn (Legends) | |
-| Cyberwolf (Legends) | |
-| Harald Deathwolf (Legends) | |
-| Hounds of Morkai (Legends) | |
-| Hunting Wolves | |
-| Iron Priest on Thunderwolf (Legends) | |
-| Krom Dragongaze (Legends) | |
-| Logan Grimnar on Stormrider (Legends) | |
-| Long Fangs (Legends) | |
-| Lukas the Trickster (Legends) | |
-| Skyclaws (Legends) | |
-| Stormfang Gunship (Legends) | |
-| Stormwolf (Legends) | |
-| Venerable Dreadnought (Legends) | |
-| Wolf Guard (Legends) | |
-| Wolf Guard Battle Leader in Terminator Armour (Legends) | |
-| Wolf Guard Battle Leader on Thunderwolf (Legends) | |
-| Wolf Guard Pack Leader (Legends) | |
-| Wolf Guard Pack Leader in Terminator Armour (Legends) | |
-| Wolf Guard Pack Leader with Jump Pack (Legends) | |
-| Wolf Lord on Thunderwolf (Legends) | |
-| Wolf Scouts (Legends) | |
+| Unit                                                    | Notes |
+| ------------------------------------------------------- | ----- |
+| Canis Wolfborn (Legends)                                |       |
+| Cyberwolf (Legends)                                     |       |
+| Harald Deathwolf (Legends)                              |       |
+| Hounds of Morkai (Legends)                              |       |
+| Hunting Wolves                                          |       |
+| Iron Priest on Thunderwolf (Legends)                    |       |
+| Krom Dragongaze (Legends)                               |       |
+| Logan Grimnar on Stormrider (Legends)                   |       |
+| Long Fangs (Legends)                                    |       |
+| Lukas the Trickster (Legends)                           |       |
+| Skyclaws (Legends)                                      |       |
+| Stormfang Gunship (Legends)                             |       |
+| Stormwolf (Legends)                                     |       |
+| Venerable Dreadnought (Legends)                         |       |
+| Wolf Guard (Legends)                                    |       |
+| Wolf Guard Battle Leader in Terminator Armour (Legends) |       |
+| Wolf Guard Battle Leader on Thunderwolf (Legends)       |       |
+| Wolf Guard Pack Leader (Legends)                        |       |
+| Wolf Guard Pack Leader in Terminator Armour (Legends)   |       |
+| Wolf Guard Pack Leader with Jump Pack (Legends)         |       |
+| Wolf Lord on Thunderwolf (Legends)                      |       |
+| Wolf Scouts (Legends)                                   |       |
+
 ---
 
 ## T'au Empire
 
 ### T'au Empire Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Cadre Fireblade | Cadre Fireblade | | | | |
-| Commander Farsight | Commander Farsight | | | | |
-| Darkstrider | Darkstrider | | | | |
-| Ethereal | Ethereal | | | | |
-| Fire Warriors Breacher Team | Breacher Team | | | | |
-| Fire Warriors Strike Team | Strike Team | | | | |
-| Firesight Team | Firesight Team | | | | |
-| Kroot Carnivores | Kroot Carnivores | | | | |
-| Kroot Flesh Shaper | Kroot Flesh Shaper | | | | |
-| Kroot Hounds | Kroot Hounds | | | | |
-| Kroot Lone-spear | Kroot Lone-spear | | | | |
-| Kroot Trail Shaper | Kroot Trail Shaper | | | | |
-| Kroot War Shaper | Kroot War Shaper | | | | |
-| Krootox Rampagers | Krootox Rampagers | | | | |
-| Krootox Rider | Krootox Riders | | | | |
-| Tau Empire Coalition Command | | | | | |
-| Tau Empire Commander | | | | | |
-| Tau Empire Fire Warriors | | | | | |
-| Tau Empire Pathfinder Team | Pathfinder Team | | | | |
-| Tau Empire Xv25 Stealth Battlesuits | Stealth Battlesuits | | | | |
-| Tau Empire Xv88 Broadside Battlesuit | | | | | |
-| AX3 Razorshark Strike Fighter | Razorshark Strike Fighter | | | | |
-| AX39 Sun Shark Bomber | Sun Shark Bomber | | | | |
-| Hammerhead Gunship | Hammerhead Gunship | | | | |
-| KX139 Ta'unar Supremacy Armour Fusion Eradicator | Ta'unar Supremacy Armour | | | | |
-| Manta | Manta | | | | |
-| T'au Tiger Shark AX-1-0 | AX-1-0 Tiger Shark | | | | |
-| T'au Tiger Shark AX-1-0 | Tiger Shark | | | | |
-| Tau Empire Kv128 Stormsurge | Stormsurge | | | | |
-| Tau Empire Tx4 Piranha | Piranha | | | | |
-| Tau Empire Tidewall Rampart | | | | | |
-| Tau Empire Ty7 Devilfish | Devilfish | | | | |
-| Tau Empire Xv95 Ghostkeel Battlesuit | Ghostkeel Battlesuit | | | | |
-| The Twin Lance | The Twin Lance | | | | |
-| TX78 Sky Ray Gunship | Sky Ray Gunship | | | | |
-| XV104 Riptide Battlesuit | Riptide Battlesuit | | | | |
-| Apocalypse: T'au Empire Vanguard Detachment | | | | | |
-| Battleforce - T'au Empire, Commander Shadowsun | Commander Shadowsun | | | | |
-| Battleforce - T'au Empire: Rapid Insertion Cadre | | | | | |
-| Battleforce: T'au Empire Starclaimer Hunter Cadre | | | | | |
-| Kill Team: Vespid Stingwings | Vespid Stingwings | | | | |
-| Start Collecting! Tau Empire | | | | | |
+| Kit                                               | Unit(s)                   | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ------------------------------------------------- | ------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Cadre Fireblade                                   | Cadre Fireblade           |        |                         |                                    |       |
+| Commander Farsight                                | Commander Farsight        |        |                         |                                    |       |
+| Darkstrider                                       | Darkstrider               |        |                         |                                    |       |
+| Ethereal                                          | Ethereal                  |        |                         |                                    |       |
+| Fire Warriors Breacher Team                       | Breacher Team             |        |                         |                                    |       |
+| Fire Warriors Strike Team                         | Strike Team               |        |                         |                                    |       |
+| Firesight Team                                    | Firesight Team            |        |                         |                                    |       |
+| Kroot Carnivores                                  | Kroot Carnivores          |        |                         |                                    |       |
+| Kroot Flesh Shaper                                | Kroot Flesh Shaper        |        |                         |                                    |       |
+| Kroot Hounds                                      | Kroot Hounds              |        |                         |                                    |       |
+| Kroot Lone-spear                                  | Kroot Lone-spear          |        |                         |                                    |       |
+| Kroot Trail Shaper                                | Kroot Trail Shaper        |        |                         |                                    |       |
+| Kroot War Shaper                                  | Kroot War Shaper          |        |                         |                                    |       |
+| Krootox Rampagers                                 | Krootox Rampagers         |        |                         |                                    |       |
+| Krootox Rider                                     | Krootox Riders            |        |                         |                                    |       |
+| Tau Empire Coalition Command                      |                           |        |                         |                                    |       |
+| Tau Empire Commander                              |                           |        |                         |                                    |       |
+| Tau Empire Fire Warriors                          |                           |        |                         |                                    |       |
+| Tau Empire Pathfinder Team                        | Pathfinder Team           |        |                         |                                    |       |
+| Tau Empire Xv25 Stealth Battlesuits               | Stealth Battlesuits       |        |                         |                                    |       |
+| Tau Empire Xv88 Broadside Battlesuit              |                           |        |                         |                                    |       |
+| AX3 Razorshark Strike Fighter                     | Razorshark Strike Fighter |        |                         |                                    |       |
+| AX39 Sun Shark Bomber                             | Sun Shark Bomber          |        |                         |                                    |       |
+| Hammerhead Gunship                                | Hammerhead Gunship        |        |                         |                                    |       |
+| KX139 Ta'unar Supremacy Armour Fusion Eradicator  | Ta'unar Supremacy Armour  |        |                         |                                    |       |
+| Manta                                             | Manta                     |        |                         |                                    |       |
+| T'au Tiger Shark AX-1-0                           | AX-1-0 Tiger Shark        |        |                         |                                    |       |
+| T'au Tiger Shark AX-1-0                           | Tiger Shark               |        |                         |                                    |       |
+| Tau Empire Kv128 Stormsurge                       | Stormsurge                |        |                         |                                    |       |
+| Tau Empire Tx4 Piranha                            | Piranha                   |        |                         |                                    |       |
+| Tau Empire Tidewall Rampart                       |                           |        |                         |                                    |       |
+| Tau Empire Ty7 Devilfish                          | Devilfish                 |        |                         |                                    |       |
+| Tau Empire Xv95 Ghostkeel Battlesuit              | Ghostkeel Battlesuit      |        |                         |                                    |       |
+| The Twin Lance                                    | The Twin Lance            |        |                         |                                    |       |
+| TX78 Sky Ray Gunship                              | Sky Ray Gunship           |        |                         |                                    |       |
+| XV104 Riptide Battlesuit                          | Riptide Battlesuit        |        |                         |                                    |       |
+| Apocalypse: T'au Empire Vanguard Detachment       |                           |        |                         |                                    |       |
+| Battleforce - T'au Empire, Commander Shadowsun    | Commander Shadowsun       |        |                         |                                    |       |
+| Battleforce - T'au Empire: Rapid Insertion Cadre  |                           |        |                         |                                    |       |
+| Battleforce: T'au Empire Starclaimer Hunter Cadre |                           |        |                         |                                    |       |
+| Kill Team: Vespid Stingwings                      | Vespid Stingwings         |        |                         |                                    |       |
+| Start Collecting! Tau Empire                      |                           |        |                         |                                    |       |
 
 ### T'au Empire Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Aun'shi (Legends) | |
-| Aun'va (Legends) | |
-| Barracuda (Legends) | |
-| Battlesuit Veteran [Crucible] | |
-| Broadside Battlesuits | |
-| Commander in Coldstar Battlesuit | |
-| Commander in Crisis Battlesuit (Legends) | |
-| Commander in Enforcer Battlesuit | |
-| Crisis Battlesuits (Legends) | |
-| Crisis Fireknife Battlesuits | |
-| Crisis Starscythe Battlesuits | |
-| Crisis Sunforge Battlesuits | |
-| Drone Sentry Turret (Legends) | |
-| Great Knarloc (Legends) | |
-| Heavy Gun Drones (Legends) | |
-| Kinband Champion [Crucible] | |
-| Knarloc Riders (Legends) | |
-| Kroot Farstalkers | |
-| Longstrike (Legends) | |
-| Orca Dropship (Legends) | |
-| R'varna Battlesuit (Legends) | |
-| Remora Stealth Drones (Legends) | |
-| Remote Sensor Tower (Legends) | |
-| Shas'nel [Crucible] | |
-| Shas'o R'alai (Legends) | |
-| Tactical Drones (Legends) | |
-| Tetras (Legends) | |
-| Tidewall Droneport | |
-| Tidewall Gunrig | |
-| Tidewall Rampart | |
-| Tidewall Shieldline | |
-| TX42 Piranha (Legends) | |
-| XV9 Hazard Battlesuits (Legends) | |
-| Y'vahra Battlesuit (Legends) | |
+| Unit                                     | Notes |
+| ---------------------------------------- | ----- |
+| Aun'shi (Legends)                        |       |
+| Aun'va (Legends)                         |       |
+| Barracuda (Legends)                      |       |
+| Battlesuit Veteran [Crucible]            |       |
+| Broadside Battlesuits                    |       |
+| Commander in Coldstar Battlesuit         |       |
+| Commander in Crisis Battlesuit (Legends) |       |
+| Commander in Enforcer Battlesuit         |       |
+| Crisis Battlesuits (Legends)             |       |
+| Crisis Fireknife Battlesuits             |       |
+| Crisis Starscythe Battlesuits            |       |
+| Crisis Sunforge Battlesuits              |       |
+| Drone Sentry Turret (Legends)            |       |
+| Great Knarloc (Legends)                  |       |
+| Heavy Gun Drones (Legends)               |       |
+| Kinband Champion [Crucible]              |       |
+| Knarloc Riders (Legends)                 |       |
+| Kroot Farstalkers                        |       |
+| Longstrike (Legends)                     |       |
+| Orca Dropship (Legends)                  |       |
+| R'varna Battlesuit (Legends)             |       |
+| Remora Stealth Drones (Legends)          |       |
+| Remote Sensor Tower (Legends)            |       |
+| Shas'nel [Crucible]                      |       |
+| Shas'o R'alai (Legends)                  |       |
+| Tactical Drones (Legends)                |       |
+| Tetras (Legends)                         |       |
+| Tidewall Droneport                       |       |
+| Tidewall Gunrig                          |       |
+| Tidewall Rampart                         |       |
+| Tidewall Shieldline                      |       |
+| TX42 Piranha (Legends)                   |       |
+| XV9 Hazard Battlesuits (Legends)         |       |
+| Y'vahra Battlesuit (Legends)             |       |
+
 ---
 
 ## Thousand Sons
 
 ### Thousand Sons Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Ahriman Arch-Sorcerer of Tzeentch | Ahriman | | | | |
-| Ancient in Terminator Armour | Sorcerer in Terminator Armour | | | | |
-| Daemon Prince | Daemon Prince of Tzeentch | | | | |
-| Daemon Prince | Daemon Prince of Tzeentch with wings | | | | |
-| Infernal Master | Infernal Master | | | | |
-| Kairos Fateweaver | Kairos Fateweaver | | | | |
-| Lord of Change | Lord of Change | | | | |
-| Thousand Sons Exalted Sorcerers | Exalted Sorcerer | | | | |
-| Thousand Sons Exalted Sorcerers | Sorcerer | | | | |
-| Thousand Sons Magnus The Red | Magnus the Red | | | | |
-| Tzaangor Shaman | Tzaangor Shaman | | | | |
-| Blue Horrors and Brimstone Horrors | Blue Horrors | | | | |
-| Chaos Spawn | Chaos Spawn | | | | |
-| Chaos Spawn | Chaos Spawn (Flesh Change) | | | | |
-| Flamers | Flamers | | | | |
-| Mutalith Vortex Beast | Mutalith Vortex Beast | | | | |
-| Pink Horrors | Pink Horrors | | | | |
-| Rubric Marines | Rubric Marines | | | | |
-| Screamers | Screamers | | | | |
-| Sekhetar Robots | Sekhetar Robots | | | | |
-| Thousand Sons Scarab Occult Terminators | Scarab Occult Terminators | | | | |
-| Thousand Sons Tzaangors | Tzaangors | | | | |
-| Tzaangor Enlightened | Tzaangor Enlightened | | | | |
-| Tzaangor Enlightened | Tzaangor Enlightened with Fatecaster greatbows | | | | |
-| Chaos Predator | Chaos Predator Annihilator | | | | |
-| Chaos Predator | Chaos Predator Destructor | | | | |
-| Chaos Rhino | Chaos Rhino | | | | |
-| Chaos Space Marine Forgefiend | Forgefiend | | | | |
-| Chaos Space Marine Helbrute | Helbrute | | | | |
-| Chaos Space Marine Heldrake | Heldrake | | | | |
-| Defiler | Defiler | | | | |
-| Maulerfiend | Maulerfiend | | | | |
-| Raider | Chaos Land Raider | | | | |
-| Vindicator | Chaos Vindicator | | | | |
-| Start Collecting! Thousand Sons | | | | | |
+| Kit                                     | Unit(s)                                        | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --------------------------------------- | ---------------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Ahriman Arch-Sorcerer of Tzeentch       | Ahriman                                        |        |                         |                                    |       |
+| Ancient in Terminator Armour            | Sorcerer in Terminator Armour                  |        |                         |                                    |       |
+| Daemon Prince                           | Daemon Prince of Tzeentch                      |        |                         |                                    |       |
+| Daemon Prince                           | Daemon Prince of Tzeentch with wings           |        |                         |                                    |       |
+| Infernal Master                         | Infernal Master                                |        |                         |                                    |       |
+| Kairos Fateweaver                       | Kairos Fateweaver                              |        |                         |                                    |       |
+| Lord of Change                          | Lord of Change                                 |        |                         |                                    |       |
+| Thousand Sons Exalted Sorcerers         | Exalted Sorcerer                               |        |                         |                                    |       |
+| Thousand Sons Exalted Sorcerers         | Sorcerer                                       |        |                         |                                    |       |
+| Thousand Sons Magnus The Red            | Magnus the Red                                 |        |                         |                                    |       |
+| Tzaangor Shaman                         | Tzaangor Shaman                                |        |                         |                                    |       |
+| Blue Horrors and Brimstone Horrors      | Blue Horrors                                   |        |                         |                                    |       |
+| Chaos Spawn                             | Chaos Spawn                                    |        |                         |                                    |       |
+| Chaos Spawn                             | Chaos Spawn (Flesh Change)                     |        |                         |                                    |       |
+| Flamers                                 | Flamers                                        |        |                         |                                    |       |
+| Mutalith Vortex Beast                   | Mutalith Vortex Beast                          |        |                         |                                    |       |
+| Pink Horrors                            | Pink Horrors                                   |        |                         |                                    |       |
+| Rubric Marines                          | Rubric Marines                                 |        |                         |                                    |       |
+| Screamers                               | Screamers                                      |        |                         |                                    |       |
+| Sekhetar Robots                         | Sekhetar Robots                                |        |                         |                                    |       |
+| Thousand Sons Scarab Occult Terminators | Scarab Occult Terminators                      |        |                         |                                    |       |
+| Thousand Sons Tzaangors                 | Tzaangors                                      |        |                         |                                    |       |
+| Tzaangor Enlightened                    | Tzaangor Enlightened                           |        |                         |                                    |       |
+| Tzaangor Enlightened                    | Tzaangor Enlightened with Fatecaster greatbows |        |                         |                                    |       |
+| Chaos Predator                          | Chaos Predator Annihilator                     |        |                         |                                    |       |
+| Chaos Predator                          | Chaos Predator Destructor                      |        |                         |                                    |       |
+| Chaos Rhino                             | Chaos Rhino                                    |        |                         |                                    |       |
+| Chaos Space Marine Forgefiend           | Forgefiend                                     |        |                         |                                    |       |
+| Chaos Space Marine Helbrute             | Helbrute                                       |        |                         |                                    |       |
+| Chaos Space Marine Heldrake             | Heldrake                                       |        |                         |                                    |       |
+| Defiler                                 | Defiler                                        |        |                         |                                    |       |
+| Maulerfiend                             | Maulerfiend                                    |        |                         |                                    |       |
+| Raider                                  | Chaos Land Raider                              |        |                         |                                    |       |
+| Vindicator                              | Chaos Vindicator                               |        |                         |                                    |       |
+| Start Collecting! Thousand Sons         |                                                |        |                         |                                    |       |
 
 ### Thousand Sons Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Brayherd Chieftain [Crucible] | |
-| Brayherd Shaman [Crucible] | |
-| Chaos Lord on Disc of Tzeentch (Legends) | |
-| Exalted Sorcerer on Disc of Tzeentch | |
-| Hell Talon (Legends) | |
-| Hellblade (Legends) | |
-| Magister [Crucible] | |
-| Sorcerer on Disc of Tzeentch (Legends) | |
+| Unit                                     | Notes |
+| ---------------------------------------- | ----- |
+| Brayherd Chieftain [Crucible]            |       |
+| Brayherd Shaman [Crucible]               |       |
+| Chaos Lord on Disc of Tzeentch (Legends) |       |
+| Exalted Sorcerer on Disc of Tzeentch     |       |
+| Hell Talon (Legends)                     |       |
+| Hellblade (Legends)                      |       |
+| Magister [Crucible]                      |       |
+| Sorcerer on Disc of Tzeentch (Legends)   |       |
+
 ---
 
 ## Tyranids
 
 ### Tyranids Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Deathleaper | Deathleaper | | | | |
-| Hive Tyrant | Winged Hive Tyrant | | | | |
-| Old One Eye's Carnifex Brood | Old One Eye | | | | |
-| Parasite of Mortrex | Parasite of Mortrex | | | | |
-| Parasite of Mortrex | Ripper Swarms (Parasite of Mortrex) | | | | |
-| Tyranid Broodlord | Broodlord | | | | |
-| Tyranid Hive Tyrant / The Swarmlord | Hive Tyrant | | | | |
-| Tyranid Hive Tyrant / The Swarmlord | The Swarmlord | | | | |
-| Tyranid Prime | Winged Tyranid Prime | | | | |
-| Tyranid Prime with Lash Whip | Tyranid Prime with Lash Whip | | | | |
-| Barbgaunts | Barbgaunts | | | | |
-| Biovore | Biovores | | | | |
-| Biovore | Spore Mines (Biovore) | | | | |
-| Exocrine | Exocrine | | | | |
-| Hive Guard | Hive Guard | | | | |
-| Lictor | Lictor | | | | |
-| Lictor | Neurolictor | | | | |
-| Maleceptor | Maleceptor | | | | |
-| Neurogaunts | Neurogaunts | | | | |
-| Norn Assimilator | Norn Assimilator | | | | |
-| Norn Emissary | Norn Emissary | | | | |
-| Psychophage | Psychophage | | | | |
-| Pyrovore | Pyrovores | | | | |
-| Screamer-Killer Brood | Screamer-killer | | | | |
-| Sporocyst and Mucolid Spore | Sporocyst | | | | |
-| Tervigon | Tervigon | | | | |
-| Toxicrene | Toxicrene | | | | |
-| Tyranid Gargoyle Brood | | | | | |
-| Tyranid Haruspex | Haruspex | | | | |
-| Tyranid Hormagaunt Brood | Hormagaunts | | | | |
-| Tyranid Swarm | | | | | |
-| Tyranid Termagant Brood | Termagants | | | | |
-| Tyranid Venomthropes | Venomthropes | | | | |
-| Tyranid Warriors | Tyranid Warriors with Melee Bio-Weapons | | | | |
-| Tyranid Warriors | Tyranid Warriors with Ranged Bio-Weapons | | | | |
-| Tyrant Guard | Tyrant Guard | | | | |
-| Von Ryan's Leapers | Von Ryan's Leapers | | | | |
-| Zoanthropes | Zoanthropes | | | | |
-| Hive Crone | Hive Crone | | | | |
-| Tyranid Harridan | Harridan | | | | |
-| Tyranid Hierophant Bio-Titan | Hierophant | | | | |
-| Tyranid Trygon/Mawloc | Mawloc | | | | |
-| Tyranid Trygon/Mawloc | Trygon | | | | |
-| Tyranid Tyrannofex | Tyrannofex | | | | |
-| Tyranid Tyrannocyte | Tyrannocyte | | | | |
-| Apocalypse: Tyranids Spearhead Detachment | | | | | |
-| Battleforce: Tyranids Bioswarm | | | | | |
-| Kill Team: Raveners | Raveners | | | | |
-| Start Collecting! Tyranids | | | | | |
-| Tyranids Starter Set: Kill Team - The Writhing Shadow | | | | | |
-| Tyranids: Battleforce - Brood Swarm | | | | | |
+| Kit                                                   | Unit(s)                                  | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ----------------------------------------------------- | ---------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Deathleaper                                           | Deathleaper                              |        |                         |                                    |       |
+| Hive Tyrant                                           | Winged Hive Tyrant                       |        |                         |                                    |       |
+| Old One Eye's Carnifex Brood                          | Old One Eye                              |        |                         |                                    |       |
+| Parasite of Mortrex                                   | Parasite of Mortrex                      |        |                         |                                    |       |
+| Parasite of Mortrex                                   | Ripper Swarms (Parasite of Mortrex)      |        |                         |                                    |       |
+| Tyranid Broodlord                                     | Broodlord                                |        |                         |                                    |       |
+| Tyranid Hive Tyrant / The Swarmlord                   | Hive Tyrant                              |        |                         |                                    |       |
+| Tyranid Hive Tyrant / The Swarmlord                   | The Swarmlord                            |        |                         |                                    |       |
+| Tyranid Prime                                         | Winged Tyranid Prime                     |        |                         |                                    |       |
+| Tyranid Prime with Lash Whip                          | Tyranid Prime with Lash Whip             |        |                         |                                    |       |
+| Barbgaunts                                            | Barbgaunts                               |        |                         |                                    |       |
+| Biovore                                               | Biovores                                 |        |                         |                                    |       |
+| Biovore                                               | Spore Mines (Biovore)                    |        |                         |                                    |       |
+| Exocrine                                              | Exocrine                                 |        |                         |                                    |       |
+| Hive Guard                                            | Hive Guard                               |        |                         |                                    |       |
+| Lictor                                                | Lictor                                   |        |                         |                                    |       |
+| Lictor                                                | Neurolictor                              |        |                         |                                    |       |
+| Maleceptor                                            | Maleceptor                               |        |                         |                                    |       |
+| Neurogaunts                                           | Neurogaunts                              |        |                         |                                    |       |
+| Norn Assimilator                                      | Norn Assimilator                         |        |                         |                                    |       |
+| Norn Emissary                                         | Norn Emissary                            |        |                         |                                    |       |
+| Psychophage                                           | Psychophage                              |        |                         |                                    |       |
+| Pyrovore                                              | Pyrovores                                |        |                         |                                    |       |
+| Screamer-Killer Brood                                 | Screamer-killer                          |        |                         |                                    |       |
+| Sporocyst and Mucolid Spore                           | Sporocyst                                |        |                         |                                    |       |
+| Tervigon                                              | Tervigon                                 |        |                         |                                    |       |
+| Toxicrene                                             | Toxicrene                                |        |                         |                                    |       |
+| Tyranid Gargoyle Brood                                |                                          |        |                         |                                    |       |
+| Tyranid Haruspex                                      | Haruspex                                 |        |                         |                                    |       |
+| Tyranid Hormagaunt Brood                              | Hormagaunts                              |        |                         |                                    |       |
+| Tyranid Swarm                                         |                                          |        |                         |                                    |       |
+| Tyranid Termagant Brood                               | Termagants                               |        |                         |                                    |       |
+| Tyranid Venomthropes                                  | Venomthropes                             |        |                         |                                    |       |
+| Tyranid Warriors                                      | Tyranid Warriors with Melee Bio-Weapons  |        |                         |                                    |       |
+| Tyranid Warriors                                      | Tyranid Warriors with Ranged Bio-Weapons |        |                         |                                    |       |
+| Tyrant Guard                                          | Tyrant Guard                             |        |                         |                                    |       |
+| Von Ryan's Leapers                                    | Von Ryan's Leapers                       |        |                         |                                    |       |
+| Zoanthropes                                           | Zoanthropes                              |        |                         |                                    |       |
+| Hive Crone                                            | Hive Crone                               |        |                         |                                    |       |
+| Tyranid Harridan                                      | Harridan                                 |        |                         |                                    |       |
+| Tyranid Hierophant Bio-Titan                          | Hierophant                               |        |                         |                                    |       |
+| Tyranid Trygon/Mawloc                                 | Mawloc                                   |        |                         |                                    |       |
+| Tyranid Trygon/Mawloc                                 | Trygon                                   |        |                         |                                    |       |
+| Tyranid Tyrannofex                                    | Tyrannofex                               |        |                         |                                    |       |
+| Tyranid Tyrannocyte                                   | Tyrannocyte                              |        |                         |                                    |       |
+| Apocalypse: Tyranids Spearhead Detachment             |                                          |        |                         |                                    |       |
+| Battleforce: Tyranids Bioswarm                        |                                          |        |                         |                                    |       |
+| Kill Team: Raveners                                   | Raveners                                 |        |                         |                                    |       |
+| Start Collecting! Tyranids                            |                                          |        |                         |                                    |       |
+| Tyranids Starter Set: Kill Team - The Writhing Shadow |                                          |        |                         |                                    |       |
+| Tyranids: Battleforce - Brood Swarm                   |                                          |        |                         |                                    |       |
 
 ### Tyranids Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Barbed Hierodule (Legends) | |
-| Carnifexes | |
-| Dimachaeron (Legends) | |
-| Gargoyles | |
-| Hyperadapted Raveners | |
-| Macro Organism [Crucible] | |
-| Malanthrope (Legends) | |
-| Mucolid Spores | |
-| Mucolid Spores (Sporocyst) | |
-| Neurotyrant | |
-| Node Organism [Crucible] | |
-| Prime Organism [Crucible] | |
-| Ripper Swarms | |
-| Scythed Hierodule (Legends) | |
-| Sky-slasher Swarms (Legends) | |
-| Spore Mines | |
-| The Red Terror | |
+| Unit                         | Notes |
+| ---------------------------- | ----- |
+| Barbed Hierodule (Legends)   |       |
+| Carnifexes                   |       |
+| Dimachaeron (Legends)        |       |
+| Gargoyles                    |       |
+| Hyperadapted Raveners        |       |
+| Macro Organism [Crucible]    |       |
+| Malanthrope (Legends)        |       |
+| Mucolid Spores               |       |
+| Mucolid Spores (Sporocyst)   |       |
+| Neurotyrant                  |       |
+| Node Organism [Crucible]     |       |
+| Prime Organism [Crucible]    |       |
+| Ripper Swarms                |       |
+| Scythed Hierodule (Legends)  |       |
+| Sky-slasher Swarms (Legends) |       |
+| Spore Mines                  |       |
+| The Red Terror               |       |
+
 ---
 
 ## Ultramarines
 
 ### Ultramarines Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Captain Titus and The Wardens of Ultramar | Captain Titus | | | | |
-| Captain Titus and The Wardens of Ultramar | Wardens of Ultramar | | | | |
-| Cato Sicarius | Cato Sicarius | | | | |
-| Marneus Calgar in Armour of Antilochus | Marneus Calgar in Armour of Antilochus | | | | |
-| Space Marines: Roboute Guilliman | Roboute Guilliman | | | | |
-| Ultramarines Chief Librarian Tigurius | Chief Librarian Tigurius | | 1 | | |
-| Victrix Honour Guard | Victrix Honour Guard | | | | |
+| Kit                                       | Unit(s)                                | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ----------------------------------------- | -------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Captain Titus and The Wardens of Ultramar | Captain Titus                          |        |                         |                                    |       |
+| Captain Titus and The Wardens of Ultramar | Wardens of Ultramar                    |        |                         |                                    |       |
+| Cato Sicarius                             | Cato Sicarius                          |        |                         |                                    |       |
+| Marneus Calgar in Armour of Antilochus    | Marneus Calgar in Armour of Antilochus |        |                         |                                    |       |
+| Space Marines: Roboute Guilliman          | Roboute Guilliman                      |        |                         |                                    |       |
+| Ultramarines Chief Librarian Tigurius     | Chief Librarian Tigurius               |        | 1                       |                                    |       |
+| Victrix Honour Guard                      | Victrix Honour Guard                   |        |                         |                                    |       |
 
 ### Ultramarines Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Chaplain Cassius (Legends) | |
-| Lieutenant Titus | |
-| Sergeant Chronus (Legends) | |
-| Sergeant Telion (Legends) | |
-| Tyrannic War Veterans (Legends) | |
-| Uriel Ventris | |
+| Unit                            | Notes |
+| ------------------------------- | ----- |
+| Chaplain Cassius (Legends)      |       |
+| Lieutenant Titus                |       |
+| Sergeant Chronus (Legends)      |       |
+| Sergeant Telion (Legends)       |       |
+| Tyrannic War Veterans (Legends) |       |
+| Uriel Ventris                   |       |
+
 ---
 
 ## Unassigned
 
 ### Unassigned Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Cypher | Cypher | | 1 | | |
-| Da Red Gobbo | | | | | |
-| Inquisitor Greyfax | | | | | |
-| Logan Grimnar On Stormrider | | | | | |
-| Ravenwing Command Squad | Ravenwing Command Squad | | 1 | | |
-| Khorne Berzerkers | | | | | |
-| Hammerhead Gunship | Hammerhead Gunship | | | | |
-| Imperial Knight Warden | | | | | |
-| Stormraven Gunship | Stormraven Gunship | | | | |
-| Xv104 Riptide Battlesuit | | | | | |
-| Aegis Defense Line | | | | | |
-| Apocalypse | | | | | |
-| Basilica Administratum | | | | | |
-| Battlezone Manufactorum Battlefield | | | | | |
-| Battlezone Manufactorum Objective Set | | | | | |
-| Battlezone: Manufactorum - Conservators | | | | | |
-| Battlezone: Manufactorum - Munitorum Armoured Containers | | | | | |
-| Battlezone: Manufactorum - Sanctum Administratus | | | | | |
-| Battlezone: Manufactorum - Sub-Cloister and Storage Fane | | | | | |
-| Battlezone: Manufactorum - Vertigus | | | | | |
-| Blood of the Phoenix | | | | | |
-| Command Edition | | | | | |
-| Command Edition: Battlefield Expansion Set | | | | | |
-| Dark Imperium | | | | | |
-| Elite Edition | | | | | |
-| First Strike | | | | | |
-| Forgebane | | | | | |
-| Gangs Of Commorragh | | | | | |
-| Getting Started with Warhammer 40K | | | | | |
-| Haemotrope Reactor | | | | | |
-| Hero Bases | | | | | |
-| Imperial Bastion | | | | | |
-| Imperial Sector | | | | | |
-| Indomitus | | | | | |
-| Kill Team | | | | | |
-| Kill Team - Arena | | | | | |
-| Kill Team - Rogue Trader | | | | | |
-| Kill Team Starter Set | | | | | |
-| Killzone: Sector Fronteris | | | | | |
-| Know No Fear | | | | | |
-| Manufactorum | | | | | |
-| Munitorium Armoured Containers | | | | | |
-| Paints + Tools Set | | | | | |
-| Promethium Relay Pipes | | | | | |
-| Prophecy of the Wolf | | | | | |
-| Recruit Edition | | | | | |
-| Sector Imperialis: 25 & 40Mm Round Bases | | | | | |
-| Sector Imperialis: 32Mm Round Bases | | | | | |
-| Sector Imperialis: 60Mm Rd+75/90Mm Oval Bases | | | | | |
-| Sector Imperialis: Large Base Detail Kit | | | | | |
-| Sector Mechanicus - Promethium Refinery | | | | | |
-| Sector Mechanicus - Tectonic Fragdrill | | | | | |
-| Sector Mechanicus - Thermic Plasma Conduits | | | | | |
-| Sector Mechanicus - Thermic Plasma Regulators | | | | | |
-| Sector Mechanicus: Alchomite Stack | | | | | |
-| Sector Mechanicus: Ferratonic Furnace | | | | | |
-| Sector Mechanicus: Ferratonic Incinerator | | | | | |
-| Sector Mechanicus: Galvanic Magnavent | | | | | |
-| Sector Mechanicus: Galvanic Servo-Haulers | | | | | |
-| Sector Mechanicus: Industrial Bases | | | | | |
-| Sector Mechanicus: Promethium Forge | | | | | |
-| Shadowspear | | | | | |
-| Space Hulk | | | | | |
-| Speed Freeks | | | | | |
-| Start Collecting! Militarum Tempestus | | | | | |
-| Talons Of The Emperor | | | | | |
-| Tooth and Claw | | | | | |
-| Triumvirate of The Imperium | | | | | |
-| Triumvirate of The Primarch | | | | | |
-| Triumvirate of Ynnead | | | | | |
-| Urban Conquest | | | | | |
-| Voidshield Generator | | | | | |
-| Wake the Dead | | | | | |
+| Kit                                                      | Unit(s)                 | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| -------------------------------------------------------- | ----------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Cypher                                                   | Cypher                  |        | 1                       |                                    |       |
+| Da Red Gobbo                                             |                         |        |                         |                                    |       |
+| Inquisitor Greyfax                                       |                         |        |                         |                                    |       |
+| Logan Grimnar On Stormrider                              |                         |        |                         |                                    |       |
+| Ravenwing Command Squad                                  | Ravenwing Command Squad |        | 1                       |                                    |       |
+| Khorne Berzerkers                                        |                         |        |                         |                                    |       |
+| Hammerhead Gunship                                       | Hammerhead Gunship      |        |                         |                                    |       |
+| Imperial Knight Warden                                   |                         |        |                         |                                    |       |
+| Stormraven Gunship                                       | Stormraven Gunship      |        |                         |                                    |       |
+| Xv104 Riptide Battlesuit                                 |                         |        |                         |                                    |       |
+| Aegis Defense Line                                       |                         |        |                         |                                    |       |
+| Apocalypse                                               |                         |        |                         |                                    |       |
+| Basilica Administratum                                   |                         |        |                         |                                    |       |
+| Battlezone Manufactorum Battlefield                      |                         |        |                         |                                    |       |
+| Battlezone Manufactorum Objective Set                    |                         |        |                         |                                    |       |
+| Battlezone: Manufactorum - Conservators                  |                         |        |                         |                                    |       |
+| Battlezone: Manufactorum - Munitorum Armoured Containers |                         |        |                         |                                    |       |
+| Battlezone: Manufactorum - Sanctum Administratus         |                         |        |                         |                                    |       |
+| Battlezone: Manufactorum - Sub-Cloister and Storage Fane |                         |        |                         |                                    |       |
+| Battlezone: Manufactorum - Vertigus                      |                         |        |                         |                                    |       |
+| Blood of the Phoenix                                     |                         |        |                         |                                    |       |
+| Command Edition                                          |                         |        |                         |                                    |       |
+| Command Edition: Battlefield Expansion Set               |                         |        |                         |                                    |       |
+| Dark Imperium                                            |                         |        |                         |                                    |       |
+| Elite Edition                                            |                         |        |                         |                                    |       |
+| First Strike                                             |                         |        |                         |                                    |       |
+| Forgebane                                                |                         |        |                         |                                    |       |
+| Gangs Of Commorragh                                      |                         |        |                         |                                    |       |
+| Getting Started with Warhammer 40K                       |                         |        |                         |                                    |       |
+| Haemotrope Reactor                                       |                         |        |                         |                                    |       |
+| Hero Bases                                               |                         |        |                         |                                    |       |
+| Imperial Bastion                                         |                         |        |                         |                                    |       |
+| Imperial Sector                                          |                         |        |                         |                                    |       |
+| Indomitus                                                |                         |        |                         |                                    |       |
+| Kill Team                                                |                         |        |                         |                                    |       |
+| Kill Team - Arena                                        |                         |        |                         |                                    |       |
+| Kill Team - Rogue Trader                                 |                         |        |                         |                                    |       |
+| Kill Team Starter Set                                    |                         |        |                         |                                    |       |
+| Killzone: Sector Fronteris                               |                         |        |                         |                                    |       |
+| Know No Fear                                             |                         |        |                         |                                    |       |
+| Manufactorum                                             |                         |        |                         |                                    |       |
+| Munitorium Armoured Containers                           |                         |        |                         |                                    |       |
+| Paints + Tools Set                                       |                         |        |                         |                                    |       |
+| Promethium Relay Pipes                                   |                         |        |                         |                                    |       |
+| Prophecy of the Wolf                                     |                         |        |                         |                                    |       |
+| Recruit Edition                                          |                         |        |                         |                                    |       |
+| Sector Imperialis: 25 & 40Mm Round Bases                 |                         |        |                         |                                    |       |
+| Sector Imperialis: 32Mm Round Bases                      |                         |        |                         |                                    |       |
+| Sector Imperialis: 60Mm Rd+75/90Mm Oval Bases            |                         |        |                         |                                    |       |
+| Sector Imperialis: Large Base Detail Kit                 |                         |        |                         |                                    |       |
+| Sector Mechanicus - Promethium Refinery                  |                         |        |                         |                                    |       |
+| Sector Mechanicus - Tectonic Fragdrill                   |                         |        |                         |                                    |       |
+| Sector Mechanicus - Thermic Plasma Conduits              |                         |        |                         |                                    |       |
+| Sector Mechanicus - Thermic Plasma Regulators            |                         |        |                         |                                    |       |
+| Sector Mechanicus: Alchomite Stack                       |                         |        |                         |                                    |       |
+| Sector Mechanicus: Ferratonic Furnace                    |                         |        |                         |                                    |       |
+| Sector Mechanicus: Ferratonic Incinerator                |                         |        |                         |                                    |       |
+| Sector Mechanicus: Galvanic Magnavent                    |                         |        |                         |                                    |       |
+| Sector Mechanicus: Galvanic Servo-Haulers                |                         |        |                         |                                    |       |
+| Sector Mechanicus: Industrial Bases                      |                         |        |                         |                                    |       |
+| Sector Mechanicus: Promethium Forge                      |                         |        |                         |                                    |       |
+| Shadowspear                                              |                         |        |                         |                                    |       |
+| Space Hulk                                               |                         |        |                         |                                    |       |
+| Speed Freeks                                             |                         |        |                         |                                    |       |
+| Start Collecting! Militarum Tempestus                    |                         |        |                         |                                    |       |
+| Talons Of The Emperor                                    |                         |        |                         |                                    |       |
+| Tooth and Claw                                           |                         |        |                         |                                    |       |
+| Triumvirate of The Imperium                              |                         |        |                         |                                    |       |
+| Triumvirate of The Primarch                              |                         |        |                         |                                    |       |
+| Triumvirate of Ynnead                                    |                         |        |                         |                                    |       |
+| Urban Conquest                                           |                         |        |                         |                                    |       |
+| Voidshield Generator                                     |                         |        |                         |                                    |       |
+| Wake the Dead                                            |                         |        |                         |                                    |       |
+
 ---
 
 ## White Scars
 
 ### White Scars Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Suboden Khan | Suboden Khan | | | | |
-| White Scars Kor'sarro Khan | Kor'sarro Khan | | 1 | | |
+| Kit                        | Unit(s)        | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| -------------------------- | -------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Suboden Khan               | Suboden Khan   |        |                         |                                    |       |
+| White Scars Kor'sarro Khan | Kor'sarro Khan |        | 1                       |                                    |       |
 
 ### White Scars Units with no kit data
 
 | Unit | Notes |
 | ---- | ----- |
+
 ---
 
 ## World Eaters
 
 ### World Eaters Kits
 
-| Kit | Unit(s) | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --- | ------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Angron – Daemon Primarch of Khorne | Angron | | | | |
-| Bloodthirster | Bloodthirster | | | | |
-| Daemon Prince | Daemon Prince of Khorne | | | | |
-| Daemon Prince | Daemon Prince of Khorne with wings | | | | |
-| Lord Invocatus | Lord Invocatus | | | | |
-| Lord on Juggernaut | Lord on Juggernaut | | | | |
-| Chaos Space Marine Master of Executions | Master of Executions | | | | |
-| Skarbrand | Skarbrand | | | | |
-| Bloodcrushers | Bloodcrushers | | | | |
-| Bloodletters | Bloodletters | | | | |
-| Chaos Spawn | Chaos Spawn | | | | |
-| Exalted Eightbound | Eightbound | | | | |
-| Exalted Eightbound | Exalted Eightbound | | | | |
-| Flesh Hounds | Flesh Hounds | | | | |
-| Jakhals | Jakhal | | | | |
-| Khorne Berzerkers | Khorne Berzerkers | | | | |
-| Slaughterbound | Slaughterbound | | | | |
-| Chaos Predator | Chaos Predator Annihilator | | | | |
-| Chaos Predator | Chaos Predator Destructor | | | | |
-| Chaos Rhino | Chaos Rhino | | | | |
-| Chaos Space Marine Forgefiend | Forgefiend | | | | |
-| Chaos Space Marine Helbrute | Helbrute | | | | |
-| Chaos Space Marine Heldrake | Heldrake | | | | |
-| Defiler | Defiler | | | | |
-| Khorne Lord of Skulls | Khorne Lord of Skulls | | | | |
-| Maulerfiend | Maulerfiend | | | | |
-| Raider | Chaos Land Raider | | | | |
-| Kill Team: Goremongers | Goremongers | | | | |
+| Kit                                     | Unit(s)                            | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| --------------------------------------- | ---------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Angron – Daemon Primarch of Khorne      | Angron                             |        |                         |                                    |       |
+| Bloodthirster                           | Bloodthirster                      |        |                         |                                    |       |
+| Daemon Prince                           | Daemon Prince of Khorne            |        |                         |                                    |       |
+| Daemon Prince                           | Daemon Prince of Khorne with wings |        |                         |                                    |       |
+| Lord Invocatus                          | Lord Invocatus                     |        |                         |                                    |       |
+| Lord on Juggernaut                      | Lord on Juggernaut                 |        |                         |                                    |       |
+| Chaos Space Marine Master of Executions | Master of Executions               |        |                         |                                    |       |
+| Skarbrand                               | Skarbrand                          |        |                         |                                    |       |
+| Bloodcrushers                           | Bloodcrushers                      |        |                         |                                    |       |
+| Bloodletters                            | Bloodletters                       |        |                         |                                    |       |
+| Chaos Spawn                             | Chaos Spawn                        |        |                         |                                    |       |
+| Exalted Eightbound                      | Eightbound                         |        |                         |                                    |       |
+| Exalted Eightbound                      | Exalted Eightbound                 |        |                         |                                    |       |
+| Flesh Hounds                            | Flesh Hounds                       |        |                         |                                    |       |
+| Jakhals                                 | Jakhal                             |        |                         |                                    |       |
+| Khorne Berzerkers                       | Khorne Berzerkers                  |        |                         |                                    |       |
+| Slaughterbound                          | Slaughterbound                     |        |                         |                                    |       |
+| Chaos Predator                          | Chaos Predator Annihilator         |        |                         |                                    |       |
+| Chaos Predator                          | Chaos Predator Destructor          |        |                         |                                    |       |
+| Chaos Rhino                             | Chaos Rhino                        |        |                         |                                    |       |
+| Chaos Space Marine Forgefiend           | Forgefiend                         |        |                         |                                    |       |
+| Chaos Space Marine Helbrute             | Helbrute                           |        |                         |                                    |       |
+| Chaos Space Marine Heldrake             | Heldrake                           |        |                         |                                    |       |
+| Defiler                                 | Defiler                            |        |                         |                                    |       |
+| Khorne Lord of Skulls                   | Khorne Lord of Skulls              |        |                         |                                    |       |
+| Maulerfiend                             | Maulerfiend                        |        |                         |                                    |       |
+| Raider                                  | Chaos Land Raider                  |        |                         |                                    |       |
+| Kill Team: Goremongers                  | Goremongers                        |        |                         |                                    |       |
 
 ### World Eaters Units with no kit data
 
-| Unit | Notes |
-| ---- | ----- |
-| Bloodcult Champion [Crucible] | |
-| Butcherlord [Crucible] | |
-| Chaos Terminators | |
-| Eight-blessed Lord [Crucible] | |
-| Hell Talon (Legends) | |
-| Hellblade (Legends) | |
-| Kh\u00e2rn the Betrayer | |
+| Unit                          | Notes |
+| ----------------------------- | ----- |
+| Bloodcult Champion [Crucible] |       |
+| Butcherlord [Crucible]        |       |
+| Chaos Terminators             |       |
+| Eight-blessed Lord [Crucible] |       |
+| Hell Talon (Legends)          |       |
+| Hellblade (Legends)           |       |
+| Kh\u00e2rn the Betrayer       |       |
