@@ -806,7 +806,7 @@ None
 | Warpsmith                                         | Warpsmith                          | $43.50 | 1x Warpsmith                              | https://www.warhammer.com/en-US/shop/chaos-space-marines-warpsmith-2022                                |                                                                                                                               |
 | Accursed Cultists                                 | Accursed Cultists                  | $60    | 5x Mutants, 3x Torments                   | https://www.warhammer.com/en-US/shop/chaos-space-marines-accursed-cultists-2022                        |                                                                                                                               |
 | Chaos Bikers                                      | Chaos Bikers                       | $48.50 | 1x Biker Champion, 2x Bikers              | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Bikers-2019                                    | Alternate build: 3x bikers                                                                                                    |
-| Chaos Cultists                                    | Chaos Cultists                     | $53    | 1x Champion, 9x Cultists                  | https://www.warhammer.com/en-US/shop/chaos-space-marines-chaos-cultists-2022                           | Alternate build: 10x cultists; 8x cultists, 2x champions                                                                      |
+| Chaos Cultists                                    | Cultist Mob                        | $53    | 1x Champion, 9x Cultists                  | https://www.warhammer.com/en-US/shop/chaos-space-marines-chaos-cultists-2022                           | Alternate build: 10x cultists; 8x cultists, 2x champions                                                                      |
 | Possessed                                         | Possessed                          | $65    | 5x Possessed                              | https://www.warhammer.com/en-US/shop/chaos-space-marines-possessed-2022                                |                                                                                                                               |
 | Havocs                                            | Havocs                             | $65    | 1x Havoc Champion, 4x Havocs              | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Havocs-2019                                    |                                                                                                                               |
 | Noise Marines                                     | Noise Marines                      | $69    | 1x Disharmonist, 5x Noise Marines         | https://www.warhammer.com/en-US/shop/emperors-children-noise-marines-2025                              | Alternate build: 6x Noise Marines                                                                                             |
@@ -835,7 +835,7 @@ None
 | Venomcrawler                                      | Venomcrawler (multi-unit kit)      | $82    | 1x Venomcrawler (+2 Obliterators)         | https://www.warhammer.com/en-US/shop/chaos-space-marines-warpforged-venomcrawler-and-obliterators-2022 | Online only; Part of multi-unit kit: Venomcrawler and Obliterators                                                            |
 | Vindicator                                        | Chaos Vindicator                   | $80    | 1x Chaos Vindicator                       | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Vindicator                                    | Online only                                                                                                                   |
 | Kill Team: Nemesis Claw                           | Nemesis Claw                       | $77    | 1x Visionary, 9x Legionaries              | https://www.warhammer.com/en-US/shop/kill-team-nemesis-claw-2024                                       | Alternate build: 10x Legionaries; Legionaries can be built with various special weapons                                       |
-| Kill Team: Murderwing                             | Multi-Unit Kit                     | $82    | See notes                                 | https://www.warhammer.com/en-US/shop/kill-team-murderwing-2026                                         | See notes below this table                                                                                                    |
+| Kill Team: Murderwing                             | Multi-Unit Kit                     | $82    | See notes                                 | https://www.warhammer.com/en-US/shop/kill-team-murderwing-2026                                         | See notes below this table; includes Raptors or Warp Talons, and a Chaos Lord with Jump Pack                                  |
 | Combat Patrol: Chaos Space Marines                | Multi-Unit Kit                     | $170   | See notes                                 | https://www.warhammer.com/en-US/shop/combat-patrol-chaos-space-marines-2024                            | 1x Master of Possession, 1x Possessed Kit, 1x Legionaries Kit, 1x Chaos Cultists Kit                                          |
 
 #### Kill Team: Murderwing Contents
@@ -856,39 +856,64 @@ Note: The Champion, Depredator, Skysear, Shrieker, Curseclaw, and Huntmaster are
 
 ### Chaos Space Marines Units with no kit data
 
-| Unit                                        | Notes |
-| ------------------------------------------- | ----- |
-| Raptors                                     |       |
-| Chaos Deimos Predator (Legends)             |       |
-| Chaos Lord on Bike (Legends)                |       |
-| Chaos Lord on Disc of Tzeentch (Legends)    |       |
-| Chaos Lord on Juggernaut (Legends)          |       |
-| Chaos Lord on Palanquin of Nurgle (Legends) |       |
-| Chaos Lord on Steed of Slaanesh (Legends)   |       |
-| Cultist Mob                                 |       |
-| Cultist Mob with Firearms (Legends)         |       |
-| Exalted Champion (Legends)                  |       |
-| Exalted Champion [Crucible]                 |       |
-| Fellgor Beastmen                            |       |
-| Gellerpox Infected (Legends)                |       |
-| Hell Talon (Legends)                        |       |
-| Hellblade (Legends)                         |       |
-| Mutoid Vermin (Legends)                     |       |
-| Negavolt Cultists (Legends)                 |       |
-| Noctilith Crown (Fortification)             |       |
-| Renegade Enforcer (Legends)                 |       |
-| Renegade Heavy Weapons Squad (Legends)      |       |
-| Renegade Ogryn Beast Handler (Legends)      |       |
-| Renegade Ogryn Brutes (Legends)             |       |
-| Renegade Plague Ogryns (Legends)            |       |
-| Rogue Psyker (Legends)                      |       |
-| Sorcerer on Bike (Legends)                  |       |
-| Sorcerer on Disc of Tzeentch (Legends)      |       |
-| Sorcerer on Palanquin of Nurgle (Legends)   |       |
-| Sorcerer on Steed of Slaanesh (Legends)     |       |
-| Sorcerous Champion [Crucible]               |       |
-| Soul Forge Tyrant [Crucible]                |       |
-| Warp Talons                                 |       |
+| Unit                                        | Notes                                                                               |     |
+| ------------------------------------------- | ----------------------------------------------------------------------------------- | --- |
+| Blood Slaughterer (Legends)                 |                                                                                     | x   |
+| Cerberus (Legends)                          |                                                                                     | x   |
+| Chaos Deimos Predator (Legends)             |                                                                                     | x   |
+| Chaos Lord on Bike (Legends)                |                                                                                     | x   |
+| Chaos Lord on Disc of Tzeentch (Legends)    |                                                                                     | x   |
+| Chaos Lord on Juggernaut (Legends)          |                                                                                     | x   |
+| Chaos Lord on Palanquin of Nurgle (Legends) |                                                                                     | x   |
+| Chaos Lord on Steed of Slaanesh (Legends)   |                                                                                     | x   |
+| Chaos Thunderhawk (Legends)                 |                                                                                     | x   |
+| Cultist Mob with Firearms (Legends)         |                                                                                     | x   |
+| Decimator (Legends)                         |                                                                                     | x   |
+| Dreadclaw Drop Pod (Legends)                |                                                                                     | x   |
+| Exalted Champion (Legends)                  |                                                                                     | x   |
+| Exalted Champion [Crucible]                 |                                                                                     | x   |
+| Falchion (Legends)                          |                                                                                     | x   |
+| Fellblade (Legends)                         |                                                                                     | x   |
+| Fellgor Beastmen                            | They are currently not listed as legends in BSData but are not sold on GW's website | x   |
+| Fire Raptor Gunship (Legends)               |                                                                                     | x   |
+| Gellerpox Infected (Legends)                |                                                                                     | x   |
+| Greater Blight Drone (Legends)              |                                                                                     | x   |
+| Greater Brass Scorpion (Legends)            |                                                                                     | x   |
+| Hell Talon (Legends)                        |                                                                                     | x   |
+| Hellblade (Legends)                         |                                                                                     | x   |
+| Kharybdis Assault Claw (Legends)            |                                                                                     | x   |
+| Kratos (Legends)                            |                                                                                     | x   |
+| Kytan Ravager (Legends)                     |                                                                                     | x   |
+| Land Raider Achilles (Legends)              |                                                                                     | x   |
+| Land Raider Proteus (Legends)               |                                                                                     | x   |
+| Leviathan Dreadnought (Legends)             |                                                                                     | x   |
+| Mastodon (Legends)                          |                                                                                     | x   |
+| Mutoid Vermin (Legends)                     |                                                                                     | x   |
+| Negavolt Cultists (Legends)                 |                                                                                     | x   |
+| Noctilith Crown (Fortification)             | Sold on GW website, but it's a fortification, so...                                 | x   |
+| Rapier Carrier (Legends)                    |                                                                                     | x   |
+| Relic Contemptor Dreadnought (Legends)      |                                                                                     | x   |
+| Renegade Enforcer (Legends)                 |                                                                                     | x   |
+| Renegade Heavy Weapons Squad (Legends)      |                                                                                     | x   |
+| Renegade Ogryn Beast Handler (Legends)      |                                                                                     | x   |
+| Renegade Ogryn Brutes (Legends)             |                                                                                     | x   |
+| Renegade Plague Ogryns (Legends)            |                                                                                     | x   |
+| Rogue Psyker (Legends)                      |                                                                                     | x   |
+| Sicaran Battle Tank (Legends)               |                                                                                     | x   |
+| Sicaran Punisher (Legends)                  |                                                                                     | x   |
+| Sicaran Venator (Legends)                   |                                                                                     | x   |
+| Sokar-pattern Stormbird (Legends)           |                                                                                     | x   |
+| Sorcerer on Bike (Legends)                  |                                                                                     | x   |
+| Sorcerer on Disc of Tzeentch (Legends)      |                                                                                     | x   |
+| Sorcerer on Palanquin of Nurgle (Legends)   |                                                                                     | x   |
+| Sorcerer on Steed of Slaanesh (Legends)     |                                                                                     | x   |
+| Sorcerous Champion [Crucible]               |                                                                                     | x   |
+| Soul Forge Tyrant [Crucible]                |                                                                                     | x   |
+| Spartan (Legends)                           |                                                                                     | x   |
+| Typhon (Legends)                            |                                                                                     | x   |
+| Whirlwind Scorpius (Legends)                |                                                                                     | x   |
+| Xiphon Interceptor (Legends)                |                                                                                     | x   |
+| Terrax-pattern Termite (Legends)            |                                                                                     | x   |
 
 ---
 
