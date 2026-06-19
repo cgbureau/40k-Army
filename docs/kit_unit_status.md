@@ -650,53 +650,55 @@ Alternatively thought of as:
 
 ### Chaos Daemons Kits
 
-| Kit                                                | Unit(s)                           | Prices | Models (Manually Added)                 | Warhammer Kit URL (Manually Added)                                                          | Notes                                                                          |
-| -------------------------------------------------- | --------------------------------- | ------ | --------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --- |
-| Be'lakor, the Dark Master                          | Be'lakor                          | $170   | 1x Be'lakor                             | https://www.warhammer.com/en-US/shop/Chaos-Daemons-Belakor-The-Dark-Master-2021             |                                                                                |
-| Rendmaster, Herald of Khorne                       | Rendmaster                        | $48    | 1x Rendmaster                           | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodthrone                          | Online only                                                                    |
-| Bloodthirster                                      | Bloodthirster                     | $170   | 1x Bloodthirster                        | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodthirster                        | Alternate build kit: Skarbrand                                                 |
-| Changecaster                                       | Changecaster                      | $60    | 1x Changecaster                         | https://www.warhammer.com/en-US/shop/changecaster-2022                                      | Online only                                                                    |
-| Daemon Prince                                      | Daemon Prince of Chaos            | $89    | 1x Daemon Prince                        | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                  | Alternate build kit: Daemon Prince with Wings                                  |
-| Daemon Prince                                      | Daemon Prince of Chaos with wings | $89    | 1x Daemon Prince with Wings             | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                  | Alternate build kit: Daemon Prince                                             |
-| Exalted Flamer of Tzeentch                         | Exalted Flamer                    | $60    | 1x Exalted Flamer of Tzeentch           | https://www.warhammer.com/en-US/shop/Exalted-Flamer-of-Tzeentch                             | Online only                                                                    |
-| Fateskimmer, Herald of Tzeentch on Burning Chariot | Fateskimmer                       | $60    | 1x Fateskimmer                          | https://www.warhammer.com/en-US/shop/herald-of-tzeentch-on-burning-chariot-2016             | Online only                                                                    |
-| Great Unclean One                                  | Great Unclean One                 | $170   | 1x Great Unclean One                    | https://www.warhammer.com/en-US/shop/Great-Unclean-One-2018                                 | Alternate build kit: Rotigus                                                   |
-| Horticulous Slimux                                 | Horticulous Slimux                | $65    | 1x Horticulous Slimux                   | https://www.warhammer.com/en-US/shop/Horticulous-Slimux-2018                                | Online only                                                                    |
-| Infernal Enrapturess                               | Infernal Enrapturess              | $48    | 1x Infernal Enrapturess                 | https://www.warhammer.com/en-US/shop/Infernal-Enrapturess-2019                              | Online only                                                                    |
-| Kairos Fateweaver                                  | Kairos Fateweaver                 | $170   | 1x Kairos Fateweaver                    | https://www.warhammer.com/en-US/shop/Kairos-Fateweaver-2017                                 |                                                                                |
-| Karanak                                            | Karanak                           | $43.50 | 1x Karanak                              | https://www.warhammer.com/en-US/shop/Karanak-the-Hound-of-Vengeance-2019                    | Online only                                                                    |
-| Keeper of Secrets                                  | Keeper of Secrets                 | $170   | 1x Keeper of Secrets                    | https://www.warhammer.com/en-US/shop/Keeper-of-Secrets-2019                                 | Alternate build kit: Shalaxi Helbane                                           |
-| Lord of Change                                     | Lord of Change                    | $170   | 1x Lord of Change                       | https://www.warhammer.com/en-US/shop/lord-of-change-2016                                    |                                                                                |
-| Poxbringer                                         | Poxbringer                        | $35    | 1x Poxbringer                           | https://www.warhammer.com/en-US/shop/Poxbringer-Herald-Of-Nurgle-2018                       | Online only                                                                    |
-| Rotigus                                            | Rotigus                           | $170   | 1x Rotigus                              | https://www.warhammer.com/en-US/shop/Rotigus-Rainmaker                                      | Alternate build kit: Great Unclean One                                         |
-| Shalaxi Helbane                                    | Shalaxi Helbane                   | $170   | 1x Shalaxi Helbane                      | https://www.warhammer.com/en-US/shop/Shalaxi-Hellbane-2019                                  | Alternate build kit: Keeper of Secrets                                         |
-| Skarbrand                                          | Skarbrand                         | $170   | 1x Skarbrand                            | https://www.warhammer.com/en-US/shop/Skarbrand-Bloodthirster                                | Alternate build kit: Bloodthirster                                             |
-| Skulltaker                                         | Skulltaker                        | $43.50 | 1x Skulltaker                           | https://www.warhammer.com/en-US/shop/Skulltaker-2019                                        |                                                                                |
-| Sloppity Bilepiper                                 | Sloppity Bilepiper                | $39    | 1x Sloppity Bilepiper                   | https://www.warhammer.com/en-US/shop/Sloppity-Bilepiper-Herald-Of-Nurgle-2018               |                                                                                |
-| Syll'Esske: The Vengeful Allegiance                | Syll'esske                        | $60    | 1x Syll'esske                           | https://www.warhammer.com/en-US/shop/The-Vengeful-Allegiance-2019                           | Online only                                                                    |
-| The Changeling                                     | The Changeling                    | $39    | 1x The Changeling                       | https://www.warhammer.com/en-US/shop/the-changeling-2016                                    | Online only                                                                    |
-| The Contorted Epitome                              | Contorted Epitome                 | $60    | 1x The Contorted Epitome                | https://www.warhammer.com/en-US/shop/The-Contorted-Epitome-2019                             | Online only                                                                    |
-| The Masque                                         | The Masque of Slaanesh            | $39    | 1x The Masque of Slaanesh               | https://www.warhammer.com/en-US/shop/The-Masque-2019                                        |                                                                                |
-| Beast of Nurgle                                    | Beasts of Nurgle                  | $60    | 1x Beast of Nurgle                      | https://www.warhammer.com/en-US/shop/Beast-Of-Nurgle-2018                                   |                                                                                |
-| Bloodcrushers                                      | Bloodcrushers                     | $110   | 1x Bloodhunter, 2x Bloodcrushers        | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodcrushers                        | Online only; Alternate build: 3x bloodcrushers                                 |
-| Bloodletters                                       | Bloodletters                      | $43.50 | 1x Bloodreaper, 9x Bloodletters         | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodletters-40k-2017                | Alternate build: 10x bloodletters                                              |
-| Blue Horrors and Brimstone Horrors                 | Blue Horrors                      | $48    | 10x Blue Horrors, 10x Brimstone Horrors | https://www.warhammer.com/en-US/shop/blue-horrors-2016                                      |                                                                                |
-| Burning Chariot of Tzeentch                        | Burning Chariot                   | $60    | 1x Burning Chariot                      | https://www.warhammer.com/en-US/shop/Burning-Chariot-of-Tzeentch                            | Online only; Alternate build: see below this table.                            |
-| Daemonettes of Slaanesh                            | Daemonettes                       | $43.50 | 1x Alluress, 9x Daemonettes             | https://www.warhammer.com/en-US/shop/Nurglings-2017                                         | Alternate build: 10x daemonettes                                               |
-| Fiends                                             | Fiends                            | $60    | 3x Fiends of Slaanesh                   | https://www.warhammer.com/en-US/shop/Fiends-of-Slaanesh-2019                                | Online only                                                                    |
-| Flamers                                            | Flamers                           | $39    | 1x Pyrocaster, 2x Flamers               | https://www.warhammer.com/en-US/shop/flamers-of-tzeentch-2017                               | Alternate build: 3x flamers                                                    |     |
-| Flesh Hounds                                       | Flesh Hounds                      | $60    | 1x Gore Hound, 4x Flesh Hounds          | https://www.warhammer.com/en-US/shop/Flesh-Hounds-2019                                      | Alternate build: 5x Flesh Hounds                                               |
-| Nurglings                                          | Nurglings                         | $39    | 3x Swarms of Nurglings                  | https://www.warhammer.com/en-US/shop/Nurglings-2017                                         |                                                                                |
-| Pink Horrors                                       | Pink Horrors                      | $48    | 10x Pink Horrors                        | https://www.warhammer.com/en-US/shop/pink-horrors-2018                                      |                                                                                |
-| Plague Drones                                      | Plague Drones                     | $65    | 1x Plaguebringer, 2x Plague Drones      | https://www.warhammer.com/en-US/shop/plague-drones-of-nurgle-2017                           | Online only                                                                    |
-| Plaguebearers                                      | Plaguebearers                     | $43.50 | 1x Plagueridden, 9x Plaguebearers       | https://www.warhammer.com/en-US/shop/Chaos-Daemons-Plaguebearers-of-Nurgle-2018             | Alternate build: 10x plaguebearers                                             |
-| Screamers                                          | Screamers                         | $39    | 3x Screamers                            | https://www.warhammer.com/en-US/shop/screamers-2016                                         | Online only                                                                    |
-| Skull Cannon                                       | Skull Cannon                      | $48    | 1x Skull Cannon                         | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Skull-Cannon                         | Online only                                                                    |
-| Soul Grinder                                       | Khorne Soul Grinder               | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
-| Soul Grinder                                       | Nurgle Soul Grinder               | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
-| Soul Grinder                                       | Slaanesh Soul Grinder             | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
-| Soul Grinder                                       | Tzeentch Soul Grinder             | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders |
-| Spearhead: Blades of Khorne                        | Multi-Unit Kit                    | $150   | See notes                               | https://www.warhammer.com/en-US/shop/spearhead-blades-of-khorne-fangs-of-the-blood-god-2025 |                                                                                |
+| Kit                                                | Unit(s)                           | Prices | Models (Manually Added)                 | Warhammer Kit URL (Manually Added)                                                          | Notes                                                                             |
+| -------------------------------------------------- | --------------------------------- | ------ | --------------------------------------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | --- |
+| Be'lakor, the Dark Master                          | Be'lakor                          | $170   | 1x Be'lakor                             | https://www.warhammer.com/en-US/shop/Chaos-Daemons-Belakor-The-Dark-Master-2021             |                                                                                   |
+| Bloodmaster, Herald of Khorne                      | Bloodmaster                       | $35    | 1x Bloodmaster                          | https://www.warhammer.com/en-US/shop/Bloodmaster-Herald-of-Khorne-2019                      |                                                                                   |
+| Bloodthirster                                      | Bloodthirster                     | $170   | 1x Bloodthirster                        | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodthirster                        | Alternate build kit: Skarbrand                                                    |
+| Changecaster                                       | Changecaster                      | $60    | 1x Changecaster                         | https://www.warhammer.com/en-US/shop/changecaster-2022                                      | Online only                                                                       |
+| Daemon Prince                                      | Daemon Prince of Chaos            | $89    | 1x Daemon Prince                        | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                  | Alternate build kit: Daemon Prince with Wings                                     |
+| Daemon Prince                                      | Daemon Prince of Chaos with wings | $89    | 1x Daemon Prince with Wings             | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                  | Alternate build kit: Daemon Prince                                                |
+| Exalted Flamer of Tzeentch                         | Exalted Flamer                    | $60    | 1x Exalted Flamer of Tzeentch           | https://www.warhammer.com/en-US/shop/Exalted-Flamer-of-Tzeentch                             | Online only                                                                       |
+| Fateskimmer, Herald of Tzeentch on Burning Chariot | Fateskimmer                       | $60    | 1x Fateskimmer                          | https://www.warhammer.com/en-US/shop/herald-of-tzeentch-on-burning-chariot-2016             | Online only                                                                       |
+| Great Unclean One                                  | Great Unclean One                 | $170   | 1x Great Unclean One                    | https://www.warhammer.com/en-US/shop/Great-Unclean-One-2018                                 | Alternate build kit: Rotigus                                                      |
+| Horticulous Slimux                                 | Horticulous Slimux                | $65    | 1x Horticulous Slimux                   | https://www.warhammer.com/en-US/shop/Horticulous-Slimux-2018                                | Online only                                                                       |
+| Infernal Enrapturess                               | Infernal Enrapturess              | $48    | 1x Infernal Enrapturess                 | https://www.warhammer.com/en-US/shop/Infernal-Enrapturess-2019                              | Online only                                                                       |
+| Kairos Fateweaver                                  | Kairos Fateweaver                 | $170   | 1x Kairos Fateweaver                    | https://www.warhammer.com/en-US/shop/Kairos-Fateweaver-2017                                 |                                                                                   |
+| Karanak                                            | Karanak                           | $43.50 | 1x Karanak                              | https://www.warhammer.com/en-US/shop/Karanak-the-Hound-of-Vengeance-2019                    | Online only                                                                       |
+| Keeper of Secrets                                  | Keeper of Secrets                 | $170   | 1x Keeper of Secrets                    | https://www.warhammer.com/en-US/shop/Keeper-of-Secrets-2019                                 | Alternate build kit: Shalaxi Helbane                                              |
+| Lord of Change                                     | Lord of Change                    | $170   | 1x Lord of Change                       | https://www.warhammer.com/en-US/shop/lord-of-change-2016                                    |                                                                                   |
+| Poxbringer                                         | Poxbringer                        | $35    | 1x Poxbringer                           | https://www.warhammer.com/en-US/shop/Poxbringer-Herald-Of-Nurgle-2018                       | Online only                                                                       |
+| Rendmaster, Herald of Khorne                       | Rendmaster                        | $48    | 1x Rendmaster                           | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodthrone                          | Online only                                                                       |
+| Rotigus                                            | Rotigus                           | $170   | 1x Rotigus                              | https://www.warhammer.com/en-US/shop/Rotigus-Rainmaker                                      | Alternate build kit: Great Unclean One                                            |
+| Shalaxi Helbane                                    | Shalaxi Helbane                   | $170   | 1x Shalaxi Helbane                      | https://www.warhammer.com/en-US/shop/Shalaxi-Hellbane-2019                                  | Alternate build kit: Keeper of Secrets                                            |
+| Skarbrand                                          | Skarbrand                         | $170   | 1x Skarbrand                            | https://www.warhammer.com/en-US/shop/Skarbrand-Bloodthirster                                | Alternate build kit: Bloodthirster                                                |
+| Skulltaker                                         | Skulltaker                        | $43.50 | 1x Skulltaker                           | https://www.warhammer.com/en-US/shop/Skulltaker-2019                                        |                                                                                   |
+| Sloppity Bilepiper                                 | Sloppity Bilepiper                | $39    | 1x Sloppity Bilepiper                   | https://www.warhammer.com/en-US/shop/Sloppity-Bilepiper-Herald-Of-Nurgle-2018               |                                                                                   |
+| Syll'Esske: The Vengeful Allegiance                | Syll'esske                        | $60    | 1x Syll'esske                           | https://www.warhammer.com/en-US/shop/The-Vengeful-Allegiance-2019                           | Online only                                                                       |
+| The Changeling                                     | The Changeling                    | $39    | 1x The Changeling                       | https://www.warhammer.com/en-US/shop/the-changeling-2016                                    | Online only                                                                       |
+| The Contorted Epitome                              | Contorted Epitome                 | $60    | 1x The Contorted Epitome                | https://www.warhammer.com/en-US/shop/The-Contorted-Epitome-2019                             | Online only                                                                       |
+| The Masque                                         | The Masque of Slaanesh            | $39    | 1x The Masque of Slaanesh               | https://www.warhammer.com/en-US/shop/The-Masque-2019                                        |                                                                                   |
+| Beast of Nurgle                                    | Beasts of Nurgle                  | $60    | 1x Beast of Nurgle                      | https://www.warhammer.com/en-US/shop/Beast-Of-Nurgle-2018                                   |                                                                                   |
+| Bloodcrushers                                      | Bloodcrushers                     | $110   | 1x Bloodhunter, 2x Bloodcrushers        | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodcrushers                        | Online only; Alternate build: 3x bloodcrushers                                    |
+| Bloodletters                                       | Bloodletters                      | $43.50 | 1x Bloodreaper, 9x Bloodletters         | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Bloodletters-40k-2017                | Alternate build: 10x bloodletters                                                 |
+| Blue Horrors and Brimstone Horrors                 | Blue Horrors                      | $48    | 10x Blue Horrors, 10x Brimstone Horrors | https://www.warhammer.com/en-US/shop/blue-horrors-2016                                      |                                                                                   |
+| Burning Chariot of Tzeentch                        | Burning Chariot                   | $60    | 1x Burning Chariot                      | https://www.warhammer.com/en-US/shop/Burning-Chariot-of-Tzeentch                            | Online only; Alternate build: see below this table.                               |
+| Daemonettes of Slaanesh                            | Daemonettes                       | $43.50 | 1x Alluress, 9x Daemonettes             | https://www.warhammer.com/en-US/shop/Nurglings-2017                                         | Alternate build: 10x daemonettes                                                  |
+| Fiends                                             | Fiends                            | $60    | 3x Fiends of Slaanesh                   | https://www.warhammer.com/en-US/shop/Fiends-of-Slaanesh-2019                                | Online only                                                                       |
+| Flamers                                            | Flamers                           | $39    | 1x Pyrocaster, 2x Flamers               | https://www.warhammer.com/en-US/shop/flamers-of-tzeentch-2017                               | Alternate build: 3x flamers                                                       |     |
+| Flesh Hounds                                       | Flesh Hounds                      | $60    | 1x Gore Hound, 4x Flesh Hounds          | https://www.warhammer.com/en-US/shop/Flesh-Hounds-2019                                      | Alternate build: 5x Flesh Hounds                                                  |
+| Nurglings                                          | Nurglings                         | $39    | 3x Swarms of Nurglings                  | https://www.warhammer.com/en-US/shop/Nurglings-2017                                         |                                                                                   |
+| Pink Horrors                                       | Pink Horrors                      | $48    | 10x Pink Horrors                        | https://www.warhammer.com/en-US/shop/pink-horrors-2018                                      |                                                                                   |
+| Plague Drones                                      | Plague Drones                     | $65    | 1x Plaguebringer, 2x Plague Drones      | https://www.warhammer.com/en-US/shop/plague-drones-of-nurgle-2017                           | Online only                                                                       |
+| Plaguebearers                                      | Plaguebearers                     | $43.50 | 1x Plagueridden, 9x Plaguebearers       | https://www.warhammer.com/en-US/shop/Chaos-Daemons-Plaguebearers-of-Nurgle-2018             | Alternate build: 10x plaguebearers                                                |
+| Screamers                                          | Screamers                         | $39    | 3x Screamers                            | https://www.warhammer.com/en-US/shop/screamers-2016                                         | Online only                                                                       |
+| Seekers of Slaanesh                                | Seekers                           | #35    | 1x Heartseeker, 4x Seekers              | https://www.warhammer.com/en-US/shop/Seekers-of-Slaanesh                                    | Online only; Alternate build: 5x seekers                                          |     |
+| Skull Cannon                                       | Skull Cannon                      | $48    | 1x Skull Cannon                         | https://www.warhammer.com/en-US/shop/Daemons-Of-Khorne-Skull-Cannon                         | Online only                                                                       |
+| Soul Grinder                                       | Khorne Soul Grinder               | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders    |
+| Soul Grinder                                       | Nurgle Soul Grinder               | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders    |
+| Soul Grinder                                       | Slaanesh Soul Grinder             | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders    |
+| Soul Grinder                                       | Tzeentch Soul Grinder             | $82    | 1x Soul Grinder                         | https://www.warhammer.com/en-US/shop/Soul-Grinder                                           | Online only; Alternate build: Nurgle, Slaanesh, Tzeentch, Khorne Soul Grinders    |
+| Spearhead: Blades of Khorne                        | Multi-Unit Kit                    | $150   | See notes                               | https://www.warhammer.com/en-US/shop/spearhead-blades-of-khorne-fangs-of-the-blood-god-2025 | 1x Karanak, 2x Flesh Hounds kits, 8x Claws of Karanak (Age of Sigmar models only) |
 
 #### Burning Chariot of Tzeentch & Fateskimmer
 
@@ -708,35 +710,32 @@ Fateskimmer:
 
 ### Chaos Daemons Units with no kit data
 
-| Unit                                              | Notes |
-| ------------------------------------------------- | ----- |
-| Aetaos'rau'keres (Legends)                        |       |
-| An'ggrath the Unbound (Legends)                   |       |
-| Beasts of Nurgle                                  |       |
-| Daemonic Charioteer [Crucible]                    |       |
-| Daemonic Herald [Crucible]                        |       |
-| Epidemius                                         |       |
-| Exalted Seeker Chariot (Legends)                  |       |
-| Feculent Gnarlmaw                                 |       |
-| Fluxmaster                                        |       |
-| Furies (Legends)                                  |       |
-| Giant Chaos Spawn (Legends)                       |       |
-| Hellflayers                                       |       |
-| Herald of Slaanesh on Steed of Slaanesh (Legends) |       |
-| Immortal Champion [Crucible]                      |       |
-| Plague Toads (Legends)                            |       |
-| Pox Riders (Legends)                              |       |
-| Rendmaster on Blood Throne                        |       |
-| Scabeiathrax the Bloated (Legends)                |       |
-| Seeker Chariot (Legends)                          |       |
-| Skull Altar                                       |       |
-| Skullmaster                                       |       |
-| Spined Chaos Beast (Legends)                      |       |
-| Spoilpox Scrivener                                |       |
-| The Blue Scribes                                  |       |
-| Tormentbringer                                    |       |
-| Tranceweaver                                      |       |
-| Zarakynel (Legends)                               |       |
+| Unit                                              | Notes                                                           |
+| ------------------------------------------------- | --------------------------------------------------------------- | --- |
+| Aetaos'rau'keres (Legends)                        |                                                                 | x   |
+| An'ggrath the Unbound (Legends)                   |                                                                 | x   |
+| Daemonic Charioteer [Crucible]                    |                                                                 | x   |
+| Daemonic Herald [Crucible]                        |                                                                 | x   |
+| Epidemius                                         | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| The Blue Scribes                                  | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| Exalted Seeker Chariot (Legends)                  |                                                                 | x   |
+| Feculent Gnarlmaw (Fortification)                 |                                                                 | x   |
+| Fluxmaster                                        | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| Furies (Legends)                                  |                                                                 | x   |
+| Giant Chaos Spawn (Legends)                       |                                                                 | x   |
+| Hellflayers                                       | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| Herald of Slaanesh on Steed of Slaanesh (Legends) |                                                                 | x   |
+| Immortal Champion [Crucible]                      |                                                                 | x   |
+| Plague Toads (Legends)                            |                                                                 | x   |
+| Pox Riders (Legends)                              |                                                                 | x   |
+| Scabeiathrax the Bloated (Legends)                |                                                                 | x   |
+| Seeker Chariot (Legends)                          |                                                                 | x   |
+| Skull Altar (Fortification)                       |                                                                 | x   |
+| Spined Chaos Beast (Legends)                      |                                                                 | x   |
+| Spoilpox Scrivener                                | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| Tormentbringer                                    | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| Tranceweaver                                      | Listed in New Recruit as valid unit; not for sale on GW website | x   |
+| Zarakynel (Legends)                               |                                                                 | x   |
 
 ---
 
@@ -744,33 +743,36 @@ Fateskimmer:
 
 ### Chaos Knights Kits
 
-| Kit                            | Unit(s)                          | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------ | -------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Acastus Knight Asterius        | Chaos Acastus Knight Asterius    |        |                         |                                    |       |
-| Acastus Knight Porphyrion      | Chaos Acastus Knight Porphyrion  |        |                         |                                    |       |
-| Castigator                     | Chaos Cerastus Knight Castigator |        |                         |                                    |       |
-| Cerastus Knight Acheron        | Chaos Cerastus Knight Acheron    |        |                         |                                    |       |
-| Cerastus Knight Atrapos        | Chaos Cerastus Knight Atrapos    |        |                         |                                    |       |
-| Cerastus Knight Lancer         | Chaos Cerastus Knight Lancer     |        |                         |                                    |       |
-| Chaos Knights Knight Abominant | Knight Abominant                 |        |                         |                                    |       |
-| Chaos Knights Knight Abominant | Knight Desecrator                |        |                         |                                    |       |
-| Chaos Knights Knight Abominant | Knight Rampager                  |        |                         |                                    |       |
-| Knight Despoiler               | Knight Despoiler                 |        |                         |                                    |       |
-| Knight Ruinator                | Knight Ruinator                  |        |                         |                                    |       |
-| Knight Tyrant                  | Knight Tyrant                    |        |                         |                                    |       |
-| Questoris Knight Magaera       | Chaos Questoris Knight Magaera   |        |                         |                                    |       |
-| Questoris Knight Styrix        | Chaos Questoris Knight Styrix    |        |                         |                                    |       |
-| War Dog Stalkers               | War Dog Executioner              |        |                         |                                    |       |
-| War Dog Stalkers               | War Dog Stalker                  |        |                         |                                    |       |
-| War Dogs                       | War Dog Brigand                  |        |                         |                                    |       |
-| War Dogs                       | War Dog Huntsman                 |        |                         |                                    |       |
-| War Dogs                       | War Dog Karnivore                |        |                         |                                    |       |
+| Kit                                | Unit(s)                          | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added)                                                            | Notes                                                               |
+| ---------------------------------- | -------------------------------- | ------ | ----------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Acastus Knight Asterius            | Chaos Acastus Knight Asterius    | $660   | 1x Knight Asterius      | https://www.warhammer.com/en-US/shop/Mechanicum-Acastus-Knight-Asterius-2019                  | online only                                                         |
+| Acastus Knight Porphyrion          | Chaos Acastus Knight Porphyrion  | $710   | 1x Knight Porphyrion    | https://www.warhammer.com/en-US/shop/Acastus-Knight-Porphyrion                                | online only                                                         |
+| Castigator                         | Chaos Cerastus Knight Castigator | $215   | 1x Knight Castigator    | https://www.warhammer.com/en-US/shop/horus-heresy-cerastus-knight-castigator-2023             |                                                                     |
+| Cerastus Knight Acheron            | Chaos Cerastus Knight Acheron    | $215   | 1x Knight Acheron       | https://www.warhammer.com/en-US/shop/horus-heresy-cerastus-knight-acheron-2023                |                                                                     |
+| Cerastus Knight Atrapos            | Chaos Cerastus Knight Atrapos    | $370   | 1x Knight Atrapos       | https://www.warhammer.com/en-US/shop/Mechanicum-Cerastus-Knight-Atrapos                       | online only                                                         |
+| Cerastus Knight Lancer             | Chaos Cerastus Knight Lancer     | $215   | 1x Knight Lancer        | https://www.warhammer.com/en-US/shop/horus-heresy-cerastus-knight-lancer-2023                 |                                                                     |
+| Knight Abominant                   | Knight Abominant                 | $200   | 1x Knight Abominant     | https://www.warhammer.com/en-US/shop/chaos-knights-chaos-knight-ruinator-2025                 |                                                                     |
+| Knight Abominant                   | Knight Desecrator                | $200   | 1x Knight Desecrator    | https://www.warhammer.com/en-US/shop/chaos-knights-chaos-knight-ruinator-2025                 |                                                                     |
+| Knight Abominant                   | Knight Rampager                  | $200   | 1x Knight Rampager      | https://www.warhammer.com/en-US/shop/chaos-knights-chaos-knight-ruinator-2025                 |                                                                     |
+| Knight Despoiler                   | Knight Despoiler                 | $255   | 1x Knight Despoiler     | https://www.warhammer.com/en-US/shop/Chaos-Knight                                             | Chaos-only version with resin and plastic parts                     |
+| Knight Despoiler                   | Knight Despoiler                 | $195   | 1x Knight Despoiler     | https://www.warhammer.com/en-US/shop/knight-questoris-despoiler-2025                          | The full plastic Chaos Knight / Imperial Knight alternate build kit |
+| Knight Ruinator                    | Knight Ruinator                  | $200   | 1x Knight Ruinator      | https://www.warhammer.com/en-US/shop/chaos-knights-chaos-knight-ruinator-2025                 |                                                                     |
+| Knight Tyrant                      | Knight Tyrant                    | $195   | 1x Knight Tyrant        | https://www.warhammer.com/en-US/shop/imperial-knights-knight-dominus-knight-tyrant-2022       |                                                                     |
+| Questoris Knight Magaera           | Chaos Questoris Knight Magaera   | $250   | 1x Knight Magaera       | https://www.warhammer.com/en-US/shop/Questoris-Knight-Magaera                                 | online only                                                         |
+| Questoris Knight Styrix            | Chaos Questoris Knight Styrix    | $250   | 1x Knight Styrix        | https://www.warhammer.com/en-US/shop/Questoris-Knight-Styrix                                  | online only                                                         |
+| War Dog Stalkers                   | War Dog Executioners             | $100   | 2x Executioners         | https://www.warhammer.com/en-US/shop/war-dog-executioner-2022                                 | Alternate build kit: Huntsmen or Executioner                        |
+| War Dog Stalkers                   | War Dog Stalkers                 | $100   | 2x Stalkers             | https://www.warhammer.com/en-US/shop/chaos-knights-war-dog-stalker-2022                       | Alternate build kit: Stalker, Brigand, Stalker                      |
+| War Dogs                           | War Dog Brigands                 | $100   | 2x Brigands             | https://www.warhammer.com/en-US/shop/chaos-knights-war-dog-brigand-2022                       | Alternate build kit: Stalker, Brigand, Stalker                      |
+| War Dogs                           | War Dog Huntsmen                 | $100   | 2x Huntsmen             | https://www.warhammer.com/en-US/shop/war-dog-huntsman-2022                                    | Alternate build kit: Huntsmen or Executioner                        |
+| War Dogs                           | War Dog Karnivores               | $100   | 2x Karnivores           | https://www.warhammer.com/en-US/shop/chaos-knights-war-dog-karnivore-2022                     | Alternate build kit: Stalker, Brigand, Stalker                      |
+| Knight Moirax with Volkite etc.    | Knight Moirax                    | $75    | 1x Knight Moirax        | https://www.warhammer.com/en-US/shop/MECHANICUM-KNIGHT-MOIRAX-WITH-VOLKITE-VEULGLAIRE-FW-2020 | online only                                                         |
+| Knight Moirax with Lightning Locks | Knight Moirax                    | $75    | 1x Knight Moirax        | https://www.warhammer.com/en-US/shop/Knight-Moirax-with-Lightning-Locks-2019                  | online only                                                         |
+| Knight Moirax Conversion Beamer    | Knight Moirax partial kit        | $28    | 1x Weapon arm           | https://www.warhammer.com/en-US/shop/Mechanicum-Knight-Conversion-Beam-Cannon-2019            | online only; alternate weapon arm for knight moirax                 |
+| Knight Moirax Graviton             | Knight Moirax partial kit        | $28    | 1x Weapon arm           | https://www.warhammer.com/en-US/shop/Mechanicum-Knight-Moirax-Graviton-Pulsar-2019            | online only; alternate weapon arm for knight moirax                 |
 
 ### Chaos Knights Units with no kit data
 
-| Unit           | Notes |
-| -------------- | ----- |
-| War Dog Moirax |       |
+None
 
 ---
 
@@ -778,79 +780,85 @@ Fateskimmer:
 
 ### Chaos Space Marines Kits
 
-| Kit                                                                | Unit(s)                                   | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| ------------------------------------------------------------------ | ----------------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Ancient in Terminator Armour                                       | Sorcerer in Terminator Armour             |        |                         |                                    |       |
-| Chaos Lord in Terminator Armour                                    | Chaos Lord in Terminator Armour           |        |                         |                                    |       |
-| Chaos Lord with Jump Pack                                          | Chaos Lord with Jump Pack                 |        |                         |                                    |       |
-| Chaos Space Marine Aspiring Champion                               |                                           |        |                         |                                    |       |
-| Chaos Space Marine Chaos Lord                                      | Chaos Lord                                |        |                         |                                    |       |
-| Chaos Space Marine Kharn The Betrayer                              |                                           |        |                         |                                    |       |
-| Chaos Space Marine Master of Executions                            | Master of Executions                      |        |                         |                                    |       |
-| Chaos Space Marine Terminator Lord                                 |                                           |        |                         |                                    |       |
-| Chaos Space Marines Abaddon the Despoiler                          | Abaddon the Despoiler                     |        |                         |                                    |       |
-| Chaos Space Marines Dark Apostle                                   | Dark Apostle                              |        |                         |                                    |       |
-| Chaos Space Marines Sorcerer                                       |                                           |        |                         |                                    |       |
-| Chaos Space Marines Vex Machinator, Arch-Lord Discordant           | Lord Discordant on Helstalker             |        |                         |                                    |       |
-| Chaos Space Marines: Fabius Bile                                   | Fabius Bile                               |        |                         |                                    |       |
-| Chaos Space Marines: Haarken Worldclaimer Herald of the Apocalypse | Haarken Worldclaimer                      |        |                         |                                    |       |
-| Cultist Firebrand                                                  | Cultist Firebrand                         |        |                         |                                    |       |
-| Daemon Prince                                                      | Heretic Astartes Daemon Prince            |        |                         |                                    |       |
-| Daemon Prince                                                      | Heretic Astartes Daemon Prince with wings |        |                         |                                    |       |
-| Dark Commune                                                       | Dark Commune                              |        |                         |                                    |       |
-| Huron Blackheart and the Masters of the Maelstrom                  | Huron Blackheart                          |        |                         |                                    |       |
-| Kravek Morne                                                       | Kravek Morne                              |        |                         |                                    |       |
-| Master of Possession                                               | Master of Possession                      |        |                         |                                    |       |
-| Red Corsairs Reave-Captain                                         | Red Corsairs Reave-captain                |        |                         |                                    |       |
-| Thousand Sons Exalted Sorcerers                                    | Sorcerer                                  |        |                         |                                    |       |
-| Traitor Enforcer                                                   | Traitor Enforcer                          |        |                         |                                    |       |
-| Vashtorr the Arkifane                                              | Vashtorr the Arkifane                     |        |                         |                                    |       |
-| Warpsmith                                                          | Warpsmith                                 |        |                         |                                    |       |
-| Accursed Cultists                                                  | Accursed Cultists                         |        |                         |                                    |       |
-| Chaos Bikers                                                       | Chaos Bikers                              |        |                         |                                    |       |
-| Chaos Cultists                                                     |                                           |        |                         |                                    |       |
-| Chaos Space Marine                                                 |                                           |        |                         |                                    |       |
-| Chaos Space Marine Cultist Assault                                 |                                           |        |                         |                                    |       |
-| Chaos Space Marine Possessed                                       | Possessed                                 |        |                         |                                    |       |
-| Chaos Space Marine Raptors                                         | Raptors                                   |        |                         |                                    |       |
-| Chaos Space Marine Squad                                           |                                           |        |                         |                                    |       |
-| Chaos Space Marines                                                |                                           |        |                         |                                    |       |
-| Chaos Space Marines Havocs                                         | Havocs                                    |        |                         |                                    |       |
-| Chaos Space Marines Noise Marine                                   | Noise Marines                             |        |                         |                                    |       |
-| Chaos Space Marines Terminators                                    | Chaos Terminator Squad                    |        |                         |                                    |       |
-| Chaos Spawn                                                        | Chaos Spawn                               |        |                         |                                    |       |
-| Chosen                                                             | Chosen                                    |        |                         |                                    |       |
-| Easy To Build Death Guard Plague Marines                           | Plague Marines                            |        |                         |                                    |       |
-| Huron Blackheart and the Masters of the Maelstrom                  | Masters of the Maelstrom                  |        |                         |                                    |       |
-| Khorne Berzerkers                                                  | Khorne Berzerkers                         |        |                         |                                    |       |
-| Legionaries                                                        | Legionaries                               |        |                         |                                    |       |
-| Mutilators                                                         | Mutilators                                |        |                         |                                    |       |
-| Red Corsairs Raiders                                               | Red Corsairs Raiders                      |        |                         |                                    |       |
-| Rubric Marines                                                     | Rubric Marines                            |        |                         |                                    |       |
-| Seraptek Heavy Construct with Synaptic Obliterators                | Obliterators                              |        |                         |                                    |       |
-| Traitor Guardsmen Squad                                            | Traitor Guardsmen Squad                   |        |                         |                                    |       |
-| Chaos Predator                                                     | Chaos Predator Annihilator                |        |                         |                                    |       |
-| Chaos Predator                                                     | Chaos Predator Destructor                 |        |                         |                                    |       |
-| Chaos Rhino                                                        | Chaos Rhino                               |        |                         |                                    |       |
-| Chaos Space Marine Forgefiend                                      | Forgefiend                                |        |                         |                                    |       |
-| Chaos Space Marine Helbrute                                        | Helbrute                                  |        |                         |                                    |       |
-| Chaos Space Marine Heldrake                                        | Heldrake                                  |        |                         |                                    |       |
-| Defiler                                                            | Defiler                                   |        |                         |                                    |       |
-| Khorne Lord of Skulls                                              | Khorne Lord of Skulls                     |        |                         |                                    |       |
-| Maulerfiend                                                        | Maulerfiend                               |        |                         |                                    |       |
-| Raider                                                             | Chaos Land Raider                         |        |                         |                                    |       |
-| Venom                                                              | Venomcrawler                              |        |                         |                                    |       |
-| Vindicator                                                         | Chaos Vindicator                          |        |                         |                                    |       |
-| Apocalypse: Chaos Space Marines Battalion Detachment               |                                           |        |                         |                                    |       |
-| Battleforce: Chaos Space Marines Vengeance Warband                 |                                           |        |                         |                                    |       |
-| Chaos Space Marines: Battleforce - Decimation Warband              |                                           |        |                         |                                    |       |
-| Kill Team: Nemesis Claw                                            | Nemesis Claw                              |        |                         |                                    |       |
-| Start Collecting! Chaos Space Marines                              |                                           |        |                         |                                    |       |
+| Kit                                               | Unit(s)                            | Prices | Models (Manually Added)                   | Warhammer Kit URL (Manually Added)                                                                     | Notes                                                                                                                         |
+| ------------------------------------------------- | ---------------------------------- | ------ | ----------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Sorceror Lord in Terminator Armour                | Sorcerer Lord in Terminator Armour | $35    | 1x Sorceror Lord in Terminator Armour     | https://www.warhammer.com/en-US/shop/Chaos-Terminator-Sorcerer-2019                                    |                                                                                                                               |
+| Chaos Lord in Terminator Armour                   | Chaos Lord in Terminator Armour    | $35    | 1x Chaos Lord in Terminator Armour        | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Chaos-Lord-2019                                |                                                                                                                               |
+| Chaos Lord with Jump Pack                         | Chaos Lord with Jump Pack          | $43.50 | 1x Chaos Lord with Jump Pack              | https://www.warhammer.com/en-US/shop/chaos-space-marines-lord-with-jump-pack-2024                      |                                                                                                                               |
+| Cypher                                            | Cypher                             | $39    | 1x Cypher                                 | https://www.warhammer.com/en-US/shop/Cypher-2018                                                       | Online only                                                                                                                   |
+| Chaos Lord                                        | Chaos Lord                         | $43.50 | 1x Chaos Lord                             | https://www.warhammer.com/en-US/shop/chaos-space-marines-chaos-lord-2024                               |                                                                                                                               |
+| Master of Executions                              | Master of Executions               | $35    | 1x Master of Executions                   | https://www.warhammer.com/en-US/shop/Master-Of-Executions-2019                                         |                                                                                                                               |
+| Abaddon the Despoiler                             | Abaddon the Despoiler              | $73.50 | 1x Abaddon the Despoiler                  | https://www.warhammer.com/en-US/shop/Abaddon-the-Despoiler-2019                                        |                                                                                                                               |
+| Dark Apostle                                      | Dark Apostle                       | $43.50 | 1x Dark Apostle, 2x Dark Disciples        | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Dark-Apostle-2019                             |                                                                                                                               |
+| Sorcerer                                          | Sorceror                           | $35    | 1x Sorceror                               | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Sorcerer-2019                                 |                                                                                                                               |
+| Vex Machinator, Arch-Lord Discordant              | Lord Discordant on Helstalker      | $82    | 1x Lord Discordant on Helstalker          | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Vex-Machinator-2019                           |                                                                                                                               |
+| Fabius Bile                                       | Fabius Bile                        | $48    | 1x Fabius Bile                            | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Fabius-Bile-2020                              |                                                                                                                               |
+| Haarken Worldclaimer                              | Haarken Worldclaimer               | $43.50 | 1x Haarken Worldclaimer                   | https://www.warhammer.com/en-US/shop/Haarken-Worldclaimer-2018                                         | Online only                                                                                                                   |
+| Cultist Firebrand                                 | Cultist Firebrand                  | $35    | 1x Cultist Firebrand                      | https://www.warhammer.com/en-US/shop/chaos-space-marines-cultist-firebrand-2024                        | Online only                                                                                                                   |
+| Daemon Prince                                     | Daemon Prince                      | $89    | 1x Daemon Prince                          | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                             |                                                                                                                               |
+| Daemon Prince with Wings                          | Daemon Prince with wings           | $89    | 1x Daemon Prince with Wings               | https://www.warhammer.com/en-US/shop/slaves-to-darkness-daemon-prince-2023                             |                                                                                                                               |
+| Dark Commune                                      | Dark Commune                       | $60    | 1x Cult Demagogue,                        | https://www.warhammer.com/en-US/shop/chaos-space-marines-dark-commune-2022                             |                                                                                                                               |
+| Kravek Morne                                      | Kravek Morne                       | $47    | 1x Kravek Morne                           | https://www.warhammer.com/en-US/shop/chaos-space-marines-kravek-morne-2026                             |                                                                                                                               |
+| Master of Possession                              | Master of Possession               | $39    | 1x Master of Possession                   | https://www.warhammer.com/en-US/shop/chaos-space-marines-master-of-possession-2023                     | Online only                                                                                                                   |
+| Red Corsairs Reave-Captain                        | Red Corsairs Reave-captain         | $43.50 | 1x Red Corsairs Reave-Captain             | https://www.warhammer.com/en-US/shop/chaos-space-marines-red-corsairs-reave-captain-2026               |                                                                                                                               |
+| Traitor Enforcer                                  | Traitor Enforcer                   | $55.50 | 1x Traitor Enforcer, 1x Traitor Ogryn     | https://www.warhammer.com/en-US/shop/chaos-space-marines-traitor-enforcer-2025                         |                                                                                                                               |
+| Vashtorr the Arkifane                             | Vashtorr the Arkifane              | $106   | 1x Vashtorr the Arkifane                  | https://www.warhammer.com/en-US/shop/chaos-space-marines-vashtorr-the-arkifane-2023                    |                                                                                                                               |
+| Warpsmith                                         | Warpsmith                          | $43.50 | 1x Warpsmith                              | https://www.warhammer.com/en-US/shop/chaos-space-marines-warpsmith-2022                                |                                                                                                                               |
+| Accursed Cultists                                 | Accursed Cultists                  | $60    | 5x Mutants, 3x Torments                   | https://www.warhammer.com/en-US/shop/chaos-space-marines-accursed-cultists-2022                        |                                                                                                                               |
+| Chaos Bikers                                      | Chaos Bikers                       | $48.50 | 1x Biker Champion, 2x Bikers              | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Bikers-2019                                    | Alternate build: 3x bikers                                                                                                    |
+| Chaos Cultists                                    | Chaos Cultists                     | $53    | 1x Champion, 9x Cultists                  | https://www.warhammer.com/en-US/shop/chaos-space-marines-chaos-cultists-2022                           | Alternate build: 10x cultists; 8x cultists, 2x champions                                                                      |
+| Possessed                                         | Possessed                          | $65    | 5x Possessed                              | https://www.warhammer.com/en-US/shop/chaos-space-marines-possessed-2022                                |                                                                                                                               |
+| Havocs                                            | Havocs                             | $65    | 1x Havoc Champion, 4x Havocs              | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Havocs-2019                                    |                                                                                                                               |
+| Noise Marines                                     | Noise Marines                      | $69    | 1x Disharmonist, 5x Noise Marines         | https://www.warhammer.com/en-US/shop/emperors-children-noise-marines-2025                              | Alternate build: 6x Noise Marines                                                                                             |
+| Terminators                                       | Chaos Terminator Squad             | $65    | 1x Champion, 4x Terminators               | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Terminators-2019                               | Alternate build: 5x Terminators; models can be built with various special weapons                                             |
+| Chaos Spawn                                       | Chaos Spawn                        | $60    | 2x Chaos Spawn                            | https://www.warhammer.com/en-US/shop/Chaos-Spawn-2016                                                  |                                                                                                                               |
+| Chosen                                            | Chosen                             | $65    | 1x Champion, 4x Chosen                    | https://www.warhammer.com/en-US/shop/chaos-space-marines-chosen-2022                                   | Alternate build: 5x Chosen; models can be built with various special weapons                                                  |
+| Huron Blackheart and the Masters of the Maelstrom | Multi-Unit Kit                     | $94    | See notes                                 | https://www.warhammer.com/en-US/shop/chaos-space-marines-huron-blackheart-2026                         | 1x Huron, 1x Captain Sargotta, 1x Garlon Souleater, 1x Garreon the Corpsemaster, 1x Katar Garrix, 1x The Enforcer, 1x Plunder |
+| Khorne Berzerkers                                 | Khorne Berzerkers                  | $69    | 1x Champion, 9x Berzerkers                | https://www.warhammer.com/en-US/shop/world-eaters-khorne-berserkers-2023                               | Alternate build: 10x Berzerkers; models can be built with various special weapons                                             |
+| Legionaries                                       | Legionaries                        | $69    | 1x Champion, 9x Legionaries               | https://www.warhammer.com/en-US/shop/chaos-space-marines-legionaries-2025                              | Alternate build: 10x Legionaries; models can be built with various special weapons                                            |
+| Mutilators                                        | Mutilators                         | $69    | 3x Mutilators                             | https://www.warhammer.com/en-US/shop/chaos-space-marines-mutilators-2026                               |                                                                                                                               |
+| Plague Marines                                    | Plague Marines                     | $60    | 1x Champion, 6x Plague Marines            | https://www.warhammer.com/en-US/shop/Death-Guard-Plague-Marines-2020                                   | Alternate build: 7x Plague Marines; models can be built with various special weapons                                          |
+| Red Corsairs Raiders                              | Red Corsairs Raiders               | $65    | 1x Champion, 4x Raiders                   | https://www.warhammer.com/en-US/shop/chaos-space-marines-red-corsairs-raiders-2026                     | Alternate build: 5x Raiders; models can be built with various special weapons                                                 |
+| Rubric Marines                                    | Rubric Marines                     | $65    | 1x Aspiring Sorceror, 9x Rubric Marines   | https://www.warhammer.com/en-US/shop/rubric-marines                                                    |                                                                                                                               |
+| Obliterators                                      | Obliterators (multi-unit kit)      | $82    | 2x Obliterators (+1x Venomcrawler)        | https://www.warhammer.com/en-US/shop/chaos-space-marines-warpforged-venomcrawler-and-obliterators-2022 | Online only; Part of multi-unit kit: Venomcrawler and Obliterators                                                            |
+| Traitor Guardsmen Squad                           | Traitor Guardsmen Squad            | $53    | 1x Traitor Sergeant, 9x Traitor Guardsmen | https://www.warhammer.com/en-US/shop/chaos-space-marines-traitor-guardsmen-squad-2025                  | Alternate build: 10x traitor guardsmen                                                                                        |
+| Chaos Predator                                    | Chaos Predator Annihilator         | $80    | 1x Chaos Predator (either unit)           | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Predator                                      | Online only                                                                                                                   |
+| Chaos Predator                                    | Chaos Predator Destructor          | $80    | 1x Chaos Predator (either unit)           | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Predator                                      | Online only                                                                                                                   |
+| Chaos Rhino                                       | Chaos Rhino                        | $60    | 1x Chaos Rhino                            | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Rhino-2019                                     |                                                                                                                               |
+| Forgefiend                                        | Forgefiend                         | $89    | 1x Forgefiend                             | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Forgefiend-2019                               |                                                                                                                               |
+| Helbrute                                          | Helbrute                           | $65    | 1x Helbrute                               | https://www.warhammer.com/en-US/shop/Helbrute                                                          | Online only                                                                                                                   |
+| Heldrake                                          | Heldrake                           | $89    | 1x Heldrake                               | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Heldrake-2019                                 |                                                                                                                               |
+| Defiler                                           | Defiler                            | $145   | 1x Defiler                                | https://www.warhammer.com/en-US/shop/chaos-space-marines-defiler-2026                                  |                                                                                                                               |
+| Khorne Lord of Skulls                             | Khorne Lord of Skulls              | $197   | 1x Khorne Lord of Skulls                  | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Khorne-Lord-of-Skulls                         | Online only                                                                                                                   |
+| Maulerfiend                                       | Maulerfiend                        | $85    | 1x Maulerfiend                            | https://www.warhammer.com/en-US/shop/Chaos-Space-Marine-Maulerfiend-2019                               |                                                                                                                               |
+| Raider                                            | Chaos Land Raider                  | $96    | 1x Chaos Land Raider                      | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Land-Raider                                   | Online only                                                                                                                   |
+| Venomcrawler                                      | Venomcrawler (multi-unit kit)      | $82    | 1x Venomcrawler (+2 Obliterators)         | https://www.warhammer.com/en-US/shop/chaos-space-marines-warpforged-venomcrawler-and-obliterators-2022 | Online only; Part of multi-unit kit: Venomcrawler and Obliterators                                                            |
+| Vindicator                                        | Chaos Vindicator                   | $80    | 1x Chaos Vindicator                       | https://www.warhammer.com/en-US/shop/Chaos-Space-Marines-Vindicator                                    | Online only                                                                                                                   |
+| Kill Team: Nemesis Claw                           | Nemesis Claw                       | $77    | 1x Visionary, 9x Legionaries              | https://www.warhammer.com/en-US/shop/kill-team-nemesis-claw-2024                                       | Alternate build: 10x Legionaries; Legionaries can be built with various special weapons                                       |
+| Kill Team: Murderwing                             | Multi-Unit Kit                     | $82    | See notes                                 | https://www.warhammer.com/en-US/shop/kill-team-murderwing-2026                                         | See notes below this table                                                                                                    |
+| Combat Patrol: Chaos Space Marines                | Multi-Unit Kit                     | $170   | See notes                                 | https://www.warhammer.com/en-US/shop/combat-patrol-chaos-space-marines-2024                            | 1x Master of Possession, 1x Possessed Kit, 1x Legionaries Kit, 1x Chaos Cultists Kit                                          |
+
+#### Kill Team: Murderwing Contents
+
+The Kill Team: Murderwing includes the following:
+
+– 1 Chaos Lord with Jump Pack
+– 1 Champion (can alternatively be built as a Depredator, Raptor, or Warp Talon)
+– 1 Shrieker (can alternatively be built as a Skysear, Raptor, or Warp Talon)
+– 1 Curseclaw (can alternatively be built as a Skysear, Raptor, or Warp Talon)
+– 1 Skysear (can alternatively be built as a Raptor or Warp Talon)
+– 1 Huntmaster (can alternatively be built as a Raptor or Warp Talon)
+
+Note: The Champion, Depredator, Skysear, Shrieker, Curseclaw, and Huntmaster are Kill Team Operative game terms and do not apply to Warhammer 40,000. For the purposes of 40k, the kit includes:
+
+- 1x Chaos Lord with Jump Pack
+- 5x Raptors or 5x Warp Talons
 
 ### Chaos Space Marines Units with no kit data
 
 | Unit                                        | Notes |
 | ------------------------------------------- | ----- |
+| Raptors                                     |       |
 | Chaos Deimos Predator (Legends)             |       |
 | Chaos Lord on Bike (Legends)                |       |
 | Chaos Lord on Disc of Tzeentch (Legends)    |       |
@@ -867,7 +875,7 @@ Fateskimmer:
 | Hellblade (Legends)                         |       |
 | Mutoid Vermin (Legends)                     |       |
 | Negavolt Cultists (Legends)                 |       |
-| Noctilith Crown                             |       |
+| Noctilith Crown (Fortification)             |       |
 | Renegade Enforcer (Legends)                 |       |
 | Renegade Heavy Weapons Squad (Legends)      |       |
 | Renegade Ogryn Beast Handler (Legends)      |       |
@@ -957,7 +965,7 @@ Fateskimmer:
 | Chaos Predator                                                            | Chaos Predator Annihilator                    |        |                         |                                    |       |
 | Chaos Predator                                                            | Chaos Predator Destructor                     |        |                         |                                    |       |
 | Chaos Rhino                                                               | Chaos Rhino                                   |        |                         |                                    |       |
-| Chaos Space Marine Helbrute                                               | Helbrute                                      |        |                         |                                    |       |
+| Helbrute                                                                  | Helbrute                                      |        |                         |                                    |       |
 | Defiler                                                                   | Defiler                                       |        |                         |                                    |       |
 | Foetid Bloat-drone                                                        | Foetid Bloat-drone                            |        |                         |                                    |       |
 | Foetid Bloat-drone                                                        | Foetid Bloat-drone with heavy blight launcher |        |                         |                                    |       |
@@ -1115,7 +1123,7 @@ Fateskimmer:
 | Raider                                | Chaos Land Raider                    |        |                         |                                    |       |
 | Chaos Rhino                           | Chaos Rhino                          |        |                         |                                    |       |
 | Defiler                               | Defiler                              |        |                         |                                    |       |
-| Chaos Space Marine Heldrake           | Heldrake                             |        |                         |                                    |       |
+| Heldrake                              | Heldrake                             |        |                         |                                    |       |
 | Maulerfiend                           | Maulerfiend                          |        |                         |                                    |       |
 
 ### Emperor's Children Units with no kit data
@@ -2011,9 +2019,9 @@ Fateskimmer:
 | Chaos Predator                          | Chaos Predator Annihilator                     |        |                         |                                    |       |
 | Chaos Predator                          | Chaos Predator Destructor                      |        |                         |                                    |       |
 | Chaos Rhino                             | Chaos Rhino                                    |        |                         |                                    |       |
-| Chaos Space Marine Forgefiend           | Forgefiend                                     |        |                         |                                    |       |
-| Chaos Space Marine Helbrute             | Helbrute                                       |        |                         |                                    |       |
-| Chaos Space Marine Heldrake             | Heldrake                                       |        |                         |                                    |       |
+| Forgefiend                              | Forgefiend                                     |        |                         |                                    |       |
+| Helbrute                                | Helbrute                                       |        |                         |                                    |       |
+| Heldrake                                | Heldrake                                       |        |                         |                                    |       |
 | Defiler                                 | Defiler                                        |        |                         |                                    |       |
 | Maulerfiend                             | Maulerfiend                                    |        |                         |                                    |       |
 | Raider                                  | Chaos Land Raider                              |        |                         |                                    |       |
@@ -2150,7 +2158,6 @@ Fateskimmer:
 
 | Kit                                                      | Unit(s)                 | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
 | -------------------------------------------------------- | ----------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Cypher                                                   | Cypher                  |        | 1                       |                                    |       |
 | Da Red Gobbo                                             |                         |        |                         |                                    |       |
 | Inquisitor Greyfax                                       |                         |        |                         |                                    |       |
 | Logan Grimnar On Stormrider                              |                         |        |                         |                                    |       |
@@ -2246,36 +2253,36 @@ Fateskimmer:
 
 ### World Eaters Kits
 
-| Kit                                     | Unit(s)                            | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
-| --------------------------------------- | ---------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
-| Angron – Daemon Primarch of Khorne      | Angron                             |        |                         |                                    |       |
-| Bloodthirster                           | Bloodthirster                      |        |                         |                                    |       |
-| Daemon Prince                           | Daemon Prince of Khorne            |        |                         |                                    |       |
-| Daemon Prince                           | Daemon Prince of Khorne with wings |        |                         |                                    |       |
-| Lord Invocatus                          | Lord Invocatus                     |        |                         |                                    |       |
-| Lord on Juggernaut                      | Lord on Juggernaut                 |        |                         |                                    |       |
-| Chaos Space Marine Master of Executions | Master of Executions               |        |                         |                                    |       |
-| Skarbrand                               | Skarbrand                          |        |                         |                                    |       |
-| Bloodcrushers                           | Bloodcrushers                      |        |                         |                                    |       |
-| Bloodletters                            | Bloodletters                       |        |                         |                                    |       |
-| Chaos Spawn                             | Chaos Spawn                        |        |                         |                                    |       |
-| Exalted Eightbound                      | Eightbound                         |        |                         |                                    |       |
-| Exalted Eightbound                      | Exalted Eightbound                 |        |                         |                                    |       |
-| Flesh Hounds                            | Flesh Hounds                       |        |                         |                                    |       |
-| Jakhals                                 | Jakhal                             |        |                         |                                    |       |
-| Khorne Berzerkers                       | Khorne Berzerkers                  |        |                         |                                    |       |
-| Slaughterbound                          | Slaughterbound                     |        |                         |                                    |       |
-| Chaos Predator                          | Chaos Predator Annihilator         |        |                         |                                    |       |
-| Chaos Predator                          | Chaos Predator Destructor          |        |                         |                                    |       |
-| Chaos Rhino                             | Chaos Rhino                        |        |                         |                                    |       |
-| Chaos Space Marine Forgefiend           | Forgefiend                         |        |                         |                                    |       |
-| Chaos Space Marine Helbrute             | Helbrute                           |        |                         |                                    |       |
-| Chaos Space Marine Heldrake             | Heldrake                           |        |                         |                                    |       |
-| Defiler                                 | Defiler                            |        |                         |                                    |       |
-| Khorne Lord of Skulls                   | Khorne Lord of Skulls              |        |                         |                                    |       |
-| Maulerfiend                             | Maulerfiend                        |        |                         |                                    |       |
-| Raider                                  | Chaos Land Raider                  |        |                         |                                    |       |
-| Kill Team: Goremongers                  | Goremongers                        |        |                         |                                    |       |
+| Kit                                | Unit(s)                            | Prices | Models (Manually Added) | Warhammer Kit URL (Manually Added) | Notes |
+| ---------------------------------- | ---------------------------------- | ------ | ----------------------- | ---------------------------------- | ----- |
+| Angron – Daemon Primarch of Khorne | Angron                             |        |                         |                                    |       |
+| Bloodthirster                      | Bloodthirster                      |        |                         |                                    |       |
+| Daemon Prince                      | Daemon Prince of Khorne            |        |                         |                                    |       |
+| Daemon Prince                      | Daemon Prince of Khorne with wings |        |                         |                                    |       |
+| Lord Invocatus                     | Lord Invocatus                     |        |                         |                                    |       |
+| Lord on Juggernaut                 | Lord on Juggernaut                 |        |                         |                                    |       |
+| Master of Executions               | Master of Executions               |        |                         |                                    |       |
+| Skarbrand                          | Skarbrand                          |        |                         |                                    |       |
+| Bloodcrushers                      | Bloodcrushers                      |        |                         |                                    |       |
+| Bloodletters                       | Bloodletters                       |        |                         |                                    |       |
+| Chaos Spawn                        | Chaos Spawn                        |        |                         |                                    |       |
+| Exalted Eightbound                 | Eightbound                         |        |                         |                                    |       |
+| Exalted Eightbound                 | Exalted Eightbound                 |        |                         |                                    |       |
+| Flesh Hounds                       | Flesh Hounds                       |        |                         |                                    |       |
+| Jakhals                            | Jakhal                             |        |                         |                                    |       |
+| Khorne Berzerkers                  | Khorne Berzerkers                  |        |                         |                                    |       |
+| Slaughterbound                     | Slaughterbound                     |        |                         |                                    |       |
+| Chaos Predator                     | Chaos Predator Annihilator         |        |                         |                                    |       |
+| Chaos Predator                     | Chaos Predator Destructor          |        |                         |                                    |       |
+| Chaos Rhino                        | Chaos Rhino                        |        |                         |                                    |       |
+| Forgefiend                         | Forgefiend                         |        |                         |                                    |       |
+| Helbrute                           | Helbrute                           |        |                         |                                    |       |
+| Heldrake                           | Heldrake                           |        |                         |                                    |       |
+| Defiler                            | Defiler                            |        |                         |                                    |       |
+| Khorne Lord of Skulls              | Khorne Lord of Skulls              |        |                         |                                    |       |
+| Maulerfiend                        | Maulerfiend                        |        |                         |                                    |       |
+| Raider                             | Chaos Land Raider                  |        |                         |                                    |       |
+| Kill Team: Goremongers             | Goremongers                        |        |                         |                                    |       |
 
 ### World Eaters Units with no kit data
 
