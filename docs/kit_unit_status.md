@@ -51,7 +51,8 @@ Unit column key:
 | 32    | Ultramarines        | 0/7            | 0/6                    |       |
 | 33    | White Scars         | 0/2            | 0/0                    |       |
 | 34    | World Eaters        | 0/10           | 0/4                    |       |
-| 00    | Unassigned Kits     |                |                        |       |
+| 00    | Unassigned Kits     | 0/72           | 0/0                    |       |
+|       | Totals              | 423/1041       | 215/520                |       |
 
 ---
 
